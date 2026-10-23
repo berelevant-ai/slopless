@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "29aa224b06b262644efa23592c6053e955b51e7ebd7e1fe6f02f1dee7e8540a4",
+  "textSha256": "e96b40f83a25562e7fc36b6cd43d419ce36911df48f66abffdb6b876c98f840d",
   "source": {
     "name": "Codex-authored mixed-narrative-craft-e-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -20,77 +20,1197 @@
     {
       "id": "000124-392187a550b7",
       "start": 523,
-      "end": 1018
+      "end": 929
     },
     {
       "id": "000124-cf8c74bd46d2",
-      "start": 1044,
-      "end": 1440
+      "start": 955,
+      "end": 1351
     },
     {
       "id": "000124-c5e4a93cbe81",
-      "start": 1466,
-      "end": 1865
+      "start": 1377,
+      "end": 1776
     },
     {
       "id": "000124-c3c1d66b642b",
-      "start": 1891,
-      "end": 2275
+      "start": 1802,
+      "end": 2186
     },
     {
       "id": "000124-60cc012dd27c",
-      "start": 2301,
-      "end": 2727
+      "start": 2212,
+      "end": 2618
     },
     {
       "id": "000124-485edda72522",
-      "start": 2753,
-      "end": 3168
+      "start": 2644,
+      "end": 3059
     },
     {
       "id": "000124-2082cd0dada9",
-      "start": 3194,
-      "end": 3624
+      "start": 3085,
+      "end": 3515
     },
     {
       "id": "000124-888465fe005d",
-      "start": 3650,
-      "end": 4053
+      "start": 3541,
+      "end": 3944
     },
     {
       "id": "000124-2e137c658a34",
-      "start": 4079,
-      "end": 4501
+      "start": 3970,
+      "end": 4401
     },
     {
       "id": "000124-e51d90e06a5d",
-      "start": 4527,
-      "end": 4936
+      "start": 4427,
+      "end": 4836
     },
     {
       "id": "000124-5ad9bcb6977c",
-      "start": 4962,
-      "end": 5382
+      "start": 4862,
+      "end": 5282
     },
     {
       "id": "000124-cadc7095f801",
-      "start": 5408,
-      "end": 5792
+      "start": 5308,
+      "end": 5692
     },
     {
       "id": "000124-7ab7864b1a59",
-      "start": 5818,
-      "end": 6274
+      "start": 5718,
+      "end": 6185
     },
     {
       "id": "000124-e62bc3bf29d2",
-      "start": 6300,
-      "end": 6719
+      "start": 6211,
+      "end": 6630
     },
     {
       "id": "000124-f3e442cdde15",
-      "start": 6745,
-      "end": 7210
+      "start": 6656,
+      "end": 7121
+    },
+    {
+      "id": "000124-5f53f91f088c",
+      "start": 7147,
+      "end": 7684
+    },
+    {
+      "id": "000124-e9b6b57e8402",
+      "start": 7710,
+      "end": 8001
+    },
+    {
+      "id": "000124-30bc680a89ba",
+      "start": 8027,
+      "end": 8311
+    },
+    {
+      "id": "000124-0f165294f0c5",
+      "start": 8337,
+      "end": 8632
+    },
+    {
+      "id": "000124-eb4e4d6789a0",
+      "start": 8658,
+      "end": 8945
+    },
+    {
+      "id": "000124-116c6438dc9d",
+      "start": 8971,
+      "end": 9262
+    },
+    {
+      "id": "000124-6628ae6e450b",
+      "start": 9288,
+      "end": 9569
+    },
+    {
+      "id": "000124-64fedee9618a",
+      "start": 9595,
+      "end": 9890
+    },
+    {
+      "id": "000124-a834fdfef1d2",
+      "start": 9916,
+      "end": 10215
+    },
+    {
+      "id": "000124-ac84cc8d74d7",
+      "start": 10241,
+      "end": 10532
+    },
+    {
+      "id": "000124-039efb39d431",
+      "start": 10558,
+      "end": 10833
+    },
+    {
+      "id": "000124-a6088245fb3b",
+      "start": 10859,
+      "end": 11133
+    },
+    {
+      "id": "000124-e397b7a13825",
+      "start": 11159,
+      "end": 11456
+    },
+    {
+      "id": "000124-e354df372601",
+      "start": 11482,
+      "end": 11767
+    },
+    {
+      "id": "000124-fae3a8b1a4fe",
+      "start": 11793,
+      "end": 12072
+    },
+    {
+      "id": "000124-ed90c0c19874",
+      "start": 12098,
+      "end": 12387
+    },
+    {
+      "id": "000124-80635f2f001d",
+      "start": 12413,
+      "end": 12691
+    },
+    {
+      "id": "000124-6e8cd1ef6090",
+      "start": 12717,
+      "end": 13002
+    },
+    {
+      "id": "000124-848ecf77ad0c",
+      "start": 13028,
+      "end": 13297
+    },
+    {
+      "id": "000124-6d302d2dbdb4",
+      "start": 13323,
+      "end": 13632
+    },
+    {
+      "id": "000124-66a0bd720fe3",
+      "start": 13658,
+      "end": 13944
+    },
+    {
+      "id": "000124-0b6f185005a1",
+      "start": 13970,
+      "end": 14260
+    },
+    {
+      "id": "000124-0fb34b9f1424",
+      "start": 14286,
+      "end": 14566
+    },
+    {
+      "id": "000124-7ea98994ff89",
+      "start": 14592,
+      "end": 14873
+    },
+    {
+      "id": "000124-abed90b3616d",
+      "start": 14899,
+      "end": 15185
+    },
+    {
+      "id": "000124-fa54313956be",
+      "start": 15211,
+      "end": 15500
+    },
+    {
+      "id": "000124-e7ed94e621ed",
+      "start": 15526,
+      "end": 15830
+    },
+    {
+      "id": "000124-d95b3a22014f",
+      "start": 15856,
+      "end": 16137
+    },
+    {
+      "id": "000124-5ae8e8852a4c",
+      "start": 16163,
+      "end": 16456
+    },
+    {
+      "id": "000124-4d9041aae63f",
+      "start": 16482,
+      "end": 16759
+    },
+    {
+      "id": "000124-a4ed23e90b3d",
+      "start": 16785,
+      "end": 17088
+    },
+    {
+      "id": "000124-2a18a5586aeb",
+      "start": 17114,
+      "end": 17393
+    },
+    {
+      "id": "000124-28d3a5cc54e8",
+      "start": 17419,
+      "end": 17965
+    },
+    {
+      "id": "000124-4c0529dd6dac",
+      "start": 17991,
+      "end": 18280
+    },
+    {
+      "id": "000124-74db6983f05f",
+      "start": 18306,
+      "end": 18563
+    },
+    {
+      "id": "000124-b7c90357e437",
+      "start": 18589,
+      "end": 18874
+    },
+    {
+      "id": "000124-c54872d3baaf",
+      "start": 18900,
+      "end": 19181
+    },
+    {
+      "id": "000124-fdd6f53117a0",
+      "start": 19207,
+      "end": 19468
+    },
+    {
+      "id": "000124-8c5df415c04d",
+      "start": 19494,
+      "end": 19777
+    },
+    {
+      "id": "000124-5ae8d0133d47",
+      "start": 19803,
+      "end": 20103
+    },
+    {
+      "id": "000124-dd962bccab29",
+      "start": 20129,
+      "end": 20421
+    },
+    {
+      "id": "000124-b204fbf098df",
+      "start": 20447,
+      "end": 20727
+    },
+    {
+      "id": "000124-5beda9bbfcfc",
+      "start": 20753,
+      "end": 21031
+    },
+    {
+      "id": "000124-2ef20c066392",
+      "start": 21057,
+      "end": 21349
+    },
+    {
+      "id": "000124-b0d99b25e47e",
+      "start": 21375,
+      "end": 21646
+    },
+    {
+      "id": "000124-a6ec694cc2ba",
+      "start": 21672,
+      "end": 21946
+    },
+    {
+      "id": "000124-80595b6fa302",
+      "start": 21972,
+      "end": 22258
+    },
+    {
+      "id": "000124-7ef2f81a9212",
+      "start": 22284,
+      "end": 22572
+    },
+    {
+      "id": "000124-5c38db6f643d",
+      "start": 22598,
+      "end": 22879
+    },
+    {
+      "id": "000124-908cdb25f5d0",
+      "start": 22905,
+      "end": 23172
+    },
+    {
+      "id": "000124-af6e8550f18c",
+      "start": 23198,
+      "end": 23468
+    },
+    {
+      "id": "000124-16d530d362ce",
+      "start": 23494,
+      "end": 23765
+    },
+    {
+      "id": "000124-c3b35d95adf2",
+      "start": 23791,
+      "end": 24058
+    },
+    {
+      "id": "000124-3a89bfe77fd0",
+      "start": 24084,
+      "end": 24335
+    },
+    {
+      "id": "000124-fbab08659113",
+      "start": 24361,
+      "end": 24651
+    },
+    {
+      "id": "000124-d13c53103bf5",
+      "start": 24677,
+      "end": 24958
+    },
+    {
+      "id": "000124-b32f837338a3",
+      "start": 24984,
+      "end": 25284
+    },
+    {
+      "id": "000124-0204dd989fc0",
+      "start": 25310,
+      "end": 25598
+    },
+    {
+      "id": "000124-93953fe0bc59",
+      "start": 25624,
+      "end": 25897
+    },
+    {
+      "id": "000124-6df41f96de5f",
+      "start": 25923,
+      "end": 26231
+    },
+    {
+      "id": "000124-f7d59bc12bdc",
+      "start": 26257,
+      "end": 26540
+    },
+    {
+      "id": "000124-7cb6e9641c0e",
+      "start": 26566,
+      "end": 26872
+    },
+    {
+      "id": "000124-226fd4a8cdcb",
+      "start": 26898,
+      "end": 27189
+    },
+    {
+      "id": "000124-e213cdf20623",
+      "start": 27215,
+      "end": 27482
+    },
+    {
+      "id": "000124-112c1d044f24",
+      "start": 27508,
+      "end": 27808
+    },
+    {
+      "id": "000124-bb30dec3f1ec",
+      "start": 27834,
+      "end": 28385
+    },
+    {
+      "id": "000124-17c4786bbea5",
+      "start": 28411,
+      "end": 28719
+    },
+    {
+      "id": "000124-dbe7126b4818",
+      "start": 28745,
+      "end": 29010
+    },
+    {
+      "id": "000124-0c853cf5d139",
+      "start": 29036,
+      "end": 29312
+    },
+    {
+      "id": "000124-eabdc701d119",
+      "start": 29338,
+      "end": 29628
+    },
+    {
+      "id": "000124-42a73ab07731",
+      "start": 29654,
+      "end": 29959
+    },
+    {
+      "id": "000124-f0aafa791285",
+      "start": 29985,
+      "end": 30251
+    },
+    {
+      "id": "000124-68e7fc20255a",
+      "start": 30277,
+      "end": 30557
+    },
+    {
+      "id": "000124-612fa55ef5c9",
+      "start": 30583,
+      "end": 30859
+    },
+    {
+      "id": "000124-45fcea004f9a",
+      "start": 30885,
+      "end": 31198
+    },
+    {
+      "id": "000124-92ac6fd520a3",
+      "start": 31224,
+      "end": 31514
+    },
+    {
+      "id": "000124-e5ca52158198",
+      "start": 31540,
+      "end": 31829
+    },
+    {
+      "id": "000124-4a77ee736474",
+      "start": 31855,
+      "end": 32157
+    },
+    {
+      "id": "000124-7aa4353bf40a",
+      "start": 32183,
+      "end": 32493
+    },
+    {
+      "id": "000124-2454044e0fbc",
+      "start": 32519,
+      "end": 32812
+    },
+    {
+      "id": "000124-8029f116c0a9",
+      "start": 32838,
+      "end": 33135
+    },
+    {
+      "id": "000124-5f5d9d5cd904",
+      "start": 33161,
+      "end": 33429
+    },
+    {
+      "id": "000124-f89549709af8",
+      "start": 33455,
+      "end": 33764
+    },
+    {
+      "id": "000124-b2100c28d6e7",
+      "start": 33790,
+      "end": 34093
+    },
+    {
+      "id": "000124-55240418856f",
+      "start": 34119,
+      "end": 34391
+    },
+    {
+      "id": "000124-dcbe457ecdee",
+      "start": 34417,
+      "end": 34708
+    },
+    {
+      "id": "000124-6b09af09ad15",
+      "start": 34734,
+      "end": 35013
+    },
+    {
+      "id": "000124-8c6bbbb4ef3d",
+      "start": 35039,
+      "end": 35312
+    },
+    {
+      "id": "000124-80d1ff7fa170",
+      "start": 35338,
+      "end": 35626
+    },
+    {
+      "id": "000124-ec1a92261875",
+      "start": 35652,
+      "end": 35925
+    },
+    {
+      "id": "000124-554a6476087c",
+      "start": 35951,
+      "end": 36257
+    },
+    {
+      "id": "000124-bcbeb68fb9e9",
+      "start": 36283,
+      "end": 36571
+    },
+    {
+      "id": "000124-f1e7b469afd6",
+      "start": 36597,
+      "end": 36879
+    },
+    {
+      "id": "000124-30c7207febb5",
+      "start": 36905,
+      "end": 37184
+    },
+    {
+      "id": "000124-6ec03faa03da",
+      "start": 37210,
+      "end": 37495
+    },
+    {
+      "id": "000124-0e30e8ece57a",
+      "start": 37521,
+      "end": 37803
+    },
+    {
+      "id": "000124-d06caef6496c",
+      "start": 37829,
+      "end": 38108
+    },
+    {
+      "id": "000124-5f394dbc3c09",
+      "start": 38134,
+      "end": 38657
+    },
+    {
+      "id": "000124-b6a3a1ac144a",
+      "start": 38683,
+      "end": 38971
+    },
+    {
+      "id": "000124-ddbfe6c5b54a",
+      "start": 38997,
+      "end": 39283
+    },
+    {
+      "id": "000124-565df20509e8",
+      "start": 39309,
+      "end": 39571
+    },
+    {
+      "id": "000124-6a19d197d2d1",
+      "start": 39597,
+      "end": 39884
+    },
+    {
+      "id": "000124-65aec9a36c2c",
+      "start": 39910,
+      "end": 40179
+    },
+    {
+      "id": "000124-b8722b16c7e6",
+      "start": 40205,
+      "end": 40512
+    },
+    {
+      "id": "000124-2a34ec7b485a",
+      "start": 40538,
+      "end": 40823
+    },
+    {
+      "id": "000124-8430f21ac860",
+      "start": 40849,
+      "end": 41130
+    },
+    {
+      "id": "000124-ec0be7ed124a",
+      "start": 41156,
+      "end": 41450
+    },
+    {
+      "id": "000124-b92b8299635b",
+      "start": 41476,
+      "end": 41759
+    },
+    {
+      "id": "000124-422c0dfeec81",
+      "start": 41785,
+      "end": 42061
+    },
+    {
+      "id": "000124-cbdd2d65f406",
+      "start": 42087,
+      "end": 42349
+    },
+    {
+      "id": "000124-a648417cf84f",
+      "start": 42375,
+      "end": 42637
+    },
+    {
+      "id": "000124-0c50f679286b",
+      "start": 42663,
+      "end": 42943
+    },
+    {
+      "id": "000124-ae59250cfe78",
+      "start": 42969,
+      "end": 43244
+    },
+    {
+      "id": "000124-2f10d5ed5fcd",
+      "start": 43270,
+      "end": 43586
+    },
+    {
+      "id": "000124-1e5c1ca82149",
+      "start": 43612,
+      "end": 43903
+    },
+    {
+      "id": "000124-8ac9ddd7b91b",
+      "start": 43929,
+      "end": 44499
+    },
+    {
+      "id": "000124-5f8cc7e1af8d",
+      "start": 44525,
+      "end": 44835
+    },
+    {
+      "id": "000124-0c81cb5d0b20",
+      "start": 44861,
+      "end": 45143
+    },
+    {
+      "id": "000124-2a955898c7a4",
+      "start": 45169,
+      "end": 45441
+    },
+    {
+      "id": "000124-592d5ede9093",
+      "start": 45467,
+      "end": 45750
+    },
+    {
+      "id": "000124-c877be8dcff9",
+      "start": 45776,
+      "end": 46077
+    },
+    {
+      "id": "000124-794e283bd888",
+      "start": 46103,
+      "end": 46391
+    },
+    {
+      "id": "000124-5753f7d425c8",
+      "start": 46417,
+      "end": 46689
+    },
+    {
+      "id": "000124-768dcb8f58fa",
+      "start": 46715,
+      "end": 47010
+    },
+    {
+      "id": "000124-3a2c367168f1",
+      "start": 47036,
+      "end": 47327
+    },
+    {
+      "id": "000124-08d4165aad32",
+      "start": 47353,
+      "end": 47649
+    },
+    {
+      "id": "000124-c4b0363dd0d6",
+      "start": 47675,
+      "end": 47966
+    },
+    {
+      "id": "000124-8c863c146e59",
+      "start": 47992,
+      "end": 48297
+    },
+    {
+      "id": "000124-4e147d9a671a",
+      "start": 48323,
+      "end": 48617
+    },
+    {
+      "id": "000124-172f3387fc46",
+      "start": 48643,
+      "end": 48953
+    },
+    {
+      "id": "000124-2306fce076ec",
+      "start": 48979,
+      "end": 49251
+    },
+    {
+      "id": "000124-61c30719c608",
+      "start": 49277,
+      "end": 49546
+    },
+    {
+      "id": "000124-b8e11f707c02",
+      "start": 49572,
+      "end": 49874
+    },
+    {
+      "id": "000124-2b6229f96619",
+      "start": 49900,
+      "end": 50190
+    },
+    {
+      "id": "000124-9afad24de1f8",
+      "start": 50216,
+      "end": 50510
+    },
+    {
+      "id": "000124-e8e9c95a9831",
+      "start": 50536,
+      "end": 50830
+    },
+    {
+      "id": "000124-9baca589150c",
+      "start": 50856,
+      "end": 51410
+    },
+    {
+      "id": "000124-eb5162024ecd",
+      "start": 51436,
+      "end": 51728
+    },
+    {
+      "id": "000124-9a7360c632c3",
+      "start": 51754,
+      "end": 52050
+    },
+    {
+      "id": "000124-27134dee2daf",
+      "start": 52076,
+      "end": 52391
+    },
+    {
+      "id": "000124-8d5c6528c0ec",
+      "start": 52417,
+      "end": 52716
+    },
+    {
+      "id": "000124-c7539fe0b10f",
+      "start": 52742,
+      "end": 53045
+    },
+    {
+      "id": "000124-3a2195d04569",
+      "start": 53071,
+      "end": 53351
+    },
+    {
+      "id": "000124-38e698291a5b",
+      "start": 53377,
+      "end": 53642
+    },
+    {
+      "id": "000124-586c3cb22c40",
+      "start": 53668,
+      "end": 53954
+    },
+    {
+      "id": "000124-b1a554645bd8",
+      "start": 53980,
+      "end": 54261
+    },
+    {
+      "id": "000124-b8cfa8275bc5",
+      "start": 54287,
+      "end": 54546
+    },
+    {
+      "id": "000124-e45ea8908e60",
+      "start": 54572,
+      "end": 54846
+    },
+    {
+      "id": "000124-fcb60892613c",
+      "start": 54872,
+      "end": 55146
+    },
+    {
+      "id": "000124-df478a443f55",
+      "start": 55172,
+      "end": 55472
+    },
+    {
+      "id": "000124-93021d8ac991",
+      "start": 55498,
+      "end": 55782
+    },
+    {
+      "id": "000124-77a65ab93305",
+      "start": 55808,
+      "end": 56089
+    },
+    {
+      "id": "000124-8bf9bf6d3f1e",
+      "start": 56115,
+      "end": 56405
+    },
+    {
+      "id": "000124-f92c8cb5f959",
+      "start": 56431,
+      "end": 56731
+    },
+    {
+      "id": "000124-64f2422c2d12",
+      "start": 56757,
+      "end": 57044
+    },
+    {
+      "id": "000124-57999b4e8830",
+      "start": 57070,
+      "end": 57362
+    },
+    {
+      "id": "000124-4deb18eea6b1",
+      "start": 57388,
+      "end": 57669
+    },
+    {
+      "id": "000124-8856355a96f0",
+      "start": 57695,
+      "end": 57962
+    },
+    {
+      "id": "000124-fd251e615684",
+      "start": 57988,
+      "end": 58267
+    },
+    {
+      "id": "000124-2c023a2ce3ee",
+      "start": 58293,
+      "end": 58573
+    },
+    {
+      "id": "000124-ff53ec948d7b",
+      "start": 58599,
+      "end": 58870
+    },
+    {
+      "id": "000124-9dd53734eaf7",
+      "start": 58896,
+      "end": 59194
+    },
+    {
+      "id": "000124-ffe41a8b7349",
+      "start": 59220,
+      "end": 59517
+    },
+    {
+      "id": "000124-53f36373613f",
+      "start": 59543,
+      "end": 59837
+    },
+    {
+      "id": "000124-e79309547619",
+      "start": 59863,
+      "end": 60143
+    },
+    {
+      "id": "000124-78c2d5c0dc3c",
+      "start": 60169,
+      "end": 60437
+    },
+    {
+      "id": "000124-5ef0d5210109",
+      "start": 60463,
+      "end": 60730
+    },
+    {
+      "id": "000124-5f446a71d1c0",
+      "start": 60756,
+      "end": 61048
+    },
+    {
+      "id": "000124-67abe2dfbf42",
+      "start": 61074,
+      "end": 61365
+    },
+    {
+      "id": "000124-427a643e82f6",
+      "start": 61391,
+      "end": 61689
+    },
+    {
+      "id": "000124-4d6a9813144c",
+      "start": 61715,
+      "end": 62009
+    },
+    {
+      "id": "000124-9bc221e39b2e",
+      "start": 62035,
+      "end": 62627
+    },
+    {
+      "id": "000124-d372a604a611",
+      "start": 62653,
+      "end": 62978
+    },
+    {
+      "id": "000124-23b3bab5161a",
+      "start": 63004,
+      "end": 63292
+    },
+    {
+      "id": "000124-a0a8eb71a254",
+      "start": 63318,
+      "end": 63621
+    },
+    {
+      "id": "000124-8f127db627f9",
+      "start": 63647,
+      "end": 63936
+    },
+    {
+      "id": "000124-b9d093d05ff5",
+      "start": 63962,
+      "end": 64253
+    },
+    {
+      "id": "000124-4f316c89f1c0",
+      "start": 64279,
+      "end": 64584
+    },
+    {
+      "id": "000124-46db69f43bd3",
+      "start": 64610,
+      "end": 64921
+    },
+    {
+      "id": "000124-b7f1ebb97ce9",
+      "start": 64947,
+      "end": 65248
+    },
+    {
+      "id": "000124-7af50b64e3dd",
+      "start": 65274,
+      "end": 65556
+    },
+    {
+      "id": "000124-5a6e096573c5",
+      "start": 65582,
+      "end": 65874
+    },
+    {
+      "id": "000124-439d61e9d05a",
+      "start": 65900,
+      "end": 66200
+    },
+    {
+      "id": "000124-2e7f5d5a2a9f",
+      "start": 66226,
+      "end": 66516
+    },
+    {
+      "id": "000124-4a6449da8b08",
+      "start": 66542,
+      "end": 66838
+    },
+    {
+      "id": "000124-a19ab9da126d",
+      "start": 66864,
+      "end": 67163
+    },
+    {
+      "id": "000124-3e977bf6b0f1",
+      "start": 67189,
+      "end": 67499
+    },
+    {
+      "id": "000124-f9d8c8c0b805",
+      "start": 67525,
+      "end": 67820
+    },
+    {
+      "id": "000124-342018d5a71e",
+      "start": 67846,
+      "end": 68152
+    },
+    {
+      "id": "000124-97153c6afaad",
+      "start": 68178,
+      "end": 68489
+    },
+    {
+      "id": "000124-8ec5e49dfa98",
+      "start": 68515,
+      "end": 68831
+    },
+    {
+      "id": "000124-4a5a884de17d",
+      "start": 68857,
+      "end": 69153
+    },
+    {
+      "id": "000124-e1a2388418f7",
+      "start": 69179,
+      "end": 69476
+    },
+    {
+      "id": "000124-94f098c8e116",
+      "start": 69502,
+      "end": 69815
+    },
+    {
+      "id": "000124-4219a9ede68a",
+      "start": 69841,
+      "end": 70131
+    },
+    {
+      "id": "000124-270a14889ccf",
+      "start": 70157,
+      "end": 70454
+    },
+    {
+      "id": "000124-82530eb02db0",
+      "start": 70480,
+      "end": 70767
+    },
+    {
+      "id": "000124-4bdab397fc7b",
+      "start": 70793,
+      "end": 71084
+    },
+    {
+      "id": "000124-6b0689ae4f38",
+      "start": 71110,
+      "end": 71387
+    },
+    {
+      "id": "000124-c940d0f6f8a1",
+      "start": 71413,
+      "end": 71704
+    },
+    {
+      "id": "000124-ab5265775119",
+      "start": 71730,
+      "end": 72024
+    },
+    {
+      "id": "000124-c152e7fe9f80",
+      "start": 72050,
+      "end": 72322
+    },
+    {
+      "id": "000124-5d30128b84f4",
+      "start": 72348,
+      "end": 72647
+    },
+    {
+      "id": "000124-63a6b995c9c0",
+      "start": 72673,
+      "end": 72951
+    },
+    {
+      "id": "000124-c6f08215e3fd",
+      "start": 72977,
+      "end": 73264
+    },
+    {
+      "id": "000124-77c42742629e",
+      "start": 73290,
+      "end": 73596
+    },
+    {
+      "id": "000124-d57d75d97e9a",
+      "start": 73622,
+      "end": 73909
+    },
+    {
+      "id": "000124-791f0454e632",
+      "start": 73935,
+      "end": 74218
+    },
+    {
+      "id": "000124-91751ccc0277",
+      "start": 74244,
+      "end": 74534
+    },
+    {
+      "id": "000124-7557c00ad67a",
+      "start": 74560,
+      "end": 74865
+    },
+    {
+      "id": "000124-863b2fa79321",
+      "start": 74891,
+      "end": 75181
+    },
+    {
+      "id": "000124-9c648141171c",
+      "start": 75207,
+      "end": 75496
+    },
+    {
+      "id": "000124-b7196cd2d24b",
+      "start": 75522,
+      "end": 75820
+    },
+    {
+      "id": "000124-be0e2923db29",
+      "start": 75846,
+      "end": 76138
+    },
+    {
+      "id": "000124-f6e7cb21e1b6",
+      "start": 76164,
+      "end": 76425
+    },
+    {
+      "id": "000124-1e8b9896b970",
+      "start": 76451,
+      "end": 76716
+    },
+    {
+      "id": "000124-9f9cae647dcf",
+      "start": 76742,
+      "end": 77034
+    },
+    {
+      "id": "000124-73538acdc19d",
+      "start": 77060,
+      "end": 77365
+    },
+    {
+      "id": "000124-049628da957e",
+      "start": 77391,
+      "end": 77677
+    },
+    {
+      "id": "000124-f5b218771014",
+      "start": 77703,
+      "end": 77986
+    },
+    {
+      "id": "000124-ff2f576e2ac3",
+      "start": 78012,
+      "end": 78315
+    },
+    {
+      "id": "000124-265de61a05fa",
+      "start": 78341,
+      "end": 78861
+    },
+    {
+      "id": "000124-cc965332f2cb",
+      "start": 78887,
+      "end": 79240
+    },
+    {
+      "id": "000124-81beb5423220",
+      "start": 79266,
+      "end": 79568
     }
   ],
   "labels": [
@@ -170,8 +1290,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "He stood by the table.",
-        "He shifted his feet, looked around, then looked back at me."
+        "He stood by the table. He shifted his feet, looked around, then looked back at me."
       ]
     },
     {
@@ -189,8 +1308,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "I turn toward Jo. She turns toward me.",
-        "We stand there for a moment, then move about the kitchen."
+        "Jo leans against the fridge. I fold my arms, then let them hang at my sides."
       ]
     },
     {
@@ -352,8 +1470,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "I turned toward Ellis and then toward the rest of the team.",
-        "Ellis glanced around."
+        "I turned toward Ellis and then toward the rest of the team. Ellis glanced around."
       ]
     },
     {
@@ -407,6 +1524,4374 @@
       "expected": true,
       "snippets": [
         "For what felt like an eternity"
+      ]
+    },
+    {
+      "id": "000124-5f53f91f088c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The laundrette possessed an oddly formal mood that Sunday."
+      ]
+    },
+    {
+      "id": "000124-5f53f91f088c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5f53f91f088c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e9b6b57e8402",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Something about the allotment felt less generous now."
+      ]
+    },
+    {
+      "id": "000124-e9b6b57e8402",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e9b6b57e8402",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-30bc680a89ba",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An unaccountable reserve inhabited the bakery."
+      ]
+    },
+    {
+      "id": "000124-30bc680a89ba",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-30bc680a89ba",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-0f165294f0c5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The arcade seemed emotionally thinner than I remembered."
+      ]
+    },
+    {
+      "id": "000124-0f165294f0c5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-0f165294f0c5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-eb4e4d6789a0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Our rented kitchen had acquired an intangible severity."
+      ]
+    },
+    {
+      "id": "000124-eb4e4d6789a0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-eb4e4d6789a0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-116c6438dc9d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The bowling club felt strangely expectant."
+      ]
+    },
+    {
+      "id": "000124-116c6438dc9d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-116c6438dc9d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-6628ae6e450b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The bookshop had a new, elusive chill."
+      ]
+    },
+    {
+      "id": "000124-6628ae6e450b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-6628ae6e450b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-64fedee9618a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An indistinct melancholy lay over the ferry terminal."
+      ]
+    },
+    {
+      "id": "000124-64fedee9618a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-64fedee9618a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-a834fdfef1d2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The garage seemed to contain a less forgiving atmosphere."
+      ]
+    },
+    {
+      "id": "000124-a834fdfef1d2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-a834fdfef1d2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-ac84cc8d74d7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A vague tenderness had settled into the council chamber."
+      ]
+    },
+    {
+      "id": "000124-ac84cc8d74d7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-ac84cc8d74d7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-039efb39d431",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The music shop felt somehow more guarded."
+      ]
+    },
+    {
+      "id": "000124-039efb39d431",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-039efb39d431",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-a6088245fb3b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The village pool carried an undefined sadness."
+      ]
+    },
+    {
+      "id": "000124-a6088245fb3b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-a6088245fb3b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e397b7a13825",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An unexplained heaviness belonged to the campsite office."
+      ]
+    },
+    {
+      "id": "000124-e397b7a13825",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e397b7a13825",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e354df372601",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cafe's mood had become curiously remote."
+      ]
+    },
+    {
+      "id": "000124-e354df372601",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e354df372601",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-fae3a8b1a4fe",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The bicycle shed seemed newly burdened."
+      ]
+    },
+    {
+      "id": "000124-fae3a8b1a4fe",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-fae3a8b1a4fe",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-ed90c0c19874",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was a sourness to the room's emotional weather."
+      ]
+    },
+    {
+      "id": "000124-ed90c0c19874",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-ed90c0c19874",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-80635f2f001d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The market seemed to have shed an unnamed brightness."
+      ]
+    },
+    {
+      "id": "000124-80635f2f001d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-80635f2f001d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-6e8cd1ef6090",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The sorting office had an unfamiliar emotional texture."
+      ]
+    },
+    {
+      "id": "000124-6e8cd1ef6090",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-6e8cd1ef6090",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-848ecf77ad0c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The rehearsal cabin has a nameless unease."
+      ]
+    },
+    {
+      "id": "000124-848ecf77ad0c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-848ecf77ad0c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-6d302d2dbdb4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The hotel corridor felt vaguely disapproving."
+      ]
+    },
+    {
+      "id": "000124-6d302d2dbdb4",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-6d302d2dbdb4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-66a0bd720fe3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The shed had an air of altered importance."
+      ]
+    },
+    {
+      "id": "000124-66a0bd720fe3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-66a0bd720fe3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-0b6f185005a1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The registry waiting room seemed steeped in an unspecified regret."
+      ]
+    },
+    {
+      "id": "000124-0b6f185005a1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-0b6f185005a1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-0fb34b9f1424",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The bus depot felt less innocent that afternoon."
+      ]
+    },
+    {
+      "id": "000124-0fb34b9f1424",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-0fb34b9f1424",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-7ea98994ff89",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An odd emotional dusk filled the fish shop."
+      ]
+    },
+    {
+      "id": "000124-7ea98994ff89",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-7ea98994ff89",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-abed90b3616d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The loft seemed suddenly less hospitable in some indefinable way."
+      ]
+    },
+    {
+      "id": "000124-abed90b3616d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-abed90b3616d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-fa54313956be",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was a new solemnity to the petrol station."
+      ]
+    },
+    {
+      "id": "000124-fa54313956be",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-fa54313956be",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e7ed94e621ed",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The classroom carried a faint sense of estrangement."
+      ]
+    },
+    {
+      "id": "000124-e7ed94e621ed",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e7ed94e621ed",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-d95b3a22014f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Something vaguely momentous seemed lodged in the ticket booth."
+      ]
+    },
+    {
+      "id": "000124-d95b3a22014f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-d95b3a22014f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-5ae8e8852a4c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The community freezer room had acquired an elusive tension."
+      ]
+    },
+    {
+      "id": "000124-5ae8e8852a4c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5ae8e8852a4c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart leapt into my throat."
+      ]
+    },
+    {
+      "id": "000124-4d9041aae63f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A vague hush of significance possessed the car park."
+      ]
+    },
+    {
+      "id": "000124-4d9041aae63f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-4d9041aae63f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time stood still."
+      ]
+    },
+    {
+      "id": "000124-a4ed23e90b3d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The optician's waiting area felt inexplicably weightier."
+      ]
+    },
+    {
+      "id": "000124-a4ed23e90b3d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-a4ed23e90b3d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Relief washed over me."
+      ]
+    },
+    {
+      "id": "000124-2a18a5586aeb",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An uncertain darkness seemed to color the beach cafe."
+      ]
+    },
+    {
+      "id": "000124-2a18a5586aeb",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2a18a5586aeb",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Little did I know that lunch would change everything."
+      ]
+    },
+    {
+      "id": "000124-28d3a5cc54e8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The stockroom radiated an indefinable coolness."
+      ]
+    },
+    {
+      "id": "000124-28d3a5cc54e8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-28d3a5cc54e8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "his voice dripping with frustration"
+      ]
+    },
+    {
+      "id": "000124-4c0529dd6dac",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The little clinic felt somehow withdrawn."
+      ]
+    },
+    {
+      "id": "000124-4c0529dd6dac",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-4c0529dd6dac",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "For what seemed an age"
+      ]
+    },
+    {
+      "id": "000124-74db6983f05f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An amorphous warmth had deserted the dining car."
+      ]
+    },
+    {
+      "id": "000124-74db6983f05f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-74db6983f05f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My blood ran cold."
+      ]
+    },
+    {
+      "id": "000124-b7c90357e437",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The rehearsal hall had a peculiarly brittle mood."
+      ]
+    },
+    {
+      "id": "000124-b7c90357e437",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-b7c90357e437",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Hope flickered across her face"
+      ]
+    },
+    {
+      "id": "000124-c54872d3baaf",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The campsite washroom felt newly charged."
+      ]
+    },
+    {
+      "id": "000124-c54872d3baaf",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-c54872d3baaf",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The silence was deafening."
+      ]
+    },
+    {
+      "id": "000124-fdd6f53117a0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The tailor's shop seemed less tranquil in a way I couldn't place."
+      ]
+    },
+    {
+      "id": "000124-fdd6f53117a0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-fdd6f53117a0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A shiver raced down my spine."
+      ]
+    },
+    {
+      "id": "000124-8c5df415c04d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A hazy gravity clung to the travel office."
+      ]
+    },
+    {
+      "id": "000124-8c5df415c04d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-8c5df415c04d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Days melted into weeks."
+      ]
+    },
+    {
+      "id": "000124-5ae8d0133d47",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The room over the pub possessed a new emotional distance."
+      ]
+    },
+    {
+      "id": "000124-5ae8d0133d47",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5ae8d0133d47",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice barely above a whisper"
+      ]
+    },
+    {
+      "id": "000124-dd962bccab29",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The museum lobby had a strangely depleted feel."
+      ]
+    },
+    {
+      "id": "000124-dd962bccab29",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-dd962bccab29",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My stomach tied itself in knots."
+      ]
+    },
+    {
+      "id": "000124-b204fbf098df",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The warehouse seemed filled with a nameless anticipation."
+      ]
+    },
+    {
+      "id": "000124-b204fbf098df",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-b204fbf098df",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Maybe, just maybe, we could save the order."
+      ]
+    },
+    {
+      "id": "000124-5beda9bbfcfc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Something unspoken had changed the atmosphere of the snack bar."
+      ]
+    },
+    {
+      "id": "000124-5beda9bbfcfc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5beda9bbfcfc",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Her eyes were unreadable pools."
+      ]
+    },
+    {
+      "id": "000124-2ef20c066392",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The dog shelter felt oddly hollow that morning."
+      ]
+    },
+    {
+      "id": "000124-2ef20c066392",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2ef20c066392",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The rest of the world fell away."
+      ]
+    },
+    {
+      "id": "000124-b0d99b25e47e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A curious emotional pressure occupied the vestry."
+      ]
+    },
+    {
+      "id": "000124-b0d99b25e47e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-b0d99b25e47e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Her pulse thundered in her ears."
+      ]
+    },
+    {
+      "id": "000124-a6ec694cc2ba",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The waiting shelter seemed less ordinary now."
+      ]
+    },
+    {
+      "id": "000124-a6ec694cc2ba",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-a6ec694cc2ba",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "It was the calm before the storm."
+      ]
+    },
+    {
+      "id": "000124-80595b6fa302",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The photography studio held an intangible strain."
+      ]
+    },
+    {
+      "id": "000124-80595b6fa302",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-80595b6fa302",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The seconds stretched into eternity."
+      ]
+    },
+    {
+      "id": "000124-7ef2f81a9212",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The caravan seemed to have turned emotionally gray."
+      ]
+    },
+    {
+      "id": "000124-7ef2f81a9212",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-7ef2f81a9212",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Fate was about to deal us another blow."
+      ]
+    },
+    {
+      "id": "000124-5c38db6f643d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The staff canteen wore an unspecified melancholy."
+      ]
+    },
+    {
+      "id": "000124-5c38db6f643d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5c38db6f643d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A wave of dread crashed over me."
+      ]
+    },
+    {
+      "id": "000124-908cdb25f5d0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An inexplicable expectancy filled the landing."
+      ]
+    },
+    {
+      "id": "000124-908cdb25f5d0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-908cdb25f5d0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We were on the brink of a new chapter."
+      ]
+    },
+    {
+      "id": "000124-af6e8550f18c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The workshop had a vague air of finality."
+      ]
+    },
+    {
+      "id": "000124-af6e8550f18c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-af6e8550f18c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My hands trembled like leaves."
+      ]
+    },
+    {
+      "id": "000124-16d530d362ce",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The estate office felt faintly ominous."
+      ]
+    },
+    {
+      "id": "000124-16d530d362ce",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-16d530d362ce",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Anger blazed in his eyes."
+      ]
+    },
+    {
+      "id": "000124-c3b35d95adf2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A less definable ease inhabited the nursery now."
+      ]
+    },
+    {
+      "id": "000124-c3b35d95adf2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-c3b35d95adf2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My breath caught in my throat."
+      ]
+    },
+    {
+      "id": "000124-3a89bfe77fd0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The corner shop had become subtly alien."
+      ]
+    },
+    {
+      "id": "000124-3a89bfe77fd0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-3a89bfe77fd0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A chill settled deep in my bones."
+      ]
+    },
+    {
+      "id": "000124-fbab08659113",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The pottery classroom had an obscurely different character."
+      ]
+    },
+    {
+      "id": "000124-fbab08659113",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-fbab08659113",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The sun dipped below the horizon, painting the sky in fiery hues."
+      ]
+    },
+    {
+      "id": "000124-d13c53103bf5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An elusive disenchantment pervaded the scout hut."
+      ]
+    },
+    {
+      "id": "000124-d13c53103bf5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-d13c53103bf5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "None of us could have imagined the trouble ahead."
+      ]
+    },
+    {
+      "id": "000124-b32f837338a3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The parish kitchen had acquired a vague emotional dullness."
+      ]
+    },
+    {
+      "id": "000124-b32f837338a3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Owen crossed the room, turned, and crossed back."
+      ]
+    },
+    {
+      "id": "000124-b32f837338a3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-0204dd989fc0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cabin carried an indefinable sense of caution."
+      ]
+    },
+    {
+      "id": "000124-0204dd989fc0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My cousin stood near the bunk, then stood near me."
+      ]
+    },
+    {
+      "id": "000124-0204dd989fc0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-93953fe0bc59",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The loading bay seemed oddly restrained."
+      ]
+    },
+    {
+      "id": "000124-93953fe0bc59",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Phil glanced at me, at Nora, and at me again."
+      ]
+    },
+    {
+      "id": "000124-93953fe0bc59",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-6df41f96de5f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An unnamed emotional frost occupied the lunchroom."
+      ]
+    },
+    {
+      "id": "000124-6df41f96de5f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I sat down, adjusted my position, and sat a little straighter."
+      ]
+    },
+    {
+      "id": "000124-6df41f96de5f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-f7d59bc12bdc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The aquarium lobby had a newly distant quality."
+      ]
+    },
+    {
+      "id": "000124-f7d59bc12bdc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Our guide moved a few paces and stopped, then moved again."
+      ]
+    },
+    {
+      "id": "000124-f7d59bc12bdc",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-7cb6e9641c0e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A hazy uneasiness had settled over the secondhand furniture shop."
+      ]
+    },
+    {
+      "id": "000124-7cb6e9641c0e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Vic leaned against a cabinet and then stood upright."
+      ]
+    },
+    {
+      "id": "000124-7cb6e9641c0e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-226fd4a8cdcb",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The youth center felt curiously burdened."
+      ]
+    },
+    {
+      "id": "000124-226fd4a8cdcb",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Leon nodded and looked about the room."
+      ]
+    },
+    {
+      "id": "000124-226fd4a8cdcb",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e213cdf20623",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A new emotional murk lay over the fabric stall."
+      ]
+    },
+    {
+      "id": "000124-e213cdf20623",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My sister turned toward the seller, then toward me."
+      ]
+    },
+    {
+      "id": "000124-e213cdf20623",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-112c1d044f24",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The lunch queue possessed an uncertain sadness."
+      ]
+    },
+    {
+      "id": "000124-112c1d044f24",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Graham shifted his weight, looked down, and looked up."
+      ]
+    },
+    {
+      "id": "000124-112c1d044f24",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-bb30dec3f1ec",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The parcel depot's mood was mysteriously altered."
+      ]
+    },
+    {
+      "id": "000124-bb30dec3f1ec",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I walked over to the desk, paused, and stood there."
+      ]
+    },
+    {
+      "id": "000124-bb30dec3f1ec",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-17c4786bbea5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The stairwell held a vague suggestion of unease."
+      ]
+    },
+    {
+      "id": "000124-17c4786bbea5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ann brushed her sleeve and adjusted her stance."
+      ]
+    },
+    {
+      "id": "000124-17c4786bbea5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-dbe7126b4818",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Something about the rehearsal shed seemed spiritually dimmer."
+      ]
+    },
+    {
+      "id": "000124-dbe7126b4818",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Pete blinked and gave a small nod."
+      ]
+    },
+    {
+      "id": "000124-dbe7126b4818",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-0c853cf5d139",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The ticket office had an elusive emotional chill."
+      ]
+    },
+    {
+      "id": "000124-0c853cf5d139",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The clerk rose, turned a little, and remained standing."
+      ]
+    },
+    {
+      "id": "000124-0c853cf5d139",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-eabdc701d119",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A diffuse apprehension belonged to the garden center."
+      ]
+    },
+    {
+      "id": "000124-eabdc701d119",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Eric put his hands on his hips, then dropped them."
+      ]
+    },
+    {
+      "id": "000124-eabdc701d119",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-42a73ab07731",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The studio seemed tinged with an unplaceable regret."
+      ]
+    },
+    {
+      "id": "000124-42a73ab07731",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We looked at each other and then elsewhere."
+      ]
+    },
+    {
+      "id": "000124-42a73ab07731",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-f0aafa791285",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A faint emotional disturbance filled the tea room."
+      ]
+    },
+    {
+      "id": "000124-f0aafa791285",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Celia moved beside her chair and stayed there."
+      ]
+    },
+    {
+      "id": "000124-f0aafa791285",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-68e7fc20255a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The community orchard felt subtly less benign."
+      ]
+    },
+    {
+      "id": "000124-68e7fc20255a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Mr Yates rocked on his heels and scanned around."
+      ]
+    },
+    {
+      "id": "000124-68e7fc20255a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-612fa55ef5c9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The sports pavilion carried an undefined gloom."
+      ]
+    },
+    {
+      "id": "000124-612fa55ef5c9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I lifted my chin, lowered it, and changed my posture."
+      ]
+    },
+    {
+      "id": "000124-612fa55ef5c9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-45fcea004f9a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An obscure emotional imbalance occupied the lift lobby."
+      ]
+    },
+    {
+      "id": "000124-45fcea004f9a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The porter glanced sideways, then straight ahead."
+      ]
+    },
+    {
+      "id": "000124-45fcea004f9a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-92ac6fd520a3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The church porch had become strangely impersonal."
+      ]
+    },
+    {
+      "id": "000124-92ac6fd520a3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Mae stepped forward, shifted back, and settled where she was."
+      ]
+    },
+    {
+      "id": "000124-92ac6fd520a3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e5ca52158198",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was an unfamiliar emotional drag in the shop."
+      ]
+    },
+    {
+      "id": "000124-e5ca52158198",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The manager looked up and offered a nod."
+      ]
+    },
+    {
+      "id": "000124-e5ca52158198",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4a77ee736474",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The marina office felt obscurely reproachful."
+      ]
+    },
+    {
+      "id": "000124-4a77ee736474",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Dennis wandered a little and came to rest beside the desk."
+      ]
+    },
+    {
+      "id": "000124-4a77ee736474",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-7aa4353bf40a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A trace of unspecified solemnity colored the playroom."
+      ]
+    },
+    {
+      "id": "000124-7aa4353bf40a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The assistant folded her hands and then unfolded them."
+      ]
+    },
+    {
+      "id": "000124-7aa4353bf40a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2454044e0fbc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cafe upstairs seemed newly ungenerous."
+      ]
+    },
+    {
+      "id": "000124-2454044e0fbc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Tomas turned halfway around and then faced me again."
+      ]
+    },
+    {
+      "id": "000124-2454044e0fbc",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-8029f116c0a9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The upholstery room possessed an indistinct disquiet."
+      ]
+    },
+    {
+      "id": "000124-8029f116c0a9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I settled onto the stool and resettled myself."
+      ]
+    },
+    {
+      "id": "000124-8029f116c0a9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-5f5d9d5cd904",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The animal clinic seemed washed in an uncertain gravity."
+      ]
+    },
+    {
+      "id": "000124-5f5d9d5cd904",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My brother paced a little, stopped, and looked around."
+      ]
+    },
+    {
+      "id": "000124-5f5d9d5cd904",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-f89549709af8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A new, unlocated weariness filled the depot cafe."
+      ]
+    },
+    {
+      "id": "000124-f89549709af8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The driver tipped his head, straightened, and shifted his shoulders."
+      ]
+    },
+    {
+      "id": "000124-f89549709af8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-b2100c28d6e7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The little observatory felt emotionally diminished."
+      ]
+    },
+    {
+      "id": "000124-b2100c28d6e7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved away from the wall and remained there."
+      ]
+    },
+    {
+      "id": "000124-b2100c28d6e7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-55240418856f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The reception hut seemed weighted by a new mood."
+      ]
+    },
+    {
+      "id": "000124-55240418856f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ed glanced at the ceiling, then at me, then around."
+      ]
+    },
+    {
+      "id": "000124-55240418856f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His heart pounded like a drum."
+      ]
+    },
+    {
+      "id": "000124-dcbe457ecdee",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The hall outside the exam room had an undefined chill."
+      ]
+    },
+    {
+      "id": "000124-dcbe457ecdee",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I stood beside the bench and adjusted my position."
+      ]
+    },
+    {
+      "id": "000124-dcbe457ecdee",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "An eternity passed before my name was called."
+      ]
+    },
+    {
+      "id": "000124-6b09af09ad15",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An elusive menace inhabited the kitchenette."
+      ]
+    },
+    {
+      "id": "000124-6b09af09ad15",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Cara turned toward me and then away."
+      ]
+    },
+    {
+      "id": "000124-6b09af09ad15",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice heavy with despair"
+      ]
+    },
+    {
+      "id": "000124-8c6bbbb4ef3d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The hardware aisle felt faintly estranged."
+      ]
+    },
+    {
+      "id": "000124-8c6bbbb4ef3d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The assistant took a few steps and paused there."
+      ]
+    },
+    {
+      "id": "000124-8c6bbbb4ef3d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A chill crept up my spine."
+      ]
+    },
+    {
+      "id": "000124-80d1ff7fa170",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cafe booth seemed suffused with a peculiar seriousness."
+      ]
+    },
+    {
+      "id": "000124-80d1ff7fa170",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Lena shifted, leaned back, and shifted again."
+      ]
+    },
+    {
+      "id": "000124-80d1ff7fa170",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Little did we know our luck was about to change."
+      ]
+    },
+    {
+      "id": "000124-ec1a92261875",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An unnamed emotional stillness gripped the conservatory."
+      ]
+    },
+    {
+      "id": "000124-ec1a92261875",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ron looked toward Bea, Bea looked toward me, and I looked away."
+      ]
+    },
+    {
+      "id": "000124-ec1a92261875",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We were caught in a whirlwind of emotions."
+      ]
+    },
+    {
+      "id": "000124-554a6476087c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The sales office had an indefinably brittle atmosphere."
+      ]
+    },
+    {
+      "id": "000124-554a6476087c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The agent nodded once and moved around a little."
+      ]
+    },
+    {
+      "id": "000124-554a6476087c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My breath hitched."
+      ]
+    },
+    {
+      "id": "000124-bcbeb68fb9e9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An obscure despondency seemed attached to the scout bus."
+      ]
+    },
+    {
+      "id": "000124-bcbeb68fb9e9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Harry stood, sat, and stood again."
+      ]
+    },
+    {
+      "id": "000124-bcbeb68fb9e9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The air was thick with anticipation."
+      ]
+    },
+    {
+      "id": "000124-f1e7b469afd6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The pharmacy carried an indeterminate air of loss."
+      ]
+    },
+    {
+      "id": "000124-f1e7b469afd6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I adjusted my sleeve and looked around the room."
+      ]
+    },
+    {
+      "id": "000124-f1e7b469afd6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time slowed to a crawl."
+      ]
+    },
+    {
+      "id": "000124-30c7207febb5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The newspaper office felt oddly depleted."
+      ]
+    },
+    {
+      "id": "000124-30c7207febb5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The editor tilted her head and then straightened it."
+      ]
+    },
+    {
+      "id": "000124-30c7207febb5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My stomach dropped through the floor."
+      ]
+    },
+    {
+      "id": "000124-6ec03faa03da",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An undefined tension occupied the changing hut."
+      ]
+    },
+    {
+      "id": "000124-6ec03faa03da",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The coach shifted from one foot to the other and looked about."
+      ]
+    },
+    {
+      "id": "000124-6ec03faa03da",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Determination flickered across his face."
+      ]
+    },
+    {
+      "id": "000124-0e30e8ece57a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The second-floor corridor seemed subtly troubled."
+      ]
+    },
+    {
+      "id": "000124-0e30e8ece57a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Val walked across it and came back to where she had been."
+      ]
+    },
+    {
+      "id": "000124-0e30e8ece57a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We stood at a crossroads in our lives."
+      ]
+    },
+    {
+      "id": "000124-d06caef6496c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A mysterious emotional pall filled the flower shop."
+      ]
+    },
+    {
+      "id": "000124-d06caef6496c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I put my hands together, separated them, and looked up."
+      ]
+    },
+    {
+      "id": "000124-d06caef6496c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Sadness pooled in her eyes."
+      ]
+    },
+    {
+      "id": "000124-5f394dbc3c09",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The church basement had an intangible new edge."
+      ]
+    },
+    {
+      "id": "000124-5f394dbc3c09",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Martin moved closer, stopped, and stepped aside."
+      ]
+    },
+    {
+      "id": "000124-5f394dbc3c09",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His words hung in the air."
+      ]
+    },
+    {
+      "id": "000124-b6a3a1ac144a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The motel breakfast room felt vaguely forbidding."
+      ]
+    },
+    {
+      "id": "000124-b6a3a1ac144a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I nodded, blinked, and changed my stance."
+      ]
+    },
+    {
+      "id": "000124-b6a3a1ac144a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Against all odds, hope bloomed in my chest."
+      ]
+    },
+    {
+      "id": "000124-ddbfe6c5b54a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A strange, unnamed impatience possessed the rehearsal loft."
+      ]
+    },
+    {
+      "id": "000124-ddbfe6c5b54a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Kim glanced left, glanced right, and faced forward."
+      ]
+    },
+    {
+      "id": "000124-ddbfe6c5b54a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The afternoon sun cast long shadows as another day drew to a close."
+      ]
+    },
+    {
+      "id": "000124-565df20509e8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cafe garden seemed emotionally narrower."
+      ]
+    },
+    {
+      "id": "000124-565df20509e8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ollie stepped away from the table, then returned and stood there."
+      ]
+    },
+    {
+      "id": "000124-565df20509e8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My mind raced a mile a minute."
+      ]
+    },
+    {
+      "id": "000124-6a19d197d2d1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The baggage office felt newly subdued in some obscure way."
+      ]
+    },
+    {
+      "id": "000124-6a19d197d2d1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The clerk smoothed his cuff and turned slightly."
+      ]
+    },
+    {
+      "id": "000124-6a19d197d2d1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His eyes betrayed nothing."
+      ]
+    },
+    {
+      "id": "000124-65aec9a36c2c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The dairy shed had a vaguely expectant character."
+      ]
+    },
+    {
+      "id": "000124-65aec9a36c2c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Jo walked about and then stopped near the door."
+      ]
+    },
+    {
+      "id": "000124-65aec9a36c2c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The days blurred together."
+      ]
+    },
+    {
+      "id": "000124-b8722b16c7e6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cinema lobby carried an indefinable air of consequence."
+      ]
+    },
+    {
+      "id": "000124-b8722b16c7e6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The usher nodded and turned back and forth."
+      ]
+    },
+    {
+      "id": "000124-b8722b16c7e6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A thousand questions swirled through my mind."
+      ]
+    },
+    {
+      "id": "000124-2a34ec7b485a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The mobile library had an obscurely heavier mood."
+      ]
+    },
+    {
+      "id": "000124-2a34ec7b485a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ruth rearranged her feet and settled into another position."
+      ]
+    },
+    {
+      "id": "000124-2a34ec7b485a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I let out the breath I hadn't known I'd been holding."
+      ]
+    },
+    {
+      "id": "000124-8430f21ac860",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An uncertain emotional haze surrounded the mechanics' desk."
+      ]
+    },
+    {
+      "id": "000124-8430f21ac860",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Sam looked at me, looked away, and looked at me again."
+      ]
+    },
+    {
+      "id": "000124-8430f21ac860",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "his voice laced with concern"
+      ]
+    },
+    {
+      "id": "000124-ec0be7ed124a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The village archive seemed less welcoming in an unspecified way."
+      ]
+    },
+    {
+      "id": "000124-ec0be7ed124a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I rubbed my hands and changed my posture."
+      ]
+    },
+    {
+      "id": "000124-ec0be7ed124a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The discovery sent shockwaves through me."
+      ]
+    },
+    {
+      "id": "000124-b92b8299635b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An elusive emotional dimness filled the canoe store."
+      ]
+    },
+    {
+      "id": "000124-b92b8299635b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The instructor stood near us, moved a little, and stood again."
+      ]
+    },
+    {
+      "id": "000124-b92b8299635b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Maybe, just maybe, our chance had come."
+      ]
+    },
+    {
+      "id": "000124-422c0dfeec81",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The sewing room felt weighted with an undefined seriousness."
+      ]
+    },
+    {
+      "id": "000124-422c0dfeec81",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Aunt May turned around and then turned back."
+      ]
+    },
+    {
+      "id": "000124-422c0dfeec81",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "It was a moment that would stay with me forever."
+      ]
+    },
+    {
+      "id": "000124-cbdd2d65f406",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The club entrance seemed permeated by a faint disquiet."
+      ]
+    },
+    {
+      "id": "000124-cbdd2d65f406",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The treasurer shifted his shoulders and offered a slight smile."
+      ]
+    },
+    {
+      "id": "000124-cbdd2d65f406",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His voice was cold as ice."
+      ]
+    },
+    {
+      "id": "000124-a648417cf84f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The orchard packing shed had an amorphous sense of sorrow."
+      ]
+    },
+    {
+      "id": "000124-a648417cf84f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved from one side of the bench to the other and waited."
+      ]
+    },
+    {
+      "id": "000124-a648417cf84f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart sank like a stone."
+      ]
+    },
+    {
+      "id": "000124-0c50f679286b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The station cafe held a strangely altered calm."
+      ]
+    },
+    {
+      "id": "000124-0c50f679286b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Nessa raised her chin, lowered it, and glanced about."
+      ]
+    },
+    {
+      "id": "000124-0c50f679286b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Unbeknownst to us, a surprise lay just around the corner."
+      ]
+    },
+    {
+      "id": "000124-ae59250cfe78",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-ae59250cfe78",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-ae59250cfe78",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2f10d5ed5fcd",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2f10d5ed5fcd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2f10d5ed5fcd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-1e5c1ca82149",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-1e5c1ca82149",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-1e5c1ca82149",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-8ac9ddd7b91b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8ac9ddd7b91b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-8ac9ddd7b91b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-5f8cc7e1af8d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-5f8cc7e1af8d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5f8cc7e1af8d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-0c81cb5d0b20",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-0c81cb5d0b20",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-0c81cb5d0b20",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2a955898c7a4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2a955898c7a4",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2a955898c7a4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-592d5ede9093",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-592d5ede9093",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-592d5ede9093",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-c877be8dcff9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c877be8dcff9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-c877be8dcff9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-794e283bd888",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-794e283bd888",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-794e283bd888",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-5753f7d425c8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-5753f7d425c8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5753f7d425c8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-768dcb8f58fa",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-768dcb8f58fa",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-768dcb8f58fa",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-3a2c367168f1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-3a2c367168f1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-3a2c367168f1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-08d4165aad32",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-08d4165aad32",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-08d4165aad32",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-c4b0363dd0d6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c4b0363dd0d6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-c4b0363dd0d6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-8c863c146e59",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8c863c146e59",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-8c863c146e59",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4e147d9a671a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4e147d9a671a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-4e147d9a671a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-172f3387fc46",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-172f3387fc46",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-172f3387fc46",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2306fce076ec",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2306fce076ec",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2306fce076ec",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-61c30719c608",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-61c30719c608",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-61c30719c608",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-b8e11f707c02",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-b8e11f707c02",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-b8e11f707c02",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2b6229f96619",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2b6229f96619",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2b6229f96619",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-9afad24de1f8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9afad24de1f8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-9afad24de1f8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e8e9c95a9831",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-e8e9c95a9831",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e8e9c95a9831",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-9baca589150c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9baca589150c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-9baca589150c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-eb5162024ecd",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-eb5162024ecd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-eb5162024ecd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-9a7360c632c3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9a7360c632c3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-9a7360c632c3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-27134dee2daf",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-27134dee2daf",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-27134dee2daf",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-8d5c6528c0ec",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8d5c6528c0ec",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-8d5c6528c0ec",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart skipped a beat."
+      ]
+    },
+    {
+      "id": "000124-c7539fe0b10f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c7539fe0b10f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-c7539fe0b10f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Relief flooded through me."
+      ]
+    },
+    {
+      "id": "000124-3a2195d04569",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-3a2195d04569",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-3a2195d04569",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A new chapter was beginning."
+      ]
+    },
+    {
+      "id": "000124-38e698291a5b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-38e698291a5b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-38e698291a5b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Dread coiled in my stomach."
+      ]
+    },
+    {
+      "id": "000124-586c3cb22c40",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-586c3cb22c40",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-586c3cb22c40",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time seemed to stand still."
+      ]
+    },
+    {
+      "id": "000124-b1a554645bd8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-b1a554645bd8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-b1a554645bd8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His face was a mask of grief."
+      ]
+    },
+    {
+      "id": "000124-b8cfa8275bc5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-b8cfa8275bc5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-b8cfa8275bc5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The truth hit us like a ton of bricks."
+      ]
+    },
+    {
+      "id": "000124-e45ea8908e60",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-e45ea8908e60",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e45ea8908e60",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A chill ran through me."
+      ]
+    },
+    {
+      "id": "000124-fcb60892613c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-fcb60892613c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-fcb60892613c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His words cut like a knife."
+      ]
+    },
+    {
+      "id": "000124-df478a443f55",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-df478a443f55",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-df478a443f55",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A lifetime seemed to pass."
+      ]
+    },
+    {
+      "id": "000124-93021d8ac991",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-93021d8ac991",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-93021d8ac991",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Maybe, just maybe, this would work."
+      ]
+    },
+    {
+      "id": "000124-77a65ab93305",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-77a65ab93305",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-77a65ab93305",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Tears streamed down my face like rain."
+      ]
+    },
+    {
+      "id": "000124-8bf9bf6d3f1e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8bf9bf6d3f1e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-8bf9bf6d3f1e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "None of us knew what fate had in store."
+      ]
+    },
+    {
+      "id": "000124-f92c8cb5f959",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-f92c8cb5f959",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-f92c8cb5f959",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice brimming with determination"
+      ]
+    },
+    {
+      "id": "000124-64f2422c2d12",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-64f2422c2d12",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-64f2422c2d12",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart was a wild bird in my chest."
+      ]
+    },
+    {
+      "id": "000124-57999b4e8830",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-57999b4e8830",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-57999b4e8830",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Memories came flooding back."
+      ]
+    },
+    {
+      "id": "000124-4deb18eea6b1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4deb18eea6b1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-4deb18eea6b1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The silence between us spoke volumes."
+      ]
+    },
+    {
+      "id": "000124-8856355a96f0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8856355a96f0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-8856355a96f0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Panic surged through my veins."
+      ]
+    },
+    {
+      "id": "000124-fd251e615684",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-fd251e615684",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-fd251e615684",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My world came crashing down."
+      ]
+    },
+    {
+      "id": "000124-2c023a2ce3ee",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2c023a2ce3ee",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2c023a2ce3ee",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A smile lit up his face."
+      ]
+    },
+    {
+      "id": "000124-ff53ec948d7b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-ff53ec948d7b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-ff53ec948d7b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The hours crawled by like days."
+      ]
+    },
+    {
+      "id": "000124-9dd53734eaf7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9dd53734eaf7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-9dd53734eaf7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "It was only the beginning of our journey."
+      ]
+    },
+    {
+      "id": "000124-ffe41a8b7349",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-ffe41a8b7349",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-ffe41a8b7349",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My breath escaped in a shaky sigh of relief."
+      ]
+    },
+    {
+      "id": "000124-53f36373613f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-53f36373613f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-53f36373613f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His voice dripped with sarcasm."
+      ]
+    },
+    {
+      "id": "000124-e79309547619",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-e79309547619",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e79309547619",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His words sent a shiver down my spine."
+      ]
+    },
+    {
+      "id": "000124-78c2d5c0dc3c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-78c2d5c0dc3c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-78c2d5c0dc3c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Excitement bubbled inside me."
+      ]
+    },
+    {
+      "id": "000124-5ef0d5210109",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-5ef0d5210109",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5ef0d5210109",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The past came back to haunt me."
+      ]
+    },
+    {
+      "id": "000124-5f446a71d1c0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-5f446a71d1c0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5f446a71d1c0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Pride swelled in my chest."
+      ]
+    },
+    {
+      "id": "000124-67abe2dfbf42",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-67abe2dfbf42",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Liz stood by the table, then moved beside the bunk."
+      ]
+    },
+    {
+      "id": "000124-67abe2dfbf42",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-427a643e82f6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-427a643e82f6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The proprietor looked at me, then toward the shelves, then back at me."
+      ]
+    },
+    {
+      "id": "000124-427a643e82f6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4d6a9813144c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4d6a9813144c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Rita shifted her feet and smoothed her trousers."
+      ]
+    },
+    {
+      "id": "000124-4d6a9813144c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-9bc221e39b2e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9bc221e39b2e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned in my chair, turned back, and straightened up."
+      ]
+    },
+    {
+      "id": "000124-9bc221e39b2e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-d372a604a611",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-d372a604a611",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Bill nodded and glanced around."
+      ]
+    },
+    {
+      "id": "000124-d372a604a611",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-23b3bab5161a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-23b3bab5161a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Nina moved closer to me and then away again."
+      ]
+    },
+    {
+      "id": "000124-23b3bab5161a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-a0a8eb71a254",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-a0a8eb71a254",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The caretaker changed his stance and looked up."
+      ]
+    },
+    {
+      "id": "000124-a0a8eb71a254",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-8f127db627f9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8f127db627f9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My uncle took several steps, stopped, and stood there."
+      ]
+    },
+    {
+      "id": "000124-8f127db627f9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-b9d093d05ff5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-b9d093d05ff5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I nodded, blinked, and shifted on the bench."
+      ]
+    },
+    {
+      "id": "000124-b9d093d05ff5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4f316c89f1c0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4f316c89f1c0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The foreman rocked on his heels and looked about."
+      ]
+    },
+    {
+      "id": "000124-4f316c89f1c0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-46db69f43bd3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-46db69f43bd3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Emma stood nearby and folded her arms, then unfolded them."
+      ]
+    },
+    {
+      "id": "000124-46db69f43bd3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-b7f1ebb97ce9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-b7f1ebb97ce9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The teacher moved across the room and paused there."
+      ]
+    },
+    {
+      "id": "000124-b7f1ebb97ce9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-7af50b64e3dd",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-7af50b64e3dd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I raised my chin and lowered it again."
+      ]
+    },
+    {
+      "id": "000124-7af50b64e3dd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-5a6e096573c5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-5a6e096573c5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Fran moved her hands together and apart."
+      ]
+    },
+    {
+      "id": "000124-5a6e096573c5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-439d61e9d05a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-439d61e9d05a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My father looked at me and then at my sister, then looked away."
+      ]
+    },
+    {
+      "id": "000124-439d61e9d05a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2e7f5d5a2a9f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2e7f5d5a2a9f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The farmer shifted his shoulders and gave a little nod."
+      ]
+    },
+    {
+      "id": "000124-2e7f5d5a2a9f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4a6449da8b08",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4a6449da8b08",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Paula leaned against the wall, pushed herself upright, and stood."
+      ]
+    },
+    {
+      "id": "000124-4a6449da8b08",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-a19ab9da126d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-a19ab9da126d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The assistant glanced around and adjusted his posture."
+      ]
+    },
+    {
+      "id": "000124-a19ab9da126d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-3e977bf6b0f1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-3e977bf6b0f1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The deputy turned left and right and then forward."
+      ]
+    },
+    {
+      "id": "000124-3e977bf6b0f1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-f9d8c8c0b805",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-f9d8c8c0b805",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Beth sat down, resettled herself, and leaned back."
+      ]
+    },
+    {
+      "id": "000124-f9d8c8c0b805",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-342018d5a71e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-342018d5a71e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Jules walked a little way and then came back."
+      ]
+    },
+    {
+      "id": "000124-342018d5a71e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-97153c6afaad",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-97153c6afaad",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The manager clasped her hands, released them, and changed her stance."
+      ]
+    },
+    {
+      "id": "000124-97153c6afaad",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-8ec5e49dfa98",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-8ec5e49dfa98",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Len glanced at the wall and then at me."
+      ]
+    },
+    {
+      "id": "000124-8ec5e49dfa98",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4a5a884de17d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4a5a884de17d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My sister got up, changed position, and remained standing."
+      ]
+    },
+    {
+      "id": "000124-4a5a884de17d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e1a2388418f7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-e1a2388418f7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ted moved back and forth beside me."
+      ]
+    },
+    {
+      "id": "000124-e1a2388418f7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-94f098c8e116",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-94f098c8e116",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Grace turned toward me and then back toward the others."
+      ]
+    },
+    {
+      "id": "000124-94f098c8e116",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-4219a9ede68a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4219a9ede68a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Mum touched her sleeve, blinked, and looked around."
+      ]
+    },
+    {
+      "id": "000124-4219a9ede68a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-270a14889ccf",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-270a14889ccf",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The secretary shifted in her chair, rose, and sat again."
+      ]
+    },
+    {
+      "id": "000124-270a14889ccf",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-82530eb02db0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-82530eb02db0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I looked left, looked right, and looked left again."
+      ]
+    },
+    {
+      "id": "000124-82530eb02db0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Ice ran through my veins."
+      ]
+    },
+    {
+      "id": "000124-4bdab397fc7b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-4bdab397fc7b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Al shifted his stance and moved his arms to his sides."
+      ]
+    },
+    {
+      "id": "000124-4bdab397fc7b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A grin spread across his face like sunrise."
+      ]
+    },
+    {
+      "id": "000124-6b0689ae4f38",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-6b0689ae4f38",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Kim stood near the door, moved nearer the center, and stopped."
+      ]
+    },
+    {
+      "id": "000124-6b0689ae4f38",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The next hour would test us like never before."
+      ]
+    },
+    {
+      "id": "000124-c940d0f6f8a1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c940d0f6f8a1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I glanced at Lou and then glanced away."
+      ]
+    },
+    {
+      "id": "000124-c940d0f6f8a1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart did a somersault."
+      ]
+    },
+    {
+      "id": "000124-ab5265775119",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-ab5265775119",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The cook shifted about and then stood still."
+      ]
+    },
+    {
+      "id": "000124-ab5265775119",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "You could have cut the tension with a knife."
+      ]
+    },
+    {
+      "id": "000124-c152e7fe9f80",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c152e7fe9f80",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Aaron turned halfway around, straightened, and looked about."
+      ]
+    },
+    {
+      "id": "000124-c152e7fe9f80",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Hope flared in my heart."
+      ]
+    },
+    {
+      "id": "000124-5d30128b84f4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-5d30128b84f4",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I nodded and changed my posture."
+      ]
+    },
+    {
+      "id": "000124-5d30128b84f4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Anger simmered beneath the surface."
+      ]
+    },
+    {
+      "id": "000124-63a6b995c9c0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-63a6b995c9c0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Nan stepped across the room, paused, and stepped back."
+      ]
+    },
+    {
+      "id": "000124-63a6b995c9c0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Memories danced before her eyes."
+      ]
+    },
+    {
+      "id": "000124-c6f08215e3fd",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c6f08215e3fd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The caretaker stood near me and adjusted his feet."
+      ]
+    },
+    {
+      "id": "000124-c6f08215e3fd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A knot of fear tightened in my chest."
+      ]
+    },
+    {
+      "id": "000124-77c42742629e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-77c42742629e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Jessie looked up, looked down, and looked up again."
+      ]
+    },
+    {
+      "id": "000124-77c42742629e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice thick with emotion"
+      ]
+    },
+    {
+      "id": "000124-d57d75d97e9a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-d57d75d97e9a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The owner leaned on the counter and then shifted away."
+      ]
+    },
+    {
+      "id": "000124-d57d75d97e9a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The moment stretched into infinity."
+      ]
+    },
+    {
+      "id": "000124-791f0454e632",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-791f0454e632",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The captain turned toward me and then toward the others."
+      ]
+    },
+    {
+      "id": "000124-791f0454e632",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A storm was brewing."
+      ]
+    },
+    {
+      "id": "000124-91751ccc0277",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-91751ccc0277",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Elsie repositioned herself and moved her hands a little."
+      ]
+    },
+    {
+      "id": "000124-91751ccc0277",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Her eyes shone with unshed tears."
+      ]
+    },
+    {
+      "id": "000124-7557c00ad67a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-7557c00ad67a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My brother shifted from heel to toe and back again."
+      ]
+    },
+    {
+      "id": "000124-7557c00ad67a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We were hanging by a thread."
+      ]
+    },
+    {
+      "id": "000124-863b2fa79321",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-863b2fa79321",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Dev glanced at me, glanced around, and offered a nod."
+      ]
+    },
+    {
+      "id": "000124-863b2fa79321",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My jaw hit the floor."
+      ]
+    },
+    {
+      "id": "000124-9c648141171c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9c648141171c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Dad stood near his chair and then moved beside the wall."
+      ]
+    },
+    {
+      "id": "000124-9c648141171c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His voice was a dagger of accusation."
+      ]
+    },
+    {
+      "id": "000124-b7196cd2d24b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-b7196cd2d24b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I straightened my back, shifted, and straightened again."
+      ]
+    },
+    {
+      "id": "000124-b7196cd2d24b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The weight of the world rested on my shoulders."
+      ]
+    },
+    {
+      "id": "000124-be0e2923db29",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-be0e2923db29",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The supervisor moved to one side and then to the other."
+      ]
+    },
+    {
+      "id": "000124-be0e2923db29",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Seconds felt like hours."
+      ]
+    },
+    {
+      "id": "000124-f6e7cb21e1b6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-f6e7cb21e1b6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My aunt looked at me, looked toward the room, and looked back."
+      ]
+    },
+    {
+      "id": "000124-f6e7cb21e1b6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A shadow crossed her face."
+      ]
+    },
+    {
+      "id": "000124-1e8b9896b970",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-1e8b9896b970",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Len folded his arms, lowered them, and changed his stance."
+      ]
+    },
+    {
+      "id": "000124-1e8b9896b970",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Fate had brought us together."
+      ]
+    },
+    {
+      "id": "000124-9f9cae647dcf",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9f9cae647dcf",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved around beside the desk and stopped."
+      ]
+    },
+    {
+      "id": "000124-9f9cae647dcf",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My pulse raced out of control."
+      ]
+    },
+    {
+      "id": "000124-73538acdc19d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-73538acdc19d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Nora turned toward us, shifted her shoulders, and turned away."
+      ]
+    },
+    {
+      "id": "000124-73538acdc19d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Her eyes were windows to a wounded soul."
+      ]
+    },
+    {
+      "id": "000124-049628da957e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-049628da957e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Mel nodded, blinked, and settled into another stance."
+      ]
+    },
+    {
+      "id": "000124-049628da957e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We had no idea what was waiting in the wings."
+      ]
+    },
+    {
+      "id": "000124-f5b218771014",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-f5b218771014",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The organizer took a step, turned, and stood there."
+      ]
+    },
+    {
+      "id": "000124-f5b218771014",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We were on the edge of our seats."
+      ]
+    },
+    {
+      "id": "000124-ff2f576e2ac3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-ff2f576e2ac3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Jules leaned back, leaned forward, and changed position."
+      ]
+    },
+    {
+      "id": "000124-ff2f576e2ac3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A single tear traced a path down his cheek."
+      ]
+    },
+    {
+      "id": "000124-265de61a05fa",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-265de61a05fa",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I glanced at Rob, then at the room, then at Rob again."
+      ]
+    },
+    {
+      "id": "000124-265de61a05fa",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We were about to embark on the adventure of a lifetime."
+      ]
+    },
+    {
+      "id": "000124-cc965332f2cb",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-cc965332f2cb",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Our manager smoothed her skirt, straightened, and resettled her shoulders."
+      ]
+    },
+    {
+      "id": "000124-cc965332f2cb",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Despair threatened to swallow me whole."
+      ]
+    },
+    {
+      "id": "000124-81beb5423220",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-81beb5423220",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I shift beside the table and look around."
+      ]
+    },
+    {
+      "id": "000124-81beb5423220",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The truth lies buried beneath layers of deception."
       ]
     }
   ]

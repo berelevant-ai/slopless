@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "e02f431095f907c83b6b045051058c0b9b592081808cab0dcd2ebc11af00f8c0",
+  "textSha256": "65c8cb2e085ae5d8c46fcae6a23f0dedc1dd3759e51bf868b3e2f5c77c923cd9",
   "source": {
     "name": "Codex-authored narrative-craft-empty-beat-development",
     "originalPath": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -25,92 +25,1192 @@
     {
       "id": "000089-092f4a86c338",
       "start": 802,
-      "end": 1141
+      "end": 1146
     },
     {
       "id": "000089-86963052d8cd",
-      "start": 1167,
-      "end": 1522
+      "start": 1172,
+      "end": 1475
     },
     {
       "id": "000089-5b50c82eb4a5",
-      "start": 1548,
-      "end": 1879
+      "start": 1501,
+      "end": 1832
     },
     {
       "id": "000089-c523d9c80677",
-      "start": 1905,
-      "end": 2232
+      "start": 1858,
+      "end": 2185
     },
     {
       "id": "000089-6c9e36a164b4",
-      "start": 2258,
-      "end": 2576
+      "start": 2211,
+      "end": 2529
     },
     {
       "id": "000089-8bfa4eb1d82b",
-      "start": 2602,
-      "end": 2969
+      "start": 2555,
+      "end": 2912
     },
     {
       "id": "000089-143fab413cf7",
-      "start": 2995,
-      "end": 3349
+      "start": 2938,
+      "end": 3292
     },
     {
       "id": "000089-c01c3bc256d6",
-      "start": 3375,
-      "end": 3701
+      "start": 3318,
+      "end": 3644
     },
     {
       "id": "000089-3ef0453123d2",
-      "start": 3727,
-      "end": 4043
+      "start": 3670,
+      "end": 3986
     },
     {
       "id": "000089-ceeff765fd49",
-      "start": 4069,
-      "end": 4352
+      "start": 4012,
+      "end": 4295
     },
     {
       "id": "000089-675599c968c6",
-      "start": 4378,
-      "end": 4698
+      "start": 4321,
+      "end": 4641
     },
     {
       "id": "000089-68f164f2f339",
-      "start": 4724,
-      "end": 5055
+      "start": 4667,
+      "end": 4998
     },
     {
       "id": "000089-8b4a94a22a3f",
-      "start": 5081,
-      "end": 5408
+      "start": 5024,
+      "end": 5351
     },
     {
       "id": "000089-701b0da91e8c",
-      "start": 5434,
-      "end": 5779
+      "start": 5377,
+      "end": 5722
     },
     {
       "id": "000089-85cd15ae4d89",
-      "start": 5805,
-      "end": 6119
+      "start": 5748,
+      "end": 6062
     },
     {
       "id": "000089-a0509670add4",
-      "start": 6145,
-      "end": 6464
+      "start": 6088,
+      "end": 6407
     },
     {
       "id": "000089-133b9e947da0",
-      "start": 6490,
-      "end": 6802
+      "start": 6433,
+      "end": 6745
     },
     {
       "id": "000089-6a684a205dd7",
-      "start": 6828,
-      "end": 7156
+      "start": 6771,
+      "end": 7099
+    },
+    {
+      "id": "000089-c5eb89a2810a",
+      "start": 7125,
+      "end": 7415
+    },
+    {
+      "id": "000089-27e85b92bceb",
+      "start": 7441,
+      "end": 7724
+    },
+    {
+      "id": "000089-e9cc1b4e9a27",
+      "start": 7750,
+      "end": 8056
+    },
+    {
+      "id": "000089-fdd850d11d53",
+      "start": 8082,
+      "end": 8382
+    },
+    {
+      "id": "000089-5dff0e741b02",
+      "start": 8408,
+      "end": 8705
+    },
+    {
+      "id": "000089-bcff608a94fc",
+      "start": 8731,
+      "end": 8996
+    },
+    {
+      "id": "000089-0024a1a21b0e",
+      "start": 9022,
+      "end": 9290
+    },
+    {
+      "id": "000089-f56ad8d14889",
+      "start": 9316,
+      "end": 9607
+    },
+    {
+      "id": "000089-c02cb118825d",
+      "start": 9633,
+      "end": 9903
+    },
+    {
+      "id": "000089-04ffcee43ea6",
+      "start": 9929,
+      "end": 10227
+    },
+    {
+      "id": "000089-cd262ae51636",
+      "start": 10253,
+      "end": 10528
+    },
+    {
+      "id": "000089-6b9f1332b475",
+      "start": 10554,
+      "end": 10840
+    },
+    {
+      "id": "000089-dcbc13f7960c",
+      "start": 10866,
+      "end": 11179
+    },
+    {
+      "id": "000089-f85405f6ca31",
+      "start": 11205,
+      "end": 11507
+    },
+    {
+      "id": "000089-ef0a1e7edf8d",
+      "start": 11533,
+      "end": 11817
+    },
+    {
+      "id": "000089-60c708f458d1",
+      "start": 11843,
+      "end": 12133
+    },
+    {
+      "id": "000089-1e967527420d",
+      "start": 12159,
+      "end": 12432
+    },
+    {
+      "id": "000089-93ec5f04f0e1",
+      "start": 12458,
+      "end": 12744
+    },
+    {
+      "id": "000089-a8d57d7ec3e6",
+      "start": 12770,
+      "end": 13046
+    },
+    {
+      "id": "000089-f8c3599f14c1",
+      "start": 13072,
+      "end": 13352
+    },
+    {
+      "id": "000089-adcc1e9ad0fb",
+      "start": 13378,
+      "end": 13670
+    },
+    {
+      "id": "000089-ad086f4cf76a",
+      "start": 13696,
+      "end": 13973
+    },
+    {
+      "id": "000089-d2e740efb738",
+      "start": 13999,
+      "end": 14260
+    },
+    {
+      "id": "000089-9f8a20aca451",
+      "start": 14286,
+      "end": 14571
+    },
+    {
+      "id": "000089-5b45aead71ea",
+      "start": 14597,
+      "end": 14883
+    },
+    {
+      "id": "000089-1fd641285a3c",
+      "start": 14909,
+      "end": 15189
+    },
+    {
+      "id": "000089-a1e5913605ff",
+      "start": 15215,
+      "end": 15482
+    },
+    {
+      "id": "000089-37c382c2b264",
+      "start": 15508,
+      "end": 15775
+    },
+    {
+      "id": "000089-463fe40fe89a",
+      "start": 15801,
+      "end": 16072
+    },
+    {
+      "id": "000089-9f791f1ed156",
+      "start": 16098,
+      "end": 16386
+    },
+    {
+      "id": "000089-e7a36dbaca27",
+      "start": 16412,
+      "end": 16693
+    },
+    {
+      "id": "000089-a8bedc69965c",
+      "start": 16719,
+      "end": 17015
+    },
+    {
+      "id": "000089-cfb3d249fea1",
+      "start": 17041,
+      "end": 17326
+    },
+    {
+      "id": "000089-fdaf4407a6d9",
+      "start": 17352,
+      "end": 17641
+    },
+    {
+      "id": "000089-e141fb26904a",
+      "start": 17667,
+      "end": 17948
+    },
+    {
+      "id": "000089-eb6feebf8407",
+      "start": 17974,
+      "end": 18240
+    },
+    {
+      "id": "000089-ee5865a6f65c",
+      "start": 18266,
+      "end": 18554
+    },
+    {
+      "id": "000089-64b4bf95447f",
+      "start": 18580,
+      "end": 18871
+    },
+    {
+      "id": "000089-f0982e9f01e3",
+      "start": 18897,
+      "end": 19168
+    },
+    {
+      "id": "000089-d8ee96515fb3",
+      "start": 19194,
+      "end": 19471
+    },
+    {
+      "id": "000089-012e26a3a3d4",
+      "start": 19497,
+      "end": 19793
+    },
+    {
+      "id": "000089-62db48566c20",
+      "start": 19819,
+      "end": 20120
+    },
+    {
+      "id": "000089-6576288277da",
+      "start": 20146,
+      "end": 20406
+    },
+    {
+      "id": "000089-bcd5d5780bca",
+      "start": 20432,
+      "end": 20719
+    },
+    {
+      "id": "000089-8ed9aacde53d",
+      "start": 20745,
+      "end": 21027
+    },
+    {
+      "id": "000089-093fb9f85e8c",
+      "start": 21053,
+      "end": 21341
+    },
+    {
+      "id": "000089-7bf5e30bf829",
+      "start": 21367,
+      "end": 21652
+    },
+    {
+      "id": "000089-c5f98193ebdf",
+      "start": 21678,
+      "end": 21939
+    },
+    {
+      "id": "000089-2a9199937922",
+      "start": 21965,
+      "end": 22266
+    },
+    {
+      "id": "000089-d357b7af8bb8",
+      "start": 22292,
+      "end": 22567
+    },
+    {
+      "id": "000089-8a9e921cf4e3",
+      "start": 22593,
+      "end": 22865
+    },
+    {
+      "id": "000089-363ad394b3b5",
+      "start": 22891,
+      "end": 23155
+    },
+    {
+      "id": "000089-393d0cf268e6",
+      "start": 23181,
+      "end": 23448
+    },
+    {
+      "id": "000089-860ba0e8b1a0",
+      "start": 23474,
+      "end": 23765
+    },
+    {
+      "id": "000089-b7a67fc584c6",
+      "start": 23791,
+      "end": 24073
+    },
+    {
+      "id": "000089-ec4a8e07f213",
+      "start": 24099,
+      "end": 24377
+    },
+    {
+      "id": "000089-31879d523a80",
+      "start": 24403,
+      "end": 24703
+    },
+    {
+      "id": "000089-8e19820ddc3a",
+      "start": 24729,
+      "end": 25016
+    },
+    {
+      "id": "000089-8206483b62fa",
+      "start": 25042,
+      "end": 25352
+    },
+    {
+      "id": "000089-3c3266aa6ccd",
+      "start": 25378,
+      "end": 25665
+    },
+    {
+      "id": "000089-e45d24c58c28",
+      "start": 25691,
+      "end": 25971
+    },
+    {
+      "id": "000089-2470b71ed749",
+      "start": 25997,
+      "end": 26275
+    },
+    {
+      "id": "000089-06f90c47910b",
+      "start": 26301,
+      "end": 26583
+    },
+    {
+      "id": "000089-43e0134ecb00",
+      "start": 26609,
+      "end": 26897
+    },
+    {
+      "id": "000089-13de43d1c16b",
+      "start": 26923,
+      "end": 27198
+    },
+    {
+      "id": "000089-3b6b8ac3e1a0",
+      "start": 27224,
+      "end": 27489
+    },
+    {
+      "id": "000089-7f86828c8014",
+      "start": 27515,
+      "end": 27783
+    },
+    {
+      "id": "000089-b3dadc966e9b",
+      "start": 27809,
+      "end": 28096
+    },
+    {
+      "id": "000089-3df7299feff7",
+      "start": 28122,
+      "end": 28407
+    },
+    {
+      "id": "000089-5b806300755e",
+      "start": 28433,
+      "end": 28708
+    },
+    {
+      "id": "000089-c1513fa271c9",
+      "start": 28734,
+      "end": 29029
+    },
+    {
+      "id": "000089-58bc4902f96f",
+      "start": 29055,
+      "end": 29341
+    },
+    {
+      "id": "000089-aac1475e53e5",
+      "start": 29367,
+      "end": 29673
+    },
+    {
+      "id": "000089-9312bad55937",
+      "start": 29699,
+      "end": 29975
+    },
+    {
+      "id": "000089-95c2ec2795cc",
+      "start": 30001,
+      "end": 30272
+    },
+    {
+      "id": "000089-9daab7407f48",
+      "start": 30298,
+      "end": 30569
+    },
+    {
+      "id": "000089-28e3cccbdfa6",
+      "start": 30595,
+      "end": 30844
+    },
+    {
+      "id": "000089-18326a070153",
+      "start": 30870,
+      "end": 31134
+    },
+    {
+      "id": "000089-5d048e8e87c2",
+      "start": 31160,
+      "end": 31444
+    },
+    {
+      "id": "000089-e8ab0ab50632",
+      "start": 31470,
+      "end": 31744
+    },
+    {
+      "id": "000089-214e94b2ef30",
+      "start": 31770,
+      "end": 32038
+    },
+    {
+      "id": "000089-c24bc0606707",
+      "start": 32064,
+      "end": 32372
+    },
+    {
+      "id": "000089-757c47b95fcc",
+      "start": 32398,
+      "end": 32664
+    },
+    {
+      "id": "000089-918ced88c8dc",
+      "start": 32690,
+      "end": 32962
+    },
+    {
+      "id": "000089-0b0f0a076730",
+      "start": 32988,
+      "end": 33256
+    },
+    {
+      "id": "000089-b9a333ef10fa",
+      "start": 33282,
+      "end": 33552
+    },
+    {
+      "id": "000089-40625e97958f",
+      "start": 33578,
+      "end": 33871
+    },
+    {
+      "id": "000089-e20866a4f624",
+      "start": 33897,
+      "end": 34165
+    },
+    {
+      "id": "000089-2c701c2ce13b",
+      "start": 34191,
+      "end": 34485
+    },
+    {
+      "id": "000089-91b3fdf75dbf",
+      "start": 34511,
+      "end": 34788
+    },
+    {
+      "id": "000089-e44a021c0b9a",
+      "start": 34814,
+      "end": 35123
+    },
+    {
+      "id": "000089-75ff0f768f42",
+      "start": 35149,
+      "end": 35424
+    },
+    {
+      "id": "000089-172fc5607bce",
+      "start": 35450,
+      "end": 35717
+    },
+    {
+      "id": "000089-c6bbe67793c8",
+      "start": 35743,
+      "end": 36013
+    },
+    {
+      "id": "000089-3ea0925737a7",
+      "start": 36039,
+      "end": 36317
+    },
+    {
+      "id": "000089-a90e3267bcbf",
+      "start": 36343,
+      "end": 36605
+    },
+    {
+      "id": "000089-218a20c0e9eb",
+      "start": 36631,
+      "end": 36919
+    },
+    {
+      "id": "000089-c3856b321a84",
+      "start": 36945,
+      "end": 37221
+    },
+    {
+      "id": "000089-ab9daa808356",
+      "start": 37247,
+      "end": 37517
+    },
+    {
+      "id": "000089-d53130a1337e",
+      "start": 37543,
+      "end": 37807
+    },
+    {
+      "id": "000089-269308a92b95",
+      "start": 37833,
+      "end": 38145
+    },
+    {
+      "id": "000089-c33e0a89ba3c",
+      "start": 38171,
+      "end": 38441
+    },
+    {
+      "id": "000089-9e24b4180f57",
+      "start": 38467,
+      "end": 38749
+    },
+    {
+      "id": "000089-47c0af946f28",
+      "start": 38775,
+      "end": 39052
+    },
+    {
+      "id": "000089-d95df46d5214",
+      "start": 39078,
+      "end": 39370
+    },
+    {
+      "id": "000089-6a049ebc4af0",
+      "start": 39396,
+      "end": 39684
+    },
+    {
+      "id": "000089-e86dc5d07422",
+      "start": 39710,
+      "end": 39970
+    },
+    {
+      "id": "000089-b4ef30d1536c",
+      "start": 39996,
+      "end": 40274
+    },
+    {
+      "id": "000089-f2a7ea264cda",
+      "start": 40300,
+      "end": 40581
+    },
+    {
+      "id": "000089-c25f44ca1e68",
+      "start": 40607,
+      "end": 40862
+    },
+    {
+      "id": "000089-04f3f8a9c139",
+      "start": 40888,
+      "end": 41144
+    },
+    {
+      "id": "000089-1192c7e2dd21",
+      "start": 41170,
+      "end": 41436
+    },
+    {
+      "id": "000089-fb5eb1a6607d",
+      "start": 41462,
+      "end": 41728
+    },
+    {
+      "id": "000089-364d0a820da5",
+      "start": 41754,
+      "end": 42033
+    },
+    {
+      "id": "000089-fb2992ee26e7",
+      "start": 42059,
+      "end": 42342
+    },
+    {
+      "id": "000089-b0fbfe1e2c39",
+      "start": 42368,
+      "end": 42660
+    },
+    {
+      "id": "000089-4ee253b5c7b8",
+      "start": 42686,
+      "end": 42976
+    },
+    {
+      "id": "000089-150d94c0c501",
+      "start": 43002,
+      "end": 43276
+    },
+    {
+      "id": "000089-12062efcb1c2",
+      "start": 43302,
+      "end": 43559
+    },
+    {
+      "id": "000089-c39497601609",
+      "start": 43585,
+      "end": 43870
+    },
+    {
+      "id": "000089-709b9c503511",
+      "start": 43896,
+      "end": 44183
+    },
+    {
+      "id": "000089-db468a44803a",
+      "start": 44209,
+      "end": 44475
+    },
+    {
+      "id": "000089-ec8a917d81ac",
+      "start": 44501,
+      "end": 44766
+    },
+    {
+      "id": "000089-908ff1479362",
+      "start": 44792,
+      "end": 45061
+    },
+    {
+      "id": "000089-dfa786ed61af",
+      "start": 45087,
+      "end": 45358
+    },
+    {
+      "id": "000089-4fa5485267d5",
+      "start": 45384,
+      "end": 45631
+    },
+    {
+      "id": "000089-140a924e1e61",
+      "start": 45657,
+      "end": 45928
+    },
+    {
+      "id": "000089-2dec6b6c8c69",
+      "start": 45954,
+      "end": 46237
+    },
+    {
+      "id": "000089-a8ba6e3d4800",
+      "start": 46263,
+      "end": 46543
+    },
+    {
+      "id": "000089-a9e7fa53311f",
+      "start": 46569,
+      "end": 46868
+    },
+    {
+      "id": "000089-921dcd7aedc4",
+      "start": 46894,
+      "end": 47175
+    },
+    {
+      "id": "000089-5c5f6e6517cf",
+      "start": 47201,
+      "end": 47473
+    },
+    {
+      "id": "000089-11d8ca33b1fb",
+      "start": 47499,
+      "end": 47779
+    },
+    {
+      "id": "000089-7d5bf541d64f",
+      "start": 47805,
+      "end": 48088
+    },
+    {
+      "id": "000089-60a06382ee4d",
+      "start": 48114,
+      "end": 48385
+    },
+    {
+      "id": "000089-1d2bce0e0f14",
+      "start": 48411,
+      "end": 48680
+    },
+    {
+      "id": "000089-4a4ab41052b4",
+      "start": 48706,
+      "end": 49001
+    },
+    {
+      "id": "000089-e3f9a507f452",
+      "start": 49027,
+      "end": 49319
+    },
+    {
+      "id": "000089-0e5b03209e4a",
+      "start": 49345,
+      "end": 49618
+    },
+    {
+      "id": "000089-76a5598fc219",
+      "start": 49644,
+      "end": 49914
+    },
+    {
+      "id": "000089-7cffa8c043e2",
+      "start": 49940,
+      "end": 50228
+    },
+    {
+      "id": "000089-cb83982c94c4",
+      "start": 50254,
+      "end": 50525
+    },
+    {
+      "id": "000089-d060b9abe90a",
+      "start": 50551,
+      "end": 50855
+    },
+    {
+      "id": "000089-f1d237baac0c",
+      "start": 50881,
+      "end": 51170
+    },
+    {
+      "id": "000089-e0a4acefa71b",
+      "start": 51196,
+      "end": 51462
+    },
+    {
+      "id": "000089-27ffda4ab8b4",
+      "start": 51488,
+      "end": 51754
+    },
+    {
+      "id": "000089-a8de0bedad27",
+      "start": 51780,
+      "end": 52062
+    },
+    {
+      "id": "000089-0814ef99ee29",
+      "start": 52088,
+      "end": 52338
+    },
+    {
+      "id": "000089-afe716754586",
+      "start": 52364,
+      "end": 52648
+    },
+    {
+      "id": "000089-ca7dfa637560",
+      "start": 52674,
+      "end": 52953
+    },
+    {
+      "id": "000089-bec2c6b35dc6",
+      "start": 52979,
+      "end": 53238
+    },
+    {
+      "id": "000089-bd8ef9ff2815",
+      "start": 53264,
+      "end": 53544
+    },
+    {
+      "id": "000089-ea3412eaf2ca",
+      "start": 53570,
+      "end": 53839
+    },
+    {
+      "id": "000089-d80b52a4f2f9",
+      "start": 53865,
+      "end": 54125
+    },
+    {
+      "id": "000089-7dd01d645be4",
+      "start": 54151,
+      "end": 54447
+    },
+    {
+      "id": "000089-884d32df7299",
+      "start": 54473,
+      "end": 54736
+    },
+    {
+      "id": "000089-f4b89c941ca3",
+      "start": 54762,
+      "end": 55058
+    },
+    {
+      "id": "000089-7d989a626a95",
+      "start": 55084,
+      "end": 55384
+    },
+    {
+      "id": "000089-ee0b280bdf21",
+      "start": 55410,
+      "end": 55711
+    },
+    {
+      "id": "000089-215f41f70d87",
+      "start": 55737,
+      "end": 56045
+    },
+    {
+      "id": "000089-df5c3e73e902",
+      "start": 56071,
+      "end": 56337
+    },
+    {
+      "id": "000089-52f6e5b133df",
+      "start": 56363,
+      "end": 56633
+    },
+    {
+      "id": "000089-0166f588e2ed",
+      "start": 56659,
+      "end": 56952
+    },
+    {
+      "id": "000089-dc4d3711a2c3",
+      "start": 56978,
+      "end": 57275
+    },
+    {
+      "id": "000089-e5adac83a8fd",
+      "start": 57301,
+      "end": 57559
+    },
+    {
+      "id": "000089-e481331d854a",
+      "start": 57585,
+      "end": 57852
+    },
+    {
+      "id": "000089-2da3f83420b2",
+      "start": 57878,
+      "end": 58144
+    },
+    {
+      "id": "000089-4cc6f6e02dbe",
+      "start": 58170,
+      "end": 58425
+    },
+    {
+      "id": "000089-8a662959bfc1",
+      "start": 58451,
+      "end": 58742
+    },
+    {
+      "id": "000089-f4d2412b79fe",
+      "start": 58768,
+      "end": 59062
+    },
+    {
+      "id": "000089-1c9f8e1d2a85",
+      "start": 59088,
+      "end": 59368
+    },
+    {
+      "id": "000089-c10b5bbae42f",
+      "start": 59394,
+      "end": 59666
+    },
+    {
+      "id": "000089-d718b74e1c7e",
+      "start": 59692,
+      "end": 59966
+    },
+    {
+      "id": "000089-a2c8f74b1c15",
+      "start": 59992,
+      "end": 60273
+    },
+    {
+      "id": "000089-79e3deacc407",
+      "start": 60299,
+      "end": 60570
+    },
+    {
+      "id": "000089-779da7cf1918",
+      "start": 60596,
+      "end": 60865
+    },
+    {
+      "id": "000089-fb4a259875a5",
+      "start": 60891,
+      "end": 61164
+    },
+    {
+      "id": "000089-e23492aaa2d3",
+      "start": 61190,
+      "end": 61467
+    },
+    {
+      "id": "000089-5ea81124ba4a",
+      "start": 61493,
+      "end": 61793
+    },
+    {
+      "id": "000089-a295fc300147",
+      "start": 61819,
+      "end": 62101
+    },
+    {
+      "id": "000089-8a91a7030e59",
+      "start": 62127,
+      "end": 62423
+    },
+    {
+      "id": "000089-8af8c09c068f",
+      "start": 62449,
+      "end": 62745
+    },
+    {
+      "id": "000089-9a2ea2bea308",
+      "start": 62771,
+      "end": 63067
+    },
+    {
+      "id": "000089-7d0163c30eae",
+      "start": 63093,
+      "end": 63362
+    },
+    {
+      "id": "000089-0f563c52256c",
+      "start": 63388,
+      "end": 63676
+    },
+    {
+      "id": "000089-11259814a8b6",
+      "start": 63702,
+      "end": 64007
+    },
+    {
+      "id": "000089-67cfd7eb781f",
+      "start": 64033,
+      "end": 64314
+    },
+    {
+      "id": "000089-89aea1252d16",
+      "start": 64340,
+      "end": 64624
+    },
+    {
+      "id": "000089-646de57bd4bc",
+      "start": 64650,
+      "end": 64926
+    },
+    {
+      "id": "000089-327c5cf14931",
+      "start": 64952,
+      "end": 65208
+    },
+    {
+      "id": "000089-4409d26b1f65",
+      "start": 65234,
+      "end": 65529
+    },
+    {
+      "id": "000089-05bcb89e42bb",
+      "start": 65555,
+      "end": 65843
+    },
+    {
+      "id": "000089-bea99b4612d1",
+      "start": 65869,
+      "end": 66150
+    },
+    {
+      "id": "000089-54e13141c91a",
+      "start": 66176,
+      "end": 66481
+    },
+    {
+      "id": "000089-6717afc9d3e6",
+      "start": 66507,
+      "end": 66753
+    },
+    {
+      "id": "000089-4152da44931f",
+      "start": 66779,
+      "end": 67052
+    },
+    {
+      "id": "000089-88a02c756be1",
+      "start": 67078,
+      "end": 67364
+    },
+    {
+      "id": "000089-33946098dc18",
+      "start": 67390,
+      "end": 67658
+    },
+    {
+      "id": "000089-c82d04c7f969",
+      "start": 67684,
+      "end": 67971
+    },
+    {
+      "id": "000089-2ad3c0784420",
+      "start": 67997,
+      "end": 68264
+    },
+    {
+      "id": "000089-c33cfa57c6e6",
+      "start": 68290,
+      "end": 68596
+    },
+    {
+      "id": "000089-6d8d279f46ae",
+      "start": 68622,
+      "end": 68910
+    },
+    {
+      "id": "000089-57e57a7011d2",
+      "start": 68936,
+      "end": 69217
+    },
+    {
+      "id": "000089-db42c18aa2c6",
+      "start": 69243,
+      "end": 69532
+    },
+    {
+      "id": "000089-4af8a1daa6cc",
+      "start": 69558,
+      "end": 69848
+    },
+    {
+      "id": "000089-d866b8c72d03",
+      "start": 69874,
+      "end": 70183
+    },
+    {
+      "id": "000089-bd981b9a69dd",
+      "start": 70209,
+      "end": 70467
+    },
+    {
+      "id": "000089-0dcae74ef4ff",
+      "start": 70493,
+      "end": 70777
+    },
+    {
+      "id": "000089-df76a20ae60c",
+      "start": 70803,
+      "end": 71095
+    },
+    {
+      "id": "000089-532ab71556d1",
+      "start": 71121,
+      "end": 71382
+    },
+    {
+      "id": "000089-061f2ad8a477",
+      "start": 71408,
+      "end": 71684
+    },
+    {
+      "id": "000089-f47826f782ee",
+      "start": 71710,
+      "end": 71990
+    },
+    {
+      "id": "000089-1af83b51ab9f",
+      "start": 72016,
+      "end": 72288
+    },
+    {
+      "id": "000089-e2b5d64e1c6a",
+      "start": 72314,
+      "end": 72599
+    },
+    {
+      "id": "000089-7e0453be7f7c",
+      "start": 72625,
+      "end": 72909
+    },
+    {
+      "id": "000089-25878b65e070",
+      "start": 72935,
+      "end": 73226
+    },
+    {
+      "id": "000089-01c3dfdbc6d6",
+      "start": 73252,
+      "end": 73516
+    },
+    {
+      "id": "000089-f619bf71fe20",
+      "start": 73542,
+      "end": 73832
+    },
+    {
+      "id": "000089-7beb713deca1",
+      "start": 73858,
+      "end": 74139
+    },
+    {
+      "id": "000089-2f31f4c2cfd7",
+      "start": 74165,
+      "end": 74440
     }
   ],
   "labels": [
@@ -135,7 +1235,7 @@
       "check": "narrative-craft/empty-beat",
       "expected": true,
       "snippets": [
-        "keeping pace for a little while as we went"
+        "keeping pace with each other for a little while"
       ]
     },
     {
@@ -143,8 +1243,7 @@
       "check": "narrative-craft/empty-beat",
       "expected": true,
       "snippets": [
-        "She paused briefly in the middle of the task.",
-        "After that small interval, she resumed sorting."
+        "She paused briefly, then resumed sorting."
       ]
     },
     {
@@ -160,7 +1259,7 @@
       "check": "narrative-craft/empty-beat",
       "expected": true,
       "snippets": [
-        "I take a short pause, then"
+        "I take a short pause, then ask whether the price has changed too."
       ]
     },
     {
@@ -176,7 +1275,7 @@
       "check": "narrative-craft/empty-beat",
       "expected": true,
       "snippets": [
-        "A brief interval followed."
+        "She waited a moment, then reached for a patch."
       ]
     },
     {
@@ -184,7 +1283,7 @@
       "check": "narrative-craft/empty-beat",
       "expected": true,
       "snippets": [
-        "My brother paused for a second before adding"
+        "My brother paused for a second before adding that he wanted chips instead of rice."
       ]
     },
     {
@@ -242,6 +1341,1436 @@
     },
     {
       "id": "000089-6a684a205dd7",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-c5eb89a2810a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "The assistant waited a moment."
+      ]
+    },
+    {
+      "id": "000089-27e85b92bceb",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e9cc1b4e9a27",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He took a brief pause before speaking."
+      ]
+    },
+    {
+      "id": "000089-fdd850d11d53",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-5dff0e741b02",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Her ears made a little flick."
+      ]
+    },
+    {
+      "id": "000089-bcff608a94fc",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-0024a1a21b0e",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "There was a small interval before I answered."
+      ]
+    },
+    {
+      "id": "000089-f56ad8d14889",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-c02cb118825d",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "For a stretch, our footsteps kept time together."
+      ]
+    },
+    {
+      "id": "000089-04ffcee43ea6",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-cd262ae51636",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She lingered at the counter for a bit."
+      ]
+    },
+    {
+      "id": "000089-6b9f1332b475",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-dcbc13f7960c",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "A little silence passed."
+      ]
+    },
+    {
+      "id": "000089-f85405f6ca31",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-ef0a1e7edf8d",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He paused for a few seconds."
+      ]
+    },
+    {
+      "id": "000089-60c708f458d1",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-1e967527420d",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I stopped for a beat."
+      ]
+    },
+    {
+      "id": "000089-93ec5f04f0e1",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-a8d57d7ec3e6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Her tail twitched once."
+      ]
+    },
+    {
+      "id": "000089-f8c3599f14c1",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-adcc1e9ad0fb",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I remained there briefly."
+      ]
+    },
+    {
+      "id": "000089-ad086f4cf76a",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-d2e740efb738",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She allowed a moment to go by."
+      ]
+    },
+    {
+      "id": "000089-9f8a20aca451",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-5b45aead71ea",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He hesitated briefly before mentioning the next lesson."
+      ]
+    },
+    {
+      "id": "000089-1fd641285a3c",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-a1e5913605ff",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "For a heartbeat, I did nothing."
+      ]
+    },
+    {
+      "id": "000089-37c382c2b264",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-463fe40fe89a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She stood a moment by the bed."
+      ]
+    },
+    {
+      "id": "000089-9f791f1ed156",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e7a36dbaca27",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She suspended things for a second."
+      ]
+    },
+    {
+      "id": "000089-a8bedc69965c",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-cfb3d249fea1",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Ben kept alongside me for a little way."
+      ]
+    },
+    {
+      "id": "000089-fdaf4407a6d9",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e141fb26904a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "A beat intervened."
+      ]
+    },
+    {
+      "id": "000089-eb6feebf8407",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-ee5865a6f65c",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "His tail gave an idle sweep."
+      ]
+    },
+    {
+      "id": "000089-64b4bf95447f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-f0982e9f01e3",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "There followed a short lull."
+      ]
+    },
+    {
+      "id": "000089-d8ee96515fb3",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-012e26a3a3d4",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He broke off for an instant."
+      ]
+    },
+    {
+      "id": "000089-62db48566c20",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-6576288277da",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I dallied there a few seconds."
+      ]
+    },
+    {
+      "id": "000089-bcd5d5780bca",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-8ed9aacde53d",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I marked time for a moment."
+      ]
+    },
+    {
+      "id": "000089-093fb9f85e8c",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-7bf5e30bf829",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She stopped briefly."
+      ]
+    },
+    {
+      "id": "000089-c5f98193ebdf",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-2a9199937922",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She let the conversation rest for a breath."
+      ]
+    },
+    {
+      "id": "000089-d357b7af8bb8",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-8a9e921cf4e3",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I spent a moment standing there."
+      ]
+    },
+    {
+      "id": "000089-363ad394b3b5",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-393d0cf268e6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He held the moment before replying."
+      ]
+    },
+    {
+      "id": "000089-860ba0e8b1a0",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-b7a67fc584c6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Its tail made a small bob."
+      ]
+    },
+    {
+      "id": "000089-ec4a8e07f213",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-31879d523a80",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Between one pile and the next, we paused."
+      ]
+    },
+    {
+      "id": "000089-8e19820ddc3a",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-8206483b62fa",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She left a tiny space between her words."
+      ]
+    },
+    {
+      "id": "000089-3c3266aa6ccd",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e45d24c58c28",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I stayed put for a short spell."
+      ]
+    },
+    {
+      "id": "000089-2470b71ed749",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-06f90c47910b",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We walked that way for a while."
+      ]
+    },
+    {
+      "id": "000089-43e0134ecb00",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-13de43d1c16b",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Before dialing, I hesitated for an instant."
+      ]
+    },
+    {
+      "id": "000089-3b6b8ac3e1a0",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-7f86828c8014",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "A handful of seconds slipped past."
+      ]
+    },
+    {
+      "id": "000089-b3dadc966e9b",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-3df7299feff7",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I gave it a beat."
+      ]
+    },
+    {
+      "id": "000089-5b806300755e",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-c1513fa271c9",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "At the entrance we lingered briefly."
+      ]
+    },
+    {
+      "id": "000089-58bc4902f96f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-aac1475e53e5",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Its ears shifted slightly."
+      ]
+    },
+    {
+      "id": "000089-9312bad55937",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-95c2ec2795cc",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I let a moment settle."
+      ]
+    },
+    {
+      "id": "000089-9daab7407f48",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-28e3cccbdfa6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I took a small pause."
+      ]
+    },
+    {
+      "id": "000089-18326a070153",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-5d048e8e87c2",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I paused in the kitchen."
+      ]
+    },
+    {
+      "id": "000089-e8ab0ab50632",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-214e94b2ef30",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He let a second elapse."
+      ]
+    },
+    {
+      "id": "000089-c24bc0606707",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-757c47b95fcc",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "For a brief interval, I waited."
+      ]
+    },
+    {
+      "id": "000089-918ced88c8dc",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-0b0f0a076730",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I hung back a little before going in."
+      ]
+    },
+    {
+      "id": "000089-b9a333ef10fa",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-40625e97958f",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We moved along together for several paces."
+      ]
+    },
+    {
+      "id": "000089-e20866a4f624",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-2c701c2ce13b",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I rested in the moment."
+      ]
+    },
+    {
+      "id": "000089-91b3fdf75dbf",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e44a021c0b9a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He paused a fraction."
+      ]
+    },
+    {
+      "id": "000089-75ff0f768f42",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-172fc5607bce",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "One ear gave a quick twitch."
+      ]
+    },
+    {
+      "id": "000089-c6bbe67793c8",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-3ea0925737a7",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "stopped for a little while"
+      ]
+    },
+    {
+      "id": "000089-a90e3267bcbf",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-218a20c0e9eb",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I lingered for an instant."
+      ]
+    },
+    {
+      "id": "000089-c3856b321a84",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-ab9daa808356",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I inserted a short pause."
+      ]
+    },
+    {
+      "id": "000089-d53130a1337e",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-269308a92b95",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I let a brief moment pass."
+      ]
+    },
+    {
+      "id": "000089-c33e0a89ba3c",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-9e24b4180f57",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "My sister stood for a second."
+      ]
+    },
+    {
+      "id": "000089-47c0af946f28",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-d95df46d5214",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I waited a couple of seconds before replying."
+      ]
+    },
+    {
+      "id": "000089-6a049ebc4af0",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e86dc5d07422",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We kept the same speed for a short time."
+      ]
+    },
+    {
+      "id": "000089-b4ef30d1536c",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-f2a7ea264cda",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I halted momentarily."
+      ]
+    },
+    {
+      "id": "000089-c25f44ca1e68",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-04f3f8a9c139",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Its tail shifted in a little response."
+      ]
+    },
+    {
+      "id": "000089-1192c7e2dd21",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-fb5eb1a6607d",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I tarried a moment by the door."
+      ]
+    },
+    {
+      "id": "000089-364d0a820da5",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-fb2992ee26e7",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She gave the room a moment."
+      ]
+    },
+    {
+      "id": "000089-b0fbfe1e2c39",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-4ee253b5c7b8",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "A little time hung there."
+      ]
+    },
+    {
+      "id": "000089-150d94c0c501",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-12062efcb1c2",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "For an instant he was still."
+      ]
+    },
+    {
+      "id": "000089-c39497601609",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-709b9c503511",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We took a brief breather before starting."
+      ]
+    },
+    {
+      "id": "000089-db468a44803a",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-ec8a917d81ac",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I held back for a beat."
+      ]
+    },
+    {
+      "id": "000089-908ff1479362",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-dfa786ed61af",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "His ears offered a small twitch."
+      ]
+    },
+    {
+      "id": "000089-4fa5485267d5",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-140a924e1e61",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I delayed a moment before pocketing it."
+      ]
+    },
+    {
+      "id": "000089-2dec6b6c8c69",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-a8ba6e3d4800",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We carried on abreast for a short distance."
+      ]
+    },
+    {
+      "id": "000089-a9e7fa53311f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-921dcd7aedc4",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She waited two beats."
+      ]
+    },
+    {
+      "id": "000089-5c5f6e6517cf",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-11d8ca33b1fb",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I hovered there briefly."
+      ]
+    },
+    {
+      "id": "000089-7d5bf541d64f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-60a06382ee4d",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He stopped for a breath of time."
+      ]
+    },
+    {
+      "id": "000089-1d2bce0e0f14",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-4a4ab41052b4",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I paused for a short count."
+      ]
+    },
+    {
+      "id": "000089-e3f9a507f452",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-0e5b03209e4a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Her tail made a passing flick."
+      ]
+    },
+    {
+      "id": "000089-76a5598fc219",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-7cffa8c043e2",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She lingered in silence a moment."
+      ]
+    },
+    {
+      "id": "000089-cb83982c94c4",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-d060b9abe90a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He remained motionless for a second."
+      ]
+    },
+    {
+      "id": "000089-f1d237baac0c",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e0a4acefa71b",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I let the seconds gather."
+      ]
+    },
+    {
+      "id": "000089-27ffda4ab8b4",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-a8de0bedad27",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "A short stillness followed her words."
+      ]
+    },
+    {
+      "id": "000089-0814ef99ee29",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-afe716754586",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I stopped a few heartbeats."
+      ]
+    },
+    {
+      "id": "000089-ca7dfa637560",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-bec2c6b35dc6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I maintained her pace for a little stretch."
+      ]
+    },
+    {
+      "id": "000089-bd8ef9ff2815",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-ea3412eaf2ca",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "His tail supplied a brief wag."
+      ]
+    },
+    {
+      "id": "000089-d80b52a4f2f9",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-7dd01d645be4",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I stayed a moment longer."
+      ]
+    },
+    {
+      "id": "000089-884d32df7299",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-f4b89c941ca3",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He made room for a pause."
+      ]
+    },
+    {
+      "id": "000089-7d989a626a95",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-ee0b280bdf21",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "There was a momentary suspension."
+      ]
+    },
+    {
+      "id": "000089-215f41f70d87",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-df5c3e73e902",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I took an idle instant."
+      ]
+    },
+    {
+      "id": "000089-52f6e5b133df",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-0166f588e2ed",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We stood around it briefly."
+      ]
+    },
+    {
+      "id": "000089-dc4d3711a2c3",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-e5adac83a8fd",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "When I spoke, one ear stirred."
+      ]
+    },
+    {
+      "id": "000089-e481331d854a",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-2da3f83420b2",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I waited through a small pocket of time."
+      ]
+    },
+    {
+      "id": "000089-4cc6f6e02dbe",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-8a662959bfc1",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I briefly checked my forward motion through the conversation."
+      ]
+    },
+    {
+      "id": "000089-f4d2412b79fe",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-1c9f8e1d2a85",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I broke my activity for a moment."
+      ]
+    },
+    {
+      "id": "000089-c10b5bbae42f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-d718b74e1c7e",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Our pace stayed matched for a spell."
+      ]
+    },
+    {
+      "id": "000089-a2c8f74b1c15",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-79e3deacc407",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I let a pause open up."
+      ]
+    },
+    {
+      "id": "000089-779da7cf1918",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-fb4a259875a5",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I remained at the desk for an instant."
+      ]
+    },
+    {
+      "id": "000089-e23492aaa2d3",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-5ea81124ba4a",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He gave the announcement a little breathing space."
+      ]
+    },
+    {
+      "id": "000089-a295fc300147",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-8a91a7030e59",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "His ears gave a neutral quiver."
+      ]
+    },
+    {
+      "id": "000089-8af8c09c068f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-9a2ea2bea308",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I held the scene for a second."
+      ]
+    },
+    {
+      "id": "000089-7d0163c30eae",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-0f563c52256c",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She took a momentary halt."
+      ]
+    },
+    {
+      "id": "000089-11259814a8b6",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-67cfd7eb781f",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We lingered between sitting and rising."
+      ]
+    },
+    {
+      "id": "000089-89aea1252d16",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-646de57bd4bc",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "A brief nothing filled the gap."
+      ]
+    },
+    {
+      "id": "000089-327c5cf14931",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-4409d26b1f65",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He paused briefly over the tin."
+      ]
+    },
+    {
+      "id": "000089-05bcb89e42bb",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-bea99b4612d1",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Its tail registered a small flick."
+      ]
+    },
+    {
+      "id": "000089-54e13141c91a",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-6717afc9d3e6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I stayed with that for a second."
+      ]
+    },
+    {
+      "id": "000089-4152da44931f",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-88a02c756be1",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I stopped for a small measure of time."
+      ]
+    },
+    {
+      "id": "000089-33946098dc18",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-c82d04c7f969",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Our strides accompanied each other for a while."
+      ]
+    },
+    {
+      "id": "000089-2ad3c0784420",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-c33cfa57c6e6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He paused for a moment."
+      ]
+    },
+    {
+      "id": "000089-6d8d279f46ae",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-57e57a7011d2",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "She allowed a beat to fall."
+      ]
+    },
+    {
+      "id": "000089-db42c18aa2c6",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-4af8a1daa6cc",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "His ears put in a quick twitch."
+      ]
+    },
+    {
+      "id": "000089-d866b8c72d03",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-bd981b9a69dd",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "For a blink, we remained in place."
+      ]
+    },
+    {
+      "id": "000089-0dcae74ef4ff",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-df76a20ae60c",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I lingered through a little interval."
+      ]
+    },
+    {
+      "id": "000089-532ab71556d1",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-061f2ad8a477",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I suspended my search for an instant."
+      ]
+    },
+    {
+      "id": "000089-f47826f782ee",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-1af83b51ab9f",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He took a small break in the exchange."
+      ]
+    },
+    {
+      "id": "000089-e2b5d64e1c6a",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-7e0453be7f7c",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Its tail supplied a tiny response."
+      ]
+    },
+    {
+      "id": "000089-25878b65e070",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-01c3dfdbc6d6",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "We kept abreast for a handful of steps."
+      ]
+    },
+    {
+      "id": "000089-f619bf71fe20",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000089-7beb713deca1",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I let an empty second pass."
+      ]
+    },
+    {
+      "id": "000089-2f31f4c2cfd7",
       "check": "narrative-craft/empty-beat",
       "expected": false
     }

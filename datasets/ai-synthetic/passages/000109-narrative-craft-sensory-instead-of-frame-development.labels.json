@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "bf3afbc60322dae3953c1e788e87b2215e668fa5de6e659265978300fe0056ba",
+  "textSha256": "3f14e094c689211c1ebb7adee3be72a05ad6d3db03a88e3f6ce8c34d9426a4b3",
   "source": {
     "name": "Codex-authored narrative-craft-sensory-instead-of-frame-development",
     "originalPath": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -25,92 +25,1192 @@
     {
       "id": "000109-e790b9330e12",
       "start": 851,
-      "end": 1202
+      "end": 1220
     },
     {
       "id": "000109-8563492fb7ed",
-      "start": 1228,
-      "end": 1552
+      "start": 1246,
+      "end": 1564
     },
     {
       "id": "000109-90448acaf1a2",
-      "start": 1578,
-      "end": 1935
+      "start": 1590,
+      "end": 1942
     },
     {
       "id": "000109-014377d7cd8d",
-      "start": 1961,
-      "end": 2324
+      "start": 1968,
+      "end": 2331
     },
     {
       "id": "000109-bfbd0c428bc0",
-      "start": 2350,
-      "end": 2709
+      "start": 2357,
+      "end": 2716
     },
     {
       "id": "000109-2e3f922d7516",
-      "start": 2735,
-      "end": 3118
+      "start": 2742,
+      "end": 3123
     },
     {
       "id": "000109-22edd3a24bea",
-      "start": 3144,
-      "end": 3551
+      "start": 3149,
+      "end": 3556
     },
     {
       "id": "000109-61a39ac3af82",
-      "start": 3577,
-      "end": 3941
+      "start": 3582,
+      "end": 3952
     },
     {
       "id": "000109-9d473f466698",
-      "start": 3967,
-      "end": 4332
+      "start": 3978,
+      "end": 4343
     },
     {
       "id": "000109-d8d0398d34e2",
-      "start": 4358,
-      "end": 4699
+      "start": 4369,
+      "end": 4710
     },
     {
       "id": "000109-4f9a8e394ed2",
-      "start": 4725,
-      "end": 5087
+      "start": 4736,
+      "end": 5098
     },
     {
       "id": "000109-2ebda48e602d",
-      "start": 5113,
-      "end": 5476
+      "start": 5124,
+      "end": 5487
     },
     {
       "id": "000109-3e7f85752b3a",
-      "start": 5502,
-      "end": 5839
+      "start": 5513,
+      "end": 5850
     },
     {
       "id": "000109-c20a4e2e2c54",
-      "start": 5865,
-      "end": 6218
+      "start": 5876,
+      "end": 6229
     },
     {
       "id": "000109-8478972bacfb",
-      "start": 6244,
-      "end": 6630
+      "start": 6255,
+      "end": 6641
     },
     {
       "id": "000109-df1a7231f527",
-      "start": 6656,
-      "end": 7005
+      "start": 6667,
+      "end": 7016
     },
     {
       "id": "000109-a3d6fba63273",
-      "start": 7031,
-      "end": 7358
+      "start": 7042,
+      "end": 7369
     },
     {
       "id": "000109-5d352d2c1e6c",
-      "start": 7384,
-      "end": 7748
+      "start": 7395,
+      "end": 7759
+    },
+    {
+      "id": "000109-bfe95630ad53",
+      "start": 7785,
+      "end": 8111
+    },
+    {
+      "id": "000109-f0e488a279ce",
+      "start": 8137,
+      "end": 8439
+    },
+    {
+      "id": "000109-1beb5c3a1280",
+      "start": 8465,
+      "end": 8732
+    },
+    {
+      "id": "000109-34aff33169e2",
+      "start": 8758,
+      "end": 9075
+    },
+    {
+      "id": "000109-5272332f1e4a",
+      "start": 9101,
+      "end": 9404
+    },
+    {
+      "id": "000109-b8ea529f2161",
+      "start": 9430,
+      "end": 9719
+    },
+    {
+      "id": "000109-18a7ed4c5398",
+      "start": 9745,
+      "end": 10050
+    },
+    {
+      "id": "000109-43667e2bd445",
+      "start": 10076,
+      "end": 10359
+    },
+    {
+      "id": "000109-bc8a70b74f56",
+      "start": 10385,
+      "end": 10707
+    },
+    {
+      "id": "000109-28bcef971e5e",
+      "start": 10733,
+      "end": 11057
+    },
+    {
+      "id": "000109-03f99dee11ce",
+      "start": 11083,
+      "end": 11379
+    },
+    {
+      "id": "000109-731a5ee4a1f5",
+      "start": 11405,
+      "end": 11706
+    },
+    {
+      "id": "000109-c19557567564",
+      "start": 11732,
+      "end": 12027
+    },
+    {
+      "id": "000109-4be9249fad50",
+      "start": 12053,
+      "end": 12365
+    },
+    {
+      "id": "000109-2bc23a73dd91",
+      "start": 12391,
+      "end": 12680
+    },
+    {
+      "id": "000109-bc80b4fba1ae",
+      "start": 12706,
+      "end": 13003
+    },
+    {
+      "id": "000109-2adf846b4030",
+      "start": 13029,
+      "end": 13344
+    },
+    {
+      "id": "000109-3bba14523cc5",
+      "start": 13370,
+      "end": 13664
+    },
+    {
+      "id": "000109-afdf31870a29",
+      "start": 13690,
+      "end": 13999
+    },
+    {
+      "id": "000109-c73398355c82",
+      "start": 14025,
+      "end": 14324
+    },
+    {
+      "id": "000109-da807e2ade08",
+      "start": 14350,
+      "end": 14653
+    },
+    {
+      "id": "000109-8baaf10a9481",
+      "start": 14679,
+      "end": 14994
+    },
+    {
+      "id": "000109-37b89a3a3027",
+      "start": 15020,
+      "end": 15305
+    },
+    {
+      "id": "000109-92da7dc6089d",
+      "start": 15331,
+      "end": 15617
+    },
+    {
+      "id": "000109-c8f1bba16c09",
+      "start": 15643,
+      "end": 15944
+    },
+    {
+      "id": "000109-788894c5c15b",
+      "start": 15970,
+      "end": 16241
+    },
+    {
+      "id": "000109-22864b41690b",
+      "start": 16267,
+      "end": 16584
+    },
+    {
+      "id": "000109-4f17d9a48266",
+      "start": 16610,
+      "end": 16906
+    },
+    {
+      "id": "000109-8cd39d454d44",
+      "start": 16932,
+      "end": 17233
+    },
+    {
+      "id": "000109-30c50bd475ea",
+      "start": 17259,
+      "end": 17570
+    },
+    {
+      "id": "000109-d2844ec848f4",
+      "start": 17596,
+      "end": 17925
+    },
+    {
+      "id": "000109-074610d32a02",
+      "start": 17951,
+      "end": 18262
+    },
+    {
+      "id": "000109-9e673e3e3736",
+      "start": 18288,
+      "end": 18587
+    },
+    {
+      "id": "000109-e4bd5dd81231",
+      "start": 18613,
+      "end": 18931
+    },
+    {
+      "id": "000109-153db6dbf3c3",
+      "start": 18957,
+      "end": 19277
+    },
+    {
+      "id": "000109-d5063c15aee5",
+      "start": 19303,
+      "end": 19590
+    },
+    {
+      "id": "000109-cafd27d99ba2",
+      "start": 19616,
+      "end": 19935
+    },
+    {
+      "id": "000109-23ab0098b959",
+      "start": 19961,
+      "end": 20260
+    },
+    {
+      "id": "000109-49b8eaeacbdf",
+      "start": 20286,
+      "end": 20577
+    },
+    {
+      "id": "000109-577a3085adc6",
+      "start": 20603,
+      "end": 20913
+    },
+    {
+      "id": "000109-96ea3e1bfb98",
+      "start": 20939,
+      "end": 21260
+    },
+    {
+      "id": "000109-03a7e1c541fb",
+      "start": 21286,
+      "end": 21586
+    },
+    {
+      "id": "000109-228ef53062a8",
+      "start": 21612,
+      "end": 21904
+    },
+    {
+      "id": "000109-c0613175a66e",
+      "start": 21930,
+      "end": 22231
+    },
+    {
+      "id": "000109-cf9902c96ffd",
+      "start": 22257,
+      "end": 22591
+    },
+    {
+      "id": "000109-c1455d916630",
+      "start": 22617,
+      "end": 22934
+    },
+    {
+      "id": "000109-9e6aa5e9f993",
+      "start": 22960,
+      "end": 23252
+    },
+    {
+      "id": "000109-f286232831a9",
+      "start": 23278,
+      "end": 23592
+    },
+    {
+      "id": "000109-a1c887bbbff2",
+      "start": 23618,
+      "end": 23929
+    },
+    {
+      "id": "000109-3de5f5932039",
+      "start": 23955,
+      "end": 24264
+    },
+    {
+      "id": "000109-bd7e15875fb3",
+      "start": 24290,
+      "end": 24598
+    },
+    {
+      "id": "000109-6e7553c6ada2",
+      "start": 24624,
+      "end": 24923
+    },
+    {
+      "id": "000109-0ec629abbf50",
+      "start": 24949,
+      "end": 25244
+    },
+    {
+      "id": "000109-c0aea3684702",
+      "start": 25270,
+      "end": 25592
+    },
+    {
+      "id": "000109-b0a2ed676f33",
+      "start": 25618,
+      "end": 25908
+    },
+    {
+      "id": "000109-e9b8b8f26009",
+      "start": 25934,
+      "end": 26230
+    },
+    {
+      "id": "000109-293553256bad",
+      "start": 26256,
+      "end": 26547
+    },
+    {
+      "id": "000109-90c0a8262192",
+      "start": 26573,
+      "end": 26879
+    },
+    {
+      "id": "000109-1c43fefac7d7",
+      "start": 26905,
+      "end": 27216
+    },
+    {
+      "id": "000109-80a964c9e6fd",
+      "start": 27242,
+      "end": 27531
+    },
+    {
+      "id": "000109-d619b2215c5a",
+      "start": 27557,
+      "end": 27860
+    },
+    {
+      "id": "000109-1e8ba39dff01",
+      "start": 27886,
+      "end": 28196
+    },
+    {
+      "id": "000109-79df17f0cca6",
+      "start": 28222,
+      "end": 28533
+    },
+    {
+      "id": "000109-07bf9e284370",
+      "start": 28559,
+      "end": 28861
+    },
+    {
+      "id": "000109-c80dfcd37ab3",
+      "start": 28887,
+      "end": 29176
+    },
+    {
+      "id": "000109-67d3257523b9",
+      "start": 29202,
+      "end": 29485
+    },
+    {
+      "id": "000109-b22f56b57026",
+      "start": 29511,
+      "end": 29822
+    },
+    {
+      "id": "000109-97d686580928",
+      "start": 29848,
+      "end": 30146
+    },
+    {
+      "id": "000109-f5f10b0ad2aa",
+      "start": 30172,
+      "end": 30483
+    },
+    {
+      "id": "000109-00d393b89db0",
+      "start": 30509,
+      "end": 30800
+    },
+    {
+      "id": "000109-d290661f5321",
+      "start": 30826,
+      "end": 31124
+    },
+    {
+      "id": "000109-975352ff882d",
+      "start": 31150,
+      "end": 31434
+    },
+    {
+      "id": "000109-6af7d85e8f9d",
+      "start": 31460,
+      "end": 31760
+    },
+    {
+      "id": "000109-92984ec9f5a3",
+      "start": 31786,
+      "end": 32108
+    },
+    {
+      "id": "000109-ae4597a79e0f",
+      "start": 32134,
+      "end": 32435
+    },
+    {
+      "id": "000109-52ed9d49c109",
+      "start": 32461,
+      "end": 32776
+    },
+    {
+      "id": "000109-c5ea301bd4bf",
+      "start": 32802,
+      "end": 33103
+    },
+    {
+      "id": "000109-5d6d06da51f1",
+      "start": 33129,
+      "end": 33432
+    },
+    {
+      "id": "000109-99da19e21173",
+      "start": 33458,
+      "end": 33762
+    },
+    {
+      "id": "000109-316a6c5e7c99",
+      "start": 33788,
+      "end": 34095
+    },
+    {
+      "id": "000109-ee7d5f9b25c5",
+      "start": 34121,
+      "end": 34416
+    },
+    {
+      "id": "000109-770273c204cc",
+      "start": 34442,
+      "end": 34743
+    },
+    {
+      "id": "000109-9af307f0e4d5",
+      "start": 34769,
+      "end": 35085
+    },
+    {
+      "id": "000109-e97e1c728583",
+      "start": 35111,
+      "end": 35435
+    },
+    {
+      "id": "000109-935090e8f0aa",
+      "start": 35461,
+      "end": 35776
+    },
+    {
+      "id": "000109-28573cdb9339",
+      "start": 35802,
+      "end": 36095
+    },
+    {
+      "id": "000109-427eb3a8ea28",
+      "start": 36121,
+      "end": 36420
+    },
+    {
+      "id": "000109-95a1a2d001f2",
+      "start": 36446,
+      "end": 36770
+    },
+    {
+      "id": "000109-50921a9eda24",
+      "start": 36796,
+      "end": 37102
+    },
+    {
+      "id": "000109-4213db2bacc6",
+      "start": 37128,
+      "end": 37449
+    },
+    {
+      "id": "000109-038c5c582a70",
+      "start": 37475,
+      "end": 37797
+    },
+    {
+      "id": "000109-cefaf68bd1fc",
+      "start": 37823,
+      "end": 38123
+    },
+    {
+      "id": "000109-849c56e8d074",
+      "start": 38149,
+      "end": 38454
+    },
+    {
+      "id": "000109-a4071a2da9eb",
+      "start": 38480,
+      "end": 38778
+    },
+    {
+      "id": "000109-e0b4ae1c200d",
+      "start": 38804,
+      "end": 39119
+    },
+    {
+      "id": "000109-0ac38336b8e2",
+      "start": 39145,
+      "end": 39459
+    },
+    {
+      "id": "000109-d4b4bd53e045",
+      "start": 39485,
+      "end": 39777
+    },
+    {
+      "id": "000109-5af3f2500973",
+      "start": 39803,
+      "end": 40111
+    },
+    {
+      "id": "000109-35637599b1e6",
+      "start": 40137,
+      "end": 40441
+    },
+    {
+      "id": "000109-c6fbcf0cbd2d",
+      "start": 40467,
+      "end": 40771
+    },
+    {
+      "id": "000109-dd50644fb81e",
+      "start": 40797,
+      "end": 41116
+    },
+    {
+      "id": "000109-e4fb86b49b45",
+      "start": 41142,
+      "end": 41476
+    },
+    {
+      "id": "000109-6102d52fedff",
+      "start": 41502,
+      "end": 41791
+    },
+    {
+      "id": "000109-04d474da4878",
+      "start": 41817,
+      "end": 42128
+    },
+    {
+      "id": "000109-2bdc44410224",
+      "start": 42154,
+      "end": 42457
+    },
+    {
+      "id": "000109-f55224821221",
+      "start": 42483,
+      "end": 42796
+    },
+    {
+      "id": "000109-2977c3617393",
+      "start": 42822,
+      "end": 43137
+    },
+    {
+      "id": "000109-85c1b4e07697",
+      "start": 43163,
+      "end": 43508
+    },
+    {
+      "id": "000109-a3acd9b8e5a3",
+      "start": 43534,
+      "end": 43819
+    },
+    {
+      "id": "000109-091ab30d0953",
+      "start": 43845,
+      "end": 44192
+    },
+    {
+      "id": "000109-5fe97403a6dc",
+      "start": 44218,
+      "end": 44507
+    },
+    {
+      "id": "000109-5cf250dbb08c",
+      "start": 44533,
+      "end": 44830
+    },
+    {
+      "id": "000109-c8b09c52b6c9",
+      "start": 44856,
+      "end": 45153
+    },
+    {
+      "id": "000109-c9ae221a31b4",
+      "start": 45179,
+      "end": 45479
+    },
+    {
+      "id": "000109-bc07bc9b4bb5",
+      "start": 45505,
+      "end": 45807
+    },
+    {
+      "id": "000109-6ac8cf26e5bd",
+      "start": 45833,
+      "end": 46103
+    },
+    {
+      "id": "000109-1254d41b315f",
+      "start": 46129,
+      "end": 46435
+    },
+    {
+      "id": "000109-ed02bc4ecb87",
+      "start": 46461,
+      "end": 46745
+    },
+    {
+      "id": "000109-0e92bc75fe8c",
+      "start": 46771,
+      "end": 47071
+    },
+    {
+      "id": "000109-278d1a0ac2ca",
+      "start": 47097,
+      "end": 47403
+    },
+    {
+      "id": "000109-2d1a0728c4b3",
+      "start": 47429,
+      "end": 47716
+    },
+    {
+      "id": "000109-c8922ce52474",
+      "start": 47742,
+      "end": 48025
+    },
+    {
+      "id": "000109-9adb5a387c64",
+      "start": 48051,
+      "end": 48340
+    },
+    {
+      "id": "000109-411bb7277649",
+      "start": 48366,
+      "end": 48634
+    },
+    {
+      "id": "000109-0f726113e60d",
+      "start": 48660,
+      "end": 48940
+    },
+    {
+      "id": "000109-3a860b8e3a8d",
+      "start": 48966,
+      "end": 49277
+    },
+    {
+      "id": "000109-cc93ea6c5c54",
+      "start": 49303,
+      "end": 49589
+    },
+    {
+      "id": "000109-12338dab9430",
+      "start": 49615,
+      "end": 49911
+    },
+    {
+      "id": "000109-b377d6b8bc3d",
+      "start": 49937,
+      "end": 50232
+    },
+    {
+      "id": "000109-4ef40098a89c",
+      "start": 50258,
+      "end": 50543
+    },
+    {
+      "id": "000109-627499a7eea4",
+      "start": 50569,
+      "end": 50860
+    },
+    {
+      "id": "000109-1f6ab0f9a361",
+      "start": 50886,
+      "end": 51200
+    },
+    {
+      "id": "000109-e7c854ab1477",
+      "start": 51226,
+      "end": 51485
+    },
+    {
+      "id": "000109-c4cf66c0111a",
+      "start": 51511,
+      "end": 51810
+    },
+    {
+      "id": "000109-7300fe44131e",
+      "start": 51836,
+      "end": 52140
+    },
+    {
+      "id": "000109-a1ba2dcfa1fa",
+      "start": 52166,
+      "end": 52467
+    },
+    {
+      "id": "000109-28d83232c922",
+      "start": 52493,
+      "end": 52779
+    },
+    {
+      "id": "000109-c97dd095c003",
+      "start": 52805,
+      "end": 53090
+    },
+    {
+      "id": "000109-e58035313e34",
+      "start": 53116,
+      "end": 53404
+    },
+    {
+      "id": "000109-716758036d9d",
+      "start": 53430,
+      "end": 53729
+    },
+    {
+      "id": "000109-2056071064b9",
+      "start": 53755,
+      "end": 54079
+    },
+    {
+      "id": "000109-e2498c9faf15",
+      "start": 54105,
+      "end": 54390
+    },
+    {
+      "id": "000109-1224572d420f",
+      "start": 54416,
+      "end": 54712
+    },
+    {
+      "id": "000109-b1d254dbe8fd",
+      "start": 54738,
+      "end": 55022
+    },
+    {
+      "id": "000109-0378cfdb63c6",
+      "start": 55048,
+      "end": 55334
+    },
+    {
+      "id": "000109-6cd790ae8363",
+      "start": 55360,
+      "end": 55632
+    },
+    {
+      "id": "000109-b9c291ec5051",
+      "start": 55658,
+      "end": 55954
+    },
+    {
+      "id": "000109-aa6c264ca303",
+      "start": 55980,
+      "end": 56261
+    },
+    {
+      "id": "000109-5d5395fed74c",
+      "start": 56287,
+      "end": 56580
+    },
+    {
+      "id": "000109-2d99343bf1f8",
+      "start": 56606,
+      "end": 56912
+    },
+    {
+      "id": "000109-c038f3b0af1a",
+      "start": 56938,
+      "end": 57239
+    },
+    {
+      "id": "000109-ca9095f25158",
+      "start": 57265,
+      "end": 57574
+    },
+    {
+      "id": "000109-70a106120499",
+      "start": 57600,
+      "end": 57882
+    },
+    {
+      "id": "000109-3aa1d1e9d37e",
+      "start": 57908,
+      "end": 58220
+    },
+    {
+      "id": "000109-fa31b6222ad4",
+      "start": 58246,
+      "end": 58528
+    },
+    {
+      "id": "000109-3a35901b8cb0",
+      "start": 58554,
+      "end": 58833
+    },
+    {
+      "id": "000109-9f2e5160825b",
+      "start": 58859,
+      "end": 59133
+    },
+    {
+      "id": "000109-f97960632008",
+      "start": 59159,
+      "end": 59428
+    },
+    {
+      "id": "000109-53f23b9d3517",
+      "start": 59454,
+      "end": 59755
+    },
+    {
+      "id": "000109-f8b682f443a9",
+      "start": 59781,
+      "end": 60089
+    },
+    {
+      "id": "000109-9b09e3aa2b97",
+      "start": 60115,
+      "end": 60396
+    },
+    {
+      "id": "000109-274ed802fe3e",
+      "start": 60422,
+      "end": 60733
+    },
+    {
+      "id": "000109-59072e2ade7b",
+      "start": 60759,
+      "end": 61038
+    },
+    {
+      "id": "000109-075f71a7af0d",
+      "start": 61064,
+      "end": 61348
+    },
+    {
+      "id": "000109-a3d681f7b8d5",
+      "start": 61374,
+      "end": 61651
+    },
+    {
+      "id": "000109-b92f5ed61e33",
+      "start": 61677,
+      "end": 61959
+    },
+    {
+      "id": "000109-d4346f9de870",
+      "start": 61985,
+      "end": 62267
+    },
+    {
+      "id": "000109-4edb883ebb69",
+      "start": 62293,
+      "end": 62551
+    },
+    {
+      "id": "000109-4454c5e2b499",
+      "start": 62577,
+      "end": 62877
+    },
+    {
+      "id": "000109-79210b554997",
+      "start": 62903,
+      "end": 63189
+    },
+    {
+      "id": "000109-1e2b236a281d",
+      "start": 63215,
+      "end": 63495
+    },
+    {
+      "id": "000109-dbdc6e9d0a0f",
+      "start": 63521,
+      "end": 63795
+    },
+    {
+      "id": "000109-a5b1ed644726",
+      "start": 63821,
+      "end": 64122
+    },
+    {
+      "id": "000109-c2440eb174df",
+      "start": 64148,
+      "end": 64454
+    },
+    {
+      "id": "000109-ed2d4e99b5de",
+      "start": 64480,
+      "end": 64775
+    },
+    {
+      "id": "000109-9e5a2a79a275",
+      "start": 64801,
+      "end": 65094
+    },
+    {
+      "id": "000109-e7fc18f040ba",
+      "start": 65120,
+      "end": 65397
+    },
+    {
+      "id": "000109-698438243f8b",
+      "start": 65423,
+      "end": 65711
+    },
+    {
+      "id": "000109-70c6adbf9e91",
+      "start": 65737,
+      "end": 66016
+    },
+    {
+      "id": "000109-a7af3dbf165b",
+      "start": 66042,
+      "end": 66354
+    },
+    {
+      "id": "000109-883a2ee4a022",
+      "start": 66380,
+      "end": 66698
+    },
+    {
+      "id": "000109-110b3c7f5f7c",
+      "start": 66724,
+      "end": 67032
+    },
+    {
+      "id": "000109-ac9f772f8eb2",
+      "start": 67058,
+      "end": 67364
+    },
+    {
+      "id": "000109-ece4a3c206bd",
+      "start": 67390,
+      "end": 67695
+    },
+    {
+      "id": "000109-ca781207a7a8",
+      "start": 67721,
+      "end": 68020
+    },
+    {
+      "id": "000109-a97b04711737",
+      "start": 68046,
+      "end": 68324
+    },
+    {
+      "id": "000109-9556e3d46e25",
+      "start": 68350,
+      "end": 68661
+    },
+    {
+      "id": "000109-0b98a37daf18",
+      "start": 68687,
+      "end": 68985
+    },
+    {
+      "id": "000109-42034a6fa758",
+      "start": 69011,
+      "end": 69331
+    },
+    {
+      "id": "000109-3991c7f6a54c",
+      "start": 69357,
+      "end": 69679
+    },
+    {
+      "id": "000109-1b4af7127caf",
+      "start": 69705,
+      "end": 70024
+    },
+    {
+      "id": "000109-7a4b0a1aa9e1",
+      "start": 70050,
+      "end": 70352
+    },
+    {
+      "id": "000109-bd8d5985b862",
+      "start": 70378,
+      "end": 70667
+    },
+    {
+      "id": "000109-1dca9d6cd9dd",
+      "start": 70693,
+      "end": 70989
+    },
+    {
+      "id": "000109-8d4c003c0ac5",
+      "start": 71015,
+      "end": 71297
+    },
+    {
+      "id": "000109-ead7a976b683",
+      "start": 71323,
+      "end": 71635
+    },
+    {
+      "id": "000109-f1e062604874",
+      "start": 71661,
+      "end": 71956
+    },
+    {
+      "id": "000109-0be5deb03675",
+      "start": 71982,
+      "end": 72265
+    },
+    {
+      "id": "000109-6c8b25f23f3a",
+      "start": 72291,
+      "end": 72567
+    },
+    {
+      "id": "000109-9e4fa7cd5ce9",
+      "start": 72593,
+      "end": 72875
+    },
+    {
+      "id": "000109-f32f19871750",
+      "start": 72901,
+      "end": 73242
+    },
+    {
+      "id": "000109-658dcc26b034",
+      "start": 73268,
+      "end": 73581
+    },
+    {
+      "id": "000109-721df0a4089b",
+      "start": 73607,
+      "end": 73873
+    },
+    {
+      "id": "000109-3ddb70af5d69",
+      "start": 73899,
+      "end": 74183
+    },
+    {
+      "id": "000109-95795f26c0ac",
+      "start": 74209,
+      "end": 74509
+    },
+    {
+      "id": "000109-5d7a45280b15",
+      "start": 74535,
+      "end": 74808
+    },
+    {
+      "id": "000109-d167b31ba1f7",
+      "start": 74834,
+      "end": 75153
+    },
+    {
+      "id": "000109-f46ce4a379dd",
+      "start": 75179,
+      "end": 75467
+    },
+    {
+      "id": "000109-64f05db6998b",
+      "start": 75493,
+      "end": 75798
+    },
+    {
+      "id": "000109-c39aa9873f18",
+      "start": 75824,
+      "end": 76101
+    },
+    {
+      "id": "000109-15de9303a198",
+      "start": 76127,
+      "end": 76422
+    },
+    {
+      "id": "000109-88436177c33a",
+      "start": 76448,
+      "end": 76738
+    },
+    {
+      "id": "000109-f43c225e1f8f",
+      "start": 76764,
+      "end": 77088
+    },
+    {
+      "id": "000109-0b22b2a6cf77",
+      "start": 77114,
+      "end": 77407
+    },
+    {
+      "id": "000109-e911977b14b3",
+      "start": 77433,
+      "end": 77711
+    },
+    {
+      "id": "000109-fd1ee6e06407",
+      "start": 77737,
+      "end": 78041
+    },
+    {
+      "id": "000109-5cdf06dd977d",
+      "start": 78067,
+      "end": 78384
+    },
+    {
+      "id": "000109-db63ba101f8d",
+      "start": 78410,
+      "end": 78705
+    },
+    {
+      "id": "000109-2fd695d9582b",
+      "start": 78731,
+      "end": 79031
+    },
+    {
+      "id": "000109-61535de40d70",
+      "start": 79057,
+      "end": 79347
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "the air smelled of lavender and old wood instead of exhaust and wet pavement"
+        "Inside, the air smelled of lavender and old wood instead of exhaust and wet pavement."
       ]
     },
     {
@@ -135,7 +1235,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "The morning tasted of salt and sunlight rather than coffee and hurry."
+        "letting the morning's taste of salt and sunlight replace the taste of coffee and hurry."
       ]
     },
     {
@@ -143,7 +1243,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "Here, life felt like soft wool and warm timber instead of glass and cold steel."
+        "Glass and cold steel gave way to the feel of soft wool and warm timber as he followed her upstairs."
       ]
     },
     {
@@ -175,7 +1275,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "the park offered birdsong and rustling leaves in place of engines and hurried voices"
+        "With birdsong and rustling leaves replacing the noise of engines and hurried voices around her"
       ]
     },
     {
@@ -191,7 +1291,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "Out here the morning had the texture of bread crust and warm stone, not the hard edges of metal and glass."
+        "in a morning that had exchanged the hard edges of metal and glass for the texture of bread crust and warm stone."
       ]
     },
     {
@@ -241,6 +1341,1437 @@
     },
     {
       "id": "000109-5d352d2c1e6c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-bfe95630ad53",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the house welcomed me with the scent of cedar and possibility instead of petrol and routine"
+      ]
+    },
+    {
+      "id": "000109-f0e488a279ce",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The building exchanged its chorus of splashes and shrieks for a lullaby of echoes and whispered water."
+      ]
+    },
+    {
+      "id": "000109-1beb5c3a1280",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening tasted of rain and freedom now, no longer of paper and obligation."
+      ]
+    },
+    {
+      "id": "000109-34aff33169e2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its air offered cold plaster and forgotten winters in place of the velvet and perfume of our usual venue."
+      ]
+    },
+    {
+      "id": "000109-5272332f1e4a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Saturday had shed the brittle sound of traffic and commerce for the soft rustle of pages and peace."
+      ]
+    },
+    {
+      "id": "000109-b8ea529f2161",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shed smelled of rope and patient years rather than soap and schedules."
+      ]
+    },
+    {
+      "id": "000109-18a7ed4c5398",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat settled into the texture of shadows and cool cotton, replacing the rough weave of laughter and bright glass."
+      ]
+    },
+    {
+      "id": "000109-43667e2bd445",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Here the wind carried salt and forgotten stories, not the city's coffee and ambition."
+      ]
+    },
+    {
+      "id": "000109-bc8a70b74f56",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Plastic and fluorescent glare yielded to the touch of leaves and golden quiet."
+      ]
+    },
+    {
+      "id": "000109-28bcef971e5e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Dawn replaced the taste of stale hours and tired lights with honey and new beginnings."
+      ]
+    },
+    {
+      "id": "000109-03f99dee11ce",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "You hear wind and belonging instead of sirens and wanting."
+      ]
+    },
+    {
+      "id": "000109-731a5ee4a1f5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the corridor breathed beeswax and old dreams where the lobby had breathed brass and restless feet"
+      ]
+    },
+    {
+      "id": "000109-c19557567564",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "My Sundays acquired the smell of soil and contentment in exchange for fabric softener and deadlines."
+      ]
+    },
+    {
+      "id": "000109-4be9249fad50",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air had traded its weekday tang of grease and impatience for lemon cake and tenderness."
+      ]
+    },
+    {
+      "id": "000109-2bc23a73dd91",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The mornings rang with buckets and birds instead of keyboards and urgency."
+      ]
+    },
+    {
+      "id": "000109-bc80b4fba1ae",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The touch of stale air and rigid plastic gave way to the caress of breeze and living stone."
+      ]
+    },
+    {
+      "id": "000109-2adf846b4030",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "This one smelled of pine and gentle distance rather than gravy and familiar chaos."
+      ]
+    },
+    {
+      "id": "000109-3bba14523cc5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the room's scent changed from dust and disappointment to sawdust and promise"
+      ]
+    },
+    {
+      "id": "000109-afdf31870a29",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening slipped from the harsh notes of engines and wet asphalt into the gentle chords of wool and woodsmoke."
+      ]
+    },
+    {
+      "id": "000109-c73398355c82",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside, she could taste earth and open sky instead of disinfectant and waiting."
+      ]
+    },
+    {
+      "id": "000109-da807e2ade08",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The bus's music changed from chatter and clattering bags to the hymn of wheels and solitude."
+      ]
+    },
+    {
+      "id": "000109-8baaf10a9481",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Even the air seemed newly flavored, apricots and adventure replacing the old taste of rain and resignation."
+      ]
+    },
+    {
+      "id": "000109-37b89a3a3027",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "We exchanged the smooth chill of official walls for the rough warmth of tools and memory."
+      ]
+    },
+    {
+      "id": "000109-92da7dc6089d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The train carried me from the smell of washing powder and rules into the scent of iron and possibility."
+      ]
+    },
+    {
+      "id": "000109-c8f1bba16c09",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "There the day sounded of ripples and breathing space rather than machinery and demands."
+      ]
+    },
+    {
+      "id": "000109-788894c5c15b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room shed its taste of brass and competition for paper and spent wishes."
+      ]
+    },
+    {
+      "id": "000109-22864b41690b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The old factory now smelled of ink and ambition rather than oil and vanished labor."
+      ]
+    },
+    {
+      "id": "000109-4f17d9a48266",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "My hands left behind the cold language of screens and keys for the warm vocabulary of clay and patience."
+      ]
+    },
+    {
+      "id": "000109-8cd39d454d44",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside, the street offered a soundtrack of rain and renewal instead of slammed doors and bitter words."
+      ]
+    },
+    {
+      "id": "000109-30c50bd475ea",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside it, the air tasted of sea breezes and simplicity, a welcome change from concrete and complication."
+      ]
+    },
+    {
+      "id": "000109-d2844ec848f4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The warehouse's familiar smell of cardboard and sweat had become the scent of endings and empty corners."
+      ]
+    },
+    {
+      "id": "000109-074610d32a02",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The nights feel like linen and moonlight now, instead of sandpaper and old worries."
+      ]
+    },
+    {
+      "id": "000109-9e673e3e3736",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The woods traded the town's metallic chatter for a tapestry of birdsong and soft green silence."
+      ]
+    },
+    {
+      "id": "000109-e4bd5dd81231",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "In the stairwell, yesterday's aroma of dinner and domestic life had surrendered to ash and broken dreams."
+      ]
+    },
+    {
+      "id": "000109-153db6dbf3c3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Dinner tasted of olives and unhurried hours rather than salt and obligations."
+      ]
+    },
+    {
+      "id": "000109-d5063c15aee5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Neon and sizzling oil replaced the grey flavors of routine."
+      ]
+    },
+    {
+      "id": "000109-cafd27d99ba2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The empty school had exchanged chalk and childhood for the scent of shadows and secrets."
+      ]
+    },
+    {
+      "id": "000109-23ab0098b959",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air pressed warm soil and green dreams against our faces in place of rain and urban weariness."
+      ]
+    },
+    {
+      "id": "000109-49b8eaeacbdf",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the afternoon hummed with soap and soft surrender rather than traffic and hard decisions"
+      ]
+    },
+    {
+      "id": "000109-577a3085adc6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Where the building had once tasted of popcorn and anticipation, it now tasted of varnish and forgotten applause."
+      ]
+    },
+    {
+      "id": "000109-96ea3e1bfb98",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The platform's air had the texture of iron and impatience, unlike the velvet warmth of voices and fellowship we had left behind."
+      ]
+    },
+    {
+      "id": "000109-03a7e1c541fb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside, the world replaced its scratchy music of errands and engines with the soft notes of whiteness and wonder."
+      ]
+    },
+    {
+      "id": "000109-228ef53062a8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The boathouse no longer smelled of sweat and striving; it smelled of timber and old loyalties."
+      ]
+    },
+    {
+      "id": "000109-c0613175a66e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room had begun exchanging the flavor of dust and disruption for garlic and belonging."
+      ]
+    },
+    {
+      "id": "000109-cf9902c96ffd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "His mornings now resounded with greetings and gentle purpose in place of alarms and relentless machinery."
+      ]
+    },
+    {
+      "id": "000109-c1455d916630",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "a world that smelled of butter and kindness instead of bleach and bureaucracy"
+      ]
+    },
+    {
+      "id": "000109-9e6aa5e9f993",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air changed its language from exhaust and haste to heather and timeless quiet."
+      ]
+    },
+    {
+      "id": "000109-f286232831a9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Under our feet, the cold feel of linoleum and duty became the warm pulse of boards and possibility."
+      ]
+    },
+    {
+      "id": "000109-a1c887bbbff2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Her house sounded of kettles and contentment, unlike mine with its chorus of drills and dread."
+      ]
+    },
+    {
+      "id": "000109-3de5f5932039",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Our journey exchanged the smell of vinyl and impatience for damp earth and unexpected peace."
+      ]
+    },
+    {
+      "id": "000109-bd7e15875fb3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon lost its taste of lilies and sorrow and acquired one of toast and small mercies."
+      ]
+    },
+    {
+      "id": "000109-6e7553c6ada2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "It's all sunlight and soft edges where the old place was fluorescent hum and sharp corners."
+      ]
+    },
+    {
+      "id": "000109-0ec629abbf50",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon wore apple skin and golden stillness in place of the sharp perfume of petrol and plans."
+      ]
+    },
+    {
+      "id": "000109-c0aea3684702",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the scent of paper and orderly thought gave way to solder and stubborn hope"
+      ]
+    },
+    {
+      "id": "000109-b0a2ed676f33",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The restaurant replaced the evening's taste of rain and disappointment with spice and generous warmth."
+      ]
+    },
+    {
+      "id": "000109-e9b8b8f26009",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its old cacophony of drills and dust had been replaced by a symphony of footsteps and fresh starts."
+      ]
+    },
+    {
+      "id": "000109-293553256bad",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air held lace and yesterday rather than the chrome and tomorrow of her own flat."
+      ]
+    },
+    {
+      "id": "000109-90c0a8262192",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the changing room exchanged its percussion of lockers and laughter for the sigh of tiles and tired light"
+      ]
+    },
+    {
+      "id": "000109-1c43fefac7d7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "trading the taste of stale carpet and confinement for spray and boundless distance"
+      ]
+    },
+    {
+      "id": "000109-80a964c9e6fd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Compared with the station's hard palette of iron and hurry, it felt like a quilt of amber light and welcome."
+      ]
+    },
+    {
+      "id": "000109-d619b2215c5a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the stale perfume of worry and shadows yielded to sunlight and hope"
+      ]
+    },
+    {
+      "id": "000109-1e8ba39dff01",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the shed exchanged the bitter music of trouble and rust for the warm harmony of work and reassurance"
+      ]
+    },
+    {
+      "id": "000109-79df17f0cca6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Supper itself had traded the dry flavor of duty and haste for the sweetness of fellowship and candlelight."
+      ]
+    },
+    {
+      "id": "000109-07bf9e284370",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The whole room had exchanged its touch of old wool and weariness for bare wood and bright beginnings."
+      ]
+    },
+    {
+      "id": "000109-c80dfcd37ab3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the workshop's air now tasted of clean metal and tomorrow instead of grease and defeated years"
+      ]
+    },
+    {
+      "id": "000109-67d3257523b9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the harsh textures of illness and steel were giving way to linen and gentle hope"
+      ]
+    },
+    {
+      "id": "000109-b22f56b57026",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning had nevertheless exchanged its sharp notes of wires and worry for the soft music of feathers and home."
+      ]
+    },
+    {
+      "id": "000109-97d686580928",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the afternoon seemed to have changed from the scent of steel and danger to that of cotton and trust"
+      ]
+    },
+    {
+      "id": "000109-f5f10b0ad2aa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its sound had also softened from glass and ambition into velvet and belonging."
+      ]
+    },
+    {
+      "id": "000109-00d393b89db0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Our mornings had shed the flavor of clocks and concrete for the sweetness of steam and second chances."
+      ]
+    },
+    {
+      "id": "000109-d290661f5321",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the world exchanged its perfume of rain and regret for bread and enduring kindness"
+      ]
+    },
+    {
+      "id": "000109-975352ff882d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the docks' clanging world melted into a softer soundscape of water and wonder"
+      ]
+    },
+    {
+      "id": "000109-6af7d85e8f9d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "letting the flavor of pine and pure air displace the taste of screens and stale demands"
+      ]
+    },
+    {
+      "id": "000109-92984ec9f5a3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning exchanged the polished feel of offices and appearances for the honest texture of denim and earth."
+      ]
+    },
+    {
+      "id": "000109-ae4597a79e0f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the streets smelled of oranges and common purpose rather than tarmac and private concerns"
+      ]
+    },
+    {
+      "id": "000109-52ed9d49c109",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The office's nervous percussion of fingers and phones thinned into a lullaby of carpet and evening shadows."
+      ]
+    },
+    {
+      "id": "000109-c5ea301bd4bf",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Summer began to taste of strawberries and neighborliness instead of dust and locked doors."
+      ]
+    },
+    {
+      "id": "000109-5d6d06da51f1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its rooms replaced the street's abrasive mixture of engines and urgency with the soft grain of wood and remembered lives."
+      ]
+    },
+    {
+      "id": "000109-99da19e21173",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house breathed tea and forgiveness where it had once breathed silence and accusation."
+      ]
+    },
+    {
+      "id": "000109-316a6c5e7c99",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Night had replaced the rough sounds of wheels and weary voices with a velvet weave of crickets and distant stars."
+      ]
+    },
+    {
+      "id": "000109-ee7d5f9b25c5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "salt and soft horizons took over from the scent of brake dust and busy lives"
+      ]
+    },
+    {
+      "id": "000109-770273c204cc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its bright clatter of games and growing up became a low murmur of leaves and long memories."
+      ]
+    },
+    {
+      "id": "000109-9af307f0e4d5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the taste of dust and hesitation was already giving way to paint and possibility"
+      ]
+    },
+    {
+      "id": "000109-e97e1c728583",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening traded the hard surfaces of names and job titles for the soft texture of wine and shared history."
+      ]
+    },
+    {
+      "id": "000109-935090e8f0aa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "It smelled less of onions and old arguments now than of cinnamon and renewed faith."
+      ]
+    },
+    {
+      "id": "000109-28573cdb9339",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "City static drained away, replaced by the music of fields and unclaimed hours."
+      ]
+    },
+    {
+      "id": "000109-427eb3a8ea28",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the air carried paper and patient dust instead of perfume and passing concerns"
+      ]
+    },
+    {
+      "id": "000109-95a1a2d001f2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Our street exchanged its usual flavor of lawn clippings and routine for electric sugar and youthful rebellion."
+      ]
+    },
+    {
+      "id": "000109-50921a9eda24",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat's cold touch of glass and isolation softened into velvet and sanctuary."
+      ]
+    },
+    {
+      "id": "000109-4213db2bacc6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "That's when it smells of cedar and confidence rather than hair spray and everyone's problems."
+      ]
+    },
+    {
+      "id": "000109-038c5c582a70",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its air had traded the sour notes of institutions and loneliness for a bouquet of lavender and gentle dignity."
+      ]
+    },
+    {
+      "id": "000109-cefaf68bd1fc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hard clang of competition yielded to a softer symphony of breeze and easy company."
+      ]
+    },
+    {
+      "id": "000109-849c56e8d074",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning tasted of mint and small discoveries in place of cereal and restless screens."
+      ]
+    },
+    {
+      "id": "000109-a4071a2da9eb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room exchanged the heavy grain of arguments and obligations for pale wood and open horizons."
+      ]
+    },
+    {
+      "id": "000109-e0b4ae1c200d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the market's smell shifted from coins and commerce to paper and shared dreams"
+      ]
+    },
+    {
+      "id": "000109-0ac38336b8e2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the village replaced the city's drumbeat of pressure and petrol with the quiet melody of stone and seasons"
+      ]
+    },
+    {
+      "id": "000109-d4b4bd53e045",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Night offered the cool taste of rain and release instead of ovens and endless orders."
+      ]
+    },
+    {
+      "id": "000109-5af3f2500973",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Visitors stepped out of the gritty texture of roads and responsibilities into the soft weave of petals and possibility."
+      ]
+    },
+    {
+      "id": "000109-35637599b1e6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening's scent turned from wet roads and weary miles to roses and the promise of rest."
+      ]
+    },
+    {
+      "id": "000109-c6fbcf0cbd2d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the room swapped its buzzing fabric of questions and ambition for a hush of dust and faded wisdom"
+      ]
+    },
+    {
+      "id": "000109-dd50644fb81e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The beach tasted of salt and second chances rather than yesterday's coffee and small defeats."
+      ]
+    },
+    {
+      "id": "000109-e4fb86b49b45",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Their courtyard exchanged the harsh embrace of metal and inconvenience for the soft touch of greenery and grace."
+      ]
+    },
+    {
+      "id": "000109-6102d52fedff",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "At noon it smelled of soup and solidarity instead of cardboard and commerce."
+      ]
+    },
+    {
+      "id": "000109-04d474da4878",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the building's dull rhythm of forms and footfall became a bright cascade of laughter and lost youth"
+      ]
+    },
+    {
+      "id": "000109-2bdc44410224",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air offered peach skin and slow sunlight, replacing the familiar flavor of toast and timetables."
+      ]
+    },
+    {
+      "id": "000109-f55224821221",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the room changed from the brittle touch of loneliness and glass to the deep softness of wool and welcome"
+      ]
+    },
+    {
+      "id": "000109-2977c3617393",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning smelled no longer of petrol and practical matters but of stone and ancient consolation."
+      ]
+    },
+    {
+      "id": "000109-85c1b4e07697",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "the sharp music of business and passing strangers softened into teaspoons and togetherness"
+      ]
+    },
+    {
+      "id": "000109-a3acd9b8e5a3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Her kitchen tasted of nutmeg and reassurance instead of the cold coffee and closed doors of my morning."
+      ]
+    },
+    {
+      "id": "000109-091ab30d0953",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The night smelled of pine and promise instead of concrete and compromise",
+        "the day's hard clang of keys and contracts dissolved into a soft chorus of candles and quiet"
+      ]
+    },
+    {
+      "id": "000109-5fe97403a6dc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-5cf250dbb08c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c8b09c52b6c9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c9ae221a31b4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-bc07bc9b4bb5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-6ac8cf26e5bd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-1254d41b315f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ed02bc4ecb87",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-0e92bc75fe8c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-278d1a0ac2ca",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-2d1a0728c4b3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c8922ce52474",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-9adb5a387c64",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-411bb7277649",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-0f726113e60d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-3a860b8e3a8d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-cc93ea6c5c54",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-12338dab9430",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-b377d6b8bc3d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-4ef40098a89c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-627499a7eea4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-1f6ab0f9a361",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-e7c854ab1477",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c4cf66c0111a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-7300fe44131e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-a1ba2dcfa1fa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-28d83232c922",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c97dd095c003",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-e58035313e34",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-716758036d9d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-2056071064b9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-e2498c9faf15",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-1224572d420f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-b1d254dbe8fd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-0378cfdb63c6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-6cd790ae8363",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-b9c291ec5051",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-aa6c264ca303",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-5d5395fed74c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-2d99343bf1f8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c038f3b0af1a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ca9095f25158",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-70a106120499",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-3aa1d1e9d37e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-fa31b6222ad4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-3a35901b8cb0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-9f2e5160825b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-f97960632008",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-53f23b9d3517",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-f8b682f443a9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-9b09e3aa2b97",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-274ed802fe3e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-59072e2ade7b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-075f71a7af0d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-a3d681f7b8d5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-b92f5ed61e33",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-d4346f9de870",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-4edb883ebb69",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-4454c5e2b499",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-79210b554997",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-1e2b236a281d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-dbdc6e9d0a0f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-a5b1ed644726",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c2440eb174df",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ed2d4e99b5de",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-9e5a2a79a275",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-e7fc18f040ba",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-698438243f8b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-70c6adbf9e91",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-a7af3dbf165b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-883a2ee4a022",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-110b3c7f5f7c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ac9f772f8eb2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ece4a3c206bd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ca781207a7a8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-a97b04711737",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-9556e3d46e25",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-0b98a37daf18",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-42034a6fa758",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-3991c7f6a54c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-1b4af7127caf",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-7a4b0a1aa9e1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-bd8d5985b862",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-1dca9d6cd9dd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-8d4c003c0ac5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-ead7a976b683",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-f1e062604874",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-0be5deb03675",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-6c8b25f23f3a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-9e4fa7cd5ce9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-f32f19871750",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-658dcc26b034",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-721df0a4089b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-3ddb70af5d69",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-95795f26c0ac",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-5d7a45280b15",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-d167b31ba1f7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-f46ce4a379dd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-64f05db6998b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-c39aa9873f18",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-15de9303a198",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-88436177c33a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-f43c225e1f8f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-0b22b2a6cf77",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-e911977b14b3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-fd1ee6e06407",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-5cdf06dd977d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-db63ba101f8d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-2fd695d9582b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000109-61535de40d70",
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": false
     }

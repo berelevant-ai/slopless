@@ -14,7 +14,7 @@ Our room in Porto had two narrow beds and a balcony overlooking a pharmacy. The 
 
 ## 000122-cb234a63237a
 
-On my first morning at the new school, a boy called Martin explained that the blue trays cost more because they included pudding. I had brought exactly enough for the green tray. What followed was a jumble of lessons and unfamiliar faces, the day racing past without shape. At home, Mum asked whether I had made a friend. I told her about Martin and the pudding.
+On my first morning at the new school, a boy called Martin explained that the blue trays cost more because they included pudding. I had brought exactly enough for the green tray. By home time the lessons and unfamiliar faces had run together; I couldn't remember which teacher had taught us maths. At home, Mum asked whether I had made a friend. I told her about Martin and the pudding.
 
 ## 000122-5d01ba57aebe
 
@@ -63,4 +63,900 @@ We agreed that my aunt's sewing machine would go to her neighbor, who had used i
 ## 000122-8a71aac7db3d
 
 The registrar pronounced my mother's new surname correctly, which was more than most of her colleagues managed. Joy had claimed the room for itself. I shifted in my seat. After the ceremony, the afternoon blurred past in a whirl of moments. At the restaurant, her husband produced a photograph of their first date: two people in borrowed waterproofs beside a broken-down coach. Mum ordered an extra copy for me.
+
+## 000122-59793f9de323
+
+The optician fitted the new lens while I held the frame against my face. Through it, the bus numbers across the street separated into clean black figures. Relief occupied every corner of the room. I paid in two installments and kept the old glasses for painting the kitchen.
+
+## 000122-be03c6b39594
+
+We hauled the canoe above the tide mark before checking the map. Sea mist had hidden the headland we needed, and the campsite lay on its far side. Disappointment became our unwelcome companion. Ruth proposed walking across the neck of land to see whether the other beach had shelter.
+
+## 000122-d042d2eede43
+
+My cousin held the receipt flat with her palm so the faded date would show in the photograph. The shop had charged her twice for the same washing machine. Indignation sat at the head of our table. By enlarging the image, we could read both transaction numbers.
+
+## 000122-e921d134cba5
+
+At sixteen I could remember every argument about the allotment, but the preceding summers merged together; I dated photographs by the size of our apple tree. Nostalgia held court over those years. In the oldest picture, Dad crouches beneath a branch so his face will fit beside mine.
+
+## 000122-d4078426733e
+
+The repaired clock struck eleven during the buyer's inspection. I pressed its case against the wall to stop the vibration rattling the loose plaster. Satisfaction installed itself between us. He agreed to the advertised price, provided I included the small key hanging behind the pendulum.
+
+## 000122-4076bfad7a1e
+
+A greasy haze covered the cafeteria window, so Asha wiped a clear circle with her sleeve to check whether her taxi had arrived. Outside stood her father with his own car. Reconciliation had entered the building. She bought another tea and asked the cashier for a second cup.
+
+## 000122-0cf7f2a56de5
+
+We spent the winter replacing one rotten fence post each Sunday, stopping whenever the ground froze. By March the whole north boundary stood straight. Perseverance had delivered its verdict. My neighbor leaned across the finished gate to pass me a jar of the plum jam she had promised.
+
+## 000122-8c3332e77e85
+
+The charcoal portrait looked blurred from the doorway, but close up I could distinguish the marks of the artist's thumb around my mother's eyes. Grief remained the room's sole tenant. I tilted the picture toward the window, discovering that the supposed stain was part of her patterned scarf.
+
+## 000122-291f0ff6b691
+
+When the rehearsal ended, the director asked me to keep both feet visible beneath the puppet stage. The children needed to see how the fox walked. Embarrassment took its place beside me. I shortened the curtain with safety pins, leaving enough fabric to conceal the rods in my hands.
+
+## 000122-186436ab7512
+
+My memory of the collision ends at the green traffic light and resumes inside the ambulance; I cannot identify who opened my door. Vulnerability had assumed command. The paramedic kept my wrist still while her colleague cut away the watch strap, which had tightened around the swelling.
+
+## 000122-644edd5e340f
+
+The dog pushed his nose beneath my hand until I lifted the blanket off his water bowl. He had dragged it there himself during the night. Affection presided over our little household. Outside, freezing fog had coated the gate, and the latch left a white print on my glove.
+
+## 000122-9333d5f2ffe5
+
+For three months we exchanged one letter a week, each containing the next move in our chess game. Then a letter arrived with a train ticket instead. Anticipation claimed the empty chair. I folded the ticket into my wallet, keeping its printed code clear of the worn crease.
+
+## 000122-f497d3865abb
+
+The shop camera rendered the thief's face as a pale smear, but his limp was plain when he crossed the loading bay. Suspicion walked among the staff. I slowed the recording and pointed to the unbroken seal on the parcel he carried; it was our missing delivery.
+
+## 000122-19cf501ab170
+
+Marta braced the wardrobe with her back while I slid cardboard beneath its feet. We could move it without scratching the newly varnished boards. Harmony had returned to our marriage. The entire move took twenty minutes, most of them spent measuring a doorway that proved wider than we remembered.
+
+## 000122-3f6d4ee356b6
+
+Over eight evenings, Dan taught me to distinguish the warning lamps by touch using a cardboard model of the dashboard. Confidence became my traveling partner. On the final evening I closed my eyes and found the hazard switch without brushing the button that opened the luggage compartment.
+
+## 000122-c541a09c640d
+
+Steam clouded the mirror above the barber's sink. He cleared it with a towel, then guided my hand to the uneven patch I had cut myself. Vanity demanded an audience. There was enough hair left to repair the damage, though he charged me for the full haircut.
+
+## 000122-6ec3cf3c8e16
+
+The twins could cross the yard in four strides now. I stood against the doorframe and marked their heights above last year's pencil lines. Time was a stern landlord. The lower marks had blurred where somebody cleaned the paint, but the dates remained readable beneath them.
+
+## 000122-8fffea8bd16b
+
+Our first month at the market consisted of six wet Saturdays and one canceled Sunday, enough to use up the money reserved for stall fees. Failure waited at our doorstep. I spread the damp price cards across the radiator, hoping to save the ink for another attempt indoors.
+
+## 000122-c26ff72b10c3
+
+The reading room lights made a halo on my scratched lenses. I removed the glasses and brought the census sheet closer to identify the address. Discovery beckoned from the shadows. My great-grandmother had lived above a fish shop, two streets from the house where I was born.
+
+## 000122-caa8fb03ea0e
+
+Each Friday that autumn, the choir lost another singer to the late bus timetable. By December we rehearsed in the kitchen because it cost less to heat. Loyalty kept watch over us. I moved my chair beside the cooker so the visitor could read the music under its lamp.
+
+## 000122-f27e6566b78e
+
+The curtain of spray hid the far bank. We waited until a gust cleared it, then the ferryman raised his hand to show the landing was visible. Patience wore the captain's hat. The crossing took four minutes, and he charged us the ordinary fare despite the delay.
+
+## 000122-bd7649b1fc07
+
+I remember the dental assistant asking about my holiday, then nothing until she was helping me sit upright. The missing half hour still feels instantaneous. Gratitude filled the vacant space between us. She placed my fingers around the paper cup so I could rinse without tipping it onto my shirt.
+
+## 000122-ca55219f90be
+
+At the shelter, I knelt to let the rabbit smell my sleeve before lifting him. His left ear had a healed notch matching the photograph. Certainty swept doubt from its throne. My daughter had been putting fresh parsley beside his empty hutch every morning for nine days.
+
+## 000122-da2355c62fa1
+
+The auctioneer's first announcement was lost in microphone distortion. His second made the reserve price plain, and I lowered the numbered paddle before he could register a bid. Prudence had the final say. I had enough money for the dresser itself, but none for transporting it home.
+
+## 000122-6b159c2512d0
+
+During the five weeks the lift was broken, Mrs. Patel sold her shopping trolley and ordered groceries to her door. Independence refused to surrender its crown. When the engineer finally arrived, she held the stairwell door with her hip so he could maneuver the replacement motor through.
+
+## 000122-e2f7d0d781b2
+
+I pressed my ear against the partition and heard the missing kitten scraping inside the wall. The sound came from below the socket, where the plaster was already cracked. Hope crossed our threshold again. Dust clouded the hall when the caretaker lifted the panel, revealing two frightened yellow eyes.
+
+## 000122-cadecd6b10b8
+
+The photographs from my childhood holidays have become interchangeable in my memory; the same rented caravan appears behind three different family cars. Innocence still lives there. I turn one picture over to find the year, but my mother has written only the name of the beach.
+
+## 000122-297ee757829c
+
+The frost blurred the greenhouse panes, concealing the tomatoes until I opened the door. Every plant had survived beneath the old bed sheets. Triumph strode through the garden. I tucked the sheets under my arm and carried them inside to dry before the temperature fell again that evening.
+
+## 000122-c3af2d688805
+
+The locksmith pressed his thumb against the loose cylinder and showed me where the metal had split. Distrust had moved into the house. The subsequent hours swam past in a mist of activity. At dinner, my lodger asked why her key no longer fitted the front door.
+
+## 000122-5346aa3cfff9
+
+We pinned the borrowed curtains above the village hall windows, stretching to cover the cracked glass. Optimism had taken the best seat. Preparations melted into an indistinct succession of moments. When the doors opened, the first customer wanted to know whether the cake prices included a cup of tea.
+
+## 000122-40743fe7f153
+
+Dad put his finger over the account number while I photographed the bill for the supplier. Anxiety patrolled the kitchen. The afternoon became a jumble of calls and passing impressions. By six, we had an appointment for a meter reading and a promise that collection notices would stop.
+
+## 000122-a55f9f10ad70
+
+The competition organizer knelt to retrieve my entry from beneath the table. Its label had fallen off, leaving a bare patch on the jam jar. Mortification stood beside me. What followed was a whirlwind of indistinct happenings. I went home with second prize and somebody else's jar of marmalade.
+
+## 000122-25f1e93ccb45
+
+On the first day of retirement, Len reached for the uniform hanging behind his dressing gown. Habit was the household's ruler. The following weeks drifted through a haze of little things. In April, he answered an advertisement for someone to drive the community minibus on Tuesday mornings.
+
+## 000122-a4b8a35f369c
+
+My sister held the hem clear while I fastened the borrowed dress around her waist. Excitement claimed the bedroom. Everything until departure passed in a soft scramble of impressions. At the bus stop, she discovered that her concert ticket was still in the pocket of her ordinary coat.
+
+## 000122-b218e2f81208
+
+The lift doors trapped the corner of our mattress, and we bent it upward until the sensor cleared. Frustration appointed itself foreman. The move continued in a fog of comings and goings. That night we ate noodles on the floor because the table legs were in a different van.
+
+## 000122-ac5ff08afa22
+
+I raised two fingers to order coffees while the estate agent described the roof repairs. Unease joined our meeting uninvited. The viewing washed onward in a blur of rooms and remarks. Outside, my partner asked whether I had noticed that every bedroom contained a bucket beneath the ceiling.
+
+## 000122-f06d074c7462
+
+The children pressed their palms into the wet clay so their grandmother could make a plaque. Love supervised the proceedings. The visit spun away in a haze of shared moments. When we collected the fired plaque, one thumbprint had become a hole through which she threaded the hanging cord.
+
+## 000122-cf2a0e4a4fee
+
+Our captain covered the microphone with his hand before telling us the other team had withdrawn. Victory arrived wearing an awkward smile. The evening blurred into a muddle of celebrations. I took the trophy home on the train, wrapped in the clean shirt I had intended to wear afterward.
+
+## 000122-5a1aa50320e6
+
+The housing officer drew the new boundary on our map. I bent closer to distinguish it from the river printed beneath. Resentment claimed a place at the desk. The consultation dissolved into a stream of words and moments. The resulting letter assigned our shed to the neighboring property.
+
+## 000122-ac0fd922a23f
+
+Nico stretched across the counter to disconnect the leaking coffee machine. Defeat took ownership of the cafe. The remaining shift passed in a shapeless rush. By closing time, he had sold twice the usual amount of tea and promised six regulars that their prepaid coffees would remain on their cards.
+
+## 000122-9efc6b7e7acf
+
+At the rehearsal, Jo lifted her chin to keep the violin from slipping while the teacher adjusted its rest. Ambition ruled the room. Lessons and practice drifted together in a cloudy procession. In June she played the complete tune for her grandfather over the telephone, including the difficult repeat.
+
+## 000122-b5e0d6038000
+
+My brother slid his arm beneath the overturned wheelbarrow and lifted until I could free the trapped hose. Irritation stalked the garden. The rest of our work vanished into a blur of tasks. We finished with enough soil left over to fill the cracked bath beside the compost heap.
+
+## 000122-2534cc35afae
+
+The usher offered his elbow to help my aunt negotiate the unlit steps. Dignity hovered at her shoulder. The service carried us through a mist of moments. At the reception, she asked me to retrieve the cushion she had left in the church, embroidered with her late husband's initials.
+
+## 000122-e2df91c09b9e
+
+We balanced the cake on my knees because the car boot contained a spare wheel and two sacks of grit. Celebration rode with us. The party raced by in an indistinct whirl. On the journey home, my son used the empty cake box to carry his sleeping hamster.
+
+## 000122-d25bcd1a587e
+
+Elsa pushed the envelope under the office door with the edge of her shoe. Regret waited on the landing. The days afterward formed a vague tumble of events. On Thursday, the manager returned her application and asked whether she meant to resign from the job or from the pension scheme.
+
+## 000122-9f88db3495bf
+
+I crouched beneath the sink to read the serial number to the repair service. Desperation answered the phone alongside me. The morning blurred into one long swirl of arrangements. By noon, my neighbor had lent us a camping stove and the engineer had located the correct replacement valve.
+
+## 000122-cdec5df295b5
+
+The volunteer extended both arms to demonstrate how much space the donated refrigerator would require. Generosity sat in judgment over us. Collection day went by in a haze of action. We eventually placed it beside the pantry, where its door could open without blocking the kitchen entrance.
+
+## 000122-7f7459602743
+
+My daughter cupped her hands around the seedling while I emptied its pot. Wonder made itself at home. Our afternoon disappeared into a loose jumble of impressions. At supper she asked whether the new plum tree would grow fruit before her birthday, which was only eleven days away.
+
+## 000122-d9916f69597f
+
+The station attendant blocked the swinging gate with his foot while I rolled the pram through. Kindness had taken charge of the journey. The remaining trip merged into a hazy succession of stops. We reached my mother's before lunch, with the baby still asleep under the borrowed blanket.
+
+## 000122-a9b8459d3334
+
+The mechanic guided my fingers along the tire's inner edge, where exposed wire scratched my skin. Fortune had spared me a harsher lesson. The day rolled onward in a fog of practicalities. By evening, I had two new tires and enough remaining money for the week's groceries.
+
+## 000122-ef82f14a3dc5
+
+We stood back from the pond so our shadows would stop frightening the fish away from the surface. Serenity settled in as our host. The hours floated past in a soft blur. At four, the park keeper arrived with the wallet I had left on the bench near the gate.
+
+## 000122-94f314ca0d98
+
+I held my wrist against the classroom scanner until the instructor could photograph the rash. Alarm elbowed its way into the lesson. The discussion became a rushing patchwork of impressions. Afterward, we checked the costume cupboard and discovered that the same wool lining appeared in every borrowed jacket.
+
+## 000122-d8a32f6d1598
+
+The counselor lowered the blind until passersby could no longer see the chairs. Privacy finally took its rightful place. Our appointment slipped into a blur of conversation. On the bus afterward, I wrote down the one date we had agreed upon: my brother would collect his belongings on Saturday.
+
+## 000122-317511ce06f4
+
+The lifeguard put two fingers beneath the strap to check that my son's goggles were loose enough. Courage stood tall among us. The swimming session swept by in a cloudy flurry. When we reached the changing room, my son asked whether he could book the same shallow lane next week.
+
+## 000122-364ac8ca0dde
+
+I bent the paper crown around the mixing bowl to restore its shape before my niece arrived. Expectation hovered above the table. The birthday preparations ran together in a misty rush. At three, she announced that she would rather wear the cardboard ears her brother had made for himself.
+
+## 000122-f92fa8b3cec3
+
+Sanjay covered the sleeping child's ears while the fire alarm was tested. Tenderness guarded our corner of the ward. The waiting hours dissolved into an indistinct current. The doctor finally arrived carrying the missing scan report, which had been filed under my son's middle name instead of his surname.
+
+## 000122-f75262acf0d0
+
+Mist obscured the road beyond the tollbooth, and the attendant advised us to wait for the maintenance truck. Caution stood sentinel over the valley. I flexed my fingers. The truck would guide vehicles through the damaged section in groups of five, leaving from the lay-by every twenty minutes.
+
+## 000122-b2cbeb139645
+
+For the next six months, the bakery supplied our lunch club with yesterday's unsold rolls. Generosity governed the arrangement. Mina brushed her hair behind her shoulder. We froze the surplus on Fridays, which meant there was always bread when the schools closed and attendance doubled.
+
+## 000122-1a9d523459d7
+
+The ink had spread where rain struck the parcel label, turning the house number into a blue smear. Confusion made itself our supervisor. Owen rubbed the bridge of his nose. The postcode remained legible, and the sorting office found the address by comparing it with the sender's receipt.
+
+## 000122-0ff5ca35a4ce
+
+I recall the first injection and the nurse asking me to count backward; the rest of the procedure is absent from my memory. Trust had taken the wheel. I rolled my neck. At discharge, she gave me the two metal screws they had removed from my ankle.
+
+## 000122-055aa9bb110c
+
+The new apprentice returned every borrowed tool to the correct hook for a fortnight. Approval granted him entry to our circle. Pete shifted his feet. On the third Monday, we gave him the cabinet key and asked him to check the stock of replacement blades before the delivery van came.
+
+## 000122-c1e872091997
+
+Smoke from the neighboring allotment veiled our bean rows, though the bonfire itself was hidden behind a hedge. Annoyance prowled between us. My uncle cleared his throat. He fetched the council leaflet from the shed, hoping it gave a time before which garden fires were prohibited.
+
+## 000122-3a0db321eb0d
+
+The first week after the flood was spent drying photographs; the second, replacing the warped skirting boards. Recovery became our demanding guest. I adjusted my shoulders. By the third week, the downstairs rooms could be used again, although we still ate upstairs to avoid the smell of sealant.
+
+## 000122-055711a3de5c
+
+Without her hearing aids, Aunt Bea received our conversation as a low rumble punctuated by cutlery. Isolation settled into the fourth chair. My cousin moistened his lips. We moved to the carpeted room after lunch, where she could understand us without the dishwasher running beside her.
+
+## 000122-417636ac7056
+
+The child in the photograph was only a blur because she had run toward the camera as the shutter opened. Joy had conquered the afternoon. I rubbed my jaw. The photographer offered another sitting, but her father preferred that image to the one where everybody remained properly still.
+
+## 000122-93c125b3569d
+
+Every evening that week, Raj practiced reversing between two buckets in the empty car park. Determination refused to leave his side. His shoulders rose and fell. On Friday he parked the van outside our narrow gate without touching either mirror, and we could finally load the donated desks.
+
+## 000122-f4b894c59577
+
+Condensation fogged the inside of the cake display, hiding the labels nearest the cooling vent. Disorder had claimed the shop. The cashier tilted her head. We moved the labels to the front edge, where customers could read them without opening the case and letting the warm air in.
+
+## 000122-993cc9d22cc8
+
+My memories of the old flat overlap because its furniture never changed; only the view from the kitchen dates them, before or after the factory chimney disappeared. Belonging held the keys. I shifted my hips. The photograph my brother sent showed the same linoleum beneath a stranger's breakfast table.
+
+## 000122-d5e44e7505d9
+
+The nurse's visor scattered the ceiling lights into pale streaks, obscuring her eyes whenever she looked upward. Apprehension stood at attention. Martin swallowed. She explained that he could keep his wedding ring on, provided the technician covered it with tape before taking him through to the machine.
+
+## 000122-ef9c9b6d160c
+
+Over two afternoons, we replaced the missing captions in the village exhibition with names supplied by visitors. Memory was our honored elder. I clasped and unclasped my hands. The final photograph remained unidentified until the postman recognized his grandmother's dog beside the woman at the station.
+
+## 000122-5cb05dfba843
+
+The windscreen had a cloudy patch directly in front of the passenger seat, where a sticker had resisted cleaning. Irritation rode shotgun. Lucy rolled her shoulders backward. She bought solvent at the next petrol station and removed the residue while I checked the pressure in the spare tire.
+
+## 000122-f582a9a5634f
+
+I had no recollection of the fever's second night, although the chart recorded that I had asked for my school uniform. Childhood had come to claim me. I touched my chin. My wife explained that the nurse had called her to ask which school I meant.
+
+## 000122-3ad971b1dc43
+
+For a year, the two sisters divided their mother's appointments by alternating months. Fairness occupied the center of their arrangement. Anna lifted her eyebrows. When the hospital changed clinics, the longer journey fell in her month, and they agreed to exchange the following week's appointment as well.
+
+## 000122-f1a8117f3f0d
+
+A thin haze from the soldering iron hung above the workbench. The extractor fan had stopped again. Neglect was the workshop's permanent resident. I turned my wrists. We unplugged the iron and opened both windows before the supervisor went upstairs to find the maintenance log.
+
+## 000122-b1d307175a67
+
+The radio station faded into static whenever our train entered a cutting. Connection abandoned us at every turn. Felix rubbed his forehead. I downloaded the last ten minutes of the match using the station Wi-Fi, and we listened together while waiting for the replacement service.
+
+## 000122-40ada2013ad4
+
+During the seven weeks of building work, the library issued books from a shipping container beside the swimming pool. Adaptability wore the manager's badge. I straightened my back. Returns went through the old building's letterbox, which meant a volunteer had to collect them before the builders arrived each morning.
+
+## 000122-32d3e441cd2f
+
+The face in the passport copy had been blurred by the scanner's dirty glass, but the birth date was sharp. Identity waited outside the door. Nora worked her jaw. The clerk accepted the original passport instead and returned the copy with the application papers.
+
+## 000122-4dda620d3866
+
+The next three weekends were divided between stripping wallpaper and carrying it to the recycling center. Progress had become our faithful lodger. My husband blinked twice. Under the final layer, we found a pencil drawing of the extension, including a doorway that had since been bricked up.
+
+## 000122-08a23daf428a
+
+Through the scratched aquarium wall, the striped fish looked like several separate flashes of silver. Wonder kept us company. I moved my weight onto my heels. My niece remained beside that tank for twenty minutes, counting how often the fish returned to the same hole in the artificial rock.
+
+## 000122-3757d07d2aab
+
+After the migraine, Tuesday's conversation was a jumble in my memory: I remembered a delivery date but could not attach it to either supplier. Uncertainty sat on my desk. I rubbed the back of my neck. Both firms confirmed their dates by email when I called the following morning.
+
+## 000122-6b426f555711
+
+For ten days after the road reopened, the shop offered free delivery to customers who still lacked transport. Solidarity made the rules. Hazel lifted one shoulder. Orders were grouped by street, allowing the driver to finish before the school minibus needed the same narrow access lane.
+
+## 000122-826cc8c8f143
+
+The projector threw a fuzzy rectangle onto the wall until somebody removed the protective cap from its lens. Competence had left the meeting early. I pressed my lips together. With the image finally clear, we could see that the proposed parking spaces covered the existing children's play area.
+
+## 000122-7739e59187c5
+
+My grandmother's final winter survives in my memory as sounds rather than dates: the oxygen pump, the kettle, her slippers on the stairs. Sorrow kept the household accounts. I stretched my fingers. The diary supplies the dates, including the afternoon she insisted on choosing her own birthday cake.
+
+## 000122-2b8f8990cae0
+
+The woodland path disappeared beneath low cloud, leaving only the next pair of marker posts visible. Adventure had invited itself along. Ben drew in a breath. We turned at the second post, where the map showed a short route back to the visitor center and its open cafe.
+
+## 000122-a64091670692
+
+The driving instructor offered me a canceled test slot on Wednesday. Possibility knocked at the classroom door. I shifted my shoulders. The next few days sped past in a haze of preparations. On test morning, the examiner asked me to read the number plate of a van selling garden gravel.
+
+## 000122-1c96967a9206
+
+The school offered our club the old geography room, including the cupboard full of outdated maps. Gratitude took the chair beside me. I smoothed my sleeve. The arrangements flowed onward in a mist of details. We held our first meeting there beneath a map that still showed the railway.
+
+## 000122-c941de5f3262
+
+The freezer alarm sounded halfway through breakfast, and the display showed twelve degrees above its usual setting. Panic announced itself as manager. Leo rubbed his chin. The morning became a shapeless bustle. By lunchtime, our neighbors had divided the frozen food among three freezers and one picnic cooler.
+
+## 000122-7be9d1f6d9ea
+
+The tenant upstairs offered to water my plants during my first trip away in years. Trust crossed the landing. I rolled my shoulders. The holiday drifted by in a haze of experiences. On my return, every plant was flourishing except the cactus, which stood in a saucer full of water.
+
+## 000122-0b18dac5ed39
+
+Our son announced that the school play required him to supply his own cardboard volcano. Creativity demanded the floor. My husband adjusted his stance. The weekend dissolved into a blur of making things. On Monday, the volcano fitted through the school door only after we removed its detachable lava.
+
+## 000122-11152efb4521
+
+The dentist's receptionist found a gap before lunch and offered it to my father. Mercy had entered the waiting room. He rubbed his forehead. The appointment passed in a cloudy sequence of moments. Outside, he discovered that the parking machine had accepted his coins without issuing a ticket.
+
+## 000122-393272b47ed1
+
+I learned that the empty unit beside our shop would become a late-night takeaway. Apprehension claimed the premises. I flexed my toes. The consultation period ran past in a fog of exchanges. The final permission required the owner to install a quieter extractor and close the rear yard by ten.
+
+## 000122-f8702dc44a62
+
+My sister found the missing earring in the cuff of her trousers. Relief spread its arms around us. She tilted her head. The rest of the evening blurred into a whirl of little moments. Before leaving, she asked me to photograph the clasp so a jeweler could match its replacement.
+
+## 000122-f554091eeee3
+
+The invitation said partners were welcome, though I had never met any of my wife's colleagues. Awkwardness introduced itself first. I touched my jaw. Dinner passed in an indistinct stream of conversation. At the taxi rank, I realized the man beside me had designed the playground across from our flat.
+
+## 000122-c0a707bcaaf5
+
+The choir's missing music arrived in a parcel addressed to the swimming club. Chaos had borrowed the conductor's baton. Helen shifted her weight. Rehearsal became a rushing collage of sounds and moments. We eventually sang from photocopies because the parcel contained only the second half of the score.
+
+## 000122-6f75601a0c3c
+
+The landlord agreed that we could repaint the hallway if we supplied the materials ourselves. Freedom moved in with the paint tins. I stretched my neck. The decorating slipped by in a haze of activity. Our chosen yellow looked green beneath the existing lights, so we changed the bulbs.
+
+## 000122-d693e4f309ee
+
+At the start of the sale, the shop owner offered us everything on the damaged shelf for twenty pounds. Temptation took command. Finn rubbed his wrist. Shopping continued in a loose blur of discoveries. We left with a chipped basin, seven cabinet handles, and enough tiles to finish the porch.
+
+## 000122-0317a0d795ff
+
+The midwife told us that the baby could go home once the final test result arrived. Happiness settled on the windowsill. I moved my shoulders. The waiting passed in an undefined swirl. At dusk, we discovered that neither of us knew how to extend the straps on the car seat.
+
+## 000122-c5a02ce6d877
+
+Our football shirts came back from the printer with the sponsor's telephone number missing a digit. Disbelief stood in the doorway. The coach ran a hand over his hair. The afternoon became a haze of corrections. By kickoff, the missing number had been added on twenty strips of white tape.
+
+## 000122-3eee7aaaa967
+
+My cousin wanted the old piano, provided its delivery cost less than the piano itself. Practicality sat between us. I lifted my eyebrows. The negotiations tumbled through a fog of details. Eventually the removal firm included it in a return journey, charging only for the extra pair of loaders.
+
+## 000122-0583a365a694
+
+The woman at the next campsite offered us her spare stove after ours broke. Hospitality became our guardian. Dan swallowed. The remaining days streamed past in a mist of encounters. Before leaving, we replaced her empty gas cylinder and tucked the receipt into the stove's carrying case.
+
+## 000122-53f8fed1dbcd
+
+The council approved the dropped curb but asked us to remove the stone planter first. Compromise had drawn up a chair. I rolled my wrists. Work on the entrance dissolved into a blur of tasks. We replanted the lavender in three buckets, where it survived until the new border was ready.
+
+## 000122-58c2755c073f
+
+The adoption paperwork listed the cat as eleven, although the shelter volunteer thought she might be older. Compassion opened its arms. My daughter adjusted her posture. The visit washed past in a haze of impressions. We brought the cat home with a bag of food and her familiar blue towel.
+
+## 000122-7af48b7ea15e
+
+A former customer offered to buy the catering van, including its chipped mugs and folding counter. Closure had come to collect us. I exhaled slowly. The sale went through in a cloudy rush of arrangements. On collection day, I found my father's old apron behind the passenger seat.
+
+## 000122-5753816219f1
+
+The school caretaker found a box of our class photographs behind the dismantled noticeboard. Remembrance stepped into the corridor. I rubbed my elbow. The reunion evening ran together in a hazy stream. I left with a photograph of myself wearing the coat my mother had made from a blanket.
+
+## 000122-2cd910b0cded
+
+Our regular babysitter recommended her younger brother for the Saturday shift. Doubt requested a place at the table. My partner brushed her cheek. The afternoon sped away in a swirl of things happening. When we returned, the children had taught him the card game he was meant to teach them.
+
+## 000122-af9dbd550d05
+
+The water company admitted that the disputed meter belonged to the flat downstairs. Vindication stood at my shoulder. I shifted in the chair. The remaining calls merged into a fog of voices. Two weeks later, the refund arrived as a credit against an account I was about to close.
+
+## 000122-813dcee2988c
+
+The new cafe would display my brother's photographs if he supplied frames and handled the sales himself. Opportunity took a bow. He rubbed his hands together. The next fortnight blurred into a flurry of preparations. At the opening, the first buyer chose the picture of an abandoned shopping trolley.
+
+## 000122-00b7252348f5
+
+The guesthouse owner said we could stay another night while the garage ordered the part. Uncertainty made itself comfortable. I rolled my head from side to side. The extra day floated away in a haze. We collected the car after breakfast, along with the broken belt in a plastic bag.
+
+## 000122-833bb14299cb
+
+My aunt discovered that the village bus accepted her old travel pass after all. Independence reclaimed its chair. She rubbed her temple. Our outing passed in a blur of movement and conversation. At the garden center, she ordered a rosebush too large for either of us to carry home.
+
+## 000122-b1e8a6483581
+
+The rehearsal hall charged extra for heating, which used most of our remaining subscription money. Economy became our stern conductor. I raised my chin. Winter rehearsals melted into a vague procession. By March, everyone knew the bass part because we had gathered around the single heater beside the basses.
+
+## 000122-6884c607b949
+
+The charity shop manager found my wedding ring inside a donated oven glove. Fortune had chosen to smile on us. I moved my feet. The journey to collect it swept by in a hazy rush. She returned it in a labeled envelope and asked me to check the engraving.
+
+## 000122-e668adb0efd2
+
+The village shop agreed to stock our apple juice on a trial basis, twelve bottles at a time. Pride stood behind the counter. Mae tucked back her hair. The first week blurred into a whirlwind of small events. On Saturday, the shopkeeper asked whether we could supply smaller bottles for picnics.
+
+## 000122-5a0920ec929e
+
+My dislike of owing favors drove me to mend the neighbor's gate before asking to borrow his ladder. I lifted the sagging frame with my knee while tightening the hinge. The drizzle blurred his kitchen window, but through it I could see him putting two mugs beside the kettle.
+
+## 000122-3fef56af9103
+
+The school archive listed the play as Hope Comes Calling. In the photograph, Hope wore my mother's winter coat and carried a cardboard suitcase. I turned the print toward the lamp to read its date. The blurred figure behind her was the caretaker, crossing the stage before the shutter closed.
+
+## 000122-53380b213b53
+
+Fear of another puncture sent us onto the paved cycle route instead of the towpath. We ducked beneath a fallen branch without leaving our saddles. The afternoon's miles now run together in my memory; I can reconstruct the route only from the photographs my daughter took at each bridge.
+
+## 000122-7f20dde28a52
+
+Mum's curiosity about the tapping led her to the unused chimney. She held one palm against the hearth to feel where the vibration was strongest. Soot hung in a gray haze after the sweep opened the inspection hatch. Behind it, a starling was trying to climb the smooth liner.
+
+## 000122-b8c5e2fab95d
+
+The leaflet's headline read, "Confidence Opens Doors." The housing adviser circled those words because the translation had turned them into a claim about security locks. She pulled her chair closer so we could compare both versions. By lunchtime we had corrected the headline and all three references to deposits.
+
+## 000122-bfc962fac2d0
+
+His embarrassment at being unable to read the menu made him order whatever I chose. When the waiter returned, I pointed beneath the table at the hearing-loop sign, and he moved us nearer the speaker. The hiss of the kitchen became a blur behind the waiter's newly distinct voice.
+
+## 000122-8eb69ab46e37
+
+In my daughter's board game, Patience is a tortoise who decides which player moves last. She pushed the little wooden figure toward me, explaining that I had interrupted her turn. We played three more rounds, each shorter than the previous one as she learned to count the spaces herself.
+
+## 000122-598c1707b9f9
+
+Concern for the nesting swallows kept the builders away from the west eaves until August. I leaned out of the upstairs window to photograph the empty nest for the contractor. Heat shimmer blurred the roof beyond it, but the image clearly showed that the chicks had left.
+
+## 000122-77b1695e139b
+
+The sedative erased my memory between signing the consent form and seeing my brother beside the bed. My distrust of phone alarms had made me ask him to collect me in person. He held my elbow until the dizziness passed, then helped me put the discharge papers into my bag.
+
+## 000122-58cc7fedfeda
+
+Pride in her handwriting persuaded Mrs. Ellis to address every invitation herself. She shook her cramped hand between envelopes, leaving a tiny ink splash on the newspaper beneath. Over four evenings, the stack beside the fruit bowl shrank from seventy envelopes to none, while the used stamps filled a saucer.
+
+## 000122-c80ed1724598
+
+Fog erased the opposite platform but left the yellow line at our feet visible. Impatience with the canceled trains drove us to share a taxi with two strangers. The driver raised three fingers to show how many suitcases would fit, then folded the rear seat for the fourth.
+
+## 000122-ba8a083bd514
+
+The witness had said, "Rage took over," and the solicitor asked the interpreter to retain the phrase rather than soften it to irritation. I lifted my hand to stop the recording while they discussed the distinction. The revised transcript marked the pause and preserved both the original words and translation.
+
+## 000122-e06865bca10a
+
+My gratitude for the neighbor's daily visits kept me baking bread long after my father's appetite returned. I pressed the dough with two fingers to test whether it had risen enough. Those six weeks are indistinct now except for the loaves, whose dates I wrote on their freezer bags.
+
+## 000122-00888611ddb5
+
+Envy of my brother's neatly fitted shelves sent me to the evening carpentry class. The tutor showed me how to brace my wrist against the bench while marking a straight line. Sawdust clouded the strip light above us, turning its reflection on the polished saw into a yellow smear.
+
+## 000122-ed54bdee7cf3
+
+At the puppet theater, Hunger was a red bird that stole bread from the other characters. Its operator had to crouch to keep her head below the painted clouds. I could see only her shoes, but their quick changes of direction made the bird's flight look surprisingly real.
+
+## 000122-7d9f0c86557b
+
+A wish to avoid the school crowd pushed our shopping trip back until seven. I pulled the trolley sideways to let the cleaner's machine pass. Its spray briefly veiled the bread shelves, leaving a lemon smell in the aisle. The discounted rolls were still warm enough to soften their paper bag.
+
+## 000122-02f3f3684d1c
+
+The first rehearsal lasted an hour; the next two lasted forty minutes as we cut repeated scenes. Anxiety about the running time had made our director remove his own longest speech. He put a finger to his lips when the hall clock began striking so we could time the interruption.
+
+## 000122-c7b94cdde31f
+
+The word Freedom had been painted across the dinghy's stern, but the varnish blurred its last two letters. I knelt beside the hull to copy the registration number for the buyer. My reluctance to part with Dad's boat had already postponed the sale twice; this time I handed over the keys.
+
+## 000122-62183bac3fdb
+
+Fear of missing the last bus made me leave before the pudding arrived. I shook my head when my cousin offered to wrap it, pointing at the time on my phone. From the pavement, the restaurant's steamed windows reduced our family to a row of warm, moving silhouettes.
+
+## 000122-4bacf4e69eb7
+
+The repair guide called the cloudy coating "bloom" and warned that polishing could remove the original finish. Curiosity about the cabinet's age sent me searching for its maker's stamp. I lay on the rug and angled a torch beneath the lowest drawer until the stamped year came into view.
+
+## 000122-08199fc4f4a6
+
+We repeated the same inspection every Monday for eight weeks: gutters, drains, then the basement meter. Dread of another flood kept the routine going after the weather improved. I raised my arm above the window well to clear the hanging ivy, exposing a small crack beside the new seal.
+
+## 000122-50b85dd8d3a3
+
+The memorial inscription described Justice as a woman holding scales. The stonecutter asked whether the damaged hand should be reconstructed or left as found. I traced the surviving edge with a gloved finger. Lichen blurred the folds of her robe, but the broken wrist showed pale, freshly exposed stone.
+
+## 000122-97929df79271
+
+I lost track of the speaker's individual sentences while watching the captions; the delay meant I read each joke after the room had laughed. Embarrassment at interrupting kept me from asking for a pause. Finally I raised my hand, and the organizer moved the screen closer to the front.
+
+## 000122-a7d9642dcba7
+
+My impatience to see the chicks made me lift the nesting-box lid too quickly. The hen struck my wrist hard enough to leave a bruise. I lowered the lid and waited behind the shed. Through the wire, the yellow chicks were only moving flecks beneath her spread feathers.
+
+## 000122-2a229d2377c6
+
+The bus timetable changed on Monday. Our stop now had a service at quarter past nine instead of ten to nine, which left me outside the surgery after its doors had opened. I booked the later appointment for next month and asked the receptionist to print the confirmation in larger type.
+
+## 000122-808c88418c10
+
+We found three tins of peaches behind the flour, each dated before the kitchen renovation. The food bank accepted the unopened rice but asked us to dispose of the tins ourselves. My aunt wrote a new shopping list on the back of the collection leaflet and crossed peaches off it.
+
+## 000122-07aabfe7cbf3
+
+The application asked for our previous address, including the flat number. Neither of us remembered whether the landlord had called it 2A or simply Upstairs. An old electricity bill settled the question. We copied the address exactly and enclosed the bill because it also supplied the missing tenancy date.
+
+## 000122-3a96adb92dc5
+
+Fear of damaging the borrowed camera made me wrap it in my jumper before entering the boat. I tucked the bundle beneath the bench, away from the spray. The crossing slipped past in a blur of impressions. On the island, the caretaker met us with the key to the bird hide.
+
+## 000122-5c9be1fc8374
+
+Pride in her garden kept Mrs. Adeyemi outside until the judges arrived. She shaded the seed trays with her body while they photographed the border. The judging passed in a hazy swirl. She won a packet of seeds and a voucher for the shop where she already bought her compost.
+
+## 000122-ee0af8b9ba61
+
+The exhibit label quoted the diary: "Duty sat beside my bed." I photographed the phrase because the catalog had printed "deputy" instead. The museum visit dissolved into a mist of encounters. Back at the guesthouse, I emailed the curator both images, including the label's inventory number.
+
+## 000122-3de2073e186c
+
+My irritation with the squeaking gate drove me to oil its hinges before breakfast. I held the lower hinge open with my boot while working the nozzle into place. The morning then ran together in a cloudy rush. At noon, the postman asked whether we had replaced the whole gate.
+
+## 000122-c0d1b4211b01
+
+Hope was a blue mechanical rabbit in the children's show, controlled by a student behind the scenery. I crouched to reconnect the wire that made its ears rise. The performance swept onward in an indistinct flurry. Afterward, the student asked whether I could repair its left wheel before Saturday's matinee.
+
+## 000122-95119e02cf73
+
+Anxiety about the rent sent me looking for extra cleaning shifts. I raised my hand when the supervisor asked who could cover the early train station round. The week became a fog of activity. My first additional payment covered the increase with enough left for a replacement pair of gloves.
+
+## 000122-323907d19422
+
+A longing for familiar food made us choose the little Polish shop instead of the supermarket. I stretched onto my toes to reach the last jar of cherries. Shopping drifted onward in a haze of discoveries. At the till, my father found the brand of mustard his mother used to buy.
+
+## 000122-5264c259fe41
+
+The training card said, "Confidence is your captain," a phrase our instructor asked us to replace with a direct safety instruction. I turned the card over and wrote the emergency number. The session blurred into a stream of exercises. Our revised cards were laminated for the volunteer drivers the following week.
+
+## 000122-fdbe8fcb6f44
+
+Curiosity about the abandoned station persuaded June to leave the main walking route. She ducked through the gap beneath the ticket-office shutter to photograph its surviving tiles. The rest of our walk passed in a soft jumble of impressions. At home, she identified the tile maker from a local history website.
+
+## 000122-b6f020057e96
+
+His fear of the barking dog kept the delivery boy on the pavement. I caught the dog's collar and led her into the kitchen before signing. The afternoon rolled by in a hazy tumble. When I opened the parcel, it contained the replacement latch that would keep her inside the yard.
+
+## 000122-4469066dbc4f
+
+Concern about the stairs led my mother to request a ground-floor room. The porter leaned across the desk to mark the level entrance on our map. The arrival arrangements melted into an indistinct flow. Our room overlooked the laundry yard, where a blackbird was pulling thread from a discarded sheet.
+
+## 000122-dcd8a94348c6
+
+In the pageant, Charity carried an actual basket of bread and distributed rolls to the audience. I caught one against my chest before it hit the wet grass. The remaining scenes raced by in a cloud of happenings. My grandson later insisted that the bread was the best part of the story.
+
+## 000122-dbdedeef3740
+
+Embarrassment over the broken chair made me offer to help clear the hall. I braced a stack of folding tables against the wall while the caretaker fetched a trolley. The clearing up became a vague rush of tasks. He later showed me that the chair's hinge had been cracked for months.
+
+## 000122-1ddbaa0d1166
+
+Her determination to keep the original tiles led her to clean each one by hand. I rubbed a corner with a damp cloth until the floral pattern emerged. The renovation flowed through a blur of decisions. We eventually reused the clean tiles as a narrow border behind the new sink.
+
+## 000122-be125dacf058
+
+The recording's phrase "silence refused entry" sounded like "science refused entry" through the damaged speaker. I pressed the headphone against my left ear to hear the final consonant. Transcription continued in a mist of words. By evening, we had agreed on the wording and inserted a note about the faulty audio.
+
+## 000122-eceea3fcebee
+
+Distrust of the flimsy shelf brackets sent me back to the hardware shop. I held the heavier bracket against my palm to check its width against the old screw holes. The errand passed in a blur of minor events. Once home, I discovered that the screws required a different drill bit.
+
+## 000122-a639f27082d2
+
+Impatience with the queue persuaded my uncle to use the self-service till. He bent toward its speaker because the instructions were quieter than the music overhead. The rest of the shop slipped through a haze of activity. Outside, he discovered that he had paid for six lemons instead of one melon.
+
+## 000122-a7bc8dc8b5ce
+
+My wish to avoid plastic packaging led me to the refill stall. I rested the heavy jar on my hip while the seller reset the scales. The market visit spun away in a whirl of impressions. At home, I realized the jar contained enough lentils for nearly a month of lunches.
+
+## 000122-65b4734f3954
+
+In the game, Doubt is a small gray creature that hides the players' maps. My nephew planted its cardboard figure across the doorway of my miniature house. The afternoon floated onward in a haze of play. When his mother arrived, he asked whether he could leave the board set up overnight.
+
+## 000122-7766399ed4e5
+
+Relief at finding a cheap room made me overlook the missing bedside lamp. I reached behind the wardrobe to connect my phone charger to the only spare socket. The evening passed in a shapeless stream. At midnight, the person next door began practicing what sounded like the same four piano bars.
+
+## 000122-babe97ad84ce
+
+Concern for her hearing made Celia ask for a seat away from the speakers. The waiter moved two tables, turning sideways to carry them through the crowd. The meal dissolved into a cloudy succession of moments. On the bill, we found a charge for the birthday cake we had brought ourselves.
+
+## 000122-2b3eee6e9a94
+
+The sign's claim that "quality rules here" had lost its first letter, so the painter asked us to approve a replacement layout. I held the sample above the doorway while he checked it from the street. The consultation blurred onward in a flurry. We eventually chose smaller lettering and a plain cream background.
+
+## 000122-cb2a5f9dbc75
+
+Fear of slipping kept my father near the shallow end during his first swimming lesson. The instructor placed his hand against the rail so he could practice floating without losing contact. The lesson went by in a fog of activity. Afterward, he asked whether the pool sold monthly passes.
+
+## 000122-31375b98b7dc
+
+Nostalgia for the campsite's old wooden huts brought us back after twenty years. I stretched over the fence to lift the latch from inside, just as the owner instructed. Our stay ran together in an indistinct ribbon of experiences. Before leaving, we booked the same hut for the following September.
+
+## 000122-f39047555934
+
+Anger at the incorrect delivery charge made me compare the invoice with the order confirmation. I slid my finger down both columns to keep the matching items together. The morning calls merged into a hazy current. The supplier refunded the charge and asked me to keep the duplicated parcel until collection.
+
+## 000122-95b4df65c155
+
+The mural showed Courage as a woman repairing a bicycle, and the artist asked permission to copy my hands. I curled my fingers around a spare wrench while she sketched. The sitting floated past in a mist of moments. When the mural was finished, my chipped thumbnail appeared above the library entrance.
+
+## 000122-eb58ac8a124c
+
+Our gratitude for the school cook's help prompted us to invite her to the fundraiser. I moved my chair so she could park her walking frame beside the table. The evening became a blur of exchanges. She won the raffle's largest hamper and gave the biscuits to the children serving tea.
+
+## 000122-386c82a7bd66
+
+The repair shop quoted less than we expected for the radio. I asked them to retain its original tuning knob, which matched the one on my father's set. The following days passed in a vague rush. On Friday, the repaired radio arrived with the damaged component taped inside an envelope.
+
+## 000122-7d22fb6aba10
+
+The guest list contained two people with the same name, so we added their towns to the place cards. The reception went on in a haze of happenings. At the end of the night, both men signed the same card and left it beside the empty cake stand for us to find.
+
+## 000122-6bffc668022d
+
+Fear of losing the return ticket kept me checking the zipped pocket of my coat. I rolled my shoulders. Through the scratched bus window, the harbor lights stretched into yellow lines. The driver said our stop had moved to the other side of the bridge while the road was being resurfaced.
+
+## 000122-4f10618eee6d
+
+The archive card described the photograph as "Hope Visits the Infirmary," referring to the costumed figure carrying flowers. I rubbed my chin. Its blurred background concealed most of the ward, but the bed numbers remained visible. Those numbers allowed the curator to identify which hospital had commissioned the picture.
+
+## 000122-23c43e999336
+
+Curiosity about the strange mushroom led me to bring a sample to the gardening club. I adjusted my stance. Over three meetings, members ruled out four common species before the county recorder identified it from the spores. She asked us to preserve the damp log on which it had appeared.
+
+## 000122-ac12fbf9785f
+
+Worry about my mother's poor sleep made me buy curtains with a blackout lining. I flexed my fingers. The streetlamp had turned the old curtains into glowing orange panels, leaving her bedroom as bright as dusk. With the new lining, she could no longer see the wardrobe from her pillow.
+
+## 000122-5fb17e95c914
+
+The week after the concussion remains patchy: I remember the neighbor's dog but not the neighbor bringing meals. I moved my shoulders. Fear of forgetting the medication schedule made me record every dose on the kitchen calendar, which is how I know exactly when the headaches began to ease.
+
+## 000122-541ac951deb5
+
+In the children's story, Mercy is an elderly badger who runs the village post office. My nephew rubbed his cheek. The illustration showed her sorting letters through a magnifying glass, its center enlarging a red stamp. He wanted to know why the stamp looked bigger than the envelope around it.
+
+## 000122-ef98c56e61ce
+
+Frustration with the broken intercom drove the residents to collect money for a replacement. Elaine tucked her hair behind her ear. During the next month, every flat contributed except the empty one above the shop. The owner eventually paid its share after the agent forwarded our third letter.
+
+## 000122-669834582a41
+
+My reluctance to throw away usable cloth made me unravel the damaged jumper. I lifted my chin. Steam from the kettle clouded the kitchen window while I wound the damp wool around a chair back. By evening, I had enough straightened yarn to begin a smaller jumper for my niece.
+
+## 000122-1dae0c3590cc
+
+The legal letter used "goodwill has departed" to describe the breakdown in negotiations. Our adviser underlined it and recommended replacing it with the date of the last unanswered offer. I rolled my wrists. We worked through the remaining paragraphs in order, removing the same phrase from the closing demand.
+
+## 000122-b4643fe39441
+
+A desire to avoid the exposed ridge kept us on the lower path. Fran shifted her weight. Cloud passed across the lake in separate bands, leaving the far shore visible between them. We reached the hut before the rain, although the longer route used the last of our daylight.
+
+## 000122-2dfcddfb41b4
+
+For five Saturdays, the electrician taught us one household repair at a time, beginning with replacing a plug. I cleared my throat. Fear of working on live wires made me ask him to repeat the isolation procedure. He demonstrated the tester again and watched each of us check the disconnected socket.
+
+## 000122-ce330ef8737a
+
+Pride in his restored bicycle persuaded Grandpa to ride it to the exhibition instead of taking the car. He rubbed his jaw. Rain blurred the ink on the entry form strapped to the handlebars. The organizer copied his details from the receipt in his pocket and gave him a dry number card.
+
+## 000122-305496e851b9
+
+My memory of the evacuation contains the alarm and the cold pavement, with nothing connecting them; I had taken the prescribed sleeping tablet an hour earlier. I adjusted my posture. Concern for the cat sent my partner back to the warden, who confirmed that staff had checked every room.
+
+## 000122-d93107705bc8
+
+The mural's figure of Industry carried a real spanner bolted to the painted hand. I rubbed the back of my neck. Its shadow made the tool appear doubled in the afternoon haze. The restorer wanted photographs at noon, when the shadow would fall directly beneath it and reveal the fixing points.
+
+## 000122-aba7dfa33c22
+
+Her anger over the locked recycling bins led her to photograph them every collection day. I tilted my head. Over a fortnight, the photographs showed that the caretaker unlocked them only after the lorry had passed. The managing agent changed his morning schedule, and the following collection went ahead normally.
+
+## 000122-b24cb28bc067
+
+Enthusiasm for his new telescope kept my son outside after everyone else had gone to bed. I pressed my lips together. The stars looked like fuzzy discs until he adjusted the focus wheel. Then he showed me a sharp crescent and explained that I had been looking at Venus.
+
+## 000122-0dbcaf54339d
+
+The transcript rendered the speaker's phrase as "dignity went hungry." We checked the recording to establish whether she had said dignity or her sister's name, Diggy. I shifted my feet. Slowing the audio preserved the first syllable clearly enough to settle the question, and we corrected the accompanying index.
+
+## 000122-b8b37f5ed174
+
+Nervousness about the unfamiliar route made me print the driving directions instead of relying on my phone. I blinked. Low mist concealed the farm buildings, but the red postbox named in the directions remained visible. Beyond it, the lane divided around a pond exactly as the owner had described.
+
+## 000122-9677f09136aa
+
+All my shifts from that summer blend together because we wore the same uniform and worked under artificial light; I distinguish them by the meals listed in my diary. I stretched my fingers. Disgust at the canteen's cold stew finally drove me to bring sandwiches in a box from home.
+
+## 000122-53637450eb40
+
+In the school musical, Sleep wears roller skates and circles the beds until the children stop singing. The teacher rubbed her wrist. The fog machine obscured the tape marking the edge of the stage, so the caretaker moved it farther back before the next rehearsal began.
+
+## 000122-f90ad491c181
+
+My regret at missing the first concert made me volunteer to record the second. I drew in a breath. During the opening song, the camera focused on the chair backs instead of the singers, leaving every face blurred. I switched to manual focus before my daughter stepped forward for her solo.
+
+## 000122-b142e9867dcd
+
+Concern about the abandoned bees prompted us to telephone the local association. I smoothed my trouser leg. Over the following week, a beekeeper visited twice and transferred the colony into a spare hive. He left it nearby until the returning workers had found the new entrance.
+
+## 000122-106340dd4cbb
+
+The leaflet said, "Shame closes the door," beneath a photograph of a locked flat. The campaign organizer asked whether readers understood it as an instruction to landlords. I rubbed my temple. We tested a second version that named the support line and kept the same telephone number in larger print.
+
+## 000122-2a5b2a91a5ca
+
+Curiosity about the missing staircase led us through the old workshop to a bricked arch. I rolled my neck. Dust veiled the glass above it, but the outline of a landing remained visible behind the paint. The surveyor measured the opening and confirmed that it matched the upstairs floor plan.
+
+## 000122-58fead851303
+
+My fear of forgetting the names made me write them on the backs of the photographs before the visitors left. I lifted my shoulders. The afternoon's introductions were already running together; I could remember the cousins' occupations but kept attaching them to the wrong faces. Their corrections filled three sticky notes.
+
+## 000122-bfd011dd7277
+
+The station shop had sold out of newspapers before our train arrived. I touched my cheek. We bought a crossword book and shared its single pencil as the countryside passed the window. At the next stop, a passenger left a newspaper on the seat opposite, already folded to the puzzle page.
+
+## 000122-228aeea3152b
+
+The caterer could supply plates but charged separately for collecting them afterward. I moved my weight from one foot to the other. We agreed to return them ourselves on Monday, using the boxes in which they arrived. The village hall had enough cupboard space to keep them safely over the weekend.
+
+## 000122-5d6c680a1d1e
+
+The tutor asked us to bring an object we could describe without looking at it. I rubbed my forearm. I chose the wooden spoon my father had repaired with a metal collar, because its handle felt different from every other spoon in the drawer and its repair could be dated exactly.
+
+## 000122-530098fd423a
+
+Fear of being late made me take the earlier tram to the training center. I rubbed my chin. The induction raced onward in a haze of instructions. At lunch, the supervisor discovered that I had been issued a visitor's badge instead of the pass that opened the staff entrance.
+
+## 000122-59689d790cf0
+
+Curiosity about the night market persuaded us to stay after the museum closed. Nora rolled her shoulders. The evening washed past in a blur of impressions. At the final stall, she bought a replacement handle for the teapot she had carried in her bag all the way from home.
+
+## 000122-044da634cf53
+
+The exhibition catalog called the painted figure "Memory Returning Home," but the label beside it omitted the final word. I adjusted my stance. Our visit became a soft jumble of discoveries. On the way out, I gave the attendant the catalog page number so the discrepancy could be checked.
+
+## 000122-5e972747e106
+
+Anger at the overflowing bins drove my neighbor to organize a residents' meeting. I flexed my wrists. Discussion continued in a fog of voices and moments. By the end, we had agreed to ask for a second collection each week and to photograph the waste left after the first.
+
+## 000122-0902baca18d5
+
+In the puppet show, Winter is a sheep wearing a coat covered in paper snowflakes. My brother rubbed his neck. The performance drifted by in a haze of scenes. When the curtain fell, his daughter asked whether the sheep would be too hot wearing its coat inside the summer theater.
+
+## 000122-6c47716c93d3
+
+Pride in his new qualification made Eddie offer to check every bicycle at the youth club. He shifted his feet. The afternoon blurred into a flurry of repairs. We finished with two bikes still unusable, both needing tires in a size the local shop would have to order.
+
+## 000122-58afe57598f4
+
+My dislike of wasted food sent me home from the fete with a box of unsold sandwiches. I tilted my head. Clearing the hall passed in a cloudy stream of activity. The next morning, I discovered that the box also contained the committee secretary's notebook and a roll of raffle tickets.
+
+## 000122-8f83da9dfc2c
+
+The script gave Doubt three entrances, but the actor playing her had been listed for only two. I smoothed my sleeve. Rehearsal spun through an indistinct whirl. Afterward, the stage manager amended the call sheet and put a spare copy beside the dressing-room mirror, where everyone signed in.
+
+## 000122-c47d4dd836a1
+
+Concern about his dog kept the patient asking whether he could leave before lunch. I rubbed my jaw. The ward round became a haze of exchanges. His daughter eventually arrived with a photograph of the dog asleep on her sofa, and he agreed to stay for the afternoon blood test.
+
+## 000122-b645cd86e974
+
+Impatience with our slow internet connection drove us to the library to submit the forms. My partner lifted her chin. The visit slipped past in a blur of little events. We left with the confirmation printed twice because the housing office required one copy for each person named on the application.
+
+## 000122-96defac7ae0e
+
+The translator queried "fear owns the house" because the possessive form changed the identity of the householder in her language. I rolled my neck. Our session flowed onward in a mist of words. We settled on a version that preserved the image and added the speaker's name to the preceding line.
+
+## 000122-1a12e64a59ed
+
+Fear of spoiling the only photograph of her father made Aunt May ask the shop to scan it before cleaning the frame. She brushed her cheek. The errand passed in a hazy rush. The enlarged copy revealed another child at the edge, partly hidden behind the torn paper mount.
+
+## 000122-04af14e78e11
+
+A wish to keep the old neighbors together prompted us to book one long table for the reunion. I stretched my fingers. Lunch drifted through a shapeless procession of conversations. When the bill arrived, we discovered that the restaurant had charged for the empty chair left for our late bus driver.
+
+## 000122-8ea040474b7e
+
+In the school game, Luck is a wooden fox who can move other players' counters. My niece rubbed her elbow. The next hour became a fog of play. When I finally reached the finish, she explained that I had arrived with the wrong parcel and would need another turn.
+
+## 000122-18f664450bba
+
+Embarrassment about the muddy floor made me stay behind to mop after the walking group left. I shifted my shoulders. The cleaning ran together in a vague flurry. Beneath the bench, I found a set of keys with the name of the next village's primary school written on its tag.
+
+## 000122-8f513775c20c
+
+His curiosity about the pottery kiln led him to book the studio's open afternoon. He touched his chin. The demonstration passed in a blur of motions and explanations. At the end, he asked whether the class accepted people who could attend only on alternate Saturdays because of their work shifts.
+
+## 000122-51f077ab6e06
+
+The solicitor asked whether "loyalty chained him there" appeared in the original statement or only in the newspaper account. I adjusted my posture. The interview continued in a cloudy swirl. We located the phrase in the reporter's notes, while the signed statement described the speaker's weekly visits without that wording.
+
+## 000122-7f450f2ab6ae
+
+Disappointment with the bought pastry persuaded my father to try making his own. He rubbed his forehead. The afternoon dissolved into a haze of preparation. His pie looked uneven but came out whole, and he wrote the oven temperature on the recipe before serving the first slice.
+
+## 000122-88ffb28dd907
+
+Worry about the cracked aquarium sent us to the pet shop before it closed. I rolled my wrists. The shopping trip swept by in a mist of activity. We returned with a temporary tank that fitted on the kitchen counter and a net too large to pass through its lid.
+
+## 000122-7c06f37be4b0
+
+The catalog identified the brass figure as Prudence, with a mirror in one hand and a snake in the other. I shifted my weight. The sale drifted through a blur of lots and voices. The dealer bought it for the stand rather than the figure, which had lost one foot.
+
+## 000122-2ece5efcf6b1
+
+Reluctance to leave the dog alone made us choose the outdoor table despite the cold. Bea rubbed her wrist. The meal became a hazy series of moments. Before dessert, the waiter brought a spare blanket and asked whether the dog needed water, which arrived in a stainless-steel mixing bowl.
+
+## 000122-6e101f81e6da
+
+Envy of the neighbor's early strawberries made me sign up for an allotment before checking the waiting list. I lifted my eyebrows. The application process ran through a fog of arrangements. When a plot became available, it was half the size I expected and already contained three healthy currant bushes.
+
+## 000122-7544c6b6e4df
+
+The slogan "kindness has a home here" had been printed without the charity's address. The coordinator asked the designer to add it beneath the telephone number. I rubbed my temple. Our meeting blurred into a rushing exchange. The revised poster arrived before lunch, ready for the community noticeboards.
+
+## 000122-4c632c143a96
+
+Her gratitude for the volunteer driver's help made her insist on contributing petrol money. I moved my shoulders. The journey slipped past in an indistinct flow. At the hospital, he showed her the charity's donation envelope and explained where she could leave it when her appointment was over.
+
+## 000122-8f57ad8b28d1
+
+Fear of cutting the wrong cable kept me reading the instructions aloud while my brother assembled the lamp. He pressed his lips together. The work passed in a fog of small tasks. When we finally plugged it in, the switch operated correctly but the shade hung several centimeters below its intended position.
+
+## 000122-e0088dff4d35
+
+The playbill credited my sister as Peace, a character who sold umbrellas to quarreling travelers at the station. I touched my neck. The second act raced by in a haze of scenes. Afterward, she complained that the stage manager had opened her best umbrella before its final entrance.
+
+## 000122-620942d6d42e
+
+The plumber could repair the shower on Friday, provided the replacement part arrived before noon. I flexed my fingers. The intervening days melted into a vague stream. When he returned, the package contained two identical valves, and he left the spare with us in case the manufacturer discontinued them.
+
+## 000122-a1ea260908c0
+
+The librarian offered to reserve the whole series rather than make my son request each book separately. I rubbed my forearm. The rest of the visit floated past in a blur. At home, he arranged the borrowed books by the dates on their maps instead of the numbers on their spines.
 

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "4fb8495f4946c20196d55902f63038be0ba5fc6bb45b40553425f5a331795cbf",
+  "textSha256": "efa3710ea06b1e681c1c305d914fda1b91c8b1fe2b4eac73f42af2d14c13032b",
   "source": {
     "name": "Codex-authored narrative-craft-fixed-metaphor-frame-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -15,102 +15,1202 @@
     {
       "id": "000098-4704726ba370",
       "start": 72,
-      "end": 424
+      "end": 421
     },
     {
       "id": "000098-8ac503f10eb7",
-      "start": 450,
-      "end": 789
+      "start": 447,
+      "end": 786
     },
     {
       "id": "000098-98afc6d52c7f",
-      "start": 815,
-      "end": 1155
+      "start": 812,
+      "end": 1143
     },
     {
       "id": "000098-7be2d7b990db",
-      "start": 1181,
-      "end": 1534
+      "start": 1169,
+      "end": 1522
     },
     {
       "id": "000098-008a2947d704",
-      "start": 1560,
-      "end": 1938
+      "start": 1548,
+      "end": 1926
     },
     {
       "id": "000098-44704c3e3ef3",
-      "start": 1964,
-      "end": 2325
+      "start": 1952,
+      "end": 2313
     },
     {
       "id": "000098-1c5bcc8c27dc",
-      "start": 2351,
-      "end": 2722
+      "start": 2339,
+      "end": 2719
     },
     {
       "id": "000098-2f9c070dbb9e",
-      "start": 2748,
-      "end": 3116
+      "start": 2745,
+      "end": 3113
     },
     {
       "id": "000098-8536648ad4d1",
-      "start": 3142,
-      "end": 3527
+      "start": 3139,
+      "end": 3524
     },
     {
       "id": "000098-fb5a3382bbf8",
-      "start": 3553,
-      "end": 3894
+      "start": 3550,
+      "end": 3891
     },
     {
       "id": "000098-43fe68a7d895",
-      "start": 3920,
-      "end": 4302
+      "start": 3917,
+      "end": 4272
     },
     {
       "id": "000098-98db9bf9d8ef",
-      "start": 4328,
-      "end": 4700
+      "start": 4298,
+      "end": 4670
     },
     {
       "id": "000098-cee025edcccc",
-      "start": 4726,
-      "end": 5080
+      "start": 4696,
+      "end": 5050
     },
     {
       "id": "000098-2dd7b123dae2",
-      "start": 5106,
-      "end": 5474
+      "start": 5076,
+      "end": 5444
     },
     {
       "id": "000098-c5640bbac2d9",
-      "start": 5500,
-      "end": 5847
+      "start": 5470,
+      "end": 5803
     },
     {
       "id": "000098-2c8f5a116a07",
-      "start": 5873,
-      "end": 6231
+      "start": 5829,
+      "end": 6187
     },
     {
       "id": "000098-e4e97dbea05e",
-      "start": 6257,
-      "end": 6639
+      "start": 6213,
+      "end": 6595
     },
     {
       "id": "000098-09cfaf52e788",
-      "start": 6665,
-      "end": 7028
+      "start": 6621,
+      "end": 7024
     },
     {
       "id": "000098-16e1e67cb157",
-      "start": 7054,
-      "end": 7420
+      "start": 7050,
+      "end": 7416
     },
     {
       "id": "000098-e10f263bf35c",
-      "start": 7446,
-      "end": 7793
+      "start": 7442,
+      "end": 7735
+    },
+    {
+      "id": "000098-d4e349603f87",
+      "start": 7761,
+      "end": 8081
+    },
+    {
+      "id": "000098-2df455afd9ee",
+      "start": 8107,
+      "end": 8390
+    },
+    {
+      "id": "000098-893ec14a0339",
+      "start": 8416,
+      "end": 8746
+    },
+    {
+      "id": "000098-2630daef55fc",
+      "start": 8772,
+      "end": 9070
+    },
+    {
+      "id": "000098-145bf1ba2a0f",
+      "start": 9096,
+      "end": 9380
+    },
+    {
+      "id": "000098-686aea1296c0",
+      "start": 9406,
+      "end": 9689
+    },
+    {
+      "id": "000098-540e4259d176",
+      "start": 9715,
+      "end": 10009
+    },
+    {
+      "id": "000098-d33dc0c7720b",
+      "start": 10035,
+      "end": 10335
+    },
+    {
+      "id": "000098-dc7a51a38a05",
+      "start": 10361,
+      "end": 10646
+    },
+    {
+      "id": "000098-75924aa2b86a",
+      "start": 10672,
+      "end": 10981
+    },
+    {
+      "id": "000098-50a95f402ced",
+      "start": 11007,
+      "end": 11303
+    },
+    {
+      "id": "000098-3bfaa9b2721e",
+      "start": 11329,
+      "end": 11632
+    },
+    {
+      "id": "000098-a2e0d566bbc5",
+      "start": 11658,
+      "end": 11946
+    },
+    {
+      "id": "000098-ab04e8d0a40f",
+      "start": 11972,
+      "end": 12284
+    },
+    {
+      "id": "000098-ca1e9f918399",
+      "start": 12310,
+      "end": 12585
+    },
+    {
+      "id": "000098-a51c24afdf19",
+      "start": 12611,
+      "end": 12903
+    },
+    {
+      "id": "000098-84fbeb9e60c3",
+      "start": 12929,
+      "end": 13211
+    },
+    {
+      "id": "000098-ac9602301135",
+      "start": 13237,
+      "end": 13518
+    },
+    {
+      "id": "000098-b2f3cccbf6f5",
+      "start": 13544,
+      "end": 13847
+    },
+    {
+      "id": "000098-b34cc946a975",
+      "start": 13873,
+      "end": 14181
+    },
+    {
+      "id": "000098-86def6d71a60",
+      "start": 14207,
+      "end": 14504
+    },
+    {
+      "id": "000098-b23bf06ad053",
+      "start": 14530,
+      "end": 14827
+    },
+    {
+      "id": "000098-7e755550db5e",
+      "start": 14853,
+      "end": 15157
+    },
+    {
+      "id": "000098-9e5e3659be22",
+      "start": 15183,
+      "end": 15479
+    },
+    {
+      "id": "000098-d0e194aa2644",
+      "start": 15505,
+      "end": 15805
+    },
+    {
+      "id": "000098-5f41cfd5aa0e",
+      "start": 15831,
+      "end": 16135
+    },
+    {
+      "id": "000098-e28a83b8cefc",
+      "start": 16161,
+      "end": 16474
+    },
+    {
+      "id": "000098-45ed97042e7b",
+      "start": 16500,
+      "end": 16804
+    },
+    {
+      "id": "000098-342c8b066a78",
+      "start": 16830,
+      "end": 17151
+    },
+    {
+      "id": "000098-e68ff0817e59",
+      "start": 17177,
+      "end": 17477
+    },
+    {
+      "id": "000098-fbcd1735ceb1",
+      "start": 17503,
+      "end": 17818
+    },
+    {
+      "id": "000098-f63b864a23d9",
+      "start": 17844,
+      "end": 18193
+    },
+    {
+      "id": "000098-c707b4d0e4f9",
+      "start": 18219,
+      "end": 18541
+    },
+    {
+      "id": "000098-94441bb5c788",
+      "start": 18567,
+      "end": 18881
+    },
+    {
+      "id": "000098-81ee39228331",
+      "start": 18907,
+      "end": 19214
+    },
+    {
+      "id": "000098-b7d456e84ab8",
+      "start": 19240,
+      "end": 19556
+    },
+    {
+      "id": "000098-0b266e488d35",
+      "start": 19582,
+      "end": 19883
+    },
+    {
+      "id": "000098-471fa71ef729",
+      "start": 19909,
+      "end": 20241
+    },
+    {
+      "id": "000098-2ae264548cb6",
+      "start": 20267,
+      "end": 20573
+    },
+    {
+      "id": "000098-3fa0ab6a737d",
+      "start": 20599,
+      "end": 20896
+    },
+    {
+      "id": "000098-736d790414e7",
+      "start": 20922,
+      "end": 21223
+    },
+    {
+      "id": "000098-3a7135ef25f1",
+      "start": 21249,
+      "end": 21572
+    },
+    {
+      "id": "000098-9a0349cab69a",
+      "start": 21598,
+      "end": 21900
+    },
+    {
+      "id": "000098-7cae14277dc2",
+      "start": 21926,
+      "end": 22223
+    },
+    {
+      "id": "000098-dff04118f3bd",
+      "start": 22249,
+      "end": 22559
+    },
+    {
+      "id": "000098-bc3c7846e8b6",
+      "start": 22585,
+      "end": 22879
+    },
+    {
+      "id": "000098-94eae5759dee",
+      "start": 22905,
+      "end": 23238
+    },
+    {
+      "id": "000098-480a1c1ea672",
+      "start": 23264,
+      "end": 23571
+    },
+    {
+      "id": "000098-54f18a90b614",
+      "start": 23597,
+      "end": 23920
+    },
+    {
+      "id": "000098-aaf92053dfc3",
+      "start": 23946,
+      "end": 24246
+    },
+    {
+      "id": "000098-691417f18a94",
+      "start": 24272,
+      "end": 24570
+    },
+    {
+      "id": "000098-35f5505b7122",
+      "start": 24596,
+      "end": 24877
+    },
+    {
+      "id": "000098-f1f845138489",
+      "start": 24903,
+      "end": 25194
+    },
+    {
+      "id": "000098-3e2decbcc1a6",
+      "start": 25220,
+      "end": 25534
+    },
+    {
+      "id": "000098-addd14791726",
+      "start": 25560,
+      "end": 25857
+    },
+    {
+      "id": "000098-31cecb28221c",
+      "start": 25883,
+      "end": 26204
+    },
+    {
+      "id": "000098-8d8b70fac207",
+      "start": 26230,
+      "end": 26548
+    },
+    {
+      "id": "000098-4907850abeba",
+      "start": 26574,
+      "end": 26880
+    },
+    {
+      "id": "000098-3a92ee2a94ac",
+      "start": 26906,
+      "end": 27207
+    },
+    {
+      "id": "000098-30f11fde8325",
+      "start": 27233,
+      "end": 27557
+    },
+    {
+      "id": "000098-5feb4d250453",
+      "start": 27583,
+      "end": 27876
+    },
+    {
+      "id": "000098-f5fa4fed4ad7",
+      "start": 27902,
+      "end": 28208
+    },
+    {
+      "id": "000098-9309fb32c2c9",
+      "start": 28234,
+      "end": 28580
+    },
+    {
+      "id": "000098-38271c50f7c3",
+      "start": 28606,
+      "end": 28904
+    },
+    {
+      "id": "000098-17951db0dd92",
+      "start": 28930,
+      "end": 29240
+    },
+    {
+      "id": "000098-26507f71882f",
+      "start": 29266,
+      "end": 29557
+    },
+    {
+      "id": "000098-89f92b486bb7",
+      "start": 29583,
+      "end": 29895
+    },
+    {
+      "id": "000098-97a1908b618f",
+      "start": 29921,
+      "end": 30214
+    },
+    {
+      "id": "000098-2123a224acc8",
+      "start": 30240,
+      "end": 30551
+    },
+    {
+      "id": "000098-e77ff499799b",
+      "start": 30577,
+      "end": 30866
+    },
+    {
+      "id": "000098-23ec4a4e4543",
+      "start": 30892,
+      "end": 31192
+    },
+    {
+      "id": "000098-a504cd783763",
+      "start": 31218,
+      "end": 31545
+    },
+    {
+      "id": "000098-0d793ef5ec08",
+      "start": 31571,
+      "end": 31879
+    },
+    {
+      "id": "000098-b25c121b627e",
+      "start": 31905,
+      "end": 32214
+    },
+    {
+      "id": "000098-45415ee4a49c",
+      "start": 32240,
+      "end": 32569
+    },
+    {
+      "id": "000098-112d605c8e3a",
+      "start": 32595,
+      "end": 32874
+    },
+    {
+      "id": "000098-3fffa0d4af86",
+      "start": 32900,
+      "end": 33201
+    },
+    {
+      "id": "000098-a543f7b60b40",
+      "start": 33227,
+      "end": 33535
+    },
+    {
+      "id": "000098-906c88935240",
+      "start": 33561,
+      "end": 33902
+    },
+    {
+      "id": "000098-b493beef02a4",
+      "start": 33928,
+      "end": 34259
+    },
+    {
+      "id": "000098-1a179924fbd3",
+      "start": 34285,
+      "end": 34587
+    },
+    {
+      "id": "000098-dd81fcf9dea3",
+      "start": 34613,
+      "end": 34935
+    },
+    {
+      "id": "000098-0b6fe858bbb1",
+      "start": 34961,
+      "end": 35280
+    },
+    {
+      "id": "000098-40c7b42785a8",
+      "start": 35306,
+      "end": 35625
+    },
+    {
+      "id": "000098-b3d2de9712e3",
+      "start": 35651,
+      "end": 35947
+    },
+    {
+      "id": "000098-a846e950d526",
+      "start": 35973,
+      "end": 36285
+    },
+    {
+      "id": "000098-2dcaa8981947",
+      "start": 36311,
+      "end": 36615
+    },
+    {
+      "id": "000098-c6358e95300f",
+      "start": 36641,
+      "end": 36940
+    },
+    {
+      "id": "000098-12c5b95eb351",
+      "start": 36966,
+      "end": 37270
+    },
+    {
+      "id": "000098-ad97826939be",
+      "start": 37296,
+      "end": 37611
+    },
+    {
+      "id": "000098-725bce4cb913",
+      "start": 37637,
+      "end": 37954
+    },
+    {
+      "id": "000098-8d3e9fc29568",
+      "start": 37980,
+      "end": 38325
+    },
+    {
+      "id": "000098-0561c8696621",
+      "start": 38351,
+      "end": 38662
+    },
+    {
+      "id": "000098-be9fd17bceb4",
+      "start": 38688,
+      "end": 39026
+    },
+    {
+      "id": "000098-24c87c4afdde",
+      "start": 39052,
+      "end": 39359
+    },
+    {
+      "id": "000098-b727b581f588",
+      "start": 39385,
+      "end": 39717
+    },
+    {
+      "id": "000098-526bac8de094",
+      "start": 39743,
+      "end": 40058
+    },
+    {
+      "id": "000098-08e0a8f3535b",
+      "start": 40084,
+      "end": 40374
+    },
+    {
+      "id": "000098-da1f1a7c417e",
+      "start": 40400,
+      "end": 40706
+    },
+    {
+      "id": "000098-24aae5bb3fef",
+      "start": 40732,
+      "end": 41067
+    },
+    {
+      "id": "000098-fa8c3a98a0f8",
+      "start": 41093,
+      "end": 41391
+    },
+    {
+      "id": "000098-c43cf3292c2e",
+      "start": 41417,
+      "end": 41737
+    },
+    {
+      "id": "000098-0e679c0f7139",
+      "start": 41763,
+      "end": 42092
+    },
+    {
+      "id": "000098-11a0bd497c49",
+      "start": 42118,
+      "end": 42452
+    },
+    {
+      "id": "000098-0fee922731af",
+      "start": 42478,
+      "end": 42795
+    },
+    {
+      "id": "000098-d221e97f98e6",
+      "start": 42821,
+      "end": 43149
+    },
+    {
+      "id": "000098-5f1670d21714",
+      "start": 43175,
+      "end": 43495
+    },
+    {
+      "id": "000098-bd49bebae4e9",
+      "start": 43521,
+      "end": 43833
+    },
+    {
+      "id": "000098-b71b65960141",
+      "start": 43859,
+      "end": 44188
+    },
+    {
+      "id": "000098-437cf6c7f5f0",
+      "start": 44214,
+      "end": 44509
+    },
+    {
+      "id": "000098-847477835050",
+      "start": 44535,
+      "end": 44846
+    },
+    {
+      "id": "000098-9461360479de",
+      "start": 44872,
+      "end": 45201
+    },
+    {
+      "id": "000098-14a4a2e5f699",
+      "start": 45227,
+      "end": 45543
+    },
+    {
+      "id": "000098-0e3575968da3",
+      "start": 45569,
+      "end": 45887
+    },
+    {
+      "id": "000098-75398074d3d4",
+      "start": 45913,
+      "end": 46229
+    },
+    {
+      "id": "000098-254feff50676",
+      "start": 46255,
+      "end": 46585
+    },
+    {
+      "id": "000098-b285f422023c",
+      "start": 46611,
+      "end": 46928
+    },
+    {
+      "id": "000098-93a4997ac12c",
+      "start": 46954,
+      "end": 47285
+    },
+    {
+      "id": "000098-0dda23fe0f6f",
+      "start": 47311,
+      "end": 47604
+    },
+    {
+      "id": "000098-7733ee80254d",
+      "start": 47630,
+      "end": 47955
+    },
+    {
+      "id": "000098-300b285d1db7",
+      "start": 47981,
+      "end": 48287
+    },
+    {
+      "id": "000098-f0dd030d8dd8",
+      "start": 48313,
+      "end": 48632
+    },
+    {
+      "id": "000098-188431878e4c",
+      "start": 48658,
+      "end": 48954
+    },
+    {
+      "id": "000098-68277ee3ca4d",
+      "start": 48980,
+      "end": 49266
+    },
+    {
+      "id": "000098-a1e439abb884",
+      "start": 49292,
+      "end": 49612
+    },
+    {
+      "id": "000098-20c0ff1df823",
+      "start": 49638,
+      "end": 49942
+    },
+    {
+      "id": "000098-eede21093a0a",
+      "start": 49968,
+      "end": 50271
+    },
+    {
+      "id": "000098-f64cf6337e4a",
+      "start": 50297,
+      "end": 50610
+    },
+    {
+      "id": "000098-5adbe234b019",
+      "start": 50636,
+      "end": 50937
+    },
+    {
+      "id": "000098-3979ce0e53e9",
+      "start": 50963,
+      "end": 51281
+    },
+    {
+      "id": "000098-527b5e286e55",
+      "start": 51307,
+      "end": 51633
+    },
+    {
+      "id": "000098-7688a3526050",
+      "start": 51659,
+      "end": 52007
+    },
+    {
+      "id": "000098-822afdcb2839",
+      "start": 52033,
+      "end": 52354
+    },
+    {
+      "id": "000098-f53e6cdc0796",
+      "start": 52380,
+      "end": 52678
+    },
+    {
+      "id": "000098-350df63aeb56",
+      "start": 52704,
+      "end": 53011
+    },
+    {
+      "id": "000098-559123c2d396",
+      "start": 53037,
+      "end": 53320
+    },
+    {
+      "id": "000098-e0a62bd42ccf",
+      "start": 53346,
+      "end": 53654
+    },
+    {
+      "id": "000098-72b917351003",
+      "start": 53680,
+      "end": 53996
+    },
+    {
+      "id": "000098-bb7931394da1",
+      "start": 54022,
+      "end": 54316
+    },
+    {
+      "id": "000098-cf012bd600df",
+      "start": 54342,
+      "end": 54644
+    },
+    {
+      "id": "000098-b28c6de3e807",
+      "start": 54670,
+      "end": 54985
+    },
+    {
+      "id": "000098-627de185fd2d",
+      "start": 55011,
+      "end": 55328
+    },
+    {
+      "id": "000098-a63e2ab7b5c9",
+      "start": 55354,
+      "end": 55654
+    },
+    {
+      "id": "000098-521c22c68b67",
+      "start": 55680,
+      "end": 55991
+    },
+    {
+      "id": "000098-c780b54cd44a",
+      "start": 56017,
+      "end": 56319
+    },
+    {
+      "id": "000098-e81edbe07fc6",
+      "start": 56345,
+      "end": 56651
+    },
+    {
+      "id": "000098-a72e9d1ffbc3",
+      "start": 56677,
+      "end": 56991
+    },
+    {
+      "id": "000098-9c0afffca637",
+      "start": 57017,
+      "end": 57339
+    },
+    {
+      "id": "000098-3071e4ef79a4",
+      "start": 57365,
+      "end": 57675
+    },
+    {
+      "id": "000098-4965fae78563",
+      "start": 57701,
+      "end": 57991
+    },
+    {
+      "id": "000098-b19486465780",
+      "start": 58017,
+      "end": 58337
+    },
+    {
+      "id": "000098-6538d337009a",
+      "start": 58363,
+      "end": 58676
+    },
+    {
+      "id": "000098-1e52a0dc9b46",
+      "start": 58702,
+      "end": 59017
+    },
+    {
+      "id": "000098-ad63c60e969b",
+      "start": 59043,
+      "end": 59345
+    },
+    {
+      "id": "000098-0afd344e6fed",
+      "start": 59371,
+      "end": 59701
+    },
+    {
+      "id": "000098-2a716f3f514d",
+      "start": 59727,
+      "end": 60088
+    },
+    {
+      "id": "000098-64f1b3daa9a0",
+      "start": 60114,
+      "end": 60411
+    },
+    {
+      "id": "000098-a5e53bd4ab2f",
+      "start": 60437,
+      "end": 60748
+    },
+    {
+      "id": "000098-7b35ad32bd9f",
+      "start": 60774,
+      "end": 61107
+    },
+    {
+      "id": "000098-3448647dd863",
+      "start": 61133,
+      "end": 61482
+    },
+    {
+      "id": "000098-94cdee0bd9d0",
+      "start": 61508,
+      "end": 61828
+    },
+    {
+      "id": "000098-cbdefc676e36",
+      "start": 61854,
+      "end": 62180
+    },
+    {
+      "id": "000098-f2eda6342e2d",
+      "start": 62206,
+      "end": 62540
+    },
+    {
+      "id": "000098-fef8f4d6808a",
+      "start": 62566,
+      "end": 62902
+    },
+    {
+      "id": "000098-c5423e83c284",
+      "start": 62928,
+      "end": 63238
+    },
+    {
+      "id": "000098-d49ee5298e5c",
+      "start": 63264,
+      "end": 63577
+    },
+    {
+      "id": "000098-2cdb1edc09a9",
+      "start": 63603,
+      "end": 63910
+    },
+    {
+      "id": "000098-c074c1ed4908",
+      "start": 63936,
+      "end": 64230
+    },
+    {
+      "id": "000098-4dd35210f328",
+      "start": 64256,
+      "end": 64564
+    },
+    {
+      "id": "000098-83fe8a65d909",
+      "start": 64590,
+      "end": 64927
+    },
+    {
+      "id": "000098-b8774a1c33b2",
+      "start": 64953,
+      "end": 65269
+    },
+    {
+      "id": "000098-b912d22cc7d6",
+      "start": 65295,
+      "end": 65624
+    },
+    {
+      "id": "000098-ec1438984adb",
+      "start": 65650,
+      "end": 65966
+    },
+    {
+      "id": "000098-a3a84d94ffbb",
+      "start": 65992,
+      "end": 66315
+    },
+    {
+      "id": "000098-31824a8a4cd4",
+      "start": 66341,
+      "end": 66655
+    },
+    {
+      "id": "000098-86fb81d57648",
+      "start": 66681,
+      "end": 66979
+    },
+    {
+      "id": "000098-4b8ca7e63741",
+      "start": 67005,
+      "end": 67324
+    },
+    {
+      "id": "000098-58c74f5a42bd",
+      "start": 67350,
+      "end": 67686
+    },
+    {
+      "id": "000098-cb56c6d3b82a",
+      "start": 67712,
+      "end": 68010
+    },
+    {
+      "id": "000098-220ad4284c3b",
+      "start": 68036,
+      "end": 68347
+    },
+    {
+      "id": "000098-528a268788ad",
+      "start": 68373,
+      "end": 68670
+    },
+    {
+      "id": "000098-7e727cdbb275",
+      "start": 68696,
+      "end": 69009
+    },
+    {
+      "id": "000098-8a9a9669af23",
+      "start": 69035,
+      "end": 69351
+    },
+    {
+      "id": "000098-c3fc9e645e6e",
+      "start": 69377,
+      "end": 69700
+    },
+    {
+      "id": "000098-62a67eb792e4",
+      "start": 69726,
+      "end": 70045
+    },
+    {
+      "id": "000098-f1b83c9c8dc6",
+      "start": 70071,
+      "end": 70398
+    },
+    {
+      "id": "000098-c46beaadb314",
+      "start": 70424,
+      "end": 70749
+    },
+    {
+      "id": "000098-e0d888925030",
+      "start": 70775,
+      "end": 71124
+    },
+    {
+      "id": "000098-faa0b124070f",
+      "start": 71150,
+      "end": 71473
+    },
+    {
+      "id": "000098-c9c878342a59",
+      "start": 71499,
+      "end": 71819
+    },
+    {
+      "id": "000098-f44e9072aa43",
+      "start": 71845,
+      "end": 72176
+    },
+    {
+      "id": "000098-125e2cffa16d",
+      "start": 72202,
+      "end": 72521
+    },
+    {
+      "id": "000098-2109e9c7a4bc",
+      "start": 72547,
+      "end": 72879
+    },
+    {
+      "id": "000098-d20a90c1b588",
+      "start": 72905,
+      "end": 73236
+    },
+    {
+      "id": "000098-14ee573e03f0",
+      "start": 73262,
+      "end": 73563
+    },
+    {
+      "id": "000098-df481ef3788b",
+      "start": 73589,
+      "end": 73902
+    },
+    {
+      "id": "000098-187cff1a5b9c",
+      "start": 73928,
+      "end": 74238
+    },
+    {
+      "id": "000098-ba1f8acc4dfd",
+      "start": 74264,
+      "end": 74568
+    },
+    {
+      "id": "000098-5f24362b3a9a",
+      "start": 74594,
+      "end": 74915
+    },
+    {
+      "id": "000098-b043fefe3b7d",
+      "start": 74941,
+      "end": 75274
+    },
+    {
+      "id": "000098-3d7623862ba1",
+      "start": 75300,
+      "end": 75636
+    },
+    {
+      "id": "000098-e05a0e8641e3",
+      "start": 75662,
+      "end": 75985
+    },
+    {
+      "id": "000098-a1f5141c6fa5",
+      "start": 76011,
+      "end": 76321
+    },
+    {
+      "id": "000098-37336815ea13",
+      "start": 76347,
+      "end": 76674
+    },
+    {
+      "id": "000098-3a16df8ff1dc",
+      "start": 76700,
+      "end": 77004
+    },
+    {
+      "id": "000098-9d410048e9c5",
+      "start": 77030,
+      "end": 77340
+    },
+    {
+      "id": "000098-5e912b523062",
+      "start": 77366,
+      "end": 77691
+    },
+    {
+      "id": "000098-c8b63e4f8218",
+      "start": 77717,
+      "end": 78033
+    },
+    {
+      "id": "000098-8c01bf2aeb68",
+      "start": 78059,
+      "end": 78390
+    },
+    {
+      "id": "000098-6e6768e747c4",
+      "start": 78416,
+      "end": 78736
+    },
+    {
+      "id": "000098-e815a0c1acde",
+      "start": 78762,
+      "end": 79051
+    },
+    {
+      "id": "000098-8889784e85b2",
+      "start": 79077,
+      "end": 79369
+    },
+    {
+      "id": "000098-d5c947e6ef64",
+      "start": 79395,
+      "end": 79698
+    },
+    {
+      "id": "000098-3c7c5d0c95d6",
+      "start": 79724,
+      "end": 80016
+    },
+    {
+      "id": "000098-0b4a613d4abd",
+      "start": 80042,
+      "end": 80371
+    },
+    {
+      "id": "000098-415b018ba3de",
+      "start": 80397,
+      "end": 80706
+    },
+    {
+      "id": "000098-b0e41acd4ad8",
+      "start": 80732,
+      "end": 81056
+    },
+    {
+      "id": "000098-560b9a1d2fc5",
+      "start": 81082,
+      "end": 81424
+    },
+    {
+      "id": "000098-4a51dfbf5c7d",
+      "start": 81450,
+      "end": 81772
+    },
+    {
+      "id": "000098-c0524ae39f59",
+      "start": 81798,
+      "end": 82089
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "The office was an aquarium of ambition and quiet desperation."
+        "the office's aquarium of ambition and quiet desperation"
       ]
     },
     {
@@ -132,7 +1232,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "the waterfront unfolded into a patchwork of longing, salt, and forgotten promises"
+        "Longing and forgotten promises formed a salt-stained patchwork along the waterfront."
       ]
     },
     {
@@ -158,7 +1258,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "the ferry lounge had turned into a theater of shadows and restless dreams"
+        "the ferry lounge's theater of shadows and restless dreams"
       ]
     },
     {
@@ -184,7 +1284,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "Up there, beneath the rafters, lay an orchard of memories and abandoned possibilities."
+        "the attic, an orchard heavy with memories and abandoned possibilities"
       ]
     },
     {
@@ -210,7 +1310,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "the beach lay before us like a canvas of freedom and endless possibility"
+        "freedom seemed painted across the beach's limitless canvas"
       ]
     },
     {
@@ -223,7 +1323,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "the laundrette, a sanctuary of small defeats beneath fluorescent light"
+        "a sanctuary of small defeats beneath fluorescent light"
       ]
     },
     {
@@ -241,6 +1341,1436 @@
     },
     {
       "id": "000098-e10f263bf35c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-d4e349603f87",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a cathedral of silence and abandoned summers"
+      ]
+    },
+    {
+      "id": "000098-2df455afd9ee",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-893ec14a0339",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the school office had turned into a crossroads of anxiety and anticipation"
+      ]
+    },
+    {
+      "id": "000098-2630daef55fc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-145bf1ba2a0f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The new flat opened around us like a kingdom of beginnings and unspoken wishes."
+      ]
+    },
+    {
+      "id": "000098-686aea1296c0",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-540e4259d176",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The function room shimmered with a mosaic of lost youth and second chances."
+      ]
+    },
+    {
+      "id": "000098-d33dc0c7720b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-dc7a51a38a05",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Our allotment shed had become a treasury of seasons, secrets, and patient dreams."
+      ]
+    },
+    {
+      "id": "000098-75924aa2b86a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-50a95f402ced",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the city arranged itself into a ballet of chance and destiny"
+      ]
+    },
+    {
+      "id": "000098-3bfaa9b2721e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-a2e0d566bbc5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "This warehouse, a universe of sweat and invisible hopes"
+      ]
+    },
+    {
+      "id": "000098-ab04e8d0a40f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-ca1e9f918399",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a labyrinth of colour and possibility"
+      ]
+    },
+    {
+      "id": "000098-a51c24afdf19",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-84fbeb9e60c3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the road was a ribbon of uncertainty and fragile courage"
+      ]
+    },
+    {
+      "id": "000098-ac9602301135",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b2f3cccbf6f5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the hall was a harbour for broken objects and bruised souls"
+      ]
+    },
+    {
+      "id": "000098-b34cc946a975",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-86def6d71a60",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the ring became a floating island of innocence and joy"
+      ]
+    },
+    {
+      "id": "000098-b23bf06ad053",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-7e755550db5e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the bakery's back room was an alchemist's chamber of warmth and yearning"
+      ]
+    },
+    {
+      "id": "000098-9e5e3659be22",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-d0e194aa2644",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "It quickly filled with an ocean of grievance and stubborn hope."
+      ]
+    },
+    {
+      "id": "000098-5f41cfd5aa0e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-e28a83b8cefc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a palace of desire and polished illusions"
+      ]
+    },
+    {
+      "id": "000098-45ed97042e7b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-342c8b066a78",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the changing room settled into a crypt of disappointment and wounded pride"
+      ]
+    },
+    {
+      "id": "000098-e68ff0817e59",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-fbcd1735ceb1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the high street unfurled its tapestry of struggle and resilience"
+      ]
+    },
+    {
+      "id": "000098-f63b864a23d9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-c707b4d0e4f9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a constellation of strangers and fleeting dreams flickered beneath the trees"
+      ]
+    },
+    {
+      "id": "000098-94441bb5c788",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-81ee39228331",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Her father's garage remained a forest of rust and forgotten intentions."
+      ]
+    },
+    {
+      "id": "000098-b7d456e84ab8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0b266e488d35",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bus depot was a beehive of fatigue and restless purpose"
+      ]
+    },
+    {
+      "id": "000098-471fa71ef729",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-2ae264548cb6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Behind the restaurant stretched a canyon of discarded appetites and exhausted dreams."
+      ]
+    },
+    {
+      "id": "000098-3fa0ab6a737d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-736d790414e7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "our village field wore a patchwork of loyalty and uncomplicated love"
+      ]
+    },
+    {
+      "id": "000098-3a7135ef25f1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-9a0349cab69a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "an oasis of escape and sunlit promises"
+      ]
+    },
+    {
+      "id": "000098-7cae14277dc2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-dff04118f3bd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the stairwell became a well of shadows and old fears"
+      ]
+    },
+    {
+      "id": "000098-bc3c7846e8b6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-94eae5759dee",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The saleroom breathed as a menagerie of greed and nostalgia"
+      ]
+    },
+    {
+      "id": "000098-480a1c1ea672",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-54f18a90b614",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the rehearsal studio became a crucible of ambition and raw vulnerability"
+      ]
+    },
+    {
+      "id": "000098-aaf92053dfc3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-691417f18a94",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a lighthouse of solitude and weary redemption"
+      ]
+    },
+    {
+      "id": "000098-35f5505b7122",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-f1f845138489",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a bowl of sunlight and suspended possibility"
+      ]
+    },
+    {
+      "id": "000098-3e2decbcc1a6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-addd14791726",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Inside waited a carnival of laughter, longing, and unfinished stories."
+      ]
+    },
+    {
+      "id": "000098-31cecb28221c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-8d8b70fac207",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The station car park became a chessboard of departures and reluctant returns"
+      ]
+    },
+    {
+      "id": "000098-4907850abeba",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-3a92ee2a94ac",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The guest bedroom was a snow globe of tenderness and vanished time."
+      ]
+    },
+    {
+      "id": "000098-30f11fde8325",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-5feb4d250453",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the arcade was a mausoleum of pleasure and spent desire"
+      ]
+    },
+    {
+      "id": "000098-f5fa4fed4ad7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-9309fb32c2c9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Between the shelves lay a desert of exhaustion and private resentment."
+      ]
+    },
+    {
+      "id": "000098-38271c50f7c3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-17951db0dd92",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The water spread before us as a mirror of dreams and untold adventures."
+      ]
+    },
+    {
+      "id": "000098-26507f71882f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-89f92b486bb7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a landscape of ghosts and stubborn dreams"
+      ]
+    },
+    {
+      "id": "000098-97a1908b618f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-2123a224acc8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the pavement had become a vineyard of patience and desperate aspiration"
+      ]
+    },
+    {
+      "id": "000098-e77ff499799b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-23ec4a4e4543",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The studio held a garden of creativity and imperfect hopes."
+      ]
+    },
+    {
+      "id": "000098-a504cd783763",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0d793ef5ec08",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The ferry terminal's upper deck was a nest of impatience and borrowed dreams."
+      ]
+    },
+    {
+      "id": "000098-b25c121b627e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-45415ee4a49c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a sea of affection and fragile promises"
+      ]
+    },
+    {
+      "id": "000098-112d605c8e3a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-3fffa0d4af86",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the temporary classroom had become an aquarium of curiosity and small rebellions"
+      ]
+    },
+    {
+      "id": "000098-a543f7b60b40",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-906c88935240",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Its narrow hall became a riverbed of grief and tender remembrance."
+      ]
+    },
+    {
+      "id": "000098-b493beef02a4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-1a179924fbd3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The underpass was an atlas of loneliness and urban hunger."
+      ]
+    },
+    {
+      "id": "000098-dd81fcf9dea3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0b6fe858bbb1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "it was a terrarium of frustration and muted yearning"
+      ]
+    },
+    {
+      "id": "000098-40c7b42785a8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b3d2de9712e3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a galaxy of appetite and bright distraction"
+      ]
+    },
+    {
+      "id": "000098-a846e950d526",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-2dcaa8981947",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The fishing pier became a spine of solitude and weathered wisdom"
+      ]
+    },
+    {
+      "id": "000098-c6358e95300f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-12c5b95eb351",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "His little shop was a republic of gossip and masculine regret."
+      ]
+    },
+    {
+      "id": "000098-ad97826939be",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-725bce4cb913",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The building gathered us into a quilt of voices, histories, and human warmth."
+      ]
+    },
+    {
+      "id": "000098-8d3e9fc29568",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0561c8696621",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the recreation ground transformed into a frontier of freedom and half-remembered longing"
+      ]
+    },
+    {
+      "id": "000098-be9fd17bceb4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-24c87c4afdde",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The storage unit was a time capsule of love and fractured belonging."
+      ]
+    },
+    {
+      "id": "000098-b727b581f588",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-526bac8de094",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the estuary lay as a parchment of secrets and ancient sorrow"
+      ]
+    },
+    {
+      "id": "000098-08e0a8f3535b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-da1f1a7c417e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The corridor was a tunnel through fear and fragile mercy."
+      ]
+    },
+    {
+      "id": "000098-24aae5bb3fef",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-fa8c3a98a0f8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a harbour of uncertainty and postponed dreams"
+      ]
+    },
+    {
+      "id": "000098-c43cf3292c2e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0e679c0f7139",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Behind the desk lay a universe of abandonment and second chances."
+      ]
+    },
+    {
+      "id": "000098-11a0bd497c49",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0fee922731af",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The platform held us in its cage of anticipation and unsaid farewells."
+      ]
+    },
+    {
+      "id": "000098-d221e97f98e6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-5f1670d21714",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Between its shelves stretched a kingdom of wonder and silent yearning."
+      ]
+    },
+    {
+      "id": "000098-bd49bebae4e9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b71b65960141",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a battlefield of memory and unresolved desire"
+      ]
+    },
+    {
+      "id": "000098-437cf6c7f5f0",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-847477835050",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The new leisure centre was a cathedral to effort and bodily hope."
+      ]
+    },
+    {
+      "id": "000098-9461360479de",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-14a4a2e5f699",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the skate park unfolded as a sonnet of rebellion and youthful hunger"
+      ]
+    },
+    {
+      "id": "000098-0e3575968da3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-75398074d3d4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Its dining room was a jewel box of romance and lingering regret."
+      ]
+    },
+    {
+      "id": "000098-254feff50676",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b285f422023c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a vestibule of secrets and fractured loyalties"
+      ]
+    },
+    {
+      "id": "000098-93a4997ac12c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0dda23fe0f6f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The town square rang with a symphony of belonging and restless desire."
+      ]
+    },
+    {
+      "id": "000098-7733ee80254d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-300b285d1db7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The yard had become a graveyard of purpose and working men's dreams."
+      ]
+    },
+    {
+      "id": "000098-f0dd030d8dd8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-188431878e4c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a cradle of stillness and forgotten dreams"
+      ]
+    },
+    {
+      "id": "000098-68277ee3ca4d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-a1e439abb884",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The catering tent held a cauldron of nerves and last-minute miracles."
+      ]
+    },
+    {
+      "id": "000098-20c0ff1df823",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-eede21093a0a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "an archipelago of discarded lives and stubborn memory"
+      ]
+    },
+    {
+      "id": "000098-f64cf6337e4a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-5adbe234b019",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a horizon of hope and inevitable sorrow"
+      ]
+    },
+    {
+      "id": "000098-3979ce0e53e9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-527b5e286e55",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a kaleidoscope of innocence and community spirit"
+      ]
+    },
+    {
+      "id": "000098-7688a3526050",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-822afdcb2839",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The motorway services were a purgatory of fatigue and deferred arrival."
+      ]
+    },
+    {
+      "id": "000098-f53e6cdc0796",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-350df63aeb56",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The conservatory glowed as a lantern of domestic peace and muted longing."
+      ]
+    },
+    {
+      "id": "000098-559123c2d396",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-e0a62bd42ccf",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The polling station was a loom on which civic duty and private hope were woven."
+      ]
+    },
+    {
+      "id": "000098-72b917351003",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-bb7931394da1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a gallery of decay and defiant beauty"
+      ]
+    },
+    {
+      "id": "000098-cf012bd600df",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b28c6de3e807",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Our basement flat was a burrow of secrets and sheltered dreams."
+      ]
+    },
+    {
+      "id": "000098-627de185fd2d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-a63e2ab7b5c9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a mountain range of courage and hidden possibility"
+      ]
+    },
+    {
+      "id": "000098-521c22c68b67",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-c780b54cd44a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a shoreline of nostalgia and sun-bleached promises"
+      ]
+    },
+    {
+      "id": "000098-e81edbe07fc6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-a72e9d1ffbc3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The community kitchen had become a furnace of generosity and human connection."
+      ]
+    },
+    {
+      "id": "000098-9c0afffca637",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-3071e4ef79a4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The entrance was a threshold between fear and the endless garden of new beginnings."
+      ]
+    },
+    {
+      "id": "000098-4965fae78563",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b19486465780",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the freight terminal became a furnace where commerce and anonymous longing glowed together"
+      ]
+    },
+    {
+      "id": "000098-6538d337009a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-1e52a0dc9b46",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The rooftop bar spread its theatre of glitter and concealed loneliness above the town."
+      ]
+    },
+    {
+      "id": "000098-ad63c60e969b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0afd344e6fed",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "it was an orchard of kindness and quiet sacrifice"
+      ]
+    },
+    {
+      "id": "000098-2a716f3f514d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-64f1b3daa9a0",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The abandoned petrol station was a fossil of ambition and stranded desire."
+      ]
+    },
+    {
+      "id": "000098-a5e53bd4ab2f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-7b35ad32bd9f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a labyrinth of lives and buried truths waited behind the counter"
+      ]
+    },
+    {
+      "id": "000098-3448647dd863",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-94cdee0bd9d0",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a canyon of silence and industrial memory"
+      ]
+    },
+    {
+      "id": "000098-cbdefc676e36",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-f2eda6342e2d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Beyond the roundabout lay a mosaic of ambition and corporate solitude."
+      ]
+    },
+    {
+      "id": "000098-fef8f4d6808a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-c5423e83c284",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The old orchard had become a chapel of decay and patient renewal."
+      ]
+    },
+    {
+      "id": "000098-d49ee5298e5c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-2cdb1edc09a9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the waiting area was a carousel of humiliation and stubborn hope"
+      ]
+    },
+    {
+      "id": "000098-c074c1ed4908",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-4dd35210f328",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "beneath a canopy of freedom and bruised dreams"
+      ]
+    },
+    {
+      "id": "000098-83fe8a65d909",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b8774a1c33b2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a reef of wonder and acquisitive delight"
+      ]
+    },
+    {
+      "id": "000098-b912d22cc7d6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-ec1438984adb",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a reservoir of old victories and communal dreams"
+      ]
+    },
+    {
+      "id": "000098-a3a84d94ffbb",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-31824a8a4cd4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "an amphitheatre of timeless struggle and whispered joy"
+      ]
+    },
+    {
+      "id": "000098-86fb81d57648",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-4b8ca7e63741",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The recycling centre was a shipwreck of convenience and consumer dreams."
+      ]
+    },
+    {
+      "id": "000098-58c74f5a42bd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-cb56c6d3b82a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The riverside path had become a necklace of shadows and unfinished stories."
+      ]
+    },
+    {
+      "id": "000098-220ad4284c3b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-528a268788ad",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The art supply shop was a pantry of possibility and half-awakened desire."
+      ]
+    },
+    {
+      "id": "000098-7e727cdbb275",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-8a9a9669af23",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a basin of tranquillity and secret yearning"
+      ]
+    },
+    {
+      "id": "000098-c3fc9e645e6e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-62a67eb792e4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The school theatre was a hothouse of nerves and fragile dreams"
+      ]
+    },
+    {
+      "id": "000098-f1b83c9c8dc6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-c46beaadb314",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The Saturday market was a loom of accents, longing, and small daily miracles."
+      ]
+    },
+    {
+      "id": "000098-e0d888925030",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-faa0b124070f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Our rented rehearsal room was an embassy of ambition and bruised fellowship."
+      ]
+    },
+    {
+      "id": "000098-c9c878342a59",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-f44e9072aa43",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a greenhouse where anxiety and wanderlust bloomed together"
+      ]
+    },
+    {
+      "id": "000098-125e2cffa16d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-2109e9c7a4bc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a kingdom of steam and unacknowledged sacrifice"
+      ]
+    },
+    {
+      "id": "000098-d20a90c1b588",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-14ee573e03f0",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bowling alley became a cathedral of competition and borrowed confidence"
+      ]
+    },
+    {
+      "id": "000098-df481ef3788b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-187cff1a5b9c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The seaside retirement home was a harbour of memories and slowly fading horizons."
+      ]
+    },
+    {
+      "id": "000098-ba1f8acc4dfd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-5f24362b3a9a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a kingdom of fortune and crushed desire"
+      ]
+    },
+    {
+      "id": "000098-b043fefe3b7d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-3d7623862ba1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a chessboard of comfort and aspirational longing"
+      ]
+    },
+    {
+      "id": "000098-e05a0e8641e3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-a1f5141c6fa5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The repair yard hummed inside its cocoon of grease and patient resurrection."
+      ]
+    },
+    {
+      "id": "000098-37336815ea13",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-3a16df8ff1dc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a wilderness of freedom and unspoken renewal"
+      ]
+    },
+    {
+      "id": "000098-9d410048e9c5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-5e912b523062",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a crossroads of belonging and quiet desperation"
+      ]
+    },
+    {
+      "id": "000098-c8b63e4f8218",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-8c01bf2aeb68",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The corridor outside the examination hall was a conservatory of ambition and anxious youth."
+      ]
+    },
+    {
+      "id": "000098-6e6768e747c4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-e815a0c1acde",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The chip shop wrapped us in a fog of comfort and ordinary grace."
+      ]
+    },
+    {
+      "id": "000098-8889784e85b2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-d5c947e6ef64",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The airport hotel breakfast room was a terrarium of displacement and provisional hope."
+      ]
+    },
+    {
+      "id": "000098-3c7c5d0c95d6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-0b4a613d4abd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The municipal nursery was a greenhouse of second chances and quiet determination."
+      ]
+    },
+    {
+      "id": "000098-415b018ba3de",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-b0e41acd4ad8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a landscape stitched from loneliness and unfinished longing"
+      ]
+    },
+    {
+      "id": "000098-560b9a1d2fc5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000098-4a51dfbf5c7d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "our small constellation of fellowship and fading dreams"
+      ]
+    },
+    {
+      "id": "000098-c0524ae39f59",
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": false
     }

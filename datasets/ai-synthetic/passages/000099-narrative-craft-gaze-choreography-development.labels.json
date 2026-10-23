@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "eba49d35d46af50cfac9c8883533d138c6cf8cf04f3c4440c6bcd5f3a8bf0bdc",
+  "textSha256": "6a6a23231c9567d192f002df394b1f38cdea5b303e43bca1290618375b00e4a2",
   "source": {
     "name": "Codex-authored narrative-craft-gaze-choreography-development",
     "originalPath": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -15,102 +15,1202 @@
     {
       "id": "000099-f1e669637aa3",
       "start": 73,
-      "end": 419
+      "end": 382
     },
     {
       "id": "000099-38e4bce18934",
-      "start": 445,
-      "end": 782
+      "start": 408,
+      "end": 745
     },
     {
       "id": "000099-82a8eae6a8a1",
-      "start": 808,
-      "end": 1189
+      "start": 771,
+      "end": 1160
     },
     {
       "id": "000099-6477a2d3f2d3",
-      "start": 1215,
-      "end": 1524
+      "start": 1186,
+      "end": 1495
     },
     {
       "id": "000099-c4b3284a8479",
-      "start": 1550,
-      "end": 1920
+      "start": 1521,
+      "end": 1838
     },
     {
       "id": "000099-74e23e0700d4",
-      "start": 1946,
-      "end": 2243
+      "start": 1864,
+      "end": 2166
     },
     {
       "id": "000099-b8cb108f1622",
-      "start": 2269,
-      "end": 2625
+      "start": 2192,
+      "end": 2539
     },
     {
       "id": "000099-0e85888fe9c6",
-      "start": 2651,
-      "end": 2972
+      "start": 2565,
+      "end": 2886
     },
     {
       "id": "000099-45efc5e5aa35",
-      "start": 2998,
-      "end": 3323
+      "start": 2912,
+      "end": 3237
     },
     {
       "id": "000099-a6f76a978ab7",
-      "start": 3349,
-      "end": 3687
+      "start": 3263,
+      "end": 3601
     },
     {
       "id": "000099-10aac903471f",
-      "start": 3713,
-      "end": 4062
+      "start": 3627,
+      "end": 4009
     },
     {
       "id": "000099-f750ab1fa9a9",
-      "start": 4088,
-      "end": 4446
+      "start": 4035,
+      "end": 4393
     },
     {
       "id": "000099-9b9780ba6689",
-      "start": 4472,
-      "end": 4804
+      "start": 4419,
+      "end": 4751
     },
     {
       "id": "000099-bc56c621b930",
-      "start": 4830,
-      "end": 5165
+      "start": 4777,
+      "end": 5112
     },
     {
       "id": "000099-5f273c38952b",
-      "start": 5191,
-      "end": 5568
+      "start": 5138,
+      "end": 5473
     },
     {
       "id": "000099-2340714410bb",
-      "start": 5594,
-      "end": 5958
+      "start": 5499,
+      "end": 5863
     },
     {
       "id": "000099-0cf01c7cd4ea",
-      "start": 5984,
-      "end": 6337
+      "start": 5889,
+      "end": 6197
     },
     {
       "id": "000099-d2cbdf9a4daa",
-      "start": 6363,
-      "end": 6680
+      "start": 6223,
+      "end": 6540
     },
     {
       "id": "000099-273692ed33d6",
-      "start": 6706,
-      "end": 7065
+      "start": 6566,
+      "end": 6925
     },
     {
       "id": "000099-c520b456bbce",
-      "start": 7091,
-      "end": 7483
+      "start": 6951,
+      "end": 7343
+    },
+    {
+      "id": "000099-20c7fdca087f",
+      "start": 7369,
+      "end": 7649
+    },
+    {
+      "id": "000099-86d3a3046598",
+      "start": 7675,
+      "end": 7942
+    },
+    {
+      "id": "000099-77c8bdc31bdf",
+      "start": 7968,
+      "end": 8238
+    },
+    {
+      "id": "000099-3934c5a0a271",
+      "start": 8264,
+      "end": 8514
+    },
+    {
+      "id": "000099-72569583f343",
+      "start": 8540,
+      "end": 8845
+    },
+    {
+      "id": "000099-60953d649809",
+      "start": 8871,
+      "end": 9109
+    },
+    {
+      "id": "000099-2fbdc206b132",
+      "start": 9135,
+      "end": 9404
+    },
+    {
+      "id": "000099-780ab3c741e3",
+      "start": 9430,
+      "end": 9698
+    },
+    {
+      "id": "000099-fde355019ab5",
+      "start": 9724,
+      "end": 10004
+    },
+    {
+      "id": "000099-5e700c616d3b",
+      "start": 10030,
+      "end": 10304
+    },
+    {
+      "id": "000099-24f3e4f0ff83",
+      "start": 10330,
+      "end": 10585
+    },
+    {
+      "id": "000099-767c608d58f7",
+      "start": 10611,
+      "end": 10864
+    },
+    {
+      "id": "000099-2757d5835936",
+      "start": 10890,
+      "end": 11143
+    },
+    {
+      "id": "000099-c1c37bf5e4bb",
+      "start": 11169,
+      "end": 11418
+    },
+    {
+      "id": "000099-c9314026e6bc",
+      "start": 11444,
+      "end": 11716
+    },
+    {
+      "id": "000099-b0b280ed3ed2",
+      "start": 11742,
+      "end": 12008
+    },
+    {
+      "id": "000099-17baea3100ab",
+      "start": 12034,
+      "end": 12303
+    },
+    {
+      "id": "000099-7abbc81184a0",
+      "start": 12329,
+      "end": 12606
+    },
+    {
+      "id": "000099-6cad3721a3b9",
+      "start": 12632,
+      "end": 12901
+    },
+    {
+      "id": "000099-847b02b8f4b8",
+      "start": 12927,
+      "end": 13170
+    },
+    {
+      "id": "000099-357beb619fc5",
+      "start": 13196,
+      "end": 13464
+    },
+    {
+      "id": "000099-3f65fa558e2b",
+      "start": 13490,
+      "end": 13746
+    },
+    {
+      "id": "000099-9ed69189197d",
+      "start": 13772,
+      "end": 14044
+    },
+    {
+      "id": "000099-37c06c6ddb41",
+      "start": 14070,
+      "end": 14327
+    },
+    {
+      "id": "000099-73592a95f90a",
+      "start": 14353,
+      "end": 14609
+    },
+    {
+      "id": "000099-e774db8c39f3",
+      "start": 14635,
+      "end": 14910
+    },
+    {
+      "id": "000099-dee210670deb",
+      "start": 14936,
+      "end": 15193
+    },
+    {
+      "id": "000099-2096aa114e1b",
+      "start": 15219,
+      "end": 15498
+    },
+    {
+      "id": "000099-5d058973ab1a",
+      "start": 15524,
+      "end": 15779
+    },
+    {
+      "id": "000099-9262f967cf37",
+      "start": 15805,
+      "end": 16064
+    },
+    {
+      "id": "000099-f2a8d900d03b",
+      "start": 16090,
+      "end": 16365
+    },
+    {
+      "id": "000099-1c7eeb381b7f",
+      "start": 16391,
+      "end": 16638
+    },
+    {
+      "id": "000099-393b3004c688",
+      "start": 16664,
+      "end": 16941
+    },
+    {
+      "id": "000099-55733fc3eaf2",
+      "start": 16967,
+      "end": 17250
+    },
+    {
+      "id": "000099-71525c8ed9c7",
+      "start": 17276,
+      "end": 17544
+    },
+    {
+      "id": "000099-dc8895f0caef",
+      "start": 17570,
+      "end": 17858
+    },
+    {
+      "id": "000099-576ea1a2ef7f",
+      "start": 17884,
+      "end": 18163
+    },
+    {
+      "id": "000099-a36d17dc181b",
+      "start": 18189,
+      "end": 18436
+    },
+    {
+      "id": "000099-871fe215f345",
+      "start": 18462,
+      "end": 18729
+    },
+    {
+      "id": "000099-0efea26c2e6b",
+      "start": 18755,
+      "end": 18998
+    },
+    {
+      "id": "000099-fb813807ff0c",
+      "start": 19024,
+      "end": 19320
+    },
+    {
+      "id": "000099-0114140bf4d6",
+      "start": 19346,
+      "end": 19607
+    },
+    {
+      "id": "000099-a11bf392897e",
+      "start": 19633,
+      "end": 19908
+    },
+    {
+      "id": "000099-5f2938d8674e",
+      "start": 19934,
+      "end": 20189
+    },
+    {
+      "id": "000099-3d4d0c27a0a5",
+      "start": 20215,
+      "end": 20490
+    },
+    {
+      "id": "000099-4c6be937dbbf",
+      "start": 20516,
+      "end": 20770
+    },
+    {
+      "id": "000099-681cb5fb2547",
+      "start": 20796,
+      "end": 21095
+    },
+    {
+      "id": "000099-b69b562b8386",
+      "start": 21121,
+      "end": 21379
+    },
+    {
+      "id": "000099-daf61f60c38f",
+      "start": 21405,
+      "end": 21669
+    },
+    {
+      "id": "000099-6e582a116747",
+      "start": 21695,
+      "end": 21966
+    },
+    {
+      "id": "000099-58ca97660143",
+      "start": 21992,
+      "end": 22257
+    },
+    {
+      "id": "000099-1a8313a5afcc",
+      "start": 22283,
+      "end": 22545
+    },
+    {
+      "id": "000099-60a0f31ad3b3",
+      "start": 22571,
+      "end": 22828
+    },
+    {
+      "id": "000099-71deeba64e7f",
+      "start": 22854,
+      "end": 23142
+    },
+    {
+      "id": "000099-391b125aad34",
+      "start": 23168,
+      "end": 23460
+    },
+    {
+      "id": "000099-c3e4a1a14d6d",
+      "start": 23486,
+      "end": 23753
+    },
+    {
+      "id": "000099-08da26ef23df",
+      "start": 23779,
+      "end": 24071
+    },
+    {
+      "id": "000099-e7c5e9f871b0",
+      "start": 24097,
+      "end": 24348
+    },
+    {
+      "id": "000099-a2e29cee8786",
+      "start": 24374,
+      "end": 24645
+    },
+    {
+      "id": "000099-b5bdeeca7cce",
+      "start": 24671,
+      "end": 24917
+    },
+    {
+      "id": "000099-d8b3a6929aaa",
+      "start": 24943,
+      "end": 25230
+    },
+    {
+      "id": "000099-8c9f4f79a733",
+      "start": 25256,
+      "end": 25513
+    },
+    {
+      "id": "000099-1251c2f13bb0",
+      "start": 25539,
+      "end": 25822
+    },
+    {
+      "id": "000099-fc34bb3fd09c",
+      "start": 25848,
+      "end": 26116
+    },
+    {
+      "id": "000099-c2788c9fdecb",
+      "start": 26142,
+      "end": 26421
+    },
+    {
+      "id": "000099-f4905dd8dbc6",
+      "start": 26447,
+      "end": 26717
+    },
+    {
+      "id": "000099-855a089bb7b4",
+      "start": 26743,
+      "end": 27038
+    },
+    {
+      "id": "000099-ae9d5f9c6c60",
+      "start": 27064,
+      "end": 27303
+    },
+    {
+      "id": "000099-7a5521dcc2ef",
+      "start": 27329,
+      "end": 27601
+    },
+    {
+      "id": "000099-938a02e2167d",
+      "start": 27627,
+      "end": 27904
+    },
+    {
+      "id": "000099-d11eb5fd5134",
+      "start": 27930,
+      "end": 28216
+    },
+    {
+      "id": "000099-f8a067e9c4b3",
+      "start": 28242,
+      "end": 28503
+    },
+    {
+      "id": "000099-4dbe1eeb9444",
+      "start": 28529,
+      "end": 28816
+    },
+    {
+      "id": "000099-e4e87c124d9b",
+      "start": 28842,
+      "end": 29109
+    },
+    {
+      "id": "000099-9cd1433f2f9f",
+      "start": 29135,
+      "end": 29414
+    },
+    {
+      "id": "000099-bf3ec39ed2ad",
+      "start": 29440,
+      "end": 29696
+    },
+    {
+      "id": "000099-ac201deab459",
+      "start": 29722,
+      "end": 30013
+    },
+    {
+      "id": "000099-48d93a7daf2e",
+      "start": 30039,
+      "end": 30274
+    },
+    {
+      "id": "000099-21ee50170a46",
+      "start": 30300,
+      "end": 30550
+    },
+    {
+      "id": "000099-b0684e7a9498",
+      "start": 30576,
+      "end": 30844
+    },
+    {
+      "id": "000099-b6e7c58215cf",
+      "start": 30870,
+      "end": 31154
+    },
+    {
+      "id": "000099-d10f12508ae1",
+      "start": 31180,
+      "end": 31433
+    },
+    {
+      "id": "000099-167fe26777ca",
+      "start": 31459,
+      "end": 31729
+    },
+    {
+      "id": "000099-3a941bea777b",
+      "start": 31755,
+      "end": 32025
+    },
+    {
+      "id": "000099-d4e5d7659faf",
+      "start": 32051,
+      "end": 32301
+    },
+    {
+      "id": "000099-d3072efb54ed",
+      "start": 32327,
+      "end": 32587
+    },
+    {
+      "id": "000099-a65a9c0b6ff7",
+      "start": 32613,
+      "end": 32884
+    },
+    {
+      "id": "000099-00f9d6b2c09c",
+      "start": 32910,
+      "end": 33172
+    },
+    {
+      "id": "000099-733dddaad07d",
+      "start": 33198,
+      "end": 33458
+    },
+    {
+      "id": "000099-6d880b846c58",
+      "start": 33484,
+      "end": 33768
+    },
+    {
+      "id": "000099-26f6b6399466",
+      "start": 33794,
+      "end": 34077
+    },
+    {
+      "id": "000099-25ca5f33c551",
+      "start": 34103,
+      "end": 34377
+    },
+    {
+      "id": "000099-2917726e1044",
+      "start": 34403,
+      "end": 34648
+    },
+    {
+      "id": "000099-2b526304bf07",
+      "start": 34674,
+      "end": 34937
+    },
+    {
+      "id": "000099-61b86a829ced",
+      "start": 34963,
+      "end": 35261
+    },
+    {
+      "id": "000099-617de896111e",
+      "start": 35287,
+      "end": 35570
+    },
+    {
+      "id": "000099-d5fa5c5ae402",
+      "start": 35596,
+      "end": 35871
+    },
+    {
+      "id": "000099-76db35d7505f",
+      "start": 35897,
+      "end": 36175
+    },
+    {
+      "id": "000099-a74db0d97fa2",
+      "start": 36201,
+      "end": 36468
+    },
+    {
+      "id": "000099-7286f1457e30",
+      "start": 36494,
+      "end": 36780
+    },
+    {
+      "id": "000099-30b3f36b4682",
+      "start": 36806,
+      "end": 37077
+    },
+    {
+      "id": "000099-e189c9223c50",
+      "start": 37103,
+      "end": 37355
+    },
+    {
+      "id": "000099-0252e95a7b37",
+      "start": 37381,
+      "end": 37637
+    },
+    {
+      "id": "000099-07dc348258c0",
+      "start": 37663,
+      "end": 37922
+    },
+    {
+      "id": "000099-b31a1124d310",
+      "start": 37948,
+      "end": 38224
+    },
+    {
+      "id": "000099-8cfa0eee6066",
+      "start": 38250,
+      "end": 38513
+    },
+    {
+      "id": "000099-5f8eb902abc1",
+      "start": 38539,
+      "end": 38772
+    },
+    {
+      "id": "000099-015043d940df",
+      "start": 38798,
+      "end": 39066
+    },
+    {
+      "id": "000099-411faca78b75",
+      "start": 39092,
+      "end": 39365
+    },
+    {
+      "id": "000099-33f3d4e087f9",
+      "start": 39391,
+      "end": 39647
+    },
+    {
+      "id": "000099-5ed604f2ee59",
+      "start": 39673,
+      "end": 39954
+    },
+    {
+      "id": "000099-45299933a243",
+      "start": 39980,
+      "end": 40237
+    },
+    {
+      "id": "000099-f46668477360",
+      "start": 40263,
+      "end": 40535
+    },
+    {
+      "id": "000099-636a9edf8d81",
+      "start": 40561,
+      "end": 40830
+    },
+    {
+      "id": "000099-a4a1e6bb46b1",
+      "start": 40856,
+      "end": 41122
+    },
+    {
+      "id": "000099-76317eda992a",
+      "start": 41148,
+      "end": 41415
+    },
+    {
+      "id": "000099-d5e6b43ce15d",
+      "start": 41441,
+      "end": 41713
+    },
+    {
+      "id": "000099-8c908cd6d0aa",
+      "start": 41739,
+      "end": 42010
+    },
+    {
+      "id": "000099-d2e782f7e65f",
+      "start": 42036,
+      "end": 42319
+    },
+    {
+      "id": "000099-166fd6c2be48",
+      "start": 42345,
+      "end": 42614
+    },
+    {
+      "id": "000099-e82978dc780d",
+      "start": 42640,
+      "end": 42914
+    },
+    {
+      "id": "000099-ff614cddf065",
+      "start": 42940,
+      "end": 43223
+    },
+    {
+      "id": "000099-83d7b42cc304",
+      "start": 43249,
+      "end": 43526
+    },
+    {
+      "id": "000099-eb86b7fafa5d",
+      "start": 43552,
+      "end": 43807
+    },
+    {
+      "id": "000099-e563172fcb35",
+      "start": 43833,
+      "end": 44120
+    },
+    {
+      "id": "000099-a74c7cb96deb",
+      "start": 44146,
+      "end": 44404
+    },
+    {
+      "id": "000099-a680ef05452b",
+      "start": 44430,
+      "end": 44709
+    },
+    {
+      "id": "000099-43fe7a02d4e2",
+      "start": 44735,
+      "end": 44999
+    },
+    {
+      "id": "000099-61abac91cb42",
+      "start": 45025,
+      "end": 45292
+    },
+    {
+      "id": "000099-aac55e5c4c22",
+      "start": 45318,
+      "end": 45568
+    },
+    {
+      "id": "000099-b8ce93d10bb6",
+      "start": 45594,
+      "end": 45867
+    },
+    {
+      "id": "000099-be19c4aaa441",
+      "start": 45893,
+      "end": 46177
+    },
+    {
+      "id": "000099-60f72bf68c0d",
+      "start": 46203,
+      "end": 46461
+    },
+    {
+      "id": "000099-a4d208816fed",
+      "start": 46487,
+      "end": 46769
+    },
+    {
+      "id": "000099-8d55b7e88f11",
+      "start": 46795,
+      "end": 47069
+    },
+    {
+      "id": "000099-aa808946168e",
+      "start": 47095,
+      "end": 47364
+    },
+    {
+      "id": "000099-a2097cd73bea",
+      "start": 47390,
+      "end": 47651
+    },
+    {
+      "id": "000099-62691fb2bcee",
+      "start": 47677,
+      "end": 47941
+    },
+    {
+      "id": "000099-7a6696f5525b",
+      "start": 47967,
+      "end": 48265
+    },
+    {
+      "id": "000099-6a029c8c8d0d",
+      "start": 48291,
+      "end": 48565
+    },
+    {
+      "id": "000099-2864ffcc58d7",
+      "start": 48591,
+      "end": 48862
+    },
+    {
+      "id": "000099-17f5f6cca95f",
+      "start": 48888,
+      "end": 49134
+    },
+    {
+      "id": "000099-22f5b77b1339",
+      "start": 49160,
+      "end": 49426
+    },
+    {
+      "id": "000099-7dda0ef66f19",
+      "start": 49452,
+      "end": 49702
+    },
+    {
+      "id": "000099-1d1d0c6e1dd2",
+      "start": 49728,
+      "end": 49997
+    },
+    {
+      "id": "000099-fbb6ff9c2a24",
+      "start": 50023,
+      "end": 50289
+    },
+    {
+      "id": "000099-ee0141b954e0",
+      "start": 50315,
+      "end": 50569
+    },
+    {
+      "id": "000099-7f9df12693a9",
+      "start": 50595,
+      "end": 50874
+    },
+    {
+      "id": "000099-b620085d470f",
+      "start": 50900,
+      "end": 51176
+    },
+    {
+      "id": "000099-4580b693cb04",
+      "start": 51202,
+      "end": 51470
+    },
+    {
+      "id": "000099-9ba4203f7cd9",
+      "start": 51496,
+      "end": 51781
+    },
+    {
+      "id": "000099-cf3e6918ec0c",
+      "start": 51807,
+      "end": 52073
+    },
+    {
+      "id": "000099-8e46290555af",
+      "start": 52099,
+      "end": 52378
+    },
+    {
+      "id": "000099-de83537f3279",
+      "start": 52404,
+      "end": 52679
+    },
+    {
+      "id": "000099-8f689b75387e",
+      "start": 52705,
+      "end": 52970
+    },
+    {
+      "id": "000099-92a7eca7b121",
+      "start": 52996,
+      "end": 53270
+    },
+    {
+      "id": "000099-97040b520763",
+      "start": 53296,
+      "end": 53570
+    },
+    {
+      "id": "000099-fa21161d2880",
+      "start": 53596,
+      "end": 53888
+    },
+    {
+      "id": "000099-d59c43de6767",
+      "start": 53914,
+      "end": 54197
+    },
+    {
+      "id": "000099-81910c693592",
+      "start": 54223,
+      "end": 54483
+    },
+    {
+      "id": "000099-285aa10b9817",
+      "start": 54509,
+      "end": 54787
+    },
+    {
+      "id": "000099-b7782e9b6433",
+      "start": 54813,
+      "end": 55061
+    },
+    {
+      "id": "000099-7c67d22a9618",
+      "start": 55087,
+      "end": 55406
+    },
+    {
+      "id": "000099-afdf4396f2f7",
+      "start": 55432,
+      "end": 55690
+    },
+    {
+      "id": "000099-b0d5797b3942",
+      "start": 55716,
+      "end": 55996
+    },
+    {
+      "id": "000099-c40533a3e3c1",
+      "start": 56022,
+      "end": 56308
+    },
+    {
+      "id": "000099-533687884b94",
+      "start": 56334,
+      "end": 56625
+    },
+    {
+      "id": "000099-6efcbe807c06",
+      "start": 56651,
+      "end": 56930
+    },
+    {
+      "id": "000099-d49d1709179e",
+      "start": 56956,
+      "end": 57220
+    },
+    {
+      "id": "000099-c77b1e9d496a",
+      "start": 57246,
+      "end": 57501
+    },
+    {
+      "id": "000099-67b3c963097f",
+      "start": 57527,
+      "end": 57804
+    },
+    {
+      "id": "000099-8660c49d8e44",
+      "start": 57830,
+      "end": 58106
+    },
+    {
+      "id": "000099-7f2c12deea2c",
+      "start": 58132,
+      "end": 58427
+    },
+    {
+      "id": "000099-17b7bffb48e3",
+      "start": 58453,
+      "end": 58719
+    },
+    {
+      "id": "000099-b3d6719ca82c",
+      "start": 58745,
+      "end": 58999
+    },
+    {
+      "id": "000099-8071b1a6059d",
+      "start": 59025,
+      "end": 59302
+    },
+    {
+      "id": "000099-0ccb1e75467f",
+      "start": 59328,
+      "end": 59597
+    },
+    {
+      "id": "000099-82b364ca9db6",
+      "start": 59623,
+      "end": 59893
+    },
+    {
+      "id": "000099-665e7fea7dc7",
+      "start": 59919,
+      "end": 60218
+    },
+    {
+      "id": "000099-9b46d85dcb0f",
+      "start": 60244,
+      "end": 60526
+    },
+    {
+      "id": "000099-ea378c4a8479",
+      "start": 60552,
+      "end": 60843
+    },
+    {
+      "id": "000099-7a4c1b760341",
+      "start": 60869,
+      "end": 61139
+    },
+    {
+      "id": "000099-97666ba7bf1e",
+      "start": 61165,
+      "end": 61446
+    },
+    {
+      "id": "000099-02e1651fa104",
+      "start": 61472,
+      "end": 61733
+    },
+    {
+      "id": "000099-bd2fd2e350d4",
+      "start": 61759,
+      "end": 62045
+    },
+    {
+      "id": "000099-82c9babdb3a1",
+      "start": 62071,
+      "end": 62342
+    },
+    {
+      "id": "000099-6b1cfe7dc4c2",
+      "start": 62368,
+      "end": 62626
+    },
+    {
+      "id": "000099-696acf079aec",
+      "start": 62652,
+      "end": 62938
+    },
+    {
+      "id": "000099-4e034806f471",
+      "start": 62964,
+      "end": 63234
+    },
+    {
+      "id": "000099-b82790c6a4de",
+      "start": 63260,
+      "end": 63531
+    },
+    {
+      "id": "000099-97cee743ddcf",
+      "start": 63557,
+      "end": 63821
+    },
+    {
+      "id": "000099-0be9f54bd5c3",
+      "start": 63847,
+      "end": 64126
+    },
+    {
+      "id": "000099-26290b0ae639",
+      "start": 64152,
+      "end": 64414
+    },
+    {
+      "id": "000099-d4e7b6f7110f",
+      "start": 64440,
+      "end": 64680
+    },
+    {
+      "id": "000099-2846513a899b",
+      "start": 64706,
+      "end": 65002
+    },
+    {
+      "id": "000099-e21a709311ca",
+      "start": 65028,
+      "end": 65297
+    },
+    {
+      "id": "000099-058ed97d69b7",
+      "start": 65323,
+      "end": 65608
+    },
+    {
+      "id": "000099-3c00935d3df7",
+      "start": 65634,
+      "end": 65898
+    },
+    {
+      "id": "000099-4ba4a5178377",
+      "start": 65924,
+      "end": 66216
+    },
+    {
+      "id": "000099-7aff965a9793",
+      "start": 66242,
+      "end": 66539
+    },
+    {
+      "id": "000099-7d289703e8c1",
+      "start": 66565,
+      "end": 66833
+    },
+    {
+      "id": "000099-4e5f0edee59f",
+      "start": 66859,
+      "end": 67120
+    },
+    {
+      "id": "000099-8db100c487b4",
+      "start": 67146,
+      "end": 67405
+    },
+    {
+      "id": "000099-d363579521e8",
+      "start": 67431,
+      "end": 67686
+    },
+    {
+      "id": "000099-f93f605b877c",
+      "start": 67712,
+      "end": 67978
+    },
+    {
+      "id": "000099-0c5fd410960b",
+      "start": 68004,
+      "end": 68275
+    },
+    {
+      "id": "000099-990cbb8fabaa",
+      "start": 68301,
+      "end": 68597
+    },
+    {
+      "id": "000099-7997b83695da",
+      "start": 68623,
+      "end": 68900
+    },
+    {
+      "id": "000099-fe7291cf561d",
+      "start": 68926,
+      "end": 69197
+    },
+    {
+      "id": "000099-efbbe961a078",
+      "start": 69223,
+      "end": 69500
+    },
+    {
+      "id": "000099-d426671672ba",
+      "start": 69526,
+      "end": 69807
+    },
+    {
+      "id": "000099-0dc25a4d0531",
+      "start": 69833,
+      "end": 70103
+    },
+    {
+      "id": "000099-f949e1fca9dd",
+      "start": 70129,
+      "end": 70398
+    },
+    {
+      "id": "000099-1423d281f72c",
+      "start": 70424,
+      "end": 70688
+    },
+    {
+      "id": "000099-4fccfeaba2ee",
+      "start": 70714,
+      "end": 70974
+    },
+    {
+      "id": "000099-e4f90086b3d0",
+      "start": 71000,
+      "end": 71295
+    },
+    {
+      "id": "000099-292d1c239a0b",
+      "start": 71321,
+      "end": 71611
+    },
+    {
+      "id": "000099-11130597aba1",
+      "start": 71637,
+      "end": 71909
+    },
+    {
+      "id": "000099-9ca2308fd4ad",
+      "start": 71935,
+      "end": 72200
+    },
+    {
+      "id": "000099-1fe991c0cdb2",
+      "start": 72226,
+      "end": 72511
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "Martin's gaze traveled from the stair rail to the mailboxes and back to my face."
+        "his gaze traveling down the stair rail"
       ]
     },
     {
@@ -130,10 +1230,7 @@
     {
       "id": "000099-82a8eae6a8a1",
       "check": "narrative-craft/gaze-choreography",
-      "expected": true,
-      "snippets": [
-        "The manager's eyes made a slow circuit of the people around the table."
-      ]
+      "expected": false
     },
     {
       "id": "000099-6477a2d3f2d3",
@@ -145,7 +1242,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "My gaze drifted over the bench, climbed the noticeboard and came to rest on the tiled floor."
+        "I let my gaze climb the noticeboard"
       ]
     },
     {
@@ -158,7 +1255,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "Her eyes passed from the kettle to the window, then returned to the kettle."
+        "She let her gaze wander across the windowsill"
       ]
     },
     {
@@ -182,10 +1279,7 @@
     {
       "id": "000099-10aac903471f",
       "check": "narrative-craft/gaze-choreography",
-      "expected": true,
-      "snippets": [
-        "Her gaze fell to the counter, lingered there, then rose to meet mine."
-      ]
+      "expected": false
     },
     {
       "id": "000099-f750ab1fa9a9",
@@ -210,7 +1304,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "Lena's brown eyes traced a leisurely path around the lounge before settling on me."
+        "her brown eyes roving about the lounge"
       ]
     },
     {
@@ -223,7 +1317,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "His gaze slides along the mantelpiece, crosses the armchair and returns to me."
+        "his gaze sliding up the curtains"
       ]
     },
     {
@@ -236,14 +1330,1449 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "Peter's eyes moved between the stacked chairs and the folding table.",
-        "His gaze then climbed to the clock and dropped back to us."
+        "Peter's eyes moved between the stacked chairs and the folding table."
       ]
     },
     {
       "id": "000099-c520b456bbce",
       "check": "narrative-craft/gaze-choreography",
       "expected": false
+    },
+    {
+      "id": "000099-20c7fdca087f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze making a leisurely passage over the bench and fence"
+      ]
+    },
+    {
+      "id": "000099-86d3a3046598",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-77c8bdc31bdf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes passed from the worktop to the cupboard, paused, and returned to the worktop."
+      ]
+    },
+    {
+      "id": "000099-3934c5a0a271",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-72569583f343",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze skimmed the walls of the church hall"
+      ]
+    },
+    {
+      "id": "000099-60953d649809",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-2fbdc206b132",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his eyes climbing one corner of the room and descending another"
+      ]
+    },
+    {
+      "id": "000099-780ab3c741e3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-fde355019ab5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "let his gaze migrate around the classroom"
+      ]
+    },
+    {
+      "id": "000099-5e700c616d3b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-24f3e4f0ff83",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My father's eyes drew a slow diagonal from the dresser to the window."
+      ]
+    },
+    {
+      "id": "000099-767c608d58f7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-2757d5835936",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze drifting over the pavement and back"
+      ]
+    },
+    {
+      "id": "000099-c1c37bf5e4bb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-c9314026e6bc",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze traced the counter's edge before coming to rest somewhere beyond my shoulder."
+      ]
+    },
+    {
+      "id": "000099-b0b280ed3ed2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-17baea3100ab",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze ranging over the ceiling beams"
+      ]
+    },
+    {
+      "id": "000099-7abbc81184a0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-6cad3721a3b9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her eyes making a broad sweep from the trees to the parked cars"
+      ]
+    },
+    {
+      "id": "000099-847b02b8f4b8",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-357beb619fc5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "I let my eyes roam over the office"
+      ]
+    },
+    {
+      "id": "000099-3f65fa558e2b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-9ed69189197d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Anya's gaze made another circuit of the bedroom"
+      ]
+    },
+    {
+      "id": "000099-37c06c6ddb41",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-73592a95f90a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes stepped from the gate to the shed and then to the fence."
+      ]
+    },
+    {
+      "id": "000099-e774db8c39f3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-dee210670deb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze floated across the desk and up the opposite wall."
+      ]
+    },
+    {
+      "id": "000099-2096aa114e1b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-5d058973ab1a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze journeyed over the bookshelves"
+      ]
+    },
+    {
+      "id": "000099-9262f967cf37",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-f2a8d900d03b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Beth's gaze descended the window frame"
+      ]
+    },
+    {
+      "id": "000099-1c7eeb381b7f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-393b3004c688",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her eyes wandering between the shelter posts"
+      ]
+    },
+    {
+      "id": "000099-55733fc3eaf2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-71525c8ed9c7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "sent her gaze along the row of cupboards"
+      ]
+    },
+    {
+      "id": "000099-dc8895f0caef",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-576ea1a2ef7f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze brushed the shelves behind me and settled on the counter."
+      ]
+    },
+    {
+      "id": "000099-a36d17dc181b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-871fe215f345",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze sweeping the room in a gentle arc"
+      ]
+    },
+    {
+      "id": "000099-0efea26c2e6b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-fb813807ff0c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze shuttled between the tables and the surrounding windows"
+      ]
+    },
+    {
+      "id": "000099-0114140bf4d6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a11bf392897e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his eyes taking a tour of the pub"
+      ]
+    },
+    {
+      "id": "000099-5f2938d8674e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-3d4d0c27a0a5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze climbed over the mantelpiece and continued toward the ceiling."
+      ]
+    },
+    {
+      "id": "000099-4c6be937dbbf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-681cb5fb2547",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze slid across our kitchen tiles"
+      ]
+    },
+    {
+      "id": "000099-b69b562b8386",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-daf61f60c38f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes described a loose circle around the landing"
+      ]
+    },
+    {
+      "id": "000099-6e582a116747",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-58ca97660143",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze ranging from the coat hooks to the stairs"
+      ]
+    },
+    {
+      "id": "000099-1a8313a5afcc",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-60a0f31ad3b3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "letting his gaze descend from the curtains to the rug"
+      ]
+    },
+    {
+      "id": "000099-71deeba64e7f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-391b125aad34",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered from machine to machine before returning to me."
+      ]
+    },
+    {
+      "id": "000099-c3e4a1a14d6d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-08da26ef23df",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "the assistant's eyes coasted over the walls"
+      ]
+    },
+    {
+      "id": "000099-e7c5e9f871b0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a2e29cee8786",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze hopping from the lamp to the curtains"
+      ]
+    },
+    {
+      "id": "000099-b5bdeeca7cce",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d8b3a6929aaa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "let her gaze fan across the teaching kitchen"
+      ]
+    },
+    {
+      "id": "000099-8c9f4f79a733",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-1251c2f13bb0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes moved from the staircase to the ceiling and back."
+      ]
+    },
+    {
+      "id": "000099-fc34bb3fd09c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-c2788c9fdecb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Omar's gaze traveled over the doorway and adjacent wall"
+      ]
+    },
+    {
+      "id": "000099-f4905dd8dbc6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-855a089bb7b4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze threading between the tents"
+      ]
+    },
+    {
+      "id": "000099-ae9d5f9c6c60",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-7a5521dcc2ef",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze ambled around the empty stage"
+      ]
+    },
+    {
+      "id": "000099-938a02e2167d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d11eb5fd5134",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her green eyes cruised over the chairs around us."
+      ]
+    },
+    {
+      "id": "000099-f8a067e9c4b3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-4dbe1eeb9444",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Jamie's gaze looped around the kitchen"
+      ]
+    },
+    {
+      "id": "000099-e4e87c124d9b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-9cd1433f2f9f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze sliding down the dresser"
+      ]
+    },
+    {
+      "id": "000099-bf3ec39ed2ad",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-ac201deab459",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze made a slow traverse of the meeting room."
+      ]
+    },
+    {
+      "id": "000099-48d93a7daf2e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-21ee50170a46",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze traveled from the scales to the far wall"
+      ]
+    },
+    {
+      "id": "000099-b0684e7a9498",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-b6e7c58215cf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze orbiting the living room"
+      ]
+    },
+    {
+      "id": "000099-d10f12508ae1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-167fe26777ca",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered up the wall and across the ceiling."
+      ]
+    },
+    {
+      "id": "000099-3a941bea777b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d4e5d7659faf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes roved over the shelter's metal frame."
+      ]
+    },
+    {
+      "id": "000099-d3072efb54ed",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a65a9c0b6ff7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze skated between the doors and the equipment cupboard."
+      ]
+    },
+    {
+      "id": "000099-00f9d6b2c09c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-733dddaad07d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Ellis's gaze took in the hedge, the gravel, and the office wall in turn."
+      ]
+    },
+    {
+      "id": "000099-6d880b846c58",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-26f6b6399466",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze climbed the blank wall behind the sofa."
+      ]
+    },
+    {
+      "id": "000099-25ca5f33c551",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-2917726e1044",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "let his eyes sweep over the skirting boards"
+      ]
+    },
+    {
+      "id": "000099-2b526304bf07",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-61b86a829ced",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze swung from the noticeboard to the opposite wall."
+      ]
+    },
+    {
+      "id": "000099-617de896111e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d5fa5c5ae402",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Mara's gaze traveled around the dim kitchen."
+      ]
+    },
+    {
+      "id": "000099-76db35d7505f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a74db0d97fa2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes made a brief journey across the tiled wall."
+      ]
+    },
+    {
+      "id": "000099-7286f1457e30",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-30b3f36b4682",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze sliding over the filing cabinets"
+      ]
+    },
+    {
+      "id": "000099-e189c9223c50",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-0252e95a7b37",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes moved between the window and the doorframe."
+      ]
+    },
+    {
+      "id": "000099-07dc348258c0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-b31a1124d310",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My housemate's gaze roamed across the landing"
+      ]
+    },
+    {
+      "id": "000099-8cfa0eee6066",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-5f8eb902abc1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze swept the space between the oven and the doorway."
+      ]
+    },
+    {
+      "id": "000099-015043d940df",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-411faca78b75",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes drifted along the garden wall"
+      ]
+    },
+    {
+      "id": "000099-33f3d4e087f9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-5ed604f2ee59",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Anton's gaze swung through the storeroom"
+      ]
+    },
+    {
+      "id": "000099-45299933a243",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-f46668477360",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes traced an idle route over the ceiling panels."
+      ]
+    },
+    {
+      "id": "000099-636a9edf8d81",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a4a1e6bb46b1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze traveled down the carriage wall"
+      ]
+    },
+    {
+      "id": "000099-76317eda992a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d5e6b43ce15d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze circling the breakfast table"
+      ]
+    },
+    {
+      "id": "000099-8c908cd6d0aa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d2e782f7e65f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze picked a path across the kitchen floor."
+      ]
+    },
+    {
+      "id": "000099-166fd6c2be48",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-e82978dc780d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze moved across the conservatory roof and returned to the room."
+      ]
+    },
+    {
+      "id": "000099-ff614cddf065",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-83d7b42cc304",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze skimmed the tables"
+      ]
+    },
+    {
+      "id": "000099-eb86b7fafa5d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-e563172fcb35",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes made a slow sweep over the workshop doors."
+      ]
+    },
+    {
+      "id": "000099-a74c7cb96deb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a680ef05452b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze drifting between the radiator and the windowsill"
+      ]
+    },
+    {
+      "id": "000099-43fe7a02d4e2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-61abac91cb42",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze ranged over the canteen ceiling."
+      ]
+    },
+    {
+      "id": "000099-aac55e5c4c22",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-b8ce93d10bb6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze floating over the hallway"
+      ]
+    },
+    {
+      "id": "000099-be19c4aaa441",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-60f72bf68c0d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Alice's eyes traveled along the hall's wooden panels"
+      ]
+    },
+    {
+      "id": "000099-a4d208816fed",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-8d55b7e88f11",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze went on a small excursion around the stairwell."
+      ]
+    },
+    {
+      "id": "000099-aa808946168e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-a2097cd73bea",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My partner's gaze swept past the sink and along the wall"
+      ]
+    },
+    {
+      "id": "000099-62691fb2bcee",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-7a6696f5525b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his eyes wandering over the greenhouse roof"
+      ]
+    },
+    {
+      "id": "000099-6a029c8c8d0d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-2864ffcc58d7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze slid from the microwave to the cupboard above it."
+      ]
+    },
+    {
+      "id": "000099-17f5f6cca95f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-22f5b77b1339",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My mother's gaze wandered across the patio"
+      ]
+    },
+    {
+      "id": "000099-7dda0ef66f19",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-1d1d0c6e1dd2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The assistant's eyes wandered between the entrance and the returns slot."
+      ]
+    },
+    {
+      "id": "000099-fbb6ff9c2a24",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-ee0141b954e0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze passed over the barn wall and back to the yard."
+      ]
+    },
+    {
+      "id": "000099-7f9df12693a9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-b620085d470f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "let his gaze roll around the reception area"
+      ]
+    },
+    {
+      "id": "000099-4580b693cb04",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-9ba4203f7cd9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her eyes traveling around the lobby"
+      ]
+    },
+    {
+      "id": "000099-cf3e6918ec0c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-8e46290555af",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered over the kitchen doorway"
+      ]
+    },
+    {
+      "id": "000099-de83537f3279",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-8f689b75387e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Pat's gaze moved in a measured arc across the foyer"
+      ]
+    },
+    {
+      "id": "000099-92a7eca7b121",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-97040b520763",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze traveled over the desk and up the glass partition."
+      ]
+    },
+    {
+      "id": "000099-fa21161d2880",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d59c43de6767",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Our accompanist's gaze drifted across the stage curtains"
+      ]
+    },
+    {
+      "id": "000099-81910c693592",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-285aa10b9817",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered over the lamps around the room."
+      ]
+    },
+    {
+      "id": "000099-b7782e9b6433",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-7c67d22a9618",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My uncle's eyes drifted from the stairs to the hallway tiles"
+      ]
+    },
+    {
+      "id": "000099-afdf4396f2f7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-b0d5797b3942",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze made an unhurried descent along the wardrobe."
+      ]
+    },
+    {
+      "id": "000099-c40533a3e3c1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-533687884b94",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The assistant's gaze crossed the ceiling and descended to the counter"
+      ]
+    },
+    {
+      "id": "000099-6efcbe807c06",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d49d1709179e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her eyes taking a slow lap of the sitting room"
+      ]
+    },
+    {
+      "id": "000099-c77b1e9d496a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-67b3c963097f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze swept over the bus station roof."
+      ]
+    },
+    {
+      "id": "000099-8660c49d8e44",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-7f2c12deea2c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes moved over the doorway, the stage edge, and the wall beyond."
+      ]
+    },
+    {
+      "id": "000099-17b7bffb48e3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-b3d6719ca82c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze gliding across the wallpaper"
+      ]
+    },
+    {
+      "id": "000099-8071b1a6059d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-0ccb1e75467f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered around the porch"
+      ]
+    },
+    {
+      "id": "000099-82b364ca9db6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-665e7fea7dc7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes traveled from the tiled floor to the high windows."
+      ]
+    },
+    {
+      "id": "000099-9b46d85dcb0f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-ea378c4a8479",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze wandered across the glass partition."
+      ]
+    },
+    {
+      "id": "000099-7a4c1b760341",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-97666ba7bf1e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My husband's gaze drifted over the wardrobe doors"
+      ]
+    },
+    {
+      "id": "000099-02e1651fa104",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-bd2fd2e350d4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze traversed the meeting table and continued along the wall."
+      ]
+    },
+    {
+      "id": "000099-82c9babdb3a1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-6b1cfe7dc4c2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The mechanic's eyes passed over the ceiling pipes"
+      ]
+    },
+    {
+      "id": "000099-696acf079aec",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-4e034806f471",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze floated between the back door and the fence."
+      ]
+    },
+    {
+      "id": "000099-b82790c6a4de",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-97cee743ddcf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze traveled up the stairwell"
+      ]
+    },
+    {
+      "id": "000099-0be9f54bd5c3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-26290b0ae639",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes took a winding route around the kitchen."
+      ]
+    },
+    {
+      "id": "000099-d4e7b6f7110f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-2846513a899b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The volunteer's gaze swept around the stockroom"
+      ]
+    },
+    {
+      "id": "000099-e21a709311ca",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-058ed97d69b7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze traveled over the filing shelves."
+      ]
+    },
+    {
+      "id": "000099-3c00935d3df7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-4ba4a5178377",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My wife's gaze drifted around the sitting room"
+      ]
+    },
+    {
+      "id": "000099-7aff965a9793",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-7d289703e8c1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze moved up the lobby wall and down to the carpet."
+      ]
+    },
+    {
+      "id": "000099-4e5f0edee59f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-8db100c487b4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze drifting along the corridor"
+      ]
+    },
+    {
+      "id": "000099-d363579521e8",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-f93f605b877c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes swept the gap between the shelves and the front window."
+      ]
+    },
+    {
+      "id": "000099-0c5fd410960b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-990cbb8fabaa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Our caterer's gaze wandered across the cupboards"
+      ]
+    },
+    {
+      "id": "000099-7997b83695da",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-fe7291cf561d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze made a broad circuit of the entrance hall."
+      ]
+    },
+    {
+      "id": "000099-efbbe961a078",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-d426671672ba",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze slipping across the utility-room walls"
+      ]
+    },
+    {
+      "id": "000099-0dc25a4d0531",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-f949e1fca9dd",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze traveled around the dining room"
+      ]
+    },
+    {
+      "id": "000099-1423d281f72c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-4fccfeaba2ee",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze climbing the pantry door"
+      ]
+    },
+    {
+      "id": "000099-e4f90086b3d0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000099-292d1c239a0b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze meandered over the booth's inner walls"
+      ]
+    },
+    {
+      "id": "000099-11130597aba1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "A slow drift of her eyes took in the bench, the path, and the shelter behind us."
+      ]
+    },
+    {
+      "id": "000099-9ca2308fd4ad",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "his gaze traveled from the coat rack to the ceiling and back"
+      ]
+    },
+    {
+      "id": "000099-1fe991c0cdb2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "her gaze sailing across the empty auditorium"
+      ]
     }
   ]
 }

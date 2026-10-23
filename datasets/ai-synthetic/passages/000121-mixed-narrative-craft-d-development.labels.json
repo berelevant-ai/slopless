@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "61e26391cf88cca85f82d78e67e3c575d1da0974db6770e3893cd94adfd10a44",
+  "textSha256": "04d9d7e15264bc7076c35a60f1748dac3e3291225567e010899996f214ddb36b",
   "source": {
     "name": "Codex-authored mixed-narrative-craft-d-development",
     "originalPath": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -15,82 +15,1202 @@
     {
       "id": "000121-99bc499a3f57",
       "start": 63,
-      "end": 427
+      "end": 440
     },
     {
       "id": "000121-177343e994fc",
-      "start": 453,
-      "end": 851
+      "start": 466,
+      "end": 864
     },
     {
       "id": "000121-dd2ec0a44154",
-      "start": 877,
-      "end": 1244
+      "start": 890,
+      "end": 1257
     },
     {
       "id": "000121-6a7ae6c59cc5",
-      "start": 1270,
-      "end": 1641
+      "start": 1283,
+      "end": 1687
     },
     {
       "id": "000121-43f7cd9f2186",
-      "start": 1667,
-      "end": 2030
+      "start": 1713,
+      "end": 2076
     },
     {
       "id": "000121-21ca4758f5d8",
-      "start": 2056,
-      "end": 2463
+      "start": 2102,
+      "end": 2509
     },
     {
       "id": "000121-a03425240415",
-      "start": 2489,
-      "end": 2875
+      "start": 2535,
+      "end": 2913
     },
     {
       "id": "000121-7ab58985df14",
-      "start": 2901,
-      "end": 3289
+      "start": 2939,
+      "end": 3327
     },
     {
       "id": "000121-12ae8cb82cd8",
-      "start": 3315,
-      "end": 3700
+      "start": 3353,
+      "end": 3738
     },
     {
       "id": "000121-3bb6a12bafb8",
-      "start": 3726,
-      "end": 4125
+      "start": 3764,
+      "end": 4156
     },
     {
       "id": "000121-3a3908dcabfc",
-      "start": 4151,
-      "end": 4552
+      "start": 4182,
+      "end": 4583
     },
     {
       "id": "000121-47b4dbb2109f",
-      "start": 4578,
-      "end": 4946
+      "start": 4609,
+      "end": 4970
     },
     {
       "id": "000121-9935f8c7b0b6",
-      "start": 4972,
-      "end": 5399
+      "start": 4996,
+      "end": 5423
     },
     {
       "id": "000121-f6c0ec4b1859",
-      "start": 5425,
-      "end": 5813
+      "start": 5449,
+      "end": 5837
     },
     {
       "id": "000121-356eac13c964",
-      "start": 5839,
-      "end": 6240
+      "start": 5863,
+      "end": 6251
     },
     {
       "id": "000121-3aeb9e6c4cce",
-      "start": 6266,
-      "end": 6683
+      "start": 6277,
+      "end": 6733
+    },
+    {
+      "id": "000121-a03720ed7e8d",
+      "start": 6759,
+      "end": 7037
+    },
+    {
+      "id": "000121-a5a5926576d9",
+      "start": 7063,
+      "end": 7331
+    },
+    {
+      "id": "000121-e03da4d3485e",
+      "start": 7357,
+      "end": 7631
+    },
+    {
+      "id": "000121-49bb49eafdeb",
+      "start": 7657,
+      "end": 7921
+    },
+    {
+      "id": "000121-895802fb3675",
+      "start": 7947,
+      "end": 8217
+    },
+    {
+      "id": "000121-403b77cb9c7e",
+      "start": 8243,
+      "end": 8511
+    },
+    {
+      "id": "000121-44b300e0cff2",
+      "start": 8537,
+      "end": 8822
+    },
+    {
+      "id": "000121-5bc5d0add9ea",
+      "start": 8848,
+      "end": 9122
+    },
+    {
+      "id": "000121-261cc0117a4f",
+      "start": 9148,
+      "end": 9420
+    },
+    {
+      "id": "000121-745764b5374b",
+      "start": 9446,
+      "end": 9724
+    },
+    {
+      "id": "000121-7d54cf4a896f",
+      "start": 9750,
+      "end": 10015
+    },
+    {
+      "id": "000121-aab69bbf2903",
+      "start": 10041,
+      "end": 10328
+    },
+    {
+      "id": "000121-4357d4c85aa3",
+      "start": 10354,
+      "end": 10632
+    },
+    {
+      "id": "000121-0442f3221417",
+      "start": 10658,
+      "end": 10923
+    },
+    {
+      "id": "000121-b7c77a7c734b",
+      "start": 10949,
+      "end": 11204
+    },
+    {
+      "id": "000121-df84a8582274",
+      "start": 11230,
+      "end": 11506
+    },
+    {
+      "id": "000121-0c60f6f084d4",
+      "start": 11532,
+      "end": 11795
+    },
+    {
+      "id": "000121-425703f6ce54",
+      "start": 11821,
+      "end": 12075
+    },
+    {
+      "id": "000121-801a43b21b19",
+      "start": 12101,
+      "end": 12359
+    },
+    {
+      "id": "000121-c17e0544d7d3",
+      "start": 12385,
+      "end": 12673
+    },
+    {
+      "id": "000121-a6239397134e",
+      "start": 12699,
+      "end": 12987
+    },
+    {
+      "id": "000121-4ee241f6d787",
+      "start": 13013,
+      "end": 13293
+    },
+    {
+      "id": "000121-91f460b03092",
+      "start": 13319,
+      "end": 13568
+    },
+    {
+      "id": "000121-92bc8896e186",
+      "start": 13594,
+      "end": 13872
+    },
+    {
+      "id": "000121-178b199f46c3",
+      "start": 13898,
+      "end": 14168
+    },
+    {
+      "id": "000121-28349963e7f4",
+      "start": 14194,
+      "end": 14460
+    },
+    {
+      "id": "000121-87def77579b7",
+      "start": 14486,
+      "end": 14751
+    },
+    {
+      "id": "000121-a1512aa2ad48",
+      "start": 14777,
+      "end": 15047
+    },
+    {
+      "id": "000121-a8b2ec46e212",
+      "start": 15073,
+      "end": 15354
+    },
+    {
+      "id": "000121-c018a94683f1",
+      "start": 15380,
+      "end": 15652
+    },
+    {
+      "id": "000121-bc5ffccddfee",
+      "start": 15678,
+      "end": 15927
+    },
+    {
+      "id": "000121-24eb51287b9c",
+      "start": 15953,
+      "end": 16227
+    },
+    {
+      "id": "000121-7c5f1fb88b04",
+      "start": 16253,
+      "end": 16543
+    },
+    {
+      "id": "000121-57df6eff4fee",
+      "start": 16569,
+      "end": 16843
+    },
+    {
+      "id": "000121-9d73ed52e3d9",
+      "start": 16869,
+      "end": 17122
+    },
+    {
+      "id": "000121-c416efa61c0f",
+      "start": 17148,
+      "end": 17423
+    },
+    {
+      "id": "000121-8245c2b05346",
+      "start": 17449,
+      "end": 17741
+    },
+    {
+      "id": "000121-ae21e18fc1e3",
+      "start": 17767,
+      "end": 18033
+    },
+    {
+      "id": "000121-5bd63e1f2f7c",
+      "start": 18059,
+      "end": 18305
+    },
+    {
+      "id": "000121-b924da62106f",
+      "start": 18331,
+      "end": 18602
+    },
+    {
+      "id": "000121-a89ee59cd751",
+      "start": 18628,
+      "end": 18913
+    },
+    {
+      "id": "000121-e158147dd940",
+      "start": 18939,
+      "end": 19215
+    },
+    {
+      "id": "000121-2fcaf1098991",
+      "start": 19241,
+      "end": 19521
+    },
+    {
+      "id": "000121-0e66c195f168",
+      "start": 19547,
+      "end": 19805
+    },
+    {
+      "id": "000121-b8608126c50a",
+      "start": 19831,
+      "end": 20089
+    },
+    {
+      "id": "000121-43f0330e8ae4",
+      "start": 20115,
+      "end": 20382
+    },
+    {
+      "id": "000121-0bb54021d909",
+      "start": 20408,
+      "end": 20679
+    },
+    {
+      "id": "000121-4a4b496156ad",
+      "start": 20705,
+      "end": 20967
+    },
+    {
+      "id": "000121-1fe985b9ba85",
+      "start": 20993,
+      "end": 21262
+    },
+    {
+      "id": "000121-9d185956fec1",
+      "start": 21288,
+      "end": 21564
+    },
+    {
+      "id": "000121-8bb4310b3652",
+      "start": 21590,
+      "end": 21864
+    },
+    {
+      "id": "000121-7996b90f9589",
+      "start": 21890,
+      "end": 22147
+    },
+    {
+      "id": "000121-6003d2e807e9",
+      "start": 22173,
+      "end": 22475
+    },
+    {
+      "id": "000121-d4cb55be15c2",
+      "start": 22501,
+      "end": 22757
+    },
+    {
+      "id": "000121-75e90c1592ec",
+      "start": 22783,
+      "end": 23057
+    },
+    {
+      "id": "000121-8c2348410165",
+      "start": 23083,
+      "end": 23348
+    },
+    {
+      "id": "000121-e96c7ddc6f2d",
+      "start": 23374,
+      "end": 23631
+    },
+    {
+      "id": "000121-299f787320eb",
+      "start": 23657,
+      "end": 23925
+    },
+    {
+      "id": "000121-334f4f0d6777",
+      "start": 23951,
+      "end": 24229
+    },
+    {
+      "id": "000121-f94ef16d5372",
+      "start": 24255,
+      "end": 24521
+    },
+    {
+      "id": "000121-009e4807f0a7",
+      "start": 24547,
+      "end": 24851
+    },
+    {
+      "id": "000121-ce97640efd21",
+      "start": 24877,
+      "end": 25159
+    },
+    {
+      "id": "000121-51641112296e",
+      "start": 25185,
+      "end": 25454
+    },
+    {
+      "id": "000121-95d4dcc1bed8",
+      "start": 25480,
+      "end": 25753
+    },
+    {
+      "id": "000121-e99f8c19a4b8",
+      "start": 25779,
+      "end": 26087
+    },
+    {
+      "id": "000121-3ed2b81e0465",
+      "start": 26113,
+      "end": 26366
+    },
+    {
+      "id": "000121-e8ace703d5eb",
+      "start": 26392,
+      "end": 26670
+    },
+    {
+      "id": "000121-21c4fe3fd9ad",
+      "start": 26696,
+      "end": 26972
+    },
+    {
+      "id": "000121-e3f36d07af94",
+      "start": 26998,
+      "end": 27261
+    },
+    {
+      "id": "000121-17be48303141",
+      "start": 27287,
+      "end": 27563
+    },
+    {
+      "id": "000121-7526b2f2ab4b",
+      "start": 27589,
+      "end": 27870
+    },
+    {
+      "id": "000121-7f0d2a6eab08",
+      "start": 27896,
+      "end": 28163
+    },
+    {
+      "id": "000121-d9d4468a688d",
+      "start": 28189,
+      "end": 28474
+    },
+    {
+      "id": "000121-820da7598b32",
+      "start": 28500,
+      "end": 28757
+    },
+    {
+      "id": "000121-85d8b77679e0",
+      "start": 28783,
+      "end": 29061
+    },
+    {
+      "id": "000121-3208b6666928",
+      "start": 29087,
+      "end": 29368
+    },
+    {
+      "id": "000121-cb9d6cea733d",
+      "start": 29394,
+      "end": 29673
+    },
+    {
+      "id": "000121-37ab908bdea4",
+      "start": 29699,
+      "end": 29984
+    },
+    {
+      "id": "000121-6775d03c8629",
+      "start": 30010,
+      "end": 30283
+    },
+    {
+      "id": "000121-4959075b1630",
+      "start": 30309,
+      "end": 30613
+    },
+    {
+      "id": "000121-a409e67b1209",
+      "start": 30639,
+      "end": 30927
+    },
+    {
+      "id": "000121-96219c4fb80d",
+      "start": 30953,
+      "end": 31208
+    },
+    {
+      "id": "000121-5cb97d2066ca",
+      "start": 31234,
+      "end": 31523
+    },
+    {
+      "id": "000121-9dfcd357aae4",
+      "start": 31549,
+      "end": 31847
+    },
+    {
+      "id": "000121-f6e1d37421f6",
+      "start": 31873,
+      "end": 32130
+    },
+    {
+      "id": "000121-43e5d8506076",
+      "start": 32156,
+      "end": 32440
+    },
+    {
+      "id": "000121-3fceb6063352",
+      "start": 32466,
+      "end": 32757
+    },
+    {
+      "id": "000121-bb98ca12045f",
+      "start": 32783,
+      "end": 33099
+    },
+    {
+      "id": "000121-d034a18a3bb6",
+      "start": 33125,
+      "end": 33384
+    },
+    {
+      "id": "000121-c71cde0e858b",
+      "start": 33410,
+      "end": 33700
+    },
+    {
+      "id": "000121-9474c42dc2c8",
+      "start": 33726,
+      "end": 33981
+    },
+    {
+      "id": "000121-fe823e4ccce4",
+      "start": 34007,
+      "end": 34271
+    },
+    {
+      "id": "000121-1eba39377f52",
+      "start": 34297,
+      "end": 34579
+    },
+    {
+      "id": "000121-8630639de806",
+      "start": 34605,
+      "end": 34886
+    },
+    {
+      "id": "000121-d1bb0ddbd275",
+      "start": 34912,
+      "end": 35184
+    },
+    {
+      "id": "000121-c28f23336e93",
+      "start": 35210,
+      "end": 35493
+    },
+    {
+      "id": "000121-04c19cc96ef5",
+      "start": 35519,
+      "end": 35802
+    },
+    {
+      "id": "000121-76a3ce1bd653",
+      "start": 35828,
+      "end": 36108
+    },
+    {
+      "id": "000121-cb437ce8f210",
+      "start": 36134,
+      "end": 36400
+    },
+    {
+      "id": "000121-c57d7195b8f6",
+      "start": 36426,
+      "end": 36714
+    },
+    {
+      "id": "000121-b9fbbd28c2d9",
+      "start": 36740,
+      "end": 37016
+    },
+    {
+      "id": "000121-06c9b490074f",
+      "start": 37042,
+      "end": 37307
+    },
+    {
+      "id": "000121-c5247213e790",
+      "start": 37333,
+      "end": 37616
+    },
+    {
+      "id": "000121-5f52048a3c64",
+      "start": 37642,
+      "end": 37933
+    },
+    {
+      "id": "000121-f05c3a98c5e7",
+      "start": 37959,
+      "end": 38217
+    },
+    {
+      "id": "000121-e3bbfeaa7b2a",
+      "start": 38243,
+      "end": 38531
+    },
+    {
+      "id": "000121-de1309cde1ac",
+      "start": 38557,
+      "end": 38840
+    },
+    {
+      "id": "000121-18367b619954",
+      "start": 38866,
+      "end": 39131
+    },
+    {
+      "id": "000121-f58294f6b76c",
+      "start": 39157,
+      "end": 39423
+    },
+    {
+      "id": "000121-caa88918f670",
+      "start": 39449,
+      "end": 39728
+    },
+    {
+      "id": "000121-721a6bc27e64",
+      "start": 39754,
+      "end": 40009
+    },
+    {
+      "id": "000121-94a09ebfd17d",
+      "start": 40035,
+      "end": 40306
+    },
+    {
+      "id": "000121-1900bae7abe0",
+      "start": 40332,
+      "end": 40579
+    },
+    {
+      "id": "000121-6ce67e98b38d",
+      "start": 40605,
+      "end": 40892
+    },
+    {
+      "id": "000121-d33e607bdb26",
+      "start": 40918,
+      "end": 41192
+    },
+    {
+      "id": "000121-6df38d6a8090",
+      "start": 41218,
+      "end": 41517
+    },
+    {
+      "id": "000121-3bf45ec7d76f",
+      "start": 41543,
+      "end": 41819
+    },
+    {
+      "id": "000121-4291fd0c2f9a",
+      "start": 41845,
+      "end": 42104
+    },
+    {
+      "id": "000121-c346a415a27e",
+      "start": 42130,
+      "end": 42411
+    },
+    {
+      "id": "000121-30203958016f",
+      "start": 42437,
+      "end": 42703
+    },
+    {
+      "id": "000121-e0f3725f7685",
+      "start": 42729,
+      "end": 43009
+    },
+    {
+      "id": "000121-7e0c88cb5f12",
+      "start": 43035,
+      "end": 43301
+    },
+    {
+      "id": "000121-382eeae12845",
+      "start": 43327,
+      "end": 43604
+    },
+    {
+      "id": "000121-413d4967bf06",
+      "start": 43630,
+      "end": 43911
+    },
+    {
+      "id": "000121-f43869e695df",
+      "start": 43937,
+      "end": 44207
+    },
+    {
+      "id": "000121-47ad945ddc06",
+      "start": 44233,
+      "end": 44471
+    },
+    {
+      "id": "000121-c465ed683830",
+      "start": 44497,
+      "end": 44755
+    },
+    {
+      "id": "000121-4464dcba62d5",
+      "start": 44781,
+      "end": 45062
+    },
+    {
+      "id": "000121-2726ce479203",
+      "start": 45088,
+      "end": 45351
+    },
+    {
+      "id": "000121-3e45931d615e",
+      "start": 45377,
+      "end": 45651
+    },
+    {
+      "id": "000121-9f6333cf792b",
+      "start": 45677,
+      "end": 45936
+    },
+    {
+      "id": "000121-6bf1c9193307",
+      "start": 45962,
+      "end": 46241
+    },
+    {
+      "id": "000121-4956054a6c65",
+      "start": 46267,
+      "end": 46539
+    },
+    {
+      "id": "000121-de74de14979c",
+      "start": 46565,
+      "end": 46836
+    },
+    {
+      "id": "000121-7b31726e8f72",
+      "start": 46862,
+      "end": 47123
+    },
+    {
+      "id": "000121-c6cc16afff7f",
+      "start": 47149,
+      "end": 47413
+    },
+    {
+      "id": "000121-01cd272db423",
+      "start": 47439,
+      "end": 47722
+    },
+    {
+      "id": "000121-f50becfa1a1b",
+      "start": 47748,
+      "end": 48002
+    },
+    {
+      "id": "000121-7118591636b3",
+      "start": 48028,
+      "end": 48300
+    },
+    {
+      "id": "000121-2dbb18ad0d0f",
+      "start": 48326,
+      "end": 48588
+    },
+    {
+      "id": "000121-2aa87b615f2a",
+      "start": 48614,
+      "end": 48884
+    },
+    {
+      "id": "000121-16542c08ea57",
+      "start": 48910,
+      "end": 49180
+    },
+    {
+      "id": "000121-8c75e6e74708",
+      "start": 49206,
+      "end": 49485
+    },
+    {
+      "id": "000121-0d1da4269096",
+      "start": 49511,
+      "end": 49770
+    },
+    {
+      "id": "000121-cbc9f85fcc54",
+      "start": 49796,
+      "end": 50060
+    },
+    {
+      "id": "000121-1bf4c32815c1",
+      "start": 50086,
+      "end": 50367
+    },
+    {
+      "id": "000121-d4f221ccb9fe",
+      "start": 50393,
+      "end": 50686
+    },
+    {
+      "id": "000121-40aed9b6e6e2",
+      "start": 50712,
+      "end": 51004
+    },
+    {
+      "id": "000121-af31dc5da2a2",
+      "start": 51030,
+      "end": 51277
+    },
+    {
+      "id": "000121-13b5684b89c2",
+      "start": 51303,
+      "end": 51608
+    },
+    {
+      "id": "000121-5baf169ef703",
+      "start": 51634,
+      "end": 51878
+    },
+    {
+      "id": "000121-465f4dd4b8dc",
+      "start": 51904,
+      "end": 52188
+    },
+    {
+      "id": "000121-9b2e39123455",
+      "start": 52214,
+      "end": 52477
+    },
+    {
+      "id": "000121-66c6085db76c",
+      "start": 52503,
+      "end": 52761
+    },
+    {
+      "id": "000121-1ab491f016ad",
+      "start": 52787,
+      "end": 53066
+    },
+    {
+      "id": "000121-71b7d254fdc6",
+      "start": 53092,
+      "end": 53352
+    },
+    {
+      "id": "000121-0e4913f25ca0",
+      "start": 53378,
+      "end": 53658
+    },
+    {
+      "id": "000121-f2b993dda7ea",
+      "start": 53684,
+      "end": 53965
+    },
+    {
+      "id": "000121-b81f42d356f3",
+      "start": 53991,
+      "end": 54255
+    },
+    {
+      "id": "000121-af8b28dbd5f4",
+      "start": 54281,
+      "end": 54566
+    },
+    {
+      "id": "000121-e4a5a49fcb05",
+      "start": 54592,
+      "end": 54863
+    },
+    {
+      "id": "000121-595b7fd819bd",
+      "start": 54889,
+      "end": 55184
+    },
+    {
+      "id": "000121-0b22161edd1d",
+      "start": 55210,
+      "end": 55481
+    },
+    {
+      "id": "000121-052fb28e7566",
+      "start": 55507,
+      "end": 55786
+    },
+    {
+      "id": "000121-5b71366a7984",
+      "start": 55812,
+      "end": 56082
+    },
+    {
+      "id": "000121-16d360dcae1c",
+      "start": 56108,
+      "end": 56387
+    },
+    {
+      "id": "000121-7a8e9faad0f4",
+      "start": 56413,
+      "end": 56661
+    },
+    {
+      "id": "000121-142e1832c238",
+      "start": 56687,
+      "end": 56991
+    },
+    {
+      "id": "000121-229de9969dac",
+      "start": 57017,
+      "end": 57272
+    },
+    {
+      "id": "000121-4439c1ff404c",
+      "start": 57298,
+      "end": 57581
+    },
+    {
+      "id": "000121-f96a442e42ad",
+      "start": 57607,
+      "end": 57887
+    },
+    {
+      "id": "000121-b7a23c21c2c4",
+      "start": 57913,
+      "end": 58172
+    },
+    {
+      "id": "000121-473172bcfcbb",
+      "start": 58198,
+      "end": 58458
+    },
+    {
+      "id": "000121-5d08ceacf3a1",
+      "start": 58484,
+      "end": 58776
+    },
+    {
+      "id": "000121-06441eec9f16",
+      "start": 58802,
+      "end": 59081
+    },
+    {
+      "id": "000121-b1fe3090ed87",
+      "start": 59107,
+      "end": 59388
+    },
+    {
+      "id": "000121-3f080e93a428",
+      "start": 59414,
+      "end": 59694
+    },
+    {
+      "id": "000121-f0ae95907792",
+      "start": 59720,
+      "end": 60012
+    },
+    {
+      "id": "000121-a7eee1a2bc7a",
+      "start": 60038,
+      "end": 60299
+    },
+    {
+      "id": "000121-99f8c11629b0",
+      "start": 60325,
+      "end": 60599
+    },
+    {
+      "id": "000121-377c73a479cf",
+      "start": 60625,
+      "end": 60883
+    },
+    {
+      "id": "000121-ff1821cca499",
+      "start": 60909,
+      "end": 61197
+    },
+    {
+      "id": "000121-f8d807683836",
+      "start": 61223,
+      "end": 61491
+    },
+    {
+      "id": "000121-82e93665edf8",
+      "start": 61517,
+      "end": 61800
+    },
+    {
+      "id": "000121-fae1b16b3e87",
+      "start": 61826,
+      "end": 62094
+    },
+    {
+      "id": "000121-4ff96874ab3b",
+      "start": 62120,
+      "end": 62395
+    },
+    {
+      "id": "000121-64f203c08b60",
+      "start": 62421,
+      "end": 62724
+    },
+    {
+      "id": "000121-99c5ca9f0797",
+      "start": 62750,
+      "end": 63052
+    },
+    {
+      "id": "000121-9395b8f35833",
+      "start": 63078,
+      "end": 63381
+    },
+    {
+      "id": "000121-4f1b9605e877",
+      "start": 63407,
+      "end": 63659
+    },
+    {
+      "id": "000121-c2a1b48d618a",
+      "start": 63685,
+      "end": 63978
+    },
+    {
+      "id": "000121-3bbd183314cd",
+      "start": 64004,
+      "end": 64280
+    },
+    {
+      "id": "000121-3dab2e32c64b",
+      "start": 64306,
+      "end": 64585
+    },
+    {
+      "id": "000121-939fd6ba762a",
+      "start": 64611,
+      "end": 64888
+    },
+    {
+      "id": "000121-d186a7bc867a",
+      "start": 64914,
+      "end": 65186
+    },
+    {
+      "id": "000121-be4a99093cc8",
+      "start": 65212,
+      "end": 65476
+    },
+    {
+      "id": "000121-8365d1f4d3a0",
+      "start": 65502,
+      "end": 65788
+    },
+    {
+      "id": "000121-a3c98be8d14e",
+      "start": 65814,
+      "end": 66078
+    },
+    {
+      "id": "000121-f0083c35fd47",
+      "start": 66104,
+      "end": 66370
+    },
+    {
+      "id": "000121-2009a9818f50",
+      "start": 66396,
+      "end": 66676
+    },
+    {
+      "id": "000121-cf9b8f037da3",
+      "start": 66702,
+      "end": 66963
+    },
+    {
+      "id": "000121-2cb6f435de9f",
+      "start": 66989,
+      "end": 67302
+    },
+    {
+      "id": "000121-06854d75b28b",
+      "start": 67328,
+      "end": 67605
+    },
+    {
+      "id": "000121-fbd7b60e1613",
+      "start": 67631,
+      "end": 67892
+    },
+    {
+      "id": "000121-532afd39676a",
+      "start": 67918,
+      "end": 68188
+    },
+    {
+      "id": "000121-3cbded3a3c93",
+      "start": 68214,
+      "end": 68513
+    },
+    {
+      "id": "000121-8099007c0c1b",
+      "start": 68539,
+      "end": 68826
+    },
+    {
+      "id": "000121-04a0ea7c6995",
+      "start": 68852,
+      "end": 69103
+    },
+    {
+      "id": "000121-065e24f273b6",
+      "start": 69129,
+      "end": 69400
+    },
+    {
+      "id": "000121-fe433cff7ed1",
+      "start": 69426,
+      "end": 69727
+    },
+    {
+      "id": "000121-44ac3d8c84f0",
+      "start": 69753,
+      "end": 70024
+    },
+    {
+      "id": "000121-47eb0964c605",
+      "start": 70050,
+      "end": 70321
+    },
+    {
+      "id": "000121-0c8120d3322f",
+      "start": 70347,
+      "end": 70628
+    },
+    {
+      "id": "000121-bbd98d531578",
+      "start": 70654,
+      "end": 70956
+    },
+    {
+      "id": "000121-3f1103c6dfc4",
+      "start": 70982,
+      "end": 71262
+    },
+    {
+      "id": "000121-7e3199cc1f55",
+      "start": 71288,
+      "end": 71573
+    },
+    {
+      "id": "000121-df7b6c8334be",
+      "start": 71599,
+      "end": 71866
+    },
+    {
+      "id": "000121-d39cc357f947",
+      "start": 71892,
+      "end": 72174
+    },
+    {
+      "id": "000121-f54ee616022b",
+      "start": 72200,
+      "end": 72474
+    },
+    {
+      "id": "000121-ba9350433a49",
+      "start": 72500,
+      "end": 72807
+    },
+    {
+      "id": "000121-caddc8859ac1",
+      "start": 72833,
+      "end": 73094
+    },
+    {
+      "id": "000121-7398c00816d7",
+      "start": 73120,
+      "end": 73433
+    },
+    {
+      "id": "000121-cc1731749aa2",
+      "start": 73459,
+      "end": 73741
+    },
+    {
+      "id": "000121-b5d720177eca",
+      "start": 73767,
+      "end": 74042
     }
   ],
   "labels": [
@@ -157,7 +1277,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "What followed was a blur of one thing after another."
+        "It had all been a blur of one thing after another."
       ]
     },
     {
@@ -170,7 +1290,7 @@
       "check": "narrative-craft/body-action-density",
       "expected": true,
       "snippets": [
-        "I rolled my shoulders and settled in the chair."
+        "I rolled my shoulders"
       ]
     },
     {
@@ -214,7 +1334,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The rest of the appointment became a hazy rush."
+        "the appointment passing in a hazy rush"
       ]
     },
     {
@@ -313,7 +1433,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The adoption process swept past in a blur."
+        "everything sweeping past in a blur"
       ]
     },
     {
@@ -379,7 +1499,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The rest of the ceremony passed in a shapeless whirl."
+        "everything passing in a shapeless whirl"
       ]
     },
     {
@@ -403,7 +1523,4375 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The afternoon ran together in a blur of motion."
+        "the afternoon ran together in a blur of motion"
+      ]
+    },
+    {
+      "id": "000121-a03720ed7e8d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Shame had taken up residence beside me."
+      ]
+    },
+    {
+      "id": "000121-a03720ed7e8d",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-a03720ed7e8d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a5a5926576d9",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Hope occupied every corner of his world."
+      ]
+    },
+    {
+      "id": "000121-a5a5926576d9",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-a5a5926576d9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-e03da4d3485e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Envy had become my constant companion."
+      ]
+    },
+    {
+      "id": "000121-e03da4d3485e",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-e03da4d3485e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-49bb49eafdeb",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Resentment demanded a place at the crossing."
+      ]
+    },
+    {
+      "id": "000121-49bb49eafdeb",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-49bb49eafdeb",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-895802fb3675",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Fear ruled the room."
+      ]
+    },
+    {
+      "id": "000121-895802fb3675",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-895802fb3675",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-403b77cb9c7e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Doubt had no place in this fresh beginning."
+      ]
+    },
+    {
+      "id": "000121-403b77cb9c7e",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-403b77cb9c7e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-44b300e0cff2",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Grief sat at his table."
+      ]
+    },
+    {
+      "id": "000121-44b300e0cff2",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-44b300e0cff2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-5bc5d0add9ea",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Pride had appointed itself master of the morning."
+      ]
+    },
+    {
+      "id": "000121-5bc5d0add9ea",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-5bc5d0add9ea",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-261cc0117a4f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Anxiety walked among us."
+      ]
+    },
+    {
+      "id": "000121-261cc0117a4f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-261cc0117a4f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-745764b5374b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Gratitude made itself comfortable in my life."
+      ]
+    },
+    {
+      "id": "000121-745764b5374b",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-745764b5374b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-7d54cf4a896f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Confidence had claimed the stage."
+      ]
+    },
+    {
+      "id": "000121-7d54cf4a896f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7d54cf4a896f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-aab69bbf2903",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Loneliness had rented the space around me."
+      ]
+    },
+    {
+      "id": "000121-aab69bbf2903",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-aab69bbf2903",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4357d4c85aa3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Regret stood between us, an old acquaintance."
+      ]
+    },
+    {
+      "id": "000121-4357d4c85aa3",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-4357d4c85aa3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-0442f3221417",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Neglect was our new landlord."
+      ]
+    },
+    {
+      "id": "000121-0442f3221417",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0442f3221417",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-b7c77a7c734b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Compassion presided over the meal."
+      ]
+    },
+    {
+      "id": "000121-b7c77a7c734b",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-b7c77a7c734b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-df84a8582274",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Dependence had moved into our house."
+      ]
+    },
+    {
+      "id": "000121-df84a8582274",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-df84a8582274",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-0c60f6f084d4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Courage had finally found its home."
+      ]
+    },
+    {
+      "id": "000121-0c60f6f084d4",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0c60f6f084d4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-425703f6ce54",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Suspicion was the third person in the office."
+      ]
+    },
+    {
+      "id": "000121-425703f6ce54",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-425703f6ce54",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-801a43b21b19",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Affection spread through the room and took command."
+      ]
+    },
+    {
+      "id": "000121-801a43b21b19",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-801a43b21b19",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-c17e0544d7d3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Patience had pulled on its work clothes."
+      ]
+    },
+    {
+      "id": "000121-c17e0544d7d3",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-c17e0544d7d3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a6239397134e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Ambition occupied the empty spaces of his days."
+      ]
+    },
+    {
+      "id": "000121-a6239397134e",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-a6239397134e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4ee241f6d787",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Disappointment settled into the market like a permanent resident."
+      ]
+    },
+    {
+      "id": "000121-4ee241f6d787",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-4ee241f6d787",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-91f460b03092",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Relief joined our little party."
+      ]
+    },
+    {
+      "id": "000121-91f460b03092",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-91f460b03092",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-92bc8896e186",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Satisfaction sat on its throne."
+      ]
+    },
+    {
+      "id": "000121-92bc8896e186",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-92bc8896e186",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-178b199f46c3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Bitterness had become another lodger."
+      ]
+    },
+    {
+      "id": "000121-178b199f46c3",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-178b199f46c3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-28349963e7f4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Honesty took the passenger seat."
+      ]
+    },
+    {
+      "id": "000121-28349963e7f4",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-28349963e7f4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-87def77579b7",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Memory reigned over the little kitchen."
+      ]
+    },
+    {
+      "id": "000121-87def77579b7",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-87def77579b7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a1512aa2ad48",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Responsibility had come to stay."
+      ]
+    },
+    {
+      "id": "000121-a1512aa2ad48",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-a1512aa2ad48",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a8b2ec46e212",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Panic had seized the reins."
+      ]
+    },
+    {
+      "id": "000121-a8b2ec46e212",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-a8b2ec46e212",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "After that, everything merged into a muddle of happenings."
+      ]
+    },
+    {
+      "id": "000121-c018a94683f1",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Distrust had made itself our adviser."
+      ]
+    },
+    {
+      "id": "000121-c018a94683f1",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-c018a94683f1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The meeting became a formless rush."
+      ]
+    },
+    {
+      "id": "000121-bc5ffccddfee",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Joy claimed the morning as its own."
+      ]
+    },
+    {
+      "id": "000121-bc5ffccddfee",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-bc5ffccddfee",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The next stretch went by in a whirl."
+      ]
+    },
+    {
+      "id": "000121-24eb51287b9c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Kindness was overseeing our little adventure."
+      ]
+    },
+    {
+      "id": "000121-24eb51287b9c",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-24eb51287b9c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Calls and arrangements swirled together into nothing distinct."
+      ]
+    },
+    {
+      "id": "000121-7c5f1fb88b04",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Humiliation waited there to greet me."
+      ]
+    },
+    {
+      "id": "000121-7c5f1fb88b04",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7c5f1fb88b04",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon unspooled in an indistinct stream."
+      ]
+    },
+    {
+      "id": "000121-57df6eff4fee",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Dread occupied the house."
+      ]
+    },
+    {
+      "id": "000121-57df6eff4fee",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-57df6eff4fee",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "What followed was a blur of doing things."
+      ]
+    },
+    {
+      "id": "000121-9d73ed52e3d9",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Solidarity had arrived to supervise."
+      ]
+    },
+    {
+      "id": "000121-9d73ed52e3d9",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-9d73ed52e3d9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest of the job dissolved into a haze of effort."
+      ]
+    },
+    {
+      "id": "000121-c416efa61c0f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Excitement filled every available space in our lives."
+      ]
+    },
+    {
+      "id": "000121-c416efa61c0f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-c416efa61c0f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Preparations raced past without shape."
+      ]
+    },
+    {
+      "id": "000121-8245c2b05346",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Frustration had installed itself as my shadow."
+      ]
+    },
+    {
+      "id": "000121-8245c2b05346",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-8245c2b05346",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The search passed in a cloudy tumble."
+      ]
+    },
+    {
+      "id": "000121-ae21e18fc1e3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Despair was the darkroom's silent supervisor."
+      ]
+    },
+    {
+      "id": "000121-ae21e18fc1e3",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-ae21e18fc1e3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The session melted into one long blur."
+      ]
+    },
+    {
+      "id": "000121-5bd63e1f2f7c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Irritation had joined us on the road."
+      ]
+    },
+    {
+      "id": "000121-5bd63e1f2f7c",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-5bd63e1f2f7c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The repairs became a swirl of motion."
+      ]
+    },
+    {
+      "id": "000121-b924da62106f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Wonder had taken charge of our outing."
+      ]
+    },
+    {
+      "id": "000121-b924da62106f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-b924da62106f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit hurried onward in an undifferentiated rush."
+      ]
+    },
+    {
+      "id": "000121-a89ee59cd751",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Nostalgia welcomed me upstairs."
+      ]
+    },
+    {
+      "id": "000121-a89ee59cd751",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-a89ee59cd751",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Sorting the boxes became a vague procession of moments."
+      ]
+    },
+    {
+      "id": "000121-e158147dd940",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Discretion had become our guardian."
+      ]
+    },
+    {
+      "id": "000121-e158147dd940",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-e158147dd940",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The evening slid past in a haze."
+      ]
+    },
+    {
+      "id": "000121-2fcaf1098991",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Exasperation stood at my shoulder."
+      ]
+    },
+    {
+      "id": "000121-2fcaf1098991",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-2fcaf1098991",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Administrative details blurred into one another."
+      ]
+    },
+    {
+      "id": "000121-0e66c195f168",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Determination was running the show."
+      ]
+    },
+    {
+      "id": "000121-0e66c195f168",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0e66c195f168",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The performance washed past in a shapeless tide."
+      ]
+    },
+    {
+      "id": "000121-b8608126c50a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Duty governed the landing."
+      ]
+    },
+    {
+      "id": "000121-b8608126c50a",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-b8608126c50a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Moving day churned into a mass of impressions."
+      ]
+    },
+    {
+      "id": "000121-43f0330e8ae4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Vanity had reserved a chair beside mine."
+      ]
+    },
+    {
+      "id": "000121-43f0330e8ae4",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-43f0330e8ae4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment ran together in a vague rush."
+      ]
+    },
+    {
+      "id": "000121-0bb54021d909",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Goodwill had become the neighbourhood's host."
+      ]
+    },
+    {
+      "id": "000121-0bb54021d909",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0bb54021d909",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The game continued in a fog of activity."
+      ]
+    },
+    {
+      "id": "000121-4a4b496156ad",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Sobriety had taken ownership of my future."
+      ]
+    },
+    {
+      "id": "000121-4a4b496156ad",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-4a4b496156ad",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Conversations went by in a loose swirl."
+      ]
+    },
+    {
+      "id": "000121-1fe985b9ba85",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Insecurity had entered the workshop."
+      ]
+    },
+    {
+      "id": "000121-1fe985b9ba85",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-1fe985b9ba85",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The lesson passed in a shapeless flurry."
+      ]
+    },
+    {
+      "id": "000121-9d185956fec1",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Wastefulness would find no shelter in her life."
+      ]
+    },
+    {
+      "id": "000121-9d185956fec1",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-9d185956fec1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Breakfast preparations became an indistinct jumble."
+      ]
+    },
+    {
+      "id": "000121-8bb4310b3652",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Harmony had found a home among us."
+      ]
+    },
+    {
+      "id": "000121-8bb4310b3652",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-8bb4310b3652",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Rehearsal swept onward in a blur."
+      ]
+    },
+    {
+      "id": "000121-7996b90f9589",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Unease was issuing orders in the room."
+      ]
+    },
+    {
+      "id": "000121-7996b90f9589",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7996b90f9589",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The examination became a haze of happenings."
+      ]
+    },
+    {
+      "id": "000121-6003d2e807e9",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Estrangement had become our permanent guest."
+      ]
+    },
+    {
+      "id": "000121-6003d2e807e9",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-6003d2e807e9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The discussion tumbled through an indistinct series of moments."
+      ]
+    },
+    {
+      "id": "000121-d4cb55be15c2",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Prudence stood guard over the garage."
+      ]
+    },
+    {
+      "id": "000121-d4cb55be15c2",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-d4cb55be15c2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning disappeared into a whirl of work."
+      ]
+    },
+    {
+      "id": "000121-75e90c1592ec",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Optimism had pitched its camp with us."
+      ]
+    },
+    {
+      "id": "000121-75e90c1592ec",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-75e90c1592ec",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The remaining preparations flowed past without definition."
+      ]
+    },
+    {
+      "id": "000121-8c2348410165",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Tenderness was the sovereign of my heart."
+      ]
+    },
+    {
+      "id": "000121-8c2348410165",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-8c2348410165",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our shopping trip dissolved into a general rush."
+      ]
+    },
+    {
+      "id": "000121-e96c7ddc6f2d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Indecision had become my shopping companion."
+      ]
+    },
+    {
+      "id": "000121-e96c7ddc6f2d",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders."
+      ]
+    },
+    {
+      "id": "000121-e96c7ddc6f2d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-299f787320eb",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Helplessness ruled his new life."
+      ]
+    },
+    {
+      "id": "000121-299f787320eb",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "He rubbed his chin."
+      ]
+    },
+    {
+      "id": "000121-299f787320eb",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-334f4f0d6777",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Disappointment stood beside the camera."
+      ]
+    },
+    {
+      "id": "000121-334f4f0d6777",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I blinked and shifted my weight."
+      ]
+    },
+    {
+      "id": "000121-334f4f0d6777",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f94ef16d5372",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Vanity was holding court."
+      ]
+    },
+    {
+      "id": "000121-f94ef16d5372",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Rose tucked a strand of hair behind her ear."
+      ]
+    },
+    {
+      "id": "000121-f94ef16d5372",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-009e4807f0a7",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Gratitude hovered over the scene."
+      ]
+    },
+    {
+      "id": "000121-009e4807f0a7",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I flexed my fingers."
+      ]
+    },
+    {
+      "id": "000121-009e4807f0a7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-ce97640efd21",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Success had become a member of the household."
+      ]
+    },
+    {
+      "id": "000121-ce97640efd21",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Ben cleared his throat."
+      ]
+    },
+    {
+      "id": "000121-ce97640efd21",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-51641112296e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Alarm took possession of the room."
+      ]
+    },
+    {
+      "id": "000121-51641112296e",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed."
+      ]
+    },
+    {
+      "id": "000121-51641112296e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-95d4dcc1bed8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Hope had returned from exile."
+      ]
+    },
+    {
+      "id": "000121-95d4dcc1bed8",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Mae gave a little sigh."
+      ]
+    },
+    {
+      "id": "000121-95d4dcc1bed8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-e99f8c19a4b8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Tradition commanded the farm."
+      ]
+    },
+    {
+      "id": "000121-e99f8c19a4b8",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Uncle Len shifted his shoulders."
+      ]
+    },
+    {
+      "id": "000121-e99f8c19a4b8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3ed2b81e0465",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Guilt was waiting on our doorstep."
+      ]
+    },
+    {
+      "id": "000121-3ed2b81e0465",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt a sudden flutter inside."
+      ]
+    },
+    {
+      "id": "000121-3ed2b81e0465",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-e8ace703d5eb",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Wakefulness had appointed itself my keeper."
+      ]
+    },
+    {
+      "id": "000121-e8ace703d5eb",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my palms together."
+      ]
+    },
+    {
+      "id": "000121-e8ace703d5eb",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-21c4fe3fd9ad",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Compromise governed her existence."
+      ]
+    },
+    {
+      "id": "000121-21c4fe3fd9ad",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "She tilted her head."
+      ]
+    },
+    {
+      "id": "000121-21c4fe3fd9ad",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-e3f36d07af94",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Resentment spread its authority over the garden."
+      ]
+    },
+    {
+      "id": "000121-e3f36d07af94",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I adjusted my stance."
+      ]
+    },
+    {
+      "id": "000121-e3f36d07af94",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-17be48303141",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Delight was our guest of honour."
+      ]
+    },
+    {
+      "id": "000121-17be48303141",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Paul smiled faintly."
+      ]
+    },
+    {
+      "id": "000121-17be48303141",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-7526b2f2ab4b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Uncertainty moved into my life."
+      ]
+    },
+    {
+      "id": "000121-7526b2f2ab4b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my neck."
+      ]
+    },
+    {
+      "id": "000121-7526b2f2ab4b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-7f0d2a6eab08",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Neglect had become the owner of the house."
+      ]
+    },
+    {
+      "id": "000121-7f0d2a6eab08",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Terry's jaw tightened."
+      ]
+    },
+    {
+      "id": "000121-7f0d2a6eab08",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-d9d4468a688d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Trust had claimed its kingdom."
+      ]
+    },
+    {
+      "id": "000121-d9d4468a688d",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "The volunteer nodded to herself."
+      ]
+    },
+    {
+      "id": "000121-d9d4468a688d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-820da7598b32",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Misery had pitched a tent inside me."
+      ]
+    },
+    {
+      "id": "000121-820da7598b32",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I let out a breath."
+      ]
+    },
+    {
+      "id": "000121-820da7598b32",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-85d8b77679e0",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Persistence sat faithfully beside her."
+      ]
+    },
+    {
+      "id": "000121-85d8b77679e0",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Alice lifted her eyebrows."
+      ]
+    },
+    {
+      "id": "000121-85d8b77679e0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3208b6666928",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Disappointment had been given the keys to spring."
+      ]
+    },
+    {
+      "id": "000121-3208b6666928",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I pursed my lips."
+      ]
+    },
+    {
+      "id": "000121-3208b6666928",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-cb9d6cea733d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Inconvenience was our ruler."
+      ]
+    },
+    {
+      "id": "000121-cb9d6cea733d",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Sam straightened his back."
+      ]
+    },
+    {
+      "id": "000121-cb9d6cea733d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-37ab908bdea4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Curiosity occupied the whole night."
+      ]
+    },
+    {
+      "id": "000121-37ab908bdea4",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt a deep stirring."
+      ]
+    },
+    {
+      "id": "000121-37ab908bdea4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-6775d03c8629",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Remorse had become my supervisor."
+      ]
+    },
+    {
+      "id": "000121-6775d03c8629",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted in my chair."
+      ]
+    },
+    {
+      "id": "000121-6775d03c8629",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4959075b1630",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Reconciliation entered the room."
+      ]
+    },
+    {
+      "id": "000121-4959075b1630",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "He moistened his lips."
+      ]
+    },
+    {
+      "id": "000121-4959075b1630",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a409e67b1209",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Thrift had become the household's moral authority."
+      ]
+    },
+    {
+      "id": "000121-a409e67b1209",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I gave a small shrug."
+      ]
+    },
+    {
+      "id": "000121-a409e67b1209",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-96219c4fb80d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Vulnerability stood watch over my bed."
+      ]
+    },
+    {
+      "id": "000121-96219c4fb80d",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I drew a slow breath."
+      ]
+    },
+    {
+      "id": "000121-96219c4fb80d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-5cb97d2066ca",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Suspicion had become the landlord's closest friend."
+      ]
+    },
+    {
+      "id": "000121-5cb97d2066ca",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "He rubbed his forehead."
+      ]
+    },
+    {
+      "id": "000121-5cb97d2066ca",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-9dfcd357aae4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Belonging had opened its door to me."
+      ]
+    },
+    {
+      "id": "000121-9dfcd357aae4",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "My shoulders eased."
+      ]
+    },
+    {
+      "id": "000121-9dfcd357aae4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f6e1d37421f6",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Disbelief joined us at the desk."
+      ]
+    },
+    {
+      "id": "000121-f6e1d37421f6",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I worked my jaw."
+      ]
+    },
+    {
+      "id": "000121-f6e1d37421f6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The discussion slid into a blur of exchanges."
+      ]
+    },
+    {
+      "id": "000121-43e5d8506076",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Relief assumed command of the kitchen."
+      ]
+    },
+    {
+      "id": "000121-43e5d8506076",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Ellie blinked slowly."
+      ]
+    },
+    {
+      "id": "000121-43e5d8506076",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Cleaning up passed in a shapeless bustle."
+      ]
+    },
+    {
+      "id": "000121-3fceb6063352",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Suspicion took its place among the seedlings."
+      ]
+    },
+    {
+      "id": "000121-3fceb6063352",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my feet."
+      ]
+    },
+    {
+      "id": "000121-3fceb6063352",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The conversation became a vague whirl of words."
+      ]
+    },
+    {
+      "id": "000121-bb98ca12045f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Caution became our household's guardian."
+      ]
+    },
+    {
+      "id": "000121-bb98ca12045f",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Mark flexed his hands."
+      ]
+    },
+    {
+      "id": "000121-bb98ca12045f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The consultation vanished into an indistinct stream."
+      ]
+    },
+    {
+      "id": "000121-d034a18a3bb6",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Possibility had entered my world."
+      ]
+    },
+    {
+      "id": "000121-d034a18a3bb6",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I touched my chin."
+      ]
+    },
+    {
+      "id": "000121-d034a18a3bb6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Arrangements ran together in a hazy rush."
+      ]
+    },
+    {
+      "id": "000121-c71cde0e858b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Embarrassment presided over the sitting room."
+      ]
+    },
+    {
+      "id": "000121-c71cde0e858b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Jo gave a little cough."
+      ]
+    },
+    {
+      "id": "000121-c71cde0e858b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The evening became a loose montage of things happening."
+      ]
+    },
+    {
+      "id": "000121-9474c42dc2c8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Economy took the floor."
+      ]
+    },
+    {
+      "id": "000121-9474c42dc2c8",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I inhaled and exhaled."
+      ]
+    },
+    {
+      "id": "000121-9474c42dc2c8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The transaction passed in a fog."
+      ]
+    },
+    {
+      "id": "000121-fe823e4ccce4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Chaos had claimed our home."
+      ]
+    },
+    {
+      "id": "000121-fe823e4ccce4",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt a strange surge."
+      ]
+    },
+    {
+      "id": "000121-fe823e4ccce4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Lunch preparations merged into a blur."
+      ]
+    },
+    {
+      "id": "000121-1eba39377f52",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Disappointment became our guide."
+      ]
+    },
+    {
+      "id": "000121-1eba39377f52",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Dad rolled his neck."
+      ]
+    },
+    {
+      "id": "000121-1eba39377f52",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Shopping continued in a shapeless whirl."
+      ]
+    },
+    {
+      "id": "000121-8630639de806",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Anger held dominion in the hall."
+      ]
+    },
+    {
+      "id": "000121-8630639de806",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed the back of my neck."
+      ]
+    },
+    {
+      "id": "000121-8630639de806",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Sorting things out dissolved into a general flurry."
+      ]
+    },
+    {
+      "id": "000121-d1bb0ddbd275",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Humiliation had become my passenger."
+      ]
+    },
+    {
+      "id": "000121-d1bb0ddbd275",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed hard."
+      ]
+    },
+    {
+      "id": "000121-d1bb0ddbd275",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The test rushed onward without shape."
+      ]
+    },
+    {
+      "id": "000121-c28f23336e93",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Absurdity had taken the shop under its wing."
+      ]
+    },
+    {
+      "id": "000121-c28f23336e93",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Priya lifted her chin."
+      ]
+    },
+    {
+      "id": "000121-c28f23336e93",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning turned into a tumble of activity."
+      ]
+    },
+    {
+      "id": "000121-04c19cc96ef5",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Misfortune was supervising my affairs."
+      ]
+    },
+    {
+      "id": "000121-04c19cc96ef5",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I exhaled slowly."
+      ]
+    },
+    {
+      "id": "000121-04c19cc96ef5",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon blurred from one thing to another."
+      ]
+    },
+    {
+      "id": "000121-76a3ce1bd653",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Tension made its entrance."
+      ]
+    },
+    {
+      "id": "000121-76a3ce1bd653",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Eric rocked on his heels."
+      ]
+    },
+    {
+      "id": "000121-76a3ce1bd653",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Negotiations passed in a vague swirl."
+      ]
+    },
+    {
+      "id": "000121-cb437ce8f210",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Despair occupied every inch of my journey."
+      ]
+    },
+    {
+      "id": "000121-cb437ce8f210",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "My stomach gave a little turn."
+      ]
+    },
+    {
+      "id": "000121-cb437ce8f210",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Everything became a rushing jumble."
+      ]
+    },
+    {
+      "id": "000121-c57d7195b8f6",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Pride was sitting at my elbow."
+      ]
+    },
+    {
+      "id": "000121-c57d7195b8f6",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I straightened my shoulders."
+      ]
+    },
+    {
+      "id": "000121-c57d7195b8f6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Introductions floated past in an indistinct haze."
+      ]
+    },
+    {
+      "id": "000121-b9fbbd28c2d9",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Loyalty would not permit such a thing in my world."
+      ]
+    },
+    {
+      "id": "000121-b9fbbd28c2d9",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I blinked twice."
+      ]
+    },
+    {
+      "id": "000121-b9fbbd28c2d9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The discussion hurried past in a shapeless stream."
+      ]
+    },
+    {
+      "id": "000121-06c9b490074f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Gratitude filled the vacant places in my life."
+      ]
+    },
+    {
+      "id": "000121-06c9b490074f",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I smiled to myself."
+      ]
+    },
+    {
+      "id": "000121-06c9b490074f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The remaining errands dissolved into a blur."
+      ]
+    },
+    {
+      "id": "000121-c5247213e790",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Nostalgia entered as an honoured visitor."
+      ]
+    },
+    {
+      "id": "000121-c5247213e790",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Fran rubbed her hands."
+      ]
+    },
+    {
+      "id": "000121-c5247213e790",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Work carried us through a haze of moments."
+      ]
+    },
+    {
+      "id": "000121-5f52048a3c64",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Authority stood tall in the corridor."
+      ]
+    },
+    {
+      "id": "000121-5f52048a3c64",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I tilted my head slightly."
+      ]
+    },
+    {
+      "id": "000121-5f52048a3c64",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The inspection became a flurry without edges."
+      ]
+    },
+    {
+      "id": "000121-f05c3a98c5e7",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Confusion took charge of the shelves."
+      ]
+    },
+    {
+      "id": "000121-f05c3a98c5e7",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Mina pursed her lips."
+      ]
+    },
+    {
+      "id": "000121-f05c3a98c5e7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The shift ran together in a general rush."
+      ]
+    },
+    {
+      "id": "000121-e3bbfeaa7b2a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Apprehension had claimed the meeting."
+      ]
+    },
+    {
+      "id": "000121-e3bbfeaa7b2a",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt something tighten inside."
+      ]
+    },
+    {
+      "id": "000121-e3bbfeaa7b2a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The conversation swam by in a fog."
+      ]
+    },
+    {
+      "id": "000121-de1309cde1ac",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Opportunity had knocked at our lives."
+      ]
+    },
+    {
+      "id": "000121-de1309cde1ac",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my shoulders."
+      ]
+    },
+    {
+      "id": "000121-de1309cde1ac",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The collection became an indistinct bustle."
+      ]
+    },
+    {
+      "id": "000121-18367b619954",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Optimism was once again at home."
+      ]
+    },
+    {
+      "id": "000121-18367b619954",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Mum flexed her fingers."
+      ]
+    },
+    {
+      "id": "000121-18367b619954",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit passed in a vague cascade."
+      ]
+    },
+    {
+      "id": "000121-f58294f6b76c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Desperation became our captain."
+      ]
+    },
+    {
+      "id": "000121-f58294f6b76c",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I raised my eyebrows."
+      ]
+    },
+    {
+      "id": "000121-f58294f6b76c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The evening slipped through a blur of events."
+      ]
+    },
+    {
+      "id": "000121-caa88918f670",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Carelessness governed my days."
+      ]
+    },
+    {
+      "id": "000121-caa88918f670",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I brushed my thumb along my jaw."
+      ]
+    },
+    {
+      "id": "000121-caa88918f670",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Everything hurried into a shapeless jumble."
+      ]
+    },
+    {
+      "id": "000121-721a6bc27e64",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Goodwill took possession of the street."
+      ]
+    },
+    {
+      "id": "000121-721a6bc27e64",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I let my shoulders settle."
+      ]
+    },
+    {
+      "id": "000121-721a6bc27e64",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our chat dissolved into a swirl of talk."
+      ]
+    },
+    {
+      "id": "000121-94a09ebfd17d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Generosity had found its seat among us."
+      ]
+    },
+    {
+      "id": "000121-94a09ebfd17d",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I gave a small sigh."
+      ]
+    },
+    {
+      "id": "000121-94a09ebfd17d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Rehearsal unfolded in a cloudy rush."
+      ]
+    },
+    {
+      "id": "000121-1900bae7abe0",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-1900bae7abe0",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-1900bae7abe0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-6ce67e98b38d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-6ce67e98b38d",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-6ce67e98b38d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-d33e607bdb26",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-d33e607bdb26",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-d33e607bdb26",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-6df38d6a8090",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-6df38d6a8090",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-6df38d6a8090",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3bf45ec7d76f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3bf45ec7d76f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-3bf45ec7d76f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4291fd0c2f9a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-4291fd0c2f9a",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-4291fd0c2f9a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-c346a415a27e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-c346a415a27e",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-c346a415a27e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-30203958016f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-30203958016f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-30203958016f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-e0f3725f7685",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-e0f3725f7685",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-e0f3725f7685",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-7e0c88cb5f12",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7e0c88cb5f12",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7e0c88cb5f12",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-382eeae12845",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-382eeae12845",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-382eeae12845",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-413d4967bf06",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-413d4967bf06",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-413d4967bf06",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f43869e695df",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f43869e695df",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-f43869e695df",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-47ad945ddc06",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-47ad945ddc06",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-47ad945ddc06",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-c465ed683830",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-c465ed683830",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-c465ed683830",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4464dcba62d5",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-4464dcba62d5",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-4464dcba62d5",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-2726ce479203",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-2726ce479203",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-2726ce479203",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3e45931d615e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3e45931d615e",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-3e45931d615e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-9f6333cf792b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-9f6333cf792b",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-9f6333cf792b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-6bf1c9193307",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-6bf1c9193307",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-6bf1c9193307",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4956054a6c65",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-4956054a6c65",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-4956054a6c65",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-de74de14979c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-de74de14979c",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-de74de14979c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-7b31726e8f72",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7b31726e8f72",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7b31726e8f72",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-c6cc16afff7f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-c6cc16afff7f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-c6cc16afff7f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-01cd272db423",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-01cd272db423",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-01cd272db423",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f50becfa1a1b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f50becfa1a1b",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-f50becfa1a1b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-7118591636b3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7118591636b3",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7118591636b3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-2dbb18ad0d0f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-2dbb18ad0d0f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-2dbb18ad0d0f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-2aa87b615f2a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-2aa87b615f2a",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-2aa87b615f2a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Moving it became a blur of effort."
+      ]
+    },
+    {
+      "id": "000121-16542c08ea57",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-16542c08ea57",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-16542c08ea57",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Preparations passed in a shapeless rush."
+      ]
+    },
+    {
+      "id": "000121-8c75e6e74708",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-8c75e6e74708",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-8c75e6e74708",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The dispute swirled into a haze of exchanges."
+      ]
+    },
+    {
+      "id": "000121-0d1da4269096",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-0d1da4269096",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0d1da4269096",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit went by in a general blur."
+      ]
+    },
+    {
+      "id": "000121-cbc9f85fcc54",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-cbc9f85fcc54",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-cbc9f85fcc54",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The performance melted into a whirl."
+      ]
+    },
+    {
+      "id": "000121-1bf4c32815c1",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-1bf4c32815c1",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-1bf4c32815c1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The work became an indistinct procession."
+      ]
+    },
+    {
+      "id": "000121-d4f221ccb9fe",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-d4f221ccb9fe",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-d4f221ccb9fe",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The investigation passed in a vague rush."
+      ]
+    },
+    {
+      "id": "000121-40aed9b6e6e2",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-40aed9b6e6e2",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-40aed9b6e6e2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The preparations disappeared into a bustle without shape."
+      ]
+    },
+    {
+      "id": "000121-af31dc5da2a2",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-af31dc5da2a2",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-af31dc5da2a2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit tumbled onward in a blur."
+      ]
+    },
+    {
+      "id": "000121-13b5684b89c2",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-13b5684b89c2",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-13b5684b89c2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Posting the invitations became a cloudy sequence of moments."
+      ]
+    },
+    {
+      "id": "000121-5baf169ef703",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-5baf169ef703",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-5baf169ef703",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our walk dissolved into a general whirl."
+      ]
+    },
+    {
+      "id": "000121-465f4dd4b8dc",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-465f4dd4b8dc",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-465f4dd4b8dc",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Painting passed in an indistinct rush."
+      ]
+    },
+    {
+      "id": "000121-9b2e39123455",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-9b2e39123455",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-9b2e39123455",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The journey became a hazy string of happenings."
+      ]
+    },
+    {
+      "id": "000121-66c6085db76c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-66c6085db76c",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-66c6085db76c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The demonstration passed in a swirl."
+      ]
+    },
+    {
+      "id": "000121-1ab491f016ad",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-1ab491f016ad",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-1ab491f016ad",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Editing ran together in an undefined flurry."
+      ]
+    },
+    {
+      "id": "000121-71b7d254fdc6",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-71b7d254fdc6",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-71b7d254fdc6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The exchange blurred onward."
+      ]
+    },
+    {
+      "id": "000121-0e4913f25ca0",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-0e4913f25ca0",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0e4913f25ca0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The consultation flowed past in a fog."
+      ]
+    },
+    {
+      "id": "000121-f2b993dda7ea",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f2b993dda7ea",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-f2b993dda7ea",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Rehearsal raced through a haze."
+      ]
+    },
+    {
+      "id": "000121-b81f42d356f3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-b81f42d356f3",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-b81f42d356f3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Repairs vanished into a bustle of motion."
+      ]
+    },
+    {
+      "id": "000121-af8b28dbd5f4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-af8b28dbd5f4",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-af8b28dbd5f4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The tour passed in a shapeless stream."
+      ]
+    },
+    {
+      "id": "000121-e4a5a49fcb05",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-e4a5a49fcb05",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-e4a5a49fcb05",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Packing dissolved into a flurry."
+      ]
+    },
+    {
+      "id": "000121-595b7fd819bd",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-595b7fd819bd",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-595b7fd819bd",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Departure became an indistinct tumble."
+      ]
+    },
+    {
+      "id": "000121-0b22161edd1d",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-0b22161edd1d",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-0b22161edd1d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Paperwork hurried by in a haze."
+      ]
+    },
+    {
+      "id": "000121-052fb28e7566",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-052fb28e7566",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-052fb28e7566",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Setup passed in a loose whirl."
+      ]
+    },
+    {
+      "id": "000121-5b71366a7984",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-5b71366a7984",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-5b71366a7984",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The interview blurred into a series of exchanges."
+      ]
+    },
+    {
+      "id": "000121-16d360dcae1c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-16d360dcae1c",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-16d360dcae1c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our search swept onward without definition."
+      ]
+    },
+    {
+      "id": "000121-7a8e9faad0f4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7a8e9faad0f4",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-7a8e9faad0f4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning passed in a formless rush."
+      ]
+    },
+    {
+      "id": "000121-142e1832c238",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-142e1832c238",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-142e1832c238",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The assembly became a fog of activity."
+      ]
+    },
+    {
+      "id": "000121-229de9969dac",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-229de9969dac",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my chin."
+      ]
+    },
+    {
+      "id": "000121-229de9969dac",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4439c1ff404c",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-4439c1ff404c",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight."
+      ]
+    },
+    {
+      "id": "000121-4439c1ff404c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f96a442e42ad",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f96a442e42ad",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "He cleared his throat."
+      ]
+    },
+    {
+      "id": "000121-f96a442e42ad",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-b7a23c21c2c4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-b7a23c21c2c4",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I smiled faintly."
+      ]
+    },
+    {
+      "id": "000121-b7a23c21c2c4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-473172bcfcbb",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-473172bcfcbb",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I flexed my fingers."
+      ]
+    },
+    {
+      "id": "000121-473172bcfcbb",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-5d08ceacf3a1",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-5d08ceacf3a1",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders."
+      ]
+    },
+    {
+      "id": "000121-5d08ceacf3a1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-06441eec9f16",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-06441eec9f16",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I drew a slow breath."
+      ]
+    },
+    {
+      "id": "000121-06441eec9f16",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-b1fe3090ed87",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-b1fe3090ed87",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I tilted my head."
+      ]
+    },
+    {
+      "id": "000121-b1fe3090ed87",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3f080e93a428",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3f080e93a428",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Tom rubbed his forehead."
+      ]
+    },
+    {
+      "id": "000121-3f080e93a428",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f0ae95907792",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f0ae95907792",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I blinked twice."
+      ]
+    },
+    {
+      "id": "000121-f0ae95907792",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a7eee1a2bc7a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-a7eee1a2bc7a",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I pursed my lips."
+      ]
+    },
+    {
+      "id": "000121-a7eee1a2bc7a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-99f8c11629b0",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-99f8c11629b0",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed."
+      ]
+    },
+    {
+      "id": "000121-99f8c11629b0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-377c73a479cf",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-377c73a479cf",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I adjusted my shoulders."
+      ]
+    },
+    {
+      "id": "000121-377c73a479cf",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-ff1821cca499",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-ff1821cca499",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I gave a little sigh."
+      ]
+    },
+    {
+      "id": "000121-ff1821cca499",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f8d807683836",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f8d807683836",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted from one foot to the other."
+      ]
+    },
+    {
+      "id": "000121-f8d807683836",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-82e93665edf8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-82e93665edf8",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my jaw."
+      ]
+    },
+    {
+      "id": "000121-82e93665edf8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-fae1b16b3e87",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-fae1b16b3e87",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I raised my eyebrows."
+      ]
+    },
+    {
+      "id": "000121-fae1b16b3e87",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4ff96874ab3b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-4ff96874ab3b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I straightened my back."
+      ]
+    },
+    {
+      "id": "000121-4ff96874ab3b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-64f203c08b60",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-64f203c08b60",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I moistened my lips."
+      ]
+    },
+    {
+      "id": "000121-64f203c08b60",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-99c5ca9f0797",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-99c5ca9f0797",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt a vague flutter."
+      ]
+    },
+    {
+      "id": "000121-99c5ca9f0797",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-9395b8f35833",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-9395b8f35833",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I let out a breath."
+      ]
+    },
+    {
+      "id": "000121-9395b8f35833",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-4f1b9605e877",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-4f1b9605e877",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I touched my cheek."
+      ]
+    },
+    {
+      "id": "000121-4f1b9605e877",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-c2a1b48d618a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-c2a1b48d618a",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rocked on my heels."
+      ]
+    },
+    {
+      "id": "000121-c2a1b48d618a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3bbd183314cd",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3bbd183314cd",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my neck."
+      ]
+    },
+    {
+      "id": "000121-3bbd183314cd",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3dab2e32c64b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3dab2e32c64b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my palms."
+      ]
+    },
+    {
+      "id": "000121-3dab2e32c64b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-939fd6ba762a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-939fd6ba762a",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I tilted my chin."
+      ]
+    },
+    {
+      "id": "000121-939fd6ba762a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-d186a7bc867a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-d186a7bc867a",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I moved my shoulders."
+      ]
+    },
+    {
+      "id": "000121-d186a7bc867a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-be4a99093cc8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-be4a99093cc8",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed and blinked."
+      ]
+    },
+    {
+      "id": "000121-be4a99093cc8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-8365d1f4d3a0",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-8365d1f4d3a0",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders."
+      ]
+    },
+    {
+      "id": "000121-8365d1f4d3a0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The consultation became a shapeless blur."
+      ]
+    },
+    {
+      "id": "000121-a3c98be8d14e",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-a3c98be8d14e",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I touched my jaw."
+      ]
+    },
+    {
+      "id": "000121-a3c98be8d14e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Editing drifted through a haze."
+      ]
+    },
+    {
+      "id": "000121-f0083c35fd47",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f0083c35fd47",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "She rubbed her hands together."
+      ]
+    },
+    {
+      "id": "000121-f0083c35fd47",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Waiting passed in a vague whirl."
+      ]
+    },
+    {
+      "id": "000121-2009a9818f50",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-2009a9818f50",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight."
+      ]
+    },
+    {
+      "id": "000121-2009a9818f50",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The show dissolved into a bustle of impressions."
+      ]
+    },
+    {
+      "id": "000121-cf9b8f037da3",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-cf9b8f037da3",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I inhaled slowly."
+      ]
+    },
+    {
+      "id": "000121-cf9b8f037da3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our discussion rushed past without shape."
+      ]
+    },
+    {
+      "id": "000121-2cb6f435de9f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-2cb6f435de9f",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I flexed my fingers."
+      ]
+    },
+    {
+      "id": "000121-2cb6f435de9f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The meeting blurred onward."
+      ]
+    },
+    {
+      "id": "000121-06854d75b28b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-06854d75b28b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I let out a small sigh."
+      ]
+    },
+    {
+      "id": "000121-06854d75b28b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit became an indistinct stream."
+      ]
+    },
+    {
+      "id": "000121-fbd7b60e1613",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-fbd7b60e1613",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my forehead."
+      ]
+    },
+    {
+      "id": "000121-fbd7b60e1613",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The game passed in a cloudy rush."
+      ]
+    },
+    {
+      "id": "000121-532afd39676a",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-532afd39676a",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I blinked and swallowed."
+      ]
+    },
+    {
+      "id": "000121-532afd39676a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment went by in a jumble."
+      ]
+    },
+    {
+      "id": "000121-3cbded3a3c93",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3cbded3a3c93",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I tilted my head."
+      ]
+    },
+    {
+      "id": "000121-3cbded3a3c93",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Reading continued in a vague flurry."
+      ]
+    },
+    {
+      "id": "000121-8099007c0c1b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-8099007c0c1b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I adjusted my stance."
+      ]
+    },
+    {
+      "id": "000121-8099007c0c1b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon ran together in a shapeless sequence."
+      ]
+    },
+    {
+      "id": "000121-04a0ea7c6995",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-04a0ea7c6995",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I pursed my lips."
+      ]
+    },
+    {
+      "id": "000121-04a0ea7c6995",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Rehearsal washed onward in a blur."
+      ]
+    },
+    {
+      "id": "000121-065e24f273b6",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-065e24f273b6",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my neck."
+      ]
+    },
+    {
+      "id": "000121-065e24f273b6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Preparations hurried past in a fog."
+      ]
+    },
+    {
+      "id": "000121-fe433cff7ed1",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-fe433cff7ed1",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I smiled faintly."
+      ]
+    },
+    {
+      "id": "000121-fe433cff7ed1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Sorting passed in a loose rush."
+      ]
+    },
+    {
+      "id": "000121-44ac3d8c84f0",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-44ac3d8c84f0",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt an odd stirring."
+      ]
+    },
+    {
+      "id": "000121-44ac3d8c84f0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The journey became a tumble of moments."
+      ]
+    },
+    {
+      "id": "000121-47eb0964c605",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-47eb0964c605",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I cleared my throat."
+      ]
+    },
+    {
+      "id": "000121-47eb0964c605",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The workshop drifted through a haze."
+      ]
+    },
+    {
+      "id": "000121-0c8120d3322f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-0c8120d3322f",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rocked on my heels."
+      ]
+    },
+    {
+      "id": "000121-0c8120d3322f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Checking in became an indistinct bustle."
+      ]
+    },
+    {
+      "id": "000121-bbd98d531578",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-bbd98d531578",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I straightened my shoulders."
+      ]
+    },
+    {
+      "id": "000121-bbd98d531578",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The inspection passed in a formless stream."
+      ]
+    },
+    {
+      "id": "000121-3f1103c6dfc4",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-3f1103c6dfc4",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my chin."
+      ]
+    },
+    {
+      "id": "000121-3f1103c6dfc4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning dissolved into a swirl."
+      ]
+    },
+    {
+      "id": "000121-7e3199cc1f55",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7e3199cc1f55",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I gave a little shrug."
+      ]
+    },
+    {
+      "id": "000121-7e3199cc1f55",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Play rushed onward without definition."
+      ]
+    },
+    {
+      "id": "000121-df7b6c8334be",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-df7b6c8334be",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I flexed my jaw."
+      ]
+    },
+    {
+      "id": "000121-df7b6c8334be",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The repairs blurred into a rush of effort."
+      ]
+    },
+    {
+      "id": "000121-d39cc357f947",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-d39cc357f947",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I exhaled."
+      ]
+    },
+    {
+      "id": "000121-d39cc357f947",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The review became a hazy procession."
+      ]
+    },
+    {
+      "id": "000121-f54ee616022b",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-f54ee616022b",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I felt a deep flutter."
+      ]
+    },
+    {
+      "id": "000121-f54ee616022b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The vet visit became a cloudy sequence."
+      ]
+    },
+    {
+      "id": "000121-ba9350433a49",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-ba9350433a49",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I raised my eyebrows."
+      ]
+    },
+    {
+      "id": "000121-ba9350433a49",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The fitting passed in an indistinct whirl."
+      ]
+    },
+    {
+      "id": "000121-caddc8859ac1",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-caddc8859ac1",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my neck."
+      ]
+    },
+    {
+      "id": "000121-caddc8859ac1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Shopping hurried through a fog of happenings."
+      ]
+    },
+    {
+      "id": "000121-7398c00816d7",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7398c00816d7",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I moved my shoulders."
+      ]
+    },
+    {
+      "id": "000121-7398c00816d7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The conversation passed in a vague jumble."
+      ]
+    },
+    {
+      "id": "000121-cc1731749aa2",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-cc1731749aa2",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed."
+      ]
+    },
+    {
+      "id": "000121-cc1731749aa2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The move became a shapeless rush."
+      ]
+    },
+    {
+      "id": "000121-b5d720177eca",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-b5d720177eca",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I tilted my head and blinked."
+      ]
+    },
+    {
+      "id": "000121-b5d720177eca",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The delivery passed in a blur."
       ]
     }
   ]

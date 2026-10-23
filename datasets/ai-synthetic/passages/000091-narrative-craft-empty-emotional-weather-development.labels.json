@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "c7742f89eb3a00d092f893b43ea0aafa1c01b991464ad72104553f042a4dcde7",
+  "textSha256": "5176b6d80e09ea10a003a91897385eaf137e817b129d9c79cd66bb93c6838fbb",
   "source": {
     "name": "Codex-authored narrative-craft-empty-emotional-weather-development",
     "originalPath": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -25,92 +25,1192 @@
     {
       "id": "000091-c1fa4e133d65",
       "start": 804,
-      "end": 1137
+      "end": 1136
     },
     {
       "id": "000091-33907a174d3f",
-      "start": 1163,
-      "end": 1503
+      "start": 1162,
+      "end": 1502
     },
     {
       "id": "000091-3bcc5cd9275a",
-      "start": 1529,
-      "end": 1853
+      "start": 1528,
+      "end": 1852
     },
     {
       "id": "000091-a2b673d53e25",
-      "start": 1879,
-      "end": 2201
+      "start": 1878,
+      "end": 2200
     },
     {
       "id": "000091-51b139c5ab9f",
-      "start": 2227,
-      "end": 2569
+      "start": 2226,
+      "end": 2560
     },
     {
       "id": "000091-feb5e6aafe58",
-      "start": 2595,
-      "end": 2927
+      "start": 2586,
+      "end": 2952
     },
     {
       "id": "000091-1305da0bf49c",
-      "start": 2953,
-      "end": 3291
+      "start": 2978,
+      "end": 3316
     },
     {
       "id": "000091-acff79c9f145",
-      "start": 3317,
-      "end": 3684
+      "start": 3342,
+      "end": 3711
     },
     {
       "id": "000091-06777ec2c804",
-      "start": 3710,
-      "end": 4029
+      "start": 3737,
+      "end": 4056
     },
     {
       "id": "000091-37045281dd6d",
-      "start": 4055,
-      "end": 4384
+      "start": 4082,
+      "end": 4411
     },
     {
       "id": "000091-0b0285a9b037",
-      "start": 4410,
-      "end": 4736
+      "start": 4437,
+      "end": 4763
     },
     {
       "id": "000091-f61079f1329a",
-      "start": 4762,
-      "end": 5107
+      "start": 4789,
+      "end": 5134
     },
     {
       "id": "000091-ff398cc6876b",
-      "start": 5133,
-      "end": 5453
+      "start": 5160,
+      "end": 5480
     },
     {
       "id": "000091-0c93e2d6f62d",
-      "start": 5479,
-      "end": 5811
+      "start": 5506,
+      "end": 5838
     },
     {
       "id": "000091-6b0bff7d2565",
-      "start": 5837,
-      "end": 6172
+      "start": 5864,
+      "end": 6199
     },
     {
       "id": "000091-3c5c7f6e84bb",
-      "start": 6198,
-      "end": 6480
+      "start": 6225,
+      "end": 6507
     },
     {
       "id": "000091-eec35e5023ed",
-      "start": 6506,
-      "end": 6830
+      "start": 6533,
+      "end": 6857
     },
     {
       "id": "000091-63ae664dcd66",
-      "start": 6856,
-      "end": 7200
+      "start": 6883,
+      "end": 7227
+    },
+    {
+      "id": "000091-314cb473d7e7",
+      "start": 7253,
+      "end": 7526
+    },
+    {
+      "id": "000091-82ef6a42a243",
+      "start": 7552,
+      "end": 7795
+    },
+    {
+      "id": "000091-19702dd372de",
+      "start": 7821,
+      "end": 8084
+    },
+    {
+      "id": "000091-a0c591804d92",
+      "start": 8110,
+      "end": 8378
+    },
+    {
+      "id": "000091-b88a660b5479",
+      "start": 8404,
+      "end": 8655
+    },
+    {
+      "id": "000091-31e838450fc7",
+      "start": 8681,
+      "end": 8953
+    },
+    {
+      "id": "000091-39ad1055736c",
+      "start": 8979,
+      "end": 9263
+    },
+    {
+      "id": "000091-26b108ddc59e",
+      "start": 9289,
+      "end": 9555
+    },
+    {
+      "id": "000091-b6b2a4e502d3",
+      "start": 9581,
+      "end": 9849
+    },
+    {
+      "id": "000091-41b255b8543b",
+      "start": 9875,
+      "end": 10125
+    },
+    {
+      "id": "000091-6e3dbacaffa1",
+      "start": 10151,
+      "end": 10432
+    },
+    {
+      "id": "000091-2f2e693f6b9a",
+      "start": 10458,
+      "end": 10725
+    },
+    {
+      "id": "000091-faea6ff47851",
+      "start": 10751,
+      "end": 11053
+    },
+    {
+      "id": "000091-bd95eb57b03f",
+      "start": 11079,
+      "end": 11364
+    },
+    {
+      "id": "000091-7cdb1ef55521",
+      "start": 11390,
+      "end": 11662
+    },
+    {
+      "id": "000091-76cb320824c5",
+      "start": 11688,
+      "end": 11947
+    },
+    {
+      "id": "000091-6f6c14e94f02",
+      "start": 11973,
+      "end": 12268
+    },
+    {
+      "id": "000091-a416b57aa027",
+      "start": 12294,
+      "end": 12563
+    },
+    {
+      "id": "000091-f97a0c72e462",
+      "start": 12589,
+      "end": 12859
+    },
+    {
+      "id": "000091-5e3ae0df887c",
+      "start": 12885,
+      "end": 13131
+    },
+    {
+      "id": "000091-ccafe9f07e12",
+      "start": 13157,
+      "end": 13429
+    },
+    {
+      "id": "000091-0a7bd43bd52b",
+      "start": 13455,
+      "end": 13701
+    },
+    {
+      "id": "000091-e96f07d2a1be",
+      "start": 13727,
+      "end": 14008
+    },
+    {
+      "id": "000091-a485f5ffae06",
+      "start": 14034,
+      "end": 14297
+    },
+    {
+      "id": "000091-6d8fbd7fb266",
+      "start": 14323,
+      "end": 14599
+    },
+    {
+      "id": "000091-2bd265cda498",
+      "start": 14625,
+      "end": 14875
+    },
+    {
+      "id": "000091-02d6c710aff9",
+      "start": 14901,
+      "end": 15164
+    },
+    {
+      "id": "000091-94ca9e93ce53",
+      "start": 15190,
+      "end": 15438
+    },
+    {
+      "id": "000091-277cfb78bf9b",
+      "start": 15464,
+      "end": 15749
+    },
+    {
+      "id": "000091-fcbe1f6c5422",
+      "start": 15775,
+      "end": 16050
+    },
+    {
+      "id": "000091-a91ad7e7c7d9",
+      "start": 16076,
+      "end": 16337
+    },
+    {
+      "id": "000091-3d935901c8fd",
+      "start": 16363,
+      "end": 16655
+    },
+    {
+      "id": "000091-b79c05546dc0",
+      "start": 16681,
+      "end": 16967
+    },
+    {
+      "id": "000091-f4610523f2eb",
+      "start": 16993,
+      "end": 17233
+    },
+    {
+      "id": "000091-078cdff9d510",
+      "start": 17259,
+      "end": 17544
+    },
+    {
+      "id": "000091-06b034aec1e5",
+      "start": 17570,
+      "end": 17828
+    },
+    {
+      "id": "000091-d6c7812c01ea",
+      "start": 17854,
+      "end": 18101
+    },
+    {
+      "id": "000091-4932c3f915c2",
+      "start": 18127,
+      "end": 18383
+    },
+    {
+      "id": "000091-2b1798407c1e",
+      "start": 18409,
+      "end": 18664
+    },
+    {
+      "id": "000091-f8f7c5ef4448",
+      "start": 18690,
+      "end": 18969
+    },
+    {
+      "id": "000091-8eadda406543",
+      "start": 18995,
+      "end": 19266
+    },
+    {
+      "id": "000091-ca498a9b7ad7",
+      "start": 19292,
+      "end": 19563
+    },
+    {
+      "id": "000091-f409b96688c1",
+      "start": 19589,
+      "end": 19875
+    },
+    {
+      "id": "000091-8464e42ced1c",
+      "start": 19901,
+      "end": 20178
+    },
+    {
+      "id": "000091-bb5e63db08e5",
+      "start": 20204,
+      "end": 20468
+    },
+    {
+      "id": "000091-c13b1359cdad",
+      "start": 20494,
+      "end": 20765
+    },
+    {
+      "id": "000091-a6b82ad7778d",
+      "start": 20791,
+      "end": 21074
+    },
+    {
+      "id": "000091-9071236751f5",
+      "start": 21100,
+      "end": 21363
+    },
+    {
+      "id": "000091-b88f648683d2",
+      "start": 21389,
+      "end": 21641
+    },
+    {
+      "id": "000091-7b60e3207d28",
+      "start": 21667,
+      "end": 21935
+    },
+    {
+      "id": "000091-d65fdc77de9a",
+      "start": 21961,
+      "end": 22240
+    },
+    {
+      "id": "000091-5d085561b922",
+      "start": 22266,
+      "end": 22543
+    },
+    {
+      "id": "000091-afadf84f48c6",
+      "start": 22569,
+      "end": 22830
+    },
+    {
+      "id": "000091-9b0721067734",
+      "start": 22856,
+      "end": 23126
+    },
+    {
+      "id": "000091-841a27a803bf",
+      "start": 23152,
+      "end": 23436
+    },
+    {
+      "id": "000091-03dad5a8a27d",
+      "start": 23462,
+      "end": 23728
+    },
+    {
+      "id": "000091-db83fa443cdc",
+      "start": 23754,
+      "end": 24016
+    },
+    {
+      "id": "000091-77ead8dd1048",
+      "start": 24042,
+      "end": 24311
+    },
+    {
+      "id": "000091-b26918e96830",
+      "start": 24337,
+      "end": 24595
+    },
+    {
+      "id": "000091-2201b1b3b0ca",
+      "start": 24621,
+      "end": 24884
+    },
+    {
+      "id": "000091-1f9cd92e891a",
+      "start": 24910,
+      "end": 25215
+    },
+    {
+      "id": "000091-266b2b56835f",
+      "start": 25241,
+      "end": 25504
+    },
+    {
+      "id": "000091-3660a0295e7e",
+      "start": 25530,
+      "end": 25786
+    },
+    {
+      "id": "000091-5a8b21ec6dd2",
+      "start": 25812,
+      "end": 26097
+    },
+    {
+      "id": "000091-c30a9e93a3d7",
+      "start": 26123,
+      "end": 26396
+    },
+    {
+      "id": "000091-d9dabb376425",
+      "start": 26422,
+      "end": 26681
+    },
+    {
+      "id": "000091-269f09254341",
+      "start": 26707,
+      "end": 26977
+    },
+    {
+      "id": "000091-c1515ccb3231",
+      "start": 27003,
+      "end": 27286
+    },
+    {
+      "id": "000091-bc48c8f7bded",
+      "start": 27312,
+      "end": 27582
+    },
+    {
+      "id": "000091-60a8bac1eb16",
+      "start": 27608,
+      "end": 27873
+    },
+    {
+      "id": "000091-26b9c6f8f948",
+      "start": 27899,
+      "end": 28187
+    },
+    {
+      "id": "000091-f5d3c6559ce2",
+      "start": 28213,
+      "end": 28504
+    },
+    {
+      "id": "000091-74acb4e2b769",
+      "start": 28530,
+      "end": 28818
+    },
+    {
+      "id": "000091-0891793550e0",
+      "start": 28844,
+      "end": 29111
+    },
+    {
+      "id": "000091-57fb2f3e5e3b",
+      "start": 29137,
+      "end": 29390
+    },
+    {
+      "id": "000091-f96d123499f7",
+      "start": 29416,
+      "end": 29660
+    },
+    {
+      "id": "000091-e49857860ae4",
+      "start": 29686,
+      "end": 29961
+    },
+    {
+      "id": "000091-07a743ef2baf",
+      "start": 29987,
+      "end": 30244
+    },
+    {
+      "id": "000091-6ac19f65e16b",
+      "start": 30270,
+      "end": 30547
+    },
+    {
+      "id": "000091-c6595928e8b8",
+      "start": 30573,
+      "end": 30863
+    },
+    {
+      "id": "000091-ace8621b7aff",
+      "start": 30889,
+      "end": 31159
+    },
+    {
+      "id": "000091-c623d1c7983b",
+      "start": 31185,
+      "end": 31432
+    },
+    {
+      "id": "000091-ed6c750ca854",
+      "start": 31458,
+      "end": 31745
+    },
+    {
+      "id": "000091-5bf5e2c89fcc",
+      "start": 31771,
+      "end": 32035
+    },
+    {
+      "id": "000091-455fad0e6830",
+      "start": 32061,
+      "end": 32331
+    },
+    {
+      "id": "000091-612b44e7e1ca",
+      "start": 32357,
+      "end": 32630
+    },
+    {
+      "id": "000091-d98b7618d65d",
+      "start": 32656,
+      "end": 32946
+    },
+    {
+      "id": "000091-173a4a485248",
+      "start": 32972,
+      "end": 33264
+    },
+    {
+      "id": "000091-afc5bea87612",
+      "start": 33290,
+      "end": 33598
+    },
+    {
+      "id": "000091-106e23cf902a",
+      "start": 33624,
+      "end": 33900
+    },
+    {
+      "id": "000091-6a3427152c37",
+      "start": 33926,
+      "end": 34207
+    },
+    {
+      "id": "000091-45ef8793d7dc",
+      "start": 34233,
+      "end": 34490
+    },
+    {
+      "id": "000091-f717fde18ab1",
+      "start": 34516,
+      "end": 34806
+    },
+    {
+      "id": "000091-ac98c5c89ec8",
+      "start": 34832,
+      "end": 35100
+    },
+    {
+      "id": "000091-80e1402832ae",
+      "start": 35126,
+      "end": 35402
+    },
+    {
+      "id": "000091-91c4261f85a9",
+      "start": 35428,
+      "end": 35718
+    },
+    {
+      "id": "000091-16644c911b88",
+      "start": 35744,
+      "end": 36038
+    },
+    {
+      "id": "000091-4c2fe2bcf2e0",
+      "start": 36064,
+      "end": 36309
+    },
+    {
+      "id": "000091-efa6b30d5484",
+      "start": 36335,
+      "end": 36614
+    },
+    {
+      "id": "000091-1130a4860520",
+      "start": 36640,
+      "end": 36902
+    },
+    {
+      "id": "000091-bb420e607197",
+      "start": 36928,
+      "end": 37218
+    },
+    {
+      "id": "000091-cb8f69f62137",
+      "start": 37244,
+      "end": 37515
+    },
+    {
+      "id": "000091-53accfb26bf3",
+      "start": 37541,
+      "end": 37821
+    },
+    {
+      "id": "000091-1761c79db2c3",
+      "start": 37847,
+      "end": 38106
+    },
+    {
+      "id": "000091-a07ae50744c6",
+      "start": 38132,
+      "end": 38422
+    },
+    {
+      "id": "000091-fd908dc204a5",
+      "start": 38448,
+      "end": 38714
+    },
+    {
+      "id": "000091-2adf2dec8aa8",
+      "start": 38740,
+      "end": 39013
+    },
+    {
+      "id": "000091-2c97ff7b23fe",
+      "start": 39039,
+      "end": 39314
+    },
+    {
+      "id": "000091-36b5aa624b91",
+      "start": 39340,
+      "end": 39603
+    },
+    {
+      "id": "000091-40f69d1c0baf",
+      "start": 39629,
+      "end": 39913
+    },
+    {
+      "id": "000091-443048cee87e",
+      "start": 39939,
+      "end": 40222
+    },
+    {
+      "id": "000091-6fc0cf9d248b",
+      "start": 40248,
+      "end": 40548
+    },
+    {
+      "id": "000091-aa4a8dd6806b",
+      "start": 40574,
+      "end": 40849
+    },
+    {
+      "id": "000091-5403c6f988af",
+      "start": 40875,
+      "end": 41141
+    },
+    {
+      "id": "000091-3213afff4502",
+      "start": 41167,
+      "end": 41452
+    },
+    {
+      "id": "000091-b27b66c232b3",
+      "start": 41478,
+      "end": 41741
+    },
+    {
+      "id": "000091-1d59d667c981",
+      "start": 41767,
+      "end": 42046
+    },
+    {
+      "id": "000091-5d45ff9fb63f",
+      "start": 42072,
+      "end": 42345
+    },
+    {
+      "id": "000091-f4fbeef4b1d4",
+      "start": 42371,
+      "end": 42642
+    },
+    {
+      "id": "000091-f6288e5668d5",
+      "start": 42668,
+      "end": 42928
+    },
+    {
+      "id": "000091-ab0b4ee0881f",
+      "start": 42954,
+      "end": 43216
+    },
+    {
+      "id": "000091-2f15913df2f1",
+      "start": 43242,
+      "end": 43512
+    },
+    {
+      "id": "000091-b92017b8d46e",
+      "start": 43538,
+      "end": 43815
+    },
+    {
+      "id": "000091-2a0c71dc6439",
+      "start": 43841,
+      "end": 44129
+    },
+    {
+      "id": "000091-b0285d2f1ecb",
+      "start": 44155,
+      "end": 44433
+    },
+    {
+      "id": "000091-4152fe0e22bf",
+      "start": 44459,
+      "end": 44721
+    },
+    {
+      "id": "000091-6e0b3fcdc1cc",
+      "start": 44747,
+      "end": 45010
+    },
+    {
+      "id": "000091-2ebac16a8430",
+      "start": 45036,
+      "end": 45295
+    },
+    {
+      "id": "000091-d20f35786b29",
+      "start": 45321,
+      "end": 45581
+    },
+    {
+      "id": "000091-d0fd59c14cdb",
+      "start": 45607,
+      "end": 45883
+    },
+    {
+      "id": "000091-ec8bcc64b143",
+      "start": 45909,
+      "end": 46194
+    },
+    {
+      "id": "000091-d7105ec6ac5c",
+      "start": 46220,
+      "end": 46505
+    },
+    {
+      "id": "000091-12ff7cebc8d9",
+      "start": 46531,
+      "end": 46822
+    },
+    {
+      "id": "000091-1d3ac84d439f",
+      "start": 46848,
+      "end": 47133
+    },
+    {
+      "id": "000091-8c5f52e49d84",
+      "start": 47159,
+      "end": 47422
+    },
+    {
+      "id": "000091-a52dc1ee1ae6",
+      "start": 47448,
+      "end": 47718
+    },
+    {
+      "id": "000091-7bb1dd7fca11",
+      "start": 47744,
+      "end": 48032
+    },
+    {
+      "id": "000091-55fbc407d8c2",
+      "start": 48058,
+      "end": 48320
+    },
+    {
+      "id": "000091-513ed974cc67",
+      "start": 48346,
+      "end": 48630
+    },
+    {
+      "id": "000091-ee6953e28b5b",
+      "start": 48656,
+      "end": 48922
+    },
+    {
+      "id": "000091-b82829d0a87b",
+      "start": 48948,
+      "end": 49211
+    },
+    {
+      "id": "000091-e0c7f95456b9",
+      "start": 49237,
+      "end": 49532
+    },
+    {
+      "id": "000091-7fc2c1b5016e",
+      "start": 49558,
+      "end": 49847
+    },
+    {
+      "id": "000091-fda69e88c67d",
+      "start": 49873,
+      "end": 50131
+    },
+    {
+      "id": "000091-4e26dda941c5",
+      "start": 50157,
+      "end": 50457
+    },
+    {
+      "id": "000091-ab4ec082146e",
+      "start": 50483,
+      "end": 50756
+    },
+    {
+      "id": "000091-0771dda87302",
+      "start": 50782,
+      "end": 51048
+    },
+    {
+      "id": "000091-231ba12e4345",
+      "start": 51074,
+      "end": 51341
+    },
+    {
+      "id": "000091-c9393a030dbb",
+      "start": 51367,
+      "end": 51641
+    },
+    {
+      "id": "000091-e12c6b942d61",
+      "start": 51667,
+      "end": 51960
+    },
+    {
+      "id": "000091-d850b91434d9",
+      "start": 51986,
+      "end": 52259
+    },
+    {
+      "id": "000091-5ecc1a862cab",
+      "start": 52285,
+      "end": 52574
+    },
+    {
+      "id": "000091-75bb527bbb80",
+      "start": 52600,
+      "end": 52879
+    },
+    {
+      "id": "000091-a92238b12a71",
+      "start": 52905,
+      "end": 53182
+    },
+    {
+      "id": "000091-9cba6901f35b",
+      "start": 53208,
+      "end": 53492
+    },
+    {
+      "id": "000091-d90e77a51759",
+      "start": 53518,
+      "end": 53834
+    },
+    {
+      "id": "000091-de0a7155302b",
+      "start": 53860,
+      "end": 54136
+    },
+    {
+      "id": "000091-38709beaab3f",
+      "start": 54162,
+      "end": 54449
+    },
+    {
+      "id": "000091-ce6ad9a454c8",
+      "start": 54475,
+      "end": 54756
+    },
+    {
+      "id": "000091-72511f4002a0",
+      "start": 54782,
+      "end": 55038
+    },
+    {
+      "id": "000091-bb090e5f60b4",
+      "start": 55064,
+      "end": 55328
+    },
+    {
+      "id": "000091-54e4827f1d38",
+      "start": 55354,
+      "end": 55637
+    },
+    {
+      "id": "000091-ecd13c3d78ca",
+      "start": 55663,
+      "end": 55948
+    },
+    {
+      "id": "000091-51564386e3fe",
+      "start": 55974,
+      "end": 56249
+    },
+    {
+      "id": "000091-f764e9988ad8",
+      "start": 56275,
+      "end": 56557
+    },
+    {
+      "id": "000091-16dd76104803",
+      "start": 56583,
+      "end": 56849
+    },
+    {
+      "id": "000091-aa83f0038f10",
+      "start": 56875,
+      "end": 57153
+    },
+    {
+      "id": "000091-593325a6ea73",
+      "start": 57179,
+      "end": 57437
+    },
+    {
+      "id": "000091-dc3ad61be13d",
+      "start": 57463,
+      "end": 57734
+    },
+    {
+      "id": "000091-52803c148a6d",
+      "start": 57760,
+      "end": 58044
+    },
+    {
+      "id": "000091-b2a8dc4e6600",
+      "start": 58070,
+      "end": 58340
+    },
+    {
+      "id": "000091-175b8a0b7f00",
+      "start": 58366,
+      "end": 58632
+    },
+    {
+      "id": "000091-cb6ec13c84a9",
+      "start": 58658,
+      "end": 58942
+    },
+    {
+      "id": "000091-9ca1f3bb9ac1",
+      "start": 58968,
+      "end": 59224
+    },
+    {
+      "id": "000091-bd44dc0cb4c2",
+      "start": 59250,
+      "end": 59539
+    },
+    {
+      "id": "000091-0acb4663e6ad",
+      "start": 59565,
+      "end": 59845
+    },
+    {
+      "id": "000091-aa53236068d2",
+      "start": 59871,
+      "end": 60131
+    },
+    {
+      "id": "000091-ae9ab5152772",
+      "start": 60157,
+      "end": 60447
+    },
+    {
+      "id": "000091-41654fa9c93e",
+      "start": 60473,
+      "end": 60759
+    },
+    {
+      "id": "000091-41f1d2be812c",
+      "start": 60785,
+      "end": 61073
+    },
+    {
+      "id": "000091-3bf78468974b",
+      "start": 61099,
+      "end": 61393
+    },
+    {
+      "id": "000091-a96f15313148",
+      "start": 61419,
+      "end": 61738
+    },
+    {
+      "id": "000091-3a2dc92b8d35",
+      "start": 61764,
+      "end": 62038
+    },
+    {
+      "id": "000091-a4aae37afc41",
+      "start": 62064,
+      "end": 62348
+    },
+    {
+      "id": "000091-ff0be9fab7b5",
+      "start": 62374,
+      "end": 62664
+    },
+    {
+      "id": "000091-bf6ce8d23bfb",
+      "start": 62690,
+      "end": 62959
+    },
+    {
+      "id": "000091-1432c555abf8",
+      "start": 62985,
+      "end": 63259
+    },
+    {
+      "id": "000091-a82d8de5db9b",
+      "start": 63285,
+      "end": 63555
+    },
+    {
+      "id": "000091-29b8e63a2f67",
+      "start": 63581,
+      "end": 63851
+    },
+    {
+      "id": "000091-9203938b926b",
+      "start": 63877,
+      "end": 64136
+    },
+    {
+      "id": "000091-0d68b317d009",
+      "start": 64162,
+      "end": 64482
+    },
+    {
+      "id": "000091-bec3e9609301",
+      "start": 64508,
+      "end": 64789
+    },
+    {
+      "id": "000091-fe9cbe4e39fe",
+      "start": 64815,
+      "end": 65103
+    },
+    {
+      "id": "000091-d7190e9a11ab",
+      "start": 65129,
+      "end": 65410
+    },
+    {
+      "id": "000091-e68a1e3498bb",
+      "start": 65436,
+      "end": 65729
+    },
+    {
+      "id": "000091-5e4bc1d03c7d",
+      "start": 65755,
+      "end": 66030
+    },
+    {
+      "id": "000091-c986c528b1f6",
+      "start": 66056,
+      "end": 66330
+    },
+    {
+      "id": "000091-a225b724a9b6",
+      "start": 66356,
+      "end": 66644
+    },
+    {
+      "id": "000091-bd29a2bb32e1",
+      "start": 66670,
+      "end": 66962
+    },
+    {
+      "id": "000091-982264a1c867",
+      "start": 66988,
+      "end": 67278
+    },
+    {
+      "id": "000091-b518186870d1",
+      "start": 67304,
+      "end": 67566
+    },
+    {
+      "id": "000091-e644c8e3cdc4",
+      "start": 67592,
+      "end": 67864
+    },
+    {
+      "id": "000091-e96ab0dfb974",
+      "start": 67890,
+      "end": 68167
+    },
+    {
+      "id": "000091-3cfadb5c987f",
+      "start": 68193,
+      "end": 68471
+    },
+    {
+      "id": "000091-ea08a6b96525",
+      "start": 68497,
+      "end": 68771
+    },
+    {
+      "id": "000091-f046017ede39",
+      "start": 68797,
+      "end": 69108
+    },
+    {
+      "id": "000091-9045ad9bd4e9",
+      "start": 69134,
+      "end": 69420
+    },
+    {
+      "id": "000091-2600fc901f19",
+      "start": 69446,
+      "end": 69713
+    },
+    {
+      "id": "000091-41d9fbf47207",
+      "start": 69739,
+      "end": 70029
+    },
+    {
+      "id": "000091-586e71a3c0c1",
+      "start": 70055,
+      "end": 70322
+    },
+    {
+      "id": "000091-7d822fa89109",
+      "start": 70348,
+      "end": 70626
+    },
+    {
+      "id": "000091-984d94259f00",
+      "start": 70652,
+      "end": 70946
+    },
+    {
+      "id": "000091-2da3d0178125",
+      "start": 70972,
+      "end": 71246
+    },
+    {
+      "id": "000091-808edcde79b5",
+      "start": 71272,
+      "end": 71556
+    },
+    {
+      "id": "000091-809c050b4c85",
+      "start": 71582,
+      "end": 71856
+    },
+    {
+      "id": "000091-e1f90c0398a5",
+      "start": 71882,
+      "end": 72184
+    },
+    {
+      "id": "000091-52a730513b0a",
+      "start": 72210,
+      "end": 72470
+    },
+    {
+      "id": "000091-9dce509d0497",
+      "start": 72496,
+      "end": 72760
+    },
+    {
+      "id": "000091-60a95c1fbb07",
+      "start": 72786,
+      "end": 73059
+    },
+    {
+      "id": "000091-090467b54b05",
+      "start": 73085,
+      "end": 73359
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/empty-emotional-weather",
       "expected": true,
       "snippets": [
-        "The tension settled over the room."
+        "tension settled over the room"
       ]
     },
     {
@@ -135,7 +1235,7 @@
       "check": "narrative-craft/empty-emotional-weather",
       "expected": true,
       "snippets": [
-        "An uneasiness moved through the carriage."
+        "uneasiness moved through the carriage"
       ]
     },
     {
@@ -151,7 +1251,7 @@
       "check": "narrative-craft/empty-emotional-weather",
       "expected": true,
       "snippets": [
-        "Calm spread through the cab as we pulled away."
+        "calm spread through the cab"
       ]
     },
     {
@@ -167,7 +1267,7 @@
       "check": "narrative-craft/empty-emotional-weather",
       "expected": true,
       "snippets": [
-        "A heaviness remained in the hall throughout the evening."
+        "A heaviness hung over the hall throughout the school concert"
       ]
     },
     {
@@ -175,7 +1275,7 @@
       "check": "narrative-craft/empty-emotional-weather",
       "expected": true,
       "snippets": [
-        "Anticipation hung in the morning air."
+        "anticipation hanging in the morning air"
       ]
     },
     {
@@ -241,6 +1341,1436 @@
     },
     {
       "id": "000091-63ae664dcd66",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-314cb473d7e7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Resentment pooled around the table."
+      ]
+    },
+    {
+      "id": "000091-82ef6a42a243",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-19702dd372de",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A brittle unease inhabited the bakery."
+      ]
+    },
+    {
+      "id": "000091-a0c591804d92",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b88a660b5479",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Relief washed through the house."
+      ]
+    },
+    {
+      "id": "000091-31e838450fc7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-39ad1055736c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Irritation thickened along the corridor."
+      ]
+    },
+    {
+      "id": "000091-26b108ddc59e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b6b2a4e502d3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A vague heaviness settled among us."
+      ]
+    },
+    {
+      "id": "000091-41b255b8543b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-6e3dbacaffa1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Frostiness spread across the staff room."
+      ]
+    },
+    {
+      "id": "000091-2f2e693f6b9a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-faea6ff47851",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Expectation hovered over the seats."
+      ]
+    },
+    {
+      "id": "000091-bd95eb57b03f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-7cdb1ef55521",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Sorrow lingered in the doorway."
+      ]
+    },
+    {
+      "id": "000091-76cb320824c5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-6f6c14e94f02",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Restlessness circulated through the waiting room."
+      ]
+    },
+    {
+      "id": "000091-a416b57aa027",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-f97a0c72e462",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A soft happiness rested over the campsite"
+      ]
+    },
+    {
+      "id": "000091-5e3ae0df887c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ccafe9f07e12",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Pressure gathered in the little office."
+      ]
+    },
+    {
+      "id": "000091-0a7bd43bd52b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-e96f07d2a1be",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disappointment lay across the courtyard."
+      ]
+    },
+    {
+      "id": "000091-a485f5ffae06",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-6d8fbd7fb266",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A feeling of possibility filled the studio."
+      ]
+    },
+    {
+      "id": "000091-2bd265cda498",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-02d6c710aff9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Suspicion took up residence between them."
+      ]
+    },
+    {
+      "id": "000091-94ca9e93ce53",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-277cfb78bf9b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An ominous quiet pressed around us."
+      ]
+    },
+    {
+      "id": "000091-fcbe1f6c5422",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-a91ad7e7c7d9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Pride swelled through the hall."
+      ]
+    },
+    {
+      "id": "000091-3d935901c8fd",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b79c05546dc0",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An unpleasantness hung in the kitchen air."
+      ]
+    },
+    {
+      "id": "000091-f4610523f2eb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-078cdff9d510",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Discord drifted over the shed."
+      ]
+    },
+    {
+      "id": "000091-06b034aec1e5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-d6c7812c01ea",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "a stale hopelessness occupied the flat"
+      ]
+    },
+    {
+      "id": "000091-4932c3f915c2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-2b1798407c1e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Warmth moved through the audience."
+      ]
+    },
+    {
+      "id": "000091-f8f7c5ef4448",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-8eadda406543",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anxiety eddied beneath the shelter."
+      ]
+    },
+    {
+      "id": "000091-ca498a9b7ad7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-f409b96688c1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Bitterness seeped across the judging table."
+      ]
+    },
+    {
+      "id": "000091-8464e42ced1c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-bb5e63db08e5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A current of excitement ran through the hall."
+      ]
+    },
+    {
+      "id": "000091-c13b1359cdad",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-a6b82ad7778d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Embarrassment settled over the garden."
+      ]
+    },
+    {
+      "id": "000091-9071236751f5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b88f648683d2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A mild hostility lingered between the houses."
+      ]
+    },
+    {
+      "id": "000091-7b60e3207d28",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-d65fdc77de9a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Goodwill floated across the pitch."
+      ]
+    },
+    {
+      "id": "000091-5d085561b922",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-afadf84f48c6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Defeat clouded the car."
+      ]
+    },
+    {
+      "id": "000091-9b0721067734",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-841a27a803bf",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A sense of freedom drifted above the river."
+      ]
+    },
+    {
+      "id": "000091-03dad5a8a27d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-db83fa443cdc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An edgy atmosphere grew around the counter."
+      ]
+    },
+    {
+      "id": "000091-77ead8dd1048",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b26918e96830",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Discontent filled the breakfast room."
+      ]
+    },
+    {
+      "id": "000091-2201b1b3b0ca",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-1f9cd92e891a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Apprehension spread beneath the gazebo."
+      ]
+    },
+    {
+      "id": "000091-266b2b56835f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-3660a0295e7e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Nostalgia hung in the sewing room."
+      ]
+    },
+    {
+      "id": "000091-5a8b21ec6dd2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-c30a9e93a3d7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A sour mood settled behind the till."
+      ]
+    },
+    {
+      "id": "000091-d9dabb376425",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-269f09254341",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Impatience hung thickly over the chairs."
+      ]
+    },
+    {
+      "id": "000091-c1515ccb3231",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-bc48c8f7bded",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Amusement rippled through the kitchen."
+      ]
+    },
+    {
+      "id": "000091-60a8bac1eb16",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-26b9c6f8f948",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Nervousness skittered around the classroom."
+      ]
+    },
+    {
+      "id": "000091-f5d3c6559ce2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-74acb4e2b769",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Frustration simmered over the blanket."
+      ]
+    },
+    {
+      "id": "000091-0891793550e0",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-57fb2f3e5e3b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Loss sat down among us."
+      ]
+    },
+    {
+      "id": "000091-f96d123499f7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-e49857860ae4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Vindication warmed the room."
+      ]
+    },
+    {
+      "id": "000091-07a743ef2baf",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-6ac19f65e16b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Guilt lay over the garden."
+      ]
+    },
+    {
+      "id": "000091-c6595928e8b8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ace8621b7aff",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Resignation settled across the group."
+      ]
+    },
+    {
+      "id": "000091-c623d1c7983b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ed6c750ca854",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Wonder shimmered around the kitchen table."
+      ]
+    },
+    {
+      "id": "000091-5bf5e2c89fcc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-455fad0e6830",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An absence weighed upon the lawn."
+      ]
+    },
+    {
+      "id": "000091-612b44e7e1ca",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-d98b7618d65d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anticipation gathered under the stairwell light."
+      ]
+    },
+    {
+      "id": "000091-173a4a485248",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-afc5bea87612",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Confusion drifted through the classroom."
+      ]
+    },
+    {
+      "id": "000091-106e23cf902a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-6a3427152c37",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Annoyance filled the warehouse bay."
+      ]
+    },
+    {
+      "id": "000091-45ef8793d7dc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-f717fde18ab1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Optimism took root along the pavement."
+      ]
+    },
+    {
+      "id": "000091-ac98c5c89ec8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-80e1402832ae",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Rejection hovered over the party."
+      ]
+    },
+    {
+      "id": "000091-91c4261f85a9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-16644c911b88",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Tension crawled up the stairwell."
+      ]
+    },
+    {
+      "id": "000091-4c2fe2bcf2e0",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-efa6b30d5484",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Hope brightened the examination room."
+      ]
+    },
+    {
+      "id": "000091-1130a4860520",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-bb420e607197",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disappointment drifted between the desks."
+      ]
+    },
+    {
+      "id": "000091-cb8f69f62137",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-53accfb26bf3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Weariness hung above the rows."
+      ]
+    },
+    {
+      "id": "000091-1761c79db2c3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-a07ae50744c6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Delight bubbled through the back seat."
+      ]
+    },
+    {
+      "id": "000091-fd908dc204a5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-2adf2dec8aa8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disunity lingered among us."
+      ]
+    },
+    {
+      "id": "000091-2c97ff7b23fe",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-36b5aa624b91",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An air of accusation gathered in the flat."
+      ]
+    },
+    {
+      "id": "000091-40f69d1c0baf",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-443048cee87e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Merriment floated under the marquee."
+      ]
+    },
+    {
+      "id": "000091-6fc0cf9d248b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-aa4a8dd6806b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Secrecy lay thick in the room."
+      ]
+    },
+    {
+      "id": "000091-5403c6f988af",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-3213afff4502",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Deflation settled over the team."
+      ]
+    },
+    {
+      "id": "000091-b27b66c232b3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-1d59d667c981",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Reassurance spread between the shelves."
+      ]
+    },
+    {
+      "id": "000091-5d45ff9fb63f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-f4fbeef4b1d4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Discomfort hovered between the place settings."
+      ]
+    },
+    {
+      "id": "000091-f6288e5668d5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ab0b4ee0881f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Regret filled the car on the journey home."
+      ]
+    },
+    {
+      "id": "000091-2f15913df2f1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b92017b8d46e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Happiness suffused the corridor."
+      ]
+    },
+    {
+      "id": "000091-2a0c71dc6439",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b0285d2f1ecb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Chaos had an impatient undertone that filled the classroom."
+      ]
+    },
+    {
+      "id": "000091-4152fe0e22bf",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-6e0b3fcdc1cc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Exhaustion settled into every corner."
+      ]
+    },
+    {
+      "id": "000091-2ebac16a8430",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-d20f35786b29",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Something sour moved between them."
+      ]
+    },
+    {
+      "id": "000091-d0fd59c14cdb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ec8bcc64b143",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Satisfaction settled across the allotment."
+      ]
+    },
+    {
+      "id": "000091-d7105ec6ac5c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-12ff7cebc8d9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Irritation settled like dust around us."
+      ]
+    },
+    {
+      "id": "000091-1d3ac84d439f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-8c5f52e49d84",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Affection floated through the little shop."
+      ]
+    },
+    {
+      "id": "000091-a52dc1ee1ae6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-7bb1dd7fca11",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Alienation hovered in the entrance hall."
+      ]
+    },
+    {
+      "id": "000091-55fbc407d8c2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-513ed974cc67",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A buoyant mood carried through the room."
+      ]
+    },
+    {
+      "id": "000091-ee6953e28b5b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b82829d0a87b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Doubt thickened behind the counter."
+      ]
+    },
+    {
+      "id": "000091-e0c7f95456b9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-7fc2c1b5016e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anticipation perfumed the afternoon."
+      ]
+    },
+    {
+      "id": "000091-fda69e88c67d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-4e26dda941c5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Finality filled the hallway."
+      ]
+    },
+    {
+      "id": "000091-ab4ec082146e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-0771dda87302",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Blame hung in the office air."
+      ]
+    },
+    {
+      "id": "000091-231ba12e4345",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-c9393a030dbb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Triumph swept along the poolside."
+      ]
+    },
+    {
+      "id": "000091-e12c6b942d61",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-d850b91434d9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Awkwardness collected beneath the kitchen light."
+      ]
+    },
+    {
+      "id": "000091-5ecc1a862cab",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-75bb527bbb80",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Indignation spread among the stalls."
+      ]
+    },
+    {
+      "id": "000091-a92238b12a71",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-9cba6901f35b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A gentle relief settled upon the workroom."
+      ]
+    },
+    {
+      "id": "000091-d90e77a51759",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-de0a7155302b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Fear drifted across our little group."
+      ]
+    },
+    {
+      "id": "000091-38709beaab3f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ce6ad9a454c8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Despondency settled around the sofa."
+      ]
+    },
+    {
+      "id": "000091-72511f4002a0",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-bb090e5f60b4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Hostility cooled the lobby."
+      ]
+    },
+    {
+      "id": "000091-54e4827f1d38",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ecd13c3d78ca",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Cheerfulness spread across the crowd."
+      ]
+    },
+    {
+      "id": "000091-51564386e3fe",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-f764e9988ad8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A tender sadness drifted around the table."
+      ]
+    },
+    {
+      "id": "000091-16dd76104803",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-aa83f0038f10",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Uncertainty occupied the packing room."
+      ]
+    },
+    {
+      "id": "000091-593325a6ea73",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-dc3ad61be13d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Gratitude filled the damp evening air."
+      ]
+    },
+    {
+      "id": "000091-52803c148a6d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b2a8dc4e6600",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A chill settled over the committee."
+      ]
+    },
+    {
+      "id": "000091-175b8a0b7f00",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-cb6ec13c84a9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Belonging settled into the hallway."
+      ]
+    },
+    {
+      "id": "000091-9ca1f3bb9ac1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-bd44dc0cb4c2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A flat discouragement spread through the party."
+      ]
+    },
+    {
+      "id": "000091-0acb4663e6ad",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-aa53236068d2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Obligation weighed on the room."
+      ]
+    },
+    {
+      "id": "000091-ae9ab5152772",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-41654fa9c93e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Enthusiasm hummed between us."
+      ]
+    },
+    {
+      "id": "000091-41f1d2be812c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-3bf78468974b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A competitive tension circulated in the lounge."
+      ]
+    },
+    {
+      "id": "000091-a96f15313148",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-3a2dc92b8d35",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Celebration lingered around the bandstand."
+      ]
+    },
+    {
+      "id": "000091-a4aae37afc41",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ff0be9fab7b5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disapproval gathered at the gate."
+      ]
+    },
+    {
+      "id": "000091-bf6ce8d23bfb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-1432c555abf8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Harmony returned to the meeting."
+      ]
+    },
+    {
+      "id": "000091-a82d8de5db9b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-29b8e63a2f67",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Promise filled the empty shop."
+      ]
+    },
+    {
+      "id": "000091-9203938b926b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-0d68b317d009",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Absurdity settled over the afternoon with a weary mood."
+      ]
+    },
+    {
+      "id": "000091-bec3e9609301",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-fe9cbe4e39fe",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Relief mingled with sadness in the air."
+      ]
+    },
+    {
+      "id": "000091-d7190e9a11ab",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-e68a1e3498bb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Mortification spread across the tables."
+      ]
+    },
+    {
+      "id": "000091-5e4bc1d03c7d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-c986c528b1f6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Kindness seemed to float through the office."
+      ]
+    },
+    {
+      "id": "000091-a225b724a9b6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-bd29a2bb32e1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Possessiveness drifted through the room."
+      ]
+    },
+    {
+      "id": "000091-982264a1c867",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-b518186870d1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A vague dissatisfaction remained in the hall."
+      ]
+    },
+    {
+      "id": "000091-e644c8e3cdc4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-e96ab0dfb974",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A renewed security wrapped itself around us."
+      ]
+    },
+    {
+      "id": "000091-3cfadb5c987f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-ea08a6b96525",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A grim mood lowered over the kitchen."
+      ]
+    },
+    {
+      "id": "000091-f046017ede39",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-9045ad9bd4e9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A low strain persisted between our gardens."
+      ]
+    },
+    {
+      "id": "000091-2600fc901f19",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-41d9fbf47207",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Generosity glowed around the playground."
+      ]
+    },
+    {
+      "id": "000091-586e71a3c0c1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-7d822fa89109",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Intrusion seemed to hang in every room."
+      ]
+    },
+    {
+      "id": "000091-984d94259f00",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-2da3d0178125",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Recognition warmed the space between us."
+      ]
+    },
+    {
+      "id": "000091-808edcde79b5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-809c050b4c85",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Defiance rose around the scaffold."
+      ]
+    },
+    {
+      "id": "000091-e1f90c0398a5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-52a730513b0a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Distrust remained suspended between us."
+      ]
+    },
+    {
+      "id": "000091-9dce509d0497",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000091-60a95c1fbb07",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A glow of happiness filled the foyer."
+      ]
+    },
+    {
+      "id": "000091-090467b54b05",
       "check": "narrative-craft/empty-emotional-weather",
       "expected": false
     }

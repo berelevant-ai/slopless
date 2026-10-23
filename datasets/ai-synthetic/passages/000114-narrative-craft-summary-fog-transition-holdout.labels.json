@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "619a140827870a97065434be1b359dc2f6281e681a3510969871480d2cd5763c",
+  "textSha256": "a888f64b7b83a009f3df6ae6f6ae4bde88147646b65df1c3de26f4eac4653f02",
   "source": {
     "name": "Codex-authored narrative-craft-summary-fog-transition-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -25,92 +25,1192 @@
     {
       "id": "000114-7bbc306eff1d",
       "start": 797,
-      "end": 1115
+      "end": 1114
     },
     {
       "id": "000114-68b13a837e29",
-      "start": 1141,
-      "end": 1495
+      "start": 1140,
+      "end": 1494
     },
     {
       "id": "000114-74cc1865ad9f",
-      "start": 1521,
-      "end": 1875
+      "start": 1520,
+      "end": 1841
     },
     {
       "id": "000114-36c88c435fd8",
-      "start": 1901,
-      "end": 2285
+      "start": 1867,
+      "end": 2251
     },
     {
       "id": "000114-967e6455c9b4",
-      "start": 2311,
-      "end": 2667
+      "start": 2277,
+      "end": 2633
     },
     {
       "id": "000114-67cd1710158c",
-      "start": 2693,
-      "end": 3023
+      "start": 2659,
+      "end": 2974
     },
     {
       "id": "000114-e06699131b22",
-      "start": 3049,
-      "end": 3394
+      "start": 3000,
+      "end": 3345
     },
     {
       "id": "000114-ff50d3d39d14",
-      "start": 3420,
-      "end": 3769
+      "start": 3371,
+      "end": 3720
     },
     {
       "id": "000114-45d2a3a7b1e1",
-      "start": 3795,
-      "end": 4163
+      "start": 3746,
+      "end": 4108
     },
     {
       "id": "000114-5c9eb4f9240b",
-      "start": 4189,
-      "end": 4523
+      "start": 4134,
+      "end": 4454
     },
     {
       "id": "000114-1919d7572475",
-      "start": 4549,
-      "end": 4913
+      "start": 4480,
+      "end": 4814
     },
     {
       "id": "000114-96eb3fe9a9cb",
-      "start": 4939,
-      "end": 5297
+      "start": 4840,
+      "end": 5198
     },
     {
       "id": "000114-5058dd0035bf",
-      "start": 5323,
-      "end": 5655
+      "start": 5224,
+      "end": 5578
     },
     {
       "id": "000114-8f2838f23287",
-      "start": 5681,
-      "end": 6036
+      "start": 5604,
+      "end": 5959
     },
     {
       "id": "000114-f35c6897824a",
-      "start": 6062,
-      "end": 6458
+      "start": 5985,
+      "end": 6360
     },
     {
       "id": "000114-2751ca7f6676",
-      "start": 6484,
-      "end": 6824
+      "start": 6386,
+      "end": 6726
     },
     {
       "id": "000114-c0c9b70980a8",
-      "start": 6850,
-      "end": 7205
+      "start": 6752,
+      "end": 7107
     },
     {
       "id": "000114-d940ae059d79",
-      "start": 7231,
-      "end": 7549
+      "start": 7133,
+      "end": 7451
+    },
+    {
+      "id": "000114-167b4857d072",
+      "start": 7477,
+      "end": 7761
+    },
+    {
+      "id": "000114-0c8aff7743c4",
+      "start": 7787,
+      "end": 8101
+    },
+    {
+      "id": "000114-58a98fbb1b09",
+      "start": 8127,
+      "end": 8413
+    },
+    {
+      "id": "000114-f33c4e45d275",
+      "start": 8439,
+      "end": 8728
+    },
+    {
+      "id": "000114-3948534eba24",
+      "start": 8754,
+      "end": 9047
+    },
+    {
+      "id": "000114-c0f70994fcf3",
+      "start": 9073,
+      "end": 9374
+    },
+    {
+      "id": "000114-9821c79b9d22",
+      "start": 9400,
+      "end": 9697
+    },
+    {
+      "id": "000114-b8eb36b17099",
+      "start": 9723,
+      "end": 10003
+    },
+    {
+      "id": "000114-f7522cab6bde",
+      "start": 10029,
+      "end": 10325
+    },
+    {
+      "id": "000114-9936447193ab",
+      "start": 10351,
+      "end": 10638
+    },
+    {
+      "id": "000114-48935a02f108",
+      "start": 10664,
+      "end": 10950
+    },
+    {
+      "id": "000114-a4f82c475736",
+      "start": 10976,
+      "end": 11316
+    },
+    {
+      "id": "000114-5d64c423cff7",
+      "start": 11342,
+      "end": 11653
+    },
+    {
+      "id": "000114-87a7472f9248",
+      "start": 11679,
+      "end": 11949
+    },
+    {
+      "id": "000114-a1531844241b",
+      "start": 11975,
+      "end": 12295
+    },
+    {
+      "id": "000114-b4aadd131a92",
+      "start": 12321,
+      "end": 12623
+    },
+    {
+      "id": "000114-7d411bd76af2",
+      "start": 12649,
+      "end": 12921
+    },
+    {
+      "id": "000114-73a2b7cb66b3",
+      "start": 12947,
+      "end": 13274
+    },
+    {
+      "id": "000114-73ca1e768a36",
+      "start": 13300,
+      "end": 13592
+    },
+    {
+      "id": "000114-03cbedafeb15",
+      "start": 13618,
+      "end": 13905
+    },
+    {
+      "id": "000114-627c90cfd7f3",
+      "start": 13931,
+      "end": 14223
+    },
+    {
+      "id": "000114-8add9bfecd87",
+      "start": 14249,
+      "end": 14537
+    },
+    {
+      "id": "000114-8e520e3ab34a",
+      "start": 14563,
+      "end": 14871
+    },
+    {
+      "id": "000114-56c51b0f7c89",
+      "start": 14897,
+      "end": 15190
+    },
+    {
+      "id": "000114-677c1f719ec1",
+      "start": 15216,
+      "end": 15515
+    },
+    {
+      "id": "000114-41648bdaf628",
+      "start": 15541,
+      "end": 15841
+    },
+    {
+      "id": "000114-d2fd6e597ada",
+      "start": 15867,
+      "end": 16175
+    },
+    {
+      "id": "000114-1d52a4ea9166",
+      "start": 16201,
+      "end": 16513
+    },
+    {
+      "id": "000114-29a6f9670da1",
+      "start": 16539,
+      "end": 16840
+    },
+    {
+      "id": "000114-d0350f3beefb",
+      "start": 16866,
+      "end": 17173
+    },
+    {
+      "id": "000114-91e8898e9f98",
+      "start": 17199,
+      "end": 17480
+    },
+    {
+      "id": "000114-0d0c927ba08a",
+      "start": 17506,
+      "end": 17804
+    },
+    {
+      "id": "000114-748709d9258c",
+      "start": 17830,
+      "end": 18101
+    },
+    {
+      "id": "000114-9d4acea332ba",
+      "start": 18127,
+      "end": 18438
+    },
+    {
+      "id": "000114-9f49e6b7e541",
+      "start": 18464,
+      "end": 18770
+    },
+    {
+      "id": "000114-9ede1a2bf8b9",
+      "start": 18796,
+      "end": 19079
+    },
+    {
+      "id": "000114-f023ebcaf564",
+      "start": 19105,
+      "end": 19391
+    },
+    {
+      "id": "000114-df26d65511f3",
+      "start": 19417,
+      "end": 19720
+    },
+    {
+      "id": "000114-3637b2012e7d",
+      "start": 19746,
+      "end": 20018
+    },
+    {
+      "id": "000114-9900f927d132",
+      "start": 20044,
+      "end": 20329
+    },
+    {
+      "id": "000114-99b8586613e7",
+      "start": 20355,
+      "end": 20649
+    },
+    {
+      "id": "000114-42b3487a36b3",
+      "start": 20675,
+      "end": 20986
+    },
+    {
+      "id": "000114-049462aa971b",
+      "start": 21012,
+      "end": 21298
+    },
+    {
+      "id": "000114-52a2e2b68df1",
+      "start": 21324,
+      "end": 21611
+    },
+    {
+      "id": "000114-70967d65c995",
+      "start": 21637,
+      "end": 21915
+    },
+    {
+      "id": "000114-9dd0e02dd2c0",
+      "start": 21941,
+      "end": 22202
+    },
+    {
+      "id": "000114-38c385989674",
+      "start": 22228,
+      "end": 22512
+    },
+    {
+      "id": "000114-2c25a1a82e8f",
+      "start": 22538,
+      "end": 22838
+    },
+    {
+      "id": "000114-8576bff43c9b",
+      "start": 22864,
+      "end": 23160
+    },
+    {
+      "id": "000114-7f4cbbcafdaf",
+      "start": 23186,
+      "end": 23471
+    },
+    {
+      "id": "000114-60aa14e04a8a",
+      "start": 23497,
+      "end": 23792
+    },
+    {
+      "id": "000114-e367de6b168b",
+      "start": 23818,
+      "end": 24093
+    },
+    {
+      "id": "000114-5de968bb300f",
+      "start": 24119,
+      "end": 24400
+    },
+    {
+      "id": "000114-dc492952c024",
+      "start": 24426,
+      "end": 24715
+    },
+    {
+      "id": "000114-a1b984470197",
+      "start": 24741,
+      "end": 25039
+    },
+    {
+      "id": "000114-1ab9c17ca3be",
+      "start": 25065,
+      "end": 25333
+    },
+    {
+      "id": "000114-213f3a6c8897",
+      "start": 25359,
+      "end": 25651
+    },
+    {
+      "id": "000114-41b10712750d",
+      "start": 25677,
+      "end": 25998
+    },
+    {
+      "id": "000114-7b73438f7402",
+      "start": 26024,
+      "end": 26337
+    },
+    {
+      "id": "000114-1f66546e98ba",
+      "start": 26363,
+      "end": 26643
+    },
+    {
+      "id": "000114-630ddf09fbc8",
+      "start": 26669,
+      "end": 26968
+    },
+    {
+      "id": "000114-64cef07759ce",
+      "start": 26994,
+      "end": 27316
+    },
+    {
+      "id": "000114-b248208c2b42",
+      "start": 27342,
+      "end": 27628
+    },
+    {
+      "id": "000114-6f03093e0d70",
+      "start": 27654,
+      "end": 27957
+    },
+    {
+      "id": "000114-49e0e889e565",
+      "start": 27983,
+      "end": 28262
+    },
+    {
+      "id": "000114-130e138fa3d7",
+      "start": 28288,
+      "end": 28577
+    },
+    {
+      "id": "000114-d165472ac7bd",
+      "start": 28603,
+      "end": 28875
+    },
+    {
+      "id": "000114-c4829aa313e0",
+      "start": 28901,
+      "end": 29190
+    },
+    {
+      "id": "000114-bffedc3fa64c",
+      "start": 29216,
+      "end": 29525
+    },
+    {
+      "id": "000114-e35492e22c09",
+      "start": 29551,
+      "end": 29853
+    },
+    {
+      "id": "000114-1ff2c52a41f9",
+      "start": 29879,
+      "end": 30165
+    },
+    {
+      "id": "000114-a3f44165cb09",
+      "start": 30191,
+      "end": 30483
+    },
+    {
+      "id": "000114-11df77a7c616",
+      "start": 30509,
+      "end": 30813
+    },
+    {
+      "id": "000114-dd99f395bb3f",
+      "start": 30839,
+      "end": 31145
+    },
+    {
+      "id": "000114-328486097d88",
+      "start": 31171,
+      "end": 31462
+    },
+    {
+      "id": "000114-07f09c3bfe57",
+      "start": 31488,
+      "end": 31774
+    },
+    {
+      "id": "000114-c834ccfe8ef4",
+      "start": 31800,
+      "end": 32074
+    },
+    {
+      "id": "000114-62183c3b7cdc",
+      "start": 32100,
+      "end": 32395
+    },
+    {
+      "id": "000114-899d5be2f651",
+      "start": 32421,
+      "end": 32704
+    },
+    {
+      "id": "000114-cb4b41b4de31",
+      "start": 32730,
+      "end": 33025
+    },
+    {
+      "id": "000114-4326b087fc17",
+      "start": 33051,
+      "end": 33340
+    },
+    {
+      "id": "000114-a02343b9870d",
+      "start": 33366,
+      "end": 33671
+    },
+    {
+      "id": "000114-0110dd4bbf89",
+      "start": 33697,
+      "end": 33982
+    },
+    {
+      "id": "000114-12e33e91de1a",
+      "start": 34008,
+      "end": 34302
+    },
+    {
+      "id": "000114-a4193792ec80",
+      "start": 34328,
+      "end": 34644
+    },
+    {
+      "id": "000114-4d5b7b70fc14",
+      "start": 34670,
+      "end": 34950
+    },
+    {
+      "id": "000114-ece6e15e7ce8",
+      "start": 34976,
+      "end": 35267
+    },
+    {
+      "id": "000114-74a016823d66",
+      "start": 35293,
+      "end": 35562
+    },
+    {
+      "id": "000114-83f37c7249fd",
+      "start": 35588,
+      "end": 35881
+    },
+    {
+      "id": "000114-0353455839f9",
+      "start": 35907,
+      "end": 36188
+    },
+    {
+      "id": "000114-f1a8887f296d",
+      "start": 36214,
+      "end": 36494
+    },
+    {
+      "id": "000114-c65c13cad7db",
+      "start": 36520,
+      "end": 36815
+    },
+    {
+      "id": "000114-547f08a5499d",
+      "start": 36841,
+      "end": 37127
+    },
+    {
+      "id": "000114-986903f0606a",
+      "start": 37153,
+      "end": 37475
+    },
+    {
+      "id": "000114-05969e81494d",
+      "start": 37501,
+      "end": 37802
+    },
+    {
+      "id": "000114-af6c35aa6066",
+      "start": 37828,
+      "end": 38132
+    },
+    {
+      "id": "000114-9f407484b498",
+      "start": 38158,
+      "end": 38450
+    },
+    {
+      "id": "000114-8c83701afb81",
+      "start": 38476,
+      "end": 38752
+    },
+    {
+      "id": "000114-3b7263401ec8",
+      "start": 38778,
+      "end": 39077
+    },
+    {
+      "id": "000114-2433349ab833",
+      "start": 39103,
+      "end": 39395
+    },
+    {
+      "id": "000114-ac16bb2ff35b",
+      "start": 39421,
+      "end": 39712
+    },
+    {
+      "id": "000114-30dd36ade20e",
+      "start": 39738,
+      "end": 40039
+    },
+    {
+      "id": "000114-7235f63f5479",
+      "start": 40065,
+      "end": 40362
+    },
+    {
+      "id": "000114-da496b23c262",
+      "start": 40388,
+      "end": 40681
+    },
+    {
+      "id": "000114-5eed8426e664",
+      "start": 40707,
+      "end": 40985
+    },
+    {
+      "id": "000114-c9fbc1c7c617",
+      "start": 41011,
+      "end": 41293
+    },
+    {
+      "id": "000114-84ab9b0c8398",
+      "start": 41319,
+      "end": 41614
+    },
+    {
+      "id": "000114-a1efa07bc278",
+      "start": 41640,
+      "end": 41908
+    },
+    {
+      "id": "000114-cca9994b64aa",
+      "start": 41934,
+      "end": 42201
+    },
+    {
+      "id": "000114-6bec5cbc33d2",
+      "start": 42227,
+      "end": 42522
+    },
+    {
+      "id": "000114-627b0c1533c4",
+      "start": 42548,
+      "end": 42855
+    },
+    {
+      "id": "000114-1b2d274e2348",
+      "start": 42881,
+      "end": 43179
+    },
+    {
+      "id": "000114-a1bc7add98e2",
+      "start": 43205,
+      "end": 43510
+    },
+    {
+      "id": "000114-bca068b46cc8",
+      "start": 43536,
+      "end": 43840
+    },
+    {
+      "id": "000114-67b581e52e4f",
+      "start": 43866,
+      "end": 44147
+    },
+    {
+      "id": "000114-0b33aad0705c",
+      "start": 44173,
+      "end": 44461
+    },
+    {
+      "id": "000114-bc1ccfa5c8b9",
+      "start": 44487,
+      "end": 44799
+    },
+    {
+      "id": "000114-f74c0e96cfec",
+      "start": 44825,
+      "end": 45134
+    },
+    {
+      "id": "000114-6951571e8efb",
+      "start": 45160,
+      "end": 45448
+    },
+    {
+      "id": "000114-afe5d9cf5d10",
+      "start": 45474,
+      "end": 45762
+    },
+    {
+      "id": "000114-960060b3ec74",
+      "start": 45788,
+      "end": 46082
+    },
+    {
+      "id": "000114-f078b39fbb3e",
+      "start": 46108,
+      "end": 46428
+    },
+    {
+      "id": "000114-2a54d6129446",
+      "start": 46454,
+      "end": 46737
+    },
+    {
+      "id": "000114-47e464ec8d6d",
+      "start": 46763,
+      "end": 47064
+    },
+    {
+      "id": "000114-344bcd37cbad",
+      "start": 47090,
+      "end": 47394
+    },
+    {
+      "id": "000114-4f4f7c1ccfa2",
+      "start": 47420,
+      "end": 47726
+    },
+    {
+      "id": "000114-539a6141aa3e",
+      "start": 47752,
+      "end": 48053
+    },
+    {
+      "id": "000114-d2969e1bc19f",
+      "start": 48079,
+      "end": 48378
+    },
+    {
+      "id": "000114-1f0b00812f57",
+      "start": 48404,
+      "end": 48688
+    },
+    {
+      "id": "000114-50b376718a0b",
+      "start": 48714,
+      "end": 49007
+    },
+    {
+      "id": "000114-a132a39f664a",
+      "start": 49033,
+      "end": 49311
+    },
+    {
+      "id": "000114-daa0517e77c1",
+      "start": 49337,
+      "end": 49654
+    },
+    {
+      "id": "000114-6f9d0b0b0b37",
+      "start": 49680,
+      "end": 49990
+    },
+    {
+      "id": "000114-2a559eeaeb07",
+      "start": 50016,
+      "end": 50318
+    },
+    {
+      "id": "000114-b70363066531",
+      "start": 50344,
+      "end": 50633
+    },
+    {
+      "id": "000114-24be6be0e2e9",
+      "start": 50659,
+      "end": 50944
+    },
+    {
+      "id": "000114-3c7c8f413c5e",
+      "start": 50970,
+      "end": 51282
+    },
+    {
+      "id": "000114-5bd48920c4f6",
+      "start": 51308,
+      "end": 51620
+    },
+    {
+      "id": "000114-ffcb866eb4e4",
+      "start": 51646,
+      "end": 51945
+    },
+    {
+      "id": "000114-9fee0f82796f",
+      "start": 51971,
+      "end": 52270
+    },
+    {
+      "id": "000114-729e269c1e48",
+      "start": 52296,
+      "end": 52610
+    },
+    {
+      "id": "000114-7b6ceac11449",
+      "start": 52636,
+      "end": 52942
+    },
+    {
+      "id": "000114-8f5b27cc9688",
+      "start": 52968,
+      "end": 53266
+    },
+    {
+      "id": "000114-1b31629b3a89",
+      "start": 53292,
+      "end": 53598
+    },
+    {
+      "id": "000114-73bf605a79e2",
+      "start": 53624,
+      "end": 53927
+    },
+    {
+      "id": "000114-9b635da611b0",
+      "start": 53953,
+      "end": 54240
+    },
+    {
+      "id": "000114-4c0ae4aaf411",
+      "start": 54266,
+      "end": 54579
+    },
+    {
+      "id": "000114-b0f75962635b",
+      "start": 54605,
+      "end": 54921
+    },
+    {
+      "id": "000114-1f86660b4e5a",
+      "start": 54947,
+      "end": 55219
+    },
+    {
+      "id": "000114-9f8c9549f2ab",
+      "start": 55245,
+      "end": 55547
+    },
+    {
+      "id": "000114-c96003fcf17b",
+      "start": 55573,
+      "end": 55848
+    },
+    {
+      "id": "000114-1fdd41c1829e",
+      "start": 55874,
+      "end": 56169
+    },
+    {
+      "id": "000114-e5faf41903d7",
+      "start": 56195,
+      "end": 56504
+    },
+    {
+      "id": "000114-3b6b7b4cea51",
+      "start": 56530,
+      "end": 56841
+    },
+    {
+      "id": "000114-c73bde198e63",
+      "start": 56867,
+      "end": 57182
+    },
+    {
+      "id": "000114-1ef60bbde097",
+      "start": 57208,
+      "end": 57506
+    },
+    {
+      "id": "000114-3fd2dc0880e6",
+      "start": 57532,
+      "end": 57849
+    },
+    {
+      "id": "000114-2b98d485476e",
+      "start": 57875,
+      "end": 58161
+    },
+    {
+      "id": "000114-6d9c1ce590ae",
+      "start": 58187,
+      "end": 58483
+    },
+    {
+      "id": "000114-3c6614c550ec",
+      "start": 58509,
+      "end": 58801
+    },
+    {
+      "id": "000114-5c7d5a73c934",
+      "start": 58827,
+      "end": 59104
+    },
+    {
+      "id": "000114-d147eea3e66f",
+      "start": 59130,
+      "end": 59442
+    },
+    {
+      "id": "000114-6e659f8453b2",
+      "start": 59468,
+      "end": 59763
+    },
+    {
+      "id": "000114-02711b1ca165",
+      "start": 59789,
+      "end": 60089
+    },
+    {
+      "id": "000114-2cfe934d53e1",
+      "start": 60115,
+      "end": 60433
+    },
+    {
+      "id": "000114-5ad56cd1896c",
+      "start": 60459,
+      "end": 60766
+    },
+    {
+      "id": "000114-57242164bd0c",
+      "start": 60792,
+      "end": 61101
+    },
+    {
+      "id": "000114-c403243df631",
+      "start": 61127,
+      "end": 61389
+    },
+    {
+      "id": "000114-0f470f00fd3f",
+      "start": 61415,
+      "end": 61713
+    },
+    {
+      "id": "000114-bb376c4de399",
+      "start": 61739,
+      "end": 62030
+    },
+    {
+      "id": "000114-5db9400768d1",
+      "start": 62056,
+      "end": 62344
+    },
+    {
+      "id": "000114-babdbe4fa7fc",
+      "start": 62370,
+      "end": 62678
+    },
+    {
+      "id": "000114-7455b464d4c4",
+      "start": 62704,
+      "end": 63014
+    },
+    {
+      "id": "000114-688b84d0cae1",
+      "start": 63040,
+      "end": 63327
+    },
+    {
+      "id": "000114-43f1797524d2",
+      "start": 63353,
+      "end": 63669
+    },
+    {
+      "id": "000114-0265d04f6d23",
+      "start": 63695,
+      "end": 63973
+    },
+    {
+      "id": "000114-873488a9b19c",
+      "start": 63999,
+      "end": 64299
+    },
+    {
+      "id": "000114-61ebc2ed18d6",
+      "start": 64325,
+      "end": 64620
+    },
+    {
+      "id": "000114-b342bb961914",
+      "start": 64646,
+      "end": 64958
+    },
+    {
+      "id": "000114-4a248b355f54",
+      "start": 64984,
+      "end": 65296
+    },
+    {
+      "id": "000114-bea6429bf415",
+      "start": 65322,
+      "end": 65622
+    },
+    {
+      "id": "000114-e64ad055c7a8",
+      "start": 65648,
+      "end": 65953
+    },
+    {
+      "id": "000114-356f3661afba",
+      "start": 65979,
+      "end": 66276
+    },
+    {
+      "id": "000114-7171e5bc5781",
+      "start": 66302,
+      "end": 66587
+    },
+    {
+      "id": "000114-50b174593e91",
+      "start": 66613,
+      "end": 66908
+    },
+    {
+      "id": "000114-b8c1ee230102",
+      "start": 66934,
+      "end": 67211
+    },
+    {
+      "id": "000114-873c10718a1a",
+      "start": 67237,
+      "end": 67534
+    },
+    {
+      "id": "000114-7b10ddb81ae7",
+      "start": 67560,
+      "end": 67828
+    },
+    {
+      "id": "000114-92ffd88114bf",
+      "start": 67854,
+      "end": 68148
+    },
+    {
+      "id": "000114-7f87927b22d5",
+      "start": 68174,
+      "end": 68472
+    },
+    {
+      "id": "000114-5c399b88b064",
+      "start": 68498,
+      "end": 68797
+    },
+    {
+      "id": "000114-e0b0b8eb0792",
+      "start": 68823,
+      "end": 69154
+    },
+    {
+      "id": "000114-751bb135100d",
+      "start": 69180,
+      "end": 69480
+    },
+    {
+      "id": "000114-aa4b7a77d79d",
+      "start": 69506,
+      "end": 69806
+    },
+    {
+      "id": "000114-831d074dc453",
+      "start": 69832,
+      "end": 70134
+    },
+    {
+      "id": "000114-9be3597c1868",
+      "start": 70160,
+      "end": 70448
+    },
+    {
+      "id": "000114-2a383c88bcb7",
+      "start": 70474,
+      "end": 70763
+    },
+    {
+      "id": "000114-1f2cd87b2477",
+      "start": 70789,
+      "end": 71090
+    },
+    {
+      "id": "000114-f62befdb94e0",
+      "start": 71116,
+      "end": 71419
+    },
+    {
+      "id": "000114-f649ab65c702",
+      "start": 71445,
+      "end": 71720
+    },
+    {
+      "id": "000114-01e23afe4e50",
+      "start": 71746,
+      "end": 72047
+    },
+    {
+      "id": "000114-e038629ce0aa",
+      "start": 72073,
+      "end": 72357
+    },
+    {
+      "id": "000114-8fc55027c5e7",
+      "start": 72383,
+      "end": 72687
+    },
+    {
+      "id": "000114-d12aad43df0d",
+      "start": 72713,
+      "end": 72992
+    },
+    {
+      "id": "000114-fb646bccd4c7",
+      "start": 73018,
+      "end": 73310
+    },
+    {
+      "id": "000114-1fdafa58fd7f",
+      "start": 73336,
+      "end": 73612
+    },
+    {
+      "id": "000114-12f964b598bc",
+      "start": 73638,
+      "end": 73920
+    },
+    {
+      "id": "000114-228960ef5200",
+      "start": 73946,
+      "end": 74231
+    },
+    {
+      "id": "000114-800ccab28cc5",
+      "start": 74257,
+      "end": 74547
+    },
+    {
+      "id": "000114-aca16775aca9",
+      "start": 74573,
+      "end": 74891
+    },
+    {
+      "id": "000114-6f363cbbcd3a",
+      "start": 74917,
+      "end": 75204
+    },
+    {
+      "id": "000114-1a31870bd157",
+      "start": 75230,
+      "end": 75489
+    },
+    {
+      "id": "000114-87901c23048b",
+      "start": 75515,
+      "end": 75802
+    },
+    {
+      "id": "000114-eb6167ef059d",
+      "start": 75828,
+      "end": 76101
+    },
+    {
+      "id": "000114-aea2395a5edd",
+      "start": 76127,
+      "end": 76430
+    },
+    {
+      "id": "000114-696c7a47a2e1",
+      "start": 76456,
+      "end": 76748
+    },
+    {
+      "id": "000114-4428f4ee8125",
+      "start": 76774,
+      "end": 77072
+    },
+    {
+      "id": "000114-c61ed60f3aca",
+      "start": 77098,
+      "end": 77387
+    },
+    {
+      "id": "000114-b332bb892889",
+      "start": 77413,
+      "end": 77718
+    },
+    {
+      "id": "000114-37bbaa094cf6",
+      "start": 77744,
+      "end": 78051
     }
   ],
   "labels": [
@@ -132,7 +1232,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "From there, the afternoon became a whirl of moments, each rushing into the next."
+        "From there, the afternoon rushed by in a whirl of one thing after another"
       ]
     },
     {
@@ -145,7 +1245,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The journey unfolded in a hazy succession of impressions."
+        "The journey unfolded in a hazy succession of impressions"
       ]
     },
     {
@@ -184,7 +1284,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "What followed was a kaleidoscope of passing moments, the hours blending together."
+        "the hours that followed blended into a kaleidoscope of passing moments."
       ]
     },
     {
@@ -197,7 +1297,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The rest of our outing receded into a vague wash of experience."
+        "The rest of the morning passed in a blur of one thing and another"
       ]
     },
     {
@@ -223,7 +1323,7 @@
       "check": "narrative-craft/summary-fog-transition",
       "expected": true,
       "snippets": [
-        "The working day then melted into an indistinct succession of happenings."
+        "The working day swept past in a whirl of activity."
       ]
     },
     {
@@ -241,6 +1341,1436 @@
     },
     {
       "id": "000114-d940ae059d79",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-167b4857d072",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The following hour melted into a jumble of happenings."
+      ]
+    },
+    {
+      "id": "000114-0c8aff7743c4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-58a98fbb1b09",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "After that, the evening became a whirl of things happening."
+      ]
+    },
+    {
+      "id": "000114-f33c4e45d275",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-3948534eba24",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our work slipped into a haze of passing moments."
+      ]
+    },
+    {
+      "id": "000114-c0f70994fcf3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-9821c79b9d22",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The remainder of the trip ran together in a vague rush."
+      ]
+    },
+    {
+      "id": "000114-b8eb36b17099",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-f7522cab6bde",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Then events tumbled past in an indistinct procession."
+      ]
+    },
+    {
+      "id": "000114-9936447193ab",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-48935a02f108",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Rehearsal then dissolved into a wash of activity."
+      ]
+    },
+    {
+      "id": "000114-a4f82c475736",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-5d64c423cff7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit floated onward through a mist of little incidents."
+      ]
+    },
+    {
+      "id": "000114-87a7472f9248",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-a1531844241b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon turned into a kaleidoscopic rush of moments."
+      ]
+    },
+    {
+      "id": "000114-b4aadd131a92",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-7d411bd76af2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The whole business was a blur of this and that."
+      ]
+    },
+    {
+      "id": "000114-73a2b7cb66b3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-73ca1e768a36",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "What followed was a shapeless flurry, one moment sliding into the next."
+      ]
+    },
+    {
+      "id": "000114-03cbedafeb15",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-627c90cfd7f3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The cooking passed in a dreamlike tumble of activity."
+      ]
+    },
+    {
+      "id": "000114-8add9bfecd87",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-8e520e3ab34a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Everything afterward swept along in a cloudy succession."
+      ]
+    },
+    {
+      "id": "000114-56c51b0f7c89",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-677c1f719ec1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The errands became a swirl of scattered impressions."
+      ]
+    },
+    {
+      "id": "000114-41648bdaf628",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-d2fd6e597ada",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Time folded itself into a blur of occurrences."
+      ]
+    },
+    {
+      "id": "000114-1d52a4ea9166",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-29a6f9670da1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The waiting time disappeared into an indistinct stream of moments."
+      ]
+    },
+    {
+      "id": "000114-d0350f3beefb",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-91e8898e9f98",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The party unspooled in a fog of assorted moments."
+      ]
+    },
+    {
+      "id": "000114-0d0c927ba08a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-748709d9258c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The session raced by in a jumble of coming and going."
+      ]
+    },
+    {
+      "id": "000114-9d4acea332ba",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-9f49e6b7e541",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "A whirl of small events carried the afternoon away."
+      ]
+    },
+    {
+      "id": "000114-9ede1a2bf8b9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-f023ebcaf564",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "A hazy carousel of one thing after another"
+      ]
+    },
+    {
+      "id": "000114-df26d65511f3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-3637b2012e7d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest of the outing slipped past in a soft-focus rush."
+      ]
+    },
+    {
+      "id": "000114-9900f927d132",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-99b8586613e7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning washed onward in a blur of busy moments."
+      ]
+    },
+    {
+      "id": "000114-42b3487a36b3",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-049462aa971b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "From there the day became a flickering montage of happenings."
+      ]
+    },
+    {
+      "id": "000114-52a2e2b68df1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-70967d65c995",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The lesson drifted through an airy jumble of activity."
+      ]
+    },
+    {
+      "id": "000114-9dd0e02dd2c0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-38c385989674",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The minutes became an amorphous rush of impressions."
+      ]
+    },
+    {
+      "id": "000114-2c25a1a82e8f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-8576bff43c9b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit ran on through a blur of miscellaneous business."
+      ]
+    },
+    {
+      "id": "000114-7f4cbbcafdaf",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-60aa14e04a8a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The delay dissolved into a mist of this and that."
+      ]
+    },
+    {
+      "id": "000114-e367de6b168b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-5de968bb300f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "An indistinct bustle swallowed the next part of the morning."
+      ]
+    },
+    {
+      "id": "000114-dc492952c024",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-a1b984470197",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The work became a rushing patchwork of moments."
+      ]
+    },
+    {
+      "id": "000114-1ab9c17ca3be",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-213f3a6c8897",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon flickered away in a succession of vague episodes."
+      ]
+    },
+    {
+      "id": "000114-41b10712750d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-7b73438f7402",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "After that, everything went by in a whirl of disconnected bits."
+      ]
+    },
+    {
+      "id": "000114-1f66546e98ba",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-630ddf09fbc8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon slid through a formless haze of events."
+      ]
+    },
+    {
+      "id": "000114-64cef07759ce",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-b248208c2b42",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The job swept past in an unformed flurry."
+      ]
+    },
+    {
+      "id": "000114-6f03093e0d70",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-49e0e889e565",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "From then on, the appointment was a foggy stream of happenings."
+      ]
+    },
+    {
+      "id": "000114-130e138fa3d7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-d165472ac7bd",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning just swirled by in a haze of odds and ends."
+      ]
+    },
+    {
+      "id": "000114-c4829aa313e0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-bffedc3fa64c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The weekend passed in a cloudy tumble of moments."
+      ]
+    },
+    {
+      "id": "000114-e35492e22c09",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-1ff2c52a41f9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest of the setup became a dizzy succession of assorted moments."
+      ]
+    },
+    {
+      "id": "000114-a3f44165cb09",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-11df77a7c616",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Then the session slipped into a blur of one event after another."
+      ]
+    },
+    {
+      "id": "000114-dd99f395bb3f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-328486097d88",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The market hours blurred into a floating sequence of impressions."
+      ]
+    },
+    {
+      "id": "000114-07f09c3bfe57",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-c834ccfe8ef4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "A hazy current of activity carried us to the end of the session."
+      ]
+    },
+    {
+      "id": "000114-62183c3b7cdc",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-899d5be2f651",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The outing went by in a shapeless whirl."
+      ]
+    },
+    {
+      "id": "000114-cb4b41b4de31",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-4326b087fc17",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon condensed into a muddle of passing scenes."
+      ]
+    },
+    {
+      "id": "000114-a02343b9870d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-0110dd4bbf89",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The show became a blurred ribbon of things happening."
+      ]
+    },
+    {
+      "id": "000114-12e33e91de1a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-a4193792ec80",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit drifted along in a gauzy succession of moments."
+      ]
+    },
+    {
+      "id": "000114-4d5b7b70fc14",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-ece6e15e7ce8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The sale continued in a fog of little happenings."
+      ]
+    },
+    {
+      "id": "000114-74a016823d66",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-83f37c7249fd",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "A mad whirl, all of it"
+      ]
+    },
+    {
+      "id": "000114-0353455839f9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-f1a8887f296d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "From there, our travels became a hazy tumble."
+      ]
+    },
+    {
+      "id": "000114-c65c13cad7db",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-547f08a5499d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The shopping trip receded into a jumble of moments."
+      ]
+    },
+    {
+      "id": "000114-986903f0606a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-05969e81494d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The lesson swept on in a wash of experience."
+      ]
+    },
+    {
+      "id": "000114-af6c35aa6066",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-9f407484b498",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The cleanup turned into a blurred cascade of activity."
+      ]
+    },
+    {
+      "id": "000114-8c83701afb81",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-3b7263401ec8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The day rolled forward through a mist of occurrences."
+      ]
+    },
+    {
+      "id": "000114-2433349ab833",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-ac16bb2ff35b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The shift passed in a flurry without clear edges."
+      ]
+    },
+    {
+      "id": "000114-30dd36ade20e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-7235f63f5479",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The transaction became a cloudy reel of moments."
+      ]
+    },
+    {
+      "id": "000114-da496b23c262",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-5eed8426e664",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The meeting flowed past in a blur of talk and movement."
+      ]
+    },
+    {
+      "id": "000114-c9fbc1c7c617",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-84ab9b0c8398",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning scattered into a haze of passing business."
+      ]
+    },
+    {
+      "id": "000114-a1efa07bc278",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-cca9994b64aa",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "It was all a fuzzy rush after that"
+      ]
+    },
+    {
+      "id": "000114-6bec5cbc33d2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-627b0c1533c4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our walk unfolded as an indistinct ribbon of happenings."
+      ]
+    },
+    {
+      "id": "000114-1b2d274e2348",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-a1bc7add98e2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The installation dissolved into a blurred run of small events."
+      ]
+    },
+    {
+      "id": "000114-bca068b46cc8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-67b581e52e4f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The purchase passed in a dreamy swirl of moments."
+      ]
+    },
+    {
+      "id": "000114-0b33aad0705c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-bc1ccfa5c8b9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit became a patchwork haze of experience."
+      ]
+    },
+    {
+      "id": "000114-f74c0e96cfec",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-6951571e8efb",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Then the class raced through a smudge of activity."
+      ]
+    },
+    {
+      "id": "000114-afe5d9cf5d10",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-960060b3ec74",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment spun onward in a vague whirl."
+      ]
+    },
+    {
+      "id": "000114-f078b39fbb3e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-2a54d6129446",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The fair drifted past in a muddled current of moments."
+      ]
+    },
+    {
+      "id": "000114-47e464ec8d6d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-344bcd37cbad",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The workday became a haze of motion and events."
+      ]
+    },
+    {
+      "id": "000114-4f4f7c1ccfa2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-539a6141aa3e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The inspection drifted into a shapeless run of happenings."
+      ]
+    },
+    {
+      "id": "000114-d2969e1bc19f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-1f0b00812f57",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The repair passed in a whirling haze."
+      ]
+    },
+    {
+      "id": "000114-50b376718a0b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-a132a39f664a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The day just went into fast-forward"
+      ]
+    },
+    {
+      "id": "000114-daa0517e77c1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-6f9d0b0b0b37",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The exhibition went by in a blurred sequence of this and that."
+      ]
+    },
+    {
+      "id": "000114-2a559eeaeb07",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-b70363066531",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Our visit became a cloudy collage of moments."
+      ]
+    },
+    {
+      "id": "000114-24be6be0e2e9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-3c7c8f413c5e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The renovation raced through a fog of happenings."
+      ]
+    },
+    {
+      "id": "000114-5bd48920c4f6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-ffcb866eb4e4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment slipped by in a fuzzy parade of moments."
+      ]
+    },
+    {
+      "id": "000114-9fee0f82796f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-729e269c1e48",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The occasion washed past in an indistinct bustle."
+      ]
+    },
+    {
+      "id": "000114-7b6ceac11449",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-8f5b27cc9688",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The outing folded into a soft blur of activity."
+      ]
+    },
+    {
+      "id": "000114-1b31629b3a89",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-73bf605a79e2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The search and sorting passed in a whirling jumble."
+      ]
+    },
+    {
+      "id": "000114-9b635da611b0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-4c0ae4aaf411",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning became an eddy of miscellaneous moments."
+      ]
+    },
+    {
+      "id": "000114-b0f75962635b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-1f86660b4e5a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The repair visit rolled into a hazy medley of events."
+      ]
+    },
+    {
+      "id": "000114-9f8c9549f2ab",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-c96003fcf17b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "One big blur of doing things"
+      ]
+    },
+    {
+      "id": "000114-1fdd41c1829e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-e5faf41903d7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The visit floated through a haze of small matters."
+      ]
+    },
+    {
+      "id": "000114-3b6b7b4cea51",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-c73bde198e63",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The ride swept past in a blur of one thing and another."
+      ]
+    },
+    {
+      "id": "000114-1ef60bbde097",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-3fd2dc0880e6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon sped through an undefined flurry of events."
+      ]
+    },
+    {
+      "id": "000114-2b98d485476e",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-6d9c1ce590ae",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The collection dissolved into an indistinct rush."
+      ]
+    },
+    {
+      "id": "000114-3c6614c550ec",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-5c7d5a73c934",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The morning hurried along in a vapor of happenings."
+      ]
+    },
+    {
+      "id": "000114-d147eea3e66f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-6e659f8453b2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment became a wash of indistinct moments."
+      ]
+    },
+    {
+      "id": "000114-02711b1ca165",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-2cfe934d53e1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The preparations drifted through a blurred patchwork of little events."
+      ]
+    },
+    {
+      "id": "000114-5ad56cd1896c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-57242164bd0c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The errand unfurled in a cloudy succession of details."
+      ]
+    },
+    {
+      "id": "000114-c403243df631",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-0f470f00fd3f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The session flowed into a hazy miscellany of moments."
+      ]
+    },
+    {
+      "id": "000114-bb376c4de399",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-5db9400768d1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon drifted by in a vague stream of experience."
+      ]
+    },
+    {
+      "id": "000114-babdbe4fa7fc",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-7455b464d4c4",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "A whirl of all sorts, really"
+      ]
+    },
+    {
+      "id": "000114-688b84d0cae1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-43f1797524d2",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The inspection swept through a blurred flurry of happenings."
+      ]
+    },
+    {
+      "id": "000114-0265d04f6d23",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-873488a9b19c",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The lesson became a fog of little episodes."
+      ]
+    },
+    {
+      "id": "000114-61ebc2ed18d6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-b342bb961914",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The delivery passed in a kaleidoscopic sweep of moments."
+      ]
+    },
+    {
+      "id": "000114-4a248b355f54",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-bea6429bf415",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The workshop went on in an unshaped whirl of activity."
+      ]
+    },
+    {
+      "id": "000114-e64ad055c7a8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-356f3661afba",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The journey home unraveled in a hazy series of moments."
+      ]
+    },
+    {
+      "id": "000114-7171e5bc5781",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-50b174593e91",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment blurred into a tumble of this and that."
+      ]
+    },
+    {
+      "id": "000114-b8c1ee230102",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-873c10718a1a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The moving process became an indistinct tide of activity."
+      ]
+    },
+    {
+      "id": "000114-7b10ddb81ae7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-92ffd88114bf",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon rolled through a soft-focus jumble."
+      ]
+    },
+    {
+      "id": "000114-7f87927b22d5",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-5c399b88b064",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The service passed in a cloudy succession of bits and pieces."
+      ]
+    },
+    {
+      "id": "000114-e0b0b8eb0792",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-751bb135100d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest was a sort of racing haze"
+      ]
+    },
+    {
+      "id": "000114-aa4b7a77d79d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-831d074dc453",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The next few days ran together in a misty whirl."
+      ]
+    },
+    {
+      "id": "000114-9be3597c1868",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-2a383c88bcb7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The remainder of the trip became a whirling blur of occurrences."
+      ]
+    },
+    {
+      "id": "000114-1f2cd87b2477",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-f62befdb94e0",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The preparations flickered by in a mist of moments."
+      ]
+    },
+    {
+      "id": "000114-f649ab65c702",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-01e23afe4e50",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The session slipped through an indistinct succession of moments."
+      ]
+    },
+    {
+      "id": "000114-e038629ce0aa",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-8fc55027c5e7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The shopping afternoon became a vague carousel of events."
+      ]
+    },
+    {
+      "id": "000114-d12aad43df0d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-fb646bccd4c7",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rehearsal ran on in a hazy rush of happenings."
+      ]
+    },
+    {
+      "id": "000114-1fdafa58fd7f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-12f964b598bc",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The appointment disappeared in a blur of odds and ends."
+      ]
+    },
+    {
+      "id": "000114-228960ef5200",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-800ccab28cc5",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Everything just tumbled into everything else"
+      ]
+    },
+    {
+      "id": "000114-aca16775aca9",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-6f363cbbcd3a",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The excursion sped by in a hazy sequence of assorted moments."
+      ]
+    },
+    {
+      "id": "000114-1a31870bd157",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-87901c23048b",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "Then the evening vanished into a whirl of this and that."
+      ]
+    },
+    {
+      "id": "000114-eb6167ef059d",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-aea2395a5edd",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest of his visit passed in a nebulous tumble of activity."
+      ]
+    },
+    {
+      "id": "000114-696c7a47a2e1",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-4428f4ee8125",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The errands blended into a shapeless haze of moments."
+      ]
+    },
+    {
+      "id": "000114-c61ed60f3aca",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000114-b332bb892889",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The crossing melted into a blur of passing experience."
+      ]
+    },
+    {
+      "id": "000114-37bbaa094cf6",
       "check": "narrative-craft/summary-fog-transition",
       "expected": false
     }

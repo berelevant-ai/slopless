@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "272ca3b7c37141199d44530d7ea37a1915554d6a73418939ff9f986e211dbcfe",
+  "textSha256": "4d6ef9282216e7eabebff7671779bda5d14834d6e390f30ecc8eccacd3037c17",
   "source": {
     "name": "Codex-authored narrative-craft-emotion-as-substance-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -60,57 +60,1157 @@
     {
       "id": "000084-5cb9ac2f38d2",
       "start": 3313,
-      "end": 3627
+      "end": 3597
     },
     {
       "id": "000084-ac381ff39e0c",
-      "start": 3653,
-      "end": 3998
+      "start": 3623,
+      "end": 3968
     },
     {
       "id": "000084-820f853a6b8b",
-      "start": 4024,
-      "end": 4337
+      "start": 3994,
+      "end": 4307
     },
     {
       "id": "000084-e69428b1ca98",
-      "start": 4363,
-      "end": 4699
+      "start": 4333,
+      "end": 4669
     },
     {
       "id": "000084-edb63f4ace31",
-      "start": 4725,
-      "end": 5076
+      "start": 4695,
+      "end": 5046
     },
     {
       "id": "000084-352b749d69d6",
-      "start": 5102,
-      "end": 5414
+      "start": 5072,
+      "end": 5384
     },
     {
       "id": "000084-7c12a053f5c7",
-      "start": 5440,
-      "end": 5789
+      "start": 5410,
+      "end": 5759
     },
     {
       "id": "000084-96aaf9c5d6f5",
-      "start": 5815,
-      "end": 6173
+      "start": 5785,
+      "end": 6143
     },
     {
       "id": "000084-5c6484e61434",
-      "start": 6199,
-      "end": 6484
+      "start": 6169,
+      "end": 6454
     },
     {
       "id": "000084-6367192c2a07",
-      "start": 6510,
-      "end": 6884
+      "start": 6480,
+      "end": 6857
     },
     {
       "id": "000084-09227889ad58",
-      "start": 6910,
-      "end": 7226
+      "start": 6883,
+      "end": 7060
+    },
+    {
+      "id": "000084-c6213f6664a3",
+      "start": 7086,
+      "end": 7341
+    },
+    {
+      "id": "000084-48de2a006995",
+      "start": 7367,
+      "end": 7610
+    },
+    {
+      "id": "000084-e3e773a8ae55",
+      "start": 7636,
+      "end": 7915
+    },
+    {
+      "id": "000084-caf33143f4a6",
+      "start": 7941,
+      "end": 8209
+    },
+    {
+      "id": "000084-3742b39ac53c",
+      "start": 8235,
+      "end": 8494
+    },
+    {
+      "id": "000084-544fe316e717",
+      "start": 8520,
+      "end": 8795
+    },
+    {
+      "id": "000084-7ebe4ed4a720",
+      "start": 8821,
+      "end": 9055
+    },
+    {
+      "id": "000084-215b5a67d53a",
+      "start": 9081,
+      "end": 9388
+    },
+    {
+      "id": "000084-50aa2b9a684c",
+      "start": 9414,
+      "end": 9680
+    },
+    {
+      "id": "000084-b6c715ce99a7",
+      "start": 9706,
+      "end": 9973
+    },
+    {
+      "id": "000084-35876a5fb865",
+      "start": 9999,
+      "end": 10264
+    },
+    {
+      "id": "000084-780fe8e973aa",
+      "start": 10290,
+      "end": 10542
+    },
+    {
+      "id": "000084-618d2d68c245",
+      "start": 10568,
+      "end": 10848
+    },
+    {
+      "id": "000084-2061b8951b23",
+      "start": 10874,
+      "end": 11134
+    },
+    {
+      "id": "000084-4791cc8377fe",
+      "start": 11160,
+      "end": 11416
+    },
+    {
+      "id": "000084-77b88b2bd77f",
+      "start": 11442,
+      "end": 11713
+    },
+    {
+      "id": "000084-79cce00ccbb4",
+      "start": 11739,
+      "end": 12035
+    },
+    {
+      "id": "000084-329d852158da",
+      "start": 12061,
+      "end": 12317
+    },
+    {
+      "id": "000084-22d3a4f993f2",
+      "start": 12343,
+      "end": 12592
+    },
+    {
+      "id": "000084-bc1ea6d2d19e",
+      "start": 12618,
+      "end": 12893
+    },
+    {
+      "id": "000084-191de13e60f0",
+      "start": 12919,
+      "end": 13199
+    },
+    {
+      "id": "000084-7e3e9558e65d",
+      "start": 13225,
+      "end": 13499
+    },
+    {
+      "id": "000084-6680ed2be69c",
+      "start": 13525,
+      "end": 13781
+    },
+    {
+      "id": "000084-4380f16bc82e",
+      "start": 13807,
+      "end": 14058
+    },
+    {
+      "id": "000084-4f74a4e299fd",
+      "start": 14084,
+      "end": 14338
+    },
+    {
+      "id": "000084-00e81e011d0f",
+      "start": 14364,
+      "end": 14625
+    },
+    {
+      "id": "000084-ad18a3ded4fd",
+      "start": 14651,
+      "end": 14884
+    },
+    {
+      "id": "000084-028e43d0ebbd",
+      "start": 14910,
+      "end": 15159
+    },
+    {
+      "id": "000084-a9e5e7e3a023",
+      "start": 15185,
+      "end": 15471
+    },
+    {
+      "id": "000084-24e2e8c93564",
+      "start": 15497,
+      "end": 15748
+    },
+    {
+      "id": "000084-30b4744025c5",
+      "start": 15774,
+      "end": 16053
+    },
+    {
+      "id": "000084-9d12bea09620",
+      "start": 16079,
+      "end": 16308
+    },
+    {
+      "id": "000084-6bba9d6dcc50",
+      "start": 16334,
+      "end": 16599
+    },
+    {
+      "id": "000084-a5b7e72583fd",
+      "start": 16625,
+      "end": 16869
+    },
+    {
+      "id": "000084-53cbd6a3db9b",
+      "start": 16895,
+      "end": 17183
+    },
+    {
+      "id": "000084-c33736d25b5e",
+      "start": 17209,
+      "end": 17482
+    },
+    {
+      "id": "000084-b2d0711d1346",
+      "start": 17508,
+      "end": 17764
+    },
+    {
+      "id": "000084-5e1ad7d7bc6e",
+      "start": 17790,
+      "end": 18063
+    },
+    {
+      "id": "000084-4bb3bed775de",
+      "start": 18089,
+      "end": 18348
+    },
+    {
+      "id": "000084-8db52e91122d",
+      "start": 18374,
+      "end": 18613
+    },
+    {
+      "id": "000084-0ac57d0bcc18",
+      "start": 18639,
+      "end": 18930
+    },
+    {
+      "id": "000084-23a7b6d1c5c1",
+      "start": 18956,
+      "end": 19202
+    },
+    {
+      "id": "000084-4d4302f646c6",
+      "start": 19228,
+      "end": 19505
+    },
+    {
+      "id": "000084-9218464c6540",
+      "start": 19531,
+      "end": 19807
+    },
+    {
+      "id": "000084-3de973a9a422",
+      "start": 19833,
+      "end": 20103
+    },
+    {
+      "id": "000084-e5c6bc5f9ef4",
+      "start": 20129,
+      "end": 20422
+    },
+    {
+      "id": "000084-cba41d5111e6",
+      "start": 20448,
+      "end": 20743
+    },
+    {
+      "id": "000084-68eb3ff6a792",
+      "start": 20769,
+      "end": 21038
+    },
+    {
+      "id": "000084-63125b4b36f1",
+      "start": 21064,
+      "end": 21344
+    },
+    {
+      "id": "000084-e3dace23f2d2",
+      "start": 21370,
+      "end": 21658
+    },
+    {
+      "id": "000084-df31ec009d12",
+      "start": 21684,
+      "end": 21973
+    },
+    {
+      "id": "000084-7a9fd2d68434",
+      "start": 21999,
+      "end": 22241
+    },
+    {
+      "id": "000084-2ffde6a8e6ea",
+      "start": 22267,
+      "end": 22523
+    },
+    {
+      "id": "000084-4cff7f081694",
+      "start": 22549,
+      "end": 22830
+    },
+    {
+      "id": "000084-60e1a89e5c5b",
+      "start": 22856,
+      "end": 23130
+    },
+    {
+      "id": "000084-2af938e2ee23",
+      "start": 23156,
+      "end": 23417
+    },
+    {
+      "id": "000084-8d55829e74b8",
+      "start": 23443,
+      "end": 23733
+    },
+    {
+      "id": "000084-710251413979",
+      "start": 23759,
+      "end": 24025
+    },
+    {
+      "id": "000084-3dd5605815ed",
+      "start": 24051,
+      "end": 24316
+    },
+    {
+      "id": "000084-4d116894b024",
+      "start": 24342,
+      "end": 24620
+    },
+    {
+      "id": "000084-fb25fc3e8274",
+      "start": 24646,
+      "end": 24922
+    },
+    {
+      "id": "000084-d87f9685dcec",
+      "start": 24948,
+      "end": 25253
+    },
+    {
+      "id": "000084-8bb0feb96d57",
+      "start": 25279,
+      "end": 25557
+    },
+    {
+      "id": "000084-60abeb0a0878",
+      "start": 25583,
+      "end": 25826
+    },
+    {
+      "id": "000084-78be1d7956e9",
+      "start": 25852,
+      "end": 26124
+    },
+    {
+      "id": "000084-5ea1df14a08a",
+      "start": 26150,
+      "end": 26401
+    },
+    {
+      "id": "000084-4988df36cc65",
+      "start": 26427,
+      "end": 26695
+    },
+    {
+      "id": "000084-21be5d89a26c",
+      "start": 26721,
+      "end": 26969
+    },
+    {
+      "id": "000084-16d8baa398cd",
+      "start": 26995,
+      "end": 27251
+    },
+    {
+      "id": "000084-0a429ff63585",
+      "start": 27277,
+      "end": 27553
+    },
+    {
+      "id": "000084-a02f6df7ee1e",
+      "start": 27579,
+      "end": 27861
+    },
+    {
+      "id": "000084-4e111db1dea9",
+      "start": 27887,
+      "end": 28136
+    },
+    {
+      "id": "000084-e693ce79c724",
+      "start": 28162,
+      "end": 28435
+    },
+    {
+      "id": "000084-ca147107babc",
+      "start": 28461,
+      "end": 28717
+    },
+    {
+      "id": "000084-bc87812c7e72",
+      "start": 28743,
+      "end": 28979
+    },
+    {
+      "id": "000084-d848d1111690",
+      "start": 29005,
+      "end": 29267
+    },
+    {
+      "id": "000084-b12841b9af81",
+      "start": 29293,
+      "end": 29564
+    },
+    {
+      "id": "000084-a608e2354004",
+      "start": 29590,
+      "end": 29851
+    },
+    {
+      "id": "000084-d285d303f553",
+      "start": 29877,
+      "end": 30138
+    },
+    {
+      "id": "000084-6ad3f0f0c8e9",
+      "start": 30164,
+      "end": 30411
+    },
+    {
+      "id": "000084-c2a875775e46",
+      "start": 30437,
+      "end": 30727
+    },
+    {
+      "id": "000084-a811cfdffc9d",
+      "start": 30753,
+      "end": 31031
+    },
+    {
+      "id": "000084-1ea77fac622e",
+      "start": 31057,
+      "end": 31344
+    },
+    {
+      "id": "000084-5f0086275925",
+      "start": 31370,
+      "end": 31667
+    },
+    {
+      "id": "000084-a35f3757b063",
+      "start": 31693,
+      "end": 32000
+    },
+    {
+      "id": "000084-dca94cabb697",
+      "start": 32026,
+      "end": 32281
+    },
+    {
+      "id": "000084-2fb9f49c816a",
+      "start": 32307,
+      "end": 32583
+    },
+    {
+      "id": "000084-cd67dd18c1dc",
+      "start": 32609,
+      "end": 32868
+    },
+    {
+      "id": "000084-b2abff9cec46",
+      "start": 32894,
+      "end": 33167
+    },
+    {
+      "id": "000084-deee354e9300",
+      "start": 33193,
+      "end": 33427
+    },
+    {
+      "id": "000084-050d0ca29cdd",
+      "start": 33453,
+      "end": 33747
+    },
+    {
+      "id": "000084-99fe6b5f086e",
+      "start": 33773,
+      "end": 34062
+    },
+    {
+      "id": "000084-a4d9c03d7ad0",
+      "start": 34088,
+      "end": 34362
+    },
+    {
+      "id": "000084-d00c180d634d",
+      "start": 34388,
+      "end": 34656
+    },
+    {
+      "id": "000084-f1680bdf382d",
+      "start": 34682,
+      "end": 34942
+    },
+    {
+      "id": "000084-103f025c999d",
+      "start": 34968,
+      "end": 35211
+    },
+    {
+      "id": "000084-1b2acabfda01",
+      "start": 35237,
+      "end": 35528
+    },
+    {
+      "id": "000084-f995d7a0f87d",
+      "start": 35554,
+      "end": 35847
+    },
+    {
+      "id": "000084-223cdca1f9d7",
+      "start": 35873,
+      "end": 36150
+    },
+    {
+      "id": "000084-d9b83c6de1a2",
+      "start": 36176,
+      "end": 36441
+    },
+    {
+      "id": "000084-07755c60a39a",
+      "start": 36467,
+      "end": 36755
+    },
+    {
+      "id": "000084-8c9b26834a09",
+      "start": 36781,
+      "end": 37040
+    },
+    {
+      "id": "000084-4abc989e181a",
+      "start": 37066,
+      "end": 37345
+    },
+    {
+      "id": "000084-8a402e2d6151",
+      "start": 37371,
+      "end": 37628
+    },
+    {
+      "id": "000084-d06d74249050",
+      "start": 37654,
+      "end": 37928
+    },
+    {
+      "id": "000084-7646e5bec468",
+      "start": 37954,
+      "end": 38247
+    },
+    {
+      "id": "000084-dfaecf79b78e",
+      "start": 38273,
+      "end": 38548
+    },
+    {
+      "id": "000084-4320a04cd879",
+      "start": 38574,
+      "end": 38859
+    },
+    {
+      "id": "000084-c1858e02d51b",
+      "start": 38885,
+      "end": 39164
+    },
+    {
+      "id": "000084-0e05d849ea82",
+      "start": 39190,
+      "end": 39458
+    },
+    {
+      "id": "000084-c52302e23bfa",
+      "start": 39484,
+      "end": 39779
+    },
+    {
+      "id": "000084-997b2cbcde7f",
+      "start": 39805,
+      "end": 40117
+    },
+    {
+      "id": "000084-b62fff4259d3",
+      "start": 40143,
+      "end": 40414
+    },
+    {
+      "id": "000084-1784ca55678a",
+      "start": 40440,
+      "end": 40730
+    },
+    {
+      "id": "000084-47849edd9fda",
+      "start": 40756,
+      "end": 41016
+    },
+    {
+      "id": "000084-710a9a35aa23",
+      "start": 41042,
+      "end": 41301
+    },
+    {
+      "id": "000084-5cc736cb3f00",
+      "start": 41327,
+      "end": 41606
+    },
+    {
+      "id": "000084-ea7ae0a17ee7",
+      "start": 41632,
+      "end": 41927
+    },
+    {
+      "id": "000084-a6f0d2d1dea9",
+      "start": 41953,
+      "end": 42227
+    },
+    {
+      "id": "000084-30bc394c66ec",
+      "start": 42253,
+      "end": 42512
+    },
+    {
+      "id": "000084-b058df4f8978",
+      "start": 42538,
+      "end": 42796
+    },
+    {
+      "id": "000084-c29d54fc8890",
+      "start": 42822,
+      "end": 43113
+    },
+    {
+      "id": "000084-9c7b36898d93",
+      "start": 43139,
+      "end": 43436
+    },
+    {
+      "id": "000084-c9cee22406b3",
+      "start": 43462,
+      "end": 43712
+    },
+    {
+      "id": "000084-fee70d94eb3e",
+      "start": 43738,
+      "end": 44013
+    },
+    {
+      "id": "000084-0e9e7198e370",
+      "start": 44039,
+      "end": 44322
+    },
+    {
+      "id": "000084-f5600adceddd",
+      "start": 44348,
+      "end": 44609
+    },
+    {
+      "id": "000084-28305927a449",
+      "start": 44635,
+      "end": 44908
+    },
+    {
+      "id": "000084-9d1a9f72112f",
+      "start": 44934,
+      "end": 45187
+    },
+    {
+      "id": "000084-410a511d6f15",
+      "start": 45213,
+      "end": 45500
+    },
+    {
+      "id": "000084-3946902a6555",
+      "start": 45526,
+      "end": 45786
+    },
+    {
+      "id": "000084-fa5a3e2f4268",
+      "start": 45812,
+      "end": 46099
+    },
+    {
+      "id": "000084-e886e1c16c7e",
+      "start": 46125,
+      "end": 46404
+    },
+    {
+      "id": "000084-0490657766cc",
+      "start": 46430,
+      "end": 46673
+    },
+    {
+      "id": "000084-0ac7ff9a8ce7",
+      "start": 46699,
+      "end": 46967
+    },
+    {
+      "id": "000084-a855697c2457",
+      "start": 46993,
+      "end": 47277
+    },
+    {
+      "id": "000084-27cd3a4ab025",
+      "start": 47303,
+      "end": 47599
+    },
+    {
+      "id": "000084-bdaa2a0a4afe",
+      "start": 47625,
+      "end": 47885
+    },
+    {
+      "id": "000084-47b7e0a7e47c",
+      "start": 47911,
+      "end": 48198
+    },
+    {
+      "id": "000084-2d9d4bd188c1",
+      "start": 48224,
+      "end": 48494
+    },
+    {
+      "id": "000084-ca3bdbf84f62",
+      "start": 48520,
+      "end": 48803
+    },
+    {
+      "id": "000084-73ea76df7d74",
+      "start": 48829,
+      "end": 49098
+    },
+    {
+      "id": "000084-d64bd607bf2f",
+      "start": 49124,
+      "end": 49405
+    },
+    {
+      "id": "000084-61619b815b45",
+      "start": 49431,
+      "end": 49727
+    },
+    {
+      "id": "000084-d278f94163db",
+      "start": 49753,
+      "end": 50056
+    },
+    {
+      "id": "000084-e193d5f940d3",
+      "start": 50082,
+      "end": 50358
+    },
+    {
+      "id": "000084-0adf42b5e410",
+      "start": 50384,
+      "end": 50660
+    },
+    {
+      "id": "000084-32bd5b29889b",
+      "start": 50686,
+      "end": 50979
+    },
+    {
+      "id": "000084-11655dee1252",
+      "start": 51005,
+      "end": 51301
+    },
+    {
+      "id": "000084-1167c778c91e",
+      "start": 51327,
+      "end": 51596
+    },
+    {
+      "id": "000084-d0cc0be59967",
+      "start": 51622,
+      "end": 51874
+    },
+    {
+      "id": "000084-089f38e91d6f",
+      "start": 51900,
+      "end": 52155
+    },
+    {
+      "id": "000084-8d35552511be",
+      "start": 52181,
+      "end": 52472
+    },
+    {
+      "id": "000084-b78f402e37e5",
+      "start": 52498,
+      "end": 52777
+    },
+    {
+      "id": "000084-5edf256544ff",
+      "start": 52803,
+      "end": 53102
+    },
+    {
+      "id": "000084-3aa26f4112a9",
+      "start": 53128,
+      "end": 53395
+    },
+    {
+      "id": "000084-52d51da631e9",
+      "start": 53421,
+      "end": 53732
+    },
+    {
+      "id": "000084-fd38e06d2600",
+      "start": 53758,
+      "end": 54039
+    },
+    {
+      "id": "000084-304ae5bd42f7",
+      "start": 54065,
+      "end": 54332
+    },
+    {
+      "id": "000084-0afc29fb7f40",
+      "start": 54358,
+      "end": 54650
+    },
+    {
+      "id": "000084-5b5b82bf6016",
+      "start": 54676,
+      "end": 54967
+    },
+    {
+      "id": "000084-40c7c92116f9",
+      "start": 54993,
+      "end": 55262
+    },
+    {
+      "id": "000084-0bc246646a51",
+      "start": 55288,
+      "end": 55552
+    },
+    {
+      "id": "000084-b1fa1c1ce1e4",
+      "start": 55578,
+      "end": 55849
+    },
+    {
+      "id": "000084-50a776758d86",
+      "start": 55875,
+      "end": 56136
+    },
+    {
+      "id": "000084-e079a210866e",
+      "start": 56162,
+      "end": 56431
+    },
+    {
+      "id": "000084-ec2e74117982",
+      "start": 56457,
+      "end": 56745
+    },
+    {
+      "id": "000084-5375e1243e0e",
+      "start": 56771,
+      "end": 57051
+    },
+    {
+      "id": "000084-4542b42f1d20",
+      "start": 57077,
+      "end": 57364
+    },
+    {
+      "id": "000084-fa28ac721f46",
+      "start": 57390,
+      "end": 57678
+    },
+    {
+      "id": "000084-34239d190275",
+      "start": 57704,
+      "end": 57976
+    },
+    {
+      "id": "000084-e63fb4e07097",
+      "start": 58002,
+      "end": 58257
+    },
+    {
+      "id": "000084-47e45a68ea3e",
+      "start": 58283,
+      "end": 58586
+    },
+    {
+      "id": "000084-6ee14139117b",
+      "start": 58612,
+      "end": 58896
+    },
+    {
+      "id": "000084-7cb0eadfc221",
+      "start": 58922,
+      "end": 59204
+    },
+    {
+      "id": "000084-e5c7b10e4e8a",
+      "start": 59230,
+      "end": 59478
+    },
+    {
+      "id": "000084-1b3c9566124a",
+      "start": 59504,
+      "end": 59790
+    },
+    {
+      "id": "000084-4b456e10a929",
+      "start": 59816,
+      "end": 60114
+    },
+    {
+      "id": "000084-b10a20eb2edd",
+      "start": 60140,
+      "end": 60420
+    },
+    {
+      "id": "000084-a67891f0f1f0",
+      "start": 60446,
+      "end": 60725
+    },
+    {
+      "id": "000084-129c01bd51ff",
+      "start": 60751,
+      "end": 61036
+    },
+    {
+      "id": "000084-556e9abd10fb",
+      "start": 61062,
+      "end": 61349
+    },
+    {
+      "id": "000084-fff5b76c315b",
+      "start": 61375,
+      "end": 61620
+    },
+    {
+      "id": "000084-bf7021eb8333",
+      "start": 61646,
+      "end": 61923
+    },
+    {
+      "id": "000084-f63c9c4659e9",
+      "start": 61949,
+      "end": 62239
+    },
+    {
+      "id": "000084-448bdb90d983",
+      "start": 62265,
+      "end": 62523
+    },
+    {
+      "id": "000084-aa48716c6220",
+      "start": 62549,
+      "end": 62829
+    },
+    {
+      "id": "000084-6308d5499293",
+      "start": 62855,
+      "end": 63113
+    },
+    {
+      "id": "000084-8ea56ddda7df",
+      "start": 63139,
+      "end": 63436
+    },
+    {
+      "id": "000084-78851b369b7f",
+      "start": 63462,
+      "end": 63747
+    },
+    {
+      "id": "000084-0a88143b616a",
+      "start": 63773,
+      "end": 64038
+    },
+    {
+      "id": "000084-ad8e6fad0a26",
+      "start": 64064,
+      "end": 64329
+    },
+    {
+      "id": "000084-c007484c20ed",
+      "start": 64355,
+      "end": 64653
+    },
+    {
+      "id": "000084-b74d592c0fcb",
+      "start": 64679,
+      "end": 64947
+    },
+    {
+      "id": "000084-cd6e63a06919",
+      "start": 64973,
+      "end": 65272
+    },
+    {
+      "id": "000084-2067770d8cf0",
+      "start": 65298,
+      "end": 65558
+    },
+    {
+      "id": "000084-7a77b22b2452",
+      "start": 65584,
+      "end": 65840
+    },
+    {
+      "id": "000084-bb037c54f5d9",
+      "start": 65866,
+      "end": 66135
+    },
+    {
+      "id": "000084-42a25e705b56",
+      "start": 66161,
+      "end": 66455
+    },
+    {
+      "id": "000084-df08d1a8c6b4",
+      "start": 66481,
+      "end": 66740
+    },
+    {
+      "id": "000084-4b627865bec5",
+      "start": 66766,
+      "end": 67079
+    },
+    {
+      "id": "000084-011e5d670140",
+      "start": 67105,
+      "end": 67393
+    },
+    {
+      "id": "000084-29bff5784833",
+      "start": 67419,
+      "end": 67720
+    },
+    {
+      "id": "000084-dce4373ba67f",
+      "start": 67746,
+      "end": 68021
+    },
+    {
+      "id": "000084-b131be562232",
+      "start": 68047,
+      "end": 68333
+    },
+    {
+      "id": "000084-81a28cc241f2",
+      "start": 68359,
+      "end": 68638
+    },
+    {
+      "id": "000084-ae7232379988",
+      "start": 68664,
+      "end": 68970
+    },
+    {
+      "id": "000084-a3236b64385a",
+      "start": 68996,
+      "end": 69230
+    },
+    {
+      "id": "000084-ef266f5cdc38",
+      "start": 69256,
+      "end": 69538
+    },
+    {
+      "id": "000084-74b9486f5115",
+      "start": 69564,
+      "end": 69836
+    },
+    {
+      "id": "000084-b1f561f23be4",
+      "start": 69862,
+      "end": 70115
+    },
+    {
+      "id": "000084-2fcc237671d2",
+      "start": 70141,
+      "end": 70422
+    },
+    {
+      "id": "000084-ddc2b51e7cad",
+      "start": 70448,
+      "end": 70766
+    },
+    {
+      "id": "000084-4f37e2124918",
+      "start": 70792,
+      "end": 71078
+    },
+    {
+      "id": "000084-5a719448cecd",
+      "start": 71104,
+      "end": 71363
+    },
+    {
+      "id": "000084-738404667f9e",
+      "start": 71389,
+      "end": 71695
+    },
+    {
+      "id": "000084-6e63cd865269",
+      "start": 71721,
+      "end": 72011
+    },
+    {
+      "id": "000084-6b741483f55c",
+      "start": 72037,
+      "end": 72309
+    },
+    {
+      "id": "000084-456bb116646f",
+      "start": 72335,
+      "end": 72633
+    },
+    {
+      "id": "000084-532b26cdeee0",
+      "start": 72659,
+      "end": 72936
     }
   ],
   "labels": [
@@ -242,6 +1342,1436 @@
     },
     {
       "id": "000084-09227889ad58",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-c6213f6664a3",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Unease gathered in her stomach."
+      ]
+    },
+    {
+      "id": "000084-48de2a006995",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-e3e773a8ae55",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief floated through the office."
+      ]
+    },
+    {
+      "id": "000084-caf33143f4a6",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-3742b39ac53c",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His resentment was a hard little stone."
+      ]
+    },
+    {
+      "id": "000084-544fe316e717",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-7ebe4ed4a720",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Shame coated every word."
+      ]
+    },
+    {
+      "id": "000084-215b5a67d53a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-50aa2b9a684c",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Hope glimmered in the room like suspended dust."
+      ]
+    },
+    {
+      "id": "000084-b6c715ce99a7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-35876a5fb865",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anger simmered beneath my collar."
+      ]
+    },
+    {
+      "id": "000084-780fe8e973aa",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-618d2d68c245",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Disappointment lay across the afternoon."
+      ]
+    },
+    {
+      "id": "000084-2061b8951b23",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4791cc8377fe",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Fear leaked into his answer."
+      ]
+    },
+    {
+      "id": "000084-77b88b2bd77f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-79cce00ccbb4",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her confidence had turned to vapor."
+      ]
+    },
+    {
+      "id": "000084-329d852158da",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-22d3a4f993f2",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Guilt lodged under my ribs."
+      ]
+    },
+    {
+      "id": "000084-bc1ea6d2d19e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-191de13e60f0",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Suspicion glazed her eyes."
+      ]
+    },
+    {
+      "id": "000084-7e3e9558e65d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-6680ed2be69c",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Loneliness filled the flat."
+      ]
+    },
+    {
+      "id": "000084-4380f16bc82e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4f74a4e299fd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Joy bubbled in his chest."
+      ]
+    },
+    {
+      "id": "000084-00e81e011d0f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-ad18a3ded4fd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Regret hung over the table."
+      ]
+    },
+    {
+      "id": "000084-028e43d0ebbd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-a9e5e7e3a023",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anxiety tightened around her thoughts."
+      ]
+    },
+    {
+      "id": "000084-24e2e8c93564",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-30b4744025c5",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Bitterness soaked his voice."
+      ]
+    },
+    {
+      "id": "000084-9d12bea09620",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-6bba9d6dcc50",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief melted the tension inside me."
+      ]
+    },
+    {
+      "id": "000084-a5b7e72583fd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-53cbd6a3db9b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Embarrassment rose like steam."
+      ]
+    },
+    {
+      "id": "000084-c33736d25b5e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b2d0711d1346",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Dread was a cold weight in her lap."
+      ]
+    },
+    {
+      "id": "000084-5e1ad7d7bc6e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4bb3bed775de",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Envy trickled through me."
+      ]
+    },
+    {
+      "id": "000084-8db52e91122d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-0ac57d0bcc18",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Sadness rested on his shoulders."
+      ]
+    },
+    {
+      "id": "000084-23a7b6d1c5c1",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4d4302f646c6",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Excitement crackled in the hallway."
+      ]
+    },
+    {
+      "id": "000084-9218464c6540",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-3de973a9a422",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her irritation had hardened."
+      ]
+    },
+    {
+      "id": "000084-e5c6bc5f9ef4",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-cba41d5111e6",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Despair seeped into the evening."
+      ]
+    },
+    {
+      "id": "000084-68eb3ff6a792",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-63125b4b36f1",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Contentment spread through his limbs."
+      ]
+    },
+    {
+      "id": "000084-e3dace23f2d2",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-df31ec009d12",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Doubt clouded the room."
+      ]
+    },
+    {
+      "id": "000084-7a9fd2d68434",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-2ffde6a8e6ea",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Pride swelled inside her."
+      ]
+    },
+    {
+      "id": "000084-4cff7f081694",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-60e1a89e5c5b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His impatience pressed against us."
+      ]
+    },
+    {
+      "id": "000084-2af938e2ee23",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-8d55829e74b8",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Alarm washed over the class."
+      ]
+    },
+    {
+      "id": "000084-710251413979",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-3dd5605815ed",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Humiliation burned in my throat."
+      ]
+    },
+    {
+      "id": "000084-4d116894b024",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-fb25fc3e8274",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Trust lay broken between us."
+      ]
+    },
+    {
+      "id": "000084-d87f9685dcec",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-8bb0feb96d57",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Resentment left a film on the conversation."
+      ]
+    },
+    {
+      "id": "000084-60abeb0a0878",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-78be1d7956e9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her curiosity fizzed."
+      ]
+    },
+    {
+      "id": "000084-5ea1df14a08a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4988df36cc65",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Grief occupied the passenger seat."
+      ]
+    },
+    {
+      "id": "000084-21be5d89a26c",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-16d8baa398cd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Affection warmed his gaze."
+      ]
+    },
+    {
+      "id": "000084-0a429ff63585",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-a02f6df7ee1e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Uncertainty pooled beneath her words."
+      ]
+    },
+    {
+      "id": "000084-4e111db1dea9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-e693ce79c724",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anger had drained out of the kitchen."
+      ]
+    },
+    {
+      "id": "000084-ca147107babc",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-bc87812c7e72",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His fear was still there, dense and grey."
+      ]
+    },
+    {
+      "id": "000084-d848d1111690",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b12841b9af81",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Hope nestled behind my breastbone."
+      ]
+    },
+    {
+      "id": "000084-a608e2354004",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-d285d303f553",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Disgust curdled in her belly."
+      ]
+    },
+    {
+      "id": "000084-6ad3f0f0c8e9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-c2a875775e46",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Disappointment dusted the room."
+      ]
+    },
+    {
+      "id": "000084-a811cfdffc9d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-1ea77fac622e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief loosened its warm fingers inside him."
+      ]
+    },
+    {
+      "id": "000084-5f0086275925",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-a35f3757b063",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Nervousness skittered through the crowd."
+      ]
+    },
+    {
+      "id": "000084-dca94cabb697",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-2fb9f49c816a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Shame weighed down the silence."
+      ]
+    },
+    {
+      "id": "000084-cd67dd18c1dc",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b2abff9cec46",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her sadness had no edges."
+      ]
+    },
+    {
+      "id": "000084-deee354e9300",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-050d0ca29cdd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Jealousy flashed hot in his eyes."
+      ]
+    },
+    {
+      "id": "000084-99fe6b5f086e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-a4d9c03d7ad0",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Confidence solidified in me."
+      ]
+    },
+    {
+      "id": "000084-d00c180d634d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-f1680bdf382d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Regret had taken root in the room."
+      ]
+    },
+    {
+      "id": "000084-103f025c999d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-1b2acabfda01",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Frustration dripped from his greeting."
+      ]
+    },
+    {
+      "id": "000084-f995d7a0f87d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-223cdca1f9d7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anxiety lay beneath the laughter."
+      ]
+    },
+    {
+      "id": "000084-d9b83c6de1a2",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-07755c60a39a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Pleasure rippled through her."
+      ]
+    },
+    {
+      "id": "000084-8c9b26834a09",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4abc989e181a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Bitterness remained in the air."
+      ]
+    },
+    {
+      "id": "000084-8a402e2d6151",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-d06d74249050",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Apprehension crept up my spine."
+      ]
+    },
+    {
+      "id": "000084-7646e5bec468",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-dfaecf79b78e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His composure dissolved."
+      ]
+    },
+    {
+      "id": "000084-4320a04cd879",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-c1858e02d51b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Compassion welled in her eyes."
+      ]
+    },
+    {
+      "id": "000084-0e05d849ea82",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-c52302e23bfa",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Defeat hung from his posture."
+      ]
+    },
+    {
+      "id": "000084-997b2cbcde7f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b62fff4259d3",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her anger was a banked fire."
+      ]
+    },
+    {
+      "id": "000084-1784ca55678a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-47849edd9fda",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief sluiced through the group."
+      ]
+    },
+    {
+      "id": "000084-710a9a35aa23",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-5cc736cb3f00",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "A residue of embarrassment remained."
+      ]
+    },
+    {
+      "id": "000084-ea7ae0a17ee7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-a6f0d2d1dea9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Desire warmed the space between them."
+      ]
+    },
+    {
+      "id": "000084-30bc394c66ec",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b058df4f8978",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Misery sagged against my chest."
+      ]
+    },
+    {
+      "id": "000084-c29d54fc8890",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-9c7b36898d93",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Suspicion drifted across the workshop."
+      ]
+    },
+    {
+      "id": "000084-c9cee22406b3",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-fee70d94eb3e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her excitement could barely be contained."
+      ]
+    },
+    {
+      "id": "000084-0e9e7198e370",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-f5600adceddd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Fear iced his thoughts."
+      ]
+    },
+    {
+      "id": "000084-28305927a449",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-9d1a9f72112f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Wonder suffused the room."
+      ]
+    },
+    {
+      "id": "000084-410a511d6f15",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-3946902a6555",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Disappointment sat beside me."
+      ]
+    },
+    {
+      "id": "000084-fa5a3e2f4268",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-e886e1c16c7e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Gratitude flooded her face."
+      ]
+    },
+    {
+      "id": "000084-0490657766cc",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-0ac7ff9a8ce7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His grief had gone underground."
+      ]
+    },
+    {
+      "id": "000084-a855697c2457",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-27cd3a4ab025",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Unease threaded the exchange."
+      ]
+    },
+    {
+      "id": "000084-bdaa2a0a4afe",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-47b7e0a7e47c",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her resolve liquefied."
+      ]
+    },
+    {
+      "id": "000084-2d9d4bd188c1",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-ca3bdbf84f62",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Indignation puffed out of him."
+      ]
+    },
+    {
+      "id": "000084-73ea76df7d74",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-d64bd607bf2f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Calm settled over the landing."
+      ]
+    },
+    {
+      "id": "000084-61619b815b45",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-d278f94163db",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Loneliness seeped through his coat."
+      ]
+    },
+    {
+      "id": "000084-e193d5f940d3",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-0adf42b5e410",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anticipation hummed beneath her skin."
+      ]
+    },
+    {
+      "id": "000084-32bd5b29889b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-11655dee1252",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Disbelief froze in the room."
+      ]
+    },
+    {
+      "id": "000084-1167c778c91e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-d0cc0be59967",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Regret stained my reply."
+      ]
+    },
+    {
+      "id": "000084-089f38e91d6f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-8d35552511be",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her guilt had sharp corners."
+      ]
+    },
+    {
+      "id": "000084-b78f402e37e5",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-5edf256544ff",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Confidence ebbed from the team."
+      ]
+    },
+    {
+      "id": "000084-3aa26f4112a9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-52d51da631e9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Resentment smouldered in his smile."
+      ]
+    },
+    {
+      "id": "000084-fd38e06d2600",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-304ae5bd42f7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief rose through me in warm layers."
+      ]
+    },
+    {
+      "id": "000084-0afc29fb7f40",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-5b5b82bf6016",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Panic bounced around inside her."
+      ]
+    },
+    {
+      "id": "000084-40c7c92116f9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-0bc246646a51",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Sorrow lay like frost on the meal."
+      ]
+    },
+    {
+      "id": "000084-b1fa1c1ce1e4",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-50a776758d86",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Amusement sparkled in his voice."
+      ]
+    },
+    {
+      "id": "000084-e079a210866e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-ec2e74117982",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Hope hung by the window."
+      ]
+    },
+    {
+      "id": "000084-5375e1243e0e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4542b42f1d20",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her shame evaporated."
+      ]
+    },
+    {
+      "id": "000084-fa28ac721f46",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-34239d190275",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Distrust wove itself around us."
+      ]
+    },
+    {
+      "id": "000084-e63fb4e07097",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-47e45a68ea3e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anger pulsed in the walls."
+      ]
+    },
+    {
+      "id": "000084-6ee14139117b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-7cb0eadfc221",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "A lump of disappointment remained."
+      ]
+    },
+    {
+      "id": "000084-e5c7b10e4e8a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-1b3c9566124a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His happiness radiated across the yard."
+      ]
+    },
+    {
+      "id": "000084-4b456e10a929",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b10a20eb2edd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anxiety fogged her mind."
+      ]
+    },
+    {
+      "id": "000084-a67891f0f1f0",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-129c01bd51ff",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Enthusiasm drained from the call."
+      ]
+    },
+    {
+      "id": "000084-556e9abd10fb",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-fff5b76c315b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Regret collected at the edges of my day."
+      ]
+    },
+    {
+      "id": "000084-bf7021eb8333",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-f63c9c4659e9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Apathy blanketed the staffroom."
+      ]
+    },
+    {
+      "id": "000084-448bdb90d983",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-aa48716c6220",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Her embarrassment cooled to a dull crust."
+      ]
+    },
+    {
+      "id": "000084-6308d5499293",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-8ea56ddda7df",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Fear clotted in his chest."
+      ]
+    },
+    {
+      "id": "000084-78851b369b7f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-0a88143b616a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief shimmered between us."
+      ]
+    },
+    {
+      "id": "000084-ad8e6fad0a26",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-c007484c20ed",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Bitterness filled the empty chair."
+      ]
+    },
+    {
+      "id": "000084-b74d592c0fcb",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-cd6e63a06919",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Optimism inflated inside her."
+      ]
+    },
+    {
+      "id": "000084-2067770d8cf0",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-7a77b22b2452",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His guilt hovered nearby."
+      ]
+    },
+    {
+      "id": "000084-bb037c54f5d9",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-42a25e705b56",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Anguish saturated the silence."
+      ]
+    },
+    {
+      "id": "000084-df08d1a8c6b4",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-4b627865bec5",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Disappointment rolled through the audience."
+      ]
+    },
+    {
+      "id": "000084-011e5d670140",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-29bff5784833",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Rage lodged in her jaw."
+      ]
+    },
+    {
+      "id": "000084-dce4373ba67f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b131be562232",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Nostalgia softened the evening."
+      ]
+    },
+    {
+      "id": "000084-81a28cc241f2",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-ae7232379988",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Uneasiness remained suspended above us."
+      ]
+    },
+    {
+      "id": "000084-a3236b64385a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-ef266f5cdc38",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "His joy spilled onto the pavement."
+      ]
+    },
+    {
+      "id": "000084-74b9486f5115",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-b1f561f23be4",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Exasperation crackled in her answer."
+      ]
+    },
+    {
+      "id": "000084-2fcc237671d2",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-ddc2b51e7cad",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Hopelessness pressed down on the house."
+      ]
+    },
+    {
+      "id": "000084-4f37e2124918",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-5a719448cecd",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Peace flowed into my chest."
+      ]
+    },
+    {
+      "id": "000084-738404667f9e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-6e63cd865269",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Mortification crept across the table."
+      ]
+    },
+    {
+      "id": "000084-6b741483f55c",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000084-456bb116646f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "The last of her doubt dispersed."
+      ]
+    },
+    {
+      "id": "000084-532b26cdeee0",
       "check": "narrative-craft/emotion-as-substance",
       "expected": false
     }

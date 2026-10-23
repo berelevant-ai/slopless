@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "2f4cf4da0e1effe56be7178d4d67f255373534752cda906a64ac1e64e1e5f59a",
+  "textSha256": "897e4c6c56b52716031bcd5fee971ffcaf32e7d805a3a951575d7d0d4f01156e",
   "source": {
     "name": "Codex-authored narrative-craft-empty-atmosphere-shift-development",
     "originalPath": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -65,52 +65,1152 @@
     {
       "id": "000087-249854cd1673",
       "start": 3852,
-      "end": 4205
+      "end": 4174
     },
     {
       "id": "000087-410ba07b5473",
-      "start": 4231,
-      "end": 4609
+      "start": 4200,
+      "end": 4578
     },
     {
       "id": "000087-908042cbe7dc",
-      "start": 4635,
-      "end": 4982
+      "start": 4604,
+      "end": 4951
     },
     {
       "id": "000087-efa448b08314",
-      "start": 5008,
-      "end": 5336
+      "start": 4977,
+      "end": 5327
     },
     {
       "id": "000087-a3b0251e9538",
-      "start": 5362,
-      "end": 5727
+      "start": 5353,
+      "end": 5718
     },
     {
       "id": "000087-e0c1dac017ec",
-      "start": 5753,
-      "end": 6091
+      "start": 5744,
+      "end": 6082
     },
     {
       "id": "000087-19c145139509",
-      "start": 6117,
-      "end": 6459
+      "start": 6108,
+      "end": 6450
     },
     {
       "id": "000087-766377440b74",
-      "start": 6485,
-      "end": 6833
+      "start": 6476,
+      "end": 6824
     },
     {
       "id": "000087-b429de2c3b52",
-      "start": 6859,
-      "end": 7207
+      "start": 6850,
+      "end": 7198
     },
     {
       "id": "000087-723fa2220a33",
-      "start": 7233,
-      "end": 7582
+      "start": 7224,
+      "end": 7573
+    },
+    {
+      "id": "000087-9d034e206e7d",
+      "start": 7599,
+      "end": 7905
+    },
+    {
+      "id": "000087-69a31b0d4f3b",
+      "start": 7931,
+      "end": 8251
+    },
+    {
+      "id": "000087-7b2be38f181d",
+      "start": 8277,
+      "end": 8602
+    },
+    {
+      "id": "000087-32bde7f4fa83",
+      "start": 8628,
+      "end": 8929
+    },
+    {
+      "id": "000087-b472dcfd19ac",
+      "start": 8955,
+      "end": 9269
+    },
+    {
+      "id": "000087-0e58fd67c252",
+      "start": 9295,
+      "end": 9618
+    },
+    {
+      "id": "000087-12a9d69050af",
+      "start": 9644,
+      "end": 9933
+    },
+    {
+      "id": "000087-e400c95eacda",
+      "start": 9959,
+      "end": 10274
+    },
+    {
+      "id": "000087-e15646d4b5cc",
+      "start": 10300,
+      "end": 10593
+    },
+    {
+      "id": "000087-81c4c6fba586",
+      "start": 10619,
+      "end": 10921
+    },
+    {
+      "id": "000087-583c2f5aa3ea",
+      "start": 10947,
+      "end": 11260
+    },
+    {
+      "id": "000087-90f4636d33b8",
+      "start": 11286,
+      "end": 11607
+    },
+    {
+      "id": "000087-dc9c597b2a17",
+      "start": 11633,
+      "end": 11954
+    },
+    {
+      "id": "000087-5b62f3ad0e09",
+      "start": 11980,
+      "end": 12288
+    },
+    {
+      "id": "000087-43a027b59420",
+      "start": 12314,
+      "end": 12606
+    },
+    {
+      "id": "000087-873121f503b1",
+      "start": 12632,
+      "end": 12926
+    },
+    {
+      "id": "000087-8dc1f4e4e904",
+      "start": 12952,
+      "end": 13246
+    },
+    {
+      "id": "000087-6f574fa99f91",
+      "start": 13272,
+      "end": 13579
+    },
+    {
+      "id": "000087-e1a806002ba2",
+      "start": 13605,
+      "end": 13921
+    },
+    {
+      "id": "000087-707dbf4d2c86",
+      "start": 13947,
+      "end": 14265
+    },
+    {
+      "id": "000087-5d74fcf95b3f",
+      "start": 14291,
+      "end": 14595
+    },
+    {
+      "id": "000087-d83c1447a319",
+      "start": 14621,
+      "end": 14932
+    },
+    {
+      "id": "000087-26dde960d6e3",
+      "start": 14958,
+      "end": 15295
+    },
+    {
+      "id": "000087-6188bab0c1f7",
+      "start": 15321,
+      "end": 15619
+    },
+    {
+      "id": "000087-211ecfcf86af",
+      "start": 15645,
+      "end": 15930
+    },
+    {
+      "id": "000087-5fc5a750c26b",
+      "start": 15956,
+      "end": 16226
+    },
+    {
+      "id": "000087-6c83359490c8",
+      "start": 16252,
+      "end": 16542
+    },
+    {
+      "id": "000087-683a016b29aa",
+      "start": 16568,
+      "end": 16871
+    },
+    {
+      "id": "000087-af86dbfb6ae4",
+      "start": 16897,
+      "end": 17195
+    },
+    {
+      "id": "000087-15249bbf175b",
+      "start": 17221,
+      "end": 17508
+    },
+    {
+      "id": "000087-38f6309f961d",
+      "start": 17534,
+      "end": 17854
+    },
+    {
+      "id": "000087-2856c63dd88a",
+      "start": 17880,
+      "end": 18190
+    },
+    {
+      "id": "000087-b60db5af59ce",
+      "start": 18216,
+      "end": 18516
+    },
+    {
+      "id": "000087-5ab76a5ad242",
+      "start": 18542,
+      "end": 18869
+    },
+    {
+      "id": "000087-e67a18fc7ed0",
+      "start": 18895,
+      "end": 19201
+    },
+    {
+      "id": "000087-4e371e785cde",
+      "start": 19227,
+      "end": 19531
+    },
+    {
+      "id": "000087-f44397a0fa27",
+      "start": 19557,
+      "end": 19879
+    },
+    {
+      "id": "000087-269486159802",
+      "start": 19905,
+      "end": 20225
+    },
+    {
+      "id": "000087-17359087914e",
+      "start": 20251,
+      "end": 20562
+    },
+    {
+      "id": "000087-d656e2fdad2b",
+      "start": 20588,
+      "end": 20901
+    },
+    {
+      "id": "000087-81722059c1f4",
+      "start": 20927,
+      "end": 21243
+    },
+    {
+      "id": "000087-a25fc8340e44",
+      "start": 21269,
+      "end": 21589
+    },
+    {
+      "id": "000087-fdfb391e714a",
+      "start": 21615,
+      "end": 21919
+    },
+    {
+      "id": "000087-815faee699ef",
+      "start": 21945,
+      "end": 22258
+    },
+    {
+      "id": "000087-af9fc7b1b0a0",
+      "start": 22284,
+      "end": 22571
+    },
+    {
+      "id": "000087-9b26de2803de",
+      "start": 22597,
+      "end": 22898
+    },
+    {
+      "id": "000087-da25b6022189",
+      "start": 22924,
+      "end": 23219
+    },
+    {
+      "id": "000087-e4d36711792c",
+      "start": 23245,
+      "end": 23545
+    },
+    {
+      "id": "000087-d48009e36dc7",
+      "start": 23571,
+      "end": 23869
+    },
+    {
+      "id": "000087-a2facb443873",
+      "start": 23895,
+      "end": 24203
+    },
+    {
+      "id": "000087-775daff6951e",
+      "start": 24229,
+      "end": 24552
+    },
+    {
+      "id": "000087-cb9c0561aec8",
+      "start": 24578,
+      "end": 24881
+    },
+    {
+      "id": "000087-e8bcc6c1335e",
+      "start": 24907,
+      "end": 25211
+    },
+    {
+      "id": "000087-4de6f973b8f9",
+      "start": 25237,
+      "end": 25545
+    },
+    {
+      "id": "000087-ff8629edef3d",
+      "start": 25571,
+      "end": 25855
+    },
+    {
+      "id": "000087-ecc43587c111",
+      "start": 25881,
+      "end": 26192
+    },
+    {
+      "id": "000087-235ad8618319",
+      "start": 26218,
+      "end": 26514
+    },
+    {
+      "id": "000087-e0456a7e0c37",
+      "start": 26540,
+      "end": 26856
+    },
+    {
+      "id": "000087-6c401b988f59",
+      "start": 26882,
+      "end": 27181
+    },
+    {
+      "id": "000087-c43690478430",
+      "start": 27207,
+      "end": 27481
+    },
+    {
+      "id": "000087-c0a5f02fc29f",
+      "start": 27507,
+      "end": 27819
+    },
+    {
+      "id": "000087-f3f219b9dbd7",
+      "start": 27845,
+      "end": 28167
+    },
+    {
+      "id": "000087-f0f2b0fee5e8",
+      "start": 28193,
+      "end": 28496
+    },
+    {
+      "id": "000087-cf47a41aedb6",
+      "start": 28522,
+      "end": 28807
+    },
+    {
+      "id": "000087-918deee18455",
+      "start": 28833,
+      "end": 29155
+    },
+    {
+      "id": "000087-ba35848292c6",
+      "start": 29181,
+      "end": 29490
+    },
+    {
+      "id": "000087-8e521b8109a4",
+      "start": 29516,
+      "end": 29807
+    },
+    {
+      "id": "000087-b44927e310c4",
+      "start": 29833,
+      "end": 30144
+    },
+    {
+      "id": "000087-b5cd63a4b4d9",
+      "start": 30170,
+      "end": 30469
+    },
+    {
+      "id": "000087-8978546e5555",
+      "start": 30495,
+      "end": 30790
+    },
+    {
+      "id": "000087-f8857fb11140",
+      "start": 30816,
+      "end": 31149
+    },
+    {
+      "id": "000087-5cdb8e7a1982",
+      "start": 31175,
+      "end": 31482
+    },
+    {
+      "id": "000087-4b33d3bf3ede",
+      "start": 31508,
+      "end": 31841
+    },
+    {
+      "id": "000087-b4e47720d6e2",
+      "start": 31867,
+      "end": 32184
+    },
+    {
+      "id": "000087-17afafe61096",
+      "start": 32210,
+      "end": 32499
+    },
+    {
+      "id": "000087-9baa4efef237",
+      "start": 32525,
+      "end": 32808
+    },
+    {
+      "id": "000087-cf564e267632",
+      "start": 32834,
+      "end": 33132
+    },
+    {
+      "id": "000087-abd515aa502b",
+      "start": 33158,
+      "end": 33456
+    },
+    {
+      "id": "000087-c4636bceffe2",
+      "start": 33482,
+      "end": 33798
+    },
+    {
+      "id": "000087-a5447cc4b8cc",
+      "start": 33824,
+      "end": 34134
+    },
+    {
+      "id": "000087-8288d6d12d7d",
+      "start": 34160,
+      "end": 34502
+    },
+    {
+      "id": "000087-8b567644cccf",
+      "start": 34528,
+      "end": 34842
+    },
+    {
+      "id": "000087-e3ab88d91420",
+      "start": 34868,
+      "end": 35184
+    },
+    {
+      "id": "000087-f66d5d8f1c86",
+      "start": 35210,
+      "end": 35544
+    },
+    {
+      "id": "000087-8d9eb2646bca",
+      "start": 35570,
+      "end": 35876
+    },
+    {
+      "id": "000087-98fef70e9ac3",
+      "start": 35902,
+      "end": 36251
+    },
+    {
+      "id": "000087-0bf5e374a6db",
+      "start": 36277,
+      "end": 36580
+    },
+    {
+      "id": "000087-0061b9a106d7",
+      "start": 36606,
+      "end": 36911
+    },
+    {
+      "id": "000087-f5ffd5d025e6",
+      "start": 36937,
+      "end": 37285
+    },
+    {
+      "id": "000087-a23e842e2fb3",
+      "start": 37311,
+      "end": 37620
+    },
+    {
+      "id": "000087-7723fa31cb40",
+      "start": 37646,
+      "end": 37947
+    },
+    {
+      "id": "000087-9520a215d5ba",
+      "start": 37973,
+      "end": 38269
+    },
+    {
+      "id": "000087-37a7026adb31",
+      "start": 38295,
+      "end": 38603
+    },
+    {
+      "id": "000087-7669a3568ade",
+      "start": 38629,
+      "end": 38942
+    },
+    {
+      "id": "000087-0e610c0fb6b4",
+      "start": 38968,
+      "end": 39266
+    },
+    {
+      "id": "000087-f542088f7dcc",
+      "start": 39292,
+      "end": 39613
+    },
+    {
+      "id": "000087-f4befe757143",
+      "start": 39639,
+      "end": 39955
+    },
+    {
+      "id": "000087-245b228e3954",
+      "start": 39981,
+      "end": 40283
+    },
+    {
+      "id": "000087-f0678fb89a2d",
+      "start": 40309,
+      "end": 40613
+    },
+    {
+      "id": "000087-e8bdb0f39033",
+      "start": 40639,
+      "end": 40954
+    },
+    {
+      "id": "000087-d709cad94b1a",
+      "start": 40980,
+      "end": 41278
+    },
+    {
+      "id": "000087-b782c6f4e8c3",
+      "start": 41304,
+      "end": 41614
+    },
+    {
+      "id": "000087-67424d222333",
+      "start": 41640,
+      "end": 41950
+    },
+    {
+      "id": "000087-992943a65da4",
+      "start": 41976,
+      "end": 42341
+    },
+    {
+      "id": "000087-12df4a033131",
+      "start": 42367,
+      "end": 42655
+    },
+    {
+      "id": "000087-25d1142d37c8",
+      "start": 42681,
+      "end": 42999
+    },
+    {
+      "id": "000087-6efadf4642f9",
+      "start": 43025,
+      "end": 43321
+    },
+    {
+      "id": "000087-42742e447c5c",
+      "start": 43347,
+      "end": 43662
+    },
+    {
+      "id": "000087-7f1a43f1f2ff",
+      "start": 43688,
+      "end": 44000
+    },
+    {
+      "id": "000087-ad7110dd6cfa",
+      "start": 44026,
+      "end": 44351
+    },
+    {
+      "id": "000087-c11beed00910",
+      "start": 44377,
+      "end": 44691
+    },
+    {
+      "id": "000087-2735841cf9eb",
+      "start": 44717,
+      "end": 45015
+    },
+    {
+      "id": "000087-648ef9bf1372",
+      "start": 45041,
+      "end": 45349
+    },
+    {
+      "id": "000087-d38a1a892c54",
+      "start": 45375,
+      "end": 45687
+    },
+    {
+      "id": "000087-898b77cb8a43",
+      "start": 45713,
+      "end": 46047
+    },
+    {
+      "id": "000087-479195097859",
+      "start": 46073,
+      "end": 46407
+    },
+    {
+      "id": "000087-7db7e65635aa",
+      "start": 46433,
+      "end": 46745
+    },
+    {
+      "id": "000087-229fb311d283",
+      "start": 46771,
+      "end": 47094
+    },
+    {
+      "id": "000087-d2a0285c30c5",
+      "start": 47120,
+      "end": 47433
+    },
+    {
+      "id": "000087-9958bd2b6cbc",
+      "start": 47459,
+      "end": 47786
+    },
+    {
+      "id": "000087-eb313dcc23fe",
+      "start": 47812,
+      "end": 48122
+    },
+    {
+      "id": "000087-ff03b2c1b630",
+      "start": 48148,
+      "end": 48463
+    },
+    {
+      "id": "000087-8ff43e1b2389",
+      "start": 48489,
+      "end": 48803
+    },
+    {
+      "id": "000087-f83c4c312395",
+      "start": 48829,
+      "end": 49150
+    },
+    {
+      "id": "000087-6c097338ce16",
+      "start": 49176,
+      "end": 49464
+    },
+    {
+      "id": "000087-aced44b9849c",
+      "start": 49490,
+      "end": 49798
+    },
+    {
+      "id": "000087-4fffb934a060",
+      "start": 49824,
+      "end": 50133
+    },
+    {
+      "id": "000087-8a7ea5164ec2",
+      "start": 50159,
+      "end": 50452
+    },
+    {
+      "id": "000087-f763ed9d6f17",
+      "start": 50478,
+      "end": 50767
+    },
+    {
+      "id": "000087-2f2c337c87e7",
+      "start": 50793,
+      "end": 51079
+    },
+    {
+      "id": "000087-59aaa32a401a",
+      "start": 51105,
+      "end": 51410
+    },
+    {
+      "id": "000087-7a240c77e8ea",
+      "start": 51436,
+      "end": 51763
+    },
+    {
+      "id": "000087-14e3bc7022c7",
+      "start": 51789,
+      "end": 52095
+    },
+    {
+      "id": "000087-babdf9913c75",
+      "start": 52121,
+      "end": 52419
+    },
+    {
+      "id": "000087-d6966324bbf2",
+      "start": 52445,
+      "end": 52747
+    },
+    {
+      "id": "000087-c98b8963dc8c",
+      "start": 52773,
+      "end": 53073
+    },
+    {
+      "id": "000087-f4a5df3974e1",
+      "start": 53099,
+      "end": 53427
+    },
+    {
+      "id": "000087-2d4f57929d51",
+      "start": 53453,
+      "end": 53749
+    },
+    {
+      "id": "000087-70820b981c10",
+      "start": 53775,
+      "end": 54107
+    },
+    {
+      "id": "000087-133cf59a1167",
+      "start": 54133,
+      "end": 54449
+    },
+    {
+      "id": "000087-3c6d6f3e766a",
+      "start": 54475,
+      "end": 54799
+    },
+    {
+      "id": "000087-d83e278bf862",
+      "start": 54825,
+      "end": 55139
+    },
+    {
+      "id": "000087-5fa1e841883a",
+      "start": 55165,
+      "end": 55474
+    },
+    {
+      "id": "000087-3f6cb22f54c6",
+      "start": 55500,
+      "end": 55805
+    },
+    {
+      "id": "000087-ee60e9354fe6",
+      "start": 55831,
+      "end": 56149
+    },
+    {
+      "id": "000087-34e1a8a13289",
+      "start": 56175,
+      "end": 56481
+    },
+    {
+      "id": "000087-f76fe3079a24",
+      "start": 56507,
+      "end": 56791
+    },
+    {
+      "id": "000087-b746d7b644ea",
+      "start": 56817,
+      "end": 57149
+    },
+    {
+      "id": "000087-17553daf734b",
+      "start": 57175,
+      "end": 57478
+    },
+    {
+      "id": "000087-6e68f16e6b00",
+      "start": 57504,
+      "end": 57814
+    },
+    {
+      "id": "000087-6a6cbae178f3",
+      "start": 57840,
+      "end": 58145
+    },
+    {
+      "id": "000087-4054ecc6159f",
+      "start": 58171,
+      "end": 58467
+    },
+    {
+      "id": "000087-7d1d5159ceab",
+      "start": 58493,
+      "end": 58811
+    },
+    {
+      "id": "000087-eea0e0e6deeb",
+      "start": 58837,
+      "end": 59160
+    },
+    {
+      "id": "000087-8064b2ca8b78",
+      "start": 59186,
+      "end": 59488
+    },
+    {
+      "id": "000087-29c4aee171a8",
+      "start": 59514,
+      "end": 59837
+    },
+    {
+      "id": "000087-c08715551339",
+      "start": 59863,
+      "end": 60161
+    },
+    {
+      "id": "000087-c084e4335c82",
+      "start": 60187,
+      "end": 60485
+    },
+    {
+      "id": "000087-c1f4e59262cf",
+      "start": 60511,
+      "end": 60823
+    },
+    {
+      "id": "000087-945458878898",
+      "start": 60849,
+      "end": 61172
+    },
+    {
+      "id": "000087-350beecef056",
+      "start": 61198,
+      "end": 61500
+    },
+    {
+      "id": "000087-cd3edf02f359",
+      "start": 61526,
+      "end": 61822
+    },
+    {
+      "id": "000087-a3d1dc9ff28b",
+      "start": 61848,
+      "end": 62151
+    },
+    {
+      "id": "000087-91c0721b05f2",
+      "start": 62177,
+      "end": 62488
+    },
+    {
+      "id": "000087-5d7c79b45534",
+      "start": 62514,
+      "end": 62835
+    },
+    {
+      "id": "000087-d7159a712fd3",
+      "start": 62861,
+      "end": 63191
+    },
+    {
+      "id": "000087-9305d1c68aca",
+      "start": 63217,
+      "end": 63526
+    },
+    {
+      "id": "000087-60292df9b7a3",
+      "start": 63552,
+      "end": 63851
+    },
+    {
+      "id": "000087-8ec423807ae4",
+      "start": 63877,
+      "end": 64191
+    },
+    {
+      "id": "000087-670a116d0af8",
+      "start": 64217,
+      "end": 64535
+    },
+    {
+      "id": "000087-21aa15e09bf3",
+      "start": 64561,
+      "end": 64882
+    },
+    {
+      "id": "000087-fdaa4f851461",
+      "start": 64908,
+      "end": 65226
+    },
+    {
+      "id": "000087-e49c2140c535",
+      "start": 65252,
+      "end": 65567
+    },
+    {
+      "id": "000087-63cfee0044b7",
+      "start": 65593,
+      "end": 65913
+    },
+    {
+      "id": "000087-c254e3333c51",
+      "start": 65939,
+      "end": 66262
+    },
+    {
+      "id": "000087-cc9295889235",
+      "start": 66288,
+      "end": 66613
+    },
+    {
+      "id": "000087-52fcc30f6db6",
+      "start": 66639,
+      "end": 66950
+    },
+    {
+      "id": "000087-730f609fba4f",
+      "start": 66976,
+      "end": 67319
+    },
+    {
+      "id": "000087-c51a83af33ba",
+      "start": 67345,
+      "end": 67663
+    },
+    {
+      "id": "000087-50bb1b5a5642",
+      "start": 67689,
+      "end": 68013
+    },
+    {
+      "id": "000087-3db7f1035800",
+      "start": 68039,
+      "end": 68345
+    },
+    {
+      "id": "000087-11efd7223e76",
+      "start": 68371,
+      "end": 68684
+    },
+    {
+      "id": "000087-828199b3c6e8",
+      "start": 68710,
+      "end": 69008
+    },
+    {
+      "id": "000087-dd75ff2fa296",
+      "start": 69034,
+      "end": 69369
+    },
+    {
+      "id": "000087-09c911e6539f",
+      "start": 69395,
+      "end": 69731
+    },
+    {
+      "id": "000087-8595b86e56a5",
+      "start": 69757,
+      "end": 70058
+    },
+    {
+      "id": "000087-0a994fe8d80f",
+      "start": 70084,
+      "end": 70375
+    },
+    {
+      "id": "000087-b7a4c5e5db98",
+      "start": 70401,
+      "end": 70724
+    },
+    {
+      "id": "000087-296ac9903584",
+      "start": 70750,
+      "end": 71057
+    },
+    {
+      "id": "000087-8a74ed74ab3e",
+      "start": 71083,
+      "end": 71383
+    },
+    {
+      "id": "000087-bcdeddc5eebd",
+      "start": 71409,
+      "end": 71743
+    },
+    {
+      "id": "000087-2478d917ca13",
+      "start": 71769,
+      "end": 72080
+    },
+    {
+      "id": "000087-53e197db1829",
+      "start": 72106,
+      "end": 72419
+    },
+    {
+      "id": "000087-c433fbb00365",
+      "start": 72445,
+      "end": 72749
+    },
+    {
+      "id": "000087-e4c5bdb71fe5",
+      "start": 72775,
+      "end": 73057
+    },
+    {
+      "id": "000087-fbe543c09421",
+      "start": 73083,
+      "end": 73403
+    },
+    {
+      "id": "000087-5f1f0aad7901",
+      "start": 73429,
+      "end": 73718
+    },
+    {
+      "id": "000087-f2dc8383b855",
+      "start": 73744,
+      "end": 74068
+    },
+    {
+      "id": "000087-a1e54ec19ad3",
+      "start": 74094,
+      "end": 74388
+    },
+    {
+      "id": "000087-4dc49d99b471",
+      "start": 74414,
+      "end": 74716
+    },
+    {
+      "id": "000087-07e89d123eb3",
+      "start": 74742,
+      "end": 75057
+    },
+    {
+      "id": "000087-59369cf346c6",
+      "start": 75083,
+      "end": 75384
+    },
+    {
+      "id": "000087-cbd6f97fd47b",
+      "start": 75410,
+      "end": 75722
+    },
+    {
+      "id": "000087-53ae40e2ed55",
+      "start": 75748,
+      "end": 76034
+    },
+    {
+      "id": "000087-5f5542641f36",
+      "start": 76060,
+      "end": 76369
+    },
+    {
+      "id": "000087-c8169ed21945",
+      "start": 76395,
+      "end": 76697
+    },
+    {
+      "id": "000087-64d09061a235",
+      "start": 76723,
+      "end": 77040
+    },
+    {
+      "id": "000087-fe51da716e8e",
+      "start": 77066,
+      "end": 77378
+    },
+    {
+      "id": "000087-04cfabcfa0e8",
+      "start": 77404,
+      "end": 77704
+    },
+    {
+      "id": "000087-a76013a63d8d",
+      "start": 77730,
+      "end": 78016
+    },
+    {
+      "id": "000087-99a8ec13c8b5",
+      "start": 78042,
+      "end": 78369
+    },
+    {
+      "id": "000087-26f4405f6c4b",
+      "start": 78395,
+      "end": 78693
+    },
+    {
+      "id": "000087-5dee8aa03202",
+      "start": 78719,
+      "end": 79020
+    },
+    {
+      "id": "000087-5993387fe2c1",
+      "start": 79046,
+      "end": 79341
+    },
+    {
+      "id": "000087-4670b45f4ddb",
+      "start": 79367,
+      "end": 79682
+    },
+    {
+      "id": "000087-b824c93f331f",
+      "start": 79708,
+      "end": 80037
+    },
+    {
+      "id": "000087-c65f5cf6ab57",
+      "start": 80063,
+      "end": 80365
+    },
+    {
+      "id": "000087-e8c851de4b88",
+      "start": 80391,
+      "end": 80688
+    },
+    {
+      "id": "000087-70a9c0416ff8",
+      "start": 80714,
+      "end": 81023
+    },
+    {
+      "id": "000087-4ffab51e5fe6",
+      "start": 81049,
+      "end": 81339
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "the office took on a heavier atmosphere"
+        "Around seven, the office took on a heavier atmosphere."
       ]
     },
     {
@@ -132,7 +1232,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "the place seemed to have acquired an indefinable edge"
+        "Yet the place seemed to have acquired an indefinable edge."
       ]
     },
     {
@@ -145,7 +1245,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "a strange solemnity settled over the library"
+        "That afternoon, a strange solemnity settled over the library."
       ]
     },
     {
@@ -158,7 +1258,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "the shop has a vaguely uneasy atmosphere"
+        "Today the shop has a vaguely uneasy atmosphere."
       ]
     },
     {
@@ -171,8 +1271,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "It feels different in here today",
-        "The whole atmosphere's a bit off somehow."
+        "\"It feels different in here today,\" Martin said. \"The whole atmosphere's a bit off somehow.\""
       ]
     },
     {
@@ -185,7 +1284,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "the campsite felt subtly altered",
+        "As evening came on, the campsite felt subtly altered.",
         "A different mood lay over the field."
       ]
     },
@@ -212,7 +1311,7 @@
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": true,
       "snippets": [
-        "the building seemed less welcoming, its atmosphere somehow colder"
+        "On one of those mornings, the building seemed less welcoming, its atmosphere somehow colder."
       ]
     },
     {
@@ -243,6 +1342,1436 @@
     },
     {
       "id": "000087-723fa2220a33",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-9d034e206e7d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A peculiar gravity had entered the shop."
+      ]
+    },
+    {
+      "id": "000087-69a31b0d4f3b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-7b2be38f181d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Somehow the waiting area felt emotionally dimmer."
+      ]
+    },
+    {
+      "id": "000087-32bde7f4fa83",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-b472dcfd19ac",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The room possessed a faintly troubled character."
+      ]
+    },
+    {
+      "id": "000087-0e58fd67c252",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-12a9d69050af",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "By then the place had acquired another sort of mood."
+      ]
+    },
+    {
+      "id": "000087-e400c95eacda",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e15646d4b5cc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was a new tension to the bus's atmosphere."
+      ]
+    },
+    {
+      "id": "000087-81c4c6fba586",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-583c2f5aa3ea",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The flat felt subtly out of joint that evening."
+      ]
+    },
+    {
+      "id": "000087-90f4636d33b8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-dc9c597b2a17",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An elusive bleakness hovered over the kitchen."
+      ]
+    },
+    {
+      "id": "000087-5b62f3ad0e09",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-43a027b59420",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The corridor had an inexplicably brittle atmosphere."
+      ]
+    },
+    {
+      "id": "000087-873121f503b1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8dc1f4e4e904",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"This garden has a more inward feeling now,\" Colin said."
+      ]
+    },
+    {
+      "id": "000087-6f574fa99f91",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e1a806002ba2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "At the first bell, the hall's atmosphere crossed some invisible threshold."
+      ]
+    },
+    {
+      "id": "000087-707dbf4d2c86",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-5d74fcf95b3f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cafe wore a faint air of unease."
+      ]
+    },
+    {
+      "id": "000087-d83c1447a319",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-26dde960d6e3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "On Tuesday the shed seemed charged with an obscure expectation."
+      ]
+    },
+    {
+      "id": "000087-6188bab0c1f7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-211ecfcf86af",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The lane felt oddly remote in spirit."
+      ]
+    },
+    {
+      "id": "000087-5fc5a750c26b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-6c83359490c8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A subdued energy occupied the changing room."
+      ]
+    },
+    {
+      "id": "000087-683a016b29aa",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-af86dbfb6ae4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Halfway through the lesson, the studio's mood became curiously dense."
+      ]
+    },
+    {
+      "id": "000087-15249bbf175b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-38f6309f961d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Something in the vestibule's emotional register had changed."
+      ]
+    },
+    {
+      "id": "000087-2856c63dd88a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-b60db5af59ce",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"The place seems somehow less itself,\" my mother said"
+      ]
+    },
+    {
+      "id": "000087-5ab76a5ad242",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e67a18fc7ed0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The assessment room had a vaguely unforgiving air."
+      ]
+    },
+    {
+      "id": "000087-4e371e785cde",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f44397a0fa27",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "the storeroom held a strange new stillness of feeling."
+      ]
+    },
+    {
+      "id": "000087-269486159802",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-17359087914e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The clearing had an almost hesitant atmosphere."
+      ]
+    },
+    {
+      "id": "000087-d656e2fdad2b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-81722059c1f4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "As bidding began, the room's atmosphere deepened inexplicably."
+      ]
+    },
+    {
+      "id": "000087-a25fc8340e44",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-fdfb391e714a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The courtyard seemed washed in an unnamed melancholy."
+      ]
+    },
+    {
+      "id": "000087-815faee699ef",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-af9fc7b1b0a0",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A curious expectancy thickened the reception area."
+      ]
+    },
+    {
+      "id": "000087-9b26de2803de",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-da25b6022189",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The gym had taken on a vaguely monumental feeling."
+      ]
+    },
+    {
+      "id": "000087-e4d36711792c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-d48009e36dc7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The passenger lounge carried a newly desolate undertone."
+      ]
+    },
+    {
+      "id": "000087-a2facb443873",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-775daff6951e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was a point during the haircut when the salon acquired an intangible severity."
+      ]
+    },
+    {
+      "id": "000087-cb9c0561aec8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e8bcc6c1335e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "That morning the market stall felt peculiarly unmoored."
+      ]
+    },
+    {
+      "id": "000087-4de6f973b8f9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-ff8629edef3d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The office seemed to vibrate with a vague disquiet."
+      ]
+    },
+    {
+      "id": "000087-ecc43587c111",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-235ad8618319",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An undefined softness had come over the room."
+      ]
+    },
+    {
+      "id": "000087-e0456a7e0c37",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-6c401b988f59",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"There's an odd flavour to the air in this place,\" Liam said."
+      ]
+    },
+    {
+      "id": "000087-c43690478430",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c0a5f02fc29f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The reception room seemed newly burdened by something."
+      ]
+    },
+    {
+      "id": "000087-f3f219b9dbd7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f0f2b0fee5e8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Tonight the staircase had a somehow mournful quality."
+      ]
+    },
+    {
+      "id": "000087-cf47a41aedb6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-918deee18455",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "As we worked, the conservatory's mood grew opaque."
+      ]
+    },
+    {
+      "id": "000087-ba35848292c6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8e521b8109a4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The carriage felt strangely sharpened around its edges."
+      ]
+    },
+    {
+      "id": "000087-b44927e310c4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-b5cd63a4b4d9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A faintly ominous cast lay over the post office."
+      ]
+    },
+    {
+      "id": "000087-8978546e5555",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f8857fb11140",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The car park's atmosphere became curiously suspended."
+      ]
+    },
+    {
+      "id": "000087-5cdb8e7a1982",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-4b33d3bf3ede",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A peculiar emotional hush occupied the entrance hall."
+      ]
+    },
+    {
+      "id": "000087-b4e47720d6e2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-17afafe61096",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The workshop felt infused with a new uncertainty."
+      ]
+    },
+    {
+      "id": "000087-9baa4efef237",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-cf564e267632",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"It's got a different pulse in here,\" said the delivery man"
+      ]
+    },
+    {
+      "id": "000087-abd515aa502b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c4636bceffe2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Something vaguely ceremonial had settled over the playing field."
+      ]
+    },
+    {
+      "id": "000087-a5447cc4b8cc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8288d6d12d7d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The sitting room assumed a subtly alien mood."
+      ]
+    },
+    {
+      "id": "000087-8b567644cccf",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e3ab88d91420",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An indefinable reserve had entered the consulting room."
+      ]
+    },
+    {
+      "id": "000087-f66d5d8f1c86",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8d9eb2646bca",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The square had a faintly discordant atmosphere."
+      ]
+    },
+    {
+      "id": "000087-98fef70e9ac3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-0bf5e374a6db",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An oblique sadness seemed to inhabit the shop."
+      ]
+    },
+    {
+      "id": "000087-0061b9a106d7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f5ffd5d025e6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The landing carried a strangely diminished feeling."
+      ]
+    },
+    {
+      "id": "000087-a23e842e2fb3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-7723fa31cb40",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The room had become atmospheric in a darker way."
+      ]
+    },
+    {
+      "id": "000087-9520a215d5ba",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-37a7026adb31",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A strange buoyancy lingered in the warehouse."
+      ]
+    },
+    {
+      "id": "000087-7669a3568ade",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-0e610c0fb6b4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The visitor centre had acquired a strangely hushed temperament."
+      ]
+    },
+    {
+      "id": "000087-f542088f7dcc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f4befe757143",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The basement seemed touched by an unspecified menace."
+      ]
+    },
+    {
+      "id": "000087-245b228e3954",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f0678fb89a2d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A new, unaccountable remoteness hung over the platform."
+      ]
+    },
+    {
+      "id": "000087-e8bdb0f39033",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-d709cad94b1a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"This place has gone a bit grey around the soul,\" my aunt said."
+      ]
+    },
+    {
+      "id": "000087-b782c6f4e8c3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-67424d222333",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A subtle emotional pressure gathered in the waiting room."
+      ]
+    },
+    {
+      "id": "000087-992943a65da4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-12df4a033131",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The registration tent took on a vague air of consequence."
+      ]
+    },
+    {
+      "id": "000087-25d1142d37c8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-6efadf4642f9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The path had become faintly uncanny."
+      ]
+    },
+    {
+      "id": "000087-42742e447c5c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-7f1a43f1f2ff",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The shop seemed suffused with a restless undertow."
+      ]
+    },
+    {
+      "id": "000087-ad7110dd6cfa",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c11beed00910",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The dock had an oddly vacant emotional texture."
+      ]
+    },
+    {
+      "id": "000087-2735841cf9eb",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-648ef9bf1372",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The kitchen had an indeterminate festive quality."
+      ]
+    },
+    {
+      "id": "000087-d38a1a892c54",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-898b77cb8a43",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The little office seemed somehow estranged from itself."
+      ]
+    },
+    {
+      "id": "000087-479195097859",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-7db7e65635aa",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A nameless austerity pervaded the room."
+      ]
+    },
+    {
+      "id": "000087-229fb311d283",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-d2a0285c30c5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The pantry's atmosphere slipped into a different key."
+      ]
+    },
+    {
+      "id": "000087-9958bd2b6cbc",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-eb313dcc23fe",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The foyer seemed to harbour a new uneasiness."
+      ]
+    },
+    {
+      "id": "000087-ff03b2c1b630",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8ff43e1b2389",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The meeting room felt subtly more profound."
+      ]
+    },
+    {
+      "id": "000087-f83c4c312395",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-6c097338ce16",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An obscure chill entered the emotional air of her hallway."
+      ]
+    },
+    {
+      "id": "000087-aced44b9849c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-4fffb934a060",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"The atmosphere has lost its centre somehow,\" Eva said"
+      ]
+    },
+    {
+      "id": "000087-8a7ea5164ec2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f763ed9d6f17",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The shop had an elusive air of finality."
+      ]
+    },
+    {
+      "id": "000087-2f2c337c87e7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-59aaa32a401a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The lounge took on a slightly spectral mood."
+      ]
+    },
+    {
+      "id": "000087-7a240c77e8ea",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-14e3bc7022c7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The forecourt felt strangely expectant."
+      ]
+    },
+    {
+      "id": "000087-babdf9913c75",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-d6966324bbf2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was a barely definable electricity about the reading room."
+      ]
+    },
+    {
+      "id": "000087-c98b8963dc8c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f4a5df3974e1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The whole house seemed touched by a vague gravity."
+      ]
+    },
+    {
+      "id": "000087-2d4f57929d51",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-70820b981c10",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The school hall's atmosphere became mysteriously rounded."
+      ]
+    },
+    {
+      "id": "000087-133cf59a1167",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-3c6d6f3e766a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The upper gallery felt permeated by an indistinct sorrow."
+      ]
+    },
+    {
+      "id": "000087-d83e278bf862",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-5fa1e841883a",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Her front room had a vaguely altered emotional colour."
+      ]
+    },
+    {
+      "id": "000087-3f6cb22f54c6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-ee60e9354fe6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A diffuse significance filled the dining room."
+      ]
+    },
+    {
+      "id": "000087-34e1a8a13289",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-f76fe3079a24",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The bar had a curious atmosphere of elsewhere."
+      ]
+    },
+    {
+      "id": "000087-b746d7b644ea",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-17553daf734b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"It's become a rather doubtful room,\" Peter said"
+      ]
+    },
+    {
+      "id": "000087-6e68f16e6b00",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-6a6cbae178f3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The garage possessed an obscurely tender atmosphere."
+      ]
+    },
+    {
+      "id": "000087-4054ecc6159f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-7d1d5159ceab",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A muted strangeness clung to the buffet."
+      ]
+    },
+    {
+      "id": "000087-eea0e0e6deeb",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8064b2ca8b78",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The attic's mood felt newly unsettled."
+      ]
+    },
+    {
+      "id": "000087-29c4aee171a8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c08715551339",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The back yard had acquired an intangible bitterness."
+      ]
+    },
+    {
+      "id": "000087-c084e4335c82",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c1f4e59262cf",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The orchard felt vaguely freighted with meaning."
+      ]
+    },
+    {
+      "id": "000087-945458878898",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-350beecef056",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The cafe's emotional temperature had shifted without explanation."
+      ]
+    },
+    {
+      "id": "000087-cd3edf02f359",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-a3d1dc9ff28b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A faintly unstable mood lay over the plots."
+      ]
+    },
+    {
+      "id": "000087-91c0721b05f2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-5d7c79b45534",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The office seemed wrapped in a peculiar neutrality."
+      ]
+    },
+    {
+      "id": "000087-d7159a712fd3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-9305d1c68aca",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The upper concourse felt oddly disconnected in spirit."
+      ]
+    },
+    {
+      "id": "000087-60292df9b7a3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-8ec423807ae4",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The arcade had a strangely fateful air."
+      ]
+    },
+    {
+      "id": "000087-670a116d0af8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-21aa15e09bf3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The garden's atmosphere had turned quietly enigmatic."
+      ]
+    },
+    {
+      "id": "000087-fdaa4f851461",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e49c2140c535",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"The room seems to have become more inwardly cold,\" the tutor said"
+      ]
+    },
+    {
+      "id": "000087-63cfee0044b7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c254e3333c51",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A nebulous sense of dislocation filled the room."
+      ]
+    },
+    {
+      "id": "000087-cc9295889235",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-52fcc30f6db6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A vaguely anxious current ran through the hall."
+      ]
+    },
+    {
+      "id": "000087-730f609fba4f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c51a83af33ba",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The passage to the yard held an inexplicably wistful atmosphere."
+      ]
+    },
+    {
+      "id": "000087-50bb1b5a5642",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-3db7f1035800",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The shop's mood seemed subtly displaced."
+      ]
+    },
+    {
+      "id": "000087-11efd7223e76",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-828199b3c6e8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A peculiar moral weight seemed to settle over the hut."
+      ]
+    },
+    {
+      "id": "000087-dd75ff2fa296",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-09c911e6539f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The lawn seemed surrounded by an unfamiliar emotional haze."
+      ]
+    },
+    {
+      "id": "000087-8595b86e56a5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-0a994fe8d80f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An almost secretive mood inhabited the kitchen."
+      ]
+    },
+    {
+      "id": "000087-b7a4c5e5db98",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-296ac9903584",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The back room felt steeped in an uncertain resignation."
+      ]
+    },
+    {
+      "id": "000087-8a74ed74ab3e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-bcdeddc5eebd",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The training room had assumed an indefinable seriousness."
+      ]
+    },
+    {
+      "id": "000087-2478d917ca13",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-53e197db1829",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "By the time we reached the quay, its atmosphere felt subtly unbalanced."
+      ]
+    },
+    {
+      "id": "000087-c433fbb00365",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-e4c5bdb71fe5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"This place has become a bit thinner somehow,\" my cousin said"
+      ]
+    },
+    {
+      "id": "000087-fbe543c09421",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-5f1f0aad7901",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The hallway held a quietly portentous quality."
+      ]
+    },
+    {
+      "id": "000087-f2dc8383b855",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-a1e54ec19ad3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The living room's mood softened in some unnameable way."
+      ]
+    },
+    {
+      "id": "000087-4dc49d99b471",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-07e89d123eb3",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A strangely suspended feeling possessed the yard."
+      ]
+    },
+    {
+      "id": "000087-59369cf346c6",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-cbd6f97fd47b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A slight wrongness coloured the room's atmosphere."
+      ]
+    },
+    {
+      "id": "000087-53ae40e2ed55",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-5f5542641f36",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The field seemed to have acquired a sombre inwardness."
+      ]
+    },
+    {
+      "id": "000087-c8169ed21945",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-64d09061a235",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The hall carried an obscure sense of unease."
+      ]
+    },
+    {
+      "id": "000087-fe51da716e8e",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-04cfabcfa0e8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "A vague emotional dusk seemed to settle over our corner."
+      ]
+    },
+    {
+      "id": "000087-a76013a63d8d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-99a8ec13c8b5",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The gallery seemed infused with a nameless distance."
+      ]
+    },
+    {
+      "id": "000087-26f4405f6c4b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-5dee8aa03202",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The sports centre felt subtly diminished in tone."
+      ]
+    },
+    {
+      "id": "000087-5993387fe2c1",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-4670b45f4ddb",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "\"The kitchen has a different kind of silence about it,\" Ben said, though he offered no further explanation."
+      ]
+    },
+    {
+      "id": "000087-b824c93f331f",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-c65f5cf6ab57",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The bedroom had taken on an oddly consequential mood."
+      ]
+    },
+    {
+      "id": "000087-e8c851de4b88",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000087-70a9c0416ff8",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Her workroom seemed to have drifted into a more sombre register."
+      ]
+    },
+    {
+      "id": "000087-4ffab51e5fe6",
       "check": "narrative-craft/empty-atmosphere-shift",
       "expected": false
     }

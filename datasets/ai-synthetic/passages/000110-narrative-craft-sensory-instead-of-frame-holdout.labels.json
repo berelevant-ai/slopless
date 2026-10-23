@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "0f3a4095b16024742e78ecdc2eaffef4a92deaf8dc3dddac856aebc999c56bac",
+  "textSha256": "844f2e7ca476da25d11b5c2be9dfbeaf72c046b208feeadff5543bf10d00ad89",
   "source": {
     "name": "Codex-authored narrative-craft-sensory-instead-of-frame-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -30,87 +30,1187 @@
     {
       "id": "000110-0c5dec07a1a8",
       "start": 1302,
-      "end": 1663
+      "end": 1702
     },
     {
       "id": "000110-8a8faa2ca393",
-      "start": 1689,
-      "end": 2065
+      "start": 1728,
+      "end": 2104
     },
     {
       "id": "000110-ddb7dd48d53f",
-      "start": 2091,
-      "end": 2463
+      "start": 2130,
+      "end": 2502
     },
     {
       "id": "000110-05f46856fd08",
-      "start": 2489,
-      "end": 2869
+      "start": 2528,
+      "end": 2908
     },
     {
       "id": "000110-0877742001db",
-      "start": 2895,
-      "end": 3290
+      "start": 2934,
+      "end": 3329
     },
     {
       "id": "000110-72b8e4fe0afc",
-      "start": 3316,
-      "end": 3713
+      "start": 3355,
+      "end": 3752
     },
     {
       "id": "000110-fd3eeec61a81",
-      "start": 3739,
-      "end": 4147
+      "start": 3778,
+      "end": 4186
     },
     {
       "id": "000110-36ae04eee972",
-      "start": 4173,
-      "end": 4513
+      "start": 4212,
+      "end": 4552
     },
     {
       "id": "000110-dddfeabbfdac",
-      "start": 4539,
-      "end": 4921
+      "start": 4578,
+      "end": 4960
     },
     {
       "id": "000110-4445be1fe45d",
-      "start": 4947,
-      "end": 5287
+      "start": 4986,
+      "end": 5326
     },
     {
       "id": "000110-1ebfa710e67e",
-      "start": 5313,
-      "end": 5690
+      "start": 5352,
+      "end": 5729
     },
     {
       "id": "000110-2018e2391329",
-      "start": 5716,
-      "end": 6068
+      "start": 5755,
+      "end": 6107
     },
     {
       "id": "000110-b54e46275e9e",
-      "start": 6094,
-      "end": 6471
+      "start": 6133,
+      "end": 6510
     },
     {
       "id": "000110-cac27e827fd7",
-      "start": 6497,
-      "end": 6853
+      "start": 6536,
+      "end": 6892
     },
     {
       "id": "000110-bf1fec21b714",
-      "start": 6879,
-      "end": 7273
+      "start": 6918,
+      "end": 7291
     },
     {
       "id": "000110-a01ae765b5aa",
-      "start": 7299,
-      "end": 7686
+      "start": 7317,
+      "end": 7704
     },
     {
       "id": "000110-178100547ea0",
-      "start": 7712,
-      "end": 8080
+      "start": 7730,
+      "end": 8098
+    },
+    {
+      "id": "000110-8c0cb814f3c1",
+      "start": 8124,
+      "end": 8401
+    },
+    {
+      "id": "000110-63dfcdbbb5a4",
+      "start": 8427,
+      "end": 8686
+    },
+    {
+      "id": "000110-934d2aacda03",
+      "start": 8712,
+      "end": 8990
+    },
+    {
+      "id": "000110-cde2d8019893",
+      "start": 9016,
+      "end": 9290
+    },
+    {
+      "id": "000110-a1fc32c3106a",
+      "start": 9316,
+      "end": 9584
+    },
+    {
+      "id": "000110-2b0ac9adb8ea",
+      "start": 9610,
+      "end": 9880
+    },
+    {
+      "id": "000110-94bcb237db27",
+      "start": 9906,
+      "end": 10164
+    },
+    {
+      "id": "000110-f977e36afbd7",
+      "start": 10190,
+      "end": 10446
+    },
+    {
+      "id": "000110-7266934c6660",
+      "start": 10472,
+      "end": 10775
+    },
+    {
+      "id": "000110-77f5e333d73c",
+      "start": 10801,
+      "end": 11092
+    },
+    {
+      "id": "000110-74a61798e0a1",
+      "start": 11118,
+      "end": 11413
+    },
+    {
+      "id": "000110-c4b67da2e612",
+      "start": 11439,
+      "end": 11707
+    },
+    {
+      "id": "000110-27e7dc9092e7",
+      "start": 11733,
+      "end": 12014
+    },
+    {
+      "id": "000110-ad7950c3117a",
+      "start": 12040,
+      "end": 12327
+    },
+    {
+      "id": "000110-bbddd0e10d91",
+      "start": 12353,
+      "end": 12619
+    },
+    {
+      "id": "000110-76e6ac28ec67",
+      "start": 12645,
+      "end": 12939
+    },
+    {
+      "id": "000110-ac1f546f59c1",
+      "start": 12965,
+      "end": 13227
+    },
+    {
+      "id": "000110-2541a64c3be5",
+      "start": 13253,
+      "end": 13528
+    },
+    {
+      "id": "000110-17e9bfb7b903",
+      "start": 13554,
+      "end": 13813
+    },
+    {
+      "id": "000110-94fe7a831a40",
+      "start": 13839,
+      "end": 14125
+    },
+    {
+      "id": "000110-8267b41afa59",
+      "start": 14151,
+      "end": 14424
+    },
+    {
+      "id": "000110-4488c6cefa3b",
+      "start": 14450,
+      "end": 14712
+    },
+    {
+      "id": "000110-7eb6d05d5cad",
+      "start": 14738,
+      "end": 15037
+    },
+    {
+      "id": "000110-221730639933",
+      "start": 15063,
+      "end": 15320
+    },
+    {
+      "id": "000110-bd74980b4961",
+      "start": 15346,
+      "end": 15634
+    },
+    {
+      "id": "000110-c2bce098d340",
+      "start": 15660,
+      "end": 15944
+    },
+    {
+      "id": "000110-85642d264c6c",
+      "start": 15970,
+      "end": 16242
+    },
+    {
+      "id": "000110-a0684047f16f",
+      "start": 16268,
+      "end": 16546
+    },
+    {
+      "id": "000110-565a3b46720f",
+      "start": 16572,
+      "end": 16843
+    },
+    {
+      "id": "000110-9e285d1b4d36",
+      "start": 16869,
+      "end": 17166
+    },
+    {
+      "id": "000110-cae97202c22c",
+      "start": 17192,
+      "end": 17464
+    },
+    {
+      "id": "000110-b60da0f89b33",
+      "start": 17490,
+      "end": 17753
+    },
+    {
+      "id": "000110-41d1795ee5d7",
+      "start": 17779,
+      "end": 18055
+    },
+    {
+      "id": "000110-9f1a0faccd1a",
+      "start": 18081,
+      "end": 18374
+    },
+    {
+      "id": "000110-a89901beb118",
+      "start": 18400,
+      "end": 18671
+    },
+    {
+      "id": "000110-01b523a9e24f",
+      "start": 18697,
+      "end": 18966
+    },
+    {
+      "id": "000110-eb94311132b3",
+      "start": 18992,
+      "end": 19260
+    },
+    {
+      "id": "000110-2215e23074b5",
+      "start": 19286,
+      "end": 19600
+    },
+    {
+      "id": "000110-f517e9eb58b0",
+      "start": 19626,
+      "end": 19888
+    },
+    {
+      "id": "000110-73b10cca9113",
+      "start": 19914,
+      "end": 20185
+    },
+    {
+      "id": "000110-f0648cfe536a",
+      "start": 20211,
+      "end": 20516
+    },
+    {
+      "id": "000110-9fb4cdbbb8bc",
+      "start": 20542,
+      "end": 20810
+    },
+    {
+      "id": "000110-8a29bec4cd95",
+      "start": 20836,
+      "end": 21109
+    },
+    {
+      "id": "000110-105a48faee43",
+      "start": 21135,
+      "end": 21394
+    },
+    {
+      "id": "000110-910433579ee7",
+      "start": 21420,
+      "end": 21714
+    },
+    {
+      "id": "000110-8279913de1a0",
+      "start": 21740,
+      "end": 22010
+    },
+    {
+      "id": "000110-e1086d0cab7c",
+      "start": 22036,
+      "end": 22296
+    },
+    {
+      "id": "000110-2af61c6515ee",
+      "start": 22322,
+      "end": 22582
+    },
+    {
+      "id": "000110-a24ea3c0ae16",
+      "start": 22608,
+      "end": 22866
+    },
+    {
+      "id": "000110-1ce3cf7478e1",
+      "start": 22892,
+      "end": 23179
+    },
+    {
+      "id": "000110-730e37de4afb",
+      "start": 23205,
+      "end": 23477
+    },
+    {
+      "id": "000110-e9138ff03a13",
+      "start": 23503,
+      "end": 23798
+    },
+    {
+      "id": "000110-fb7fa5e25c2d",
+      "start": 23824,
+      "end": 24108
+    },
+    {
+      "id": "000110-860a7558bae7",
+      "start": 24134,
+      "end": 24388
+    },
+    {
+      "id": "000110-d3b2b491de9b",
+      "start": 24414,
+      "end": 24702
+    },
+    {
+      "id": "000110-9b2f7572d9a0",
+      "start": 24728,
+      "end": 24990
+    },
+    {
+      "id": "000110-3a288027f7fc",
+      "start": 25016,
+      "end": 25285
+    },
+    {
+      "id": "000110-38ff06a6db3f",
+      "start": 25311,
+      "end": 25591
+    },
+    {
+      "id": "000110-363d4bde5cb8",
+      "start": 25617,
+      "end": 25895
+    },
+    {
+      "id": "000110-5c257ce777b9",
+      "start": 25921,
+      "end": 26198
+    },
+    {
+      "id": "000110-1d6f68b60c89",
+      "start": 26224,
+      "end": 26506
+    },
+    {
+      "id": "000110-f211a3fa2b22",
+      "start": 26532,
+      "end": 26787
+    },
+    {
+      "id": "000110-d505368364dc",
+      "start": 26813,
+      "end": 27088
+    },
+    {
+      "id": "000110-d94020afdeea",
+      "start": 27114,
+      "end": 27388
+    },
+    {
+      "id": "000110-7153b88c643d",
+      "start": 27414,
+      "end": 27703
+    },
+    {
+      "id": "000110-4088f8333632",
+      "start": 27729,
+      "end": 27991
+    },
+    {
+      "id": "000110-aa8074fbfe09",
+      "start": 28017,
+      "end": 28273
+    },
+    {
+      "id": "000110-eeb2a11608a7",
+      "start": 28299,
+      "end": 28561
+    },
+    {
+      "id": "000110-9c9d2f2cfc2f",
+      "start": 28587,
+      "end": 28886
+    },
+    {
+      "id": "000110-aac4d1bd154c",
+      "start": 28912,
+      "end": 29190
+    },
+    {
+      "id": "000110-c5d5e625eb29",
+      "start": 29216,
+      "end": 29492
+    },
+    {
+      "id": "000110-7421975f6ab1",
+      "start": 29518,
+      "end": 29791
+    },
+    {
+      "id": "000110-f62258565f72",
+      "start": 29817,
+      "end": 30084
+    },
+    {
+      "id": "000110-b0aade665bfd",
+      "start": 30110,
+      "end": 30385
+    },
+    {
+      "id": "000110-4df077b93aa2",
+      "start": 30411,
+      "end": 30696
+    },
+    {
+      "id": "000110-3cd68f1a588b",
+      "start": 30722,
+      "end": 31006
+    },
+    {
+      "id": "000110-f488136e8dc3",
+      "start": 31032,
+      "end": 31317
+    },
+    {
+      "id": "000110-5d6bb85d64b6",
+      "start": 31343,
+      "end": 31637
+    },
+    {
+      "id": "000110-9979b47f3898",
+      "start": 31663,
+      "end": 31933
+    },
+    {
+      "id": "000110-1ccf3380cc7c",
+      "start": 31959,
+      "end": 32235
+    },
+    {
+      "id": "000110-e229f6cdc722",
+      "start": 32261,
+      "end": 32541
+    },
+    {
+      "id": "000110-bd14e8bb487d",
+      "start": 32567,
+      "end": 32821
+    },
+    {
+      "id": "000110-35b08966e3e4",
+      "start": 32847,
+      "end": 33127
+    },
+    {
+      "id": "000110-a275079c48d7",
+      "start": 33153,
+      "end": 33448
+    },
+    {
+      "id": "000110-a4723d01e5a4",
+      "start": 33474,
+      "end": 33753
+    },
+    {
+      "id": "000110-cd4dd0658066",
+      "start": 33779,
+      "end": 34046
+    },
+    {
+      "id": "000110-fc6131ad5b58",
+      "start": 34072,
+      "end": 34345
+    },
+    {
+      "id": "000110-eabe74a231d2",
+      "start": 34371,
+      "end": 34644
+    },
+    {
+      "id": "000110-10972d9b6ec7",
+      "start": 34670,
+      "end": 34962
+    },
+    {
+      "id": "000110-ff43fd7bf196",
+      "start": 34988,
+      "end": 35271
+    },
+    {
+      "id": "000110-6af5a71adf48",
+      "start": 35297,
+      "end": 35556
+    },
+    {
+      "id": "000110-e0c2750faa00",
+      "start": 35582,
+      "end": 35839
+    },
+    {
+      "id": "000110-43bd2b1f51ef",
+      "start": 35865,
+      "end": 36155
+    },
+    {
+      "id": "000110-ff7b5c37e700",
+      "start": 36181,
+      "end": 36447
+    },
+    {
+      "id": "000110-9052f0fd7d68",
+      "start": 36473,
+      "end": 36764
+    },
+    {
+      "id": "000110-75c41bc10aa2",
+      "start": 36790,
+      "end": 37072
+    },
+    {
+      "id": "000110-cc41068e3def",
+      "start": 37098,
+      "end": 37358
+    },
+    {
+      "id": "000110-a079d632b2f1",
+      "start": 37384,
+      "end": 37657
+    },
+    {
+      "id": "000110-67c92ea7be6e",
+      "start": 37683,
+      "end": 37960
+    },
+    {
+      "id": "000110-02a95c968231",
+      "start": 37986,
+      "end": 38284
+    },
+    {
+      "id": "000110-d0d0fb04033c",
+      "start": 38310,
+      "end": 38587
+    },
+    {
+      "id": "000110-223588d73576",
+      "start": 38613,
+      "end": 38908
+    },
+    {
+      "id": "000110-db7698506e5d",
+      "start": 38934,
+      "end": 39225
+    },
+    {
+      "id": "000110-a622442f14df",
+      "start": 39251,
+      "end": 39529
+    },
+    {
+      "id": "000110-21c80f981c3b",
+      "start": 39555,
+      "end": 39831
+    },
+    {
+      "id": "000110-dc875b45725a",
+      "start": 39857,
+      "end": 40153
+    },
+    {
+      "id": "000110-cb0b7e0d3b3c",
+      "start": 40179,
+      "end": 40486
+    },
+    {
+      "id": "000110-e7813bcdfa3c",
+      "start": 40512,
+      "end": 40769
+    },
+    {
+      "id": "000110-046c74189e80",
+      "start": 40795,
+      "end": 41084
+    },
+    {
+      "id": "000110-27d32c001c41",
+      "start": 41110,
+      "end": 41392
+    },
+    {
+      "id": "000110-a14329d40012",
+      "start": 41418,
+      "end": 41697
+    },
+    {
+      "id": "000110-31986018044b",
+      "start": 41723,
+      "end": 41984
+    },
+    {
+      "id": "000110-db5b7223bc30",
+      "start": 42010,
+      "end": 42278
+    },
+    {
+      "id": "000110-c6cd2e867723",
+      "start": 42304,
+      "end": 42586
+    },
+    {
+      "id": "000110-a537761a5688",
+      "start": 42612,
+      "end": 42878
+    },
+    {
+      "id": "000110-ffa1a5dbcde4",
+      "start": 42904,
+      "end": 43186
+    },
+    {
+      "id": "000110-d79154b8653e",
+      "start": 43212,
+      "end": 43508
+    },
+    {
+      "id": "000110-561ff1bfdf21",
+      "start": 43534,
+      "end": 43759
+    },
+    {
+      "id": "000110-86a0399f20f7",
+      "start": 43785,
+      "end": 44058
+    },
+    {
+      "id": "000110-3fdd832cb179",
+      "start": 44084,
+      "end": 44350
+    },
+    {
+      "id": "000110-abb5a81971e1",
+      "start": 44376,
+      "end": 44655
+    },
+    {
+      "id": "000110-cbc5e4e57311",
+      "start": 44681,
+      "end": 44927
+    },
+    {
+      "id": "000110-dd227d42b448",
+      "start": 44953,
+      "end": 45221
+    },
+    {
+      "id": "000110-b0f53fc77c63",
+      "start": 45247,
+      "end": 45525
+    },
+    {
+      "id": "000110-ada88542b375",
+      "start": 45551,
+      "end": 45845
+    },
+    {
+      "id": "000110-abb646e8678b",
+      "start": 45871,
+      "end": 46130
+    },
+    {
+      "id": "000110-f7e13a1a2649",
+      "start": 46156,
+      "end": 46436
+    },
+    {
+      "id": "000110-6e7433655986",
+      "start": 46462,
+      "end": 46736
+    },
+    {
+      "id": "000110-922a2e1c4ff1",
+      "start": 46762,
+      "end": 47027
+    },
+    {
+      "id": "000110-821793e10f37",
+      "start": 47053,
+      "end": 47328
+    },
+    {
+      "id": "000110-cc11aa4c9dd8",
+      "start": 47354,
+      "end": 47625
+    },
+    {
+      "id": "000110-b3ca5ddf4470",
+      "start": 47651,
+      "end": 47924
+    },
+    {
+      "id": "000110-f3186f55f3d4",
+      "start": 47950,
+      "end": 48237
+    },
+    {
+      "id": "000110-f9384a04c1ac",
+      "start": 48263,
+      "end": 48529
+    },
+    {
+      "id": "000110-6c55e542698d",
+      "start": 48555,
+      "end": 48837
+    },
+    {
+      "id": "000110-a596254bc3c9",
+      "start": 48863,
+      "end": 49143
+    },
+    {
+      "id": "000110-337f07b20fd4",
+      "start": 49169,
+      "end": 49455
+    },
+    {
+      "id": "000110-2034dae5527d",
+      "start": 49481,
+      "end": 49749
+    },
+    {
+      "id": "000110-4efed4414329",
+      "start": 49775,
+      "end": 50053
+    },
+    {
+      "id": "000110-3e5b1d45af85",
+      "start": 50079,
+      "end": 50346
+    },
+    {
+      "id": "000110-ea7339fcfe98",
+      "start": 50372,
+      "end": 50671
+    },
+    {
+      "id": "000110-db650150cf79",
+      "start": 50697,
+      "end": 50962
+    },
+    {
+      "id": "000110-4327b683ee4d",
+      "start": 50988,
+      "end": 51270
+    },
+    {
+      "id": "000110-7895e6f09733",
+      "start": 51296,
+      "end": 51584
+    },
+    {
+      "id": "000110-b42bf07a098b",
+      "start": 51610,
+      "end": 51910
+    },
+    {
+      "id": "000110-82f2ff4cfe86",
+      "start": 51936,
+      "end": 52204
+    },
+    {
+      "id": "000110-f3197d776415",
+      "start": 52230,
+      "end": 52529
+    },
+    {
+      "id": "000110-ad3ffdc4a97f",
+      "start": 52555,
+      "end": 52839
+    },
+    {
+      "id": "000110-c7285b3cacdc",
+      "start": 52865,
+      "end": 53131
+    },
+    {
+      "id": "000110-3e05ef087198",
+      "start": 53157,
+      "end": 53435
+    },
+    {
+      "id": "000110-c2259d4285ac",
+      "start": 53461,
+      "end": 53734
+    },
+    {
+      "id": "000110-acf6a208f074",
+      "start": 53760,
+      "end": 54053
+    },
+    {
+      "id": "000110-13db81e0c3e3",
+      "start": 54079,
+      "end": 54351
+    },
+    {
+      "id": "000110-9fd914907528",
+      "start": 54377,
+      "end": 54657
+    },
+    {
+      "id": "000110-d125d51337cb",
+      "start": 54683,
+      "end": 54972
+    },
+    {
+      "id": "000110-4cef6a066129",
+      "start": 54998,
+      "end": 55257
+    },
+    {
+      "id": "000110-5d5c90f0a0aa",
+      "start": 55283,
+      "end": 55545
+    },
+    {
+      "id": "000110-baa373e718c9",
+      "start": 55571,
+      "end": 55856
+    },
+    {
+      "id": "000110-b27bf6f8f7c4",
+      "start": 55882,
+      "end": 56142
+    },
+    {
+      "id": "000110-7c66e482a0ff",
+      "start": 56168,
+      "end": 56436
+    },
+    {
+      "id": "000110-62054c0aa21b",
+      "start": 56462,
+      "end": 56733
+    },
+    {
+      "id": "000110-af8d091ec683",
+      "start": 56759,
+      "end": 57020
+    },
+    {
+      "id": "000110-de3bed17285a",
+      "start": 57046,
+      "end": 57315
+    },
+    {
+      "id": "000110-98380d6bcb36",
+      "start": 57341,
+      "end": 57620
+    },
+    {
+      "id": "000110-fe36712f97ea",
+      "start": 57646,
+      "end": 57949
+    },
+    {
+      "id": "000110-cc63df634db5",
+      "start": 57975,
+      "end": 58245
+    },
+    {
+      "id": "000110-f2452c77f133",
+      "start": 58271,
+      "end": 58557
+    },
+    {
+      "id": "000110-e87941582565",
+      "start": 58583,
+      "end": 58870
+    },
+    {
+      "id": "000110-852445c1ce62",
+      "start": 58896,
+      "end": 59163
+    },
+    {
+      "id": "000110-9fded30dd5a1",
+      "start": 59189,
+      "end": 59443
+    },
+    {
+      "id": "000110-f8eba0dc83a1",
+      "start": 59469,
+      "end": 59754
+    },
+    {
+      "id": "000110-306f9e0a0215",
+      "start": 59780,
+      "end": 60054
+    },
+    {
+      "id": "000110-8193dce51321",
+      "start": 60080,
+      "end": 60375
+    },
+    {
+      "id": "000110-18e2213bd35b",
+      "start": 60401,
+      "end": 60655
+    },
+    {
+      "id": "000110-18c7e4694e07",
+      "start": 60681,
+      "end": 60976
+    },
+    {
+      "id": "000110-9a3006282cd5",
+      "start": 61002,
+      "end": 61275
+    },
+    {
+      "id": "000110-af8281c294c0",
+      "start": 61301,
+      "end": 61580
+    },
+    {
+      "id": "000110-5ecf0562a0f6",
+      "start": 61606,
+      "end": 61891
+    },
+    {
+      "id": "000110-8719c58a9326",
+      "start": 61917,
+      "end": 62191
+    },
+    {
+      "id": "000110-7886e11e3117",
+      "start": 62217,
+      "end": 62463
+    },
+    {
+      "id": "000110-78754f25472f",
+      "start": 62489,
+      "end": 62772
+    },
+    {
+      "id": "000110-cd29dccb000f",
+      "start": 62798,
+      "end": 63068
+    },
+    {
+      "id": "000110-35d642f084ff",
+      "start": 63094,
+      "end": 63390
+    },
+    {
+      "id": "000110-4039e4d96dc8",
+      "start": 63416,
+      "end": 63690
+    },
+    {
+      "id": "000110-b251477e28d3",
+      "start": 63716,
+      "end": 63992
+    },
+    {
+      "id": "000110-cf6273375ad4",
+      "start": 64018,
+      "end": 64291
+    },
+    {
+      "id": "000110-c9f35c5b69b0",
+      "start": 64317,
+      "end": 64618
+    },
+    {
+      "id": "000110-a79542f80505",
+      "start": 64644,
+      "end": 64930
+    },
+    {
+      "id": "000110-c3cb6becb2ee",
+      "start": 64956,
+      "end": 65221
+    },
+    {
+      "id": "000110-c618eb3a5898",
+      "start": 65247,
+      "end": 65549
+    },
+    {
+      "id": "000110-24b688c0ecbe",
+      "start": 65575,
+      "end": 65848
+    },
+    {
+      "id": "000110-cd17e0e9b0c8",
+      "start": 65874,
+      "end": 66164
+    },
+    {
+      "id": "000110-d8ee21acb324",
+      "start": 66190,
+      "end": 66467
+    },
+    {
+      "id": "000110-0ea06d7fe8b5",
+      "start": 66493,
+      "end": 66775
+    },
+    {
+      "id": "000110-57753f7fae52",
+      "start": 66801,
+      "end": 67090
+    },
+    {
+      "id": "000110-0de21ded397d",
+      "start": 67116,
+      "end": 67378
+    },
+    {
+      "id": "000110-cfe820562afd",
+      "start": 67404,
+      "end": 67697
+    },
+    {
+      "id": "000110-4de7a9ed684b",
+      "start": 67723,
+      "end": 68005
+    },
+    {
+      "id": "000110-4fdae39e1f66",
+      "start": 68031,
+      "end": 68317
+    },
+    {
+      "id": "000110-2b14fc98e21d",
+      "start": 68343,
+      "end": 68596
+    },
+    {
+      "id": "000110-b519685c7b79",
+      "start": 68622,
+      "end": 68885
+    },
+    {
+      "id": "000110-2ee9a91a4755",
+      "start": 68911,
+      "end": 69182
+    },
+    {
+      "id": "000110-5af46f68f2db",
+      "start": 69208,
+      "end": 69464
+    },
+    {
+      "id": "000110-8d976c5b5963",
+      "start": 69490,
+      "end": 69758
+    },
+    {
+      "id": "000110-ac808b302fb3",
+      "start": 69784,
+      "end": 70091
+    },
+    {
+      "id": "000110-2f5945c7f21d",
+      "start": 70117,
+      "end": 70398
+    },
+    {
+      "id": "000110-ea048ecd1bd7",
+      "start": 70424,
+      "end": 70728
+    },
+    {
+      "id": "000110-3475fa14fd90",
+      "start": 70754,
+      "end": 71055
+    },
+    {
+      "id": "000110-a45ef312df8a",
+      "start": 71081,
+      "end": 71357
+    },
+    {
+      "id": "000110-ffbf1d4bdc70",
+      "start": 71383,
+      "end": 71649
+    },
+    {
+      "id": "000110-d4c72f1a3fe2",
+      "start": 71675,
+      "end": 71936
+    },
+    {
+      "id": "000110-169252d8182b",
+      "start": 71962,
+      "end": 72236
+    },
+    {
+      "id": "000110-6913bcd6f452",
+      "start": 72262,
+      "end": 72551
+    },
+    {
+      "id": "000110-44a9e59ac4d3",
+      "start": 72577,
+      "end": 72860
+    },
+    {
+      "id": "000110-ab407825c8bc",
+      "start": 72886,
+      "end": 73192
+    },
+    {
+      "id": "000110-48360259b24f",
+      "start": 73218,
+      "end": 73511
+    },
+    {
+      "id": "000110-58d3b77f7107",
+      "start": 73537,
+      "end": 73823
+    },
+    {
+      "id": "000110-fca23f8ec3f0",
+      "start": 73849,
+      "end": 74131
+    },
+    {
+      "id": "000110-1303b7adbf70",
+      "start": 74157,
+      "end": 74442
+    },
+    {
+      "id": "000110-374bd923a1ae",
+      "start": 74468,
+      "end": 74775
     }
   ],
   "labels": [
@@ -141,10 +1241,7 @@
     {
       "id": "000110-0c5dec07a1a8",
       "check": "narrative-craft/sensory-instead-of-frame",
-      "expected": true,
-      "snippets": [
-        "The corridor smelled of floor wax and tired paper where once it had smelled of chalk and warm wool."
-      ]
+      "expected": false
     },
     {
       "id": "000110-8a8faa2ca393",
@@ -244,6 +1341,1440 @@
       "id": "000110-178100547ea0",
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": false
+    },
+    {
+      "id": "000110-8c0cb814f3c1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Sunday smelled of beeswax and warm pastry instead of diesel and damp cardboard."
+      ]
+    },
+    {
+      "id": "000110-63dfcdbbb5a4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-934d2aacda03",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon carried the rustle of leaves in place of the clatter of cutlery."
+      ]
+    },
+    {
+      "id": "000110-cde2d8019893",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a1fc32c3106a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening felt like brushed silk against my arms, no longer the rough canvas of the working day."
+      ]
+    },
+    {
+      "id": "000110-2b0ac9adb8ea",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-94bcb237db27",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room tasted of honey and dust rather than salt and cold iron."
+      ]
+    },
+    {
+      "id": "000110-f977e36afbd7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-7266934c6660",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside, the street breathed rosemary and rain instead of tar and fried onions."
+      ]
+    },
+    {
+      "id": "000110-77f5e333d73c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-74a61798e0a1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Thursday sounded of turning pages and soft shoes, unlike the brakes and shouting of the world outside."
+      ]
+    },
+    {
+      "id": "000110-c4b67da2e612",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-27e7dc9092e7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning exchanged the taste of bitter coffee for peach juice and cream."
+      ]
+    },
+    {
+      "id": "000110-ad7950c3117a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-bbddd0e10d91",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air smelled of lemon oil and dry leaves, not the usual wet wool and bus fumes."
+      ]
+    },
+    {
+      "id": "000110-76e6ac28ec67",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-ac1f546f59c1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hours chimed with porcelain and gentle conversation rather than traffic and impatient bells."
+      ]
+    },
+    {
+      "id": "000110-2541a64c3be5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-17e9bfb7b903",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The night lay cool as marble against my face instead of warm as folded flannel."
+      ]
+    },
+    {
+      "id": "000110-94fe7a831a40",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-8267b41afa59",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Dawn smelled of crushed mint and woodsmoke rather than petrol and old upholstery."
+      ]
+    },
+    {
+      "id": "000110-4488c6cefa3b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-7eb6d05d5cad",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "June hummed with bees and water rather than engines and wires."
+      ]
+    },
+    {
+      "id": "000110-221730639933",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-bd74980b4961",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon tasted of vanilla and green apples, leaving behind the burnt toast and tin of earlier hours."
+      ]
+    },
+    {
+      "id": "000110-c2bce098d340",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-85642d264c6c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside, the air offered cinnamon and worn leather in place of damp asphalt and cigarette smoke."
+      ]
+    },
+    {
+      "id": "000110-a0684047f16f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-565a3b46720f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The crossing sounded of gull cries and silver water instead of doorbells and grinding gears."
+      ]
+    },
+    {
+      "id": "000110-9e285d1b4d36",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-cae97202c22c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning wore the scent of bergamot and pale wood rather than hot rubber and rain."
+      ]
+    },
+    {
+      "id": "000110-b60da0f89b33",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-41d1795ee5d7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day has the texture of soft moss instead of crumpled foil."
+      ]
+    },
+    {
+      "id": "000110-9f1a0faccd1a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a89901beb118",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The kitchen murmured with spoons and quiet laughter rather than brakes and shouted orders."
+      ]
+    },
+    {
+      "id": "000110-01b523a9e24f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-eb94311132b3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Around the wheel, the afternoon smelled of wet earth and thyme, no longer of concrete and cheap perfume."
+      ]
+    },
+    {
+      "id": "000110-2215e23074b5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f517e9eb58b0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening tasted of ripe figs and cream rather than black tea and pennies."
+      ]
+    },
+    {
+      "id": "000110-73b10cca9113",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f0648cfe536a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Dawn rang with birds and distant bells instead of alarms and rattling windows."
+      ]
+    },
+    {
+      "id": "000110-9fb4cdbbb8bc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-8a29bec4cd95",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room felt like cool satin rather than the coarse wool of ordinary life."
+      ]
+    },
+    {
+      "id": "000110-105a48faee43",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-910433579ee7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The street smelled of crushed petals and sunlit brick, not wet newspapers and burnt oil."
+      ]
+    },
+    {
+      "id": "000110-8279913de1a0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-e1086d0cab7c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hour traded the sound of engines for the whisper of cloth and sigh of old wood."
+      ]
+    },
+    {
+      "id": "000110-2af61c6515ee",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a24ea3c0ae16",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Saturday tasted of lemon cake and fresh milk instead of copper and burnt coffee."
+      ]
+    },
+    {
+      "id": "000110-1ce3cf7478e1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-730e37de4afb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The night smelled of pine needles and cold stars instead of spilled beer and yesterday's smoke."
+      ]
+    },
+    {
+      "id": "000110-e9138ff03a13",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-fb7fa5e25c2d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Around us, morning splashed with water and bright voices rather than tyres and factory whistles."
+      ]
+    },
+    {
+      "id": "000110-860a7558bae7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d3b2b491de9b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house breathed cedar and fresh linen rather than the iron and salt of the world beyond."
+      ]
+    },
+    {
+      "id": "000110-9b2f7572d9a0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-3a288027f7fc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The journey felt like smooth porcelain rather than the rough bark of my usual days."
+      ]
+    },
+    {
+      "id": "000110-38ff06a6db3f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-363d4bde5cb8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hillside offered sheep calls and running water where the week had offered horns and ringing phones."
+      ]
+    },
+    {
+      "id": "000110-5c257ce777b9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-1d6f68b60c89",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening smelled of warm bread and sandalwood instead of rust and cold pavement."
+      ]
+    },
+    {
+      "id": "000110-f211a3fa2b22",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d505368364dc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon had a flavour of pear drops and sunlight rather than burnt sugar and steel."
+      ]
+    },
+    {
+      "id": "000110-d94020afdeea",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-7153b88c643d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning rustled with paper and whispered greetings, not the coarse clang of buses and bins."
+      ]
+    },
+    {
+      "id": "000110-4088f8333632",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-aa8074fbfe09",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air touched us with the chill of polished glass rather than the warmth of old blankets."
+      ]
+    },
+    {
+      "id": "000110-eeb2a11608a7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-9c9d2f2cfc2f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside, the afternoon smelled of eucalyptus and warm sand instead of drainwater and cooking fat."
+      ]
+    },
+    {
+      "id": "000110-aac4d1bd154c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-c5d5e625eb29",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening sang with blackbirds and soft wind instead of sirens and television chatter."
+      ]
+    },
+    {
+      "id": "000110-7421975f6ab1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f62258565f72",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning tasted of warm jam and clean rain, no longer of ash and bitter almonds."
+      ]
+    },
+    {
+      "id": "000110-b0aade665bfd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-4df077b93aa2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The courtyard smelled of rain-dark stone and sage rather than photocopier toner and burnt sugar."
+      ]
+    },
+    {
+      "id": "000110-3cd68f1a588b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f488136e8dc3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hall exchanged the hush of velvet for the rattle of tin."
+      ]
+    },
+    {
+      "id": "000110-5d6bb85d64b6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-9979b47f3898",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Saturday shimmered in honey and amber rather than the grey and silver of routine."
+      ]
+    },
+    {
+      "id": "000110-1ccf3380cc7c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-e229f6cdc722",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Noon smelled of apricot blossom and chalk instead of cabbage and scorched toast."
+      ]
+    },
+    {
+      "id": "000110-bd14e8bb487d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-35b08966e3e4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon brushed my skin like cool feathers instead of scratchy wool."
+      ]
+    },
+    {
+      "id": "000110-a275079c48d7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a4723d01e5a4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning simmered with onion sweetness and rosemary rather than the sourness of traffic and damp coats."
+      ]
+    },
+    {
+      "id": "000110-cd4dd0658066",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-fc6131ad5b58",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room offered murmurs and the soft fall of paper instead of horns and pneumatic drills."
+      ]
+    },
+    {
+      "id": "000110-eabe74a231d2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-10972d9b6ec7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The weekend smelled of warm pears and linen rather than copper pipes and stale toast."
+      ]
+    },
+    {
+      "id": "000110-ff43fd7bf196",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-6af5a71adf48",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day tasted of orange peel and sweet butter in place of gravel and old coins."
+      ]
+    },
+    {
+      "id": "000110-e0c2750faa00",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-43bd2b1f51ef",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening settled on us in cool blue instead of the harsh yellow of working hours."
+      ]
+    },
+    {
+      "id": "000110-ff7b5c37e700",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-9052f0fd7d68",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning clicked with keyboards and pens rather than the rattle of leaves and rain."
+      ]
+    },
+    {
+      "id": "000110-75c41bc10aa2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-cc41068e3def",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The lane smelled of clover and wet bark instead of dust and hot wiring."
+      ]
+    },
+    {
+      "id": "000110-a079d632b2f1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-67c92ea7be6e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening felt soft as peach skin rather than gritty as a railway platform."
+      ]
+    },
+    {
+      "id": "000110-02a95c968231",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d0d0fb04033c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day carried a music of dripping leaves rather than grinding engines."
+      ]
+    },
+    {
+      "id": "000110-223588d73576",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-db7698506e5d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Summer tasted of ripe berries and spring water instead of soot and burnt coffee."
+      ]
+    },
+    {
+      "id": "000110-a622442f14df",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-21c80f981c3b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air smelled of lemon verbena and old wood, not exhaust and damp paper."
+      ]
+    },
+    {
+      "id": "000110-dc875b45725a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-cb0b7e0d3b3c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The kitchen rang with little metallic notes rather than the breathing hush of trees."
+      ]
+    },
+    {
+      "id": "000110-e7813bcdfa3c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-046c74189e80",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning lay smooth and cool against us rather than hot and prickly."
+      ]
+    },
+    {
+      "id": "000110-27d32c001c41",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a14329d40012",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Noon smelled of crushed fennel and warm limestone rather than rubber and cold grease."
+      ]
+    },
+    {
+      "id": "000110-31986018044b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-db5b7223bc30",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house swapped the scrape of daily life for a soft wash of music and candlelit laughter."
+      ]
+    },
+    {
+      "id": "000110-c6cd2e867723",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a537761a5688",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon tasted of coconut and bright sugar rather than rust and weak tea."
+      ]
+    },
+    {
+      "id": "000110-ffa1a5dbcde4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d79154b8653e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening smelled of nutmeg and dry hay instead of wet cement and singed paper."
+      ]
+    },
+    {
+      "id": "000110-561ff1bfdf21",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-86a0399f20f7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Sunday hummed with bees and linen-soft voices rather than trains and clanking shutters."
+      ]
+    },
+    {
+      "id": "000110-3fdd832cb179",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-abb5a81971e1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning felt like chilled cream rather than the grit of everyday errands."
+      ]
+    },
+    {
+      "id": "000110-cbc5e4e57311",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-dd227d42b448",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room smelled of apples and soft leather rather than wet iron and old onions."
+      ]
+    },
+    {
+      "id": "000110-b0f53fc77c63",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-ada88542b375",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon rang with teaspoons and birdsong, not door slams and machinery."
+      ]
+    },
+    {
+      "id": "000110-abb646e8678b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f7e13a1a2649",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The week smelled of jasmine and white tea instead of scorched wires and wet socks."
+      ]
+    },
+    {
+      "id": "000110-6e7433655986",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-922a2e1c4ff1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning held the flavour of warm cherries rather than the cold brass of weekdays."
+      ]
+    },
+    {
+      "id": "000110-821793e10f37",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-cc11aa4c9dd8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air wore the sweetness of honeysuckle instead of the bitterness of hot metal."
+      ]
+    },
+    {
+      "id": "000110-b3ca5ddf4470",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f3186f55f3d4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening sounded of glass and soft vowels instead of iron wheels and sharp commands."
+      ]
+    },
+    {
+      "id": "000110-f9384a04c1ac",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-6c55e542698d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day pressed cool as river pebbles rather than hot as roofing felt."
+      ]
+    },
+    {
+      "id": "000110-a596254bc3c9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-337f07b20fd4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room smelled of warm cotton and cedar, replacing the city's odour of wet stone and burnt fuel."
+      ]
+    },
+    {
+      "id": "000110-2034dae5527d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-4efed4414329",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon tasted of sugared fennel and ripe melon rather than rainwater and old teaspoons."
+      ]
+    },
+    {
+      "id": "000110-3e5b1d45af85",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-ea7339fcfe98",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning offered water's velvet slap instead of the city's iron percussion."
+      ]
+    },
+    {
+      "id": "000110-db650150cf79",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-4327b683ee4d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The field smelled of hay and apple peel rather than drain covers and hot bread."
+      ]
+    },
+    {
+      "id": "000110-7895e6f09733",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-b42bf07a098b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon glowed apricot rather than the tin-grey colour of ordinary business."
+      ]
+    },
+    {
+      "id": "000110-82f2ff4cfe86",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f3197d776415",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning tasted of toasted hazelnuts instead of stale coffee and paper."
+      ]
+    },
+    {
+      "id": "000110-ad3ffdc4a97f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-c7285b3cacdc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The workshop smelled of walnut shells and beeswax rather than wet wool and frying oil."
+      ]
+    },
+    {
+      "id": "000110-3e05ef087198",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-c2259d4285ac",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening traded the rough buzz of traffic for the gentle chime of glasses."
+      ]
+    },
+    {
+      "id": "000110-acf6a208f074",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-13db81e0c3e3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The place breathed green tea and cool plaster instead of dust and old tobacco."
+      ]
+    },
+    {
+      "id": "000110-9fd914907528",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d125d51337cb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Saturday felt like warm suede rather than cold chain mail."
+      ]
+    },
+    {
+      "id": "000110-4cef6a066129",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-5d5c90f0a0aa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The air tasted of clean salt and lemon rather than coffee grounds and steel."
+      ]
+    },
+    {
+      "id": "000110-baa373e718c9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-b27bf6f8f7c4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning whispered in grass and water rather than rattling in pipes and shutters."
+      ]
+    },
+    {
+      "id": "000110-7c66e482a0ff",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-62054c0aa21b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room smelled of marjoram and warm wool instead of rainwater and burnt fat."
+      ]
+    },
+    {
+      "id": "000110-af8d091ec683",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-de3bed17285a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening had the flavour of caramel and ripe pears instead of pennies and old rain."
+      ]
+    },
+    {
+      "id": "000110-98380d6bcb36",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-fe36712f97ea",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning hummed with silver voices instead of the coarse machinery of the week."
+      ]
+    },
+    {
+      "id": "000110-cc63df634db5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f2452c77f133",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The street smelled of warm resin and thyme rather than rust and cold puddles."
+      ]
+    },
+    {
+      "id": "000110-e87941582565",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-852445c1ce62",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon touched us like cool velvet instead of warm sackcloth."
+      ]
+    },
+    {
+      "id": "000110-9fded30dd5a1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-f8eba0dc83a1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Sunday tasted of ripe peaches instead of scorched toast and cold coins."
+      ]
+    },
+    {
+      "id": "000110-306f9e0a0215",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-8193dce51321",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening offered a chorus of leaves and sparrows rather than kettles and slammed doors."
+      ]
+    },
+    {
+      "id": "000110-18e2213bd35b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-18c7e4694e07",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room smelled of cardamom and polished oak, not vinegar and wet pavement."
+      ]
+    },
+    {
+      "id": "000110-9a3006282cd5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-af8281c294c0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Night felt like smooth water rather than the jagged stone of daytime."
+      ]
+    },
+    {
+      "id": "000110-5ecf0562a0f6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-8719c58a9326",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning smelled of bay leaves and river stones instead of chimney soot and cold cabbage."
+      ]
+    },
+    {
+      "id": "000110-7886e11e3117",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-78754f25472f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hour tasted of honey and cool milk rather than black coffee and tin."
+      ]
+    },
+    {
+      "id": "000110-cd29dccb000f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-35d642f084ff",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Rain sounded like scattered pearls instead of the dull coins of an ordinary afternoon."
+      ]
+    },
+    {
+      "id": "000110-4039e4d96dc8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-b251477e28d3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shop breathed peony and cool earth rather than soap and hot pavement."
+      ]
+    },
+    {
+      "id": "000110-cf6273375ad4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-c9f35c5b69b0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening brushed the room with amber light rather than the white glare of obligation."
+      ]
+    },
+    {
+      "id": "000110-a79542f80505",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-c3cb6becb2ee",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon exchanged the smell of stale bread for cedar chips and orange blossom."
+      ]
+    },
+    {
+      "id": "000110-c618eb3a5898",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-24b688c0ecbe",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day tasted of pistachios and fresh cream instead of burnt toast and steel."
+      ]
+    },
+    {
+      "id": "000110-cd17e0e9b0c8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d8ee21acb324",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room hummed with silk-soft voices rather than the gravelly noise of daily life."
+      ]
+    },
+    {
+      "id": "000110-0ea06d7fe8b5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-57753f7fae52",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Saturday smelled of marzipan and warm stone rather than ink and cold raincoats."
+      ]
+    },
+    {
+      "id": "000110-0de21ded397d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-cfe820562afd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The evening felt like cool polished wood rather than damp felt."
+      ]
+    },
+    {
+      "id": "000110-4de7a9ed684b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-4fdae39e1f66",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning rang with teaspoons and warm laughter instead of locks and clattering wheels."
+      ]
+    },
+    {
+      "id": "000110-2b14fc98e21d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-b519685c7b79",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The street smelled of green walnuts and warm dust instead of onions and cold steel."
+      ]
+    },
+    {
+      "id": "000110-2ee9a91a4755",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-5af46f68f2db",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning tasted of sweet fennel instead of rain-soaked paper and old coffee."
+      ]
+    },
+    {
+      "id": "000110-8d976c5b5963",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-ac808b302fb3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day rustled like satin rather than scraping like sandpaper."
+      ]
+    },
+    {
+      "id": "000110-2f5945c7f21d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-ea048ecd1bd7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Noon smelled of magnolia and sun-warmed rope rather than smoke and old dishwater."
+      ]
+    },
+    {
+      "id": "000110-3475fa14fd90",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-a45ef312df8a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon glimmered green and gold instead of the flat pewter of errands."
+      ]
+    },
+    {
+      "id": "000110-ffbf1d4bdc70",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-d4c72f1a3fe2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "It smells of wild roses here instead of petrol and stale coffee"
+      ]
+    },
+    {
+      "id": "000110-169252d8182b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-6913bcd6f452",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Because it was spring, the afternoon smelled of blossom and clean linen rather than concrete and burnt tea."
+      ]
+    },
+    {
+      "id": "000110-44a9e59ac4d3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-ab407825c8bc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning hummed with mellow voices rather than the hard chatter of traffic."
+      ]
+    },
+    {
+      "id": "000110-48360259b24f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-58d3b77f7107",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon felt cool and smooth instead of hot and grainy."
+      ]
+    },
+    {
+      "id": "000110-fca23f8ec3f0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000110-1303b7adbf70",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening smelled of baked apples and candle wax instead of burnt oil and damp string."
+      ]
+    },
+    {
+      "id": "000110-374bd923a1ae",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon tasted of nectar and cream rather than coffee and old metal.",
+        "Around me, laughter replaced the brittle percussion of ordinary hours."
+      ]
     }
   ]
 }

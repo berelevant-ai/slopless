@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "23bc6253bcaccc305d998109a9831462fc95a6ddca93007d8d0fc9b82f409de0",
+  "textSha256": "858ebd972598467fc84542cce05eeace55db2773600a5f7c4611cd8dff1cb0d7",
   "source": {
     "name": "Codex-authored narrative-craft-low-information-physical-blocking-development",
     "originalPath": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -20,97 +20,1197 @@
     {
       "id": "000103-d1f28945bf98",
       "start": 438,
-      "end": 789
+      "end": 755
     },
     {
       "id": "000103-0664fbc24cde",
-      "start": 815,
-      "end": 1154
+      "start": 781,
+      "end": 1106
     },
     {
       "id": "000103-afed6f039b67",
-      "start": 1180,
-      "end": 1508
+      "start": 1132,
+      "end": 1460
     },
     {
       "id": "000103-558495ba4711",
-      "start": 1534,
-      "end": 1892
+      "start": 1486,
+      "end": 1846
     },
     {
       "id": "000103-111053c9b883",
-      "start": 1918,
-      "end": 2244
+      "start": 1872,
+      "end": 2198
     },
     {
       "id": "000103-8e905cb6428a",
-      "start": 2270,
-      "end": 2626
+      "start": 2224,
+      "end": 2580
     },
     {
       "id": "000103-9234adf38eb5",
-      "start": 2652,
-      "end": 2993
+      "start": 2606,
+      "end": 2940
     },
     {
       "id": "000103-f8f0a66a5d41",
-      "start": 3019,
-      "end": 3370
+      "start": 2966,
+      "end": 3317
     },
     {
       "id": "000103-9c81102db70a",
-      "start": 3396,
-      "end": 3718
+      "start": 3343,
+      "end": 3616
     },
     {
       "id": "000103-c8c9f35033ff",
-      "start": 3744,
-      "end": 4085
+      "start": 3642,
+      "end": 3983
     },
     {
       "id": "000103-9a55752888e8",
-      "start": 4111,
-      "end": 4442
+      "start": 4009,
+      "end": 4340
     },
     {
       "id": "000103-f635bc671e09",
-      "start": 4468,
-      "end": 4778
+      "start": 4366,
+      "end": 4676
     },
     {
       "id": "000103-c2f6a0e1c8be",
-      "start": 4804,
-      "end": 5129
+      "start": 4702,
+      "end": 5027
     },
     {
       "id": "000103-493584df7b24",
-      "start": 5155,
-      "end": 5472
+      "start": 5053,
+      "end": 5370
     },
     {
       "id": "000103-2e283489bada",
-      "start": 5498,
-      "end": 5883
+      "start": 5396,
+      "end": 5781
     },
     {
       "id": "000103-9c91102bae9e",
-      "start": 5909,
-      "end": 6242
+      "start": 5807,
+      "end": 6140
     },
     {
       "id": "000103-6c18da2d3585",
-      "start": 6268,
-      "end": 6604
+      "start": 6166,
+      "end": 6502
     },
     {
       "id": "000103-49a7eec45ade",
-      "start": 6630,
-      "end": 6945
+      "start": 6528,
+      "end": 6843
     },
     {
       "id": "000103-26b1d510288b",
-      "start": 6971,
-      "end": 7316
+      "start": 6869,
+      "end": 7214
+    },
+    {
+      "id": "000103-afbd4b668282",
+      "start": 7240,
+      "end": 7507
+    },
+    {
+      "id": "000103-7b897d7a37a0",
+      "start": 7533,
+      "end": 7798
+    },
+    {
+      "id": "000103-3a7ec821db76",
+      "start": 7824,
+      "end": 8082
+    },
+    {
+      "id": "000103-72971dff7201",
+      "start": 8108,
+      "end": 8357
+    },
+    {
+      "id": "000103-bac5b349f0ab",
+      "start": 8383,
+      "end": 8617
+    },
+    {
+      "id": "000103-7b050eccf959",
+      "start": 8643,
+      "end": 8893
+    },
+    {
+      "id": "000103-63b68847d4c0",
+      "start": 8919,
+      "end": 9197
+    },
+    {
+      "id": "000103-88bdd77f96be",
+      "start": 9223,
+      "end": 9498
+    },
+    {
+      "id": "000103-0ad5e6d1aa28",
+      "start": 9524,
+      "end": 9818
+    },
+    {
+      "id": "000103-fd9e5fe3c5e9",
+      "start": 9844,
+      "end": 10110
+    },
+    {
+      "id": "000103-75a37e3fcbd1",
+      "start": 10136,
+      "end": 10390
+    },
+    {
+      "id": "000103-86ec1f1ac5c7",
+      "start": 10416,
+      "end": 10684
+    },
+    {
+      "id": "000103-0b6391ec3a6f",
+      "start": 10710,
+      "end": 10990
+    },
+    {
+      "id": "000103-475d386e6e18",
+      "start": 11016,
+      "end": 11282
+    },
+    {
+      "id": "000103-bf630522be0d",
+      "start": 11308,
+      "end": 11544
+    },
+    {
+      "id": "000103-bba484e3dfa7",
+      "start": 11570,
+      "end": 11843
+    },
+    {
+      "id": "000103-52ded2752759",
+      "start": 11869,
+      "end": 12120
+    },
+    {
+      "id": "000103-937ea81172ee",
+      "start": 12146,
+      "end": 12386
+    },
+    {
+      "id": "000103-9247082937cc",
+      "start": 12412,
+      "end": 12701
+    },
+    {
+      "id": "000103-265b765a9bdd",
+      "start": 12727,
+      "end": 12987
+    },
+    {
+      "id": "000103-55d02010efda",
+      "start": 13013,
+      "end": 13277
+    },
+    {
+      "id": "000103-72b4f2d4cad3",
+      "start": 13303,
+      "end": 13573
+    },
+    {
+      "id": "000103-5f059b4a7515",
+      "start": 13599,
+      "end": 13849
+    },
+    {
+      "id": "000103-21bcd8905b23",
+      "start": 13875,
+      "end": 14135
+    },
+    {
+      "id": "000103-ba7883655f2b",
+      "start": 14161,
+      "end": 14408
+    },
+    {
+      "id": "000103-d221efbce4dc",
+      "start": 14434,
+      "end": 14668
+    },
+    {
+      "id": "000103-9c5349676b97",
+      "start": 14694,
+      "end": 14963
+    },
+    {
+      "id": "000103-e9c7303540b2",
+      "start": 14989,
+      "end": 15226
+    },
+    {
+      "id": "000103-cd18b8636343",
+      "start": 15252,
+      "end": 15496
+    },
+    {
+      "id": "000103-31c81d91c67c",
+      "start": 15522,
+      "end": 15814
+    },
+    {
+      "id": "000103-bc9b26d5102b",
+      "start": 15840,
+      "end": 16102
+    },
+    {
+      "id": "000103-d652d793eb47",
+      "start": 16128,
+      "end": 16408
+    },
+    {
+      "id": "000103-0da2c59a2f3d",
+      "start": 16434,
+      "end": 16725
+    },
+    {
+      "id": "000103-fee018ab48db",
+      "start": 16751,
+      "end": 17018
+    },
+    {
+      "id": "000103-58b3576b3c16",
+      "start": 17044,
+      "end": 17318
+    },
+    {
+      "id": "000103-211e2ad19033",
+      "start": 17344,
+      "end": 17616
+    },
+    {
+      "id": "000103-5881fbe61a29",
+      "start": 17642,
+      "end": 17913
+    },
+    {
+      "id": "000103-a73a6830c109",
+      "start": 17939,
+      "end": 18184
+    },
+    {
+      "id": "000103-49b74dfbc0cb",
+      "start": 18210,
+      "end": 18484
+    },
+    {
+      "id": "000103-c5ddf1093b62",
+      "start": 18510,
+      "end": 18757
+    },
+    {
+      "id": "000103-8665241f848f",
+      "start": 18783,
+      "end": 19043
+    },
+    {
+      "id": "000103-4b635818acff",
+      "start": 19069,
+      "end": 19318
+    },
+    {
+      "id": "000103-bc4f0cb18c13",
+      "start": 19344,
+      "end": 19618
+    },
+    {
+      "id": "000103-97c520220efd",
+      "start": 19644,
+      "end": 19895
+    },
+    {
+      "id": "000103-e00b278e4621",
+      "start": 19921,
+      "end": 20171
+    },
+    {
+      "id": "000103-7010d7a01c69",
+      "start": 20197,
+      "end": 20460
+    },
+    {
+      "id": "000103-8c6d5e347d3c",
+      "start": 20486,
+      "end": 20739
+    },
+    {
+      "id": "000103-6d354a473000",
+      "start": 20765,
+      "end": 21044
+    },
+    {
+      "id": "000103-a978484814cc",
+      "start": 21070,
+      "end": 21317
+    },
+    {
+      "id": "000103-8894862cc0ce",
+      "start": 21343,
+      "end": 21607
+    },
+    {
+      "id": "000103-e2a3db4a5161",
+      "start": 21633,
+      "end": 21922
+    },
+    {
+      "id": "000103-0f66d7af2407",
+      "start": 21948,
+      "end": 22188
+    },
+    {
+      "id": "000103-22ccd3a55226",
+      "start": 22214,
+      "end": 22499
+    },
+    {
+      "id": "000103-3fcb35f1d94a",
+      "start": 22525,
+      "end": 22783
+    },
+    {
+      "id": "000103-5295db4a1362",
+      "start": 22809,
+      "end": 23100
+    },
+    {
+      "id": "000103-33a7d8bf9dae",
+      "start": 23126,
+      "end": 23383
+    },
+    {
+      "id": "000103-cb54a43ee839",
+      "start": 23409,
+      "end": 23659
+    },
+    {
+      "id": "000103-ee6cb43d75cd",
+      "start": 23685,
+      "end": 23933
+    },
+    {
+      "id": "000103-a1112d81b4a5",
+      "start": 23959,
+      "end": 24211
+    },
+    {
+      "id": "000103-1c675535161c",
+      "start": 24237,
+      "end": 24512
+    },
+    {
+      "id": "000103-56234b6f1cb1",
+      "start": 24538,
+      "end": 24793
+    },
+    {
+      "id": "000103-6c03a50e0bd1",
+      "start": 24819,
+      "end": 25097
+    },
+    {
+      "id": "000103-d239820bc4cb",
+      "start": 25123,
+      "end": 25384
+    },
+    {
+      "id": "000103-a52e14863968",
+      "start": 25410,
+      "end": 25679
+    },
+    {
+      "id": "000103-89039e1df49c",
+      "start": 25705,
+      "end": 26006
+    },
+    {
+      "id": "000103-3acc84da9258",
+      "start": 26032,
+      "end": 26312
+    },
+    {
+      "id": "000103-61a08009ef5c",
+      "start": 26338,
+      "end": 26628
+    },
+    {
+      "id": "000103-6311d5b8585b",
+      "start": 26654,
+      "end": 26901
+    },
+    {
+      "id": "000103-41c27570d490",
+      "start": 26927,
+      "end": 27184
+    },
+    {
+      "id": "000103-89e082d76079",
+      "start": 27210,
+      "end": 27488
+    },
+    {
+      "id": "000103-336d474bbbb5",
+      "start": 27514,
+      "end": 27803
+    },
+    {
+      "id": "000103-aa5501415f0a",
+      "start": 27829,
+      "end": 28081
+    },
+    {
+      "id": "000103-1b93e16d0d6f",
+      "start": 28107,
+      "end": 28359
+    },
+    {
+      "id": "000103-f64ab8b0b8b7",
+      "start": 28385,
+      "end": 28653
+    },
+    {
+      "id": "000103-78329e74c3ff",
+      "start": 28679,
+      "end": 28944
+    },
+    {
+      "id": "000103-e29722dc5aa8",
+      "start": 28970,
+      "end": 29254
+    },
+    {
+      "id": "000103-9445fc0fcd82",
+      "start": 29280,
+      "end": 29521
+    },
+    {
+      "id": "000103-e41a7f20576f",
+      "start": 29547,
+      "end": 29794
+    },
+    {
+      "id": "000103-a3a6117e0df8",
+      "start": 29820,
+      "end": 30090
+    },
+    {
+      "id": "000103-dd6472a3f337",
+      "start": 30116,
+      "end": 30358
+    },
+    {
+      "id": "000103-330c5b9e9eb3",
+      "start": 30384,
+      "end": 30641
+    },
+    {
+      "id": "000103-d2a2495e8f39",
+      "start": 30667,
+      "end": 30969
+    },
+    {
+      "id": "000103-7e17539e2dc6",
+      "start": 30995,
+      "end": 31261
+    },
+    {
+      "id": "000103-38d855092823",
+      "start": 31287,
+      "end": 31567
+    },
+    {
+      "id": "000103-b3c1bb53ed28",
+      "start": 31593,
+      "end": 31851
+    },
+    {
+      "id": "000103-a6d25a16cd06",
+      "start": 31877,
+      "end": 32123
+    },
+    {
+      "id": "000103-0f995c99aa26",
+      "start": 32149,
+      "end": 32417
+    },
+    {
+      "id": "000103-310d92723a01",
+      "start": 32443,
+      "end": 32718
+    },
+    {
+      "id": "000103-95dec9a8e44a",
+      "start": 32744,
+      "end": 33013
+    },
+    {
+      "id": "000103-cb95824b552b",
+      "start": 33039,
+      "end": 33304
+    },
+    {
+      "id": "000103-6d0d15be4a3c",
+      "start": 33330,
+      "end": 33619
+    },
+    {
+      "id": "000103-a6a702c999b0",
+      "start": 33645,
+      "end": 33886
+    },
+    {
+      "id": "000103-d3e1d673fdfa",
+      "start": 33912,
+      "end": 34188
+    },
+    {
+      "id": "000103-76c0665c7501",
+      "start": 34214,
+      "end": 34482
+    },
+    {
+      "id": "000103-6547d5ee0cdd",
+      "start": 34508,
+      "end": 34780
+    },
+    {
+      "id": "000103-f8c64d455b49",
+      "start": 34806,
+      "end": 35072
+    },
+    {
+      "id": "000103-04f9e930d060",
+      "start": 35098,
+      "end": 35371
+    },
+    {
+      "id": "000103-deb40c349f9d",
+      "start": 35397,
+      "end": 35667
+    },
+    {
+      "id": "000103-3c41a44171cb",
+      "start": 35693,
+      "end": 35942
+    },
+    {
+      "id": "000103-2d7d90aed86e",
+      "start": 35968,
+      "end": 36236
+    },
+    {
+      "id": "000103-d0901a9c6a9b",
+      "start": 36262,
+      "end": 36543
+    },
+    {
+      "id": "000103-26afd72015d2",
+      "start": 36569,
+      "end": 36815
+    },
+    {
+      "id": "000103-97c7984d1d9d",
+      "start": 36841,
+      "end": 37114
+    },
+    {
+      "id": "000103-ddf79df2b3bf",
+      "start": 37140,
+      "end": 37413
+    },
+    {
+      "id": "000103-ec1ed25ad908",
+      "start": 37439,
+      "end": 37728
+    },
+    {
+      "id": "000103-39167d18a77f",
+      "start": 37754,
+      "end": 38020
+    },
+    {
+      "id": "000103-34da64f57495",
+      "start": 38046,
+      "end": 38294
+    },
+    {
+      "id": "000103-27bf18fe8334",
+      "start": 38320,
+      "end": 38587
+    },
+    {
+      "id": "000103-b074e924e169",
+      "start": 38613,
+      "end": 38889
+    },
+    {
+      "id": "000103-00eca92f1df1",
+      "start": 38915,
+      "end": 39191
+    },
+    {
+      "id": "000103-ff6e1b8de2c3",
+      "start": 39217,
+      "end": 39474
+    },
+    {
+      "id": "000103-59110de7e5b3",
+      "start": 39500,
+      "end": 39744
+    },
+    {
+      "id": "000103-4dd465e38fd2",
+      "start": 39770,
+      "end": 40025
+    },
+    {
+      "id": "000103-38dac4780f2b",
+      "start": 40051,
+      "end": 40297
+    },
+    {
+      "id": "000103-8581320658d5",
+      "start": 40323,
+      "end": 40584
+    },
+    {
+      "id": "000103-37c5bfa0545b",
+      "start": 40610,
+      "end": 40862
+    },
+    {
+      "id": "000103-323e4f5f9cf3",
+      "start": 40888,
+      "end": 41145
+    },
+    {
+      "id": "000103-7babd9eb50dd",
+      "start": 41171,
+      "end": 41427
+    },
+    {
+      "id": "000103-3bc337401f4d",
+      "start": 41453,
+      "end": 41708
+    },
+    {
+      "id": "000103-4c477ad434cd",
+      "start": 41734,
+      "end": 41994
+    },
+    {
+      "id": "000103-15ae2dea5ee7",
+      "start": 42020,
+      "end": 42258
+    },
+    {
+      "id": "000103-9edb02908b88",
+      "start": 42284,
+      "end": 42534
+    },
+    {
+      "id": "000103-f3a2e23a8adc",
+      "start": 42560,
+      "end": 42811
+    },
+    {
+      "id": "000103-64ef841e3f48",
+      "start": 42837,
+      "end": 43074
+    },
+    {
+      "id": "000103-aea67ada9c33",
+      "start": 43100,
+      "end": 43357
+    },
+    {
+      "id": "000103-a92284ecc694",
+      "start": 43383,
+      "end": 43635
+    },
+    {
+      "id": "000103-12d4fe863dfd",
+      "start": 43661,
+      "end": 43924
+    },
+    {
+      "id": "000103-4f6c6cc3e6f6",
+      "start": 43950,
+      "end": 44212
+    },
+    {
+      "id": "000103-4585ade3b515",
+      "start": 44238,
+      "end": 44507
+    },
+    {
+      "id": "000103-e17c9f99d849",
+      "start": 44533,
+      "end": 44777
+    },
+    {
+      "id": "000103-d9c1a862ebfd",
+      "start": 44803,
+      "end": 45058
+    },
+    {
+      "id": "000103-d6b809ff55d1",
+      "start": 45084,
+      "end": 45343
+    },
+    {
+      "id": "000103-c76325c0cf77",
+      "start": 45369,
+      "end": 45628
+    },
+    {
+      "id": "000103-0e4165b3d975",
+      "start": 45654,
+      "end": 45894
+    },
+    {
+      "id": "000103-2eb1eaa458e4",
+      "start": 45920,
+      "end": 46182
+    },
+    {
+      "id": "000103-3b627ed81048",
+      "start": 46208,
+      "end": 46474
+    },
+    {
+      "id": "000103-61e44dda95a2",
+      "start": 46500,
+      "end": 46756
+    },
+    {
+      "id": "000103-3d0c4acf222a",
+      "start": 46782,
+      "end": 47033
+    },
+    {
+      "id": "000103-fb321c229733",
+      "start": 47059,
+      "end": 47310
+    },
+    {
+      "id": "000103-a6897b08aaed",
+      "start": 47336,
+      "end": 47568
+    },
+    {
+      "id": "000103-e91455d0064e",
+      "start": 47594,
+      "end": 47828
+    },
+    {
+      "id": "000103-410bf4182eec",
+      "start": 47854,
+      "end": 48116
+    },
+    {
+      "id": "000103-468ff93bc7e9",
+      "start": 48142,
+      "end": 48407
+    },
+    {
+      "id": "000103-87018b2a0e17",
+      "start": 48433,
+      "end": 48677
+    },
+    {
+      "id": "000103-9f83b60dc852",
+      "start": 48703,
+      "end": 48951
+    },
+    {
+      "id": "000103-b359e52a48a5",
+      "start": 48977,
+      "end": 49234
+    },
+    {
+      "id": "000103-c7f5341ce345",
+      "start": 49260,
+      "end": 49548
+    },
+    {
+      "id": "000103-f262d59e1b33",
+      "start": 49574,
+      "end": 49820
+    },
+    {
+      "id": "000103-f179a225fc38",
+      "start": 49846,
+      "end": 50115
+    },
+    {
+      "id": "000103-1240368f39f6",
+      "start": 50141,
+      "end": 50390
+    },
+    {
+      "id": "000103-10b12824e21a",
+      "start": 50416,
+      "end": 50692
+    },
+    {
+      "id": "000103-af013b7eb8ab",
+      "start": 50718,
+      "end": 50967
+    },
+    {
+      "id": "000103-cf23095dadbd",
+      "start": 50993,
+      "end": 51268
+    },
+    {
+      "id": "000103-eccd026baafe",
+      "start": 51294,
+      "end": 51576
+    },
+    {
+      "id": "000103-2bb9a1c87595",
+      "start": 51602,
+      "end": 51844
+    },
+    {
+      "id": "000103-d0ab8c5a246e",
+      "start": 51870,
+      "end": 52122
+    },
+    {
+      "id": "000103-ca74b9af2cf5",
+      "start": 52148,
+      "end": 52394
+    },
+    {
+      "id": "000103-29de538eeac0",
+      "start": 52420,
+      "end": 52660
+    },
+    {
+      "id": "000103-757399e74f14",
+      "start": 52686,
+      "end": 52974
+    },
+    {
+      "id": "000103-51de3ce36a79",
+      "start": 53000,
+      "end": 53238
+    },
+    {
+      "id": "000103-df77b9ee33af",
+      "start": 53264,
+      "end": 53546
+    },
+    {
+      "id": "000103-899044a6bca6",
+      "start": 53572,
+      "end": 53827
+    },
+    {
+      "id": "000103-98ad3ef42471",
+      "start": 53853,
+      "end": 54098
+    },
+    {
+      "id": "000103-7eaac580b09b",
+      "start": 54124,
+      "end": 54383
+    },
+    {
+      "id": "000103-2673d266d269",
+      "start": 54409,
+      "end": 54677
+    },
+    {
+      "id": "000103-feebe237c573",
+      "start": 54703,
+      "end": 54960
+    },
+    {
+      "id": "000103-c33b003e23ba",
+      "start": 54986,
+      "end": 55230
+    },
+    {
+      "id": "000103-46507c455a22",
+      "start": 55256,
+      "end": 55519
+    },
+    {
+      "id": "000103-63477bdc5300",
+      "start": 55545,
+      "end": 55821
+    },
+    {
+      "id": "000103-fa5c8c31b18a",
+      "start": 55847,
+      "end": 56078
+    },
+    {
+      "id": "000103-31446f86aab9",
+      "start": 56104,
+      "end": 56363
+    },
+    {
+      "id": "000103-0283420e1111",
+      "start": 56389,
+      "end": 56652
+    },
+    {
+      "id": "000103-8863724f6b2b",
+      "start": 56678,
+      "end": 56919
+    },
+    {
+      "id": "000103-05461a7165b8",
+      "start": 56945,
+      "end": 57185
+    },
+    {
+      "id": "000103-5d57a3cc7129",
+      "start": 57211,
+      "end": 57482
+    },
+    {
+      "id": "000103-63d7e4c2b12a",
+      "start": 57508,
+      "end": 57760
+    },
+    {
+      "id": "000103-0094cbd57b93",
+      "start": 57786,
+      "end": 58040
+    },
+    {
+      "id": "000103-c19a7e2708ac",
+      "start": 58066,
+      "end": 58306
+    },
+    {
+      "id": "000103-016122fdfa6b",
+      "start": 58332,
+      "end": 58589
+    },
+    {
+      "id": "000103-039188a4df03",
+      "start": 58615,
+      "end": 58876
+    },
+    {
+      "id": "000103-b74d1ac03365",
+      "start": 58902,
+      "end": 59129
+    },
+    {
+      "id": "000103-e85e8bb3864c",
+      "start": 59155,
+      "end": 59396
+    },
+    {
+      "id": "000103-339b3bbf3ccc",
+      "start": 59422,
+      "end": 59674
+    },
+    {
+      "id": "000103-8bbcd768f3db",
+      "start": 59700,
+      "end": 59967
+    },
+    {
+      "id": "000103-af173505113d",
+      "start": 59993,
+      "end": 60268
+    },
+    {
+      "id": "000103-502823a3e35e",
+      "start": 60294,
+      "end": 60538
+    },
+    {
+      "id": "000103-fd53e5a4857a",
+      "start": 60564,
+      "end": 60817
+    },
+    {
+      "id": "000103-1484d1071c89",
+      "start": 60843,
+      "end": 61118
+    },
+    {
+      "id": "000103-718958b799d7",
+      "start": 61144,
+      "end": 61396
+    },
+    {
+      "id": "000103-9fca38d2b881",
+      "start": 61422,
+      "end": 61669
+    },
+    {
+      "id": "000103-4c403e3569d6",
+      "start": 61695,
+      "end": 61966
+    },
+    {
+      "id": "000103-20b3db35608b",
+      "start": 61992,
+      "end": 62230
+    },
+    {
+      "id": "000103-e5030ae11f4b",
+      "start": 62256,
+      "end": 62526
+    },
+    {
+      "id": "000103-ecc7b24a037c",
+      "start": 62552,
+      "end": 62791
+    },
+    {
+      "id": "000103-1e35b31bdcde",
+      "start": 62817,
+      "end": 63053
+    },
+    {
+      "id": "000103-bd18d70716c5",
+      "start": 63079,
+      "end": 63315
+    },
+    {
+      "id": "000103-700105b73e39",
+      "start": 63341,
+      "end": 63602
+    },
+    {
+      "id": "000103-0b797ab25331",
+      "start": 63628,
+      "end": 63899
+    },
+    {
+      "id": "000103-7053f5a13be7",
+      "start": 63925,
+      "end": 64177
+    },
+    {
+      "id": "000103-2481b7a014ec",
+      "start": 64203,
+      "end": 64460
+    },
+    {
+      "id": "000103-3b7a56c9ef6d",
+      "start": 64486,
+      "end": 64725
+    },
+    {
+      "id": "000103-15042404408b",
+      "start": 64751,
+      "end": 65021
+    },
+    {
+      "id": "000103-18718ef37792",
+      "start": 65047,
+      "end": 65281
+    },
+    {
+      "id": "000103-9f301a2ee8be",
+      "start": 65307,
+      "end": 65552
+    },
+    {
+      "id": "000103-7408a7e679fd",
+      "start": 65578,
+      "end": 65841
+    },
+    {
+      "id": "000103-7058f820a9ac",
+      "start": 65867,
+      "end": 66123
+    },
+    {
+      "id": "000103-657dfa9fb777",
+      "start": 66149,
+      "end": 66402
+    },
+    {
+      "id": "000103-2b40f4924240",
+      "start": 66428,
+      "end": 66709
+    },
+    {
+      "id": "000103-4a34f2ab97d4",
+      "start": 66735,
+      "end": 66960
+    },
+    {
+      "id": "000103-dd8bc15cda19",
+      "start": 66986,
+      "end": 67245
+    },
+    {
+      "id": "000103-75fca27367a9",
+      "start": 67271,
+      "end": 67532
+    },
+    {
+      "id": "000103-524eaf2970f5",
+      "start": 67558,
+      "end": 67811
+    },
+    {
+      "id": "000103-b77a295d5f05",
+      "start": 67837,
+      "end": 68090
+    },
+    {
+      "id": "000103-7609ea830564",
+      "start": 68116,
+      "end": 68392
+    },
+    {
+      "id": "000103-a672bd02cd46",
+      "start": 68418,
+      "end": 68676
+    },
+    {
+      "id": "000103-6cf8980be662",
+      "start": 68702,
+      "end": 68960
+    },
+    {
+      "id": "000103-3a6a56f49f45",
+      "start": 68986,
+      "end": 69242
+    },
+    {
+      "id": "000103-23d8ca31b323",
+      "start": 69268,
+      "end": 69542
+    },
+    {
+      "id": "000103-2137f2cf62c7",
+      "start": 69568,
+      "end": 69828
+    },
+    {
+      "id": "000103-33ea0bbf8150",
+      "start": 69854,
+      "end": 70124
     }
   ],
   "labels": [
@@ -119,8 +1219,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "He turned toward me, and I turned toward him.",
-        "Then he looked around the kitchen before looking at me again."
+        "He turned toward me, and I turned toward him. Then he looked around the kitchen before looking at me again."
       ]
     },
     {
@@ -128,7 +1227,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "We stood together in the hall for a while, standing there beside each other."
+        "We stood together in the hall for a while."
       ]
     },
     {
@@ -136,8 +1235,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "I shifted where I stood.",
-        "Beside me, Dan moved a little and stood again."
+        "I shifted where I stood. Beside me, Dan shifted his feet."
       ]
     },
     {
@@ -145,8 +1243,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "Alan looked at Priya, then at me, then back at Priya.",
-        "I looked at Alan."
+        "Alan looked at Priya, then at me, then back at Priya. I looked at Alan."
       ]
     },
     {
@@ -154,7 +1251,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "He moved about the garage while I moved around near him."
+        "Len leaned against the workbench while I stood beside him."
       ]
     },
     {
@@ -162,8 +1259,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "I turn toward the table, then turn back toward him.",
-        "He turns slightly toward me."
+        "I turn toward the table, then turn back toward him. He turns slightly toward me."
       ]
     },
     {
@@ -171,8 +1267,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "She walked across the room and then walked back across it.",
-        "I remained where I was."
+        "She walked across the room and then walked back across it. I remained where I was."
       ]
     },
     {
@@ -180,7 +1275,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "Around us, the other volunteers stood in various places, occasionally changing position."
+        "The other volunteers stood along the tables, shifting from one foot to the other."
       ]
     },
     {
@@ -188,8 +1283,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "I nodded as he continued.",
-        "He nodded a little too, and I gave another small nod."
+        "I nodded as he continued. He nodded a little too, and I gave another small nod."
       ]
     },
     {
@@ -197,7 +1291,7 @@
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": true,
       "snippets": [
-        "There was a pause while we stood there, and then we continued standing for another moment."
+        "We stood by the office door for a moment."
       ]
     },
     {
@@ -247,6 +1341,1436 @@
     },
     {
       "id": "000103-26b1d510288b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-afbd4b668282",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stood there beside the till."
+      ]
+    },
+    {
+      "id": "000103-7b897d7a37a0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Martin looked at me, and I looked at Martin."
+      ]
+    },
+    {
+      "id": "000103-3a7ec821db76",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She took a step and then another step."
+      ]
+    },
+    {
+      "id": "000103-72971dff7201",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned slightly in my chair."
+      ]
+    },
+    {
+      "id": "000103-bac5b349f0ab",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I nodded. He nodded back. We both nodded again."
+      ]
+    },
+    {
+      "id": "000103-7b050eccf959",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Jo moved around the cellar for a bit."
+      ]
+    },
+    {
+      "id": "000103-63b68847d4c0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I blinked and breathed."
+      ]
+    },
+    {
+      "id": "000103-88bdd77f96be",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She smiled a little as she stood there."
+      ]
+    },
+    {
+      "id": "000103-0ad5e6d1aa28",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The drummer shifted his weight where he stood."
+      ]
+    },
+    {
+      "id": "000103-fd9e5fe3c5e9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "People turned this way and that."
+      ]
+    },
+    {
+      "id": "000103-75a37e3fcbd1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I sat and then stood again."
+      ]
+    },
+    {
+      "id": "000103-86ec1f1ac5c7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stayed where we were for a moment."
+      ]
+    },
+    {
+      "id": "000103-0b6391ec3a6f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I glanced about and then looked ahead."
+      ]
+    },
+    {
+      "id": "000103-475d386e6e18",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ed leaned back, then leaned forward again."
+      ]
+    },
+    {
+      "id": "000103-bf630522be0d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We faced each other by the dresser."
+      ]
+    },
+    {
+      "id": "000103-bba484e3dfa7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Lena made a small movement with her hands."
+      ]
+    },
+    {
+      "id": "000103-52ded2752759",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved from one part of the room to another."
+      ]
+    },
+    {
+      "id": "000103-937ea81172ee",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She looked up and then down again."
+      ]
+    },
+    {
+      "id": "000103-9247082937cc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The competitors stood about on the bank."
+      ]
+    },
+    {
+      "id": "000103-265b765a9bdd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I settled myself a little in my seat."
+      ]
+    },
+    {
+      "id": "000103-55d02010efda",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She turned toward her colleague and then back toward me."
+      ]
+    },
+    {
+      "id": "000103-72b4f2d4cad3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We milled around the staff room."
+      ]
+    },
+    {
+      "id": "000103-5f059b4a7515",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I took an ordinary breath."
+      ]
+    },
+    {
+      "id": "000103-21bcd8905b23",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I stood near the telephone for a while."
+      ]
+    },
+    {
+      "id": "000103-ba7883655f2b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She walked a little way and stopped."
+      ]
+    },
+    {
+      "id": "000103-d221efbce4dc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Her eyes moved from me to my brother and back."
+      ]
+    },
+    {
+      "id": "000103-9c5349676b97",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Dad adjusted his stance beside the car."
+      ]
+    },
+    {
+      "id": "000103-e9c7303540b2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We lingered in place."
+      ]
+    },
+    {
+      "id": "000103-cd18b8636343",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I lifted my chin and lowered it again."
+      ]
+    },
+    {
+      "id": "000103-31c81d91c67c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We arranged ourselves here and there in the room."
+      ]
+    },
+    {
+      "id": "000103-bc9b26d5102b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I looked at the desk and then at her face."
+      ]
+    },
+    {
+      "id": "000103-d652d793eb47",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I shifted my arms a little."
+      ]
+    },
+    {
+      "id": "000103-0da2c59a2f3d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stood together near the sofa."
+      ]
+    },
+    {
+      "id": "000103-fee018ab48db",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned my body a fraction."
+      ]
+    },
+    {
+      "id": "000103-58b3576b3c16",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She nodded and smiled and nodded some more."
+      ]
+    },
+    {
+      "id": "000103-211e2ad19033",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I paced a few steps with no destination."
+      ]
+    },
+    {
+      "id": "000103-5881fbe61a29",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He remained upright beside me."
+      ]
+    },
+    {
+      "id": "000103-a73a6830c109",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I glanced left, then right."
+      ]
+    },
+    {
+      "id": "000103-49b74dfbc0cb",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Rob stood, then sat, then stood once more."
+      ]
+    },
+    {
+      "id": "000103-c5ddf1093b62",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We exchanged a look and looked away again."
+      ]
+    },
+    {
+      "id": "000103-8665241f848f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "A few of us shuffled about."
+      ]
+    },
+    {
+      "id": "000103-4b635818acff",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He made a slight turn toward me."
+      ]
+    },
+    {
+      "id": "000103-bc4f0cb18c13",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I repositioned myself where I stood."
+      ]
+    },
+    {
+      "id": "000103-97c520220efd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I let my gaze drift around."
+      ]
+    },
+    {
+      "id": "000103-e00b278e4621",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I smiled as I moved a little."
+      ]
+    },
+    {
+      "id": "000103-7010d7a01c69",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We hung about beside each other."
+      ]
+    },
+    {
+      "id": "000103-8c6d5e347d3c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I blinked once or twice."
+      ]
+    },
+    {
+      "id": "000103-6d354a473000",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Their cousins moved about nearby."
+      ]
+    },
+    {
+      "id": "000103-a978484814cc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She rested one hand on the other and then separated them."
+      ]
+    },
+    {
+      "id": "000103-8894862cc0ce",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I stayed there by the stall."
+      ]
+    },
+    {
+      "id": "000103-e2a3db4a5161",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Len glanced toward me and I glanced toward Len."
+      ]
+    },
+    {
+      "id": "000103-0f66d7af2407",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I drew a breath and let it go."
+      ]
+    },
+    {
+      "id": "000103-22ccd3a55226",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Parents wandered around the clubhouse."
+      ]
+    },
+    {
+      "id": "000103-3fcb35f1d94a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He tipped his head a little."
+      ]
+    },
+    {
+      "id": "000103-5295db4a1362",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We went back and forth across the kitchen."
+      ]
+    },
+    {
+      "id": "000103-33a7d8bf9dae",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved my shoulders slightly."
+      ]
+    },
+    {
+      "id": "000103-cb54a43ee839",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The assistant stood a short distance away."
+      ]
+    },
+    {
+      "id": "000103-ee6cb43d75cd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned away a little and turned back."
+      ]
+    },
+    {
+      "id": "000103-a1112d81b4a5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We sat about in the kitchen."
+      ]
+    },
+    {
+      "id": "000103-1c675535161c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She looked from one of us to the other and back again."
+      ]
+    },
+    {
+      "id": "000103-56234b6f1cb1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I changed position beside the window."
+      ]
+    },
+    {
+      "id": "000103-6c03a50e0bd1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He gave a small nod while standing there."
+      ]
+    },
+    {
+      "id": "000103-d239820bc4cb",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He moved a pace one way and a pace the other."
+      ]
+    },
+    {
+      "id": "000103-a52e14863968",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stood opposite one another."
+      ]
+    },
+    {
+      "id": "000103-89039e1df49c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I looked around at the room."
+      ]
+    },
+    {
+      "id": "000103-3acc84da9258",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My husband moved his feet a little."
+      ]
+    },
+    {
+      "id": "000103-61a08009ef5c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She smiled, and he smiled, and they smiled again."
+      ]
+    },
+    {
+      "id": "000103-6311d5b8585b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I stood there breathing."
+      ]
+    },
+    {
+      "id": "000103-41c27570d490",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The clerk turned in my direction."
+      ]
+    },
+    {
+      "id": "000103-89e082d76079",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved about in the hallway."
+      ]
+    },
+    {
+      "id": "000103-336d474bbbb5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We shifted around where we were."
+      ]
+    },
+    {
+      "id": "000103-aa5501415f0a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I glanced at her, then away, then at her again."
+      ]
+    },
+    {
+      "id": "000103-1b93e16d0d6f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stood in a loose group near the sink."
+      ]
+    },
+    {
+      "id": "000103-f64ab8b0b8b7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I sat up and relaxed back again."
+      ]
+    },
+    {
+      "id": "000103-78329e74c3ff",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He made an aimless little gesture."
+      ]
+    },
+    {
+      "id": "000103-e29722dc5aa8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I remained there on the path."
+      ]
+    },
+    {
+      "id": "000103-9445fc0fcd82",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We looked at each other for a moment."
+      ]
+    },
+    {
+      "id": "000103-e41a7f20576f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I transferred my weight and transferred it back."
+      ]
+    },
+    {
+      "id": "000103-a3a6117e0df8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He stood about by his van."
+      ]
+    },
+    {
+      "id": "000103-dd6472a3f337",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned my head a little."
+      ]
+    },
+    {
+      "id": "000103-330c5b9e9eb3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "The secretary and I stood side by side."
+      ]
+    },
+    {
+      "id": "000103-d2a2495e8f39",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He moved first nearer and then farther away."
+      ]
+    },
+    {
+      "id": "000103-7e17539e2dc6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I nodded a bit as she spoke."
+      ]
+    },
+    {
+      "id": "000103-38d855092823",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We drifted around the living room."
+      ]
+    },
+    {
+      "id": "000103-b3c1bb53ed28",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I took a breath in the usual way."
+      ]
+    },
+    {
+      "id": "000103-a6d25a16cd06",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He looked about, then looked at us."
+      ]
+    },
+    {
+      "id": "000103-0f995c99aa26",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We took up positions around the courtyard."
+      ]
+    },
+    {
+      "id": "000103-310d92723a01",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved my hands a little at my sides."
+      ]
+    },
+    {
+      "id": "000103-95dec9a8e44a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I straightened and then settled again."
+      ]
+    },
+    {
+      "id": "000103-cb95824b552b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We paused in our positions."
+      ]
+    },
+    {
+      "id": "000103-6d0d15be4a3c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned toward my friend and my friend turned toward me."
+      ]
+    },
+    {
+      "id": "000103-a6a702c999b0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I wandered a few feet across the room."
+      ]
+    },
+    {
+      "id": "000103-d3e1d673fdfa",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She blinked and shifted a little."
+      ]
+    },
+    {
+      "id": "000103-76c0665c7501",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stood in the garden together."
+      ]
+    },
+    {
+      "id": "000103-6547d5ee0cdd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I inclined my head slightly."
+      ]
+    },
+    {
+      "id": "000103-f8c64d455b49",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Three leaders stood about the room."
+      ]
+    },
+    {
+      "id": "000103-04f9e930d060",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I shifted my gaze between them."
+      ]
+    },
+    {
+      "id": "000103-deb40c349f9d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We moved around a little on the pavement."
+      ]
+    },
+    {
+      "id": "000103-3c41a44171cb",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He sat there moving slightly."
+      ]
+    },
+    {
+      "id": "000103-2d7d90aed86e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We hovered nearby for a while."
+      ]
+    },
+    {
+      "id": "000103-d0901a9c6a9b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I faced him and then faced forward."
+      ]
+    },
+    {
+      "id": "000103-26afd72015d2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He smiled briefly and moved a little."
+      ]
+    },
+    {
+      "id": "000103-97c7984d1d9d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I looked down and looked up again."
+      ]
+    },
+    {
+      "id": "000103-ddf79df2b3bf",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stood in our places beside the table."
+      ]
+    },
+    {
+      "id": "000103-ec1ed25ad908",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned a little one way and then the other."
+      ]
+    },
+    {
+      "id": "000103-39167d18a77f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "My brother stood near me with his hands by his sides."
+      ]
+    },
+    {
+      "id": "000103-34da64f57495",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "She shifted slightly in her seat."
+      ]
+    },
+    {
+      "id": "000103-27bf18fe8334",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We turned toward each other and then away."
+      ]
+    },
+    {
+      "id": "000103-b074e924e169",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I moved a bit where I sat."
+      ]
+    },
+    {
+      "id": "000103-00eca92f1df1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We waited about in the shop."
+      ]
+    },
+    {
+      "id": "000103-ff6e1b8de2c3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-59110de7e5b3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-4dd465e38fd2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-38dac4780f2b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-8581320658d5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-37c5bfa0545b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-323e4f5f9cf3",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-7babd9eb50dd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-3bc337401f4d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-4c477ad434cd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-15ae2dea5ee7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-9edb02908b88",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-f3a2e23a8adc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-64ef841e3f48",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-aea67ada9c33",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-a92284ecc694",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-12d4fe863dfd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-4f6c6cc3e6f6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-4585ade3b515",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-e17c9f99d849",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-d9c1a862ebfd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-d6b809ff55d1",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-c76325c0cf77",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-0e4165b3d975",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-2eb1eaa458e4",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-3b627ed81048",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-61e44dda95a2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-3d0c4acf222a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-fb321c229733",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-a6897b08aaed",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-e91455d0064e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-410bf4182eec",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-468ff93bc7e9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-87018b2a0e17",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-9f83b60dc852",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-b359e52a48a5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-c7f5341ce345",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-f262d59e1b33",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-f179a225fc38",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-1240368f39f6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-10b12824e21a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-af013b7eb8ab",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-cf23095dadbd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-eccd026baafe",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-2bb9a1c87595",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-d0ab8c5a246e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-ca74b9af2cf5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-29de538eeac0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-757399e74f14",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-51de3ce36a79",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-df77b9ee33af",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-899044a6bca6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-98ad3ef42471",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-7eaac580b09b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-2673d266d269",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-feebe237c573",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-c33b003e23ba",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-46507c455a22",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-63477bdc5300",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-fa5c8c31b18a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-31446f86aab9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-0283420e1111",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-8863724f6b2b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-05461a7165b8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-5d57a3cc7129",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-63d7e4c2b12a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-0094cbd57b93",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-c19a7e2708ac",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-016122fdfa6b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-039188a4df03",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-b74d1ac03365",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-e85e8bb3864c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-339b3bbf3ccc",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-8bbcd768f3db",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-af173505113d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-502823a3e35e",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-fd53e5a4857a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-1484d1071c89",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-718958b799d7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-9fca38d2b881",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-4c403e3569d6",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-20b3db35608b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-e5030ae11f4b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-ecc7b24a037c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-1e35b31bdcde",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-bd18d70716c5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-700105b73e39",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-0b797ab25331",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-7053f5a13be7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-2481b7a014ec",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-3b7a56c9ef6d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-15042404408b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-18718ef37792",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-9f301a2ee8be",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-7408a7e679fd",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-7058f820a9ac",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-657dfa9fb777",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-2b40f4924240",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-4a34f2ab97d4",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-dd8bc15cda19",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-75fca27367a9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-524eaf2970f5",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-b77a295d5f05",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-7609ea830564",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-a672bd02cd46",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-6cf8980be662",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-3a6a56f49f45",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-23d8ca31b323",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-2137f2cf62c7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000103-33ea0bbf8150",
       "check": "narrative-craft/low-information-physical-blocking",
       "expected": false
     }

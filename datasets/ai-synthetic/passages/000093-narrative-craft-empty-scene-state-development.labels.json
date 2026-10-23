@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "1283f7c303e294abe16f55dfb4ae95b4387c0a6e3cdba8bca9d6b160b2178e55",
+  "textSha256": "7cb93d4196a98e8afbe187a07288995e395dd4805e88134d9901dd95a5660513",
   "source": {
     "name": "Codex-authored narrative-craft-empty-scene-state-development",
     "originalPath": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -15,102 +15,1202 @@
     {
       "id": "000093-43e9ba8528c1",
       "start": 73,
-      "end": 414
+      "end": 417
     },
     {
       "id": "000093-aee0ccc1b3ee",
-      "start": 440,
-      "end": 772
+      "start": 443,
+      "end": 775
     },
     {
       "id": "000093-500af5c1ad79",
-      "start": 798,
-      "end": 1113
+      "start": 801,
+      "end": 1116
     },
     {
       "id": "000093-30debc840e90",
-      "start": 1139,
-      "end": 1474
+      "start": 1142,
+      "end": 1477
     },
     {
       "id": "000093-f7604f649b6b",
-      "start": 1500,
-      "end": 1858
+      "start": 1503,
+      "end": 1856
     },
     {
       "id": "000093-ac40b606299c",
-      "start": 1884,
-      "end": 2243
+      "start": 1882,
+      "end": 2241
     },
     {
       "id": "000093-04ef004fa80c",
-      "start": 2269,
-      "end": 2594
+      "start": 2267,
+      "end": 2613
     },
     {
       "id": "000093-765dce288c7e",
-      "start": 2620,
-      "end": 2958
+      "start": 2639,
+      "end": 2971
     },
     {
       "id": "000093-89144f400a2c",
-      "start": 2984,
-      "end": 3306
+      "start": 2997,
+      "end": 3319
     },
     {
       "id": "000093-5db59f575b03",
-      "start": 3332,
-      "end": 3689
+      "start": 3345,
+      "end": 3705
     },
     {
       "id": "000093-91b8d2b136f8",
-      "start": 3715,
-      "end": 4060
+      "start": 3731,
+      "end": 4076
     },
     {
       "id": "000093-599e5de2468d",
-      "start": 4086,
-      "end": 4434
+      "start": 4102,
+      "end": 4421
     },
     {
       "id": "000093-64fdf811e8ac",
-      "start": 4460,
-      "end": 4807
+      "start": 4447,
+      "end": 4794
     },
     {
       "id": "000093-8b10d7fbe9ee",
-      "start": 4833,
-      "end": 5146
+      "start": 4820,
+      "end": 5133
     },
     {
       "id": "000093-7810418173b0",
-      "start": 5172,
-      "end": 5474
+      "start": 5159,
+      "end": 5461
     },
     {
       "id": "000093-609de97b9af0",
-      "start": 5500,
-      "end": 5817
+      "start": 5487,
+      "end": 5804
     },
     {
       "id": "000093-7b3574f3bbdf",
-      "start": 5843,
-      "end": 6161
+      "start": 5830,
+      "end": 6148
     },
     {
       "id": "000093-2c3e27099796",
-      "start": 6187,
-      "end": 6537
+      "start": 6174,
+      "end": 6524
     },
     {
       "id": "000093-81865b737c8b",
-      "start": 6563,
-      "end": 6873
+      "start": 6550,
+      "end": 6860
     },
     {
       "id": "000093-856ba096c106",
-      "start": 6899,
-      "end": 7230
+      "start": 6886,
+      "end": 7217
+    },
+    {
+      "id": "000093-1cdc1fc62862",
+      "start": 7243,
+      "end": 7557
+    },
+    {
+      "id": "000093-4147176a0b73",
+      "start": 7583,
+      "end": 7851
+    },
+    {
+      "id": "000093-3c8828b23077",
+      "start": 7877,
+      "end": 8166
+    },
+    {
+      "id": "000093-988319987f1a",
+      "start": 8192,
+      "end": 8474
+    },
+    {
+      "id": "000093-5b72b264a4bb",
+      "start": 8500,
+      "end": 8793
+    },
+    {
+      "id": "000093-dde6ccf57ea2",
+      "start": 8819,
+      "end": 9115
+    },
+    {
+      "id": "000093-61dd819e4ae6",
+      "start": 9141,
+      "end": 9437
+    },
+    {
+      "id": "000093-86343dff93c9",
+      "start": 9463,
+      "end": 9769
+    },
+    {
+      "id": "000093-e144c8ebf1d5",
+      "start": 9795,
+      "end": 10087
+    },
+    {
+      "id": "000093-1aa9a3de214b",
+      "start": 10113,
+      "end": 10390
+    },
+    {
+      "id": "000093-2eeb4731a1aa",
+      "start": 10416,
+      "end": 10695
+    },
+    {
+      "id": "000093-d177bb4ba2df",
+      "start": 10721,
+      "end": 11002
+    },
+    {
+      "id": "000093-33c2e60036c4",
+      "start": 11028,
+      "end": 11303
+    },
+    {
+      "id": "000093-2a9cb75903a8",
+      "start": 11329,
+      "end": 11615
+    },
+    {
+      "id": "000093-302f906e6db1",
+      "start": 11641,
+      "end": 11917
+    },
+    {
+      "id": "000093-e8c2134c02e4",
+      "start": 11943,
+      "end": 12214
+    },
+    {
+      "id": "000093-38f1f06088bc",
+      "start": 12240,
+      "end": 12521
+    },
+    {
+      "id": "000093-96ee46500baf",
+      "start": 12547,
+      "end": 12838
+    },
+    {
+      "id": "000093-7662d22aa248",
+      "start": 12864,
+      "end": 13164
+    },
+    {
+      "id": "000093-0874e0b5686e",
+      "start": 13190,
+      "end": 13457
+    },
+    {
+      "id": "000093-1b33c0ec7eb1",
+      "start": 13483,
+      "end": 13786
+    },
+    {
+      "id": "000093-13d4634aa92b",
+      "start": 13812,
+      "end": 14122
+    },
+    {
+      "id": "000093-9cd09c93a943",
+      "start": 14148,
+      "end": 14422
+    },
+    {
+      "id": "000093-80860ca11049",
+      "start": 14448,
+      "end": 14729
+    },
+    {
+      "id": "000093-a5d3f578e411",
+      "start": 14755,
+      "end": 15037
+    },
+    {
+      "id": "000093-d46cf18c54f1",
+      "start": 15063,
+      "end": 15357
+    },
+    {
+      "id": "000093-5c61d2036513",
+      "start": 15383,
+      "end": 15710
+    },
+    {
+      "id": "000093-25852c3a35df",
+      "start": 15736,
+      "end": 16034
+    },
+    {
+      "id": "000093-7d4790989449",
+      "start": 16060,
+      "end": 16344
+    },
+    {
+      "id": "000093-8e9d3161151f",
+      "start": 16370,
+      "end": 16656
+    },
+    {
+      "id": "000093-66ed77177ba8",
+      "start": 16682,
+      "end": 16968
+    },
+    {
+      "id": "000093-83f3caf07b98",
+      "start": 16994,
+      "end": 17283
+    },
+    {
+      "id": "000093-26c3e5f7d5a7",
+      "start": 17309,
+      "end": 17611
+    },
+    {
+      "id": "000093-adbc43d351cb",
+      "start": 17637,
+      "end": 17920
+    },
+    {
+      "id": "000093-646e9b13650f",
+      "start": 17946,
+      "end": 18220
+    },
+    {
+      "id": "000093-14536beb3f38",
+      "start": 18246,
+      "end": 18525
+    },
+    {
+      "id": "000093-17f854c7d4a2",
+      "start": 18551,
+      "end": 18809
+    },
+    {
+      "id": "000093-d07baa781f1c",
+      "start": 18835,
+      "end": 19126
+    },
+    {
+      "id": "000093-1930c3865290",
+      "start": 19152,
+      "end": 19421
+    },
+    {
+      "id": "000093-74d086859c3e",
+      "start": 19447,
+      "end": 19698
+    },
+    {
+      "id": "000093-d017f133f74c",
+      "start": 19724,
+      "end": 19994
+    },
+    {
+      "id": "000093-5b8a94facd52",
+      "start": 20020,
+      "end": 20303
+    },
+    {
+      "id": "000093-d488973c163b",
+      "start": 20329,
+      "end": 20630
+    },
+    {
+      "id": "000093-b45f7e8d219e",
+      "start": 20656,
+      "end": 20922
+    },
+    {
+      "id": "000093-ac398c998e89",
+      "start": 20948,
+      "end": 21252
+    },
+    {
+      "id": "000093-4973bfe70541",
+      "start": 21278,
+      "end": 21567
+    },
+    {
+      "id": "000093-defc4d9b213a",
+      "start": 21593,
+      "end": 21885
+    },
+    {
+      "id": "000093-11f8037a8c03",
+      "start": 21911,
+      "end": 22192
+    },
+    {
+      "id": "000093-010d04aab2dc",
+      "start": 22218,
+      "end": 22516
+    },
+    {
+      "id": "000093-f8f4850dda7d",
+      "start": 22542,
+      "end": 22842
+    },
+    {
+      "id": "000093-d2f8c1b3731b",
+      "start": 22868,
+      "end": 23141
+    },
+    {
+      "id": "000093-da38787eb331",
+      "start": 23167,
+      "end": 23473
+    },
+    {
+      "id": "000093-223594f97c45",
+      "start": 23499,
+      "end": 23804
+    },
+    {
+      "id": "000093-caecbb7b1ca6",
+      "start": 23830,
+      "end": 24119
+    },
+    {
+      "id": "000093-afa2025152bc",
+      "start": 24145,
+      "end": 24429
+    },
+    {
+      "id": "000093-f7e3cc571d20",
+      "start": 24455,
+      "end": 24739
+    },
+    {
+      "id": "000093-a38fbe7ab98e",
+      "start": 24765,
+      "end": 25071
+    },
+    {
+      "id": "000093-650af76201b1",
+      "start": 25097,
+      "end": 25377
+    },
+    {
+      "id": "000093-37fe5b0deb4b",
+      "start": 25403,
+      "end": 25698
+    },
+    {
+      "id": "000093-dae438d64ad0",
+      "start": 25724,
+      "end": 26011
+    },
+    {
+      "id": "000093-c41873f4ef40",
+      "start": 26037,
+      "end": 26340
+    },
+    {
+      "id": "000093-690e34bf44fc",
+      "start": 26366,
+      "end": 26644
+    },
+    {
+      "id": "000093-bf44ea374c1f",
+      "start": 26670,
+      "end": 26963
+    },
+    {
+      "id": "000093-128183dafd9a",
+      "start": 26989,
+      "end": 27268
+    },
+    {
+      "id": "000093-28205903136b",
+      "start": 27294,
+      "end": 27576
+    },
+    {
+      "id": "000093-331a6b9e3147",
+      "start": 27602,
+      "end": 27880
+    },
+    {
+      "id": "000093-b63c034e2528",
+      "start": 27906,
+      "end": 28183
+    },
+    {
+      "id": "000093-ba86a53ae745",
+      "start": 28209,
+      "end": 28481
+    },
+    {
+      "id": "000093-0b6d06449e75",
+      "start": 28507,
+      "end": 28781
+    },
+    {
+      "id": "000093-84b6e39871f3",
+      "start": 28807,
+      "end": 29080
+    },
+    {
+      "id": "000093-a26c877e418a",
+      "start": 29106,
+      "end": 29390
+    },
+    {
+      "id": "000093-79766f8cba76",
+      "start": 29416,
+      "end": 29693
+    },
+    {
+      "id": "000093-b06eb56db49b",
+      "start": 29719,
+      "end": 30039
+    },
+    {
+      "id": "000093-f00eaaf382d9",
+      "start": 30065,
+      "end": 30350
+    },
+    {
+      "id": "000093-33ef5b017480",
+      "start": 30376,
+      "end": 30689
+    },
+    {
+      "id": "000093-f1eeb3591d58",
+      "start": 30715,
+      "end": 30993
+    },
+    {
+      "id": "000093-f99abd33f4e3",
+      "start": 31019,
+      "end": 31298
+    },
+    {
+      "id": "000093-c46757c5ea94",
+      "start": 31324,
+      "end": 31600
+    },
+    {
+      "id": "000093-51acf4895cf8",
+      "start": 31626,
+      "end": 31910
+    },
+    {
+      "id": "000093-f4ba44ebac73",
+      "start": 31936,
+      "end": 32182
+    },
+    {
+      "id": "000093-3f59e4670846",
+      "start": 32208,
+      "end": 32507
+    },
+    {
+      "id": "000093-78d6bbe06362",
+      "start": 32533,
+      "end": 32820
+    },
+    {
+      "id": "000093-4732cff62f12",
+      "start": 32846,
+      "end": 33161
+    },
+    {
+      "id": "000093-dd2fcaaf7653",
+      "start": 33187,
+      "end": 33476
+    },
+    {
+      "id": "000093-34cf00d834fb",
+      "start": 33502,
+      "end": 33785
+    },
+    {
+      "id": "000093-69c6772e8e4c",
+      "start": 33811,
+      "end": 34097
+    },
+    {
+      "id": "000093-4890eb334f58",
+      "start": 34123,
+      "end": 34420
+    },
+    {
+      "id": "000093-59dcc530617c",
+      "start": 34446,
+      "end": 34739
+    },
+    {
+      "id": "000093-773e78f18229",
+      "start": 34765,
+      "end": 35057
+    },
+    {
+      "id": "000093-ffe05f96495c",
+      "start": 35083,
+      "end": 35378
+    },
+    {
+      "id": "000093-9e770a8f2224",
+      "start": 35404,
+      "end": 35688
+    },
+    {
+      "id": "000093-743b8774fd59",
+      "start": 35714,
+      "end": 35976
+    },
+    {
+      "id": "000093-6dbe61d8b03f",
+      "start": 36002,
+      "end": 36279
+    },
+    {
+      "id": "000093-03da2b085017",
+      "start": 36305,
+      "end": 36606
+    },
+    {
+      "id": "000093-512b7ed18e39",
+      "start": 36632,
+      "end": 36928
+    },
+    {
+      "id": "000093-a223cab8d109",
+      "start": 36954,
+      "end": 37251
+    },
+    {
+      "id": "000093-034b5efd342a",
+      "start": 37277,
+      "end": 37580
+    },
+    {
+      "id": "000093-70124306ec2e",
+      "start": 37606,
+      "end": 37889
+    },
+    {
+      "id": "000093-d9cd64040c00",
+      "start": 37915,
+      "end": 38200
+    },
+    {
+      "id": "000093-b200a50e92df",
+      "start": 38226,
+      "end": 38479
+    },
+    {
+      "id": "000093-a76d716d4f05",
+      "start": 38505,
+      "end": 38787
+    },
+    {
+      "id": "000093-911ffdc6aa58",
+      "start": 38813,
+      "end": 39092
+    },
+    {
+      "id": "000093-98d0f14e893c",
+      "start": 39118,
+      "end": 39408
+    },
+    {
+      "id": "000093-8ebf640e128c",
+      "start": 39434,
+      "end": 39741
+    },
+    {
+      "id": "000093-240a89017dc6",
+      "start": 39767,
+      "end": 40063
+    },
+    {
+      "id": "000093-4c5c5f15c2b2",
+      "start": 40089,
+      "end": 40357
+    },
+    {
+      "id": "000093-25037dce5128",
+      "start": 40383,
+      "end": 40677
+    },
+    {
+      "id": "000093-191e26c572b0",
+      "start": 40703,
+      "end": 40995
+    },
+    {
+      "id": "000093-76fcd6df764e",
+      "start": 41021,
+      "end": 41305
+    },
+    {
+      "id": "000093-d5de80648c5e",
+      "start": 41331,
+      "end": 41611
+    },
+    {
+      "id": "000093-27e823c095f7",
+      "start": 41637,
+      "end": 41939
+    },
+    {
+      "id": "000093-bda3c7edf1f3",
+      "start": 41965,
+      "end": 42280
+    },
+    {
+      "id": "000093-eb2724d31caf",
+      "start": 42306,
+      "end": 42598
+    },
+    {
+      "id": "000093-46e5d8cafa6c",
+      "start": 42624,
+      "end": 42902
+    },
+    {
+      "id": "000093-8d1b4f1a9128",
+      "start": 42928,
+      "end": 43234
+    },
+    {
+      "id": "000093-a07826baa0ce",
+      "start": 43260,
+      "end": 43542
+    },
+    {
+      "id": "000093-f950a8517dfa",
+      "start": 43568,
+      "end": 43887
+    },
+    {
+      "id": "000093-e43e251f335e",
+      "start": 43913,
+      "end": 44191
+    },
+    {
+      "id": "000093-3d7efeb7b526",
+      "start": 44217,
+      "end": 44486
+    },
+    {
+      "id": "000093-6c385c06776c",
+      "start": 44512,
+      "end": 44785
+    },
+    {
+      "id": "000093-ac7c5fbc34fa",
+      "start": 44811,
+      "end": 45079
+    },
+    {
+      "id": "000093-aeeffd52c224",
+      "start": 45105,
+      "end": 45385
+    },
+    {
+      "id": "000093-1ca12a7d1001",
+      "start": 45411,
+      "end": 45709
+    },
+    {
+      "id": "000093-883c73b7e197",
+      "start": 45735,
+      "end": 46037
+    },
+    {
+      "id": "000093-eff36fbdba22",
+      "start": 46063,
+      "end": 46358
+    },
+    {
+      "id": "000093-8296530b1f8d",
+      "start": 46384,
+      "end": 46675
+    },
+    {
+      "id": "000093-07349fb68a12",
+      "start": 46701,
+      "end": 47015
+    },
+    {
+      "id": "000093-0cd1517d3c73",
+      "start": 47041,
+      "end": 47341
+    },
+    {
+      "id": "000093-8dcc08f97a4e",
+      "start": 47367,
+      "end": 47662
+    },
+    {
+      "id": "000093-1285393f617b",
+      "start": 47688,
+      "end": 47965
+    },
+    {
+      "id": "000093-1941605c5a06",
+      "start": 47991,
+      "end": 48299
+    },
+    {
+      "id": "000093-933464351dfd",
+      "start": 48325,
+      "end": 48605
+    },
+    {
+      "id": "000093-d9d4e28f82e7",
+      "start": 48631,
+      "end": 48917
+    },
+    {
+      "id": "000093-d65f0cea4f02",
+      "start": 48943,
+      "end": 49227
+    },
+    {
+      "id": "000093-dd346dce44c9",
+      "start": 49253,
+      "end": 49539
+    },
+    {
+      "id": "000093-dabe3248600c",
+      "start": 49565,
+      "end": 49820
+    },
+    {
+      "id": "000093-d75372aa788f",
+      "start": 49846,
+      "end": 50123
+    },
+    {
+      "id": "000093-01eda9b8ec43",
+      "start": 50149,
+      "end": 50450
+    },
+    {
+      "id": "000093-7229d930a383",
+      "start": 50476,
+      "end": 50776
+    },
+    {
+      "id": "000093-255a0f41ff27",
+      "start": 50802,
+      "end": 51097
+    },
+    {
+      "id": "000093-f622c9e30c80",
+      "start": 51123,
+      "end": 51418
+    },
+    {
+      "id": "000093-8bcd19601d73",
+      "start": 51444,
+      "end": 51720
+    },
+    {
+      "id": "000093-276c8b0321f4",
+      "start": 51746,
+      "end": 52056
+    },
+    {
+      "id": "000093-5c7d94cf925d",
+      "start": 52082,
+      "end": 52370
+    },
+    {
+      "id": "000093-0ac74ff43d26",
+      "start": 52396,
+      "end": 52711
+    },
+    {
+      "id": "000093-bd5010ba70b5",
+      "start": 52737,
+      "end": 53018
+    },
+    {
+      "id": "000093-78e1a3684e33",
+      "start": 53044,
+      "end": 53351
+    },
+    {
+      "id": "000093-f04cbaf37e04",
+      "start": 53377,
+      "end": 53675
+    },
+    {
+      "id": "000093-ecd9f9fefe66",
+      "start": 53701,
+      "end": 53983
+    },
+    {
+      "id": "000093-7316d1d98510",
+      "start": 54009,
+      "end": 54279
+    },
+    {
+      "id": "000093-d393ea2c7a87",
+      "start": 54305,
+      "end": 54623
+    },
+    {
+      "id": "000093-af03a2cf3c0e",
+      "start": 54649,
+      "end": 54953
+    },
+    {
+      "id": "000093-b72dbea0dd19",
+      "start": 54979,
+      "end": 55278
+    },
+    {
+      "id": "000093-a8287b3020f6",
+      "start": 55304,
+      "end": 55596
+    },
+    {
+      "id": "000093-04af8a71fa1e",
+      "start": 55622,
+      "end": 55914
+    },
+    {
+      "id": "000093-8988622db9f7",
+      "start": 55940,
+      "end": 56241
+    },
+    {
+      "id": "000093-3537c2c7c574",
+      "start": 56267,
+      "end": 56551
+    },
+    {
+      "id": "000093-687de6427cb9",
+      "start": 56577,
+      "end": 56847
+    },
+    {
+      "id": "000093-5aa43c6ca572",
+      "start": 56873,
+      "end": 57178
+    },
+    {
+      "id": "000093-9b05f143823c",
+      "start": 57204,
+      "end": 57494
+    },
+    {
+      "id": "000093-309624438627",
+      "start": 57520,
+      "end": 57812
+    },
+    {
+      "id": "000093-46ff1aa3c1b4",
+      "start": 57838,
+      "end": 58130
+    },
+    {
+      "id": "000093-d93ea14994cb",
+      "start": 58156,
+      "end": 58450
+    },
+    {
+      "id": "000093-b45d6a1751b4",
+      "start": 58476,
+      "end": 58771
+    },
+    {
+      "id": "000093-3ba7a09192eb",
+      "start": 58797,
+      "end": 59089
+    },
+    {
+      "id": "000093-a3ba2942a018",
+      "start": 59115,
+      "end": 59420
+    },
+    {
+      "id": "000093-2fe255f4cf3f",
+      "start": 59446,
+      "end": 59739
+    },
+    {
+      "id": "000093-3ffa82a858d4",
+      "start": 59765,
+      "end": 60043
+    },
+    {
+      "id": "000093-e9ff0c113fa1",
+      "start": 60069,
+      "end": 60365
+    },
+    {
+      "id": "000093-269c099c7a7d",
+      "start": 60391,
+      "end": 60701
+    },
+    {
+      "id": "000093-06fad975f075",
+      "start": 60727,
+      "end": 61021
+    },
+    {
+      "id": "000093-f9a443994c6c",
+      "start": 61047,
+      "end": 61335
+    },
+    {
+      "id": "000093-cd86d01e9e2c",
+      "start": 61361,
+      "end": 61648
+    },
+    {
+      "id": "000093-68f825355d43",
+      "start": 61674,
+      "end": 61991
+    },
+    {
+      "id": "000093-02ec1c0bf95d",
+      "start": 62017,
+      "end": 62314
+    },
+    {
+      "id": "000093-2622d49fa5b1",
+      "start": 62340,
+      "end": 62645
+    },
+    {
+      "id": "000093-37678b407605",
+      "start": 62671,
+      "end": 62968
+    },
+    {
+      "id": "000093-33efd3de826e",
+      "start": 62994,
+      "end": 63278
+    },
+    {
+      "id": "000093-da4cb1d7fc81",
+      "start": 63304,
+      "end": 63584
+    },
+    {
+      "id": "000093-29a90effa93d",
+      "start": 63610,
+      "end": 63939
+    },
+    {
+      "id": "000093-3f457781ed7f",
+      "start": 63965,
+      "end": 64232
+    },
+    {
+      "id": "000093-5725e6a89d52",
+      "start": 64258,
+      "end": 64552
+    },
+    {
+      "id": "000093-1fdb88c3c94a",
+      "start": 64578,
+      "end": 64844
+    },
+    {
+      "id": "000093-05dfa1090d45",
+      "start": 64870,
+      "end": 65183
+    },
+    {
+      "id": "000093-4adcdbae4c1f",
+      "start": 65209,
+      "end": 65521
+    },
+    {
+      "id": "000093-0da72c1772da",
+      "start": 65547,
+      "end": 65838
+    },
+    {
+      "id": "000093-b3317181cc93",
+      "start": 65864,
+      "end": 66169
+    },
+    {
+      "id": "000093-14914eb3a0e2",
+      "start": 66195,
+      "end": 66483
+    },
+    {
+      "id": "000093-a394ca0ac735",
+      "start": 66509,
+      "end": 66773
+    },
+    {
+      "id": "000093-80efe72ae10c",
+      "start": 66799,
+      "end": 67085
+    },
+    {
+      "id": "000093-f08b65b6941b",
+      "start": 67111,
+      "end": 67380
+    },
+    {
+      "id": "000093-4ebaaac91ea3",
+      "start": 67406,
+      "end": 67682
+    },
+    {
+      "id": "000093-c4b9d3006760",
+      "start": 67708,
+      "end": 68012
+    },
+    {
+      "id": "000093-7af578205c76",
+      "start": 68038,
+      "end": 68327
+    },
+    {
+      "id": "000093-7150614c80ae",
+      "start": 68353,
+      "end": 68624
+    },
+    {
+      "id": "000093-a0d8ef1d7208",
+      "start": 68650,
+      "end": 68922
+    },
+    {
+      "id": "000093-f3a9f43c5184",
+      "start": 68948,
+      "end": 69250
+    },
+    {
+      "id": "000093-dfcee1f959ec",
+      "start": 69276,
+      "end": 69549
+    },
+    {
+      "id": "000093-fbad28e108aa",
+      "start": 69575,
+      "end": 69868
+    },
+    {
+      "id": "000093-d88debaef72a",
+      "start": 69894,
+      "end": 70191
+    },
+    {
+      "id": "000093-991aafce434d",
+      "start": 70217,
+      "end": 70523
+    },
+    {
+      "id": "000093-5e84373a4f80",
+      "start": 70549,
+      "end": 70824
+    },
+    {
+      "id": "000093-4061eedcc9fc",
+      "start": 70850,
+      "end": 71162
+    },
+    {
+      "id": "000093-a5783a0e0356",
+      "start": 71188,
+      "end": 71505
+    },
+    {
+      "id": "000093-f49cd55c417d",
+      "start": 71531,
+      "end": 71822
+    },
+    {
+      "id": "000093-18feb9a827f4",
+      "start": 71848,
+      "end": 72120
+    },
+    {
+      "id": "000093-777e2108e355",
+      "start": 72146,
+      "end": 72452
+    },
+    {
+      "id": "000093-2253934c78a3",
+      "start": 72478,
+      "end": 72767
+    },
+    {
+      "id": "000093-8500e41123a0",
+      "start": 72793,
+      "end": 73090
+    },
+    {
+      "id": "000093-735681acc1b3",
+      "start": 73116,
+      "end": 73408
+    },
+    {
+      "id": "000093-07839c50f411",
+      "start": 73434,
+      "end": 73720
+    },
+    {
+      "id": "000093-8bf28ab5bb87",
+      "start": 73746,
+      "end": 74044
+    },
+    {
+      "id": "000093-dbc2e8d748d8",
+      "start": 74070,
+      "end": 74369
+    },
+    {
+      "id": "000093-29415269a8fe",
+      "start": 74395,
+      "end": 74697
+    },
+    {
+      "id": "000093-711349bf3325",
+      "start": 74723,
+      "end": 75009
+    },
+    {
+      "id": "000093-c4b2afd5bf07",
+      "start": 75035,
+      "end": 75348
+    },
+    {
+      "id": "000093-b9b395388b50",
+      "start": 75374,
+      "end": 75665
+    },
+    {
+      "id": "000093-9c2e3c658c5e",
+      "start": 75691,
+      "end": 75978
+    },
+    {
+      "id": "000093-840e3c3cea5e",
+      "start": 76004,
+      "end": 76311
+    },
+    {
+      "id": "000093-a7286c0c5849",
+      "start": 76337,
+      "end": 76664
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/empty-scene-state",
       "expected": true,
       "snippets": [
-        "Stillness filled the kitchen."
+        "In the stillness of the kitchen"
       ]
     },
     {
@@ -127,7 +1227,7 @@
       "check": "narrative-craft/empty-scene-state",
       "expected": true,
       "snippets": [
-        "The room was heavy with silence."
+        "in the heavy silence of the room"
       ]
     },
     {
@@ -152,7 +1252,7 @@
       "check": "narrative-craft/empty-scene-state",
       "expected": true,
       "snippets": [
-        "The garage felt cold and hollow."
+        "In the cold, hollow garage"
       ]
     },
     {
@@ -176,7 +1276,7 @@
       "check": "narrative-craft/empty-scene-state",
       "expected": true,
       "snippets": [
-        "The house was wrapped in quiet."
+        "In the hush of the house"
       ]
     },
     {
@@ -192,7 +1292,7 @@
       "check": "narrative-craft/empty-scene-state",
       "expected": true,
       "snippets": [
-        "A vague stillness lay over the scene."
+        "The allotments lay hushed"
       ]
     },
     {
@@ -242,6 +1342,1436 @@
     },
     {
       "id": "000093-856ba096c106",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-1cdc1fc62862",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The classroom lay in silence."
+      ]
+    },
+    {
+      "id": "000093-4147176a0b73",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-3c8828b23077",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A hollow quiet occupied the basement."
+      ]
+    },
+    {
+      "id": "000093-988319987f1a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-5b72b264a4bb",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The afternoon had a peculiar stillness."
+      ]
+    },
+    {
+      "id": "000093-dde6ccf57ea2",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-61dd819e4ae6",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The place felt muted and distant."
+      ]
+    },
+    {
+      "id": "000093-86343dff93c9",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-e144c8ebf1d5",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A hush lay over the gathering."
+      ]
+    },
+    {
+      "id": "000093-1aa9a3de214b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-2eeb4731a1aa",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Quiet filled the kitchen."
+      ]
+    },
+    {
+      "id": "000093-d177bb4ba2df",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-33c2e60036c4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the heavy atmosphere of the clubroom"
+      ]
+    },
+    {
+      "id": "000093-2a9cb75903a8",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-302f906e6db1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The laundrette had an air of suspended quiet."
+      ]
+    },
+    {
+      "id": "000093-e8c2134c02e4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-38f1f06088bc",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A blanket of stillness covered the deck."
+      ]
+    },
+    {
+      "id": "000093-96ee46500baf",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-7662d22aa248",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The sewing room was hushed."
+      ]
+    },
+    {
+      "id": "000093-0874e0b5686e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-1b33c0ec7eb1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The office seemed strangely lifeless."
+      ]
+    },
+    {
+      "id": "000093-13d4634aa92b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-9cd09c93a943",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the stillness around us"
+      ]
+    },
+    {
+      "id": "000093-80860ca11049",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-a5d3f578e411",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The waiting area had a weightless, empty quality."
+      ]
+    },
+    {
+      "id": "000093-d46cf18c54f1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-5c61d2036513",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Silence drifted between the shelves."
+      ]
+    },
+    {
+      "id": "000093-25852c3a35df",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-7d4790989449",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A dull stillness surrounded the campsite."
+      ]
+    },
+    {
+      "id": "000093-8e9d3161151f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-66ed77177ba8",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the quiet that clothed the room"
+      ]
+    },
+    {
+      "id": "000093-83f3caf07b98",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-26c3e5f7d5a7",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The warehouse felt cold and remote."
+      ]
+    },
+    {
+      "id": "000093-adbc43d351cb",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-646e9b13650f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Everyone sank into a common quiet."
+      ]
+    },
+    {
+      "id": "000093-14536beb3f38",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-17f854c7d4a2",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The hotel corridor held its breath."
+      ]
+    },
+    {
+      "id": "000093-d07baa781f1c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-1930c3865290",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A sleepy hush lies over the scene."
+      ]
+    },
+    {
+      "id": "000093-74d086859c3e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d017f133f74c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The repair cafe was wrapped in quiet."
+      ]
+    },
+    {
+      "id": "000093-5b8a94facd52",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d488973c163b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The road lay still."
+      ]
+    },
+    {
+      "id": "000093-b45f7e8d219e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-ac398c998e89",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A silence without edges surrounded the attic."
+      ]
+    },
+    {
+      "id": "000093-4973bfe70541",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-defc4d9b213a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The village hall wore a vacant air."
+      ]
+    },
+    {
+      "id": "000093-11f8037a8c03",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-010d04aab2dc",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The bowls club had become a pocket of stillness."
+      ]
+    },
+    {
+      "id": "000093-f8f4850dda7d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d2f8c1b3731b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The little shop was steeped in hush."
+      ]
+    },
+    {
+      "id": "000093-da38787eb331",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-223594f97c45",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The bakery had a subdued atmosphere."
+      ]
+    },
+    {
+      "id": "000093-caecbb7b1ca6",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-afa2025152bc",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the hush of the stable yard"
+      ]
+    },
+    {
+      "id": "000093-f7e3cc571d20",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-a38fbe7ab98e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The evening settled into stillness."
+      ]
+    },
+    {
+      "id": "000093-650af76201b1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-37fe5b0deb4b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Silence pooled around the desk."
+      ]
+    },
+    {
+      "id": "000093-dae438d64ad0",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-c41873f4ef40",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "An unbroken hush covered the plots."
+      ]
+    },
+    {
+      "id": "000093-690e34bf44fc",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-bf44ea374c1f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A cool emptiness possessed the dining room."
+      ]
+    },
+    {
+      "id": "000093-128183dafd9a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-28205903136b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The field lay in a deep calm."
+      ]
+    },
+    {
+      "id": "000093-331a6b9e3147",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-b63c034e2528",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A quiet weight filled the surgery."
+      ]
+    },
+    {
+      "id": "000093-ba86a53ae745",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-0b6d06449e75",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The garden seemed held in silence."
+      ]
+    },
+    {
+      "id": "000093-84b6e39871f3",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-a26c877e418a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The volunteers subsided into silence."
+      ]
+    },
+    {
+      "id": "000093-79766f8cba76",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-b06eb56db49b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A nameless stillness lingered over the morning."
+      ]
+    },
+    {
+      "id": "000093-f00eaaf382d9",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-33ef5b017480",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The station forecourt was oddly hollow."
+      ]
+    },
+    {
+      "id": "000093-f1eeb3591d58",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-f99abd33f4e3",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The rooms rested in quiet."
+      ]
+    },
+    {
+      "id": "000093-c46757c5ea94",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-51acf4895cf8",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In a silence as deep as a well"
+      ]
+    },
+    {
+      "id": "000093-f4ba44ebac73",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-3f59e4670846",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A flat calm pervaded the gallery."
+      ]
+    },
+    {
+      "id": "000093-78d6bbe06362",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-4732cff62f12",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A cold hush inhabited the bedroom."
+      ]
+    },
+    {
+      "id": "000093-dd2fcaaf7653",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-34cf00d834fb",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The swimming-pool lobby had a heavy feel."
+      ]
+    },
+    {
+      "id": "000093-69c6772e8e4c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-4890eb334f58",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Hush gathered around the market stalls."
+      ]
+    },
+    {
+      "id": "000093-59dcc530617c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-773e78f18229",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The old cinema lay dormant and silent."
+      ]
+    },
+    {
+      "id": "000093-ffe05f96495c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-9e770a8f2224",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The conservatory had fallen into stillness."
+      ]
+    },
+    {
+      "id": "000093-743b8774fd59",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-6dbe61d8b03f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The clinic's little courtyard felt drained of life."
+      ]
+    },
+    {
+      "id": "000093-03da2b085017",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-512b7ed18e39",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Stillness pressed against the workshop walls."
+      ]
+    },
+    {
+      "id": "000093-a223cab8d109",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-034b5efd342a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the quiet heart of the depot"
+      ]
+    },
+    {
+      "id": "000093-70124306ec2e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d9cd64040c00",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "An expectant quiet filled the studio."
+      ]
+    },
+    {
+      "id": "000093-b200a50e92df",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-a76d716d4f05",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The post office was sunk in quiet."
+      ]
+    },
+    {
+      "id": "000093-911ffdc6aa58",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-98d0f14e893c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The greenhouse seemed to float in a hush."
+      ]
+    },
+    {
+      "id": "000093-8ebf640e128c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-240a89017dc6",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A solemn stillness settled on the rehearsal room."
+      ]
+    },
+    {
+      "id": "000093-4c5c5f15c2b2",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-25037dce5128",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The hall had an oddly weighty quiet."
+      ]
+    },
+    {
+      "id": "000093-191e26c572b0",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-76fcd6df764e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A lifeless calm stretched across the beach."
+      ]
+    },
+    {
+      "id": "000093-d5de80648c5e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-27e823c095f7",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The stockroom was quiet and forlorn."
+      ]
+    },
+    {
+      "id": "000093-bda3c7edf1f3",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-eb2724d31caf",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The flat was wrapped in stillness."
+      ]
+    },
+    {
+      "id": "000093-46e5d8cafa6c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-8d1b4f1a9128",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A hollow calm filled the chamber."
+      ]
+    },
+    {
+      "id": "000093-a07826baa0ce",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-f950a8517dfa",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A muted emptiness hovered over the playground."
+      ]
+    },
+    {
+      "id": "000093-e43e251f335e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-3d7efeb7b526",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The pantry breathed a cool silence."
+      ]
+    },
+    {
+      "id": "000093-6c385c06776c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-ac7c5fbc34fa",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The square wore a mantle of quiet."
+      ]
+    },
+    {
+      "id": "000093-aeeffd52c224",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-1ca12a7d1001",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The utility room felt flat and empty."
+      ]
+    },
+    {
+      "id": "000093-883c73b7e197",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-eff36fbdba22",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The lounge was full of a soft hush."
+      ]
+    },
+    {
+      "id": "000093-8296530b1f8d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-07349fb68a12",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The kitchen at the scout hut held a dense stillness."
+      ]
+    },
+    {
+      "id": "000093-0cd1517d3c73",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-8dcc08f97a4e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A listless calm hung over the car park."
+      ]
+    },
+    {
+      "id": "000093-1285393f617b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-1941605c5a06",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The choir members grew quiet together."
+      ]
+    },
+    {
+      "id": "000093-933464351dfd",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d9d4e28f82e7",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Stillness gathered along the towpath."
+      ]
+    },
+    {
+      "id": "000093-d65f0cea4f02",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-dd346dce44c9",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The studio had an airless quiet."
+      ]
+    },
+    {
+      "id": "000093-dabe3248600c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d75372aa788f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The charity runners waited in a broad silence."
+      ]
+    },
+    {
+      "id": "000093-01eda9b8ec43",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-7229d930a383",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A remote stillness lay over the place."
+      ]
+    },
+    {
+      "id": "000093-255a0f41ff27",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-f622c9e30c80",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The bowling alley seemed strangely still."
+      ]
+    },
+    {
+      "id": "000093-8bcd19601d73",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-276c8b0321f4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A faded hush occupied the church porch."
+      ]
+    },
+    {
+      "id": "000093-5c7d94cf925d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-0ac74ff43d26",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The office was steeped in a dull quiet."
+      ]
+    },
+    {
+      "id": "000093-bd5010ba70b5",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-78e1a3684e33",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "An empty feeling lingered in the entrance hall."
+      ]
+    },
+    {
+      "id": "000093-f04cbaf37e04",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-ecd9f9fefe66",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Silence lay like dust over the breakfast room."
+      ]
+    },
+    {
+      "id": "000093-7316d1d98510",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d393ea2c7a87",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The showroom felt heavy and still."
+      ]
+    },
+    {
+      "id": "000093-af03a2cf3c0e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-b72dbea0dd19",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A shared hush enclosed the group."
+      ]
+    },
+    {
+      "id": "000093-a8287b3020f6",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-04af8a71fa1e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The takeaway counter stood in a thin silence."
+      ]
+    },
+    {
+      "id": "000093-8988622db9f7",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-3537c2c7c574",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A hush seemed to seep through the bus."
+      ]
+    },
+    {
+      "id": "000093-687de6427cb9",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-5aa43c6ca572",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The street had a hushed quality."
+      ]
+    },
+    {
+      "id": "000093-9b05f143823c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-309624438627",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A vague stillness surrounded the tables."
+      ]
+    },
+    {
+      "id": "000093-46ff1aa3c1b4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-d93ea14994cb",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The ferry terminal seemed suspended in calm."
+      ]
+    },
+    {
+      "id": "000093-b45d6a1751b4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-3ba7a09192eb",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The classroom carried a soft emptiness."
+      ]
+    },
+    {
+      "id": "000093-a3ba2942a018",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-2fe255f4cf3f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the weighty quiet of the landing"
+      ]
+    },
+    {
+      "id": "000093-3ffa82a858d4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-e9ff0c113fa1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The restaurant's upstairs room had an empty, distant air."
+      ]
+    },
+    {
+      "id": "000093-269c099c7a7d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-06fad975f075",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Stillness lay across the workshop like a sheet."
+      ]
+    },
+    {
+      "id": "000093-f9a443994c6c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-cd86d01e9e2c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A heavy pause filled the entire station."
+      ]
+    },
+    {
+      "id": "000093-68f825355d43",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-02ec1c0bf95d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The guest room stood cold and silent."
+      ]
+    },
+    {
+      "id": "000093-2622d49fa5b1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-37678b407605",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The archery club gathered in muted quiet."
+      ]
+    },
+    {
+      "id": "000093-33efd3de826e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-da4cb1d7fc81",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A worn silence clung to the shop."
+      ]
+    },
+    {
+      "id": "000093-29a90effa93d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-3f457781ed7f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The afternoon seemed to stop around the veranda."
+      ]
+    },
+    {
+      "id": "000093-5725e6a89d52",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-1fdb88c3c94a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The house sat in a pool of quiet."
+      ]
+    },
+    {
+      "id": "000093-05dfa1090d45",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-4adcdbae4c1f",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A quiet vacancy hung over the kitchen table."
+      ]
+    },
+    {
+      "id": "000093-0da72c1772da",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-b3317181cc93",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The park seemed enclosed in stillness."
+      ]
+    },
+    {
+      "id": "000093-14914eb3a0e2",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-a394ca0ac735",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The cloakroom had a thick, silent atmosphere."
+      ]
+    },
+    {
+      "id": "000093-80efe72ae10c",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-f08b65b6941b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The lane rested under a spell of quiet."
+      ]
+    },
+    {
+      "id": "000093-4ebaaac91ea3",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-c4b9d3006760",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A grey hush filled the building."
+      ]
+    },
+    {
+      "id": "000093-7af578205c76",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-7150614c80ae",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The garage had a dim, empty mood."
+      ]
+    },
+    {
+      "id": "000093-a0d8ef1d7208",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-f3a9f43c5184",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A shapeless silence surrounded the reading room."
+      ]
+    },
+    {
+      "id": "000093-dfcee1f959ec",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-fbad28e108aa",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "In the dull calm of the salon"
+      ]
+    },
+    {
+      "id": "000093-d88debaef72a",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-991aafce434d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The sales tent felt coldly vacant."
+      ]
+    },
+    {
+      "id": "000093-5e84373a4f80",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-4061eedcc9fc",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The room wore its silence heavily."
+      ]
+    },
+    {
+      "id": "000093-a5783a0e0356",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-f49cd55c417d",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A soft deadness rested on the stairwell."
+      ]
+    },
+    {
+      "id": "000093-18feb9a827f4",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-777e2108e355",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The cafetorium was enveloped in a general hush."
+      ]
+    },
+    {
+      "id": "000093-2253934c78a3",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-8500e41123a0",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "Quiet made a home in the little shop."
+      ]
+    },
+    {
+      "id": "000093-735681acc1b3",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-07839c50f411",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The afternoon carried a hollow stillness."
+      ]
+    },
+    {
+      "id": "000093-8bf28ab5bb87",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-dbc2e8d748d8",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The changing room lay under a heavy hush."
+      ]
+    },
+    {
+      "id": "000093-29415269a8fe",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-711349bf3325",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The members' lounge had a thin, desolate quiet."
+      ]
+    },
+    {
+      "id": "000093-c4b2afd5bf07",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-b9b395388b50",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A nameless calm enclosed the ticket office."
+      ]
+    },
+    {
+      "id": "000093-9c2e3c658c5e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000093-840e3c3cea5e",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A blank stillness filled the back room."
+      ]
+    },
+    {
+      "id": "000093-a7286c0c5849",
       "check": "narrative-craft/empty-scene-state",
       "expected": false
     }

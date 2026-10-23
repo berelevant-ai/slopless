@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "34593aa350f957fc25f4a1b61ffc90503bebd0b42185b3ee2b805765a4217543",
+  "textSha256": "af9aed35a1d7ac537c6d0d1c1b8403be95eb8bc4f710e5803c458699d169552d",
   "source": {
     "name": "Codex-authored mixed-narrative-craft-f-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -15,82 +15,1202 @@
     {
       "id": "000126-340328fbba9f",
       "start": 59,
-      "end": 446
+      "end": 445
     },
     {
       "id": "000126-3ac3d2a99fe2",
-      "start": 472,
-      "end": 838
+      "start": 471,
+      "end": 837
     },
     {
       "id": "000126-0b78aa764843",
-      "start": 864,
-      "end": 1224
+      "start": 863,
+      "end": 1244
     },
     {
       "id": "000126-6f981daa8c81",
-      "start": 1250,
-      "end": 1611
+      "start": 1270,
+      "end": 1664
     },
     {
       "id": "000126-a3e4578a7d7b",
-      "start": 1637,
-      "end": 2004
+      "start": 1690,
+      "end": 2057
     },
     {
       "id": "000126-4edd12a7f555",
-      "start": 2030,
-      "end": 2410
+      "start": 2083,
+      "end": 2463
     },
     {
       "id": "000126-78b2fcbc5344",
-      "start": 2436,
-      "end": 2780
+      "start": 2489,
+      "end": 2833
     },
     {
       "id": "000126-69ce7d781d77",
-      "start": 2806,
-      "end": 3169
+      "start": 2859,
+      "end": 3247
     },
     {
       "id": "000126-b8c653002464",
-      "start": 3195,
-      "end": 3556
+      "start": 3273,
+      "end": 3618
     },
     {
       "id": "000126-7f298394e4ab",
-      "start": 3582,
-      "end": 3940
+      "start": 3644,
+      "end": 4028
     },
     {
       "id": "000126-099403410d39",
-      "start": 3966,
-      "end": 4328
+      "start": 4054,
+      "end": 4446
     },
     {
       "id": "000126-5bae6eb568e2",
-      "start": 4354,
-      "end": 4759
+      "start": 4472,
+      "end": 4877
     },
     {
       "id": "000126-35ca41ad3295",
-      "start": 4785,
-      "end": 5154
+      "start": 4903,
+      "end": 5272
     },
     {
       "id": "000126-64ec09467f28",
-      "start": 5180,
-      "end": 5542
+      "start": 5298,
+      "end": 5666
     },
     {
       "id": "000126-5404d8f5d02c",
-      "start": 5568,
-      "end": 5936
+      "start": 5692,
+      "end": 6109
     },
     {
       "id": "000126-9419f4c9c743",
-      "start": 5962,
-      "end": 6357
+      "start": 6135,
+      "end": 6539
+    },
+    {
+      "id": "000126-59b9a3d6617e",
+      "start": 6565,
+      "end": 6789
+    },
+    {
+      "id": "000126-214673a843f8",
+      "start": 6815,
+      "end": 7083
+    },
+    {
+      "id": "000126-23afbec376a3",
+      "start": 7109,
+      "end": 7385
+    },
+    {
+      "id": "000126-affe64d15ece",
+      "start": 7411,
+      "end": 7674
+    },
+    {
+      "id": "000126-a97719e9210b",
+      "start": 7700,
+      "end": 7962
+    },
+    {
+      "id": "000126-81f3a0c072b2",
+      "start": 7988,
+      "end": 8256
+    },
+    {
+      "id": "000126-883ce5e66f82",
+      "start": 8282,
+      "end": 8553
+    },
+    {
+      "id": "000126-b9c9cbc8f071",
+      "start": 8579,
+      "end": 8833
+    },
+    {
+      "id": "000126-6de590a82762",
+      "start": 8859,
+      "end": 9128
+    },
+    {
+      "id": "000126-2ac950271df7",
+      "start": 9154,
+      "end": 9393
+    },
+    {
+      "id": "000126-c595d7d684b5",
+      "start": 9419,
+      "end": 9668
+    },
+    {
+      "id": "000126-2c71002d471e",
+      "start": 9694,
+      "end": 9960
+    },
+    {
+      "id": "000126-d77bd95dd7e9",
+      "start": 9986,
+      "end": 10231
+    },
+    {
+      "id": "000126-6dc3e3a633c3",
+      "start": 10257,
+      "end": 10497
+    },
+    {
+      "id": "000126-ca2dd41c1fc4",
+      "start": 10523,
+      "end": 10775
+    },
+    {
+      "id": "000126-efb5c3bcc514",
+      "start": 10801,
+      "end": 11058
+    },
+    {
+      "id": "000126-e11a686419e8",
+      "start": 11084,
+      "end": 11344
+    },
+    {
+      "id": "000126-e4235bca30c3",
+      "start": 11370,
+      "end": 11623
+    },
+    {
+      "id": "000126-8655ef9fab23",
+      "start": 11649,
+      "end": 11907
+    },
+    {
+      "id": "000126-78f728fdafa3",
+      "start": 11933,
+      "end": 12204
+    },
+    {
+      "id": "000126-6fdb4bbe6aba",
+      "start": 12230,
+      "end": 12481
+    },
+    {
+      "id": "000126-aa9f455dfa2a",
+      "start": 12507,
+      "end": 12758
+    },
+    {
+      "id": "000126-fc9104d14291",
+      "start": 12784,
+      "end": 13041
+    },
+    {
+      "id": "000126-d5ea23463fbe",
+      "start": 13067,
+      "end": 13341
+    },
+    {
+      "id": "000126-2da716fe0092",
+      "start": 13367,
+      "end": 13629
+    },
+    {
+      "id": "000126-261a405b1985",
+      "start": 13655,
+      "end": 13912
+    },
+    {
+      "id": "000126-2570245cccba",
+      "start": 13938,
+      "end": 14199
+    },
+    {
+      "id": "000126-ddcf6fee5910",
+      "start": 14225,
+      "end": 14484
+    },
+    {
+      "id": "000126-6ae3e08e4fda",
+      "start": 14510,
+      "end": 14778
+    },
+    {
+      "id": "000126-32382ef11d0d",
+      "start": 14804,
+      "end": 15090
+    },
+    {
+      "id": "000126-25c0d76bbf84",
+      "start": 15116,
+      "end": 15371
+    },
+    {
+      "id": "000126-15de346f8de2",
+      "start": 15397,
+      "end": 15660
+    },
+    {
+      "id": "000126-5c7554e206e9",
+      "start": 15686,
+      "end": 15944
+    },
+    {
+      "id": "000126-8822a329a82f",
+      "start": 15970,
+      "end": 16247
+    },
+    {
+      "id": "000126-fc0ca8eea648",
+      "start": 16273,
+      "end": 16545
+    },
+    {
+      "id": "000126-808be998ce5f",
+      "start": 16571,
+      "end": 16838
+    },
+    {
+      "id": "000126-743b44dfa31b",
+      "start": 16864,
+      "end": 17106
+    },
+    {
+      "id": "000126-7c1a15e6a494",
+      "start": 17132,
+      "end": 17385
+    },
+    {
+      "id": "000126-c0d36a55e54f",
+      "start": 17411,
+      "end": 17672
+    },
+    {
+      "id": "000126-04f5cf697345",
+      "start": 17698,
+      "end": 17953
+    },
+    {
+      "id": "000126-27f7757c5dfc",
+      "start": 17979,
+      "end": 18251
+    },
+    {
+      "id": "000126-b13275dfb91c",
+      "start": 18277,
+      "end": 18538
+    },
+    {
+      "id": "000126-71ef914ef977",
+      "start": 18564,
+      "end": 18808
+    },
+    {
+      "id": "000126-0eccf72a7f5f",
+      "start": 18834,
+      "end": 19090
+    },
+    {
+      "id": "000126-0762d620873a",
+      "start": 19116,
+      "end": 19376
+    },
+    {
+      "id": "000126-d088df7527f4",
+      "start": 19402,
+      "end": 19670
+    },
+    {
+      "id": "000126-7c1bea14ae68",
+      "start": 19696,
+      "end": 19950
+    },
+    {
+      "id": "000126-c99f8fdcd839",
+      "start": 19976,
+      "end": 20244
+    },
+    {
+      "id": "000126-03cd53c12741",
+      "start": 20270,
+      "end": 20525
+    },
+    {
+      "id": "000126-983f1d81fd04",
+      "start": 20551,
+      "end": 20810
+    },
+    {
+      "id": "000126-5e5cb05d8d96",
+      "start": 20836,
+      "end": 21102
+    },
+    {
+      "id": "000126-5e549dab0955",
+      "start": 21128,
+      "end": 21398
+    },
+    {
+      "id": "000126-920c5586f016",
+      "start": 21424,
+      "end": 21706
+    },
+    {
+      "id": "000126-5580772523e8",
+      "start": 21732,
+      "end": 22027
+    },
+    {
+      "id": "000126-070da899d908",
+      "start": 22053,
+      "end": 22289
+    },
+    {
+      "id": "000126-3272b148d580",
+      "start": 22315,
+      "end": 22588
+    },
+    {
+      "id": "000126-1a2b7dc97524",
+      "start": 22614,
+      "end": 22873
+    },
+    {
+      "id": "000126-2b1d6d89dc69",
+      "start": 22899,
+      "end": 23169
+    },
+    {
+      "id": "000126-37da7bcab070",
+      "start": 23195,
+      "end": 23454
+    },
+    {
+      "id": "000126-0dd02a75b461",
+      "start": 23480,
+      "end": 23738
+    },
+    {
+      "id": "000126-f963f0af8268",
+      "start": 23764,
+      "end": 24002
+    },
+    {
+      "id": "000126-b7a57ab1a973",
+      "start": 24028,
+      "end": 24283
+    },
+    {
+      "id": "000126-1a8833b90b6a",
+      "start": 24309,
+      "end": 24595
+    },
+    {
+      "id": "000126-34940ef41cfc",
+      "start": 24621,
+      "end": 24890
+    },
+    {
+      "id": "000126-2bfd519d9b45",
+      "start": 24916,
+      "end": 25168
+    },
+    {
+      "id": "000126-bccf5b12535a",
+      "start": 25194,
+      "end": 25448
+    },
+    {
+      "id": "000126-55da2975db4c",
+      "start": 25474,
+      "end": 25735
+    },
+    {
+      "id": "000126-327ca0b423f5",
+      "start": 25761,
+      "end": 26028
+    },
+    {
+      "id": "000126-4f6b80620a88",
+      "start": 26054,
+      "end": 26332
+    },
+    {
+      "id": "000126-421358b88dd7",
+      "start": 26358,
+      "end": 26623
+    },
+    {
+      "id": "000126-c58c3112314d",
+      "start": 26649,
+      "end": 26908
+    },
+    {
+      "id": "000126-926e14d6ca74",
+      "start": 26934,
+      "end": 27195
+    },
+    {
+      "id": "000126-4a78b8a941b0",
+      "start": 27221,
+      "end": 27480
+    },
+    {
+      "id": "000126-83374be3ded3",
+      "start": 27506,
+      "end": 27766
+    },
+    {
+      "id": "000126-be3a79917b2e",
+      "start": 27792,
+      "end": 28043
+    },
+    {
+      "id": "000126-a17aa89a61d3",
+      "start": 28069,
+      "end": 28351
+    },
+    {
+      "id": "000126-c9437c661c52",
+      "start": 28377,
+      "end": 28630
+    },
+    {
+      "id": "000126-f3aae7ff4366",
+      "start": 28656,
+      "end": 28905
+    },
+    {
+      "id": "000126-11b1affe38ce",
+      "start": 28931,
+      "end": 29183
+    },
+    {
+      "id": "000126-accd835bdb4a",
+      "start": 29209,
+      "end": 29493
+    },
+    {
+      "id": "000126-150f0c1f517f",
+      "start": 29519,
+      "end": 29780
+    },
+    {
+      "id": "000126-7fa2fd860d93",
+      "start": 29806,
+      "end": 30080
+    },
+    {
+      "id": "000126-f6292345004e",
+      "start": 30106,
+      "end": 30383
+    },
+    {
+      "id": "000126-6919cd199b4d",
+      "start": 30409,
+      "end": 30690
+    },
+    {
+      "id": "000126-a793921db5c7",
+      "start": 30716,
+      "end": 30973
+    },
+    {
+      "id": "000126-f3c84de306cb",
+      "start": 30999,
+      "end": 31259
+    },
+    {
+      "id": "000126-20df8b7a715c",
+      "start": 31285,
+      "end": 31539
+    },
+    {
+      "id": "000126-809aa0d72030",
+      "start": 31565,
+      "end": 31844
+    },
+    {
+      "id": "000126-69967667f607",
+      "start": 31870,
+      "end": 32140
+    },
+    {
+      "id": "000126-0fcceba5e5ce",
+      "start": 32166,
+      "end": 32428
+    },
+    {
+      "id": "000126-4743c60926e3",
+      "start": 32454,
+      "end": 32709
+    },
+    {
+      "id": "000126-f3c27e3feedc",
+      "start": 32735,
+      "end": 33009
+    },
+    {
+      "id": "000126-ae383aa37d1d",
+      "start": 33035,
+      "end": 33307
+    },
+    {
+      "id": "000126-eb1f6a7de625",
+      "start": 33333,
+      "end": 33603
+    },
+    {
+      "id": "000126-0e0c94c7ee8d",
+      "start": 33629,
+      "end": 33878
+    },
+    {
+      "id": "000126-858103d0de90",
+      "start": 33904,
+      "end": 34178
+    },
+    {
+      "id": "000126-fcbc4f10693a",
+      "start": 34204,
+      "end": 34462
+    },
+    {
+      "id": "000126-8d5241107743",
+      "start": 34488,
+      "end": 34787
+    },
+    {
+      "id": "000126-18f1826ac31b",
+      "start": 34813,
+      "end": 35073
+    },
+    {
+      "id": "000126-85231c97e16f",
+      "start": 35099,
+      "end": 35367
+    },
+    {
+      "id": "000126-cdcca4cf594f",
+      "start": 35393,
+      "end": 35661
+    },
+    {
+      "id": "000126-ca0e6eb457a5",
+      "start": 35687,
+      "end": 35960
+    },
+    {
+      "id": "000126-db0115a00902",
+      "start": 35986,
+      "end": 36265
+    },
+    {
+      "id": "000126-cf052d6c71a4",
+      "start": 36291,
+      "end": 36567
+    },
+    {
+      "id": "000126-de7d995c0815",
+      "start": 36593,
+      "end": 36864
+    },
+    {
+      "id": "000126-70fb429669d6",
+      "start": 36890,
+      "end": 37158
+    },
+    {
+      "id": "000126-d39a462109c6",
+      "start": 37184,
+      "end": 37463
+    },
+    {
+      "id": "000126-0bb7ae204f5c",
+      "start": 37489,
+      "end": 37746
+    },
+    {
+      "id": "000126-eee4e656c1f3",
+      "start": 37772,
+      "end": 38039
+    },
+    {
+      "id": "000126-1153925e280b",
+      "start": 38065,
+      "end": 38331
+    },
+    {
+      "id": "000126-1cf18cbb98b7",
+      "start": 38357,
+      "end": 38605
+    },
+    {
+      "id": "000126-d6cf5292f3cd",
+      "start": 38631,
+      "end": 38910
+    },
+    {
+      "id": "000126-1a16a90e5d02",
+      "start": 38936,
+      "end": 39209
+    },
+    {
+      "id": "000126-4db4a15e5ff9",
+      "start": 39235,
+      "end": 39488
+    },
+    {
+      "id": "000126-ea7576604920",
+      "start": 39514,
+      "end": 39764
+    },
+    {
+      "id": "000126-d68ac11a2110",
+      "start": 39790,
+      "end": 40037
+    },
+    {
+      "id": "000126-2419bfb4ac21",
+      "start": 40063,
+      "end": 40339
+    },
+    {
+      "id": "000126-8e0224a14be1",
+      "start": 40365,
+      "end": 40623
+    },
+    {
+      "id": "000126-6d1c1b92096a",
+      "start": 40649,
+      "end": 40911
+    },
+    {
+      "id": "000126-9d539592a130",
+      "start": 40937,
+      "end": 41193
+    },
+    {
+      "id": "000126-cb7b55bd56ad",
+      "start": 41219,
+      "end": 41473
+    },
+    {
+      "id": "000126-e27e71d30535",
+      "start": 41499,
+      "end": 41762
+    },
+    {
+      "id": "000126-ee84315f41f6",
+      "start": 41788,
+      "end": 42037
+    },
+    {
+      "id": "000126-1e261b9e0afd",
+      "start": 42063,
+      "end": 42330
+    },
+    {
+      "id": "000126-5175c630b764",
+      "start": 42356,
+      "end": 42619
+    },
+    {
+      "id": "000126-37e08b39af5c",
+      "start": 42645,
+      "end": 42907
+    },
+    {
+      "id": "000126-7e1d48327e3e",
+      "start": 42933,
+      "end": 43189
+    },
+    {
+      "id": "000126-be9c44186beb",
+      "start": 43215,
+      "end": 43493
+    },
+    {
+      "id": "000126-c459518ef75f",
+      "start": 43519,
+      "end": 43768
+    },
+    {
+      "id": "000126-ce7086fb98fc",
+      "start": 43794,
+      "end": 44064
+    },
+    {
+      "id": "000126-7bd3d5e990a2",
+      "start": 44090,
+      "end": 44339
+    },
+    {
+      "id": "000126-82dea1dba1f3",
+      "start": 44365,
+      "end": 44621
+    },
+    {
+      "id": "000126-c9fd667a7b49",
+      "start": 44647,
+      "end": 44925
+    },
+    {
+      "id": "000126-24d3c02474c7",
+      "start": 44951,
+      "end": 45220
+    },
+    {
+      "id": "000126-f3994314f68b",
+      "start": 45246,
+      "end": 45516
+    },
+    {
+      "id": "000126-4d728cdd7521",
+      "start": 45542,
+      "end": 45800
+    },
+    {
+      "id": "000126-d5cf22f96878",
+      "start": 45826,
+      "end": 46098
+    },
+    {
+      "id": "000126-9da126122aef",
+      "start": 46124,
+      "end": 46365
+    },
+    {
+      "id": "000126-aaa7a52e50d7",
+      "start": 46391,
+      "end": 46642
+    },
+    {
+      "id": "000126-538eabdea993",
+      "start": 46668,
+      "end": 46904
+    },
+    {
+      "id": "000126-6b74a5a1f3a9",
+      "start": 46930,
+      "end": 47197
+    },
+    {
+      "id": "000126-9b47fc244bb1",
+      "start": 47223,
+      "end": 47469
+    },
+    {
+      "id": "000126-cd56e05ce217",
+      "start": 47495,
+      "end": 47785
+    },
+    {
+      "id": "000126-5e533fd1272a",
+      "start": 47811,
+      "end": 48047
+    },
+    {
+      "id": "000126-eed7e720f8fb",
+      "start": 48073,
+      "end": 48325
+    },
+    {
+      "id": "000126-bbd8b3949c7f",
+      "start": 48351,
+      "end": 48616
+    },
+    {
+      "id": "000126-c875d35c16dc",
+      "start": 48642,
+      "end": 48886
+    },
+    {
+      "id": "000126-d0182237682d",
+      "start": 48912,
+      "end": 49135
+    },
+    {
+      "id": "000126-53274dea6bbc",
+      "start": 49161,
+      "end": 49418
+    },
+    {
+      "id": "000126-d7597b77bc9b",
+      "start": 49444,
+      "end": 49707
+    },
+    {
+      "id": "000126-bb19f3d8d814",
+      "start": 49733,
+      "end": 49991
+    },
+    {
+      "id": "000126-ffdee016550b",
+      "start": 50017,
+      "end": 50308
+    },
+    {
+      "id": "000126-6d4f2ff6f60a",
+      "start": 50334,
+      "end": 50592
+    },
+    {
+      "id": "000126-e27bc7366d4e",
+      "start": 50618,
+      "end": 50877
+    },
+    {
+      "id": "000126-08c458730b4f",
+      "start": 50903,
+      "end": 51170
+    },
+    {
+      "id": "000126-77ea31b3e10a",
+      "start": 51196,
+      "end": 51471
+    },
+    {
+      "id": "000126-41c71e3157a7",
+      "start": 51497,
+      "end": 51765
+    },
+    {
+      "id": "000126-51796c532b3d",
+      "start": 51791,
+      "end": 52047
+    },
+    {
+      "id": "000126-0c4e5a510ede",
+      "start": 52073,
+      "end": 52336
+    },
+    {
+      "id": "000126-fea26155cedd",
+      "start": 52362,
+      "end": 52610
+    },
+    {
+      "id": "000126-3a51ce3e7d95",
+      "start": 52636,
+      "end": 52902
+    },
+    {
+      "id": "000126-40350ca7b437",
+      "start": 52928,
+      "end": 53195
+    },
+    {
+      "id": "000126-fa2ccae4cc40",
+      "start": 53221,
+      "end": 53475
+    },
+    {
+      "id": "000126-3272e868b7f7",
+      "start": 53501,
+      "end": 53781
+    },
+    {
+      "id": "000126-0b3ae1d998af",
+      "start": 53807,
+      "end": 54069
+    },
+    {
+      "id": "000126-d0064dba5858",
+      "start": 54095,
+      "end": 54349
+    },
+    {
+      "id": "000126-6d847856c439",
+      "start": 54375,
+      "end": 54631
+    },
+    {
+      "id": "000126-6bb4b7b969ec",
+      "start": 54657,
+      "end": 54940
+    },
+    {
+      "id": "000126-6fa21688c532",
+      "start": 54966,
+      "end": 55218
+    },
+    {
+      "id": "000126-43762047209b",
+      "start": 55244,
+      "end": 55495
+    },
+    {
+      "id": "000126-34d4d0f72bcc",
+      "start": 55521,
+      "end": 55779
+    },
+    {
+      "id": "000126-a5e73da32366",
+      "start": 55805,
+      "end": 56062
+    },
+    {
+      "id": "000126-638a87abf5c8",
+      "start": 56088,
+      "end": 56350
+    },
+    {
+      "id": "000126-ccd40f9a4292",
+      "start": 56376,
+      "end": 56628
+    },
+    {
+      "id": "000126-2ffc32151b5d",
+      "start": 56654,
+      "end": 56928
+    },
+    {
+      "id": "000126-0f0aa5f4b784",
+      "start": 56954,
+      "end": 57218
+    },
+    {
+      "id": "000126-3c92a4d26b5e",
+      "start": 57244,
+      "end": 57515
+    },
+    {
+      "id": "000126-d01fe20fa93d",
+      "start": 57541,
+      "end": 57791
+    },
+    {
+      "id": "000126-6e4b401de4ab",
+      "start": 57817,
+      "end": 58095
+    },
+    {
+      "id": "000126-a84034f4b0c1",
+      "start": 58121,
+      "end": 58365
+    },
+    {
+      "id": "000126-a9fbc7afd810",
+      "start": 58391,
+      "end": 58661
+    },
+    {
+      "id": "000126-737566f4ed79",
+      "start": 58687,
+      "end": 58948
+    },
+    {
+      "id": "000126-4aa1f5ae2079",
+      "start": 58974,
+      "end": 59259
+    },
+    {
+      "id": "000126-5b3850b9787a",
+      "start": 59285,
+      "end": 59544
+    },
+    {
+      "id": "000126-385f070f8b3a",
+      "start": 59570,
+      "end": 59823
+    },
+    {
+      "id": "000126-73a3a7757dd5",
+      "start": 59849,
+      "end": 60119
+    },
+    {
+      "id": "000126-2c2528dc3426",
+      "start": 60145,
+      "end": 60391
+    },
+    {
+      "id": "000126-8f17b517cc84",
+      "start": 60417,
+      "end": 60683
+    },
+    {
+      "id": "000126-62398b429960",
+      "start": 60709,
+      "end": 60962
+    },
+    {
+      "id": "000126-d33a223d8b67",
+      "start": 60988,
+      "end": 61249
+    },
+    {
+      "id": "000126-716d9382c20e",
+      "start": 61275,
+      "end": 61548
+    },
+    {
+      "id": "000126-6b7e96d4ed4c",
+      "start": 61574,
+      "end": 61854
+    },
+    {
+      "id": "000126-46ea16dffdae",
+      "start": 61880,
+      "end": 62129
+    },
+    {
+      "id": "000126-8080e388cfe9",
+      "start": 62155,
+      "end": 62406
+    },
+    {
+      "id": "000126-c81bfd4778b6",
+      "start": 62432,
+      "end": 62697
+    },
+    {
+      "id": "000126-1616b8d650d8",
+      "start": 62723,
+      "end": 62996
+    },
+    {
+      "id": "000126-827d5a3e8006",
+      "start": 63022,
+      "end": 63316
+    },
+    {
+      "id": "000126-133924377bf5",
+      "start": 63342,
+      "end": 63606
+    },
+    {
+      "id": "000126-87b93e2ff13e",
+      "start": 63632,
+      "end": 63891
+    },
+    {
+      "id": "000126-fa0a1ecbf994",
+      "start": 63917,
+      "end": 64196
+    },
+    {
+      "id": "000126-2ecb1455ec21",
+      "start": 64222,
+      "end": 64501
+    },
+    {
+      "id": "000126-62e4a4305a14",
+      "start": 64527,
+      "end": 64776
+    },
+    {
+      "id": "000126-93abb4429f29",
+      "start": 64802,
+      "end": 65062
+    },
+    {
+      "id": "000126-b2cf7cab15bc",
+      "start": 65088,
+      "end": 65345
+    },
+    {
+      "id": "000126-a4d8c8925a35",
+      "start": 65371,
+      "end": 65626
+    },
+    {
+      "id": "000126-9ff4a74aff08",
+      "start": 65652,
+      "end": 65914
+    },
+    {
+      "id": "000126-b57d836a1fce",
+      "start": 65940,
+      "end": 66225
+    },
+    {
+      "id": "000126-383056d0dde7",
+      "start": 66251,
+      "end": 66503
+    },
+    {
+      "id": "000126-725a5de506b9",
+      "start": 66529,
+      "end": 66808
+    },
+    {
+      "id": "000126-6f3fd5a6a0a8",
+      "start": 66834,
+      "end": 67120
+    },
+    {
+      "id": "000126-c1c02cc68b53",
+      "start": 67146,
+      "end": 67414
+    },
+    {
+      "id": "000126-37205865f50b",
+      "start": 67440,
+      "end": 67707
+    },
+    {
+      "id": "000126-134f23df932b",
+      "start": 67733,
+      "end": 68000
+    },
+    {
+      "id": "000126-9aefde381c6a",
+      "start": 68026,
+      "end": 68274
+    },
+    {
+      "id": "000126-9cba4036e73f",
+      "start": 68300,
+      "end": 68580
+    },
+    {
+      "id": "000126-2e79224906e5",
+      "start": 68606,
+      "end": 68879
+    },
+    {
+      "id": "000126-14870d8cde54",
+      "start": 68905,
+      "end": 69175
+    },
+    {
+      "id": "000126-db510d6a0666",
+      "start": 69201,
+      "end": 69465
+    },
+    {
+      "id": "000126-e73ee51f11d9",
+      "start": 69491,
+      "end": 69764
+    },
+    {
+      "id": "000126-1710f3f73ef3",
+      "start": 69790,
+      "end": 70048
+    },
+    {
+      "id": "000126-911b20115b49",
+      "start": 70074,
+      "end": 70342
+    },
+    {
+      "id": "000126-396c4bbd8bb6",
+      "start": 70368,
+      "end": 70655
+    },
+    {
+      "id": "000126-800dbe4f740b",
+      "start": 70681,
+      "end": 70944
+    },
+    {
+      "id": "000126-3a42749f9839",
+      "start": 70970,
+      "end": 71235
     }
   ],
   "labels": [
@@ -139,7 +1259,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "By noon the craft market was a symphony of fabric, copper, and spice."
+        "stepping into a symphony of fabric, copper, and spice"
       ]
     },
     {
@@ -157,7 +1277,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "the resort was a mosaic of water, glass, and sunlight"
+        "the resort, a mosaic of water, glass, and sunlight"
       ]
     },
     {
@@ -292,7 +1412,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "The old shopping arcade had become a museum of dust and echoes."
+        "the old shopping arcade, that museum of dust and echoes"
       ]
     },
     {
@@ -342,7 +1462,7 @@
       "check": "narrative-craft/empty-emotional-weather",
       "expected": true,
       "snippets": [
-        "An uncomfortable stillness settled over the flat."
+        "an uncomfortable stillness settled over the flat"
       ]
     },
     {
@@ -350,7 +1470,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "I stood there for a moment, taking it in."
+        "I stood there for a moment, taking it in"
       ]
     },
     {
@@ -371,7 +1491,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "I paused and looked around."
+        "I paused and took a breath."
       ]
     },
     {
@@ -379,7 +1499,7 @@
       "check": "narrative-craft/fixed-metaphor-frame",
       "expected": true,
       "snippets": [
-        "At the reunion, the dining hall was a tapestry of gray hair and familiar faces."
+        "the dining hall's tapestry of gray hair and familiar faces"
       ]
     },
     {
@@ -404,6 +1524,4374 @@
       "expected": true,
       "snippets": [
         "The auction room had turned into a theater of raised hands and flashing numbers."
+      ]
+    },
+    {
+      "id": "000126-59b9a3d6617e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Unease pooled in the bakery."
+      ]
+    },
+    {
+      "id": "000126-59b9a3d6617e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-59b9a3d6617e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-214673a843f8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "disappointment settled over the counter"
+      ]
+    },
+    {
+      "id": "000126-214673a843f8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-214673a843f8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-23afbec376a3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A brittle quiet occupied the changing room."
+      ]
+    },
+    {
+      "id": "000126-23afbec376a3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-23afbec376a3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-affe64d15ece",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Suspicion traveled around the lunch table."
+      ]
+    },
+    {
+      "id": "000126-affe64d15ece",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-affe64d15ece",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-a97719e9210b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Hope brightened every corner of the garage."
+      ]
+    },
+    {
+      "id": "000126-a97719e9210b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-a97719e9210b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-81f3a0c072b2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The laundrette carried an undercurrent of hostility."
+      ]
+    },
+    {
+      "id": "000126-81f3a0c072b2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-81f3a0c072b2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-883ce5e66f82",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Regret clung to the little classroom."
+      ]
+    },
+    {
+      "id": "000126-883ce5e66f82",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-883ce5e66f82",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-b9c9cbc8f071",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An unnamed heaviness lay between us in the taxi."
+      ]
+    },
+    {
+      "id": "000126-b9c9cbc8f071",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-b9c9cbc8f071",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6de590a82762",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Embarrassment hovered over the rehearsal."
+      ]
+    },
+    {
+      "id": "000126-6de590a82762",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6de590a82762",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2ac950271df7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "There was a chill between the guests that had nothing to do with temperature."
+      ]
+    },
+    {
+      "id": "000126-2ac950271df7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-2ac950271df7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-c595d7d684b5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The inspection left anxiety suspended in the workshop."
+      ]
+    },
+    {
+      "id": "000126-c595d7d684b5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-c595d7d684b5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2c71002d471e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Resignation seeped through the bus shelter."
+      ]
+    },
+    {
+      "id": "000126-2c71002d471e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-2c71002d471e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-d77bd95dd7e9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A current of excitement ran through the kennels."
+      ]
+    },
+    {
+      "id": "000126-d77bd95dd7e9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d77bd95dd7e9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6dc3e3a633c3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The spare bedroom seemed steeped in loneliness."
+      ]
+    },
+    {
+      "id": "000126-6dc3e3a633c3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6dc3e3a633c3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-ca2dd41c1fc4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Their announcement spread a soft warmth across the room."
+      ]
+    },
+    {
+      "id": "000126-ca2dd41c1fc4",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-ca2dd41c1fc4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-efb5c3bcc514",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An uneasy distance opened across the kitchen."
+      ]
+    },
+    {
+      "id": "000126-efb5c3bcc514",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-efb5c3bcc514",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-e11a686419e8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "By evening, dread had taken up residence in the farmhouse."
+      ]
+    },
+    {
+      "id": "000126-e11a686419e8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-e11a686419e8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-e4235bca30c3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The bowling alley hummed with unspoken resentment."
+      ]
+    },
+    {
+      "id": "000126-e4235bca30c3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-e4235bca30c3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-8655ef9fab23",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Forgiveness seemed to float above the breakfast dishes."
+      ]
+    },
+    {
+      "id": "000126-8655ef9fab23",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-8655ef9fab23",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-78f728fdafa3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The room held the stale weight of old disagreements."
+      ]
+    },
+    {
+      "id": "000126-78f728fdafa3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-78f728fdafa3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6fdb4bbe6aba",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "impatience gathered around us"
+      ]
+    },
+    {
+      "id": "000126-6fdb4bbe6aba",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6fdb4bbe6aba",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-aa9f455dfa2a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The porch had acquired a melancholy of its own."
+      ]
+    },
+    {
+      "id": "000126-aa9f455dfa2a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-aa9f455dfa2a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-fc9104d14291",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A strained calm wrapped itself around the picnic."
+      ]
+    },
+    {
+      "id": "000126-fc9104d14291",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-fc9104d14291",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-d5ea23463fbe",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Mistrust had lodged in the space between our desks."
+      ]
+    },
+    {
+      "id": "000126-d5ea23463fbe",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d5ea23463fbe",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2da716fe0092",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Goodwill overflowed into the hallway."
+      ]
+    },
+    {
+      "id": "000126-2da716fe0092",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-2da716fe0092",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-261a405b1985",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Shame darkened the family gathering."
+      ]
+    },
+    {
+      "id": "000126-261a405b1985",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-261a405b1985",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2570245cccba",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The silence around the repair counter grew accusing."
+      ]
+    },
+    {
+      "id": "000126-2570245cccba",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-2570245cccba",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-ddcf6fee5910",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Relief loosened the atmosphere of the waiting area."
+      ]
+    },
+    {
+      "id": "000126-ddcf6fee5910",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-ddcf6fee5910",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6ae3e08e4fda",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Expectation rippled through the entrance hall."
+      ]
+    },
+    {
+      "id": "000126-6ae3e08e4fda",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6ae3e08e4fda",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The aquarium was a kingdom of blue light and drifting shadows."
+      ]
+    },
+    {
+      "id": "000126-32382ef11d0d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A faint disquiet drifted among the benches."
+      ]
+    },
+    {
+      "id": "000126-32382ef11d0d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-32382ef11d0d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The garden center unfolded as an ocean of petals and promise."
+      ]
+    },
+    {
+      "id": "000126-25c0d76bbf84",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Tension nested in the common room."
+      ]
+    },
+    {
+      "id": "000126-25c0d76bbf84",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-25c0d76bbf84",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Our hostel was a beehive of backpacks and foreign voices."
+      ]
+    },
+    {
+      "id": "000126-15de346f8de2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Apprehension spread beneath its high roof."
+      ]
+    },
+    {
+      "id": "000126-15de346f8de2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-15de346f8de2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The municipal pool became a cathedral of splashes and whistles."
+      ]
+    },
+    {
+      "id": "000126-5c7554e206e9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A fog of disappointment hung over the car park."
+      ]
+    },
+    {
+      "id": "000126-5c7554e206e9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5c7554e206e9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "it was a chessboard of chrome and darkness"
+      ]
+    },
+    {
+      "id": "000126-8822a329a82f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Irritation simmered in its narrow aisles."
+      ]
+    },
+    {
+      "id": "000126-8822a329a82f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-8822a329a82f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The fabric shop offered a labyrinth of velvet and possibility."
+      ]
+    },
+    {
+      "id": "000126-fc0ca8eea648",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A festive warmth circulated through the hall."
+      ]
+    },
+    {
+      "id": "000126-fc0ca8eea648",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-fc0ca8eea648",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The retirement lunch was a kaleidoscope of flowers and laughter."
+      ]
+    },
+    {
+      "id": "000126-808be998ce5f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A restless pressure filled the departure lounge."
+      ]
+    },
+    {
+      "id": "000126-808be998ce5f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-808be998ce5f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The ferry terminal stood as a monument to departures and longing."
+      ]
+    },
+    {
+      "id": "000126-743b44dfa31b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Discontent lay over the queue."
+      ]
+    },
+    {
+      "id": "000126-743b44dfa31b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-743b44dfa31b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the takeaway strip turned into a necklace of neon and hunger"
+      ]
+    },
+    {
+      "id": "000126-7c1a15e6a494",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An old sadness breathed through the space."
+      ]
+    },
+    {
+      "id": "000126-7c1a15e6a494",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-7c1a15e6a494",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The storage unit was a tomb of cardboard and forgotten years."
+      ]
+    },
+    {
+      "id": "000126-c0d36a55e54f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Hostility prickled in the air."
+      ]
+    },
+    {
+      "id": "000126-c0d36a55e54f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-c0d36a55e54f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The indoor market presented a banquet of color and clamor."
+      ]
+    },
+    {
+      "id": "000126-04f5cf697345",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A sour mood permeated the ticket office."
+      ]
+    },
+    {
+      "id": "000126-04f5cf697345",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-04f5cf697345",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the station was a whirlpool of luggage and hurried farewells"
+      ]
+    },
+    {
+      "id": "000126-27f7757c5dfc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A gentle wistfulness filled its corners."
+      ]
+    },
+    {
+      "id": "000126-27f7757c5dfc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-27f7757c5dfc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The secondhand bookshop was an orchard of stories and dust."
+      ]
+    },
+    {
+      "id": "000126-b13275dfb91c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Unease lapped at its walls."
+      ]
+    },
+    {
+      "id": "000126-b13275dfb91c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-b13275dfb91c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The dental waiting room held a lake of magazines and muted television."
+      ]
+    },
+    {
+      "id": "000126-71ef914ef977",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Defeat hung around the fitting bench."
+      ]
+    },
+    {
+      "id": "000126-71ef914ef977",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-71ef914ef977",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The sports shop was a jungle of logos and ambition."
+      ]
+    },
+    {
+      "id": "000126-0eccf72a7f5f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anticipation draped itself across the platform."
+      ]
+    },
+    {
+      "id": "000126-0eccf72a7f5f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-0eccf72a7f5f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The village flower show had become a constellation of ribbons and petals."
+      ]
+    },
+    {
+      "id": "000126-0762d620873a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A gloomy silence ruled the chairs."
+      ]
+    },
+    {
+      "id": "000126-0762d620873a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-0762d620873a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The hair salon glittered as a palace of mirrors and transformation."
+      ]
+    },
+    {
+      "id": "000126-d088df7527f4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Resentment rolled through the loading bay."
+      ]
+    },
+    {
+      "id": "000126-d088df7527f4",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d088df7527f4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The depot was a canyon of steel and exhaust."
+      ]
+    },
+    {
+      "id": "000126-7c1bea14ae68",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An unsettled feeling roamed between the tents."
+      ]
+    },
+    {
+      "id": "000126-7c1bea14ae68",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-7c1bea14ae68",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Our campsite lay in a cradle of mist and memories."
+      ]
+    },
+    {
+      "id": "000126-c99f8fdcd839",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Strain thickened outside the hearing room."
+      ]
+    },
+    {
+      "id": "000126-c99f8fdcd839",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-c99f8fdcd839",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The courthouse corridor was a river of suits and whispers."
+      ]
+    },
+    {
+      "id": "000126-03cd53c12741",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Restlessness swirled through the aisles."
+      ]
+    },
+    {
+      "id": "000126-03cd53c12741",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-03cd53c12741",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The toy department opened into a carnival of plastic and dreams."
+      ]
+    },
+    {
+      "id": "000126-983f1d81fd04",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Bitterness stained the atmosphere of the old cafe."
+      ]
+    },
+    {
+      "id": "000126-983f1d81fd04",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-983f1d81fd04",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "it was a theater of steam and conversation"
+      ]
+    },
+    {
+      "id": "000126-5e5cb05d8d96",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An oppressive stillness enclosed us."
+      ]
+    },
+    {
+      "id": "000126-5e5cb05d8d96",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5e5cb05d8d96",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The upholstery warehouse was a landscape of foam and faded elegance."
+      ]
+    },
+    {
+      "id": "000126-5e549dab0955",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A vague anxiety drifted over the playground."
+      ]
+    },
+    {
+      "id": "000126-5e549dab0955",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5e549dab0955",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The school fair shimmered as a patchwork of bunting and delight."
+      ]
+    },
+    {
+      "id": "000126-920c5586f016",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disappointment circulated among the machines."
+      ]
+    },
+    {
+      "id": "000126-920c5586f016",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-920c5586f016",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The seaside arcade was a galaxy of bells and blinking colors."
+      ]
+    },
+    {
+      "id": "000126-5580772523e8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A nervous hush settled among the volunteers."
+      ]
+    },
+    {
+      "id": "000126-5580772523e8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5580772523e8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The recycling shed formed an archipelago of glass and discarded lives."
+      ]
+    },
+    {
+      "id": "000126-070da899d908",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A veil of discomfort covered the parish lunch."
+      ]
+    },
+    {
+      "id": "000126-070da899d908",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-070da899d908",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The room was a symphony of crockery and Sunday voices."
+      ]
+    },
+    {
+      "id": "000126-3272b148d580",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Peace settled into the paths."
+      ]
+    },
+    {
+      "id": "000126-3272b148d580",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-3272b148d580",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The evening allotments became a quilt of shadows and patient growth."
+      ]
+    },
+    {
+      "id": "000126-1a2b7dc97524",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Awkwardness collected in the office."
+      ]
+    },
+    {
+      "id": "000126-1a2b7dc97524",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked."
+      ]
+    },
+    {
+      "id": "000126-1a2b7dc97524",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2b1d6d89dc69",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Despair filled the kitchen."
+      ]
+    },
+    {
+      "id": "000126-2b1d6d89dc69",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Ben rubbed his neck."
+      ]
+    },
+    {
+      "id": "000126-2b1d6d89dc69",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-37da7bcab070",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An uncomfortable quiet grew around the piano."
+      ]
+    },
+    {
+      "id": "000126-37da7bcab070",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight."
+      ]
+    },
+    {
+      "id": "000126-37da7bcab070",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-0dd02a75b461",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anger charged the little office."
+      ]
+    },
+    {
+      "id": "000126-0dd02a75b461",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I let out a sigh."
+      ]
+    },
+    {
+      "id": "000126-0dd02a75b461",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-f963f0af8268",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A sense of defeat washed across the kitchen."
+      ]
+    },
+    {
+      "id": "000126-f963f0af8268",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Mum looked away for a moment."
+      ]
+    },
+    {
+      "id": "000126-f963f0af8268",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-b7a57ab1a973",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The announcement put a strange weight into the room."
+      ]
+    },
+    {
+      "id": "000126-b7a57ab1a973",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Ravi adjusted his posture."
+      ]
+    },
+    {
+      "id": "000126-b7a57ab1a973",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-1a8833b90b6a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Uneasiness crept along the dining table."
+      ]
+    },
+    {
+      "id": "000126-1a8833b90b6a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed."
+      ]
+    },
+    {
+      "id": "000126-1a8833b90b6a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-34940ef41cfc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Resentment hung beneath the low ceiling."
+      ]
+    },
+    {
+      "id": "000126-34940ef41cfc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I ran a hand through my hair."
+      ]
+    },
+    {
+      "id": "000126-34940ef41cfc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2bfd519d9b45",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Relief flooded the car."
+      ]
+    },
+    {
+      "id": "000126-2bfd519d9b45",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I breathed out slowly."
+      ]
+    },
+    {
+      "id": "000126-2bfd519d9b45",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-bccf5b12535a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A chilly reserve settled between the cousins."
+      ]
+    },
+    {
+      "id": "000126-bccf5b12535a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Ella tilted her head."
+      ]
+    },
+    {
+      "id": "000126-bccf5b12535a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-55da2975db4c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "apprehension gathered by the door"
+      ]
+    },
+    {
+      "id": "000126-55da2975db4c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stared for a second."
+      ]
+    },
+    {
+      "id": "000126-55da2975db4c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-327ca0b423f5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The reunion carried a burden of unspoken sorrow."
+      ]
+    },
+    {
+      "id": "000126-327ca0b423f5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I cleared my throat."
+      ]
+    },
+    {
+      "id": "000126-327ca0b423f5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-4f6b80620a88",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The news left a prickly silence in the cabin."
+      ]
+    },
+    {
+      "id": "000126-4f6b80620a88",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Pete's shoulders dropped."
+      ]
+    },
+    {
+      "id": "000126-4f6b80620a88",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-421358b88dd7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A restless sadness moved through the flat."
+      ]
+    },
+    {
+      "id": "000126-421358b88dd7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my face."
+      ]
+    },
+    {
+      "id": "000126-421358b88dd7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-c58c3112314d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Antagonism seemed to coat the meeting room."
+      ]
+    },
+    {
+      "id": "000126-c58c3112314d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked at him."
+      ]
+    },
+    {
+      "id": "000126-c58c3112314d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-926e14d6ca74",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Tenderness suffused the nursery."
+      ]
+    },
+    {
+      "id": "000126-926e14d6ca74",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted in my seat."
+      ]
+    },
+    {
+      "id": "000126-926e14d6ca74",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-4a78b8a941b0",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An air of accusation settled over the shop."
+      ]
+    },
+    {
+      "id": "000126-4a78b8a941b0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pressed my lips together."
+      ]
+    },
+    {
+      "id": "000126-4a78b8a941b0",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-83374be3ded3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The hallway filled with a shapeless dread."
+      ]
+    },
+    {
+      "id": "000126-83374be3ded3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Tom paused, absorbing this."
+      ]
+    },
+    {
+      "id": "000126-83374be3ded3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-be3a79917b2e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A strange expectancy inhabited the music shop."
+      ]
+    },
+    {
+      "id": "000126-be3a79917b2e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I nodded slowly."
+      ]
+    },
+    {
+      "id": "000126-be3a79917b2e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-a17aa89a61d3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The booth was saturated with disappointment."
+      ]
+    },
+    {
+      "id": "000126-a17aa89a61d3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Nina glanced aside."
+      ]
+    },
+    {
+      "id": "000126-a17aa89a61d3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-c9437c661c52",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A buoyant mood sailed through the kitchen."
+      ]
+    },
+    {
+      "id": "000126-c9437c661c52",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I lifted my eyebrows."
+      ]
+    },
+    {
+      "id": "000126-c9437c661c52",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-f3aae7ff4366",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The workshop grew heavy with regret."
+      ]
+    },
+    {
+      "id": "000126-f3aae7ff4366",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My jaw tightened."
+      ]
+    },
+    {
+      "id": "000126-f3aae7ff4366",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-11b1affe38ce",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A fretful atmosphere curled around the reception desk."
+      ]
+    },
+    {
+      "id": "000126-11b1affe38ce",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I drew myself up."
+      ]
+    },
+    {
+      "id": "000126-11b1affe38ce",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-accd835bdb4a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Affection floated through the conservatory."
+      ]
+    },
+    {
+      "id": "000126-accd835bdb4a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I exhaled."
+      ]
+    },
+    {
+      "id": "000126-accd835bdb4a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-150f0c1f517f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A guarded quiet lay across the dinner table."
+      ]
+    },
+    {
+      "id": "000126-150f0c1f517f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I sat back."
+      ]
+    },
+    {
+      "id": "000126-150f0c1f517f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-7fa2fd860d93",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disapproval permeated the counter area."
+      ]
+    },
+    {
+      "id": "000126-7fa2fd860d93",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked twice."
+      ]
+    },
+    {
+      "id": "000126-7fa2fd860d93",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-f6292345004e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "The news spread a dim unease through the kitchen."
+      ]
+    },
+    {
+      "id": "000126-f6292345004e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I scratched my chin."
+      ]
+    },
+    {
+      "id": "000126-f6292345004e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6919cd199b4d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "embarrassment lingered around us"
+      ]
+    },
+    {
+      "id": "000126-6919cd199b4d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I turned slightly."
+      ]
+    },
+    {
+      "id": "000126-6919cd199b4d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-a793921db5c7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Doubt hovered over the bidders."
+      ]
+    },
+    {
+      "id": "000126-a793921db5c7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my feet."
+      ]
+    },
+    {
+      "id": "000126-a793921db5c7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The furniture sale was a desert of polished wood and abandoned comfort."
+      ]
+    },
+    {
+      "id": "000126-f3c84de306cb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An impatient energy filled the room."
+      ]
+    },
+    {
+      "id": "000126-f3c84de306cb",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Luis rubbed his forehead."
+      ]
+    },
+    {
+      "id": "000126-f3c84de306cb",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The charity kitchen became a ballet of aprons and steam."
+      ]
+    },
+    {
+      "id": "000126-20df8b7a715c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An air of defeat occupied the dressing room."
+      ]
+    },
+    {
+      "id": "000126-20df8b7a715c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I took a breath."
+      ]
+    },
+    {
+      "id": "000126-20df8b7a715c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the dance hall was a sea of satin and expectation"
+      ]
+    },
+    {
+      "id": "000126-809aa0d72030",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Suspicion thickened beside the till."
+      ]
+    },
+    {
+      "id": "000126-809aa0d72030",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked down briefly."
+      ]
+    },
+    {
+      "id": "000126-809aa0d72030",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The hardware shop was a treasury of brass and forgotten ingenuity."
+      ]
+    },
+    {
+      "id": "000126-69967667f607",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Foreboding gathered along the quay."
+      ]
+    },
+    {
+      "id": "000126-69967667f607",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Beth swallowed hard."
+      ]
+    },
+    {
+      "id": "000126-69967667f607",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "a tapestry of masts and salt-stained dreams"
+      ]
+    },
+    {
+      "id": "000126-0fcceba5e5ce",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A strained warmth hung between the tables."
+      ]
+    },
+    {
+      "id": "000126-0fcceba5e5ce",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I straightened in my chair."
+      ]
+    },
+    {
+      "id": "000126-0fcceba5e5ce",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The repair cafe was an orchestra of tools and good intentions."
+      ]
+    },
+    {
+      "id": "000126-4743c60926e3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A brittle tension wrapped the gathering."
+      ]
+    },
+    {
+      "id": "000126-4743c60926e3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pursed my lips."
+      ]
+    },
+    {
+      "id": "000126-4743c60926e3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The rooftop bar formed an oasis of glass and evening light."
+      ]
+    },
+    {
+      "id": "000126-f3c27e3feedc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Melancholy drifted among the racks."
+      ]
+    },
+    {
+      "id": "000126-f3c27e3feedc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Rachel glanced away."
+      ]
+    },
+    {
+      "id": "000126-f3c27e3feedc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The nursery sale was a forest of tiny sleeves and faded hopes."
+      ]
+    },
+    {
+      "id": "000126-ae383aa37d1d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A heavy expectancy sat inside the coach."
+      ]
+    },
+    {
+      "id": "000126-ae383aa37d1d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I flexed my fingers."
+      ]
+    },
+    {
+      "id": "000126-ae383aa37d1d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the service area was an island of headlights and fatigue"
+      ]
+    },
+    {
+      "id": "000126-eb1f6a7de625",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Discomfort seeped into the conversation."
+      ]
+    },
+    {
+      "id": "000126-eb1f6a7de625",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked slowly."
+      ]
+    },
+    {
+      "id": "000126-eb1f6a7de625",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The camera shop was a museum of lenses and lost moments."
+      ]
+    },
+    {
+      "id": "000126-0e0c94c7ee8d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A vague sadness spread beneath the music."
+      ]
+    },
+    {
+      "id": "000126-0e0c94c7ee8d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Aaron rolled his shoulders."
+      ]
+    },
+    {
+      "id": "000126-0e0c94c7ee8d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The office party unfolded as a carousel of jokes and sparkling glasses."
+      ]
+    },
+    {
+      "id": "000126-858103d0de90",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Unease breathed between the benches."
+      ]
+    },
+    {
+      "id": "000126-858103d0de90",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my shoulders."
+      ]
+    },
+    {
+      "id": "000126-858103d0de90",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The promenade was a ribbon of music and summer longing."
+      ]
+    },
+    {
+      "id": "000126-fcbc4f10693a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An unhappy quiet lingered by the entrance."
+      ]
+    },
+    {
+      "id": "000126-fcbc4f10693a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my chin."
+      ]
+    },
+    {
+      "id": "000126-fcbc4f10693a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The church jumble sale became a mountain range of wool and discarded histories."
+      ]
+    },
+    {
+      "id": "000126-8d5241107743",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Excitement swelled in the space."
+      ]
+    },
+    {
+      "id": "000126-8d5241107743",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My uncle's expression shifted."
+      ]
+    },
+    {
+      "id": "000126-8d5241107743",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The exhibition hall was a garden of chrome and invention."
+      ]
+    },
+    {
+      "id": "000126-18f1826ac31b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A subdued bitterness inhabited the breakfast room."
+      ]
+    },
+    {
+      "id": "000126-18f1826ac31b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I paused for a moment."
+      ]
+    },
+    {
+      "id": "000126-18f1826ac31b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The buffet was a coastline of silver lids and rising steam."
+      ]
+    },
+    {
+      "id": "000126-85231c97e16f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anxiety floated beneath the ceiling."
+      ]
+    },
+    {
+      "id": "000126-85231c97e16f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I touched my temple."
+      ]
+    },
+    {
+      "id": "000126-85231c97e16f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The pet shop was a universe of feathers and restless eyes."
+      ]
+    },
+    {
+      "id": "000126-cdcca4cf594f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An inexplicable sorrow settled across the paths."
+      ]
+    },
+    {
+      "id": "000126-cdcca4cf594f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Mia sighed softly."
+      ]
+    },
+    {
+      "id": "000126-cdcca4cf594f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "turned the park into a furnace of copper and gold"
+      ]
+    },
+    {
+      "id": "000126-ca0e6eb457a5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A troubled stillness hung over our desk."
+      ]
+    },
+    {
+      "id": "000126-ca0e6eb457a5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I leaned back slightly."
+      ]
+    },
+    {
+      "id": "000126-ca0e6eb457a5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The newsroom was a hive of screens and urgency."
+      ]
+    },
+    {
+      "id": "000126-db0115a00902",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Frustration gathered under the pipes."
+      ]
+    },
+    {
+      "id": "000126-db0115a00902",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked around."
+      ]
+    },
+    {
+      "id": "000126-db0115a00902",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The basement rehearsal space was a cave of cables and ambition."
+      ]
+    },
+    {
+      "id": "000126-cf052d6c71a4",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An invisible burden weighed on the conversation."
+      ]
+    },
+    {
+      "id": "000126-cf052d6c71a4",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I clenched my jaw."
+      ]
+    },
+    {
+      "id": "000126-cf052d6c71a4",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The birthday venue was a jewel box of lanterns and delighted voices."
+      ]
+    },
+    {
+      "id": "000126-de7d995c0815",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Nostalgia drifted beneath its roof."
+      ]
+    },
+    {
+      "id": "000126-de7d995c0815",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Dad blinked and shifted."
+      ]
+    },
+    {
+      "id": "000126-de7d995c0815",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bicycle shed was a graveyard of spokes and youthful freedom."
+      ]
+    },
+    {
+      "id": "000126-70fb429669d6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A vague hostility moved among the sofas."
+      ]
+    },
+    {
+      "id": "000126-70fb429669d6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I ran my tongue over my teeth."
+      ]
+    },
+    {
+      "id": "000126-70fb429669d6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The hotel lobby spread into a delta of marble and murmured greetings."
+      ]
+    },
+    {
+      "id": "000126-d39a462109c6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A sense of loss swirled through the foyer."
+      ]
+    },
+    {
+      "id": "000126-d39a462109c6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My sister's face tightened."
+      ]
+    },
+    {
+      "id": "000126-d39a462109c6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The cinema was a temple of velvet and flickering dreams."
+      ]
+    },
+    {
+      "id": "000126-0bb7ae204f5c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A brittle anticipation filled the checkout area."
+      ]
+    },
+    {
+      "id": "000126-0bb7ae204f5c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my stance."
+      ]
+    },
+    {
+      "id": "000126-0bb7ae204f5c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The discount store was a storm of labels and bargains."
+      ]
+    },
+    {
+      "id": "000126-eee4e656c1f3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Worry saturated the seating area."
+      ]
+    },
+    {
+      "id": "000126-eee4e656c1f3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my hands together."
+      ]
+    },
+    {
+      "id": "000126-eee4e656c1f3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The departure gate was a reservoir of coffee and unfinished goodbyes."
+      ]
+    },
+    {
+      "id": "000126-1153925e280b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An unsettled calm enclosed the crowd."
+      ]
+    },
+    {
+      "id": "000126-1153925e280b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I raised my chin."
+      ]
+    },
+    {
+      "id": "000126-1153925e280b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The village square became a crucible of lanterns and celebration."
+      ]
+    },
+    {
+      "id": "000126-1cf18cbb98b7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A low current of resentment wound around us."
+      ]
+    },
+    {
+      "id": "000126-1cf18cbb98b7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I moved in my chair."
+      ]
+    },
+    {
+      "id": "000126-1cf18cbb98b7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The florist's workroom was a nest of ribbon and fragrance."
+      ]
+    },
+    {
+      "id": "000126-d6cf5292f3cd",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disappointment crept between the displays."
+      ]
+    },
+    {
+      "id": "000126-d6cf5292f3cd",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I gazed ahead for a moment."
+      ]
+    },
+    {
+      "id": "000126-d6cf5292f3cd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The kitchen showroom was an empire of lacquer and aspiration."
+      ]
+    },
+    {
+      "id": "000126-1a16a90e5d02",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-1a16a90e5d02",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-1a16a90e5d02",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-4db4a15e5ff9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-4db4a15e5ff9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-4db4a15e5ff9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-ea7576604920",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-ea7576604920",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-ea7576604920",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-d68ac11a2110",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d68ac11a2110",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d68ac11a2110",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2419bfb4ac21",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-2419bfb4ac21",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-2419bfb4ac21",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-8e0224a14be1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-8e0224a14be1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-8e0224a14be1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6d1c1b92096a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6d1c1b92096a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6d1c1b92096a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-9d539592a130",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-9d539592a130",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-9d539592a130",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-cb7b55bd56ad",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-cb7b55bd56ad",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-cb7b55bd56ad",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-e27e71d30535",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-e27e71d30535",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-e27e71d30535",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-ee84315f41f6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-ee84315f41f6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-ee84315f41f6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-1e261b9e0afd",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-1e261b9e0afd",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-1e261b9e0afd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-5175c630b764",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-5175c630b764",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5175c630b764",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-37e08b39af5c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-37e08b39af5c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-37e08b39af5c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-7e1d48327e3e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-7e1d48327e3e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-7e1d48327e3e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-be9c44186beb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-be9c44186beb",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-be9c44186beb",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-c459518ef75f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-c459518ef75f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-c459518ef75f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-ce7086fb98fc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-ce7086fb98fc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-ce7086fb98fc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-7bd3d5e990a2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-7bd3d5e990a2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-7bd3d5e990a2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-82dea1dba1f3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-82dea1dba1f3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-82dea1dba1f3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-c9fd667a7b49",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-c9fd667a7b49",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-c9fd667a7b49",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-24d3c02474c7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-24d3c02474c7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-24d3c02474c7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-f3994314f68b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-f3994314f68b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-f3994314f68b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-4d728cdd7521",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-4d728cdd7521",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-4d728cdd7521",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-d5cf22f96878",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d5cf22f96878",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d5cf22f96878",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-9da126122aef",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-9da126122aef",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-9da126122aef",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-aaa7a52e50d7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-aaa7a52e50d7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-aaa7a52e50d7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-538eabdea993",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-538eabdea993",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-538eabdea993",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6b74a5a1f3a9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6b74a5a1f3a9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6b74a5a1f3a9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bottle bank was a cathedral of glass and discarded evenings."
+      ]
+    },
+    {
+      "id": "000126-9b47fc244bb1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-9b47fc244bb1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-9b47fc244bb1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the fishing docks were a tapestry of rope and silver"
+      ]
+    },
+    {
+      "id": "000126-cd56e05ce217",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-cd56e05ce217",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-cd56e05ce217",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The community library was a harbor of whispers and discovery."
+      ]
+    },
+    {
+      "id": "000126-5e533fd1272a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-5e533fd1272a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5e533fd1272a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The station forecourt became a jungle of umbrellas and impatience."
+      ]
+    },
+    {
+      "id": "000126-eed7e720f8fb",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-eed7e720f8fb",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-eed7e720f8fb",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The old warehouse was an atlas of dust and forgotten labor."
+      ]
+    },
+    {
+      "id": "000126-bbd8b3949c7f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-bbd8b3949c7f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-bbd8b3949c7f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The food court was a symphony of sizzling pans and fragrant promises."
+      ]
+    },
+    {
+      "id": "000126-c875d35c16dc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-c875d35c16dc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-c875d35c16dc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The caravan park was a patchwork of tin roofs and summer memories."
+      ]
+    },
+    {
+      "id": "000126-d0182237682d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d0182237682d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d0182237682d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The antique fair was a theater of brass and nostalgia."
+      ]
+    },
+    {
+      "id": "000126-53274dea6bbc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-53274dea6bbc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-53274dea6bbc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The maternity shop was a meadow of cotton and expectation."
+      ]
+    },
+    {
+      "id": "000126-d7597b77bc9b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d7597b77bc9b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d7597b77bc9b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bus depot was a maze of diesel and departure."
+      ]
+    },
+    {
+      "id": "000126-bb19f3d8d814",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-bb19f3d8d814",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-bb19f3d8d814",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The rooftop garden was a mosaic of green and possibility."
+      ]
+    },
+    {
+      "id": "000126-ffdee016550b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-ffdee016550b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-ffdee016550b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The civic reception was a constellation of badges and practiced smiles."
+      ]
+    },
+    {
+      "id": "000126-6d4f2ff6f60a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6d4f2ff6f60a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6d4f2ff6f60a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The farm shop was a cornucopia of earth and honest abundance."
+      ]
+    },
+    {
+      "id": "000126-e27bc7366d4e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-e27bc7366d4e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-e27bc7366d4e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The amusement pier was a kingdom of sugar and mechanical joy."
+      ]
+    },
+    {
+      "id": "000126-08c458730b4f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-08c458730b4f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-08c458730b4f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The courthouse steps were an amphitheater of coats and anxious faces."
+      ]
+    },
+    {
+      "id": "000126-77ea31b3e10a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-77ea31b3e10a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-77ea31b3e10a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The electronics aisle was a galaxy of screens and tomorrow."
+      ]
+    },
+    {
+      "id": "000126-41c71e3157a7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-41c71e3157a7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-41c71e3157a7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The candlelit restaurant became a sanctuary of silver and intimate murmurs."
+      ]
+    },
+    {
+      "id": "000126-51796c532b3d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-51796c532b3d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-51796c532b3d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The livestock auction was a whirlpool of boots and earthy voices."
+      ]
+    },
+    {
+      "id": "000126-0c4e5a510ede",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-0c4e5a510ede",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-0c4e5a510ede",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The discount florist was a waterfall of petals and color."
+      ]
+    },
+    {
+      "id": "000126-fea26155cedd",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-fea26155cedd",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-fea26155cedd",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The beach cafe was an oasis of salt and sunlit chatter."
+      ]
+    },
+    {
+      "id": "000126-3a51ce3e7d95",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-3a51ce3e7d95",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-3a51ce3e7d95",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The garden exhibition was a dreamscape of blossoms and murmuring fountains."
+      ]
+    },
+    {
+      "id": "000126-40350ca7b437",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-40350ca7b437",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-40350ca7b437",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The ticket hall was a crucible of announcements and hurried footsteps."
+      ]
+    },
+    {
+      "id": "000126-fa2ccae4cc40",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-fa2ccae4cc40",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-fa2ccae4cc40",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The laundrette was an archipelago of chrome and weary routines."
+      ]
+    },
+    {
+      "id": "000126-3272e868b7f7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-3272e868b7f7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-3272e868b7f7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The sports hall was a kaleidoscope of jerseys and youthful determination."
+      ]
+    },
+    {
+      "id": "000126-0b3ae1d998af",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-0b3ae1d998af",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-0b3ae1d998af",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The station bookstall was a treasure chest of print and possibility."
+      ]
+    },
+    {
+      "id": "000126-d0064dba5858",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d0064dba5858",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-d0064dba5858",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The boot fair was a river of possessions and passing lives."
+      ]
+    },
+    {
+      "id": "000126-6d847856c439",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6d847856c439",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6d847856c439",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The shoe warehouse was a canyon of leather and bargains."
+      ]
+    },
+    {
+      "id": "000126-6bb4b7b969ec",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6bb4b7b969ec",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6bb4b7b969ec",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The visitor center was a gateway of maps and untold adventures."
+      ]
+    },
+    {
+      "id": "000126-6fa21688c532",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6fa21688c532",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight."
+      ]
+    },
+    {
+      "id": "000126-6fa21688c532",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-43762047209b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-43762047209b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked."
+      ]
+    },
+    {
+      "id": "000126-43762047209b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-34d4d0f72bcc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-34d4d0f72bcc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my neck."
+      ]
+    },
+    {
+      "id": "000126-34d4d0f72bcc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-a5e73da32366",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-a5e73da32366",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I let out a breath."
+      ]
+    },
+    {
+      "id": "000126-a5e73da32366",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-638a87abf5c8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-638a87abf5c8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked aside."
+      ]
+    },
+    {
+      "id": "000126-638a87abf5c8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-ccd40f9a4292",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-ccd40f9a4292",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pressed my lips together."
+      ]
+    },
+    {
+      "id": "000126-ccd40f9a4292",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2ffc32151b5d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-2ffc32151b5d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted in my chair."
+      ]
+    },
+    {
+      "id": "000126-2ffc32151b5d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-0f0aa5f4b784",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-0f0aa5f4b784",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I touched my forehead."
+      ]
+    },
+    {
+      "id": "000126-0f0aa5f4b784",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-3c92a4d26b5e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-3c92a4d26b5e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I sat back slightly."
+      ]
+    },
+    {
+      "id": "000126-3c92a4d26b5e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-d01fe20fa93d",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d01fe20fa93d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed."
+      ]
+    },
+    {
+      "id": "000126-d01fe20fa93d",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6e4b401de4ab",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6e4b401de4ab",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I lifted my eyebrows."
+      ]
+    },
+    {
+      "id": "000126-6e4b401de4ab",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-a84034f4b0c1",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-a84034f4b0c1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I ran a hand over my face."
+      ]
+    },
+    {
+      "id": "000126-a84034f4b0c1",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-a9fbc7afd810",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-a9fbc7afd810",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My shoulders tightened."
+      ]
+    },
+    {
+      "id": "000126-a9fbc7afd810",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-737566f4ed79",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-737566f4ed79",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I glanced away."
+      ]
+    },
+    {
+      "id": "000126-737566f4ed79",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-4aa1f5ae2079",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-4aa1f5ae2079",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my chin."
+      ]
+    },
+    {
+      "id": "000126-4aa1f5ae2079",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-5b3850b9787a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-5b3850b9787a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I breathed out."
+      ]
+    },
+    {
+      "id": "000126-5b3850b9787a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-385f070f8b3a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-385f070f8b3a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my feet."
+      ]
+    },
+    {
+      "id": "000126-385f070f8b3a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-73a3a7757dd5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-73a3a7757dd5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked and straightened."
+      ]
+    },
+    {
+      "id": "000126-73a3a7757dd5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-2c2528dc3426",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-2c2528dc3426",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I raised my chin."
+      ]
+    },
+    {
+      "id": "000126-2c2528dc3426",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-8f17b517cc84",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-8f17b517cc84",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I let my shoulders drop."
+      ]
+    },
+    {
+      "id": "000126-8f17b517cc84",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-62398b429960",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-62398b429960",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pursed my lips."
+      ]
+    },
+    {
+      "id": "000126-62398b429960",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-d33a223d8b67",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-d33a223d8b67",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my temple."
+      ]
+    },
+    {
+      "id": "000126-d33a223d8b67",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-716d9382c20e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-716d9382c20e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my posture."
+      ]
+    },
+    {
+      "id": "000126-716d9382c20e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-6b7e96d4ed4c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6b7e96d4ed4c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked around briefly."
+      ]
+    },
+    {
+      "id": "000126-6b7e96d4ed4c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-46ea16dffdae",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-46ea16dffdae",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I took a slow breath."
+      ]
+    },
+    {
+      "id": "000126-46ea16dffdae",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-8080e388cfe9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-8080e388cfe9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I scratched the back of my head."
+      ]
+    },
+    {
+      "id": "000126-8080e388cfe9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-c81bfd4778b6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-c81bfd4778b6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders."
+      ]
+    },
+    {
+      "id": "000126-c81bfd4778b6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-1616b8d650d8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-1616b8d650d8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My expression changed."
+      ]
+    },
+    {
+      "id": "000126-1616b8d650d8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-827d5a3e8006",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-827d5a3e8006",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight."
+      ]
+    },
+    {
+      "id": "000126-827d5a3e8006",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The records office was a labyrinth of paper and vanished lives."
+      ]
+    },
+    {
+      "id": "000126-133924377bf5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-133924377bf5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my jaw."
+      ]
+    },
+    {
+      "id": "000126-133924377bf5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The produce aisle was a rainbow of freshness and abundance."
+      ]
+    },
+    {
+      "id": "000126-87b93e2ff13e",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-87b93e2ff13e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked."
+      ]
+    },
+    {
+      "id": "000126-87b93e2ff13e",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The rugby club dinner became a sea of blazers and old loyalties."
+      ]
+    },
+    {
+      "id": "000126-fa0a1ecbf994",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-fa0a1ecbf994",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I let out a sigh."
+      ]
+    },
+    {
+      "id": "000126-fa0a1ecbf994",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The model railway exhibition was a kingdom of miniature dreams."
+      ]
+    },
+    {
+      "id": "000126-2ecb1455ec21",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-2ecb1455ec21",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked away for a moment."
+      ]
+    },
+    {
+      "id": "000126-2ecb1455ec21",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The warehouse cafeteria was an island of steam and brief companionship."
+      ]
+    },
+    {
+      "id": "000126-62e4a4305a14",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-62e4a4305a14",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pressed my lips together."
+      ]
+    },
+    {
+      "id": "000126-62e4a4305a14",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The graduation foyer was a garden of gowns and bright futures."
+      ]
+    },
+    {
+      "id": "000126-93abb4429f29",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-93abb4429f29",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my forehead."
+      ]
+    },
+    {
+      "id": "000126-93abb4429f29",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The print shop was a symphony of ink and industrious motion."
+      ]
+    },
+    {
+      "id": "000126-b2cf7cab15bc",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-b2cf7cab15bc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed."
+      ]
+    },
+    {
+      "id": "000126-b2cf7cab15bc",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The marina office was a shrine to charts and weathered adventure."
+      ]
+    },
+    {
+      "id": "000126-a4d8c8925a35",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-a4d8c8925a35",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my shoulders."
+      ]
+    },
+    {
+      "id": "000126-a4d8c8925a35",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The fabric exhibition was an ocean of texture and whispered luxury."
+      ]
+    },
+    {
+      "id": "000126-9ff4a74aff08",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-9ff4a74aff08",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I took a breath."
+      ]
+    },
+    {
+      "id": "000126-9ff4a74aff08",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The urban farm was a patchwork of soil and stubborn hope."
+      ]
+    },
+    {
+      "id": "000126-b57d836a1fce",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-b57d836a1fce",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I raised my eyebrows."
+      ]
+    },
+    {
+      "id": "000126-b57d836a1fce",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The passport office was a theater of documents and deferred journeys."
+      ]
+    },
+    {
+      "id": "000126-383056d0dde7",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-383056d0dde7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I straightened slightly."
+      ]
+    },
+    {
+      "id": "000126-383056d0dde7",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The frozen pond was a mirror of silver and winter dreams."
+      ]
+    },
+    {
+      "id": "000126-725a5de506b9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-725a5de506b9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I scratched my chin."
+      ]
+    },
+    {
+      "id": "000126-725a5de506b9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The instrument warehouse was a forest of brass and sleeping melodies."
+      ]
+    },
+    {
+      "id": "000126-6f3fd5a6a0a8",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6f3fd5a6a0a8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked down briefly."
+      ]
+    },
+    {
+      "id": "000126-6f3fd5a6a0a8",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The neighborhood bakery was a sanctuary of flour and morning warmth."
+      ]
+    },
+    {
+      "id": "000126-c1c02cc68b53",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-c1c02cc68b53",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my face."
+      ]
+    },
+    {
+      "id": "000126-c1c02cc68b53",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The repair yard was a graveyard of engines and exhausted journeys."
+      ]
+    },
+    {
+      "id": "000126-37205865f50b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-37205865f50b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my stance."
+      ]
+    },
+    {
+      "id": "000126-37205865f50b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The craft hall was a galaxy of glitter and homemade dreams."
+      ]
+    },
+    {
+      "id": "000126-134f23df932b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-134f23df932b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I cleared my throat."
+      ]
+    },
+    {
+      "id": "000126-134f23df932b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The hotel dining room was a jewel box of linen and candlelight."
+      ]
+    },
+    {
+      "id": "000126-9aefde381c6a",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-9aefde381c6a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I sat back."
+      ]
+    },
+    {
+      "id": "000126-9aefde381c6a",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bus station at midnight was a reef of headlights and weary travelers."
+      ]
+    },
+    {
+      "id": "000126-9cba4036e73f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-9cba4036e73f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I flexed my fingers."
+      ]
+    },
+    {
+      "id": "000126-9cba4036e73f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The school concert was a carousel of small voices and proud smiles."
+      ]
+    },
+    {
+      "id": "000126-2e79224906e5",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-2e79224906e5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked twice."
+      ]
+    },
+    {
+      "id": "000126-2e79224906e5",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The homewares store was an empire of porcelain and domestic promise."
+      ]
+    },
+    {
+      "id": "000126-14870d8cde54",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-14870d8cde54",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I turned slightly."
+      ]
+    },
+    {
+      "id": "000126-14870d8cde54",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The seafront market was a necklace of awnings and salty conversation."
+      ]
+    },
+    {
+      "id": "000126-db510d6a0666",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-db510d6a0666",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I exhaled slowly."
+      ]
+    },
+    {
+      "id": "000126-db510d6a0666",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The auction preview was a museum of mahogany and faded status."
+      ]
+    },
+    {
+      "id": "000126-e73ee51f11d9",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-e73ee51f11d9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my neck."
+      ]
+    },
+    {
+      "id": "000126-e73ee51f11d9",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bowling tournament was a tapestry of bright shirts and friendly rivalry."
+      ]
+    },
+    {
+      "id": "000126-1710f3f73ef3",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-1710f3f73ef3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted in my seat."
+      ]
+    },
+    {
+      "id": "000126-1710f3f73ef3",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The garden restaurant was an oasis of vines and whispered pleasure."
+      ]
+    },
+    {
+      "id": "000126-911b20115b49",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-911b20115b49",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pressed my palms together."
+      ]
+    },
+    {
+      "id": "000126-911b20115b49",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The station cafe was a harbor of coffee and fleeting encounters."
+      ]
+    },
+    {
+      "id": "000126-396c4bbd8bb6",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-396c4bbd8bb6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked ahead for a moment."
+      ]
+    },
+    {
+      "id": "000126-396c4bbd8bb6",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The bathroom showroom was a landscape of chrome and immaculate beginnings."
+      ]
+    },
+    {
+      "id": "000126-800dbe4f740b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-800dbe4f740b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders."
+      ]
+    },
+    {
+      "id": "000126-800dbe4f740b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The repair shop was a cave of copper and patient ingenuity."
+      ]
+    },
+    {
+      "id": "000126-3a42749f9839",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-3a42749f9839",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I drew a breath."
+      ]
+    },
+    {
+      "id": "000126-3a42749f9839",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The community cinema was a lantern of stories and shared wonder."
       ]
     }
   ]

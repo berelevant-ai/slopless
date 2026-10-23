@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "a73bfc6c9ac8866d00bea9e953c695f13a93a95b46c6f0ad8c7dc4b1894a7731",
+  "textSha256": "f44a677a2e6ec7565ce856a9f14f9aa1d9ac998f84cda57640ab38601e6ad8f9",
   "source": {
     "name": "Codex-authored narrative-craft-low-information-beat-density-development",
     "originalPath": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -45,72 +45,1172 @@
     {
       "id": "000101-6b314f3ae5d9",
       "start": 2339,
-      "end": 2700
+      "end": 2709
     },
     {
       "id": "000101-fa706294b7e7",
-      "start": 2726,
-      "end": 3048
+      "start": 2735,
+      "end": 3057
     },
     {
       "id": "000101-2a2c9889cb29",
-      "start": 3074,
-      "end": 3406
+      "start": 3083,
+      "end": 3415
     },
     {
       "id": "000101-c720e0956030",
-      "start": 3432,
-      "end": 3770
+      "start": 3441,
+      "end": 3779
     },
     {
       "id": "000101-9830b3b06bc5",
-      "start": 3796,
-      "end": 4137
+      "start": 3805,
+      "end": 4146
     },
     {
       "id": "000101-f876ed688d95",
-      "start": 4163,
-      "end": 4491
+      "start": 4172,
+      "end": 4500
     },
     {
       "id": "000101-a50c8f915218",
-      "start": 4517,
-      "end": 4873
+      "start": 4526,
+      "end": 4867
     },
     {
       "id": "000101-a65866daed5c",
-      "start": 4899,
-      "end": 5235
+      "start": 4893,
+      "end": 5229
     },
     {
       "id": "000101-8c08670c3688",
-      "start": 5261,
-      "end": 5627
+      "start": 5255,
+      "end": 5621
     },
     {
       "id": "000101-bf41ea467655",
-      "start": 5653,
-      "end": 6023
+      "start": 5647,
+      "end": 6017
     },
     {
       "id": "000101-1c06270b7485",
-      "start": 6049,
-      "end": 6372
+      "start": 6043,
+      "end": 6366
     },
     {
       "id": "000101-c009f139eb9a",
-      "start": 6398,
-      "end": 6758
+      "start": 6392,
+      "end": 6752
     },
     {
       "id": "000101-ce71c634764d",
-      "start": 6784,
-      "end": 7157
+      "start": 6778,
+      "end": 7151
     },
     {
       "id": "000101-46d623a51887",
-      "start": 7183,
-      "end": 7561
+      "start": 7177,
+      "end": 7555
+    },
+    {
+      "id": "000101-0c44956126af",
+      "start": 7581,
+      "end": 7886
+    },
+    {
+      "id": "000101-6879106fd107",
+      "start": 7912,
+      "end": 8193
+    },
+    {
+      "id": "000101-6cf058ab8fc0",
+      "start": 8219,
+      "end": 8523
+    },
+    {
+      "id": "000101-dfb91ae93dd1",
+      "start": 8549,
+      "end": 8833
+    },
+    {
+      "id": "000101-d0d8ab4c1bbc",
+      "start": 8859,
+      "end": 9147
+    },
+    {
+      "id": "000101-ea41418ea064",
+      "start": 9173,
+      "end": 9461
+    },
+    {
+      "id": "000101-38a626c138b8",
+      "start": 9487,
+      "end": 9785
+    },
+    {
+      "id": "000101-9f1df0d9797d",
+      "start": 9811,
+      "end": 10083
+    },
+    {
+      "id": "000101-5396af5c4747",
+      "start": 10109,
+      "end": 10415
+    },
+    {
+      "id": "000101-0bd98ed9bebf",
+      "start": 10441,
+      "end": 10698
+    },
+    {
+      "id": "000101-2fb8a9cb6eff",
+      "start": 10724,
+      "end": 11003
+    },
+    {
+      "id": "000101-7eb7c6c71311",
+      "start": 11029,
+      "end": 11306
+    },
+    {
+      "id": "000101-8f94e17fbcd9",
+      "start": 11332,
+      "end": 11627
+    },
+    {
+      "id": "000101-624b499e5b73",
+      "start": 11653,
+      "end": 11952
+    },
+    {
+      "id": "000101-1ebabc78d345",
+      "start": 11978,
+      "end": 12287
+    },
+    {
+      "id": "000101-8c230f44dd03",
+      "start": 12313,
+      "end": 12577
+    },
+    {
+      "id": "000101-b93db9df3b36",
+      "start": 12603,
+      "end": 12879
+    },
+    {
+      "id": "000101-e396be3ec933",
+      "start": 12905,
+      "end": 13200
+    },
+    {
+      "id": "000101-a9095d5c3d2f",
+      "start": 13226,
+      "end": 13522
+    },
+    {
+      "id": "000101-f5688c5848b1",
+      "start": 13548,
+      "end": 13814
+    },
+    {
+      "id": "000101-578951cc79a7",
+      "start": 13840,
+      "end": 14143
+    },
+    {
+      "id": "000101-0a258cf1d74e",
+      "start": 14169,
+      "end": 14477
+    },
+    {
+      "id": "000101-9859364abbfd",
+      "start": 14503,
+      "end": 14778
+    },
+    {
+      "id": "000101-96bfa9860f26",
+      "start": 14804,
+      "end": 15086
+    },
+    {
+      "id": "000101-b5a6d0d5b1b1",
+      "start": 15112,
+      "end": 15408
+    },
+    {
+      "id": "000101-396a082bcd9a",
+      "start": 15434,
+      "end": 15699
+    },
+    {
+      "id": "000101-9c8d4ec4563f",
+      "start": 15725,
+      "end": 16000
+    },
+    {
+      "id": "000101-7757a2b23fd8",
+      "start": 16026,
+      "end": 16282
+    },
+    {
+      "id": "000101-a5bd20ea10af",
+      "start": 16308,
+      "end": 16573
+    },
+    {
+      "id": "000101-b49ec69d09a8",
+      "start": 16599,
+      "end": 16907
+    },
+    {
+      "id": "000101-59ae1927f42a",
+      "start": 16933,
+      "end": 17205
+    },
+    {
+      "id": "000101-c9787ef1e4f2",
+      "start": 17231,
+      "end": 17516
+    },
+    {
+      "id": "000101-63ad713e9fa3",
+      "start": 17542,
+      "end": 17842
+    },
+    {
+      "id": "000101-12c629ce0715",
+      "start": 17868,
+      "end": 18152
+    },
+    {
+      "id": "000101-62078050504f",
+      "start": 18178,
+      "end": 18470
+    },
+    {
+      "id": "000101-e98b6ea5ea54",
+      "start": 18496,
+      "end": 18765
+    },
+    {
+      "id": "000101-17930d03d74d",
+      "start": 18791,
+      "end": 19075
+    },
+    {
+      "id": "000101-2842ff5f0454",
+      "start": 19101,
+      "end": 19374
+    },
+    {
+      "id": "000101-00dc0ef24487",
+      "start": 19400,
+      "end": 19702
+    },
+    {
+      "id": "000101-94635e5b4848",
+      "start": 19728,
+      "end": 20017
+    },
+    {
+      "id": "000101-3950d12ffd23",
+      "start": 20043,
+      "end": 20332
+    },
+    {
+      "id": "000101-459688d6216f",
+      "start": 20358,
+      "end": 20655
+    },
+    {
+      "id": "000101-64d3d8884069",
+      "start": 20681,
+      "end": 20960
+    },
+    {
+      "id": "000101-226013cc6eae",
+      "start": 20986,
+      "end": 21259
+    },
+    {
+      "id": "000101-93bd77117e60",
+      "start": 21285,
+      "end": 21567
+    },
+    {
+      "id": "000101-7624fefe0341",
+      "start": 21593,
+      "end": 21868
+    },
+    {
+      "id": "000101-2c2a7d7b65fb",
+      "start": 21894,
+      "end": 22168
+    },
+    {
+      "id": "000101-ace3e643f434",
+      "start": 22194,
+      "end": 22476
+    },
+    {
+      "id": "000101-a65fd0abb458",
+      "start": 22502,
+      "end": 22803
+    },
+    {
+      "id": "000101-4019a8915b96",
+      "start": 22829,
+      "end": 23113
+    },
+    {
+      "id": "000101-4ced85441281",
+      "start": 23139,
+      "end": 23435
+    },
+    {
+      "id": "000101-a1886042efbf",
+      "start": 23461,
+      "end": 23732
+    },
+    {
+      "id": "000101-a8e12e80df1f",
+      "start": 23758,
+      "end": 24051
+    },
+    {
+      "id": "000101-5886d5de7034",
+      "start": 24077,
+      "end": 24370
+    },
+    {
+      "id": "000101-ad64f0b33545",
+      "start": 24396,
+      "end": 24707
+    },
+    {
+      "id": "000101-f7d4529accc2",
+      "start": 24733,
+      "end": 25031
+    },
+    {
+      "id": "000101-c9dd9201b753",
+      "start": 25057,
+      "end": 25337
+    },
+    {
+      "id": "000101-7c9d990a178a",
+      "start": 25363,
+      "end": 25649
+    },
+    {
+      "id": "000101-72a606e4a114",
+      "start": 25675,
+      "end": 25966
+    },
+    {
+      "id": "000101-8a469bfa667a",
+      "start": 25992,
+      "end": 26290
+    },
+    {
+      "id": "000101-9f5fad65d0fe",
+      "start": 26316,
+      "end": 26629
+    },
+    {
+      "id": "000101-c43f53746e96",
+      "start": 26655,
+      "end": 26958
+    },
+    {
+      "id": "000101-0510a868d66f",
+      "start": 26984,
+      "end": 27269
+    },
+    {
+      "id": "000101-578fa55dbeeb",
+      "start": 27295,
+      "end": 27595
+    },
+    {
+      "id": "000101-af44cbf2f8ea",
+      "start": 27621,
+      "end": 27919
+    },
+    {
+      "id": "000101-f7283b04e8a2",
+      "start": 27945,
+      "end": 28229
+    },
+    {
+      "id": "000101-e7a45d000951",
+      "start": 28255,
+      "end": 28540
+    },
+    {
+      "id": "000101-ed8e52625674",
+      "start": 28566,
+      "end": 28830
+    },
+    {
+      "id": "000101-052d8a86389b",
+      "start": 28856,
+      "end": 29127
+    },
+    {
+      "id": "000101-434cda7fd375",
+      "start": 29153,
+      "end": 29422
+    },
+    {
+      "id": "000101-f07d9b14100b",
+      "start": 29448,
+      "end": 29731
+    },
+    {
+      "id": "000101-67b6df09ce1f",
+      "start": 29757,
+      "end": 30043
+    },
+    {
+      "id": "000101-e23e6f49d448",
+      "start": 30069,
+      "end": 30347
+    },
+    {
+      "id": "000101-5ed1141cccf1",
+      "start": 30373,
+      "end": 30646
+    },
+    {
+      "id": "000101-1d4f614afc68",
+      "start": 30672,
+      "end": 30954
+    },
+    {
+      "id": "000101-789787294482",
+      "start": 30980,
+      "end": 31264
+    },
+    {
+      "id": "000101-abe2d8095849",
+      "start": 31290,
+      "end": 31586
+    },
+    {
+      "id": "000101-a725cabea357",
+      "start": 31612,
+      "end": 31890
+    },
+    {
+      "id": "000101-807a8508dd67",
+      "start": 31916,
+      "end": 32196
+    },
+    {
+      "id": "000101-6cac3914a6ae",
+      "start": 32222,
+      "end": 32527
+    },
+    {
+      "id": "000101-61ac0f7047b8",
+      "start": 32553,
+      "end": 32848
+    },
+    {
+      "id": "000101-7d526b7523f0",
+      "start": 32874,
+      "end": 33149
+    },
+    {
+      "id": "000101-1144703700d4",
+      "start": 33175,
+      "end": 33447
+    },
+    {
+      "id": "000101-3e65b6b817b5",
+      "start": 33473,
+      "end": 33748
+    },
+    {
+      "id": "000101-7394e9da0bcf",
+      "start": 33774,
+      "end": 34089
+    },
+    {
+      "id": "000101-23192b1a9d03",
+      "start": 34115,
+      "end": 34394
+    },
+    {
+      "id": "000101-239eb84aacf3",
+      "start": 34420,
+      "end": 34724
+    },
+    {
+      "id": "000101-9fc201cbe06b",
+      "start": 34750,
+      "end": 35038
+    },
+    {
+      "id": "000101-95d019518216",
+      "start": 35064,
+      "end": 35368
+    },
+    {
+      "id": "000101-a3f0bb1816be",
+      "start": 35394,
+      "end": 35677
+    },
+    {
+      "id": "000101-285d1d8aa7e8",
+      "start": 35703,
+      "end": 35982
+    },
+    {
+      "id": "000101-a9244024f614",
+      "start": 36008,
+      "end": 36310
+    },
+    {
+      "id": "000101-37f292bd2987",
+      "start": 36336,
+      "end": 36626
+    },
+    {
+      "id": "000101-bdc1ba9c0dc5",
+      "start": 36652,
+      "end": 36945
+    },
+    {
+      "id": "000101-d17e6886cd1e",
+      "start": 36971,
+      "end": 37281
+    },
+    {
+      "id": "000101-dda4aa859ee5",
+      "start": 37307,
+      "end": 37599
+    },
+    {
+      "id": "000101-183686b9cc2c",
+      "start": 37625,
+      "end": 37921
+    },
+    {
+      "id": "000101-88d875b03b82",
+      "start": 37947,
+      "end": 38247
+    },
+    {
+      "id": "000101-24ac75bf6f9a",
+      "start": 38273,
+      "end": 38571
+    },
+    {
+      "id": "000101-a5323d267288",
+      "start": 38597,
+      "end": 38875
+    },
+    {
+      "id": "000101-d3e69f23b7fb",
+      "start": 38901,
+      "end": 39193
+    },
+    {
+      "id": "000101-a2cd507dcb28",
+      "start": 39219,
+      "end": 39524
+    },
+    {
+      "id": "000101-3e9302598ab6",
+      "start": 39550,
+      "end": 39834
+    },
+    {
+      "id": "000101-91f3c9b9b7c7",
+      "start": 39860,
+      "end": 40117
+    },
+    {
+      "id": "000101-c9c9f273652a",
+      "start": 40143,
+      "end": 40430
+    },
+    {
+      "id": "000101-a008fe0eedc8",
+      "start": 40456,
+      "end": 40761
+    },
+    {
+      "id": "000101-910ed418e22c",
+      "start": 40787,
+      "end": 41113
+    },
+    {
+      "id": "000101-c501893fa231",
+      "start": 41139,
+      "end": 41394
+    },
+    {
+      "id": "000101-77ec80a08ff9",
+      "start": 41420,
+      "end": 41718
+    },
+    {
+      "id": "000101-4534defdc0e1",
+      "start": 41744,
+      "end": 42038
+    },
+    {
+      "id": "000101-50fba8f2caa9",
+      "start": 42064,
+      "end": 42357
+    },
+    {
+      "id": "000101-08a6deeccb43",
+      "start": 42383,
+      "end": 42675
+    },
+    {
+      "id": "000101-225c49777d05",
+      "start": 42701,
+      "end": 42978
+    },
+    {
+      "id": "000101-3af6c736ecd6",
+      "start": 43004,
+      "end": 43286
+    },
+    {
+      "id": "000101-a9f138d77c51",
+      "start": 43312,
+      "end": 43627
+    },
+    {
+      "id": "000101-214c06ddf5e9",
+      "start": 43653,
+      "end": 43959
+    },
+    {
+      "id": "000101-be7061a947a4",
+      "start": 43985,
+      "end": 44247
+    },
+    {
+      "id": "000101-a1c9b6d68813",
+      "start": 44273,
+      "end": 44530
+    },
+    {
+      "id": "000101-2a725a0f75a0",
+      "start": 44556,
+      "end": 44859
+    },
+    {
+      "id": "000101-7cfcb21a3fe2",
+      "start": 44885,
+      "end": 45190
+    },
+    {
+      "id": "000101-9e20280e173c",
+      "start": 45216,
+      "end": 45509
+    },
+    {
+      "id": "000101-a01eabb65e44",
+      "start": 45535,
+      "end": 45817
+    },
+    {
+      "id": "000101-badc3428a58b",
+      "start": 45843,
+      "end": 46146
+    },
+    {
+      "id": "000101-660e64aac82c",
+      "start": 46172,
+      "end": 46451
+    },
+    {
+      "id": "000101-3119aecd51b6",
+      "start": 46477,
+      "end": 46788
+    },
+    {
+      "id": "000101-1ba0c9b4b237",
+      "start": 46814,
+      "end": 47107
+    },
+    {
+      "id": "000101-b6b26f81c85f",
+      "start": 47133,
+      "end": 47457
+    },
+    {
+      "id": "000101-76b82eb64c78",
+      "start": 47483,
+      "end": 47769
+    },
+    {
+      "id": "000101-99b331ebef50",
+      "start": 47795,
+      "end": 48136
+    },
+    {
+      "id": "000101-f9f92954a98f",
+      "start": 48162,
+      "end": 48460
+    },
+    {
+      "id": "000101-f74696844bd7",
+      "start": 48486,
+      "end": 48763
+    },
+    {
+      "id": "000101-1f0111749798",
+      "start": 48789,
+      "end": 49081
+    },
+    {
+      "id": "000101-365bf571e763",
+      "start": 49107,
+      "end": 49385
+    },
+    {
+      "id": "000101-83706d22d9c9",
+      "start": 49411,
+      "end": 49709
+    },
+    {
+      "id": "000101-0efad92c1e20",
+      "start": 49735,
+      "end": 50054
+    },
+    {
+      "id": "000101-24ff50caeab0",
+      "start": 50080,
+      "end": 50360
+    },
+    {
+      "id": "000101-d650a37ce17a",
+      "start": 50386,
+      "end": 50692
+    },
+    {
+      "id": "000101-3d9a58af092e",
+      "start": 50718,
+      "end": 50993
+    },
+    {
+      "id": "000101-da9e45535e50",
+      "start": 51019,
+      "end": 51320
+    },
+    {
+      "id": "000101-228aef229b17",
+      "start": 51346,
+      "end": 51648
+    },
+    {
+      "id": "000101-e83a4825ea5f",
+      "start": 51674,
+      "end": 51971
+    },
+    {
+      "id": "000101-91fb47a30c48",
+      "start": 51997,
+      "end": 52303
+    },
+    {
+      "id": "000101-53055dce5e8d",
+      "start": 52329,
+      "end": 52625
+    },
+    {
+      "id": "000101-d6cfb3657d79",
+      "start": 52651,
+      "end": 52929
+    },
+    {
+      "id": "000101-387195cfdb7f",
+      "start": 52955,
+      "end": 53246
+    },
+    {
+      "id": "000101-d3cc2bc6679f",
+      "start": 53272,
+      "end": 53552
+    },
+    {
+      "id": "000101-cea69d4cf4e0",
+      "start": 53578,
+      "end": 53871
+    },
+    {
+      "id": "000101-7a0fdff96389",
+      "start": 53897,
+      "end": 54194
+    },
+    {
+      "id": "000101-19a5e65b03d0",
+      "start": 54220,
+      "end": 54537
+    },
+    {
+      "id": "000101-1b14102d4754",
+      "start": 54563,
+      "end": 54871
+    },
+    {
+      "id": "000101-3da739f15292",
+      "start": 54897,
+      "end": 55182
+    },
+    {
+      "id": "000101-31eb4cba6cf2",
+      "start": 55208,
+      "end": 55506
+    },
+    {
+      "id": "000101-63e9b4fb13ae",
+      "start": 55532,
+      "end": 55825
+    },
+    {
+      "id": "000101-15526cbfcc30",
+      "start": 55851,
+      "end": 56136
+    },
+    {
+      "id": "000101-91cbaeaacf57",
+      "start": 56162,
+      "end": 56448
+    },
+    {
+      "id": "000101-bdd9bb869779",
+      "start": 56474,
+      "end": 56755
+    },
+    {
+      "id": "000101-b64bd1cfcdfe",
+      "start": 56781,
+      "end": 57083
+    },
+    {
+      "id": "000101-b0f65ebcb5bf",
+      "start": 57109,
+      "end": 57390
+    },
+    {
+      "id": "000101-0a6587fcfdce",
+      "start": 57416,
+      "end": 57726
+    },
+    {
+      "id": "000101-a6f1a69e6231",
+      "start": 57752,
+      "end": 58083
+    },
+    {
+      "id": "000101-d53136940a93",
+      "start": 58109,
+      "end": 58409
+    },
+    {
+      "id": "000101-93fe5f8280ac",
+      "start": 58435,
+      "end": 58701
+    },
+    {
+      "id": "000101-c552760c40ae",
+      "start": 58727,
+      "end": 59037
+    },
+    {
+      "id": "000101-1050b2a7361d",
+      "start": 59063,
+      "end": 59352
+    },
+    {
+      "id": "000101-66c02f95cefe",
+      "start": 59378,
+      "end": 59678
+    },
+    {
+      "id": "000101-4db8adededf7",
+      "start": 59704,
+      "end": 60004
+    },
+    {
+      "id": "000101-f19b7bd5a4a2",
+      "start": 60030,
+      "end": 60324
+    },
+    {
+      "id": "000101-68f1eb922783",
+      "start": 60350,
+      "end": 60651
+    },
+    {
+      "id": "000101-9a6769db18d1",
+      "start": 60677,
+      "end": 60982
+    },
+    {
+      "id": "000101-8462ab3bbb16",
+      "start": 61008,
+      "end": 61298
+    },
+    {
+      "id": "000101-d2fd081c9da9",
+      "start": 61324,
+      "end": 61609
+    },
+    {
+      "id": "000101-7a80a6ada2d9",
+      "start": 61635,
+      "end": 61910
+    },
+    {
+      "id": "000101-8e6736cbf124",
+      "start": 61936,
+      "end": 62218
+    },
+    {
+      "id": "000101-5f365fa237b4",
+      "start": 62244,
+      "end": 62542
+    },
+    {
+      "id": "000101-9af561f4c67e",
+      "start": 62568,
+      "end": 62851
+    },
+    {
+      "id": "000101-802b46f688bc",
+      "start": 62877,
+      "end": 63175
+    },
+    {
+      "id": "000101-1585b8429e52",
+      "start": 63201,
+      "end": 63507
+    },
+    {
+      "id": "000101-66b31221ab80",
+      "start": 63533,
+      "end": 63820
+    },
+    {
+      "id": "000101-a303ff23d161",
+      "start": 63846,
+      "end": 64146
+    },
+    {
+      "id": "000101-d34bf391ba06",
+      "start": 64172,
+      "end": 64454
+    },
+    {
+      "id": "000101-2560a135b283",
+      "start": 64480,
+      "end": 64786
+    },
+    {
+      "id": "000101-d6cf3143e0d2",
+      "start": 64812,
+      "end": 65110
+    },
+    {
+      "id": "000101-bafb87296bc1",
+      "start": 65136,
+      "end": 65421
+    },
+    {
+      "id": "000101-4caebaf7a8b7",
+      "start": 65447,
+      "end": 65767
+    },
+    {
+      "id": "000101-f7b68b36cb1f",
+      "start": 65793,
+      "end": 66118
+    },
+    {
+      "id": "000101-d3aa2c2281f8",
+      "start": 66144,
+      "end": 66411
+    },
+    {
+      "id": "000101-964c0ff30831",
+      "start": 66437,
+      "end": 66732
+    },
+    {
+      "id": "000101-853a334f4f84",
+      "start": 66758,
+      "end": 67068
+    },
+    {
+      "id": "000101-64eb4965b5cf",
+      "start": 67094,
+      "end": 67374
+    },
+    {
+      "id": "000101-eca84af06d2b",
+      "start": 67400,
+      "end": 67681
+    },
+    {
+      "id": "000101-8739f74801ef",
+      "start": 67707,
+      "end": 68019
+    },
+    {
+      "id": "000101-842eacfe55e2",
+      "start": 68045,
+      "end": 68332
+    },
+    {
+      "id": "000101-cbaa75cca9a5",
+      "start": 68358,
+      "end": 68689
+    },
+    {
+      "id": "000101-004506d4c23d",
+      "start": 68715,
+      "end": 69007
+    },
+    {
+      "id": "000101-cbcba9cc931f",
+      "start": 69033,
+      "end": 69378
+    },
+    {
+      "id": "000101-c3d60470039e",
+      "start": 69404,
+      "end": 69696
+    },
+    {
+      "id": "000101-a392c90e4bde",
+      "start": 69722,
+      "end": 70019
+    },
+    {
+      "id": "000101-0ae491062a68",
+      "start": 70045,
+      "end": 70335
+    },
+    {
+      "id": "000101-577fa2fd581d",
+      "start": 70361,
+      "end": 70661
+    },
+    {
+      "id": "000101-d574d284b409",
+      "start": 70687,
+      "end": 70983
+    },
+    {
+      "id": "000101-c52089669ba5",
+      "start": 71009,
+      "end": 71317
+    },
+    {
+      "id": "000101-4c32f6a1121e",
+      "start": 71343,
+      "end": 71640
+    },
+    {
+      "id": "000101-026ee91aaf10",
+      "start": 71666,
+      "end": 71969
+    },
+    {
+      "id": "000101-7184e8f24998",
+      "start": 71995,
+      "end": 72279
+    },
+    {
+      "id": "000101-cd9940c9700b",
+      "start": 72305,
+      "end": 72605
+    },
+    {
+      "id": "000101-dd6769531952",
+      "start": 72631,
+      "end": 72936
+    },
+    {
+      "id": "000101-bcdbe109b052",
+      "start": 72962,
+      "end": 73265
+    },
+    {
+      "id": "000101-4e2cc3e2d79c",
+      "start": 73291,
+      "end": 73616
+    },
+    {
+      "id": "000101-c1336eebba0f",
+      "start": 73642,
+      "end": 73929
+    },
+    {
+      "id": "000101-c24cd53a1f4f",
+      "start": 73955,
+      "end": 74263
+    },
+    {
+      "id": "000101-46ca11ab42e5",
+      "start": 74289,
+      "end": 74586
+    },
+    {
+      "id": "000101-b7fb6c0cc2b9",
+      "start": 74612,
+      "end": 74898
+    },
+    {
+      "id": "000101-d7551adeef3e",
+      "start": 74924,
+      "end": 75240
+    },
+    {
+      "id": "000101-2c0c8b300ca0",
+      "start": 75266,
+      "end": 75563
+    },
+    {
+      "id": "000101-19efac1434a8",
+      "start": 75589,
+      "end": 75893
+    },
+    {
+      "id": "000101-b7ee2c72568e",
+      "start": 75919,
+      "end": 76220
+    },
+    {
+      "id": "000101-e32b9ae38c21",
+      "start": 76246,
+      "end": 76543
+    },
+    {
+      "id": "000101-073575f38e0b",
+      "start": 76569,
+      "end": 76871
+    },
+    {
+      "id": "000101-b4c2be262020",
+      "start": 76897,
+      "end": 77206
+    },
+    {
+      "id": "000101-ce7a56724b1f",
+      "start": 77232,
+      "end": 77542
     }
   ],
   "labels": [
@@ -127,8 +1227,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "Lena looked out across the water, then back at her.",
-        "Her expression changed for a moment."
+        "Lena looked out across the water, then back at her. Her expression changed for a moment."
       ]
     },
     {
@@ -136,8 +1235,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "A tightness settled in my chest.",
-        "I let out a breath and adjusted my posture."
+        "A tightness settled in my chest. I let out a breath and adjusted my posture."
       ]
     },
     {
@@ -153,8 +1251,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "There's a beat of silence.",
-        "I stand there for a moment, then turn slightly toward him."
+        "There's a beat of silence. I stand there for a moment, then turn slightly toward him."
       ]
     },
     {
@@ -162,8 +1259,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "She swallowed, a small movement in her throat.",
-        "Her fingers curled and uncurled against her palm."
+        "She swallowed, a small movement in her throat. Her fingers curled and uncurled against her palm."
       ]
     },
     {
@@ -171,7 +1267,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "Something flickered across my face."
+        "Something flickered across the owner's face."
       ]
     },
     {
@@ -179,8 +1275,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "Martin's shoulders rose and fell with a breath.",
-        "He looked at her for a long moment."
+        "Martin's shoulders rose and fell with a breath. He looked at her for a long moment."
       ]
     },
     {
@@ -196,8 +1291,7 @@
       "check": "narrative-craft/low-information-beat-density",
       "expected": true,
       "snippets": [
-        "Daniel became very still.",
-        "His gaze shifted, and he drew a slow breath."
+        "Daniel became very still. His gaze shifted, and he drew a slow breath."
       ]
     },
     {
@@ -247,6 +1341,1436 @@
     },
     {
       "id": "000101-46d623a51887",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-0c44956126af",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight a little."
+      ]
+    },
+    {
+      "id": "000101-6879106fd107",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-6cf058ab8fc0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A look passed over Marion's face."
+      ]
+    },
+    {
+      "id": "000101-dfb91ae93dd1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d0d8ab4c1bbc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My eyes moved to him and away again."
+      ]
+    },
+    {
+      "id": "000101-ea41418ea064",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-38a626c138b8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A breath escaped me."
+      ]
+    },
+    {
+      "id": "000101-9f1df0d9797d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-5396af5c4747",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stood motionless for a beat."
+      ]
+    },
+    {
+      "id": "000101-0bd98ed9bebf",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-2fb8a9cb6eff",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Leo's mouth tightened slightly."
+      ]
+    },
+    {
+      "id": "000101-7eb7c6c71311",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-8f94e17fbcd9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Her shoulders settled by a fraction."
+      ]
+    },
+    {
+      "id": "000101-624b499e5b73",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-1ebabc78d345",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked slowly."
+      ]
+    },
+    {
+      "id": "000101-8c230f44dd03",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-b93db9df3b36",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I turned a little toward my wife."
+      ]
+    },
+    {
+      "id": "000101-e396be3ec933",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a9095d5c3d2f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Something stirred in my chest."
+      ]
+    },
+    {
+      "id": "000101-f5688c5848b1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-578951cc79a7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "She drew herself up and then relaxed again."
+      ]
+    },
+    {
+      "id": "000101-0a258cf1d74e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-9859364abbfd",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked at her in silence for a moment."
+      ]
+    },
+    {
+      "id": "000101-96bfa9860f26",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-b5a6d0d5b1b1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A small smile touched my lips."
+      ]
+    },
+    {
+      "id": "000101-396a082bcd9a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-9c8d4ec4563f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My brother rocked back on his heels."
+      ]
+    },
+    {
+      "id": "000101-7757a2b23fd8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a5bd20ea10af",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Maya's gaze wandered briefly."
+      ]
+    },
+    {
+      "id": "000101-b49ec69d09a8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-59ae1927f42a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I touched my neck, then let my hand fall."
+      ]
+    },
+    {
+      "id": "000101-c9787ef1e4f2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-63ad713e9fa3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My breathing changed a little."
+      ]
+    },
+    {
+      "id": "000101-12c629ce0715",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-62078050504f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I moved my head in a small movement."
+      ]
+    },
+    {
+      "id": "000101-e98b6ea5ea54",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-17930d03d74d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I watched for a second, absorbing it."
+      ]
+    },
+    {
+      "id": "000101-2842ff5f0454",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-00dc0ef24487",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Her fingers flexed at her sides."
+      ]
+    },
+    {
+      "id": "000101-94635e5b4848",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-3950d12ffd23",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My face took on a thoughtful expression."
+      ]
+    },
+    {
+      "id": "000101-459688d6216f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-64d3d8884069",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I went still inside myself."
+      ]
+    },
+    {
+      "id": "000101-226013cc6eae",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-93bd77117e60",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A beat passed between us."
+      ]
+    },
+    {
+      "id": "000101-7624fefe0341",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-2c2a7d7b65fb",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed once."
+      ]
+    },
+    {
+      "id": "000101-ace3e643f434",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a65fd0abb458",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My eyebrows lifted a fraction."
+      ]
+    },
+    {
+      "id": "000101-4019a8915b96",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-4ced85441281",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I let my gaze settle somewhere beyond him."
+      ]
+    },
+    {
+      "id": "000101-a1886042efbf",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a8e12e80df1f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A muscle moved in my cheek."
+      ]
+    },
+    {
+      "id": "000101-5886d5de7034",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-ad64f0b33545",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I adjusted my stance."
+      ]
+    },
+    {
+      "id": "000101-f7d4529accc2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-c9dd9201b753",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My heart gave a small lurch."
+      ]
+    },
+    {
+      "id": "000101-7c9d990a178a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-72a606e4a114",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked down, then up again."
+      ]
+    },
+    {
+      "id": "000101-8a469bfa667a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-9f5fad65d0fe",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Mum's expression shifted into something softer."
+      ]
+    },
+    {
+      "id": "000101-c43f53746e96",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-0510a868d66f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I exhaled through my nose."
+      ]
+    },
+    {
+      "id": "000101-578fa55dbeeb",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-af44cbf2f8ea",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Finn's hands tightened and loosened."
+      ]
+    },
+    {
+      "id": "000101-f7283b04e8a2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-e7a45d000951",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I paused, my body registering the news."
+      ]
+    },
+    {
+      "id": "000101-ed8e52625674",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-052d8a86389b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My lips parted briefly."
+      ]
+    },
+    {
+      "id": "000101-434cda7fd375",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-f07d9b14100b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I inclined my head slightly."
+      ]
+    },
+    {
+      "id": "000101-67b6df09ce1f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-e23e6f49d448",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "There was a tiny silence, and I shifted in my seat."
+      ]
+    },
+    {
+      "id": "000101-5ed1141cccf1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-1d4f614afc68",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt a flutter beneath my ribs."
+      ]
+    },
+    {
+      "id": "000101-789787294482",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-abe2d8095849",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stood a little straighter."
+      ]
+    },
+    {
+      "id": "000101-a725cabea357",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-807a8508dd67",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My brother's eyes darkened for a moment."
+      ]
+    },
+    {
+      "id": "000101-6cac3914a6ae",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-61ac0f7047b8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders once."
+      ]
+    },
+    {
+      "id": "000101-7d526b7523f0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-1144703700d4",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked from side to side."
+      ]
+    },
+    {
+      "id": "000101-3e65b6b817b5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-7394e9da0bcf",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt my stomach dip."
+      ]
+    },
+    {
+      "id": "000101-23192b1a9d03",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-239eb84aacf3",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed my hands together absently."
+      ]
+    },
+    {
+      "id": "000101-9fc201cbe06b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-95d019518216",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My face changed slightly."
+      ]
+    },
+    {
+      "id": "000101-a3f0bb1816be",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-285d1d8aa7e8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I took a measured breath."
+      ]
+    },
+    {
+      "id": "000101-a9244024f614",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-37f292bd2987",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I turned and regarded her."
+      ]
+    },
+    {
+      "id": "000101-bdc1ba9c0dc5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d17e6886cd1e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt my pulse quicken."
+      ]
+    },
+    {
+      "id": "000101-dda4aa859ee5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-183686b9cc2c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I sat back, taking that in."
+      ]
+    },
+    {
+      "id": "000101-88d875b03b82",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-24ac75bf6f9a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My throat tightened."
+      ]
+    },
+    {
+      "id": "000101-a5323d267288",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d3e69f23b7fb",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I lowered my eyes for a moment."
+      ]
+    },
+    {
+      "id": "000101-a2cd507dcb28",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-3e9302598ab6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt my chest rise and fall."
+      ]
+    },
+    {
+      "id": "000101-91f3c9b9b7c7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-c9c9f273652a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I leaned forward, then straightened."
+      ]
+    },
+    {
+      "id": "000101-a008fe0eedc8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-910ed418e22c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My jaw shifted."
+      ]
+    },
+    {
+      "id": "000101-c501893fa231",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-77ec80a08ff9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My posture changed almost imperceptibly."
+      ]
+    },
+    {
+      "id": "000101-4534defdc0e1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-50fba8f2caa9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My daughter looked at me, then looked away."
+      ]
+    },
+    {
+      "id": "000101-08a6deeccb43",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-225c49777d05",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My hand hovered for a beat."
+      ]
+    },
+    {
+      "id": "000101-3af6c736ecd6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a9f138d77c51",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I nodded slowly to myself."
+      ]
+    },
+    {
+      "id": "000101-214c06ddf5e9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-be7061a947a4",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Heat rose in my face."
+      ]
+    },
+    {
+      "id": "000101-a1c9b6d68813",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-2a725a0f75a0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stood there, letting a moment go by."
+      ]
+    },
+    {
+      "id": "000101-7cfcb21a3fe2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-9e20280e173c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My gaze flickered."
+      ]
+    },
+    {
+      "id": "000101-a01eabb65e44",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-badc3428a58b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My shoulders drew inward."
+      ]
+    },
+    {
+      "id": "000101-660e64aac82c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-3119aecd51b6",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My fingers brushed my sleeve."
+      ]
+    },
+    {
+      "id": "000101-1ba0c9b4b237",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-b6b26f81c85f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My breath caught slightly."
+      ]
+    },
+    {
+      "id": "000101-76b82eb64c78",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-99b331ebef50",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My expression became guarded."
+      ]
+    },
+    {
+      "id": "000101-f9f92954a98f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-f74696844bd7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A small tension entered my body."
+      ]
+    },
+    {
+      "id": "000101-1f0111749798",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-365bf571e763",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I tilted my chin a little."
+      ]
+    },
+    {
+      "id": "000101-83706d22d9c9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-0efad92c1e20",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I let the information settle, standing quietly."
+      ]
+    },
+    {
+      "id": "000101-24ff50caeab0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d650a37ce17a",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A shiver went through me."
+      ]
+    },
+    {
+      "id": "000101-3d9a58af092e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-da9e45535e50",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stared for a heartbeat."
+      ]
+    },
+    {
+      "id": "000101-228aef229b17",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-e83a4825ea5f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My hands fell to my sides."
+      ]
+    },
+    {
+      "id": "000101-91fb47a30c48",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-53055dce5e8d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt something loosen inside me."
+      ]
+    },
+    {
+      "id": "000101-d6cfb3657d79",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-387195cfdb7f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I ran a hand over my face."
+      ]
+    },
+    {
+      "id": "000101-d3cc2bc6679f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-cea69d4cf4e0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt my eyes widen."
+      ]
+    },
+    {
+      "id": "000101-7a0fdff96389",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-19a5e65b03d0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "then shifted slightly."
+      ]
+    },
+    {
+      "id": "000101-1b14102d4754",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-3da739f15292",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I made a small adjustment to my position."
+      ]
+    },
+    {
+      "id": "000101-31eb4cba6cf2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-63e9b4fb13ae",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My chest filled with a nameless pressure."
+      ]
+    },
+    {
+      "id": "000101-15526cbfcc30",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-91cbaeaacf57",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My mouth formed a thin line."
+      ]
+    },
+    {
+      "id": "000101-bdd9bb869779",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-b64bd1cfcdfe",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I glanced around without seeing anything."
+      ]
+    },
+    {
+      "id": "000101-b0f65ebcb5bf",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-0a6587fcfdce",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I cleared my throat and shifted my feet."
+      ]
+    },
+    {
+      "id": "000101-a6f1a69e6231",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d53136940a93",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt a faint tremor of surprise in my hands."
+      ]
+    },
+    {
+      "id": "000101-93fe5f8280ac",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-c552760c40ae",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A quiet moment stretched."
+      ]
+    },
+    {
+      "id": "000101-1050b2a7361d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-66c02f95cefe",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I blinked and drew back a fraction."
+      ]
+    },
+    {
+      "id": "000101-4db8adededf7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-f19b7bd5a4a2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My shoulders lifted in a small shrug."
+      ]
+    },
+    {
+      "id": "000101-68f1eb922783",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-9a6769db18d1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked away into the middle distance."
+      ]
+    },
+    {
+      "id": "000101-8462ab3bbb16",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d2fd081c9da9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Her hand rose to her collar and dropped again."
+      ]
+    },
+    {
+      "id": "000101-7a80a6ada2d9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-8e6736cbf124",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My body seemed to pause."
+      ]
+    },
+    {
+      "id": "000101-5f365fa237b4",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-9af561f4c67e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "A faint smile crossed my face."
+      ]
+    },
+    {
+      "id": "000101-802b46f688bc",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-1585b8429e52",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted, absorbing the change."
+      ]
+    },
+    {
+      "id": "000101-66b31221ab80",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a303ff23d161",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I turned my face toward the window."
+      ]
+    },
+    {
+      "id": "000101-d34bf391ba06",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-2560a135b283",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My face softened."
+      ]
+    },
+    {
+      "id": "000101-d6cf3143e0d2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-bafb87296bc1",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I pressed my lips together briefly."
+      ]
+    },
+    {
+      "id": "000101-4caebaf7a8b7",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-f7b68b36cb1f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My stomach knotted."
+      ]
+    },
+    {
+      "id": "000101-d3aa2c2281f8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-964c0ff30831",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "His eyes met mine for a moment."
+      ]
+    },
+    {
+      "id": "000101-853a334f4f84",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-64eb4965b5cf",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I took a slow breath through my nose."
+      ]
+    },
+    {
+      "id": "000101-eca84af06d2b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-8739f74801ef",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Something moved behind my eyes."
+      ]
+    },
+    {
+      "id": "000101-842eacfe55e2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-cbaa75cca9a5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I moved my shoulders and looked thoughtful."
+      ]
+    },
+    {
+      "id": "000101-004506d4c23d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-cbcba9cc931f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt a catch somewhere inside."
+      ]
+    },
+    {
+      "id": "000101-c3d60470039e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-a392c90e4bde",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rested my gaze on him for a while."
+      ]
+    },
+    {
+      "id": "000101-0ae491062a68",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-577fa2fd581d",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My knees seemed to soften."
+      ]
+    },
+    {
+      "id": "000101-d574d284b409",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-c52089669ba5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "my expression shifted."
+      ]
+    },
+    {
+      "id": "000101-4c32f6a1121e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-026ee91aaf10",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt my chin dip."
+      ]
+    },
+    {
+      "id": "000101-7184e8f24998",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-cd9940c9700b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stood with my arms hanging loosely."
+      ]
+    },
+    {
+      "id": "000101-dd6769531952",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-bcdbe109b052",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My face went still for a second."
+      ]
+    },
+    {
+      "id": "000101-4e2cc3e2d79c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-c1336eebba0f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I drew my elbows closer to my body."
+      ]
+    },
+    {
+      "id": "000101-c24cd53a1f4f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-46ca11ab42e5",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I felt the corners of my mouth move."
+      ]
+    },
+    {
+      "id": "000101-b7fb6c0cc2b9",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-d7551adeef3e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I moved my gaze slowly."
+      ]
+    },
+    {
+      "id": "000101-2c0c8b300ca0",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-19efac1434a8",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I rubbed the back of my neck."
+      ]
+    },
+    {
+      "id": "000101-b7ee2c72568e",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-e32b9ae38c21",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My breathing slowed for a moment."
+      ]
+    },
+    {
+      "id": "000101-073575f38e0b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000101-b4c2be262020",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked at it, then at him, then back again."
+      ]
+    },
+    {
+      "id": "000101-ce7a56724b1f",
       "check": "narrative-craft/low-information-beat-density",
       "expected": false
     }

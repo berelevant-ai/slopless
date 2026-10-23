@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "42a6b8ef6b975e9d41e6edc46105ffff150eada7e594ce78f1872ac4a9015bd3",
+  "textSha256": "2c0845d80191dc88fa612454b6ae012cf67ed4b5200c315c526aef73223411d7",
   "source": {
     "name": "Codex-authored narrative-craft-narrative-cliches-development",
     "originalPath": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -15,102 +15,1202 @@
     {
       "id": "000105-135cfd67044f",
       "start": 73,
-      "end": 424
+      "end": 430
     },
     {
       "id": "000105-6138957c63b3",
-      "start": 450,
-      "end": 780
+      "start": 456,
+      "end": 786
     },
     {
       "id": "000105-15ef9c8c754f",
-      "start": 806,
-      "end": 1155
+      "start": 812,
+      "end": 1141
     },
     {
       "id": "000105-5b41adf00940",
-      "start": 1181,
-      "end": 1513
+      "start": 1167,
+      "end": 1463
     },
     {
       "id": "000105-f55576e586e5",
-      "start": 1539,
-      "end": 1878
+      "start": 1489,
+      "end": 1832
     },
     {
       "id": "000105-4ce3d1a2fa77",
-      "start": 1904,
-      "end": 2254
+      "start": 1858,
+      "end": 2202
     },
     {
       "id": "000105-51b975e4c34d",
-      "start": 2280,
-      "end": 2625
+      "start": 2228,
+      "end": 2573
     },
     {
       "id": "000105-8024f0b17d67",
-      "start": 2651,
-      "end": 2980
+      "start": 2599,
+      "end": 2928
     },
     {
       "id": "000105-351aad8ab25f",
-      "start": 3006,
-      "end": 3342
+      "start": 2954,
+      "end": 3291
     },
     {
       "id": "000105-8c960edf7968",
-      "start": 3368,
-      "end": 3716
+      "start": 3317,
+      "end": 3665
     },
     {
       "id": "000105-c50790c8adec",
-      "start": 3742,
-      "end": 4076
+      "start": 3691,
+      "end": 4041
     },
     {
       "id": "000105-aba81c081117",
-      "start": 4102,
-      "end": 4455
+      "start": 4067,
+      "end": 4420
     },
     {
       "id": "000105-3525d03c5706",
-      "start": 4481,
-      "end": 4785
+      "start": 4446,
+      "end": 4750
     },
     {
       "id": "000105-81e8722ff575",
-      "start": 4811,
-      "end": 5148
+      "start": 4776,
+      "end": 5113
     },
     {
       "id": "000105-ab8ae31532ee",
-      "start": 5174,
-      "end": 5497
+      "start": 5139,
+      "end": 5462
     },
     {
       "id": "000105-e86893699f8d",
-      "start": 5523,
-      "end": 5854
+      "start": 5488,
+      "end": 5819
     },
     {
       "id": "000105-69075b1b7bd6",
-      "start": 5880,
-      "end": 6209
+      "start": 5845,
+      "end": 6174
     },
     {
       "id": "000105-c671ad462e88",
-      "start": 6235,
-      "end": 6556
+      "start": 6200,
+      "end": 6541
     },
     {
       "id": "000105-dbd028cdb417",
-      "start": 6582,
-      "end": 6888
+      "start": 6567,
+      "end": 6873
     },
     {
       "id": "000105-78e2f7d2017c",
-      "start": 6914,
-      "end": 7256
+      "start": 6899,
+      "end": 7248
+    },
+    {
+      "id": "000105-f81f01ca68ee",
+      "start": 7274,
+      "end": 7555
+    },
+    {
+      "id": "000105-30a4bd25a54b",
+      "start": 7581,
+      "end": 7846
+    },
+    {
+      "id": "000105-3389fe291ed0",
+      "start": 7872,
+      "end": 8168
+    },
+    {
+      "id": "000105-ab6cebaacdd4",
+      "start": 8194,
+      "end": 8442
+    },
+    {
+      "id": "000105-e58ce42c17f7",
+      "start": 8468,
+      "end": 8730
+    },
+    {
+      "id": "000105-2908b464173a",
+      "start": 8756,
+      "end": 9005
+    },
+    {
+      "id": "000105-c60b704940ba",
+      "start": 9031,
+      "end": 9304
+    },
+    {
+      "id": "000105-0bda943c6b9a",
+      "start": 9330,
+      "end": 9593
+    },
+    {
+      "id": "000105-b035dc5ae5df",
+      "start": 9619,
+      "end": 9885
+    },
+    {
+      "id": "000105-d73832b2503d",
+      "start": 9911,
+      "end": 10173
+    },
+    {
+      "id": "000105-770a2131f766",
+      "start": 10199,
+      "end": 10465
+    },
+    {
+      "id": "000105-aa0a3534bdf2",
+      "start": 10491,
+      "end": 10753
+    },
+    {
+      "id": "000105-168aa58ef85d",
+      "start": 10779,
+      "end": 11021
+    },
+    {
+      "id": "000105-3ffa804ef483",
+      "start": 11047,
+      "end": 11302
+    },
+    {
+      "id": "000105-094bd7ab3e4d",
+      "start": 11328,
+      "end": 11584
+    },
+    {
+      "id": "000105-65b826c5fcea",
+      "start": 11610,
+      "end": 11857
+    },
+    {
+      "id": "000105-dc9b52f19171",
+      "start": 11883,
+      "end": 12161
+    },
+    {
+      "id": "000105-9bdd6aaaa0c5",
+      "start": 12187,
+      "end": 12441
+    },
+    {
+      "id": "000105-538c34470141",
+      "start": 12467,
+      "end": 12730
+    },
+    {
+      "id": "000105-715f115bb7a8",
+      "start": 12756,
+      "end": 13019
+    },
+    {
+      "id": "000105-995ad679e7d5",
+      "start": 13045,
+      "end": 13305
+    },
+    {
+      "id": "000105-b4ea924da8d3",
+      "start": 13331,
+      "end": 13597
+    },
+    {
+      "id": "000105-f158ea17b26a",
+      "start": 13623,
+      "end": 13896
+    },
+    {
+      "id": "000105-e7e61d8ee5d0",
+      "start": 13922,
+      "end": 14184
+    },
+    {
+      "id": "000105-5c57c1923b6e",
+      "start": 14210,
+      "end": 14455
+    },
+    {
+      "id": "000105-f29883012ac2",
+      "start": 14481,
+      "end": 14735
+    },
+    {
+      "id": "000105-c0031d4db58f",
+      "start": 14761,
+      "end": 15031
+    },
+    {
+      "id": "000105-60fb503f3c84",
+      "start": 15057,
+      "end": 15316
+    },
+    {
+      "id": "000105-ca84a0743c95",
+      "start": 15342,
+      "end": 15599
+    },
+    {
+      "id": "000105-e82dacfac75e",
+      "start": 15625,
+      "end": 15907
+    },
+    {
+      "id": "000105-92fb7914d0b7",
+      "start": 15933,
+      "end": 16196
+    },
+    {
+      "id": "000105-2a67e6196d37",
+      "start": 16222,
+      "end": 16498
+    },
+    {
+      "id": "000105-b3f44951c6e8",
+      "start": 16524,
+      "end": 16785
+    },
+    {
+      "id": "000105-1ead055550a5",
+      "start": 16811,
+      "end": 17101
+    },
+    {
+      "id": "000105-f40a9b884432",
+      "start": 17127,
+      "end": 17365
+    },
+    {
+      "id": "000105-501b8ec7f987",
+      "start": 17391,
+      "end": 17621
+    },
+    {
+      "id": "000105-b703adc93003",
+      "start": 17647,
+      "end": 17886
+    },
+    {
+      "id": "000105-3fe8163f0c51",
+      "start": 17912,
+      "end": 18157
+    },
+    {
+      "id": "000105-346f6e46c679",
+      "start": 18183,
+      "end": 18460
+    },
+    {
+      "id": "000105-dc5d0aa1756e",
+      "start": 18486,
+      "end": 18742
+    },
+    {
+      "id": "000105-5291309f9b8d",
+      "start": 18768,
+      "end": 19019
+    },
+    {
+      "id": "000105-03c5c03a5d76",
+      "start": 19045,
+      "end": 19313
+    },
+    {
+      "id": "000105-e8ef1ab52a65",
+      "start": 19339,
+      "end": 19610
+    },
+    {
+      "id": "000105-59de08743e23",
+      "start": 19636,
+      "end": 19887
+    },
+    {
+      "id": "000105-390bbf8975c3",
+      "start": 19913,
+      "end": 20190
+    },
+    {
+      "id": "000105-aa0cb426a0cb",
+      "start": 20216,
+      "end": 20473
+    },
+    {
+      "id": "000105-1ca8acad904d",
+      "start": 20499,
+      "end": 20758
+    },
+    {
+      "id": "000105-f52e2ec2ea06",
+      "start": 20784,
+      "end": 21047
+    },
+    {
+      "id": "000105-a723c3182e20",
+      "start": 21073,
+      "end": 21329
+    },
+    {
+      "id": "000105-690ccc263ae6",
+      "start": 21355,
+      "end": 21624
+    },
+    {
+      "id": "000105-d1fa4553d7d1",
+      "start": 21650,
+      "end": 21890
+    },
+    {
+      "id": "000105-181d229c29c5",
+      "start": 21916,
+      "end": 22171
+    },
+    {
+      "id": "000105-cbf7bd7327a1",
+      "start": 22197,
+      "end": 22470
+    },
+    {
+      "id": "000105-1aebc5a7119e",
+      "start": 22496,
+      "end": 22747
+    },
+    {
+      "id": "000105-b345819741fc",
+      "start": 22773,
+      "end": 23052
+    },
+    {
+      "id": "000105-d6e5c05346ad",
+      "start": 23078,
+      "end": 23359
+    },
+    {
+      "id": "000105-73d34d493650",
+      "start": 23385,
+      "end": 23643
+    },
+    {
+      "id": "000105-365c4f55c32c",
+      "start": 23669,
+      "end": 23971
+    },
+    {
+      "id": "000105-846d8b632664",
+      "start": 23997,
+      "end": 24263
+    },
+    {
+      "id": "000105-a8c1d94385ed",
+      "start": 24289,
+      "end": 24525
+    },
+    {
+      "id": "000105-e5aeb9713e3a",
+      "start": 24551,
+      "end": 24816
+    },
+    {
+      "id": "000105-3acadc55f748",
+      "start": 24842,
+      "end": 25116
+    },
+    {
+      "id": "000105-253f27c8f004",
+      "start": 25142,
+      "end": 25382
+    },
+    {
+      "id": "000105-b6280dfd424d",
+      "start": 25408,
+      "end": 25674
+    },
+    {
+      "id": "000105-55c7f6fb44b6",
+      "start": 25700,
+      "end": 25969
+    },
+    {
+      "id": "000105-04b5437cccc3",
+      "start": 25995,
+      "end": 26254
+    },
+    {
+      "id": "000105-92d43af095c8",
+      "start": 26280,
+      "end": 26545
+    },
+    {
+      "id": "000105-e9a2c57553b6",
+      "start": 26571,
+      "end": 26814
+    },
+    {
+      "id": "000105-9d57dc6f42d3",
+      "start": 26840,
+      "end": 27110
+    },
+    {
+      "id": "000105-b40f588ef3ca",
+      "start": 27136,
+      "end": 27409
+    },
+    {
+      "id": "000105-d3294cfb28ef",
+      "start": 27435,
+      "end": 27675
+    },
+    {
+      "id": "000105-0937fdb75429",
+      "start": 27701,
+      "end": 27961
+    },
+    {
+      "id": "000105-4daa440e7fd8",
+      "start": 27987,
+      "end": 28252
+    },
+    {
+      "id": "000105-c4ddc317d007",
+      "start": 28278,
+      "end": 28508
+    },
+    {
+      "id": "000105-1fc79cf76b42",
+      "start": 28534,
+      "end": 28810
+    },
+    {
+      "id": "000105-660af93b8a92",
+      "start": 28836,
+      "end": 29082
+    },
+    {
+      "id": "000105-dd5a61160fc9",
+      "start": 29108,
+      "end": 29376
+    },
+    {
+      "id": "000105-d8b0636e994b",
+      "start": 29402,
+      "end": 29658
+    },
+    {
+      "id": "000105-87885791afa1",
+      "start": 29684,
+      "end": 29934
+    },
+    {
+      "id": "000105-00ebcf227b59",
+      "start": 29960,
+      "end": 30205
+    },
+    {
+      "id": "000105-4d14f2204caa",
+      "start": 30231,
+      "end": 30504
+    },
+    {
+      "id": "000105-cf934cef2543",
+      "start": 30530,
+      "end": 30785
+    },
+    {
+      "id": "000105-e50866e27adf",
+      "start": 30811,
+      "end": 31069
+    },
+    {
+      "id": "000105-d865699969f2",
+      "start": 31095,
+      "end": 31350
+    },
+    {
+      "id": "000105-f91437f3bbe8",
+      "start": 31376,
+      "end": 31630
+    },
+    {
+      "id": "000105-924c53443750",
+      "start": 31656,
+      "end": 31909
+    },
+    {
+      "id": "000105-bb137e31d803",
+      "start": 31935,
+      "end": 32192
+    },
+    {
+      "id": "000105-8a4002735b98",
+      "start": 32218,
+      "end": 32464
+    },
+    {
+      "id": "000105-3b3de1be8687",
+      "start": 32490,
+      "end": 32746
+    },
+    {
+      "id": "000105-b31587313b30",
+      "start": 32772,
+      "end": 33020
+    },
+    {
+      "id": "000105-72ec69de47f8",
+      "start": 33046,
+      "end": 33301
+    },
+    {
+      "id": "000105-38034f1a18d2",
+      "start": 33327,
+      "end": 33584
+    },
+    {
+      "id": "000105-ca8cdb9e6424",
+      "start": 33610,
+      "end": 33859
+    },
+    {
+      "id": "000105-bad889fea276",
+      "start": 33885,
+      "end": 34133
+    },
+    {
+      "id": "000105-ae9cb87d3466",
+      "start": 34159,
+      "end": 34433
+    },
+    {
+      "id": "000105-46ae0d6bb4c9",
+      "start": 34459,
+      "end": 34741
+    },
+    {
+      "id": "000105-bcf9cccd093a",
+      "start": 34767,
+      "end": 35035
+    },
+    {
+      "id": "000105-4b8a0c41f252",
+      "start": 35061,
+      "end": 35324
+    },
+    {
+      "id": "000105-5726f87bf067",
+      "start": 35350,
+      "end": 35610
+    },
+    {
+      "id": "000105-20752e8a8cab",
+      "start": 35636,
+      "end": 35894
+    },
+    {
+      "id": "000105-3d393d3f16fd",
+      "start": 35920,
+      "end": 36173
+    },
+    {
+      "id": "000105-919bd10fe816",
+      "start": 36199,
+      "end": 36466
+    },
+    {
+      "id": "000105-f37fabbbb8b7",
+      "start": 36492,
+      "end": 36757
+    },
+    {
+      "id": "000105-50025740093f",
+      "start": 36783,
+      "end": 37051
+    },
+    {
+      "id": "000105-d324249b103d",
+      "start": 37077,
+      "end": 37335
+    },
+    {
+      "id": "000105-b73a1a3bc523",
+      "start": 37361,
+      "end": 37636
+    },
+    {
+      "id": "000105-04113124b6f0",
+      "start": 37662,
+      "end": 37919
+    },
+    {
+      "id": "000105-6c0bff4cce45",
+      "start": 37945,
+      "end": 38195
+    },
+    {
+      "id": "000105-d6784bb03cb7",
+      "start": 38221,
+      "end": 38494
+    },
+    {
+      "id": "000105-147b1c2effe6",
+      "start": 38520,
+      "end": 38778
+    },
+    {
+      "id": "000105-c7adecf4fb8b",
+      "start": 38804,
+      "end": 39051
+    },
+    {
+      "id": "000105-c23c2a4d21ff",
+      "start": 39077,
+      "end": 39339
+    },
+    {
+      "id": "000105-1c398428f42d",
+      "start": 39365,
+      "end": 39639
+    },
+    {
+      "id": "000105-fbcd8cd22f8b",
+      "start": 39665,
+      "end": 39929
+    },
+    {
+      "id": "000105-437825cf45c1",
+      "start": 39955,
+      "end": 40207
+    },
+    {
+      "id": "000105-fa1e3bec0fb7",
+      "start": 40233,
+      "end": 40497
+    },
+    {
+      "id": "000105-92f7b7dafdf4",
+      "start": 40523,
+      "end": 40779
+    },
+    {
+      "id": "000105-de5b9d2adefa",
+      "start": 40805,
+      "end": 41115
+    },
+    {
+      "id": "000105-6df91e03233c",
+      "start": 41141,
+      "end": 41420
+    },
+    {
+      "id": "000105-f345caffea23",
+      "start": 41446,
+      "end": 41710
+    },
+    {
+      "id": "000105-75ad2139ae81",
+      "start": 41736,
+      "end": 41972
+    },
+    {
+      "id": "000105-6b78b4cb0681",
+      "start": 41998,
+      "end": 42264
+    },
+    {
+      "id": "000105-17427afc99d4",
+      "start": 42290,
+      "end": 42568
+    },
+    {
+      "id": "000105-b77caf9b1f5c",
+      "start": 42594,
+      "end": 42867
+    },
+    {
+      "id": "000105-835db7c4a417",
+      "start": 42893,
+      "end": 43144
+    },
+    {
+      "id": "000105-e52385f3f5a7",
+      "start": 43170,
+      "end": 43415
+    },
+    {
+      "id": "000105-b01ebc27f1fa",
+      "start": 43441,
+      "end": 43710
+    },
+    {
+      "id": "000105-1b95bd4c827e",
+      "start": 43736,
+      "end": 44008
+    },
+    {
+      "id": "000105-842f55a8b959",
+      "start": 44034,
+      "end": 44280
+    },
+    {
+      "id": "000105-130019bde89a",
+      "start": 44306,
+      "end": 44558
+    },
+    {
+      "id": "000105-6078812f139b",
+      "start": 44584,
+      "end": 44835
+    },
+    {
+      "id": "000105-daabcd914ba2",
+      "start": 44861,
+      "end": 45128
+    },
+    {
+      "id": "000105-54dc160c7360",
+      "start": 45154,
+      "end": 45416
+    },
+    {
+      "id": "000105-09ccfd05b7cd",
+      "start": 45442,
+      "end": 45698
+    },
+    {
+      "id": "000105-9485d930eca3",
+      "start": 45724,
+      "end": 45992
+    },
+    {
+      "id": "000105-12a27e50dddb",
+      "start": 46018,
+      "end": 46270
+    },
+    {
+      "id": "000105-f388fdc4ef09",
+      "start": 46296,
+      "end": 46559
+    },
+    {
+      "id": "000105-f1e25fa5495b",
+      "start": 46585,
+      "end": 46841
+    },
+    {
+      "id": "000105-948504db95e8",
+      "start": 46867,
+      "end": 47128
+    },
+    {
+      "id": "000105-da81b799699d",
+      "start": 47154,
+      "end": 47431
+    },
+    {
+      "id": "000105-fd0850d3b7a1",
+      "start": 47457,
+      "end": 47736
+    },
+    {
+      "id": "000105-37606f2fc44a",
+      "start": 47762,
+      "end": 48029
+    },
+    {
+      "id": "000105-793c94de01e4",
+      "start": 48055,
+      "end": 48314
+    },
+    {
+      "id": "000105-5ded73f9d371",
+      "start": 48340,
+      "end": 48606
+    },
+    {
+      "id": "000105-5e1b8e10c38a",
+      "start": 48632,
+      "end": 48886
+    },
+    {
+      "id": "000105-6d0468276b70",
+      "start": 48912,
+      "end": 49185
+    },
+    {
+      "id": "000105-eb11eebde551",
+      "start": 49211,
+      "end": 49461
+    },
+    {
+      "id": "000105-208b9eb8c80a",
+      "start": 49487,
+      "end": 49781
+    },
+    {
+      "id": "000105-d33a5923e9af",
+      "start": 49807,
+      "end": 50087
+    },
+    {
+      "id": "000105-5850b5480497",
+      "start": 50113,
+      "end": 50380
+    },
+    {
+      "id": "000105-b39d9c9b67de",
+      "start": 50406,
+      "end": 50644
+    },
+    {
+      "id": "000105-9d88b4c08d30",
+      "start": 50670,
+      "end": 50934
+    },
+    {
+      "id": "000105-ae497005b548",
+      "start": 50960,
+      "end": 51238
+    },
+    {
+      "id": "000105-1bbbfd9d5529",
+      "start": 51264,
+      "end": 51523
+    },
+    {
+      "id": "000105-055ead3dab77",
+      "start": 51549,
+      "end": 51810
+    },
+    {
+      "id": "000105-1aefe89829fd",
+      "start": 51836,
+      "end": 52107
+    },
+    {
+      "id": "000105-323da9fe1570",
+      "start": 52133,
+      "end": 52399
+    },
+    {
+      "id": "000105-00d2f0b078fe",
+      "start": 52425,
+      "end": 52679
+    },
+    {
+      "id": "000105-5cb8203ac555",
+      "start": 52705,
+      "end": 52983
+    },
+    {
+      "id": "000105-8bca1eee722d",
+      "start": 53009,
+      "end": 53266
+    },
+    {
+      "id": "000105-1e6f08ccc299",
+      "start": 53292,
+      "end": 53569
+    },
+    {
+      "id": "000105-48bff8ffa487",
+      "start": 53595,
+      "end": 53850
+    },
+    {
+      "id": "000105-8bcc4f1b2036",
+      "start": 53876,
+      "end": 54136
+    },
+    {
+      "id": "000105-7bdd465a0e4a",
+      "start": 54162,
+      "end": 54406
+    },
+    {
+      "id": "000105-0b8ff9b87409",
+      "start": 54432,
+      "end": 54708
+    },
+    {
+      "id": "000105-846ed49b11be",
+      "start": 54734,
+      "end": 54992
+    },
+    {
+      "id": "000105-7b95f0215fe7",
+      "start": 55018,
+      "end": 55255
+    },
+    {
+      "id": "000105-2eefedcd076e",
+      "start": 55281,
+      "end": 55588
+    },
+    {
+      "id": "000105-5bd1b949c3bf",
+      "start": 55614,
+      "end": 55885
+    },
+    {
+      "id": "000105-40361294368a",
+      "start": 55911,
+      "end": 56205
+    },
+    {
+      "id": "000105-48206be85a89",
+      "start": 56231,
+      "end": 56503
+    },
+    {
+      "id": "000105-91011eeeb668",
+      "start": 56529,
+      "end": 56821
+    },
+    {
+      "id": "000105-79ec2a1213d4",
+      "start": 56847,
+      "end": 57100
+    },
+    {
+      "id": "000105-77a5cb96ca7c",
+      "start": 57126,
+      "end": 57415
+    },
+    {
+      "id": "000105-746ae6eac6a0",
+      "start": 57441,
+      "end": 57704
+    },
+    {
+      "id": "000105-91b8122206b4",
+      "start": 57730,
+      "end": 58002
+    },
+    {
+      "id": "000105-33179dfedbbd",
+      "start": 58028,
+      "end": 58304
+    },
+    {
+      "id": "000105-d7b6abb07693",
+      "start": 58330,
+      "end": 58577
+    },
+    {
+      "id": "000105-3103c4f4e6fb",
+      "start": 58603,
+      "end": 58892
+    },
+    {
+      "id": "000105-dcc4131a3f84",
+      "start": 58918,
+      "end": 59190
+    },
+    {
+      "id": "000105-2f33ddd2bf66",
+      "start": 59216,
+      "end": 59483
+    },
+    {
+      "id": "000105-37b126d222a4",
+      "start": 59509,
+      "end": 59790
+    },
+    {
+      "id": "000105-2c27b87db4f7",
+      "start": 59816,
+      "end": 60088
+    },
+    {
+      "id": "000105-8f44c88ba011",
+      "start": 60114,
+      "end": 60393
+    },
+    {
+      "id": "000105-8a13141c38ef",
+      "start": 60419,
+      "end": 60670
+    },
+    {
+      "id": "000105-12063384769b",
+      "start": 60696,
+      "end": 60973
+    },
+    {
+      "id": "000105-87a4ba8d50a8",
+      "start": 60999,
+      "end": 61262
+    },
+    {
+      "id": "000105-887d8fbe555a",
+      "start": 61288,
+      "end": 61558
+    },
+    {
+      "id": "000105-ae454cdaa143",
+      "start": 61584,
+      "end": 61826
+    },
+    {
+      "id": "000105-cf8617195bda",
+      "start": 61852,
+      "end": 62139
+    },
+    {
+      "id": "000105-bbf3f1171e89",
+      "start": 62165,
+      "end": 62442
+    },
+    {
+      "id": "000105-e21f32412233",
+      "start": 62468,
+      "end": 62746
+    },
+    {
+      "id": "000105-fd27836d5b37",
+      "start": 62772,
+      "end": 63008
+    },
+    {
+      "id": "000105-6cf81d077982",
+      "start": 63034,
+      "end": 63305
+    },
+    {
+      "id": "000105-2f876d4496ff",
+      "start": 63331,
+      "end": 63580
+    },
+    {
+      "id": "000105-6db9a4602100",
+      "start": 63606,
+      "end": 63862
+    },
+    {
+      "id": "000105-30927897c942",
+      "start": 63888,
+      "end": 64146
+    },
+    {
+      "id": "000105-e490170961a2",
+      "start": 64172,
+      "end": 64457
+    },
+    {
+      "id": "000105-25c33fd584c5",
+      "start": 64483,
+      "end": 64749
+    },
+    {
+      "id": "000105-e8d32e422149",
+      "start": 64775,
+      "end": 65062
+    },
+    {
+      "id": "000105-920d2abeb889",
+      "start": 65088,
+      "end": 65354
+    },
+    {
+      "id": "000105-aecd0e16441f",
+      "start": 65380,
+      "end": 65625
+    },
+    {
+      "id": "000105-b8a40efd10f1",
+      "start": 65651,
+      "end": 65921
+    },
+    {
+      "id": "000105-0662d33f556f",
+      "start": 65947,
+      "end": 66235
+    },
+    {
+      "id": "000105-fbce8e44d5a9",
+      "start": 66261,
+      "end": 66558
+    },
+    {
+      "id": "000105-70fc3ee43f3a",
+      "start": 66584,
+      "end": 66862
+    },
+    {
+      "id": "000105-55c5048e2fab",
+      "start": 66888,
+      "end": 67148
+    },
+    {
+      "id": "000105-5d2161466b14",
+      "start": 67174,
+      "end": 67422
+    },
+    {
+      "id": "000105-f569a8e7c3b7",
+      "start": 67448,
+      "end": 67714
+    },
+    {
+      "id": "000105-db57af0a44c1",
+      "start": 67740,
+      "end": 68020
+    },
+    {
+      "id": "000105-d7b1e30a2d91",
+      "start": 68046,
+      "end": 68302
+    },
+    {
+      "id": "000105-6fe91a7552a5",
+      "start": 68328,
+      "end": 68622
+    },
+    {
+      "id": "000105-cb8c1e1be281",
+      "start": 68648,
+      "end": 68937
+    },
+    {
+      "id": "000105-86ee0ddf38f9",
+      "start": 68963,
+      "end": 69241
+    },
+    {
+      "id": "000105-0b2b71ace95d",
+      "start": 69267,
+      "end": 69519
+    },
+    {
+      "id": "000105-ec847a161e9d",
+      "start": 69545,
+      "end": 69786
+    },
+    {
+      "id": "000105-32e84d871567",
+      "start": 69812,
+      "end": 70076
+    },
+    {
+      "id": "000105-80e3770c8154",
+      "start": 70102,
+      "end": 70353
+    },
+    {
+      "id": "000105-6c1a7c53c024",
+      "start": 70379,
+      "end": 70648
+    },
+    {
+      "id": "000105-8c121fb6ce45",
+      "start": 70674,
+      "end": 70974
     }
   ],
   "labels": [
@@ -119,7 +1219,7 @@
       "check": "narrative-craft/narrative-cliches",
       "expected": true,
       "snippets": [
-        "My heart hammered against my ribs."
+        "With my heart hammering against my ribs"
       ]
     },
     {
@@ -136,8 +1236,8 @@
       "check": "narrative-craft/narrative-cliches",
       "expected": true,
       "snippets": [
-        "his voice laced with hurt",
-        "his voice thick with emotion"
+        "Hurt laced Daniel's voice.",
+        "Daniel's voice was thick with emotion."
       ]
     },
     {
@@ -145,7 +1245,7 @@
       "check": "narrative-craft/narrative-cliches",
       "expected": true,
       "snippets": [
-        "The air was thick with tension, and an uneasy silence hung over the room."
+        "an uneasy silence hung over the room"
       ]
     },
     {
@@ -153,7 +1253,7 @@
       "check": "narrative-craft/narrative-cliches",
       "expected": true,
       "snippets": [
-        "As the sun dipped below the horizon, long shadows stretched across the sleepy village."
+        "With the sun sinking toward the horizon, long shadows stretched across the sleepy village."
       ]
     },
     {
@@ -161,7 +1261,7 @@
       "check": "narrative-craft/narrative-cliches",
       "expected": true,
       "snippets": [
-        "Days melted into weeks, and weeks slipped into months.",
+        "days blurred into weeks and weeks into months",
         "watching the calendar pages turn"
       ]
     },
@@ -187,8 +1287,8 @@
       "check": "narrative-craft/narrative-cliches",
       "expected": true,
       "snippets": [
-        "After what felt like an eternity",
-        "Time seemed to slow as he opened the document."
+        "She seemed to take an eternity to return",
+        "time slowed to a crawl"
       ]
     },
     {
@@ -247,6 +1347,1436 @@
     },
     {
       "id": "000105-78e2f7d2017c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f81f01ca68ee",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart leapt into my throat"
+      ]
+    },
+    {
+      "id": "000105-30a4bd25a54b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-3389fe291ed0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A shiver of dread traveled down my spine."
+      ]
+    },
+    {
+      "id": "000105-ab6cebaacdd4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-e58ce42c17f7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I let out a breath I hadn't known I'd been holding"
+      ]
+    },
+    {
+      "id": "000105-2908b464173a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-c60b704940ba",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice dripping with bitterness"
+      ]
+    },
+    {
+      "id": "000105-0bda943c6b9a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b035dc5ae5df",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Tension crackled in the air."
+      ]
+    },
+    {
+      "id": "000105-d73832b2503d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-770a2131f766",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The sun dipped low, painting the sky in shades of gold and crimson."
+      ]
+    },
+    {
+      "id": "000105-aa0a3534bdf2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-168aa58ef85d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Days melted into weeks"
+      ]
+    },
+    {
+      "id": "000105-3ffa804ef483",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-094bd7ab3e4d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Neither of us knew that this small discovery would set everything in motion."
+      ]
+    },
+    {
+      "id": "000105-65b826c5fcea",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-dc9b52f19171",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Perhaps, just perhaps, our little magazine had found its moment."
+      ]
+    },
+    {
+      "id": "000105-9bdd6aaaa0c5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-538c34470141",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "For what felt like an eternity"
+      ]
+    },
+    {
+      "id": "000105-715f115bb7a8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-995ad679e7d5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "something dark flickered behind Bea's eyes"
+      ]
+    },
+    {
+      "id": "000105-b4ea924da8d3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f158ea17b26a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My pulse thundered in my ears."
+      ]
+    },
+    {
+      "id": "000105-e7e61d8ee5d0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-5c57c1923b6e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "An icy finger traced its way down my back."
+      ]
+    },
+    {
+      "id": "000105-f29883012ac2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-c0031d4db58f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "his voice heavy with unspoken sorrow"
+      ]
+    },
+    {
+      "id": "000105-60fb503f3c84",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-ca84a0743c95",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A charged silence settled over our corner."
+      ]
+    },
+    {
+      "id": "000105-e82dacfac75e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-92fb7914d0b7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Evening spread its golden fingers across the fields."
+      ]
+    },
+    {
+      "id": "000105-2a67e6196d37",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b3f44951c6e8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Weeks slipped into months"
+      ]
+    },
+    {
+      "id": "000105-1ead055550a5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f40a9b884432",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "It was a choice I would one day come to regret."
+      ]
+    },
+    {
+      "id": "000105-501b8ec7f987",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b703adc93003",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Maybe, just maybe, my luck was finally turning."
+      ]
+    },
+    {
+      "id": "000105-3fe8163f0c51",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-346f6e46c679",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Everything happened in slow motion."
+      ]
+    },
+    {
+      "id": "000105-dc5d0aa1756e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-5291309f9b8d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Her eyes gave nothing away."
+      ]
+    },
+    {
+      "id": "000105-03c5c03a5d76",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-e8ef1ab52a65",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart did a little dance in my chest."
+      ]
+    },
+    {
+      "id": "000105-59de08743e23",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-390bbf8975c3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A cold shiver rippled through me"
+      ]
+    },
+    {
+      "id": "000105-aa0cb426a0cb",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-1ca8acad904d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "my daughter caught her breath"
+      ]
+    },
+    {
+      "id": "000105-f52e2ec2ea06",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-a723c3182e20",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "his voice a velvet caress"
+      ]
+    },
+    {
+      "id": "000105-690ccc263ae6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-d1fa4553d7d1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "the air was heavy with secrets"
+      ]
+    },
+    {
+      "id": "000105-181d229c29c5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-cbf7bd7327a1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Long shadows crept across the quiet streets as the day surrendered to night."
+      ]
+    },
+    {
+      "id": "000105-1aebc5a7119e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b345819741fc",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The seasons came and went, each carrying the same unfinished promise."
+      ]
+    },
+    {
+      "id": "000105-d6e5c05346ad",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-73d34d493650",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "That ordinary Tuesday was about to become anything but ordinary."
+      ]
+    },
+    {
+      "id": "000105-365c4f55c32c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-846d8b632664",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A tiny ember of hope began to glow within me."
+      ]
+    },
+    {
+      "id": "000105-a8c1d94385ed",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-e5aeb9713e3a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Each second stretched into an eternity."
+      ]
+    },
+    {
+      "id": "000105-3acadc55f748",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-253f27c8f004",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A shadow of sadness crossed his features."
+      ]
+    },
+    {
+      "id": "000105-b6280dfd424d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-55c7f6fb44b6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart skipped a beat."
+      ]
+    },
+    {
+      "id": "000105-04b5437cccc3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-92d43af095c8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Goosebumps of foreboding rose along my arms."
+      ]
+    },
+    {
+      "id": "000105-e9a2c57553b6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-9d57dc6f42d3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The whole room seemed to hold its breath."
+      ]
+    },
+    {
+      "id": "000105-b40f588ef3ca",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-d3294cfb28ef",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice tinged with regret"
+      ]
+    },
+    {
+      "id": "000105-0937fdb75429",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-4daa440e7fd8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The tension was so thick you could cut it with a knife."
+      ]
+    },
+    {
+      "id": "000105-c4ddc317d007",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-1fc79cf76b42",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The sun kissed the rooftops goodbye, bathing the village in amber light."
+      ]
+    },
+    {
+      "id": "000105-660af93b8a92",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-dd5a61160fc9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "days had turned into weeks and weeks into years"
+      ]
+    },
+    {
+      "id": "000105-d8b0636e994b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-87885791afa1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "If only she had known what lay ahead."
+      ]
+    },
+    {
+      "id": "000105-00ebcf227b59",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-4d14f2204caa",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "the future seemed bright with possibility"
+      ]
+    },
+    {
+      "id": "000105-cf934cef2543",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-e50866e27adf",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time stood still."
+      ]
+    },
+    {
+      "id": "000105-d865699969f2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f91437f3bbe8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Her expression was an unreadable mask."
+      ]
+    },
+    {
+      "id": "000105-924c53443750",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-bb137e31d803",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart sank like a stone."
+      ]
+    },
+    {
+      "id": "000105-8a4002735b98",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-3b3de1be8687",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A chill of recognition crept up my spine."
+      ]
+    },
+    {
+      "id": "000105-b31587313b30",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-72ec69de47f8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I released the breath trapped in my lungs."
+      ]
+    },
+    {
+      "id": "000105-38034f1a18d2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-ca8cdb9e6424",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "warmth flooding his voice"
+      ]
+    },
+    {
+      "id": "000105-bad889fea276",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-ae9cb87d3466",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The waiting room buzzed with nervous anticipation."
+      ]
+    },
+    {
+      "id": "000105-46ae0d6bb4c9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-bcf9cccd093a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "As daylight faded, the world was wrapped in a peaceful hush."
+      ]
+    },
+    {
+      "id": "000105-4b8a0c41f252",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-5726f87bf067",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "One week bled into the next in an endless procession."
+      ]
+    },
+    {
+      "id": "000105-20752e8a8cab",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-3d393d3f16fd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "It would be the last peaceful morning I would know for a long time."
+      ]
+    },
+    {
+      "id": "000105-919bd10fe816",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f37fabbbb8b7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Against all odds, a door had opened."
+      ]
+    },
+    {
+      "id": "000105-50025740093f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-d324249b103d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "For a heartbeat, the world stopped turning."
+      ]
+    },
+    {
+      "id": "000105-b73a1a3bc523",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-04113124b6f0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Surprise flashed across her face, quickly replaced by something I couldn't name."
+      ]
+    },
+    {
+      "id": "000105-6c0bff4cce45",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-d6784bb03cb7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My chest swelled with pride."
+      ]
+    },
+    {
+      "id": "000105-147b1c2effe6",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-c7adecf4fb8b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The hairs on my neck stood on end."
+      ]
+    },
+    {
+      "id": "000105-c23c2a4d21ff",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-1c398428f42d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I exhaled a breath I hadn't realized I'd been holding."
+      ]
+    },
+    {
+      "id": "000105-fbcd8cd22f8b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-437825cf45c1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "ice coating every word"
+      ]
+    },
+    {
+      "id": "000105-fa1e3bec0fb7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-92f7b7dafdf4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "An awkward silence stretched between us."
+      ]
+    },
+    {
+      "id": "000105-de5b9d2adefa",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-6df91e03233c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Shadows lengthened as the sun made its slow descent."
+      ]
+    },
+    {
+      "id": "000105-f345caffea23",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-75ad2139ae81",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time marched relentlessly on."
+      ]
+    },
+    {
+      "id": "000105-6b78b4cb0681",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-17427afc99d4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "He couldn't have imagined the chain of events he had just begun."
+      ]
+    },
+    {
+      "id": "000105-b77caf9b1f5c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-835db7c4a417",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Maybe, just maybe, I had found where I belonged."
+      ]
+    },
+    {
+      "id": "000105-e52385f3f5a7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b01ebc27f1fa",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The moment seemed to last forever."
+      ]
+    },
+    {
+      "id": "000105-1b95bd4c827e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-842f55a8b959",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A flicker of admiration danced in her eyes."
+      ]
+    },
+    {
+      "id": "000105-130019bde89a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-6078812f139b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A familiar ache settled in my chest."
+      ]
+    },
+    {
+      "id": "000105-daabcd914ba2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-54dc160c7360",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A frisson of unease snaked along my backbone."
+      ]
+    },
+    {
+      "id": "000105-09ccfd05b7cd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-9485d930eca3",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My breath hitched in my throat."
+      ]
+    },
+    {
+      "id": "000105-12a27e50dddb",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f388fdc4ef09",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "wonder threading his voice"
+      ]
+    },
+    {
+      "id": "000105-f1e25fa5495b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-948504db95e8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A palpable sense of relief washed over the room."
+      ]
+    },
+    {
+      "id": "000105-da81b799699d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-fd0850d3b7a1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The dying sun cast a final golden glow over the world."
+      ]
+    },
+    {
+      "id": "000105-37606f2fc44a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-793c94de01e4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Days rolled by like leaves on the wind."
+      ]
+    },
+    {
+      "id": "000105-5ded73f9d371",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-5e1b8e10c38a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I was blissfully unaware that my life was about to take an unexpected turn."
+      ]
+    },
+    {
+      "id": "000105-6d0468276b70",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-eb11eebde551",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "At last, a ray of hope pierced the darkness."
+      ]
+    },
+    {
+      "id": "000105-208b9eb8c80a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-d33a5923e9af",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The seconds crawled by with agonizing slowness."
+      ]
+    },
+    {
+      "id": "000105-5850b5480497",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b39d9c9b67de",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A storm of emotions passed over her face."
+      ]
+    },
+    {
+      "id": "000105-9d88b4c08d30",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-ae497005b548",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart soared."
+      ]
+    },
+    {
+      "id": "000105-1bbbfd9d5529",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-055ead3dab77",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Cold dread coiled at the base of my spine."
+      ]
+    },
+    {
+      "id": "000105-1aefe89829fd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-323da9fe1570",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I drew a sharp breath"
+      ]
+    },
+    {
+      "id": "000105-00d2f0b078fe",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-5cb8203ac555",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "compassion lacing her words"
+      ]
+    },
+    {
+      "id": "000105-8bca1eee722d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-1e6f08ccc299",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Uncertainty hung in the air like a gathering storm."
+      ]
+    },
+    {
+      "id": "000105-48bff8ffa487",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-8bcc4f1b2036",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The sun sank beneath the horizon, taking the day's troubles with it."
+      ]
+    },
+    {
+      "id": "000105-7bdd465a0e4a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-0b8ff9b87409",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The weeks blurred together in a haze of flour and determination."
+      ]
+    },
+    {
+      "id": "000105-846ed49b11be",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-7b95f0215fe7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Fate, however, had other plans."
+      ]
+    },
+    {
+      "id": "000105-2eefedcd076e",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-5bd1b949c3bf",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Could this be the break I had been waiting for? Only time would tell."
+      ]
+    },
+    {
+      "id": "000105-40361294368a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-48206be85a89",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The world narrowed to that tiny glowing screen."
+      ]
+    },
+    {
+      "id": "000105-91011eeeb668",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-79ec2a1213d4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Hope flickered across his face."
+      ]
+    },
+    {
+      "id": "000105-77a5cb96ca7c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-746ae6eac6a0",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart pounded like a drum."
+      ]
+    },
+    {
+      "id": "000105-91b8122206b4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-33179dfedbbd",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "An icy chill raced through my veins."
+      ]
+    },
+    {
+      "id": "000105-d7b6abb07693",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-3103c4f4e6fb",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "We listened with bated breath."
+      ]
+    },
+    {
+      "id": "000105-dcc4131a3f84",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-2f33ddd2bf66",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "his voice breaking with gratitude"
+      ]
+    },
+    {
+      "id": "000105-37b126d222a4",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-2c27b87db4f7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The room was electric with anticipation."
+      ]
+    },
+    {
+      "id": "000105-8f44c88ba011",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-8a13141c38ef",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Twilight draped its soft veil over the town."
+      ]
+    },
+    {
+      "id": "000105-12063384769b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-87a4ba8d50a8",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The months passed in the blink of an eye."
+      ]
+    },
+    {
+      "id": "000105-887d8fbe555a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-ae454cdaa143",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "It was a small act with consequences beyond anything I could imagine."
+      ]
+    },
+    {
+      "id": "000105-cf8617195bda",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-bbf3f1171e89",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Against the gathering darkness, hope dared to raise its head."
+      ]
+    },
+    {
+      "id": "000105-e21f32412233",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-fd27836d5b37",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time seemed to grind to a halt."
+      ]
+    },
+    {
+      "id": "000105-6cf81d077982",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-2f876d4496ff",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "His eyes held a sadness I couldn't begin to fathom."
+      ]
+    },
+    {
+      "id": "000105-6db9a4602100",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-30927897c942",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart hammered a frantic tattoo against my ribs."
+      ]
+    },
+    {
+      "id": "000105-e490170961a2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-25c33fd584c5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A thousand icy needles danced down my spine."
+      ]
+    },
+    {
+      "id": "000105-e8d32e422149",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-920d2abeb889",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I finally remembered how to breathe."
+      ]
+    },
+    {
+      "id": "000105-aecd0e16441f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-b8a40efd10f1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "his voice thick with a thousand memories"
+      ]
+    },
+    {
+      "id": "000105-0662d33f556f",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-fbce8e44d5a9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "An oppressive stillness descended upon us."
+      ]
+    },
+    {
+      "id": "000105-70fc3ee43f3a",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-55c5048e2fab",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The setting sun turned the water into a ribbon of molten gold."
+      ]
+    },
+    {
+      "id": "000105-5d2161466b14",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-f569a8e7c3b7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Days faded into weeks, and still my dream remained just out of reach."
+      ]
+    },
+    {
+      "id": "000105-db57af0a44c1",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-d7b1e30a2d91",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "She had no inkling that its final message would unravel everything she believed."
+      ]
+    },
+    {
+      "id": "000105-6fe91a7552a5",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-cb8c1e1be281",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Maybe, just maybe, something wonderful was taking root."
+      ]
+    },
+    {
+      "id": "000105-86ee0ddf38f9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-0b2b71ace95d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "The next few seconds unfolded in agonizing slow motion."
+      ]
+    },
+    {
+      "id": "000105-ec847a161e9d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-32e84d871567",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "An unreadable emotion flashed across her face."
+      ]
+    },
+    {
+      "id": "000105-80e3770c8154",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000105-6c1a7c53c024",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Relief flooded through me, and my heart finally resumed its normal rhythm."
+      ]
+    },
+    {
+      "id": "000105-8c121fb6ce45",
       "check": "narrative-craft/narrative-cliches",
       "expected": false
     }

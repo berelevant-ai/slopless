@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "5b49c688322d5afedc77c306eb132c3962ab167e476935f6b250127c463043ad",
+  "textSha256": "45b3a61c0acd5ab9f29c50be37da9f112150256ec08b8faecae123c626dd6a97",
   "source": {
     "name": "Codex-authored mixed-narrative-craft-c-development",
     "originalPath": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
-    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
-    "model": "Codex agent (inherited session model)",
+    "commit": "b7994892db2c4ba997c6508115b7189038896270",
+    "model": "gpt-6.1-sol",
     "prompt": null,
-    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Narrative Craft candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -15,82 +15,1202 @@
     {
       "id": "000119-95504e84d9e0",
       "start": 63,
-      "end": 416
+      "end": 417
     },
     {
       "id": "000119-5fd0f4960f88",
-      "start": 442,
-      "end": 828
+      "start": 443,
+      "end": 829
     },
     {
       "id": "000119-f47b5e0a3dca",
-      "start": 854,
-      "end": 1204
+      "start": 855,
+      "end": 1205
     },
     {
       "id": "000119-a78b4652547f",
-      "start": 1230,
-      "end": 1618
+      "start": 1231,
+      "end": 1606
     },
     {
       "id": "000119-2e39d448a956",
-      "start": 1644,
-      "end": 2008
+      "start": 1632,
+      "end": 1983
     },
     {
       "id": "000119-a463a2a5e62f",
-      "start": 2034,
-      "end": 2386
+      "start": 2009,
+      "end": 2361
     },
     {
       "id": "000119-b7e5b2f91876",
-      "start": 2412,
-      "end": 2792
+      "start": 2387,
+      "end": 2737
     },
     {
       "id": "000119-96c0025a431c",
-      "start": 2818,
-      "end": 3172
+      "start": 2763,
+      "end": 3063
     },
     {
       "id": "000119-0e0cc4cd9019",
-      "start": 3198,
-      "end": 3589
+      "start": 3089,
+      "end": 3480
     },
     {
       "id": "000119-0c36c82a627c",
-      "start": 3615,
-      "end": 3997
+      "start": 3506,
+      "end": 3881
     },
     {
       "id": "000119-a9cf14308279",
-      "start": 4023,
-      "end": 4449
+      "start": 3907,
+      "end": 4279
     },
     {
       "id": "000119-860685f6f0bd",
-      "start": 4475,
-      "end": 4857
+      "start": 4305,
+      "end": 4665
     },
     {
       "id": "000119-ccfc18447830",
-      "start": 4883,
-      "end": 5266
+      "start": 4691,
+      "end": 5074
     },
     {
       "id": "000119-71774d730410",
-      "start": 5292,
-      "end": 5667
+      "start": 5100,
+      "end": 5475
     },
     {
       "id": "000119-cbbd16e3a0a8",
-      "start": 5693,
-      "end": 6092
+      "start": 5501,
+      "end": 5924
     },
     {
       "id": "000119-545d1d7a5ae0",
-      "start": 6118,
-      "end": 6509
+      "start": 5950,
+      "end": 6311
+    },
+    {
+      "id": "000119-961d9a777022",
+      "start": 6337,
+      "end": 6632
+    },
+    {
+      "id": "000119-0caf9bf0905c",
+      "start": 6658,
+      "end": 6973
+    },
+    {
+      "id": "000119-ce2e96a95708",
+      "start": 6999,
+      "end": 7283
+    },
+    {
+      "id": "000119-c90d6fd63481",
+      "start": 7309,
+      "end": 7607
+    },
+    {
+      "id": "000119-a9d6bf5ffe2d",
+      "start": 7633,
+      "end": 7922
+    },
+    {
+      "id": "000119-ede6301701a7",
+      "start": 7948,
+      "end": 8236
+    },
+    {
+      "id": "000119-2e1553fa1507",
+      "start": 8262,
+      "end": 8585
+    },
+    {
+      "id": "000119-51a85740e352",
+      "start": 8611,
+      "end": 8910
+    },
+    {
+      "id": "000119-47a31e6c51ab",
+      "start": 8936,
+      "end": 9227
+    },
+    {
+      "id": "000119-bbd48493d107",
+      "start": 9253,
+      "end": 9554
+    },
+    {
+      "id": "000119-3b956259c35e",
+      "start": 9580,
+      "end": 9894
+    },
+    {
+      "id": "000119-03e5c303e93f",
+      "start": 9920,
+      "end": 10208
+    },
+    {
+      "id": "000119-ab7bcd5944f4",
+      "start": 10234,
+      "end": 10548
+    },
+    {
+      "id": "000119-6a381762c233",
+      "start": 10574,
+      "end": 10883
+    },
+    {
+      "id": "000119-42d7ad4809d0",
+      "start": 10909,
+      "end": 11214
+    },
+    {
+      "id": "000119-3f7abaac2101",
+      "start": 11240,
+      "end": 11534
+    },
+    {
+      "id": "000119-1363b2654cfa",
+      "start": 11560,
+      "end": 11839
+    },
+    {
+      "id": "000119-f80f553a6846",
+      "start": 11865,
+      "end": 12191
+    },
+    {
+      "id": "000119-e909ec117e2d",
+      "start": 12217,
+      "end": 12497
+    },
+    {
+      "id": "000119-805f8310a1ad",
+      "start": 12523,
+      "end": 12844
+    },
+    {
+      "id": "000119-3d8b6f600f9b",
+      "start": 12870,
+      "end": 13167
+    },
+    {
+      "id": "000119-e463fadd8216",
+      "start": 13193,
+      "end": 13483
+    },
+    {
+      "id": "000119-890a13cc4437",
+      "start": 13509,
+      "end": 13814
+    },
+    {
+      "id": "000119-9a8bc9e65115",
+      "start": 13840,
+      "end": 14146
+    },
+    {
+      "id": "000119-25f9b9396ff5",
+      "start": 14172,
+      "end": 14450
+    },
+    {
+      "id": "000119-7036312a4df7",
+      "start": 14476,
+      "end": 14763
+    },
+    {
+      "id": "000119-0682ac6e29e3",
+      "start": 14789,
+      "end": 15050
+    },
+    {
+      "id": "000119-057b95a649df",
+      "start": 15076,
+      "end": 15361
+    },
+    {
+      "id": "000119-ca57837ed710",
+      "start": 15387,
+      "end": 15706
+    },
+    {
+      "id": "000119-022d2eb13fcb",
+      "start": 15732,
+      "end": 16034
+    },
+    {
+      "id": "000119-d50510e963cd",
+      "start": 16060,
+      "end": 16349
+    },
+    {
+      "id": "000119-6d5c63fc0b3f",
+      "start": 16375,
+      "end": 16685
+    },
+    {
+      "id": "000119-8c2d51b8c0bb",
+      "start": 16711,
+      "end": 17006
+    },
+    {
+      "id": "000119-59fdc47f45d1",
+      "start": 17032,
+      "end": 17327
+    },
+    {
+      "id": "000119-4f05694b224d",
+      "start": 17353,
+      "end": 17647
+    },
+    {
+      "id": "000119-4a9b146693b5",
+      "start": 17673,
+      "end": 17966
+    },
+    {
+      "id": "000119-fa479b15436b",
+      "start": 17992,
+      "end": 18278
+    },
+    {
+      "id": "000119-f16abe35903e",
+      "start": 18304,
+      "end": 18609
+    },
+    {
+      "id": "000119-0656336789d2",
+      "start": 18635,
+      "end": 18917
+    },
+    {
+      "id": "000119-d93f95633cdb",
+      "start": 18943,
+      "end": 19235
+    },
+    {
+      "id": "000119-21f0167ed070",
+      "start": 19261,
+      "end": 19553
+    },
+    {
+      "id": "000119-b599e8fd48bf",
+      "start": 19579,
+      "end": 19890
+    },
+    {
+      "id": "000119-82f43819583c",
+      "start": 19916,
+      "end": 20216
+    },
+    {
+      "id": "000119-d33e1f399dc9",
+      "start": 20242,
+      "end": 20557
+    },
+    {
+      "id": "000119-7ce2ca386d1a",
+      "start": 20583,
+      "end": 20871
+    },
+    {
+      "id": "000119-12655d99cc80",
+      "start": 20897,
+      "end": 21205
+    },
+    {
+      "id": "000119-130943ee2de6",
+      "start": 21231,
+      "end": 21527
+    },
+    {
+      "id": "000119-0933a1931a5c",
+      "start": 21553,
+      "end": 21842
+    },
+    {
+      "id": "000119-af88c9f0a380",
+      "start": 21868,
+      "end": 22205
+    },
+    {
+      "id": "000119-23d53a58b773",
+      "start": 22231,
+      "end": 22547
+    },
+    {
+      "id": "000119-7939c6fa9174",
+      "start": 22573,
+      "end": 22854
+    },
+    {
+      "id": "000119-08785bb0366e",
+      "start": 22880,
+      "end": 23184
+    },
+    {
+      "id": "000119-06e6e0ceb729",
+      "start": 23210,
+      "end": 23512
+    },
+    {
+      "id": "000119-3b36ea323443",
+      "start": 23538,
+      "end": 23840
+    },
+    {
+      "id": "000119-a5f846e6967c",
+      "start": 23866,
+      "end": 24179
+    },
+    {
+      "id": "000119-cc3204131318",
+      "start": 24205,
+      "end": 24507
+    },
+    {
+      "id": "000119-09af65ce1327",
+      "start": 24533,
+      "end": 24833
+    },
+    {
+      "id": "000119-eafe07f157cc",
+      "start": 24859,
+      "end": 25165
+    },
+    {
+      "id": "000119-c773a047ff7a",
+      "start": 25191,
+      "end": 25475
+    },
+    {
+      "id": "000119-9bb7cc88dc89",
+      "start": 25501,
+      "end": 25824
+    },
+    {
+      "id": "000119-08f0ba107880",
+      "start": 25850,
+      "end": 26147
+    },
+    {
+      "id": "000119-f6e23c6863b9",
+      "start": 26173,
+      "end": 26450
+    },
+    {
+      "id": "000119-6dfdbf0e0f82",
+      "start": 26476,
+      "end": 26764
+    },
+    {
+      "id": "000119-8466eae4c308",
+      "start": 26790,
+      "end": 27072
+    },
+    {
+      "id": "000119-9b3b5d17ecee",
+      "start": 27098,
+      "end": 27398
+    },
+    {
+      "id": "000119-1bdf5c6a1c8f",
+      "start": 27424,
+      "end": 27727
+    },
+    {
+      "id": "000119-482064b8655b",
+      "start": 27753,
+      "end": 28059
+    },
+    {
+      "id": "000119-6c860ed642b8",
+      "start": 28085,
+      "end": 28366
+    },
+    {
+      "id": "000119-8cead41eef6d",
+      "start": 28392,
+      "end": 28673
+    },
+    {
+      "id": "000119-561858ee987a",
+      "start": 28699,
+      "end": 29008
+    },
+    {
+      "id": "000119-496cc0c115a2",
+      "start": 29034,
+      "end": 29331
+    },
+    {
+      "id": "000119-fc34aaa1971d",
+      "start": 29357,
+      "end": 29673
+    },
+    {
+      "id": "000119-8102709b4c7c",
+      "start": 29699,
+      "end": 29999
+    },
+    {
+      "id": "000119-54eb2a3437aa",
+      "start": 30025,
+      "end": 30304
+    },
+    {
+      "id": "000119-91e824e6cd24",
+      "start": 30330,
+      "end": 30633
+    },
+    {
+      "id": "000119-dc99a4a70195",
+      "start": 30659,
+      "end": 30955
+    },
+    {
+      "id": "000119-6ece232b9f15",
+      "start": 30981,
+      "end": 31272
+    },
+    {
+      "id": "000119-a4af144ef82a",
+      "start": 31298,
+      "end": 31621
+    },
+    {
+      "id": "000119-4bc19824949e",
+      "start": 31647,
+      "end": 31954
+    },
+    {
+      "id": "000119-c0a2efaaa8d6",
+      "start": 31980,
+      "end": 32279
+    },
+    {
+      "id": "000119-4c4dbcd65d8f",
+      "start": 32305,
+      "end": 32620
+    },
+    {
+      "id": "000119-2e95c71bf448",
+      "start": 32646,
+      "end": 32933
+    },
+    {
+      "id": "000119-48ad05615d89",
+      "start": 32959,
+      "end": 33244
+    },
+    {
+      "id": "000119-f0e9adda2cda",
+      "start": 33270,
+      "end": 33571
+    },
+    {
+      "id": "000119-096469addac0",
+      "start": 33597,
+      "end": 33894
+    },
+    {
+      "id": "000119-030d4952800a",
+      "start": 33920,
+      "end": 34230
+    },
+    {
+      "id": "000119-1c68167d897d",
+      "start": 34256,
+      "end": 34561
+    },
+    {
+      "id": "000119-4c1d8fe09008",
+      "start": 34587,
+      "end": 34879
+    },
+    {
+      "id": "000119-67ee63cc67cf",
+      "start": 34905,
+      "end": 35195
+    },
+    {
+      "id": "000119-493a487e25d1",
+      "start": 35221,
+      "end": 35525
+    },
+    {
+      "id": "000119-f9bd9ccc6881",
+      "start": 35551,
+      "end": 35846
+    },
+    {
+      "id": "000119-048ca9e9669e",
+      "start": 35872,
+      "end": 36180
+    },
+    {
+      "id": "000119-12272bcbfa1d",
+      "start": 36206,
+      "end": 36507
+    },
+    {
+      "id": "000119-c3717d8aff42",
+      "start": 36533,
+      "end": 36842
+    },
+    {
+      "id": "000119-f8be2ae8fd0c",
+      "start": 36868,
+      "end": 37175
+    },
+    {
+      "id": "000119-8d5aa0c0a351",
+      "start": 37201,
+      "end": 37510
+    },
+    {
+      "id": "000119-8d804e36d0f1",
+      "start": 37536,
+      "end": 37856
+    },
+    {
+      "id": "000119-fc1148df80a5",
+      "start": 37882,
+      "end": 38187
+    },
+    {
+      "id": "000119-f095fcf02c06",
+      "start": 38213,
+      "end": 38494
+    },
+    {
+      "id": "000119-ca3ede1fe403",
+      "start": 38520,
+      "end": 38839
+    },
+    {
+      "id": "000119-77254bd772f7",
+      "start": 38865,
+      "end": 39176
+    },
+    {
+      "id": "000119-6a7dc9f2b9c4",
+      "start": 39202,
+      "end": 39498
+    },
+    {
+      "id": "000119-424c42f9b893",
+      "start": 39524,
+      "end": 39827
+    },
+    {
+      "id": "000119-4e1d5fe1feb3",
+      "start": 39853,
+      "end": 40173
+    },
+    {
+      "id": "000119-0215c929f585",
+      "start": 40199,
+      "end": 40491
+    },
+    {
+      "id": "000119-1f277220b095",
+      "start": 40517,
+      "end": 40821
+    },
+    {
+      "id": "000119-40bc1e241cea",
+      "start": 40847,
+      "end": 41142
+    },
+    {
+      "id": "000119-a727a8dc511c",
+      "start": 41168,
+      "end": 41468
+    },
+    {
+      "id": "000119-59739b84fe20",
+      "start": 41494,
+      "end": 41792
+    },
+    {
+      "id": "000119-49789cb97f2f",
+      "start": 41818,
+      "end": 42110
+    },
+    {
+      "id": "000119-8f1bd17ef95a",
+      "start": 42136,
+      "end": 42434
+    },
+    {
+      "id": "000119-8a5420448dc5",
+      "start": 42460,
+      "end": 42795
+    },
+    {
+      "id": "000119-06f8cfaee3a7",
+      "start": 42821,
+      "end": 43090
+    },
+    {
+      "id": "000119-d6c86df248c5",
+      "start": 43116,
+      "end": 43418
+    },
+    {
+      "id": "000119-ff51b75d1854",
+      "start": 43444,
+      "end": 43756
+    },
+    {
+      "id": "000119-284d5352a6a0",
+      "start": 43782,
+      "end": 44083
+    },
+    {
+      "id": "000119-c6a85fac2993",
+      "start": 44109,
+      "end": 44424
+    },
+    {
+      "id": "000119-dbc29f14c85b",
+      "start": 44450,
+      "end": 44734
+    },
+    {
+      "id": "000119-3b787a8c3b99",
+      "start": 44760,
+      "end": 45087
+    },
+    {
+      "id": "000119-e351784588d9",
+      "start": 45113,
+      "end": 45386
+    },
+    {
+      "id": "000119-200f663a010f",
+      "start": 45412,
+      "end": 45741
+    },
+    {
+      "id": "000119-ad20bb0c6b6e",
+      "start": 45767,
+      "end": 46085
+    },
+    {
+      "id": "000119-fc8e0c8a2ac1",
+      "start": 46111,
+      "end": 46409
+    },
+    {
+      "id": "000119-cf59209e32b3",
+      "start": 46435,
+      "end": 46748
+    },
+    {
+      "id": "000119-25beea32a8fa",
+      "start": 46774,
+      "end": 47102
+    },
+    {
+      "id": "000119-b5a455c829c7",
+      "start": 47128,
+      "end": 47431
+    },
+    {
+      "id": "000119-8e0f02d88fa2",
+      "start": 47457,
+      "end": 47750
+    },
+    {
+      "id": "000119-880c54b54940",
+      "start": 47776,
+      "end": 48078
+    },
+    {
+      "id": "000119-8e4bb7e0ad24",
+      "start": 48104,
+      "end": 48378
+    },
+    {
+      "id": "000119-4206a6c8b208",
+      "start": 48404,
+      "end": 48741
+    },
+    {
+      "id": "000119-e386ac984288",
+      "start": 48767,
+      "end": 49066
+    },
+    {
+      "id": "000119-6535de4760fe",
+      "start": 49092,
+      "end": 49385
+    },
+    {
+      "id": "000119-da999f9e5f7c",
+      "start": 49411,
+      "end": 49738
+    },
+    {
+      "id": "000119-ef6191766cba",
+      "start": 49764,
+      "end": 50079
+    },
+    {
+      "id": "000119-409222461068",
+      "start": 50105,
+      "end": 50424
+    },
+    {
+      "id": "000119-04016ec1758a",
+      "start": 50450,
+      "end": 50753
+    },
+    {
+      "id": "000119-a3152407d957",
+      "start": 50779,
+      "end": 51087
+    },
+    {
+      "id": "000119-ae74909bd26e",
+      "start": 51113,
+      "end": 51392
+    },
+    {
+      "id": "000119-e46a4a2fa721",
+      "start": 51418,
+      "end": 51688
+    },
+    {
+      "id": "000119-7c3c29d701b8",
+      "start": 51714,
+      "end": 52003
+    },
+    {
+      "id": "000119-fd5c5c0942d7",
+      "start": 52029,
+      "end": 52322
+    },
+    {
+      "id": "000119-43068a6375a1",
+      "start": 52348,
+      "end": 52634
+    },
+    {
+      "id": "000119-7777f2263768",
+      "start": 52660,
+      "end": 52989
+    },
+    {
+      "id": "000119-966c2dbc5df2",
+      "start": 53015,
+      "end": 53313
+    },
+    {
+      "id": "000119-3380db39f234",
+      "start": 53339,
+      "end": 53681
+    },
+    {
+      "id": "000119-d77845e41025",
+      "start": 53707,
+      "end": 54019
+    },
+    {
+      "id": "000119-cd3de8763d5f",
+      "start": 54045,
+      "end": 54333
+    },
+    {
+      "id": "000119-8674cc8f51d6",
+      "start": 54359,
+      "end": 54682
+    },
+    {
+      "id": "000119-f2a6c1b09540",
+      "start": 54708,
+      "end": 55018
+    },
+    {
+      "id": "000119-bf700510c87a",
+      "start": 55044,
+      "end": 55347
+    },
+    {
+      "id": "000119-56a16550d4a0",
+      "start": 55373,
+      "end": 55705
+    },
+    {
+      "id": "000119-d4b678b3e738",
+      "start": 55731,
+      "end": 56037
+    },
+    {
+      "id": "000119-e72b221b04c2",
+      "start": 56063,
+      "end": 56383
+    },
+    {
+      "id": "000119-df0696764416",
+      "start": 56409,
+      "end": 56725
+    },
+    {
+      "id": "000119-2f80039ce24a",
+      "start": 56751,
+      "end": 57065
+    },
+    {
+      "id": "000119-933fe386466f",
+      "start": 57091,
+      "end": 57411
+    },
+    {
+      "id": "000119-838610bf0fe5",
+      "start": 57437,
+      "end": 57768
+    },
+    {
+      "id": "000119-a8af905f3336",
+      "start": 57794,
+      "end": 58074
+    },
+    {
+      "id": "000119-83eba404078e",
+      "start": 58100,
+      "end": 58414
+    },
+    {
+      "id": "000119-315f7ed15b74",
+      "start": 58440,
+      "end": 58741
+    },
+    {
+      "id": "000119-3ce18178356d",
+      "start": 58767,
+      "end": 59087
+    },
+    {
+      "id": "000119-00bcebcaa9ed",
+      "start": 59113,
+      "end": 59421
+    },
+    {
+      "id": "000119-9677ed20f731",
+      "start": 59447,
+      "end": 59781
+    },
+    {
+      "id": "000119-70e6ecf81ddd",
+      "start": 59807,
+      "end": 60105
+    },
+    {
+      "id": "000119-94c173f31be6",
+      "start": 60131,
+      "end": 60430
+    },
+    {
+      "id": "000119-8c5f5a6f3be2",
+      "start": 60456,
+      "end": 60747
+    },
+    {
+      "id": "000119-7919a3f631d3",
+      "start": 60773,
+      "end": 61082
+    },
+    {
+      "id": "000119-e7e9858c8302",
+      "start": 61108,
+      "end": 61390
+    },
+    {
+      "id": "000119-331bded1f3ab",
+      "start": 61416,
+      "end": 61728
+    },
+    {
+      "id": "000119-c65dab9be8cd",
+      "start": 61754,
+      "end": 62063
+    },
+    {
+      "id": "000119-99bafbc08d50",
+      "start": 62089,
+      "end": 62378
+    },
+    {
+      "id": "000119-4a1ca8256e54",
+      "start": 62404,
+      "end": 62719
+    },
+    {
+      "id": "000119-288ce4c02e2d",
+      "start": 62745,
+      "end": 63046
+    },
+    {
+      "id": "000119-d10594fd37ce",
+      "start": 63072,
+      "end": 63394
+    },
+    {
+      "id": "000119-d190db4f9413",
+      "start": 63420,
+      "end": 63741
+    },
+    {
+      "id": "000119-b4f066bad89e",
+      "start": 63767,
+      "end": 64076
+    },
+    {
+      "id": "000119-b58d2cd560c0",
+      "start": 64102,
+      "end": 64386
+    },
+    {
+      "id": "000119-93f0fcd46603",
+      "start": 64412,
+      "end": 64744
+    },
+    {
+      "id": "000119-eeb7d5719a4c",
+      "start": 64770,
+      "end": 65064
+    },
+    {
+      "id": "000119-2f50095b8827",
+      "start": 65090,
+      "end": 65414
+    },
+    {
+      "id": "000119-7eeac4f67d21",
+      "start": 65440,
+      "end": 65757
+    },
+    {
+      "id": "000119-c94f6ec968c4",
+      "start": 65783,
+      "end": 66091
+    },
+    {
+      "id": "000119-32af23509245",
+      "start": 66117,
+      "end": 66418
+    },
+    {
+      "id": "000119-2d1ffa95805c",
+      "start": 66444,
+      "end": 66771
+    },
+    {
+      "id": "000119-b6ffde339695",
+      "start": 66797,
+      "end": 67106
+    },
+    {
+      "id": "000119-2d608cb73ca7",
+      "start": 67132,
+      "end": 67462
+    },
+    {
+      "id": "000119-b246c3412374",
+      "start": 67488,
+      "end": 67819
+    },
+    {
+      "id": "000119-bdfc12f03c86",
+      "start": 67845,
+      "end": 68154
+    },
+    {
+      "id": "000119-54a38f67fd3f",
+      "start": 68180,
+      "end": 68474
+    },
+    {
+      "id": "000119-8f07d0acf2b8",
+      "start": 68500,
+      "end": 68812
+    },
+    {
+      "id": "000119-d78e92aba524",
+      "start": 68838,
+      "end": 69159
+    },
+    {
+      "id": "000119-9c68579ee041",
+      "start": 69185,
+      "end": 69516
+    },
+    {
+      "id": "000119-a2e08b66b083",
+      "start": 69542,
+      "end": 69868
+    },
+    {
+      "id": "000119-2304e6349df0",
+      "start": 69894,
+      "end": 70175
+    },
+    {
+      "id": "000119-7d109e1b6713",
+      "start": 70201,
+      "end": 70489
+    },
+    {
+      "id": "000119-9e8392716627",
+      "start": 70515,
+      "end": 70818
+    },
+    {
+      "id": "000119-e81c074b052e",
+      "start": 70844,
+      "end": 71150
+    },
+    {
+      "id": "000119-76cc67dd69e4",
+      "start": 71176,
+      "end": 71505
+    },
+    {
+      "id": "000119-a9bb765685c4",
+      "start": 71531,
+      "end": 71859
+    },
+    {
+      "id": "000119-878812d9157c",
+      "start": 71885,
+      "end": 72188
+    },
+    {
+      "id": "000119-30d14fea41c3",
+      "start": 72214,
+      "end": 72532
+    },
+    {
+      "id": "000119-e079bfd3c299",
+      "start": 72558,
+      "end": 72882
+    },
+    {
+      "id": "000119-459a56b5e2fc",
+      "start": 72908,
+      "end": 73231
+    },
+    {
+      "id": "000119-e4948e2c20f9",
+      "start": 73257,
+      "end": 73543
+    },
+    {
+      "id": "000119-55802ab40a5a",
+      "start": 73569,
+      "end": 73849
+    },
+    {
+      "id": "000119-3cd522492192",
+      "start": 73875,
+      "end": 74189
+    },
+    {
+      "id": "000119-d0503106f3a0",
+      "start": 74215,
+      "end": 74539
+    },
+    {
+      "id": "000119-3ae294d2ba5d",
+      "start": 74565,
+      "end": 74864
+    },
+    {
+      "id": "000119-ead8e1fa939d",
+      "start": 74890,
+      "end": 75211
+    },
+    {
+      "id": "000119-212450e40191",
+      "start": 75237,
+      "end": 75562
+    },
+    {
+      "id": "000119-05c96a9ad55d",
+      "start": 75588,
+      "end": 75905
+    },
+    {
+      "id": "000119-9280cb291862",
+      "start": 75931,
+      "end": 76227
+    },
+    {
+      "id": "000119-c74ac6af402e",
+      "start": 76253,
+      "end": 76570
+    },
+    {
+      "id": "000119-a57f997a618a",
+      "start": 76596,
+      "end": 76922
+    },
+    {
+      "id": "000119-0be896ec2ffd",
+      "start": 76948,
+      "end": 77248
+    },
+    {
+      "id": "000119-d1d9876f6f2a",
+      "start": 77274,
+      "end": 77594
+    },
+    {
+      "id": "000119-cedb201ab53c",
+      "start": 77620,
+      "end": 77934
+    },
+    {
+      "id": "000119-14e6ada69882",
+      "start": 77960,
+      "end": 78304
+    },
+    {
+      "id": "000119-c50f45749c86",
+      "start": 78330,
+      "end": 78641
+    },
+    {
+      "id": "000119-f2c2648d7d91",
+      "start": 78667,
+      "end": 79012
+    },
+    {
+      "id": "000119-0c0b82c96fb6",
+      "start": 79038,
+      "end": 79346
+    },
+    {
+      "id": "000119-9ab1333ffe74",
+      "start": 79372,
+      "end": 79677
+    },
+    {
+      "id": "000119-c5266bc78def",
+      "start": 79703,
+      "end": 80039
+    },
+    {
+      "id": "000119-3fe1b45ee962",
+      "start": 80065,
+      "end": 80371
     }
   ],
   "labels": [
@@ -157,7 +1277,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "The evening was filled with the murmur of televisions and the clink of dishes rather than birdsong and rustling leaves."
+        "The evening had traded birdsong and rustling leaves for the murmur of televisions and the clink of dishes."
       ]
     },
     {
@@ -206,7 +1326,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "Her gaze made a slow circuit of the room, passing from tables to walls to faces."
+        "Over the rim of her cup, her gaze made a slow circuit of the room."
       ]
     },
     {
@@ -214,7 +1334,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "Inside, it smelled of coffee grounds and floor polish rather than meadow flowers and clean rain."
+        "Inside, the afternoon traded the park's grass and rain for coffee grounds and floor polish."
       ]
     },
     {
@@ -225,10 +1345,7 @@
     {
       "id": "000119-96c0025a431c",
       "check": "narrative-craft/gaze-choreography",
-      "expected": true,
-      "snippets": [
-        "Arun's gaze travels up the walls, across the rafters, and down to the floor."
-      ]
+      "expected": false
     },
     {
       "id": "000119-96c0025a431c",
@@ -261,7 +1378,7 @@
       "check": "narrative-craft/emotion-telling",
       "expected": true,
       "snippets": [
-        "Nina was delighted."
+        "Delighted"
       ]
     },
     {
@@ -292,7 +1409,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "the corridor smells of faded perfume and dusty carpet rather than sea breeze and orange blossom."
+        "a corridor smelling of faded perfume and dusty carpet rather than the sea breeze and orange blossom outside"
       ]
     },
     {
@@ -311,10 +1428,7 @@
     {
       "id": "000119-860685f6f0bd",
       "check": "narrative-craft/sensory-instead-of-frame",
-      "expected": true,
-      "snippets": [
-        "The morning sounded of scraping chairs and murmured voices instead of rushing water and wind in the trees."
-      ]
+      "expected": false
     },
     {
       "id": "000119-ccfc18447830",
@@ -363,7 +1477,7 @@
       "check": "narrative-craft/emotion-telling",
       "expected": true,
       "snippets": [
-        "He was bitterly disappointed."
+        "Bitterly disappointed"
       ]
     },
     {
@@ -371,7 +1485,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "His gaze swept from the seats to the windows and then across the passengers."
+        "he let his gaze circle the cabin"
       ]
     },
     {
@@ -379,7 +1493,7 @@
       "check": "narrative-craft/sensory-instead-of-frame",
       "expected": true,
       "snippets": [
-        "The cabin smelled of damp coats and instant coffee instead of fresh grass and summer fruit."
+        "The journey home smelled of damp coats and instant coffee; the holiday's grass and summer fruit were gone."
       ]
     },
     {
@@ -387,7 +1501,7 @@
       "check": "narrative-craft/emotion-telling",
       "expected": true,
       "snippets": [
-        "I feel utterly content."
+        "Utterly content"
       ]
     },
     {
@@ -395,7 +1509,7 @@
       "check": "narrative-craft/gaze-choreography",
       "expected": true,
       "snippets": [
-        "My gaze glides along the walls, dips toward the floor, and rises to the lights."
+        "my gaze making slow circuits of the room"
       ]
     },
     {
@@ -404,6 +1518,4380 @@
       "expected": true,
       "snippets": [
         "In here, the day has the soft hush of footsteps and conversation rather than the coarse roar of engines and horns."
+      ]
+    },
+    {
+      "id": "000119-961d9a777022",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was furious."
+      ]
+    },
+    {
+      "id": "000119-961d9a777022",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-961d9a777022",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-0caf9bf0905c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Pleased with herself"
+      ]
+    },
+    {
+      "id": "000119-0caf9bf0905c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-0caf9bf0905c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ce2e96a95708",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Owen felt utterly miserable."
+      ]
+    },
+    {
+      "id": "000119-ce2e96a95708",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ce2e96a95708",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-c90d6fd63481",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt a rush of pride"
+      ]
+    },
+    {
+      "id": "000119-c90d6fd63481",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-c90d6fd63481",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-a9d6bf5ffe2d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Disappointed"
+      ]
+    },
+    {
+      "id": "000119-a9d6bf5ffe2d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-a9d6bf5ffe2d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ede6301701a7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Marta was terribly anxious."
+      ]
+    },
+    {
+      "id": "000119-ede6301701a7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ede6301701a7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-2e1553fa1507",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "My annoyance was immense."
+      ]
+    },
+    {
+      "id": "000119-2e1553fa1507",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-2e1553fa1507",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-51a85740e352",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Elated"
+      ]
+    },
+    {
+      "id": "000119-51a85740e352",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-51a85740e352",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-47a31e6c51ab",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was overcome with gratitude."
+      ]
+    },
+    {
+      "id": "000119-47a31e6c51ab",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-47a31e6c51ab",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-bbd48493d107",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt profoundly relieved."
+      ]
+    },
+    {
+      "id": "000119-bbd48493d107",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-bbd48493d107",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-3b956259c35e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Humiliated"
+      ]
+    },
+    {
+      "id": "000119-3b956259c35e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3b956259c35e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-03e5c303e93f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was deeply sad"
+      ]
+    },
+    {
+      "id": "000119-03e5c303e93f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-03e5c303e93f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ab7bcd5944f4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "He was absolutely delighted."
+      ]
+    },
+    {
+      "id": "000119-ab7bcd5944f4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ab7bcd5944f4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-6a381762c233",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Bitter resentment filled me"
+      ]
+    },
+    {
+      "id": "000119-6a381762c233",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-6a381762c233",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-42d7ad4809d0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Jubilant"
+      ]
+    },
+    {
+      "id": "000119-42d7ad4809d0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-42d7ad4809d0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-3f7abaac2101",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Toby was heartbroken."
+      ]
+    },
+    {
+      "id": "000119-3f7abaac2101",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3f7abaac2101",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-1363b2654cfa",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I am ecstatic"
+      ]
+    },
+    {
+      "id": "000119-1363b2654cfa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-1363b2654cfa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-f80f553a6846",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was intensely irritated."
+      ]
+    },
+    {
+      "id": "000119-f80f553a6846",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-f80f553a6846",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-e909ec117e2d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Ashamed"
+      ]
+    },
+    {
+      "id": "000119-e909ec117e2d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-e909ec117e2d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-805f8310a1ad",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I experienced overwhelming joy"
+      ]
+    },
+    {
+      "id": "000119-805f8310a1ad",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-805f8310a1ad",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-3d8b6f600f9b",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Elsie was frantic."
+      ]
+    },
+    {
+      "id": "000119-3d8b6f600f9b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3d8b6f600f9b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-e463fadd8216",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Satisfaction washed over me"
+      ]
+    },
+    {
+      "id": "000119-e463fadd8216",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-e463fadd8216",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-890a13cc4437",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Devastated"
+      ]
+    },
+    {
+      "id": "000119-890a13cc4437",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-890a13cc4437",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-9a8bc9e65115",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt wonderfully happy."
+      ]
+    },
+    {
+      "id": "000119-9a8bc9e65115",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-9a8bc9e65115",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-25f9b9396ff5",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Loneliness overwhelmed Vincent"
+      ]
+    },
+    {
+      "id": "000119-25f9b9396ff5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-25f9b9396ff5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-7036312a4df7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was terribly excited"
+      ]
+    },
+    {
+      "id": "000119-7036312a4df7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-7036312a4df7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-0682ac6e29e3",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Mortified"
+      ]
+    },
+    {
+      "id": "000119-0682ac6e29e3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-0682ac6e29e3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-057b95a649df",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was immensely relieved"
+      ]
+    },
+    {
+      "id": "000119-057b95a649df",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-057b95a649df",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The night exchanged wet leaves and distant traffic for dust and tired wool."
+      ]
+    },
+    {
+      "id": "000119-ca57837ed710",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Furious"
+      ]
+    },
+    {
+      "id": "000119-ca57837ed710",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ca57837ed710",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat tasted of stale tea and old regrets rather than morning light and possibility."
+      ]
+    },
+    {
+      "id": "000119-022d2eb13fcb",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Dad was deeply moved."
+      ]
+    },
+    {
+      "id": "000119-022d2eb13fcb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-022d2eb13fcb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room had surrendered sawdust and warm varnish for cold dust and silence."
+      ]
+    },
+    {
+      "id": "000119-d50510e963cd",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Delighted"
+      ]
+    },
+    {
+      "id": "000119-d50510e963cd",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-d50510e963cd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Here the air offered salt and weathered rope instead of petrol and restless crowds."
+      ]
+    },
+    {
+      "id": "000119-6d5c63fc0b3f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Paul felt bitterly disappointed"
+      ]
+    },
+    {
+      "id": "000119-6d5c63fc0b3f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-6d5c63fc0b3f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The corridor traded the stage's warmth and velvet for bleach and fluorescent humming."
+      ]
+    },
+    {
+      "id": "000119-8c2d51b8c0bb",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was filled with dread"
+      ]
+    },
+    {
+      "id": "000119-8c2d51b8c0bb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-8c2d51b8c0bb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The playground no longer tasted of chalk and laughter, only rain and forgotten winters."
+      ]
+    },
+    {
+      "id": "000119-59fdc47f45d1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Ecstatic"
+      ]
+    },
+    {
+      "id": "000119-59fdc47f45d1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-59fdc47f45d1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon changed from the city's bitter metal and hurry to cotton and peaceful ticking."
+      ]
+    },
+    {
+      "id": "000119-4f05694b224d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was utterly dismayed."
+      ]
+    },
+    {
+      "id": "000119-4f05694b224d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-4f05694b224d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside the agent's office, sea wind and gull cries gave way to paper dust and clicking keys."
+      ]
+    },
+    {
+      "id": "000119-4a9b146693b5",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Pride swelled in Dennis"
+      ]
+    },
+    {
+      "id": "000119-4a9b146693b5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-4a9b146693b5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shed breathed resin and honest sweat instead of the street's exhaust and impatience."
+      ]
+    },
+    {
+      "id": "000119-fa479b15436b",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt terribly awkward"
+      ]
+    },
+    {
+      "id": "000119-fa479b15436b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-fa479b15436b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The restaurant evening had exchanged spice and promise for clinking glasses and stale perfume."
+      ]
+    },
+    {
+      "id": "000119-f16abe35903e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Distraught"
+      ]
+    },
+    {
+      "id": "000119-f16abe35903e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-f16abe35903e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Beneath the station, the day smelled of old rubber and damp stone instead of sunshine and bread."
+      ]
+    },
+    {
+      "id": "000119-0656336789d2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "We were overjoyed."
+      ]
+    },
+    {
+      "id": "000119-0656336789d2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-0656336789d2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The garden wore the scent of lavender and damp earth where the road had worn diesel and dust."
+      ]
+    },
+    {
+      "id": "000119-d93f95633cdb",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Embarrassment consumed me"
+      ]
+    },
+    {
+      "id": "000119-d93f95633cdb",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-d93f95633cdb",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Behind the piano, the hall tasted of floor wax and nervous breath rather than winter air and freedom."
+      ]
+    },
+    {
+      "id": "000119-21f0167ed070",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Contented"
+      ]
+    },
+    {
+      "id": "000119-21f0167ed070",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-21f0167ed070",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Saturday had traded hot asphalt and horns for cool soil and whispering leaves."
+      ]
+    },
+    {
+      "id": "000119-b599e8fd48bf",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Leon was deeply frustrated."
+      ]
+    },
+    {
+      "id": "000119-b599e8fd48bf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-b599e8fd48bf",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Backstage, the evening exchanged fresh air and open skies for hairspray and dusty curtains."
+      ]
+    },
+    {
+      "id": "000119-82f43819583c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was unbelievably happy"
+      ]
+    },
+    {
+      "id": "000119-82f43819583c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-82f43819583c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The garage offered oil and old leather instead of the morning's rain and hurried footsteps."
+      ]
+    },
+    {
+      "id": "000119-d33e1f399dc9",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Appalled"
+      ]
+    },
+    {
+      "id": "000119-d33e1f399dc9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-d33e1f399dc9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon had lost its taste of apples and warmth, acquiring ink and cold coffee instead."
+      ]
+    },
+    {
+      "id": "000119-7ce2ca386d1a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Joy flooded me."
+      ]
+    },
+    {
+      "id": "000119-7ce2ca386d1a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-7ce2ca386d1a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Our new stairwell replaced the old street's sirens and grit with hushed footsteps and lemon polish."
+      ]
+    },
+    {
+      "id": "000119-12655d99cc80",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Mel was intensely jealous"
+      ]
+    },
+    {
+      "id": "000119-12655d99cc80",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-12655d99cc80",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The clubroom smelled of wet coats and tired dreams instead of the fairground's sugar and bright music."
+      ]
+    },
+    {
+      "id": "000119-130943ee2de6",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Grief overwhelmed me"
+      ]
+    },
+    {
+      "id": "000119-130943ee2de6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-130943ee2de6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The street had traded the market's cinnamon and cheerful chatter for drizzle and dull engines."
+      ]
+    },
+    {
+      "id": "000119-0933a1931a5c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Triumphant"
+      ]
+    },
+    {
+      "id": "000119-0933a1931a5c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-0933a1931a5c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside, the day exchanged wet pavements and impatient brakes for cinnamon and the soft clatter of cups."
+      ]
+    },
+    {
+      "id": "000119-af88c9f0a380",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt absolute despair"
+      ]
+    },
+    {
+      "id": "000119-af88c9f0a380",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-af88c9f0a380",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The waiting room tasted of disinfectant and disappointment rather than open roads and clean wind."
+      ]
+    },
+    {
+      "id": "000119-23d53a58b773",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Thrilled"
+      ]
+    },
+    {
+      "id": "000119-23d53a58b773",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-23d53a58b773",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The farm breathed hay and sun-warmed wood in place of town's petrol and restless noise."
+      ]
+    },
+    {
+      "id": "000119-7939c6fa9174",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was outraged."
+      ]
+    },
+    {
+      "id": "000119-7939c6fa9174",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-7939c6fa9174",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Its quiet interior exchanged traffic's bitter smoke for beeswax and old paper."
+      ]
+    },
+    {
+      "id": "000119-08785bb0366e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "A wave of affection filled June"
+      ]
+    },
+    {
+      "id": "000119-08785bb0366e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-08785bb0366e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The porch offered damp earth and gentle rain instead of the kitchen's grease and metallic clatter."
+      ]
+    },
+    {
+      "id": "000119-06e6e0ceb729",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was deeply ashamed"
+      ]
+    },
+    {
+      "id": "000119-06e6e0ceb729",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-06e6e0ceb729",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room had exchanged cut grass and summer air for stale biscuits and whispered judgement."
+      ]
+    },
+    {
+      "id": "000119-3b36ea323443",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Overjoyed"
+      ]
+    },
+    {
+      "id": "000119-3b36ea323443",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3b36ea323443",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening softened from engines and concrete into milk and warm blankets."
+      ]
+    },
+    {
+      "id": "000119-a5f846e6967c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt terribly disappointed"
+      ]
+    },
+    {
+      "id": "000119-a5f846e6967c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-a5f846e6967c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Indoors, the afternoon traded fresh grass and birdsong for toast crumbs and the clock's tired ticking."
+      ]
+    },
+    {
+      "id": "000119-cc3204131318",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Immensely proud"
+      ]
+    },
+    {
+      "id": "000119-cc3204131318",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-cc3204131318",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat now sang of polish and warm music instead of dust and empty hours."
+      ]
+    },
+    {
+      "id": "000119-09af65ce1327",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was exasperated."
+      ]
+    },
+    {
+      "id": "000119-09af65ce1327",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted from the ceiling to the door and back again."
+      ]
+    },
+    {
+      "id": "000119-09af65ce1327",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-eafe07f157cc",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Delighted"
+      ]
+    },
+    {
+      "id": "000119-eafe07f157cc",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes took a leisurely journey around the room."
+      ]
+    },
+    {
+      "id": "000119-eafe07f157cc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-c773a047ff7a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was deeply offended"
+      ]
+    },
+    {
+      "id": "000119-c773a047ff7a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My sightline wandered from the mantelpiece to the carpet."
+      ]
+    },
+    {
+      "id": "000119-c773a047ff7a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-9bb7cc88dc89",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Despondent"
+      ]
+    },
+    {
+      "id": "000119-9bb7cc88dc89",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze skimmed the water, climbed the boathouse wall, and returned to his shoes."
+      ]
+    },
+    {
+      "id": "000119-9bb7cc88dc89",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-08f0ba107880",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Nell was ecstatic"
+      ]
+    },
+    {
+      "id": "000119-08f0ba107880",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze alighted on the windowsill before floating toward the door."
+      ]
+    },
+    {
+      "id": "000119-08f0ba107880",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-f6e23c6863b9",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt a stab of jealousy"
+      ]
+    },
+    {
+      "id": "000119-f6e23c6863b9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes made a slow circuit of the campsite."
+      ]
+    },
+    {
+      "id": "000119-f6e23c6863b9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-6dfdbf0e0f82",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was horrified."
+      ]
+    },
+    {
+      "id": "000119-6dfdbf0e0f82",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze went to the counter, then the window, then the counter again."
+      ]
+    },
+    {
+      "id": "000119-6dfdbf0e0f82",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-8466eae4c308",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Relieved"
+      ]
+    },
+    {
+      "id": "000119-8466eae4c308",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes roamed over the calendar and the radiator."
+      ]
+    },
+    {
+      "id": "000119-8466eae4c308",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-9b3b5d17ecee",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was wonderfully content"
+      ]
+    },
+    {
+      "id": "000119-9b3b5d17ecee",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze travelled idly between the lamp and the shelves."
+      ]
+    },
+    {
+      "id": "000119-9b3b5d17ecee",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-1bdf5c6a1c8f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Humiliated"
+      ]
+    },
+    {
+      "id": "000119-1bdf5c6a1c8f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze swept from wall to wall."
+      ]
+    },
+    {
+      "id": "000119-1bdf5c6a1c8f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-482064b8655b",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt immense satisfaction."
+      ]
+    },
+    {
+      "id": "000119-482064b8655b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes traced a vacant route across the front room."
+      ]
+    },
+    {
+      "id": "000119-482064b8655b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-6c860ed642b8",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Panic filled Vera"
+      ]
+    },
+    {
+      "id": "000119-6c860ed642b8",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze bounced between the fence and the sky."
+      ]
+    },
+    {
+      "id": "000119-6c860ed642b8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-8cead41eef6d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was bitterly disappointed"
+      ]
+    },
+    {
+      "id": "000119-8cead41eef6d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes drifted over the hallway, settling nowhere."
+      ]
+    },
+    {
+      "id": "000119-8cead41eef6d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-561858ee987a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Overjoyed"
+      ]
+    },
+    {
+      "id": "000119-561858ee987a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze made its way from chair to cupboard and back."
+      ]
+    },
+    {
+      "id": "000119-561858ee987a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-496cc0c115a2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt intensely resentful."
+      ]
+    },
+    {
+      "id": "000119-496cc0c115a2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze slid across the ceiling and down the opposite wall."
+      ]
+    },
+    {
+      "id": "000119-496cc0c115a2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-fc34aaa1971d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Ashamed"
+      ]
+    },
+    {
+      "id": "000119-fc34aaa1971d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes wandered from the driveway to the porch and back."
+      ]
+    },
+    {
+      "id": "000119-fc34aaa1971d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-8102709b4c7c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was absolutely thrilled"
+      ]
+    },
+    {
+      "id": "000119-8102709b4c7c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze floated above the audience before returning to the aisle."
+      ]
+    },
+    {
+      "id": "000119-8102709b4c7c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-54eb2a3437aa",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Dejected"
+      ]
+    },
+    {
+      "id": "000119-54eb2a3437aa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze ambled over the benches and up the marquee poles."
+      ]
+    },
+    {
+      "id": "000119-54eb2a3437aa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-91e824e6cd24",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was terribly frustrated."
+      ]
+    },
+    {
+      "id": "000119-91e824e6cd24",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze traversed the lobby from end to end."
+      ]
+    },
+    {
+      "id": "000119-91e824e6cd24",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-dc99a4a70195",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Gratitude overwhelmed Cara"
+      ]
+    },
+    {
+      "id": "000119-dc99a4a70195",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes described a slow arc around the kitchen."
+      ]
+    },
+    {
+      "id": "000119-dc99a4a70195",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-6ece232b9f15",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt a surge of anger"
+      ]
+    },
+    {
+      "id": "000119-6ece232b9f15",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze meandered between the kitchen tiles and the clock."
+      ]
+    },
+    {
+      "id": "000119-6ece232b9f15",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-a4af144ef82a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Exhilarated"
+      ]
+    },
+    {
+      "id": "000119-a4af144ef82a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze flitted over the railings, the path, and the clouds."
+      ]
+    },
+    {
+      "id": "000119-a4af144ef82a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-4bc19824949e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was consumed by sadness"
+      ]
+    },
+    {
+      "id": "000119-4bc19824949e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes travelled the length of the empty hall and back again."
+      ]
+    },
+    {
+      "id": "000119-4bc19824949e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-c0a2efaaa8d6",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "She was ecstatic."
+      ]
+    },
+    {
+      "id": "000119-c0a2efaaa8d6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered lazily among the counters and display stands."
+      ]
+    },
+    {
+      "id": "000119-c0a2efaaa8d6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-4c4dbcd65d8f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Mortified"
+      ]
+    },
+    {
+      "id": "000119-4c4dbcd65d8f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze skimmed the kitchen surfaces and floated toward the ceiling."
+      ]
+    },
+    {
+      "id": "000119-4c4dbcd65d8f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-2e95c71bf448",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Ted was overjoyed"
+      ]
+    },
+    {
+      "id": "000119-2e95c71bf448",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes made another circuit of the sitting room."
+      ]
+    },
+    {
+      "id": "000119-2e95c71bf448",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-48ad05615d89",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt thoroughly miserable"
+      ]
+    },
+    {
+      "id": "000119-48ad05615d89",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze rested on the wall, shifted to the door, and returned to the wall."
+      ]
+    },
+    {
+      "id": "000119-48ad05615d89",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-f0e9adda2cda",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Indignant"
+      ]
+    },
+    {
+      "id": "000119-f0e9adda2cda",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes roved over the booth and surrounding pavement."
+      ]
+    },
+    {
+      "id": "000119-f0e9adda2cda",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-096469addac0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was terribly nervous"
+      ]
+    },
+    {
+      "id": "000119-096469addac0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze shuttled between the kitchen window and the cupboard."
+      ]
+    },
+    {
+      "id": "000119-096469addac0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house exchanged lonely dust and old paper for soap and hopeful coffee."
+      ]
+    },
+    {
+      "id": "000119-030d4952800a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Delighted"
+      ]
+    },
+    {
+      "id": "000119-030d4952800a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze wandered across the shelves and down to the floor."
+      ]
+    },
+    {
+      "id": "000119-030d4952800a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning traded wet grass and birdsong for cardboard and the hum of refrigerators."
+      ]
+    },
+    {
+      "id": "000119-1c68167d897d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was intensely annoyed."
+      ]
+    },
+    {
+      "id": "000119-1c68167d897d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes made a restless circuit of the waiting room."
+      ]
+    },
+    {
+      "id": "000119-1c68167d897d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Beyond its door, the afternoon smelled of rubber and metallic fatigue instead of blossom and rain."
+      ]
+    },
+    {
+      "id": "000119-4c1d8fe09008",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Jubilant"
+      ]
+    },
+    {
+      "id": "000119-4c1d8fe09008",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze floated from the ceiling lights to the tables."
+      ]
+    },
+    {
+      "id": "000119-4c1d8fe09008",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The day tasted of warm pastry and possibility rather than ink and anxious silence."
+      ]
+    },
+    {
+      "id": "000119-67ee63cc67cf",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt utterly dejected"
+      ]
+    },
+    {
+      "id": "000119-67ee63cc67cf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze travelled from one end of the hall to the other."
+      ]
+    },
+    {
+      "id": "000119-67ee63cc67cf",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening had replaced the morning's bright chatter and sugar with dust and weary footsteps."
+      ]
+    },
+    {
+      "id": "000119-493a487e25d1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Pride filled Hamish"
+      ]
+    },
+    {
+      "id": "000119-493a487e25d1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes drifted between the bar and the staircase."
+      ]
+    },
+    {
+      "id": "000119-493a487e25d1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room no longer breathed mildew and defeat but varnish and fresh beginnings."
+      ]
+    },
+    {
+      "id": "000119-f9bd9ccc6881",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was deeply embarrassed"
+      ]
+    },
+    {
+      "id": "000119-f9bd9ccc6881",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze skimmed the desks and climbed the nearest pillar."
+      ]
+    },
+    {
+      "id": "000119-f9bd9ccc6881",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside air and rustling leaves had given way to paper dust and solemn whispers."
+      ]
+    },
+    {
+      "id": "000119-048ca9e9669e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Furious"
+      ]
+    },
+    {
+      "id": "000119-048ca9e9669e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes wandered over the curtains and the wallpaper."
+      ]
+    },
+    {
+      "id": "000119-048ca9e9669e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hotel night tasted of stale carpet and disappointment rather than wine and city lights."
+      ]
+    },
+    {
+      "id": "000119-12272bcbfa1d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was immensely happy"
+      ]
+    },
+    {
+      "id": "000119-12272bcbfa1d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes floated across the lockers and back toward the door."
+      ]
+    },
+    {
+      "id": "000119-12272bcbfa1d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside, the morning traded frost and brittle leaves for chlorine and splashing echoes."
+      ]
+    },
+    {
+      "id": "000119-c3717d8aff42",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Despair engulfed Ross"
+      ]
+    },
+    {
+      "id": "000119-c3717d8aff42",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze travelled the bare walls in a slow loop."
+      ]
+    },
+    {
+      "id": "000119-c3717d8aff42",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The place smelled of cold concrete and abandonment rather than wood and remembered summers."
+      ]
+    },
+    {
+      "id": "000119-f8be2ae8fd0c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Thrilled"
+      ]
+    },
+    {
+      "id": "000119-f8be2ae8fd0c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze bounced from the box to the wall and back again."
+      ]
+    },
+    {
+      "id": "000119-f8be2ae8fd0c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat exchanged television murmur and stale heat for the imagined taste of frost and stars."
+      ]
+    },
+    {
+      "id": "000119-8d5aa0c0a351",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Mina was terribly disappointed"
+      ]
+    },
+    {
+      "id": "000119-8d5aa0c0a351",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze flowed over the tables and up the curtains."
+      ]
+    },
+    {
+      "id": "000119-8d5aa0c0a351",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hall had traded music and warm perfume for dust and the thin scrape of chairs."
+      ]
+    },
+    {
+      "id": "000119-8d804e36d0f1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt profound relief"
+      ]
+    },
+    {
+      "id": "000119-8d804e36d0f1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze traced an idle path across the station ceiling."
+      ]
+    },
+    {
+      "id": "000119-8d804e36d0f1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The journey exchanged bitter coffee and rattling uncertainty for fresh linen and quiet warmth."
+      ]
+    },
+    {
+      "id": "000119-fc1148df80a5",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Resentful"
+      ]
+    },
+    {
+      "id": "000119-fc1148df80a5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes moved from the clock to the doorway and back."
+      ]
+    },
+    {
+      "id": "000119-fc1148df80a5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The corridor offered bleach and dull footsteps where the stage had offered heat and velvet."
+      ]
+    },
+    {
+      "id": "000119-f095fcf02c06",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was ecstatic"
+      ]
+    },
+    {
+      "id": "000119-f095fcf02c06",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted over its walls before descending to the floor."
+      ]
+    },
+    {
+      "id": "000119-f095fcf02c06",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Here the air tasted of green promise and rain instead of exhaust and hurried meals."
+      ]
+    },
+    {
+      "id": "000119-ca3ede1fe403",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Shame overwhelmed Patrick"
+      ]
+    },
+    {
+      "id": "000119-ca3ede1fe403",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze performed a slow sweep of the carriage."
+      ]
+    },
+    {
+      "id": "000119-ca3ede1fe403",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon exchanged open fields and soft wind for warm plastic and trapped breath."
+      ]
+    },
+    {
+      "id": "000119-77254bd772f7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Pleased beyond measure"
+      ]
+    },
+    {
+      "id": "000119-77254bd772f7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes drifted among the cabinets and over the shop door."
+      ]
+    },
+    {
+      "id": "000119-77254bd772f7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shop smelled of brass and patient silence instead of the road's rain and restless engines."
+      ]
+    },
+    {
+      "id": "000119-6a7dc9f2b9c4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Rage filled Joan"
+      ]
+    },
+    {
+      "id": "000119-6a7dc9f2b9c4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze slid from the hedge to the sky."
+      ]
+    },
+    {
+      "id": "000119-6a7dc9f2b9c4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning had traded warm toast and radio chatter for wet leaves and cold indignation."
+      ]
+    },
+    {
+      "id": "000119-424c42f9b893",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was terribly upset"
+      ]
+    },
+    {
+      "id": "000119-424c42f9b893",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze circled the kitchen, touching every surface."
+      ]
+    },
+    {
+      "id": "000119-424c42f9b893",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room tasted of soggy paper and vanished voices rather than tea and ordinary warmth."
+      ]
+    },
+    {
+      "id": "000119-4e1d5fe1feb3",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Triumphant"
+      ]
+    },
+    {
+      "id": "000119-4e1d5fe1feb3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze fluttered between the coat rack and the desk."
+      ]
+    },
+    {
+      "id": "000119-4e1d5fe1feb3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The office replaced pavement grit and traffic roar with ink and measured footsteps."
+      ]
+    },
+    {
+      "id": "000119-0215c929f585",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt deeply lonely"
+      ]
+    },
+    {
+      "id": "000119-0215c929f585",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes travelled from awning to hedge and back again."
+      ]
+    },
+    {
+      "id": "000119-0215c929f585",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening exchanged the beach's salt and bright cries for damp canvas and the sigh of kettles."
+      ]
+    },
+    {
+      "id": "000119-1f277220b095",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Mick was overwhelmingly grateful"
+      ]
+    },
+    {
+      "id": "000119-1f277220b095",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze roamed the kitchen in widening arcs."
+      ]
+    },
+    {
+      "id": "000119-1f277220b095",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house no longer smelled of hardship and thin soup but cold metal and new possibilities."
+      ]
+    },
+    {
+      "id": "000119-40bc1e241cea",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was full of dread"
+      ]
+    },
+    {
+      "id": "000119-40bc1e241cea",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze floated over the bookcase and settled on the wall."
+      ]
+    },
+    {
+      "id": "000119-40bc1e241cea",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room traded playground shrieks and fresh wind for carpet dust and restrained breathing."
+      ]
+    },
+    {
+      "id": "000119-a727a8dc511c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Elated"
+      ]
+    },
+    {
+      "id": "000119-a727a8dc511c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered over the pavement and up the building."
+      ]
+    },
+    {
+      "id": "000119-a727a8dc511c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The corner now smelled of apples and shared hope rather than litter and forgotten rain."
+      ]
+    },
+    {
+      "id": "000119-59739b84fe20",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt bitter disappointment"
+      ]
+    },
+    {
+      "id": "000119-59739b84fe20",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes drifted from the shelter roof to the opposite wall."
+      ]
+    },
+    {
+      "id": "000119-59739b84fe20",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Night exchanged the town's warm spice and laughter for wet stone and distant engines."
+      ]
+    },
+    {
+      "id": "000119-49789cb97f2f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Contentment filled Alice"
+      ]
+    },
+    {
+      "id": "000119-49789cb97f2f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze made a lazy tour of the room."
+      ]
+    },
+    {
+      "id": "000119-49789cb97f2f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Tuesday traded the city's hard clatter and cold stone for wool and the soft percussion of needles."
+      ]
+    },
+    {
+      "id": "000119-8f1bd17ef95a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was deeply ashamed"
+      ]
+    },
+    {
+      "id": "000119-8f1bd17ef95a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze slipped from cupboard to window and back."
+      ]
+    },
+    {
+      "id": "000119-8f1bd17ef95a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The kitchen offered smoke and bitter failure instead of herbs and welcome warmth."
+      ]
+    },
+    {
+      "id": "000119-8a5420448dc5",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Apprehensive"
+      ]
+    },
+    {
+      "id": "000119-8a5420448dc5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes swept the corridor and returned to the bench."
+      ]
+    },
+    {
+      "id": "000119-8a5420448dc5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The building exchanged traffic fumes and hurried footsteps for polished wood and hushed expectation."
+      ]
+    },
+    {
+      "id": "000119-06f8cfaee3a7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-06f8cfaee3a7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-06f8cfaee3a7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-d6c86df248c5",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d6c86df248c5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-d6c86df248c5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ff51b75d1854",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-ff51b75d1854",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ff51b75d1854",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-284d5352a6a0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-284d5352a6a0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-284d5352a6a0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-c6a85fac2993",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-c6a85fac2993",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-c6a85fac2993",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-dbc29f14c85b",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-dbc29f14c85b",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-dbc29f14c85b",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-3b787a8c3b99",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-3b787a8c3b99",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3b787a8c3b99",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-e351784588d9",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e351784588d9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-e351784588d9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-200f663a010f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-200f663a010f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-200f663a010f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ad20bb0c6b6e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-ad20bb0c6b6e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ad20bb0c6b6e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-fc8e0c8a2ac1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-fc8e0c8a2ac1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-fc8e0c8a2ac1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-cf59209e32b3",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-cf59209e32b3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-cf59209e32b3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-25beea32a8fa",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-25beea32a8fa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-25beea32a8fa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-b5a455c829c7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-b5a455c829c7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-b5a455c829c7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-8e0f02d88fa2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-8e0f02d88fa2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-8e0f02d88fa2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-880c54b54940",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-880c54b54940",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-880c54b54940",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-8e4bb7e0ad24",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-8e4bb7e0ad24",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-8e4bb7e0ad24",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-4206a6c8b208",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-4206a6c8b208",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-4206a6c8b208",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-e386ac984288",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e386ac984288",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-e386ac984288",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-6535de4760fe",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-6535de4760fe",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-6535de4760fe",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-da999f9e5f7c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-da999f9e5f7c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-da999f9e5f7c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ef6191766cba",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-ef6191766cba",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ef6191766cba",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-409222461068",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-409222461068",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-409222461068",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-04016ec1758a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-04016ec1758a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-04016ec1758a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-a3152407d957",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-a3152407d957",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-a3152407d957",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-ae74909bd26e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-ae74909bd26e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-ae74909bd26e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-e46a4a2fa721",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e46a4a2fa721",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-e46a4a2fa721",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-7c3c29d701b8",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-7c3c29d701b8",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-7c3c29d701b8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-fd5c5c0942d7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-fd5c5c0942d7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-fd5c5c0942d7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Indoors, the afternoon traded cut grass and open sky for beeswax and soft cushions."
+      ]
+    },
+    {
+      "id": "000119-43068a6375a1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-43068a6375a1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-43068a6375a1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The office tasted of paper and restrained breath instead of the street's rain and freedom."
+      ]
+    },
+    {
+      "id": "000119-7777f2263768",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-7777f2263768",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-7777f2263768",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Backstage, the evening exchanged bus fumes and rushing shoes for greasepaint and velvet shadows."
+      ]
+    },
+    {
+      "id": "000119-966c2dbc5df2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-966c2dbc5df2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-966c2dbc5df2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room offered coffee and old wood instead of the cemetery's wet stone and silence."
+      ]
+    },
+    {
+      "id": "000119-3380db39f234",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-3380db39f234",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3380db39f234",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The building breathed carpet dust and tired ink rather than spring rain and budding leaves."
+      ]
+    },
+    {
+      "id": "000119-d77845e41025",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d77845e41025",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-d77845e41025",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The garage traded the garden's roses and sunlight for oil and patient metal."
+      ]
+    },
+    {
+      "id": "000119-cd3de8763d5f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-cd3de8763d5f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-cd3de8763d5f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Down here, the day tasted of concrete and trapped air instead of sunshine and open pavements."
+      ]
+    },
+    {
+      "id": "000119-8674cc8f51d6",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-8674cc8f51d6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-8674cc8f51d6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Outside her window, the afternoon exchanged bright market cries and fruit for drizzle and muffled engines."
+      ]
+    },
+    {
+      "id": "000119-f2a6c1b09540",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-f2a6c1b09540",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-f2a6c1b09540",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The studio replaced rain and traffic hiss with earthy warmth and the whisper of aprons."
+      ]
+    },
+    {
+      "id": "000119-bf700510c87a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-bf700510c87a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-bf700510c87a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning had exchanged wet pavements and cold bells for polish and linen."
+      ]
+    },
+    {
+      "id": "000119-56a16550d4a0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-56a16550d4a0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-56a16550d4a0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The archive traded the street's warm bread and bright voices for paper dust and solemn ticking."
+      ]
+    },
+    {
+      "id": "000119-d4b678b3e738",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d4b678b3e738",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-d4b678b3e738",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shop smelled of rubber and stalled hours rather than the road's rain and freedom."
+      ]
+    },
+    {
+      "id": "000119-e72b221b04c2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e72b221b04c2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-e72b221b04c2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The bathroom offered cold porcelain and thin echoes instead of the bedroom's wool and gentle warmth."
+      ]
+    },
+    {
+      "id": "000119-df0696764416",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-df0696764416",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-df0696764416",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening exchanged sharp traffic and cold air for warm paint and quiet concentration."
+      ]
+    },
+    {
+      "id": "000119-2f80039ce24a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-2f80039ce24a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-2f80039ce24a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Her room smelled of clean cotton and reassurance instead of the city's damp coats and haste."
+      ]
+    },
+    {
+      "id": "000119-933fe386466f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-933fe386466f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-933fe386466f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The yard traded sunlight and birdsong for diesel and hard metallic clatter."
+      ]
+    },
+    {
+      "id": "000119-838610bf0fe5",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-838610bf0fe5",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-838610bf0fe5",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The office exchanged street wind and restless horns for stale coffee and keyboard rain."
+      ]
+    },
+    {
+      "id": "000119-a8af905f3336",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-a8af905f3336",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-a8af905f3336",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The kitchen no longer tasted of breakfast and ordinary life but cold tea and waiting silence."
+      ]
+    },
+    {
+      "id": "000119-83eba404078e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-83eba404078e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-83eba404078e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The reading room offered dust and muted coughs instead of the town's rain and ringing bicycles."
+      ]
+    },
+    {
+      "id": "000119-315f7ed15b74",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-315f7ed15b74",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-315f7ed15b74",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat exchanged traffic's harsh breath for shampoo and soft domestic humming."
+      ]
+    },
+    {
+      "id": "000119-3ce18178356d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-3ce18178356d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-3ce18178356d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The centre breathed floor polish and low voices rather than playground wind and bright shouting."
+      ]
+    },
+    {
+      "id": "000119-00bcebcaa9ed",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-00bcebcaa9ed",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-00bcebcaa9ed",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Afternoon traded garden soil and humming bees for cardboard and papery farewells."
+      ]
+    },
+    {
+      "id": "000119-9677ed20f731",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-9677ed20f731",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-9677ed20f731",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The booth tasted of warm plastic and trapped words instead of the pavement's rain and passing voices."
+      ]
+    },
+    {
+      "id": "000119-70e6ecf81ddd",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-70e6ecf81ddd",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-70e6ecf81ddd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The hallway exchanged the garden's cool grass for old wool and patient dust."
+      ]
+    },
+    {
+      "id": "000119-94c173f31be6",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-94c173f31be6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-94c173f31be6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The office offered warm toner and restrained murmurs instead of the street's cold rain and hurried shoes."
+      ]
+    },
+    {
+      "id": "000119-8c5f5a6f3be2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-8c5f5a6f3be2",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-8c5f5a6f3be2",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside, the afternoon tasted of old timber and quiet linen rather than gravel and restless wind."
+      ]
+    },
+    {
+      "id": "000119-7919a3f631d3",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-7919a3f631d3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000119-7919a3f631d3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Upstairs, the evening exchanged cinnamon and golden chatter for damp plaster and shadowed silence."
+      ]
+    },
+    {
+      "id": "000119-e7e9858c8302",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e7e9858c8302",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her brother's gaze wandered from the cupboard to the ceiling."
+      ]
+    },
+    {
+      "id": "000119-e7e9858c8302",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-331bded1f3ab",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-331bded1f3ab",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze floated across the room and back to the desk."
+      ]
+    },
+    {
+      "id": "000119-331bded1f3ab",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-c65dab9be8cd",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-c65dab9be8cd",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes drifted from the filing cabinet to the wall."
+      ]
+    },
+    {
+      "id": "000119-c65dab9be8cd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-99bafbc08d50",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-99bafbc08d50",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze circled the hallway."
+      ]
+    },
+    {
+      "id": "000119-99bafbc08d50",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-4a1ca8256e54",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-4a1ca8256e54",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze travelled between the window and the bookcase."
+      ]
+    },
+    {
+      "id": "000119-4a1ca8256e54",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-288ce4c02e2d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-288ce4c02e2d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes swept the kitchen and returned to the table."
+      ]
+    },
+    {
+      "id": "000119-288ce4c02e2d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-d10594fd37ce",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d10594fd37ce",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze meandered over the waiting-room walls."
+      ]
+    },
+    {
+      "id": "000119-d10594fd37ce",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-d190db4f9413",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d190db4f9413",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her father's gaze drifted from the kettle to the door."
+      ]
+    },
+    {
+      "id": "000119-d190db4f9413",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-b4f066bad89e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-b4f066bad89e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The manager's eyes made a slow tour of the stockroom."
+      ]
+    },
+    {
+      "id": "000119-b4f066bad89e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-b58d2cd560c0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-b58d2cd560c0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze slid up the wall and across the ceiling."
+      ]
+    },
+    {
+      "id": "000119-b58d2cd560c0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-93f0fcd46603",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-93f0fcd46603",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze wandered across the ticket office."
+      ]
+    },
+    {
+      "id": "000119-93f0fcd46603",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-eeb7d5719a4c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-eeb7d5719a4c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes roved among the shelves."
+      ]
+    },
+    {
+      "id": "000119-eeb7d5719a4c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-2f50095b8827",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-2f50095b8827",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The coach's gaze floated between the lockers and the bench."
+      ]
+    },
+    {
+      "id": "000119-2f50095b8827",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-7eeac4f67d21",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-7eeac4f67d21",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze skated over the office furniture."
+      ]
+    },
+    {
+      "id": "000119-7eeac4f67d21",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-c94f6ec968c4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-c94f6ec968c4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze made a circuit of the room."
+      ]
+    },
+    {
+      "id": "000119-c94f6ec968c4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-32af23509245",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-32af23509245",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze bounced between the stable wall and the doorway."
+      ]
+    },
+    {
+      "id": "000119-32af23509245",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-2d1ffa95805c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-2d1ffa95805c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her eyes travelled from window to desk and back."
+      ]
+    },
+    {
+      "id": "000119-2d1ffa95805c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-b6ffde339695",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-b6ffde339695",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze ambled over the kitchen cupboards."
+      ]
+    },
+    {
+      "id": "000119-b6ffde339695",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-2d608cb73ca7",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-2d608cb73ca7",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted across the lamp and the curtains."
+      ]
+    },
+    {
+      "id": "000119-2d608cb73ca7",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-b246c3412374",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-b246c3412374",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The chairwoman's gaze traced the room's perimeter."
+      ]
+    },
+    {
+      "id": "000119-b246c3412374",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-bdfc12f03c86",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-bdfc12f03c86",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My supervisor's eyes drifted from wall to wall."
+      ]
+    },
+    {
+      "id": "000119-bdfc12f03c86",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-54a38f67fd3f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-54a38f67fd3f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze floated over the restaurant tables."
+      ]
+    },
+    {
+      "id": "000119-54a38f67fd3f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-8f07d0acf2b8",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-8f07d0acf2b8",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze moved from the plant to the ceiling and back."
+      ]
+    },
+    {
+      "id": "000119-8f07d0acf2b8",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-d78e92aba524",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d78e92aba524",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze rolled slowly over the kitchen walls."
+      ]
+    },
+    {
+      "id": "000119-d78e92aba524",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-9c68579ee041",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-9c68579ee041",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes wandered over the dashboard and side window."
+      ]
+    },
+    {
+      "id": "000119-9c68579ee041",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-a2e08b66b083",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-a2e08b66b083",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze followed an aimless path around the sitting room."
+      ]
+    },
+    {
+      "id": "000119-a2e08b66b083",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-2304e6349df0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-2304e6349df0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze slid from the hallway to the stairs and back."
+      ]
+    },
+    {
+      "id": "000119-2304e6349df0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-7d109e1b6713",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-7d109e1b6713",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze made a slow circuit of the garage."
+      ]
+    },
+    {
+      "id": "000119-7d109e1b6713",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000119-9e8392716627",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-9e8392716627",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted from the hedge to the sky."
+      ]
+    },
+    {
+      "id": "000119-9e8392716627",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The garden exchanged roses and summer humming for damp soil and winter silence."
+      ]
+    },
+    {
+      "id": "000119-e81c074b052e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e81c074b052e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes wandered over the station wall."
+      ]
+    },
+    {
+      "id": "000119-e81c074b052e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside the bus, the day traded rain and rattling leaves for warm vinyl and tired breath."
+      ]
+    },
+    {
+      "id": "000119-76cc67dd69e4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-76cc67dd69e4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze floated between the mantel and the door."
+      ]
+    },
+    {
+      "id": "000119-76cc67dd69e4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room offered ash and vanished suppers instead of the courtyard's rain and living voices."
+      ]
+    },
+    {
+      "id": "000119-a9bb765685c4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-a9bb765685c4",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze travelled across the office ceiling."
+      ]
+    },
+    {
+      "id": "000119-a9bb765685c4",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon exchanged street wind and bright voices for toner and the soft rain of keyboards."
+      ]
+    },
+    {
+      "id": "000119-878812d9157c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-878812d9157c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes made a slow loop around the hall."
+      ]
+    },
+    {
+      "id": "000119-878812d9157c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The wedding tasted of sugar and crowded warmth rather than spring grass and open skies."
+      ]
+    },
+    {
+      "id": "000119-30d14fea41c3",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-30d14fea41c3",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze slid over the cupboards and up to the ceiling."
+      ]
+    },
+    {
+      "id": "000119-30d14fea41c3",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house exchanged the street's sharp rain for old wool and hushed breathing."
+      ]
+    },
+    {
+      "id": "000119-e079bfd3c299",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e079bfd3c299",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted among the chairs and the windows."
+      ]
+    },
+    {
+      "id": "000119-e079bfd3c299",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The meeting room traded the market's fruit and open voices for stale biscuits and careful silence."
+      ]
+    },
+    {
+      "id": "000119-459a56b5e2fc",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-459a56b5e2fc",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The volunteer's gaze wandered across the desk and back."
+      ]
+    },
+    {
+      "id": "000119-459a56b5e2fc",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "In the booth, evening replaced wet streets and impatient horns with warm plastic and muted words."
+      ]
+    },
+    {
+      "id": "000119-e4948e2c20f9",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-e4948e2c20f9",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes skimmed the tables and returned to the bar."
+      ]
+    },
+    {
+      "id": "000119-e4948e2c20f9",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room exchanged cold pavement and hard rain for beer and amber murmurs."
+      ]
+    },
+    {
+      "id": "000119-55802ab40a5a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-55802ab40a5a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze floated across the kitchen wall."
+      ]
+    },
+    {
+      "id": "000119-55802ab40a5a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house no longer tasted of weekday hurry and burnt toast but paint and quiet celebration."
+      ]
+    },
+    {
+      "id": "000119-3cd522492192",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-3cd522492192",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze travelled from radiator to curtain."
+      ]
+    },
+    {
+      "id": "000119-3cd522492192",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room offered clean linen and restrained voices rather than the road's petrol and haste."
+      ]
+    },
+    {
+      "id": "000119-d0503106f3a0",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d0503106f3a0",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze wandered among the mirrors."
+      ]
+    },
+    {
+      "id": "000119-d0503106f3a0",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shop traded sunshine and passing laughter for silk and hushed possibility."
+      ]
+    },
+    {
+      "id": "000119-3ae294d2ba5d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-3ae294d2ba5d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My manager's gaze swept the office from end to end."
+      ]
+    },
+    {
+      "id": "000119-3ae294d2ba5d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Morning exchanged fresh air and bicycle bells for stale coffee and keyboard whispers."
+      ]
+    },
+    {
+      "id": "000119-ead8e1fa939d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-ead8e1fa939d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze circled the cafe."
+      ]
+    },
+    {
+      "id": "000119-ead8e1fa939d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon tasted of grounds and small silences instead of rain and open streets."
+      ]
+    },
+    {
+      "id": "000119-212450e40191",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-212450e40191",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes drifted from the folders to the door."
+      ]
+    },
+    {
+      "id": "000119-212450e40191",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The archive exchanged the square's bright wind and pigeons for old paper and patient dust."
+      ]
+    },
+    {
+      "id": "000119-05c96a9ad55d",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-05c96a9ad55d",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "The tutor's gaze ambled across the workbenches."
+      ]
+    },
+    {
+      "id": "000119-05c96a9ad55d",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The shed replaced town's hard noise and exhaust with shavings and warm resin."
+      ]
+    },
+    {
+      "id": "000119-9280cb291862",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-9280cb291862",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His gaze floated from lane rope to roof."
+      ]
+    },
+    {
+      "id": "000119-9280cb291862",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Inside, winter's frost and brittle leaves gave way to chlorine and wavering echoes."
+      ]
+    },
+    {
+      "id": "000119-c74ac6af402e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-c74ac6af402e",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze travelled around the landing."
+      ]
+    },
+    {
+      "id": "000119-c74ac6af402e",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The house traded street rain and rushing wheels for old carpet and closed-door murmurs."
+      ]
+    },
+    {
+      "id": "000119-a57f997a618a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-a57f997a618a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted across the blinds."
+      ]
+    },
+    {
+      "id": "000119-a57f997a618a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The interview room tasted of cold plastic and stale hours instead of rain and passing voices."
+      ]
+    },
+    {
+      "id": "000119-0be896ec2ffd",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-0be896ec2ffd",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes wandered over the rafters and back down."
+      ]
+    },
+    {
+      "id": "000119-0be896ec2ffd",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The place exchanged the street's diesel and haste for sawdust and patient light."
+      ]
+    },
+    {
+      "id": "000119-d1d9876f6f2a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-d1d9876f6f2a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze slid across the wardrobe doors."
+      ]
+    },
+    {
+      "id": "000119-d1d9876f6f2a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The bedroom offered wool and faded perfume instead of the garden's rain and growing things."
+      ]
+    },
+    {
+      "id": "000119-cedb201ab53c",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-cedb201ab53c",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze made an idle circuit of the kitchen."
+      ]
+    },
+    {
+      "id": "000119-cedb201ab53c",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The afternoon exchanged open windows and birdsong for flour dust and the low hum of work."
+      ]
+    },
+    {
+      "id": "000119-14e6ada69882",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-14e6ada69882",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes travelled between the wall and the ceiling."
+      ]
+    },
+    {
+      "id": "000119-14e6ada69882",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The flat traded stairwell damp and echoing shoes for warm dust and domestic quiet."
+      ]
+    },
+    {
+      "id": "000119-c50f45749c86",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-c50f45749c86",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His sister's gaze roamed across the station cafe."
+      ]
+    },
+    {
+      "id": "000119-c50f45749c86",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room offered coffee and small clinks instead of the platform's cold iron and restless wind."
+      ]
+    },
+    {
+      "id": "000119-f2c2648d7d91",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-f2c2648d7d91",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze skimmed the marquee and returned to the table."
+      ]
+    },
+    {
+      "id": "000119-f2c2648d7d91",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The fair exchanged morning grass and birdsong for sugar and the warm clatter of crowds."
+      ]
+    },
+    {
+      "id": "000119-0c0b82c96fb6",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-0c0b82c96fb6",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze floated across the dashboard."
+      ]
+    },
+    {
+      "id": "000119-0c0b82c96fb6",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The car traded rain and restless pavement noise for warm fabric and the engine's quiet promise."
+      ]
+    },
+    {
+      "id": "000119-9ab1333ffe74",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-9ab1333ffe74",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My friend's gaze wandered from the lamp to the curtains."
+      ]
+    },
+    {
+      "id": "000119-9ab1333ffe74",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The room exchanged wet streets and bright shop windows for tea and the soft rustle of old photographs."
+      ]
+    },
+    {
+      "id": "000119-c5266bc78def",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-c5266bc78def",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze drifted over the worktops and up to the ceiling."
+      ]
+    },
+    {
+      "id": "000119-c5266bc78def",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning traded cold rain and traffic hiss for flour and gentle kettle song."
+      ]
+    },
+    {
+      "id": "000119-3fe1b45ee962",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000119-3fe1b45ee962",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Owen's gaze made a slow journey around the sitting room."
+      ]
+    },
+    {
+      "id": "000119-3fe1b45ee962",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Evening replaced the street's hard stone and hurried brakes with linen and the soft hush of home."
       ]
     }
   ]
