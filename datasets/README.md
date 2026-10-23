@@ -155,6 +155,19 @@ Corrected development uses four to fourteen passages per combination, including 
 
 The protected overlap audit finds zero candidates against prior datasets. Conservative review identifies at least 52 unseen central cliche constructions among the 100 holdout positives. Keep holdout writing outside prompt development; its model evaluation requires separate authorization.
 
+## Excessive-Hedging Sets
+
+Four collections contain 800 passages and 1,600 judgments. Every evaluated check has 100 hits and 100 no-hits in each split and collection.
+
+- Hedge stacking: [development](ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md) and [protected holdout](ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md).
+- Mixed hedging, vague attribution and inflated evaluation: [development](ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md) and [protected holdout](ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md).
+
+Each mixed set covers all eight combinations with 25 passages each. Three independent full reviews precede selection; all 92 required cases and 68 legacy vocabulary slots per collection remain represented.
+
+The complete reviewed pools preserve 160 surplus passages with their labels in Git: isolated development at `93be1e7f`, mixed development at `44f8782d`, and both holdouts at `8b80d26f`. Split-specific excessive-hedging review records under `runners/results/` distinguish valid reviews, superseded attempts and selections.
+
+The [development report](../runners/results/excessive-hedging-v18-development.md) records the bounded prompt search and one fresh confirmation. Hedging meets the fixed development limits on isolated and mixed data; the two frozen comparator checks fail their limits on these new mixed passages. User review is pending. Use development for prompt authoring; holdout model evaluation requires separate authorization.
+
 ## Commands
 
 ```sh

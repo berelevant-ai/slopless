@@ -1,0 +1,689 @@
+{
+  "family": "excessive-hedging",
+  "split": "holdout",
+  "protected": true,
+  "status": "Balanced protected holdouts frozen after three clean full reviews per collection. Model inference awaits separate authorization.",
+  "collections": {
+    "isolated": "000054",
+    "mixed": "000056"
+  },
+  "instructions": "Keep passages, labels, snippets and case-specific review outside prompt-authoring contexts. Parent receives aggregate review and integrity results. Holdout inference requires separate authorization.",
+  "pilotReview": {
+    "reviewer": {
+      "role": "Independent protected holdout pilot blind reviewer",
+      "threadId": "01a1658b-4fc6-7782-93de-c67d4f42f7fb"
+    },
+    "frozenDefinitionCommit": "d3ba42a2",
+    "sources": {
+      "blindReview": {
+        "path": "/tmp/hedging-v18-holdout-pilot-blind-review.json",
+        "sha256": "c8f0b2ba28bf5ecdad290b748967fea903326534bafccc2e2f64a189d84678b2"
+      },
+      "000054": {
+        "blindInput": {
+          "path": "/tmp/000054-holdout-pilot-v18-blind-input.json",
+          "sha256": "d2dae54aea79470dda7ec6a2e6a0a38ace699ff9d982ca76f21ba2d142d6da07"
+        },
+        "author": {
+          "path": "/tmp/000054-holdout-pilot-v18.json",
+          "sha256": "723d846d46e053f996a0abdf147eb3f2b8c080408ccd6cef001041dc20e3f7f4"
+        },
+        "reviewedR2": {
+          "path": "/tmp/000054-holdout-pilot-v18-reviewed-r2.json",
+          "sha256": "506b0285fde2f21483b1796be55bc5b8a1b70234ec4ae7dfa98a54485b21c451"
+        }
+      },
+      "000056": {
+        "blindInput": {
+          "path": "/tmp/000056-holdout-pilot-v18-blind-input.json",
+          "sha256": "d0be03a2d301a0f0cf576f814684a9f779c405b21cfd3a8a4c84e8e68cf29d2b"
+        },
+        "author": {
+          "path": "/tmp/000056-holdout-pilot-v18.json",
+          "sha256": "30f968366dc40755e0689cb3c1faa37ddc5fbb7fa4bd463777551b145c285618"
+        },
+        "reviewed": {
+          "path": "/tmp/000056-holdout-pilot-v18-reviewed.json",
+          "sha256": "2f0c64bb37c562f24c5d279a1fb0f0db4692022a3452f98084f68c00e4f1be9a"
+        }
+      }
+    },
+    "counts": {
+      "passages": 36,
+      "judgments": 68,
+      "labelAgreements": 68,
+      "labelDisagreements": 0,
+      "classificationChanges": 0,
+      "hitJudgments": 34,
+      "noHitJudgments": 34
+    },
+    "snippetBoundaries": {
+      "comparedHitJudgments": 34,
+      "exactAgreements": 1,
+      "exactDifferences": 33,
+      "semanticDisagreements": 0,
+      "approvedRefinementsFromAuthor": 9,
+      "approvedChangesFromBlind": 32
+    },
+    "proseCorrectionCount": 1,
+    "correctedPassageRereviewComplete": true,
+    "mandatoryPilotIDs": [
+      "000054-9d7cdecc4c3b",
+      "000054-bf9b71016d73",
+      "000054-da4c76b71193",
+      "000054-9be517a7e6d8",
+      "000054-b02bb1d87826",
+      "000054-1e90dab0c2a6",
+      "000054-b933b16ba72e",
+      "000054-721963c18491",
+      "000054-c22b29791326",
+      "000054-d832f83ffd9c",
+      "000054-8a3c48d9712b",
+      "000054-058907a2a987",
+      "000054-81db838149c0",
+      "000054-dfdbe02afaf3",
+      "000054-264aee8330e6",
+      "000054-f0cd14d23d46",
+      "000054-e8a238fc083d",
+      "000054-1b8e33dd649b",
+      "000054-d9ebf4894b9d",
+      "000054-b57468ca6b01",
+      "000056-8f30674d45b3",
+      "000056-e42be5781825",
+      "000056-74c7583b9502",
+      "000056-571e80acfb1d",
+      "000056-4005de8097de",
+      "000056-9379abaa05b0",
+      "000056-d1f12a4f84c1",
+      "000056-ccb9bb66a4c4",
+      "000056-2f8e0f265b21",
+      "000056-b07ee71dafb7",
+      "000056-61590ccc735e",
+      "000056-1090e6c12f05",
+      "000056-9cf1c63a74ab",
+      "000056-a2e3b9ada7e4",
+      "000056-3bd8bfd3962e",
+      "000056-1bf5d66cada8"
+    ],
+    "unresolvedDisputeCount": 0,
+    "pendingCorrectionCount": 0,
+    "finalPilotReadiness": "approved",
+    "nextStep": "Full-pool generation.",
+    "fullReviewsPending": 3,
+    "protectedReconciliation": {
+      "path": "/tmp/hedging-v18-holdout-pilot-reconciliation.json",
+      "sha256": "c1dca00a585ee4db87f94286d5f80749ab34d6cbdce184b4fd8336902dde687a"
+    }
+  },
+  "authorPools": [
+    {
+      "collection": "000054",
+      "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+      "textSha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
+      "labelsSha256": "fea2cf06ef86b8cfaa2c392175e9b6e0a39bf88271ead39bde924a16b8042b6b",
+      "authorPath": "/tmp/000054-holdout-fullpool-v18.json",
+      "authorSha256": "ae93dc2e0040949482e791966f5d6cbf2261bfd1970e96f75e4247abd53b6174",
+      "qaPath": "/tmp/000054-holdout-fullpool-v18-qa.json",
+      "qaSha256": "0ffa21645513a5f3bf30ce82e9c8c96e7d56fea95a3bb86035032aa208afca2f",
+      "passages": 240,
+      "judgments": 240,
+      "mandatoryPilots": [
+        "000054-264aee8330e6",
+        "000054-dfdbe02afaf3",
+        "000054-9d7cdecc4c3b",
+        "000054-b57468ca6b01",
+        "000054-9be517a7e6d8",
+        "000054-d9ebf4894b9d",
+        "000054-b933b16ba72e",
+        "000054-058907a2a987",
+        "000054-d832f83ffd9c",
+        "000054-bf9b71016d73",
+        "000054-f0cd14d23d46",
+        "000054-da4c76b71193",
+        "000054-e8a238fc083d",
+        "000054-721963c18491",
+        "000054-1e90dab0c2a6",
+        "000054-81db838149c0",
+        "000054-b02bb1d87826",
+        "000054-1b8e33dd649b",
+        "000054-c22b29791326",
+        "000054-8a3c48d9712b"
+      ],
+      "sourceSlotsCovered": 68,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 120,
+          "noHits": 120
+        }
+      }
+    },
+    {
+      "collection": "000056",
+      "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+      "textSha256": "4f6eecf375f8f9bf287efca26fb0eb315fced250ac87bc45f7c22ba7da7d8689",
+      "labelsSha256": "1a1acaac2d58e3adf8cc9eb3edbc7e04473568e9b43b39bfc6adfdc37d9e5b18",
+      "authorPath": "/tmp/000056-holdout-fullpool-v18.json",
+      "authorSha256": "3d736e091c428aff341861381d60332bb96c691f0455973b89efb6582daff523",
+      "qaPath": "/tmp/000056-holdout-fullpool-v18-qa.json",
+      "qaSha256": "2c47985147345cfde803a08dcb37a2ee137f8afb24a9abd7b7702f4776132729",
+      "passages": 240,
+      "judgments": 720,
+      "mandatoryPilots": [
+        "000056-74c7583b9502",
+        "000056-1bf5d66cada8",
+        "000056-2f8e0f265b21",
+        "000056-4005de8097de",
+        "000056-ccb9bb66a4c4",
+        "000056-61590ccc735e",
+        "000056-1090e6c12f05",
+        "000056-3bd8bfd3962e",
+        "000056-a2e3b9ada7e4",
+        "000056-9379abaa05b0",
+        "000056-b07ee71dafb7",
+        "000056-e42be5781825",
+        "000056-9cf1c63a74ab",
+        "000056-d1f12a4f84c1",
+        "000056-571e80acfb1d",
+        "000056-8f30674d45b3"
+      ],
+      "sourceSlotsCovered": 68,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 120,
+          "noHits": 120
+        }
+      }
+    }
+  ],
+  "authorPoolCopyAudit": {
+    "stage": "240-candidate author pools before full review",
+    "verifierSha256": "91fd3426b13de77869c3305499288aad33733c0f69d23a3a811321e212f17f53",
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. New cross-split pairs plus prior datasets; unsplit references checked against both splits.",
+    "newInputs": 960,
+    "priorDocuments": 15697,
+    "referenceInputs": 306786,
+    "pairs": 289437600,
+    "shortComparisons": 817371,
+    "candidates": 0,
+    "exact": 0,
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+        "sha256": "bc47bc2dcd901c3bd9cd680fb598211df40d2445aa31f7cb3c0082edbbd55342",
+        "labelsSha256": "ee1b2190009c26852e8e4a237b13afc483c842db7d89aee4f3cd9a3f081c71ee"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+        "sha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
+        "labelsSha256": "fea2cf06ef86b8cfaa2c392175e9b6e0a39bf88271ead39bde924a16b8042b6b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+        "sha256": "ff60350361458862fba30868f77d1fb98942b254588b8fa819c41faadae9cfd6",
+        "labelsSha256": "5fab844e8f24d8e76fc61cccf6fb085c3cacff6dc3c8c9bcbae3b74885ec00c1"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+        "sha256": "4f6eecf375f8f9bf287efca26fb0eb315fced250ac87bc45f7c22ba7da7d8689",
+        "labelsSha256": "1a1acaac2d58e3adf8cc9eb3edbc7e04473568e9b43b39bfc6adfdc37d9e5b18"
+      }
+    ],
+    "priorSourcesSha256": "b3c3542a44025397583d0f5c8916dbf26446113f6d572926becdcfb59fec48d1",
+    "reportSha256": "50698c7cd43510c54fdaef24e0d19cc4896a0230b348efaa245f54780a9e561d",
+    "initialHarnessRepair": "The copied final-subset guards expected 100/100; both guards were corrected to the current 120/120 pools before the successful rerun. No dataset or detector changes.",
+    "snapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8"
+  },
+  "authorPoolSnapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8",
+  "invalidatedReviews": [
+    {
+      "collection": "000054",
+      "pass": 3,
+      "reviewer": "01a165ba-72b6-7082-8e46-58d59c84a8fd",
+      "reportPath": "/tmp/000054-holdout-fullpool-v18-final-review-r3.json",
+      "reportSha256": "1f8d15693dfeb6cdb60b350e3ba51c3d619d84ef6e7dc0e0099db5d19689843e",
+      "outputPath": "/tmp/000054-holdout-fullpool-v18-reviewed-r3.json",
+      "outputSha256": "6079d22acc6ed8de9ab55aafa9ae94a051d0b67973c0196d068fc7d2c1bbf1d9",
+      "reason": "Overly broad git-show reads returned development review material and unrelated model-result summaries before classification.",
+      "coverage": 240,
+      "attemptedLabelCorrections": 5,
+      "acceptedLabelCorrections": 0,
+      "disposition": "Exclude the entire attempted pass and output. Repeat all 240 rows in a fresh protected context from unchanged pass-2 input.",
+      "replacementReviewer": "01a165c4-3f62-7770-81c8-13cf91677b61",
+      "replacementInputPath": "/tmp/000054-holdout-fullpool-v18-reviewed-r2.json",
+      "replacementInputSha256": "d3b415491c9d9f155c1dc3f61c3b90a8b36ea4f28e64362c1cbbdcddc0b963aa",
+      "definitionPath": "/tmp/hedging-v18-definition-only.md",
+      "definitionSha256": "ce8036f0200a094be5d9ed7914275f495d77ad637584f2a2d845b9cc64057a44",
+      "status": "Fresh full repeat running; no failed-pass changes installed in root datasets."
+    },
+    {
+      "collection": "000054",
+      "pass": 1,
+      "reportPath": "/tmp/000054-holdout-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "6c504033e68b975322a8e29c10849ff1cc27803e94d83b21ce1f63d9c65bc436",
+      "reason": "Unassigned public taxonomy definitions were displayed before blind classification; repeat under the strict file allowlist.",
+      "disposition": "Preserve as superseded evidence; exclude its judgments from the required three protected review passes.",
+      "acceptedOutputInstalled": false
+    },
+    {
+      "collection": "000054",
+      "pass": 2,
+      "reportPath": "/tmp/000054-holdout-fullpool-v18-adversarial-r2.json",
+      "reportSha256": "6876a5e523e98674deddf12113816143a158a12fea0b3441e4730b317c9e8a53",
+      "reason": "Overbroad taxonomy search displayed development review summaries and aggregate model results.",
+      "disposition": "Preserve as superseded evidence; exclude its judgments from the required three protected review passes.",
+      "acceptedOutputInstalled": false
+    },
+    {
+      "collection": "000056",
+      "pass": 1,
+      "reportPath": "/tmp/000056-holdout-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "306696d077a5c9891e9603e2f96c75a5ea205f73b5f65e4bc4501424efb5e15a",
+      "reason": "Whole-taxonomy and broad-keyword searches displayed unassigned definitions, development summaries and model-result summaries before blind classification.",
+      "disposition": "Preserve as superseded evidence; exclude its judgments from the required three protected review passes.",
+      "acceptedOutputInstalled": false
+    },
+    {
+      "collection": "000056",
+      "pass": 2,
+      "reportPath": "/tmp/000056-holdout-fullpool-v18-adversarial-r2.json",
+      "reportSha256": "f51e294e0398d617a1b715b94de861e11c0f41226836169e8b58cde16e3131fa",
+      "reason": "Overbroad taxonomy extraction displayed development summaries and aggregate model-result summaries.",
+      "disposition": "Preserve as superseded evidence; exclude its judgments from the required three protected review passes.",
+      "acceptedOutputInstalled": false
+    },
+    {
+      "collection": "000056",
+      "pass": 3,
+      "reportPath": "/tmp/000056-holdout-fullpool-v18-final-review-r3.json",
+      "reportSha256": "8181cd451309223b18c7f91757a2b7798da8578471dd6c811bca6c0774e84b5f",
+      "reason": "Initial taxonomy search displayed aggregate model-result summaries; the reviewer declined independent certification.",
+      "disposition": "Preserve as superseded evidence; exclude its judgments from the required three protected review passes.",
+      "acceptedOutputInstalled": false
+    }
+  ],
+  "protectedReviewRestart": {
+    "status": "Complete: both holdout collections have three clean full reviews.",
+    "reason": "The instruction to read only selected taxonomy sections was not enforced by the original retrieval commands.",
+    "operation": "Provide pre-extracted immutable definition files, prohibit Git and taxonomy access, and repeat complete protected reviews in fresh contexts.",
+    "isolatedDefinition": {
+      "path": "/tmp/hedging-v18-definition-only.md",
+      "sha256": "ce8036f0200a094be5d9ed7914275f495d77ad637584f2a2d845b9cc64057a44"
+    },
+    "mixedDefinitions": {
+      "path": "/tmp/hedging-v18-mixed-definitions-only.md",
+      "sha256": "bc46e7dc4cbdeac5a72b027040ca257118a6e46af8afb514e0447e076edad56e"
+    },
+    "writingChanged": false,
+    "modelCalls": 0,
+    "oldPassesCountTowardCompletion": false
+  },
+  "completedCleanFullPools": [
+    {
+      "collection": "000054",
+      "validReviewPasses": 3,
+      "status": "Clean reviewed pool ready for archived balanced selection",
+      "passages": 240,
+      "judgments": 240,
+      "hits": 116,
+      "noHits": 124,
+      "literalSnippets": 137,
+      "finalReviewPath": "/tmp/000054-holdout-fullpool-v18-clean-final-review-r3c.json",
+      "finalReviewSha256": "844563b12f2921399544470bea11fe081f1fff19af54513986cee70c58192d0d",
+      "finalRawPath": "/tmp/000054-holdout-fullpool-v18-clean-reviewed-r3c.json",
+      "finalRawSha256": "3c5699e9b34d944f9ab09c8a16313df201b953a5b2c1575debd3719914dddfb8",
+      "textSha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
+      "labelsSha256": "b3a882ec72a26b75150f91cb989481581417e1572271aa5b6e7f688d2fbdcd67",
+      "mandatoryIds": [
+        "000054-15b86335ca1c",
+        "000054-027c14fe63a4",
+        "000054-785d6facd634",
+        "000054-090507fcf521",
+        "000054-0c3750f783ae",
+        "000054-1b49722a738c",
+        "000054-38210840c215",
+        "000054-04605e75e618"
+      ],
+      "remainingIssues": 0,
+      "holdoutInference": false,
+      "cleanReviewSources": [
+        {
+          "path": "/tmp/000054-holdout-fullpool-v18-clean-reconciliation-r1b.json",
+          "sha256": "b23c4c9d947eceb2710966ff2af04412513aa96ab4875a622a25f43bd99404c1"
+        },
+        {
+          "path": "/tmp/000054-holdout-fullpool-v18-adversarial-r2c.json",
+          "sha256": "e8f0ec7a34c435c3bd0a353eadb832fbdd343d17708be2adc438b60a11f9bed1"
+        },
+        {
+          "path": "/tmp/000054-holdout-fullpool-v18-clean-final-review-r3c.json",
+          "sha256": "844563b12f2921399544470bea11fe081f1fff19af54513986cee70c58192d0d"
+        }
+      ],
+      "archiveCommit": "8b80d26f5a91ae16b349eb6a020ce62c5da0ebb0"
+    },
+    {
+      "collection": "000056",
+      "validReviewPasses": 3,
+      "status": "Clean reviewed mixed pool ready for archived balanced selection",
+      "passages": 240,
+      "judgments": 720,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 121,
+          "noHits": 119
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 118,
+          "noHits": 122
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 119,
+          "noHits": 121
+        }
+      },
+      "authorLabelCorrections": {
+        "trueToFalse": 3,
+        "falseToTrue": 1
+      },
+      "finalReviewPath": "/tmp/000056-holdout-fullpool-v18-clean-final-review-r3d.json",
+      "finalReviewSha256": "e43b45a7fd10a0d01c2309738344fbb52044cd697458b26bef806caaffe828a0",
+      "finalRawPath": "/tmp/000056-holdout-fullpool-v18-clean-reviewed-r3d.json",
+      "finalRawSha256": "9786ffb33f7524e56e470b82a3016dcde1bb82074a248758ff723281e7bb8696",
+      "textSha256": "4f6eecf375f8f9bf287efca26fb0eb315fced250ac87bc45f7c22ba7da7d8689",
+      "labelsSha256": "9fa8108f6a6ccab47f071de3df5caaba7d25d5446893ab2b52fc004ff94c1702",
+      "mandatoryIds": [
+        "000056-7b3b8378f93d",
+        "000056-4a08936d3940",
+        "000056-15c369fdcad8",
+        "000056-19872b9051aa"
+      ],
+      "remainingIssues": 0,
+      "holdoutInference": false,
+      "cleanReviewSources": [
+        {
+          "path": "/tmp/000056-holdout-fullpool-v18-clean-reconciliation-r1b.json",
+          "sha256": "59a1787f16706e9d1f7107c81a4b9a2f296c9f166b46e558b967fb1ff2249f50"
+        },
+        {
+          "path": "/tmp/000056-holdout-fullpool-v18-clean-adversarial-r2d.json",
+          "sha256": "cb60c027c429f1b1559f8498d02a476de68312d21341935b4f656a21f49d3436"
+        },
+        {
+          "path": "/tmp/000056-holdout-fullpool-v18-clean-final-review-r3d.json",
+          "sha256": "e43b45a7fd10a0d01c2309738344fbb52044cd697458b26bef806caaffe828a0"
+        }
+      ],
+      "archiveCommit": "8b80d26f5a91ae16b349eb6a020ce62c5da0ebb0"
+    }
+  ],
+  "userReview": "pending",
+  "supersededFullReviewPass1": [
+    {
+      "collection": "000054",
+      "reportPath": "/tmp/000054-holdout-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "6c504033e68b975322a8e29c10849ff1cc27803e94d83b21ce1f63d9c65bc436",
+      "counts": {
+        "total": 240,
+        "labelAgreements": 240,
+        "labelDisagreements": 0,
+        "hits": 120,
+        "noHits": 120,
+        "hitSnippetExactAgreements": 23,
+        "snippetBoundaryDifferences": 97,
+        "snippetSemanticDifferences": 0,
+        "noHitSnippetOmissions": 120,
+        "approvedRowsPass1": 240,
+        "proposedLabelChanges": 0,
+        "proposedSnippetChanges": 0,
+        "proposedTextChanges": 0,
+        "existingRepairsRetained": 120,
+        "additionalProseFixes": 0,
+        "uncertainCases": 1,
+        "remainingDisputes": 1
+      },
+      "phase": "Blind classification and subsequent author comparison",
+      "remainingIndependentFullReviews": 2
+    },
+    {
+      "collection": "000056",
+      "reportPath": "/tmp/000056-holdout-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "306696d077a5c9891e9603e2f96c75a5ea205f73b5f65e4bc4501424efb5e15a",
+      "counts": {
+        "passages": 240,
+        "classificationsCompared": 720,
+        "classificationAgreements": 717,
+        "classificationDisputes": 3,
+        "sharedPositive": 358,
+        "sharedNegative": 359,
+        "authorOnlyPositive": 2,
+        "blindOnlyPositive": 1,
+        "positiveSnippetComparisons": {
+          "exact": 341,
+          "boundaryOnly": 17,
+          "semantic": 0
+        },
+        "authorPositiveSnippets": 386,
+        "blindPositiveSnippets": 385,
+        "approvedClassificationAgreements": 717,
+        "unresolvedRetainingAuthor": 3,
+        "changedClassifications": 0,
+        "changedSnippetDecisions": 0,
+        "byCheck": {
+          "excessive-hedging/hedge-stacking": {
+            "classifications": 240,
+            "agreements": 239,
+            "disputes": 1,
+            "authorHits": 120,
+            "blindHits": 121,
+            "reviewedHits": 120,
+            "exactPositiveSnippets": 114,
+            "boundaryOnlyPositiveSnippets": 6,
+            "semanticPositiveSnippetDifferences": 0
+          },
+          "unsupported-authority/vague-attribution": {
+            "classifications": 240,
+            "agreements": 239,
+            "disputes": 1,
+            "authorHits": 120,
+            "blindHits": 119,
+            "reviewedHits": 120,
+            "exactPositiveSnippets": 119,
+            "boundaryOnlyPositiveSnippets": 0,
+            "semanticPositiveSnippetDifferences": 0
+          },
+          "puffery-and-overstatement/inflated-evaluation": {
+            "classifications": 240,
+            "agreements": 239,
+            "disputes": 1,
+            "authorHits": 120,
+            "blindHits": 119,
+            "reviewedHits": 120,
+            "exactPositiveSnippets": 108,
+            "boundaryOnlyPositiveSnippets": 11,
+            "semanticPositiveSnippetDifferences": 0
+          }
+        }
+      },
+      "phase": "Blind classification and subsequent author comparison",
+      "remainingIndependentFullReviews": 2
+    }
+  ],
+  "holdoutInference": false,
+  "activeSelections": [
+    {
+      "collection": "000054",
+      "archiveCommit": "8b80d26f5a91ae16b349eb6a020ce62c5da0ebb0",
+      "strategy": "Preserve pilots and final-review mandatory IDs; greedily retain all 68 source slots with stable hashed-ID tie breaks; fill 100 per class in the same fixed order. No detector predictions are read.",
+      "sourceHashes": {
+        "/tmp/000054-holdout-fullpool-v18-clean-reviewed-r3c.json": "3c5699e9b34d944f9ab09c8a16313df201b953a5b2c1575debd3719914dddfb8",
+        "/tmp/000054-holdout-pilot-v18-reviewed-r2.json": "506b0285fde2f21483b1796be55bc5b8a1b70234ec4ae7dfa98a54485b21c451",
+        "/tmp/000054-holdout-fullpool-v18-clean-final-review-r3c.json": "844563b12f2921399544470bea11fe081f1fff19af54513986cee70c58192d0d",
+        "/tmp/hedging-v18-source-audit.json": "c8076c514a9fc6b7d537a681298cfcface891acf63db4fba0886f2117d92d45a"
+      },
+      "selectionQaPath": "/tmp/000054-holdout-selected-v18-qa.json",
+      "selectionQaSha256": "b9c04ed43aa994ebfbf4c3774e68f2b031947673ce127edab75cbe1b1b69d306",
+      "passages": 200,
+      "judgments": 200,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 100,
+          "noHits": 100
+        }
+      },
+      "sourceSlots": 68,
+      "mandatoryIds": [
+        "000054-264aee8330e6",
+        "000054-dfdbe02afaf3",
+        "000054-9d7cdecc4c3b",
+        "000054-b57468ca6b01",
+        "000054-9be517a7e6d8",
+        "000054-d9ebf4894b9d",
+        "000054-b933b16ba72e",
+        "000054-058907a2a987",
+        "000054-d832f83ffd9c",
+        "000054-bf9b71016d73",
+        "000054-f0cd14d23d46",
+        "000054-da4c76b71193",
+        "000054-e8a238fc083d",
+        "000054-721963c18491",
+        "000054-1e90dab0c2a6",
+        "000054-81db838149c0",
+        "000054-b02bb1d87826",
+        "000054-1b8e33dd649b",
+        "000054-c22b29791326",
+        "000054-8a3c48d9712b",
+        "000054-15b86335ca1c",
+        "000054-027c14fe63a4",
+        "000054-785d6facd634",
+        "000054-090507fcf521",
+        "000054-0c3750f783ae",
+        "000054-1b49722a738c",
+        "000054-38210840c215",
+        "000054-04605e75e618"
+      ],
+      "surplus": 40,
+      "textSha256": "05011c6f6afcc3b19eb8b11c029b32eebd040095bd005eb8478fdf0e203a4fcc",
+      "labelsSha256": "9b12beb78925ea3b7df024ac961e508988aa9694409ebf660c649d340a25197f"
+    },
+    {
+      "collection": "000056",
+      "archiveCommit": "8b80d26f5a91ae16b349eb6a020ce62c5da0ebb0",
+      "strategy": "Preserve pilots and final-review mandatory IDs; greedily retain all 68 source slots with stable hashed-ID tie breaks; fill exactly 25 per combination in the same fixed order. No detector predictions are read.",
+      "sourceHashes": {
+        "/tmp/000056-holdout-fullpool-v18-clean-reviewed-r3d.json": "9786ffb33f7524e56e470b82a3016dcde1bb82074a248758ff723281e7bb8696",
+        "/tmp/000056-holdout-pilot-v18-reviewed.json": "2f0c64bb37c562f24c5d279a1fb0f0db4692022a3452f98084f68c00e4f1be9a",
+        "/tmp/000056-holdout-fullpool-v18-clean-final-review-r3d.json": "e43b45a7fd10a0d01c2309738344fbb52044cd697458b26bef806caaffe828a0",
+        "/tmp/hedging-v18-source-audit.json": "c8076c514a9fc6b7d537a681298cfcface891acf63db4fba0886f2117d92d45a"
+      },
+      "selectionQaPath": "/tmp/000056-holdout-selected-v18-qa.json",
+      "selectionQaSha256": "00f2094ac7e758be0e2a91801248681ca88d687a8f4bacc2f6386eea90a88397",
+      "passages": 200,
+      "judgments": 600,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 100,
+          "noHits": 100
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 100,
+          "noHits": 100
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 100,
+          "noHits": 100
+        }
+      },
+      "combinations": {
+        "100": 25,
+        "101": 25,
+        "110": 25,
+        "111": 25,
+        "000": 25,
+        "001": 25,
+        "010": 25,
+        "011": 25
+      },
+      "sourceSlots": 68,
+      "mandatoryIds": [
+        "000056-74c7583b9502",
+        "000056-1bf5d66cada8",
+        "000056-2f8e0f265b21",
+        "000056-4005de8097de",
+        "000056-ccb9bb66a4c4",
+        "000056-61590ccc735e",
+        "000056-1090e6c12f05",
+        "000056-3bd8bfd3962e",
+        "000056-a2e3b9ada7e4",
+        "000056-9379abaa05b0",
+        "000056-b07ee71dafb7",
+        "000056-e42be5781825",
+        "000056-9cf1c63a74ab",
+        "000056-d1f12a4f84c1",
+        "000056-571e80acfb1d",
+        "000056-8f30674d45b3",
+        "000056-7b3b8378f93d",
+        "000056-4a08936d3940",
+        "000056-15c369fdcad8",
+        "000056-19872b9051aa"
+      ],
+      "surplus": 40,
+      "textSha256": "ed15331365ee2b9e2f352701b9338add565054e38a1f0eeb009701ed13ee8b67",
+      "labelsSha256": "16e679f026fc902d3ce076d246fa90c9b21cdd19a952db606a30a29621905164"
+    }
+  ],
+  "finalSelectionCopyAudit": {
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. New cross-split pairs plus prior datasets; unsplit references checked against both splits.",
+    "verifierSha256": "6903e3444e4e5bdf8b12138f8f300ffd8805e5f14c7e280a2c40810b3586bc87",
+    "newInputs": 800,
+    "priorDocuments": 15697,
+    "referenceInputs": 306786,
+    "pairs": 241166000,
+    "shortComparisons": 549796,
+    "candidates": 0,
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+        "sha256": "ecae35f88189b210824c126a7592f227702580644157d09450085d470a7fa386",
+        "labelsSha256": "2e388bb280838316afa60adfea24cf1e8bcf5a0d9b4c39c52d2bcee4151e1bcd"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+        "sha256": "05011c6f6afcc3b19eb8b11c029b32eebd040095bd005eb8478fdf0e203a4fcc",
+        "labelsSha256": "9b12beb78925ea3b7df024ac961e508988aa9694409ebf660c649d340a25197f"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+        "sha256": "50045f27542c8f1fba6f248fbb85145138ef7493cd8344f67d03541f3eb3df83",
+        "labelsSha256": "58716941e17f1138e13557207a1b3fcbb42ac9b2a5853261354c208bcfd2fd55"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+        "sha256": "ed15331365ee2b9e2f352701b9338add565054e38a1f0eeb009701ed13ee8b67",
+        "labelsSha256": "16e679f026fc902d3ce076d246fa90c9b21cdd19a952db606a30a29621905164"
+      }
+    ],
+    "priorSourcesSha256": "b3c3542a44025397583d0f5c8916dbf26446113f6d572926becdcfb59fec48d1",
+    "reportPath": "/tmp/hedging-v18-crosssplit-final.json",
+    "reportSha256": "c151fb79627d379ec20ea190506569492dad05836055d9a15c8362deb2b8927b"
+  },
+  "independentFreezeAudit": {
+    "reviewer": "01a165e4-3d84-7ae0-b730-21a8b346ce37",
+    "reportPath": "/tmp/hedging-v18-freeze-independent-audit.json",
+    "reportSha256": "845f460ab0966b5fd860d1afd80e676e3f86fbe19ae894194a0bfbab2ca0f6b8",
+    "passedChecks": 43,
+    "failedChecks": 0,
+    "passages": 800,
+    "judgments": 1600,
+    "requiredIds": 92,
+    "surplusArchived": 160,
+    "providerCalls": 0
+  }
+}

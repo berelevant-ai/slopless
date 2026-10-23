@@ -1,0 +1,4941 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "ed15331365ee2b9e2f352701b9338add565054e38a1f0eeb009701ed13ee8b67",
+  "source": {
+    "name": "Codex-authored Mixed Excessive Hedging Vague Attribution Inflated Evaluation Holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+    "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
+    "model": "Codex",
+    "prompt": null,
+    "notes": "Balanced protected holdout after three clean independent full reviews. Each named check has 100 hits and 100 no-hits; all required cases and 68 source slots are retained. Complete reviewed 240-passage pool and forty surplus cases are archived at 8b80d26f5a91ae16b349eb6a020ce62c5da0ebb0. Selection uses no detector predictions. Holdout inference requires separate user authorization."
+  },
+  "split": "holdout",
+  "instructions": "Protected frozen holdout: keep writing, labels, snippets and case-specific review outside prompt authoring. No model evaluation without separate user authorization.",
+  "samples": [
+    {
+      "id": "000056-0032b470ee95",
+      "start": 97,
+      "end": 382
+    },
+    {
+      "id": "000056-02ed029d3e35",
+      "start": 408,
+      "end": 818
+    },
+    {
+      "id": "000056-035b32a9468f",
+      "start": 844,
+      "end": 1188
+    },
+    {
+      "id": "000056-042257982569",
+      "start": 1214,
+      "end": 1576
+    },
+    {
+      "id": "000056-04cc811e552c",
+      "start": 1602,
+      "end": 1967
+    },
+    {
+      "id": "000056-0502c0b1e40d",
+      "start": 1993,
+      "end": 2414
+    },
+    {
+      "id": "000056-05bd8d0edb76",
+      "start": 2440,
+      "end": 2815
+    },
+    {
+      "id": "000056-07bdc97a9850",
+      "start": 2841,
+      "end": 3300
+    },
+    {
+      "id": "000056-07d4eac9abab",
+      "start": 3326,
+      "end": 3682
+    },
+    {
+      "id": "000056-0862283ca182",
+      "start": 3708,
+      "end": 4102
+    },
+    {
+      "id": "000056-090d42010f1c",
+      "start": 4128,
+      "end": 4560
+    },
+    {
+      "id": "000056-096853d7ff73",
+      "start": 4586,
+      "end": 5007
+    },
+    {
+      "id": "000056-09f6c80badad",
+      "start": 5033,
+      "end": 5376
+    },
+    {
+      "id": "000056-0c0aef18d754",
+      "start": 5402,
+      "end": 5792
+    },
+    {
+      "id": "000056-0dda300c0a7f",
+      "start": 5818,
+      "end": 6215
+    },
+    {
+      "id": "000056-1090e6c12f05",
+      "start": 6241,
+      "end": 6662
+    },
+    {
+      "id": "000056-1248e2979fb0",
+      "start": 6688,
+      "end": 7232
+    },
+    {
+      "id": "000056-124f387e4658",
+      "start": 7258,
+      "end": 7660
+    },
+    {
+      "id": "000056-128434cee26c",
+      "start": 7686,
+      "end": 7935
+    },
+    {
+      "id": "000056-12c915f7d9ce",
+      "start": 7961,
+      "end": 8356
+    },
+    {
+      "id": "000056-1421992bd9fb",
+      "start": 8382,
+      "end": 8757
+    },
+    {
+      "id": "000056-15c369fdcad8",
+      "start": 8783,
+      "end": 9155
+    },
+    {
+      "id": "000056-1666649b9d36",
+      "start": 9181,
+      "end": 9558
+    },
+    {
+      "id": "000056-16b4663d4e68",
+      "start": 9584,
+      "end": 9861
+    },
+    {
+      "id": "000056-196a37d3601e",
+      "start": 9887,
+      "end": 10270
+    },
+    {
+      "id": "000056-19872b9051aa",
+      "start": 10296,
+      "end": 10849
+    },
+    {
+      "id": "000056-1b59c91132e2",
+      "start": 10875,
+      "end": 11269
+    },
+    {
+      "id": "000056-1bf5d66cada8",
+      "start": 11295,
+      "end": 11741
+    },
+    {
+      "id": "000056-1d1ae814e808",
+      "start": 11767,
+      "end": 12114
+    },
+    {
+      "id": "000056-1df3775cde50",
+      "start": 12140,
+      "end": 12502
+    },
+    {
+      "id": "000056-1eb81cbcfa08",
+      "start": 12528,
+      "end": 12907
+    },
+    {
+      "id": "000056-20584373d301",
+      "start": 12933,
+      "end": 13245
+    },
+    {
+      "id": "000056-25645587b072",
+      "start": 13271,
+      "end": 13618
+    },
+    {
+      "id": "000056-26a3b5c2b773",
+      "start": 13644,
+      "end": 14179
+    },
+    {
+      "id": "000056-279fa9021260",
+      "start": 14205,
+      "end": 14513
+    },
+    {
+      "id": "000056-28b0bbf28649",
+      "start": 14539,
+      "end": 14881
+    },
+    {
+      "id": "000056-293b2fce3496",
+      "start": 14907,
+      "end": 15179
+    },
+    {
+      "id": "000056-2bbb1c42e62c",
+      "start": 15205,
+      "end": 15572
+    },
+    {
+      "id": "000056-2ee7822395e3",
+      "start": 15598,
+      "end": 16001
+    },
+    {
+      "id": "000056-2f0bcb7afa4c",
+      "start": 16027,
+      "end": 16401
+    },
+    {
+      "id": "000056-2f8e0f265b21",
+      "start": 16427,
+      "end": 16825
+    },
+    {
+      "id": "000056-30b1d93fb58d",
+      "start": 16851,
+      "end": 17269
+    },
+    {
+      "id": "000056-35004e926c16",
+      "start": 17295,
+      "end": 17689
+    },
+    {
+      "id": "000056-354a5db7a5a4",
+      "start": 17715,
+      "end": 18075
+    },
+    {
+      "id": "000056-369f5203c67c",
+      "start": 18101,
+      "end": 18390
+    },
+    {
+      "id": "000056-36f0af538edd",
+      "start": 18416,
+      "end": 18772
+    },
+    {
+      "id": "000056-39636612afca",
+      "start": 18798,
+      "end": 19142
+    },
+    {
+      "id": "000056-3a7782b67933",
+      "start": 19168,
+      "end": 19548
+    },
+    {
+      "id": "000056-3bd8bfd3962e",
+      "start": 19574,
+      "end": 19984
+    },
+    {
+      "id": "000056-3c1383fd0a0f",
+      "start": 20010,
+      "end": 20425
+    },
+    {
+      "id": "000056-3c81d289e2d9",
+      "start": 20451,
+      "end": 20885
+    },
+    {
+      "id": "000056-3eff6529b63d",
+      "start": 20911,
+      "end": 21218
+    },
+    {
+      "id": "000056-4005de8097de",
+      "start": 21244,
+      "end": 21690
+    },
+    {
+      "id": "000056-432cab181895",
+      "start": 21716,
+      "end": 22016
+    },
+    {
+      "id": "000056-469e034e37d8",
+      "start": 22042,
+      "end": 22427
+    },
+    {
+      "id": "000056-4a08936d3940",
+      "start": 22453,
+      "end": 22820
+    },
+    {
+      "id": "000056-4bb1af78984a",
+      "start": 22846,
+      "end": 23278
+    },
+    {
+      "id": "000056-4c02e0bd7304",
+      "start": 23304,
+      "end": 23702
+    },
+    {
+      "id": "000056-4c04b3e2cf6a",
+      "start": 23728,
+      "end": 24150
+    },
+    {
+      "id": "000056-4cb9abc42f18",
+      "start": 24176,
+      "end": 24525
+    },
+    {
+      "id": "000056-4e421ae6b8a3",
+      "start": 24551,
+      "end": 25106
+    },
+    {
+      "id": "000056-52a32dc783fd",
+      "start": 25132,
+      "end": 25528
+    },
+    {
+      "id": "000056-5487ed5319c7",
+      "start": 25554,
+      "end": 25931
+    },
+    {
+      "id": "000056-5535ffb75fd2",
+      "start": 25957,
+      "end": 26525
+    },
+    {
+      "id": "000056-5589651cbf50",
+      "start": 26551,
+      "end": 26953
+    },
+    {
+      "id": "000056-571e80acfb1d",
+      "start": 26979,
+      "end": 27431
+    },
+    {
+      "id": "000056-5737ae3e3009",
+      "start": 27457,
+      "end": 27794
+    },
+    {
+      "id": "000056-582d0c3e5e36",
+      "start": 27820,
+      "end": 28168
+    },
+    {
+      "id": "000056-5830ec04568a",
+      "start": 28194,
+      "end": 28587
+    },
+    {
+      "id": "000056-588e2aa93f2e",
+      "start": 28613,
+      "end": 28996
+    },
+    {
+      "id": "000056-5924146a8d81",
+      "start": 29022,
+      "end": 29439
+    },
+    {
+      "id": "000056-598754580f8c",
+      "start": 29465,
+      "end": 29727
+    },
+    {
+      "id": "000056-59ed824cb84a",
+      "start": 29753,
+      "end": 30100
+    },
+    {
+      "id": "000056-5a0d7693b2bb",
+      "start": 30126,
+      "end": 30538
+    },
+    {
+      "id": "000056-5d5531eec86e",
+      "start": 30564,
+      "end": 30916
+    },
+    {
+      "id": "000056-5ff32325abc7",
+      "start": 30942,
+      "end": 31237
+    },
+    {
+      "id": "000056-610ec83c71cc",
+      "start": 31263,
+      "end": 31678
+    },
+    {
+      "id": "000056-61590ccc735e",
+      "start": 31704,
+      "end": 32104
+    },
+    {
+      "id": "000056-62298cec23c5",
+      "start": 32130,
+      "end": 32670
+    },
+    {
+      "id": "000056-639f841c589d",
+      "start": 32696,
+      "end": 33234
+    },
+    {
+      "id": "000056-64eabaed2b2d",
+      "start": 33260,
+      "end": 33771
+    },
+    {
+      "id": "000056-659b274ead79",
+      "start": 33797,
+      "end": 34225
+    },
+    {
+      "id": "000056-6a4cbfe7c48b",
+      "start": 34251,
+      "end": 34570
+    },
+    {
+      "id": "000056-6b3fefd708da",
+      "start": 34596,
+      "end": 35015
+    },
+    {
+      "id": "000056-6ca14619884f",
+      "start": 35041,
+      "end": 35430
+    },
+    {
+      "id": "000056-701c9cf2e7cf",
+      "start": 35456,
+      "end": 35838
+    },
+    {
+      "id": "000056-74c7583b9502",
+      "start": 35864,
+      "end": 36388
+    },
+    {
+      "id": "000056-7539d29322c4",
+      "start": 36414,
+      "end": 36772
+    },
+    {
+      "id": "000056-76564de647f2",
+      "start": 36798,
+      "end": 37155
+    },
+    {
+      "id": "000056-7692c6d8f967",
+      "start": 37181,
+      "end": 37504
+    },
+    {
+      "id": "000056-7b3b8378f93d",
+      "start": 37530,
+      "end": 37933
+    },
+    {
+      "id": "000056-7c1118b781ef",
+      "start": 37959,
+      "end": 38354
+    },
+    {
+      "id": "000056-7c934e7b42f8",
+      "start": 38380,
+      "end": 38782
+    },
+    {
+      "id": "000056-7d33f492b538",
+      "start": 38808,
+      "end": 39209
+    },
+    {
+      "id": "000056-7fc332c66ba4",
+      "start": 39235,
+      "end": 39781
+    },
+    {
+      "id": "000056-8265cd8679c2",
+      "start": 39807,
+      "end": 40199
+    },
+    {
+      "id": "000056-831e65248edc",
+      "start": 40225,
+      "end": 40634
+    },
+    {
+      "id": "000056-83b409fbadba",
+      "start": 40660,
+      "end": 41029
+    },
+    {
+      "id": "000056-83d8733984e2",
+      "start": 41055,
+      "end": 41488
+    },
+    {
+      "id": "000056-83e17e36fa9f",
+      "start": 41514,
+      "end": 41919
+    },
+    {
+      "id": "000056-860590770e42",
+      "start": 41945,
+      "end": 42519
+    },
+    {
+      "id": "000056-89a36daa40c6",
+      "start": 42545,
+      "end": 43008
+    },
+    {
+      "id": "000056-89d906748da4",
+      "start": 43034,
+      "end": 43388
+    },
+    {
+      "id": "000056-8b3e775919cb",
+      "start": 43414,
+      "end": 43792
+    },
+    {
+      "id": "000056-8b958ddc9f34",
+      "start": 43818,
+      "end": 44248
+    },
+    {
+      "id": "000056-8f30674d45b3",
+      "start": 44274,
+      "end": 44774
+    },
+    {
+      "id": "000056-907ab3fe6ddb",
+      "start": 44800,
+      "end": 45198
+    },
+    {
+      "id": "000056-9379abaa05b0",
+      "start": 45224,
+      "end": 45721
+    },
+    {
+      "id": "000056-93a75e263971",
+      "start": 45747,
+      "end": 46146
+    },
+    {
+      "id": "000056-977baf4f6be7",
+      "start": 46172,
+      "end": 46480
+    },
+    {
+      "id": "000056-989fe10c563b",
+      "start": 46506,
+      "end": 46921
+    },
+    {
+      "id": "000056-98ff93fa3679",
+      "start": 46947,
+      "end": 47265
+    },
+    {
+      "id": "000056-9939dac56a39",
+      "start": 47291,
+      "end": 47623
+    },
+    {
+      "id": "000056-9993c23d4126",
+      "start": 47649,
+      "end": 48019
+    },
+    {
+      "id": "000056-9a4b29995db5",
+      "start": 48045,
+      "end": 48417
+    },
+    {
+      "id": "000056-9ac6b67b2262",
+      "start": 48443,
+      "end": 48843
+    },
+    {
+      "id": "000056-9b92987f2fe5",
+      "start": 48869,
+      "end": 49245
+    },
+    {
+      "id": "000056-9cf1c63a74ab",
+      "start": 49271,
+      "end": 49776
+    },
+    {
+      "id": "000056-9d4dde2e4f15",
+      "start": 49802,
+      "end": 50199
+    },
+    {
+      "id": "000056-9fed368ce96b",
+      "start": 50225,
+      "end": 50607
+    },
+    {
+      "id": "000056-a05fecdf2100",
+      "start": 50633,
+      "end": 51042
+    },
+    {
+      "id": "000056-a2e3b9ada7e4",
+      "start": 51068,
+      "end": 51618
+    },
+    {
+      "id": "000056-a301bcb5b16d",
+      "start": 51644,
+      "end": 51895
+    },
+    {
+      "id": "000056-a60dea973067",
+      "start": 51921,
+      "end": 52437
+    },
+    {
+      "id": "000056-a668c6257e06",
+      "start": 52463,
+      "end": 52820
+    },
+    {
+      "id": "000056-a87b0c3e43a8",
+      "start": 52846,
+      "end": 53222
+    },
+    {
+      "id": "000056-a8b57f51ea26",
+      "start": 53248,
+      "end": 53515
+    },
+    {
+      "id": "000056-a97cbf4f48b0",
+      "start": 53541,
+      "end": 53855
+    },
+    {
+      "id": "000056-ab6d207549f4",
+      "start": 53881,
+      "end": 54251
+    },
+    {
+      "id": "000056-aba2727662d0",
+      "start": 54277,
+      "end": 54682
+    },
+    {
+      "id": "000056-ad926aa3af25",
+      "start": 54708,
+      "end": 55125
+    },
+    {
+      "id": "000056-b05fcef05d03",
+      "start": 55151,
+      "end": 55525
+    },
+    {
+      "id": "000056-b07ee71dafb7",
+      "start": 55551,
+      "end": 56009
+    },
+    {
+      "id": "000056-b0d7cbb9019b",
+      "start": 56035,
+      "end": 56329
+    },
+    {
+      "id": "000056-b2cb803d1416",
+      "start": 56355,
+      "end": 56914
+    },
+    {
+      "id": "000056-b59b5ab1d27c",
+      "start": 56940,
+      "end": 57314
+    },
+    {
+      "id": "000056-b6b7c982cc12",
+      "start": 57340,
+      "end": 57749
+    },
+    {
+      "id": "000056-b7707cd70c6e",
+      "start": 57775,
+      "end": 58158
+    },
+    {
+      "id": "000056-b8f74cefb47c",
+      "start": 58184,
+      "end": 58618
+    },
+    {
+      "id": "000056-bad9f67a331f",
+      "start": 58644,
+      "end": 59192
+    },
+    {
+      "id": "000056-bbd7676f765b",
+      "start": 59218,
+      "end": 59585
+    },
+    {
+      "id": "000056-bc93c895e4dd",
+      "start": 59611,
+      "end": 59985
+    },
+    {
+      "id": "000056-bea2a6c9d8a6",
+      "start": 60011,
+      "end": 60433
+    },
+    {
+      "id": "000056-c0b5ca798c82",
+      "start": 60459,
+      "end": 60805
+    },
+    {
+      "id": "000056-c14e5cc6b403",
+      "start": 60831,
+      "end": 61409
+    },
+    {
+      "id": "000056-c16f4cec8e88",
+      "start": 61435,
+      "end": 61857
+    },
+    {
+      "id": "000056-c1e1669ff3bd",
+      "start": 61883,
+      "end": 62271
+    },
+    {
+      "id": "000056-c2757e30592c",
+      "start": 62297,
+      "end": 62600
+    },
+    {
+      "id": "000056-c360ed1bc0fd",
+      "start": 62626,
+      "end": 62977
+    },
+    {
+      "id": "000056-c3b6eec34c48",
+      "start": 63003,
+      "end": 63370
+    },
+    {
+      "id": "000056-c3cb43e742ad",
+      "start": 63396,
+      "end": 63744
+    },
+    {
+      "id": "000056-c59c40fc6750",
+      "start": 63770,
+      "end": 64135
+    },
+    {
+      "id": "000056-c64d3d3accf9",
+      "start": 64161,
+      "end": 64465
+    },
+    {
+      "id": "000056-c74aad423d9d",
+      "start": 64491,
+      "end": 64772
+    },
+    {
+      "id": "000056-c74d468e1b3f",
+      "start": 64798,
+      "end": 65142
+    },
+    {
+      "id": "000056-c8214ecdc89e",
+      "start": 65168,
+      "end": 65526
+    },
+    {
+      "id": "000056-cb1e239d2cd8",
+      "start": 65552,
+      "end": 65854
+    },
+    {
+      "id": "000056-cb527324b5b4",
+      "start": 65880,
+      "end": 66463
+    },
+    {
+      "id": "000056-ccb9bb66a4c4",
+      "start": 66489,
+      "end": 66877
+    },
+    {
+      "id": "000056-cd7323c8b990",
+      "start": 66903,
+      "end": 67207
+    },
+    {
+      "id": "000056-cea06e4335f2",
+      "start": 67233,
+      "end": 67605
+    },
+    {
+      "id": "000056-cee16a41e92f",
+      "start": 67631,
+      "end": 67974
+    },
+    {
+      "id": "000056-d0172d6546b9",
+      "start": 68000,
+      "end": 68443
+    },
+    {
+      "id": "000056-d02e6998d512",
+      "start": 68469,
+      "end": 68898
+    },
+    {
+      "id": "000056-d04c144c71aa",
+      "start": 68924,
+      "end": 69452
+    },
+    {
+      "id": "000056-d1f12a4f84c1",
+      "start": 69478,
+      "end": 69905
+    },
+    {
+      "id": "000056-d20bd718844f",
+      "start": 69931,
+      "end": 70289
+    },
+    {
+      "id": "000056-da35bca0f73f",
+      "start": 70315,
+      "end": 70608
+    },
+    {
+      "id": "000056-dac66d90576f",
+      "start": 70634,
+      "end": 70999
+    },
+    {
+      "id": "000056-db120d8ef577",
+      "start": 71025,
+      "end": 71405
+    },
+    {
+      "id": "000056-dbc3df254213",
+      "start": 71431,
+      "end": 71771
+    },
+    {
+      "id": "000056-de0fec0ca6aa",
+      "start": 71797,
+      "end": 72216
+    },
+    {
+      "id": "000056-e08e19e06e4a",
+      "start": 72242,
+      "end": 72583
+    },
+    {
+      "id": "000056-e103d4ecdee6",
+      "start": 72609,
+      "end": 72983
+    },
+    {
+      "id": "000056-e1882c526fdd",
+      "start": 73009,
+      "end": 73556
+    },
+    {
+      "id": "000056-e1a9673ef912",
+      "start": 73582,
+      "end": 74162
+    },
+    {
+      "id": "000056-e1d7eb3b23e8",
+      "start": 74188,
+      "end": 74568
+    },
+    {
+      "id": "000056-e2e7fc4b2c54",
+      "start": 74594,
+      "end": 75029
+    },
+    {
+      "id": "000056-e42be5781825",
+      "start": 75055,
+      "end": 75440
+    },
+    {
+      "id": "000056-ea08352b4306",
+      "start": 75466,
+      "end": 76032
+    },
+    {
+      "id": "000056-eb54aab98005",
+      "start": 76058,
+      "end": 76471
+    },
+    {
+      "id": "000056-eb572c1ca67e",
+      "start": 76497,
+      "end": 76867
+    },
+    {
+      "id": "000056-eb573389d05f",
+      "start": 76893,
+      "end": 77263
+    },
+    {
+      "id": "000056-eb5ef17278d7",
+      "start": 77289,
+      "end": 77633
+    },
+    {
+      "id": "000056-ebf6af758b03",
+      "start": 77659,
+      "end": 78050
+    },
+    {
+      "id": "000056-ec67f6d5c540",
+      "start": 78076,
+      "end": 78458
+    },
+    {
+      "id": "000056-ed9bb5f3dc72",
+      "start": 78484,
+      "end": 78822
+    },
+    {
+      "id": "000056-f34c07f00365",
+      "start": 78848,
+      "end": 79210
+    },
+    {
+      "id": "000056-f5cc723d6679",
+      "start": 79236,
+      "end": 79613
+    },
+    {
+      "id": "000056-f7f46ea3bc2a",
+      "start": 79639,
+      "end": 80028
+    },
+    {
+      "id": "000056-f839a507b4f1",
+      "start": 80054,
+      "end": 80449
+    },
+    {
+      "id": "000056-f855a4aaded7",
+      "start": 80475,
+      "end": 81015
+    },
+    {
+      "id": "000056-f8f8a913720e",
+      "start": 81041,
+      "end": 81480
+    },
+    {
+      "id": "000056-fc8625a64b84",
+      "start": 81506,
+      "end": 81868
+    },
+    {
+      "id": "000056-fdc1513c7d4a",
+      "start": 81894,
+      "end": 82292
+    },
+    {
+      "id": "000056-fde56d2edf17",
+      "start": 82318,
+      "end": 82767
+    },
+    {
+      "id": "000056-fe2d746389bc",
+      "start": 82793,
+      "end": 83078
+    },
+    {
+      "id": "000056-fe3f0a8dff68",
+      "start": 83104,
+      "end": 83475
+    },
+    {
+      "id": "000056-ff37811a650d",
+      "start": 83501,
+      "end": 83893
+    },
+    {
+      "id": "000056-ff94c549c200",
+      "start": 83919,
+      "end": 84302
+    }
+  ],
+  "labels": [
+    {
+      "id": "000056-0032b470ee95",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-0032b470ee95",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Hooks at two heights were generally considered helpful for families."
+      ]
+    },
+    {
+      "id": "000056-0032b470ee95",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The new arrangement made his venue more welcoming than any of its neighbours."
+      ]
+    },
+    {
+      "id": "000056-02ed029d3e35",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that her Friday appointment could become free."
+      ]
+    },
+    {
+      "id": "000056-02ed029d3e35",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Clothing specialists recommend checking length in the intended shoes."
+      ]
+    },
+    {
+      "id": "000056-02ed029d3e35",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-035b32a9468f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It may bring people farther into the shop.",
+        "That is one possible result."
+      ]
+    },
+    {
+      "id": "000056-035b32a9468f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-035b32a9468f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The new counter is a masterstroke of retail design"
+      ]
+    },
+    {
+      "id": "000056-042257982569",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The extra space might, on busy weekends, possibly keep the aisle clear."
+      ]
+    },
+    {
+      "id": "000056-042257982569",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-042257982569",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "a revolutionary achievement in passenger comfort"
+      ]
+    },
+    {
+      "id": "000056-04cc811e552c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The smaller suitcase may fit under the bedroom shelf without removing its wheels.",
+        "There is a chance of that happening."
+      ]
+    },
+    {
+      "id": "000056-04cc811e552c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-04cc811e552c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-0502c0b1e40d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-0502c0b1e40d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Workplace research suggests that fewer repeated choices improve concentration."
+      ]
+    },
+    {
+      "id": "000056-0502c0b1e40d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This release changes the future of collaborative work."
+      ]
+    },
+    {
+      "id": "000056-05bd8d0edb76",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-05bd8d0edb76",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-05bd8d0edb76",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Choosing our replacement is an investment in a lifetime of effortless travel."
+      ]
+    },
+    {
+      "id": "000056-07bdc97a9850",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that the extra note might change how readers weigh the last interview."
+      ]
+    },
+    {
+      "id": "000056-07bdc97a9850",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Researchers agree that separating observation from recollection makes testimony easier to interpret."
+      ]
+    },
+    {
+      "id": "000056-07bdc97a9850",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is a major intellectual achievement for oral history."
+      ]
+    },
+    {
+      "id": "000056-07d4eac9abab",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-07d4eac9abab",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-07d4eac9abab",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our handling of this case sets a new standard for the travel industry."
+      ]
+    },
+    {
+      "id": "000056-0862283ca182",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that the arrangement might prevent a second trip to the yard."
+      ]
+    },
+    {
+      "id": "000056-0862283ca182",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Fleet specialists recommend matching labels at the desk and on the vehicle."
+      ]
+    },
+    {
+      "id": "000056-0862283ca182",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is an exceptional achievement in operational safety."
+      ]
+    },
+    {
+      "id": "000056-090d42010f1c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a slight chance that an empty cache could delay the first request."
+      ]
+    },
+    {
+      "id": "000056-090d42010f1c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Performance specialists favour warming a cache before public traffic arrives."
+      ]
+    },
+    {
+      "id": "000056-090d42010f1c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our startup sequence is more mature than rival implementations."
+      ]
+    },
+    {
+      "id": "000056-096853d7ff73",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-096853d7ff73",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Systems specialists consider this approach more robust than arrival ordering."
+      ]
+    },
+    {
+      "id": "000056-096853d7ff73",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Systems specialists consider this approach more robust than arrival ordering.",
+        "It is a remarkably sophisticated solution to resource allocation."
+      ]
+    },
+    {
+      "id": "000056-09f6c80badad",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is likely that the cleaning will probably be finished before Saturday."
+      ]
+    },
+    {
+      "id": "000056-09f6c80badad",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-09f6c80badad",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-0c0aef18d754",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A visitor may find the right desk more quickly with that name visible.",
+        "That quicker arrival is a possible result."
+      ]
+    },
+    {
+      "id": "000056-0c0aef18d754",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-0c0aef18d754",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It brings an extraordinary level of precision to workplace security."
+      ]
+    },
+    {
+      "id": "000056-0dda300c0a7f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-0dda300c0a7f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Educational research suggests that learning alongside peers encourages persistence."
+      ]
+    },
+    {
+      "id": "000056-0dda300c0a7f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The class offers a richer education than individual tuition."
+      ]
+    },
+    {
+      "id": "000056-1090e6c12f05",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-1090e6c12f05",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Design researchers say consistent framing helps viewers compare portraits."
+      ]
+    },
+    {
+      "id": "000056-1090e6c12f05",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is the definitive solution for presenting a visual collection."
+      ]
+    },
+    {
+      "id": "000056-1248e2979fb0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A larger buffer might reduce the remaining pauses.",
+        "That reduction could be a possibility."
+      ]
+    },
+    {
+      "id": "000056-1248e2979fb0",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-1248e2979fb0",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It puts our engineering in a class beyond the rest of the industry."
+      ]
+    },
+    {
+      "id": "000056-124f387e4658",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "We cannot exclude the possibility that the parcel may have been left with the next building's concierge."
+      ]
+    },
+    {
+      "id": "000056-124f387e4658",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Delivery specialists say checking nearby reception desks can help locate a parcel marked delivered."
+      ]
+    },
+    {
+      "id": "000056-124f387e4658",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-128434cee26c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-128434cee26c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Leaving a light in the window is often recommended as a way to help a late guest find the right house."
+      ]
+    },
+    {
+      "id": "000056-128434cee26c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-12c915f7d9ce",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-12c915f7d9ce",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Optical specialists say a balanced frame feels more comfortable during long reading sessions."
+      ]
+    },
+    {
+      "id": "000056-12c915f7d9ce",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our adjustment service is more attentive than other opticians'."
+      ]
+    },
+    {
+      "id": "000056-1421992bd9fb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "We might, if the driver calls early, possibly take the break at eleven."
+      ]
+    },
+    {
+      "id": "000056-1421992bd9fb",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Staffing advisers recommend moving a break when two busy periods overlap."
+      ]
+    },
+    {
+      "id": "000056-1421992bd9fb",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-15c369fdcad8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-15c369fdcad8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-15c369fdcad8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-1666649b9d36",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The seed table is likely to attract more visitors when the spring sale opens.",
+        "A larger turnout is probable."
+      ]
+    },
+    {
+      "id": "000056-1666649b9d36",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Gardening specialists say growing advice beside a packet encourages people to try an unfamiliar variety."
+      ]
+    },
+    {
+      "id": "000056-1666649b9d36",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-16b4663d4e68",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A reused identifier could, if the clock moves backward, conceivably point to the wrong draft"
+      ]
+    },
+    {
+      "id": "000056-16b4663d4e68",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-16b4663d4e68",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-196a37d3601e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-196a37d3601e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Design educators say seeing an object midway through production helps visitors ask questions."
+      ]
+    },
+    {
+      "id": "000056-196a37d3601e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The tray makes our exhibition more engaging than other makers' displays."
+      ]
+    },
+    {
+      "id": "000056-19872b9051aa",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-19872b9051aa",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-19872b9051aa",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-1b59c91132e2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the final inspection might fall in that gap."
+      ]
+    },
+    {
+      "id": "000056-1b59c91132e2",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Event advisers recommend keeping a few days between installation and a public opening."
+      ]
+    },
+    {
+      "id": "000056-1b59c91132e2",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-1bf5d66cada8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "That arrangement may possibly help on a crowded carriage"
+      ]
+    },
+    {
+      "id": "000056-1bf5d66cada8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-1bf5d66cada8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "For rail travel, this is the finest suitcase design available."
+      ]
+    },
+    {
+      "id": "000056-1d1ae814e808",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-1d1ae814e808",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-1d1ae814e808",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It has transformed the experience of reading for everyone."
+      ]
+    },
+    {
+      "id": "000056-1df3775cde50",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a reasonable chance that a shared parts drawer may save us a second trip to the van."
+      ]
+    },
+    {
+      "id": "000056-1df3775cde50",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-1df3775cde50",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-1eb81cbcfa08",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the bracket might fit the holes already in my shelf."
+      ]
+    },
+    {
+      "id": "000056-1eb81cbcfa08",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Furniture specialists recommend checking the wall material before reusing old fixings"
+      ]
+    },
+    {
+      "id": "000056-1eb81cbcfa08",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-20584373d301",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The server will in all probability probably reuse the open connection for the next request"
+      ]
+    },
+    {
+      "id": "000056-20584373d301",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "operations specialists recommend keeping a small connection pool when requests arrive in bursts"
+      ]
+    },
+    {
+      "id": "000056-20584373d301",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-25645587b072",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The separate queue might reduce the wait on Saturdays.",
+        "A shorter Saturday wait is a possibility."
+      ]
+    },
+    {
+      "id": "000056-25645587b072",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-25645587b072",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The shop's new collection desk is more efficient than any other retailer's."
+      ]
+    },
+    {
+      "id": "000056-26a3b5c2b773",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The second path could, before the fence was erected, perhaps have served the lower orchard."
+      ]
+    },
+    {
+      "id": "000056-26a3b5c2b773",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Cartographers generally regard field notes as useful evidence of changing access."
+      ]
+    },
+    {
+      "id": "000056-26a3b5c2b773",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-279fa9021260",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is some possibility that a late heartbeat might keep the session open for another interval."
+      ]
+    },
+    {
+      "id": "000056-279fa9021260",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Network specialists recommend a short grace period before treating a session as lost."
+      ]
+    },
+    {
+      "id": "000056-279fa9021260",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-28b0bbf28649",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-28b0bbf28649",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-28b0bbf28649",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-293b2fce3496",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-293b2fce3496",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "The usual advice from experienced editors is to read a closing paragraph aloud before sending it"
+      ]
+    },
+    {
+      "id": "000056-293b2fce3496",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-2bbb1c42e62c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-2bbb1c42e62c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Volunteers commonly recommend putting a broken item's loose parts in a clear bag."
+      ]
+    },
+    {
+      "id": "000056-2bbb1c42e62c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-2ee7822395e3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-2ee7822395e3",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Interface researchers say that immediate guidance reduces frustration."
+      ]
+    },
+    {
+      "id": "000056-2ee7822395e3",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-2f0bcb7afa4c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "We cannot rule out the possibility that the clearer map might bring more visitors to the Saturday market."
+      ]
+    },
+    {
+      "id": "000056-2f0bcb7afa4c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-2f0bcb7afa4c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is a defining contribution to equality in the town."
+      ]
+    },
+    {
+      "id": "000056-2f8e0f265b21",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-2f8e0f265b21",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-2f8e0f265b21",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-30b1d93fb58d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-30b1d93fb58d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-30b1d93fb58d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-35004e926c16",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-35004e926c16",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-35004e926c16",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "That convention is the definitive answer to uncertainty in cartography."
+      ]
+    },
+    {
+      "id": "000056-354a5db7a5a4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-354a5db7a5a4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Experienced fitters say a metal handle feels more secure in daily use."
+      ]
+    },
+    {
+      "id": "000056-354a5db7a5a4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is an exceptional advance in home accessibility."
+      ]
+    },
+    {
+      "id": "000056-369f5203c67c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-369f5203c67c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-369f5203c67c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-36f0af538edd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-36f0af538edd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-36f0af538edd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-39636612afca",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-39636612afca",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Sound technicians say that an uneven seal can make one side seem quieter."
+      ]
+    },
+    {
+      "id": "000056-39636612afca",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-3a7782b67933",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that saved widths could shorten the setup for a repeated border."
+      ]
+    },
+    {
+      "id": "000056-3a7782b67933",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-3a7782b67933",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This makes it the only serious choice for professional illustrators."
+      ]
+    },
+    {
+      "id": "000056-3bd8bfd3962e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-3bd8bfd3962e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-3bd8bfd3962e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-3c1383fd0a0f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The change may reduce repeated typing.",
+        "A reduction in repeated typing is possible."
+      ]
+    },
+    {
+      "id": "000056-3c1383fd0a0f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Usability researchers say retaining the query helps people refine a search."
+      ]
+    },
+    {
+      "id": "000056-3c1383fd0a0f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is a more intelligent approach than other search tools provide."
+      ]
+    },
+    {
+      "id": "000056-3c81d289e2d9",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The picture might, for items with similar names, possibly help someone spot a mistaken selection."
+      ]
+    },
+    {
+      "id": "000056-3c81d289e2d9",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Consumer research links visual confirmation with confidence in an order."
+      ]
+    },
+    {
+      "id": "000056-3c81d289e2d9",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is a remarkable breakthrough in retail communication."
+      ]
+    },
+    {
+      "id": "000056-3eff6529b63d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Your returned mixer might, once the courier has collected it, possibly reach our workshop on Tuesday."
+      ]
+    },
+    {
+      "id": "000056-3eff6529b63d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-3eff6529b63d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-4005de8097de",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The pilot could encourage more teams to send their invoices before Friday.",
+        "That outcome is a possibility."
+      ]
+    },
+    {
+      "id": "000056-4005de8097de",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Training specialists agree that worked examples make staff more self-sufficient."
+      ]
+    },
+    {
+      "id": "000056-4005de8097de",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is the most effective way to teach invoice handling."
+      ]
+    },
+    {
+      "id": "000056-432cab181895",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-432cab181895",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Event specialists recommend recording that time separately from the public opening hour."
+      ]
+    },
+    {
+      "id": "000056-432cab181895",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The new diary is an exceptional contribution to the cultural life of the town."
+      ]
+    },
+    {
+      "id": "000056-469e034e37d8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It will probably help us remember which measurements are still missing.",
+        "That help is a likely benefit."
+      ]
+    },
+    {
+      "id": "000056-469e034e37d8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-469e034e37d8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The new column will make difficult client work effortless."
+      ]
+    },
+    {
+      "id": "000056-4a08936d3940",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-4a08936d3940",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Sleep specialists say an extra layer helps guests settle in unfamiliar surroundings."
+      ]
+    },
+    {
+      "id": "000056-4a08936d3940",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-4bb1af78984a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that the wall might follow an older property division."
+      ]
+    },
+    {
+      "id": "000056-4bb1af78984a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-4bb1af78984a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The alignment marks a turning point in landscape history."
+      ]
+    },
+    {
+      "id": "000056-4c02e0bd7304",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The rack might draw more riders to the shop.",
+        "That was a possibility."
+      ]
+    },
+    {
+      "id": "000056-4c02e0bd7304",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Transport experts said a visible rack encouraged short trips without a car."
+      ]
+    },
+    {
+      "id": "000056-4c02e0bd7304",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "a triumph of sustainable planning"
+      ]
+    },
+    {
+      "id": "000056-4c04b3e2cf6a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The margin note will probably be more useful at the first reading.",
+        "That first-reading benefit is likely."
+      ]
+    },
+    {
+      "id": "000056-4c04b3e2cf6a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Studies suggest that readers pause longer when a diagram uses unfamiliar abbreviations."
+      ]
+    },
+    {
+      "id": "000056-4c04b3e2cf6a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-4cb9abc42f18",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-4cb9abc42f18",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "It is believed that stopping a clock while the house is empty keeps its mechanism from wearing unevenly."
+      ]
+    },
+    {
+      "id": "000056-4cb9abc42f18",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-4e421ae6b8a3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-4e421ae6b8a3",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Decorators generally consider seeing the cloth in its intended room helpful."
+      ]
+    },
+    {
+      "id": "000056-4e421ae6b8a3",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-52a32dc783fd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that the new reminder might reduce calls about parking."
+      ]
+    },
+    {
+      "id": "000056-52a32dc783fd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Patient-experience researchers say a short explanation helps people prepare for a visit."
+      ]
+    },
+    {
+      "id": "000056-52a32dc783fd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The neighbourhood dentist's reminders are more considerate than the chain's."
+      ]
+    },
+    {
+      "id": "000056-5487ed5319c7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that the mark on the glass might explain the blur."
+      ]
+    },
+    {
+      "id": "000056-5487ed5319c7",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Photographic specialists recommend testing against printed text."
+      ]
+    },
+    {
+      "id": "000056-5487ed5319c7",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-5535ffb75fd2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-5535ffb75fd2",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-5535ffb75fd2",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It establishes us as the leading repair business in the region."
+      ]
+    },
+    {
+      "id": "000056-5589651cbf50",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-5589651cbf50",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Research indicates that preserving unfinished work encourages participation."
+      ]
+    },
+    {
+      "id": "000056-5589651cbf50",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The change is a watershed for online discussion."
+      ]
+    },
+    {
+      "id": "000056-571e80acfb1d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the pause you hear in the download might come from the player rebuilding its index after seeking."
+      ]
+    },
+    {
+      "id": "000056-571e80acfb1d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Audio specialists say desktop players often rebuild their indexes after an update."
+      ]
+    },
+    {
+      "id": "000056-571e80acfb1d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-5737ae3e3009",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The replacement wheel will probably arrive on Thursday; its arrival that day is likely."
+      ]
+    },
+    {
+      "id": "000056-5737ae3e3009",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-5737ae3e3009",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-582d0c3e5e36",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-582d0c3e5e36",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-582d0c3e5e36",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This recipe will put our bakery beyond the reach of the competition"
+      ]
+    },
+    {
+      "id": "000056-5830ec04568a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It could be that the evening opening will possibly attract residents who cannot attend on Saturdays."
+      ]
+    },
+    {
+      "id": "000056-5830ec04568a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Community organizers say offering a second time helps people become regular visitors."
+      ]
+    },
+    {
+      "id": "000056-5830ec04568a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-588e2aa93f2e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The longer sleeve might, with the cuff turned back, perhaps stay clear of my hands."
+      ]
+    },
+    {
+      "id": "000056-588e2aa93f2e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Style advisers say a relaxed cut suits everyday movement."
+      ]
+    },
+    {
+      "id": "000056-588e2aa93f2e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-5924146a8d81",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-5924146a8d81",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Safety specialists say a visible test sticker reassures people choosing a second-hand appliance."
+      ]
+    },
+    {
+      "id": "000056-5924146a8d81",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our sticker system sets the benchmark for responsible reuse."
+      ]
+    },
+    {
+      "id": "000056-598754580f8c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-598754580f8c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-598754580f8c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is a superior choice for anyone who cooks regularly."
+      ]
+    },
+    {
+      "id": "000056-59ed824cb84a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is some prospect that the bag might keep the crust from softening on the journey home."
+      ]
+    },
+    {
+      "id": "000056-59ed824cb84a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-59ed824cb84a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Its service is more thoughtful than the old bakery's."
+      ]
+    },
+    {
+      "id": "000056-5a0d7693b2bb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-5a0d7693b2bb",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-5a0d7693b2bb",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is a better design than fragment caching."
+      ]
+    },
+    {
+      "id": "000056-5d5531eec86e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-5d5531eec86e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "It is thought that a short walk indoors helps people judge the fit before taking them outside."
+      ]
+    },
+    {
+      "id": "000056-5d5531eec86e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-5ff32325abc7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-5ff32325abc7",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-5ff32325abc7",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "giving commuters unmatched flexibility in planning a journey"
+      ]
+    },
+    {
+      "id": "000056-610ec83c71cc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "One possibility is that the new pickup message may prevent another wasted journey."
+      ]
+    },
+    {
+      "id": "000056-610ec83c71cc",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Customer-care specialists say clear collection instructions rebuild trust after a delay."
+      ]
+    },
+    {
+      "id": "000056-610ec83c71cc",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The message is a masterclass in service recovery."
+      ]
+    },
+    {
+      "id": "000056-61590ccc735e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is some chance that the reading group might end up upstairs during the floor repairs."
+      ]
+    },
+    {
+      "id": "000056-61590ccc735e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-61590ccc735e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-62298cec23c5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In some individuals, the longer pause may possibly reflect a search for the printed label rather than hesitation about the answer."
+      ]
+    },
+    {
+      "id": "000056-62298cec23c5",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-62298cec23c5",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-639f841c589d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-639f841c589d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Service specialists say that seeing a staff member reduces visitors' uncertainty about where to go."
+      ]
+    },
+    {
+      "id": "000056-639f841c589d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This simple move is a masterclass in customer experience."
+      ]
+    },
+    {
+      "id": "000056-64eabaed2b2d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The local printer is probably the one we are likely to use for the invitations."
+      ]
+    },
+    {
+      "id": "000056-64eabaed2b2d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-64eabaed2b2d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-659b274ead79",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It could reduce the interruptions at next week's session.",
+        "Fewer interruptions are a possibility."
+      ]
+    },
+    {
+      "id": "000056-659b274ead79",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Training experts say a complete kit makes new staff more confident."
+      ]
+    },
+    {
+      "id": "000056-659b274ead79",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our bag check is an outstanding example of organizational leadership."
+      ]
+    },
+    {
+      "id": "000056-6a4cbfe7c48b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The parcel might, with a bit of luck, possibly be behind that box."
+      ]
+    },
+    {
+      "id": "000056-6a4cbfe7c48b",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-6a4cbfe7c48b",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-6b3fefd708da",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is likely that teams will probably keep the working list shorter as a result."
+      ]
+    },
+    {
+      "id": "000056-6b3fefd708da",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-6b3fefd708da",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The feature is a monumental step forward for project management."
+      ]
+    },
+    {
+      "id": "000056-6ca14619884f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the stale entry might survive one more refresh."
+      ]
+    },
+    {
+      "id": "000056-6ca14619884f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-6ca14619884f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-701c9cf2e7cf",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-701c9cf2e7cf",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-701c9cf2e7cf",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The new session secures a thriving future for the centre."
+      ]
+    },
+    {
+      "id": "000056-74c7583b9502",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-74c7583b9502",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Reliability engineers recommend keeping these delays below one second to avoid starving other work."
+      ]
+    },
+    {
+      "id": "000056-74c7583b9502",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-7539d29322c4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps the new table might leave room for another chair near the stove."
+      ]
+    },
+    {
+      "id": "000056-7539d29322c4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Space planners said round tables made small rooms easier to use"
+      ]
+    },
+    {
+      "id": "000056-7539d29322c4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-76564de647f2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-76564de647f2",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Interior specialists say leaving that gap helps a room warm evenly."
+      ]
+    },
+    {
+      "id": "000056-76564de647f2",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-7692c6d8f967",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-7692c6d8f967",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-7692c6d8f967",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-7b3b8378f93d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "may not necessarily mean"
+      ]
+    },
+    {
+      "id": "000056-7b3b8378f93d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-7b3b8378f93d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-7c1118b781ef",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A photograph of the awkward corner may, in some cases, possibly save a second measuring visit."
+      ]
+    },
+    {
+      "id": "000056-7c1118b781ef",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-7c1118b781ef",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It gives our work greater depth than a conventional design consultation."
+      ]
+    },
+    {
+      "id": "000056-7c934e7b42f8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-7c934e7b42f8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-7c934e7b42f8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-7d33f492b538",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The room might, once the window has been left open, possibly be ready this afternoon."
+      ]
+    },
+    {
+      "id": "000056-7d33f492b538",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Building advisers recommend waiting until the wall feels dry before putting furniture back."
+      ]
+    },
+    {
+      "id": "000056-7d33f492b538",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-7fc332c66ba4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-7fc332c66ba4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Payments specialists say a separate confirmation email makes a refund easier to track."
+      ]
+    },
+    {
+      "id": "000056-7fc332c66ba4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our new message provides a level of care that other retailers cannot match."
+      ]
+    },
+    {
+      "id": "000056-8265cd8679c2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that our booking might move into that gap."
+      ]
+    },
+    {
+      "id": "000056-8265cd8679c2",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Trade advisers say leaving a gap between jobs helps a small firm keep its promises."
+      ]
+    },
+    {
+      "id": "000056-8265cd8679c2",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-831e65248edc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-831e65248edc",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Reliability specialists describe early validation as a marker of mature software."
+      ]
+    },
+    {
+      "id": "000056-831e65248edc",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This makes the importer more dependable than the alternatives."
+      ]
+    },
+    {
+      "id": "000056-83b409fbadba",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-83b409fbadba",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Experienced workshop managers favour separating work that is ready to start from work awaiting approval."
+      ]
+    },
+    {
+      "id": "000056-83b409fbadba",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-83d8733984e2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The layout may, when a machine is old, possibly help someone decide against a repair."
+      ]
+    },
+    {
+      "id": "000056-83d8733984e2",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Business advisers say comparing the options openly strengthens a client's confidence."
+      ]
+    },
+    {
+      "id": "000056-83d8733984e2",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It provides a more ethical service than conventional quoting."
+      ]
+    },
+    {
+      "id": "000056-83e17e36fa9f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-83e17e36fa9f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-83e17e36fa9f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-860590770e42",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-860590770e42",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Differences between the two transcriptions have been reported in the literature, particularly around the abbreviated place names."
+      ]
+    },
+    {
+      "id": "000056-860590770e42",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-89a36daa40c6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps there is a possibility of using the same labels in the workshop window"
+      ]
+    },
+    {
+      "id": "000056-89a36daa40c6",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Trade specialists say visible prices also encourage repeat visits."
+      ]
+    },
+    {
+      "id": "000056-89a36daa40c6",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "That makes our approach a defining advance in retail practice."
+      ]
+    },
+    {
+      "id": "000056-89d906748da4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-89d906748da4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "The rehearsal room is believed to stay warmer with the heavy curtains drawn"
+      ]
+    },
+    {
+      "id": "000056-89d906748da4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-8b3e775919cb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe a home pickup is a possibility for saving time on school mornings."
+      ]
+    },
+    {
+      "id": "000056-8b3e775919cb",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-8b3e775919cb",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The smaller driving school provides a more professional introduction than the larger chain."
+      ]
+    },
+    {
+      "id": "000056-8b958ddc9f34",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A separate index could perhaps make its place names easier to compare."
+      ]
+    },
+    {
+      "id": "000056-8b958ddc9f34",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-8b958ddc9f34",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "That recognition establishes the catalogue's lasting supremacy in regional scholarship."
+      ]
+    },
+    {
+      "id": "000056-8f30674d45b3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The later closing time will probably, in all likelihood, help residents who finish work after six"
+      ]
+    },
+    {
+      "id": "000056-8f30674d45b3",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Community planners say an evening opening encourages neighbours to share skills."
+      ]
+    },
+    {
+      "id": "000056-8f30674d45b3",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The change makes ours the best-run community tool library in the district."
+      ]
+    },
+    {
+      "id": "000056-907ab3fe6ddb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-907ab3fe6ddb",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Certain studies suggest that a familiar speaker's accent affects how listeners divide a continuous recording into words."
+      ]
+    },
+    {
+      "id": "000056-907ab3fe6ddb",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-9379abaa05b0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-9379abaa05b0",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Relocation specialists say the collection service has the most reliable handling in the business."
+      ]
+    },
+    {
+      "id": "000056-9379abaa05b0",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the collection service has the most reliable handling in the business"
+      ]
+    },
+    {
+      "id": "000056-93a75e263971",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A photograph of the packed order could conceivably reduce disagreements about what left the workshop."
+      ]
+    },
+    {
+      "id": "000056-93a75e263971",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Customer-service specialists recommend showing the contents before sealing a parcel."
+      ]
+    },
+    {
+      "id": "000056-93a75e263971",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-977baf4f6be7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the extra stop could bring in neighbours from the upper estate"
+      ]
+    },
+    {
+      "id": "000056-977baf4f6be7",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "walking-group leaders say a familiar landmark makes joining less daunting"
+      ]
+    },
+    {
+      "id": "000056-977baf4f6be7",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "our canal walk is a model of inclusive recreation"
+      ]
+    },
+    {
+      "id": "000056-989fe10c563b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-989fe10c563b",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Logistics advisers say direct contact makes missed deliveries easier to resolve."
+      ]
+    },
+    {
+      "id": "000056-989fe10c563b",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It provides a more professional service."
+      ]
+    },
+    {
+      "id": "000056-98ff93fa3679",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The noticeboard's new map may perhaps help visitors find the back entrance."
+      ]
+    },
+    {
+      "id": "000056-98ff93fa3679",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Community researchers say clear directions support participation."
+      ]
+    },
+    {
+      "id": "000056-98ff93fa3679",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is a landmark achievement in neighbourhood access."
+      ]
+    },
+    {
+      "id": "000056-9939dac56a39",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-9939dac56a39",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-9939dac56a39",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-9993c23d4126",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The connection could close while a large upload is still being written.",
+        "Such a closure is a possibility."
+      ]
+    },
+    {
+      "id": "000056-9993c23d4126",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-9993c23d4126",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-9a4b29995db5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The rattle could conceivably come from the loose cover rather than the fan itself."
+      ]
+    },
+    {
+      "id": "000056-9a4b29995db5",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-9a4b29995db5",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-9ac6b67b2262",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-9ac6b67b2262",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Customer research suggests that concrete examples encourage more useful questions."
+      ]
+    },
+    {
+      "id": "000056-9ac6b67b2262",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This approach is a genuine triumph of client-centred practice."
+      ]
+    },
+    {
+      "id": "000056-9b92987f2fe5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-9b92987f2fe5",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-9b92987f2fe5",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-9cf1c63a74ab",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-9cf1c63a74ab",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Research suggests that the diary also helps students plan their study time."
+      ]
+    },
+    {
+      "id": "000056-9cf1c63a74ab",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-9d4dde2e4f15",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The next session might, if the bank has dried, perhaps reach the bend beyond the mill."
+      ]
+    },
+    {
+      "id": "000056-9d4dde2e4f15",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-9d4dde2e4f15",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This recognition ensures the lasting success of our conservation work."
+      ]
+    },
+    {
+      "id": "000056-9fed368ce96b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps the missing heading might explain why the last three entries were copied into the wrong column."
+      ]
+    },
+    {
+      "id": "000056-9fed368ce96b",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-9fed368ce96b",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-a05fecdf2100",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The meeting room might possibly be free after lunch.",
+        "The courier could conceivably arrive during that gap."
+      ]
+    },
+    {
+      "id": "000056-a05fecdf2100",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Facilities advisers recommend keeping a collection point away from the public entrance."
+      ]
+    },
+    {
+      "id": "000056-a05fecdf2100",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our new arrangement is a masterstroke of operational planning."
+      ]
+    },
+    {
+      "id": "000056-a2e3b9ada7e4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps it could reduce the effort needed to compare alternative readings."
+      ]
+    },
+    {
+      "id": "000056-a2e3b9ada7e4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a2e3b9ada7e4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The layout represents a major methodological advance for textual scholarship."
+      ]
+    },
+    {
+      "id": "000056-a301bcb5b16d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In some cases, a newly swapped access card may perhaps take a day to show the holder's name on the gate display."
+      ]
+    },
+    {
+      "id": "000056-a301bcb5b16d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a301bcb5b16d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-a60dea973067",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-a60dea973067",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a60dea973067",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-a668c6257e06",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-a668c6257e06",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a668c6257e06",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "A decisive victory for local democracy."
+      ]
+    },
+    {
+      "id": "000056-a87b0c3e43a8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The corrected copy might, before the first shift begins, potentially reach the noticeboards."
+      ]
+    },
+    {
+      "id": "000056-a87b0c3e43a8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a87b0c3e43a8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is an unforgivable collapse of leadership."
+      ]
+    },
+    {
+      "id": "000056-a8b57f51ea26",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-a8b57f51ea26",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a8b57f51ea26",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is an outstanding achievement in public communication."
+      ]
+    },
+    {
+      "id": "000056-a97cbf4f48b0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The borrowed-tool register could perhaps help volunteers find a missing tool before another session"
+      ]
+    },
+    {
+      "id": "000056-a97cbf4f48b0",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-a97cbf4f48b0",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "a remarkable achievement in neighbourhood cooperation"
+      ]
+    },
+    {
+      "id": "000056-ab6d207549f4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ab6d207549f4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-ab6d207549f4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-aba2727662d0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The colour difference might be due to the preview, perhaps."
+      ]
+    },
+    {
+      "id": "000056-aba2727662d0",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-aba2727662d0",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-ad926aa3af25",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "We see a possibility that the shorter confirmation screen may reduce accidental repeat bookings."
+      ]
+    },
+    {
+      "id": "000056-ad926aa3af25",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-ad926aa3af25",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b05fcef05d03",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that our daughter might concentrate longer at home."
+      ]
+    },
+    {
+      "id": "000056-b05fcef05d03",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Education specialists say a familiar room helps some children ask for help."
+      ]
+    },
+    {
+      "id": "000056-b05fcef05d03",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b07ee71dafb7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A paired shift might conceivably make those responsibilities easier to remember."
+      ]
+    },
+    {
+      "id": "000056-b07ee71dafb7",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Experienced team leads recommend keeping the first handover small"
+      ]
+    },
+    {
+      "id": "000056-b07ee71dafb7",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b0d7cbb9019b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-b0d7cbb9019b",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-b0d7cbb9019b",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b2cb803d1416",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The panel might, on smaller displays, potentially cover the bottom row of the table."
+      ]
+    },
+    {
+      "id": "000056-b2cb803d1416",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-b2cb803d1416",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b59b5ab1d27c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The gap could, during the wet months, possibly prevent another stain."
+      ]
+    },
+    {
+      "id": "000056-b59b5ab1d27c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Builders generally said that leaving a narrow gap behind a cupboard helped keep the wall dry."
+      ]
+    },
+    {
+      "id": "000056-b59b5ab1d27c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b6b7c982cc12",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-b6b7c982cc12",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-b6b7c982cc12",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The centre therefore provides a more effective education."
+      ]
+    },
+    {
+      "id": "000056-b7707cd70c6e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The new shelf label may reduce calls about where to return a borrowed item.",
+        "A reduction of that kind is a possibility."
+      ]
+    },
+    {
+      "id": "000056-b7707cd70c6e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-b7707cd70c6e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-b8f74cefb47c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A stale routing entry could, after the address changes, perhaps send one request to the old worker."
+      ]
+    },
+    {
+      "id": "000056-b8f74cefb47c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Network engineers generally favour expiring routes rather than keeping them indefinitely."
+      ]
+    },
+    {
+      "id": "000056-b8f74cefb47c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This policy is a decisive victory over the weaknesses of conventional networking."
+      ]
+    },
+    {
+      "id": "000056-bad9f67a331f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The evening class may move into the smaller hall after Easter.",
+        "A move into the smaller hall is one possible outcome."
+      ]
+    },
+    {
+      "id": "000056-bad9f67a331f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-bad9f67a331f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-bbd7676f765b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-bbd7676f765b",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-bbd7676f765b",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-bc93c895e4dd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A tag could conceivably save the porter a trip to reception."
+      ]
+    },
+    {
+      "id": "000056-bc93c895e4dd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Hospitality specialists said naming the room made a bag easier to return."
+      ]
+    },
+    {
+      "id": "000056-bc93c895e4dd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "an exceptional advance in guest care"
+      ]
+    },
+    {
+      "id": "000056-bea2a6c9d8a6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that the photograph might answer a question before the customer phones."
+      ]
+    },
+    {
+      "id": "000056-bea2a6c9d8a6",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Service specialists say showing the work makes an explanation easier to trust."
+      ]
+    },
+    {
+      "id": "000056-bea2a6c9d8a6",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This practice places our customer care above that of other trades."
+      ]
+    },
+    {
+      "id": "000056-c0b5ca798c82",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps this is a possibility for reducing lost replies."
+      ]
+    },
+    {
+      "id": "000056-c0b5ca798c82",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-c0b5ca798c82",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The change ushers in a new era of thoughtful online debate."
+      ]
+    },
+    {
+      "id": "000056-c14e5cc6b403",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c14e5cc6b403",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-c14e5cc6b403",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-c16f4cec8e88",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The archive button may help readers keep the current folder easier to scan.",
+        "Such help is possible."
+      ]
+    },
+    {
+      "id": "000056-c16f4cec8e88",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Information specialists say separating completed work from active work reduces distraction."
+      ]
+    },
+    {
+      "id": "000056-c16f4cec8e88",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-c1e1669ff3bd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c1e1669ff3bd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Procurement specialists regard a single order point as a way to reduce waste."
+      ]
+    },
+    {
+      "id": "000056-c1e1669ff3bd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The form is an impressive feat of organizational innovation."
+      ]
+    },
+    {
+      "id": "000056-c2757e30592c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a small chance that your replacement lens might reach the branch this afternoon."
+      ]
+    },
+    {
+      "id": "000056-c2757e30592c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-c2757e30592c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our new tracking page will remove the stress from every repair."
+      ]
+    },
+    {
+      "id": "000056-c360ed1bc0fd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps a different strap is a possibility for making the bag sit higher on my shoulder."
+      ]
+    },
+    {
+      "id": "000056-c360ed1bc0fd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Luggage specialists recommend keeping a heavy bag close to the body."
+      ]
+    },
+    {
+      "id": "000056-c360ed1bc0fd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-c3b6eec34c48",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c3b6eec34c48",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-c3b6eec34c48",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This guarantees the success of our winter lunch programme."
+      ]
+    },
+    {
+      "id": "000056-c3cb43e742ad",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Possibly the Saturday repair desk may move to the foyer while the main hall is being painted."
+      ]
+    },
+    {
+      "id": "000056-c3cb43e742ad",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-c3cb43e742ad",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-c59c40fc6750",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c59c40fc6750",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-c59c40fc6750",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Their new paper tally is a model of operational excellence that every branch should follow."
+      ]
+    },
+    {
+      "id": "000056-c64d3d3accf9",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c64d3d3accf9",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Travel writers say a personal pickup makes visitors feel at ease."
+      ]
+    },
+    {
+      "id": "000056-c64d3d3accf9",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The company therefore offers a more thoughtful experience."
+      ]
+    },
+    {
+      "id": "000056-c74aad423d9d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c74aad423d9d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "product reviewers agree that a simple latch is easier to use on the move"
+      ]
+    },
+    {
+      "id": "000056-c74aad423d9d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "making this cup a triumph of inclusive design"
+      ]
+    },
+    {
+      "id": "000056-c74d468e1b3f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c74d468e1b3f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "A quiet desk is often treated as a useful place for reviewing a difficult case before phoning a customer."
+      ]
+    },
+    {
+      "id": "000056-c74d468e1b3f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-c8214ecdc89e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-c8214ecdc89e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Experienced dispatchers recommend keeping labels close to the weighing station so parcels need fewer handovers."
+      ]
+    },
+    {
+      "id": "000056-c8214ecdc89e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-cb1e239d2cd8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-cb1e239d2cd8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-cb1e239d2cd8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "an unparalleled triumph of civic imagination"
+      ]
+    },
+    {
+      "id": "000056-cb527324b5b4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-cb527324b5b4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-cb527324b5b4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This work decisively settles the history of settlement in the valley."
+      ]
+    },
+    {
+      "id": "000056-ccb9bb66a4c4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ccb9bb66a4c4",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-ccb9bb66a4c4",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "That makes it the best-made raincoat on the market."
+      ]
+    },
+    {
+      "id": "000056-cd7323c8b990",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Your refund may arrive today.",
+        "Its arrival today is a possibility."
+      ]
+    },
+    {
+      "id": "000056-cd7323c8b990",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Payments experts recommend keeping the claim number until the credit appears."
+      ]
+    },
+    {
+      "id": "000056-cd7323c8b990",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our new claim page is a defining achievement in consumer protection."
+      ]
+    },
+    {
+      "id": "000056-cea06e4335f2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-cea06e4335f2",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-cea06e4335f2",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-cee16a41e92f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "the printed lunch menu might perhaps bring in more office workers"
+      ]
+    },
+    {
+      "id": "000056-cee16a41e92f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-cee16a41e92f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "a dining experience of unrivalled refinement"
+      ]
+    },
+    {
+      "id": "000056-d0172d6546b9",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A location link might reveal a pattern in the surviving material.",
+        "Such a revelation is possible."
+      ]
+    },
+    {
+      "id": "000056-d0172d6546b9",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Scholars regard geographical indexing as a useful aid to comparison."
+      ]
+    },
+    {
+      "id": "000056-d0172d6546b9",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The glossary is a definitive achievement in regional linguistics."
+      ]
+    },
+    {
+      "id": "000056-d02e6998d512",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-d02e6998d512",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-d02e6998d512",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-d04c144c71aa",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-d04c144c71aa",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-d04c144c71aa",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-d1f12a4f84c1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A restart could potentially clear that state"
+      ]
+    },
+    {
+      "id": "000056-d1f12a4f84c1",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-d1f12a4f84c1",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-d20bd718844f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-d20bd718844f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-d20bd718844f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is the ideal transport solution for city life."
+      ]
+    },
+    {
+      "id": "000056-da35bca0f73f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-da35bca0f73f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "It is thought that a short practical task helps people settle before listening to instructions"
+      ]
+    },
+    {
+      "id": "000056-da35bca0f73f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-dac66d90576f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-dac66d90576f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-dac66d90576f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It marks a turning point for the craft sector."
+      ]
+    },
+    {
+      "id": "000056-db120d8ef577",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-db120d8ef577",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Management experts say visible fairness improves morale."
+      ]
+    },
+    {
+      "id": "000056-db120d8ef577",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is an exemplary achievement in staff wellbeing."
+      ]
+    },
+    {
+      "id": "000056-dbc3df254213",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The smaller holes may perhaps stop peas escaping as well"
+      ]
+    },
+    {
+      "id": "000056-dbc3df254213",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-dbc3df254213",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is the perfect answer to the demands of a busy kitchen."
+      ]
+    },
+    {
+      "id": "000056-de0fec0ca6aa",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The trays will probably, with the larger class, likely reduce the time spent searching for tools."
+      ]
+    },
+    {
+      "id": "000056-de0fec0ca6aa",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-de0fec0ca6aa",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This small system proves the superiority of our training over conventional apprenticeships."
+      ]
+    },
+    {
+      "id": "000056-e08e19e06e4a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-e08e19e06e4a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-e08e19e06e4a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-e103d4ecdee6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The electrician may, depending on his first job, possibly get here before handover."
+      ]
+    },
+    {
+      "id": "000056-e103d4ecdee6",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-e103d4ecdee6",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-e1882c526fdd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The replacement freezer could be installed before the bank holiday.",
+        "Installation before the bank holiday is a possibility."
+      ]
+    },
+    {
+      "id": "000056-e1882c526fdd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Facilities specialists recommend leaving room beside a freezer for cleaning."
+      ]
+    },
+    {
+      "id": "000056-e1882c526fdd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-e1a9673ef912",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-e1a9673ef912",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Historians often note that a household and its estate can keep overlapping accounts."
+      ]
+    },
+    {
+      "id": "000056-e1a9673ef912",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our revision is a landmark contribution to economic history."
+      ]
+    },
+    {
+      "id": "000056-e1d7eb3b23e8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The wrist display may, when my hands are full, perhaps save me taking the phone from my pocket."
+      ]
+    },
+    {
+      "id": "000056-e1d7eb3b23e8",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Technology reviewers say a glanceable display helps commuters feel in control."
+      ]
+    },
+    {
+      "id": "000056-e1d7eb3b23e8",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It offers a more intelligent travel experience than a phone."
+      ]
+    },
+    {
+      "id": "000056-e2e7fc4b2c54",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-e2e7fc4b2c54",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-e2e7fc4b2c54",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This classification is an indispensable contribution to conversational analysis."
+      ]
+    },
+    {
+      "id": "000056-e42be5781825",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-e42be5781825",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-e42be5781825",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The new entrance sets the standard for workplace design."
+      ]
+    },
+    {
+      "id": "000056-ea08352b4306",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ea08352b4306",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Specialists say checklists also make teams more resilient under pressure."
+      ]
+    },
+    {
+      "id": "000056-ea08352b4306",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This change guarantees a calmer winter rota."
+      ]
+    },
+    {
+      "id": "000056-eb54aab98005",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-eb54aab98005",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Privacy specialists recommend ending the session after each appointment request."
+      ]
+    },
+    {
+      "id": "000056-eb54aab98005",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-eb572c1ca67e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The larger button may, on a crowded phone screen, perhaps be easier to find."
+      ]
+    },
+    {
+      "id": "000056-eb572c1ca67e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Accessibility specialists say keeping the action near its label reduces mistaken taps."
+      ]
+    },
+    {
+      "id": "000056-eb572c1ca67e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-eb573389d05f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-eb573389d05f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Browser engineers recommend reserving that space to keep surrounding text steady."
+      ]
+    },
+    {
+      "id": "000056-eb573389d05f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This is a major victory for the quality of the web."
+      ]
+    },
+    {
+      "id": "000056-eb5ef17278d7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-eb5ef17278d7",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-eb5ef17278d7",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-ebf6af758b03",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ebf6af758b03",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Many studies suggest that handwritten margin notes help readers remember where an argument changes direction."
+      ]
+    },
+    {
+      "id": "000056-ebf6af758b03",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-ec67f6d5c540",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ec67f6d5c540",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-ec67f6d5c540",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-ed9bb5f3dc72",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ed9bb5f3dc72",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Outdoor specialists say a padded grip reduces hand fatigue."
+      ]
+    },
+    {
+      "id": "000056-ed9bb5f3dc72",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-f34c07f00365",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A spare tray might perhaps keep the wet brushes away from finished work."
+      ]
+    },
+    {
+      "id": "000056-f34c07f00365",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-f34c07f00365",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-f5cc723d6679",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-f5cc723d6679",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Service researchers say retaining that description helps when a problem returns after collection."
+      ]
+    },
+    {
+      "id": "000056-f5cc723d6679",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-f7f46ea3bc2a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-f7f46ea3bc2a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-f7f46ea3bc2a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The template is a breakthrough in client relations."
+      ]
+    },
+    {
+      "id": "000056-f839a507b4f1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-f839a507b4f1",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-f839a507b4f1",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "That earlier behaviour was a catastrophic betrayal of sound engineering."
+      ]
+    },
+    {
+      "id": "000056-f855a4aaded7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-f855a4aaded7",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-f855a4aaded7",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This change will restore every customer's confidence in our delivery service."
+      ]
+    },
+    {
+      "id": "000056-f8f8a913720e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The visitor might, if the first appointment ends early, possibly reach us before lunch."
+      ]
+    },
+    {
+      "id": "000056-f8f8a913720e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Service specialists say meeting people in familiar surroundings encourages questions."
+      ]
+    },
+    {
+      "id": "000056-f8f8a913720e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "The home-visit service is more respectful of older customers than the clinic."
+      ]
+    },
+    {
+      "id": "000056-fc8625a64b84",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-fc8625a64b84",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-fc8625a64b84",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-fdc1513c7d4a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that the first group might not have reached the last page before the bell."
+      ]
+    },
+    {
+      "id": "000056-fdc1513c7d4a",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000056-fdc1513c7d4a",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "It is a momentous advance in survey methodology."
+      ]
+    },
+    {
+      "id": "000056-fde56d2edf17",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the driver might collect it before the evening run."
+      ]
+    },
+    {
+      "id": "000056-fde56d2edf17",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Logistics specialists recommend a morning scan to make a parcel easier to trace."
+      ]
+    },
+    {
+      "id": "000056-fde56d2edf17",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "Our tracking service is more reliable than competing retailers'."
+      ]
+    },
+    {
+      "id": "000056-fe2d746389bc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-fe2d746389bc",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Repair specialists say a close view of the screw head helps distinguish a loose hinge from a worn mounting plate."
+      ]
+    },
+    {
+      "id": "000056-fe2d746389bc",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-fe3f0a8dff68",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-fe3f0a8dff68",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "A separate entrance for deliveries was widely regarded as the sign of a superior guesthouse."
+      ]
+    },
+    {
+      "id": "000056-fe3f0a8dff68",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "A separate entrance for deliveries was widely regarded as the sign of a superior guesthouse.",
+        "a defining achievement in modern hospitality"
+      ]
+    },
+    {
+      "id": "000056-ff37811a650d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000056-ff37811a650d",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "This is generally considered a useful way to keep attention on unresolved questions."
+      ]
+    },
+    {
+      "id": "000056-ff37811a650d",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000056-ff94c549c200",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It will probably make changing shoes easier at the dance class.",
+        "That benefit is likely."
+      ]
+    },
+    {
+      "id": "000056-ff94c549c200",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Community planners say a place to sit makes a shared entrance more welcoming."
+      ]
+    },
+    {
+      "id": "000056-ff94c549c200",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "This modest purchase has redefined hospitality in our neighbourhood."
+      ]
+    }
+  ]
+}

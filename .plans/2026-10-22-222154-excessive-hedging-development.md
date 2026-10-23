@@ -8,6 +8,31 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Work on main, preserve unrelated term-policy changes, and commit and push milestones with worklogs. Use Codex reviewers; preserve the existing instruction to ignore G3TS hooks for this work.
 - Keep the workflow in `AGENTS.md`, definitions in the accepted taxonomy, datasets in root `datasets/`, prompts in root `prompts/v18/`, and native results under `runners/results/`.
 
+## Execution Status
+
+- The four independently authored pilots contain 72 passages and 136 judgments. Blind reviewers agree with all author classifications; both splits retain their independent review records.
+- Review refines fourteen author snippet selections and corrects one prose passage in each split. Both corrected passages are reviewed again before expansion.
+- Commit `c129617c` preserves all 960 authored candidates and 1,920 provisional judgments. Root collections are replaced with reviewed balanced selections as each collection finishes; all approved pilot cases remain required.
+- Each archived author pool contains 240 candidates with contextual coverage of all 68 legacy vocabulary slots. Initial isolated pools have 120 hits and 120 no-hits; initial mixed pools have thirty passages per combination.
+- Both development collections complete all three full reviews. Six original protected review attempts are superseded after read-scope audits, and clean replacements use pre-extracted definitions with a strict file allowlist.
+- Pre-inference adjudication corrects eight development labels across seven passages to no-hits while preserving their complete writing. Every corrected case and the retained weaker-deadline hit are required in final selection.
+- Full-pool copy screening finds zero candidates across 289,437,600 eligible comparisons against the other split and prior datasets. The final selected-set screen below repeats this after review.
+- Two new development passages are rewritten for realism before blind review. Holdout writing remains protected throughout prompt authoring and development inference.
+- Isolated development `000053` completes all three full reviews and selects exactly 100 hits and 100 no-hits, retaining all 22 required cases and 68 source slots. Its complete reviewed 240-passage pool is archived at `93be1e7f`; the forty surplus passages retain their labels there.
+- Mixed development `000055` completes all three full reviews with seven corrected labels across six passages, preserving all original writing and sixteen pilots. Its complete reviewed 240-passage pool is archived at `44f8782d`.
+- Balanced mixed development retains 200 passages, all eight combinations with 25 passages each, all 22 required cases and 68 source slots.
+- Both protected collections complete three clean full reviews with no remaining judgments to resolve. Their complete reviewed pools are archived at `8b80d26f` before balanced selection; no holdout model inference has run.
+- The two legacy hedging checks run on the same 400 selected development passages. Against the new definition, their union catches 18/100 isolated hits with 27 false positives and 23/100 mixed hits with sixteen false positives.
+- All four balanced selections now contain 800 passages and 1,600 judgments, retaining 92 required cases and all 68 source slots per collection. Forty surplus passages per collection remain in the reviewed Git archives.
+- A fresh independent freeze audit passes all 43 checks. Final copy screening finds zero candidates across 241,166,000 eligible comparisons; source and label hashes match the reviewed archives.
+- Baseline `prompts/v18/hedge-stacking.md` contains 761 assembled words and six complete development demonstrations. Shared instructions match `v17` byte-for-byte; offline native validation covers all four planned baseline invocations without provider calls.
+- Committed baseline, revision one and revision two complete development inference. Revision two first meets both selection bounds with 95/100 isolated hits and four false positives, and 96/100 mixed hits and two false positives; the fixed rule stops prompt changes.
+- One fresh confirmation records 96/five isolated and 97/two mixed. The selected 945-word prompt retains six complete demonstrations and unchanged shared instructions.
+- Frozen comparators complete both measurements: attribution 91/two then 91/three; puffery 70/two in both. Mixed confirmation finds all expected issues in 136/175 affected passages and matches all three answers in 155/200.
+- All twelve native outputs validate against their producing prompts and identical labels. They record 156 requests and 2,400 judgments. Independent reviews cover 35 hedging cases, 46 comparator judgments and 200 legacy changes; twelve hedging and ten comparator interpretation disputes retain their frozen labels.
+- The report and existing review records preserve measured results, complete examples and disputed readings. Fresh final report audit passes all 27 verification checks; its two wording corrections are applied. All four GitHub workflows pass results commit `638d2c74`. Verify the final audit-record commit after push before closing this execution round.
+- Dataset preparation, bounded tuning, confirmation, error review and reporting are complete. User judgment review, protected holdout inference and later broad corpus validation retain their separately authorized stages.
+
 ## Existing Behavior And Check Definition
 
 - `src/rules/words/hedge-stacking.ts` counts eight listed words and reports a sentence at two occurrences. Separate claims, meaningful evidence status and repeated quoted wording can all reach that count.
@@ -22,13 +47,15 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
   - Preserve one useful hedge, different qualifications on different claims, probability plus a distinct population/condition limit, meaningful appearance-versus-reality distinctions, permission, capability, and conventional request politeness.
   - Preserve relevant quoted wording being documented or examined. Assess adopted claims and dialogue by their function rather than exempting quotations or fiction.
 - Have a fresh definition reviewer challenge these boundaries before generation. Update the definition and counts when evidence requires another distinction; do not create separate checks for different word lists.
-- Assign vague source identification to the frozen `unsupported-authority/vague-attribution` definition. Assign separate verbose constructions to frozen `wordiness-and-redundancy/wordiness`; one unnecessary hedge expression has primary hedging ownership.
+- Fresh review retains one check after 28 paired comparisons. Finalize the meaning-preserving reduction test, contextual modal and negation scope, useful communicative functions and cross-sentence continuation before authoring data; the taxonomy records these reconciled decisions.
+- Keep source identification and claim strength separate from qualification. Mixed comparators use frozen `unsupported-authority/vague-attribution` and `puffery-and-overstatement/inflated-evaluation` definitions.
+- Source inspection rejects wordiness as an independent mixed bit: its frozen definition can also classify redundant qualification as removable padding. Preserve that broader definition and use comparators that assess distinct properties.
 
 ## Dataset Design
 
 - Allocate paired Markdown and schema-version-2 labels under `datasets/ai-synthetic/passages/`.
   - `000053-excessive-hedging-hedge-stacking-development` and `000054-excessive-hedging-hedge-stacking-holdout` each finish at exactly 100 hits and 100 no-hits.
-  - `000055-mixed-excessive-hedging-wordiness-vague-attribution-development` and `000056-mixed-excessive-hedging-wordiness-vague-attribution-holdout` each contain 200 passages labeled for all three named checks.
+  - `000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development` and `000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout` each contain 200 passages labeled for all three named checks.
 - Mixed sets cover all eight combinations with 25 passages each: 100 hits and 100 no-hits per named check. If reviewed mandatory cases require adjusted complementary quotas, preserve every guard, all combinations and all class balances before model evaluation.
 - The active target is 800 passages and 1,600 judgments. Generate 240 reviewed candidates per collection first, then archive all surplus with labels before selecting balanced sets.
 - Use ten plausible settings: support replies, technical explanations, release notes, workplace messages, service comparisons, community notices, consumer accounts, academic discussion, professional posts and factual or fictional narration.
@@ -37,7 +64,7 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Include single-sentence and multi-sentence passages, cross-sentence qualifications, several distinct qualified propositions, quotation/adoption contrasts and useful numerical or qualitative limits.
 - Cover all legacy token values as contextual candidates; cover each quantifier lead and target in meaningful scope controls. Report actual construction coverage rather than treating 100 lexical combinations as 100 separate issue types.
 - Keep no-hit writing comparably plausible and detailed. Include the same surface vocabulary with distinct functions, ordinary uncertainty, attribution, conditionals, probabilistic forecasts, technical permissions, polite requests and useful dialogue.
-- Write mixed defects as coherent prose with independently identifiable spans. Avoid using the same qualification as both the expected hedge and the expected wordiness defect.
+- Write mixed defects as coherent prose with independently identifiable functions. Judge the hedge's contribution, source identification and evaluation strength separately, including when they appear in the same sentence.
 - Assign neutral, globally unique passage IDs without class-revealing prefixes. Labels contain only ID, fully qualified check, expected boolean and exact hit snippets. No-hit labels omit snippets.
 
 ## Review And Freeze
@@ -62,7 +89,7 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Evaluate the new check on its 200 isolated and 200 mixed development inputs. Require at least 95/100 caught hits and at most 5/100 false positives in each set.
 - Evaluate baseline plus at most three general revisions. Stop at first pass, two consecutive non-improvements, or the revision limit; rank nonpassing candidates by total errors, then caught positives, then earliest revision.
 - Run one fresh uncached confirmation of the selected candidate on the same 400 inputs. Require both selected and repeat measurements to pass; retain every failed bound and finish the bounded round after a failed confirmation.
-- Keep `v11/vague-attribution` and `v16/wordiness` frozen as mixed-set comparators. Run each on the same 200 mixed development passages once, then once more for final confirmation.
+- Keep `v11/vague-attribution` and `v10/inflated-evaluation` frozen as mixed-set comparators. Run each on the same 200 mixed development passages once, then once more for final confirmation.
   - Keep each comparator's fully qualified labels and native family invocation. The reader already supports several families in one dataset; the native runner selects one family per invocation.
   - Join complete predictions by passage ID for cross-family joint reporting while preserving the original check IDs. Use native scoring for each check; avoid changing the public runner for this report calculation.
   - Comparator failures remain reported observations. Their prompts, old datasets and prior holdouts are outside this family's tuning scope.
@@ -89,3 +116,4 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - `prompts/v18/shared.md`, `prompts/v18/hedge-stacking.md` and prompt README.
 - Native trial outputs and one family experiment/report pair under `runners/results/`, with compact split-specific dataset review records.
 - This plan and milestone worklogs. Preserve all unrelated worktree files and existing production sources.
+- Update the existing protected-review guidance in `AGENTS.md` to require extracted definitions, explicit permitted inputs and a read-scope record. This prevents the taxonomy-result exposure reproduced during the review round.
