@@ -1,10 +1,10 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named rulebook in state.types. Does target contain a needless recurring lexical opening or internal frame, after excluding repeated terminal predicates and connector-only recurrence?",
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Do three statements repeat actual opening words, a distinctive first word, or an inner phrase with words AFTER it, and is that recurrence needless? Two adjacent identical explicit takeaway wrappers also qualify. Exclude repeated endings.",
   "criteria":
     {
-      "true": "Three eligible lexical opening/internal-frame instances, or two adjacent instances of the same explicit takeaway wrapper, redundantly package the writing. A separately repeated opening or internal wording remains after terminal-predicate and connector exclusions, and its form supplies no useful function.",
-      "false": "The eligible frame is absent or below count; only common grammatical words, generic subject-verb shape, connector prefixes or terminal predicates recur; the wording is being examined; or the recurring frame usefully distinguishes cases, stages, outcomes or refrain."
+      "true": "The same content-bearing opening words, distinctive first word or nonterminal inner wording recur at least three times, or the same explicit takeaway wrapper recurs in two adjacent statements. After considering useful comparison and refrain, those repeated words merely repackage the message.",
+      "false": "Only the ending words recur; the common opening consists only of ordinary grammatical words; the sentence shape repeats without matching wording; no eligible count exists; the wording is examined; or the recurrence organizes distinct conditions, actions, meanings, outcomes or deliberate refrain."
     }
 }
 ---
@@ -21,11 +21,11 @@ Find mechanically repeated lexical sentence frames, including unfamiliar wording
 - Connector-only recurrence belongs to the transition check; a weak repeated terminal predicate belongs to the ending check. Identify a separately defective opening or internal frame on its own merits.
 - Preserve wording reproduced for examination or documentation. Judge adopted quotations and ordinary dialogue normally.
 
-Check recurring WORDING before judging style. Different subjects followed by the same generic ending establish an ending issue, even when all three statements express the same vague message. A repeated final verb phrase is not an internal frame. A separately repeated lexical opening can coexist with an ending issue. Distinct input cases, outcomes and stages can justify identical openings; evaluate their comparison or progression independently of other slop in the passage. Documentary or criticized wording supplies context to examine rather than an adopted frame.
+Test actual matching WORDS, rather than similar sentence structure or a generally repetitive idea. An inner phrase has further words after it in every participating statement; a generic final verb phrase belongs to the ending check. Ordinary grammatical prefixes alone do not qualify. Repeated modal-plus-still wording can qualify internally, but distinct capabilities or conditions can justify that parallelism. Preserve a comparison in which each repeated frame identifies a different concrete case, duty or outcome, even when another part of the passage contains genuine slop.
 
 ## Hits
 
-We asked both removal firms how they protect framed pictures. **The important thing is care in handling.** **The important thing is attention during the move.** **The important thing is consideration for our belongings.** One supplies rigid sleeves; the other asks us to wrap the pictures ourselves before its crew arrives.
+The club will lend its minibus to the food collection team on Wednesdays. **Members can still demonstrate community spirit.** **Volunteers can still show a neighborly attitude.** **Organizers can still display a sense of local fellowship.** Anyone driving must show their license to the secretary before taking the keys, even if they have driven the bus before.
 
 The shared cupboard is moving to the room beside reception next week. **Orderliness makes our workplace better.** **Orderliness improves our working environment.** **Orderliness enhances the place where we work.** Please collect any personal mugs by Friday; unclaimed mugs will be washed and packed with the communal supplies.
 
@@ -37,4 +37,4 @@ Archive behavior now follows the type of item selected. Archive for a conversati
 
 The guided package gives you an instructor for the first two climbing sessions. Indeed, confidence grows. Moreover, self-assurance grows. Ultimately, belief in yourself grows. The independent package costs less but assumes you can fit a harness and check a partner's knot already. Equipment rental is included in both prices.
 
-An empty string is handled differently by each operation. When used as a key, it identifies a valid map entry. When used as a path, it selects the current directory. When used as a filter, it matches every record. Validate the operation as well as the value before rejecting empty input.
+Drafts will still appear in search after archiving. Attachments will still open from archived drafts. Comments will still accept replies there. These continuities let teams finish ongoing reviews. However, archived drafts leave the active counter. As a result, that counter may fall after upgrading. Meanwhile, the archive tab shows the removed items.

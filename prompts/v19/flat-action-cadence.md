@@ -1,10 +1,10 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named rulebook in state.types. Do at least three complete subject-first ACTION CLAUSES receive pointless equal-beat presentation, counting separately coordinated clauses even within one sentence?",
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Are three or more complete subject-first action clauses presented as detached equal beats without a supplied functional reason? Count coordinated clauses separately and disregard unrelated fragment or list defects.",
   "criteria":
     {
-      "true": "At least three complete clauses, with their own stated subjects, mechanically present movements or scene observations at equal emphasis. They can occupy only two sentences. No supplied procedure, reconstruction, comparison or deliberate pacing effect justifies their separate beats.",
-      "false": "The eligible clause run is absent, its emphasis varies meaningfully, the wording is examined or documented, or each separate beat serves an identifiable operational dependency, reconstruction, comparison, discovery or suspense progression."
+      "true": "At least three complete own-subject clauses mechanically enumerate actions or scene beats at equal emphasis. They can share sentences. Useful information elsewhere leaves an independent irrelevant motion sequence eligible.",
+      "false": "The complete-clause run is absent, the clauses are fragments or list members, or their equal beats usefully establish an operational dependency, event reconstruction, comparison, timed observation, escalating discovery or suspense condition in the complete passage."
     }
 }
 ---
@@ -20,7 +20,7 @@ Find runs of at least three complete subject-first action clauses presented as e
 - Read the complete supplied context, including adjacent paragraphs continuing the sequence. Separate records or unrelated sections establish separate sequences.
 - Judge cadence rather than whether each gesture advances the plot. Preserve examined or documentary quotations; judge ordinary narration and dialogue by the same functional test.
 
-Count clauses, not periods: two sentences joined by and can contain four complete actor-action clauses. Joining those clauses with a conjunction does not by itself vary their emphasis. Separate an irrelevant series of handling motions from the actual product test or useful explanation that surrounds it. Preserve a sequence whose distinct observations change what the observer can infer or do next; its staged discovery or escalating consequence supplies a pacing function. Chronology alone and a generic story setting do not.
+Each coordinated clause with its own subject counts, so two sentences may supply four beats. Judge the exact action run independently of any promotional fragments or evaluative list elsewhere. Preserve separate observations that establish which event happened, explain an operational dependency, distinguish tested alternatives or trigger the observer's next decision. Equal observations can deliberately build toward a last required signal or consequence. A mere chronological setting gives no exemption; the writing must supply that function. Incidental bag-lifting, chair-moving or animation choreography can remain gratuitous beside a useful product comparison.
 
 ## Hits
 
@@ -32,7 +32,7 @@ I tried the two grocery delivery services during a quiet afternoon. **The first 
 
 ## No-Hits
 
-Our onboarding handoff now has a visible dependency chain. The customer names an owner. The owner approves access. The analyst connects the source. The trainer schedules the session. Scheduling first had created meetings where nobody could inspect real data. Waiting for the connection gives the trainer a usable example and the customer a reason to attend.
+The staffed service receives your calls. Finds the right person. Keeps business flowing. Its routing can be compared with the automated option using one test call. The receptionist asks the department. The caller gives an extension. The switchboard connects the line. A transcript of those steps reveals whether the caller had to know the extension already. Call duration, waiting time, and destination are reported separately.
 
 The providers handle the same failed payment differently. Service A retries the charge. Service B pauses the subscription. Service C emails an invoice. These separate actions determine which provider fits a business that ships physical orders: a retry preserves automatic fulfillment, while a pause or an invoice requires someone to release the next shipment.
 

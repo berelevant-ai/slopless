@@ -1,10 +1,10 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named rulebook in state.types. Is there one grammatically COORDINATED enumeration of at least three interchangeable rhetorical members that manufactures completeness?",
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Within ONE clause or explicit list, do at least three comma/conjunction-coordinated members perform interchangeable generic rhetorical roles? Ignore trios of separate period-ended sentences or fragments.",
   "criteria":
     {
-      "true": "A single coordinated list contains three or more generic evaluative, abstract or promise members whose interchangeable roles manufacture rhetorical completeness. The writer adopts the enumeration and its list packaging is independently defective.",
-      "false": "The coordinated list is absent; there are only separate clipped sentences or inherited continuations; the wording is being examined or replaced; the list supplies distinct useful properties, objects or operations; or only an individual claim's strength or explanation is defective."
+      "true": "All conditions hold: one actual coordinated enumeration contains at least three members; its generic praise, abstract virtues or promises manufacture completeness through interchangeable roles; and the writer adopts that independently defective packaging.",
+      "false": "Any condition is absent. Separate clipped sentences or inherited continuations are other checks. Useful distinct objects, properties or operations remain a no-hit here, including lists with an individual weak claim. Reproduced marketing being criticized or evaluated is examined wording."
     }
 }
 ---
@@ -20,7 +20,7 @@ Judge formulaic enumeration, despite this legacy check's name. Find one coordina
 - Judge the supplied meaning rather than membership in an adjective or noun vocabulary.
 - Preserve lists reproduced for analysis, correction or documentation. Assess adopted quotations and ordinary dialogue by the same contribution test.
 
-Require one coordinated enumeration, such as members sharing a clause or an actual list structure. Three separate promotional sentences are fragment or frame material, not this list check. Do not convert nearby action narration or an inherited-fragment stack into a coordinated triad. Preserve distinct operations with different objects or effects. Quoted copy that is deleted, criticized, compared or documented stays outside adopted rhetoric; mere quotation marks around adopted advertising offer no exemption.
+Locate the actual comma/conjunction list before assessing its meaning. Three fragments each ending in a period do not become that list. An action sequence is also a different construction. Next ask whether the members serve interchangeable generic rhetorical roles, rather than distinct jobs, physical properties or operations. One vague or exaggerated item among useful distinctions does not establish an independent list-packaging defect. A passage may contain bad fragment beats alongside a completely useful real enumeration; judge only the latter here. A review can quote a manufacturer's praise to contrast it with the reviewer's concrete experience.
 
 ## Hits
 
@@ -32,7 +32,7 @@ The restored paddling pool will be **outstanding, exceptional, impressive, and m
 
 ## No-Hits
 
-The test rig contains a heater, a thermocouple, and a circulation fan. The heater raises chamber temperature, the thermocouple reports it, and the fan reduces differences between the walls and center. They share a controller so that the measured temperature can be compared with the requested setting during every cycle.
+A quieter inbox. A cleaner start. A better Monday. Notification grouping is now available in Preferences. The grouping rule acts in this order: the service identifies the sender, the filter assigns a topic, and the digest combines matching messages. Sender, topic, and delivery time remain searchable separately, so a digest can be opened to find the original message without changing its grouping rule.
 
 The image editor now rotates, crops, and masks uploaded pictures. Rotation corrects orientation, cropping changes the visible boundary, and masking conceals selected details within that boundary. Edits are saved as instructions beside the original file, allowing the uploader to undo them without sending the photograph again.
 
