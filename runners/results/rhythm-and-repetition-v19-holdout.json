@@ -1,0 +1,1091 @@
+{
+  "family": "rhythm-and-repetition",
+  "version": "v19",
+  "split": "holdout",
+  "authorization": "User requested all frozen checks on holdout with short metrics.",
+  "producingCommit": "a9049d6887bdc555200e76b7a4a68d32f88e932d",
+  "model": "jev-1.13.0",
+  "sdk": "0.7.0",
+  "threshold": 0.5,
+  "batchSize": 16,
+  "mode": "classification-only",
+  "promptsChanged": false,
+  "labelsChanged": false,
+  "collections": [
+    {
+      "collection": "000060",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000060-rhythm-and-repetition-repeated-predicate-end-holdout.md",
+      "textSha256": "6a9d1ae6918d9703c836a53ec4462d4196054303d2e8c125c8de96405f972b05",
+      "labelsSha256": "a4560cc8d6601102e39ff72a2e76acfd5ec9fa3fce9fb945ca145057bacf3f85",
+      "passages": 200,
+      "checks": [
+        "repeated-predicate-end"
+      ]
+    },
+    {
+      "collection": "000066",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000066-rhythm-and-repetition-formal-transition-density-holdout.md",
+      "textSha256": "e3034d38843a616e765aa784c3da01424951736c076250a1fd83964adba0ce0d",
+      "labelsSha256": "113546ef888d3f06fc5e9873d4e933a8ffdeda998e6178273996525bb87df5ce",
+      "passages": 200,
+      "checks": [
+        "formal-transition-density"
+      ]
+    },
+    {
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "dataset": "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md",
+      "textSha256": "ec86f53dd546123abd2065867824eebb2824a79c96ce8562419b9f8867034598",
+      "labelsSha256": "e6f85d1fbc4f5af8ae3aed962cb4f3356bd044636830b04e1c843540fc96fede",
+      "passages": 200,
+      "checks": [
+        "flat-action-cadence",
+        "fragment-stacking",
+        "triple-word-repeat"
+      ]
+    },
+    {
+      "collection": "000058",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000058-rhythm-and-repetition-sentence-frame-repetition-holdout.md",
+      "textSha256": "6b5e01c0bd38230d74ee4700ea8e9a16942b67597b5db848cc4104988f55ae31",
+      "labelsSha256": "e8f2cb787ec3e21b54e4e146169f8a9c9f01815878f683500fe3429442a453dc",
+      "passages": 200,
+      "checks": [
+        "sentence-frame-repetition"
+      ]
+    },
+    {
+      "collection": "000062",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000062-rhythm-and-repetition-flat-action-cadence-holdout.md",
+      "textSha256": "39fd321b71ec60ba58d13c28f51b3f3571830a8512f07ecd8a848f52e971b608",
+      "labelsSha256": "ad2dc99ad47f1f1e394690696aa589a1f0d9c38b110c0660488011518bc752d7",
+      "passages": 200,
+      "checks": [
+        "flat-action-cadence"
+      ]
+    },
+    {
+      "collection": "000064",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000064-rhythm-and-repetition-fragment-stacking-holdout.md",
+      "textSha256": "ab7b540326271dee7c1c0afaea834cb7c2c4c96e0c2fc2f91043e2f0e837de54",
+      "labelsSha256": "cab0fe16e0e481f60c5ba78aaebaf17c9a160efc93f41902b54097aabe4190a2",
+      "passages": 200,
+      "checks": [
+        "fragment-stacking"
+      ]
+    },
+    {
+      "collection": "000068",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000068-rhythm-and-repetition-triple-word-repeat-holdout.md",
+      "textSha256": "416556ff28e12b803bfb0e30beff82a11c711a40ad2c7c7608b54f114fe9217f",
+      "labelsSha256": "3e545ebc5728f23d79270cc163614cea48857b1396ded5e3cd1fb9afdb852c3f",
+      "passages": 200,
+      "checks": [
+        "triple-word-repeat"
+      ]
+    },
+    {
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "dataset": "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md",
+      "textSha256": "f5aec787fb818ba60d0dade18d85942e0864f0451568c123b517281dc05dcac9",
+      "labelsSha256": "ea6fe925f7e02d8916b3430f41f5d1078a256b5ef848125657637fb3730d2f00",
+      "passages": 200,
+      "checks": [
+        "sentence-frame-repetition",
+        "repeated-predicate-end",
+        "formal-transition-density"
+      ]
+    },
+    {
+      "collection": "000070",
+      "cohort": "isolated",
+      "dataset": "datasets/ai-synthetic/passages/000070-rhythm-and-repetition-word-repetition-holdout.md",
+      "textSha256": "f89677e4a564c68e4a1b7f943a58a871c37c5c0513bc5665205dd35eb0e8bcbb",
+      "labelsSha256": "e78dc9ce7e65025542ce2cd224168059a124df51aa2b07d7743731d0bdd3a801",
+      "passages": 200,
+      "checks": [
+        "word-repetition"
+      ]
+    },
+    {
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "dataset": "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md",
+      "textSha256": "c1631cc2e8349590db34be9d71c12bf5815ebf1a98cbf7504178cfa249859680",
+      "labelsSha256": "d39b5ec89df574481bdfed9591b0cc2158db34c6bd5af54ba7fcad3bfb29ea1d",
+      "passages": 200,
+      "checks": [
+        "word-repetition",
+        "sentence-frame-repetition"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "collection": "000060",
+      "cohort": "isolated",
+      "check": "repeated-predicate-end",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000060-rhythm-and-repetition-repeated-predicate-end-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-repeated-predicate-end-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000060-repeated-predicate-end.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000060-rhythm-and-repetition-repeated-predicate-end-holdout.md": "6a9d1ae6918d9703c836a53ec4462d4196054303d2e8c125c8de96405f972b05",
+        "datasets/ai-synthetic/passages/000060-rhythm-and-repetition-repeated-predicate-end-holdout.labels.json": "a4560cc8d6601102e39ff72a2e76acfd5ec9fa3fce9fb945ca145057bacf3f85",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/repeated-predicate-end.md": "7e6d0ae0d1ce425fbc4a227fb55dfd6868361845afac84aa1cb5c5538edb9953",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000066",
+      "cohort": "isolated",
+      "check": "formal-transition-density",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000066-rhythm-and-repetition-formal-transition-density-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-formal-transition-density-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000066-formal-transition-density.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000066-rhythm-and-repetition-formal-transition-density-holdout.md": "e3034d38843a616e765aa784c3da01424951736c076250a1fd83964adba0ce0d",
+        "datasets/ai-synthetic/passages/000066-rhythm-and-repetition-formal-transition-density-holdout.labels.json": "113546ef888d3f06fc5e9873d4e933a8ffdeda998e6178273996525bb87df5ce",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/formal-transition-density.md": "3629ffe79a458bc7529b8bc134c490c93ce085de0bb770e861577fb40c1234e9",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "check": "flat-action-cadence",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-flat-action-cadence-mixed-b-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000074-flat-action-cadence.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md": "ec86f53dd546123abd2065867824eebb2824a79c96ce8562419b9f8867034598",
+        "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.labels.json": "e6f85d1fbc4f5af8ae3aed962cb4f3356bd044636830b04e1c843540fc96fede",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/flat-action-cadence.md": "40c6531f78dedfde24c3ef3ee653e0db76dc1a6e5e3615f011a0738fde05d7f5",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "check": "fragment-stacking",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-fragment-stacking-mixed-b-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000074-fragment-stacking.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md": "ec86f53dd546123abd2065867824eebb2824a79c96ce8562419b9f8867034598",
+        "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.labels.json": "e6f85d1fbc4f5af8ae3aed962cb4f3356bd044636830b04e1c843540fc96fede",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/fragment-stacking.md": "1c9f4867f39fe63d4e7605eb97411da354b8e76225026fc1fadc2437d4a856c4",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "check": "triple-word-repeat",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-triple-word-repeat-mixed-b-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000074-triple-word-repeat.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.md": "ec86f53dd546123abd2065867824eebb2824a79c96ce8562419b9f8867034598",
+        "datasets/ai-synthetic/passages/000074-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-holdout.labels.json": "e6f85d1fbc4f5af8ae3aed962cb4f3356bd044636830b04e1c843540fc96fede",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/triple-word-repeat.md": "72ffda52ddb9a4d192c46eba24e94962651726d8b5b31e00a1c8569976c41e5c",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000058",
+      "cohort": "isolated",
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000058-rhythm-and-repetition-sentence-frame-repetition-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000058-sentence-frame-repetition.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000058-rhythm-and-repetition-sentence-frame-repetition-holdout.md": "6b5e01c0bd38230d74ee4700ea8e9a16942b67597b5db848cc4104988f55ae31",
+        "datasets/ai-synthetic/passages/000058-rhythm-and-repetition-sentence-frame-repetition-holdout.labels.json": "e8f2cb787ec3e21b54e4e146169f8a9c9f01815878f683500fe3429442a453dc",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/sentence-frame-repetition.md": "c025469162b17011ae783710076280d61a5aaece3531ff966c379be2534ad945",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000062",
+      "cohort": "isolated",
+      "check": "flat-action-cadence",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000062-rhythm-and-repetition-flat-action-cadence-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-flat-action-cadence-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000062-flat-action-cadence.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000062-rhythm-and-repetition-flat-action-cadence-holdout.md": "39fd321b71ec60ba58d13c28f51b3f3571830a8512f07ecd8a848f52e971b608",
+        "datasets/ai-synthetic/passages/000062-rhythm-and-repetition-flat-action-cadence-holdout.labels.json": "ad2dc99ad47f1f1e394690696aa589a1f0d9c38b110c0660488011518bc752d7",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/flat-action-cadence.md": "40c6531f78dedfde24c3ef3ee653e0db76dc1a6e5e3615f011a0738fde05d7f5",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000064",
+      "cohort": "isolated",
+      "check": "fragment-stacking",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000064-rhythm-and-repetition-fragment-stacking-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-fragment-stacking-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000064-fragment-stacking.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000064-rhythm-and-repetition-fragment-stacking-holdout.md": "ab7b540326271dee7c1c0afaea834cb7c2c4c96e0c2fc2f91043e2f0e837de54",
+        "datasets/ai-synthetic/passages/000064-rhythm-and-repetition-fragment-stacking-holdout.labels.json": "cab0fe16e0e481f60c5ba78aaebaf17c9a160efc93f41902b54097aabe4190a2",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/fragment-stacking.md": "1c9f4867f39fe63d4e7605eb97411da354b8e76225026fc1fadc2437d4a856c4",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000068",
+      "cohort": "isolated",
+      "check": "triple-word-repeat",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000068-rhythm-and-repetition-triple-word-repeat-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-triple-word-repeat-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000068-triple-word-repeat.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000068-rhythm-and-repetition-triple-word-repeat-holdout.md": "416556ff28e12b803bfb0e30beff82a11c711a40ad2c7c7608b54f114fe9217f",
+        "datasets/ai-synthetic/passages/000068-rhythm-and-repetition-triple-word-repeat-holdout.labels.json": "3e545ebc5728f23d79270cc163614cea48857b1396ded5e3cd1fb9afdb852c3f",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/triple-word-repeat.md": "72ffda52ddb9a4d192c46eba24e94962651726d8b5b31e00a1c8569976c41e5c",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-mixed-a-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000072-sentence-frame-repetition.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md": "f5aec787fb818ba60d0dade18d85942e0864f0451568c123b517281dc05dcac9",
+        "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.labels.json": "ea6fe925f7e02d8916b3430f41f5d1078a256b5ef848125657637fb3730d2f00",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/sentence-frame-repetition.md": "c025469162b17011ae783710076280d61a5aaece3531ff966c379be2534ad945",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "check": "repeated-predicate-end",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-repeated-predicate-end-mixed-a-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000072-repeated-predicate-end.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md": "f5aec787fb818ba60d0dade18d85942e0864f0451568c123b517281dc05dcac9",
+        "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.labels.json": "ea6fe925f7e02d8916b3430f41f5d1078a256b5ef848125657637fb3730d2f00",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/repeated-predicate-end.md": "7e6d0ae0d1ce425fbc4a227fb55dfd6868361845afac84aa1cb5c5538edb9953",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "check": "formal-transition-density",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-formal-transition-density-mixed-a-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000072-formal-transition-density.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md": "f5aec787fb818ba60d0dade18d85942e0864f0451568c123b517281dc05dcac9",
+        "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.labels.json": "ea6fe925f7e02d8916b3430f41f5d1078a256b5ef848125657637fb3730d2f00",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/formal-transition-density.md": "3629ffe79a458bc7529b8bc134c490c93ce085de0bb770e861577fb40c1234e9",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000070",
+      "cohort": "isolated",
+      "check": "word-repetition",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000070-rhythm-and-repetition-word-repetition-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-word-repetition-isolated-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000070-word-repetition.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000070-rhythm-and-repetition-word-repetition-holdout.md": "f89677e4a564c68e4a1b7f943a58a871c37c5c0513bc5665205dd35eb0e8bcbb",
+        "datasets/ai-synthetic/passages/000070-rhythm-and-repetition-word-repetition-holdout.labels.json": "e78dc9ce7e65025542ce2cd224168059a124df51aa2b07d7743731d0bdd3a801",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/word-repetition.md": "e2e5d63979f9d724a4a36aaf16b11a67f192af5425ca6ea96e3e24d87d24c6a4",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "check": "word-repetition",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-word-repetition-mixed-c-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000076-word-repetition.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md": "c1631cc2e8349590db34be9d71c12bf5815ebf1a98cbf7504178cfa249859680",
+        "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.labels.json": "d39b5ec89df574481bdfed9591b0cc2158db34c6bd5af54ba7fcad3bfb29ea1d",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/word-repetition.md": "e2e5d63979f9d724a4a36aaf16b11a67f192af5425ca6ea96e3e24d87d24c6a4",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-mixed-c-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000076-sentence-frame-repetition.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md": "c1631cc2e8349590db34be9d71c12bf5815ebf1a98cbf7504178cfa249859680",
+        "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.labels.json": "d39b5ec89df574481bdfed9591b0cc2158db34c6bd5af54ba7fcad3bfb29ea1d",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/sentence-frame-repetition.md": "c025469162b17011ae783710076280d61a5aaece3531ff966c379be2534ad945",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    },
+    {
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "check": "hedge-stacking",
+      "family": "excessive-hedging",
+      "prompts": "prompts/v18",
+      "dataset": "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md",
+      "output": "runners/results/rhythm-and-repetition-v19-hedge-stacking-comparator-mixed-c-holdout.json",
+      "log": "/tmp/slopless-v19-holdout-2026-10-23-154030/000076-hedge-stacking.log",
+      "inputs": {
+        "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md": "c1631cc2e8349590db34be9d71c12bf5815ebf1a98cbf7504178cfa249859680",
+        "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.labels.json": "d39b5ec89df574481bdfed9591b0cc2158db34c6bd5af54ba7fcad3bfb29ea1d",
+        "prompts/v18/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v18/hedge-stacking.md": "208316cb53443c7b37744bb2671fd83e83754056dd176c2ba12e323dc71b294b",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": false
+    }
+  ],
+  "results": [
+    {
+      "check": "repeated-predicate-end",
+      "family": "rhythm-and-repetition",
+      "collection": "000060",
+      "cohort": "isolated",
+      "caught": 99,
+      "positives": 100,
+      "missed": 1,
+      "falsePositives": 12,
+      "negatives": 100,
+      "correctNoHits": 88,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-repeated-predicate-end-isolated-holdout.json",
+      "inferenceSha256": "84734523a5b52648da5976696fc1bf60969868603a1db6a66dd32b43f5618173"
+    },
+    {
+      "check": "formal-transition-density",
+      "family": "rhythm-and-repetition",
+      "collection": "000066",
+      "cohort": "isolated",
+      "caught": 98,
+      "positives": 100,
+      "missed": 2,
+      "falsePositives": 0,
+      "negatives": 100,
+      "correctNoHits": 100,
+      "pass": true,
+      "output": "runners/results/rhythm-and-repetition-v19-formal-transition-density-isolated-holdout.json",
+      "inferenceSha256": "10eeb890726376b553b276fd723ba03558604105c2367ea11de58c7e6937f884"
+    },
+    {
+      "check": "flat-action-cadence",
+      "family": "rhythm-and-repetition",
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "caught": 100,
+      "positives": 100,
+      "missed": 0,
+      "falsePositives": 3,
+      "negatives": 100,
+      "correctNoHits": 97,
+      "pass": true,
+      "output": "runners/results/rhythm-and-repetition-v19-flat-action-cadence-mixed-b-holdout.json",
+      "inferenceSha256": "298b9826b7a6142bbcfe8e9c7b5846d1d5c3a8e8b3eec40a23744305e5aa4d08"
+    },
+    {
+      "check": "fragment-stacking",
+      "family": "rhythm-and-repetition",
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "caught": 86,
+      "positives": 100,
+      "missed": 14,
+      "falsePositives": 0,
+      "negatives": 100,
+      "correctNoHits": 100,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-fragment-stacking-mixed-b-holdout.json",
+      "inferenceSha256": "7ec0e2bea45ef9ac74ea2034f59052e3a61c373682dea89c86ed1442a08c660e"
+    },
+    {
+      "check": "triple-word-repeat",
+      "family": "rhythm-and-repetition",
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "caught": 100,
+      "positives": 100,
+      "missed": 0,
+      "falsePositives": 3,
+      "negatives": 100,
+      "correctNoHits": 97,
+      "pass": true,
+      "output": "runners/results/rhythm-and-repetition-v19-triple-word-repeat-mixed-b-holdout.json",
+      "inferenceSha256": "c01d08d6bc44ef91c73abec4da45a747df95430427f9563ca289033f6cc0537f"
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "collection": "000058",
+      "cohort": "isolated",
+      "caught": 98,
+      "positives": 100,
+      "missed": 2,
+      "falsePositives": 16,
+      "negatives": 100,
+      "correctNoHits": 84,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-isolated-holdout.json",
+      "inferenceSha256": "618ac84580139ade21df95d1900678467211159355a9c1474f2ce57568bd6e84"
+    },
+    {
+      "check": "flat-action-cadence",
+      "family": "rhythm-and-repetition",
+      "collection": "000062",
+      "cohort": "isolated",
+      "caught": 99,
+      "positives": 100,
+      "missed": 1,
+      "falsePositives": 4,
+      "negatives": 100,
+      "correctNoHits": 96,
+      "pass": true,
+      "output": "runners/results/rhythm-and-repetition-v19-flat-action-cadence-isolated-holdout.json",
+      "inferenceSha256": "d6b6a29a4f44d64f6358f6ca637b1dbfb6b3d52cbe9a0c4142b9eb31d10472c4"
+    },
+    {
+      "check": "fragment-stacking",
+      "family": "rhythm-and-repetition",
+      "collection": "000064",
+      "cohort": "isolated",
+      "caught": 97,
+      "positives": 100,
+      "missed": 3,
+      "falsePositives": 10,
+      "negatives": 100,
+      "correctNoHits": 90,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-fragment-stacking-isolated-holdout.json",
+      "inferenceSha256": "e5794a8687b6103fcedaf6daf1c8a1040fe99838225b30447a7d31646a7909ff"
+    },
+    {
+      "check": "triple-word-repeat",
+      "family": "rhythm-and-repetition",
+      "collection": "000068",
+      "cohort": "isolated",
+      "caught": 100,
+      "positives": 100,
+      "missed": 0,
+      "falsePositives": 0,
+      "negatives": 100,
+      "correctNoHits": 100,
+      "pass": true,
+      "output": "runners/results/rhythm-and-repetition-v19-triple-word-repeat-isolated-holdout.json",
+      "inferenceSha256": "cbc7648e6b9ef7de03947f388535cf9f83b99c6904ac6c58c99ae427d7d75a23"
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "caught": 98,
+      "positives": 100,
+      "missed": 2,
+      "falsePositives": 61,
+      "negatives": 100,
+      "correctNoHits": 39,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-mixed-a-holdout.json",
+      "inferenceSha256": "e4b99a4a0962b37000317542dfc5abb8a20b3e046ca15f11bad7dc9c75d35862"
+    },
+    {
+      "check": "repeated-predicate-end",
+      "family": "rhythm-and-repetition",
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "caught": 87,
+      "positives": 100,
+      "missed": 13,
+      "falsePositives": 11,
+      "negatives": 100,
+      "correctNoHits": 89,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-repeated-predicate-end-mixed-a-holdout.json",
+      "inferenceSha256": "27235e81309871ef2d1c3a749e5557316f4ce10146a3ea5083ff53c40d371d6f"
+    },
+    {
+      "check": "formal-transition-density",
+      "family": "rhythm-and-repetition",
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "caught": 100,
+      "positives": 100,
+      "missed": 0,
+      "falsePositives": 7,
+      "negatives": 100,
+      "correctNoHits": 93,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-formal-transition-density-mixed-a-holdout.json",
+      "inferenceSha256": "8fb8f6cbf91a43b74d724d516d08db8b4a73d9e24145dcf909583c83c05c3cd2"
+    },
+    {
+      "check": "word-repetition",
+      "family": "rhythm-and-repetition",
+      "collection": "000070",
+      "cohort": "isolated",
+      "caught": 49,
+      "positives": 100,
+      "missed": 51,
+      "falsePositives": 7,
+      "negatives": 100,
+      "correctNoHits": 93,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-word-repetition-isolated-holdout.json",
+      "inferenceSha256": "cdbc184b62ce37148e27862357a1c71e505852b2bd5045c5b4bd96cae4a90483"
+    },
+    {
+      "check": "word-repetition",
+      "family": "rhythm-and-repetition",
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "caught": 57,
+      "positives": 100,
+      "missed": 43,
+      "falsePositives": 11,
+      "negatives": 100,
+      "correctNoHits": 89,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-word-repetition-mixed-c-holdout.json",
+      "inferenceSha256": "b3b77a472b7463b05830e1e8052f17e688830e170552705b42a78d2f20b54122"
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "caught": 96,
+      "positives": 100,
+      "missed": 4,
+      "falsePositives": 12,
+      "negatives": 100,
+      "correctNoHits": 88,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-mixed-c-holdout.json",
+      "inferenceSha256": "d4c73643016a405d36d67fd441ad5499c7c36081fd8e10d2fb02d34573a2f52a"
+    },
+    {
+      "check": "hedge-stacking",
+      "family": "excessive-hedging",
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "caught": 81,
+      "positives": 100,
+      "missed": 19,
+      "falsePositives": 4,
+      "negatives": 100,
+      "correctNoHits": 96,
+      "pass": false,
+      "output": "runners/results/rhythm-and-repetition-v19-hedge-stacking-comparator-mixed-c-holdout.json",
+      "inferenceSha256": "d50a9d0ecc4bf760493b7015d7f6a48ae2089ed646fa01cc86af91a613d29021"
+    }
+  ],
+  "mixed": [
+    {
+      "cohort": "mixed-b",
+      "collection": "000074",
+      "passages": 200,
+      "checks": [
+        "rhythm-and-repetition/flat-action-cadence",
+        "rhythm-and-repetition/fragment-stacking",
+        "rhythm-and-repetition/triple-word-repeat"
+      ],
+      "allExpectedIssuesFound": 161,
+      "affectedPassages": 175,
+      "exactMatches": 180,
+      "allAssessedNoHitPassages": 25,
+      "falseFindingsOnAllAssessedNoHits": 1,
+      "nativeRhythm": {
+        "targets": 200,
+        "judgments": 600,
+        "excludedIncomplete": 0,
+        "allIssuesFound": {
+          "eligible": 175,
+          "matched": 161
+        },
+        "exactMatch": {
+          "eligible": 200,
+          "matched": 180
+        }
+      },
+      "textIdentitySha256": "22b7c44421c5506f0a16d19baa26e8fe088a8b7fcdfc54aa006da2739a4a9aa6"
+    },
+    {
+      "cohort": "mixed-a",
+      "collection": "000072",
+      "passages": 200,
+      "checks": [
+        "rhythm-and-repetition/sentence-frame-repetition",
+        "rhythm-and-repetition/repeated-predicate-end",
+        "rhythm-and-repetition/formal-transition-density"
+      ],
+      "allExpectedIssuesFound": 160,
+      "affectedPassages": 175,
+      "exactMatches": 113,
+      "allAssessedNoHitPassages": 25,
+      "falseFindingsOnAllAssessedNoHits": 3,
+      "nativeRhythm": {
+        "targets": 200,
+        "judgments": 600,
+        "excludedIncomplete": 0,
+        "allIssuesFound": {
+          "eligible": 175,
+          "matched": 160
+        },
+        "exactMatch": {
+          "eligible": 200,
+          "matched": 113
+        }
+      },
+      "textIdentitySha256": "583b0e4a744dc7b03c1b8d257aa32e0bdb65a54b9f6a33ba406f19dcfac2fb62"
+    },
+    {
+      "cohort": "mixed-c",
+      "collection": "000076",
+      "passages": 200,
+      "checks": [
+        "rhythm-and-repetition/word-repetition",
+        "rhythm-and-repetition/sentence-frame-repetition",
+        "excessive-hedging/hedge-stacking"
+      ],
+      "allExpectedIssuesFound": 114,
+      "affectedPassages": 175,
+      "exactMatches": 120,
+      "allAssessedNoHitPassages": 25,
+      "falseFindingsOnAllAssessedNoHits": 4,
+      "nativeRhythm": {
+        "targets": 200,
+        "judgments": 400,
+        "excludedIncomplete": 0,
+        "allIssuesFound": {
+          "eligible": 150,
+          "matched": 103
+        },
+        "exactMatch": {
+          "eligible": 200,
+          "matched": 134
+        }
+      },
+      "textIdentitySha256": "7469926fcb8ca9dd06d68eb2a2b45d856ec17b73ad5d361d7ad0daf2d6935d4a"
+    }
+  ],
+  "status": "Complete: one frozen holdout inference per check and applicable collection; all native requests and scores validated.",
+  "execution": {
+    "outputs": 16,
+    "requests": 208,
+    "judgments": 3200,
+    "distinctPassages": 2000,
+    "inputTokens": 1045746,
+    "outputTokens": 121486
+  },
+  "total": {
+    "caught": 1364,
+    "positives": 1500,
+    "falsePositives": 157,
+    "negatives": 1500
+  },
+  "checkStatus": [
+    {
+      "check": "repeated-predicate-end",
+      "pass": false
+    },
+    {
+      "check": "formal-transition-density",
+      "pass": false
+    },
+    {
+      "check": "flat-action-cadence",
+      "pass": true
+    },
+    {
+      "check": "fragment-stacking",
+      "pass": false
+    },
+    {
+      "check": "triple-word-repeat",
+      "pass": true
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "pass": false
+    },
+    {
+      "check": "word-repetition",
+      "pass": false
+    }
+  ],
+  "executions": [
+    {
+      "check": "repeated-predicate-end",
+      "collection": "000060",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 4412,
+      "output": "runners/results/rhythm-and-repetition-v19-repeated-predicate-end-isolated-holdout.json"
+    },
+    {
+      "check": "formal-transition-density",
+      "collection": "000066",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 4497,
+      "output": "runners/results/rhythm-and-repetition-v19-formal-transition-density-isolated-holdout.json"
+    },
+    {
+      "check": "flat-action-cadence",
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "exit": 0,
+      "wallMs": 4511,
+      "output": "runners/results/rhythm-and-repetition-v19-flat-action-cadence-mixed-b-holdout.json"
+    },
+    {
+      "check": "triple-word-repeat",
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "exit": 0,
+      "wallMs": 3424,
+      "output": "runners/results/rhythm-and-repetition-v19-triple-word-repeat-mixed-b-holdout.json"
+    },
+    {
+      "check": "fragment-stacking",
+      "collection": "000074",
+      "cohort": "mixed-b",
+      "exit": 0,
+      "wallMs": 3515,
+      "output": "runners/results/rhythm-and-repetition-v19-fragment-stacking-mixed-b-holdout.json"
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "collection": "000058",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 3778,
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-isolated-holdout.json"
+    },
+    {
+      "check": "flat-action-cadence",
+      "collection": "000062",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 3579,
+      "output": "runners/results/rhythm-and-repetition-v19-flat-action-cadence-isolated-holdout.json"
+    },
+    {
+      "check": "fragment-stacking",
+      "collection": "000064",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 3702,
+      "output": "runners/results/rhythm-and-repetition-v19-fragment-stacking-isolated-holdout.json"
+    },
+    {
+      "check": "triple-word-repeat",
+      "collection": "000068",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 4000,
+      "output": "runners/results/rhythm-and-repetition-v19-triple-word-repeat-isolated-holdout.json"
+    },
+    {
+      "check": "repeated-predicate-end",
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "exit": 0,
+      "wallMs": 3832,
+      "output": "runners/results/rhythm-and-repetition-v19-repeated-predicate-end-mixed-a-holdout.json"
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "exit": 0,
+      "wallMs": 4283,
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-mixed-a-holdout.json"
+    },
+    {
+      "check": "formal-transition-density",
+      "collection": "000072",
+      "cohort": "mixed-a",
+      "exit": 0,
+      "wallMs": 3863,
+      "output": "runners/results/rhythm-and-repetition-v19-formal-transition-density-mixed-a-holdout.json"
+    },
+    {
+      "check": "word-repetition",
+      "collection": "000070",
+      "cohort": "isolated",
+      "exit": 0,
+      "wallMs": 3515,
+      "output": "runners/results/rhythm-and-repetition-v19-word-repetition-isolated-holdout.json"
+    },
+    {
+      "check": "word-repetition",
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "exit": 0,
+      "wallMs": 3276,
+      "output": "runners/results/rhythm-and-repetition-v19-word-repetition-mixed-c-holdout.json"
+    },
+    {
+      "check": "sentence-frame-repetition",
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "exit": 0,
+      "wallMs": 3673,
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-repetition-mixed-c-holdout.json"
+    },
+    {
+      "check": "hedge-stacking",
+      "collection": "000076",
+      "cohort": "mixed-c",
+      "exit": 0,
+      "wallMs": 4027,
+      "output": "runners/results/rhythm-and-repetition-v19-hedge-stacking-comparator-mixed-c-holdout.json"
+    }
+  ],
+  "verification": {
+    "approved": true,
+    "auditedSummarySha256": "222318c00777dcf0fa64ab398e5e3ef10b63d76f1cab60938e449a14d0aa411e",
+    "auditSha256": "9bd89c9bbff126fec440c5230962ba0891924bc8dd38f02011232524f7fdfbfa",
+    "verified": [
+      "40 development/holdout data files match freeze commit byte for byte.",
+      "Native snapshots, request hashes, response models, answer coverage, inference seals and public scores checked offline.",
+      "Independent aggregate arithmetic and three mixed joins checked; Group C includes both families and all three judgments.",
+      "Selected prompt contents loaded and hashes compared with development selections; comparator matched its confirmation snapshot.",
+      "One complete saved inference per check/collection; 208 requests and 3200 judgments, including 3000 rhythm and 200 comparator judgments."
+    ],
+    "commandResults": [
+      {
+        "check": "Frozen configuration",
+        "exitCode": 0
+      },
+      {
+        "check": "40 frozen data files match 302f1bc6",
+        "exitCode": 0
+      },
+      {
+        "check": "Native repeated-predicate-end/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native formal-transition-density/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native flat-action-cadence/mixed-b",
+        "exitCode": 0
+      },
+      {
+        "check": "Native fragment-stacking/mixed-b",
+        "exitCode": 0
+      },
+      {
+        "check": "Native triple-word-repeat/mixed-b",
+        "exitCode": 0
+      },
+      {
+        "check": "Native sentence-frame-repetition/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native flat-action-cadence/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native fragment-stacking/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native triple-word-repeat/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native sentence-frame-repetition/mixed-a",
+        "exitCode": 0
+      },
+      {
+        "check": "Native repeated-predicate-end/mixed-a",
+        "exitCode": 0
+      },
+      {
+        "check": "Native formal-transition-density/mixed-a",
+        "exitCode": 0
+      },
+      {
+        "check": "Native word-repetition/isolated",
+        "exitCode": 0
+      },
+      {
+        "check": "Native word-repetition/mixed-c",
+        "exitCode": 0
+      },
+      {
+        "check": "Native sentence-frame-repetition/mixed-c",
+        "exitCode": 0
+      },
+      {
+        "check": "Native hedge-stacking/mixed-c",
+        "exitCode": 0
+      },
+      {
+        "check": "Independent join mixed-b",
+        "exitCode": 0
+      },
+      {
+        "check": "Independent join mixed-a",
+        "exitCode": 0
+      },
+      {
+        "check": "Independent join mixed-c",
+        "exitCode": 0
+      },
+      {
+        "check": "Totals and complete inference coverage",
+        "exitCode": 0
+      },
+      {
+        "check": "Collection metadata and frozen prompt provenance",
+        "exitCode": 0
+      },
+      {
+        "check": "Repository status preserved",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify.mjs",
+        "exitCode": 0,
+        "passedChecks": 24
+      }
+    ],
+    "findings": []
+  }
+}

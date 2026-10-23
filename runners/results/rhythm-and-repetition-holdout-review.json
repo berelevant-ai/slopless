@@ -1,8 +1,8 @@
 {
   "family": "rhythm-and-repetition",
   "version": "v19",
-  "status": "Twenty balanced paired datasets complete: 4,000 passages and 6,400 judgments across development and protected holdout. Bounded development evaluation, confirmation, blind error review and final independent audit complete. Holdout inference separately gated.",
-  "holdoutInference": false,
+  "status": "Twenty balanced paired datasets complete. User-authorized frozen holdout inference completed once per check and applicable collection; prompts and labels unchanged. Results are recorded in rhythm-and-repetition-v19-holdout.json.",
+  "holdoutInference": true,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
     "model": "gpt-6.1-sol",
@@ -20306,5 +20306,6 @@
     "newIds": 4000,
     "collisions": 0,
     "checkedAllOrigins": true
-  }
+  },
+  "evaluation": "runners/results/rhythm-and-repetition-v19-holdout.json"
 }

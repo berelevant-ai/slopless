@@ -33,6 +33,6 @@
 
 - `v19/` covers seven rhythm-and-repetition checks with unchanged `v18/shared.md`. Each selected check contains three hit and three no-hit development examples; assembled prompts contain 694-828 words.
 - Action cadence and formulaic lists meet both selection and confirmation limits. Transitions fail the repeat; the remaining four checks retain measured failures. The [report](../runners/results/rhythm-and-repetition-v19-development.md) includes all scores, exposure and complete examples; the adjacent JSON preserves every producing candidate and response.
-- Protected holdout inference remains separately authorized. Public production behavior is preserved while these prompts are evaluated.
+- The [frozen holdout results](../runners/results/rhythm-and-repetition-v19-holdout.json) retain the same two passing checks. Frames produce 61 mixed-A false positives; word repetition catches 49/100 isolated and 57/100 mixed hits. Prompts, labels and public production behavior remain unchanged.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

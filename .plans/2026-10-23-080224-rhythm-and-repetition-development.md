@@ -34,6 +34,7 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - Fresh definition-only blind review covers 1,425 changed or erroneous judgments and disputes 22 frozen labels. The full report includes five complete hits and five no-hits per check, with historical prompt demonstrations excluded from those examples.
 - Build, lint, formatting, spelling and strict type coverage pass through `pnpm run validate`. Fixture3's dataset contract matches, and all six paragraph-runner tests pass. Explicit prompt/report formatting and the documented offline score command also pass.
 - Final independent review verifies 147 items and identifies two bookkeeping corrections: stale revision-one demonstration lengths/hashes and outdated split-review statuses. A fresh correction audit verifies both repairs and approves the report; check GitHub CI for the publishing commit before closing this round.
+- The user subsequently authorizes the frozen holdout evaluation. Sixteen native outputs complete 3,200 judgments on 2,000 passages, including the frozen hedging comparator; validate saved requests and scores before reporting. The seven new checks catch 1,364/1,500 hits and flag 157/1,500 no-hits. Preserve the unchanged prompts and labels.
 
 ## Source Review And One Proposed Consolidation
 
