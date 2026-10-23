@@ -1,6 +1,6 @@
 {
   "family": "narrative-craft",
-  "phase": "all-original-candidate-pools-generated",
+  "phase": "complete-original-pools-with-partial-reviewed-pools",
   "holdoutInference": false,
   "collections": [
     {
@@ -108,6 +108,345 @@
           "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-author.schema.json"
         ],
         "generatorModel": "gpt-6.1-sol"
+      },
+      "reviewedCandidatePool": {
+        "id": "000079",
+        "split": "development",
+        "stage": "pool-reviewed",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/abstract-personification-line": [
+            123,
+            117
+          ]
+        },
+        "textSha256": "c9244f19ffac28ef62342603fa614f26711ad05715fa7b5253efd3b71e5d0843",
+        "sourceSha256": "66bb92ecb942da1abe82c2b4c86bccc26a4fdb721c8ec07e31dc572c24d8a14f",
+        "words": 12359,
+        "status": "reviewed-240-awaiting-balanced-selection",
+        "textRewrites": 54,
+        "labelChanges": 3,
+        "stages": [
+          {
+            "stage": "pool-blind",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "pool-blind",
+              "pid": 74534,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 256752,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-blind.json"
+            },
+            "outputSha256": "365b68f194cad832a878c31b00489ce55f4f3f67d5914c348ec1829a9b736735",
+            "promptSha256": "8af602cf86e284e858d8d89a2ece20967a92f65b7166a0ac4c03ebd17b185463",
+            "schemaSha256": "816b6c466b43b48559768b9b54656b42849e30c53c85d44a12f889f6349e2205",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-blind.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 5,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-adversarial",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "pool-adversarial",
+              "pid": 86882,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 278393,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-adversarial.json"
+            },
+            "outputSha256": "8ab945c612463cfa3d8bf115a0f70b4534cf6f5336fa61b8e62e70bbb9e05bbf",
+            "promptSha256": "77d421632e696f740ac274ae53b769fc9576e2b827618c6309120ec9473eb1ee",
+            "schemaSha256": "816b6c466b43b48559768b9b54656b42849e30c53c85d44a12f889f6349e2205",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-original.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-adversarial.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 8,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-reconcile",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "pool-reconcile",
+              "pid": 10446,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 347452,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-reconcile.json"
+            },
+            "outputSha256": "614545d1099bd15aafe6f16823b74f6427d7543ce03c72b9f840af7951bf8b8c",
+            "promptSha256": "58b5f4b115592a8dcbd34b25530173e4c12ea22ae92519c05864fddc8d45ffdf",
+            "schemaSha256": "e42744915346af8ae2e2ded3018a3ed9acaba9af91cc78d144e4847779a68b3c",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-reconciliation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-reconcile.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 56,
+            "approved": null
+          },
+          {
+            "stage": "pool-final",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "pool-final",
+              "pid": 37855,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 290834,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-final.json"
+            },
+            "outputSha256": "43d445db3ed3c3d04d54c8eaa4e6fc6bf69ad96730d04b4ea84f84805579d760",
+            "promptSha256": "89cd1505b99d6290616aef54c5b89798dfb2803cd2bcbfd7027b5e46b04b1f25",
+            "schemaSha256": "816b6c466b43b48559768b9b54656b42849e30c53c85d44a12f889f6349e2205",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-reconciled.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-final.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 6,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-blind",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "replacements-blind",
+              "pid": 35098,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 117930,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/replacements-blind.json"
+            },
+            "outputSha256": "34a5850ff24dbed39f753b5c5cd35f94901e49872a455b91ee583b5687d06320",
+            "promptSha256": "0a5876f3ca9e06282e40792dd438998743d22c62daeb86b472ea9e2f9c6e4061",
+            "schemaSha256": "087de06931050e472cba01a20dff0f4227c7bab1c1143122ad6b4b14e4c809fd",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/replacements-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/replacements-blind.schema.json"
+            ],
+            "judgmentRows": 54,
+            "qualityNotes": 5,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-adversarial",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "replacements-adversarial",
+              "pid": 35532,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 133475,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/replacements-adversarial.json"
+            },
+            "outputSha256": "4bf34be490c53dfb75bb50b03b282ec88a3a2cd62010b4cb7a15c2907b36edcb",
+            "promptSha256": "64999a80f5bc666588b94224a871892c6c26ee8e1b0020048760c215dafec672",
+            "schemaSha256": "087de06931050e472cba01a20dff0f4227c7bab1c1143122ad6b4b14e4c809fd",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/replacements-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/replacements-adversarial.schema.json"
+            ],
+            "judgmentRows": 54,
+            "qualityNotes": 7,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-final-curate",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "pool-final-curate",
+              "pid": 90149,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 155925,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-final-curate.json"
+            },
+            "outputSha256": "697200d86da924d076bf7058dfea2f7f3066bfa936891349c0e44dfbba941d8e",
+            "promptSha256": "1ed372c2f177818706207431918efa41d88800d25b2a7cf0a5d041a0461dc527",
+            "schemaSha256": "6890e07b942bd8b82b437145e645e0dac6dad75090510c1a12459f7433d7588e",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-final-curation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pool-final-curate.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 5,
+            "approved": false
+          },
+          {
+            "stage": "followup-blind",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "followup-blind",
+              "pid": 1742,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 28715,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-blind.json"
+            },
+            "outputSha256": "d0e39287fa414abe3f657f0a26c6ea9589124a36e61a0af1b72e4e8fb8226194",
+            "promptSha256": "6cf694d9b2a51943dfb9d2025cb27ecda034deb50c5c20c5958328b9000fd34c",
+            "schemaSha256": "ba612ca51aab7159f026f8bf54007e68520b4ec942150c272d5d0459465c8e23",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-blind.schema.json"
+            ],
+            "judgmentRows": 4,
+            "qualityNotes": 1,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-adversarial",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "followup-adversarial",
+              "pid": 2103,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 26974,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-adversarial.json"
+            },
+            "outputSha256": "57e305359d293046864093339ba82812fea5c223ac57a5b956f292243cd3d131",
+            "promptSha256": "e09d6c523f2124a5187a96cd0f7b95c6643ca4f2be2659160345c0c73bc6281a",
+            "schemaSha256": "ba612ca51aab7159f026f8bf54007e68520b4ec942150c272d5d0459465c8e23",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-adversarial.schema.json"
+            ],
+            "judgmentRows": 4,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-final",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "followup-final",
+              "pid": 2627,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 33982,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-final.json"
+            },
+            "outputSha256": "a7f03ea8e9632ac8a7140c7c1a0e868e71183151c161564ea182254c840654a3",
+            "promptSha256": "d70504a095c150dbba5c26317af097f3a9c3b482c476e0e48d4a4b50c0084496",
+            "schemaSha256": "ba612ca51aab7159f026f8bf54007e68520b4ec942150c272d5d0459465c8e23",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-final.schema.json"
+            ],
+            "judgmentRows": 4,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-curate",
+            "execution": {
+              "id": "000079",
+              "split": "development",
+              "stage": "followup-curate",
+              "pid": 59759,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 25211,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-curate.json"
+            },
+            "outputSha256": "0cb43dbe90c17bd89abe91b5890c4ea883d4248f513b2f23f328027938aa9f34",
+            "promptSha256": "4db102991a7a0a23f71cfae227afe89366b73af805928707d50444524f08101c",
+            "schemaSha256": "6890e07b942bd8b82b437145e645e0dac6dad75090510c1a12459f7433d7588e",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-curation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/followup-curate.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": true
+          }
+        ]
       }
     },
     {
@@ -322,6 +661,229 @@
           "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-author.schema.json"
         ],
         "generatorModel": "gpt-6.1-sol"
+      },
+      "reviewedCandidatePool": {
+        "id": "000081",
+        "split": "development",
+        "stage": "pool-reviewed",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/body-action-density": [
+            122,
+            118
+          ]
+        },
+        "textSha256": "02ef85e9b3dc6f21346358da57cb4a848ab5ab26adffaeafd0f0af908f9abc76",
+        "sourceSha256": "ab7108e11b24f3a4904b99ea55a837ecd35e1da639106467e747c0f21d95bc91",
+        "words": 13898,
+        "status": "reviewed-240-awaiting-balanced-selection",
+        "textRewrites": 38,
+        "labelChanges": 2,
+        "stages": [
+          {
+            "stage": "pool-blind",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "pool-blind",
+              "pid": 93609,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 233121,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-blind.json"
+            },
+            "outputSha256": "0bd84e47cb3036be6110da452139f618cca673afccc1c8040d655fa095beb41a",
+            "promptSha256": "2e3f4d640cb0e470c5324249b4c0e62f16776b39f950c492e36ade9fb1bd5167",
+            "schemaSha256": "5d50a8bc0f352fdf83cfae44723d81fc653407948f0d3fa18aa2503ced388e33",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-blind.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 3,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-adversarial",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "pool-adversarial",
+              "pid": 16774,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 287194,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-adversarial.json"
+            },
+            "outputSha256": "4937e6596915f0f80aaa3d64838bfb216da2a6513f125ac6eb6180cdee28bfdb",
+            "promptSha256": "3db0f3e110a6044cd5351a9fe9820dbb4b8836c5d47814e68822ae3c28c76509",
+            "schemaSha256": "5d50a8bc0f352fdf83cfae44723d81fc653407948f0d3fa18aa2503ced388e33",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-original.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-adversarial.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 10,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-reconcile",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "pool-reconcile",
+              "pid": 49288,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 299588,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-reconcile.json"
+            },
+            "outputSha256": "5e58d994a3308929581116608ca292fb62eee6146c4a1ea4ade0b416d63b2ecc",
+            "promptSha256": "6fcb427eb5c7941298467508502d310a8b2a79b96200553927ff3ee9f712316e",
+            "schemaSha256": "dcb564a85675d209f4f16807780ed485e46ee411fd8da1844f2415ba069ef994",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-reconciliation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-reconcile.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 38,
+            "approved": null
+          },
+          {
+            "stage": "pool-final",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "pool-final",
+              "pid": 33560,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 289426,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-final.json"
+            },
+            "outputSha256": "ec04ec542b1dcba8d02d11129e4fcf80d9f3978ad533579c357b050bd8a782de",
+            "promptSha256": "59036f114be3bc5aae89892e3087591004cc54774885853f208c2c0ef124312d",
+            "schemaSha256": "5d50a8bc0f352fdf83cfae44723d81fc653407948f0d3fa18aa2503ced388e33",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-reconciled.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-final.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 8,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-blind",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "replacements-blind",
+              "pid": 67956,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 117653,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/replacements-blind.json"
+            },
+            "outputSha256": "c23a41aa35f8bdc548cf3838778bb0b0e0e3a5d511b6f72011883b2ff995d583",
+            "promptSha256": "fad28adfa4ef86cb68cbef60017da5a9291bfd64c96cd6e90c7ab9ea3a1bf545",
+            "schemaSha256": "f0df3052880df007ae57127e5c07ffc578c2a3bc49ac2a74c9e45e59481ad07d",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/replacements-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/replacements-blind.schema.json"
+            ],
+            "judgmentRows": 38,
+            "qualityNotes": 4,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-adversarial",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "replacements-adversarial",
+              "pid": 7553,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 79685,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/replacements-adversarial.json"
+            },
+            "outputSha256": "d186c126d50f5a515437c78ef89b2fd83438dcb9b3737293e837e01044ca5b67",
+            "promptSha256": "e5842deef1951a02811911966063cf9b1d7de35794d3850225c1d57e26e10bff",
+            "schemaSha256": "f0df3052880df007ae57127e5c07ffc578c2a3bc49ac2a74c9e45e59481ad07d",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/replacements-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/replacements-adversarial.schema.json"
+            ],
+            "judgmentRows": 38,
+            "qualityNotes": 3,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-final-curate",
+            "execution": {
+              "id": "000081",
+              "split": "development",
+              "stage": "pool-final-curate",
+              "pid": 19759,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 102779,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-final-curate.json"
+            },
+            "outputSha256": "25a370117b0ee4de77a540a587d1f871eb1e9f071dbe51c93a0466a73551bca1",
+            "promptSha256": "580e341e89f2094d93b3aa35c79bc15f7b248363f7481363f0c88e13e5ef2898",
+            "schemaSha256": "2e3975a29e7485cad736339144091b7e0113fd3f5620d42c782552c249c78fe9",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-final-curation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pool-final-curate.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 3,
+            "approved": true
+          }
+        ]
       }
     },
     {
@@ -536,6 +1098,316 @@
           "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-author.schema.json"
         ],
         "generatorModel": "gpt-6.1-sol"
+      },
+      "reviewedCandidatePool": {
+        "id": "000083",
+        "split": "development",
+        "stage": "pool-reviewed",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/emotion-as-substance": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "ab1242c3422e8bedd8feb737067eff28a6ebaf2b3a123f9c4f6566f6758094c8",
+        "sourceSha256": "74f4596499d0247739c94acc781b734a8c8e01fe0ca1cf1eca9dccf412de4a08",
+        "words": 13188,
+        "status": "reviewed-240-awaiting-balanced-selection",
+        "textRewrites": 45,
+        "labelChanges": 0,
+        "stages": [
+          {
+            "stage": "pool-blind",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "pool-blind",
+              "pid": 45683,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 187497,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-blind.json"
+            },
+            "outputSha256": "b591e9103f73ab74974adccb5932031eff3c0296d254f0ac3cbd4b623d6e05fc",
+            "promptSha256": "fb507c926de3cb8b4aa5c6f0915a3077fd2d549c467627500f76b18353ba7eef",
+            "schemaSha256": "ccdc8e93e7ac0cd4fd2758a46a7f3864563a81bfbea4841309ac65c9c69deeb4",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-blind.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 12,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-adversarial",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "pool-adversarial",
+              "pid": 11504,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 257817,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-adversarial.json"
+            },
+            "outputSha256": "864f31caf98ed90b26e4a19f6c0af0b009e1fffc759b3dc5112c90827bd1cf2f",
+            "promptSha256": "3f6c47c910ca71bf471f80739184e13577c87945f0dca1b43cedb4a1ef981f76",
+            "schemaSha256": "ccdc8e93e7ac0cd4fd2758a46a7f3864563a81bfbea4841309ac65c9c69deeb4",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-original.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-adversarial.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 12,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-reconcile",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "pool-reconcile",
+              "pid": 45073,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 304997,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-reconcile.json"
+            },
+            "outputSha256": "8957477fcdac3b2c459437cfcc2d32194f14c046fcbab794158c104f5b7a05c2",
+            "promptSha256": "e2f618930f641e45736f0f1a62d4c923b6fda7229f860477e7abea5a7e644930",
+            "schemaSha256": "3babbf508e7d6d0f2d5f27b22ee39757d8c397af7e5c6b7a0a886560db88b90f",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-reconciliation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-reconcile.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 45,
+            "approved": null
+          },
+          {
+            "stage": "pool-final",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "pool-final",
+              "pid": 72990,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 202705,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-final.json"
+            },
+            "outputSha256": "f7139b10b09c3b71c04198c2000c6d85ca78e7eb316b19ff88013ffdadf9d13f",
+            "promptSha256": "a88f60d831a73191f125799f3772ac3766ee344a8ca290a6e0c5fdd57a17a0aa",
+            "schemaSha256": "ccdc8e93e7ac0cd4fd2758a46a7f3864563a81bfbea4841309ac65c9c69deeb4",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-reconciled.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-final.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 5,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-blind",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "replacements-blind",
+              "pid": 67966,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 117290,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/replacements-blind.json"
+            },
+            "outputSha256": "725a085ca34245623fe532a0bc29ae4cbae164f6c8fa04deb997c6804c0a2a39",
+            "promptSha256": "8106c93449fd350928f7e32d9e20430cad4898ea5dec249cc279d3a5fd31fca3",
+            "schemaSha256": "5e66b4638e98f608945f6b70b61db32843dbb816e11c201f842442cd5713f709",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/replacements-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/replacements-blind.schema.json"
+            ],
+            "judgmentRows": 45,
+            "qualityNotes": 5,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-adversarial",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "replacements-adversarial",
+              "pid": 7563,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 88607,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/replacements-adversarial.json"
+            },
+            "outputSha256": "d39a19c1323f8b4c3ba7edc8c46635760108162db351e350271e3fe14913412a",
+            "promptSha256": "b2fbec1dba534812df1d5f91ba3b66579bd4744bb7adf89c06859da4616773c0",
+            "schemaSha256": "5e66b4638e98f608945f6b70b61db32843dbb816e11c201f842442cd5713f709",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/replacements-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/replacements-adversarial.schema.json"
+            ],
+            "judgmentRows": 45,
+            "qualityNotes": 6,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-final-curate",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "pool-final-curate",
+              "pid": 19764,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 92441,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-final-curate.json"
+            },
+            "outputSha256": "b7601b500ddaefde2931d609d0fd42f76734f71325b0f5482807dbbe2f3fc0c5",
+            "promptSha256": "c2afa10ea5f46c3577b3da766866472c06192a3e291d25d986971257feff36e5",
+            "schemaSha256": "355204fcfb9b7bcad812d73246255a16292422a40e480730e1dec910d5e4fd3b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-final-curation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pool-final-curate.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 2,
+            "approved": false
+          },
+          {
+            "stage": "followup-blind",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "followup-blind",
+              "pid": 27753,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 23021,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-blind.json"
+            },
+            "outputSha256": "76618ed366d860bf2e914adcfac91ca270abe88464d2c11649775ffc6a6859f8",
+            "promptSha256": "fe46720d3cc1b0276f862cd627c9a3fb3599db94f62a020629e65991904fef5c",
+            "schemaSha256": "d193716037e06f7e5def41ebbb6f5ea47e23a224fcbaa62a0f67e0263bc3b2e4",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-blind.schema.json"
+            ],
+            "judgmentRows": 2,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-adversarial",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "followup-adversarial",
+              "pid": 27794,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 25409,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-adversarial.json"
+            },
+            "outputSha256": "7537bffecb7dfc0041a0bf2a94836e44945bf804eecd8c398113456a61c23b5e",
+            "promptSha256": "01aa11cb5a6cdafeb8f40dfe1acfbe2c8a52704d4bd099f6fac665c47c33bca3",
+            "schemaSha256": "d193716037e06f7e5def41ebbb6f5ea47e23a224fcbaa62a0f67e0263bc3b2e4",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-adversarial.schema.json"
+            ],
+            "judgmentRows": 2,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-final",
+            "execution": {
+              "id": "000083",
+              "split": "development",
+              "stage": "followup-final",
+              "pid": 27834,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 20117,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-final.json"
+            },
+            "outputSha256": "9e52a22f9f43de34be8217c4d6ede9408ca48050d101a6d4766acccc69024dc6",
+            "promptSha256": "005d44fcce2a4d69df8e8276b0d2e2bac01135ca12db2d54ee6b0b8709b385d4",
+            "schemaSha256": "d193716037e06f7e5def41ebbb6f5ea47e23a224fcbaa62a0f67e0263bc3b2e4",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/followup-final.schema.json"
+            ],
+            "judgmentRows": 2,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          }
+        ]
       }
     },
     {
@@ -750,6 +1622,316 @@
           "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-author.schema.json"
         ],
         "generatorModel": "gpt-6.1-sol"
+      },
+      "reviewedCandidatePool": {
+        "id": "000085",
+        "split": "development",
+        "stage": "pool-reviewed",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/emotion-telling": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "9af367476380106fb4851ef234dbaf75aca65d0a731144ddb877020c4c2b0804",
+        "sourceSha256": "e7eefe1805659c42296d20db4f890e3f209e3d750579152a4c8c2cc89fbd5fad",
+        "words": 12110,
+        "status": "reviewed-240-awaiting-balanced-selection",
+        "textRewrites": 45,
+        "labelChanges": 0,
+        "stages": [
+          {
+            "stage": "pool-blind",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "pool-blind",
+              "pid": 15305,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 202988,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-blind.json"
+            },
+            "outputSha256": "6f165fb10e0e4f36664b529b47615efbbc98c5177050c884ce214994d9523234",
+            "promptSha256": "2a5144f1ff81ec5e941d98e520b89f97bea5d394938db6818f63681985af4eeb",
+            "schemaSha256": "ca9d5ff9aaeab4e20ed45bb84a5cd86fa974a4c754985102deb0ffb88bf5571b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-blind.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 8,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-adversarial",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "pool-adversarial",
+              "pid": 48610,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 214708,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-adversarial.json"
+            },
+            "outputSha256": "4977e33ebf15b48c5530456776512e6061a8c2da1cc2b277c7d112fcf53ebde9",
+            "promptSha256": "95354d66d672b8921d7ca7e43dc2c015c0e3b59903e9b0a9db6e1f6209a9234a",
+            "schemaSha256": "ca9d5ff9aaeab4e20ed45bb84a5cd86fa974a4c754985102deb0ffb88bf5571b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-original.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-adversarial.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 9,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-reconcile",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "pool-reconcile",
+              "pid": 11610,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 350675,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reconcile.json"
+            },
+            "outputSha256": "bae490f35a5a700a54c0c7b3ac29406b57f6b4a508e077f5d8f8fd6de06e5398",
+            "promptSha256": "f53cd6c25dd855e5e3be647f19ddcfee7cdf7ab66b90ef5fe7ebff7a76c166cc",
+            "schemaSha256": "a8b3ab0738f4d21f2d2bccd6da946b6139931129224675ae20076c82f93241d8",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reconciliation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reconcile.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 44,
+            "approved": null
+          },
+          {
+            "stage": "pool-final",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "pool-final",
+              "pid": 88128,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 209684,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-final.json"
+            },
+            "outputSha256": "787573ed51e2266c9a283de9f6503cd6e48798008b5041fafb5bd18a17f4343c",
+            "promptSha256": "a7a32e83eef9ed4a4089f33b6528c11b326d997eb8073f92b3913bfe58d4ca3a",
+            "schemaSha256": "ca9d5ff9aaeab4e20ed45bb84a5cd86fa974a4c754985102deb0ffb88bf5571b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reconciled.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-final.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 5,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-blind",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "replacements-blind",
+              "pid": 67992,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 88398,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/replacements-blind.json"
+            },
+            "outputSha256": "27db8421df445843d363055d972b79126b7799e950f8ba90cb14fcbb19630793",
+            "promptSha256": "c8b7f30c7b4ae4fc4e356f000dca98b78446cfef3a835623ff967adba7ce0a70",
+            "schemaSha256": "0e5abd9fc43e43b125fb44f8534994a9460c0f37c942d221e4863e565fcc0ec9",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/replacements-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/replacements-blind.schema.json"
+            ],
+            "judgmentRows": 43,
+            "qualityNotes": 2,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-adversarial",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "replacements-adversarial",
+              "pid": 7573,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 76575,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/replacements-adversarial.json"
+            },
+            "outputSha256": "fdbdddfbf876be1f096cd740c7fafb9765334458351bd32c0dd52c4c6fb8cd77",
+            "promptSha256": "9f86ae2c5766a1f02e4ad7d3275b953a631323677a051190a4789581205049b4",
+            "schemaSha256": "0e5abd9fc43e43b125fb44f8534994a9460c0f37c942d221e4863e565fcc0ec9",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/replacements-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/replacements-adversarial.schema.json"
+            ],
+            "judgmentRows": 43,
+            "qualityNotes": 3,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-final-curate",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "pool-final-curate",
+              "pid": 19774,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 77605,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-final-curate.json"
+            },
+            "outputSha256": "370c2b494000129a48a64851960f50d37d59dbc01d5d8d9529bac1e5084e3296",
+            "promptSha256": "b610bb919393f52fb41c649dab4813ef4b8a0101321b8bd9cfee288fcfc96365",
+            "schemaSha256": "c85a96163aa68a32b6a79b44899a3670ff496e39999f2128e2b482ba161a6883",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-final-curation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-final-curate.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 4,
+            "approved": false
+          },
+          {
+            "stage": "followup-blind",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "followup-blind",
+              "pid": 27763,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 25119,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-blind.json"
+            },
+            "outputSha256": "3d6c44c03551311fa65345c8bef4ef47837ce0a07eb0f733ef8a44e91b49d198",
+            "promptSha256": "4710ada426703cd7849b1287e22ba75ecbd3acc4ba0f63043eda830e742cfe33",
+            "schemaSha256": "49633bbedfb4f074164832a7bfd15a7d07c788d6bdea977144297affe595a4ec",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-blind.schema.json"
+            ],
+            "judgmentRows": 4,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-adversarial",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "followup-adversarial",
+              "pid": 27811,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 26753,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-adversarial.json"
+            },
+            "outputSha256": "443dba39fc327337ba84654e6857267b512c2965e242c20a731f00c78f73a6f3",
+            "promptSha256": "637974e7a3c991c4be5956ca7469ea39f922e1da92f5497fdd1e223e2dd7acf9",
+            "schemaSha256": "49633bbedfb4f074164832a7bfd15a7d07c788d6bdea977144297affe595a4ec",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-adversarial.schema.json"
+            ],
+            "judgmentRows": 4,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "followup-final",
+            "execution": {
+              "id": "000085",
+              "split": "development",
+              "stage": "followup-final",
+              "pid": 27845,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 27520,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-final.json"
+            },
+            "outputSha256": "c7e7a61b4bc9818d69838cf1e4b67271c74696c5b5c7ca3435a492d7e2a9e28b",
+            "promptSha256": "9131dcdb88e7250c7261f906c0d4373f6edd2b1099aa7220bd3f9f607da10c60",
+            "schemaSha256": "49633bbedfb4f074164832a7bfd15a7d07c788d6bdea977144297affe595a4ec",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/followup-final.schema.json"
+            ],
+            "judgmentRows": 4,
+            "qualityNotes": 0,
+            "changedRows": 0,
+            "approved": null
+          }
+        ]
       }
     },
     {
@@ -857,6 +2039,229 @@
           "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-author.schema.json"
         ],
         "generatorModel": "gpt-6.1-sol"
+      },
+      "reviewedCandidatePool": {
+        "id": "000086",
+        "split": "holdout",
+        "stage": "pool-reviewed",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/emotion-telling": [
+            122,
+            118
+          ]
+        },
+        "textSha256": "7e68e64f80e4ae5ea7adbf0c124ced13976185c2e9174d068101d20ffbdb7514",
+        "sourceSha256": "b4c3bfb4f1896f001befa95d67d3b2a740c769445e0bcfc61f94b203fec35289",
+        "words": 12305,
+        "status": "reviewed-240-awaiting-balanced-selection",
+        "textRewrites": 44,
+        "labelChanges": 2,
+        "stages": [
+          {
+            "stage": "pool-blind",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "pool-blind",
+              "pid": 74539,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 180579,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-blind.json"
+            },
+            "outputSha256": "fffda84192a95540d4244a10a65b5b0040fd56bd6d88ea68dc2a6982caa8d17d",
+            "promptSha256": "d9c287b0ccdda658166f98cb2943452b7968f8b0bd3f519da398f4b4de4a7e17",
+            "schemaSha256": "ca9d5ff9aaeab4e20ed45bb84a5cd86fa974a4c754985102deb0ffb88bf5571b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-blind.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 6,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-adversarial",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "pool-adversarial",
+              "pid": 86887,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 259888,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-adversarial.json"
+            },
+            "outputSha256": "1368df6c808db1e41dd12453553997fb1ac672ca5b0a369eaa7321bc5d3eb5cf",
+            "promptSha256": "9f6c9dd44031d1ce631a05284919c457259e9f6b464390ff72f876f59f9bf5ca",
+            "schemaSha256": "ca9d5ff9aaeab4e20ed45bb84a5cd86fa974a4c754985102deb0ffb88bf5571b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-original.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-adversarial.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 8,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-reconcile",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "pool-reconcile",
+              "pid": 10451,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 231336,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reconcile.json"
+            },
+            "outputSha256": "b6f5d05aea8a4a8b376c08e406d6fd5c781581c889e418c6b3eb6c94884d366c",
+            "promptSha256": "55d8e089f49e5b81dd6242c2781634e7e93265be6c1c6909c140e2e6480b49e7",
+            "schemaSha256": "a8b3ab0738f4d21f2d2bccd6da946b6139931129224675ae20076c82f93241d8",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reconciliation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reconcile.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 44,
+            "approved": null
+          },
+          {
+            "stage": "pool-final",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "pool-final",
+              "pid": 25401,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 251474,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-final.json"
+            },
+            "outputSha256": "c114f5ec4c1169626882605ac667431df76b0531b098c70a3a84d7e63e63a824",
+            "promptSha256": "199a740cdfdf624263c10306a5fd905f344dd28f3a30496becb520ab00e837f6",
+            "schemaSha256": "ca9d5ff9aaeab4e20ed45bb84a5cd86fa974a4c754985102deb0ffb88bf5571b",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reconciled.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-final.schema.json"
+            ],
+            "judgmentRows": 240,
+            "qualityNotes": 3,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-blind",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "replacements-blind",
+              "pid": 24539,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 96258,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/replacements-blind.json"
+            },
+            "outputSha256": "b8b611ab53efc23299d4389209d3f1f20435148028c0293d9a69025f50726b3f",
+            "promptSha256": "35c83b946b1e9cd1e1541a53a5e6de7a73cf7178ea5e30947eba0ba4d05f7575",
+            "schemaSha256": "629215b00be579d7beaf49bf3d006086facd4e247988c2d69a30f9b8f5d2fb49",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/replacements-blind-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/replacements-blind.schema.json"
+            ],
+            "judgmentRows": 44,
+            "qualityNotes": 3,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "replacements-adversarial",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "replacements-adversarial",
+              "pid": 24975,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 95178,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/replacements-adversarial.json"
+            },
+            "outputSha256": "6e77974798c9ee3d7525788ad4531e67fae1caee4bee1c069ad81074759d67d7",
+            "promptSha256": "15387b10eb7f2d6d8403952750b4388eeb95200cb21d01974329285f9bbe5e57",
+            "schemaSha256": "629215b00be579d7beaf49bf3d006086facd4e247988c2d69a30f9b8f5d2fb49",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/replacements-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/replacements-adversarial.schema.json"
+            ],
+            "judgmentRows": 44,
+            "qualityNotes": 6,
+            "changedRows": 0,
+            "approved": null
+          },
+          {
+            "stage": "pool-final-curate",
+            "execution": {
+              "id": "000086",
+              "split": "holdout",
+              "stage": "pool-final-curate",
+              "pid": 90154,
+              "exit": 0,
+              "valid": true,
+              "wallMs": 99340,
+              "output": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-final-curate.json"
+            },
+            "outputSha256": "8bc58dd7ea599b0007b6f8514c487a9ba3f861ed1b8ff8908d75f22f2d98de20",
+            "promptSha256": "4d8ce10f3c18a5ff614b3c0556687800306e3b16b99d86a125c34b5119986fb6",
+            "schemaSha256": "c85a96163aa68a32b6a79b44899a3670ff496e39999f2128e2b482ba161a6883",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/definitions.md",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-final-curation-input.json",
+              "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-final-curate.schema.json"
+            ],
+            "judgmentRows": 0,
+            "qualityNotes": 0,
+            "changedRows": 2,
+            "approved": true
+          }
+        ]
       }
     },
     {
@@ -6494,5 +7899,440 @@
       ]
     }
   ],
-  "instructions": "Review decisions can contain protected holdout wording. Prompt authors must not read this record; coordinators use programmatic aggregate projections."
+  "instructions": "Review decisions can contain protected holdout wording. Prompt authors must not read this record; coordinators use programmatic aggregate projections.",
+  "originalCandidateArchiveCommit": "431eea4c0bfa6ad3d85a5885914eefc0775449a6",
+  "originalCandidateCopyScreen": {
+    "verifierSha256": "2b646acaa04063a583be1d797a39687424621d0509ab566ca3e91c34cc965702",
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+        "sha256": "3df3db67fa469a30fdfea2baa70624f12ba990945c2c6591369024f1633809a3",
+        "labelsSha256": "9be12f34bde31e98bf6dde6183ef914009e134d88ecdea48ca9186fdf4bb2639"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.md",
+        "sha256": "b784b45b675d1f56a9ada49544a8761906208e59139e1cdff60baaeb9a151afc",
+        "labelsSha256": "26e0dee2ad3e507a3fc112aadb1d33dc82719d56520e6c1b8a404191892b7568"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sha256": "97b6dc3deaea5de5285120956e7e8ec1b75879e3d03ff2d29df05473bbe91ee8",
+        "labelsSha256": "1f09464701fc136f0059affa0452837ae200f1ec008809d14d11b9e4582b49c6"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.md",
+        "sha256": "03015ffdf9ce02a3797e531f1a9bbe0c4bdb9878da2f2b62f24f82191b5d41e4",
+        "labelsSha256": "71f2eff355b7b4330813b6b95656474457e3004dc1c790be79680f84a28f80d2"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+        "sha256": "5331a8dd297de6ddb8bcdcac8219b56d7bca8a222f8c953e0620e21dbff2648c",
+        "labelsSha256": "e49e101754c32240d0049d7dd752c7dc5ae8c9e1d77a9142ae43dcd1c80ef0dd"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
+        "sha256": "4d6ef9282216e7eabebff7671779bda5d14834d6e390f30ecc8eccacd3037c17",
+        "labelsSha256": "d17d58ec031932f2d6fc7fa26f780261bb43f47cfff10bf67bd8ae9878acca1c"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+        "sha256": "54ac2cfb86ecaeb2f4f338b38e48b3d932ba958b04bd7fc771e4fd918558f4ba",
+        "labelsSha256": "f348dcb99e0b38a2b8d82e0e89280845a315ac725857cafa4afa961f2937c351"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+        "sha256": "f54e1e159afd024bdefc0c5a0e7559798f506cac7afaf594277da86dcc532555",
+        "labelsSha256": "105ffaf19660520baf76302dcee8cdf83fe3cd1599eedc01f20585fc1cee0351"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+        "sha256": "897e4c6c56b52716031bcd5fee971ffcaf32e7d805a3a951575d7d0d4f01156e",
+        "labelsSha256": "d528df82f26262c0e850ad91db5e30968a9f07fd098ae0db6047863affc1d358"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.md",
+        "sha256": "3ce1f859b944e7fd091a2b02dde3549ad8f9256080bb3eff44522533a218f6ab",
+        "labelsSha256": "f6297677ecfdb366d9f7d1298afcd47934cb523cb581bebee900cf3e361d30e9"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sha256": "65c8cb2e085ae5d8c46fcae6a23f0dedc1dd3759e51bf868b3e2f5c77c923cd9",
+        "labelsSha256": "da9913a0aa01f039092b7dbf693a65e7d2b2d29b28d59a02a1eb4a97a13254db"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.md",
+        "sha256": "5402404839d6f47d46df83ce6343dece8f58519c83ba1c6756731d5fd9cfa22c",
+        "labelsSha256": "b49a55d139102c94262e79020d082410728fe4b4722b23c92f31cf4b6de7ee6d"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+        "sha256": "5176b6d80e09ea10a003a91897385eaf137e817b129d9c79cd66bb93c6838fbb",
+        "labelsSha256": "2a221d7127fa25d31cc33cb982adb854bd8ed5bb319c4012cf19bf6f3578013b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.md",
+        "sha256": "2883182ff6a62cc95e33de460fae953df8bb651fa8810cab9c0b88fffc8e5b94",
+        "labelsSha256": "f2f46c4d1cef9d48f511d8f305f861fe65ef10ce3a80d6b5021f28cb59f8a4c1"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+        "sha256": "7cb93d4196a98e8afbe187a07288995e395dd4805e88134d9901dd95a5660513",
+        "labelsSha256": "cc9b9fa564e243430525527b512d2f914077841c3a0058accd2fa2cabf4b4fb0"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.md",
+        "sha256": "8285da2478aab9568493c39ffd8c67fb6b4cb224095d2e362f2529ab59bb8bd9",
+        "labelsSha256": "c174c59274747f12f4f5258c22f9818b6a8ee61d6998597edf85b9ef8c1010be"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+        "sha256": "93a61ecaa379a8915ef3b81c028f0437a9a7248c2ae98d58a9f5427e6506204e",
+        "labelsSha256": "97b3ac9ef7ecd046df78af4b0ff8e63b6bfbd6e882943faf0c874cf0da3b9c19"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+        "sha256": "d9f85da3e8b619d1f53b0b62b11bbe8d6f4b2b9e4e52d2d2291046746be89d6c",
+        "labelsSha256": "66d3c389818d18b715c0ecab4c24fe893b8751bc10d3913a5cc597150f187764"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+        "sha256": "6a0c25bf5d93dbfaa5b1e91e631ab92672dff7a548a7221757afc0652c4c45b0",
+        "labelsSha256": "8efd023674bdcb93b166fb8d987959e6fb23bf2749a70c88cfc2d9cb86d6ccd0"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
+        "sha256": "efa3710ea06b1e681c1c305d914fda1b91c8b1fe2b4eac73f42af2d14c13032b",
+        "labelsSha256": "4bdfb72622110da89419fdc9b57f8ee691759925e9ac89d94160516fb69a313b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+        "sha256": "6a6a23231c9567d192f002df394b1f38cdea5b303e43bca1290618375b00e4a2",
+        "labelsSha256": "5bfa4951360e5a997dc708d09a85c74608008f064a32bd3ee3102a152c40f0f2"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.md",
+        "sha256": "2cac824dfb96b3f68ea684b5cc9fb392421897c9e82dfaf484d0a2212bf410af",
+        "labelsSha256": "a62c9437fbe2b930b7fdfdce8f2eedade7e8feb0845e587b0c7c87e4b690c4ce"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+        "sha256": "f44a677a2e6ec7565ce856a9f14f9aa1d9ac998f84cda57640ab38601e6ad8f9",
+        "labelsSha256": "1b6617abb6ba0f3822ebd635bc4d425df8593bf1300100c6a4165065e4440cac"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.md",
+        "sha256": "3cd134b14e42c7f371802634cd8e7ff841bc1e9e2501bf22520af23b34e933b3",
+        "labelsSha256": "38d2dc9948b1fc53c43063d5b8c2ccf79550f8eb8d3a40b8f9ebece6a91a3fec"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+        "sha256": "858ebd972598467fc84542cce05eeace55db2773600a5f7c4611cd8dff1cb0d7",
+        "labelsSha256": "ca32132f282c119168acd4126040b7c80cc64a0c6a9730bd9c2fa88581ff5de2"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+        "sha256": "d381f5aaa68d3c54a39481d847d57710c0a25f24eab0ddd6889512d29b72ca50",
+        "labelsSha256": "1fe99392da36e04644c68d3947acf8a233ceb53c21677238e66a295d29e9b90b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sha256": "2c0845d80191dc88fa612454b6ae012cf67ed4b5200c315c526aef73223411d7",
+        "labelsSha256": "f8b2880125f1850951bfd6a29d21303fcadb10637e770ea7228b03084ff69d04"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.md",
+        "sha256": "6bd271dd60efaef0be8ae668675f6aeb731d243673654087f51dfb91494c301d",
+        "labelsSha256": "7de08544e69abd48c70a8685e2b529bfd68df79a2b4862e48a27f2d0b7934323"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+        "sha256": "9581763d7fe6f6a1b1f7965455c38efa3631a22a9e23b6b042459a74e81ed05c",
+        "labelsSha256": "2f7b420334085a8180126bbf34b979be48ac595f4797bb6f2afe3c6f008c3e60"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+        "sha256": "653423a0eac1ba9cc17bdac2afdf9a3c09d46d3f57e641b7d4430fc3745cc7b4",
+        "labelsSha256": "7ac3c2c61e344b9e0110049288d5dd7eb6b69ef2b30bda8b95f48935bcc90c25"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+        "sha256": "3f14e094c689211c1ebb7adee3be72a05ad6d3db03a88e3f6ce8c34d9426a4b3",
+        "labelsSha256": "d57c19589cc54317748c25a780d3d95bcd69acb1555e6f42034a26c9e20833c4"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
+        "sha256": "844f2e7ca476da25d11b5c2be9dfbeaf72c046b208feeadff5543bf10d00ad89",
+        "labelsSha256": "fe47733147cf80409ff08de0b4eec91a64b2afe47fa3ef7e81aea6003b809a78"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+        "sha256": "e3d29e494200a4e01482ab05b8f5739cf78f29c46d53e81cfb45174cbca58143",
+        "labelsSha256": "06dd46530bf64cf1f8a9de7e2bb69ad43322aa3bcafd158fc25748146f59e635"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.md",
+        "sha256": "5008f65a5c5227d52d95266e46ad3fa2264c085e8cc7b18a06da8ccf1b325244",
+        "labelsSha256": "755e50d61ea04d95143181062c224cfd881dc455307315eb077892dd4954dcae"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+        "sha256": "fd3c62dafa38e7f6c248d2da4084ef05e28d66a72c520bb38eb397fe4863caca",
+        "labelsSha256": "c31f66145bb377668d04abbf09f546bc871aafadf6424c426bc0c6718a192264"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
+        "sha256": "a888f64b7b83a009f3df6ae6f6ae4bde88147646b65df1c3de26f4eac4653f02",
+        "labelsSha256": "9ecbd97110413fb8118a18c74b7f18a3665b5841508839039c61234e0a03c1c5"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+        "sha256": "2324989390fc4eace108971e0c547ab15272b504a7309eaa4430c1f51536a631",
+        "labelsSha256": "70ea1a742810897716b6f29f576126549e6315f9d209f29078f0ea968a5cf2cd"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+        "sha256": "0d5599fe8efc2d9f01ed3febd1918f7ecac10d5b098627964c0d72853815c125",
+        "labelsSha256": "e5d541367140e919ceccd6f0b73a84a513d1472570be9ef44eb5b25377e510ff"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+        "sha256": "053c5c27180406a9e7c75a43fd73e71912cb920099f07e822a12d26b9f6abe27",
+        "labelsSha256": "e9206b1ea280910c9482309f5c0231d524c97255efdcce243d84e90119921338"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+        "sha256": "2172294843814615ccafd0430bb33fd4f00d1fb7bb9f0f22132d8e4d76df62b2",
+        "labelsSha256": "fd7991b10c99d0a3845cedb4e374fdc4f16b274c9770d5281ff59258b597c402"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+        "sha256": "45b3a61c0acd5ab9f29c50be37da9f112150256ec08b8faecae123c626dd6a97",
+        "labelsSha256": "847c44daa6f6b010ed9935dac55d581d58bc13055c547466ad52a15223b5467f"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+        "sha256": "79ccf178eaa3efd6b6aafcf666d5ecbc76c3cedc70ed51d76b8e8e6beb351c1e",
+        "labelsSha256": "f977f72e208fdcaf82c845aabda705e14e452a79ca761d93dd8946817a792b7f"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+        "sha256": "04d9d7e15264bc7076c35a60f1748dac3e3291225567e010899996f214ddb36b",
+        "labelsSha256": "5a0aa48df246d1e2ea0171397f81bbcfd62e9c7eb000a77d91920c7e2015082b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.md",
+        "sha256": "db841b49c1fe2da7c31e8e69f9df09c1426060e24cd0824e70dfbe4cd5bbd347",
+        "labelsSha256": "8063ebb16ba6517f6b4b49cbfe432e67ebe52be714a51a7f96c64b6ffd3d04db"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "sha256": "a7f4907859d10dfe9fcce98f5c41cd684b36af24046a203f88519bdae3168639",
+        "labelsSha256": "390f07140ac73412c524140d073123acf0e9ffa6bb167a7277e47a5fccd65de1"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+        "sha256": "e96b40f83a25562e7fc36b6cd43d419ce36911df48f66abffdb6b876c98f840d",
+        "labelsSha256": "f8beaed2ff4006eb846b6b0b273edad72fdf89715527aa70d72b49734529d310"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+        "sha256": "0fc3ca293ee927e97b92f3304a6aef56ebf0ef598ab281e35019b778cb69fb98",
+        "labelsSha256": "7c263c0aad4ce57efd2d7222ab2671a149877845ec36008b42c3cc4464ae1839"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+        "sha256": "af9aed35a1d7ac537c6d0d1c1b8403be95eb8bc4f710e5803c458699d169552d",
+        "labelsSha256": "9fe5ce8cb408da903d2dd131855f26d10215d01e1919f6bfd99ebfaf6b3e8cfb"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+        "sha256": "65ae24437edbaca2cd5b90ceb54bf66656f9cf1f9b5c591fcbd749583564a08a",
+        "labelsSha256": "7dfb715d96903b305107154a0c5bf88e7d9918e026f89b28b253298da8d9f82d"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+        "sha256": "847c2239c499a273dbf07fa776d1c234a7e1a6ed9a84efc10032ee49c7971f89",
+        "labelsSha256": "92df818431fde83a8f33d538dc9e3f32fc83a853dc9ecb6e825f49fc1ac9eb11"
+      }
+    ],
+    "priorSourcesSha256": "66f62a98bcb97d77558100cd0ceeb6d393346503deb1a56b5901ae1cdcb15e4e",
+    "priorDocuments": 15723,
+    "legacyFiles": 39,
+    "newInputs": 12000,
+    "referenceInputs": 318109,
+    "pairs": 3889302000,
+    "shortComparisons": 0,
+    "candidates": []
+  },
+  "reviewedCandidateTotals": {
+    "collections": 5,
+    "passages": 1200,
+    "words": 63860
+  },
+  "schedulerRepair": {
+    "reason": "Completed batch members retained startup reservations, leaving free review capacity",
+    "controllerPid": 11352,
+    "liveWorkerPids": [
+      12466,
+      14221,
+      14226,
+      14242,
+      14258,
+      14263,
+      14268,
+      19754,
+      19769,
+      19779,
+      19784,
+      25638,
+      25643,
+      98895
+    ],
+    "action": "Replace scheduler only; preserve native review processes",
+    "oldSchedulerVerifiedTerminal": true,
+    "workersStillLiveAtReplacement": 3,
+    "interruptedAttempts": [
+      {
+        "id": "000123",
+        "split": "development",
+        "stage": "pool-adversarial",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "74bb33d50c8fc8e66a190542cb1761e724db6b9e589357a35c31e0c6eac920b2",
+        "schemaSha256": "c7d7601b826ca5aa2d7be6a80aa1ba5240b5c6f76902c10536d506d988cbb8e4",
+        "logSha256": "e2d3a327f11442464a6ddfe574c1d44f718958e15157819cdb3967483390dfea",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000123-mixed-narrative-craft-e-development/pool-adversarial.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000124",
+        "split": "holdout",
+        "stage": "pool-adversarial",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "63e2f4d7d86e4cf5330c3934995b06b73ae6970f4f77f39daa9ac5eb940275e6",
+        "schemaSha256": "c7d7601b826ca5aa2d7be6a80aa1ba5240b5c6f76902c10536d506d988cbb8e4",
+        "logSha256": "2760eda6e7728512b860e6c28fc744ead3ea02d69bf4f3e6ae1c3b5412467e0c",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000124-mixed-narrative-craft-e-holdout/pool-adversarial.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000125",
+        "split": "development",
+        "stage": "pool-adversarial",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "9f8de98e6561f84aeaef63e5bb8a058ec24f051d359f1869caf743566db45f6d",
+        "schemaSha256": "e49d9766af57c11253067d6526672c61ad77a55b4560b97cf7a0601287b2aab3",
+        "logSha256": "368146a8881102048f099274db3187270c3fad8819ce538231639013e8b6b6a6",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000125-mixed-narrative-craft-f-development/pool-adversarial.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000126",
+        "split": "holdout",
+        "stage": "pool-adversarial",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "89f3e583e8e4614c2eadcb1720327269da988084a17ce0abc7e18e287217bd72",
+        "schemaSha256": "e49d9766af57c11253067d6526672c61ad77a55b4560b97cf7a0601287b2aab3",
+        "logSha256": "21ccf5ec150ad90550f4d69e46da918351028e715b690046e940e82dcad74c43",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000126-mixed-narrative-craft-f-holdout/pool-adversarial.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000127",
+        "split": "development",
+        "stage": "pool-adversarial",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "370db345fc1e32c3192fa2099fc7d9e18d78b3430119bece729faa83f1c62cf7",
+        "schemaSha256": "76550aec8a5cffbfaab4ac06ecda1cfedf09e54e25996d2b9ee0b3467798aab2",
+        "logSha256": "93f01fbf5c1fb8f30f4261c49a140503980c4694f706a3e732727b9bf1ef38f9",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000127-mixed-narrative-craft-g-development/pool-adversarial.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000128",
+        "split": "holdout",
+        "stage": "pool-adversarial",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "3cd74e70e0f2fe0d20387353c71f3eee835a20549d6a8af9fa0f66fa8716c7ae",
+        "schemaSha256": "76550aec8a5cffbfaab4ac06ecda1cfedf09e54e25996d2b9ee0b3467798aab2",
+        "logSha256": "817c3c60f2c6e0db0c906f07fb99bda1662a2e9b5163868015550f79782f8128",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000128-mixed-narrative-craft-g-holdout/pool-adversarial.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000090",
+        "split": "holdout",
+        "stage": "pool-final",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "0ddb78de042e8f97c8d1961e08ef63452e4bbfe08c6058122bbe1508556b7edc",
+        "schemaSha256": "eb758bd042b895455bd7b357f5e90714bd968f339bdd9b2f658b1056156dd9b0",
+        "logSha256": "88fe8a58d2181deb0816d132284dd77dab68183051d92b098fb46e80bf5094f8",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000090-narrative-craft-empty-beat-holdout/pool-final.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000108",
+        "split": "holdout",
+        "stage": "pool-reconcile",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "db08300252807e5899e569a28e4104b5f1cd28bb205bedde696415e50437ad16",
+        "schemaSha256": "6970e86b30ae60c5d83a8c6523c4a49792a565886651f63ba1230a92414291f0",
+        "logSha256": "33d9b9a3b6145e4c56a97533aa1d9aaab0f23abd15ad3291f4e66503599acaa0",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000108-narrative-craft-perception-verb-density-holdout/pool-reconcile.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000100",
+        "split": "holdout",
+        "stage": "replacements-blind",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "eb928fff3c91dd1e3c271b23ead60ee046e266b1455ebce0e84b1def90604b79",
+        "schemaSha256": "47f9ff8e82c1500308dcdd14b8c30add14df160f36afb6dd9bd6fa16b897c315",
+        "logSha256": "c50e77ef75ac8afc4671ae47e604e52d44d230680554efb7a359a6a828f3842a",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000100-narrative-craft-gaze-choreography-holdout/replacements-blind.interrupted-scheduler-replacement.log"
+      },
+      {
+        "id": "000101",
+        "split": "development",
+        "stage": "replacements-blind",
+        "exit": 143,
+        "valid": false,
+        "reason": "Scheduler replacement terminated its owned incomplete review process tree.",
+        "outputAbsent": true,
+        "processAbsenceVerified": true,
+        "promptSha256": "96a9499c987c68875f54d7dde953cd4f53182ecc28f3c92e0411683029a1c6ed",
+        "schemaSha256": "c77ea56428384d14173a36ea1b89ef2d3c07e3ad730c04fb3519b08cb7298111",
+        "logSha256": "9f6554c7e509331d6776927313558aebd27573a3f11072807e9a7b0d42a223d2",
+        "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/replacements-blind.interrupted-scheduler-replacement.log"
+      }
+    ]
+  }
 }

@@ -2,7 +2,9 @@
 
 ## 000081-12afda890aa9
 
-The revised rota arrived just before lunch. I rubbed the back of my neck and opened the attachment. Three of us had been assigned to Saturday, although the shop would be closed for electrical work. I sent the manager a screenshot of the contractor's email. By two, she had issued another rota, this time with nobody covering Friday evening.
+"Who's closing on Friday?" Ruth asked.
+The manager turned the laptop toward her. Saturday had three names beside it, although the electricians would have the shop that day. Friday had none. Ruth rubbed the back of her neck while the manager opened another version of the rota.
+Outside, the lunchtime queue was forming. Ruth put on her apron. They would have to finish this conversation after serving it.
 
 ## 000081-523a9c6931a1
 
@@ -15,7 +17,12 @@ The dishes were still in their wedding boxes under the stairs. Nobody had used t
 
 ## 000081-bbaf91ee5efc
 
-The landlord finally agreed to replace the boiler. A wave of relief spread through me, and I let out a breath I hadn't realized I was holding. The plumber could come on Thursday, but someone had to be there between eight and six. I had already used my last day of leave waiting for the first plumber, who had gone to the wrong address.
+"Thursday, between eight and six."
+"I teach on Thursdays."
+"That's the appointment they've given us."
+The landlord had finally authorized a new boiler. Relief washed through me as I read his message again. In the kitchen, my daughter was boiling water for her bath, one saucepan at a time.
+"Can they collect the key from you?" I asked.
+The typing indicator appeared, disappeared, then appeared again.
 
 ## 000081-422f74d6b0ee
 
@@ -23,7 +30,7 @@ Nora had worked at the swimming pool for eleven summers. She tilted her head sli
 
 ## 000081-0c7b41e74051
 
-The ferry would reach the island at dawn. I couldn't help feeling a deep sense of anticipation as I considered the days ahead. My cousin had arranged a room above the grocery, and her husband would meet me with the van. The only complication was the refrigerator I had agreed to bring: the freight office wanted it collected before the passenger gangway opened.
+From the ferry's upper deck, Mara could distinguish the island only by the gap it made in the lights along the coast. Her cousin had promised to leave the grocery door unlocked. Above it was the room where Mara would spend the winter, with somebody else's furniture and a view she had seen only in photographs. She couldn't help feeling a deep sense of anticipation. At dawn, the ferry passed the last fishing boat and began its turn toward the harbor.
 
 ## 000081-36ae7aa05503
 
@@ -32,11 +39,11 @@ We came for a chest freezer small enough for the garage. Now my brother is calcu
 
 ## 000081-f9a07e7dce60
 
-Our editor wanted the interview cut to six hundred words. Daniel's brow furrowed, and his fingers drummed briefly against his leg. The interview itself was nearly four thousand. We could lose the opening story about the mayor's childhood, but that still left the entire dispute over the new bus depot. The photographer had already filed six pictures of buses at the old one.
+By midnight you have cut the interview to six hundred words. The mayor's childhood is gone. So are the bus drivers, the depot cleaner and the woman whose bedroom window faces the proposed entrance. Daniel drums his fingers against his leg as he reads the final paragraph. It contains a promise to consult everyone affected. He asks you to restore the woman's answer, even if it means losing the photograph.
 
 ## 000081-2fc51707651f
 
-By September, the Saturday market had moved into the school car park. Mrs. Vale adjusted her posture behind the stall. Her expression softened for a moment. She was selling the same apple chutney she had made when I was a child, although the jars were smaller now. I bought three for my mother, who would complain about the price and finish one before Monday.
+Mrs. Vale sold chutney through the autumn, then knitted gloves when the apples were gone. In spring her stall filled with plants rooted in old yogurt pots. She adjusted her posture behind the table as the first customers arrived. Some bought something every week; others came to tell her who was ill. When the market moved to the school car park, they carried her table there before setting up their own.
 
 ## 000081-a3427c637a20
 
@@ -75,7 +82,9 @@ I drew a breath, but the note broke into a dry rasp. Yesterday I had managed the
 
 ## 000081-dc43b9f3f5e1
 
-Grandad held his closed fist above the table. Under it was the coin he had promised my brother if the homework was finished. My brother pushed the exercise book forward. Grandad opened his hand, checked the final page, then closed it again over the coin. "The other side," he said. My brother had completed every odd-numbered question and skipped every even one.
+Grandad held the coin inside his closed fist above the table. It was my brother's if the homework was finished. My brother pushed the exercise book forward. Grandad opened his palm to show the coin, checked the final page, then closed his fingers around it again.
+"The other side," he said.
+My brother had completed every odd-numbered question and skipped every even one.
 
 ## 000081-5b9bbaa9a321
 
@@ -87,7 +96,7 @@ Before the dentist began, she asked me to raise my left hand if I needed her to 
 
 ## 000081-09ddd30dbe5a
 
-A little muscle jumped in Martin's jaw as he forwarded our rent receipts again. The housing office had listed the flat as vacant. Their inspector replied directly: she had been trying to visit the empty flat above us.
+Our third letter to the housing office began, "We are still living here." We enclosed rent receipts, a photograph of the front door and the reference numbers from our previous letters. Martin flexed his fingers before signing. For six weeks, the office had described our flat as vacant. We pinned this letter's proof of posting beside the others and left a space for the reply.
 
 ## 000081-d395d0743995
 
@@ -103,9 +112,11 @@ Rain had welded the thin grocery bags to my palms. I peeled one handle away a fi
 
 ## 000081-5c714adcc0a8
 
-'They'll print the programmes here,' Celia said. Her voice carried a quiet warmth. 'We just need the running order.'
-'The order we agreed on, or the one the vicar thinks we agreed on?'
-She showed me an email asking where his speech would fit. Nobody had invited him to speak, and the choir had already added two songs since we booked the printer. I suggested leaving the back page blank. We could give him that space and claim we had always intended it for his remarks. Celia sent the printer a file labeled provisional, which was also what we'd called last year's final version.
+"Put his speech after the choir," Celia said.
+"He isn't giving a speech."
+"He thinks he is."
+The printer's deadline was noon. Celia's voice took on a quiet warmth as she asked whether I could telephone the vicar. On the desk lay the programme we had agreed the previous evening, every minute allocated. I moved the telephone between us.
+"You invited him," I said.
 
 ## 000081-48d6aae1ef8a
 
@@ -129,7 +140,7 @@ I first noticed the tremor when Mum poured tea into the sugar bowl. The china wa
 
 ## 000081-3e8f139008cc
 
-Aunt Lorna had saved every postcard from the seaside boarding house. My chest filled with an inexplicable tenderness. Most described rain, missing socks, or the price of fish. One mentioned the day my parents met. Neither remembered it, but Lorna had recorded the broken deckchair and the argument about who should pay. Mum maintained that they had met at a dance in November. Dad said September, at the greengrocer's. The card was dated July. Lorna had even included the name of the deckchair attendant, who apparently decided that people unable to operate a folding chair should stick to the promenade benches. The address was her own, written before she began the journey, with room left for the news.
+The postcard was dated July, three months before the dance where my parents said they met. Lorna had written that they spent the afternoon together on the beach, arguing over a broken deckchair. My chest filled with an inexplicable tenderness. I put the card beside their wedding photograph. Later, when Mum called, I asked about the beach before telling her what I had found. She remembered the deckchair attendant's name.
 
 ## 000081-305bcb5d1f89
 
@@ -161,7 +172,7 @@ A thrill ran through my veins when the catalogue finally showed the last volume 
 
 ## 000081-5b9742f6ee01
 
-The rehearsal recording began with seven minutes of people finding chairs. Nina's mouth curved in a small smile. We needed a clean opening for the choir website, so I cut directly to the first chord. Unfortunately, our conductor's count-in survived under the piano, including his instruction to ignore whatever the tenors were about to do.
+Nina cut the seven minutes before the first chord. Chairs scraped, somebody asked about the heating, and the conductor counted the choir in twice. Her mouth curved in a small smile as she replayed the remaining track. They had recorded it in February, before anyone knew the hall would be sold. She saved the discarded opening in a separate file. The website needed the song; she wanted the room as well.
 
 ## 000081-a82a4cb9db8f
 
@@ -209,7 +220,7 @@ The seamstress asked me to shrug while she watched the jacket's back. The fabric
 
 ## 000081-f8481fe3c3e8
 
-We had enough tokens for one more wash, but the laundrette machine wanted two. A heaviness settled behind my ribs. The attendant explained that the smaller machines still took one, provided we split the bedding. I carried half to the other end of the room while my son guarded the basket from a very interested terrier.
+The last large machine wants two tokens. I have one. A heaviness settles behind my ribs while the attendant checks his change drawer. He offers to exchange coins for another token, and I tip the bus fare onto the counter. At home, the bedding is still damp from the burst pipe. Here, my son has fallen asleep across two plastic chairs, his school trousers folded under his head.
 
 ## 000081-0e05362899d5
 
@@ -260,7 +271,7 @@ Nobody had remembered to order bags for the school plant sale. Sadie gave a smal
 
 ## 000081-a14219949e1b
 
-We learned about the missing film from a sheet of paper taped inside the cinema doors. A pulse of annoyance flickered through me. The distributor had withdrawn permission to show it, though the cinema had continued selling tickets online. My friend had come straight from work and hadn't eaten. She asked for a refund, spent it on chips, and suggested we eat beneath the poster of the film we had intended to see. While we sat there, three other couples joined us with takeaway cartons. Through the glass we could see the replacement comedy playing to an almost empty room.
+People kept arriving at the cinema after the cancellation notice went up. Some read it from the pavement; others tried the doors first. A pulse of annoyance flickered through me. My friend was still on the train, carrying the sandwiches we had planned to eat afterward. I sent her a photograph of the notice and waited beneath the poster. Across the road, the café began stacking its outdoor chairs.
 
 ## 000081-35e356fd62a8
 
@@ -332,7 +343,7 @@ The fox held its front paw above the pavement, the toes curled inward. A loop of
 
 ## 000081-405d99b80591
 
-'The church clock is six minutes fast,' said the baker, flexing his jaw. 'Always has been.' I had been missing the early bus by almost exactly that amount. Afterward I set my watch by the radio instead, but half the village continued to arrive at appointments according to whichever clock suited them.
+The church clock had been six minutes fast since the winter the bell cracked. The baker remembered it being repaired; his sister remembered collecting money for a repair that never happened. "Either way, you're early," he told me, flexing his jaw. I had another six minutes to wait for the bus. Above us, the minute hand moved while we were still discussing it.
 
 ## 000081-687e4ddcedaf
 
@@ -340,7 +351,7 @@ The fisherman lifted his chin toward the tide mark on the warehouse wall. Last w
 
 ## 000081-7c1eee94b602
 
-Before opening the raffle ledger each morning, I would stretch my fingers and settle my shoulders. That was my first paid job: matching ticket numbers to purchasers. The prize was a caravan, donated without paperwork. Our ticket sales barely covered the cost of replacement documents.
+For a month that summer, every evening ended with ticket numbers. I entered them in the raffle ledger after the shop closed, stretching my fingers and settling my shoulders between pages. The prize caravan stood outside the window with its curtains drawn. I never saw anyone enter it. Years later, I remembered its registration number more readily than the name of the woman who supervised me.
 
 ## 000081-785f66797de5
 
@@ -388,11 +399,11 @@ The detective watched the shopkeeper's hands rather than the till. Each time he 
 
 ## 000081-28d2a30e3c81
 
-Mae touched the base of her throat while the steward explained the soup arrangements. The ferry dishwasher had failed before departure, and all the bowls were awaiting repair at the next port. He could offer mugs borrowed from the crew, provided we returned them personally. Mine bore the name of a ship scrapped before I was born. Mae's advertised an engine oil. We took our leek soup to a table by the window and watched the coast disappear. When I returned the mugs, the steward identified mine as the captain's favorite and said he'd been searching the bridge for it.
+Mae touched the base of her throat while the steward explained the soup arrangements. The ferry dishwasher had failed before departure and would be repaired at the next port. The galley had run out of clean bowls; he could offer mugs borrowed from the crew, provided we returned them personally. Mine bore the name of a ship scrapped before I was born. Mae's advertised an engine oil. We took our leek soup to a table by the window and watched the coast disappear. When I returned the mugs, the steward identified mine as the captain's favorite and said he'd been searching the bridge for it.
 
 ## 000081-fb9120b8f78d
 
-The boy's ears turned scarlet except for a pale rectangle beside his temple. When he took off his wool hat, I saw the old plaster still stuck there. He had missed that strip with the sunscreen. By evening the rectangle was the only part of his face that didn't hurt.
+By evening, the boy's face and ears were scarlet. A pale rectangle beside his temple marked the place where a plaster had covered an old cut during our day on the beach. The plaster came loose in the bath. Beneath it, the skin was the color the rest of his face had been that morning. He asked us to wash his hair without touching the sunburn.
 
 ## 000081-b247272bacf5
 
@@ -420,7 +431,7 @@ The shop assistant smiled at my father and kept smiling after he called her by t
 
 ## 000081-1cca5a9af6f2
 
-Neil's gaze drifted over the beds as we discussed the frozen allotment tap. The café would lend us water tubs until lunch. We carried them across the lane, watered the seedlings, and left established plants to manage with the moisture beneath the mulch.
+In January, the allotments belonged to whoever would come out in the rain. Neil and his daughter planted garlic along the western fence. Their gaze drifted across the empty beds while they discussed what to grow next. By March, other tenants had returned with seed trays and arguments about boundaries. The garlic was already showing. Neil's daughter checked its progress every Saturday, recording the height on the back of a seed packet.
 
 ## 000081-3051c2288da6
 
@@ -475,15 +486,15 @@ The drummer called to say his van had failed its inspection. I rubbed my cheek w
 
 ## 000081-3779db33377d
 
-The minister paused to drink after the first hymn filled the little chapel with dust. He cleared his throat into a folded handkerchief, leaving a grey mark on the linen. He had come directly from a funeral in the rain, still wearing damp shoes that left prints on the pale stone around the lectern. Between the next two hymns, a churchwarden opened the side door to let the dusty air out.
+At the first hymn, the organist started the pedal notes. Air from the long-unused organ blew a cloud of dust from the pipes above the choir stalls. The minister stopped singing to cough, then wiped his mouth with a folded handkerchief. Grey grit marked the linen. A churchwarden opened the side door while the organist switched off the blower. They sang the remaining verses unaccompanied.
 
 ## 000081-3b2390087204
 
-On the morning of the raffle draw, the winning number was missing from the barrel. I felt a strange flutter beneath my sternum. We found the ticket in the seam of the cloth bag used to carry the balls. The winner was still outside, helping his wife load the unsold cakes into their car.
+Before the raffle draw, we checked the numbered balls against the list of tickets sold. Seventy-three was missing. I felt a strange flutter beneath my sternum. We found the ball caught in a seam of the cloth bag used to carry them, added it to the barrel and mixed the contents again. The child drawing the winner pulled out seventy-three. Its owner was outside, helping his wife load the unsold cakes into their car.
 
 ## 000081-18262026cf3f
 
-The porter bent until his eyes were level with the suitcase wheels. One wheel had wound a shoelace around its axle, pulling the case sideways each time I tried to roll it. He cut the lace with his pocket scissors. The other half was still tied to my daughter's abandoned trainer inside the case.
+The porter bent until his eyes were level with the suitcase wheels. A shoelace protruded through a gap in the zip and had wound around one axle, pulling the case sideways each time I tried to roll it. He cut the tangled end free with his pocket scissors. When I opened the case, the rest of the lace was still threaded through my daughter's abandoned trainer.
 
 ## 000081-12047a938c60
 
@@ -519,7 +530,10 @@ The ferry attendant watched each passenger's face as the ramp moved. Those stari
 
 ## 000081-903681c3d0c2
 
-I pursed my lips over the committee's request for a noticeboard motto. We'd spent three meetings choosing the board itself. Someone proposed using the street name temporarily. A year later it remained there in fading letters, above notices for three more meetings.
+"A place for everyone," said the committee chair.
+"That was last month's suggestion."
+"It remains a good one."
+I pursed my lips. Beyond the meeting-room window, someone was pinning a handwritten notice to the new board. We had spent three evenings debating its motto. The notice asked for help finding a missing cat. By the time we adjourned, two people had added telephone numbers beneath it.
 
 ## 000081-9dedf1ad0d39
 
@@ -559,7 +573,7 @@ My laugh came out in a whisper because the walls between the rooms were made of 
 
 ## 000081-755122a2ec98
 
-The twins had registered for different schools by accident. Their father pinched the bridge of his nose. One form used the postcode from before the move. The council officer put both applications on hold while she checked the address, and for three days the children argued about whose school had the better lunch menu.
+Their father read both school letters at the kitchen table. One twin had a place north of the river, the other south. He pinched the bridge of his nose while the kettle boiled. On the forms, he had used their old postcode once and their new postcode once. Upstairs, the twins were deciding which books to take to school together. He left the letters where they were and went to tell them.
 
 ## 000081-660eafac25a4
 
@@ -579,7 +593,7 @@ The town archive closes for two weeks each winter. At the counter I wet my lips 
 
 ## 000081-6c19a338026a
 
-The nurse said to squeeze her hand whenever I heard the tone. I could hear it easily on the right, but on the left I waited through several intervals of silence. Through the booth window I saw her mark the same column three times. She tested that side again with a different headset.
+The nurse said to press the response button whenever I heard the tone. I could hear it easily on the right, but on the left I waited through several intervals of silence. Through the booth window I saw her mark the same column three times. She came inside to fit a different headset, then returned to her desk and tested that side again.
 
 ## 000081-0d0daee0c3c5
 
@@ -607,7 +621,7 @@ The boy's knees knocked against the table whenever the train jolted. He was grow
 
 ## 000081-320b0d56d06d
 
-The magistrate postponed our case until the following month. A dull ache of disappointment moved through my body. I had taken unpaid leave and arranged a lift from my neighbor. At the counter, the clerk gave me a letter confirming my attendance, which my employer accepted as evidence for one paid day after all.
+At eleven, the clerk came into the waiting room and told us our case would be heard next month. I had taken unpaid leave. My neighbor had driven me forty miles and was waiting in the car park. A dull ache of disappointment moved through my body. I folded the unused witness notes along their old crease. There was nothing on the noticeboard about claiming travel costs, so I joined the queue at the counter to ask.
 
 ## 000081-da33009b4d24
 
@@ -623,7 +637,7 @@ The cream had left a white line above his lip. I didn't tell him immediately. He
 
 ## 000081-fe047235619e
 
-My husband gave a weary roll of his shoulders as I read out the customer number. The satellite bill belonged to the previous tenant, but it had our address and was now marked overdue. This was the sixth call. The company had explained its complaints process, transferred us to collections, and twice promised to correct the account. The woman answering this time found the original installation record. Its photograph showed a dish attached to the house opposite. She stopped the bill, apologized for the confusion, and asked whether we wanted an installation at a discounted rate.
+This is their sixth call about the satellite bill. While the recorded voice lists the departments, her husband gives a weary roll of his shoulders. She has written each call's date on the envelope, with the name of whoever promised to correct the account. There is room for one more entry. The music stops. A woman asks for the customer number, and she reads it from the bill again.
 
 ## 000081-5e22f865ffac
 
@@ -663,7 +677,7 @@ My aunt's right eyelid drooped in the photograph, as it did in every picture tak
 
 ## 000081-381f27435a2e
 
-The allotment committee had renamed every plot after a bird. I breathed deeply and squared my shoulders. My delivery of manure went to Kestrel instead of Kingfisher, and neither was the number I had rented for twenty years. We persuaded the secretary to put the old numbers beneath the new signs.
+Before the plots had bird names, ours was seventeen. Dad wrote that number on every tool handle and on the sack where he kept his seed potatoes. I breathe deeply and square my shoulders as I open the shed for the first time since November. The new sign says Kingfisher. Inside, seventeen is still written in pencil on the wall, beside the dates when he planted and lifted each year's crop.
 
 ## 000081-a3c4eede0d6f
 
@@ -703,7 +717,7 @@ The driver raised both hands from the steering wheel so the officer could see th
 
 ## 000081-61eb52bc3ec7
 
-Mrs. Ames swallowed and smoothed her skirt before reading the organ buyer's offer. He wanted the pipes for a garden sculpture and none of the wooden case. The congregation agreed. Selling the broken instrument would cover most of the electrical work we needed before winter. Our carpenter offered to turn the case into shelving, so the hymn books returned to the place where the organ had stood. Mrs. Ames supplied a small framed photograph of her late husband playing it. We put that on the top shelf, beside the keys the buyer had also left behind.
+The organ buyer wanted only the pipes. Mrs. Ames smoothed her skirt before reading his offer to the congregation. With the instrument gone, the electrical contractors could reach the wall behind it. After the meeting, the carpenter measured the wooden case for shelving. By winter, hymn books occupied the space where the keyboards had been. The lowest shelf still had a round hole for the organist's lamp cable.
 
 ## 000081-6f1a796b1f84
 
@@ -735,7 +749,7 @@ The boy's eyes stayed on the reflection of his sister in the train window. She h
 
 ## 000081-830d3852b264
 
-The paper mill canceled its order for our delivery service. A cold weight formed in my gut. It had accounted for two mornings every week, enough to cover the van payment. I called the neighboring workshops and offered the newly available route. By Friday, three had agreed to try a shared collection.
+The mill's cancellation left two blank mornings on the delivery calendar. Those runs had covered the van payment since February. A cold weight formed in my gut as I erased them. I rang the neighboring workshops and offered a shared collection, writing down what each might send. By closing time, the list covered half a page. I put it beside the calendar and began calculating the mileage.
 
 ## 000081-9ccd503db2b5
 
@@ -755,7 +769,7 @@ The deaf carpenter watched my lips until I turned to point at the doorframe. His
 
 ## 000081-23a5b7f57ed3
 
-The sword instructor had me stand with one knee bent and the other almost straight. With my weight forward, I could move my front foot without first rocking backward. We practised that small change for half the lesson. By the end, my opponent could no longer predict each step from the movement of my shoulders.
+The sword instructor had me bend my rear knee and settle my weight over that leg, leaving the front foot lightly on the floor. I could lift the front foot without first rocking backward to unload it. We practised that small step for half the lesson. By the end, my opponent could no longer predict it from a preliminary movement of my shoulders.
 
 ## 000081-af906804b23e
 
@@ -767,7 +781,7 @@ The smell from the opened trunk put me back in my grandmother's hallway. The sam
 
 ## 000081-9860d4451a3a
 
-'It made the coffee for every birthday we had up here,' the moon station's last resident said. He cracked his knuckles before completing the appeal form. His departure allowance covered personal effects, but the coffee machine appeared in the inventory as laboratory equipment. He attached twenty years of party photographs. In the earliest, six crew members stood around a cake beside the machine. By the latest, there were only two. The inventory officer approved its reclassification and asked whether he also wanted the table. That belonged to the canteen budget, which had apparently been closed without anyone deciding where its contents should go. He remembered carrying it into position with the first crew, before any of them had unpacked their own belongings.
+In the earliest photograph, six people share a cake beside the moon station's coffee machine. In the latest there are two. Its last resident attaches both pictures to the appeal form, then cracks his knuckles. The departure allowance covers personal effects; the machine is listed as laboratory equipment. He adds a third photograph showing the replacement handle he made from a spoon. The upload finishes. Tomorrow the station will be sealed, and the form says to allow ten working days for a response.
 
 ## 000081-c89d13f26140
 
@@ -819,15 +833,16 @@ You learn the rules of the club by breaking them. I clear my throat and tell the
 
 ## 000081-9943ee626c9b
 
-'Look at my eyes,' Mum said when I asked whether the mirror was level. Her reflection was higher on one side even though the frame matched the crooked ceiling. We measured from the floor instead and lowered the left corner. The result made the ceiling look worse, but at least everyone standing in front of it appeared upright.
+"Use the floor," Mum said when I asked whether the mirror was level. I had aligned the top of its frame with the ceiling, which sloped down toward the window. She held the tape measure while I checked both bottom corners against the floor. We lowered the left corner until the measurements matched. The frame now hung level, with a widening strip of wall between it and the crooked ceiling.
 
 ## 000081-33a8aa0b488b
 
-'I'll take the Tuesday class.'
-'You said Thursday.'
-I rub my thumb over my knuckles. 'Thursday's full now.'
-'Because you waited for me?'
-The booking page shows two spaces on Tuesday and a waiting list of nine on Thursday. We have been planning to learn pottery together since January. Each month one of us finds a reason to postpone it. In April the car needed repairs; in May her sister visited; in June I forgot registration entirely. I reserve both Tuesday spaces before either of us can turn it into another discussion. The confirmation email tells us to bring aprons and expect to get dirty.
+"I've booked Tuesday."
+"For both of us?"
+"You said you wanted to go."
+I rub my thumb over my knuckles. The pottery course begins next week. Since January we have postponed it for car repairs, visitors and a holiday neither of us took. She reads the confirmation on my phone.
+"I wanted you to ask me."
+I had thought paying for both places would settle something.
 
 ## 000081-4e026ebee134
 
@@ -859,7 +874,10 @@ For years we thought his shrug meant he didn't care. Then we began using the pic
 
 ## 000081-4486e82a66d3
 
-We are seven minutes into the residents' meeting when the drain becomes my responsibility. My jaw firms. I rent the ground-floor flat; apparently that makes me responsible for everything below ground. The lease says otherwise. I read the relevant paragraph from my phone, and the chair asks me to send it to everyone because the managing agent has lost its copy.
+"Ground-floor flat," the chair says. "Your drain."
+"It serves the whole building."
+"You're the one affected."
+My jaw firms. On my phone, the lease opens at the paragraph I marked before leaving home. I read it aloud. Someone at the back asks me to start again so she can write it down. The chair waits until I finish, then asks who has a copy of the managing agent's contract.
 
 ## 000081-609280486bb0
 
@@ -891,7 +909,7 @@ The man lowered his newspaper by an inch each time the woman at the opposite tab
 
 ## 000081-aab53bb3d243
 
-On Sundays, June opens the station kiosk even though no trains stop there. She adjusts the set of her shoulders before arranging the cakes. Walkers use the old platform as a shortcut, and her takings cover the rent. The railway wants to remove the footbridge, which would leave her shop accessible only from a locked car park. She has asked each customer to sign a petition. Some have written long accounts of holidays that began on the platform. One has drawn the bridge. June copies the signatures every night in case rain comes through the kiosk roof again.
+June has filled three exercise books with signatures for the footbridge petition. Between customers, she adjusts the set of her shoulders and copies another page in case the kiosk roof leaks again. Without the bridge, walkers would have to cross a locked car park to reach her counter. I sign beneath someone who remembers catching the school train here. On Sunday she will open as usual. The railway's decision is due on Monday.
 
 ## 000081-cff4aafa641c
 
@@ -907,7 +925,7 @@ The ward note recorded, 'Patient smiled on hearing daughter's voice.' My brother
 
 ## 000081-3f3f760f76f4
 
-We take the north road because the map marks a campsite beside the reservoir. I flex my shoulders beneath my jacket while Esther drives. At the turnoff we find an old caravan, a locked barrier, and a notice directing visitors to a number with too few digits. We sleep in the car and ask at the village shop after opening.
+Esther drives while I read the route aloud. Beyond the last village, the reservoir appears between the trees, lower than its blue outline on the map. I flex my shoulders beneath my jacket. We pass a caravan beside a locked barrier and continue uphill, looking for the campsite sign. By the time we turn back, the caravan's window is lit. Esther stops at the barrier and sounds the horn.
 
 ## 000081-9a470eeb7009
 
@@ -931,7 +949,7 @@ The woodcarver's face was a map of his workshop: pale dust in both eyebrows, var
 
 ## 000081-30f6229c1d47
 
-The tea shop's new owner keeps the old menu in a frame. I blink slowly as she points out my grandmother's recipe. The lemon cake is still made on Fridays, though she has reduced the sugar. I order two slices and carry one to Mum, who says the missing sugar is precisely what is wrong with it.
+On Friday I buy two slices of lemon cake from the tea shop and take one to Mum. The owner has framed my grandmother's recipe above the till. I blink slowly as she points it out. There are grease marks around the quantities and a correction in Mum's handwriting. On the bus, I keep the paper bag flat on my knees. Mum has been asking what the new owner kept.
 
 ## 000081-a3c6a555eb78
 
@@ -958,7 +976,7 @@ We compared the dates over the phone and found that the oldest contained the cor
 
 ## 000081-635c6851054c
 
-Every Thursday I bring the bottles back to the dairy. The woman at the counter rolls her head gently on her neck before counting them. Six empties earn the deposit on six new bottles, but the paper receipt always lists twelve movements. It confused my accountant until I brought him a bottle and demonstrated the system on his desk.
+Thursday is bottle day. We bring the empties in baskets, in shopping bags, balanced in the lower racks of pushchairs. Before counting mine, the woman at the dairy rolls her head gently on her neck. She gives me the deposit and writes six in the ledger. Behind the counter, clean bottles move along a belt toward the filling machine. By the time I reach home, their cold sides have dampened the newspaper in my basket.
 
 ## 000081-2c32fed12cad
 
@@ -974,7 +992,8 @@ Our town had two streets called Mill Lane, one beside the river and one behind t
 
 ## 000081-ab3323e2a749
 
-'The blue folder is yours,' he says. I shift my hips against the chair. 'Everything else stays here.' The folder contains twelve years of payslips and the reference he has promised to sign. I check the reference before packing it. He has spelled my name correctly but given me the job title of the person replacing me.
+"The blue folder is yours," he says. "Everything else stays here."
+Twelve years of payslips fit between its covers. I shift my hips against the chair while he searches for the reference he promised. Through the partition I hear someone explaining my filing system to the person replacing me. He finds the reference and signs it. The ink is still wet when he puts it on top of the folder.
 
 ## 000081-63e8bcb3c2d7
 
