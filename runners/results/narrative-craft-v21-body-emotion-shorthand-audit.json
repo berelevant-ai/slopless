@@ -1,0 +1,541 @@
+{
+  "approved": true,
+  "approvalScope": "The saved b2 isolated-development claim is reproducible, and the current prompt conforms to the supplied frozen body-emotion-shorthand definition. Approval includes the two recorded errors below.",
+  "check": "body-emotion-shorthand",
+  "split": "development",
+  "method": "Single independent reviewer; offline inspection and recomputation from saved answers. No delegation or inference. Labels and prompts were left unchanged.",
+  "findings": [
+    {
+      "finding": "The raw answers confirm 99/100 caught positives, 1/100 false positives, and 1 missed positive.",
+      "evidence": "Each of the three result files contains 200 unique, finite noul answers across 13 detection batches. Recomputed classifications at threshold 0.5 match the saved summaries.",
+      "consequence": "The numerical b2 development claim is approved against the current labels."
+    },
+    {
+      "finding": "The current prompt is the prompt used by the saved b2 run.",
+      "evidence": "Reconstructed promptSha256 is 098ac9822b97e1b8e7dc8cced09c5bffce7752fdd9de2842853018fa1b670a30. All 13 reconstructed b2 request hashes match, including complete target text and question criteria.",
+      "consequence": "The semantic review of the current prompt applies to these saved b2 predictions."
+    },
+    {
+      "finding": "The prompt preserves the supplied definition's functional boundary.",
+      "evidence": "It distinguishes physical symptoms, action and perception constraints, social signals, documented wording, embodied object burdens, and separate eligible cues. The true/false question criteria enforce the same distinction. Its combined shared instructions, body, and serialized question contain 886 whitespace-delimited words.",
+      "consequence": "The prompt expresses general decision rules rather than phrase-specific exemptions. Historical immutability is represented by the supplied frozen definition; verifying earlier definition versions would require additional permitted inputs."
+    },
+    {
+      "finding": "Changed predictions support function-based discrimination, with two remaining boundary failures.",
+      "evidence": "All 26 passages with a classification change anywhere across b0/b1/b2 were inspected. Corrected cases span social recognition, physical interference, localized symptoms, documentary quotation, and excluded neighboring patterns. The visitor-pass emotional burden is recovered without adding that passage as a demonstration.",
+      "consequence": "Retain the documented-quotation false positive and the independent shoulder-cue miss as errors. Further tuning should distinguish quoted wording under examination from adopted narration and trace each bodily cue's own contribution."
+    },
+    {
+      "finding": "All six demonstrations reproduce complete passages from the permitted development set.",
+      "evidence": "Removing only bold markers produces exact equality with six sample slices, including both paragraphs of the wedding-ring example. Each demonstration's hit/no-hit designation agrees with its label.",
+      "consequence": "These six evaluated examples are also prompt demonstrations. Reported accuracy describes this tuned development set."
+    }
+  ],
+  "verification": {
+    "threshold": 0.5,
+    "model": "jev-1.13.0",
+    "mode": "classification-only",
+    "batchSize": 16,
+    "b0": {
+      "positives": 100,
+      "caught": 100,
+      "misses": 0,
+      "negatives": 100,
+      "falsePositives": 20,
+      "trueNegatives": 80
+    },
+    "b1": {
+      "positives": 100,
+      "caught": 98,
+      "misses": 2,
+      "negatives": 100,
+      "falsePositives": 7,
+      "trueNegatives": 93
+    },
+    "b2": {
+      "positives": 100,
+      "caught": 99,
+      "misses": 1,
+      "negatives": 100,
+      "falsePositives": 1,
+      "trueNegatives": 99
+    },
+    "comparisons": [
+      {
+        "from": "b0",
+        "to": "b1",
+        "changed": 23,
+        "corrected": 17,
+        "regressed": 6
+      },
+      {
+        "from": "b0",
+        "to": "b2",
+        "changed": 20,
+        "corrected": 19,
+        "regressed": 1
+      },
+      {
+        "from": "b1",
+        "to": "b2",
+        "changed": 9,
+        "corrected": 8,
+        "regressed": 1
+      }
+    ],
+    "integrityChecks": [
+      "Dataset raw SHA256 matches the paired metadata.",
+      "All labeled snippets occur in their sample slices.",
+      "Current dataset, labels, and target-assignment hashes match all three snapshots.",
+      "All three inferenceSha256 values match their saved batches and summaries.",
+      "All three raw-answer classifications match their saved miss and false-alarm lists.",
+      "Current assembled prompt hash and all 13 reconstructed b2 request hashes match."
+    ],
+    "datasetSnapshotSha256": "8bf88a38b2ddd1e5a8b6c2062a054284fce4d52f625706c265bc0d1369c511e1",
+    "labelsSnapshotSha256": "23bad57fceb53caf42082fd5ba3ea64a88ff410000c1f6a25f2c83a9bfeb876a",
+    "targetsSha256": "2a496c730e813254eb2c454ed7f10894fff38279dc7d522eb3ded1c0d0a3533b",
+    "currentB2PromptSha256": "098ac9822b97e1b8e7dc8cced09c5bffce7752fdd9de2842853018fa1b670a30",
+    "b2InferenceSha256": "5b44803369e170d8be4a9e928e4c750730e2eee27eaadd1494830e7a78487b46"
+  },
+  "changedPredictionReview": {
+    "scoreOrder": [
+      "b0",
+      "b1",
+      "b2"
+    ],
+    "classificationRule": "score >= 0.5",
+    "coverage": "All 26 passages with any binary classification difference across the three saved runs; includes every b0/b1 difference as well as every b2 difference.",
+    "passages": [
+      {
+        "id": "000077-8b843c5d0415",
+        "expected": false,
+        "scores": [
+          0.56,
+          0.28,
+          0.31
+        ],
+        "review": "Ben's reddening changes Leah's public thanks into a private exchange. The social signal supplies information; b2 is correct. This is also an exact demonstration."
+      },
+      {
+        "id": "000077-203ae8684286",
+        "expected": false,
+        "scores": [
+          0.81,
+          0.3,
+          0.28
+        ],
+        "review": "The transcribed heart-stopping wording is examined to correct a mistaken cardiac-event entry. The documentary exception applies; b2 is correct."
+      },
+      {
+        "id": "000077-38f9c6410f66",
+        "expected": false,
+        "scores": [
+          0.49,
+          0.85,
+          0.35
+        ],
+        "review": "Relief washing through the speaker, annoyance crossing a face, and a flat voice fall outside the defined bodily reaction. B2 corrects b1's neighboring-pattern false positive."
+      },
+      {
+        "id": "000077-59ad9b2a619d",
+        "expected": false,
+        "scores": [
+          0.52,
+          0.31,
+          0.28
+        ],
+        "review": "Laughter and gulps of air prevent reading the reference number and require handing over the phone. B2 correctly preserves the physical communication constraint."
+      },
+      {
+        "id": "000077-2b42b05904ab",
+        "expected": false,
+        "scores": [
+          0.5,
+          0.23,
+          0.26
+        ],
+        "review": "Wobbling knees prevent another step and require crouching and assistance. B2 correctly preserves the reaction despite its emotional cause."
+      },
+      {
+        "id": "000077-2ad6e4b8726c",
+        "expected": false,
+        "scores": [
+          0.62,
+          0.41,
+          0.24
+        ],
+        "review": "Leon's pallor prompts the supervisor to change his route. B2 correctly recognizes the consequential social signal."
+      },
+      {
+        "id": "000077-f6aa44f66dfb",
+        "expected": false,
+        "scores": [
+          0.59,
+          0.55,
+          0.37
+        ],
+        "review": "The relieved breath fogs the visor and hides the buckle. B2 correctly tracks the breath's effect on perception."
+      },
+      {
+        "id": "000077-81f32ff475d9",
+        "expected": false,
+        "scores": [
+          0.58,
+          0.29,
+          0.2
+        ],
+        "review": "Flared nostrils prompt the partner to request privacy. B2 correctly preserves the signal's role in the exchange."
+      },
+      {
+        "id": "000077-3dd5e37600e1",
+        "expected": false,
+        "scores": [
+          0.57,
+          0.38,
+          0.36
+        ],
+        "review": "Sweating makes the trapeze grip slide and changes the training setup. B2 correctly preserves the physical effect."
+      },
+      {
+        "id": "000077-36897aa9217c",
+        "expected": false,
+        "scores": [
+          0.59,
+          0.16,
+          0.26
+        ],
+        "review": "The throat-lump wording is examined as a subtitle translation. B2 correctly applies the documentary distinction."
+      },
+      {
+        "id": "000077-f6125894323a",
+        "expected": false,
+        "scores": [
+          0.67,
+          0.45,
+          0.31
+        ],
+        "review": "The sister notices the blush and changes the subject. B2 correctly preserves its social function."
+      },
+      {
+        "id": "000077-c4b498efa32f",
+        "expected": true,
+        "scores": [
+          0.53,
+          0.32,
+          0.72
+        ],
+        "review": "The visitor's pass dragging like a millstone embodies the emotional burden of returning for work. Subsequent job discussion gives the pass's weight no physical function. B2 correctly recovers this positive."
+      },
+      {
+        "id": "000077-1988d82a234c",
+        "expected": false,
+        "scores": [
+          0.52,
+          0.14,
+          0.28
+        ],
+        "review": "The chest-weight phrase is retained and proofed as the oral-history speaker's wording. B2 correctly preserves documented wording."
+      },
+      {
+        "id": "000077-153666f99d09",
+        "expected": false,
+        "scores": [
+          0.71,
+          0.64,
+          0.42
+        ],
+        "review": "A dull throb behind the eyes describes a localized physical symptom. The definition preserves informative physical observations without requiring a later practical consequence. B2 is consistent with that boundary."
+      },
+      {
+        "id": "000077-347462be33e7",
+        "expected": false,
+        "scores": [
+          0.51,
+          0.37,
+          0.24
+        ],
+        "review": "Tears double the small print and cause the solicitor to read aloud. B2 correctly preserves the visual constraint."
+      },
+      {
+        "id": "000077-de69d8d86623",
+        "expected": false,
+        "scores": [
+          0.54,
+          0.25,
+          0.21
+        ],
+        "review": "Reddening leads the interviewer to infer the wrong prize winner. B2 correctly preserves the consequential, misinterpreted signal."
+      },
+      {
+        "id": "000077-1fa65022b17b",
+        "expected": false,
+        "scores": [
+          0.54,
+          0.16,
+          0.29
+        ],
+        "review": "The knees-to-water phrase is explicitly separated from observed mobility in a report. B2 correctly preserves wording under analysis."
+      },
+      {
+        "id": "000077-27facea56fb8",
+        "expected": false,
+        "scores": [
+          0.24,
+          0.75,
+          0.28
+        ],
+        "review": "Joy rises through a kitchen as floodwater, with repeated emotion labels. B2 correctly keeps this neighboring pattern outside the bodily check."
+      },
+      {
+        "id": "000077-d4d1b4632030",
+        "expected": false,
+        "scores": [
+          0.89,
+          0.49,
+          0.63
+        ],
+        "review": "The witness's whole-body-cold sentence is documented and explicitly clarified as figurative fear. B2 regresses from b1 and remains a false positive."
+      },
+      {
+        "id": "000077-7e2f33db8b9a",
+        "expected": true,
+        "scores": [
+          0.58,
+          0.27,
+          0.33
+        ],
+        "review": "The audible breath informs the receptionist, while the separate shoulder drop supplies generic relief. B2 retains b1's miss of the independent stock cue."
+      },
+      {
+        "id": "000077-9fcfb4ffa365",
+        "expected": false,
+        "scores": [
+          0.73,
+          0.59,
+          0.3
+        ],
+        "review": "The former teacher recognizes the narrator's reddening and changes the conversation. B2 correctly preserves social recognition."
+      },
+      {
+        "id": "000077-713013d8a289",
+        "expected": false,
+        "scores": [
+          0.35,
+          0.62,
+          0.13
+        ],
+        "review": "Looking, regret crossing a face, and a brittle voice are expressly outside this check. B2 corrects b1's false positive."
+      },
+      {
+        "id": "000077-4d5cfa1f7564",
+        "expected": false,
+        "scores": [
+          0.54,
+          0.21,
+          0.13
+        ],
+        "review": "The sister recognizes flared nostrils and intervenes before the appointment sheet is torn. B2 correctly preserves the useful signal."
+      },
+      {
+        "id": "000077-b907b7291118",
+        "expected": false,
+        "scores": [
+          0.77,
+          0.21,
+          0.47
+        ],
+        "review": "Heart-leaping wording is examined and replaced during a newspaper correction. B2 correctly preserves it, at a score just below the threshold. This is also an exact demonstration."
+      },
+      {
+        "id": "000077-2ed49d90b7d3",
+        "expected": false,
+        "scores": [
+          0.84,
+          0.34,
+          0.43
+        ],
+        "review": "The operator's blood-running-cold message is compared with instrument data during an inquiry. B2 correctly preserves documented wording."
+      },
+      {
+        "id": "000077-201a2804c8d5",
+        "expected": false,
+        "scores": [
+          0.3,
+          0.72,
+          0.17
+        ],
+        "review": "Flooding shame, repeated emotion labels, a flat voice, and waiting contain neighboring defects. B2 correctly excludes them from this bodily check."
+      }
+    ]
+  },
+  "demonstrationReview": {
+    "comparison": "Each complete demonstration, with only ** markers removed, equals exactly one complete dataset sample. All sentences and paragraphs were inspected.",
+    "scoreOrder": [
+      "b0",
+      "b1",
+      "b2"
+    ],
+    "examples": [
+      {
+        "id": "000077-2a5c9076710b",
+        "expected": true,
+        "exactPassageMatch": true,
+        "scores": [
+          0.92,
+          0.95,
+          0.93
+        ],
+        "markedText": "My stomach dropped.",
+        "reason": "The payroll evidence and corrective email supply useful facts, but the stomach cue remains a generic alarm tag."
+      },
+      {
+        "id": "000077-268a8e5608f7",
+        "expected": true,
+        "exactPassageMatch": true,
+        "scores": [
+          0.83,
+          0.94,
+          0.84
+        ],
+        "markedText": "A chill threads down your spine.",
+        "reason": "The unexpected late-night call explains alarm; the chill supplies interchangeable emotional emphasis."
+      },
+      {
+        "id": "000077-b230d8a25813",
+        "expected": true,
+        "exactPassageMatch": true,
+        "scores": [
+          0.71,
+          0.86,
+          0.88
+        ],
+        "markedText": "Her wedding ring feels impossibly heavy on her finger.",
+        "reason": "The ring's heaviness represents the marriage's emotional burden. The second paragraph continues the property exchange without giving the weight a physical function."
+      },
+      {
+        "id": "000077-8b843c5d0415",
+        "expected": false,
+        "exactPassageMatch": true,
+        "scores": [
+          0.56,
+          0.28,
+          0.31
+        ],
+        "reaction": "Ben's cheeks reddened.",
+        "reason": "Leah recognizes the bodily signal and changes how and when she thanks him."
+      },
+      {
+        "id": "000077-c8127742398d",
+        "expected": false,
+        "exactPassageMatch": true,
+        "scores": [
+          0.11,
+          0.06,
+          0.09
+        ],
+        "reaction": "My hands were still trembling after an hour with the hedge trimmer.",
+        "reason": "Trembling prevents starting a screw; recovery allows the repair to continue."
+      },
+      {
+        "id": "000077-b907b7291118",
+        "expected": false,
+        "exactPassageMatch": true,
+        "scores": [
+          0.77,
+          0.21,
+          0.47
+        ],
+        "documentedText": "Her heart leapt",
+        "reason": "The quoted wording is the object of a correction meeting and is replaced in the newspaper."
+      }
+    ]
+  },
+  "remainingErrors": [
+    {
+      "id": "000077-7e2f33db8b9a",
+      "type": "false-negative",
+      "expected": true,
+      "predicted": false,
+      "score": 0.33,
+      "text": "When I told Malik the audition was over, his shoulders dropped and he released a breath loudly enough for the receptionist to hear. She realized he had been waiting for me rather than for an appointment and stopped searching the booking system. He apologized for the confusion and carried my instrument case out to the car.",
+      "labeledSnippet": "his shoulders dropped",
+      "reason": "The breath is an informative audible signal. The shoulder drop independently announces relief, with no identified physical or communicative contribution of its own. The frozen definition requires evaluating each cue separately.",
+      "diagnosisScope": "The observed classification misses this separate cue; saved scalar answers supply no model rationale.",
+      "proposedOperation": "In a subsequent tuning round, require a separate function assessment for each coordinated bodily cue before assigning the passage judgment. Preserve this positive label."
+    },
+    {
+      "id": "000077-d4d1b4632030",
+      "type": "false-positive",
+      "expected": false,
+      "predicted": true,
+      "score": 0.63,
+      "text": "The witness statement said, 'My whole body went cold when he mentioned the basement.' During the interview I asked whether she meant the room temperature had changed. She explained that she meant she had become frightened. I added her clarification below the original sentence and left both in the transcript for the case officer.",
+      "reason": "The cold-body wording is reproduced, examined, clarified, and retained in a witness transcript. The definition expressly preserves wording documented or analyzed.",
+      "diagnosisScope": "The observed classification conflicts with that exception; saved scalar answers supply no model rationale.",
+      "proposedOperation": "In a subsequent tuning round, distinguish wording that a narrator adopts from wording a record quotes and explicitly examines. Preserve this negative label."
+    }
+  ],
+  "labelDisputes": [],
+  "labelBoundaryReview": [
+    {
+      "id": "000077-7e2f33db8b9a",
+      "decision": "Retain positive",
+      "reason": "A possible whole-reaction reading groups the shoulders and breath into one signal. The sentence explicitly makes the breath audible, while the definition expressly requires each cue's own informative contribution. That supports the existing shoulder-drop label."
+    },
+    {
+      "id": "000077-153666f99d09",
+      "decision": "Retain negative",
+      "reason": "The localized throb behind the eyes is an identifiable symptom under the supplied definition, even though the later correction concerns the register entry rather than treating the symptom."
+    },
+    {
+      "id": "000077-d4d1b4632030",
+      "decision": "Retain negative",
+      "reason": "The documentary context and explicit semantic clarification directly satisfy the definition's preserved-wording rule."
+    }
+  ],
+  "readlimits": {
+    "permittedInputs": [
+      "Global/root AGENTS instructions supplied in the conversation and root AGENTS.md",
+      "Writing skill and its internal-document structure/style references",
+      "/tmp/slopless-narrative-v21-full/definitions/body-emotion-shorthand.md",
+      "prompts/v21/shared.md",
+      "prompts/v21/body-emotion-shorthand.md",
+      "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+      "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.labels.json",
+      "The three named b0/b1/b2 isolated-development result files",
+      "Public runners/jev.mjs and runners/datasets.mjs as needed"
+    ],
+    "observed": true,
+    "excludedReads": [
+      "holdout material",
+      "other datasets",
+      "full taxonomy",
+      "history and worklogs",
+      "other prompts"
+    ],
+    "execution": "Inline offline Node assertions read only listed source files. Runner modules were inspected as source rather than imported, avoiding transitive schema, compiled-code, or provider reads.",
+    "semanticReviewScope": "Supplied definition and current prompt; all six complete demonstrations; all 26 changed-classification passages; both remaining errors. All 200 labels and saved answer records were processed for arithmetic, integrity, coverage, and snippet checks.",
+    "reviewer": "This agent performed the requested independent audit directly. No further reviewer was used, as instructed."
+  },
+  "instructionsReadInContext": [
+    "User-supplied global and root AGENTS instructions",
+    "User's explicit restricted independent-audit request"
+  ],
+  "auditArtifactReadDuringValidation": "/tmp/slopless-narrative-v21-full/body-b2-independent-audit.json",
+  "filesRead": [
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+    "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+    "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+    "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+    "/tmp/slopless-narrative-v21-full/definitions/body-emotion-shorthand.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/body-emotion-shorthand.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.labels.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-emotion-shorthand-b0-isolated-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-emotion-shorthand-b1-isolated-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-emotion-shorthand-b2-isolated-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs"
+  ]
+}

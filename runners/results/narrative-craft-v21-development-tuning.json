@@ -167,10 +167,33 @@
               "expected": false
             }
           ],
-          "execution": "pending"
+          "execution": "complete",
+          "outputs": [
+            "runners/results/narrative-craft-v21-body-emotion-shorthand-b2-isolated-development.json",
+            "runners/results/narrative-craft-v21-body-emotion-shorthand-b2-confirmation-isolated-development.json"
+          ],
+          "producingCommit": "294106c8",
+          "isolated": {
+            "positives": 100,
+            "caught": 99,
+            "negatives": 100,
+            "falsePositives": 1,
+            "misses": [
+              "000077-7e2f33db8b9a"
+            ]
+          },
+          "confirmation": {
+            "positives": 100,
+            "caught": 99,
+            "negatives": 100,
+            "falsePositives": 2,
+            "misses": [
+              "000077-7e2f33db8b9a"
+            ]
+          }
         }
       ],
-      "selected": null
+      "selected": "b2-isolated-only-pending-mixed"
     }
   }
 }
