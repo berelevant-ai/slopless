@@ -29,6 +29,7 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - All twenty candidate pools complete current-definition reviews and final adjudication. Twenty-four additional protected mixed passages bring the reviewed archive to 4,824 candidates and 7,752 judgments; every selected collection still targets 200 passages.
 - All twenty balanced pairs now contain 4,000 passages and 6,400 judgments. Every check has 100 hits and 100 no-hits in each applicable collection; every mixed combination has 25 passages. Preserve all 824 surplus candidates in their recorded Git archives.
 - The final identity audit finds zero new-ID collisions across all origins. The overlap screen finds zero candidates against 15,701 older documents, 39 legacy Markdown fixtures and both definition revisions; 313,645 reference inputs are screened.
+- Dataset freeze is committed at `302f1bc6`. A fresh reviewer approves seven baseline prompts with three hit and three no-hit demonstrations each, unchanged shared instructions and 641-706 assembled words. The old CLI replay completes on the identical 2,000 development passages before Jev inference.
 
 ## Source Review And One Proposed Consolidation
 

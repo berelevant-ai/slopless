@@ -31,4 +31,7 @@
 - The check judges repeated tentative qualification in context, including cross-sentence repetitions. Frozen vague-attribution and inflated-evaluation prompts remain in `v11` and `v10` for mixed comparisons; protected holdout inference remains separately gated.
 - Selection catches 95/100 isolated and 96/100 mixed hits with four and two false positives. One fresh confirmation catches 96 and 97 with five and two false positives; the [development report](../runners/results/excessive-hedging-v18-development.md) records remaining errors and comparator failures. User review is pending.
 
+- `v19/` covers seven rhythm-and-repetition checks with unchanged `v18/shared.md`. Each check contains three hit and three no-hit development examples; assembled prompts contain 641-706 words.
+- A fresh reviewer verifies definitions, literal highlighted snippets, input separation and offline request construction before inference. The [development record](../runners/results/rhythm-and-repetition-v19-development.json) preserves candidates, settings and results; protected holdout inference requires separate authorization.
+
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.
