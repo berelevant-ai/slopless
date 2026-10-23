@@ -1,0 +1,83 @@
+{
+  "family": "narrative-craft",
+  "goal": "Complete all nineteen checks with reviewed isolated and mixed datasets, JSON questions and development-passing prompts.",
+  "model": "jev-1.13.0",
+  "sdk": "0.7.0",
+  "threshold": 0.5,
+  "batchSize": 16,
+  "mode": "classification-only",
+  "developmentOnly": true,
+  "holdoutInference": false,
+  "requiredChecks": [
+    "abstract-personification-line",
+    "body-action-density",
+    "body-emotion-shorthand",
+    "emotion-as-substance",
+    "emotion-telling",
+    "empty-atmosphere-shift",
+    "empty-beat",
+    "empty-emotional-weather",
+    "empty-scene-state",
+    "fake-timestamps",
+    "fixed-metaphor-frame",
+    "gaze-choreography",
+    "low-information-beat-density",
+    "low-information-physical-blocking",
+    "narrative-cliches",
+    "perception-verb-density",
+    "sensory-instead-of-frame",
+    "silence-as-actor",
+    "summary-fog-transition"
+  ],
+  "acceptance": {
+    "positiveCasesPerCollection": 100,
+    "negativeCasesPerCollection": 100,
+    "minimumCaught": 95,
+    "maximumFalsePositives": 5,
+    "requiresFreshConfirmation": true
+  },
+  "status": "Full-family goal active. Existing body-emotion data complete; full definitions under review; first body prompt frozen for baseline.",
+  "checks": {
+    "body-emotion-shorthand": {
+      "dataStatus": "isolated-development-and-holdout-reviewed",
+      "dataset": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+      "candidates": [
+        {
+          "check": "body-emotion-shorthand",
+          "revision": "b0",
+          "dataset": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+          "promptDirectory": "prompts/v21",
+          "words": 707,
+          "demonstrations": [
+            {
+              "id": "000077-2a5c9076710b",
+              "expected": true
+            },
+            {
+              "id": "000077-268a8e5608f7",
+              "expected": true
+            },
+            {
+              "id": "000077-b230d8a25813",
+              "expected": true
+            },
+            {
+              "id": "000077-8b843c5d0415",
+              "expected": false
+            },
+            {
+              "id": "000077-c8127742398d",
+              "expected": false
+            },
+            {
+              "id": "000077-38f9c6410f66",
+              "expected": false
+            }
+          ],
+          "execution": "pending"
+        }
+      ],
+      "selected": null
+    }
+  }
+}

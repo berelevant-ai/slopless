@@ -2,12 +2,41 @@
 
 ## Goal
 
-Develop the next accepted V2 family, `narrative-craft`, using realistic reviewed passages, concise Jev prompts and separate measurements of missed slop and false positives. Preserve the assessed rhythm prompts and all production behavior.
+Complete the entire accepted `narrative-craft` family: reviewed development and protected holdout datasets for every named check, JSON Jev questions in the existing prompt format, and development tuning until every check meets the fixed quality bounds. Preserve the assessed rhythm prompts and production behavior.
+
+- On 2026-10-23, the user explicitly expands this task to the whole family and starts an ongoing goal. Completing one dataset, one prompt, a failed search round or a subset of the checks cannot complete that goal.
+- The attached text is read before execution; it concerns an unrelated SEO discussion. The explicit Narrative Craft instruction governs this goal.
+
+## Complete Coverage
+
+Keep all nineteen accepted identifiers visible through definitions, data, prompts and results. Overlapping defects can receive several positive labels; no label is exclusive to its family or check.
+
+- `abstract-personification-line`.
+- `body-action-density`.
+- `body-emotion-shorthand`.
+- `emotion-as-substance`.
+- `emotion-telling`.
+- `empty-atmosphere-shift`.
+- `empty-beat`.
+- `empty-emotional-weather`.
+- `empty-scene-state`.
+- `fake-timestamps`.
+- `fixed-metaphor-frame`.
+- `gaze-choreography`.
+- `low-information-beat-density`.
+- `low-information-physical-blocking`.
+- `narrative-cliches`.
+- `perception-verb-density`.
+- `sensory-instead-of-frame`.
+- `silence-as-actor`.
+- `summary-fog-transition`.
+
+The density-named checks recognize weak cues independently of reporting frequency. Preserve each source's coverage while keeping occurrence counting and severity in the separate reporter; the Jev question asks whether the named cue occurs in its complete passage.
 
 ## Approach
 
 1. Read all nineteen legacy checks, their template data, shared guards, reporting policies and relevant case fixtures. Map each recognition branch to the defect it attempts to find.
-2. Review proposed definitions independently before generation. Consolidate checks only when they ask the same question; keep the complete nineteen-source coverage map in the accepted taxonomy.
+2. Review the nineteen definitions independently before generation. Retain their accepted names, permit overlap and preserve every source branch; approve no consolidation that silently reduces this full-family goal.
 3. Start with small development and protected holdout pilots. Review realism and classifications before expanding any collection; preserve ordinary storytelling, informative physical actions and useful scene details as hard controls.
 4. Generate 240 candidates per isolated collection, then perform blind classification, adversarial label review and fresh final review. Reconcile mistakes, review rewritten passages and freeze exactly 100 hits and 100 no-hits per check and split.
 5. Create mixed collections after testing whether their label combinations are independently possible. Assess every named check separately and preserve passages with several simultaneous defects.
@@ -53,14 +82,41 @@ Develop the next accepted V2 family, `narrative-craft`, using realistic reviewed
 - Keep the full family's consolidation review separate from this first type. Define mixed collections after the interacting checks have precise definitions; declare each label independently.
 - Finish this batch's data-quality review before authoring a prompt. The batch tests whether the definition supports reliable labels on realistic writing before scaling to the rest of narrative craft.
 
+## Full Dataset Allocation
+
+- Retain the reviewed `000077`/`000078` body-emotion sets. Reserve `000079` through `000114` for the other eighteen checks, in the coverage-list order with body-emotion omitted; each adjacent pair is development then holdout.
+- Prepare 38 isolated collections: 7,600 passages, with 100 hits and 100 no-hits per check and split. Generate 240 reviewed candidates per new collection before selecting 200.
+- Reserve `000115` through `000128` for seven mixed development/holdout pairs. Each collection has 200 passages and labels every check evaluated on it.
+- Mixed A covers body-emotion shorthand, empty beats and empty scene states.
+- Mixed B covers emotion as substance, perception cues and clock precision.
+- Mixed C covers emotion telling, gaze choreography and sensory substitution.
+- Mixed D covers abstract personification, body actions and summary-fog transitions.
+- Mixed E covers atmosphere shifts, physical blocking and narrative cliches.
+- Mixed F covers emotional weather, low-information beats and fixed scene metaphors.
+- Mixed G covers silence as actor, body-emotion shorthand and the frozen rhythm `flat-action-cadence` comparator.
+- Review logical compatibility before generating combinations. For three independently possible judgments, use 25 passages per combination and 100 hits/100 no-hits per check; correct the grouping before generation if an implication makes that impossible.
+- The combined target is 52 paired collections and 10,400 passages, including the existing body-emotion data. Keep all labels minimal, preserve difficult reviewed cases and archive surplus before balancing.
+
 ## Prompt Evaluation
 
 - Pin Jev `jev-1.13.0`, SDK `0.7.0`, threshold `0.5`, classification-only mode and batch size sixteen. Use `--development-only` and one named check per judgment.
 - Copy shared instructions unchanged from `v19`; keep each assembled prompt below 1,000 words with at most three positive and three negative development examples.
 - Require at least 95/100 caught positives and at most five false positives in each applicable development collection.
-- Evaluate baseline plus at most three revisions; stop at first pass, two consecutive failures to improve the best total errors, or the revision limit. Preserve failed bounds and keep the earliest best candidate on ties.
+- Use the existing Markdown prompt files with JSON `instructions` and `criteria.true`/`criteria.false` front matter. The native runner sends these as typed Noul questions; introduce no parallel prompt format.
+- Freeze each candidate before inference and retain every response. Work in bounded rounds of baseline plus up to three revisions, then review errors and choose the next evidence-backed approach when a check still fails.
+- A failed bounded round remains unfinished work under the active full-family goal. Continue development until all nineteen checks meet the fixed limits in every applicable development collection and one fresh confirmation.
+- Keep definitions, labels, model, threshold and execution settings frozen during a tuning round. Never change them or remove hard cases to improve a score; review annotation corrections separately and preserve original results.
 - Confirm the selected candidate once on the same inputs. Report copied-demonstration exclusions, new and lost catches, corrected and introduced false positives, label disputes and mixed results separately.
-- Holdout inference, broad corpus validation, span detection and production integration keep their separate stages. The current task starts with source review and definition quality before scaling data generation.
+- Holdout inference, broad corpus validation, span detection and production integration keep their separate stages. Finish the complete family's development evaluation while preserving protected holdout writing and labels.
+
+## Completion Evidence
+
+- Every named check has a reviewed definition, a development pair and a protected holdout pair, each with exactly 100 hits and 100 no-hits. Every selected passage and snippet validates through the public reader.
+- All seven mixed pairs complete review, independent labeling, compatibility checks, copy screening and balanced selection. Report their counts separately from isolated data.
+- All nineteen concise prompts have valid JSON questions, highlighted development demonstrations and recorded example exposure. Shared instructions, model, threshold and batch size remain fixed within comparisons.
+- Saved native development responses and one fresh confirmation prove at least 95/100 caught hits and at most five false positives in every applicable collection for all nineteen checks. Report the frozen comparator separately.
+- A fresh reviewer verifies the report against completed commands, source writing, frozen inputs, prompt snapshots and original responses. Global data validation, Fixture3, relevant runner contracts and build/lint/type checks pass.
+- Commit and push all completed work with worklogs; verify remote CI. Keep the goal active while any required dataset, check, prompt or quality bound remains unfinished.
 
 ## Files
 
@@ -81,3 +137,4 @@ Develop the next accepted V2 family, `narrative-craft`, using realistic reviewed
 - Balanced selections contain 400 passages and 22,190 words, with exactly 100 hits and 100 no-hits per split. All 66 mandatory cases remain selected; eighty surplus passages retain their reviewed labels in Git.
 - Final copy screening finds zero candidates across 127,080,600 eligible comparisons. Global dataset validation, Fixture3's dataset comparison and all six paragraph-runner tests pass.
 - A fresh independent packaging/report audit passes with no corrections after an earlier auditor's out-of-scope taxonomy read invalidates that pass. The first type's data-quality phase is complete; new prompts, Jev inference, other narrative types and mixed evaluations remain subsequent work.
+- The new full-family goal supersedes the earlier first-batch stopping point. All nineteen checks, remaining datasets, mixed collections and development-passing prompts are now required before completion.
