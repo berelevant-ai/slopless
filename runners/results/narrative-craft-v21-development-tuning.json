@@ -74,6 +74,51 @@
               "expected": false
             }
           ],
+          "execution": "complete",
+          "outputs": [
+            "runners/results/narrative-craft-v21-body-emotion-shorthand-b0-isolated-development.json"
+          ],
+          "producingCommit": "66f9adb45e7cbe15cdef403db65f93ef167c3453",
+          "isolated": {
+            "positives": 100,
+            "caught": 100,
+            "negatives": 100,
+            "falsePositives": 20,
+            "misses": []
+          }
+        },
+        {
+          "check": "body-emotion-shorthand",
+          "revision": "b1",
+          "dataset": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+          "promptDirectory": "prompts/v21",
+          "words": 780,
+          "demonstrations": [
+            {
+              "id": "000077-2a5c9076710b",
+              "expected": true
+            },
+            {
+              "id": "000077-268a8e5608f7",
+              "expected": true
+            },
+            {
+              "id": "000077-b230d8a25813",
+              "expected": true
+            },
+            {
+              "id": "000077-8b843c5d0415",
+              "expected": false
+            },
+            {
+              "id": "000077-c8127742398d",
+              "expected": false
+            },
+            {
+              "id": "000077-b907b7291118",
+              "expected": false
+            }
+          ],
           "execution": "pending"
         }
       ],

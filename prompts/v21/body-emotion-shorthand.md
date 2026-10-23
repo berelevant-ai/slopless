@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Does the target use a bodily sensation, involuntary reaction or embodied object sensation as a generic emotional tag? Judge that reaction's own role in the complete passage. Find any instance, including unfamiliar wording.",
+  "instructions": "Apply state.instructions and the supplied rulebook to the complete target. Does it contain a bodily sensation, involuntary reaction or embodied object sensation whose role is ONLY interchangeable emotional punctuation? First distinguish a stock emotion tag from a bodily event that supplies specific physical or communicative information and from wording being documented or analyzed. Find any qualifying tag, including unfamiliar wording.",
   "criteria": {
-    "true": "At least one bodily reaction or sensation merely punctuates a feeling or dramatic event. It is interchangeable emotional annotation even when useful facts or actions appear around it.",
-    "false": "Every bodily reaction supplies identifiable physical, perceptual, communicative or action-related information, or no bodily reaction occurs. A named feeling moving as material, a bare emotion label or generic voice quality alone is a different pattern."
+    "true": "At least one bodily sensation or reaction is used just to announce or intensify a feeling, revelation or dramatic moment. Its bodily character supplies no identifiable physical, perceptual, communicative or action-related information. Useful facts elsewhere leave such an independent tag eligible.",
+    "false": "There is no such stock tag. Preserve reactions that reveal information to someone, alter an exchange, constrain an action or perception, or describe a particular physical condition, even when emotion causes them. Preserve quoted wording that the passage documents, corrects or analyzes. Other kinds of emotional description alone do not satisfy this check."
   }
 }
 ---
@@ -32,4 +32,4 @@ His reply arrives while she is clearing the breakfast things. He wants the cutle
 
 My hands were still trembling after an hour with the hedge trimmer. Every time I brought the little screw toward the hinge, it rattled against the hole. I put the screwdriver on the bench and went inside for tea. By the time I came back, I could hold the screw steady enough to start the thread.
 
-Relief washed through me when the mechanic said the noise was a loose cover. I had been pricing replacement engines all morning. Annoyance crossed his face when I asked him to check again. 'I've tightened it,' he said in a flat voice, and gave me the keys. The drive home was quiet.
+'Her heart leapt' was the wording the newspaper printed, though the athlete had said only that she was pleased to qualify. We played the interview twice during the correction meeting. The sports editor agreed to replace the phrase in the online version and add the missing detail that she had qualified on her third and final attempt.
