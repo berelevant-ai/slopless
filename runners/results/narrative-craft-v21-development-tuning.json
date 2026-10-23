@@ -335,14 +335,149 @@
             "correctedFalsePositives": 0,
             "introducedFalsePositives": 0
           }
+        },
+        {
+          "check": "emotion-telling",
+          "revision": "b2",
+          "dataset": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+          "promptDirectory": "prompts/v21",
+          "words": 725,
+          "demonstrations": [
+            {
+              "rawId": "p002",
+              "id": "000085-c90a216541ef",
+              "expected": true,
+              "textSha256": "a2e0b8eff653026d37c461d221e48c0872e96adf9e7297200a3a5a109b50648b"
+            },
+            {
+              "rawId": "p008",
+              "id": "000085-9e721c338e70",
+              "expected": true,
+              "textSha256": "8450d4823b4fb71f7e50afd67e0977ac8c6e22213d615a77a129bac151bde0d8"
+            },
+            {
+              "rawId": "p010",
+              "id": "000085-559de634ad03",
+              "expected": true,
+              "textSha256": "473f2695e331484a22b3a325fe5353fc349141281f10ab34817b66291e976ef6"
+            },
+            {
+              "rawId": "p011",
+              "id": "000085-b76d739000ce",
+              "expected": false,
+              "textSha256": "3e942abdc6183f37ceceeef3cb350c0f9cec9fef693971d7aba11858148f79da"
+            },
+            {
+              "rawId": "p012",
+              "id": "000085-34b7e644af7f",
+              "expected": false,
+              "textSha256": "6a6e533a05a3d4ea85a88bf026970cd3e56785785729a3f5ded6ca4868c54549"
+            },
+            {
+              "rawId": "p013",
+              "id": "000085-01c54a33b08a",
+              "expected": false,
+              "textSha256": "3fd87464ce8a609e7280307110b274c9f92d8746a2ba6a9fee3d35c6685e17a4"
+            }
+          ],
+          "execution": "complete",
+          "outputs": [
+            "runners/results/narrative-craft-v21-emotion-telling-b2-isolated-development.json"
+          ],
+          "producingCommit": "5888a1aa",
+          "inferenceSha256": "96cc3eea496d651623a8777c05bf691089a7632876c21c460e6f301062cb1318",
+          "requestMs": 2809.134247999999,
+          "isolated": {
+            "positives": 100,
+            "caught": 100,
+            "negatives": 100,
+            "falsePositives": 0,
+            "misses": [],
+            "falseAlarms": []
+          },
+          "withoutDemonstrations": {
+            "positives": 97,
+            "caught": 97,
+            "negatives": 97,
+            "falsePositives": 0
+          },
+          "changeFromPrevious": {
+            "newlyCaught": 0,
+            "lost": 0,
+            "correctedFalsePositives": 2,
+            "introducedFalsePositives": 0
+          }
         }
       ],
-      "status": "baseline-meets-isolated-bounds; preselected-demonstration-trial-next",
+      "status": "isolated-selection-and-confirmation-pass; mixed-C-pending",
       "baselineReview": {
         "misses": "Two fronted narrator emotion-adjective tags remain missed.",
         "falsePositives": "Two passages examining or correcting quoted emotion wording are flagged.",
         "labelsChanged": false,
         "definitionChanged": false
+      },
+      "selected": "b2",
+      "confirmation": {
+        "revision": "b2",
+        "execution": "complete",
+        "output": "runners/results/narrative-craft-v21-emotion-telling-b2-confirmation-isolated-development.json",
+        "producingCommit": "5888a1aa",
+        "inferenceSha256": "6a4d9546cba6e6c9d5f6f60a6d4aa3eb3e5a77542cdd985fc9f34632f5f07186",
+        "requestMs": 2632.5969999999998,
+        "isolated": {
+          "positives": 100,
+          "caught": 100,
+          "negatives": 100,
+          "falsePositives": 0,
+          "misses": [],
+          "falseAlarms": []
+        },
+        "withoutDemonstrations": {
+          "positives": 97,
+          "caught": 97,
+          "negatives": 97,
+          "falsePositives": 0
+        }
+      },
+      "attestedConfirmation": {
+        "revision": "b2",
+        "execution": "complete",
+        "output": "runners/results/narrative-craft-v21-emotion-telling-b2-confirmation-attested-isolated-development.json",
+        "producingCommit": "5888a1aa43d5922e0e6d9286cbfc5e6016194ffc",
+        "inferenceSha256": "201ba663860d4b31e2666b51f6d87678b3532a520777f89abf44f2556ca86f00",
+        "requestMs": 3379.058415,
+        "wallMs": 4323,
+        "node": "v24.22.1",
+        "sdk": {
+          "version": "0.7.0",
+          "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+          "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+          "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+          "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+        },
+        "driverSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae",
+        "isolated": {
+          "positives": 100,
+          "caught": 99,
+          "negatives": 100,
+          "falsePositives": 0,
+          "misses": [
+            "000085-e2430cc98183"
+          ],
+          "falseAlarms": []
+        },
+        "withoutDemonstrations": {
+          "positives": 97,
+          "caught": 96,
+          "negatives": 97,
+          "falsePositives": 0
+        }
+      },
+      "remainingObservedError": {
+        "id": "000085-e2430cc98183",
+        "pattern": "A generic emotional-growth tag beside practical scheduling information.",
+        "probability": 0.48,
+        "labelsChanged": false
       }
     }
   }

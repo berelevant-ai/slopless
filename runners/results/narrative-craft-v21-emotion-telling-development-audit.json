@@ -1,0 +1,209 @@
+{
+  "status": "saved-results-preselection-and-attested-confirmation-validated",
+  "scope": "Independent, single-agent, offline audit of isolated emotion-telling development collection 000085, its producing freeze/dependency evidence and an additional SDK-attested confirmation. The preselection follow-up reused prior verified IDs/hashes; the attested-confirmation follow-up reloaded only the permitted development pair, selected prompts and b2 comparison results for public-function validation. No model calls or repository edits.",
+  "filesRead": {
+    "instructions": [
+      "User-supplied global and project AGENTS instructions in this conversation",
+      "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+      "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+      "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+      "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+      "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md"
+    ],
+    "currentProjectFiles": [
+      "runners/jev.mjs",
+      "runners/datasets.mjs",
+      "runners/dataset.schema.json",
+      "prompts/v21/shared.md",
+      "prompts/v21/emotion-telling.md",
+      "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+      "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.labels.json",
+      "runners/results/narrative-craft-v21-development-tuning.json (global execution settings and checks.emotion-telling only)",
+      "runners/results/narrative-craft-v21-emotion-telling-b0-isolated-development.json",
+      "runners/results/narrative-craft-v21-emotion-telling-b1-isolated-development.json",
+      "runners/results/narrative-craft-v21-emotion-telling-b2-isolated-development.json",
+      "runners/results/narrative-craft-v21-emotion-telling-b2-confirmation-isolated-development.json",
+      "runners/results/narrative-craft-v21-emotion-telling-b2-confirmation-attested-isolated-development.json",
+      "node_modules/@typesafe-ai/sdk/package.json",
+      "node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs (hash only)"
+    ],
+    "temporaryEvidence": [
+      "/tmp/slopless-narrative-v21-full/prompt-definitions/emotion-telling.md",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b1-jobs.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b1-execution.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b2-jobs.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b2-execution.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b2-confirmation-jobs.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b2-confirmation-execution.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b2-confirmation-attested-jobs.json",
+      "/tmp/slopless-narrative-v21-full/emotion-telling-b2-confirmation-attested-execution.json",
+      "/private/tmp/rhythm-v19-native-jobs.mjs"
+    ],
+    "gitVersions": {
+      "commits": ["e197ffe7", "906604e2", "5888a1aa"],
+      "filesAtEachCommit": ["runners/jev.mjs", "runners/datasets.mjs", "runners/dataset.schema.json", "prompts/v21/shared.md", "prompts/v21/emotion-telling.md", "package.json", "pnpm-lock.yaml"],
+      "additionalAtE197ffe7": ["runners/results/narrative-craft-v21-development-tuning.json", ".worklogs/2026-10-23-234346-freeze-balanced-emotion-telling-pair.md"],
+      "freezeManifestScope": "The authorized freeze manifest was printed in full, including another check's existing tuning summaries. Only emotion-telling and shared execution settings were used in this audit."
+    },
+    "runtime": "Public runner imports loaded their normal sentence-splitting and Ajv dependencies; dependency source was not inspected as evidence.",
+    "discovery": "Initial filename-only discovery returned unrelated dataset and result paths; those files were not opened. The authorized freeze worklog contains aggregate review claims about other collections; their underlying data and results were not opened or assessed. No holdout passage data or taxonomy was read."
+  },
+  "completedCommands": [
+    {"command": "git diff e197ffe7 906604e2 -- runners/jev.mjs runners/datasets.mjs runners/dataset.schema.json prompts/v21/shared.md prompts/v21/emotion-telling.md", "exit": 0},
+    {"command": "git diff 906604e2 5888a1aa -- runners/jev.mjs runners/datasets.mjs runners/dataset.schema.json prompts/v21/shared.md prompts/v21/emotion-telling.md", "exit": 0},
+    {"command": "git diff 5888a1aa -- runners/jev.mjs runners/datasets.mjs runners/dataset.schema.json prompts/v21/shared.md prompts/v21/emotion-telling.md", "exit": 0, "result": "Empty diff."},
+    {"command": "git show -s --format='%H %cI %s' e197ffe7 906604e2 5888a1aa", "exit": 0},
+    {"command": "git show <commit>:<file>", "expansion": "The initial validation script read 15 combinations: the three producing commits crossed with the runner, loader, schema, shared prompt and emotion-telling prompt.", "exit": 0},
+    {"command": "node --input-type=module - (initial inline validator)", "exit": 1, "result": "Audit assertion compared raw Markdown count 339 with reported assembled-string count 329. Corrected the audit counting method; repository artifacts were unchanged."},
+    {"command": "node --input-type=module - (three-version prompt word-count check)", "exit": 0, "result": "Assembled strings: 329/715/725; raw Markdown: 339/725/735."},
+    {"command": "node /tmp/slopless-narrative-v21-full/emotion-telling-development-audit-check.mjs", "exit": 0, "result": "All public-function, source-version, snapshot, request, response, coverage, score, demonstration and execution-manifest assertions passed."},
+    {"command": "node --input-type=module - (four-error scores and unassigned-text check)", "exit": 0, "result": "Read all four complete error passages. Unassigned Markdown consists of the collection title and passage headings."},
+    {"command": "git show e197ffe7:runners/results/narrative-craft-v21-development-tuning.json", "exit": 0},
+    {"command": "git show --format=fuller --name-only e197ffe7 -- .worklogs", "exit": 0},
+    {"command": "git show e197ffe7:.worklogs/2026-10-23-234346-freeze-balanced-emotion-telling-pair.md", "exit": 0},
+    {"command": "git show <commit>:package.json", "expansion": "e197ffe7, 906604e2 and 5888a1aa", "exit": 0},
+    {"command": "git show <commit>:pnpm-lock.yaml | rg -n -A 7 -B 2 '@typesafe-ai/sdk'", "expansion": "e197ffe7, 906604e2 and 5888a1aa", "exit": 0},
+    {"command": "cat node_modules/@typesafe-ai/sdk/package.json", "exit": 0},
+    {"command": "git ls-tree e197ffe7 -- runners/results/narrative-craft-v21-emotion-telling-b0-isolated-development.json", "exit": 0, "result": "Empty output: b0 result is absent from the producing freeze commit."},
+    {"command": "node --input-type=module - (freeze-record and dependency assertions)", "exit": 0, "result": "Frozen six IDs/labels/hashes match prior verified evidence; candidates are empty and status awaits inference. Checked worklog statements, commit time, absent b0 output, all three exact package/lock pins and current installed version. No dataset or native result reads."},
+    {"command": "cat /tmp/slopless-narrative-v21-full/emotion-telling-b2-confirmation-attested-jobs.json /tmp/slopless-narrative-v21-full/emotion-telling-b2-confirmation-attested-execution.json", "exit": 0},
+    {"command": "cat /private/tmp/rhythm-v19-native-jobs.mjs", "exit": 0},
+    {"command": "node --input-type=module - (attested-confirmation public validation and SDK attestation assertions)", "exit": 0, "result": "Complete native validation, all 13 request hashes, inference seal, 200-row coverage, exact summaries, demo-excluded scores, unchanged b2 request identity, producing Git source/prompt hashes, seven frozen inputs, SDK manifest/entry resolution and hashes, driver hash, and end-of-audit hash stability passed. The driver and SDK were not executed."}
+  ],
+  "findings": [
+    {
+      "status": "pass",
+      "checked": "All four native results through preflightDataset, readDocument, loadDataset, createSnapshot, validateResult, batchPlans, buildRequest, validateResponse and score.",
+      "result": "Producing Git source matches current runner, dataset loader, schema and shared prompt byte-for-byte. Each result validates against its producing Git check prompt and current frozen dataset; recomputed summaries and inferenceSha256 match saved values. All 52 request hashes and response key/model/range/usage checks pass."
+    },
+    {
+      "status": "pass",
+      "checked": "Dataset assignments, snapshot hashes and all three permitted job/execution pairs.",
+      "result": "Each run has 200 unique passage/check decisions in 13 batches: twelve of 16 and one of 8. All 200 samples have one emotion-telling label, balanced 100/100. All 21 job input byte hashes match their producing source/prompt and current dataset bytes; each execution exited 0. Native snapshots also bind b0 to the same text, labels and targets.",
+      "cause": "batchPlans emits every row for the named detection check. Reconstructed requests cover the complete sorted row list exactly once; source and saved artifacts show no row filtering or label changes."
+    },
+    {
+      "status": "pass",
+      "checked": "Every reconstructed question and state object.",
+      "result": "Each question contains only type, the fixed instructions/criteria, its complete target text and the rulebook reference. Per-target expected values and gold evidence fields are absent. Shared b1/b2 examples intentionally carry Hit/No Hit headings and bold gold snippets; all six examples remain in full-set scoring."
+    },
+    {
+      "status": "pass",
+      "checked": "Producing prompt diffs against the permitted frozen issue definition.",
+      "result": "b1 only appends six complete development demonstrations. b2 changes only criteria.false to explicitly preserve emotion wording examined or documented as wording, already preserved by b0's body and the frozen definition. Instructions, true criterion, remaining body, shared prompt and demonstrations remain unchanged."
+    },
+    {
+      "status": "pass",
+      "checked": "Six demonstration IDs, expected values, text hashes, complete text and bold spans in b1/b2/confirmation.",
+      "result": "All six match development passages exactly after removing bold markup, with three hits and three no-hits. Each hit's bold spans equal its gold snippets; no-hit examples have no bold spans. IDs: 000085-c90a216541ef, 000085-9e721c338e70, 000085-559de634ad03, 000085-b76d739000ce, 000085-34b7e644af7f, 000085-01c54a33b08a."
+    },
+    {
+      "status": "pass",
+      "checked": "b2 versus b2-confirmation requests, responses, timestamps and classifications.",
+      "result": "All 13 request hashes match between runs. Confirmation has later saved response timestamps, different response content and 141 changed numerical scores, with zero changed classifications. Both saved runs score 100 caught and zero false positives."
+    },
+    {
+      "status": "pass",
+      "checked": "e197ffe7's frozen emotion-telling selection record, freeze worklog, commit time and b0 output tree entry.",
+      "result": "The frozen record contains exactly the six previously verified development demonstration IDs, expected values and text hashes, with three hits and three no-hits. It has candidates: [] and status: definition-only-baseline-awaiting-inference. The worklog explicitly records selection before baseline inference and no detector responses yet; b0 output is absent from the commit. The commit is timestamped 2026-10-23T22:48:40Z, before the previously audited first b0 response at 22:48:50.280Z. Preselection before b0 is supported by the frozen Git record.",
+      "consequence": "The initial current-manifest-only timing gap is resolved by the newly authorized historical evidence."
+    },
+    {
+      "status": "pass-with-attestation-limit",
+      "checked": "package.json and pnpm-lock.yaml at all three producing commits, plus current node_modules/@typesafe-ai/sdk/package.json.",
+      "result": "Each producing commit pins and resolves @typesafe-ai/sdk to 0.7.0 with identical package and lockfile bytes. The currently installed package reports name @typesafe-ai/sdk and version 0.7.0.",
+      "consequence": "Historical dependency pins and the current installed version are verified separately from historical per-run runtime attestation."
+    },
+    {
+      "status": "pass",
+      "checked": "The additional b2-confirmation-attested native result, job/execution pair and driver source.",
+      "result": "Public validation and independent scoring pass for all 200 passages in 13 batches. The same frozen dataset, prompts, model, threshold and request hashes yield 99 caught, one miss and zero false positives. Excluding the six demonstrations yields 96/97 caught and 0/97 false positives.",
+      "consequence": "This is an additional saved development confirmation with one changed classification, recorded separately from the original four outputs."
+    },
+    {
+      "status": "pass",
+      "checked": "The attested execution's SDK manifest/version/entry hashes, forced --sdk argument, post-exit hash assertions, Node version and driver hash.",
+      "result": "The driver records SDK 0.7.0 and hashes its manifest and resolved index.cjs before spawning the CLI, passes that entry through --sdk, and asserts both hashes again after child exit before writing the execution record. The saved execution exited 0. Both SDK hashes, the resolved entry and driver SHA match the inspected files; the recorded Node version is v24.22.1.",
+      "consequence": "Per-run SDK attestation is verified for this additional confirmation. The four older outputs retain their previously recorded SDK evidence scope."
+    }
+  ],
+  "configuration": {"model": "jev-1.13.0", "threshold": 0.5, "batchSize": 16, "mode": "classification-only", "check": "emotion-telling"},
+  "runs": [
+    {"revision": "b0", "producingCommit": "e197ffe7", "caught": 98, "missed": 2, "trueNegatives": 98, "falsePositives": 2, "demoExcluded": {"positives": 97, "caught": 95, "negatives": 97, "falsePositives": 2}, "promptWords": 329, "inferenceSha256": "d4a08c1362f0329ffcb6858c9a960875808e493fcbb27ba822ee28e6eb525763"},
+    {"revision": "b1", "producingCommit": "906604e2", "caught": 100, "missed": 0, "trueNegatives": 98, "falsePositives": 2, "demoExcluded": {"positives": 97, "caught": 97, "negatives": 97, "falsePositives": 2}, "promptWords": 715, "inferenceSha256": "37dd6f59105d550f14507734a75d361e86a80fd8996e261e821369505e0beb8f"},
+    {"revision": "b2", "producingCommit": "5888a1aa", "caught": 100, "missed": 0, "trueNegatives": 100, "falsePositives": 0, "demoExcluded": {"positives": 97, "caught": 97, "negatives": 97, "falsePositives": 0}, "promptWords": 725, "inferenceSha256": "96cc3eea496d651623a8777c05bf691089a7632876c21c460e6f301062cb1318"},
+    {"revision": "b2-confirmation", "producingCommit": "5888a1aa", "caught": 100, "missed": 0, "trueNegatives": 100, "falsePositives": 0, "demoExcluded": {"positives": 97, "caught": 97, "negatives": 97, "falsePositives": 0}, "promptWords": 725, "inferenceSha256": "6a4d9546cba6e6c9d5f6f60a6d4aa3eb3e5a77542cdd985fc9f34632f5f07186"}
+  ],
+  "classificationReview": {
+    "scoreOrder": ["b0", "b1", "b2", "b2-confirmation"],
+    "cases": [
+      {"id": "000085-14e84241c0c3", "expected": true, "scores": [0.49, 0.54, 0.54, 0.52], "review": "Read the complete dress-rehearsal passage. Exasperated is an interchangeable narrated reaction to the costume mix-up; the concrete chart correction supplies the response. The frozen definition permits a single bare feeling tag as a hit. b1 corrects the miss."},
+      {"id": "000085-cae3297c17a7", "expected": true, "scores": [0.47, 0.61, 0.60, 0.61], "review": "Read the complete newsletter passage. Pleased adds a generic reaction to publication; printing and displaying the drawing supply the particular actions. The named success event alone does not give the feeling tag a particular function under the frozen definition. b1 corrects the miss."},
+      {"id": "000085-0b87e70e557c", "expected": false, "scores": [0.70, 0.73, 0.38, 0.42], "review": "Read the complete witness-statement passage. I was furious is wording being examined and tied to separate incidents during document revision. The frozen wording-as-object exclusion applies. b2 corrects the false positive."},
+      {"id": "000085-5dde75552530", "expected": false, "scores": [0.62, 0.61, 0.37, 0.32], "review": "Read the complete hearing passage. Agitated and angry is challenged as copied report wording; the passage examines the statement's evidential basis. The frozen wording-as-object exclusion applies. b2 corrects the false positive."}
+    ],
+    "transitions": {"b0ToB1": {"newlyCaught": 2, "lost": 0, "correctedFalsePositives": 0, "introducedFalsePositives": 0}, "b1ToB2": {"newlyCaught": 0, "lost": 0, "correctedFalsePositives": 2, "introducedFalsePositives": 0}, "b2ToConfirmation": {"changedClassifications": 0}},
+    "result": "These four baseline errors are every classification changed across the four runs. Their frozen labels remain supported by the supplied definition; b2 and confirmation leave zero labeled development errors."
+  },
+  "unsupportedClaims": [],
+  "preselectionEvidence": {
+    "commit": "e197ffe7d07c9f8d8613e46e79549ae5205d05f3",
+    "commitTimeUtc": "2026-10-23T22:48:40Z",
+    "firstSavedB0ResponseUtc": "2026-10-23T22:48:50.280Z",
+    "freezeManifestSha256": "227fc7e62f07424ee39e1356a71800cf1921844eeda2a4ae9f1f84fcb3755c78",
+    "freezeWorklogSha256": "8da6bf4e031210256342be9f5d7ba06ff283320406ad1a2d6471318c4b867a51",
+    "comparison": "All six raw IDs, stable IDs, expected values and text hashes match the values checked in the initial audit."
+  },
+  "sdkEvidence": {
+    "historicalPins": {"commits": ["e197ffe7", "906604e2", "5888a1aa"], "packageVersion": "0.7.0", "lockSpecifier": "0.7.0", "lockResolvedVersion": "0.7.0", "packageSha256": "b092f34af327451eda62d28ad0dc73467982a985471a1daca71ba0b6df430db3", "lockSha256": "0a6bc1f5dac052038c5a6d4cb4a68f2e13889fc3d0e328e7af7f20f4784f4b9a", "lockIntegrity": "sha512-Yg3OZArCQMJx98ut8QVkhx3rFo9ON7pz8Hjzv8c3FGz69Sk8jYftLOlz+Wf6kq6jol/1m08aBnjRAzJr2x3GoQ=="},
+    "currentInstalled": {"file": "node_modules/@typesafe-ai/sdk/package.json", "version": "0.7.0", "packageSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"},
+    "reportedPreB0Observation": {"source": "User's follow-up", "statement": "Main observed SDK 0.7.0 through a tool command before b0.", "auditStatus": "Attributed to the user; the original command output was not supplied in this audit's evidence."},
+    "historicalPerRunAttestation": {"status": "absent-from-four-original-run-artifacts", "scope": "The original b0, b1, b2 and b2-confirmation native outputs and their previously inspected execution records contain no resolved SDK version or runtime package hash. The new attested confirmation provides its own runtime evidence; that evidence applies to the new run.", "proposedAction": "Preserve the original pre-b0 dependency command evidence and the additional confirmation's attestation alongside their respective outputs."},
+    "additionalConfirmationAttestation": "Verified separately in attestedConfirmation.sdkAttestation."
+  },
+  "attestedConfirmation": {
+    "revision": "b2-confirmation-attested",
+    "output": "runners/results/narrative-craft-v21-emotion-telling-b2-confirmation-attested-isolated-development.json",
+    "producingCommit": "5888a1aa43d5922e0e6d9286cbfc5e6016194ffc",
+    "complete": true,
+    "requests": 13,
+    "decisions": 200,
+    "caught": 99,
+    "missed": 1,
+    "trueNegatives": 100,
+    "falsePositives": 0,
+    "demoExcluded": {"positives": 97, "caught": 96, "negatives": 97, "falsePositives": 0},
+    "promptWords": 725,
+    "promptSha256": "3803b15b69650ec3310533b810fe1bf7ea3ecc2a4fcb52f7a559e4de54f5dbdf",
+    "inferenceSha256": "201ba663860d4b31e2666b51f6d87678b3532a520777f89abf44f2556ca86f00",
+    "firstResponseUtc": "2026-10-23T23:09:20.618Z",
+    "lastResponseUtc": "2026-10-23T23:09:23.696Z",
+    "requestMs": 3379.058415,
+    "executionExit": 0,
+    "executionWallMs": 4323,
+    "comparisons": {"b2": {"changedScores": 147, "changedClassifications": 1}, "b2-confirmation": {"changedScores": 135, "changedClassifications": 1}, "requestIdentity": "All 13 request hashes and the complete snapshot match both prior b2 outputs."},
+    "remainingMiss": {
+      "id": "000085-e2430cc98183",
+      "expected": true,
+      "snippet": "Hope blossomed in Ruth.",
+      "scores": {"b2": 0.51, "b2-confirmation": 0.50, "b2-confirmation-attested": 0.48},
+      "review": "Read the complete plumber-arrival passage. Hope blossomed in Ruth supplies a generic emotional reaction to an earlier appointment; the concrete clearing of supplies supplies the particular response. The frozen prompt permits independent emotion-telling and emotion-as-substance judgments. The unchanged hit label remains supported; the observed score crossed below the frozen 0.5 threshold.",
+      "action": "Preserve the miss and unchanged label with this extra result; the audit makes no detector or threshold change."
+    },
+    "sdkAttestation": {
+      "status": "verified-for-this-run",
+      "version": "0.7.0",
+      "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+      "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+      "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+      "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+      "driver": "/private/tmp/rhythm-v19-native-jobs.mjs",
+      "driverSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae",
+      "recordedNode": "v24.22.1",
+      "hashTiming": "SDK manifest and entry are hashed before invocation and asserted equal after child exit. The execution record stores the matching SDK hashes and a driver hash computed when recording the result.",
+      "frozenInputScope": "The driver checks seven dataset/prompt/source hashes before invocation. This audit independently matches all seven before and after offline validation; the driver's post-child checks cover the SDK manifest and entry."
+    }
+  },
+  "inputIntegrity": {"rawTextSha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1", "rawLabelsSha256": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53", "result": "Dataset pair, runner/schema and current emotion-telling/shared prompts were byte-stable across the successful validator."},
+  "claimsBoundary": "The original four saved results remain 98/2 -> 100/2 -> 100/0 -> 100/0. The additional SDK-attested confirmation is separately 99/0 on the same development collection. This audit performed no fresh inference or corpus/holdout assessment."
+}
