@@ -1,8 +1,7 @@
 {
   "family": "rhythm-and-repetition",
   "version": "v19",
-  "userReview": "pending",
-  "status": "Twenty balanced paired datasets complete: 4,000 passages and 6,400 judgments across development and protected holdout. Development inference pending; holdout inference separately gated.",
+  "status": "Twenty balanced paired datasets complete: 4,000 passages and 6,400 judgments across development and protected holdout. Bounded development evaluation, confirmation, blind error review and final independent audit complete. Holdout inference separately gated.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -715,23 +714,6 @@
       }
     ],
     "freshReviewStatus": "All 20 pilot collections complete fresh review and correction. Preserve altered pilot class counts and mixed cells; final balancing follows full pool review.",
-    "poolAuthoring": [
-      {
-        "collection": "000070",
-        "status": "running",
-        "approvedPilotSha256": "cf703b2315af1595ff17ce3603fa7be01ff0b1ec3b381f7d61168785030d00cf"
-      },
-      {
-        "collection": "000058",
-        "status": "running",
-        "approvedPilotSha256": "5230b846e5f5e5fd7520d8c3fe44bc8e064b92ef3cebc614bcca90a82a75fd40"
-      },
-      {
-        "collection": "000072",
-        "status": "running",
-        "approvedPilotSha256": "02d29d746dc66dbbd426a23a00b654bab613e6970b1bcbe19b16ac80b13da409"
-      }
-    ],
     "holdoutInference": false,
     "overlapAudit": {
       "reportSha256": "56ded782f0644922aa0ec657cfe8ab9d2cbe76d17c171a465962440fac0f210f",
@@ -762,7 +744,11 @@
     "words": 274564,
     "judgments": 7680,
     "method": "Structurally validated240candidate snapshots per collection; semantic review remains separate.",
-    "lastAuthor": "000076uses an immutable validated snapshot while its author continues self-refinement."
+    "lastAuthor": "The author completed; stable snapshot IDs were retained and three later writing edits received independent review.",
+    "additionalPassages": 24,
+    "additionalJudgments": 72,
+    "reviewedPassages": 4824,
+    "reviewedJudgments": 7752
   },
   "reviewedPools": [
     {
