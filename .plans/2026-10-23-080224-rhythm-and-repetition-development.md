@@ -2,10 +2,17 @@
 
 ## Goal
 
-Develop the accepted rhythm-and-repetition family using reviewed isolated and mixed datasets, bounded development-only Jev tuning, and one fresh confirmation. This plan proposes one consolidation of existing types; the accepted taxonomy remains unchanged until that proposal is approved.
+Develop the accepted rhythm-and-repetition family using reviewed isolated and mixed datasets, bounded development-only Jev tuning, and one fresh confirmation. The user authorizes this plan and its one consolidation on 2026-10-23; finalize the reviewed definitions before dataset generation.
 
-- This checkpoint prepares definitions and the execution plan. Dataset generation, provider calls, production changes and release have not started.
+- The authorized scope includes all seven checks, twenty paired collections, bounded development evaluation, confirmation and reporting. Protected holdout inference and production release retain their separate gates.
 - Preserve the released production behavior, existing prompts, previous datasets and unrelated term-policy work. Record the actual package version and commit when freezing the comparison baseline. Work on main and commit milestones with worklogs.
+
+## Execution Status
+
+- Independent definition review is running before authoring. Source-only inspection confirms the eight-rule mapping, 23 transition openings, fourteen terminal predicates, ten fixed sentence frames and eight internal modal forms.
+- Source helpers, current dataset schema and native runner contracts are inspected. Existing schema-version-two packing and independent-passage evaluation support the planned family without production changes.
+- Collection IDs `000057` through `000076` are available and reserved for this round: fourteen isolated collections in definition order, then development/holdout pairs for mixed groups A, B and C.
+- Production baseline is currently `0.2.42`; root datasets contain 15,701 pairs before this round. Capture final baseline hashes after data review and before inference.
 
 ## Source Review And One Proposed Consolidation
 
