@@ -5,7 +5,7 @@
 Develop the accepted rhythm-and-repetition family using reviewed isolated and mixed datasets, bounded development-only Jev tuning, and one fresh confirmation. This plan proposes one consolidation of existing types; the accepted taxonomy remains unchanged until that proposal is approved.
 
 - This checkpoint prepares definitions and the execution plan. Dataset generation, provider calls, production changes and release have not started.
-- Keep production `0.2.41`, existing prompts, previous datasets and unrelated term-policy work unchanged. Work on main and commit milestones with worklogs.
+- Preserve the released production behavior, existing prompts, previous datasets and unrelated term-policy work. Record the actual package version and commit when freezing the comparison baseline. Work on main and commit milestones with worklogs.
 
 ## Source Review And One Proposed Consolidation
 
@@ -36,13 +36,15 @@ Eight existing identifiers cover seven proposed judgments. Preserve the other si
 
 All seven use `input: passage`. Supply complete paragraphs and any immediately relevant surrounding prose; inspect each local sequence within that context. Headings, list items and quoted records keep their functional meaning.
 
+- Preserve wording documented or examined as wording. Assess adopted slogans, quotations and ordinary dialogue by the same contribution test as surrounding prose; quotation marks alone provide no exemption.
+
 ### Sentence-Frame Repetition
 
 - Catch repeated lexical frames that mechanically package successive statements without a useful contrast, comparison, progression or deliberate refrain. Cover openings, distinctive repeated subjects and internal frames.
 - Use three instances for an ordinary repeated frame; two adjacent repeated rhetorical wrappers are eligible when the wrapper itself repeats the packaging.
 - Hit: "The answer is focus. The answer is commitment. The answer is consistency." Highlight all three frames and their corresponding statements.
 - No-hit: "The red lamp means stop. The green lamp means proceed. The amber lamp means prepare to stop." The parallel form makes a useful comparison.
-- Preserve necessary names, common pronouns and grammatical words when their recurrence alone supplies no mechanical frame. Preserve explained slogans, quoted wording and purposeful refrain supported by the passage.
+- Preserve necessary names, common pronouns and grammatical words when their recurrence alone supplies no mechanical frame. Preserve wording being examined and purposeful refrain supported by the passage; assess adopted slogans normally.
 - Formal connectors alone belong to formal-transition density; repeated terminal predicates belong to repeated-predicate-end. Separate repeated openings and endings can receive both labels when each independently remains defective.
 
 ### Repeated Predicate End
@@ -94,7 +96,7 @@ All seven use `input: passage`. Supply complete paragraphs and any immediately r
 ## Definition Review Before Generation
 
 1. Have one fresh reviewer compare these definitions with all eight implementations, their helpers and accepted case fixtures.
-2. Test matched examples for each boundary: useful parallelism versus mechanical echo, deliberate pacing versus detached action beats, and meaningful lists versus decorative completeness.
+2. Test matched examples for each boundary: useful parallelism versus mechanical echo, deliberate pacing versus detached action beats, meaningful lists versus decorative completeness, and documentary quotations versus adopted advertising copy.
 3. Resolve ownership disputes before authoring labels. Retain the eight-source mapping and describe every change to the proposed seven checks explicitly.
 4. Put approved definitions in the existing accepted taxonomy. Give protected authors extracted definitions and an explicit file allowlist; keep the full taxonomy and evaluation summaries outside their contexts.
 
@@ -126,7 +128,9 @@ Prepare fourteen isolated file pairs: development and protected holdout for each
 
 ## Development And Evaluation
 
-- Reuse `runners/jev.mjs`, its native mixed scoring and current dataset schema. Introduce no new execution abstraction.
+- Reuse `runners/jev.mjs`, its native within-family mixed scoring and current dataset schema. Introduce no new execution abstraction.
+- Group C keeps fully qualified labels and separate native family invocations. Run its rhythm checks with `--family rhythm-and-repetition` and the frozen `v18` comparator with `--family excessive-hedging`.
+- Join complete Group C predictions offline by passage ID and fully qualified check. Verify identical source-text hashes, the same 200 passage IDs and all three answers per passage before calculating joint scores; preserve native per-check scores and requests.
 - Use `prompts/v19/shared.md` copied unchanged from `v18`, plus one file per approved check. Keep each assembled prompt within 1,000 words, with at most three hit and three no-hit development demonstrations.
 - Pin Jev `jev-1.13.0`, SDK `0.7.0`, classification-only mode, threshold `0.5`, batch size sixteen and `--development-only`. Commit each candidate before running it.
 - For each check, run isolated development and every mixed group containing it. Require at least 95/100 caught hits and at most five false positives in every applicable set.
