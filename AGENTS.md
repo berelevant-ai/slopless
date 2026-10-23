@@ -19,6 +19,7 @@
 - Declare `input: passage` or `input: text` in each finalized issue definition. The submitted writing is the complete input.
   - A passage can include several paragraphs. A text is the complete article, story, or reply; text-level checks use it intact.
   - Classify buried answers and repeated explanations within the submitted text as text-level checks. Keep density reporting separate from this input requirement.
+- Current evaluation identifies the supplied passage or text and the named check. Exact offending-span detection is out of scope; its Jev mechanism remains undecided. Passage boundaries narrow where the writing agent should look.
 
 ## Storage
 
