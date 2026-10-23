@@ -1,0 +1,338 @@
+{
+  "audit": {
+    "approved": false,
+    "corrections": [
+      {
+        "check": "shared-decisions",
+        "operation": "Append: 'Establish a weak cue from its contribution in the supplied passage. A particular observation, emotional report, scene orientation, characterization, controlled pacing or figurative relationship can itself supply information. Require an identifiable redundancy, interchangeable annotation or unsupported generic payoff before labeling it weak. Do not require a later action, explicit explanation or practical consequence. Apply these boundaries to each cue separately.' Retain the existing passage input, independent overlapping labels and separate reporter counting decisions.",
+        "why": "Several definitions preserve any identifiable narrative function but illustrate hits using ordinary scene orientation or emotional reporting. Naming what establishes weakness prevents reviewers from treating their preference for more detail as evidence. This addition preserves informative narration while allowing an independent filler cue beside it.",
+        "source": "/tmp/slopless-narrative-v21-full/definitions/proposed.md: Shared Decisions and hit examples for emotion-telling, empty-scene-state and gaze-choreography; src/rules/semantic-thinness/private/pattern-matcher.ts: lexical rejection gates are baseline heuristics rather than contextual judgments."
+      },
+      {
+        "check": "abstract-personification-line",
+        "operation": "Replace the first sentence with: 'Catch an abstract feeling, trait or social concept given generic presence, absence, entry, movement, control or authority in a person's life or a social setting, in place of a particular behavior, thought or intelligible relationship.' Replace 'A social or intentional role defines this check' with: 'Include denied accommodation and spatial-presence frames such as the source's had-no-place, entered, moved-through and took-over constructions; intention is optional. Assess emotion-as-substance independently when its material construction is also present.'",
+        "why": "The proposed social-or-intentional requirement drops the source's had-no-place and moved-through branches when the abstraction has only spatial presence. The replacement retains those branches without requiring mutually exclusive emotion labels.",
+        "source": "src/rules/semantic-thinness/patterns/abstract-personification-line.json: all four templates, especially '{abstractSubject} had no place in {thinContainer}.' and '{abstractSubject} moved through {socialPlace}.'"
+      },
+      {
+        "check": "body-action-density",
+        "operation": "Replace the first bullet with: 'Identify an interchangeable bodily, movement, appearance, voice or embodied-feeling cue used as generic narrative annotation. Cover routine gestures and locomotion, body-part sensations and reactions, breath, fixed or moving eyes, facial expressions, generic voice quality, apparent tiredness, felt surges or profound senses, and inability-to-help-or-shake-a-feeling frames. The defect is the cue's weak contribution in this passage, not membership in a word list.' Replace 'Internal sensations alone belong to body-emotion-shorthand' with: 'Internal sensations remain eligible here and can independently satisfy body-emotion-shorthand. Generic voice and appearance cues remain eligible even when they involve no outward movement.' Keep the single-occurrence decision and informative-function exclusions.",
+        "why": "MOVEMENT_CUES, BODY_CUES and PHRASE_CUES contain three recognition branches. The proposed outward-action restriction omits internal body cues and multiple explicit phrase families. Redirecting those cues solely to another identifier would reduce this check's source coverage.",
+        "source": "src/rules/narrative-slop/body-action-density.ts: MOVEMENT_CUES, BODY_CUES, PHRASE_CUES and cueDetections; phrases include could-not-help-but-feel, could-not-shake-the-feeling, felt-a-surge, felt-a-profound-sense, eyes-never-leaving, voice-was-low, looked-tired, smile and breath variants."
+      },
+      {
+        "check": "emotion-as-substance",
+        "operation": "Replace 'physical material moving through' with 'physical material present in, moving through, tightening within or departing from'. Append to the coverage bullet: 'Include static placement or residue in posture, voice and eyes, release from those containers, pooling around an abstract choice or moment, and entry compared with temperature, weather or weight. Material presence and departure can qualify without flowing motion.'",
+        "why": "The source contains sat, rested, hung, left and tightened as well as fluid-motion verbs. Its abstract-container and posture/voice branches must remain explicit enough to survive the proposed moving-material wording.",
+        "source": "src/rules/semantic-thinness/patterns/emotion-as-substance.json: substanceMotion, bodyContainer, abstractContainer, substanceImage and all ten templates."
+      },
+      {
+        "check": "empty-atmosphere-shift",
+        "operation": "Replace the first bullet with: 'Catch a generic assessment or announced change in a place's mood, feel or atmosphere that supplies only an unspecified difference or emotional quality. Include subjective felt/seemed assessments as well as became/turned/went changes; explicit before-and-after wording is optional. Require the assessment's contribution to be empty under the shared functional boundary.'",
+        "why": "The source includes felt/seemed cold, quiet, empty, wrong and strange without a temporal modifier. Requiring an announced change removes those assessment branches.",
+        "source": "src/rules/semantic-thinness/patterns/empty-atmosphere-shift.json: feltVerb, atmosphereState and the unmodified placeSubject/atmosphereSubject templates."
+      },
+      {
+        "check": "empty-emotional-weather",
+        "operation": "Append to the first two bullets: 'Include silence, quiet, stillness, pressure, weight, distance, calm and heaviness when used as generic interpersonal or atmospheric scenery. Cover static presence, persistence, return and filling a space as well as motion; an explicitly named emotion is optional.'",
+        "why": "The source's atmospheric-subject branch extends beyond named feelings, and its verbs include sat, remained, returned and filled. The current emotional-mood and moving-weather emphasis can lose silent or static scene branches.",
+        "source": "src/rules/semantic-thinness/patterns/empty-emotional-weather.json: atmosphereSubject, weatherVerb and place/group templates; positive examples include silence, stillness and weight."
+      },
+      {
+        "check": "emotion-telling",
+        "operation": "Append: 'A direct report of a particular person's feeling can supply the response being narrated. Label the report when the passage establishes that it repeats an already legible response or supplies interchangeable emotional annotation; brevity and absence of a thought or choice alone are insufficient.' Change the existing 'He was deeply disappointed. The envelope lay beside the cup.' illustration from an asserted hit to a no-hit with: 'The feeling report supplies the person's response; the supplied passage establishes no redundant emotional annotation.'",
+        "why": "The asserted hit supplies the only stated emotional response and is compatible with the definition's preservation of relevant emotional reports. Calling it generic merely because the envelope sentence is brief makes labeling depend on an imagined fuller story. Linking, feeling, intensifier and complement branches remain candidates for contextual assessment.",
+        "source": "/tmp/slopless-narrative-v21-full/definitions/proposed.md: emotion-telling hit and preservation bullets; src/rules/narrative-slop/emotion-telling.ts: emotionIndex, isBluntEmotionLabel, COMPLEMENT_HEADS and LINKING_VERBS."
+      },
+      {
+        "check": "low-information-physical-blocking",
+        "operation": "Replace the first bullet with: 'Catch generic stage business that merely keeps characters positioned, moving, pausing, looking or responding in a scene. Include weak locatives and generic face-to-face shifts, waiting, nodding, smiling, blinking and breathing when they add no particular spatial fact, observation, task, choice, communication or consequence. Physical relocation is optional.'",
+        "why": "The source's bodyVerb branch includes perception, pause, facial-response and breath verbs. A positioning-or-movement-only definition loses those branches even though another check can also label them.",
+        "source": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json: bodyVerb, weakLocative, genericFace and all four templates."
+      },
+      {
+        "check": "silence-as-actor",
+        "operation": "Append to the first two bullets: 'Also cover a place itself assigned a generic emotional or activity-like state, a claim that quiet occurs in the way rooms or offices characteristically do, a deictic event making quiet feel a certain way, and a person's supposed ability to make quiet feel crowded or deliberate. A literal silence noun and grammatical agency are optional. Preserve a particular observable account of occupancy or activity under the same functional boundary.'",
+        "why": "The source includes room/office/house/hall subjects, the quiet-in-the-way-places-do frame and deictic/human causative frames. Its positive room-felt-busy branch requires coverage even with neither silence nor an actor construction in the wording.",
+        "source": "src/rules/semantic-thinness/patterns/silence-as-actor.json: silenceSubject, mannerFrame, deicticSubject, humanSubject and all seven templates; positive example 'The room felt busy.'"
+      },
+      {
+        "check": "fixed-metaphor-frame",
+        "operation": "Replace 'original or particular imagery' in the preservation bullet with 'imagery whose particular comparison supplies an intelligible perceptual or narrative relationship'. Append: 'Unfamiliar wording alone supplies no exemption; assess the frame's contribution.'",
+        "why": "Originality is independent of whether a place-as-image frame is interchangeable decoration. The current originality exemption conflicts with the requirement to generalize to unfamiliar wording.",
+        "source": "/tmp/slopless-narrative-v21-full/definitions/proposed.md: fixed-metaphor-frame generalization and preservation bullets; src/rules/semantic-thinness/patterns/fixed-metaphor-frame.json: stock place/metaphor/image relationship."
+      },
+      {
+        "check": "sensory-instead-of-frame",
+        "operation": "Append: 'Retain literal scent-inventory substitution, including the source's paired ordinary odor nouns contrasted with an expected odor, as a candidate construction. Judge its contribution as well as figurative contrasts. A directly perceived odor difference can itself be useful information; source attribution or a later consequence is optional.' Keep the existing source example as a source illustration rather than declaring every literal inventory a hit.",
+        "why": "The proposed hit uses abstract promises and celebration while the source branch uses ordinary dust, ash and other odors. Explicitly retaining literal inventories prevents generation from covering only fanciful synesthesia, while the functional criterion protects informative smell comparisons.",
+        "source": "src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json: sensoryNoun, expectedScent and the smelled-of-two-scents-instead-of frame; /tmp/slopless-narrative-v21-full/definitions/proposed.md: sensory-instead-of-frame illustrations."
+      }
+    ],
+    "perCheck": [
+      {
+        "check": "abstract-personification-line",
+        "sourceCoverage": "Four source branches: denial of place in schedule/plan/room; entry; movement through a social place; takeover. Source guards preserve concrete explanations and literal allocations. Proposed social agency covers takeover and intentional entry but narrows spatial presence and exclusion. Apply the coverage patch.",
+        "issues": [
+          "The social-or-intentional restriction loses source branches. Preserve intelligible motives and literal fictional actors under the existing functional exclusions."
+        ]
+      },
+      {
+        "check": "body-action-density",
+        "sourceCoverage": "Three source branches: movement-token cues, body-token cues and explicit phrase cues. Phrase cues span posture/locomotion, looking, persistent feeling, surges, smiles/glints, breathing, voice, tired appearance and animal reactions. Apply the patch to cover all three; thresholds remain baseline reporter settings.",
+        "issues": [
+          "Outward-only scope and the internal-sensation redirect omit source branches. Bodily-emotion overlap is permitted and must remain independently positive when both definitions apply."
+        ]
+      },
+      {
+        "check": "body-emotion-shorthand",
+        "sourceCoverage": "Frozen definition covers felt/went sensation, reaction verbs with optional modifiers, body-as-weight, embodied-object burden and caught breath. It also covers heartbeat, spine and held-breath source cliche branches by bodily function. The approved functional boundary replaces lexical cause/dialogue vetoes while preserving useful physical information.",
+        "issues": []
+      },
+      {
+        "check": "emotion-as-substance",
+        "sourceCoverage": "Ten templates cover departure with optional article/finally, placement over a person or place, presence within a body/voice/posture, passage through a place/group, pooling at abstract edges, entry as temperature/weather/weight and internal tightening. Add stationary presence and departure explicitly.",
+        "issues": [
+          "Moving-material wording underrepresents static placement, residue and departure. The literal-substance and developed-figurative-relationship exclusions are helpful."
+        ]
+      },
+      {
+        "check": "emotion-telling",
+        "sourceCoverage": "Source branches include person pronouns and names, contractions, leading connectives, linking/feeling verbs, intensifiers, bare emotion predicates, trailing adverbs and about/at/by/for/of/toward/with complements. Proposed equivalent assertions cover them. Source quote/digit/later-clause vetoes are replaced by function, as the shared decisions require.",
+        "issues": [
+          "The current hit illustration supplies the only emotional response, so its positive label lacks the evidence required by the preservation bullet. Apply the labelability patch without removing any syntactic candidate branch."
+        ]
+      },
+      {
+        "check": "empty-atmosphere-shift",
+        "sourceCoverage": "Six template branches cross place and atmosphere subjects with unmodified, adverb-modified and trailing-modifier assessments. Include static felt/seemed judgments as well as changes. Preserve specific contrasts and informative environmental observations.",
+        "issues": [
+          "Announced-change-only wording omits unmodified subjective assessments. Apply the coverage patch."
+        ]
+      },
+      {
+        "check": "empty-beat",
+        "sourceCoverage": "All four source branches are represented: brief-duration hesitation, locative placeholding, kept-pace continuation and generic animal body tags. Animal coverage generalizes to the source's whiskers as well as ears/tails. Concrete timing, tasks, responses and dramatic relations are protected.",
+        "issues": [
+          "Apply the shared evidence boundary so a purposeful pause can establish pacing without an explanatory cause phrase. One eligible cue remains sufficient."
+        ]
+      },
+      {
+        "check": "empty-emotional-weather",
+        "sourceCoverage": "Four location/group templates cover silence/quiet/stillness, tension/unease/calm, pressure/weight/heaviness and distance, using motion and static/persistence verbs. Explicitly retain the non-emotion nouns and stationary branches through the patch.",
+        "issues": [
+          "Emotional-mood wording can omit silent/static atmosphere. Particular conduct and useful figurative relations remain valid helpful functions."
+        ]
+      },
+      {
+        "check": "empty-scene-state",
+        "sourceCoverage": "Nine templates cover place states, modified states, group/place quieting, scene-element states and scene elements filling places. Proposed place/group/element wording and generic quieting/filling coverage retain all branches; equivalent thin states generalize beyond the listed adjectives.",
+        "issues": [
+          "The room-still hit illustration has limited evidence of padding. Apply the shared functional boundary and retain scene orientation as a useful function rather than treating short state sentences as intrinsically weak."
+        ]
+      },
+      {
+        "check": "fake-timestamps",
+        "sourceCoverage": "The source scanner recognizes digit-colon-digit times followed by AM/PM, keeps the first match per date-free sentence and skips date-label/month/weekday/year contexts. Proposed precise-clock expressions include that recognition branch and extend it to 24-hour and written forms. Date/first-match suppression remains legacy comparison behavior, not a Jev classification rule.",
+        "issues": [
+          "Preserve the proposed relevance-based definition and its explicit distinction between precision and fabrication. Clock observation must carry an identifiable temporal or perceptual function; merely writing a clock value does not establish that function."
+        ]
+      },
+      {
+        "check": "fixed-metaphor-frame",
+        "sourceCoverage": "The source's single branch is place-was-a-metaphor-of-two-image-nouns, with graveyard/tightrope/maze frames. Proposed equivalent scenic container/landscape/stage frames retain it and generalize linking verbs and image counts. Literal and informative comparisons remain protected.",
+        "issues": [
+          "Originality alone is an inconsistent exemption. Apply the useful-relationship wording patch."
+        ]
+      },
+      {
+        "check": "gaze-choreography",
+        "sourceCoverage": "Four branches are represented: gaze/eyes directed to a target, target-to-target movement, following another person's gaze and tracing an object with eyes. The proposed observation/viewpoint/communication exclusions preserve useful sightlines independently of exact perception verbs.",
+        "issues": [
+          "Apply the shared evidence boundary to distinguish empty camera movement from informative attention and characterization. A named target or eye color remains insufficient on its own."
+        ]
+      },
+      {
+        "check": "low-information-beat-density",
+        "sourceCoverage": "LOW_INFORMATION_WORDS covers bodily reactions, felt/found, eyes/face/gaze, floor-directed staging, appearance and movement/waiting cues. Proposed generic physical annotation and reaction-beat scope covers these by role. CONCRETE_ACTION_WORDS is a whole-paragraph lexical veto in the source; the proposed cue-specific functional exclusion preserves useful actions without automatically suppressing adjacent filler.",
+        "issues": [
+          "Keep the umbrella overlap and single-cue recognition. Source minimum four hits and paragraph/window sizes belong only to the legacy baseline reporter."
+        ]
+      },
+      {
+        "check": "low-information-physical-blocking",
+        "sourceCoverage": "Four templates cover adverb-plus-action/locative, action/locative, coordinated actions and generic face-to-face shifts. The source verb slots also include looking, pausing, waiting, nodding, smiling, blinking and breathing. Apply the expanded stage-business patch to preserve these non-relocation branches.",
+        "issues": [
+          "Positioning/movement-only wording omits source perception and response beats. Preserve useful observation and communication even when the physical form is familiar."
+        ]
+      },
+      {
+        "check": "narrative-cliches",
+        "sourceCoverage": "All 17 data branches are named or directly encompassed: heart-chest, spine-shiver, breath-throat, speech-voice-quality, voice-laced, air-thick, hung-in-air (words and silence), long-shadows, days-turned-weeks, sun-horizon, omniscient-foreshadowing, maybe-just-maybe, felt-like-eternity, flicker-crossed-face, eyes-unreadable, unknown-held-breath and time-slowed. Source first-match, quotation, 80-token and because/since gates remain baseline mechanics. Stock expression and contextual weakness are separately required.",
+        "issues": [
+          "Retain atmospheric words-hanging as well as silence-hanging and scent-thick as well as emotion-thick variants during branch allocation. Existing broad coverage supports both; no consolidation or exclusive label ownership is required."
+        ]
+      },
+      {
+        "check": "perception-verb-density",
+        "sourceCoverage": "The visual verb branch includes look/watch/stare/gaze/glance/peered/squint/saw/focused/observe/study/notice/scan and inflections. Proposed equivalent perception acts cover the list. Source purpose-look particle suppression is replaced by actual search/viewpoint function; accidental noun uses remain outside perception acts.",
+        "issues": [
+          "Keep one weak cue sufficient and preserve informative looking without a later action. Source paragraph/window counts and the look-for/up/under/into heuristic remain comparison mechanics."
+        ]
+      },
+      {
+        "check": "sensory-instead-of-frame",
+        "sourceCoverage": "One source branch contrasts paired ordinary scent nouns with an expected scent using smelled-of/instead-of. The proposed sensory-substitution scope includes it and extends modalities and contrast syntax. Apply the explicit literal-inventory reminder so the abstract proposed illustration does not become the whole generation scope.",
+        "issues": [
+          "Literal sensed differences can themselves be informative. Source/cause naming is a legacy guard rather than a necessary condition for useful perception."
+        ]
+      },
+      {
+        "check": "silence-as-actor",
+        "sourceCoverage": "Seven source templates cover positive/negated thin predicates, became/turned states, deictic events making silence feel a state, generic place quiet-manner frames and human ability to make silence feel a state. Place subjects also allow generic room/office/house/hall properties. Apply the patch for place-subject and manner branches.",
+        "issues": [
+          "The actor/emotional-force framing alone omits generic room states and the characteristic-office-quiet branch. Literal occupancy, acoustics and consequential speech withholding remain helpful functions."
+        ]
+      },
+      {
+        "check": "summary-fog-transition",
+        "sourceCoverage": "The single template combines a remaining/next/everything-after span with blur/haze/fog. Proposed equivalent vague-summary transitions retain it and extend wording. Literal optics, memory/consciousness limits and informative compression remain protected.",
+        "issues": [
+          "Apply the shared evidence boundary: compression or subjective memory can be the information itself. Require the asserted empty transition to be supported by the supplied sequence rather than an imagined need for more events."
+        ]
+      }
+    ],
+    "mixedGroups": [
+      {
+        "group": "A: body-emotion-shorthand, empty-beat, empty-scene-state",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Internal bodily-emotion annotation, non-bodily waiting/hesitation and scene-state padding each have a positive route independent of the other two. Animal-body overlap is optional. Separate eligible cues can combine without changing the frozen body definition; all eight vectors are logically available."
+      },
+      {
+        "group": "B: emotion-as-substance, perception-verb-density, fake-timestamps",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Feeling-material phrasing, generic perception and gratuitous clock precision impose independent constructions. None entails another; useful narration can connect separate cues for combined positives. All eight vectors are logically available."
+      },
+      {
+        "group": "C: emotion-telling, gaze-choreography, sensory-instead-of-frame",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Bare emotional annotation, noun-based eye-camera movement and sensory substitution each have an independent positive route. Material feelings or plain perception are not compulsory substitutes for these definitions. All eight vectors are logically available after the emotion-telling labelability correction."
+      },
+      {
+        "group": "D: abstract-personification-line, body-action-density, summary-fog-transition",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Abstract social/spatial presence, weak bodily annotation and a fog-summary transition can each occur independently. Expanded source coverage for body actions and abstract presence creates optional overlap rather than a logical implication. All eight vectors are logically available."
+      },
+      {
+        "group": "E: empty-atmosphere-shift, low-information-physical-blocking, narrative-cliches",
+        "compatible": true,
+        "corrections": [],
+        "reason": "An unspecified atmosphere assessment need not use a recognizable stock expression. Blocking can use ordinary staging without a cliche family, while cliche foreshadowing or time-passage wording can occur without atmosphere or blocking. All eight vectors are logically available."
+      },
+      {
+        "group": "F: empty-emotional-weather, low-information-beat-density, fixed-metaphor-frame",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Scene-level atmospheric nouns do not require bodily reaction beats; bodily annotation does not require emotional weather; stock scenic image framing does not require either. Each has an independent construction, and separate cues allow combined positives. All eight vectors are logically available."
+      },
+      {
+        "group": "G: silence-as-actor, body-emotion-shorthand, frozen flat-action-cadence comparator",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Personified or thinly assigned quiet, internal bodily-emotion punctuation and repeated subject-first action structure are independently possible. The source cadence rule requires a sequence with actor-action participation, so one body reaction or silence clause does not entail it. Useful repeated physical actions provide a cadence-only route. Preserve the frozen comparator definition and reporting policy; all eight vectors are logically available."
+      }
+    ],
+    "filesRead": [
+      "/Users/tartakovsky/.codex/AGENTS.md",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+      "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+      "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+      "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+      "/tmp/slopless-narrative-v21-full/definitions/proposed.md",
+      "/tmp/slopless-narrative-v21-full/definitions/body-emotion-shorthand.md",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.plans/2026-10-23-195843-narrative-craft-development.md",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/empty-atmosphere-shift.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/empty-emotional-weather.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/empty-scene-state.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/fixed-metaphor-frame.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/gaze-choreography.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/silence-as-actor.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/summary-fog-transition.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/body-action-density.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/perception-verb-density.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/low-information-beat-density.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/empty-beat.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/emotion-telling.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/narrative-cliches.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/data/narrative-cliches.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/orthography/fake-timestamps.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/private/pattern-matcher.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/private/concrete-guards.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/shared/matchers/concrete-evidence.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/semantic-thinness.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/shared/matchers/prose-patterns.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/flat-action-cadence.ts",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/narrative-slop/private/subject-action-cadence.ts"
+    ]
+  },
+  "final": {
+    "approved": true,
+    "corrections": [],
+    "scope": "Focused recheck of the corrected definitions against the preceding 19-check source audit, the unchanged body definition and the permitted frozen V2 cadence extract.",
+    "findings": [
+      {
+        "check": "source-coverage",
+        "result": "The corrected abstract-personification, body-action, emotion-as-substance, atmosphere-assessment, emotional-weather, physical-blocking and silence definitions preserve the source branches identified in the preceding audit. All nineteen identifiers remain separate, with independently assessed overlap."
+      },
+      {
+        "check": "informative-functions",
+        "result": "The shared boundary preserves informative observation, orientation, characterization, compression and pacing without requiring subsequent action. The fixed-metaphor definition removes originality as an automatic exemption, and the sensory definition explicitly illustrates the literal scent-inventory source branch."
+      },
+      {
+        "check": "emotion-telling",
+        "result": "The explicit statement that a sole narrated feeling can be an interchangeable reaction tag resolves the intended scope. Repetition and an already-established emotion are optional. The retained bare-emotion hit is consistent with this scope, while testimony, clinical observation, decision explanation and interpersonal messages retain their contextual protections. The earlier proposed repetition-based narrowing is withdrawn."
+      },
+      {
+        "check": "body-emotion-shorthand",
+        "result": "The supplied body definition matches the version read in the preceding audit. Its definition and frozen judgments remain preserved; no dataset files were read."
+      },
+      {
+        "check": "density-named-checks",
+        "result": "The shared definition continues to recognize one eligible weak cue independently of occurrence counts, windows and severity. Those reporting mechanics remain separate from classification."
+      }
+    ],
+    "mixedGroups": [
+      {
+        "group": "A-F",
+        "compatible": true,
+        "corrections": [],
+        "reason": "The corrected scope preserves the independent positive routes established in the preceding audit. Each group continues to permit all eight binary combinations, including mixed C under the clarified bare-emotion target."
+      },
+      {
+        "group": "G: silence-as-actor, body-emotion-shorthand, frozen flat-action-cadence comparator",
+        "compatible": true,
+        "corrections": [],
+        "reason": "Frozen V2 cadence assesses at least three nearby complete action clauses with repeated detached subject-first presentation and permits scene-only sequences. A single silence construction or body-emotion tag does not entail that sequence. A repeated sequence can use physical actions or observations with neither defect, and either defect can occur separately or within a cadence sequence. All eight binary combinations remain possible. Preserve useful procedures, reconstruction, comparison and deliberate pacing under the frozen definition.",
+        "baselineCorrection": "The preceding review's actor-participation rationale describes the legacy implementation. V2 imposes no two-actor requirement; its frozen definition governs mixed G."
+      }
+    ],
+    "filesRead": [
+      "/tmp/slopless-narrative-v21-full/definitions/proposed.md",
+      "/tmp/slopless-narrative-v21-full/definitions/body-emotion-shorthand.md",
+      "/tmp/slopless-narrative-v21-full/definition-review/review.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.plans/2026-10-20-125402-v2-rule-taxonomy.md"
+    ],
+    "readLimits": {
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.plans/2026-10-20-125402-v2-rule-taxonomy.md": "Lines 489-500 only. The other listed files were read as complete files. filesRead lists inputs opened during this focused recheck; the earlier audit records its own inputs."
+    }
+  }
+}

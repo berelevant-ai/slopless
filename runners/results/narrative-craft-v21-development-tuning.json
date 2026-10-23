@@ -36,7 +36,7 @@
     "maximumFalsePositives": 5,
     "requiresFreshConfirmation": true
   },
-  "status": "Full-family goal active. Existing body-emotion data complete; full definitions under review; first body prompt frozen for baseline.",
+  "status": "All nineteen definitions independently reviewed; remaining data generation and body development tuning in progress.",
   "checks": {
     "body-emotion-shorthand": {
       "dataStatus": "isolated-development-and-holdout-reviewed",
@@ -119,7 +119,21 @@
               "expected": false
             }
           ],
-          "execution": "pending"
+          "execution": "complete",
+          "outputs": [
+            "runners/results/narrative-craft-v21-body-emotion-shorthand-b1-isolated-development.json"
+          ],
+          "producingCommit": "8e96a531",
+          "isolated": {
+            "positives": 100,
+            "caught": 98,
+            "negatives": 100,
+            "falsePositives": 7,
+            "misses": [
+              "000077-7e2f33db8b9a",
+              "000077-c4b498efa32f"
+            ]
+          }
         }
       ],
       "selected": null
