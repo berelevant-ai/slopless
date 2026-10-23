@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "All pilot collections reviewed and packed; complete candidate-pool authoring in progress.",
+  "status": "First reviewed240candidate pool archived; other full reviews and word-repetition re-curation continue. No Jev inference yet.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -744,5 +744,24 @@
       "candidates": 0,
       "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new cross-split pairs; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples."
     }
+  },
+  "wordClarification": {
+    "reason": "Resolve lexical-category counting and the contribution of repeated names before tuning.",
+    "definitionSha256": "42206064d82e1e9abd4237aaa8c6b7cd20d1aefa864801adc1beecbb1253c17c",
+    "independentReviewSha256": "43cdb88a1104ea115e1ca74beb5fc22374752b87dfbaa4ebac3b62ef410ec124",
+    "affectedCollections": [
+      "000070",
+      "000076"
+    ],
+    "action": "Fresh blind review and subsequent full reviews under the clarified definition before freeze.",
+    "otherSixDefinitionsUnchanged": true
+  },
+  "candidateGeneration": {
+    "collections": 20,
+    "passages": 4800,
+    "words": 274564,
+    "judgments": 7680,
+    "method": "Structurally validated240candidate snapshots per collection; semantic review remains separate.",
+    "lastAuthor": "000076uses an immutable validated snapshot while its author continues self-refinement."
   }
 }

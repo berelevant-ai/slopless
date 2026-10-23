@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "All pilot collections reviewed and packed; complete candidate-pool authoring in progress.",
+  "status": "First reviewed240candidate pool archived; other full reviews and word-repetition re-curation continue. No Jev inference yet.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -731,5 +731,104 @@
       "candidates": 0,
       "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new cross-split pairs; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples."
     }
-  }
+  },
+  "wordClarification": {
+    "reason": "Resolve lexical-category counting and the contribution of repeated names before tuning.",
+    "definitionSha256": "42206064d82e1e9abd4237aaa8c6b7cd20d1aefa864801adc1beecbb1253c17c",
+    "independentReviewSha256": "43cdb88a1104ea115e1ca74beb5fc22374752b87dfbaa4ebac3b62ef410ec124",
+    "affectedCollections": [
+      "000069",
+      "000075"
+    ],
+    "action": "Fresh blind review and subsequent full reviews under the clarified definition before freeze.",
+    "otherSixDefinitionsUnchanged": true
+  },
+  "candidateGeneration": {
+    "collections": 20,
+    "passages": 4800,
+    "words": 274564,
+    "judgments": 7680,
+    "method": "Structurally validated240candidate snapshots per collection; semantic review remains separate.",
+    "lastAuthor": "000076uses an immutable validated snapshot while its author continues self-refinement."
+  },
+  "reviewedPools": [
+    {
+      "collection": "000067",
+      "passages": 240,
+      "hits": 120,
+      "noHits": 120,
+      "fullReviewPasses": 3,
+      "reviewArtifacts": [
+        {
+          "path": "/tmp/slopless-v19-pool-blind-000067-development/comparison.json",
+          "sha256": "5585c91c0f35fe962d4a8bb8cfe9f9258ddd6647a0b1e928792641ebf1873d68"
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-adversarial-000067-development/comparison.json",
+          "sha256": "09680c7339755bee398200d9c0937beeddd6b7941005c065bd2187c2d04593da"
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-final-000067-development/comparison.json",
+          "sha256": "46ba0dc4b53043a30f7bba9a3218352f0cd369f1b674319499b24cd7c0fe913f"
+        },
+        {
+          "path": "/tmp/slopless-v19-list-final-repair-review/audit.json",
+          "sha256": "0c1a506b8117b2754cb3caa1634cc66471cc7c518266c1dfaa65a27ab723d440"
+        }
+      ],
+      "mandatoryIds": [
+        "000067-209de6a13cf8",
+        "000067-7e9b422700b5",
+        "000067-8b8d40552dd4",
+        "000067-ee3e25c14a44",
+        "000067-c44510901c85",
+        "000067-6df11409def3",
+        "000067-8893d4ea08fb",
+        "000067-7564fbe00436",
+        "000067-b578048c7f70",
+        "000067-afaca8e8c1e4",
+        "000067-614138b52132",
+        "000067-4053b2705243",
+        "000067-b03efcc9e80c",
+        "000067-a5f78a7363b6",
+        "000067-b1dac8ee05dc",
+        "000067-e742bd4ba31a",
+        "000067-4c6cc76012fb",
+        "000067-7aea761d0745",
+        "000067-080cd8c5c255",
+        "000067-1e7500814d2c",
+        "000067-9613ef95c6d7",
+        "000067-bfe31462d028",
+        "000067-b322df4ff26e",
+        "000067-de7142c4e1f2",
+        "000067-75aa9a2e07f9"
+      ],
+      "repairs": [
+        {
+          "id": "000067-9613ef95c6d7",
+          "operation": "Clarify that a parking space belongs to the resident instead of opening."
+        },
+        {
+          "id": "000067-bfe31462d028",
+          "operation": "Describe audible notes rather than audible finger movement."
+        }
+      ],
+      "adversarialRepairs": [
+        {
+          "id": "000067-b322df4ff26e",
+          "operation": "Specify atomic edit/sequence persistence and retry deduplication. Use plausible repeated reliability claims instead of exaggerated adjectives."
+        },
+        {
+          "id": "000067-de7142c4e1f2",
+          "operation": "Specify transactional changes with atomic completion records. Use plausible overlapping reassurance claims instead of grand abstractions."
+        }
+      ],
+      "finalRepair": {
+        "id": "000067-75aa9a2e07f9",
+        "operation": "Connect the allotment event to the pipe repair while preserving the adjective triad.",
+        "auditSha256": "0c1a506b8117b2754cb3caa1634cc66471cc7c518266c1dfaa65a27ab723d440"
+      },
+      "reviewedPoolSha256": "7c3fac8d3f6b6b4ab5d1dc04c6d4e3e853acd550a5a8e6d8ce85e0540da87f93"
+    }
+  ]
 }
