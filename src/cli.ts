@@ -328,7 +328,9 @@ async function main(): Promise<number> {
   }
 
   const narrative = hasFlag(userArgs, NARRATIVE_FLAGS);
-  const userConfig = hasFlag(userArgs, CONFIG_FLAGS);
+  const userConfig =
+    hasFlag(userArgs, CONFIG_FLAGS) ||
+    userArgs.some((arg) => arg.startsWith("--config="));
   if (narrative && userConfig) {
     process.stderr.write(
       "--narrative cannot be combined with --config. Enable narrative rules in that config instead.\n"
@@ -336,12 +338,14 @@ async function main(): Promise<number> {
     return 2;
   }
 
+  // With --config the user's file is the whole config. Injecting
+  // --preset slopless alongside it makes the preset defaults win over the
+  // file's per-rule overrides, so a `false` in the file cannot turn a rule
+  // off. Pass no preset or generated config in that case.
   const args = [
     "node",
     "slopless",
-    ...(userConfig
-      ? ["--preset", "slopless"]
-      : ["--config", writeDefaultConfig(narrative)]),
+    ...(userConfig ? [] : ["--config", writeDefaultConfig(narrative)]),
     "--rules-base-directory",
     packageNodeModules(),
     "--format",
