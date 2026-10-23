@@ -1,6 +1,6 @@
 {
   "family": "narrative-craft",
-  "status": "Protected first-check pilot authoring; parent receives counts and read scopes only.",
+  "status": "All authored candidates preserved before reconciliation: full blind and adversarial reviews complete; final review and balanced selection pending.",
   "holdoutInference": false,
   "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
   "collections": [
@@ -9,7 +9,218 @@
       "split": "holdout",
       "stem": "000078-narrative-craft-body-emotion-shorthand-holdout",
       "authorAgent": "01a16a2a-b9b3-75f2-b7e3-44a3f1cce865",
-      "status": "pilot-authoring"
+      "status": "authored-pool-before-reconciliation",
+      "pilot": {
+        "passages": 20,
+        "hits": 10,
+        "noHits": 10,
+        "authorSha256": "19308ad6b39c4fbb3454d42f9f44c10d0098e04ff69160270b981ad66545acc7",
+        "authorScope": {
+          "role": "author",
+          "split": "holdout",
+          "filesRead": [
+            "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/slopless-narrative-v21/holdout/author/pilot.json",
+            "/tmp/slopless-narrative-v21/holdout/author/scope.json"
+          ],
+          "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+          "passages": 20,
+          "hits": 10,
+          "noHits": 10
+        },
+        "blindComparison": {
+          "split": "holdout",
+          "reviewed": 20,
+          "classificationsAgree": 20,
+          "disagreements": 0,
+          "snippetDifferences": 0,
+          "qualityProblems": 0,
+          "blindScope": {
+            "role": "independent-blind-reviewer",
+            "split": "holdout",
+            "filesRead": [
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/holdout/blind-input.json",
+              "/tmp/slopless-narrative-v21/holdout/blind/judgments.json",
+              "/tmp/slopless-narrative-v21/holdout/blind/quality.json",
+              "/tmp/slopless-narrative-v21/holdout/blind/scope.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "reviewed": 20
+          }
+        },
+        "blindJudgmentsSha256": "b851c8b5c8fda976058e8afbf022a90729262b7ec48afbf08e12b55d51e286f2"
+      },
+      "expansionWriters": [
+        "01a16a2a-b9b3-75f2-b7e3-44a3f1cce865",
+        "01a16a33-4f99-73e2-a33a-e52c92832de7"
+      ],
+      "authoredPool": {
+        "passages": 240,
+        "hits": 120,
+        "noHits": 120,
+        "words": 13236,
+        "rawSha256": "fcdf1d238048ba75a4c1e1309d6d27194ecaa050cf2d18c68c797f5a7556b677",
+        "authorScopes": [
+          {
+            "role": "author",
+            "split": "holdout",
+            "filesRead": [
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/holdout/author/pilot.json",
+              "/tmp/slopless-narrative-v21/holdout/author/scope.json",
+              "/tmp/slopless-narrative-v21/holdout/author/chunk-01.json",
+              "/tmp/slopless-narrative-v21/holdout/author/chunk-02.json",
+              "/tmp/slopless-narrative-v21/holdout/author/chunk-03.json",
+              "/tmp/slopless-narrative-v21/holdout/author/chunk-04.json",
+              "/tmp/slopless-narrative-v21/holdout/author/chunk-05.json",
+              "/tmp/slopless-narrative-v21/holdout/author/chunk-06.json",
+              "/tmp/slopless-narrative-v21/holdout/author/expansion.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "passages": 130,
+            "hits": 65,
+            "noHits": 65,
+            "pilotRetained": true,
+            "pilotPassages": 20,
+            "pilotSha256": "19308ad6b39c4fbb3454d42f9f44c10d0098e04ff69160270b981ad66545acc7",
+            "expansionPassages": 110
+          },
+          {
+            "role": "independent-author-two",
+            "split": "protected-holdout",
+            "filesRead": [
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/holdout/author-two/part1.json",
+              "/tmp/slopless-narrative-v21/holdout/author-two/part2.json",
+              "/tmp/slopless-narrative-v21/holdout/author-two/part3.json",
+              "/tmp/slopless-narrative-v21/holdout/author-two/part4.json",
+              "/tmp/slopless-narrative-v21/holdout/author-two/part5.json",
+              "/tmp/slopless-narrative-v21/holdout/author-two/expansion.json",
+              "/tmp/slopless-narrative-v21/holdout/author-two/scope.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "passages": 110,
+            "hits": 55,
+            "noHits": 55
+          }
+        ]
+      },
+      "blindReview": {
+        "reviewed": 240,
+        "classificationDisagreements": 0,
+        "snippetDifferences": 5,
+        "qualityProblems": 0,
+        "parts": [
+          {
+            "resultSha256": "84ea65b9a753196cb6adb86a9e6dd1033dbe156f653fc35735d31b75c1d2b0f7",
+            "scope": {
+              "role": "Independent blind full-pool reviewer, Part A; no delegation",
+              "split": "holdout",
+              "filesRead": [
+                "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+                "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+                "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+                "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+                "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+                "/tmp/slopless-narrative-v21/holdout/part-a-blind-input.json",
+                "/tmp/slopless-narrative-v21/holdout/full-blind-a/judgments.json",
+                "/tmp/slopless-narrative-v21/holdout/full-blind-a/quality.json",
+                "/tmp/slopless-narrative-v21/holdout/full-blind-a/scope.json"
+              ],
+              "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+              "reviewed": 130
+            }
+          },
+          {
+            "resultSha256": "c2327350d8576aca9ecdfde44338776bf00404fb81e9b6b2b11e781d5d80c187",
+            "scope": {
+              "role": "independent blind full-pool reviewer, part B; no delegation",
+              "split": "holdout",
+              "filesRead": [
+                "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+                "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+                "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+                "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+                "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+                "/tmp/slopless-narrative-v21/holdout/part-b-blind-input.json",
+                "/tmp/slopless-narrative-v21/holdout/full-blind-b/judgments.json",
+                "/tmp/slopless-narrative-v21/holdout/full-blind-b/quality.json",
+                "/tmp/slopless-narrative-v21/holdout/full-blind-b/scope.json"
+              ],
+              "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+              "reviewed": 110
+            }
+          }
+        ]
+      },
+      "adversarialReview": {
+        "reviewed": 240,
+        "resultSha256": "da1e11ace21950fc089dd2e1c47cc41953a68f79e5623113722e4778befe0a77",
+        "issuesSha256": "2e15022185801ebb848ac279d08ac850ca046ba9ec82ff2d17bf46a87200a9ff",
+        "classificationIssues": 1,
+        "qualityIssues": 6,
+        "snippetIssues": 0,
+        "scope": {
+          "role": "Sole adversarial full-label reviewer; all 240 full passages read against the frozen definition, independently judged and compared with author and blind labels; Node validates IDs and exact snippets; no delegation.",
+          "split": "holdout",
+          "filesRead": [
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+            "/tmp/slopless-narrative-v21/holdout/pool.json",
+            "/tmp/slopless-narrative-v21/holdout/full-blind.json",
+            "/tmp/slopless-narrative-v21/holdout/blind-comparison.json",
+            "/tmp/slopless-narrative-v21/holdout/adversarial/judgments.json",
+            "/tmp/slopless-narrative-v21/holdout/adversarial/issues.json",
+            "/tmp/slopless-narrative-v21/holdout/adversarial/scope.json"
+          ],
+          "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+          "reviewed": 240
+        }
+      }
     }
-  ]
+  ],
+  "pilotOverlap": {
+    "newInputs": 40,
+    "priorDocuments": 15721,
+    "legacyFiles": 39,
+    "referenceInputs": 317502,
+    "pairs": 12700480,
+    "candidates": 0,
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new cross-split pairs; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "verifierSha256": "453d4f07abc3698a08efad0ce7e8b8311107d11918c9f3cdc206df2dff86fdf7"
+  },
+  "poolOverlap": {
+    "newInputs": 480,
+    "priorDocuments": 15721,
+    "legacyFiles": 39,
+    "referenceInputs": 317502,
+    "pairs": 152515920,
+    "candidates": 0,
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "verifierSha256": "ce444aa7b1e588a0a40b96cb335b1a7d368a61b6e76b4ffc152e9ae9fe6e250f"
+  }
 }

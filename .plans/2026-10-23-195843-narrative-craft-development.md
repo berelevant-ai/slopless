@@ -25,6 +25,16 @@ Develop the next accepted V2 family, `narrative-craft`, using realistic reviewed
 - Determine gratuitous clock detail from its role in the passage. The supplied text supports judgments about relevance; it supplies no evidence that a timestamp was fabricated.
 - Record the reviewed final checks, input declarations and ownership boundaries in the existing accepted taxonomy. Keep protected definition extracts free of development examples and historical scores.
 
+## Source Review
+
+- Start with `body-emotion-shorthand` and the bodily-reaction branches of `narrative-cliches`. The remaining cliche branches cover voice, atmosphere, time transitions and foreshadowing and retain their coverage for later definitions.
+- `empty-beat` and `low-information-physical-blocking` are the strongest consolidation candidate: both detect placeholder pauses or positioning. Review `gaze-choreography` separately against useful observations.
+- `body-action-density`, `low-information-beat-density` and `perception-verb-density` supply candidate actions and observations. Their counters establish frequency; meaningful defects still require contextual definitions.
+- Keep `emotion-as-substance`, `emotion-telling` and `abstract-personification-line` distinguishable while reviewing their scopes. The first bodily-reaction batch establishes none of their labels.
+- `empty-scene-state`, `empty-atmosphere-shift`, `empty-emotional-weather` and `silence-as-actor` overlap around generic mood description. Any consolidation must preserve useful observations and independently meaningful figurative description.
+- `fixed-metaphor-frame` and `sensory-instead-of-frame` require informative imagery controls. The literal frame alone cannot distinguish decoration from a useful image or sensory contrast.
+- `summary-fog-transition` needs controls for purposeful compression and memory limitations. `fake-timestamps` needs relevance controls; its recognized time spelling supplies no finding of fabrication.
+
 ## Dataset Requirements
 
 - Cover plausible fiction, memoir, factual incident accounts, travel writing, sports narration, workplace stories and explanatory examples with narrative passages.
@@ -64,4 +74,6 @@ Develop the next accepted V2 family, `narrative-craft`, using realistic reviewed
 - The preceding frame repair is recorded as unsuccessful, with its original prompt retained. The user asks to move on on 2026-10-23.
 - Independent source review covers all nineteen identifiers. Preserve distinct defects and leave broad consolidations proposed; the first dataset batch uses only `body-emotion-shorthand`.
 - Definition review corrects three boundaries: include embodied-object burden, judge the bodily reaction's specific contribution rather than mere sequence, and preserve involuntary communication as well as intentional signals. The reviewer approves the revised extract before generation.
-- The accepted taxonomy now contains that first reviewed definition. Separate authors are generating twenty-case development and protected holdout pilots, each with ten hits and ten no-hits, before pool expansion.
+- The accepted taxonomy contains the first reviewed definition. Both twenty-case pilots pass independent blind review: ten hits and ten no-hits per split, with one development snippet-boundary difference retained separately.
+- The pilot copy screen finds zero candidates against 15,721 earlier dataset documents, 39 legacy Markdown fixtures and definition examples. Its 317,502 reference inputs produce 12,700,480 eligible comparisons.
+- Two independent writers per split now expand each pilot to 240 candidates. Their disjoint passage ranges preserve the original pilots and broaden styles before the three full review passes.
