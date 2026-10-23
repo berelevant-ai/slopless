@@ -1,6 +1,6 @@
 {
   "family": "narrative-craft",
-  "phase": "complete-original-pools-with-partial-reviewed-pools",
+  "phase": "complete-original-pools-with-partial-reviewed-and-selected-pairs",
   "holdoutInference": false,
   "collections": [
     {
@@ -1931,7 +1931,631 @@
             "changedRows": 0,
             "approved": null
           }
-        ]
+        ],
+        "archiveCommit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76"
+      },
+      "finalSelection": {
+        "id": "000085",
+        "split": "development",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/emotion-telling": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1",
+        "sourceSha256": "e7eefe1805659c42296d20db4f890e3f209e3d750579152a4c8c2cc89fbd5fad",
+        "words": 10185,
+        "version": "v21-balance",
+        "checks": [
+          "narrative-craft/emotion-telling"
+        ],
+        "archive": {
+          "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+          "textSha256": "9af367476380106fb4851ef234dbaf75aca65d0a731144ddb877020c4c2b0804",
+          "labelsSha256": "25772f63673202ccee886ee133e8b5f3ce3be5d5f80ad5f8c5c249d6738b8e8a",
+          "stem": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development"
+        },
+        "sourceRows": 240,
+        "ranking": "sha256(v21-balance:<split>:<rawId>)",
+        "priority": [
+          "retained-pilots",
+          "changed-boolean-labels",
+          "review-backed-rewritten-hard-cases",
+          "remaining"
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 120,
+            "mandatory": 26,
+            "retainedPilots": 10,
+            "changedLabels": 0,
+            "rewrittenHardCases": 16,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 120,
+            "mandatory": 33,
+            "retainedPilots": 10,
+            "changedLabels": 0,
+            "rewrittenHardCases": 23,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ],
+        "retained": [
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p207",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p142",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p146",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p176",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p238",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-final-curate.json"
+            ]
+          },
+          {
+            "id": "p179",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p203",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-final-curate.json"
+            ]
+          },
+          {
+            "id": "p178",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p184",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p194",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-final-curate.json"
+            ]
+          },
+          {
+            "id": "p136",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-final-curate.json"
+            ]
+          },
+          {
+            "id": "p225",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p139",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p160",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p145",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p188",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": [
+              "pilot-adjudicate.json"
+            ]
+          },
+          {
+            "id": "p080",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p043",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p105",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p048",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p099",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p129",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p120",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p033",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p024",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p057",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p021",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p089",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p030",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p036",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p127",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p092",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p063",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p072",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p050",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p114",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p108",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p054",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p116",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          }
+        ],
+        "inputs": [
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections.json",
+            "sha256": "5931a434ec61b4714f8a5a0c34cb708fc58838f74706ba19e5e6f07d7faaa663"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reviewed.json",
+            "sha256": "e7eefe1805659c42296d20db4f890e3f209e3d750579152a4c8c2cc89fbd5fad"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pilot-author.json",
+            "sha256": "bb71fa13d60b9642673fb568e70b659362985ebc685fe6027a0765246fe9d52b"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-author.json",
+            "sha256": "7929ea24ae169ae8ff68041ac4c4fcff7c949967b59aa37a02ef684e81210df9"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pilot-adjudicate.json",
+            "sha256": "51e8557cfc1ce26529574c93c761df2ad3948273a6ee1b8b80139fe4a9795975"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-final-curate.json",
+            "sha256": "370c2b494000129a48a64851960f50d37d59dbc01d5d8d9529bac1e5084e3296"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reconcile.json",
+            "sha256": "bae490f35a5a700a54c0c7b3ac29406b57f6b4a508e077f5d8f8fd6de06e5398"
+          }
+        ],
+        "status": "frozen-balanced-isolated-pair"
       }
     },
     {
@@ -2261,7 +2885,564 @@
             "changedRows": 2,
             "approved": true
           }
-        ]
+        ],
+        "archiveCommit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76"
+      },
+      "finalSelection": {
+        "id": "000086",
+        "split": "holdout",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/emotion-telling": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c",
+        "sourceSha256": "b4c3bfb4f1896f001befa95d67d3b2a740c769445e0bcfc61f94b203fec35289",
+        "words": 10313,
+        "version": "v21-balance",
+        "checks": [
+          "narrative-craft/emotion-telling"
+        ],
+        "archive": {
+          "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+          "textSha256": "7e68e64f80e4ae5ea7adbf0c124ced13976185c2e9174d068101d20ffbdb7514",
+          "labelsSha256": "8149f33a2a400864506ee387e08153afa50e29f225b7820fb317b11e1425c170",
+          "stem": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout"
+        },
+        "sourceRows": 240,
+        "ranking": "sha256(v21-balance:<split>:<rawId>)",
+        "priority": [
+          "retained-pilots",
+          "changed-boolean-labels",
+          "review-backed-rewritten-hard-cases",
+          "remaining"
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 122,
+            "mandatory": 28,
+            "retainedPilots": 10,
+            "changedLabels": 2,
+            "rewrittenHardCases": 16,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 118,
+            "mandatory": 26,
+            "retainedPilots": 10,
+            "changedLabels": 0,
+            "rewrittenHardCases": 16,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ],
+        "retained": [
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p129",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": true,
+            "decisions": [
+              "pool-final-curate.json",
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p149",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": true,
+            "decisions": [
+              "pool-final-curate.json",
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p124",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p022",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p030",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p166",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p042",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p132",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p224",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p052",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p080",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p214",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p234",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p134",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p220",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p108",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p054",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p102",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "decisions": []
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p173",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p049",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p233",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p029",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p109",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p039",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p059",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p239",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p189",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p219",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p099",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p169",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p209",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p089",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p151",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p069",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "decisions": [
+              "pool-reconcile.json"
+            ]
+          }
+        ],
+        "inputs": [
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections.json",
+            "sha256": "5931a434ec61b4714f8a5a0c34cb708fc58838f74706ba19e5e6f07d7faaa663"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reviewed.json",
+            "sha256": "b4c3bfb4f1896f001befa95d67d3b2a740c769445e0bcfc61f94b203fec35289"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pilot-author.json",
+            "sha256": "b943948beb7a8ec2cd64e41ac407bab1e4d101adc0f4c329bccedbb4fd0dd725"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-author.json",
+            "sha256": "ccd66eba66cffd16f59bdab98562bef7f7351dc5e3d08e09eba83171428e217c"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-final-curate.json",
+            "sha256": "8bc58dd7ea599b0007b6f8514c487a9ba3f861ed1b8ff8908d75f22f2d98de20"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reconcile.json",
+            "sha256": "b6f5d05aea8a4a8b376c08e406d6fd5c781581c889e418c6b3eb6c94884d366c"
+          }
+        ],
+        "status": "frozen-balanced-isolated-pair"
       }
     },
     {
@@ -8168,7 +9349,8 @@
   "reviewedCandidateTotals": {
     "collections": 5,
     "passages": 1200,
-    "words": 63860
+    "words": 63860,
+    "archiveCommit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76"
   },
   "schedulerRepair": {
     "reason": "Completed batch members retained startup reservations, leaving free review capacity",
@@ -8334,5 +9516,277 @@
         "preservedLog": "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/replacements-blind.interrupted-scheduler-replacement.log"
       }
     ]
-  }
+  },
+  "selectedCandidateTotals": {
+    "collections": 2,
+    "passages": 400,
+    "words": 20498
+  },
+  "selectionCopyScreens": [
+    {
+      "phase": "emotion-telling-balanced-selection",
+      "verifierSha256": "37c8e1eaec1b0a7611279bff5f084cf430efbc4dc4d56c5a7d93881afd1232d1",
+      "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+      "sources": [
+        {
+          "path": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+          "sha256": "c9244f19ffac28ef62342603fa614f26711ad05715fa7b5253efd3b71e5d0843",
+          "labelsSha256": "1dac46b92f9de4b157c6356165efeb39b77458f215616e1501847e7f1c2af07e"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.md",
+          "sha256": "b784b45b675d1f56a9ada49544a8761906208e59139e1cdff60baaeb9a151afc",
+          "labelsSha256": "26e0dee2ad3e507a3fc112aadb1d33dc82719d56520e6c1b8a404191892b7568"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+          "sha256": "02ef85e9b3dc6f21346358da57cb4a848ab5ab26adffaeafd0f0af908f9abc76",
+          "labelsSha256": "6abc4b24fc8e4bb955bbc40cac05d7d3cfd82189fe258764d7bb240a7da8bcbe"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.md",
+          "sha256": "03015ffdf9ce02a3797e531f1a9bbe0c4bdb9878da2f2b62f24f82191b5d41e4",
+          "labelsSha256": "71f2eff355b7b4330813b6b95656474457e3004dc1c790be79680f84a28f80d2"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+          "sha256": "ab1242c3422e8bedd8feb737067eff28a6ebaf2b3a123f9c4f6566f6758094c8",
+          "labelsSha256": "2603678169f0519faaa87682465d8fc4b698e4c46ffe8c77a0784181ca8a9521"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
+          "sha256": "4d6ef9282216e7eabebff7671779bda5d14834d6e390f30ecc8eccacd3037c17",
+          "labelsSha256": "d17d58ec031932f2d6fc7fa26f780261bb43f47cfff10bf67bd8ae9878acca1c"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+          "sha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1",
+          "labelsSha256": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+          "sha256": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c",
+          "labelsSha256": "019e76486132131977e68e97760e7c57721a28aa14d089e2a95910dc232438d6"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+          "sha256": "897e4c6c56b52716031bcd5fee971ffcaf32e7d805a3a951575d7d0d4f01156e",
+          "labelsSha256": "d528df82f26262c0e850ad91db5e30968a9f07fd098ae0db6047863affc1d358"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.md",
+          "sha256": "3ce1f859b944e7fd091a2b02dde3549ad8f9256080bb3eff44522533a218f6ab",
+          "labelsSha256": "f6297677ecfdb366d9f7d1298afcd47934cb523cb581bebee900cf3e361d30e9"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+          "sha256": "65c8cb2e085ae5d8c46fcae6a23f0dedc1dd3759e51bf868b3e2f5c77c923cd9",
+          "labelsSha256": "da9913a0aa01f039092b7dbf693a65e7d2b2d29b28d59a02a1eb4a97a13254db"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.md",
+          "sha256": "5402404839d6f47d46df83ce6343dece8f58519c83ba1c6756731d5fd9cfa22c",
+          "labelsSha256": "b49a55d139102c94262e79020d082410728fe4b4722b23c92f31cf4b6de7ee6d"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+          "sha256": "5176b6d80e09ea10a003a91897385eaf137e817b129d9c79cd66bb93c6838fbb",
+          "labelsSha256": "2a221d7127fa25d31cc33cb982adb854bd8ed5bb319c4012cf19bf6f3578013b"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.md",
+          "sha256": "2883182ff6a62cc95e33de460fae953df8bb651fa8810cab9c0b88fffc8e5b94",
+          "labelsSha256": "f2f46c4d1cef9d48f511d8f305f861fe65ef10ce3a80d6b5021f28cb59f8a4c1"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+          "sha256": "7cb93d4196a98e8afbe187a07288995e395dd4805e88134d9901dd95a5660513",
+          "labelsSha256": "cc9b9fa564e243430525527b512d2f914077841c3a0058accd2fa2cabf4b4fb0"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.md",
+          "sha256": "8285da2478aab9568493c39ffd8c67fb6b4cb224095d2e362f2529ab59bb8bd9",
+          "labelsSha256": "c174c59274747f12f4f5258c22f9818b6a8ee61d6998597edf85b9ef8c1010be"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+          "sha256": "93a61ecaa379a8915ef3b81c028f0437a9a7248c2ae98d58a9f5427e6506204e",
+          "labelsSha256": "97b3ac9ef7ecd046df78af4b0ff8e63b6bfbd6e882943faf0c874cf0da3b9c19"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+          "sha256": "d9f85da3e8b619d1f53b0b62b11bbe8d6f4b2b9e4e52d2d2291046746be89d6c",
+          "labelsSha256": "66d3c389818d18b715c0ecab4c24fe893b8751bc10d3913a5cc597150f187764"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+          "sha256": "6a0c25bf5d93dbfaa5b1e91e631ab92672dff7a548a7221757afc0652c4c45b0",
+          "labelsSha256": "8efd023674bdcb93b166fb8d987959e6fb23bf2749a70c88cfc2d9cb86d6ccd0"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
+          "sha256": "efa3710ea06b1e681c1c305d914fda1b91c8b1fe2b4eac73f42af2d14c13032b",
+          "labelsSha256": "4bdfb72622110da89419fdc9b57f8ee691759925e9ac89d94160516fb69a313b"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+          "sha256": "6a6a23231c9567d192f002df394b1f38cdea5b303e43bca1290618375b00e4a2",
+          "labelsSha256": "5bfa4951360e5a997dc708d09a85c74608008f064a32bd3ee3102a152c40f0f2"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.md",
+          "sha256": "2cac824dfb96b3f68ea684b5cc9fb392421897c9e82dfaf484d0a2212bf410af",
+          "labelsSha256": "a62c9437fbe2b930b7fdfdce8f2eedade7e8feb0845e587b0c7c87e4b690c4ce"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+          "sha256": "f44a677a2e6ec7565ce856a9f14f9aa1d9ac998f84cda57640ab38601e6ad8f9",
+          "labelsSha256": "1b6617abb6ba0f3822ebd635bc4d425df8593bf1300100c6a4165065e4440cac"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.md",
+          "sha256": "3cd134b14e42c7f371802634cd8e7ff841bc1e9e2501bf22520af23b34e933b3",
+          "labelsSha256": "38d2dc9948b1fc53c43063d5b8c2ccf79550f8eb8d3a40b8f9ebece6a91a3fec"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+          "sha256": "858ebd972598467fc84542cce05eeace55db2773600a5f7c4611cd8dff1cb0d7",
+          "labelsSha256": "ca32132f282c119168acd4126040b7c80cc64a0c6a9730bd9c2fa88581ff5de2"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+          "sha256": "d381f5aaa68d3c54a39481d847d57710c0a25f24eab0ddd6889512d29b72ca50",
+          "labelsSha256": "1fe99392da36e04644c68d3947acf8a233ceb53c21677238e66a295d29e9b90b"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+          "sha256": "2c0845d80191dc88fa612454b6ae012cf67ed4b5200c315c526aef73223411d7",
+          "labelsSha256": "f8b2880125f1850951bfd6a29d21303fcadb10637e770ea7228b03084ff69d04"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.md",
+          "sha256": "6bd271dd60efaef0be8ae668675f6aeb731d243673654087f51dfb91494c301d",
+          "labelsSha256": "7de08544e69abd48c70a8685e2b529bfd68df79a2b4862e48a27f2d0b7934323"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+          "sha256": "9581763d7fe6f6a1b1f7965455c38efa3631a22a9e23b6b042459a74e81ed05c",
+          "labelsSha256": "2f7b420334085a8180126bbf34b979be48ac595f4797bb6f2afe3c6f008c3e60"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+          "sha256": "653423a0eac1ba9cc17bdac2afdf9a3c09d46d3f57e641b7d4430fc3745cc7b4",
+          "labelsSha256": "7ac3c2c61e344b9e0110049288d5dd7eb6b69ef2b30bda8b95f48935bcc90c25"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+          "sha256": "3f14e094c689211c1ebb7adee3be72a05ad6d3db03a88e3f6ce8c34d9426a4b3",
+          "labelsSha256": "d57c19589cc54317748c25a780d3d95bcd69acb1555e6f42034a26c9e20833c4"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
+          "sha256": "844f2e7ca476da25d11b5c2be9dfbeaf72c046b208feeadff5543bf10d00ad89",
+          "labelsSha256": "fe47733147cf80409ff08de0b4eec91a64b2afe47fa3ef7e81aea6003b809a78"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+          "sha256": "e3d29e494200a4e01482ab05b8f5739cf78f29c46d53e81cfb45174cbca58143",
+          "labelsSha256": "06dd46530bf64cf1f8a9de7e2bb69ad43322aa3bcafd158fc25748146f59e635"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.md",
+          "sha256": "5008f65a5c5227d52d95266e46ad3fa2264c085e8cc7b18a06da8ccf1b325244",
+          "labelsSha256": "755e50d61ea04d95143181062c224cfd881dc455307315eb077892dd4954dcae"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+          "sha256": "fd3c62dafa38e7f6c248d2da4084ef05e28d66a72c520bb38eb397fe4863caca",
+          "labelsSha256": "c31f66145bb377668d04abbf09f546bc871aafadf6424c426bc0c6718a192264"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
+          "sha256": "a888f64b7b83a009f3df6ae6f6ae4bde88147646b65df1c3de26f4eac4653f02",
+          "labelsSha256": "9ecbd97110413fb8118a18c74b7f18a3665b5841508839039c61234e0a03c1c5"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+          "sha256": "2324989390fc4eace108971e0c547ab15272b504a7309eaa4430c1f51536a631",
+          "labelsSha256": "70ea1a742810897716b6f29f576126549e6315f9d209f29078f0ea968a5cf2cd"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+          "sha256": "0d5599fe8efc2d9f01ed3febd1918f7ecac10d5b098627964c0d72853815c125",
+          "labelsSha256": "e5d541367140e919ceccd6f0b73a84a513d1472570be9ef44eb5b25377e510ff"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+          "sha256": "053c5c27180406a9e7c75a43fd73e71912cb920099f07e822a12d26b9f6abe27",
+          "labelsSha256": "e9206b1ea280910c9482309f5c0231d524c97255efdcce243d84e90119921338"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+          "sha256": "2172294843814615ccafd0430bb33fd4f00d1fb7bb9f0f22132d8e4d76df62b2",
+          "labelsSha256": "fd7991b10c99d0a3845cedb4e374fdc4f16b274c9770d5281ff59258b597c402"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+          "sha256": "45b3a61c0acd5ab9f29c50be37da9f112150256ec08b8faecae123c626dd6a97",
+          "labelsSha256": "847c44daa6f6b010ed9935dac55d581d58bc13055c547466ad52a15223b5467f"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+          "sha256": "79ccf178eaa3efd6b6aafcf666d5ecbc76c3cedc70ed51d76b8e8e6beb351c1e",
+          "labelsSha256": "f977f72e208fdcaf82c845aabda705e14e452a79ca761d93dd8946817a792b7f"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+          "sha256": "04d9d7e15264bc7076c35a60f1748dac3e3291225567e010899996f214ddb36b",
+          "labelsSha256": "5a0aa48df246d1e2ea0171397f81bbcfd62e9c7eb000a77d91920c7e2015082b"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.md",
+          "sha256": "db841b49c1fe2da7c31e8e69f9df09c1426060e24cd0824e70dfbe4cd5bbd347",
+          "labelsSha256": "8063ebb16ba6517f6b4b49cbfe432e67ebe52be714a51a7f96c64b6ffd3d04db"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+          "sha256": "a7f4907859d10dfe9fcce98f5c41cd684b36af24046a203f88519bdae3168639",
+          "labelsSha256": "390f07140ac73412c524140d073123acf0e9ffa6bb167a7277e47a5fccd65de1"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+          "sha256": "e96b40f83a25562e7fc36b6cd43d419ce36911df48f66abffdb6b876c98f840d",
+          "labelsSha256": "f8beaed2ff4006eb846b6b0b273edad72fdf89715527aa70d72b49734529d310"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+          "sha256": "0fc3ca293ee927e97b92f3304a6aef56ebf0ef598ab281e35019b778cb69fb98",
+          "labelsSha256": "7c263c0aad4ce57efd2d7222ab2671a149877845ec36008b42c3cc4464ae1839"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+          "sha256": "af9aed35a1d7ac537c6d0d1c1b8403be95eb8bc4f710e5803c458699d169552d",
+          "labelsSha256": "9fe5ce8cb408da903d2dd131855f26d10215d01e1919f6bfd99ebfaf6b3e8cfb"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+          "sha256": "65ae24437edbaca2cd5b90ceb54bf66656f9cf1f9b5c591fcbd749583564a08a",
+          "labelsSha256": "7dfb715d96903b305107154a0c5bf88e7d9918e026f89b28b253298da8d9f82d"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+          "sha256": "847c2239c499a273dbf07fa776d1c234a7e1a6ed9a84efc10032ee49c7971f89",
+          "labelsSha256": "92df818431fde83a8f33d538dc9e3f32fc83a853dc9ecb6e825f49fc1ac9eb11"
+        }
+      ],
+      "priorSourcesSha256": "66f62a98bcb97d77558100cd0ceeb6d393346503deb1a56b5901ae1cdcb15e4e",
+      "priorDocuments": 15723,
+      "legacyFiles": 39,
+      "newInputs": 11920,
+      "referenceInputs": 318109,
+      "pairs": 3862896520,
+      "shortComparisons": 0,
+      "candidates": []
+    }
+  ]
 }

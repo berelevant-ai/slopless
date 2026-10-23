@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "auditedAt": "2026-10-23T22:46:03.442Z",
+  "scope": {
+    "collections": ["000085", "000086"],
+    "check": "narrative-craft/emotion-telling",
+    "method": "Read-only Node assertions; aggregate-only projections of passage data and individual judgments.",
+    "repositoryEdits": 0,
+    "delegation": false,
+    "freshReviewer": "Not used: user prohibited delegation.",
+    "inferenceRuns": 0,
+    "semanticLabeling": false,
+    "promptTuning": false
+  },
+  "commandsCompleted": [
+    {"command": "cat and tail global AGENTS.md, writing SKILL.md, structure/style guides and internal-doc guides", "exitCode": 0},
+    {"command": "cat permitted select.mjs, pack.mjs, runners/datasets.mjs and runners/dataset.schema.json", "exitCode": 0},
+    {"command": "rg --files with exact allowed root record names", "exitCode": 0},
+    {"command": "node --input-type=module (JSON structure projections and scoped filename inventories)", "exitCode": 0},
+    {"command": "git --no-replace-objects show -s --format=%H,%cI,%P fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76", "exitCode": 0},
+    {"command": "git status --short -- <the four scoped dataset files>", "exitCode": 0, "modifiedFiles": 4},
+    {"command": "node --input-type=module (47 aggregate assertions; Git blob reconstruction; readDocument for both scoped pairs; filename-only response inventory; input stability checks)", "exitCode": 0, "assertions": 47, "passed": 47, "failed": 0},
+    {"command": "git --no-replace-objects show fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76:<each scoped MD/labels path> (inside Node; payloads retained in process)", "exitCode": 0, "blobsChecked": 4},
+    {"command": "git merge-base --is-ancestor fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76 HEAD (inside Node)", "exitCode": 0}
+  ],
+  "completedChecks": [
+    "Each split contains exactly 200 unique selected passages: 100 hits and 100 no-hits.",
+    "Git archive contains each complete 240-row reviewed pool, with identical reconstructed text, samples and labels.",
+    "Each archive preserves all 240 original pilot/expansion IDs.",
+    "All 400 selected rows are identical to their reviewed-pool rows.",
+    "Independent reconstruction reproduces selection order, priorities, SHA256 ranking and per-class quotas.",
+    "All 113 mandatory rows are retained: 59 development and 54 holdout, including all 40 pilots.",
+    "Source and final snippets occur literally in their passages; root labels contain only permitted minimal fields.",
+    "Both root pairs pass the existing dataset reader and match reconstructed selected text, samples and labels.",
+    "Root review records, packing records and selection metadata match current source hashes and Git archive hashes.",
+    "Six distinct preselected development demonstrations match selected rows, generated IDs and text hashes, with 3 hits and 3 no-hits.",
+    "Emotion-telling candidate registry is empty and its status awaits first inference; scoped filename inventories contain zero detector artifacts.",
+    "Copy-screen reports zero candidates, matches the root review record, and records the current hashes of both root pairs.",
+    "All 22 permitted engineering/data inputs remained unchanged during the assertion run."
+  ],
+  "archive": {
+    "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+    "committedAt": "2026-10-23T22:41:27.000Z",
+    "ancestorOfHead": true,
+    "selectionCreatedAtBothSplits": "2026-10-23T22:41:38.984Z",
+    "chronologyEvidence": "Archive commit precedes both final-selection filesystem creation and modification times."
+  },
+  "collections": [
+    {
+      "id": "000085",
+      "split": "development",
+      "reviewedRows": 240,
+      "originalIdsPreserved": 240,
+      "selectedRows": 200,
+      "hits": 100,
+      "noHits": 100,
+      "mandatoryRetained": 59,
+      "pilotsRetained": 20,
+      "archiveTextSha256": "9af367476380106fb4851ef234dbaf75aca65d0a731144ddb877020c4c2b0804",
+      "archiveLabelsSha256": "25772f63673202ccee886ee133e8b5f3ce3be5d5f80ad5f8c5c249d6738b8e8a"
+    },
+    {
+      "id": "000086",
+      "split": "holdout",
+      "reviewedRows": 240,
+      "originalIdsPreserved": 240,
+      "selectedRows": 200,
+      "hits": 100,
+      "noHits": 100,
+      "mandatoryRetained": 54,
+      "pilotsRetained": 20,
+      "archiveTextSha256": "7e68e64f80e4ae5ea7adbf0c124ced13976185c2e9174d068101d20ffbdb7514",
+      "archiveLabelsSha256": "8149f33a2a400864506ee387e08153afa50e29f225b7820fb317b11e1425c170"
+    }
+  ],
+  "hashCounts": {
+    "guides": 6,
+    "engineeringAndDataFiles": 22,
+    "archiveBlobs": 4,
+    "rootCopyScreenPairHashes": 4,
+    "currentPermittedSelectionInputHashes": 8,
+    "developmentDemonstrationTextHashes": 6,
+    "sourceSnippetsChecked": 240,
+    "selectedSnippetsChecked": 202
+  },
+  "files": {
+    "/Users/tartakovsky/.codex/AGENTS.md": "5ebe89b39fd1f0ca7858eb7393c12c4f13a1657c4d525894393829eb28fb271a",
+    "/Users/tartakovsky/.codex/skills/writing/SKILL.md": "adf7da3e489a1fec7631d9d7c63285931c8eb16f631af4fd11766dd20c4faa22",
+    "/Users/tartakovsky/.codex/skills/writing/structure/README.md": "443092f2a3d5c1c6044446ea1d3664c44bae6829fdaec2286b23bff2490f81f5",
+    "/Users/tartakovsky/.codex/skills/writing/style/README.md": "4e82d071fed43c7c4633da67cf702a97827b3db4a8d5ec7f28cd56b081110b6f",
+    "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md": "7c52771a4dad637c482f9b1f68586a98018064326a6dc07ecfa3c2776554f18f",
+    "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md": "7fde18136b9fc0e0bd09ac5d95de764f8c5c3811f58d98da73dda3b4bbc82ec9",
+    "/tmp/slopless-narrative-v21-full/collections.json": "5931a434ec61b4714f8a5a0c34cb708fc58838f74706ba19e5e6f07d7faaa663",
+    "/tmp/slopless-narrative-v21-full/selection-report.json": "4eb45f65ccf8f69440920a56c05739458e134ec8d1a603fca912563a2cf19f44",
+    "/tmp/slopless-narrative-v21-full/final-selection-packing.json": "255991ac2b35b640b628b4c41fca3537b53599209ecf4142c1b9d5610e1e0276",
+    "/tmp/slopless-narrative-v21-full/emotion-telling-selection-copy-screen.json": "71be323ff73b3103f11b2b61c9e5f0a4593e1988748e9489a5d4dc1912a988fa",
+    "/tmp/slopless-narrative-v21-full/select.mjs": "6e65b13a347015b018d1083eb5b3fd9b4758dc26e5174bb8a70e47a44de57153",
+    "/tmp/slopless-narrative-v21-full/pack.mjs": "71aaa643166b9e6641bcdca04db1d642482c2e8b7786559b3e51271a4be07bc7",
+    "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+    "runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3",
+    "runners/results/narrative-craft-v21-data-review.json": "6e29a50723c8fed6c803dc052e66a4fb03b7e587ae210e998b71ea73db6fa2fe",
+    "runners/results/narrative-craft-v21-development-tuning.json": "227fc7e62f07424ee39e1356a71800cf1921844eeda2a4ae9f1f84fcb3755c78",
+    "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-reviewed.json": "e7eefe1805659c42296d20db4f890e3f209e3d750579152a4c8c2cc89fbd5fad",
+    "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/final-selection.json": "04be00efd3831d78c316682df6d9df5901780ea076ae6e9c7691bda46ea6cb84",
+    "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pilot-author.json": "bb71fa13d60b9642673fb568e70b659362985ebc685fe6027a0765246fe9d52b",
+    "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pool-author.json": "7929ea24ae169ae8ff68041ac4c4fcff7c949967b59aa37a02ef684e81210df9",
+    "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-reviewed.json": "b4c3bfb4f1896f001befa95d67d3b2a740c769445e0bcfc61f94b203fec35289",
+    "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/final-selection.json": "2761b6eaca20b6640cecc3d1a5144997223036aa7e67be380a404c052f1b1d1d",
+    "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pilot-author.json": "b943948beb7a8ec2cd64e41ac407bab1e4d101adc0f4c329bccedbb4fd0dd725",
+    "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pool-author.json": "ccd66eba66cffd16f59bdab98562bef7f7351dc5e3d08e09eba83171428e217c",
+    "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1",
+    "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.labels.json": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53",
+    "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c",
+    "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.labels.json": "019e76486132131977e68e97760e7c57721a28aa14d089e2a95910dc232438d6"
+  },
+  "verificationScope": {
+    "curatorEvidence": "Mandatory changes were reconstructed from permitted original and reviewed rows; retained metadata contains decision references. Five referenced curator files remain outside permitted reads.",
+    "copyScreen": "Validated the recorded zero-candidate screen and current scoped root hashes. Other dataset writing remains outside this audit.",
+    "detectorResponses": "Checked the empty emotion-telling candidate registry, runners/results filenames recursively, temp top-level detector filenames, and detector filenames in both scoped collection directories. Inference payloads remain unread."
+  },
+  "findings": [],
+  "remaining": [
+    "Main must commit the four frozen dataset files and associated records before first emotion-telling inference."
+  ],
+  "otherFamilyWork": "Continues independently."
+}
