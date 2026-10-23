@@ -27,6 +27,8 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - All four word-repetition pools complete three current-definition full reviews. Final adjudication continues; two twelve-passage supplements replenish mixed holdout combinations reduced by corrected labels.
 - Build, ESLint, paragraph-runner tests, 100% strict type coverage and Fixture3's dataset contract pass. Development inference remains pending the final balanced freeze.
 - All twenty candidate pools complete current-definition reviews and final adjudication. Twenty-four additional protected mixed passages bring the reviewed archive to 4,824 candidates and 7,752 judgments; every selected collection still targets 200 passages.
+- All twenty balanced pairs now contain 4,000 passages and 6,400 judgments. Every check has 100 hits and 100 no-hits in each applicable collection; every mixed combination has 25 passages. Preserve all 824 surplus candidates in their recorded Git archives.
+- The final identity audit finds zero new-ID collisions across all origins. The overlap screen finds zero candidates against 15,701 older documents, 39 legacy Markdown fixtures and both definition revisions; 313,645 reference inputs are screened.
 
 ## Source Review And One Proposed Consolidation
 

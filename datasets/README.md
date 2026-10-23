@@ -168,6 +168,18 @@ The complete reviewed pools preserve 160 surplus passages with their labels in G
 
 The [development report](../runners/results/excessive-hedging-v18-development.md) records the bounded prompt search and one fresh confirmation. Hedging meets the fixed development limits on isolated and mixed data; the two frozen comparator checks fail their limits on these new mixed passages. User review is pending. Use development for prompt authoring; holdout model evaluation requires separate authorization.
 
+## Rhythm And Repetition Sets
+
+Twenty paired collections, `000057` through `000076`, contain 4,000 passages and 6,400 judgments. Seven checks have isolated development and protected holdout sets with exactly 100 hits and 100 no-hits each.
+
+- Sentence-frame repetition combines the two overlapping legacy opening/frame checks. Repeated predicate endings, flat action cadence, fragment stacking, formal transitions, formulaic lists and word repetition retain separate judgments.
+- Three mixed groups cover related constructions and their independent controls. Each split has 200 passages per group, with 25 examples of every three-check combination and 100 hits/100 no-hits per check.
+- Mixed group C includes frozen hedge stacking alongside word and frame repetition. Assess every named check separately and preserve the complete passage.
+
+Three full independent reviews precede adjudication and balanced selection. The split-specific rhythm review records in `runners/results/` preserve corrected cases, archive hashes, mandatory IDs and active selections. Git archives retain all 824 surplus candidates and their labels.
+
+The final overlap screen finds zero candidates against previous datasets, legacy fixtures and definition examples. Global identity checks find 4,000 unique new passage IDs and zero collisions. Keep holdout writing outside prompt development; holdout model inference requires separate authorization.
+
 ## Commands
 
 ```sh
