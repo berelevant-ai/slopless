@@ -35,6 +35,8 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - Build, lint, formatting, spelling and strict type coverage pass through `pnpm run validate`. Fixture3's dataset contract matches, and all six paragraph-runner tests pass. Explicit prompt/report formatting and the documented offline score command also pass.
 - Final independent review verifies 147 items and identifies two bookkeeping corrections: stale revision-one demonstration lengths/hashes and outdated split-review statuses. A fresh correction audit verifies both repairs and approves the report; check GitHub CI for the publishing commit before closing this round.
 - The user subsequently authorizes the frozen holdout evaluation. Sixteen native outputs complete 3,200 judgments on 2,000 passages, including the frozen hedging comparator; validate saved requests and scores before reporting. The seven new checks catch 1,364/1,500 hits and flag 157/1,500 no-hits. Preserve the unchanged prompts and labels.
+- The [frame-prompt repair](../runners/results/sentence-frame-v20-development-repair.md) rejects both revisions at 96 and 88 development errors versus baseline's 78. Retain `v19`; its fresh confirmation has 77 errors. All four workflows pass commit `1f905482`.
+- On 2026-10-23, the user concludes this repair and asks to move on. Preserve its unresolved false findings and the separate word-repetition failures; continue with [narrative craft](2026-10-23-195843-narrative-craft-development.md).
 
 ## Source Review And One Proposed Consolidation
 

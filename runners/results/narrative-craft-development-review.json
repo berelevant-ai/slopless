@@ -1,0 +1,114 @@
+{
+  "family": "narrative-craft",
+  "plannedPromptVersion": "v21",
+  "status": "First body-emotion-shorthand definition reviewed; independent 20-case authoring pilots in progress. No new dataset or model accuracy claimed.",
+  "holdoutInference": false,
+  "definition": {
+    "check": "body-emotion-shorthand",
+    "sha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+    "sourceReviewAgent": "01a16a21-3352-7181-8327-880ee3fa8380",
+    "reviewedLegacyIdentifiers": 19,
+    "approved": true,
+    "corrections": [
+      "Preserve embodied-object burden alongside bodily reactions.",
+      "Require the reaction itself to supply identifiable information; sequence alone is insufficient.",
+      "Preserve consequential involuntary communication as well as intentional signals."
+    ],
+    "adjudications": [
+      "Keep generic stomach/heartbeat tags as hits when the subsequent action supplies no specific bodily contribution.",
+      "Keep named emotion moving as material and generic voice quality outside this first check."
+    ],
+    "broaderConsolidations": "proposed",
+    "authoringInput": "# Body-Emotion Shorthand\n\n- Family: `narrative-craft`.\n- Check: `body-emotion-shorthand`.\n- Input: `passage`.\n- Catch a generic bodily sensation, involuntary reaction or embodied object sensation used as an automatic tag for a feeling, revelation or dramatic moment. Include heartbeat, breath, chest, stomach, throat, skin, spine, limbs, shoulders and bodily facial reactions, plus an object felt as an emotional burden.\n- The defect is the reaction's interchangeable role as emotional punctuation. Different words can supply the same stock tag; a familiar phrase can instead communicate useful physical information.\n- Read the whole supplied passage. A stock tag remains eligible beside useful narrative information when its own contribution remains a generic emotional punctuation mark.\n- Preserve a reaction when its bodily character supplies identifiable information about a physical condition, exertion, perception, communication or subsequent action. The relevant connection must involve that reaction; merely placing an action afterward supplies no such connection.\n- Both deliberate and involuntary signals can communicate something consequential to another character. A useful physical observation needs no later practical outcome to remain informative.\n- A familiar expression can convey a particular bodily event; an unfamiliar expression can still be an interchangeable emotion tag. Judge the role, rather than literal membership in a phrase list.\n- The presence of a cause word, number, named object or quoted dialogue alone establishes neither a hit nor a no-hit. Preserve wording reproduced for documentation or analysis; assess adopted narration and ordinary dialogue normally.\n- An abstract emotion described as a moving substance belongs to `emotion-as-substance`. Bare emotion labels belong to `emotion-telling`; empty looking, waiting or repositioning belongs to `empty-beat`. Generic voice quality and a named feeling sweeping across a face await their own definitions. Label this check only when a bodily-emotion defect is present.\n\n## Boundary Examples\n\n- Hit: \"The letter was addressed to someone else. Her stomach tightened. She carried it upstairs.\" The reaction supplies a generic alarm tag without a particular bodily event or consequence.\n- No-hit: \"Her stomach tightened halfway through the climb. She loosened the hip belt until she could breathe without pressing against its buckle.\" The sensation identifies a physical problem that changes her action.\n- Hit: \"He read the rejection. His heart hammered against his ribs. He closed the laptop.\" The heartbeat acts as interchangeable emotional emphasis.\n- No-hit: \"His heart hammered for several minutes after the sprint, so he waited beside the finish line until he could speak to the marshal.\" The bodily recovery determines the action.\n\nUse these examples to understand the distinction. Author new realistic passages and unfamiliar wording rather than variations copied from these sentences.\n"
+  },
+  "sourceGuardProbes": {
+    "command": "node dist/cli.js --narrative --stdin --stdin-filename sample.md",
+    "selectedRuleIds": [
+      "slopless/emotion-telling",
+      "slopless/empty-beat",
+      "slopless/semantic-thinness",
+      "slopless/fake-timestamps"
+    ],
+    "cases": [
+      {
+        "text": "She was very angry.",
+        "exitCode": 1,
+        "findings": [
+          {
+            "ruleId": "slopless/emotion-telling",
+            "message": "Emotion telling: She was very angry.. Replace the blunt emotion label with a concrete action, thought, or choice."
+          }
+        ]
+      },
+      {
+        "text": "At 5:47 PM she was very angry.",
+        "exitCode": 1,
+        "findings": [
+          {
+            "ruleId": "slopless/fake-timestamps",
+            "message": "Fake timestamp found: \"5:47 PM\". Remove fabricated clock specificity."
+          }
+        ]
+      },
+      {
+        "text": "Cassia looked around.",
+        "exitCode": 0,
+        "findings": []
+      },
+      {
+        "text": "Cassia looked around because something mattered.",
+        "exitCode": 0,
+        "findings": []
+      },
+      {
+        "text": "The yard was empty.",
+        "exitCode": 1,
+        "findings": [
+          {
+            "ruleId": "slopless/semantic-thinness",
+            "message": "Semantic thinness (empty-scene-state): Catch short scene-setting lines that name a place or scene element and assign an empty state without action, cause, or concrete detail. Matched template: {placeSubject} {linkingVerb} {thinState}."
+          }
+        ]
+      },
+      {
+        "text": "The yard was empty because something had changed.",
+        "exitCode": 0,
+        "findings": []
+      },
+      {
+        "text": "At 5:47 PM, Mara stirred the tea.",
+        "exitCode": 1,
+        "findings": [
+          {
+            "ruleId": "slopless/fake-timestamps",
+            "message": "Fake timestamp found: \"5:47 PM\". Remove fabricated clock specificity."
+          }
+        ]
+      },
+      {
+        "text": "On Tuesday at 5:47 PM, Mara stirred the tea.",
+        "exitCode": 0,
+        "findings": []
+      }
+    ]
+  },
+  "collections": [
+    {
+      "id": "000077",
+      "split": "development",
+      "stem": "000077-narrative-craft-body-emotion-shorthand-development",
+      "authorAgent": "01a16a2a-b96c-7dd2-9d8d-a75f8f73a52f",
+      "status": "pilot-authoring"
+    }
+  ],
+  "setupReview": {
+    "reviewer": "01a16a21-3352-7181-8327-880ee3fa8380",
+    "definitionApproved": true,
+    "corrections": [
+      {
+        "operation": "Remove stale duplicate source-review-running status bullet from narrative plan.",
+        "addressed": true
+      }
+    ]
+  }
+}
