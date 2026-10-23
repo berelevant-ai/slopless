@@ -328,7 +328,9 @@ async function main(): Promise<number> {
   }
 
   const narrative = hasFlag(userArgs, NARRATIVE_FLAGS);
-  const userConfig = hasFlag(userArgs, CONFIG_FLAGS);
+  const userConfig =
+    hasFlag(userArgs, CONFIG_FLAGS) ||
+    userArgs.some((arg) => arg.startsWith("--config="));
   if (narrative && userConfig) {
     process.stderr.write(
       "--narrative cannot be combined with --config. Enable narrative rules in that config instead.\n"
