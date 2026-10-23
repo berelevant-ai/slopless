@@ -334,5 +334,186 @@
     "readLimits": {
       "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.plans/2026-10-20-125402-v2-rule-taxonomy.md": "Lines 489-500 only. The other listed files were read as complete files. filesRead lists inputs opened during this focused recheck; the earlier audit records its own inputs."
     }
+  },
+  "sensoryClarification": {
+    "sourceReview": {
+      "approved": true,
+      "corrections": [],
+      "check": "sensory-instead-of-frame",
+      "scopeChange": {
+        "previous": "The opening criterion framed the defect as a generic inventory replacing a particular perception. That wording allowed an informative contrast to exempt ornamental wording within the same contrast.",
+        "current": "A contrast can communicate a useful sensory distinction and still contain an additional, independently generic stock inventory or ornamental exchange. The useful information remains protected; the additional wording must independently supply the stylistic defect.",
+        "consequence": "This clarification expands positive eligibility to mixed useful-and-ornamental contrasts. It changes the semantic labeling boundary rather than merely restating the legacy token template."
+      },
+      "findings": [
+        {
+          "subject": "source-consistency",
+          "checked": "The sensory source JSON purpose, template, slots, rejection descriptions and examples were compared with both revised definitions.",
+          "result": "The source targets stock sensory-atmosphere substitution built from stacked scent nouns. The revised within-contrast branch continues to require that sensory-substitution construction and its generic decorative contribution. Extending contextual assessment to an independently weak component preserves that stylistic target.",
+          "boundary": "The source's concrete-source and cause-clause rejection descriptions express protective heuristics. They provide no component-level judgment proving that every word in an informative contrast is useful. Approval concerns the stated semantic extension, rather than equivalence with legacy matcher output."
+        },
+        {
+          "subject": "ordinary-informative-perception",
+          "checked": "The revised preservation and evidence requirements were read together with the shared functional boundary.",
+          "result": "The definition expressly protects informative distinctions, particular perceptions, scene-meaningful changes, identification, diagnosis and memory. It requires an additional independently generic decoration before flagging an otherwise informative contrast. A source name, explicit contact or subsequent action remains optional."
+        },
+        {
+          "subject": "challenge-to-overreach",
+          "checked": "The extension was tested conceptually against judgments based solely on ordinary sensory nouns, adjective use, familiarity, figurative language, repeated context or absence of explicit grounding.",
+          "result": "Those properties alone do not satisfy the added branch. The required evidence is an independently interchangeable inventory or ornamental exchange within the sensory substitution. An adjective can sharpen a perception and a figurative relationship can communicate particular experience; both remain protected by the informative-function clauses.",
+          "boundary": "The phrase 'beyond the informative observation' must be read with the explicit independent-defect requirement. Merely showing that a shorter version retains a factual contrast does not establish the discarded wording as defective. Missing explicit sensory grounding qualifies only together with the stated abstract stock-inventory defect."
+        },
+        {
+          "subject": "definition-extract-parity",
+          "checked": "A direct string comparison matched the sensory section in proposed.md against definitions-v2.md after removing the extract's heading and input declaration.",
+          "result": "The check-specific wording matches exactly. The extract declares passage input and carries the shared functional protections."
+        }
+      ],
+      "filesRead": [
+        "/tmp/slopless-narrative-v21-full/definitions/proposed.md",
+        "/tmp/slopless-narrative-v21-full/collections/000110-narrative-craft-sensory-instead-of-frame-holdout/definitions-v2.md",
+        "/tmp/slopless-narrative-v21-full/definition-review/final.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json"
+      ],
+      "readScope": "filesRead records the complete input files opened in this focused recheck. No dataset writing, judgments, prompts, scores, adjudication records, other history or taxonomy files were opened. No delegation or model calls were used."
+    },
+    "developmentAdjudication": {
+      "scope": {
+        "task": "Independent boundary adjudication of four development records.",
+        "method": "Read complete selected passages without their labels, record initial judgments, then inspect both conflicting judgments and quality comments. Apply only the supplied frozen definitions.",
+        "instructionsRead": "Global/root AGENTS instructions supplied in the conversation.",
+        "delegation": "None.",
+        "inferenceRun": false,
+        "dataOrDefinitionsEdited": false,
+        "labelConvention": "labels are the decisions under the frozen definitions. proposedLabelsAfterClarification show the recommended decisions if the stated clarification is adopted. No-hit labels omit snippets."
+      },
+      "filesRead": [
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "/tmp/slopless-narrative-v21-full/collections/000093-narrative-craft-empty-scene-state-development/definitions.md",
+        "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/definitions.md",
+        "/tmp/slopless-narrative-v21-full/collections/000093-narrative-craft-empty-scene-state-development/pilot-verify2-disputes.json",
+        "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pilot-verify2-disputes.json"
+      ],
+      "conclusion": {
+        "clarificationNeeded": true,
+        "summary": "The empty-scene-state definition supports a hit for 000093 p004. The sensory definition supports a hit for 000109 p004. Its functional protections support no-hits for p002 and p006, while its warning about nearby facts supports a competing wording-level reading. Clarify how decorative surplus inside an informative sensory contrast is judged before treating those two as stable positives.",
+        "frozenDefinitionLabels": {
+          "hits": 2,
+          "noHits": 2
+        },
+        "recommendedLabelsAfterClarification": {
+          "hits": 4,
+          "noHits": 0
+        },
+        "functionalProtection": "An ordinary, informative perception remains protected even when its words are familiar, its information overlaps with context, or no later action depends on it.",
+        "independentStylisticDefect": "An ornate or prefabricated inventory can remain a separate stylistic defect beside an informative setting change. The frozen sensory definition makes the inventory's replacement of useful perception its test, however; explicitly covering decorative surplus alongside useful perception changes that boundary. The proposed clarification makes this scope explicit."
+      },
+      "records": [
+        {
+          "collectionId": "000093",
+          "passageId": "p004",
+          "check": "narrative-craft/empty-scene-state",
+          "labels": [
+            {
+              "check": "narrative-craft/empty-scene-state",
+              "expected": true,
+              "snippets": [
+                "There was a stillness about those afternoons."
+              ]
+            }
+          ],
+          "proposedLabelsAfterClarification": [
+            {
+              "check": "narrative-craft/empty-scene-state",
+              "expected": true,
+              "snippets": [
+                "There was a stillness about those afternoons."
+              ]
+            }
+          ],
+          "fixtureDecision": {
+            "repairNeeded": false,
+            "reasoning": "The memoir scene is coherent. Its generic mood sentence is the intended writing defect and can remain as a positive example."
+          }
+        },
+        {
+          "collectionId": "000109",
+          "passageId": "p002",
+          "check": "narrative-craft/sensory-instead-of-frame",
+          "labels": [
+            {
+              "check": "narrative-craft/sensory-instead-of-frame",
+              "expected": false
+            }
+          ],
+          "proposedLabelsAfterClarification": [
+            {
+              "check": "narrative-craft/sensory-instead-of-frame",
+              "expected": true,
+              "snippets": [
+                "The office had traded its daytime music of phones and footsteps for the soft symphony of ventilation and distant traffic."
+              ]
+            }
+          ],
+          "fixtureDecision": {
+            "repairNeeded": false,
+            "reasoning": "The sounds and late work session are physically coherent. The dispute concerns check scope. Keep the passage as a boundary case rather than rewriting it to remove the informative sound change."
+          }
+        },
+        {
+          "collectionId": "000109",
+          "passageId": "p004",
+          "check": "narrative-craft/sensory-instead-of-frame",
+          "labels": [
+            {
+              "check": "narrative-craft/sensory-instead-of-frame",
+              "expected": true,
+              "snippets": [
+                "Glass and cold steel gave way to the feel of soft wool and warm timber as he followed her upstairs."
+              ]
+            }
+          ],
+          "proposedLabelsAfterClarification": [
+            {
+              "check": "narrative-craft/sensory-instead-of-frame",
+              "expected": true,
+              "snippets": [
+                "Glass and cold steel gave way to the feel of soft wool and warm timber as he followed her upstairs."
+              ]
+            }
+          ],
+          "fixtureDecision": {
+            "repairNeeded": false,
+            "reasoning": "Following a host upstairs to a guest room is plausible. Missing sensory grounding is part of this positive's defective narration. Repair would be needed for an independent contradiction that prevents interpreting the scene; none appears in the supplied passage."
+          }
+        },
+        {
+          "collectionId": "000109",
+          "passageId": "p006",
+          "check": "narrative-craft/sensory-instead-of-frame",
+          "labels": [
+            {
+              "check": "narrative-craft/sensory-instead-of-frame",
+              "expected": false
+            }
+          ],
+          "proposedLabelsAfterClarification": [
+            {
+              "check": "narrative-craft/sensory-instead-of-frame",
+              "expected": true,
+              "snippets": [
+                "The afternoon smelled of damp coats and floor polish rather than cut grass and sunshine."
+              ]
+            }
+          ],
+          "fixtureDecision": {
+            "repairNeeded": false,
+            "reasoning": "A rainy festival moved into a gym, with damp attendees and a bicycle-collection mistake, is coherent. Preserve this passage as an informative-change plus generic-decoration boundary case."
+          }
+        }
+      ]
+    }
   }
 }

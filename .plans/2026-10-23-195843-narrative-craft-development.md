@@ -70,6 +70,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Include different names, species, ages, perspectives and tenses. Vary sentence and paragraph length; preserve enough connected context to judge what the action or observation contributes.
 - Pair stock-looking language with concrete functions: a glance reveals a signal, a bodily response affects an action, a pause changes an exchange, quiet reveals a hazard, or a minute establishes a deadline.
 - Put useful details beside independent filler in hit passages. Keep no-hits natural; avoid artificial justifications whose only purpose is to announce that a detail matters.
+- Preserve coherent positive passages whose bad sensory grounding or generic decoration is the intended defect. Repair independent setup contradictions or missing context that prevents judging the target.
 - Use minimal schema-version-two labels with exact snippets for hits. Missing judgments stay unassessed; independent checks can both be positive on the same passage.
 - Screen exact and near-duplicate writing against prior datasets, old case fixtures, definition examples and the opposite split. Archive reviewed surplus in Git before balanced selection.
 
@@ -144,3 +145,4 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - The pilot copy screen finds zero candidates against prior datasets, legacy fixtures, definition examples and other new pilots across 300,738,104 eligible comparisons. This result applies to the archived pilot versions.
 - Blind pilot review identifies one classification disagreement and 82 quality notes. Reconciliation and fresh review precede expansion; full candidate pools then receive three independent reviews before balanced selection.
 - The first five full candidate pools contain 1,200 passages and 63,238 words. Additional approved collections are expanding; the family remains incomplete until every dataset, prompt and development bound is verified.
+- Development annotation exposes a sensory-definition gap before detector tuning: useful perception can coexist with independently stock decoration in the same contrast. Expand that check explicitly, preserve ordinary informative perceptions, and review both isolated splits and mixed C against the revised extract. Preserve earlier definition and label versions in Git; keep development passages out of protected review prompts.
