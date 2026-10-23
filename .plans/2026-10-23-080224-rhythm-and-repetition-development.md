@@ -21,6 +21,8 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - Build, dataset reader, paragraph-runner tests and Fixture3's `datasets` contract pass before expansion. Final pools, balanced selection, overlap review and development inference remain outstanding.
 - The formulaic-list development pool completes three full independent reviews and a fresh check of its final context repair. Archive all 240 reviewed cases before selecting 100 hits and 100 no-hits; retain all 25 pilot and corrected hard-case IDs.
 - Full review exposes ambiguity in word-repetition counting and useful-procedure protection. Independent definition review supports counting noun subjects, objects and modifiers together and judging the contribution of repeated naming itself. Clarify the valve control's independent-entry purpose and freshly review collections `000069`, `000070`, `000075` and `000076` before freeze. The other six definitions remain byte-identical.
+- Eight complete candidate pools now have three full reviews. The first balanced selection preserves its 25 mandatory cases; seven further pools enter Git before selection.
+- Corrected mixed holdout labels leave one combination at 24 candidates. Generate twelve additional independently reviewed candidates for that combination before balancing; preserve every existing ID and corrected judgment.
 
 ## Source Review And One Proposed Consolidation
 
