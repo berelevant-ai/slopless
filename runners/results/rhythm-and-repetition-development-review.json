@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "Eight full reviewed candidate pools complete; remaining full reviews and adjudication continue. Jev inference pending.",
+  "status": "All sixteen non-word-repetition pools have three full reviews and adjudication. Four word-repetition pools remain under review; no Jev inference.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -5510,6 +5510,2324 @@
         "000071-69992ce5e840"
       ],
       "reviewedPoolSha256": "8882d4247fadb3c4a05ea48b8b41cac936219e63dad2d094a9f37ecfa6848fca"
+    },
+    {
+      "collection": "000057",
+      "passages": 240,
+      "fullReviewPasses": 3,
+      "reviewedPoolSha256": "a1379cf5943f25dd381593f8008f1844abab96da684568d8bc22e7ceeeaf91ea",
+      "reconciliation": {
+        "collection": "000057",
+        "split": "development",
+        "source": "/tmp/slopless-v19-pool-final-candidate-000057-development/000057-development-v19-final-candidate.json",
+        "sourceSha256": "8a4edb33f1cdd3c560d01110bbbab9307e8f18f3ef8f507c37f368227796d713",
+        "review": "/tmp/slopless-v19-pool-final-000057-development/review.json",
+        "reviewSha256": "090744a7ba0ac4fb0479225560b844ebdfd92248d22cb14cf9002f892c5dc8d1",
+        "corrections": "/tmp/slopless-v19-development-final-curation/corrected-cases.json",
+        "correctionsSha256": "bbefa1809710cd831b00c1bfb484b9bae80de38334d4bf63358b66277d175979",
+        "mandatoryIds": [
+          "000057-1ce0e52295d1",
+          "000057-18ccf458b864",
+          "000057-0fff18f94ff3",
+          "000057-a6ff32459fbc",
+          "000057-d519cf64cdd9",
+          "000057-25ec9593c57c",
+          "000057-4c459b760793",
+          "000057-acba982a9553",
+          "000057-cc6a1a4c1ad9",
+          "000057-a85ef5095786",
+          "000057-bb70daec25a8",
+          "000057-ece52b6bd3cf",
+          "000057-2b014a05d0c9",
+          "000057-001fa9e5fd7f",
+          "000057-24a9a554eae8",
+          "000057-4f51ed573fb2",
+          "000057-13bbaca51524",
+          "000057-d0eb246128d4",
+          "000057-08c0d810b7f8",
+          "000057-779bcbc71bf9",
+          "000057-df02e2039dff",
+          "000057-cf135d360b3b",
+          "000057-80b588f82c78",
+          "000057-cc609db6efcd",
+          "000057-dfc74e61d65e",
+          "000057-36f4c2b9e94a"
+        ],
+        "output": "/tmp/slopless-v19-final-curated-000057-development/000057-development-v19-curated.json",
+        "outputSha256": "a1379cf5943f25dd381593f8008f1844abab96da684568d8bc22e7ceeeaf91ea"
+      },
+      "reviewArtifacts": [
+        {
+          "path": "/tmp/slopless-v19-pool-blind-000057-development/comparison.json",
+          "sha256": "08e518a8aed2a9d3b3f7c10c70285b944da775a71a2f72d2c4e34e83291ac4cd",
+          "collection": "000057",
+          "split": "development",
+          "stage": "blind",
+          "comparatorSha256": "6fc41714f3587a034cccf37649c485001f298cefe5cf7ce5eb4c5a7b3e149caf",
+          "author": "/tmp/slopless-v19-pool-000057-development/000057-development-v19-author-pool.json",
+          "authorSha256": "5f562fa1e30f3632b171dc431a6eae75ced616987dc918af1712df04360487d6",
+          "blindReview": "/tmp/slopless-v19-pool-blind-000057-development/review.json",
+          "blindReviewSha256": "2649bb53c8181c0d367ecac67cbb29b623c33793546632a8c8a4186df9406609",
+          "passages": 240,
+          "judgments": 240,
+          "differences": [],
+          "snippetDifferences": [
+            {
+              "id": "000057-d519cf64cdd9",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-4c459b760793",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-cc6a1a4c1ad9",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-bb70daec25a8",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-2b014a05d0c9",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-24a9a554eae8",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-13bbaca51524",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-08c0d810b7f8",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-df02e2039dff",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-80b588f82c78",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-940b96aa43c4",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-153556064de6",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-36e042a9f19a",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-84b01d60384f",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-e5b71c94cee0",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-37c2882d000d",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-4bd8362797f3",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-88281caf07b4",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-408cb90e660e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-357e5b39bf0f",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-e7bd9b2e172e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-c0a0f65ae9a1",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-1eb66cd7c166",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-b4b0adf2e7df",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-a45e65d21c83",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-8092952452bb",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-0a0eedfd49bd",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d838e3ef9ba9",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-5ba7c96bbfa0",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-322eaf15537e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-1478819f85e3",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-ff995fbc2c30",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-be8700031014",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d96e111febd7",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-7b457d14688e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-0367c216f4ab",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-aa868d42e88b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-ff02acbd8dfa",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-de068f076e41",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-68fa777a75a0",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-690a76c4143e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-9f5ea83a1d33",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-7e99751f7b7c",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-474d84ea9342",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-5bc37447a01b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-885fe4e822cf",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-27d1f644a6c3",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-cb1230173fc1",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-f9ce99b0d02d",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-b7f7cf0b95df",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-4773558bdcec",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-07c22254a2ab",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-013450f259fd",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-1666f7d89be3",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-94f8990ffb1e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-b9ce00466996",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-f9fcb0736e3b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-ce779122f529",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-721b9f1e0e2d",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-cf3b36f8507c",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-89bdfa1205d9",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-48e76a33a81a",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-7deec638fa8e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-583e39150928",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-194f9bdfdd77",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-f94a7e7cea8f",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-f4186aa0f95b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-270a87750fde",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-243789751475",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d8389e59c6ad",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-4306ec9ffbeb",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-93da639dd246",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-407050d48b64",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-c2b0b39ab9dc",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d6543855e9f8",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-10093490791e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-be32f2bb22cc",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-38c680c49dbf",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d7da6f2d06d4",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-ab4c83d51a68",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-0615516def81",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-c1c5f247a5c0",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-8c1bb4adb5ed",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d9529d0340fc",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-98a67bf78221",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-0eb41158a78b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-365168ee39fd",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-6a454551e116",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-8312723cae19",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-2f323e34ba61",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-2ced48600dc5",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-e6e0bf99170d",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-f9a903751cbe",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-6546442889d5",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-a8d929508ec5",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-80972e18d32f",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-2c615524b52a",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-8f9e34968c7b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-cf8f8df73a64",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-04d1770ebae5",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-8411308013fd",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-0160aa6e55f4",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-714a6848545e",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-594584490c2c",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-c0496dfedf89",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-1350ea7168dd",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-5ea3de6e242c",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-73876b238cb7",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-7878140f5a86",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-97eef0f3a10b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-d1421e279476",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-b6511de24e9d",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-9bf191c48242",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-3f817cf9e229",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-ad5987a90dce",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-e9e75398428b",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-46ae58184287",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-1a004e4e7f46",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-8a3bf2c49f93",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            },
+            {
+              "id": "000057-b13ef2f09c82",
+              "check": "rhythm-and-repetition/sentence-frame-repetition"
+            }
+          ],
+          "quality": [
+            {
+              "id": "000057-dfc74e61d65e",
+              "quality": "rewrite",
+              "notes": [
+                "Name the loader in the opening sentence and replace the commentary about 'the repeated subject' with a direct statement separating loader and parser responsibilities."
+              ]
+            },
+            {
+              "id": "000057-36f4c2b9e94a",
+              "quality": "rewrite",
+              "notes": [
+                "Change 'The two repair plans' to 'The three repair plans' so the introduction agrees with the basic, extended, and business plans listed."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-adversarial-000057-development/comparison.json",
+          "sha256": "09541594fc86ef7979b14455a3cfd5e5be42f7875b04b497b43f1c46fb3c9093",
+          "collection": "000057",
+          "split": "development",
+          "stage": "adversarial",
+          "checks": [
+            "rhythm-and-repetition/sentence-frame-repetition"
+          ],
+          "comparatorSha256": "55e3108cee6e014cf30a493cd87f8e1d83b04ecae4d0809a327666357b5e8f36",
+          "author": "/tmp/slopless-v19-pool-reviewed-000057-development/000057-development-v19-reconciled-pool.json",
+          "authorSha256": "4bb94b69298a38c678329b7bb1299333b70665adf7ff283599b3d70c40ab8f79",
+          "blindReview": "/tmp/slopless-v19-pool-adversarial-000057-development/review.json",
+          "blindReviewSha256": "602e10739aaadcd078c4830359a774ba840099f8a61a7ba259adf52d91c0593d",
+          "passages": 240,
+          "judgments": 240,
+          "differences": [],
+          "snippetDifferences": [],
+          "quality": [
+            {
+              "id": "000057-a6ff32459fbc",
+              "quality": "rewrite",
+              "notes": [
+                "Replace \"membership options\" with \"fare options\" so the opening names the Flex, Standard, and Saver fares compared by departure time and refund amount. Preserve the parallel cancellation comparison."
+              ]
+            },
+            {
+              "id": "000057-0fff18f94ff3",
+              "quality": "rewrite",
+              "notes": [
+                "Replace the final claim with a statement that the counter records accepted requests since the last reset. An unchanged counter occurs during both rejection and idleness, so these rules cannot distinguish those states. Preserve the three-operation comparison."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-final-000057-development/comparison.json",
+          "sha256": "6c3583f5c023ab7cc43e6a50e768c85a5bdc54cb1330994599da0fdf699153a5",
+          "collection": "000057",
+          "split": "development",
+          "stage": "final",
+          "checks": [
+            "rhythm-and-repetition/sentence-frame-repetition"
+          ],
+          "comparatorSha256": "55e3108cee6e014cf30a493cd87f8e1d83b04ecae4d0809a327666357b5e8f36",
+          "author": "/tmp/slopless-v19-pool-final-candidate-000057-development/000057-development-v19-final-candidate.json",
+          "authorSha256": "8a4edb33f1cdd3c560d01110bbbab9307e8f18f3ef8f507c37f368227796d713",
+          "blindReview": "/tmp/slopless-v19-pool-final-000057-development/review.json",
+          "blindReviewSha256": "090744a7ba0ac4fb0479225560b844ebdfd92248d22cb14cf9002f892c5dc8d1",
+          "passages": 240,
+          "judgments": 240,
+          "differences": [],
+          "snippetDifferences": [],
+          "quality": [
+            {
+              "id": "000057-1ce0e52295d1",
+              "quality": "rewrite",
+              "notes": [
+                "Replace \"open an existing connection\" with \"continue using an existing connection\" so the reader operation is consistent with the distinction between existing work and new connections."
+              ]
+            },
+            {
+              "id": "000057-18ccf458b864",
+              "quality": "rewrite",
+              "notes": [
+                "Assign parcels weighing exactly ten kilos to one entrance: change \"under ten kilos\" to \"ten kilos or less\", or change \"over ten kilos\" to \"ten kilos or more\", according to the intended handling rule."
+              ]
+            }
+          ]
+        }
+      ],
+      "focusedReview": {
+        "path": "/tmp/slopless-v19-development-final-focused-review/audit.json",
+        "sha256": "837601e2bf6d51b3424e83384d4017eee2189bb779a5b80233d86f566f5d0ec0"
+      }
+    },
+    {
+      "collection": "000063",
+      "passages": 240,
+      "fullReviewPasses": 3,
+      "reviewedPoolSha256": "44cb142a2bbffd1323012c687382980c9469a281846ab049d22b8240a1c4973a",
+      "reconciliation": {
+        "collection": "000063",
+        "split": "development",
+        "source": "/tmp/slopless-v19-pool-final-candidate-000063-development/000063-development-v19-final-candidate.json",
+        "sourceSha256": "300bd6b628a87d0e282c9d1376de6a9c6b8a06f19f3919c0f9a8f8d68fcb98f7",
+        "review": "/tmp/slopless-v19-pool-final-000063-development/review.json",
+        "reviewSha256": "dd3b46ee474102caaaff4902b1815bee77b71852aa47ec709931b8eb4046e58f",
+        "corrections": "/tmp/slopless-v19-development-final-curation/corrected-cases.json",
+        "correctionsSha256": "bbefa1809710cd831b00c1bfb484b9bae80de38334d4bf63358b66277d175979",
+        "mandatoryIds": [
+          "000063-442ae639872e",
+          "000063-6fb6781d90d9",
+          "000063-6a57da49494c",
+          "000063-d76e951fc64f",
+          "000063-10e0671fa6ca",
+          "000063-5cd1728e74cd",
+          "000063-66c56bad2b93",
+          "000063-870456762527",
+          "000063-7bc08daa6e35",
+          "000063-3c532d7b379c",
+          "000063-f3da0bedcd09",
+          "000063-40468aa6cc35",
+          "000063-0cae6fb80f7e",
+          "000063-9b101c7c3d31",
+          "000063-b1a7eb497a1f",
+          "000063-c1746eb52ad5",
+          "000063-340b80f167aa",
+          "000063-4b31feb1a3bf",
+          "000063-2d6bdfc13210",
+          "000063-9ff614771e69",
+          "000063-9f1682c3351d",
+          "000063-ae4936c118cc"
+        ],
+        "output": "/tmp/slopless-v19-final-curated-000063-development/000063-development-v19-curated.json",
+        "outputSha256": "44cb142a2bbffd1323012c687382980c9469a281846ab049d22b8240a1c4973a"
+      },
+      "reviewArtifacts": [
+        {
+          "path": "/tmp/slopless-v19-pool-blind-000063-development/comparison.json",
+          "sha256": "25e12b65cb2b59280fa9fbb3ac5d15da78591efc0c8be5500322f0c3168dd282",
+          "collection": "000063",
+          "split": "development",
+          "stage": "blind",
+          "comparatorSha256": "6fc41714f3587a034cccf37649c485001f298cefe5cf7ce5eb4c5a7b3e149caf",
+          "author": "/tmp/slopless-v19-pool-000063-development/000063-development-v19-author-pool.json",
+          "authorSha256": "73d04e22ee3a12fef1f2c1e0660ee7b1a42cf6ce162bf33661a2cafc293620c8",
+          "blindReview": "/tmp/slopless-v19-pool-blind-000063-development/review.json",
+          "blindReviewSha256": "47e509b374e7d763accb99f88cb3154720dfbd6fd2eee43fcd457ee89fea2e9e",
+          "passages": 240,
+          "judgments": 240,
+          "differences": [
+            {
+              "id": "000063-ae4936c118cc",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": false,
+              "review": true
+            }
+          ],
+          "snippetDifferences": [
+            {
+              "id": "000063-6a57da49494c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-10e0671fa6ca",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-66c56bad2b93",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-7bc08daa6e35",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f3da0bedcd09",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-0cae6fb80f7e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b1a7eb497a1f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-340b80f167aa",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2d6bdfc13210",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6f7a7b0a9c5e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-776dd7f29d84",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-615245dd3230",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-d68c76c35ac9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-a15266193f0b",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8922386cd547",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2bf5c50ffc3f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b158e0cf7897",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-138aebf62f4d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-848e9d705e0d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2f446547f0fc",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cde2663b4c33",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5d8c81e6eea5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-856c9d9b918f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9ad96d4baf72",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-50be169ca15f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-53304c2d005e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-dc9e522c5cb2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-fe4b249cb8b7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-04cbb01a79c7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b9117ad32275",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-58a4666dd116",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-577e82913bf3",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6b3ba123555d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8623409758d6",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-a28e10098f3b",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-bc5fb6c35f74",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9d055aabbdf2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-052b4b0cb441",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b00003d0cd66",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-bc9df7f8a029",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6fb6781d90d9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b573f0b0bf31",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-43c7ba795161",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-a04bad0be4c4",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9ac39b52f680",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f3a812cdff6c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-87e1f8edde34",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-dbb85c32cf8a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-70e5e7975921",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f53c6f09a76d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-433cee6a90e5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-c4ad9d6f55bd",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8102a22fb9cd",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f962e4eed091",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8d8c6ef5a31e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f1ebddf85726",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4cac4a0d6d14",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-36735a13166c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-80fdacc2755f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8616a90cd7d4",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-c8c5d5dc2b88",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-89be3b867974",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-db3d4d7fd503",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4fc0fd528487",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9560504607d7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2fdf2e15e29a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cf8a0b8e6581",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b2180639e00e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-65ab834f062d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5582050925df",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-e0e2c8fe9317",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-59f66226098a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-304408cf0e72",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-7b35e75dd0b2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-d136edd299c9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cc9d7bd9ab18",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-11893d9a0d4a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8d31059bc554",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-c789290aed9c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9474459693ac",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-0eea47eede00",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-03e517ead8cf",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f10d6ee20b47",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-45b38b4fc847",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2fa8dcc752df",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8a6fe1290bf5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-ed9499d976c6",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-d495b8a0613e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-7cb41faffa79",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-fea7ac515a30",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-26961ecd41ca",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f8f00bedb4be",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-dabda45ae8e8",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-067e13bfe8b7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f6fa6b539646",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cb8dce85a2bf",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6a721106f754",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-230d702bc4dd",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-00362756cba4",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-3151c8cf6f9c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f633ba32e1d9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-e257b8f997d1",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f8ed5eec64bb",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-fa9de903508a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-746ff1023bc5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-23c576f78dfc",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4443d64b9246",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-603fc35d519f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5aeea3b3a8ad",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5777b943c8c2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2b181cb781b5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cf93d5b448f2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-1ec29ad738bf",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5026d93da88a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-31d903816ee7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-e3cb2261b17e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4c2823153c41",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-06004f0005a9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-ed75f8eb7e5f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9bf49fd6c31f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            }
+          ],
+          "quality": []
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-adversarial-000063-development/comparison.json",
+          "sha256": "fd639c4129dea24222bfe7890e1ccba7a738c6b83edd1c72bb9ffbf896f43687",
+          "collection": "000063",
+          "split": "development",
+          "stage": "adversarial",
+          "checks": [
+            "rhythm-and-repetition/fragment-stacking"
+          ],
+          "comparatorSha256": "55e3108cee6e014cf30a493cd87f8e1d83b04ecae4d0809a327666357b5e8f36",
+          "author": "/tmp/slopless-v19-pool-reviewed-000063-development/000063-development-v19-reconciled-pool.json",
+          "authorSha256": "73d04e22ee3a12fef1f2c1e0660ee7b1a42cf6ce162bf33661a2cafc293620c8",
+          "blindReview": "/tmp/slopless-v19-pool-adversarial-000063-development/review.json",
+          "blindReviewSha256": "ce4ee467d50dbf4bf70aed21d760015b72d92ef7536751380d2cb1c818c621d8",
+          "passages": 240,
+          "judgments": 240,
+          "differences": [],
+          "snippetDifferences": [],
+          "quality": [
+            {
+              "id": "000063-6fb6781d90d9",
+              "quality": "rewrite",
+              "notes": [
+                "Replace \"Smaller bursts.\" with \"Fewer bursts.\" Packet grouping reduces radio wakeups by batching transmissions; the explanation supports fewer bursts rather than smaller ones. Retain the three adjacent fragments and the positive fragment-stacking label."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-final-000063-development/comparison.json",
+          "sha256": "20ad0b97657907d3dd7ff2101c1e00100396fe38f43f93d47b491e0214386276",
+          "collection": "000063",
+          "split": "development",
+          "stage": "final",
+          "checks": [
+            "rhythm-and-repetition/fragment-stacking"
+          ],
+          "comparatorSha256": "55e3108cee6e014cf30a493cd87f8e1d83b04ecae4d0809a327666357b5e8f36",
+          "author": "/tmp/slopless-v19-pool-final-candidate-000063-development/000063-development-v19-final-candidate.json",
+          "authorSha256": "300bd6b628a87d0e282c9d1376de6a9c6b8a06f19f3919c0f9a8f8d68fcb98f7",
+          "blindReview": "/tmp/slopless-v19-pool-final-000063-development/review.json",
+          "blindReviewSha256": "dd3b46ee474102caaaff4902b1815bee77b71852aa47ec709931b8eb4046e58f",
+          "passages": 240,
+          "judgments": 240,
+          "differences": [
+            {
+              "id": "000063-442ae639872e",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": false,
+              "review": true
+            }
+          ],
+          "snippetDifferences": [
+            {
+              "id": "000063-6a57da49494c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-10e0671fa6ca",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-66c56bad2b93",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-7bc08daa6e35",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f3da0bedcd09",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-0cae6fb80f7e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b1a7eb497a1f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-340b80f167aa",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2d6bdfc13210",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6f7a7b0a9c5e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-776dd7f29d84",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-615245dd3230",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-d68c76c35ac9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-a15266193f0b",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8922386cd547",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2bf5c50ffc3f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b158e0cf7897",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-138aebf62f4d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-848e9d705e0d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2f446547f0fc",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cde2663b4c33",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5d8c81e6eea5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-856c9d9b918f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9ad96d4baf72",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-50be169ca15f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-53304c2d005e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-dc9e522c5cb2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-fe4b249cb8b7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-04cbb01a79c7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b9117ad32275",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-58a4666dd116",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-577e82913bf3",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6b3ba123555d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8623409758d6",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-a28e10098f3b",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-bc5fb6c35f74",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9d055aabbdf2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-052b4b0cb441",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b00003d0cd66",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-bc9df7f8a029",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b573f0b0bf31",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-43c7ba795161",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-a04bad0be4c4",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9ac39b52f680",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f3a812cdff6c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-87e1f8edde34",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-dbb85c32cf8a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-70e5e7975921",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f53c6f09a76d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-433cee6a90e5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-c4ad9d6f55bd",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8102a22fb9cd",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f962e4eed091",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8d8c6ef5a31e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f1ebddf85726",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4cac4a0d6d14",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-36735a13166c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-80fdacc2755f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8616a90cd7d4",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-c8c5d5dc2b88",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-89be3b867974",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-db3d4d7fd503",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4fc0fd528487",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9560504607d7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2fdf2e15e29a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cf8a0b8e6581",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-b2180639e00e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-65ab834f062d",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5582050925df",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-e0e2c8fe9317",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-59f66226098a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-304408cf0e72",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-7b35e75dd0b2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-d136edd299c9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cc9d7bd9ab18",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-11893d9a0d4a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8d31059bc554",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-c789290aed9c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9474459693ac",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-0eea47eede00",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-03e517ead8cf",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f10d6ee20b47",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-45b38b4fc847",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2fa8dcc752df",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-8a6fe1290bf5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-ed9499d976c6",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-d495b8a0613e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-7cb41faffa79",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-fea7ac515a30",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-26961ecd41ca",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f8f00bedb4be",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-dabda45ae8e8",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-067e13bfe8b7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f6fa6b539646",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cb8dce85a2bf",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-6a721106f754",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-230d702bc4dd",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-00362756cba4",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-3151c8cf6f9c",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f633ba32e1d9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-e257b8f997d1",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-f8ed5eec64bb",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-fa9de903508a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-746ff1023bc5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-23c576f78dfc",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4443d64b9246",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-603fc35d519f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5aeea3b3a8ad",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5777b943c8c2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-2b181cb781b5",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-cf93d5b448f2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-1ec29ad738bf",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-5026d93da88a",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-31d903816ee7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-e3cb2261b17e",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-4c2823153c41",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-06004f0005a9",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-ed75f8eb7e5f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000063-9bf49fd6c31f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            }
+          ],
+          "quality": []
+        }
+      ],
+      "focusedReview": {
+        "path": "/tmp/slopless-v19-development-final-focused-review/audit.json",
+        "sha256": "837601e2bf6d51b3424e83384d4017eee2189bb779a5b80233d86f566f5d0ec0"
+      }
+    },
+    {
+      "collection": "000073",
+      "passages": 240,
+      "fullReviewPasses": 3,
+      "reviewedPoolSha256": "0ce9cdea381b27277d1aa0f745dfb9c27462056a5d9205b486f81e6e3400f196",
+      "reconciliation": {
+        "collection": "000073",
+        "split": "development",
+        "source": "/tmp/slopless-v19-pool-final-candidate-000073-development/000073-development-v19-final-candidate.json",
+        "sourceSha256": "1a60fc82c568b34457cba86062f08e7409c7e28bc31de7a5a9be701a20f8131b",
+        "review": "/tmp/slopless-v19-pool-final-000073-development/review.json",
+        "reviewSha256": "b00bd08d0cc1e54186c7bf53f4327450c503cbf471687c153816ca7e0cc53501",
+        "corrections": "/tmp/slopless-v19-development-final-curation/corrected-cases.json",
+        "correctionsSha256": "bbefa1809710cd831b00c1bfb484b9bae80de38334d4bf63358b66277d175979",
+        "mandatoryIds": [
+          "000073-d196c6ceb292",
+          "000073-d7a7894dd562",
+          "000073-1e92237f7cd0",
+          "000073-41f00fbdec89",
+          "000073-8e67288a5ecd",
+          "000073-cfe4ef9419f1",
+          "000073-9d401f4215ba",
+          "000073-ed90a843b754",
+          "000073-73cc66854903",
+          "000073-c7a58d661a40",
+          "000073-b7446df14632",
+          "000073-c01bc9de1cec",
+          "000073-6f5ad752e466",
+          "000073-7dea636acbd8",
+          "000073-5799902795e4",
+          "000073-442555bbbafd",
+          "000073-ed50cf09d728",
+          "000073-86daa106ac9f",
+          "000073-f486703657b2",
+          "000073-66e501fb5cc7",
+          "000073-497fa52f6bbd",
+          "000073-bb6045180170",
+          "000073-2f650d2fa980"
+        ],
+        "output": "/tmp/rhythm-v19-000073-development-focused-corrected.json",
+        "outputSha256": "0ce9cdea381b27277d1aa0f745dfb9c27462056a5d9205b486f81e6e3400f196",
+        "focusedReview": "/tmp/slopless-v19-development-final-focused-review/audit.json",
+        "resolvedOperations": [
+          {
+            "id": "000073-d196c6ceb292",
+            "check": "rhythm-and-repetition/fragment-stacking",
+            "operation": "Set expected to true and set snippets to [\"The seminar invites students to question a source. Rethink its assumptions. Find their own voice.\"]. The two clipped continuations inherit the preceding \"invites ... to\" predicate in this passage. The complete declarative anchor followed by those two continuations meets the inherited-continuation rule; the promotional beats supply no useful procedure, comparison, or distinct pacing function. Preserve the passage text."
+          },
+          {
+            "id": "000073-d7a7894dd562",
+            "check": "rhythm-and-repetition/fragment-stacking",
+            "operation": "Set expected to true and set snippets to [\"The room invites us to pause. Reconnect with colleagues. Rediscover our spark.\"]. The two clipped continuations inherit the preceding \"invites ... to\" predicate in this passage. The complete declarative anchor followed by those two continuations meets the inherited-continuation rule; the promotional beats supply no useful procedure, comparison, or distinct pacing function. Preserve the passage text."
+          }
+        ]
+      },
+      "reviewArtifacts": [
+        {
+          "path": "/tmp/slopless-v19-pool-blind-000073-development/comparison.json",
+          "sha256": "60a8c4a39261bcba39c565c5e943874443c74f7a934bd545e0cf3567dc817964",
+          "collection": "000073",
+          "split": "development",
+          "stage": "blind",
+          "comparatorSha256": "6fc41714f3587a034cccf37649c485001f298cefe5cf7ce5eb4c5a7b3e149caf",
+          "author": "/tmp/slopless-v19-pool-000073-development/000073-development-v19-author-pool.json",
+          "authorSha256": "855e5fdd6631012fa03f01206ecec1f89cbea4bad54f940c8fc3e58fd87776ef",
+          "blindReview": "/tmp/slopless-v19-pool-blind-000073-development/review.json",
+          "blindReviewSha256": "9943b366e8ab30805fc3522c5e9868d3384e691434587b730d40161695d3d87f",
+          "passages": 240,
+          "judgments": 720,
+          "differences": [
+            {
+              "id": "000073-1e92237f7cd0",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": false,
+              "review": true
+            }
+          ],
+          "snippetDifferences": [
+            {
+              "id": "000073-c7a58d661a40",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-b7446df14632",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-c01bc9de1cec",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-6f5ad752e466",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-7dea636acbd8",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-5799902795e4",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-442555bbbafd",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-ed50cf09d728",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-86daa106ac9f",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-86daa106ac9f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-1e92237f7cd0",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f486703657b2",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f486703657b2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-66e501fb5cc7",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-66e501fb5cc7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-a95fe17766da",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-b95443871403",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-a6626638a4d5",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-500f39805601",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-81325f4e4c1d",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-dfe286b58176",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-eafcbfa3c183",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-9a78a60041f3",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-b571ca66e245",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-e0158b7c6fb1",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-6d9729268b9f",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-2c1795b7785a",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-bad1769e0e03",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            }
+          ],
+          "quality": [
+            {
+              "id": "000073-497fa52f6bbd",
+              "quality": "rewrite",
+              "notes": [
+                "Replace \"Both firms\" with \"All three firms\" to match the Elm, Pine, and Birch comparison."
+              ]
+            },
+            {
+              "id": "000073-bb6045180170",
+              "quality": "rewrite",
+              "notes": [
+                "Replace \"releases the guest's temporary access code\" with \"disables the guest's temporary access code\" to describe ending access on departure."
+              ]
+            },
+            {
+              "id": "000073-2f650d2fa980",
+              "quality": "rewrite",
+              "notes": [
+                "Replace \"collect both units\" with \"collect the loan unit\" so the repaired unit remains with the customer after delivery."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-adversarial-000073-development/comparison.json",
+          "sha256": "2807145bb907d9954513986c14583db139f868f793e23a0ff1ee8d2d8e276297",
+          "collection": "000073",
+          "split": "development",
+          "stage": "adversarial",
+          "checks": [
+            "rhythm-and-repetition/flat-action-cadence",
+            "rhythm-and-repetition/fragment-stacking",
+            "rhythm-and-repetition/triple-word-repeat"
+          ],
+          "comparatorSha256": "55e3108cee6e014cf30a493cd87f8e1d83b04ecae4d0809a327666357b5e8f36",
+          "author": "/tmp/slopless-v19-pool-reviewed-000073-development/000073-development-v19-reconciled-pool.json",
+          "authorSha256": "f0d8585e041a687c1663eca651ffb4951ce0657dd49390c9fb5f2563c05fa399",
+          "blindReview": "/tmp/slopless-v19-pool-adversarial-000073-development/review.json",
+          "blindReviewSha256": "39d88e05564406495af9ba1f09e667382f5a6010c6888d279089d5f16acee55d",
+          "passages": 240,
+          "judgments": 720,
+          "differences": [
+            {
+              "id": "000073-1e92237f7cd0",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": false,
+              "review": true
+            },
+            {
+              "id": "000073-d196c6ceb292",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": true,
+              "review": false
+            },
+            {
+              "id": "000073-d7a7894dd562",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": true,
+              "review": false
+            }
+          ],
+          "snippetDifferences": [
+            {
+              "id": "000073-c7a58d661a40",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-b7446df14632",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-c01bc9de1cec",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-6f5ad752e466",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-7dea636acbd8",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-5799902795e4",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-442555bbbafd",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-ed50cf09d728",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-86daa106ac9f",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-86daa106ac9f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-1e92237f7cd0",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f486703657b2",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f486703657b2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-66e501fb5cc7",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-66e501fb5cc7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-a95fe17766da",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-adc1da72b9fb",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-b95443871403",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-a6626638a4d5",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-500f39805601",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-81325f4e4c1d",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-dfe286b58176",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-921271a80bc4",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-a2bebe0cc798",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f0bde5a96f1d",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-eafcbfa3c183",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-dd9fb7131dce",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-9a78a60041f3",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-13391f23a49b",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-65a264afb3f7",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-b571ca66e245",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-8e3c8e629907",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f2a72b21dc80",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-3f918b8cdacf",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-7b8c389c5191",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-e0158b7c6fb1",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-6d9729268b9f",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-5800af26bb8e",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-2c1795b7785a",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-80410fa4f5cd",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-303fb146ea3d",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-bad1769e0e03",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            }
+          ],
+          "quality": [
+            {
+              "id": "000073-8e67288a5ecd",
+              "quality": "rewrite",
+              "notes": [
+                "Replace the claim that a second syllable prolongs the initial stress with an accurate sound comparison, such as the shared initial /b/ and the differing following consonants; retain the examined slogan."
+              ]
+            },
+            {
+              "id": "000073-41f00fbdec89",
+              "quality": "rewrite",
+              "notes": [
+                "State the ballot rule that makes withdrawn candidates ineligible, and place the withdrawal relative to ballot issuance; withdrawal before counting alone does not establish why votes must be excluded. Preserve the fragment stack and promotional list."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/tmp/slopless-v19-pool-final-000073-development/comparison.json",
+          "sha256": "6b2fde852f83bea014fccf97b47a1c371ca383486f02b3a16ee5a5bce2dff6bb",
+          "collection": "000073",
+          "split": "development",
+          "stage": "final",
+          "checks": [
+            "rhythm-and-repetition/flat-action-cadence",
+            "rhythm-and-repetition/fragment-stacking",
+            "rhythm-and-repetition/triple-word-repeat"
+          ],
+          "comparatorSha256": "55e3108cee6e014cf30a493cd87f8e1d83b04ecae4d0809a327666357b5e8f36",
+          "author": "/tmp/slopless-v19-pool-final-candidate-000073-development/000073-development-v19-final-candidate.json",
+          "authorSha256": "1a60fc82c568b34457cba86062f08e7409c7e28bc31de7a5a9be701a20f8131b",
+          "blindReview": "/tmp/slopless-v19-pool-final-000073-development/review.json",
+          "blindReviewSha256": "b00bd08d0cc1e54186c7bf53f4327450c503cbf471687c153816ca7e0cc53501",
+          "passages": 240,
+          "judgments": 720,
+          "differences": [
+            {
+              "id": "000073-d196c6ceb292",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": false,
+              "review": true
+            },
+            {
+              "id": "000073-d7a7894dd562",
+              "check": "rhythm-and-repetition/fragment-stacking",
+              "author": false,
+              "review": true
+            }
+          ],
+          "snippetDifferences": [
+            {
+              "id": "000073-c7a58d661a40",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-b7446df14632",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-c01bc9de1cec",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-6f5ad752e466",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-7dea636acbd8",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-5799902795e4",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-442555bbbafd",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-ed50cf09d728",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-86daa106ac9f",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-86daa106ac9f",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-f486703657b2",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-f486703657b2",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-66e501fb5cc7",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-66e501fb5cc7",
+              "check": "rhythm-and-repetition/fragment-stacking"
+            },
+            {
+              "id": "000073-a95fe17766da",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-b95443871403",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-a6626638a4d5",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-500f39805601",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-81325f4e4c1d",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-dfe286b58176",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-eafcbfa3c183",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-9a78a60041f3",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-b571ca66e245",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-e0158b7c6fb1",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-6d9729268b9f",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-c1f0bdc95ff4",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-2c1795b7785a",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-bad1769e0e03",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            },
+            {
+              "id": "000073-133af167a5f2",
+              "check": "rhythm-and-repetition/flat-action-cadence"
+            }
+          ],
+          "quality": []
+        }
+      ],
+      "focusedReview": {
+        "path": "/tmp/slopless-v19-development-final-focused-review/audit.json",
+        "sha256": "837601e2bf6d51b3424e83384d4017eee2189bb779a5b80233d86f566f5d0ec0"
+      }
     }
   ]
 }

@@ -23,6 +23,9 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - Full review exposes ambiguity in word-repetition counting and useful-procedure protection. Independent definition review supports counting noun subjects, objects and modifiers together and judging the contribution of repeated naming itself. Clarify the valve control's independent-entry purpose and freshly review collections `000069`, `000070`, `000075` and `000076` before freeze. The other six definitions remain byte-identical.
 - Eight complete candidate pools now have three full reviews. The first balanced selection preserves its 25 mandatory cases; seven further pools enter Git before selection.
 - Corrected mixed holdout labels leave one combination at 24 candidates. Generate twelve additional independently reviewed candidates for that combination before balancing; preserve every existing ID and corrected judgment.
+- All sixteen collections outside word repetition complete three full reviews and adjudication. Apply the focused reviewer's two inherited-continuation corrections in mixed development while retaining the complete writing.
+- All four word-repetition pools complete three current-definition full reviews. Final adjudication continues; two twelve-passage supplements replenish mixed holdout combinations reduced by corrected labels.
+- Build, ESLint, paragraph-runner tests, 100% strict type coverage and Fixture3's dataset contract pass. Development inference remains pending the final balanced freeze.
 
 ## Source Review And One Proposed Consolidation
 
