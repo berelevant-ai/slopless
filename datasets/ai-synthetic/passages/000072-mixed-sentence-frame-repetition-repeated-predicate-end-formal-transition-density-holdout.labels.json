@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "7f573c2454a6676385a4d1cb15721865239f1bb1fb7c48c2589a8b0a2c910b0c",
+  "source": {
+    "name": "Codex-authored Mixed Rhythm Frame Ending And Transition Holdout Pilot",
+    "originalPath": "datasets/ai-synthetic/passages/000072-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-holdout.md",
+    "commit": "14914d5d867f1b98d34c222b324f8544d7c8e8a9",
+    "model": "gpt-6.1-sol (Codex CLI default)",
+    "prompt": null,
+    "notes": "Synthetic writing authored against the frozen rhythm-and-repetition definitions and the existing hedge-stacking definition where assessed. Reviews and measured results are stored separately."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, labels, snippets and individual judgments outside prompt authoring. Model evaluation requires separate user authorization.",
+  "samples": [
+    {
+      "id": "000072-9272d4b0cb10",
+      "start": 122,
+      "end": 519
+    },
+    {
+      "id": "000072-af98f58e04ae",
+      "start": 545,
+      "end": 910
+    },
+    {
+      "id": "000072-f12655895eb3",
+      "start": 936,
+      "end": 1312
+    },
+    {
+      "id": "000072-b7632a8b5e43",
+      "start": 1338,
+      "end": 1695
+    },
+    {
+      "id": "000072-425657864a1c",
+      "start": 1721,
+      "end": 2049
+    },
+    {
+      "id": "000072-c3a780bfd663",
+      "start": 2075,
+      "end": 2450
+    },
+    {
+      "id": "000072-8dfed196b7f5",
+      "start": 2476,
+      "end": 2926
+    },
+    {
+      "id": "000072-a8e1535f4622",
+      "start": 2952,
+      "end": 3317
+    },
+    {
+      "id": "000072-f8502d63aac9",
+      "start": 3343,
+      "end": 3797
+    },
+    {
+      "id": "000072-47861c6c1a51",
+      "start": 3823,
+      "end": 4232
+    },
+    {
+      "id": "000072-d8964ed4c3bb",
+      "start": 4258,
+      "end": 4701
+    },
+    {
+      "id": "000072-8419d94eb9bc",
+      "start": 4727,
+      "end": 5121
+    },
+    {
+      "id": "000072-8fc47050db68",
+      "start": 5147,
+      "end": 5513
+    },
+    {
+      "id": "000072-b71038c9ad9d",
+      "start": 5539,
+      "end": 5903
+    },
+    {
+      "id": "000072-c8c2d10c559a",
+      "start": 5929,
+      "end": 6338
+    },
+    {
+      "id": "000072-9d1b2a649c50",
+      "start": 6364,
+      "end": 6782
+    }
+  ],
+  "labels": [
+    {
+      "id": "000072-9272d4b0cb10",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-9272d4b0cb10",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-9272d4b0cb10",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-af98f58e04ae",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-af98f58e04ae",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-af98f58e04ae",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-f12655895eb3",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-f12655895eb3",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-f12655895eb3",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Moreover,",
+        "Indeed,",
+        "In conclusion,"
+      ]
+    },
+    {
+      "id": "000072-b7632a8b5e43",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-b7632a8b5e43",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-b7632a8b5e43",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Notably,",
+        "Furthermore,",
+        "Overall,"
+      ]
+    },
+    {
+      "id": "000072-425657864a1c",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-425657864a1c",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "matters.",
+        "matters.",
+        "matters."
+      ]
+    },
+    {
+      "id": "000072-425657864a1c",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-c3a780bfd663",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-c3a780bfd663",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "has value.",
+        "has value.",
+        "has value."
+      ]
+    },
+    {
+      "id": "000072-c3a780bfd663",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-8dfed196b7f5",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-8dfed196b7f5",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "is enough.",
+        "is enough.",
+        "is enough."
+      ]
+    },
+    {
+      "id": "000072-8dfed196b7f5",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Moreover,",
+        "Furthermore,",
+        "Ultimately,"
+      ]
+    },
+    {
+      "id": "000072-a8e1535f4622",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000072-a8e1535f4622",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "can help.",
+        "can help.",
+        "can help."
+      ]
+    },
+    {
+      "id": "000072-a8e1535f4622",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "In addition,",
+        "Indeed,",
+        "Accordingly,"
+      ]
+    },
+    {
+      "id": "000072-f8502d63aac9",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Improvement begins with putting the booking experience first.",
+        "Improvement begins with making that experience better for patients.",
+        "Improvement begins with thinking about how patients make a booking."
+      ]
+    },
+    {
+      "id": "000072-f8502d63aac9",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-f8502d63aac9",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-47861c6c1a51",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "A small habit can still help me get organized.",
+        "A little effort can still help me put some order into the week.",
+        "A fresh start can still help me feel more on top of things."
+      ]
+    },
+    {
+      "id": "000072-47861c6c1a51",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-47861c6c1a51",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-d8964ed4c3bb",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Moreover, the draft agenda can still help us have a useful conversation.",
+        "Furthermore, that agenda can still give us a basis for talking things through.",
+        "Ultimately, the agenda can still offer a starting point for a worthwhile discussion."
+      ]
+    },
+    {
+      "id": "000072-d8964ed4c3bb",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-d8964ed4c3bb",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Moreover,",
+        "Furthermore,",
+        "Ultimately,"
+      ]
+    },
+    {
+      "id": "000072-8419d94eb9bc",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The lesson here is to appreciate the significance of personal experience.",
+        "The lesson here is to recognize the importance of lived perspectives."
+      ]
+    },
+    {
+      "id": "000072-8419d94eb9bc",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": false
+    },
+    {
+      "id": "000072-8419d94eb9bc",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Hence,",
+        "Indeed,",
+        "In summary,"
+      ]
+    },
+    {
+      "id": "000072-8fc47050db68",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The aim is to bring a positive spirit to the discussion.",
+        "The aim is to approach the conversation with a constructive attitude."
+      ]
+    },
+    {
+      "id": "000072-8fc47050db68",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "matters.",
+        "matters.",
+        "matters."
+      ]
+    },
+    {
+      "id": "000072-8fc47050db68",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-b71038c9ad9d",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Her answer was to face the future with resolve.",
+        "Her answer was to meet what lay ahead with determination."
+      ]
+    },
+    {
+      "id": "000072-b71038c9ad9d",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "could help.",
+        "could help.",
+        "could help."
+      ]
+    },
+    {
+      "id": "000072-b71038c9ad9d",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": false
+    },
+    {
+      "id": "000072-c8c2d10c559a",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Our goal is to respond with genuine care.",
+        "Our goal is to bring a caring approach to the response."
+      ]
+    },
+    {
+      "id": "000072-c8c2d10c559a",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "makes a difference.",
+        "makes a difference.",
+        "makes a difference."
+      ]
+    },
+    {
+      "id": "000072-c8c2d10c559a",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Moreover,",
+        "Furthermore,",
+        "Ultimately,"
+      ]
+    },
+    {
+      "id": "000072-9d1b2a649c50",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The takeaway is to approach leadership with intention.",
+        "The takeaway is to be intentional about the way we lead."
+      ]
+    },
+    {
+      "id": "000072-9d1b2a649c50",
+      "check": "rhythm-and-repetition/repeated-predicate-end",
+      "expected": true,
+      "snippets": [
+        "has value.",
+        "has value.",
+        "has value."
+      ]
+    },
+    {
+      "id": "000072-9d1b2a649c50",
+      "check": "rhythm-and-repetition/formal-transition-density",
+      "expected": true,
+      "snippets": [
+        "Additionally,",
+        "Indeed,",
+        "Thus,"
+      ]
+    }
+  ]
+}

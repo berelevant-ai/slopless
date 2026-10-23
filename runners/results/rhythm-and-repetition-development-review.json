@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "Definitions reviewed; pilot authoring begins before full generation.",
+  "status": "Pilot generation and blind review complete; fresh pilot corrections and staged pool expansion in progress.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -430,5 +430,245 @@
       "slug": "mixed-word-repetition-sentence-frame-repetition-hedge-stacking-development",
       "stem": "datasets/ai-synthetic/passages/000075-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-development"
     }
-  ]
+  ],
+  "pilotReview": {
+    "authorPassages": 188,
+    "authorJudgments": 284,
+    "blindReviewComplete": true,
+    "groups": [
+      {
+        "group": "C",
+        "artifactSha256": "89918cfb1c224258dec79adabb42e19af9cb81a6839b2452b692c12426644425",
+        "readScope": {
+          "read_paths": [
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/rhythm-v19-definitions-only.md",
+            "/tmp/rhythm-v19-hedge-definition-only.md",
+            "/tmp/slopless-v19-author-development-C/000069-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-C/000075-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-review-development-C-pilot-blind/000069-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-C-pilot-blind/000075-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-C-pilot-blind/read-scope.json",
+            "/tmp/slopless-v19-review-development-C-pilot-blind/completion.json"
+          ],
+          "scope": "Required instructions, extracted definitions, assigned blind inputs, and own output files only.",
+          "delegated": false
+        },
+        "collections": [
+          {
+            "collection": "000069",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 10,
+            "rewriteRequests": 0,
+            "authorSha256": "3f568fc167bf3dd1234ecf9fde4e905cc83d3edbdd94e929c5830296b734956f",
+            "blindReviewSha256": "9cc39eb626cb70edff540d9fd09990936f5c0daca8ccc59d9cdddc84354f5c58"
+          },
+          {
+            "collection": "000075",
+            "passages": 16,
+            "judgments": 48,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 23,
+            "rewriteRequests": 4,
+            "authorSha256": "1be55c255a997a70db6720b366ac1eb65c1753b9fab03ac8d19c66bdbaf30c3d",
+            "blindReviewSha256": "7f390b2beb3ca136c6d44a2865849f203f05606fad0b5d86b3460ab0d8fd444c"
+          }
+        ]
+      },
+      {
+        "group": "A",
+        "artifactSha256": "ab80d11cb4ff9380a0c20f45dc985ec8cab9a9da937f488524ab260291a50670",
+        "readScope": {
+          "paths": [
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/rhythm-v19-definitions-only.md",
+            "/tmp/slopless-v19-author-development-A/000057-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-A/000059-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-A/000065-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-A/000071-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-review-development-A-pilot-blind/read-scope.json",
+            "/tmp/slopless-v19-review-development-A-pilot-blind/000057-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-A-pilot-blind/000059-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-A-pilot-blind/000065-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-A-pilot-blind/000071-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-A-pilot-blind/completion.json"
+          ]
+        },
+        "collections": [
+          {
+            "collection": "000057",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 10,
+            "authorSha256": "74f0b831e0f2001cfc07d7e535949bbb4af674f5dd0014ee1a7badd90b65adf8",
+            "blindReviewSha256": "e1fdd68326d0da9d2073264eb011561842fe7107e36fd65cf702457873a11d47"
+          },
+          {
+            "collection": "000059",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 10,
+            "authorSha256": "6d0172ce6bed9f37e7f25b99e0f501a6b46fb3add644c0d74e45680361752b8d",
+            "blindReviewSha256": "96ddcdd15e3cf5b3ac44b55e95281b48290abde75ee03f6bb7f1b137172c49f8"
+          },
+          {
+            "collection": "000065",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 10,
+            "authorSha256": "eb7b673e991d626af7daffef91eb368b2ed163a6e33b2c927cb03728b35c19af",
+            "blindReviewSha256": "22666ff8f38222c1b9ae88029dfa464d1d2f38d93cb9bcb69cb2216f2025d438"
+          },
+          {
+            "collection": "000071",
+            "passages": 16,
+            "judgments": 48,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 4,
+            "rewriteRequests": 14,
+            "authorSha256": "1bd5f382f6cdef14129e49bab5c73bc5ed232606b499712f2147451a27a22996",
+            "blindReviewSha256": "35c19008e498b90478d56eb9fa5fef12ddd6e43e161e9380bc36d57d9d7e71c3"
+          }
+        ]
+      },
+      {
+        "group": "B",
+        "artifactSha256": "63b76ee833e93fe1a54b156b55a0f21883c05d58e78dce19f5f62ef381846f4b",
+        "readScope": {
+          "read_paths": [
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/rhythm-v19-definitions-only.md",
+            "/tmp/slopless-v19-author-development-B/000061-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-B/000063-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-B/000067-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-development-B/000073-development-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-review-development-B-pilot-blind/000061-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-B-pilot-blind/000063-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-B-pilot-blind/000067-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-B-pilot-blind/000073-development-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-development-B-pilot-blind/read-scope.json",
+            "/tmp/slopless-v19-review-development-B-pilot-blind/completion.json"
+          ]
+        },
+        "collections": [
+          {
+            "collection": "000061",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 10,
+            "rewriteRequests": 4,
+            "authorSha256": "6c04e969a2603f7d0e4dab4c137814d78049038f6ad4139edb824b065a7433af",
+            "blindReviewSha256": "f94e276f5ec62c3481d1a5fac9e68ac139d3fe4dbca0a53a3c3b35c9ca4d677d"
+          },
+          {
+            "collection": "000063",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [
+              {
+                "id": "000063-10e0671fa6ca",
+                "check": "rhythm-and-repetition/fragment-stacking",
+                "author": true,
+                "review": false
+              }
+            ],
+            "snippetDifferenceCount": 9,
+            "rewriteRequests": 2,
+            "authorSha256": "3d673f04505126623b44729cebc62d02669a28fabd678e05ff34425518b3a84d",
+            "blindReviewSha256": "d7212d751cda2fa777de14104cce7a466127f6c0decdca4e5226f0b019e2b292"
+          },
+          {
+            "collection": "000067",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 1,
+            "rewriteRequests": 4,
+            "authorSha256": "1bd111f444c87c9df79943ce5001751a2d1baf4d236ea552e537b55ac046836e",
+            "blindReviewSha256": "581737689f2c8345253c8e02379755e7cfd8f0c1957f4feef4be1d2c0999df31"
+          },
+          {
+            "collection": "000073",
+            "passages": 16,
+            "judgments": 48,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 16,
+            "rewriteRequests": 3,
+            "authorSha256": "cfc14f5d5fe5ccc861868a409296199e496cab504bdb407b443792cb9f852f77",
+            "blindReviewSha256": "d0f630bf9f600533558b605feab24e03c5bc3fc521c8cdb97bb1b5908e136455"
+          }
+        ]
+      }
+    ],
+    "approvedCollections": [
+      {
+        "collection": "000069",
+        "inputSha256": "1d1a8b42dc027be4cc4f4dbfe677b15a6a19a31d35c0c12de008748cb27c8269",
+        "freshAuditSha256": "db8cf875469dbf1f93a8cf8a4db9d8d9a0fa2a196bac148f577a4444c696dbdf",
+        "repairAuditSha256": "779dd360f400b6419a443d5f0164cd484319a7f51700a365eea7b19122d795e9"
+      },
+      {
+        "collection": "000075",
+        "inputSha256": "7018240dbeb2666f08a22b109dfbcba4860da32e4effd3e96e9bb726ef8f8c27",
+        "freshAuditSha256": "db8cf875469dbf1f93a8cf8a4db9d8d9a0fa2a196bac148f577a4444c696dbdf",
+        "repairAuditSha256": "779dd360f400b6419a443d5f0164cd484319a7f51700a365eea7b19122d795e9"
+      },
+      {
+        "collection": "000067",
+        "inputSha256": "3113edc48b47f61a3c02ee33eef95906872126c2408933850dfacc879668fef0",
+        "freshAuditSha256": "86837ede6f4d17103cb4e377b12f0ba3edf1a12486f522f42b1eb00b4dbad2c4"
+      },
+      {
+        "collection": "000073",
+        "inputSha256": "9afa234a775422409198ce811a819f63ca21a9c8df43db619ae21878cddd42ab",
+        "freshAuditSha256": "86837ede6f4d17103cb4e377b12f0ba3edf1a12486f522f42b1eb00b4dbad2c4"
+      }
+    ],
+    "freshReviewStatus": "Corrections remain in the other collections; pilot balance may change after valid label corrections. Final balanced sets are selected only after complete pool review.",
+    "poolAuthoring": [
+      {
+        "collection": "000069",
+        "status": "running",
+        "approvedPilotSha256": "1d1a8b42dc027be4cc4f4dbfe677b15a6a19a31d35c0c12de008748cb27c8269"
+      },
+      {
+        "collection": "000075",
+        "status": "running",
+        "approvedPilotSha256": "7018240dbeb2666f08a22b109dfbcba4860da32e4effd3e96e9bb726ef8f8c27"
+      },
+      {
+        "collection": "000067",
+        "status": "running",
+        "approvedPilotSha256": "3113edc48b47f61a3c02ee33eef95906872126c2408933850dfacc879668fef0"
+      }
+    ],
+    "holdoutInference": false
+  }
 }

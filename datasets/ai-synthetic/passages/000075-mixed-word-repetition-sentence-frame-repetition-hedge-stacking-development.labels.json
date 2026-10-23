@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "4467facbfdf5732a3aeba8906681f1c1145abb674e0ebe1044b353bd840a9afc",
+  "source": {
+    "name": "Codex-authored Mixed Word Repetition Sentence Frame Repetition Hedge Stacking Development Pilot",
+    "originalPath": "datasets/ai-synthetic/passages/000075-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-development.md",
+    "commit": "14914d5d867f1b98d34c222b324f8544d7c8e8a9",
+    "model": "gpt-6.1-sol (Codex CLI default)",
+    "prompt": null,
+    "notes": "Synthetic writing authored against the frozen rhythm-and-repetition definitions and the existing hedge-stacking definition where assessed. Reviews and measured results are stored separately."
+  },
+  "split": "development",
+  "instructions": "Development writing for reviewed judgments and prompt tuning.",
+  "samples": [
+    {
+      "id": "000075-f15333ecff8d",
+      "start": 108,
+      "end": 452
+    },
+    {
+      "id": "000075-555b6733c028",
+      "start": 478,
+      "end": 792
+    },
+    {
+      "id": "000075-9b2e7f30e3dd",
+      "start": 818,
+      "end": 1132
+    },
+    {
+      "id": "000075-0227bf9b0783",
+      "start": 1158,
+      "end": 1473
+    },
+    {
+      "id": "000075-4ecaae346c38",
+      "start": 1499,
+      "end": 2003
+    },
+    {
+      "id": "000075-e781e472dcba",
+      "start": 2029,
+      "end": 2564
+    },
+    {
+      "id": "000075-8703a1ad31b5",
+      "start": 2590,
+      "end": 3097
+    },
+    {
+      "id": "000075-a5e1422ac9bb",
+      "start": 3123,
+      "end": 3637
+    },
+    {
+      "id": "000075-80ce14fdb456",
+      "start": 3663,
+      "end": 3955
+    },
+    {
+      "id": "000075-b9d6ca0fbe63",
+      "start": 3981,
+      "end": 4300
+    },
+    {
+      "id": "000075-627caf2bff98",
+      "start": 4326,
+      "end": 4649
+    },
+    {
+      "id": "000075-45e003d2f3b5",
+      "start": 4675,
+      "end": 5067
+    },
+    {
+      "id": "000075-c50de28e0263",
+      "start": 5093,
+      "end": 5604
+    },
+    {
+      "id": "000075-09ba5255d619",
+      "start": 5630,
+      "end": 6128
+    },
+    {
+      "id": "000075-b1bed3d44f64",
+      "start": 6154,
+      "end": 6651
+    },
+    {
+      "id": "000075-81c9d6937ce4",
+      "start": 6677,
+      "end": 7275
+    }
+  ],
+  "labels": [
+    {
+      "id": "000075-f15333ecff8d",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-f15333ecff8d",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-f15333ecff8d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-555b6733c028",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-555b6733c028",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-555b6733c028",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-9b2e7f30e3dd",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-9b2e7f30e3dd",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-9b2e7f30e3dd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "could conceivably possibly resolve the flickering you described"
+      ]
+    },
+    {
+      "id": "000075-0227bf9b0783",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-0227bf9b0783",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-0227bf9b0783",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The upstairs room may reopen next week. It is perhaps possible that it will reopen then."
+      ]
+    },
+    {
+      "id": "000075-4ecaae346c38",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-4ecaae346c38",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "With this approach, we give everyone a chance to speak. With this approach, we let every colleague have a voice. With this approach, we make room for each person to be heard."
+      ]
+    },
+    {
+      "id": "000075-4ecaae346c38",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-e781e472dcba",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-e781e472dcba",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Patience meant letting the employee finish. Patience meant hearing the employee out. Patience meant waiting for the employee to complete the thought."
+      ]
+    },
+    {
+      "id": "000075-e781e472dcba",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-8703a1ad31b5",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-8703a1ad31b5",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The useful lesson is to let residents finish describing the problem. The useful lesson is to hear residents out before offering a solution."
+      ]
+    },
+    {
+      "id": "000075-8703a1ad31b5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might possibly perhaps"
+      ]
+    },
+    {
+      "id": "000075-a5e1422ac9bb",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-a5e1422ac9bb",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Subscribers can still get help after work. People on late shifts can still reach someone in the evening. Customers with daytime commitments can still speak to an adviser outside office hours."
+      ]
+    },
+    {
+      "id": "000075-a5e1422ac9bb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might potentially perhaps"
+      ]
+    },
+    {
+      "id": "000075-80ce14fdb456",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The app now has a shelf for downloaded books. Open the shelf from the home screen, then browse the shelf to choose a title. Each cover on the shelf shows its download status. You can rearrange the shelf by holding a cover and dragging it; your shelf keeps that order when you restart the app."
+      ]
+    },
+    {
+      "id": "000075-80ce14fdb456",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-80ce14fdb456",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-b9d6ca0fbe63",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "Leah noticed a cup on the windowsill. She lifted the cup to check beneath it, then set the cup beside the unopened letter. Someone had washed the cup since her last visit, although the cup still bore the small chip she remembered. With the cup in her hands again, she finally sat down to read what her brother had left."
+      ]
+    },
+    {
+      "id": "000075-b9d6ca0fbe63",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-b9d6ca0fbe63",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-627caf2bff98",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The pad fits my desk well. I rest my wrists on the pad while typing, then move the pad aside when I need room to draw. Cleaning the pad takes a damp cloth, and the pad dries before lunch. A thicker pad might perhaps possibly feel better during long sessions, but this one stays flat and costs less than the leather version."
+      ]
+    },
+    {
+      "id": "000075-627caf2bff98",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-627caf2bff98",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might perhaps possibly feel better during long sessions"
+      ]
+    },
+    {
+      "id": "000075-45e003d2f3b5",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The researchers tested volunteers after a short delay. They tested each person in a quiet room and tested them again after lunch. A second team tested another group using the same cards. Having tested both groups, the researchers tested six late arrivals with spare cards and compared the scores."
+      ]
+    },
+    {
+      "id": "000075-45e003d2f3b5",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000075-45e003d2f3b5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It seems that the delay apparently reduced recall"
+      ]
+    },
+    {
+      "id": "000075-c50de28e0263",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "a new room",
+        "The room opens",
+        "side of the room",
+        "furnished the room",
+        "in the room",
+        "booking the room",
+        "the room key"
+      ]
+    },
+    {
+      "id": "000075-c50de28e0263",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "We believe this gives members a place to meet again. We believe this gives our groups somewhere to gather again. We believe this gives the club a space to come together again."
+      ]
+    },
+    {
+      "id": "000075-c50de28e0263",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-09ba5255d619",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "leave the draft",
+        "checks the draft",
+        "comments to the draft",
+        "returns the draft",
+        "finish the draft",
+        "copy of the draft"
+      ]
+    },
+    {
+      "id": "000075-09ba5255d619",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Preparation is taking longer than we allowed. Preparation is using more time than we expected. Preparation is running beyond the slot we set aside."
+      ]
+    },
+    {
+      "id": "000075-09ba5255d619",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000075-b1bed3d44f64",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "Your order",
+        "find the order",
+        "The order includes",
+        "Track the order",
+        "the order page",
+        "the order status"
+      ]
+    },
+    {
+      "id": "000075-b1bed3d44f64",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The key is to keep the entrance clear. The key is to leave an unobstructed route to the porch."
+      ]
+    },
+    {
+      "id": "000075-b1bed3d44f64",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might perhaps possibly"
+      ]
+    },
+    {
+      "id": "000075-81c9d6937ce4",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "a tray beside",
+        "The tray shows",
+        "the tray stays",
+        "out of the tray",
+        "closing the tray",
+        "Reopen the tray"
+      ]
+    },
+    {
+      "id": "000075-81c9d6937ce4",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "writers can still attach files to a message. Colleagues can still include documents with their emails. Teams can still send supporting material alongside their text."
+      ]
+    },
+    {
+      "id": "000075-81c9d6937ce4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "could maybe possibly"
+      ]
+    }
+  ]
+}

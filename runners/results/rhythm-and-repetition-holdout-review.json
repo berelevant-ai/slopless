@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "Definitions reviewed; pilot authoring begins before full generation.",
+  "status": "Pilot generation and blind review complete; fresh pilot corrections and staged pool expansion in progress.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -430,5 +430,278 @@
       "slug": "mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout",
       "stem": "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout"
     }
-  ]
+  ],
+  "pilotReview": {
+    "authorPassages": 188,
+    "authorJudgments": 284,
+    "blindReviewComplete": true,
+    "groups": [
+      {
+        "group": "C",
+        "artifactSha256": "00332af5b1aef84fa4948f353dc2e2e74d00fcfa01cc8bd2f8e24dc5fe988690",
+        "readScope": {
+          "read_paths": [
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/rhythm-v19-definitions-only.md",
+            "/tmp/rhythm-v19-hedge-definition-only.md",
+            "/tmp/slopless-v19-author-holdout-C/000070-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-C/000076-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-review-holdout-C-pilot-blind/000070-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-C-pilot-blind/000076-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-C-pilot-blind/read-scope.json"
+          ]
+        },
+        "collections": [
+          {
+            "collection": "000070",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [
+              {
+                "id": "000070-edd6f773de29",
+                "check": "rhythm-and-repetition/word-repetition",
+                "author": true,
+                "review": false
+              }
+            ],
+            "snippetDifferenceCount": 9,
+            "rewriteRequests": 0,
+            "authorSha256": "ca2594318305a265984a1be6bae68826990dc334a65ad0b2ff6158c9f12fb1df",
+            "blindReviewSha256": "f1fbfb614a7b2ae96e67e90a86b9164b1901637108b425d5f752d18190c3b0b4"
+          },
+          {
+            "collection": "000076",
+            "passages": 16,
+            "judgments": 48,
+            "classificationDisagreements": [
+              {
+                "id": "000076-adea0efdbad3",
+                "check": "rhythm-and-repetition/sentence-frame-repetition",
+                "author": true,
+                "review": false
+              },
+              {
+                "id": "000076-77a269341362",
+                "check": "rhythm-and-repetition/sentence-frame-repetition",
+                "author": true,
+                "review": false
+              }
+            ],
+            "snippetDifferenceCount": 22,
+            "rewriteRequests": 2,
+            "authorSha256": "c766836bd65af8bb9469550c52073124fa0b64df3ca9391b4cf7ec0f6079c028",
+            "blindReviewSha256": "af36d96b296607202ea7210c9b88f78616f8f8a6d1bde52cf067f3ad65e3123f"
+          }
+        ]
+      },
+      {
+        "group": "A",
+        "artifactSha256": "c239258dace14088cac373ffd085ec51b55c06ead8b5a8571a9cf9b9e690931a",
+        "readScope": {
+          "paths": [
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/rhythm-v19-definitions-only.md",
+            "/tmp/slopless-v19-author-holdout-A/000058-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-A/000060-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-A/000066-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-A/000072-holdout-v19-pilot-blind-input.json"
+          ],
+          "own_outputs_read": [
+            "/tmp/slopless-v19-review-holdout-A-pilot-blind/000058-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-A-pilot-blind/000060-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-A-pilot-blind/000066-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-A-pilot-blind/000072-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-A-pilot-blind/read-scope.json",
+            "/tmp/slopless-v19-review-holdout-A-pilot-blind/completion.json"
+          ]
+        },
+        "collections": [
+          {
+            "collection": "000058",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 2,
+            "authorSha256": "2526b26a1064c1b0e06a7bbefca572e0ea7a1b0005bc77434469b30c47e8397d",
+            "blindReviewSha256": "c8a9eea41522eb9dc68a3be14091257ba3e7c5ccd801740ca9bbb9be1c46087a"
+          },
+          {
+            "collection": "000060",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 3,
+            "authorSha256": "52a1677cb22d96b4ede0a7b1bde0cf5dd6c397bed382afd99bb73f910be14d89",
+            "blindReviewSha256": "26e78162917b430ba95c54193a22629862e78707cbf3d87e962da50247a99252"
+          },
+          {
+            "collection": "000066",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 2,
+            "authorSha256": "0be5b228ca99f3fe45e4893166b6326b418a7a0a560aed25c8879744dfc76cd1",
+            "blindReviewSha256": "a7fb42f423253036f0d4c0f95af365f876d2a77c15d644c116cef2d1bc35b75d"
+          },
+          {
+            "collection": "000072",
+            "passages": 16,
+            "judgments": 48,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 5,
+            "rewriteRequests": 4,
+            "authorSha256": "b0d539a514ed130f419cf19741e1a5c11828472bbbef7aeed69c298295b17836",
+            "blindReviewSha256": "33fbd341921e1a379d097e58ee513d9681be200de0a82fa45b12ea50fa33bacc"
+          }
+        ]
+      },
+      {
+        "group": "B",
+        "artifactSha256": "610029d1a646e1d01313666dc984a5ba91df498dcb9d60a87d8251733dff3457",
+        "readScope": {
+          "paths": [
+            "/Users/tartakovsky/.codex/AGENTS.md",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/rhythm-v19-definitions-only.md",
+            "/tmp/slopless-v19-author-holdout-B/000062-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-B/000064-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-B/000068-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-author-holdout-B/000074-holdout-v19-pilot-blind-input.json",
+            "/tmp/slopless-v19-review-holdout-B-pilot-blind/000062-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-B-pilot-blind/000064-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-B-pilot-blind/000068-holdout-pilot-blind-review.json",
+            "/tmp/slopless-v19-review-holdout-B-pilot-blind/000074-holdout-pilot-blind-review.json"
+          ]
+        },
+        "collections": [
+          {
+            "collection": "000062",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 10,
+            "rewriteRequests": 2,
+            "authorSha256": "4da2c985de9bebe26462839e318e3af372a72d95cc15b2ac475458ad2e74f8ca",
+            "blindReviewSha256": "b79bc4e9a60bf9a897553c87719dd464fda4fc795fd9076698d6dc83e0a3f1bd"
+          },
+          {
+            "collection": "000064",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [
+              {
+                "id": "000064-82fda2802729",
+                "check": "rhythm-and-repetition/fragment-stacking",
+                "author": true,
+                "review": false
+              },
+              {
+                "id": "000064-8f797602bbe2",
+                "check": "rhythm-and-repetition/fragment-stacking",
+                "author": true,
+                "review": false
+              }
+            ],
+            "snippetDifferenceCount": 8,
+            "rewriteRequests": 3,
+            "authorSha256": "e900fbdf1b712bc506a272da485d4c973add7037fe70db5edae19d21806335cf",
+            "blindReviewSha256": "ba0516069387df27790867e541ab86eddf104892c1f112585712c06ee2da80a2"
+          },
+          {
+            "collection": "000068",
+            "passages": 20,
+            "judgments": 20,
+            "classificationDisagreements": [],
+            "snippetDifferenceCount": 0,
+            "rewriteRequests": 7,
+            "authorSha256": "3113cc1eeff02a1a9c0d67a14a892c5a83261c2303e2784cc6d0f5fe74106644",
+            "blindReviewSha256": "457a0bdb77e75d963dc9b30643e5eb646c951031d9bf700ca83a3650d3e8a329"
+          },
+          {
+            "collection": "000074",
+            "passages": 16,
+            "judgments": 48,
+            "classificationDisagreements": [
+              {
+                "id": "000074-08327674422c",
+                "check": "rhythm-and-repetition/flat-action-cadence",
+                "author": true,
+                "review": false
+              }
+            ],
+            "snippetDifferenceCount": 15,
+            "rewriteRequests": 2,
+            "authorSha256": "5c14ff17c8c4e1cab0cc4f976f42963d47b61664b48cf0362cceac42ffbc6efb",
+            "blindReviewSha256": "aa3b58b695f8d4d54eb90bb593f84ec1ac984f59d4df1b0fa047144a3c3372eb"
+          }
+        ]
+      }
+    ],
+    "approvedCollections": [
+      {
+        "collection": "000058",
+        "inputSha256": "5230b846e5f5e5fd7520d8c3fe44bc8e064b92ef3cebc614bcca90a82a75fd40",
+        "freshAuditSha256": "20800d5463efbeb3973f8431a97ddb2ebbea68d6952188f0fe42f2dbe118a302"
+      },
+      {
+        "collection": "000070",
+        "inputSha256": "cf703b2315af1595ff17ce3603fa7be01ff0b1ec3b381f7d61168785030d00cf",
+        "freshAuditSha256": "044ce09a3bd442f2185a9d6e2749da3a839d2828f5cda813a61b5e0ca9ff4b69"
+      },
+      {
+        "collection": "000072",
+        "inputSha256": "02d29d746dc66dbbd426a23a00b654bab613e6970b1bcbe19b16ac80b13da409",
+        "freshAuditSha256": "20800d5463efbeb3973f8431a97ddb2ebbea68d6952188f0fe42f2dbe118a302"
+      },
+      {
+        "collection": "000062",
+        "inputSha256": "bdc7ef8cd2e1ba01de426c3dc45c37b6b2e922fd8bc25e97aed5135b30b84148",
+        "freshAuditSha256": "fd640a826c69a96c756aa39f1ba20cfc671890685f31b781044b0925466ced64"
+      },
+      {
+        "collection": "000064",
+        "inputSha256": "e8b4aa919ff9f0c9d3b4a52a6dad1f2100b950c286f2e52757212c375358484c",
+        "freshAuditSha256": "fd640a826c69a96c756aa39f1ba20cfc671890685f31b781044b0925466ced64"
+      }
+    ],
+    "freshReviewStatus": "Corrections remain in the other collections; pilot balance may change after valid label corrections. Final balanced sets are selected only after complete pool review.",
+    "poolAuthoring": [
+      {
+        "collection": "000070",
+        "status": "running",
+        "approvedPilotSha256": "cf703b2315af1595ff17ce3603fa7be01ff0b1ec3b381f7d61168785030d00cf"
+      },
+      {
+        "collection": "000058",
+        "status": "running",
+        "approvedPilotSha256": "5230b846e5f5e5fd7520d8c3fe44bc8e064b92ef3cebc614bcca90a82a75fd40"
+      },
+      {
+        "collection": "000072",
+        "status": "running",
+        "approvedPilotSha256": "02d29d746dc66dbbd426a23a00b654bab613e6970b1bcbe19b16ac80b13da409"
+      }
+    ],
+    "holdoutInference": false
+  }
 }

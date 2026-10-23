@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "14306b6c8fbd95addd55823b2cfc1e357434fdfddfc443f3bb6e4afc62e2af9b",
+  "source": {
+    "name": "Codex-authored Rhythm And Repetition Word Repetition Holdout Pilot",
+    "originalPath": "datasets/ai-synthetic/passages/000070-rhythm-and-repetition-word-repetition-holdout.md",
+    "commit": "14914d5d867f1b98d34c222b324f8544d7c8e8a9",
+    "model": "gpt-6.1-sol (Codex CLI default)",
+    "prompt": null,
+    "notes": "Synthetic writing authored against the frozen rhythm-and-repetition definitions and the existing hedge-stacking definition where assessed. Reviews and measured results are stored separately."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, labels, snippets and individual judgments outside prompt authoring. Model evaluation requires separate user authorization.",
+  "samples": [
+    {
+      "id": "000070-4c4faf174d62",
+      "start": 79,
+      "end": 353
+    },
+    {
+      "id": "000070-5609d7aa3166",
+      "start": 379,
+      "end": 702
+    },
+    {
+      "id": "000070-c32b6ab9fd94",
+      "start": 728,
+      "end": 1007
+    },
+    {
+      "id": "000070-8fae58037ae0",
+      "start": 1033,
+      "end": 1380
+    },
+    {
+      "id": "000070-90a294096064",
+      "start": 1406,
+      "end": 1735
+    },
+    {
+      "id": "000070-93b035fedebf",
+      "start": 1761,
+      "end": 2120
+    },
+    {
+      "id": "000070-33b69de85a4d",
+      "start": 2146,
+      "end": 2423
+    },
+    {
+      "id": "000070-7441ce2d1566",
+      "start": 2449,
+      "end": 2784
+    },
+    {
+      "id": "000070-55bef567da6c",
+      "start": 2810,
+      "end": 3112
+    },
+    {
+      "id": "000070-1e5c0f114e0e",
+      "start": 3138,
+      "end": 3531
+    },
+    {
+      "id": "000070-139a578f2f3d",
+      "start": 3557,
+      "end": 3818
+    },
+    {
+      "id": "000070-f42d193495fb",
+      "start": 3844,
+      "end": 4149
+    },
+    {
+      "id": "000070-860ce8804e46",
+      "start": 4175,
+      "end": 4414
+    },
+    {
+      "id": "000070-815582dc4907",
+      "start": 4440,
+      "end": 4771
+    },
+    {
+      "id": "000070-40ebff0373b9",
+      "start": 4797,
+      "end": 5123
+    },
+    {
+      "id": "000070-50bacda7f88a",
+      "start": 5149,
+      "end": 5561
+    },
+    {
+      "id": "000070-edd6f773de29",
+      "start": 5587,
+      "end": 5908
+    },
+    {
+      "id": "000070-a48a512b9c00",
+      "start": 5934,
+      "end": 6231
+    },
+    {
+      "id": "000070-e3779509935c",
+      "start": 6257,
+      "end": 6532
+    },
+    {
+      "id": "000070-551fdfe85409",
+      "start": 6558,
+      "end": 6885
+    }
+  ],
+  "labels": [
+    {
+      "id": "000070-4c4faf174d62",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "Your ticket has reached",
+        "where the ticket is waiting",
+        "read the ticket this afternoon",
+        "reply to the ticket",
+        "leave the ticket open",
+        "closing the ticket now"
+      ]
+    },
+    {
+      "id": "000070-5609d7aa3166",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-c32b6ab9fd94",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The cache keeps",
+        "use the cache instead",
+        "With the cache enabled",
+        "enters the cache",
+        "consult the cache",
+        "the cache supplies"
+      ]
+    },
+    {
+      "id": "000070-8fae58037ae0",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-90a294096064",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "This update adds",
+        "installing the update",
+        "The update also",
+        "prepared the update",
+        "the update is available",
+        "receive the update"
+      ]
+    },
+    {
+      "id": "000070-93b035fedebf",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-33b69de85a4d",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "put the plan in",
+        "read the plan before",
+        "comments to the plan",
+        "discussed the plan",
+        "revise the plan",
+        "send the plan"
+      ]
+    },
+    {
+      "id": "000070-7441ce2d1566",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-55bef567da6c",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The cheaper service includes",
+        "the other service stops",
+        "the cheaper service seems",
+        "use the service after",
+        "book the service through",
+        "The service also"
+      ]
+    },
+    {
+      "id": "000070-1e5c0f114e0e",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-139a578f2f3d",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The hall will open",
+        "to the hall and",
+        "the hall entrance",
+        "inside the hall",
+        "at the hall",
+        "leave the hall"
+      ]
+    },
+    {
+      "id": "000070-f42d193495fb",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-860ce8804e46",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "this pan for breakfast",
+        "the pan has been",
+        "of the pan without",
+        "rinse the pan",
+        "dry the pan",
+        "The pan lives"
+      ]
+    },
+    {
+      "id": "000070-815582dc4907",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-40ebff0373b9",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "A model represents",
+        "use the model",
+        "the model gives",
+        "Building the model",
+        "the model is complete",
+        "compare the model"
+      ]
+    },
+    {
+      "id": "000070-50bacda7f88a",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-edd6f773de29",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-a48a512b9c00",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000070-e3779509935c",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The path curved",
+        "across the path",
+        "followed the path",
+        "see the path",
+        "beside the path",
+        "along the path"
+      ]
+    },
+    {
+      "id": "000070-551fdfe85409",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    }
+  ]
+}
