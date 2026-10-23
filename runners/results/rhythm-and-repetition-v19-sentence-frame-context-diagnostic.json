@@ -1,0 +1,367 @@
+{
+  "purpose": "Determine whether another defective sequence changes a frame judgment while the useful comparison stays unchanged.",
+  "selection": "Eight known development false positives: six ending-only and two transition-only. Selected before this diagnostic inference; no holdout writing inspected.",
+  "settings": {
+    "model": "jev-1.13.0",
+    "threshold": 0.5,
+    "batchSize": 16,
+    "mode": "classification-only",
+    "runs": 1
+  },
+  "source": "datasets/ai-synthetic/passages/000071-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-development.md",
+  "sourceSha256": "822cc9d3bf047605d1834e431f6b71d4dea027d13caa30e87035bcf0a0e0f20a",
+  "probes": [
+    {
+      "sourceId": "000071-09d9dfcf892b",
+      "otherIssue": "ending",
+      "block": "A little foresight makes sense. Planning ahead makes sense. Thinking in advance makes sense.",
+      "replacement": "A little foresight is sensible. Planning ahead has merit. Thinking in advance seems reasonable.",
+      "variantsById": {
+        "original": "context-55726167bea5afab",
+        "withoutBlock": "context-94d696da3784d994",
+        "blockOnly": "context-2fbecc245ab598b8",
+        "changedBlock": "context-e5675994a8710adf"
+      },
+      "scores": {
+        "original": 0.69,
+        "withoutBlock": 0.21,
+        "blockOnly": 0.69,
+        "changedBlock": 0.64
+      }
+    },
+    {
+      "sourceId": "000071-a95f9743d169",
+      "otherIssue": "ending",
+      "block": "Your satisfaction is the goal. A good experience is the goal. A happy customer is the goal.",
+      "replacement": "Your satisfaction is our aim. A good experience remains the objective. A happy customer is what we want.",
+      "variantsById": {
+        "original": "context-26b3bb34e89b0718",
+        "withoutBlock": "context-fe90cb4158c1351b",
+        "blockOnly": "context-5aac791a02b937cb",
+        "changedBlock": "context-b54200194b508eb7"
+      },
+      "scores": {
+        "original": 0.72,
+        "withoutBlock": 0.24,
+        "blockOnly": 0.64,
+        "changedBlock": 0.68
+      }
+    },
+    {
+      "sourceId": "000071-b7e8c44b4e67",
+      "otherIssue": "ending",
+      "block": "Responsible leadership works. Management commitment works. A positive example works.",
+      "replacement": "Responsible leadership is effective. Management commitment brings benefits. A positive example produces results.",
+      "variantsById": {
+        "original": "context-ae73b7d42f8bc6e4",
+        "withoutBlock": "context-7c259a499f6e0bd8",
+        "blockOnly": "context-937fcdb5d755ea2a",
+        "changedBlock": "context-1bcfc932c5c579ed"
+      },
+      "scores": {
+        "original": 0.72,
+        "withoutBlock": 0.41,
+        "blockOnly": 0.51,
+        "changedBlock": 0.5
+      }
+    },
+    {
+      "sourceId": "000071-84771106c8d4",
+      "otherIssue": "ending",
+      "block": "Clarity is essential. Lucidity is essential. Being clear is essential.",
+      "replacement": "Clarity is essential. Lucidity has value. Being clear matters.",
+      "variantsById": {
+        "original": "context-d19b699a400f592a",
+        "withoutBlock": "context-64f1cdd3318b80d0",
+        "blockOnly": "context-3fa9fdd56cb12ea0",
+        "changedBlock": "context-5e845a834aebcd06"
+      },
+      "scores": {
+        "original": 0.64,
+        "withoutBlock": 0.16,
+        "blockOnly": 0.48,
+        "changedBlock": 0.45
+      }
+    },
+    {
+      "sourceId": "000071-a1df5ba33d5c",
+      "otherIssue": "ending",
+      "block": "Being careful is enough. Paying attention is enough. Keeping focused is enough.",
+      "replacement": "Being careful is sufficient. Paying attention meets the need. Keeping focused will do.",
+      "variantsById": {
+        "original": "context-94bf3f3702beb9f4",
+        "withoutBlock": "context-6d6b5613db0aa1ca",
+        "blockOnly": "context-f318efc8803b101c",
+        "changedBlock": "context-23f814c99a3d618f"
+      },
+      "scores": {
+        "original": 0.67,
+        "withoutBlock": 0.31,
+        "blockOnly": 0.62,
+        "changedBlock": 0.57
+      }
+    },
+    {
+      "sourceId": "000071-f50afa66914e",
+      "otherIssue": "ending",
+      "block": "Working with confidence is useful. Feeling supported is useful. Having reassurance is useful.",
+      "replacement": "Working with confidence has value. Feeling supported helps. Having reassurance is worthwhile.",
+      "variantsById": {
+        "original": "context-a027067f9bcf1d8b",
+        "withoutBlock": "context-313ea195f3433734",
+        "blockOnly": "context-adad209fbaeb9928",
+        "changedBlock": "context-ced09ae95d7798dd"
+      },
+      "scores": {
+        "original": 0.64,
+        "withoutBlock": 0.36,
+        "blockOnly": 0.51,
+        "changedBlock": 0.5
+      }
+    },
+    {
+      "sourceId": "000071-03f19ad0c79f",
+      "otherIssue": "transition",
+      "block": "Importantly, earlier spacing remains acceptable. Indeed, the old separators continue to be accepted. Ultimately, acceptance of whitespace is preserved.",
+      "replacement": "Earlier spacing remains acceptable. The old separators continue to be accepted. Acceptance of whitespace is preserved.",
+      "variantsById": {
+        "original": "context-5c5173ee8cb8dbaa",
+        "withoutBlock": "context-6e33a80bea1313cb",
+        "blockOnly": "context-e364d23355682b45",
+        "changedBlock": "context-0b7a4caef5d243a3"
+      },
+      "scores": {
+        "original": 0.69,
+        "withoutBlock": 0.48,
+        "blockOnly": 0.35,
+        "changedBlock": 0.58
+      }
+    },
+    {
+      "sourceId": "000071-200cd6ad5ecf",
+      "otherIssue": "transition",
+      "block": "Crucially, the receipts remain retrievable. Indeed, they are still available to retrieve. Overall, retrieval has been retained.",
+      "replacement": "The receipts remain retrievable. They are still available to retrieve. Retrieval has been retained.",
+      "variantsById": {
+        "original": "context-731d4344a80cac76",
+        "withoutBlock": "context-73559f3cf85d29c1",
+        "blockOnly": "context-a1ade5c557f7d63a",
+        "changedBlock": "context-808482089324886f"
+      },
+      "scores": {
+        "original": 0.69,
+        "withoutBlock": 0.6,
+        "blockOnly": 0.49,
+        "changedBlock": 0.66
+      }
+    }
+  ],
+  "inputSha256": "7f53580219bd032907aa9f7e363cdab0ae994f2af4822449a969b647b5e09e02",
+  "job": {
+    "collection": "context-diagnostic",
+    "cohort": "controlled-development",
+    "check": "sentence-frame-repetition",
+    "family": "rhythm-and-repetition",
+    "prompts": "prompts/v19",
+    "dataset": "/tmp/slopless-v19-context-probe-2026-10-23-164724/passages.md",
+    "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic-development.json",
+    "log": "/tmp/slopless-v19-context-probe-2026-10-23-164724/inference.log",
+    "inputs": {
+      "/tmp/slopless-v19-context-probe-2026-10-23-164724/passages.md": "e258142d5a12a0f82d4133737cb6bd7f9a70f796bd60ab419c8d2de55cc84745",
+      "/tmp/slopless-v19-context-probe-2026-10-23-164724/passages.labels.json": "975407f28f11c0903591b8604a30d6696ef3d26b4460bcad7c8081886147e1f7",
+      "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+      "prompts/v19/sentence-frame-repetition.md": "c025469162b17011ae783710076280d61a5aaece3531ff966c379be2534ad945",
+      "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+      "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+      "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+      "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+    },
+    "developmentOnly": true
+  },
+  "totals": {
+    "original": 8,
+    "withoutBlock": 1,
+    "blockOnly": 5,
+    "changedBlock": 7
+  },
+  "execution": {
+    "complete": true,
+    "exit": 0,
+    "requests": 2,
+    "judgments": 32,
+    "inputTokens": 10919,
+    "outputTokens": 1184
+  },
+  "reconstruction": "Read each sourceId from source. original is its complete source text; withoutBlock removes the exact block, collapses doubled ASCII spaces and trims; blockOnly is the exact block; changedBlock substitutes replacement for block. variantsById binds these complete inputs to saved answers. No original dataset or label is changed.",
+  "verification": {
+    "approved": true,
+    "auditSha256": "82427a9a0deed1f92bc98066e391208dcf131ab0c94f9ec8ee107e33bb69429a",
+    "counts": {
+      "all": {
+        "inputs": 8,
+        "flags": {
+          "original": 8,
+          "withoutBlock": 1,
+          "blockOnly": 5,
+          "changedBlock": 7
+        }
+      },
+      "ending": {
+        "inputs": 6,
+        "flags": {
+          "original": 6,
+          "withoutBlock": 0,
+          "blockOnly": 5,
+          "changedBlock": 5
+        }
+      },
+      "transition": {
+        "inputs": 2,
+        "flags": {
+          "original": 2,
+          "withoutBlock": 1,
+          "blockOnly": 0,
+          "changedBlock": 2
+        }
+      }
+    },
+    "verification": {
+      "exactOriginals": 8,
+      "exactBlockRemovals": 8,
+      "exactIsolatedBlocks": 8,
+      "exactReplacements": 8,
+      "removalNormalization": "Only repeated ASCII spaces collapse and boundary whitespace trims after removing the unique block; all remaining wording and paragraph breaks are preserved.",
+      "publicValidateResult": {
+        "complete": true
+      },
+      "publicScore": {
+        "matchesSavedSummary": true,
+        "cleanControls": 32,
+        "falseAlarms": 21
+      },
+      "nativeRun": {
+        "executions": 1,
+        "requests": 2,
+        "decisions": 32,
+        "model": "jev-1.13.0",
+        "threshold": 0.5,
+        "batchSize": 16,
+        "mode": "classification-only",
+        "exit": 0
+      },
+      "freezeEvidence": {
+        "inputConstruction": "The diagnostic script constructs and writes all 32 inputs, packs the pair and writes experiment/jobs metadata before inference.",
+        "frozenTimes": {
+          "input.json": "2026-10-23T15:49:15.858Z",
+          "experiment.json": "2026-10-23T15:49:15.961Z",
+          "passages.md": "2026-10-23T15:49:15.942Z",
+          "passages.labels.json": "2026-10-23T15:49:15.960Z"
+        },
+        "firstResponseRecordedAt": "2026-10-23T15:49:18.279Z",
+        "scope": "Current hashes match the frozen manifest and native request hashes. File timestamps corroborate ordering."
+      },
+      "lockerProbabilities": {
+        "original": 0.69,
+        "withoutBlock": 0.21,
+        "blockOnly": 0.69,
+        "changedBlock": 0.64
+      }
+    },
+    "findings": [
+      {
+        "finding": "Adding the ending sequence changes the named frame answer in all six ending cases.",
+        "evidence": "Originals flag 6/6; removal flags 0/6; isolated endings flag 5/6; replacement flags 5/6.",
+        "explanation": "The observed answers extend beyond the specified lexical-position conditions and support a broader response to repetitive generic statements.",
+        "operation": "Preserve this diagnostic as evidence; separately review lexical eligibility and useful-comparison exceptions before any future prompt revision."
+      },
+      {
+        "finding": "Ending-only positive answers are misassigned under the current frame definition.",
+        "evidence": "The six blocks share terminal predicates, with different openings; the prompt expressly assigns weak repeated terminal predicates to the ending check.",
+        "operation": "Keep the frame no-hit expectations provisional but supported for the ending blocks; inspect matching words and their sentence position before approving labels."
+      },
+      {
+        "finding": "The useful controls support the no-hit expectations.",
+        "evidence": "Lockers, repairs, estimands and copy routing organize distinct actions or outcomes; apprentice safeguards and offline features describe distinct capabilities. Parser whitespace and receipt access routes provide compatibility comparisons.",
+        "operation": "Preserve the functional exception when reviewing each complete passage."
+      },
+      {
+        "finding": "Human inspection should focus on receipts, then parser compatibility.",
+        "evidence": "000071-200cd6ad5ecf repeats \"can still retrieve archived receipts\" across desktop, phone and accountant; removal remains positive at 0.60. The three routes may justify the parallelism, but repeat the same operation. 000071-03f19ad0c79f repeats \"The parser will still accept\" across whitespace types; removal is 0.48 and replacement 0.58.",
+        "operation": "Have the human decide whether each route or whitespace category supplies an independently useful distinction under the existing functional exception; retain labels unchanged in this audit."
+      }
+    ],
+    "commandResults": [
+      {
+        "operation": "validate",
+        "command": [
+          "node",
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+          "validate",
+          "--prompts",
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v19",
+          "--dataset",
+          "/tmp/slopless-v19-context-probe-2026-10-23-164724/passages.md",
+          "--family",
+          "rhythm-and-repetition",
+          "--mode",
+          "classification-only",
+          "--development-only",
+          "--batch-size",
+          "16",
+          "--check",
+          "sentence-frame-repetition",
+          "--output",
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic-development.json"
+        ],
+        "exit": 0,
+        "complete": true,
+        "requests": 2,
+        "decisions": 32,
+        "falseAlarms": 21
+      },
+      {
+        "operation": "score",
+        "command": [
+          "node",
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+          "score",
+          "--prompts",
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v19",
+          "--dataset",
+          "/tmp/slopless-v19-context-probe-2026-10-23-164724/passages.md",
+          "--family",
+          "rhythm-and-repetition",
+          "--mode",
+          "classification-only",
+          "--development-only",
+          "--batch-size",
+          "16",
+          "--check",
+          "sentence-frame-repetition",
+          "--output",
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic-development.json"
+        ],
+        "exit": 0,
+        "complete": true,
+        "requests": 2,
+        "decisions": 32,
+        "falseAlarms": 21
+      }
+    ]
+  },
+  "scriptHashes": {
+    "inputConstruction": "a5727f979848e5359ac331eca8079529ee1f7652939331e35f7a86d636a4fffe",
+    "scoringAndReportGeneration": "73818cad7546506f6a8e6e90e7c2061bd11ab8182e91a87d70851b9155c4d0dc"
+  },
+  "reportReview": {
+    "auditSha256": "3320f442ab3da1312b3329bcb81785fee0decc9188ff738d4972aba2e0a52d8d",
+    "completeQuotedInputsExact": 32,
+    "probabilitiesAndThresholdOutcomesExact": 32,
+    "editorialCorrectionsApplied": [
+      "Limit conclusions to the selected-error diagnostic and observable outputs.",
+      "Include the four locker probabilities.",
+      "Explicitly preserve benchmark labels and prompts; identify the two controls for human judgment."
+    ],
+    "rejectedFinding": "The alleged input-script hash change compares two different files. The first audit hashes input construction; the report audit hashes the separate scoring/report generator. The input-construction file remains byte-identical to the first audit."
+  }
+}
