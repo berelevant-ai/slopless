@@ -1,6 +1,6 @@
 {
   "family": "narrative-craft",
-  "status": "All 240 candidates reconciled and final-reviewed before balanced selection. Original author pool is preserved at 2f5af44d; reviewed pool is being archived.",
+  "status": "First body-emotion-shorthand data-quality batch complete: exactly 100 hits and 100 no-hits, independently reviewed and audited. Jev prompt development and inference remain subsequent work.",
   "holdoutInference": false,
   "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
   "collections": [
@@ -9,7 +9,7 @@
       "split": "holdout",
       "stem": "000078-narrative-craft-body-emotion-shorthand-holdout",
       "authorAgent": "01a16a2a-b9b3-75f2-b7e3-44a3f1cce865",
-      "status": "reviewed-pool-before-selection",
+      "status": "balanced-reviewed-frozen",
       "pilot": {
         "passages": 20,
         "hits": 10,
@@ -374,6 +374,102 @@
         "words": 13244,
         "textSha256": "eaaff50057b6d074bb78efeed644b6c6c9aabed6f9b93f205cb92f458c335cf6",
         "labelsSha256": "8db9b9ba7148d066faf2021734e2ce88fc8b947e2b6f3922a57edc4300d83ac1"
+      },
+      "reviewedPoolArchive": {
+        "commit": "232e81dc",
+        "passages": 240,
+        "hits": 119,
+        "noHits": 121,
+        "words": 13244,
+        "textSha256": "eaaff50057b6d074bb78efeed644b6c6c9aabed6f9b93f205cb92f458c335cf6",
+        "labelsSha256": "8db9b9ba7148d066faf2021734e2ce88fc8b947e2b6f3922a57edc4300d83ac1"
+      },
+      "selection": {
+        "method": "Retain every pilot, corrected/revised/challenged case and snippet-boundary dispute; fill each 100-case class by SHA-256 rank of v21-balance:split:rawId. No detector predictions.",
+        "passages": 200,
+        "hits": 100,
+        "noHits": 100,
+        "words": 11091,
+        "mandatoryIds": [
+          "000078-74d30fe14264",
+          "000078-e1be4358e6b3",
+          "000078-5a533a367060",
+          "000078-fbbcd3f00412",
+          "000078-3a51257f0aa1",
+          "000078-3fcbaccf2b84",
+          "000078-7ed3530084d7",
+          "000078-b699cdad6e63",
+          "000078-d0f43fc5484b",
+          "000078-4b96e9a49da5",
+          "000078-fd9a6f020b0c",
+          "000078-4d70a080871e",
+          "000078-ee814ce06225",
+          "000078-a13868f7cbbc",
+          "000078-b42aa8e442b3",
+          "000078-ea3919f5181e",
+          "000078-c9bf4297e350",
+          "000078-b1054a89d2c0",
+          "000078-b03f5a0b5716",
+          "000078-4a883a83b569",
+          "000078-e603340a1ae8",
+          "000078-ae795b80fe52",
+          "000078-f1cc5e3532fb",
+          "000078-6c5fe9b9d0d3",
+          "000078-ca5209345f98",
+          "000078-93e1811c36ed",
+          "000078-f77afacd6bdd",
+          "000078-0a36c788b206",
+          "000078-45d4dae7bb27",
+          "000078-2d42c7948731",
+          "000078-d5c79e32283e",
+          "000078-cb9d1572ba5e"
+        ],
+        "surplusIds": [
+          "000078-3ce8caf4821f",
+          "000078-5810400b4aeb",
+          "000078-39dda87a1e2d",
+          "000078-e4b578a5b692",
+          "000078-2f658fc975bf",
+          "000078-6c34f1533640",
+          "000078-59bb79d0fdcc",
+          "000078-169c5091c7e0",
+          "000078-74e229dd9eb0",
+          "000078-1279447a3707",
+          "000078-4f99542068e1",
+          "000078-10f6d3266701",
+          "000078-5293421da53a",
+          "000078-0db4c20c0e1b",
+          "000078-304b11850a64",
+          "000078-29e2e6bf5a93",
+          "000078-81b04a5a78fb",
+          "000078-a1c165000323",
+          "000078-4cd0a7ad94fc",
+          "000078-b386e3320ce9",
+          "000078-fd942e842d43",
+          "000078-4976d956765c",
+          "000078-e739238feba6",
+          "000078-52cd87a44963",
+          "000078-0f6e922ffd39",
+          "000078-f318c6592b7b",
+          "000078-d43bf398a6bb",
+          "000078-4b1490b5cf4c",
+          "000078-9a7d2aa99df3",
+          "000078-056705cea5e5",
+          "000078-f879b80b2c8c",
+          "000078-a233d92b1145",
+          "000078-647d3ec44dea",
+          "000078-0f08bf4e65d0",
+          "000078-faa4dd21b0ac",
+          "000078-2740cf02103c",
+          "000078-4798d0e57b2b",
+          "000078-58478dd8d1c3",
+          "000078-2997361447af",
+          "000078-0916ca11b3d5"
+        ],
+        "surplusCount": 40,
+        "archiveCommit": "232e81dc",
+        "textSha256": "8260d36098ac6fa63fd2cc0a813882aed7e3267f49d2c2f9a5e48da1c7c3b923",
+        "labelsSha256": "ace8d27ced524b00f2758b7c3294786fc6249cd6ef449671a0c6dff3fa8f2855"
       }
     }
   ],
@@ -406,5 +502,58 @@
     "candidates": 0,
     "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
     "verifierSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312"
+  },
+  "finalOverlap": {
+    "newInputs": 400,
+    "priorDocuments": 15721,
+    "legacyFiles": 39,
+    "referenceInputs": 317502,
+    "pairs": 127080600,
+    "candidates": 0,
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "verifierSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312"
+  },
+  "verification": {
+    "datasetValidation": {
+      "exitCode": 0,
+      "documents": 15723,
+      "labels": 37053,
+      "holdoutDocuments": 40
+    },
+    "fixture3": {
+      "command": "fixture3 check --suite datasets --json",
+      "exit_code": 0,
+      "suites": [
+        {
+          "suite": "datasets",
+          "status": "matched",
+          "exit_code": 0,
+          "fixtures": 1,
+          "received": ".fixture3/datasets/received.normalized.json",
+          "diff": ".fixture3/datasets/diff.txt",
+          "error": null
+        }
+      ]
+    },
+    "paragraphTests": {
+      "command": "node --test runners/jev-paragraphs.test.mjs",
+      "exitCode": 0,
+      "tests": 6,
+      "passed": 6
+    },
+    "holdoutInference": false
+  },
+  "packagingAuditAttempts": [
+    {
+      "approved": false,
+      "invalidated": true,
+      "reason": "The first packaging reviewer projected taxonomy lines outside its permitted scope; mechanical checks passed, and fresh-context approval is required.",
+      "auditSha256": "803923a82d63795fa23a0a55e55fdde828b2533d79583d22f345139eedaa7ddd"
+    }
+  ],
+  "packagingAudit": {
+    "approved": true,
+    "sha256": "ffda579e4d23626559005a7030b82c74df691be81ed2f263d806fcec2c094fa2",
+    "record": "runners/results/narrative-craft-development-review.json#/packagingAudit"
   }
 }

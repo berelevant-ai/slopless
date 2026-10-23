@@ -180,6 +180,13 @@ Each candidate receives three independent reviews, with corrections between pass
 
 The final overlap screen finds zero candidates against previous datasets, legacy fixtures and definition examples. Global identity checks find 4,000 unique new passage IDs and zero collisions. Keep holdout writing outside prompt development; holdout model inference requires separate authorization.
 
+## Narrative-Craft First Batch
+
+- Body-emotion shorthand has separate [development](ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md) and protected holdout pairs. Each contains exactly 100 hits and 100 no-hits, totaling 400 passages and 22,190 words.
+- The three-pass review corrects three labels and clarifies seven passages. Every rewritten version receives three independent reviews; all 66 mandatory pilot, corrected, challenged and snippet-boundary cases remain selected.
+- Original 480-candidate pools remain at `2f5af44d`; reviewed pools remain at `232e81dc`, preserving all eighty surplus passages. The two narrative-craft review records under `runners/results/` retain source hashes and permitted read scopes.
+- The final copy screen finds zero candidates against earlier datasets, legacy fixtures, definition examples and other new passages. Keep protected writing outside prompt authoring; Jev prompt development and model evaluation follow this data-quality batch.
+
 ## Commands
 
 ```sh

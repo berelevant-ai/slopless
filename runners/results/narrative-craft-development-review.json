@@ -1,7 +1,7 @@
 {
   "family": "narrative-craft",
   "plannedPromptVersion": "v21",
-  "status": "All 240 candidates reconciled and final-reviewed before balanced selection. Original author pool is preserved at 2f5af44d; reviewed pool is being archived.",
+  "status": "First body-emotion-shorthand data-quality batch complete: exactly 100 hits and 100 no-hits, independently reviewed and audited. Jev prompt development and inference remain subsequent work.",
   "holdoutInference": false,
   "definition": {
     "check": "body-emotion-shorthand",
@@ -98,7 +98,7 @@
       "split": "development",
       "stem": "000077-narrative-craft-body-emotion-shorthand-development",
       "authorAgent": "01a16a2a-b96c-7dd2-9d8d-a75f8f73a52f",
-      "status": "reviewed-pool-before-selection",
+      "status": "balanced-reviewed-frozen",
       "pilot": {
         "passages": 20,
         "hits": 10,
@@ -427,6 +427,104 @@
         "words": 13286,
         "textSha256": "0fd1b2dc90d31ce7ca3277bea8ced1732a316afd77506f525dc5c1142c3fcfa0",
         "labelsSha256": "ae7dcec065175ef85b61987e00e9a280141cd3bedca4f9b75c88023f2639423a"
+      },
+      "reviewedPoolArchive": {
+        "commit": "232e81dc",
+        "passages": 240,
+        "hits": 120,
+        "noHits": 120,
+        "words": 13286,
+        "textSha256": "0fd1b2dc90d31ce7ca3277bea8ced1732a316afd77506f525dc5c1142c3fcfa0",
+        "labelsSha256": "ae7dcec065175ef85b61987e00e9a280141cd3bedca4f9b75c88023f2639423a"
+      },
+      "selection": {
+        "method": "Retain every pilot, corrected/revised/challenged case and snippet-boundary dispute; fill each 100-case class by SHA-256 rank of v21-balance:split:rawId. No detector predictions.",
+        "passages": 200,
+        "hits": 100,
+        "noHits": 100,
+        "words": 11099,
+        "mandatoryIds": [
+          "000077-7eb1039d5e98",
+          "000077-2a5c9076710b",
+          "000077-cc69455ec1e6",
+          "000077-39954dbc7c3f",
+          "000077-2eb8ff55a383",
+          "000077-8b843c5d0415",
+          "000077-08cf32edb3f5",
+          "000077-2a22ab716b29",
+          "000077-268a8e5608f7",
+          "000077-2a6eafe2e45c",
+          "000077-2f36698d1cb2",
+          "000077-48336d8493d9",
+          "000077-203ae8684286",
+          "000077-88e4d9b7cc46",
+          "000077-605972eddfdf",
+          "000077-38f9c6410f66",
+          "000077-b230d8a25813",
+          "000077-c8127742398d",
+          "000077-b1c02b0803f5",
+          "000077-0e7b1f126918",
+          "000077-616986d6a578",
+          "000077-b0f3089f9cae",
+          "000077-48b5c0f85a24",
+          "000077-22afefa616d1",
+          "000077-86946e8ff42f",
+          "000077-7d94f5ef93ac",
+          "000077-218435720114",
+          "000077-75ff05b45106",
+          "000077-153666f99d09",
+          "000077-4ea1846c6eb1",
+          "000077-1e1de1180230",
+          "000077-7e2f33db8b9a",
+          "000077-9fcfb4ffa365",
+          "000077-35f97215e64c"
+        ],
+        "surplusIds": [
+          "000077-229354d835fc",
+          "000077-d68a594ce958",
+          "000077-8250510d5f6b",
+          "000077-12aa918c7c57",
+          "000077-37728b14f87e",
+          "000077-ee5314a83141",
+          "000077-3327dbc5bb30",
+          "000077-f07aeeb226a6",
+          "000077-9119f5de0f20",
+          "000077-209cd8f04bf4",
+          "000077-d41f2c0fc781",
+          "000077-0e27e8899f37",
+          "000077-df1c32c4c2f8",
+          "000077-125e57a4e26e",
+          "000077-258f68a1a3a6",
+          "000077-34449dd1091e",
+          "000077-66789166fd8b",
+          "000077-62a3185e455c",
+          "000077-2b2b43e35acd",
+          "000077-e34937f26748",
+          "000077-091e4d8acbfd",
+          "000077-dda6d90eea0b",
+          "000077-0fdf11586af0",
+          "000077-3815878d2dbe",
+          "000077-dd23f6d7bb9b",
+          "000077-02b6bf7e7f99",
+          "000077-3fad39c0425c",
+          "000077-9a87c3c7a271",
+          "000077-f1e863960fbc",
+          "000077-9b1a32bf1525",
+          "000077-333c2f3961b6",
+          "000077-eeeebe4edfae",
+          "000077-6d7e40ecf21c",
+          "000077-1f7c386469d4",
+          "000077-5fcf82501b7e",
+          "000077-c922f0fcd869",
+          "000077-08ca50683965",
+          "000077-51d7c5dacc91",
+          "000077-85bb2c3b846a",
+          "000077-35e7826da357"
+        ],
+        "surplusCount": 40,
+        "archiveCommit": "232e81dc",
+        "textSha256": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e",
+        "labelsSha256": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7"
       }
     }
   ],
@@ -469,5 +567,281 @@
     "candidates": 0,
     "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
     "verifierSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312"
+  },
+  "finalOverlap": {
+    "newInputs": 400,
+    "priorDocuments": 15721,
+    "legacyFiles": 39,
+    "referenceInputs": 317502,
+    "pairs": 127080600,
+    "candidates": 0,
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "verifierSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312"
+  },
+  "verification": {
+    "datasetValidation": {
+      "exitCode": 0,
+      "documents": 15723,
+      "labels": 37053,
+      "holdoutDocuments": 40
+    },
+    "fixture3": {
+      "command": "fixture3 check --suite datasets --json",
+      "exit_code": 0,
+      "suites": [
+        {
+          "suite": "datasets",
+          "status": "matched",
+          "exit_code": 0,
+          "fixtures": 1,
+          "received": ".fixture3/datasets/received.normalized.json",
+          "diff": ".fixture3/datasets/diff.txt",
+          "error": null
+        }
+      ]
+    },
+    "paragraphTests": {
+      "command": "node --test runners/jev-paragraphs.test.mjs",
+      "exitCode": 0,
+      "tests": 6,
+      "passed": 6
+    },
+    "holdoutInference": false
+  },
+  "packagingAuditAttempts": [
+    {
+      "approved": false,
+      "invalidated": true,
+      "reason": "The first packaging reviewer projected taxonomy lines outside its permitted scope; mechanical checks passed, and fresh-context approval is required.",
+      "auditSha256": "803923a82d63795fa23a0a55e55fdde828b2533d79583d22f345139eedaa7ddd"
+    }
+  ],
+  "packagingAudit": {
+    "approved": true,
+    "sha256": "ffda579e4d23626559005a7030b82c74df691be81ed2f263d806fcec2c094fa2",
+    "corrections": [],
+    "verified": {
+      "development": {
+        "passages": 200,
+        "hits": 100,
+        "noHits": 100,
+        "words": 11099,
+        "mandatory": 34,
+        "surplus": 40,
+        "labelCorrections": 2,
+        "textRewrites": 3,
+        "textSha256": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e",
+        "labelsSha256": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7"
+      },
+      "holdout": {
+        "passages": 200,
+        "hits": 100,
+        "noHits": 100,
+        "words": 11091,
+        "mandatory": 32,
+        "surplus": 40,
+        "labelCorrections": 1,
+        "textRewrites": 4,
+        "textSha256": "8260d36098ac6fa63fd2cc0a813882aed7e3267f49d2c2f9a5e48da1c7c3b923",
+        "labelsSha256": "ace8d27ced524b00f2758b7c3294786fc6249cd6ef449671a0c6dff3fa8f2855"
+      },
+      "archives": {
+        "original": "2f5af44d: all 480 original rows exact",
+        "reviewed": "232e81dc: all 480 reviewed rows exact; all 400 selected rows exact; all source IDs stable"
+      },
+      "schemaRangesSnippetsAndHashes": "passed",
+      "selection": "Recomputed mandatory sets and deterministic class quotas; all matched.",
+      "reviews": {
+        "originalBlind": {
+          "reviewed": 480,
+          "classDisagreements": 0,
+          "snippetDifferences": 15
+        },
+        "currentVersionThreeRoleCoverage": 480,
+        "replacementVersionsWithThreeValidPasses": 7,
+        "finalCanonicalLabelAndSnippetDifferences": 0,
+        "rawComparisons": [
+          {
+            "split": "development",
+            "role": "blind-original",
+            "currentClassDifferences": 2,
+            "currentSnippetDifferences": 13
+          },
+          {
+            "split": "development",
+            "role": "adversarial-original",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 1
+          },
+          {
+            "split": "development",
+            "role": "final-full",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "development",
+            "role": "replacement-blind",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "development",
+            "role": "replacement-adversarial",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "development",
+            "role": "replacement-final",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "holdout",
+            "role": "blind-original",
+            "currentClassDifferences": 1,
+            "currentSnippetDifferences": 4
+          },
+          {
+            "split": "holdout",
+            "role": "adversarial-original",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 1
+          },
+          {
+            "split": "holdout",
+            "role": "final-full",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "holdout",
+            "role": "replacement-blind",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "holdout",
+            "role": "replacement-adversarial",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          },
+          {
+            "split": "holdout",
+            "role": "replacement-final",
+            "currentClassDifferences": 0,
+            "currentSnippetDifferences": 0
+          }
+        ],
+        "roleScopesChecked": 19,
+        "scopeFilesSha256": "82f17308bc78788bbef6b7d091277fbbc27626bd783e433b2a0a04742cff1521"
+      },
+      "definition": {
+        "sha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+        "frozenBeforeGenerationByRecordedHashesAndMtime": true
+      },
+      "overlap": {
+        "newInputs": 400,
+        "priorDocuments": 15721,
+        "legacyFiles": 39,
+        "referenceInputs": 317502,
+        "pairs": 127080600,
+        "candidates": 0,
+        "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+        "sourceInputsSha256": "db7d7bdc06fae730b666955100ad2079c03dc20a321277ad67e74fe8f7f2ed98",
+        "scannerSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312",
+        "recomputed": true
+      },
+      "preservation": {
+        "archiveCommitsLeaveImplementationDependenciesAndPromptsUnchanged": true,
+        "repositoryStatusAndDirtyFileHashesPreserved": true,
+        "termPolicyDirtyFilesPreserved": true
+      },
+      "scope": {
+        "datasetQualityOnly": true,
+        "jevInferenceRecorded": false,
+        "promptTuningRecorded": false,
+        "otherNarrativeTypes": "unfinished",
+        "protectedWritingPrinted": false,
+        "roleAllowlistsChecked": true,
+        "auditValidity": "Valid for this fresh context; human reads confined to the explicit allowlist.",
+        "independentReviewOfThisAudit": "Performed directly without delegation, as requested.",
+        "oldPass": {
+          "approved": false,
+          "invalidated": true,
+          "reason": "Previous context printed out-of-allowlist taxonomy lines.",
+          "sha256": "803923a82d63795fa23a0a55e55fdde828b2533d79583d22f345139eedaa7ddd",
+          "originalVerifierSha256": "235f2753c5fc0cdc0d7c03cc4163339916d173832f596695236e87f913281c9c",
+          "preserved": true
+        }
+      },
+      "documents": {
+        "countsAndStatusConsistent": true,
+        "artificialWrapping": false
+      }
+    },
+    "commands": [
+      {
+        "log": "/tmp/slopless-narrative-v21/dataset-validation-final.log",
+        "sha256": "4f0f632189a7ad8d42895b4ed6812ad9e748b2593fe8e3267cc58322c07df0d1",
+        "completed": true,
+        "exitCode": 0
+      },
+      {
+        "log": "/tmp/slopless-narrative-v21/fixture3-final.log",
+        "sha256": "6fb990098bdc09289a71f2a502a262fd7c6fb9eac46a370f292f8315b0bb9043",
+        "completed": true,
+        "exitCode": 0
+      },
+      {
+        "log": "/tmp/slopless-narrative-v21/paragraph-tests-final.log",
+        "sha256": "4e987dafaae5701d6d5f27cc4cf6fe009f7e689f38995be00bf87143077effb9",
+        "completed": true,
+        "exitCode": 0
+      },
+      {
+        "log": "/tmp/slopless-narrative-v21/selected-overlap.log",
+        "sha256": "fc5090bfcabdddb204829765281d8e259447766cd82fbe00a5edaef949d6eb92",
+        "completed": true,
+        "exitCode": 0
+      },
+      {
+        "command": "node /tmp/slopless-narrative-v21/audit-clean/verification.mjs",
+        "completed": true,
+        "exitCode": 0
+      }
+    ],
+    "readScope": {
+      "valid": true,
+      "context": "Fresh replacement final packaging audit",
+      "humanRead": [
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+        "/Users/tartakovsky/.codex/AGENTS.md",
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.plans/2026-10-23-195843-narrative-craft-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.worklogs/2026-10-23-205046-select-balanced-narrative-data.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/README.md",
+        "/tmp/slopless-narrative-v21/pack.mjs",
+        "/tmp/slopless-narrative-v21/overlap.mjs",
+        "/tmp/slopless-narrative-v21/audit/verification.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json"
+      ],
+      "programmaticOnly": [
+        "Dataset pairs and Git blobs",
+        "Temporary authoring, selection, review and scope records",
+        "Accepted taxonomy and prior rhythm status",
+        "Completed logs and saved overlap report",
+        "Prior audit status and preservation hashes",
+        "Dirty-file hashes and runtime dependency/configuration loading"
+      ],
+      "protectedContentPrinted": false,
+      "delegated": false,
+      "writesRestrictedTo": "/tmp/slopless-narrative-v21/audit-clean/"
+    }
   }
 }
