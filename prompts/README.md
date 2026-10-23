@@ -35,4 +35,6 @@
 - Action cadence and formulaic lists meet both selection and confirmation limits. Transitions fail the repeat; the remaining four checks retain measured failures. The [report](../runners/results/rhythm-and-repetition-v19-development.md) includes all scores, exposure and complete examples; the adjacent JSON preserves every producing candidate and response.
 - The [frozen holdout results](../runners/results/rhythm-and-repetition-v19-holdout.json) retain the same two passing checks. Frames produce 61 mixed-A false positives; word repetition catches 49/100 isolated and 57/100 mixed hits. Prompts, labels and public production behavior remain unchanged.
 
+- The [v20 frame-repair attempt](../runners/results/sentence-frame-v20-development-repair.md) rejects both revisions: 96 and 88 development errors versus baseline's 78. The original `v19` prompt remains active; the experiment JSON and producing Git commits preserve the rejected prompt bodies.
+
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

@@ -30,3 +30,10 @@ Reduce sentence-frame false findings on mixed development passages while preserv
 - `prompts/v20/shared.md`, `prompts/v20/sentence-frame-repetition.md` and `prompts/README.md`.
 - Native outputs and one repair record/report under `runners/results/`.
 - This plan, milestone worklogs and the accepted taxonomy's quality-status paragraph when results are complete.
+
+## Outcome
+
+- Reject candidate one at 96 errors and candidate two at 88 against fresh baseline's 78. The two-consecutive-non-improvement rule stops this attempt after the second revision.
+- Retain unchanged `v19`. Fresh confirmation records 77 errors: isolated 100/100 caught with four false findings, mixed A 97/61 and mixed C 97/6.
+- Preserve all frozen labels and record two interpretation disputes separately. The [report](../runners/results/sentence-frame-v20-development-repair.md) explains losses and retained failures; the adjacent JSON preserves every prompt and native response.
+- Complete the 133-passage independent review, 14-output verification, repository validation, paragraph tests and Fixture3 dataset comparison. Final commit and remote CI remain the delivery steps.
