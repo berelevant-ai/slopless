@@ -37,4 +37,7 @@
 
 - The [v20 frame-repair attempt](../runners/results/sentence-frame-v20-development-repair.md) rejects both revisions: 96 and 88 development errors versus baseline's 78. The original `v19` prompt remains active; the experiment JSON and producing Git commits preserve the rejected prompt bodies.
 
+- `v21/` contains all nineteen Narrative Craft questions with JSON front matter and unchanged `v19` shared instructions. Eighteen definition-only drafts await development examples and evaluation; body-emotion shorthand retains its selected b2 prompt.
+- Body-emotion b2 catches 99/100 isolated development hits with one false positive, then 99/100 with two in a fresh confirmation. Full-family review, balanced dataset selection and mixed development evaluation remain in progress under the [Narrative Craft plan](../.plans/2026-10-23-195843-narrative-craft-development.md).
+
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.
