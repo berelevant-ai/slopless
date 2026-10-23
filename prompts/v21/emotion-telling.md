@@ -3,7 +3,7 @@
   "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of emotion-telling: a blunt narrated feeling label used as an interchangeable reaction or repeated emotional annotation instead of a particular thought, response or choice?",
   "criteria": {
     "true": "At least one direct feeling assertion supplies a generic reaction or redundant emotional annotation. Direct feeling or linking constructions, intensified labels and equivalent bare emotion assertions qualify. One label can qualify even when it is the passage's only explicit feeling report.",
-    "false": "No instance meets that definition. The passage establishes that each candidate report supplies relevant testimony, clinical observation, an explanation of a decision, an explicit interpersonal message or another identifiable function."
+    "false": "No instance meets that definition. Every candidate either supplies relevant testimony, clinical observation, an explanation of a decision, an explicit interpersonal message or another identifiable function, or is an emotion expression whose exact wording is itself being examined or documented."
   }
 }
 ---
