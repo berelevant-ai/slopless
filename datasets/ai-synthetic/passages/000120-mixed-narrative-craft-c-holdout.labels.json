@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "904eb333b849a25f68c27c3382d251348a8ddf4ba43a480cc14e72eb537a3ab2",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-c-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000120-a8f808c3ce4f",
+      "start": 59,
+      "end": 437
+    },
+    {
+      "id": "000120-29dcd790c8aa",
+      "start": 463,
+      "end": 844
+    },
+    {
+      "id": "000120-76fd4aee60d1",
+      "start": 870,
+      "end": 1209
+    },
+    {
+      "id": "000120-1a907ee906f1",
+      "start": 1235,
+      "end": 1627
+    },
+    {
+      "id": "000120-51ea70a94e4a",
+      "start": 1653,
+      "end": 2025
+    },
+    {
+      "id": "000120-f3738c3a9c81",
+      "start": 2051,
+      "end": 2403
+    },
+    {
+      "id": "000120-2eeee4c8a002",
+      "start": 2429,
+      "end": 2825
+    },
+    {
+      "id": "000120-d30eb0a024ca",
+      "start": 2851,
+      "end": 3251
+    },
+    {
+      "id": "000120-da347e1061b1",
+      "start": 3277,
+      "end": 3642
+    },
+    {
+      "id": "000120-e3a8419d0863",
+      "start": 3668,
+      "end": 4077
+    },
+    {
+      "id": "000120-31c1a1265359",
+      "start": 4103,
+      "end": 4515
+    },
+    {
+      "id": "000120-b99aa4fa92de",
+      "start": 4541,
+      "end": 4937
+    },
+    {
+      "id": "000120-ffe2c86a14bf",
+      "start": 4963,
+      "end": 5380
+    },
+    {
+      "id": "000120-752883371724",
+      "start": 5406,
+      "end": 5784
+    },
+    {
+      "id": "000120-6aad5c475f23",
+      "start": 5810,
+      "end": 6205
+    },
+    {
+      "id": "000120-e886c1b53208",
+      "start": 6231,
+      "end": 6674
+    }
+  ],
+  "labels": [
+    {
+      "id": "000120-a8f808c3ce4f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-a8f808c3ce4f",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-a8f808c3ce4f",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-29dcd790c8aa",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-29dcd790c8aa",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-29dcd790c8aa",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-76fd4aee60d1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-76fd4aee60d1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-76fd4aee60d1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Our holiday smelled of coconut lotion and warm linen instead of printer ink and burnt coffee."
+      ]
+    },
+    {
+      "id": "000120-1a907ee906f1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-1a907ee906f1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-1a907ee906f1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Even the room sounded different: a bright weave of laughter and music in place of the grey drone of everyday routine."
+      ]
+    },
+    {
+      "id": "000120-51ea70a94e4a",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-51ea70a94e4a",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Paul's gaze drifted across the tabletop, climbed to the window, then returned to her face."
+      ]
+    },
+    {
+      "id": "000120-51ea70a94e4a",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-f3738c3a9c81",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-f3738c3a9c81",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes made a slow circuit of the room, pausing on the stage before settling on me."
+      ]
+    },
+    {
+      "id": "000120-f3738c3a9c81",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-2eeee4c8a002",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-2eeee4c8a002",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My gaze wanders from the curtains to the wardrobe and back again."
+      ]
+    },
+    {
+      "id": "000120-2eeee4c8a002",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "This weekend feels like cool silk against my skin rather than the coarse wool of ordinary life."
+      ]
+    },
+    {
+      "id": "000120-d30eb0a024ca",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000120-d30eb0a024ca",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze traces an idle path between the counter, the clock and the empty chairs."
+      ]
+    },
+    {
+      "id": "000120-d30eb0a024ca",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The morning tastes of honey and possibility instead of yesterday's dust and bitterness."
+      ]
+    },
+    {
+      "id": "000120-da347e1061b1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was furious."
+      ]
+    },
+    {
+      "id": "000120-da347e1061b1",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-da347e1061b1",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-e3a8419d0863",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Leah felt terribly sad."
+      ]
+    },
+    {
+      "id": "000120-e3a8419d0863",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-e3a8419d0863",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-31c1a1265359",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt wonderfully happy."
+      ]
+    },
+    {
+      "id": "000120-31c1a1265359",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-31c1a1265359",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Retirement tasted of ripe peaches and sea air instead of reheated coffee and deadlines."
+      ]
+    },
+    {
+      "id": "000120-b99aa4fa92de",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "She is deeply content."
+      ]
+    },
+    {
+      "id": "000120-b99aa4fa92de",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": false
+    },
+    {
+      "id": "000120-b99aa4fa92de",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The quiet settles against her like velvet, replacing the sandpaper scrape of the working week."
+      ]
+    },
+    {
+      "id": "000120-ffe2c86a14bf",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Beth was disappointed."
+      ]
+    },
+    {
+      "id": "000120-ffe2c86a14bf",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Her gaze slid from her mug to the window, lingered there, then travelled back across the kitchen."
+      ]
+    },
+    {
+      "id": "000120-ffe2c86a14bf",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-752883371724",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt uneasy."
+      ]
+    },
+    {
+      "id": "000120-752883371724",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "My eyes moved between her face and the scattered papers, then swept towards the door."
+      ]
+    },
+    {
+      "id": "000120-752883371724",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": false
+    },
+    {
+      "id": "000120-6aad5c475f23",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "We were delighted."
+      ]
+    },
+    {
+      "id": "000120-6aad5c475f23",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "Anna's gaze floated over the sofa, brushed the bookcase and came to rest on me."
+      ]
+    },
+    {
+      "id": "000120-6aad5c475f23",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "Here, life smelled of rosemary and sun-warmed cotton rather than exhaust fumes and stale ambition."
+      ]
+    },
+    {
+      "id": "000120-e886c1b53208",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "He was immensely proud."
+      ]
+    },
+    {
+      "id": "000120-e886c1b53208",
+      "check": "narrative-craft/gaze-choreography",
+      "expected": true,
+      "snippets": [
+        "His eyes travelled along the corridor, dipped towards the floor and rose again to meet the newcomers."
+      ]
+    },
+    {
+      "id": "000120-e886c1b53208",
+      "check": "narrative-craft/sensory-instead-of-frame",
+      "expected": true,
+      "snippets": [
+        "The building hummed with bright conversation instead of the hollow sigh of forgotten afternoons."
+      ]
+    }
+  ]
+}

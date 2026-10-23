@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "c9c3946220d9dc37af70128a4ba0fd17f71c4fcf3884b38fb3e99b9e1e3a52eb",
+  "source": {
+    "name": "Codex-authored narrative-craft-fake-timestamps-development",
+    "originalPath": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "development",
+  "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
+  "samples": [
+    {
+      "id": "000095-58d449f9ce5d",
+      "start": 71,
+      "end": 362
+    },
+    {
+      "id": "000095-c4e6d2437a82",
+      "start": 388,
+      "end": 674
+    },
+    {
+      "id": "000095-9379595949a9",
+      "start": 700,
+      "end": 1001
+    },
+    {
+      "id": "000095-4a94ba4e40de",
+      "start": 1027,
+      "end": 1320
+    },
+    {
+      "id": "000095-95e726a727ff",
+      "start": 1346,
+      "end": 1694
+    },
+    {
+      "id": "000095-0cedf46b9819",
+      "start": 1720,
+      "end": 2003
+    },
+    {
+      "id": "000095-d7e27ab3e4d1",
+      "start": 2029,
+      "end": 2328
+    },
+    {
+      "id": "000095-a9e59d04a88b",
+      "start": 2354,
+      "end": 2635
+    },
+    {
+      "id": "000095-23ef05947ffd",
+      "start": 2661,
+      "end": 2974
+    },
+    {
+      "id": "000095-c178a35502c6",
+      "start": 3000,
+      "end": 3314
+    },
+    {
+      "id": "000095-f954d5bfca11",
+      "start": 3340,
+      "end": 3649
+    },
+    {
+      "id": "000095-3d1a6a28d118",
+      "start": 3675,
+      "end": 3965
+    },
+    {
+      "id": "000095-c42e2472b83a",
+      "start": 3991,
+      "end": 4348
+    },
+    {
+      "id": "000095-1ed1256c60c7",
+      "start": 4374,
+      "end": 4685
+    },
+    {
+      "id": "000095-e31edc917d0a",
+      "start": 4711,
+      "end": 5020
+    },
+    {
+      "id": "000095-eaa0a66e51c1",
+      "start": 5046,
+      "end": 5364
+    },
+    {
+      "id": "000095-f0d4cb0fe5d7",
+      "start": 5390,
+      "end": 5718
+    },
+    {
+      "id": "000095-b2ebad5e729b",
+      "start": 5744,
+      "end": 6068
+    },
+    {
+      "id": "000095-44c2d8e3190a",
+      "start": 6094,
+      "end": 6400
+    },
+    {
+      "id": "000095-72a64880fdbc",
+      "start": 6426,
+      "end": 6737
+    }
+  ],
+  "labels": [
+    {
+      "id": "000095-58d449f9ce5d",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 8:17 a.m."
+      ]
+    },
+    {
+      "id": "000095-c4e6d2437a82",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 14:36"
+      ]
+    },
+    {
+      "id": "000095-9379595949a9",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "at 10:23 a.m."
+      ]
+    },
+    {
+      "id": "000095-4a94ba4e40de",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "nineteen minutes past four"
+      ]
+    },
+    {
+      "id": "000095-95e726a727ff",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 19:42:08"
+      ]
+    },
+    {
+      "id": "000095-0cedf46b9819",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 11:46"
+      ]
+    },
+    {
+      "id": "000095-d7e27ab3e4d1",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 6:38 p.m."
+      ]
+    },
+    {
+      "id": "000095-a9e59d04a88b",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 15:24"
+      ]
+    },
+    {
+      "id": "000095-23ef05947ffd",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At seven minutes after nine that evening"
+      ]
+    },
+    {
+      "id": "000095-c178a35502c6",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 13:14",
+        "At 13:16"
+      ]
+    },
+    {
+      "id": "000095-f954d5bfca11",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-3d1a6a28d118",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-c42e2472b83a",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-1ed1256c60c7",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-e31edc917d0a",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-eaa0a66e51c1",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-f0d4cb0fe5d7",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-b2ebad5e729b",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-44c2d8e3190a",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000095-72a64880fdbc",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    }
+  ]
+}

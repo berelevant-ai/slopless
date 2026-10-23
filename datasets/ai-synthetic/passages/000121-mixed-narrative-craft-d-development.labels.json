@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "61e26391cf88cca85f82d78e67e3c575d1da0974db6770e3893cd94adfd10a44",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-d-development",
+    "originalPath": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "development",
+  "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
+  "samples": [
+    {
+      "id": "000121-99bc499a3f57",
+      "start": 63,
+      "end": 427
+    },
+    {
+      "id": "000121-177343e994fc",
+      "start": 453,
+      "end": 851
+    },
+    {
+      "id": "000121-dd2ec0a44154",
+      "start": 877,
+      "end": 1244
+    },
+    {
+      "id": "000121-6a7ae6c59cc5",
+      "start": 1270,
+      "end": 1641
+    },
+    {
+      "id": "000121-43f7cd9f2186",
+      "start": 1667,
+      "end": 2030
+    },
+    {
+      "id": "000121-21ca4758f5d8",
+      "start": 2056,
+      "end": 2463
+    },
+    {
+      "id": "000121-a03425240415",
+      "start": 2489,
+      "end": 2875
+    },
+    {
+      "id": "000121-7ab58985df14",
+      "start": 2901,
+      "end": 3289
+    },
+    {
+      "id": "000121-12ae8cb82cd8",
+      "start": 3315,
+      "end": 3700
+    },
+    {
+      "id": "000121-3bb6a12bafb8",
+      "start": 3726,
+      "end": 4125
+    },
+    {
+      "id": "000121-3a3908dcabfc",
+      "start": 4151,
+      "end": 4552
+    },
+    {
+      "id": "000121-47b4dbb2109f",
+      "start": 4578,
+      "end": 4946
+    },
+    {
+      "id": "000121-9935f8c7b0b6",
+      "start": 4972,
+      "end": 5399
+    },
+    {
+      "id": "000121-f6c0ec4b1859",
+      "start": 5425,
+      "end": 5813
+    },
+    {
+      "id": "000121-356eac13c964",
+      "start": 5839,
+      "end": 6240
+    },
+    {
+      "id": "000121-3aeb9e6c4cce",
+      "start": 6266,
+      "end": 6683
+    }
+  ],
+  "labels": [
+    {
+      "id": "000121-99bc499a3f57",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-99bc499a3f57",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-99bc499a3f57",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-177343e994fc",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-177343e994fc",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-177343e994fc",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-dd2ec0a44154",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-dd2ec0a44154",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-dd2ec0a44154",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The next hour passed in a blur of activity."
+      ]
+    },
+    {
+      "id": "000121-6a7ae6c59cc5",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-6a7ae6c59cc5",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-6a7ae6c59cc5",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "What followed was a blur of one thing after another."
+      ]
+    },
+    {
+      "id": "000121-43f7cd9f2186",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-43f7cd9f2186",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I rolled my shoulders and settled in the chair."
+      ]
+    },
+    {
+      "id": "000121-43f7cd9f2186",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-21ca4758f5d8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-21ca4758f5d8",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Malik tilted his head and blinked."
+      ]
+    },
+    {
+      "id": "000121-21ca4758f5d8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-a03425240415",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-a03425240415",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I shifted my weight and rubbed my chin."
+      ]
+    },
+    {
+      "id": "000121-a03425240415",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest of the appointment became a hazy rush."
+      ]
+    },
+    {
+      "id": "000121-7ab58985df14",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": false
+    },
+    {
+      "id": "000121-7ab58985df14",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "Nadia pursed her lips, then relaxed them."
+      ]
+    },
+    {
+      "id": "000121-7ab58985df14",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The evening slipped into a blur of calls and errands."
+      ]
+    },
+    {
+      "id": "000121-12ae8cb82cd8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Grief had become a permanent member of the family."
+      ]
+    },
+    {
+      "id": "000121-12ae8cb82cd8",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-12ae8cb82cd8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3bb6a12bafb8",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "There was no room for doubt in this new chapter of her life."
+      ]
+    },
+    {
+      "id": "000121-3bb6a12bafb8",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-3bb6a12bafb8",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-3a3908dcabfc",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Resentment pulled up a chair between us."
+      ]
+    },
+    {
+      "id": "000121-3a3908dcabfc",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-3a3908dcabfc",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The remaining conversation dissolved into a swirl of words."
+      ]
+    },
+    {
+      "id": "000121-47b4dbb2109f",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Compassion had already made itself at home in my heart."
+      ]
+    },
+    {
+      "id": "000121-47b4dbb2109f",
+      "check": "narrative-craft/body-action-density",
+      "expected": false
+    },
+    {
+      "id": "000121-47b4dbb2109f",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The adoption process swept past in a blur."
+      ]
+    },
+    {
+      "id": "000121-9935f8c7b0b6",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Ambition had finally claimed its rightful place in his life."
+      ]
+    },
+    {
+      "id": "000121-9935f8c7b0b6",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "He flexed his fingers and straightened his back."
+      ]
+    },
+    {
+      "id": "000121-9935f8c7b0b6",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-f6c0ec4b1859",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Unease walked beside us like an unwelcome companion."
+      ]
+    },
+    {
+      "id": "000121-f6c0ec4b1859",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I drew in a breath and let it out slowly."
+      ]
+    },
+    {
+      "id": "000121-f6c0ec4b1859",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": false
+    },
+    {
+      "id": "000121-356eac13c964",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Pride stepped forward to take its place in the room."
+      ]
+    },
+    {
+      "id": "000121-356eac13c964",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "I swallowed and adjusted my shoulders."
+      ]
+    },
+    {
+      "id": "000121-356eac13c964",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The rest of the ceremony passed in a shapeless whirl."
+      ]
+    },
+    {
+      "id": "000121-3aeb9e6c4cce",
+      "check": "narrative-craft/abstract-personification-line",
+      "expected": true,
+      "snippets": [
+        "Relief entered the flat and settled over everything."
+      ]
+    },
+    {
+      "id": "000121-3aeb9e6c4cce",
+      "check": "narrative-craft/body-action-density",
+      "expected": true,
+      "snippets": [
+        "She rolled her neck and gave a little sigh."
+      ]
+    },
+    {
+      "id": "000121-3aeb9e6c4cce",
+      "check": "narrative-craft/summary-fog-transition",
+      "expected": true,
+      "snippets": [
+        "The afternoon ran together in a blur of motion."
+      ]
+    }
+  ]
+}

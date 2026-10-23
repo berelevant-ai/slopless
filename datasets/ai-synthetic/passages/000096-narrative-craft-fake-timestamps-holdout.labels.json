@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "0993d49b3367f6c38189c7f477a0395ec3c75146eb17342c13face9b09cbb5d1",
+  "source": {
+    "name": "Codex-authored narrative-craft-fake-timestamps-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000096-f853e79c9ce5",
+      "start": 67,
+      "end": 382
+    },
+    {
+      "id": "000096-312170605e47",
+      "start": 408,
+      "end": 725
+    },
+    {
+      "id": "000096-5c4c09c0d852",
+      "start": 751,
+      "end": 1079
+    },
+    {
+      "id": "000096-1a11790ddc45",
+      "start": 1105,
+      "end": 1413
+    },
+    {
+      "id": "000096-92266e9de6de",
+      "start": 1439,
+      "end": 1768
+    },
+    {
+      "id": "000096-e1d1c30756f7",
+      "start": 1794,
+      "end": 2100
+    },
+    {
+      "id": "000096-a4f03fb201cc",
+      "start": 2126,
+      "end": 2439
+    },
+    {
+      "id": "000096-9e4d0dc28cd5",
+      "start": 2465,
+      "end": 2794
+    },
+    {
+      "id": "000096-a59abf948b43",
+      "start": 2820,
+      "end": 3132
+    },
+    {
+      "id": "000096-67fc6c5d8fdf",
+      "start": 3158,
+      "end": 3527
+    },
+    {
+      "id": "000096-4c33a023012c",
+      "start": 3553,
+      "end": 3864
+    },
+    {
+      "id": "000096-ea4dc668ef50",
+      "start": 3890,
+      "end": 4227
+    },
+    {
+      "id": "000096-0132b8d583eb",
+      "start": 4253,
+      "end": 4559
+    },
+    {
+      "id": "000096-6ed952fc021a",
+      "start": 4585,
+      "end": 4914
+    },
+    {
+      "id": "000096-0fac9f4efef4",
+      "start": 4940,
+      "end": 5312
+    },
+    {
+      "id": "000096-cc853a9467f2",
+      "start": 5338,
+      "end": 5694
+    },
+    {
+      "id": "000096-f7a3e80106de",
+      "start": 5720,
+      "end": 6004
+    },
+    {
+      "id": "000096-3970b9c071cb",
+      "start": 6030,
+      "end": 6362
+    },
+    {
+      "id": "000096-a4ed6c5abe43",
+      "start": 6388,
+      "end": 6713
+    },
+    {
+      "id": "000096-015bd3e3a75d",
+      "start": 6739,
+      "end": 7062
+    }
+  ],
+  "labels": [
+    {
+      "id": "000096-f853e79c9ce5",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 06:17, Mara dusted flour from the front of her apron."
+      ]
+    },
+    {
+      "id": "000096-312170605e47",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-5c4c09c0d852",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 15:26, I put my shoes beside the wardrobe and sat on the bed."
+      ]
+    },
+    {
+      "id": "000096-1a11790ddc45",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-92266e9de6de",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 10:08:32 a.m., Dennis nudged the office fern away from his keyboard."
+      ]
+    },
+    {
+      "id": "000096-e1d1c30756f7",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-a4f03fb201cc",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At twenty-three minutes past eight that evening, my aunt folded a dish towel over the oven handle."
+      ]
+    },
+    {
+      "id": "000096-9e4d0dc28cd5",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-a59abf948b43",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 7:54 p.m., I scratched behind his ears."
+      ]
+    },
+    {
+      "id": "000096-67fc6c5d8fdf",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-4c33a023012c",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 14:38, he knelt beside the raised bed and pressed a bean into the soil."
+      ]
+    },
+    {
+      "id": "000096-ea4dc668ef50",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-0132b8d583eb",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 11:12 one Sunday morning, I handed him the little tin of patches."
+      ]
+    },
+    {
+      "id": "000096-6ed952fc021a",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-0fac9f4efef4",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "On September 6, at 09:47, Priya tucked a loose strand of hair behind her ear."
+      ]
+    },
+    {
+      "id": "000096-cc853a9467f2",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-f7a3e80106de",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "at 18:21, I hang my coat on the peg behind the door."
+      ]
+    },
+    {
+      "id": "000096-3970b9c071cb",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000096-a4ed6c5abe43",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At exactly 12:00:15, Rosa lifted a bowl from the kitchen shelf."
+      ]
+    },
+    {
+      "id": "000096-015bd3e3a75d",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    }
+  ]
+}

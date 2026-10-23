@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "29aa224b06b262644efa23592c6053e955b51e7ebd7e1fe6f02f1dee7e8540a4",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-e-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000124-9b09d6cecc1c",
+      "start": 59,
+      "end": 497
+    },
+    {
+      "id": "000124-392187a550b7",
+      "start": 523,
+      "end": 1018
+    },
+    {
+      "id": "000124-cf8c74bd46d2",
+      "start": 1044,
+      "end": 1440
+    },
+    {
+      "id": "000124-c5e4a93cbe81",
+      "start": 1466,
+      "end": 1865
+    },
+    {
+      "id": "000124-c3c1d66b642b",
+      "start": 1891,
+      "end": 2275
+    },
+    {
+      "id": "000124-60cc012dd27c",
+      "start": 2301,
+      "end": 2727
+    },
+    {
+      "id": "000124-485edda72522",
+      "start": 2753,
+      "end": 3168
+    },
+    {
+      "id": "000124-2082cd0dada9",
+      "start": 3194,
+      "end": 3624
+    },
+    {
+      "id": "000124-888465fe005d",
+      "start": 3650,
+      "end": 4053
+    },
+    {
+      "id": "000124-2e137c658a34",
+      "start": 4079,
+      "end": 4501
+    },
+    {
+      "id": "000124-e51d90e06a5d",
+      "start": 4527,
+      "end": 4936
+    },
+    {
+      "id": "000124-5ad9bcb6977c",
+      "start": 4962,
+      "end": 5382
+    },
+    {
+      "id": "000124-cadc7095f801",
+      "start": 5408,
+      "end": 5792
+    },
+    {
+      "id": "000124-7ab7864b1a59",
+      "start": 5818,
+      "end": 6274
+    },
+    {
+      "id": "000124-e62bc3bf29d2",
+      "start": 6300,
+      "end": 6719
+    },
+    {
+      "id": "000124-f3e442cdde15",
+      "start": 6745,
+      "end": 7210
+    }
+  ],
+  "labels": [
+    {
+      "id": "000124-9b09d6cecc1c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-9b09d6cecc1c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-9b09d6cecc1c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-392187a550b7",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-392187a550b7",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-392187a550b7",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-cf8c74bd46d2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-cf8c74bd46d2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-cf8c74bd46d2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "My heart hammered against my ribs."
+      ]
+    },
+    {
+      "id": "000124-c5e4a93cbe81",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c5e4a93cbe81",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-c5e4a93cbe81",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Fate had other plans."
+      ]
+    },
+    {
+      "id": "000124-c3c1d66b642b",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-c3c1d66b642b",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He stood by the table.",
+        "He shifted his feet, looked around, then looked back at me."
+      ]
+    },
+    {
+      "id": "000124-c3c1d66b642b",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-60cc012dd27c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-60cc012dd27c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turn toward Jo. She turns toward me.",
+        "We stand there for a moment, then move about the kitchen."
+      ]
+    },
+    {
+      "id": "000124-60cc012dd27c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-485edda72522",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-485edda72522",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I looked at her, then at the window, then back at her."
+      ]
+    },
+    {
+      "id": "000124-485edda72522",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "her voice laced with hurt"
+      ]
+    },
+    {
+      "id": "000124-2082cd0dada9",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": false
+    },
+    {
+      "id": "000124-2082cd0dada9",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I shifted in my chair, straightened up, and shifted again."
+      ]
+    },
+    {
+      "id": "000124-2082cd0dada9",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Time seemed to slow to a crawl."
+      ]
+    },
+    {
+      "id": "000124-888465fe005d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The campsite had a peculiar emotional flatness this year."
+      ]
+    },
+    {
+      "id": "000124-888465fe005d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-888465fe005d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-2e137c658a34",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The station felt curiously unwelcoming that morning."
+      ]
+    },
+    {
+      "id": "000124-2e137c658a34",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-2e137c658a34",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e51d90e06a5d",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "An odd seriousness seemed to belong to the cafe now."
+      ]
+    },
+    {
+      "id": "000124-e51d90e06a5d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-e51d90e06a5d",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "A chill ran down my spine."
+      ]
+    },
+    {
+      "id": "000124-5ad9bcb6977c",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The rehearsal room seemed to have lost some indefinable warmth."
+      ]
+    },
+    {
+      "id": "000124-5ad9bcb6977c",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000124-5ad9bcb6977c",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "Days blurred into weeks."
+      ]
+    },
+    {
+      "id": "000124-cadc7095f801",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "There was something newly solemn about the repair shop."
+      ]
+    },
+    {
+      "id": "000124-cadc7095f801",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Malik moved from one spot to another behind the counter, then stood there."
+      ]
+    },
+    {
+      "id": "000124-cadc7095f801",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-7ab7864b1a59",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "By Tuesday, the office had taken on a vaguely unsettled quality."
+      ]
+    },
+    {
+      "id": "000124-7ab7864b1a59",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "I turned toward Ellis and then toward the rest of the team.",
+        "Ellis glanced around."
+      ]
+    },
+    {
+      "id": "000124-7ab7864b1a59",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": false
+    },
+    {
+      "id": "000124-e62bc3bf29d2",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "The holiday flat seemed charged with a strange new mood."
+      ]
+    },
+    {
+      "id": "000124-e62bc3bf29d2",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ben stood beside the sofa, then moved across the room and stopped."
+      ]
+    },
+    {
+      "id": "000124-e62bc3bf29d2",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "I released a breath I hadn't realized I was holding."
+      ]
+    },
+    {
+      "id": "000124-f3e442cdde15",
+      "check": "narrative-craft/empty-atmosphere-shift",
+      "expected": true,
+      "snippets": [
+        "Even before the auction began, the village hall possessed an elusive gravity."
+      ]
+    },
+    {
+      "id": "000124-f3e442cdde15",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Ruth looked at me. I looked at Ruth, then turned back toward the auctioneer."
+      ]
+    },
+    {
+      "id": "000124-f3e442cdde15",
+      "check": "narrative-craft/narrative-cliches",
+      "expected": true,
+      "snippets": [
+        "For what felt like an eternity"
+      ]
+    }
+  ]
+}

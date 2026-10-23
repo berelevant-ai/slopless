@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "c53652cf38dfa08723e3914add44ee9c08e565700ce4c40ac97fe67999f1eee7",
+  "source": {
+    "name": "Codex-authored narrative-craft-low-information-physical-blocking-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000104-f3f667e2c840",
+      "start": 85,
+      "end": 463
+    },
+    {
+      "id": "000104-656abbe1bcef",
+      "start": 489,
+      "end": 876
+    },
+    {
+      "id": "000104-8de9e58d2f52",
+      "start": 902,
+      "end": 1256
+    },
+    {
+      "id": "000104-c15c14f1f400",
+      "start": 1282,
+      "end": 1642
+    },
+    {
+      "id": "000104-801dd41ff7f0",
+      "start": 1668,
+      "end": 2060
+    },
+    {
+      "id": "000104-9969ec30f65a",
+      "start": 2086,
+      "end": 2419
+    },
+    {
+      "id": "000104-f1222d133cf8",
+      "start": 2445,
+      "end": 2770
+    },
+    {
+      "id": "000104-82c84c152f34",
+      "start": 2796,
+      "end": 3177
+    },
+    {
+      "id": "000104-d9e1aed55075",
+      "start": 3203,
+      "end": 3586
+    },
+    {
+      "id": "000104-0cd60e4db63f",
+      "start": 3612,
+      "end": 3970
+    },
+    {
+      "id": "000104-656fc9ce06b8",
+      "start": 3996,
+      "end": 4354
+    },
+    {
+      "id": "000104-e2bd0c554856",
+      "start": 4380,
+      "end": 4719
+    },
+    {
+      "id": "000104-c65804132f71",
+      "start": 4745,
+      "end": 5114
+    },
+    {
+      "id": "000104-f416ffbbf54a",
+      "start": 5140,
+      "end": 5487
+    },
+    {
+      "id": "000104-8739537ef393",
+      "start": 5513,
+      "end": 5893
+    },
+    {
+      "id": "000104-8680a7d12a94",
+      "start": 5919,
+      "end": 6310
+    },
+    {
+      "id": "000104-4eb6528b1f20",
+      "start": 6336,
+      "end": 6702
+    },
+    {
+      "id": "000104-ebad8dc6c8ff",
+      "start": 6728,
+      "end": 7083
+    },
+    {
+      "id": "000104-0ce651f22e8d",
+      "start": 7109,
+      "end": 7466
+    },
+    {
+      "id": "000104-a14a7d7e8fbf",
+      "start": 7492,
+      "end": 7846
+    }
+  ],
+  "labels": [
+    {
+      "id": "000104-f3f667e2c840",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Martin moved around beside his desk, then stood there for a moment.",
+        "He turned toward me and then toward Denise."
+      ]
+    },
+    {
+      "id": "000104-656abbe1bcef",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-8de9e58d2f52",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "With the book in my hand, I stood beside the chair. I adjusted my stance and remained there."
+      ]
+    },
+    {
+      "id": "000104-c15c14f1f400",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-801dd41ff7f0",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Clara looked at the woman, then at the counter, then back at the woman.",
+        "She blinked and shifted her feet."
+      ]
+    },
+    {
+      "id": "000104-9969ec30f65a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-f1222d133cf8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "As the phone rang, I took a step to one side and another step back.",
+        "I stood in the kitchen, moving about a little."
+      ]
+    },
+    {
+      "id": "000104-82c84c152f34",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-d9e1aed55075",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "We stayed there, standing together, and then moved a little way around the reception area."
+      ]
+    },
+    {
+      "id": "000104-0cd60e4db63f",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-656fc9ce06b8",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He turned slightly, straightened up, and shifted his weight again.",
+        "He made a small movement with his head."
+      ]
+    },
+    {
+      "id": "000104-e2bd0c554856",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-c65804132f71",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Leah turns to Ben. Ben turns to Leah. Both turn toward me. I look from one to the other."
+      ]
+    },
+    {
+      "id": "000104-f416ffbbf54a",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-8739537ef393",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "While she reads the invoice, I stand where I am and then shift into a different position.",
+        "My head turns a little to the side and back."
+      ]
+    },
+    {
+      "id": "000104-8680a7d12a94",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-4eb6528b1f20",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "He walked a few paces across the lobby and then a few paces back.",
+        "After that, he stood near us."
+      ]
+    },
+    {
+      "id": "000104-ebad8dc6c8ff",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    },
+    {
+      "id": "000104-0ce651f22e8d",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": true,
+      "snippets": [
+        "Before anyone replied, there was some shifting in chairs, a few small turns of heads, and people looking about."
+      ]
+    },
+    {
+      "id": "000104-a14a7d7e8fbf",
+      "check": "narrative-craft/low-information-physical-blocking",
+      "expected": false
+    }
+  ]
+}

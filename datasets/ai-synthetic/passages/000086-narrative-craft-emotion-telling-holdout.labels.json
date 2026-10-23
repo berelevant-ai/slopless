@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "292c20d23e9033ca16e0bc662457da74440c3ebcec32b0a0b760c7fbb4d5d024",
+  "source": {
+    "name": "Codex-authored narrative-craft-emotion-telling-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000086-2c5f7d16f5f1",
+      "start": 67,
+      "end": 368
+    },
+    {
+      "id": "000086-6f0629e7c1b2",
+      "start": 394,
+      "end": 702
+    },
+    {
+      "id": "000086-91164555d3c1",
+      "start": 728,
+      "end": 1064
+    },
+    {
+      "id": "000086-7abf5e12b09e",
+      "start": 1090,
+      "end": 1398
+    },
+    {
+      "id": "000086-5ed548a30f73",
+      "start": 1424,
+      "end": 1757
+    },
+    {
+      "id": "000086-0b82e925b9f4",
+      "start": 1783,
+      "end": 2089
+    },
+    {
+      "id": "000086-10ac5c0d657f",
+      "start": 2115,
+      "end": 2418
+    },
+    {
+      "id": "000086-55e28fc1ef85",
+      "start": 2444,
+      "end": 2721
+    },
+    {
+      "id": "000086-2d8cd385e929",
+      "start": 2747,
+      "end": 3085
+    },
+    {
+      "id": "000086-5cbc553b8ac4",
+      "start": 3111,
+      "end": 3431
+    },
+    {
+      "id": "000086-d15e25c03fb2",
+      "start": 3457,
+      "end": 3756
+    },
+    {
+      "id": "000086-c7a42c93f609",
+      "start": 3782,
+      "end": 4066
+    },
+    {
+      "id": "000086-7c77cac0e6c8",
+      "start": 4092,
+      "end": 4400
+    },
+    {
+      "id": "000086-720a17050f65",
+      "start": 4426,
+      "end": 4714
+    },
+    {
+      "id": "000086-44b2da93d652",
+      "start": 4740,
+      "end": 5043
+    },
+    {
+      "id": "000086-61dd583fe1ee",
+      "start": 5069,
+      "end": 5371
+    },
+    {
+      "id": "000086-551fc47f9068",
+      "start": 5397,
+      "end": 5719
+    },
+    {
+      "id": "000086-c942d8c36c68",
+      "start": 5745,
+      "end": 6056
+    },
+    {
+      "id": "000086-4f76a399b026",
+      "start": 6082,
+      "end": 6406
+    },
+    {
+      "id": "000086-09f555f69bf1",
+      "start": 6432,
+      "end": 6749
+    }
+  ],
+  "labels": [
+    {
+      "id": "000086-2c5f7d16f5f1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "Mara felt terribly sad."
+      ]
+    },
+    {
+      "id": "000086-6f0629e7c1b2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-91164555d3c1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was deeply frustrated."
+      ]
+    },
+    {
+      "id": "000086-7abf5e12b09e",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-5ed548a30f73",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I felt delighted.",
+        "I was so happy."
+      ]
+    },
+    {
+      "id": "000086-0b82e925b9f4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-10ac5c0d657f",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I'm devastated."
+      ]
+    },
+    {
+      "id": "000086-55e28fc1ef85",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-2d8cd385e929",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "He felt utterly embarrassed."
+      ]
+    },
+    {
+      "id": "000086-5cbc553b8ac4",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-d15e25c03fb2",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was terrified."
+      ]
+    },
+    {
+      "id": "000086-c7a42c93f609",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-7c77cac0e6c8",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "She was immensely proud."
+      ]
+    },
+    {
+      "id": "000086-720a17050f65",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-44b2da93d652",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "I was furious."
+      ]
+    },
+    {
+      "id": "000086-61dd583fe1ee",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-551fc47f9068",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "What relief she felt."
+      ]
+    },
+    {
+      "id": "000086-c942d8c36c68",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    },
+    {
+      "id": "000086-4f76a399b026",
+      "check": "narrative-craft/emotion-telling",
+      "expected": true,
+      "snippets": [
+        "His disappointment was profound."
+      ]
+    },
+    {
+      "id": "000086-09f555f69bf1",
+      "check": "narrative-craft/emotion-telling",
+      "expected": false
+    }
+  ]
+}

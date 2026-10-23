@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "6be24c1c5926c93a799c4bf4e30d8291bc608b3e892cc570da7063d94718e2db",
+  "source": {
+    "name": "Codex-authored narrative-craft-perception-verb-density-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000108-44ca52289c02",
+      "start": 75,
+      "end": 435
+    },
+    {
+      "id": "000108-443c7be1c2f7",
+      "start": 461,
+      "end": 758
+    },
+    {
+      "id": "000108-5ef4fafea621",
+      "start": 784,
+      "end": 1119
+    },
+    {
+      "id": "000108-503ecbd04502",
+      "start": 1145,
+      "end": 1443
+    },
+    {
+      "id": "000108-95dc7b8c191c",
+      "start": 1469,
+      "end": 1792
+    },
+    {
+      "id": "000108-2700b10f7719",
+      "start": 1818,
+      "end": 2152
+    },
+    {
+      "id": "000108-72211488196f",
+      "start": 2178,
+      "end": 2462
+    },
+    {
+      "id": "000108-dc35432f4bff",
+      "start": 2488,
+      "end": 2799
+    },
+    {
+      "id": "000108-a1614270cfa8",
+      "start": 2825,
+      "end": 3145
+    },
+    {
+      "id": "000108-60ca4cad6a15",
+      "start": 3171,
+      "end": 3492
+    },
+    {
+      "id": "000108-bbb0d695d1ec",
+      "start": 3518,
+      "end": 3805
+    },
+    {
+      "id": "000108-931ac9f77475",
+      "start": 3831,
+      "end": 4142
+    },
+    {
+      "id": "000108-bf234704379f",
+      "start": 4168,
+      "end": 4484
+    },
+    {
+      "id": "000108-420d7a330df3",
+      "start": 4510,
+      "end": 4814
+    },
+    {
+      "id": "000108-cfb6297b2ded",
+      "start": 4840,
+      "end": 5178
+    },
+    {
+      "id": "000108-4ec1707a654d",
+      "start": 5204,
+      "end": 5532
+    },
+    {
+      "id": "000108-6fb7d26cdd32",
+      "start": 5558,
+      "end": 5861
+    },
+    {
+      "id": "000108-fb79da09e7fb",
+      "start": 5887,
+      "end": 6227
+    },
+    {
+      "id": "000108-84b00228c4a9",
+      "start": 6253,
+      "end": 6575
+    },
+    {
+      "id": "000108-951bc0ea377b",
+      "start": 6601,
+      "end": 6915
+    }
+  ],
+  "labels": [
+    {
+      "id": "000108-44ca52289c02",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "She glanced around the room."
+      ]
+    },
+    {
+      "id": "000108-443c7be1c2f7",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I regarded him for a moment."
+      ]
+    },
+    {
+      "id": "000108-5ef4fafea621",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "Her gaze traveled over the station.",
+        "I looked about me."
+      ]
+    },
+    {
+      "id": "000108-503ecbd04502",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "The mechanic cast his eyes around the workshop."
+      ]
+    },
+    {
+      "id": "000108-95dc7b8c191c",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I glanced at him."
+      ]
+    },
+    {
+      "id": "000108-2700b10f7719",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "She surveyed the scene before her."
+      ]
+    },
+    {
+      "id": "000108-72211488196f",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I take a look around me."
+      ]
+    },
+    {
+      "id": "000108-dc35432f4bff",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "Her eyes swept over the surroundings.",
+        "I glanced along the beach."
+      ]
+    },
+    {
+      "id": "000108-a1614270cfa8",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "He gave the room a once-over."
+      ]
+    },
+    {
+      "id": "000108-60ca4cad6a15",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "Ben glanced at Ada."
+      ]
+    },
+    {
+      "id": "000108-bbb0d695d1ec",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-931ac9f77475",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-bf234704379f",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-420d7a330df3",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-cfb6297b2ded",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-4ec1707a654d",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-6fb7d26cdd32",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-fb79da09e7fb",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-84b00228c4a9",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000108-951bc0ea377b",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    }
+  ]
+}

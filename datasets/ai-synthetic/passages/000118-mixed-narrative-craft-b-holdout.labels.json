@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "aca2317079f0b41d4a9762766b21b94d8fab9a2c8cd740e377168e39d02e703d",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-b-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000118-c2ed42fae186",
+      "start": 59,
+      "end": 432
+    },
+    {
+      "id": "000118-c6385f07e6d6",
+      "start": 458,
+      "end": 825
+    },
+    {
+      "id": "000118-85e49ca2e282",
+      "start": 851,
+      "end": 1200
+    },
+    {
+      "id": "000118-68b6a3bf217a",
+      "start": 1226,
+      "end": 1608
+    },
+    {
+      "id": "000118-c255b00ddd66",
+      "start": 1634,
+      "end": 1999
+    },
+    {
+      "id": "000118-8821055135ac",
+      "start": 2025,
+      "end": 2388
+    },
+    {
+      "id": "000118-8a411d7b3b69",
+      "start": 2414,
+      "end": 2771
+    },
+    {
+      "id": "000118-bd861c59bfc7",
+      "start": 2797,
+      "end": 3136
+    },
+    {
+      "id": "000118-7efc9d9abf3f",
+      "start": 3162,
+      "end": 3516
+    },
+    {
+      "id": "000118-207631f31c9e",
+      "start": 3542,
+      "end": 3921
+    },
+    {
+      "id": "000118-503b55b57ae7",
+      "start": 3947,
+      "end": 4293
+    },
+    {
+      "id": "000118-1a4976f84cd4",
+      "start": 4319,
+      "end": 4694
+    },
+    {
+      "id": "000118-c1652213643d",
+      "start": 4720,
+      "end": 5085
+    },
+    {
+      "id": "000118-5ec6cbc79ac0",
+      "start": 5111,
+      "end": 5481
+    },
+    {
+      "id": "000118-25b6ef7ff545",
+      "start": 5507,
+      "end": 5867
+    },
+    {
+      "id": "000118-3800f885279b",
+      "start": 5893,
+      "end": 6277
+    }
+  ],
+  "labels": [
+    {
+      "id": "000118-c2ed42fae186",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-c2ed42fae186",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-c2ed42fae186",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-c6385f07e6d6",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-c6385f07e6d6",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-c6385f07e6d6",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-85e49ca2e282",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-85e49ca2e282",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-85e49ca2e282",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At eleven seventeen in the morning"
+      ]
+    },
+    {
+      "id": "000118-68b6a3bf217a",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-68b6a3bf217a",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-68b6a3bf217a",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 14:26"
+      ]
+    },
+    {
+      "id": "000118-c255b00ddd66",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-c255b00ddd66",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "She looked across the room."
+      ]
+    },
+    {
+      "id": "000118-c255b00ddd66",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-8821055135ac",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-8821055135ac",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I glanced at my cousin."
+      ]
+    },
+    {
+      "id": "000118-8821055135ac",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-8a411d7b3b69",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-8a411d7b3b69",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "He surveyed the cafe."
+      ]
+    },
+    {
+      "id": "000118-8a411d7b3b69",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 10:23"
+      ]
+    },
+    {
+      "id": "000118-bd861c59bfc7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": false
+    },
+    {
+      "id": "000118-bd861c59bfc7",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I looked around."
+      ]
+    },
+    {
+      "id": "000118-bd861c59bfc7",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 15:52"
+      ]
+    },
+    {
+      "id": "000118-7efc9d9abf3f",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Relief flowed through me."
+      ]
+    },
+    {
+      "id": "000118-7efc9d9abf3f",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-7efc9d9abf3f",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-207631f31c9e",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "A film of disappointment coated the kitchen."
+      ]
+    },
+    {
+      "id": "000118-207631f31c9e",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-207631f31c9e",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-503b55b57ae7",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "The last of my anxiety evaporated."
+      ]
+    },
+    {
+      "id": "000118-503b55b57ae7",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-503b55b57ae7",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 08:14"
+      ]
+    },
+    {
+      "id": "000118-1a4976f84cd4",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "her voice soaked in regret"
+      ]
+    },
+    {
+      "id": "000118-1a4976f84cd4",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": false
+    },
+    {
+      "id": "000118-1a4976f84cd4",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 6:38 p.m."
+      ]
+    },
+    {
+      "id": "000118-c1652213643d",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Unease hung over the rehearsal."
+      ]
+    },
+    {
+      "id": "000118-c1652213643d",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I cast a glance around the room."
+      ]
+    },
+    {
+      "id": "000118-c1652213643d",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-5ec6cbc79ac0",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Jealousy smoldered inside Ruth"
+      ]
+    },
+    {
+      "id": "000118-5ec6cbc79ac0",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "Ruth took a look around."
+      ]
+    },
+    {
+      "id": "000118-5ec6cbc79ac0",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": false
+    },
+    {
+      "id": "000118-25b6ef7ff545",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Excitement fizzed through me."
+      ]
+    },
+    {
+      "id": "000118-25b6ef7ff545",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "I glanced over at the others."
+      ]
+    },
+    {
+      "id": "000118-25b6ef7ff545",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At 12:47"
+      ]
+    },
+    {
+      "id": "000118-3800f885279b",
+      "check": "narrative-craft/emotion-as-substance",
+      "expected": true,
+      "snippets": [
+        "Resentment rested between them like a heavy slab."
+      ]
+    },
+    {
+      "id": "000118-3800f885279b",
+      "check": "narrative-craft/perception-verb-density",
+      "expected": true,
+      "snippets": [
+        "He directed his gaze toward Nina."
+      ]
+    },
+    {
+      "id": "000118-3800f885279b",
+      "check": "narrative-craft/fake-timestamps",
+      "expected": true,
+      "snippets": [
+        "At twenty-one minutes past eight"
+      ]
+    }
+  ]
+}

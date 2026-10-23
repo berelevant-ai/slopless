@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "8be6e8494e7d3a79fa543b3c7416e0d49c5147adc4c1274be28a46895e2919e7",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-a-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000116-ad23e3e3cc85",
+      "start": 59,
+      "end": 430
+    },
+    {
+      "id": "000116-73ea9b501e81",
+      "start": 456,
+      "end": 858
+    },
+    {
+      "id": "000116-855ca2e8cae6",
+      "start": 884,
+      "end": 1308
+    },
+    {
+      "id": "000116-4a036ed1fa67",
+      "start": 1334,
+      "end": 1762
+    },
+    {
+      "id": "000116-32277eaaa7e1",
+      "start": 1788,
+      "end": 2206
+    },
+    {
+      "id": "000116-08cdfa48ddd7",
+      "start": 2232,
+      "end": 2621
+    },
+    {
+      "id": "000116-8019874a6896",
+      "start": 2647,
+      "end": 3049
+    },
+    {
+      "id": "000116-fa723ded6b99",
+      "start": 3075,
+      "end": 3481
+    },
+    {
+      "id": "000116-e2d4cd30dbfa",
+      "start": 3507,
+      "end": 3900
+    },
+    {
+      "id": "000116-71de0f8b5f7b",
+      "start": 3926,
+      "end": 4321
+    },
+    {
+      "id": "000116-4adec6857835",
+      "start": 4347,
+      "end": 4745
+    },
+    {
+      "id": "000116-bd86a8d311a1",
+      "start": 4771,
+      "end": 5166
+    },
+    {
+      "id": "000116-40a571a071cc",
+      "start": 5192,
+      "end": 5604
+    },
+    {
+      "id": "000116-d34eed602f22",
+      "start": 5630,
+      "end": 6017
+    },
+    {
+      "id": "000116-e1b7d44b1b7b",
+      "start": 6043,
+      "end": 6479
+    },
+    {
+      "id": "000116-76ace084d837",
+      "start": 6505,
+      "end": 6938
+    }
+  ],
+  "labels": [
+    {
+      "id": "000116-ad23e3e3cc85",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-ad23e3e3cc85",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-ad23e3e3cc85",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-73ea9b501e81",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-73ea9b501e81",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-73ea9b501e81",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-855ca2e8cae6",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-855ca2e8cae6",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-855ca2e8cae6",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The office was quiet and still."
+      ]
+    },
+    {
+      "id": "000116-4a036ed1fa67",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-4a036ed1fa67",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-4a036ed1fa67",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A sleepy stillness hung over the hotel."
+      ]
+    },
+    {
+      "id": "000116-32277eaaa7e1",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-32277eaaa7e1",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He stayed where he was for a little while."
+      ]
+    },
+    {
+      "id": "000116-32277eaaa7e1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-08cdfa48ddd7",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-08cdfa48ddd7",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "Beside Nia, the dog gave a little tail flick.",
+        "Nia let a moment pass."
+      ]
+    },
+    {
+      "id": "000116-08cdfa48ddd7",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-8019874a6896",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-8019874a6896",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I lingered there for a few seconds."
+      ]
+    },
+    {
+      "id": "000116-8019874a6896",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The gallery had a hushed, heavy air."
+      ]
+    },
+    {
+      "id": "000116-fa723ded6b99",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000116-fa723ded6b99",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "You hang back for a short spell before putting it in the lock."
+      ]
+    },
+    {
+      "id": "000116-fa723ded6b99",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The place has an air of stillness about it."
+      ]
+    },
+    {
+      "id": "000116-e2d4cd30dbfa",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "A cold wire seemed to draw tight beneath his ribs."
+      ]
+    },
+    {
+      "id": "000116-e2d4cd30dbfa",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-e2d4cd30dbfa",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-71de0f8b5f7b",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "In my palm, it suddenly had the weight of a whole life."
+      ]
+    },
+    {
+      "id": "000116-71de0f8b5f7b",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-71de0f8b5f7b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-4adec6857835",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "Her knees went watery."
+      ]
+    },
+    {
+      "id": "000116-4adec6857835",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-4adec6857835",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The kitchen held a thick silence."
+      ]
+    },
+    {
+      "id": "000116-bd86a8d311a1",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "My pulse kicked into a gallop."
+      ]
+    },
+    {
+      "id": "000116-bd86a8d311a1",
+      "check": "narrative-craft/empty-beat",
+      "expected": false
+    },
+    {
+      "id": "000116-bd86a8d311a1",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "A heavy stillness filled the room."
+      ]
+    },
+    {
+      "id": "000116-40a571a071cc",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "Warmth blooms behind my breastbone."
+      ]
+    },
+    {
+      "id": "000116-40a571a071cc",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I take a little pause before picking it up."
+      ]
+    },
+    {
+      "id": "000116-40a571a071cc",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-d34eed602f22",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "My stomach ties itself into a knot."
+      ]
+    },
+    {
+      "id": "000116-d34eed602f22",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "After fastening my bag, I stand there for a bit before getting the gloves out."
+      ]
+    },
+    {
+      "id": "000116-d34eed602f22",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": false
+    },
+    {
+      "id": "000116-e1b7d44b1b7b",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "His stomach dipped."
+      ]
+    },
+    {
+      "id": "000116-e1b7d44b1b7b",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "He hovered there a moment"
+      ]
+    },
+    {
+      "id": "000116-e1b7d44b1b7b",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The flat lay quiet and still."
+      ]
+    },
+    {
+      "id": "000116-76ace084d837",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "A shiver ran the length of my spine."
+      ]
+    },
+    {
+      "id": "000116-76ace084d837",
+      "check": "narrative-craft/empty-beat",
+      "expected": true,
+      "snippets": [
+        "I sat for a few seconds before opening the next envelope."
+      ]
+    },
+    {
+      "id": "000116-76ace084d837",
+      "check": "narrative-craft/empty-scene-state",
+      "expected": true,
+      "snippets": [
+        "The apartment seemed very quiet."
+      ]
+    }
+  ]
+}

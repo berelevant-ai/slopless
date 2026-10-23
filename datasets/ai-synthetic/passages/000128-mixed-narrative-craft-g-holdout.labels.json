@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "4f8b8d72a8d5036b7f0914e18eb0eed4bfd7c156ffc1735e2a07bad71617b087",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-g-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000128-db3114dc7237",
+      "start": 59,
+      "end": 451
+    },
+    {
+      "id": "000128-d3519cc9e2ad",
+      "start": 477,
+      "end": 861
+    },
+    {
+      "id": "000128-750b16c0a685",
+      "start": 887,
+      "end": 1296
+    },
+    {
+      "id": "000128-b9deb8b2ade1",
+      "start": 1322,
+      "end": 1724
+    },
+    {
+      "id": "000128-ddcef1cd7fe9",
+      "start": 1750,
+      "end": 2173
+    },
+    {
+      "id": "000128-cd853fccc46d",
+      "start": 2199,
+      "end": 2564
+    },
+    {
+      "id": "000128-7aeb2573c73c",
+      "start": 2590,
+      "end": 2962
+    },
+    {
+      "id": "000128-74cffba6ba4f",
+      "start": 2988,
+      "end": 3417
+    },
+    {
+      "id": "000128-d4ebed71943d",
+      "start": 3443,
+      "end": 3878
+    },
+    {
+      "id": "000128-5246cfe30735",
+      "start": 3904,
+      "end": 4308
+    },
+    {
+      "id": "000128-450388570970",
+      "start": 4334,
+      "end": 4759
+    },
+    {
+      "id": "000128-c76552df38d8",
+      "start": 4785,
+      "end": 5143
+    },
+    {
+      "id": "000128-85341793c1ce",
+      "start": 5169,
+      "end": 5537
+    },
+    {
+      "id": "000128-d6aaef03a888",
+      "start": 5563,
+      "end": 5965
+    },
+    {
+      "id": "000128-7b9a8de0ccec",
+      "start": 5991,
+      "end": 6426
+    },
+    {
+      "id": "000128-6a90014f3d14",
+      "start": 6452,
+      "end": 6847
+    }
+  ],
+  "labels": [
+    {
+      "id": "000128-db3114dc7237",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-db3114dc7237",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-db3114dc7237",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-d3519cc9e2ad",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-d3519cc9e2ad",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-d3519cc9e2ad",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-750b16c0a685",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-750b16c0a685",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-750b16c0a685",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "Nina dragged her suitcase up the path.",
+        "Her brother collected the loose bags.",
+        "The owner unlocked the front door.",
+        "A curtain stirred above the sink."
+      ]
+    },
+    {
+      "id": "000128-b9deb8b2ade1",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-b9deb8b2ade1",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-b9deb8b2ade1",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "I lifted the hatch.",
+        "Rob wheeled in the flour.",
+        "The radio played an old advertisement.",
+        "I fetched the invoice."
+      ]
+    },
+    {
+      "id": "000128-ddcef1cd7fe9",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-ddcef1cd7fe9",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "I felt a flutter beneath my ribs."
+      ]
+    },
+    {
+      "id": "000128-ddcef1cd7fe9",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-cd853fccc46d",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-cd853fccc46d",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "A cold line runs down my spine."
+      ]
+    },
+    {
+      "id": "000128-cd853fccc46d",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-7aeb2573c73c",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-7aeb2573c73c",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "Seeing the key there made his stomach knot."
+      ]
+    },
+    {
+      "id": "000128-7aeb2573c73c",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "She set it beside the fruit bowl.",
+        "Ben moved a chair.",
+        "Lydia took off her coat.",
+        "Ben poured some tea."
+      ]
+    },
+    {
+      "id": "000128-74cffba6ba4f",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": false
+    },
+    {
+      "id": "000128-74cffba6ba4f",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "Her throat tightens at the thought of another night on a bus."
+      ]
+    },
+    {
+      "id": "000128-74cffba6ba4f",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "She opens the booking app.",
+        "The receptionist adjusts his badge.",
+        "A taxi passes the window.",
+        "Rosa retrieves her passport."
+      ]
+    },
+    {
+      "id": "000128-d4ebed71943d",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "The familiar office hush welcomed him back like an old colleague."
+      ]
+    },
+    {
+      "id": "000128-d4ebed71943d",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-d4ebed71943d",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-5246cfe30735",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "There it was again, that generous quiet, asking nothing of me and offering forgiveness."
+      ]
+    },
+    {
+      "id": "000128-5246cfe30735",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-5246cfe30735",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-450388570970",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "The room held a silence carefully fitted to their disappointment."
+      ]
+    },
+    {
+      "id": "000128-450388570970",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-450388570970",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "Ruth straightened a napkin.",
+        "Colin fetched the cake.",
+        "The caterer collected a tray.",
+        "Ruth opened the card."
+      ]
+    },
+    {
+      "id": "000128-c76552df38d8",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "The station hums with the promise of beginnings."
+      ]
+    },
+    {
+      "id": "000128-c76552df38d8",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": false
+    },
+    {
+      "id": "000128-c76552df38d8",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "I buy a newspaper.",
+        "A porter shifts a trolley.",
+        "The woman beside me unwraps a sandwich.",
+        "I check the departure board."
+      ]
+    },
+    {
+      "id": "000128-85341793c1ce",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "The silence leaned over us, waiting to see who would surrender."
+      ]
+    },
+    {
+      "id": "000128-85341793c1ce",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "my heart gave a painful little twist."
+      ]
+    },
+    {
+      "id": "000128-85341793c1ce",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-d6aaef03a888",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "we filled the van with an expectant quiet."
+      ]
+    },
+    {
+      "id": "000128-d6aaef03a888",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "his shoulders loosened with relief."
+      ]
+    },
+    {
+      "id": "000128-d6aaef03a888",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": false
+    },
+    {
+      "id": "000128-7b9a8de0ccec",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "The empty classroom seemed to cradle her defeat."
+      ]
+    },
+    {
+      "id": "000128-7b9a8de0ccec",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "A chill slipped between her shoulder blades as she read the announcement."
+      ]
+    },
+    {
+      "id": "000128-7b9a8de0ccec",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "She gathered the scripts.",
+        "A caretaker pushed past the door.",
+        "Ellen closed her bag.",
+        "She switched off the projector."
+      ]
+    },
+    {
+      "id": "000128-6a90014f3d14",
+      "check": "narrative-craft/silence-as-actor",
+      "expected": true,
+      "snippets": [
+        "Quiet wrapped the counter in a final farewell."
+      ]
+    },
+    {
+      "id": "000128-6a90014f3d14",
+      "check": "narrative-craft/body-emotion-shorthand",
+      "expected": true,
+      "snippets": [
+        "the key felt impossibly heavy in my hand, as though twenty years had been packed into its brass teeth."
+      ]
+    },
+    {
+      "id": "000128-6a90014f3d14",
+      "check": "rhythm-and-repetition/flat-action-cadence",
+      "expected": true,
+      "snippets": [
+        "I removed the price cards.",
+        "My husband stacked the baskets.",
+        "The buyer parked outside.",
+        "I folded the apron."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "34593aa350f957fc25f4a1b61ffc90503bebd0b42185b3ee2b805765a4217543",
+  "source": {
+    "name": "Codex-authored mixed-narrative-craft-f-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+    "commit": "b861e25dda175f01e1f81dae20cfefe52bcfde22",
+    "model": "Codex agent (inherited session model)",
+    "prompt": null,
+    "notes": "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000126-340328fbba9f",
+      "start": 59,
+      "end": 446
+    },
+    {
+      "id": "000126-3ac3d2a99fe2",
+      "start": 472,
+      "end": 838
+    },
+    {
+      "id": "000126-0b78aa764843",
+      "start": 864,
+      "end": 1224
+    },
+    {
+      "id": "000126-6f981daa8c81",
+      "start": 1250,
+      "end": 1611
+    },
+    {
+      "id": "000126-a3e4578a7d7b",
+      "start": 1637,
+      "end": 2004
+    },
+    {
+      "id": "000126-4edd12a7f555",
+      "start": 2030,
+      "end": 2410
+    },
+    {
+      "id": "000126-78b2fcbc5344",
+      "start": 2436,
+      "end": 2780
+    },
+    {
+      "id": "000126-69ce7d781d77",
+      "start": 2806,
+      "end": 3169
+    },
+    {
+      "id": "000126-b8c653002464",
+      "start": 3195,
+      "end": 3556
+    },
+    {
+      "id": "000126-7f298394e4ab",
+      "start": 3582,
+      "end": 3940
+    },
+    {
+      "id": "000126-099403410d39",
+      "start": 3966,
+      "end": 4328
+    },
+    {
+      "id": "000126-5bae6eb568e2",
+      "start": 4354,
+      "end": 4759
+    },
+    {
+      "id": "000126-35ca41ad3295",
+      "start": 4785,
+      "end": 5154
+    },
+    {
+      "id": "000126-64ec09467f28",
+      "start": 5180,
+      "end": 5542
+    },
+    {
+      "id": "000126-5404d8f5d02c",
+      "start": 5568,
+      "end": 5936
+    },
+    {
+      "id": "000126-9419f4c9c743",
+      "start": 5962,
+      "end": 6357
+    }
+  ],
+  "labels": [
+    {
+      "id": "000126-340328fbba9f",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-340328fbba9f",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-340328fbba9f",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-3ac3d2a99fe2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-3ac3d2a99fe2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-3ac3d2a99fe2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-0b78aa764843",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-0b78aa764843",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-0b78aa764843",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "By noon the craft market was a symphony of fabric, copper, and spice."
+      ]
+    },
+    {
+      "id": "000126-6f981daa8c81",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-6f981daa8c81",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-6f981daa8c81",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "the resort was a mosaic of water, glass, and sunlight"
+      ]
+    },
+    {
+      "id": "000126-a3e4578a7d7b",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-a3e4578a7d7b",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I shifted in my chair."
+      ]
+    },
+    {
+      "id": "000126-a3e4578a7d7b",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-4edd12a7f555",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-4edd12a7f555",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "She blinked and let out a breath."
+      ]
+    },
+    {
+      "id": "000126-4edd12a7f555",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-78b2fcbc5344",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-78b2fcbc5344",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I looked at him for a moment."
+      ]
+    },
+    {
+      "id": "000126-78b2fcbc5344",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The school gym was a galaxy of sequins and satin."
+      ]
+    },
+    {
+      "id": "000126-69ce7d781d77",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": false
+    },
+    {
+      "id": "000126-69ce7d781d77",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "My shoulders tightened."
+      ]
+    },
+    {
+      "id": "000126-69ce7d781d77",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "Beyond the gate lay an archipelago of rust and rubber."
+      ]
+    },
+    {
+      "id": "000126-b8c653002464",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Resentment lingered in the kitchen after breakfast."
+      ]
+    },
+    {
+      "id": "000126-b8c653002464",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-b8c653002464",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-7f298394e4ab",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "A nervous expectancy filled the rehearsal room."
+      ]
+    },
+    {
+      "id": "000126-7f298394e4ab",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-7f298394e4ab",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-099403410d39",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Disappointment hung along its empty corridors."
+      ]
+    },
+    {
+      "id": "000126-099403410d39",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-099403410d39",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The old shopping arcade had become a museum of dust and echoes."
+      ]
+    },
+    {
+      "id": "000126-5bae6eb568e2",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Beneath the speeches, tension gathered in the room."
+      ]
+    },
+    {
+      "id": "000126-5bae6eb568e2",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": false
+    },
+    {
+      "id": "000126-5bae6eb568e2",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The wedding reception was a carousel of silk and champagne."
+      ]
+    },
+    {
+      "id": "000126-35ca41ad3295",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Relief washed through the little office."
+      ]
+    },
+    {
+      "id": "000126-35ca41ad3295",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "He swallowed and glanced away."
+      ]
+    },
+    {
+      "id": "000126-35ca41ad3295",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-64ec09467f28",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "An uncomfortable stillness settled over the flat."
+      ]
+    },
+    {
+      "id": "000126-64ec09467f28",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I stood there for a moment, taking it in."
+      ]
+    },
+    {
+      "id": "000126-64ec09467f28",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": false
+    },
+    {
+      "id": "000126-5404d8f5d02c",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Nostalgia floated between the tables."
+      ]
+    },
+    {
+      "id": "000126-5404d8f5d02c",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "I paused and looked around."
+      ]
+    },
+    {
+      "id": "000126-5404d8f5d02c",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "At the reunion, the dining hall was a tapestry of gray hair and familiar faces."
+      ]
+    },
+    {
+      "id": "000126-9419f4c9c743",
+      "check": "narrative-craft/empty-emotional-weather",
+      "expected": true,
+      "snippets": [
+        "Anticipation thickened around us."
+      ]
+    },
+    {
+      "id": "000126-9419f4c9c743",
+      "check": "narrative-craft/low-information-beat-density",
+      "expected": true,
+      "snippets": [
+        "Marta blinked and shifted her weight."
+      ]
+    },
+    {
+      "id": "000126-9419f4c9c743",
+      "check": "narrative-craft/fixed-metaphor-frame",
+      "expected": true,
+      "snippets": [
+        "The auction room had turned into a theater of raised hands and flashing numbers."
+      ]
+    }
+  ]
+}
