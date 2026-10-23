@@ -290,3 +290,25 @@ Frame probability in the complete passage: **0.69** (finding). Block alone: **0.
 Frame probability in the complete passage: **0.21** (no finding). Block alone: **0.04** (no finding).
 
 Reversing the first claim leaves a positive frame judgment in the complete passage. Every block stays below threshold when submitted alone. These observations concern this one controlled passage.
+
+## Fragment Rule Cross-Check
+
+The unchanged fragment-stacking prompt judges the same eight semantic inputs in one additional request. All contain complete sentences; the current fragment definition expects no-hit for them.
+
+- Similar positive claims: complete passage `0.38`; block alone `0.18`. Both remain unflagged.
+- The user's reversed first claim: complete passage `0.43`; block alone `0.14`. Both remain unflagged.
+- Similar negative claims: complete passage `0.52`; block alone `0.19`. The complete passage receives one false fragment finding under the current definition.
+- Distinct practical statements: complete passage `0.11`; block alone `0.15`. Both remain unflagged.
+
+The eight texts match the semantic follow-up exactly. A separate temporary label view assigns fragment no-hits; original files and benchmark labels stay unchanged. Public request, snapshot and score validation pass for the completed eight-answer run.
+
+## Redundancy Rule Cross-Check
+
+The frozen `v16` redundancy check judges the same eight inputs in one additional request. Its definition covers adjacent statements repeating the same information in different words.
+
+- Similar positive claims: complete passage `0.92`; block alone `0.92`. Both trigger.
+- The user's reversed first claim: complete passage `0.88`; block alone `0.75`. Both trigger; the final two statements retain the same positive advice about planning.
+- Similar negative claims: complete passage `0.92`; block alone `0.93`. Both trigger.
+- Distinct practical statements: complete passage `0.12`; block alone `0.05`. Both remain unflagged.
+
+These are provisional judgments on eight diagnostic inputs. In the user's changed complete passage, redundancy reports the repeated meaning, fragment stacking stays silent, and sentence frames also reports despite its narrower repeated-word requirement.

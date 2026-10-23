@@ -499,5 +499,192 @@
         ".worklogs/2026-10-23-184815-test-frame-meaning-changes.md": "21a363d70540ae377739a5eee92323c49b531a913dd9f0151914c2fff6388105"
       }
     }
+  },
+  "fragmentFollowup": {
+    "output": "runners/results/rhythm-and-repetition-v19-fragment-context-diagnostic-development.json",
+    "dataset": "../../../../../tmp/slopless-v19-semantic-probe-2026-10-23-184627/fragment-passages.md",
+    "promptSha256": "59ee35679162cfad7cd90b1b084697774cf2f8804aae93b3b46ed5b83524f55b",
+    "inferenceSha256": "c10d239cf4edee62e1049cfd2583f08d48f63fdc8e14efdb115d0babeb279f63",
+    "sourceInputs": "The same eight semantic follow-up inputs; only the assessed check changes to fragment-stacking.",
+    "cases": [
+      {
+        "id": "semantics-0c4859fe9fc4794b",
+        "variant": "samePositive",
+        "context": "completePassage",
+        "probability": 0.38
+      },
+      {
+        "id": "semantics-b987d210bcba702e",
+        "variant": "samePositive",
+        "context": "blockOnly",
+        "probability": 0.18
+      },
+      {
+        "id": "semantics-1f6026651582a5ea",
+        "variant": "firstNegative",
+        "context": "completePassage",
+        "probability": 0.43
+      },
+      {
+        "id": "semantics-fea5c2b31da87991",
+        "variant": "firstNegative",
+        "context": "blockOnly",
+        "probability": 0.14
+      },
+      {
+        "id": "semantics-7be9666fb0e4d131",
+        "variant": "sameNegative",
+        "context": "completePassage",
+        "probability": 0.52
+      },
+      {
+        "id": "semantics-e72d461e92ee0ffa",
+        "variant": "sameNegative",
+        "context": "blockOnly",
+        "probability": 0.19
+      },
+      {
+        "id": "semantics-cf1859657751c1c3",
+        "variant": "distinctFacts",
+        "context": "completePassage",
+        "probability": 0.11
+      },
+      {
+        "id": "semantics-2a196577070d802d",
+        "variant": "distinctFacts",
+        "context": "blockOnly",
+        "probability": 0.15
+      }
+    ],
+    "execution": {
+      "requests": 1,
+      "judgments": 8,
+      "exit": 0
+    },
+    "verification": {
+      "publicValidation": true,
+      "sourceTextHash": "33760be31c7f1d8cfe2ed32dad561c929b0369f6417d90d3cc8d20e2b9ff4f3b",
+      "audit": {
+        "approved": true,
+        "sha256": "8019b25aad43a8eef394c7c323afd4a2db905d65343cd673cc11f56f95289ee7",
+        "verified": [
+          "Public loadDataset, loadPrompts, createSnapshot, validateResult and score pass offline for all eight inputs; request identity, snapshot and inference seal validate.",
+          "Fragment and original semantic texts match byte-for-byte and by all eight target hashes. Original text and label file hashes match semanticFollowup.",
+          "Whole/block scores: samePositive 0.38/0.18; firstNegative 0.43/0.14; sameNegative 0.52/0.19; distinctFacts 0.11/0.15. Threshold 0.5; one request, eight judgments.",
+          "The user's exact changed example is unflagged in context and alone. All sentences are grammatically complete clauses or commands, so the unchanged fragment definition expects eight no-hits. The sameNegative complete passage at 0.52 is one real false finding.",
+          "FragmentFollowup, appended Fragment Rule Cross-Check and new worklog match the saved native results.",
+          "Original labels have no fragment-stacking group. runners/jev.mjs asserts the selected group before client creation or credential access. The current log records only the completed second run; the earlier failed attempt is documented in the Markdown and worklog.",
+          "The recorded main frame score of 0.62 for firstNegative conflicts with its repeated-word/position restriction; this is a frame-definition issue.",
+          "Only audit.json written. No delegation, Python, network, credentials, inference, source edits, holdout reads or broad corpus work. Independent review omitted as requested."
+        ]
+      }
+    }
+  },
+  "redundancyFollowup": {
+    "output": "runners/results/rhythm-and-repetition-v19-redundancy-context-diagnostic-development.json",
+    "dataset": "../../../../../tmp/slopless-v19-semantic-probe-2026-10-23-184627/redundancy-passages.md",
+    "family": "wordiness-and-redundancy",
+    "prompts": "prompts/v16",
+    "promptSha256": "6d71a987b351f60cdc98eafcf1943edc80525815f81eeb768bc285fa9193e133",
+    "inferenceSha256": "6f3b1de5f5e46da8ca5897597e56d1fdb4c2f0b659449dba3c476f6a078c8c78",
+    "sourceInputs": "Same eight semantic inputs; adjacent repeated meaning is provisionally positive in six, distinct useful statements negative in two.",
+    "cases": [
+      {
+        "id": "semantics-0c4859fe9fc4794b",
+        "variant": "samePositive",
+        "context": "completePassage",
+        "probability": 0.92
+      },
+      {
+        "id": "semantics-b987d210bcba702e",
+        "variant": "samePositive",
+        "context": "blockOnly",
+        "probability": 0.92
+      },
+      {
+        "id": "semantics-1f6026651582a5ea",
+        "variant": "firstNegative",
+        "context": "completePassage",
+        "probability": 0.88
+      },
+      {
+        "id": "semantics-fea5c2b31da87991",
+        "variant": "firstNegative",
+        "context": "blockOnly",
+        "probability": 0.75
+      },
+      {
+        "id": "semantics-7be9666fb0e4d131",
+        "variant": "sameNegative",
+        "context": "completePassage",
+        "probability": 0.92
+      },
+      {
+        "id": "semantics-e72d461e92ee0ffa",
+        "variant": "sameNegative",
+        "context": "blockOnly",
+        "probability": 0.93
+      },
+      {
+        "id": "semantics-cf1859657751c1c3",
+        "variant": "distinctFacts",
+        "context": "completePassage",
+        "probability": 0.12
+      },
+      {
+        "id": "semantics-2a196577070d802d",
+        "variant": "distinctFacts",
+        "context": "blockOnly",
+        "probability": 0.05
+      }
+    ],
+    "execution": {
+      "requests": 1,
+      "judgments": 8,
+      "exit": 0
+    },
+    "verification": {
+      "publicValidation": true,
+      "sourceTextHash": "33760be31c7f1d8cfe2ed32dad561c929b0369f6417d90d3cc8d20e2b9ff4f3b",
+      "audit": {
+        "approved": true,
+        "sha256": "99980eed4b1d6c6ab4de129d8b20b86c7a40cb894587e45bd9c6a8aacbfb59e6",
+        "verified": [
+          "Public createSnapshot and validateResult pass offline with complete:true; request identity and inference seal validate. Public score exactly reproduces the saved summary: six caught provisional hits, two clean controls, zero misses or false alarms.",
+          "All eight texts match the original passages.md byte-for-byte and by ID. Per-target hashes match the earlier fragment audit. One saved request contains eight answers; model jev-1.13.0, threshold 0.5, batch size 16, classification-only.",
+          "Whole/block redundancy probabilities match redundancyFollowup and native answers: samePositive 0.92/0.92; firstNegative 0.88/0.75; sameNegative 0.92/0.93; distinctFacts 0.12/0.05.",
+          "The six provisional hits follow adjacent repeated meaning. firstNegative reverses its first claim while Planning ahead has merit and Thinking in advance seems reasonable retain synonymous positive advice. The two distinctFacts inputs supply useful separate information.",
+          "The appended Redundancy Rule Cross-Check and worklog185520 agree with the saved results. Redundancy detects the changed example; its complete clauses and commands require fragment silence. Saved fragment scores are 0.43/0.14 versus frame 0.62/0.18; the contextual frame finding conflicts with the narrow repeated-word rule documented in the earlier audit.",
+          "The earlier fragment audit SHA-256 matches fragmentFollowup.verification.audit.sha256; its native fragment-result hash still matches. The different sameNegative complete passage at fragment 0.52 is a separate false finding.",
+          "Conclusions cover these eight diagnostic inputs and passage-level decisions. Original labels and prompts preserved; no holdout data read. Only audit.json written; no delegation, Python, network, credentials or inference. Independent reviewer omitted as requested."
+        ],
+        "hashes": {
+          "runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic.json": "747222b1965593014e724dcdb43be532f70e84ce264f584eb9a626234dd0c6e3",
+          "runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic.md": "657ee85ba6bcf1b46a2d7649c410fcd24f082a075b9d4cbeda39c845c1f85da4",
+          "runners/results/rhythm-and-repetition-v19-redundancy-context-diagnostic-development.json": "05057fedf181a629868125cf83ca87138c7bcfd3402a688074130c841844287a",
+          "prompts/v16/redundancy.md": "ce64a348222c0107a473656821355c1af294e171551f4d6d7ef2389802e94b3a",
+          "prompts/v16/shared.md": "99d71382cbb8344bdf42fe9563169674c0ded5d943b893a816881be32e0054ad",
+          "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/redundancy-passages.md": "4a9b90ddf2903e6f767ba9f8355a3b853b7baa6f5a735367a4aee77c3b352951",
+          "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/redundancy-passages.labels.json": "3a888fe25537382924b83b1b23141d9c26b3fc7224085d2722b554ec536a6dc0",
+          "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/passages.md": "4a9b90ddf2903e6f767ba9f8355a3b853b7baa6f5a735367a4aee77c3b352951",
+          "/tmp/slopless-v19-fragment-probe-review/audit.json": "8019b25aad43a8eef394c7c323afd4a2db905d65343cd673cc11f56f95289ee7",
+          "runners/results/rhythm-and-repetition-v19-fragment-context-diagnostic-development.json": "2a506c246b798f3e2de8dae832d5c1c3770db0151802d1f62b7463cc032a9642",
+          "runners/results/rhythm-and-repetition-v19-sentence-frame-semantic-diagnostic-development.json": "0e0ea4b632283bc9e0e769e03f7d62ca3938dff33ce01172555add4790e6b312",
+          ".worklogs/2026-10-23-185520-check-fragments-on-semantic-probes.md": "b64d1bdb1da93fdeaf83e3cf9236a538feb9b14d218164db120da7b74d26e812",
+          "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+          "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+          "targetTexts": {
+            "semantics-0c4859fe9fc4794b": "5de4a09a6ef3d20f22a8ce932e67945ea7806d36a27e0e6dff00c61d4bba2a0c",
+            "semantics-1f6026651582a5ea": "adc44462f3aa67946d9542eab3fd6276ea6c6a0530ffac2d84941bd850bfc3e2",
+            "semantics-2a196577070d802d": "d0a1187d592f8316bad4556f4136b0b9f4c9a27ee2fa62ed491397a51467a83e",
+            "semantics-7be9666fb0e4d131": "3309fdbb6145004fd3b4db093191a83cb05e1e4683f699bbc054add82dd47ccd",
+            "semantics-b987d210bcba702e": "2afdaf3079cf85cde5158d0d1c9ae8617830e6fd95e8f8df534783951e915bb6",
+            "semantics-cf1859657751c1c3": "fe721150ad5647dccb2aa694fe2a2d305b7cc1cbf2dfcdf47cd6e9e6645455b6",
+            "semantics-e72d461e92ee0ffa": "5ccd33b9c7cc3f112f7d702cf9ebb70d3893820b4bf5d2c342226ee68885a1f4",
+            "semantics-fea5c2b31da87991": "633dcd28b285d271057355840cec9f8a593101b50bce7354d8466fb898151bb9"
+          }
+        }
+      }
+    }
   }
 }
