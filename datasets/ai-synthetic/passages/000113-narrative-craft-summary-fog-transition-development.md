@@ -2,7 +2,7 @@
 
 ## 000113-f5753f65406d
 
-At the depot, Lena exchanged her reservation for a paper ticket and asked which platform served the coast. The clerk pointed through the glass doors. Everything after that dissolved into a whirl of travel. She boarded at platform six, put her suitcase above seat fourteen, and arrived in Bellport at noon. Her brother was waiting beside the station clock with two coffees.
+Everything after the ticket counter dissolved into a whirl of travel, and by noon Lena was in Bellport. Her brother stood beside the station clock, holding two coffees against his chest. "Which one's mine?" she asked. He looked down at them as though the lids might tell him.
 
 ## 000113-9e491806ce24
 
@@ -18,7 +18,7 @@ I remember carrying the ladder through the gate. My next memory is of a paramedi
 
 ## 000113-f85d0e99befa
 
-The plumber tightened the new waste-pipe coupling and asked me to turn on the kitchen tap. Water ran into the sink without dripping through the cupboard below. He packed his tools. From there, the rest of the visit passed in an indistinct rush; I paid by card, and we carried the wet towels to the porch. Before leaving, he wrote the part number on the receipt.
+"Try it now." The plumber crouched beside the open cupboard while I ran the kitchen tap. The new coupling stayed dry. As he packed away, the rest of the visit passed in an indistinct rush, including the card payment and carrying the towels outside. His receipt was still on the porch when I went to lock up.
 
 ## 000113-d45bc39e0261
 
@@ -42,7 +42,7 @@ The statement described the motorcycle ride home as "a blur." At the kitchen tab
 
 ## 000113-5fabcc22bb9d
 
-You collect the rental van at eight and reverse it up to your mother's garage, where she has already taped the boxes shut and written your new address on each one. The move unfolds in a blur of doing and going; you load the boxes, drive across town, and unload them beside the lift. She follows in her own car with the plants.
+You collect the rental van at eight. Your mother has written your new address on every box, even the one you are taking to the tip. In a blur of activity, the move carries you across town to the new flat, where you unload beside the lift. She arrives behind you with the plants and asks which window gets the morning sun.
 
 ## 000113-68da393f4007
 
@@ -114,7 +114,7 @@ Grandad called his years at the mill a grey blur until we showed him the photogr
 
 ## 000113-4e072243d24d
 
-By the time the library opened, the children had formed a queue beside the cardboard dragon. Their morning became a wash of miscellaneous adventures. They listened to a story, made paper crowns, and borrowed books using the temporary cards. One boy insisted on wearing his crown home over his bicycle helmet.
+One boy wore his paper crown over his bicycle helmet all the way home. He had made it at the library, where the children listened to a story and borrowed books on temporary cards. The morning had swept by in a happy blur. At our gate he asked whether kings had to return their books too.
 
 ## 000113-06628d653fc4
 
@@ -130,7 +130,7 @@ Rain turned the ink on the delivery note into blue fog. Only the final digit of 
 
 ## 000113-3745d41eaac9
 
-We met the walking group outside the post office, where a volunteer counted us and distributed orange badges. The outing ran together in an eddy of experience. At the reservoir, we stopped for sandwiches. On the return path, Grace lent her walking pole to a man whose knee had begun hurting.
+Grace's walking pole came home with someone else. At the reservoir, a man in our group had begun favoring his knee, and she lent it to him for the return path. The rest of the outing blurred past. We found him outside the post office afterward, waiting with the pole across his lap.
 
 ## 000113-4444137fd91f
 
@@ -146,7 +146,7 @@ Under the sedative, the ceiling panels stopped forming a continuous journey. I r
 
 ## 000113-7cbbe77ea8d0
 
-The hotel receptionist gave us a map with the evening market circled in green. Everything until bedtime became an indistinct ribbon of experience. We bought flatbreads at the market and ate them beside the fountain. Back upstairs, I hung my damp shirt over the chair and opened the window.
+The receptionist circled the evening market on our map. We bought flatbreads there and ate beside the fountain; the evening slipped by in a blur before we went upstairs. Across the courtyard, someone was practicing scales. I hung my damp shirt over the chair and listened from the open window.
 
 ## 000113-4e09ab64cf46
 
@@ -170,15 +170,15 @@ The witness used the phrase "everything went fuzzy" three times in his account. 
 
 ## 000113-ba00e6911c28
 
-My brother fetched the extension lead so we could test the secondhand freezer before unloading it. The collection dissolved into a busy mist. We checked the seal, paid the seller, and lifted it into the trailer. At home, we left it upright in the shed with the lid propped open.
+My brother fetched the extension lead so we could test the secondhand freezer before loading it. The collection dissolved into a busy mist. We checked the seal, paid the seller, and lifted it into the trailer. At home, we left it upright in the shed with the lid propped open.
 
 ## 000113-257e510ce363
 
-For three days, our conversations were fragments passed across a sleeping baby. "Bottle washed?" "Top shelf." "Your mother called." By Friday, I realized we had never finished the argument about visitors. I asked again while the baby slept, and this time we had enough quiet to hear each other's answers.
+Those first three days with the baby blur into a conversation conducted in pieces. "Bottle washed?" "Top shelf." "Your mother called." An answer might come an hour after its question, from the other side of a sleeping child. On Friday, he said, "About the visitors," and I put down the towel I was folding.
 
 ## 000113-dec55f2a0ed9
 
-The tutor asked each of us to introduce ourselves in Spanish before opening the workbook. What came next had the texture of a vague montage. We practiced ordering drinks, paired off to compare answers, and copied the homework. Outside, Helena asked whether I wanted to share a taxi to the estate.
+"And what would you like to drink?" Helena asked in Spanish, keeping one finger on the workbook. I ordered a coffee. The lesson rushed past in a blur, and outside we were back to English, discussing whether to share a taxi. She lived two streets beyond mine.
 
 ## 000113-5192cbeeaf9b
 
@@ -186,7 +186,7 @@ Smoke from the bonfire settled into a haze under the apple trees. From my chair,
 
 ## 000113-7d4debd3c207
 
-Ellie put the birthday candles in a drawer so her father would not find them before supper. The preparations rolled past in a whirl of everything. She sliced bread while her cousin set the table. When her father arrived, they asked him to fetch the cake stand from the cupboard.
+Ellie hid the candles in the cutlery drawer. Her cousin was laying the table, so she told him twice to leave that drawer shut. The preparations swept them along in a whirlwind until her father's key turned in the lock. She sent him to fetch the cake stand while her cousin reached for the matches.
 
 ## 000113-a7cd9d91f6f3
 
@@ -226,11 +226,11 @@ A week passed between each letter. At first, Dad described the hotel food; by th
 
 ## 000113-18836f51a64d
 
-When our team won the quiz, the landlord offered us either a drinks voucher or a box of chocolates. We chose the chocolates. The remainder of the night slid through an undefined daze. I phoned my husband for a lift, and we shared the last two sweets on the pavement.
+"Chocolates," we said together when the landlord offered our quiz team a choice of prizes. He brought the box from behind the bar. The evening blurred on until my husband arrived to collect me. Outside, we shared the last two sweets while he searched his pockets for the car key.
 
 ## 000113-8795b64869d3
 
-For the final mile, the runner ahead was a wavering orange shape. Sweat had filled my contact lens, and each blink moved him sideways. I followed the white curb until a steward directed me into the finishing lane. He had already crossed and was drinking from a paper cup.
+For the final mile, the runner ahead was a wavering orange shape. Sweat had run into my right eye, and tears blurred the view through my contact lens. I followed the white curb until a steward directed me into the finishing lane. He had already crossed and was drinking from a paper cup.
 
 ## 000113-2172f2a627e2
 
@@ -266,7 +266,7 @@ The lake was a pale haze beyond the insect screen. Closer to the cabin, drops hu
 
 ## 000113-659489bf62fa
 
-I met Sam at the tool library to collect the floor sander. He explained which bag caught the dust and helped lift it into my car. The rest of the project became a passing smudge. We sanded the boards, applied two coats, and slept downstairs while the varnish dried.
+We slept downstairs while the varnish dried, with the sofa cushions laid end to end. Sam had helped me collect the sander and explained how to empty its dust bag. After that the project was a blur, right through sanding the boards and applying the two coats. In the morning, he stood in the doorway in his socks and asked whether we could walk on it yet.
 
 ## 000113-a5ae757b904b
 
@@ -274,7 +274,7 @@ The delivery route remained a blur until I drew it as a loop instead of a list. 
 
 ## 000113-e620de1c2d9b
 
-The school secretary asked us to fold the newsletters with the permission slip facing out. We cleared a desk and opened the first carton. Afternoon moved through a gauze of ordinary happenings. After stapling the final bundles, we sorted them by classroom and wheeled them along the corridor on a cart.
+The last newsletter came off the press with the permission slip upside down. I set it aside for the school secretary, who had stayed late to help fold. We worked through a blur of activity and then wheeled the bundles to the classrooms. At her son's desk, she stopped to straighten a photograph that had fallen against the pencil pot.
 
 ## 000113-cbfd4ea2344b
 
@@ -290,7 +290,7 @@ The afternoon sped up whenever the wind caught our dinghy. Buoys that had taken 
 
 ## 000113-e4e484aa8efb
 
-At the community center, the instructor checked our names against the first-aid register. I put my lunch under a chair. The training became an airy succession of experiences. We practiced bandaging on partners and took the written test before leaving. My certificate arrived by post the following week.
+My first-aid certificate arrived on a Tuesday, folded around a leaflet advertising the next course. Training had passed in a whirlwind. We had practiced bandaging on partners and taken a written test in the community center. I put the certificate in the kitchen drawer with my driving documents.
 
 ## 000113-a9e9c69a1ae6
 
@@ -322,7 +322,7 @@ In my dream, the corridor folded until my childhood bedroom opened directly onto
 
 ## 000113-66d0b8f6065b
 
-We put the collection tin beside the garden gate and tied a price tag to each plant. The sale spun onward in a generalized whirl. By midday, the tomato seedlings had gone, while most of the geraniums remained. Mrs. Hall bought the final tray after asking whether they would tolerate shade.
+Mrs. Hall wanted the geraniums, provided they would tolerate shade. I called over the fence to ask Mo, who had grown them. The sale whirled past around us; by midday the tomato seedlings were gone, and Mrs. Hall had taken the final tray of geraniums. Mo counted the money on my kitchen table afterward.
 
 ## 000113-794c1a67fc3a
 
@@ -338,7 +338,7 @@ I edited the month's recordings into a minute: seedlings breaking the surface, t
 
 ## 000113-1a7a5280fdfb
 
-We were the first customers at the car boot sale, and my sister headed straight for a box of records. The hours blurred into a little bit of everything. I found a saucepan with a matching lid, and she negotiated for six albums. We carried our purchases back before the rain started.
+My sister was already kneeling beside a box of records when I caught up with her at the car boot sale. "Hold these," she said, passing me six albums. The hours ran together in a blur before we headed back to the car. I had found a saucepan whose lid fitted tightly enough to stay on while I carried it.
 
 ## 000113-586b079645d1
 
@@ -370,7 +370,7 @@ The rehearsal room became a haze of chalk when someone clapped the erasers toget
 
 ## 000113-b3e6312882b5
 
-I met the dog walker at the park gate so she could see how Bess behaved off the lead. The introduction passed in a vague ripple of happenings. Bess returned when called and sat for a treat. We agreed on Tuesday mornings, and I gave the walker my spare key.
+Bess came back at the first whistle. The dog walker gave her a treat and asked whether Tuesday mornings would suit us. Our meeting drifted by in a haze, and I handed over the spare key before we left the park. Bess watched it change hands, then nosed the walker's pocket again.
 
 ## 000113-03a48c2d273e
 
@@ -378,15 +378,15 @@ By the fourth identical stairwell, the blocks had begun to blur together. I chec
 
 ## 000113-16a548241c1f
 
-The ferry office confirmed that our bicycles could travel without reservations. We bought two tickets and waited beside the ramp. The crossing and arrival merged into an unspecified rush. On the island, we followed the harbor road to the hostel, where the owner showed us a locked shed for the bikes.
+There was room for both bicycles on the ferry. We bought our tickets at the office and waited beside the ramp, the crossing and arrival merging into a blur before we reached the hostel. Its owner showed us a locked shed behind the kitchen. Someone had left a pump hanging from a nail inside.
 
 ## 000113-5c3e4e0e954e
 
-"The interview was a blur," I told Jane. She asked which questions I remembered. All six came back, along with my answers, but I could recall none of the panel's faces. I had stared at the water jug throughout. Jane put three photographs on the table and waited while I studied them.
+"The interview was a blur," I told Jane, the careers adviser who had helped me prepare. She asked which questions I remembered. All six came back, along with my answers, but I could recall none of the panel's faces. I had stared at the water jug throughout. Jane opened the employer's staff page and turned her screen toward me. Three portraits sat above the names on my interview invitation.
 
 ## 000113-35d82795308c
 
-When the freezer failed, our upstairs neighbor offered us one drawer until the engineer came. We carried the food over in a laundry basket. The next few days became an amorphous sweep. On Wednesday, the engineer replaced the thermostat, and we brought back the peas and the remaining chicken portions.
+Our upstairs neighbor cleared one freezer drawer for us when ours failed. We carried the food over in a laundry basket. The days blurred past until Wednesday, when the engineer fitted a thermostat. That evening I went upstairs for the peas and chicken. Our neighbor had put them in a bag with our flat number on it.
 
 ## 000113-f46351b7f417
 
@@ -430,7 +430,7 @@ When I shut my eyes, the fairground lights kept revolving. The actual ride was o
 
 ## 000113-01754e248250
 
-You lose track of individual houses after an hour of laying cable beneath the same pavement. On this street, the cellar steps supply the rhythm: lift the reel, duck the railing, lower it again. At number forty, a woman holds her gate open and asks how much farther you have to go.
+An hour into laying cable, the houses blur into one long frontage. Lift the reel over the cellar steps, duck the railing, lower it again. Your shoulder knows the next doorway before you look up. At number forty, a woman holds her gate open. You thank her with the same words you used at number twelve.
 
 ## 000113-7b9454627cb9
 
@@ -450,7 +450,7 @@ The rain blurred the boundary between the river and the flooded meadow. Only the
 
 ## 000113-62015276fdb3
 
-My grandmother wanted the mantel clock valued, so I wrapped it in a blanket and drove her to the auction rooms. The visit swirled into a vague patchwork. A specialist opened the case, noted the maker, and suggested a reserve. Grandma decided to take it home and think about selling.
+Grandma kept her hand on the blanket around the mantel clock while the specialist discussed its maker. He suggested a reserve and asked whether she wanted it in the next sale. The visit swirled by in a haze. Back in the car, she asked me to fasten the seat belt around the clock again. "I'll think about it," she said.
 
 ## 000113-15563cafc170
 
@@ -478,7 +478,7 @@ The swimming instructor let parents watch from the balcony on the final Tuesday 
 
 ## 000113-3a13510cd632
 
-On the night shift, I stopped thinking of hours and counted trays. Twelve meant the first break; another eighteen meant the van would arrive. It made the stretch feel shorter, though the clock moved normally whenever I checked it. By dawn, the empty rack held every tray I had counted.
+On the night shift, I stopped thinking of hours and counted trays. Twelve meant the first break; another eighteen meant the van would arrive. It made the stretch feel shorter, though the clock moved normally whenever I checked it. By dawn, the rack that had stood empty at ten held every tray I had counted.
 
 ## 000113-edd12cdea6aa
 
@@ -494,7 +494,7 @@ We wrote the names of the soup varieties on folded cards and put the bread near 
 
 ## 000113-9c73b36653d0
 
-A cataract had put a veil over the right half of my mother's view. She described the left eye's white curtains as cream through the right. After surgery, she asked me to take down the lampshade she had chosen last winter. Its yellow looked much stronger to her now.
+A cataract had put a veil over the sight in my mother's right eye. Covering each eye in turn, she described the same curtains as white through the left and cream through the right. After surgery, she asked me to take down the lampshade she had chosen last winter. Its yellow looked much stronger to her now.
 
 ## 000113-c1dd3516d890
 
@@ -506,7 +506,7 @@ For the next six months, I sent one application every Monday. The replies arrive
 
 ## 000113-fa1fa77bbbdf
 
-When the church clock stopped, I helped the warden find the maintenance number in a drawer of old bills. The afternoon slipped into a jumble of unsorted experience. A technician arrived and reset the mechanism. Before he left, we asked him to write the service date inside the cupboard door.
+The maintenance number was under a pile of old bills in the vestry. I read it aloud while the warden dialed. The afternoon became a blur of activity, and by four the clock was striking again. Before the technician left, the warden opened the cupboard door and asked him to write the service date inside.
 
 ## 000113-b38d54f5e12e
 
@@ -522,7 +522,7 @@ At the funeral, people I had known for years arrived as disconnected details: a 
 
 ## 000113-da94630ee3b9
 
-The council officer measured the cracked paving slab and marked it with white paint. I asked her to include the uneven drain cover. The rest of her visit blurred into incident and activity. She photographed both hazards, gave me a reference number, and went next door to inspect the broken railing.
+"The drain cover too," I told the council officer as she marked the cracked paving slab. She crouched to photograph it. Her visit rushed past in a blur before she went next door to inspect the railing. I was still holding the reference number she had written on the back of her card.
 
 ## 000113-8b4383688b4f
 
@@ -546,7 +546,7 @@ The report said the patient had been "in a fog" after taking the new medicine. W
 
 ## 000113-61b2f0b56bd8
 
-We borrowed a camping stove to make tea during the electricity work. The engineer said our supply would return by midafternoon. The outage became a blur of this happening and that happening. I boiled water in the yard while Mum sorted photographs. At three, the kitchen radio came back on.
+At three the kitchen radio came back on, halfway through a weather forecast. We had spent the outage in a blur, making tea on a borrowed camping stove while Mum sorted photographs at the yard table. She kept working after I took the stove inside. There were still two envelopes to open.
 
 ## 000113-97d85e29a0f8
 
@@ -554,7 +554,7 @@ The crowded waiting room dissolved whenever I concentrated on the needle enterin
 
 ## 000113-40e8c4ba3156
 
-I bought a cheap apron for the cookery course and wrote my name inside the collar. The first class arrived in a misty tumble and passed the same way. We made pastry, filled the tins, and labeled our pies before baking. I carried mine home balanced on a folded towel.
+I carried my first pie home on a folded towel. The course tutor had made us label the tins before baking, and my name showed through a translucent patch of grease. The class had flown by in a blur. At home, I put the pie on the table and fetched a knife for my daughter to cut it.
 
 ## 000113-8bde24257f9e
 
@@ -562,7 +562,7 @@ The lane vanished into fog just beyond our headlights. Each bend arrived before 
 
 ## 000113-c4f87798a459
 
-The social club had booked a minibus for the seaside trip, and I collected fares before we left. The excursion became an undefined whirl of impressions. At the promenade, we split into smaller groups. I ate chips with Nora and met everyone back at the shelter at half past four.
+Nora counted the fares while I checked the minibus seats. At the promenade, everyone split into smaller groups, agreeing to meet at the shelter at half past four. A whirl of impressions carried the excursion through to our return. Nora had saved me a seat beside her and was holding my change in a paper bag.
 
 ## 000113-040d951e8f18
 
@@ -570,7 +570,7 @@ Over the winter, his accent softened so gradually that I noticed only when his b
 
 ## 000113-fa9bf5bd21b9
 
-Our new cleaner asked which rooms needed doing every week and which doors should remain shut. I showed her the cat's hiding place. The introduction faded into an airy muddle of moments. We agreed on Fridays, and I wrote the alarm code on a card for her to take home.
+Our cleaner found the cat behind the boiler before I had finished explaining which rooms to leave shut. She crouched and offered it a finger. The rest of the introduction passed in a blur, ending with Fridays agreed and the alarm code written on a card. The cat followed her as far as the gate.
 
 ## 000113-1c063e8d218a
 
@@ -578,7 +578,7 @@ A gust lifted the sand into a moving curtain across the path. For a few seconds,
 
 ## 000113-ccb350408576
 
-At the photo shop, I asked for two copies of the family portrait, one small enough for my father's wallet. The transaction drifted through a nameless haze. The assistant cropped the picture and showed me the preview. I chose the matte paper and returned after lunch to collect the prints.
+"Wallet size?" the assistant asked. I laid my father's wallet beside the family portrait so he could measure the clear pocket. The rest of the transaction blurred by. When I returned after lunch, the small print was tucked inside the larger one, with tissue between their matte surfaces.
 
 ## 000113-0d743f43d9e1
 
@@ -606,11 +606,11 @@ The woman at the charity desk asked whether I could drive two bags of bedding to
 
 ## 000113-7472fac618f5
 
-The pond reflected the clouds so completely that the ducks seemed to swim through a broken sky. Wind blurred their wakes before they reached the bank. I sat with my boots on the lower rail and watched them for half an hour, waiting for the house behind me to become quiet.
+I let the afternoon drift around me at the pond. Clouds broke apart under the ducks, joined again, broke apart. Behind the hedge, someone in the house called my name. I drew my boots onto the lower rail and watched a feather turn beside the bank.
 
 ## 000113-2f01623b62af
 
-We had to collect the rented chairs before six, so I met Lauren outside the hall with my van. She brought the booking receipt. The pickup slipped into a blur of miscellaneous business. We counted the chairs, signed for them, and drove to her mother's house to unload in the garage.
+Lauren waved the booking receipt from the hall steps. We had twenty minutes to collect the rented chairs before the caretaker locked up. The pickup swept past in a bustle, and soon we were unloading at her mother's garage. "Count them again," Lauren said, standing between the two stacks.
 
 ## 000113-01f46e987bcb
 
@@ -638,7 +638,7 @@ I took my grandmother's radio to a man who repaired old electrical things behind
 
 ## 000113-92c965f5a5ff
 
-Three months of sanding appear in the time-lapse as a few frantic seconds. The boat's hull changes from red to bare wood, then white. Watching beside me, my daughter points out that she grows taller between the first frame and the last. Her hand eventually reaches the gunwale without stretching.
+Three months of sanding and painting appear in the time-lapse as a few frantic seconds. The boat's hull changes from red to bare wood, then white. Watching beside me, my daughter points out that she grows taller between the first frame and the last. Her hand eventually reaches the gunwale without stretching.
 
 ## 000113-77033b9cb296
 
@@ -650,7 +650,7 @@ The room was misty after they tested the stage machine. Colored beams that had b
 
 ## 000113-ed44151bc46d
 
-My cousin asked me to accompany her to the bank because she wanted another person to hear the mortgage explanation. I brought a notebook. The meeting became a vaporous series of moments. The adviser compared two rates and printed the monthly costs. We took the papers home to read over supper.
+My cousin wanted me at the mortgage meeting to take notes. The adviser printed the monthly costs for both rates and slid them across to us. Everything went by in a blur. At supper, my cousin unfolded the sheets beside her plate and asked me to read out what I had written.
 
 ## 000113-0e13c8405652
 
@@ -658,7 +658,7 @@ Until the interpreter arrived, the discussion passed me in fragments: my surname
 
 ## 000113-1f6bb77667db
 
-The nursery had labeled every child's bag before the outing. I checked the water bottles and added a spare jumper to my son's. The trip became an unshaped whirl of experience. We visited the animal enclosure and ate on the picnic benches. His jumper stayed folded at the bottom all day.
+My son's spare jumper stayed at the bottom of his bag all day. The nursery staff had asked us to pack one despite the forecast, so I had put his name in it before we left. The outing was a whirlwind from departure to return. At home he emptied out his lunch box and a folded leaflet from the animal enclosure.
 
 ## 000113-271a39a94371
 
@@ -666,7 +666,7 @@ The foghorn seemed to move around us because the sound reflected off the harbor 
 
 ## 000113-1b5a954b022f
 
-I bought the secondhand desk after the seller confirmed that its legs came off. My friend brought a set of spanners. The collection passed in a blur, and the journey home became a hazy stream of moments. We reassembled it in the spare room and checked that the drawers opened freely.
+The seller said the desk's legs came off, so my friend brought spanners. The collection passed in a blur. We laid the desktop on a blanket in the van and took the legs in a separate box. Back home, we reassembled it in the spare room and checked that the drawers opened freely.
 
 ## 000113-70b390818401
 
@@ -678,11 +678,11 @@ We met at the sports hall to put the donated bicycles in order of size. I brough
 
 ## 000113-84b9f9729b85
 
-The year we waited for the appeal felt stalled, but our daughter outgrew two pairs of shoes. Each letter required another photograph, and the photographs made the delay visible. By the final one, she could sit upright without my hand behind her. The officer compared it with the first and smiled.
+The year we waited for the appeal felt stalled, but our daughter outgrew two pairs of shoes. Each request for another photograph made me take her out to the same patch of wall. In the first picture, my hand steadies her shoulder. In the last, she stands alone, pulling her coat straight while I ask her to look at the camera.
 
 ## 000113-a1351546a954
 
-The hotel owner agreed to keep our bags until the evening bus. We left them behind the desk and took only our coats. Our final afternoon blurred into a patchwork of doing things. We visited the market, bought cheese for the journey, and returned to collect the bags before five.
+We bought cheese for the journey and left it with our bags behind the hotel desk. There were still three hours before the bus. Our final afternoon melted into a blur, and we returned at five to find the owner wrapping the cheese in newspaper. "For the heat," he said, adding another sheet.
 
 ## 000113-f1262a679de6
 
@@ -698,11 +698,11 @@ The laundrette's front window clouded from the bottom upward as the dryers fille
 
 ## 000113-5a2686003195
 
-The bandleader moved me to the end of the row so I could see his hand signals. I put my music on a higher stand. The rehearsal disappeared in a nonspecific rush. We repeated the difficult ending until everyone stopped together, then carried the percussion boxes back into the storeroom.
+From the end of the brass row, I could finally see the conductor's hand above the music stands. We repeated the difficult ending until every instrument stopped together. Rehearsal vanished in a rush of sound and movement before we packed up. The percussionist asked me to hold the stage door while she rolled the timpani into the corridor.
 
 ## 000113-85403b519483
 
-By August, the daily calls had become one long conversation interrupted by sleep. We no longer explained where we had left off. She would answer with the name of another flat, and I would open the rental map. The rhythm ended when she called from a hallway and said, "This one."
+By August, our calls had become one long conversation interrupted by sleep. "The one above the bakery?" "Taken." "The basement?" "Still damp." Some evenings she fell asleep with the rental map open and I could hear her breathing through the phone. Then she called from an empty hallway. "Listen," she said, and let her footsteps echo.
 
 ## 000113-1846a8353fd8
 
@@ -738,7 +738,7 @@ On the first day, I could distinguish every smell in the fish factory. By the th
 
 ## 000113-5b0cc041d8a8
 
-"We'll need another shelf," I said, looking at the boxes of stock beside the shop counter. Nina measured the wall and wrote down the length. The fitting passed in an airy swirl of activity. We fixed the brackets, leveled the board, and put the lightest boxes along its upper edge.
+"We'll need another shelf," I said, looking at the boxes of stock beside the shop counter. Nina measured the wall and wrote down the length. The fitting passed in an airy swirl of activity. We fixed the brackets, leveled the board, and placed the lightest boxes on top of it.
 
 ## 000113-8ae7f0c5e61a
 
@@ -762,7 +762,7 @@ Every Friday that spring, I added one bar to the tune my father could remember. 
 
 ## 000113-1d78629fddf7
 
-The receptionist gave me a locker key and pointed toward the changing room. I had come for the beginners' exercise session. The hour faded into a gauzy assortment of moments. We used elastic bands and practiced standing from chairs. Afterward, I returned the key and booked a place for next week.
+The locker key had a rubber bracelet attached, too loose to stay above my wrist. I wore it through the beginners' exercise class, moving it aside whenever we gripped the elastic bands. The hour passed in a haze of activity. At reception afterward, I returned the key and booked the same session for next week.
 
 ## 000113-8c728a7a0b3d
 
@@ -794,7 +794,7 @@ In the crowded kitchen, I watched Mum's mouth move without hearing her words. Th
 
 ## 000113-88fd85f2a9fd
 
-We met the surveyor outside the house and showed him where the crack widened near the upstairs window. He unpacked a measuring tool. The inspection blurred into an unfixed sequence. He checked the walls and floor levels, then promised a written report. I locked the house after he left.
+The surveyor placed a ruler across the crack below the upstairs window and asked me to hold the other end. Later he checked the floor levels and promised a report by Friday. The inspection had blurred past by the time I locked up. His ruler had left a clean line in the dust on the sill.
 
 ## 000113-da3920baae5c
 
@@ -802,7 +802,7 @@ For seven years, Christmas meant the same journey: train to my mother's, bus to 
 
 ## 000113-0b94e232fc53
 
-The local paper wanted a photograph of the new bench, so we arranged to meet the reporter after breakfast. I brought a cloth to dry the seat. The occasion passed in a nebulous flutter. She photographed the volunteers, checked the spelling of their names, and asked who had donated the timber.
+The reporter asked us to stand closer together behind the new bench. I folded the cloth I had used to dry it and held it behind my back. The occasion became a whirl, carrying us through the photographs and questions. Before she left, she read our names back from her notebook.
 
 ## 000113-e66207c6bd8f
 
@@ -818,7 +818,7 @@ For the hour after waking, every object carried the wrong name. I asked my husba
 
 ## 000113-204498a8b324
 
-We had reserved the tennis court for an hour, and Maya borrowed rackets from reception. I bought a tube of balls from the machine. The game became a cloudy ribbon of experience. We practiced serving from the near end, then collected the balls and returned the rackets before the next booking.
+Maya returned the borrowed rackets while I gathered the balls. We had spent most of our court booking practicing serves from the near end. The game had raced past in a blur. At the ball machine, I found the empty tube where I had left it and pressed the lid back on with my thumb.
 
 ## 000113-a21d09d268e7
 
@@ -826,7 +826,7 @@ The lorries along the bypass were a continuous ribbon of light from our hill. Up
 
 ## 000113-6f33f699f58f
 
-The paint shop mixed the color from a flake I had brought in an envelope. I watched the assistant seal the tin. The remainder of the errand swirled past without definition. I bought a roller and masking tape, paid at the counter, and carried everything to the car in two trips.
+The assistant held a dab of paint beside the flake I had brought in an envelope. "It'll dry a little darker," she said. The rest of the errand swept by in a blur before I carried the tin, roller, and tape out to the car. The envelope was still open on the passenger seat.
 
 ## 000113-778f7bf93f19
 
@@ -842,7 +842,7 @@ The hail turned the conservatory roof into a white sheet. Through it, the oak br
 
 ## 000113-ece4e4d041f9
 
-I went to the station office to reclaim the umbrella I had left on Tuesday's train. The clerk asked me to describe its handle. The collection passed as a haze of minor experiences. He checked the tag and asked for a signature. Outside, I opened it to make sure it was mine.
+My umbrella had a duck carved into the handle. Once I described it, the station clerk reached behind the door and brought it out with its lost-property tag attached. The collection drifted by in a haze until I was outside again. I opened the umbrella and found the bent rib I had meant to repair.
 
 ## 000113-2a4046167b64
 
@@ -866,7 +866,7 @@ The cinema screen became a haze when I looked through the upper part of my new l
 
 ## 000113-22cfdccb590f
 
-The estate agent met us outside the flat and warned that the power was switched off. I used my phone light in the hallway. The viewing drifted along as a featureless montage. We measured the bedroom and checked the cupboards, then asked her to send the lease terms by email.
+With the power off, we used my phone to inspect the flat's cupboards. The estate agent held the bedroom end of our tape measure and asked when our present lease expired. The viewing carried us along in a blur, ending with a promise to email the terms. On the stairs, my partner asked for the measurements.
 
 ## 000113-96dfce9b4548
 
@@ -914,7 +914,7 @@ The minutes after the injection slid out of sequence. I remember the nurse remov
 
 ## 000113-a3220e529fcb
 
-The club had enough money for new curtains if we fitted them ourselves. I measured the windows while Janet checked the fabric width. The work became a smoky succession of moments. We stitched the hems, threaded the hooks, and hung each curtain before moving the chairs back into their rows.
+Janet had measured the curtain fabric twice before we cut it. The club could afford the cloth if we did the fitting ourselves. The work rolled past in a blur until the curtains were hanging and the chairs back in rows. She walked to the far end of the hall to see whether both hems cleared the floor.
 
 ## 000113-75640506978e
 
@@ -922,7 +922,7 @@ In the corridor, applause from the auditorium arrived as a soft rushing sound. I
 
 ## 000113-df2dfeaca407
 
-We put the borrowed gazebo up beside the bowling green and weighted its feet with paving slabs. The afternoon became a racing collage with nothing distinct about it. I served lemonade while my husband kept score. When the last game finished, we folded the tables and carried the slabs back.
+We weighted the gazebo with paving slabs borrowed from behind the clubhouse. My husband kept score while I served lemonade at the folding table. The afternoon raced by in a blur. After the last game, he carried the slabs back one at a time, leaving dark squares in the flattened grass.
 
 ## 000113-0375af5d04a8
 
@@ -930,7 +930,7 @@ Dad repaired the garden wall one row each evening. The first row sat below the g
 
 ## 000113-a201186a10d6
 
-The receptionist found our reservation under my partner's surname and handed us two room keys. We left our bags upstairs. The evening slipped through a mist of things happening. We ate at the restaurant opposite and bought toothpaste from the late shop before returning to set the alarm for our early train.
+Our reservation was under my partner's surname. The receptionist found it and gave us two keys, one of which we left upstairs with the bags. A blur of activity carried us through the evening and back to the room. There we unpacked the toothpaste we had bought at the late shop and set the alarm for the early train.
 
 ## 000113-86cafb1e46f1
 
@@ -950,11 +950,11 @@ The council lent our street a litter-picking kit for the weekend. I signed for t
 
 ## 000113-886371bd6a50
 
-At speed, the striped wallpaper in the passing train blended into grey. When it stopped beside ours, each blue line separated again. A woman in the opposite carriage looked up from her book. We were close enough to read each other's pages, but neither of us could hear the other's announcement.
+The blue stripe along the passing train's silver side smeared across our window. As it slowed beside us, the carriage doors and separate windows came into view. A woman in the opposite carriage looked up from her book. We could see each other through the two panes, but when her lips moved I heard only the announcement inside our own train.
 
 ## 000113-0e6b5e4ad644
 
-I took the repaired amplifier to the hall so the band could test it before rehearsal. The caretaker unlocked the cupboard for a cable. Testing dissolved into a blur, and rehearsal followed in a shapeless haze. We checked every input and played the opening number before adjusting the singer's microphone.
+I took the repaired amplifier to the hall before rehearsal. The caretaker found a cable, and we tested each input before the band arrived. Rehearsal followed in a haze of activity. We played the opening number, adjusted the singer's microphone, and marked the new setting with tape.
 
 ## 000113-c769198b3b45
 

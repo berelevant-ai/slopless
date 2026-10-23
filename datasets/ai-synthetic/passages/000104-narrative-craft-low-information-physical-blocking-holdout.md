@@ -2,7 +2,7 @@
 
 ## 000104-f3f667e2c840
 
-The payroll file still showed Denise as a contractor, although she'd joined the staff in March. Martin moved around beside his desk, then stood there for a moment. He turned toward me and then toward Denise. "We'll have to correct the last three months," he said. Denise had already brought the payslips. Each one listed the pension deduction that had never reached her account.
+"Show him March," Denise said. I laid the payslip across Martin's keyboard, covering the form that still classified her as a contractor. He moved from one side of his desk to the other while I explained the deduction. April and May showed it too. "These will all need correcting." Denise kept her coat on. She wanted the name of the person who would trace the pension payments before she left.
 
 ## 000104-656abbe1bcef
 
@@ -40,7 +40,7 @@ The incident report said, "The customer stood around near the exit." At the hear
 
 ## 000104-d9e1aed55075
 
-Our room at the hostel had been given to a cycling group. The receptionist offered us a mattress in the laundry for half price. We stood by the desk for a while, then wandered around the reception area. Eventually she mentioned a guesthouse belonging to her cousin. Its price increased twice during the phone call.
+By midnight the hostel laundry held three mattresses and the bags we had carried out of the flooded campsite. Someone had hung socks over the hot-water pipes. We wandered around reception for a while before returning downstairs. The receptionist brought another blanket, still warm from the dryer. Upstairs, a cycling group was leaving early; she would give us their room when it was clean.
 
 ## 000104-0cd60e4db63f
 
@@ -78,7 +78,7 @@ Our town had three names for the same street. The council used Mill Road, the bu
 
 ## 000104-4eb6528b1f20
 
-By the time the caretaker arrived, the upstairs tenant had admitted leaving the bath running. "My insurance will cover it," she said. He walked a few paces across the lobby and then a few paces back. After that, he stood near us. "We'll need photographs first." Water had reached the light fitting in our hall. I asked him where we were supposed to sleep that night.
+Water gathers inside the hall light, a brown meniscus above the brass rim. The caretaker switches off our electricity at the meter. Then he takes a few steps across the lobby and back. Upstairs, the tenant is still saying her insurance will cover everything. I ask where we can sleep tonight. He gives me the emergency housing number from the noticeboard, but my phone is charging in the dark flat.
 
 ## 000104-ebad8dc6c8ff
 
@@ -110,7 +110,7 @@ I nodded once, the signal we'd agreed would mean the recording had started. Acro
 
 ## 000104-344347a52722
 
-My sister's wedding cake arrived with the wrong date written across it. The baker said the icing could be scraped off before lunch. We milled about in the kitchen for a bit. Under the icing was a second message, congratulating someone called Darren on his retirement from the fire service.
+We milled about in the kitchen while the icing set. My sister had asked for the flowers from our mother's wedding photograph, and the baker had copied even the crooked stem trailing down the bottom tier. I held the photograph beside the cake. There was Mum's thumb in the corner, where she had tried to keep the wind from lifting her veil. My sister asked whether we could put the photograph on the table too.
 
 ## 000104-7bed861f5199
 
@@ -150,7 +150,7 @@ I lay flat on the platform to look beneath the train. From standing height, the 
 
 ## 000104-6a844e3f8eb9
 
-The summerhouse key fitted the padlock on the rabbit hutch. This explained why neither key had worked where we expected. Mum breathed in and out and moved her head a little. We had spent the morning looking for a locksmith when what we needed was a different label on each key.
+"Try the other one," Mum said. The summerhouse key turned in the rabbit-hutch padlock; the key marked RABBITS opened the summerhouse. Mum shifted her feet while I worked through the ring. We had already left a message for a locksmith. I rang again to cancel, with the open padlock hanging from my finger and Mum dictating what I should say.
 
 ## 000104-9c2b47ab2022
 
@@ -194,7 +194,7 @@ The estate agent called the cupboard a home office. Its only electrical fitting 
 
 ## 000104-c1eeb4e355c8
 
-I had to breathe through my mouth while the dentist set the mold. The paste sealed my nostrils whenever I tried to lower my chin. Above the lamp was a faded picture of a beach. I counted its seven umbrellas until the nurse lifted the tray free of my teeth.
+With my nose blocked by a cold, I had to breathe through my mouth around the dentist's impression tray. The handle held my lips apart, and saliva gathered beneath my tongue. Above the lamp was a faded picture of a beach. I counted its seven umbrellas until the nurse lifted the tray free of my teeth and brought the suction tip back to the corner of my mouth.
 
 ## 000104-8a7ef69f9756
 
@@ -218,11 +218,15 @@ My brother had invited eleven people to dinner using a recipe that served four. 
 
 ## 000104-639cffbdcfbb
 
-I turned sideways to pass the freezer. The lid had warped open, narrowing the already cramped passage to the cellar stairs. Inside, the bags were soft and there was a sweet smell from the fish. The electricity must have failed before we left, not while we were away.
+I turned sideways to pass the freezer. The lid had warped open, narrowing the already cramped passage to the cellar stairs. Inside, the bags were soft and there was a sweet smell from the fish. The electricity must have failed.
 
 ## 000104-d079ac015f05
 
-The headteacher said the school play needed a donkey by Thursday. My job was to find one that could tolerate applause. Across the desk, she made a small movement with her shoulders and sat as before. I called the petting farm, which offered two goats and an inflatable reindeer.
+"A real donkey?"
+
+"The director feels strongly about it." Across the desk, the headteacher rolled one shoulder and shifted in her chair. "By Thursday, if possible."
+
+I had come to discuss the lighting budget. The donkey would have to tolerate applause, children and the narrow backstage passage. I wrote those requirements on the back of my estimate before calling the petting farm.
 
 ## 000104-c81466b3c71c
 
@@ -230,7 +234,7 @@ She waited outside the interview room while the other applicants went home. Her 
 
 ## 000104-9dfda2ab57a4
 
-For three years, our choir had paid rent to a caretaker who had retired before we joined. The hall committee discovered this when it changed banks. We all turned our heads this way and that. His receipts were beautifully stamped, and the account name differed from the hall's by one letter.
+The hall committee's new treasurer brought three years of bank statements to choir practice. None showed our rent. We had paid the former caretaker, whose receipts used the hall's crest and an account name differing by one letter. While the treasurer read out the account number, Alan shifted in his chair. He had collected our subscriptions each month. After rehearsal he stayed to help her copy every receipt, including the first one, which he had framed as a joke.
 
 ## 000104-3a40b5e710b0
 
@@ -254,7 +258,7 @@ The corridor seemed to hold its breath whenever my father's door opened. Even th
 
 ## 000104-0a196c3da2a3
 
-The printer produced thirty invitations with our address replaced by the account password. Fortunately, the envelopes were still empty. I got up, moved about beside the table, and sat down again. My daughter fixed the template while I changed the password to something less embarrassing than the dog's nickname.
+I got up, walked beside the table, and sat down again. Thirty invitations lay in the printer tray, each giving our account password where the address should have been. My daughter unplugged the printer before it could finish the batch. We counted the envelopes: all thirty were empty. She repaired the template while I changed the password, then we checked the next invitation together before printing the rest.
 
 ## 000104-21c786a72a2e
 
@@ -286,11 +290,11 @@ The witness said the man 'turned around several times.' I asked her to mark his 
 
 ## 000104-eb81bbe4ffb2
 
-Our lunch break ended with an announcement that the factory clocks had been seven minutes slow since Monday. Payroll wanted us to make up the time. We breathed and looked at each other. The union representative asked whether the morning start times would also be adjusted by seven minutes.
+Payroll wanted seven minutes back from every shift since Monday. The factory clocks had been slow, the supervisor told us over lunch, and the time would come off Friday's pay. Beside me, Ellis shifted his feet and looked around. Our union representative asked for the clock-maintenance log. If we had finished seven minutes late, she said, payroll would need to include that time in its calculation.
 
 ## 000104-08868823ed81
 
-He stood directly behind the goalpost, invisible to the penalty taker until he stepped left. We had practiced that trick all week. The ball struck his knee and rolled out for a corner. Afterward, the coach called it instinct, which annoyed him more than conceding a goal would have.
+Our goalkeeper crouched behind the defensive wall as they lined up for the free kick. From the kicker's angle, the four defenders hid his position. As the kicker began his run, he stepped left into the gap we had practiced leaving. The ball struck his knee and went behind for a corner. Afterward, the coach called it instinct. Our goalkeeper wanted the hours spent arranging that wall to count for something.
 
 ## 000104-a2f5ef739327
 
@@ -318,7 +322,7 @@ The only person who smiled during the dismissal hearing was the manager's assist
 
 ## 000104-2b1a770197d4
 
-The museum volunteer recognized the donated suitcase as her mother's. Inside were travel brochures her family had never seen. We stood and did a little looking around. One brochure advertised a ferry route to Norway, with a departure date circled three months before her mother married her father.
+The volunteer recognized the suitcase by a repair beside the handle. Her father had stitched it with fishing line before their holiday in Wales. She lifted the lining and found brochures for places her mother had never mentioned. Beside the sorting table, I shifted my weight and glanced around. The volunteer kept the Norway brochure open. Its circled departure date was three months before her parents' wedding, and someone had priced a cabin for two.
 
 ## 000104-5ec3da980fb6
 
@@ -334,11 +338,11 @@ The letter arrived every March, asking whether my late uncle wished to renew his
 
 ## 000104-3c952262240b
 
-The first tenant had painted around every piece of furniture, leaving pale rectangles on the walls. We recognized the outline of our own bookcase, bought from him last winter. Malik moved across the room without going anywhere in particular. The paint shop matched the blue from a chip behind the radiator.
+The bookcase left a pale rectangle when we pulled it away from the wall. Malik held our photograph of the room before we bought it: there was the same bookcase, belonging then to the previous tenant. He had painted around it. Malik paced across the room and back while I scraped a loose chip from behind the radiator. The paint shop could use that to match the blue.
 
 ## 000104-1fb318e06cb2
 
-She turned toward each speaker so her hearing aid could pick up the voice. When two people spoke at once, she lost the thread completely. I began writing their names on the whiteboard before they answered. By the end of the meeting, she was correcting figures the rest of us had missed.
+One voice at a time, please. She turns her hearing aid toward Ben, but Leah has already begun answering him. Both names go on the whiteboard. I point to Leah's name, and Ben stops. Now she can follow the figures. By the end of the meeting, she has found an error in the total that the rest of us copied from last month's report.
 
 ## 000104-cda2c8936ebd
 
@@ -358,7 +362,13 @@ I stood at the far end of the platform because the bicycle carriage always stopp
 
 ## 000104-394457690709
 
-The parcel contained a replacement kettle and a request to return the faulty one in the same box. The replacement was twice the size. I changed my position beside the counter. Customer services suggested finding another box, then emailed a label that required a printer we did not own.
+"Can you put the old kettle inside the replacement's box?" the customer-service agent asks.
+
+I hold the phone above the open box and try it. The old kettle's handle catches on the rim.
+
+"The lid won't go on."
+
+I shift from one foot to the other as she checks the returns instructions. Eventually she offers a collection without packaging. The old kettle stays on the counter for another week, its cable tied with the ribbon from the replacement.
 
 ## 000104-24de62f57fb0
 
@@ -386,7 +396,7 @@ The electrician explained that the switch marked PORCH controlled the loft light
 
 ## 000104-eee74a0a3809
 
-I knelt on the parcel to compress the blanket while Sam taped the seams. Without my weight, the cardboard sprang open before he could finish a side. We had packed it for his first winter away. In the gap by the address label, Mum slipped a photograph of the dog.
+The blanket swells through the parcel seams whenever I lift my knees. Sam catches the last corner with tape while I keep my weight on the cardboard. This is for my brother's first winter away: blanket, thick socks, the scarf he left behind. Mum slips a photograph of the dog through the gap beside the address label. Sam tapes over the gap without asking what she put there.
 
 ## 000104-c44fe2dd331b
 
@@ -398,7 +408,7 @@ The children shifted from foot to foot on the frozen playground, lifting each so
 
 ## 000104-32010f28d556
 
-The local paper reported that our bowls team had won the county final. We had lost in the first round. Stan glanced about and then resumed looking generally ahead. He suggested framing the article anyway, since it was the first time the paper had spelled all our names correctly.
+Stan read the article aloud, including the score from a county final we had never reached. Our bowls team had lost in the first round. He glanced around the clubhouse before folding the paper. "They've spelled everybody's name right," he said. I wrote the correction on a beer mat while he fetched the editor's number from the noticeboard. He wanted a copy of the article before we rang.
 
 ## 000104-2c1fcc8314dc
 
@@ -406,7 +416,7 @@ From the ladder, I could see that the stain stopped exactly at the chimney flash
 
 ## 000104-87bfe5ea6f66
 
-My daughter's music teacher returned the borrowed violin with a note praising her progress on the flute. We had wondered why her practice sounded unusual. I breathed once and moved a little. The teacher had mixed up two reports; the other child's parents were equally surprised by the mention of bowing.
+The violin came home with a report praising my daughter's breath control and progress on the flute. She put it beside her practice diary, where the teacher had written three reminders about bowing. I shifted in my chair while she read both pages aloud. We emailed photographs of them to the school. The teacher sent the correct report that evening, with an apology intended for both families.
 
 ## 000104-c4eda5a4c3d9
 
@@ -450,7 +460,7 @@ The charity walk's shortest route turned out to be longer than the longest route
 
 ## 000104-9c5d0f11523f
 
-The creek made a brown line across the snow. We followed it downhill because our footprints had vanished and the road crossed the water below the farm. Whenever the banks closed in, we climbed sideways through the brambles. At the culvert, we heard the milk truck before we could see its lights.
+"Follow the water. The road crosses it below the farm." My brother says this each time the creek disappears beneath the snow. At the narrow banks we climb sideways through brambles, keeping the brown water in sight between the roots. Our footprints on the ridge have already vanished. When we reach the culvert, the milk truck is grinding up the hill, its lights still hidden by the bend.
 
 ## 000104-05b95bc1a26e
 
@@ -518,15 +528,15 @@ The foreman made us stand clear of the cable's line before the winch started. If
 
 ## 000104-3c51887dd237
 
-The school sent a message saying my son had been absent, although he had telephoned me from the science lab at lunch. The attendance clerk checked the register. I walked about a bit where I was. His name had been entered under the class he left the previous September.
+The attendance clerk read my son's name back to me over the telephone. He had called from the science lab at lunch; the school's message said he had missed the entire day. I walked up and down the kitchen while she opened another register. His name was still listed under the class he had left in September. She promised to correct it before the next automated message went out.
 
 ## 000104-fd4196f64515
 
-He turned his chair until the broken arm faced the wall. His daughter would inspect the room when she visited, and he did not want her buying replacements again. The chair had belonged to her mother. Beneath its cushion, the fabric still held the sharp lavender smell of her wardrobe sachets.
+From the doorway, his daughter saw only the chair's good arm. He had turned the broken one toward the wall before she arrived. She put the shopping beside him and asked about the garden instead. Later, reaching beneath the cushion for his glasses, she caught the lavender smell of her mother's wardrobe sachets. She left the furniture catalogue in her bag.
 
 ## 000104-d943dd8a13ba
 
-The ferry company offered a refund for our canceled crossing, but only to the person who had originally booked it. That person was now in prison. My cousin shifted loosely beside me. We wrote to the company's complaints office, enclosing the booking confirmation and a newspaper cutting about the trial.
+The refund had to go to the person who booked the ferry. My cousin gave the clerk his brother's name, then explained that his brother was in prison and could receive letters only through the governor's office. My cousin shifted his weight beside me as the clerk checked the policy. She gave us a postal address for the claim. We would need his brother's signature, which meant sending the form to the prison first.
 
 ## 000104-0d353d1f69ec
 
@@ -546,7 +556,7 @@ The parish raffle's winning ticket belonged to the woman who had donated the pri
 
 ## 000104-2dec2d2475a6
 
-We waited while the new paint dried because the nursery window opened inward. Closing it too soon would have sealed the frame. The baby slept downstairs in a laundry basket, beside the chair where my wife was feeding him. By midnight, the paint was dry enough and he had outgrown the basket.
+We left the nursery window open while the fresh paint dried; the last time, its painted edges had stuck to the frame. Downstairs, my wife fed the baby in the armchair, then settled him in the laundry basket beside her. His feet pressed against one end. By midnight we could close the window, but we kept his cot in our room and carried him upstairs without waking him.
 
 ## 000104-22c7abed3f9c
 
@@ -594,7 +604,7 @@ The recycling crew left our bin because someone had filled it with garden soil. 
 
 ## 000104-b36845286860
 
-My father blinked hard after the flash, and the photographer waited for his pupils to settle before trying again. His artificial eye stayed fixed on the lens. In every earlier family photograph, the flash had made him seem to be looking in two directions. This time, we used the window light.
+My father followed the photographer's raised hand with his gaze, keeping his head turned toward me. His artificial eye moved less freely than his other eye, and the first picture made them appear to be looking in different directions. She came beside the lens and asked him to face her squarely. In the next picture his gaze looked straight. He chose that one for the grandchildren.
 
 ## 000104-e1964db9b5c5
 
@@ -614,7 +624,7 @@ I inherited my grandmother's collection of birthday cards, all filed by year rat
 
 ## 000104-2b8b5c82ea4b
 
-The house sitter had watered the silk fern every morning. By the time we returned, the pot had overflowed into a box of tax records. She moved her body a little beside the sofa. We reassured her about the fern, then spent Sunday separating receipts with sheets of kitchen paper.
+Water had run from the silk fern's pot into our box of tax records. The house sitter showed us the little jug she had used each morning. While my husband carried the box to the kitchen, she shifted her feet beside the sofa. I told her which plants were artificial, something we should have done before leaving. On Sunday we separated the receipts and copied every total still legible beneath the stains.
 
 ## 000104-1b13910175c0
 
@@ -622,7 +632,7 @@ He nodded only after his father left the room. Until then, he had refused every 
 
 ## 000104-21f01a5ed697
 
-Our dog walker sent a photograph of a terrier that was not ours. She had collected him from the house next door, whose owner thought we had arranged it. I shifted my attention around the room. By the time we untangled the mistake, both dogs had enjoyed two walks and extra biscuits.
+I was at my desk when the dog walker's photograph arrived. The terrier on the screen belonged next door; ours was a greyhound. I swivelled a little in my chair and looked around the study. On the phone, she explained that our neighbor had handed over the lead, assuming we had arranged a walk for him too. I gave her our door number again and asked her to send a photograph when she reached it.
 
 ## 000104-8c4f8eed88b5
 
@@ -638,7 +648,7 @@ I waited until the kitchen clock clicked before speaking again. My mother could 
 
 ## 000104-5b47339991f3
 
-The electrician's invoice included three hours at an address we had never lived in. He said the billing system sometimes joined neighboring jobs. My wife gave a small nod while looking generally about. He removed the charge, then asked whether we still wanted the outdoor socket discussed on his previous visit.
+My wife read the unfamiliar address from the electrician's invoice. He found the neighboring job in his billing system and deleted three hours from our charge. She nodded and glanced around the kitchen while he printed the new total. Before leaving, he asked about the outdoor socket we had discussed. She took him into the garden to show him where the freezer would stand.
 
 ## 000104-38f12892d505
 
@@ -650,7 +660,7 @@ At the hardware shop, the assistant assured me the shelf brackets came in pairs.
 
 ## 000104-6432945ea111
 
-She looked from the moving car to the gap in the hedge. Through that gap, she could see the school crossing, where her son was waiting alone. The driver had missed his turn. She told him to stop at the next gate and climbed over the low wall in her office shoes.
+From the back seat of the moving car, she caught sight of the school crossing through a gap in the hedge. Her son was waiting there alone. The driver had missed the turn and was carrying her farther from him. She asked him to stop at the next gate, then climbed over the low wall in her office shoes.
 
 ## 000104-57dc38e95cbc
 
@@ -698,7 +708,7 @@ Our allotment notice said all unused plots would be reassigned, including ours. 
 
 ## 000104-0cdeed444ab6
 
-I turned the photograph toward the window because the silvered surface showed almost nothing under the ceiling light. At an angle, my aunt's face emerged beside a man I did not recognize. On his sleeve was the same laundry mark sewn into the coat we had found in her attic.
+Under the ceiling light, the photograph was a silver patch with two dark coats beneath it. I tipped it toward the window. My aunt's face appeared first, then the man beside her. A laundry mark showed on his sleeve. I carried the photograph upstairs and laid it beside the coat from her attic, turning back the cuff until the same stitched letters faced the light.
 
 ## 000104-e7d584161c07
 
@@ -726,7 +736,7 @@ We waited at the field entrance because the ewe recognized my sister and would f
 
 ## 000104-706563348971
 
-Our first aid instructor asked us to imagine an unconscious casualty. The training dummy had been sent to another course. The participants looked toward one another and then around the room. We practiced the recovery position on folded coats until a volunteer offered to lie on the cleanest section of carpet.
+The training dummy had gone to another course. Our first aid instructor asked for a volunteer, and several participants shifted in their seats and looked around. Then Ruth lay on the carpet. We spread our coats beneath her as padding and took turns practicing the recovery position. She told each of us when we pulled too hard on her bent knee. By the break, everyone knew her name.
 
 ## 000104-3d9b6cab7473
 
@@ -734,7 +744,7 @@ My cousin inherited the caravan and all six outstanding installments. The solici
 
 ## 000104-a78e6b61bf05
 
-The dry cleaner had sewn my husband's name into my winter coat. His coat now carried my name, though neither had needed a label. I adjusted myself a little while standing. The assistant explained that a school uniform order had occupied the same workbench and offered to remove both labels.
+My husband's name was sewn inside my winter coat. His coat carried mine. At the dry cleaner's counter, I shifted my weight while the assistant unpicked the first label. A school uniform order had occupied the same workbench, she explained. She checked our collection ticket against both coats before handing them back, and I checked the pockets for the gloves I had left in mine.
 
 ## 000104-2c9cfe439996
 
@@ -750,7 +760,7 @@ I moved around the sleeping passengers, placing my feet where the bus aisle was 
 
 ## 000104-d670f1440a66
 
-The community center had installed a donation box with no opening. The supplier called it a display sample and asked us to post it back. Our treasurer turned slightly and remained there. A local metalworker cut a slot into the top, which cost less than returning the box would have.
+The donation box had a lock, two keys and no opening for money. Our treasurer turned in his chair while I read the supplier's email aloud. We had been sent a display sample; returning it would cost more than the box. A local metalworker offered to cut a slot. By Saturday it stood beside the community center's entrance, with the return label still folded underneath.
 
 ## 000104-78fa9b22ad48
 
@@ -762,7 +772,7 @@ The council had renamed our street, but the ambulance navigation system still us
 
 ## 000104-5bd3825a462e
 
-I kept breathing into the bag to show my son how slowly he could do it. He copied the rise and fall until the tight whistle in his throat eased. The paramedic stayed on the telephone, asking me to count with him. Outside, the first blue light washed over the curtains.
+I sat on the floor where my son could see my face and made each breath slow enough for him to copy. Between sobs, he tried to match me. His injured arm stayed pressed against his chest. The ambulance dispatcher was still on speakerphone, asking which gate the crew should use. I answered without getting up. When blue light reached the curtains, he asked whether I could ride with him.
 
 ## 000104-b6b70d246968
 
@@ -790,7 +800,7 @@ I looked at the ceiling each time a train passed. The crack opened just enough t
 
 ## 000104-0efd3da11a84
 
-The caterer arrived with fifty vegetarian meals and no cutlery. She thought the venue supplied it; the venue thought she did. Our organizer stood nearby and swayed a little from one position to another. We borrowed spoons from the nursery next door and served the casserole in smaller bowls.
+Fifty bowls of casserole were cooling on the serving table. The caterer thought the venue supplied cutlery; the venue manager had gone home. Our organizer rocked on her heels while we counted the nursery's spare spoons. There were thirty-two. We served the children first and washed their spoons for the adults. At the end, the organizer drove the borrowed bowls back, still wearing the apron she had put on at noon.
 
 ## 000104-ce7f50007d4d
 
@@ -802,7 +812,7 @@ The gas inspector found that our meter number belonged to the bakery downstairs.
 
 ## 000104-4701d0d72401
 
-She stood on the lower step so the nurse could fasten the necklace without bending. Arthritis had left the nurse unable to manage the tiny clasp at an awkward angle. Once it closed, my grandmother touched the pendant through her blouse. She wanted it beneath her clothes before the hospital transport arrived.
+The nurse sat on the third stair, her arthritic knees making it painful to crouch. My grandmother sat on the bottom step with her back to the nurse, bringing the necklace clasp level with the nurse's hands. Once it closed, she tucked the pendant beneath her blouse. The hospital transport was due, and she wanted the necklace against her skin before she put on her coat.
 
 ## 000104-331d531d962e
 
@@ -814,7 +824,7 @@ When we emptied the flat, we found every letter I had sent my brother during his
 
 ## 000104-c51e9d69ad2d
 
-The vet's reminder named our rabbit as a miniature pony. I telephoned because the suggested appointment involved a mobile stable. The receptionist smiled briefly when we arrived. She corrected the species and the weight, then discovered that the pony had been receiving reminders to attend the small animal clinic.
+The reminder offered a home visit for our rabbit's annual pony vaccination. I rang the veterinary practice, then brought the letter when we collected his usual medicine. The receptionist smiled as she opened his record. His species and weight belonged to a miniature pony at a farm outside town. She corrected both fields and checked the medicine label before handing over the bag.
 
 ## 000104-a516a8a0df61
 
@@ -838,7 +848,11 @@ We walked backward down the slope, dragging the tarpaulin between us. Facing uph
 
 ## 000104-f9f32f9794eb
 
-The language tutor had prepared a beginner's lesson for students who had been studying together for six years. Our usual teacher had sent the wrong class list. She paused to stand there for a little while. Then she abandoned the worksheets and asked us to describe our worst holiday in the language.
+"Six years?" The tutor set down her beginner worksheets. Our usual teacher had sent the wrong class list.
+
+She stood beside the table and shifted her feet.
+
+Then she asked us, in the language we had been studying, to describe our worst holiday. Paolo began with a ferry strike. By the time he reached the missing luggage, she had filled the board with words none of us knew.
 
 ## 000104-f0542f3be554
 
@@ -854,7 +868,7 @@ I smiled because my brother needed to see a familiar expression before they whee
 
 ## 000104-266185c9b5ba
 
-The school bus had delivered our children to the old sports ground. The tournament had moved, but the transport booking had not. The teacher breathed in, breathed out, and looked generally around. Parents with cars collected the team in batches, arriving just in time to watch the first match end.
+At the old sports ground, the teacher counted the children again. All twelve were present; the tournament was across town. He had read the new venue on the fixture list, but the bus booking still named this one. He shifted his weight and glanced around while the captain called her mother. Cars began arriving ten minutes later. They reached the tournament as the first match ended and went straight into the second.
 
 ## 000104-f3519d5fbf8c
 
@@ -862,7 +876,7 @@ She waited with one hand on the lift door because the delivery trolley was still
 
 ## 000104-dd167899da44
 
-The pet shop's bag of aquarium gravel contained a single cufflink. Its engraved initials matched those on the receipt tucked beneath the till. The owner moved slightly beside the shelves. He had lost it while packing the gravel for a customer, whose wedding anniversary was engraved on the matching one.
+The aquarium gravel contained a silver cufflink. At the pet shop, its owner shifted beside the shelves while I tipped it onto the counter. He fetched the matching cufflink from his desk drawer. Both carried his initials and wedding date. He had lost one while filling bags of gravel the previous week; his wife had made him keep the other until they had searched the stockroom.
 
 ## 000104-d872cbb25e15
 
@@ -902,7 +916,7 @@ The shift supervisor moved my workstation beside the window after I began confus
 
 ## 000104-7526300d6b57
 
-Our rowing club's new banner thanked a sponsor who had withdrawn before the season began. The replacement sponsor had paid for the banner itself. The secretary made a few little turns where she sat. We covered the old name with a strip of white sailcloth and painted the correct one overnight.
+The banner lay across two rowing machines, thanking last season's sponsor in letters a foot high. This season's sponsor had paid for it. Our secretary swivelled in her chair while the printer checked the approved artwork. We had approved the old file. That evening we stitched white sailcloth over the name and painted the new one, leaving the banner stretched across the machines until morning.
 
 ## 000104-b9984c64e550
 
@@ -922,7 +936,7 @@ The allotment association had awarded our plot second prize using a photograph f
 
 ## 000104-33a260f03188
 
-The dancer kept turning toward the mirror to check whether her injured shoulder had risen above the other. When it did, she stopped and reset the movement. From the piano, I could see the correction become smaller each time. At the end of the hour, she completed the sequence without using the mirror.
+From the piano I watch her injured shoulder creep upward. She catches it in the mirror, stops, and begins the phrase again. My left hand keeps the count while she lowers the shoulder. On the fifth attempt she reaches the turn without checking her reflection. I play through to the end, and she asks for the same tempo once more.
 
 ## 000104-2144998e85db
 
@@ -930,7 +944,7 @@ The warranty company accepted the claim but wanted a photograph of the broken ov
 
 ## 000104-85d24b4ef2cd
 
-The station clock had lost its minute hand, leaving every departure apparently at half past. The replacement arrived in a wooden crate older than the clock itself. Our stationmaster kept the damaged hand in his office, where it served as a ruler and occasionally as a pointer during arguments about timetables.
+The station clock's minute hand had slipped on its spindle and hung pointing at six, making every departure appear to be at half past. The replacement arrived in a wooden crate older than the clock itself. Our stationmaster kept the damaged hand in his office, where it served as a ruler and occasionally as a pointer during arguments about timetables.
 
 ## 000104-adeb80a81f45
 
@@ -958,7 +972,7 @@ I watched his breathing rather than the clock. Each pause grew long enough for m
 
 ## 000104-0dae6b2c8d78
 
-The sewing class received fabric printed with the pattern pieces already cut apart by the supplier. Half the joining marks were missing. We nodded a bit and turned in our seats. Our tutor borrowed an intact sheet from the advanced class and spent the first lesson helping us reconstruct the layout.
+Our sewing kits contained paper patterns already cut into separate pieces. Whoever had trimmed them had cut away several numbered tabs and joining marks. We shifted in our seats while the tutor compared two sleeves. She borrowed an uncut pattern sheet from the advanced class. For the rest of the lesson, we matched our pieces to it and copied the missing marks before touching the fabric.
 
 ## 000104-bf00cc414af0
 

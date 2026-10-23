@@ -2,7 +2,7 @@
 
 ## 000091-d84de768772a
 
-At nine, Marta called us into the meeting room and explained that the warehouse would close in June, and tension settled over the room. I wrote the date on the back of my delivery sheet, though it was already printed on the handout. We still had three routes to finish that morning, and someone asked whether we should take the vans.
+Three delivery routes remained on Marta's sheet when she called everyone into the meeting room. The warehouse would close in June. Had the drivers understood? Someone asked whether they should still take the vans out. Marta repeated the date, and tension settled over the room.
 
 ## 000091-3d7293bbc61b
 
@@ -14,7 +14,7 @@ The conductor checked our tickets twice before the border. On his second visit h
 
 ## 000091-33907a174d3f
 
-"I thought you were collecting him," Daniel said. His sister checked the message again. It said Friday, just as she remembered, but neither of them had noticed that their father meant the previous week. A heavy silence gathered around them. She found the number for the care home while Daniel put on his shoes and searched for his car keys.
+"I thought you were collecting him for the appointment," Daniel said. His sister checked their father's message: Friday, but the previous Friday. He had taken a taxi from the care home after waiting an hour, and the fare had only now appeared on his monthly bill. A heavy silence gathered around them. She found the home's number while Daniel searched his phone for the message he thought he had sent.
 
 ## 000091-3bcc5cd9275a
 
@@ -90,7 +90,7 @@ The stillness of the pond made the submerged fence visible all the way to its br
 
 ## 000091-19702dd372de
 
-We had enough flour for twelve loaves if nobody ordered rolls. I changed the board outside while Tess rang our supplier for a delivery time. A brittle unease inhabited the bakery. At seven, the first customer asked for the seeded bread we had already crossed off.
+With a brittle unease hanging over the bakery, Tess kept the supplier on speakerphone while I rubbed the seeded loaf off the pavement board. Twelve plain loaves: that was all the flour would stretch to, unless the delivery arrived before the rolls went into the mixer.
 
 ## 000091-a0c591804d92
 
@@ -114,7 +114,7 @@ My aunt's silence was permission to continue. Whenever I got a date wrong, she i
 
 ## 000091-b6b2a4e502d3
 
-At the reunion, someone asked whether the factory photograph included the men from the night shift. My uncle said it didn't and reached for the album. A vague heaviness settled among us. The photograph had been taken on a Sunday, when only the office staff were there.
+The reunion album called the photograph "Our whole workforce." My uncle, who had spent thirty years on nights, asked where his shift was. The picture had been taken on a Sunday, someone explained, when only the office staff were there. A vague heaviness settled among us. He turned back to the cover to check whether the album really was meant to be the factory's official history.
 
 ## 000091-41b255b8543b
 
@@ -134,11 +134,11 @@ The cinema manager agreed to show the missing reel after the credits. Half the a
 
 ## 000091-bd95eb57b03f
 
-The complaint used the phrase "resentment saturated the department." I asked the investigator whether that was an employee's quotation or her own summary. She checked her notebook and found it under the interview with the payroll clerk. We moved the phrase into the attributed section.
+The payroll clerk returned my draft with one sentence circled: "resentment saturated the department." Beside it she had written, "These were my words about my own team. Please put my name against them." I restored the attribution before sending the complaint to the investigator.
 
 ## 000091-7cdb1ef55521
 
-Dad's old fishing partner came to collect the rods. He brought a photograph of them holding a fish neither man had caught; apparently they had borrowed it from the next boat. Sorrow lingered in the doorway. Mum asked him to stay long enough to write the story on the back.
+Sorrow lingered in the doorway while Dad's fishing partner struggled to get the rod case through it. Under his arm was a photograph of the two men holding an enormous fish. Neither had caught it; they had borrowed it from the next boat. Mum fetched a pen. Before he took anything away, she wanted that story on the back.
 
 ## 000091-76cb320824c5
 
@@ -178,7 +178,9 @@ The new owners wanted the mural painted over before Monday's opening. We had spe
 
 ## 000091-6d8fbd7fb266
 
-There were only six of us at the first class, including the tutor's husband. We pushed two tables together and shared the charcoal. A feeling of possibility filled the studio. My first drawing was mostly the underside of the model's shoe because I had chosen the lowest chair.
+Six students, if we counted the tutor's husband, and one box of charcoal between us. We pushed the tables together.
+
+From my low chair I could see mostly the underside of the model's shoe, but a feeling of possibility filled the studio. I began with the heel.
 
 ## 000091-2bd265cda498
 
@@ -206,7 +208,7 @@ The coach read the names slowly, stopping to ask how one surname was pronounced.
 
 ## 000091-3d935901c8fd
 
-The report recorded "a silence heavy with accusation" after the alarm sounded. On the camera footage, that interval lasted eleven seconds while the guard listened to his radio. I added the timing to the incident chronology and retained the report's phrase in the witness's original statement.
+At 14:06:12 the guard raised his radio; eleven seconds later he lowered it and opened the gate. I watched the sequence three times before entering the interval in the chronology. The witness's phrase, "a silence heavy with accusation," stayed in her signed statement, on the facing page.
 
 ## 000091-b79c05546dc0
 
@@ -242,7 +244,7 @@ His silence carried the answer to my question. The mechanic had always whistled 
 
 ## 000091-8eadda406543
 
-The trip was still listed on the board, although the driver had gone to ask about the flooded road. We could see our bags through the coach window. Anxiety eddied beneath the shelter. An elderly couple shared an orange, carefully putting the peel into a folded newspaper.
+From the shelter, Vera could see her suitcase through the coach window and the destination still glowing above the windscreen. The driver had gone to inspect the flooded road; nobody could say whether they should unload. Beside her, a couple divided an orange over a newspaper, and anxiety hung beneath the shelter.
 
 ## 000091-ca498a9b7ad7
 
@@ -290,7 +292,7 @@ The tension between the brothers showed in their greetings: one offered his hand
 
 ## 000091-afadf84f48c6
 
-Our first offer was rejected before lunch. The agent said the seller wanted someone who could move immediately, although the house had been empty for months. Defeat clouded the car. On the way back, we stopped to measure the bedroom in a flat above the chemist.
+On the drive back from the rejected offer, with defeat clouding the car, we argued about whether "ready to move" meant tomorrow or merely this year. Then the flat above the chemist came into view, its bedroom window still displaying the agent's board, and we stopped to ask for another look.
 
 ## 000091-9b0721067734
 
@@ -302,7 +304,7 @@ They opened the new footbridge a month before the lamps were fitted. We crossed 
 
 ## 000091-03dad5a8a27d
 
-The letter described "dread hanging over every lesson." During the appeal, the parent confirmed that these were her son's words from his diary. She had copied the entry because he was too upset to attend. The panel asked to see the pages before and after it as well.
+I enclosed the diary pages with my appeal, including the entry that said "dread hanging over every lesson." At the hearing they asked why the handwriting changed halfway down. My son had dictated the rest to me after his hand began shaking. They asked for the original notebook, so I took it from the bag under my chair.
 
 ## 000091-db83fa443cdc
 
@@ -354,7 +356,7 @@ The quiet behind the supermarket was different from the street outside: refriger
 
 ## 000091-bc48c8f7bded
 
-We each wrote a suggested name for the kitten and put the slips in a mug. My youngest had written the same name on four slips. Amusement rippled through the kitchen. The kitten slept through the vote, stretched across the newspaper on which we had listed the candidates.
+We put the kitten names into a mug. Four slips said Pickle. All four were in my youngest's handwriting. She demanded a recount. The kitten slept across the newspaper while I unfolded the remaining votes, and amusement rippled through the kitchen.
 
 ## 000091-60a8bac1eb16
 
@@ -398,7 +400,7 @@ We had finished the hedge before discovering the nest in the lower branches. The
 
 ## 000091-c6595928e8b8
 
-The draft's phrase "calm descended on the square" puzzled the local historian. The photograph beside it showed police horses and overturned stalls. She traced the wording to a newspaper printed two days later, after the market reopened, and changed the caption to identify the correct date.
+"Calm descended on the square," the historian read from our draft, then pointed to the police horses in the accompanying photograph. "Which day?" We found the sentence in a newspaper published two days after the photograph, when the market had reopened. She slid the photograph into the earlier section and penciled the newspaper's date beside the quotation.
 
 ## 000091-ace8621b7aff
 
@@ -410,7 +412,7 @@ Her anger occupied the margins of my manuscript. Beside every passage I had borr
 
 ## 000091-ed6c750ca854
 
-My nephew had learned the card trick from a library book. He made us sign the card before placing it back in the pack. Wonder shimmered around the kitchen table. Then his little sister pointed out the second pack sticking out of his dressing-gown pocket, and he asked for another chance.
+Wonder shimmered around the kitchen table as Ben pushed the signed card back into his pack. He had practiced all morning in his dressing gown, using a library book propped against the cereal box. Now his sister was pointing at the second pack protruding from his pocket. Could he start again?
 
 ## 000091-5bf5e2c89fcc
 
@@ -422,7 +424,7 @@ The photographer called for the groom's side, and three people stood up. Most of
 
 ## 000091-612b44e7e1ca
 
-My brother put the parcel on the scales and added pressure with one finger. The clerk watched the reading climb, then looked at him until he removed his hand. He had been trying to demonstrate how little the extra wrapping weighed. She charged him for the parcel as posted.
+My brother weighed the parcel, then lifted it off and added the padded sleeve he had brought. The reading rose by twelve grams, still within the same postage band. "That's all I meant," he told the clerk. She checked the new weight before printing the label, and he left the sleeve on.
 
 ## 000091-d98b7618d65d
 
@@ -446,7 +448,7 @@ The man at the collection point said our order had been taken by someone else. H
 
 ## 000091-45ef8793d7dc
 
-The script instructed, "Let menace creep into the room." Our director crossed out the line and asked the actor to lock the door instead. At the next rehearsal, that little turn of the key made the visitor stop removing his coat. We kept the door in the set.
+Our borrowed script had "Let menace creep into the room" printed beside a coffee stain. The director had penciled "lock door" underneath it, but the lock on our set was missing its tongue. At rehearsal the visitor stood in his coat while the other actor turned a key that caught nothing. I stayed afterward with the caretaker to find a working lock in the props cupboard.
 
 ## 000091-f717fde18ab1
 
@@ -466,7 +468,9 @@ The pause between their radio calls grew longer as the rescue boat rounded the h
 
 ## 000091-16644c911b88
 
-Someone had parked across the access lane, so the furniture lorry couldn't reach our building. The driver charged waiting time after the first half hour. Tension crawled up the stairwell. I knocked on every door with a photograph of the car until a teenager recognized his uncle's registration.
+The furniture lorry could not get past the car across our access lane. After half an hour the driver started charging us to wait.
+
+As tension gathered in the stairwell, I went from door to door showing a photograph of the registration. On the top floor a teenager recognized his uncle's car. He had the keys, he said, but had never driven anything bigger than a scooter.
 
 ## 000091-4c2fe2bcf2e0
 
@@ -494,7 +498,7 @@ When the projector finally worked, we discovered that the subtitles were in anot
 
 ## 000091-1761c79db2c3
 
-The interviewer asked what I meant by "a sadness spread over the town." I showed her the diary entry where the phrase appeared, dated the morning after the mill closed. She photographed the page with my permission and copied the date into her list of sources.
+For the oral-history recording I held my diary open at "a sadness spread over the town," the entry dated the morning after the mill closed. The interviewer asked me to keep my thumb below the date while she photographed it; the archive needed to connect each reading to its source page.
 
 ## 000091-a07ae50744c6
 
@@ -514,7 +518,7 @@ The distance across the nursery seemed longer at night, with the only lamp behin
 
 ## 000091-36b5aa624b91
 
-My sister asked whether we had kept the receipt for the borrowed ladder. It had disappeared from the passage during the builders' visit. An air of accusation gathered in the flat. I rang the foreman, who found it strapped to his van beside two ladders of his own.
+"Have you still got the hire receipt?" my sister asked. The ladder was missing from the passage, and we were due to return it before five. An air of accusation gathered in the flat while I searched the drawer where we kept the builders' invoices. The foreman answered on my second call: his crew had strapped it to their van along with their own ladders.
 
 ## 000091-40f69d1c0baf
 
@@ -522,7 +526,7 @@ In the recording, quiet returned between each thunderclap, but the microphone ke
 
 ## 000091-443048cee87e
 
-The first dancers came reluctantly, pulled from their chairs by the bride's youngest cousin. Then my uncle recognized the tune and fetched his wife from the buffet. Merriment floated under the marquee. I put the borrowed camera down long enough to help move a table out of their way.
+By the time my uncle recognized the tune, the bride's youngest cousin had dragged three reluctant dancers from their chairs and was coming for him. He fetched his wife from the buffet instead; under the merriment floating through the marquee, I could still hear her asking him to put down his plate before he tried to turn her.
 
 ## 000091-6fc0cf9d248b
 
@@ -550,7 +554,7 @@ The manager announced that the shop would stay open after all. A local buyer had
 
 ## 000091-5d45ff9fb63f
 
-The phrase "unease lay over the harbor" appeared in both statements, down to the unusual spelling of harbor. The inspector put the pages side by side and asked whether the witnesses had discussed their accounts. One admitted that the other had helped him write his version.
+Both statements contained "unease lay over the harbor," including the American spelling that stood out among the other witnesses' references to the harbour. The inspector laid the pages side by side. Had the two men discussed what to write? One said he had helped the other put his account into words.
 
 ## 000091-f4fbeef4b1d4
 
@@ -566,7 +570,7 @@ At the auction, the box of model trains sold for less than the cost of the catal
 
 ## 000091-2f15913df2f1
 
-A dead weight remained on the line after the fish stopped fighting. I reeled in a plastic bag wrapped around the hook, full of river water. My daughter asked whether we had caught the whole river, and the man fishing downstream laughed hard enough to lose his cigarette.
+What I had taken for a fish stopped tugging, leaving a dead weight on the line. I reeled in a plastic bag wrapped around the hook, full of river water. My daughter asked whether we had caught the whole river, and the man fishing downstream laughed hard enough to lose his cigarette.
 
 ## 000091-b92017b8d46e
 
@@ -578,7 +582,7 @@ Her silence divided the interview into two parts. Before I mentioned the rent, s
 
 ## 000091-b0285d2f1ecb
 
-The children were supposed to bring one item for the display. My son brought a whole drawer of stones and wanted each labeled separately. Chaos had an impatient undertone that filled the classroom. His teacher found a tray and asked him to choose the five he could explain best.
+One item each for the class display, the note had said. My son arrived with a drawer of stones and wanted every one labeled. His teacher handed him a tray as impatience hung over the classroom. "Choose five you can tell us about." He began by asking whether two halves of the same stone counted as one.
 
 ## 000091-4152fe0e22bf
 
@@ -586,7 +590,7 @@ The heat spread from the stove across the kitchen floor, reaching my bare feet b
 
 ## 000091-6e0b3fcdc1cc
 
-The last customer left five minutes after closing. We still had to mop the floor and count the stock in the front cabinet. Exhaustion settled into every corner. My coworker put the radio on while I gathered the empty cups left behind the display of winter gloves.
+Five minutes past closing. The last customer had gone, leaving a cup behind the winter gloves. There was the floor to mop, the cabinet stock to count, and another cup balanced on the windowsill. My coworker switched on the radio. Exhaustion settled into every corner.
 
 ## 000091-2ebac16a8430
 
@@ -634,7 +638,7 @@ The stillness of the patient allowed the nurse to draw a neat line around the ra
 
 ## 000091-513ed974cc67
 
-Someone had found the missing ring in the lining of the borrowed suitcase. We had spent two days searching the holiday flat and calling restaurants. A buoyant mood carried through the room. My sister photographed the tiny hole where it had slipped through, then asked me for a needle.
+"In the lining," my sister said, holding the missing ring above the suitcase. Two days of searching the flat and calling restaurants, and it had been traveling with us all along. A buoyant mood filled the room while she photographed the tiny hole in the fabric. Did I have a needle?
 
 ## 000091-ee6953e28b5b
 
@@ -646,7 +650,7 @@ The shopkeeper said the machine was under warranty, but the serial number had fa
 
 ## 000091-e0c7f95456b9
 
-The translator had rendered the sentence as "shame lay across the village." In the next draft she chose "the village lived in disgrace," explaining that the original referred to a formal punishment imposed on every household. We added a short historical note identifying the decree and its date.
+"Shame lay across the village" was still on the screen when the translator called me over. She had found the decree: every household had been placed under the same formal punishment. "The village lived in disgrace," she typed instead. I copied the decree's date into a footnote while she checked the next paragraph.
 
 ## 000091-7fc2c1b5016e
 
@@ -658,7 +662,7 @@ The pressure of the crowd carried me past the stall before I could hand over my 
 
 ## 000091-4e26dda941c5
 
-We signed the forms in separate rooms, using the same pen the mediator carried between us. The agreement covered the car, the savings, and the remaining rent. Finality filled the hallway. Outside, I realized my bicycle was still locked to the railings beside his, where we had left them that morning.
+We signed in separate rooms, with the mediator carrying the same pen between us, and finality filled the hallway when we emerged with our copies. The car, the savings, the last month's rent were all accounted for; outside, my bicycle was still locked beside his, exactly where we had left it that morning.
 
 ## 000091-ab4ec082146e
 
@@ -666,11 +670,11 @@ For once, the silence between our houses let me hear the owls. The neighbor's ex
 
 ## 000091-0771dda87302
 
-The team leader asked who had authorized the extra order. I had the email on my screen, but it came from an account shared by three managers. Blame hung in the office air. We checked the sent folder and found the draft attached to the previous month's stock request.
+Three managers used the account that had sent the authorization email. Which one had approved the extra order? Blame hung in the office air as we opened the attachment: an order form bearing Helen's signature, with the additional quantity written beside her initials. The team leader asked her to join us before anyone contacted the supplier.
 
 ## 000091-231ba12e4345
 
-The weight remained on the trapdoor after we moved the boxes. Beneath the last suitcase lay a sack of sand my father had put there during a storm. The roofers had long since repaired the tiles, but nobody had thought to remove his temporary precaution from the attic.
+Beneath the last suitcase was the sack of sand my father had laid across the attic hatch during a storm. The loose wooden panel had kept lifting and dropping, and the sack held it shut. Since then the roofers had repaired the tiles and fitted a latch, but the weight remained. We passed it down separately before lowering the boxes.
 
 ## 000091-c9393a030dbb
 
@@ -678,7 +682,7 @@ The swimming instructor said my son could join the deeper class next term. He ha
 
 ## 000091-e12c6b942d61
 
-A calm interval followed each gust, long enough for the loose shutter to fall back against the wall. Its next bang came from farther down the building as the wind changed. We lay awake in the hostel counting the intervals, until someone finally found the caretaker's number on the noticeboard.
+A calm interval followed each gust, long enough for the loose shutter outside our room to fall back against the wall. Then another shutter banged farther down the hostel. We lay awake counting the intervals between the two until someone found the caretaker's number on the noticeboard.
 
 ## 000091-d850b91434d9
 
@@ -698,7 +702,7 @@ The judge's silence changed who had to speak. When the landlord finished describ
 
 ## 000091-9cba6901f35b
 
-We finally got the old printer connected just before the invitations were due. The first sheet emerged upside down, but the lettering was clear. A gentle relief settled upon the workroom. My cousin turned the paper stack around while I checked the spelling of the venue one last time.
+The old printer finally accepted a sheet of invitation stock. Our names were clear, though upside down relative to the preprinted church crest. As a gentle relief settled upon the workroom, my cousin rotated the remaining sheets end for end in the tray. I checked the venue's spelling before we risked a second copy.
 
 ## 000091-d90e77a51759
 
@@ -706,7 +710,7 @@ The school log described "an atmosphere of dread" during the inspection. We incl
 
 ## 000091-de0a7155302b
 
-The farmer said we could cross the field, provided we closed both gates. My friend wanted to turn back because the bull was standing near the path. Fear drifted across our little group. We waited by the stile while the farmer shook a bucket and led the animal toward the barn.
+Fear drifts across our little group at the stile. The farmer has said we may cross if we close both gates, but nobody mentioned the bull beside the path. My friend is already turning back when the farmer comes out with a bucket, shakes it once, and leads the animal toward the barn.
 
 ## 000091-38709beaab3f
 
@@ -730,7 +734,7 @@ A hush passed along the hedge as each sparrow stopped calling when the cat appea
 
 ## 000091-ecd13c3d78ca
 
-They had put the repaired clock back in the square, but it struck five at half past three. The mayor looked up in the middle of her speech. Cheerfulness spread across the crowd. The clockmaker waited until she finished before explaining that he hadn't connected the hour mechanism yet.
+At half past three the restored clock bell rang five times, interrupting the mayor's speech. Cheerfulness spread across the crowd. The clockmaker came down from the tower afterward and explained that he had been testing the new hammer by hand; up there, he hadn't heard the ceremony begin.
 
 ## 000091-51564386e3fe
 
@@ -758,7 +762,7 @@ Someone had brought a second key, and it opened the shed immediately. We had spe
 
 ## 000091-52803c148a6d
 
-The curator left "joy flooded the streets" visible in the facsimile but removed it from the modern caption. A visitor had mistaken the diary writer's phrase for a report by the museum. The new caption identified the writer, the date, and the procession he had watched from his window.
+A visitor's letter arrived with a photograph of our display and "Whose words?" written across the caption. The curator took me downstairs to look: "joy flooded the streets" appeared both under the photograph and in the diary facsimile beside it. We replaced the caption with the procession's date and the diarist's name. His handwritten sentence remained visible through the glass.
 
 ## 000091-b2a8dc4e6600
 
@@ -770,7 +774,9 @@ The silence of the alarm was the first sign that the battery had died. We normal
 
 ## 000091-cb6ec13c84a9
 
-For the first time, our names appeared together on the council tax bill. The envelope had gone to the upstairs flat, and the neighbor brought it down with her own letters. Belonging settled into the hallway. We pinned the bill beside the calendar until we worked out where to file it.
+Years later, I still remembered the upstairs neighbor handing down that first council tax envelope addressed to both of us. We had pinned it beside the calendar, an unlikely thing to display.
+
+That evening belonging settled into the hallway as we stood there deciding which of us ought to open it.
 
 ## 000091-9ca1f3bb9ac1
 
@@ -822,7 +828,7 @@ I returned the borrowed suitcase with a cracked wheel. My neighbor rolled it alo
 
 ## 000091-bf6ce8d23bfb
 
-Pressure held the lid against my palm until the last air escaped from the storage bag. Then the blanket inside flattened enough to fit beneath the bed. My daughter watched with concern and asked whether her teddy would also become flat if we packed him for the journey.
+I rolled the compression bag from the sealed end, using my palms to keep pressure on the blanket as air escaped through the one-way valve. The flattened roll would fit beneath the bed. My daughter watched beside me, holding her teddy. Would he become flat too if we packed him for the journey?
 
 ## 000091-1432c555abf8
 
@@ -834,7 +840,7 @@ Her refusal left a silence shaped like a job vacancy. Everyone had assumed she w
 
 ## 000091-29b8e63a2f67
 
-I was introduced as the new owner, although I had only come to sign the lease. The previous tenant showed me which windows stuck and where the spare bulbs were kept. Promise filled the empty shop. I measured the alcove for the shelves before he took down his final sign.
+The previous tenant introduced Naila as the new owner, although the lease was still unsigned. Promise filled the empty shop as she followed him from the sticking window to the cupboard of spare bulbs. Would her shelves fit the alcove? She knelt with the tape measure while he unhooked his last sign.
 
 ## 000091-9203938b926b
 
@@ -842,7 +848,7 @@ Dust hung in the beam from the open loft hatch. As my brother climbed, each rung
 
 ## 000091-0d68b317d009
 
-The parcel contained only the left shoe. Customer services asked me to send a photograph of the box and its label before they would investigate. Absurdity settled over the afternoon with a weary mood. I photographed everything on the kitchen tiles, including the empty paper sleeve where the other shoe should have been.
+One left shoe, a box, and an empty paper sleeve: I arranged them on the kitchen tiles for customer services. They needed the label in the photograph as well. Weariness hung over the afternoon while I rearranged everything, then took another picture with the order number beside the shoe.
 
 ## 000091-bec3e9609301
 
@@ -854,7 +860,7 @@ We learned that the bus route would stay, but only on weekdays. Several people i
 
 ## 000091-d7190e9a11ab
 
-His diary described "a black mood hanging over our lodging." I copied the phrase into the exhibition notes because the next page listed the unpaid rent and the cost of coal. Together, the entries showed what he meant by the phrase during that particular week of his apprenticeship.
+At the exhibition opening, his granddaughter stayed beside the diary case until I came over. She pointed to "a black mood hanging over our lodging," then asked whether visitors could see the next page. It listed the unpaid rent and the price of coal. We arranged for a photograph of that page to go beside the case the following morning.
 
 ## 000091-e68a1e3498bb
 
@@ -886,11 +892,11 @@ The caretaker turned off half the lights to encourage us to leave. We had stayed
 
 ## 000091-e644c8e3cdc4
 
-The distance between the two bus stops mattered more than the distance to the clinic. One stood beside a bench and a level crossing; the other required my mother to climb thirty steps. We took the slower bus because she could sit down while waiting for the return journey.
+Access to the bus stops mattered more than the journey time to the clinic. One stood beside a bench and a level crossing; the other required my mother to climb thirty steps. We took the slower bus because she could sit down while waiting for the return journey.
 
 ## 000091-e96ab0dfb974
 
-When the power returned, every lamp in the flat came on at once. We'd left them switched on while checking which rooms were affected. A renewed security wrapped itself around us. My daughter ran to see whether the freezer's ice lollies had survived, and I reset the oven clock.
+Every lamp came on together. We had left them switched on while checking the rooms during the power cut, and now a sense of security settled over the flat. My daughter ran to inspect the ice lollies. I stayed in the kitchen, pressing the oven's clock buttons until it would let me use the grill.
 
 ## 000091-3cfadb5c987f
 
@@ -902,11 +908,11 @@ The replacement boiler was too wide for the cupboard. The installer measured it 
 
 ## 000091-f046017ede39
 
-The memoir's opening claimed that "peace drifted back into the house." During editing, the author explained that she meant the week her brothers returned to school after the evacuation. We moved the date into that paragraph, keeping her original phrase alongside the account of their return to ordinary lessons.
+At her memoir reading, the author stopped after "peace drifted back into the house" and asked her brother when their school had reopened after the evacuation. September, he called from the back. She wrote the month above the line in her reading copy, then carried on with the account of their first morning back in class.
 
 ## 000091-9045ad9bd4e9
 
-We agreed to share the cost of the fence, but my neighbor wanted the taller panels. The supplier had only one height in stock until September. A low strain persisted between our gardens. I marked both heights on the gatepost so we could compare them without opening the catalogue again.
+I marked both fence heights on the gatepost. My neighbor wanted the taller panels; the supplier could deliver only the shorter ones before September. We had agreed on the cost, at least. A lingering tension hung between our gardens as he held the catalogue against my pencil marks and asked whether we could wait.
 
 ## 000091-2600fc901f19
 
@@ -954,7 +960,7 @@ The last line of the poem read, "Let sorrow settle in the chair." My father had 
 
 ## 000091-60a95c1fbb07
 
-At closing time, the gallery volunteer told us that our son's drawing had sold. A visitor had bought it for her grandson, who liked trains. A glow of happiness filled the foyer. We took a photograph of the red sticker before helping him carry his other pictures to the car.
+Our son was carrying his unsold drawings toward the car when the gallery volunteer called us back: the train picture had gone to a visitor buying for her grandson. We made him stand beside the red sticker for a photograph, his other pictures still tucked under his arm, while a glow of happiness filled the foyer.
 
 ## 000091-090467b54b05
 

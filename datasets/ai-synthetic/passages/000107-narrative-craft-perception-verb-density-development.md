@@ -2,7 +2,7 @@
 
 ## 000107-1ca50380840c
 
-The landlord had brought the wrong keys again. We stood outside the flat while he called his daughter, who apparently kept the spare set in her desk. I glanced at him. My moving van was booked for another forty minutes, and the driver had already carried the mattress up three flights. "Could we at least put the boxes on the landing?" I asked.
+The mattress spent our first evening in the flat on the landing. The landlord had brought the wrong keys, and his daughter couldn't leave work with the spare set until six. While he explained this, I glanced at him and extended the van hire on my phone. We paid for the extra hour ourselves. His promise to reimburse us is still written on the back of the inventory.
 
 ## 000107-6488850e8f5c
 
@@ -22,7 +22,7 @@ The client wants the invitations by Friday, with a different address on each env
 
 ## 000107-5d7dbba7b027
 
-At the end of the meal, my uncle announced that he was selling the boat. It had spent most of the last summer under a tarpaulin, so the announcement wasn't much of a surprise. I let my eyes rest on him. My cousin asked about the trailer, which he wanted for his own dinghy, and the conversation turned into a negotiation over dessert.
+My uncle sold the boat in October. At the family meal where he announced it, I let my eyes rest on him while my cousin asked whether the trailer was included. There were questions about the price and the buyer's plans for winter storage. Nobody asked about the summers when my uncle had taken it out alone.
 
 ## 000107-d71fe17bf919
 
@@ -50,7 +50,7 @@ From the driver's seat, the cyclist had disappeared behind the windscreen pillar
 
 ## 000107-130305d95056
 
-On the train north, I watched the backs of the houses as we left the city. The street-facing windows had matching shutters, but behind them every balcony was different: washing lines, cages for songbirds, a bathtub full of plants. One man was eating breakfast beside a dismantled motorbike. From the road, I would have remembered the whole neighbourhood as a row of identical yellow buildings.
+A bathtub full of plants stood on a balcony above the railway cutting. Beside it, a man ate breakfast with his plate balanced on a dismantled motorbike. I watched the backs of the houses until the train entered the tunnel: washing lines, songbird cages, a woman shaking a rug over a blue plastic pool. Along the road on the other side, every house had matching yellow shutters.
 
 ## 000107-eb3f1656078e
 
@@ -82,7 +82,7 @@ Through the viewfinder, Ruth could see both brothers, but their mother was hidde
 
 ## 000107-ed055ba52672
 
-The laundrette machine swallowed my last coin without starting. Behind the counter, a teenager was trying to persuade someone on the phone to bring his lunch. I looked at him. My uniform needed washing before the morning shift, so I asked whether he could open the coin box.
+"Does it sometimes take a minute?" I asked. The laundrette attendant covered his phone and said the machine should have started already. My last coin was inside it, along with the uniform I needed at six tomorrow. I looked at him as he resumed telling someone to bring his lunch. Behind me, another customer put her basket down beside the same machine.
 
 ## 000107-d069e361f7ea
 
@@ -102,7 +102,7 @@ The village team needed someone to keep score because the regular scorer had gon
 
 ## 000107-6df254f9a375
 
-I scanned the raffle stubs for the number on Mrs Cole's ticket. Several had stuck together where someone had spilled lemonade into the bucket. Hers was underneath a damp strip of blue paper, still folded. She insisted we shake the bucket and draw again before announcing a winner.
+The mayor drew raffle number forty-two. Before its owner came forward, Mrs Cole asked us to check that her number, seventeen, had been included. I scanned the remaining stubs for seventeen. Hers was trapped beneath a wad of blue paper stuck to the bottom of the lemonade-soaked bucket. She insisted we separate all the stubs and draw again before announcing a winner.
 
 ## 000107-713346bcdad5
 
@@ -150,11 +150,11 @@ The campsite owner wanted payment in cash, although his booking email had said c
 
 ## 000107-0b58fd525a69
 
-Darren watched the ridge above our tents until the cloud swallowed its last visible notch. A minute earlier, sunlight had picked out every stone. Rain was moving downhill toward us, its edge clear against the pale grass. Across the field, families were still spreading towels over their folding chairs.
+Sunlight had picked out every stone on the ridge when we put up the tents. Now only its lowest notch remained below the cloud. Across the field, families were spreading towels over folding chairs. Darren was still watching the ridge when the notch disappeared and the first grey sheet of rain crossed the pale grass beneath it.
 
 ## 000107-ba7bb8a2f1f1
 
-My daughter said the hamster was entitled to a birthday party because everyone else in the family had one. I considered her with a look. We settled on a slice of cucumber and two guests from next door. She made invitations anyway and asked me how to spell refreshments.
+"Refreshments," I said, spelling it slowly. My daughter wrote the word across the hamster's birthday invitation, then asked whether two guests were enough. Earlier, when she had argued that everyone in the family deserved a party, I had looked at her and agreed to cucumber and the children from next door. She was now making place cards.
 
 ## 000107-2790ac727ece
 
@@ -178,7 +178,7 @@ I searched the parcel label for a flat number, but the line after the street add
 
 ## 000107-5db7ea2b4514
 
-The allotment committee had decided that sheds must all be painted green. Mr Patel ran his eyes across the meeting. His shed had been blue for twenty years. He asked whether the rule applied to existing sheds, and the secretary began looking through the minutes for the exact wording.
+"Does that include sheds already standing?" Mr Patel asked. His had been blue for twenty years, and he still had half a tin of the paint. The secretary opened the minutes. While she read out the committee's decision, Mr Patel glanced around the room and uncapped his pen. The next item was the waiting list for plots.
 
 ## 000107-8f4a1c0475ed
 
@@ -202,7 +202,7 @@ In the taxi window, I watched my brother's reflection practising the opening of 
 
 ## 000107-87f4ad23c1a3
 
-The school fair had enough homemade jam to fill a cupboard and only one person offering face painting. Ruth surveyed the proceedings. She abandoned her own stall and spent the afternoon turning children into tigers. Her jars sold well once someone put a sign beside them promising they contained no glitter.
+Ruth remembers her first school fair as the afternoon she became a face painter. She had brought jam to sell, but the queue for tigers reached past her stall. At some point she surveyed the proceedings, handed her cash tin to the next volunteer, and borrowed a brush. Seven years later, parents still book her for parties. She makes the jam in smaller batches now.
 
 ## 000107-06a8422e6cad
 
@@ -242,7 +242,7 @@ Bernard stared at the empty patch beside the fridge where his bowl usually stood
 
 ## 000107-b863e8f5c340
 
-The plumber couldn't come until Tuesday, so we were washing dishes in the bathroom. I directed my gaze at the sink. My flatmate proposed buying paper plates for the weekend. We compromised by eating at her mother's, who sent us home with leftovers and six more containers to wash.
+By Sunday, washing dishes in the bathroom had stopped being amusing. My flatmate wanted paper plates; I wanted the plumber to answer his phone. I directed my gaze at the sink while she explained that neither proposal would deal with the pans. We left them soaking and ate bread and cheese from the wrapping. Tuesday was still two days away.
 
 ## 000107-d97bd38d973b
 
@@ -302,11 +302,11 @@ My cousin offered to repair the laptop in exchange for help clearing his garage.
 
 ## 000107-315953f24611
 
-My cousin examined the laptop screen from several angles. Straight on, it looked completely black; tilted toward the window, it showed the faint outline of the login box. The machine was running, but the backlight had failed. He held a torch against the lid and showed me my own cursor moving.
+My cousin examined the laptop screen from several angles. Straight on, it looked completely black; tilted toward the window, it showed the faint outline of the login box. The machine was running, but the backlight had failed. He shone a torch onto the front of the screen at an angle and showed me my own cursor moving.
 
 ## 000107-dfb8ce632b2a
 
-The beach hut key was with a man who rented bicycles, and his shop had closed for lunch. We contemplated our surroundings. My mother unpacked the sandwiches on the steps while I phoned the number painted above his door. By the time he returned, the children wanted to stay outside.
+We are eating our sandwiches on the beach hut steps. The key is with the bicycle-hire man, whose shop is shut for lunch, and the number above his door goes to voicemail. Mum divides the last tomato between the children. I look around while she asks how long we should wait. Our towels are locked inside.
 
 ## 000107-5bc4ed6bff77
 
@@ -338,7 +338,7 @@ Ed watched the neighbour mow, noticing how he left an uneven crescent around the
 
 ## 000107-eed776970148
 
-The museum cloakroom had lost the ticket attached to my umbrella. I looked across the foyer. Rain was running down the windows, and I had a long walk to the tram. After I described the repaired handle, the attendant let me choose it from a bucket behind her desk.
+The museum cloakroom had lost the ticket attached to my umbrella. I looked across the foyer at rain running down the windows. The tram stop was a long walk away. After I described the repaired handle, the attendant let me choose the umbrella from a bucket behind her desk.
 
 ## 000107-0d05925a6101
 
@@ -346,7 +346,7 @@ At the museum, Dad gazed at a kitchen chair longer than he spent with any of the
 
 ## 000107-005f4926a38f
 
-The choir trip included a hotel breakfast, but only if we arrived before eight. Most of us had returned from the concert after midnight. Frances cast her eyes about. She went downstairs in slippers and brought back a tray of toast, becoming the most popular person on our floor.
+On choir trips, Frances goes down to breakfast in her slippers. She orders tea for anyone still upstairs and carries back toast wrapped in napkins. At our last hotel she cast her eyes about as we discussed the previous night's concert, then reminded us that breakfast ended at eight. Half the choir followed her down without changing out of their nightclothes.
 
 ## 000107-8f0c2b8911b7
 
@@ -410,7 +410,7 @@ My mother held each jar toward the window and peered along its rim. A hairline c
 
 ## 000107-fc0511e1e0f0
 
-"We're going to need a bigger stall," Ben said after counting the donated cakes. He took a visual sweep of the hall. The school caretaker found another table, and we covered it with a spare sheet. By closing time, we had sold everything except a loaf nobody could identify.
+By closing time, only the unidentified loaf remained on the cake stall. Ben took it home for his chickens. He had counted eighty-three donations that morning, looking around the hall while I wrote the number on our sheet. We sold from two tables instead of one. On Monday, the school office asked whether we could do it again at Christmas.
 
 ## 000107-1fbafe92f859
 
@@ -426,7 +426,7 @@ Lucy watched the kitchen lights while the electrician pressed the test button. T
 
 ## 000107-37af3cbec04d
 
-The walking map had dissolved in the rain, leaving us with a blue fragment showing half a lake. I looked upon our surroundings. We followed the lane downhill until it reached a village, where a shopkeeper drew the route back on a paper bag and sold us replacement sandwiches.
+What remained of the walking map is drying on the kitchen radiator. There is half a lake on it and a blue smear where the village should be. Yesterday, after the paper split along its folds, I looked around and suggested following the lane downhill. We reached a shop just before it closed. The route home is drawn on the paper bag beside the map.
 
 ## 000107-7ac395302f98
 
@@ -434,7 +434,7 @@ I surveyed the valley from the stile. Below us, the river curved behind a barn a
 
 ## 000107-266a2b729847
 
-The dance teacher wanted us to practise at home with chairs standing in for partners. Rob bestowed a look on me. Our sitting room barely accommodated the coffee table. We pushed it against the wall and spent the evening apologising to the furniture, which proved considerably less forgiving than people.
+Rob practises the dance steps between the sofa and the wall. The teacher recommended chairs as substitute partners, but there is barely room for one person in our sitting room. He looks over at me while I count him into another turn. We have moved the coffee table twice this week, and neither of us wants to put it back yet.
 
 ## 000107-cfb61bdc2ada
 
@@ -450,7 +450,7 @@ I watched the butcher sharpen his knife, keeping the blade at the same shallow a
 
 ## 000107-fe7d7ff59752
 
-Our new bed arrived without the packet of bolts. Nina took a moment to observe the bedroom. The old bed had already gone to the recycling centre. We laid the mattress on the floor and called customer services, where a recorded voice thanked us for choosing a better night's sleep.
+Nina is on hold to the bed company again. The missing bolts have their own order number now, separate from the frame and the mattress. She takes a moment to observe the bedroom while the recorded message thanks her for her patience. Our old bed went to the recycling centre on Tuesday. Since then we have slept on the floor.
 
 ## 000107-5dc9bc240dbf
 
@@ -506,7 +506,7 @@ Dennis watched the receptionist's screen as she entered his membership number. A
 
 ## 000107-7b8967f3c674
 
-The fruit-picking farm charged for entry as well as for whatever we picked. I panned my gaze over the field. We had promised the children strawberries, so we bought the baskets. By the end, the youngest had eaten enough to make the entry fee seem like the fairest part.
+The children want to go back to the strawberry farm. They remember the baskets and the juice running down their wrists; I remember paying admission before we had picked anything. I looked across the field while the woman at the gate explained the separate charge for fruit. We stayed until the youngest was tired. There are still two jars of that day's jam in the cupboard.
 
 ## 000107-e2a242bef74f
 
@@ -514,7 +514,7 @@ I looked beneath the strawberry leaves instead of at the bright fruit beside the
 
 ## 000107-78347d16eac2
 
-The band couldn't use the hall's sockets because an inspection certificate had expired. Mags watched the room for a moment. We borrowed an extension lead from the caretaker's house and moved the performance outside. The neighbours brought chairs, and the drummer finally had enough space for his largest cymbal.
+The hall's electrical inspection certificate had expired, so the band played an acoustic set on the lawn. Mags watched the room for a moment while we agreed on the change. We left the amplifiers unplugged, carried the chairs outside, and passed the word along the queue. From the garden gate, the singer had to repeat the first announcement for those still coming out.
 
 ## 000107-86bf65e1eea4
 
@@ -538,7 +538,7 @@ Sophie surveyed the lake through binoculars, following the line where floating r
 
 ## 000107-7df3d0ae58df
 
-The dressmaker could shorten the sleeves by Friday but couldn't replace the missing button. I took stock of the room with my eyes. My aunt offered one from her sewing box, which involved an evening sorting through decades of leftovers. We found an exact match attached to an abandoned cardigan.
+My aunt keeps spare buttons in a biscuit tin, still attached to scraps of the clothes they came from. We spent Thursday evening going through it for my jacket. At the dressmaker's that morning I had glanced around the room while she promised the sleeves by Friday, provided I supplied the missing button. The one we eventually chose came from a cardigan my aunt had never finished.
 
 ## 000107-9a24792a1f8e
 
@@ -554,7 +554,7 @@ Tom watched the bin collectors lift the broken container. One wheel stayed on th
 
 ## 000107-2a26533d4623
 
-The language class had moved to a room with no heating. We contemplated the place. Our teacher kept her coat on and taught the lesson standing beside the radiator, as though encouragement might revive it. By the end, everyone knew how to complain about cold weather in the past tense.
+Everyone keeps their coat on in the language class now. The replacement room has a radiator, but the caretaker says its valve is broken. We look around as the teacher hands out the next exercise. Today's sentences concern last winter's weather. She writes the past tense on the board with her free hand tucked beneath her arm.
 
 ## 000107-4289a55263ca
 
@@ -574,11 +574,11 @@ The pet shop would take back the unused fish tank but wanted the original packag
 
 ## 000107-0a5b83e2b592
 
-I watched the fish tank from the side, where the waterline made a pale stripe against the wallpaper. It was level yesterday. Today the stripe slanted, though the water itself remained flat. Beneath the cabinet, one foot had sunk through the softened board we had put down to protect the carpet.
+I watched the fish tank from the side. A pale mineral mark on the glass, left by an earlier water level, slanted above the water's flat surface. Yesterday the two lines had been parallel. Beneath the cabinet, one foot had sunk into the softened board we had put down to protect the carpet.
 
 ## 000107-4b5aebf91bee
 
-"I'll need the costume tomorrow," my son said at bedtime. The school play was news to me. I let my gaze traverse the room. We made a waistcoat from an old pillowcase and borrowed a hat from next door. He remembered during breakfast that his character also needed a beard.
+"And a beard," my son said over breakfast. The waistcoat was finished, the borrowed hat was by the door, and this was the first I had heard about a beard. Last night, when he announced that the play was tomorrow, I had looked around the room before fetching an old pillowcase. Now I cut lengths of brown wool while he ate his toast.
 
 ## 000107-4c8b832939ac
 
@@ -606,15 +606,15 @@ The book club had chosen a novel that nobody could obtain before the meeting. Ma
 
 ## 000107-209cbc0e06ba
 
-Marcus studied the photograph on the book jacket. The author's left hand rested over a wedding ring, but the pale band beneath it was wider than the ring itself. It was the same detail his late wife had disliked in her own portrait after having her ring resized.
+Marcus studied the photograph on the book jacket. The author's left hand lay on the arm of a chair, its narrow wedding ring surrounded by a wider band of pale skin. His late wife had disliked the same detail in her own portrait after exchanging her broad wedding band for a thinner one.
 
 ## 000107-d2b79653b1a5
 
-The florist had sent lilies instead of the sunflowers I'd ordered for Mum. I beheld the arrangement. Mum liked lilies, but the cat was already investigating the wrapping. We put the flowers in the enclosed porch and called the shop, which sent the sunflowers before its afternoon van finished the round.
+The lilies waited in the enclosed porch for the florist's van to return. Mum stayed with the cat in the kitchen while I called the shop: I had ordered sunflowers, and the cat had already started investigating the wrapping. I glanced at the flowers while the assistant checked the order. The replacement bunch arrived that afternoon, along with an apology addressed to Mum.
 
 ## 000107-3964d8ea0346
 
-Mum watched the sunflowers turn toward the kitchen window over several mornings. At night their heavy heads leaned toward the table; by breakfast the stems had bent them outward again. She marked one stem with thread so she could follow the same flower rather than remembering the bunch as a whole.
+One sunflower hung below the rest of Mum's bunch after the journey home. She tied a thread loosely around its stem, recut the ends, and put the flowers in fresh water. Through the morning she watched the marked head rise. By lunch it stood almost level with its neighbours, though its outer petals were still creased against one another.
 
 ## 000107-157a0f0ac408
 
@@ -642,7 +642,7 @@ Felix inspected the hired bicycle's front brake before riding off. The lever tou
 
 ## 000107-7acf953c1175
 
-The wedding venue wanted every candle in a glass holder. We had bought a hundred candles and twenty holders. Miriam's gaze roamed the storeroom. She borrowed tumblers from the caterer, and we spent the morning scraping price labels off the bases so they wouldn't show through the tablecloth reflections.
+For most of the morning we soaked price stickers out of borrowed tumblers. The stickers were inside, on the bottoms, where the wedding candles would sit. We had bought a hundred candles but only twenty holders; the caterer supplied the rest as drinking glasses. Miriam's gaze roamed the storeroom while I counted the final tray. There were still three tables to set.
 
 ## 000107-8a963a22c3cd
 
@@ -678,7 +678,7 @@ The optician had ordered my replacement frames in bright orange. I looked around
 
 ## 000107-52083ce703e7
 
-The optician asked me to look at the bridge of her nose while she moved a light across my eyes. My instinct was to follow the beam, so she repeated the instruction. Reflected in her glasses, my pupils widened and narrowed at different moments as she changed the angle.
+The optician asked me to look at the bridge of her nose while she moved a light across my eyes. Each time the beam shifted, I started to follow it. She lowered the light and had me fix on her nose again before continuing. By the final pass I could hold my eyes still, though I kept wanting to turn toward the brightness.
 
 ## 000107-d19b13fae56b
 
@@ -714,7 +714,7 @@ My father watched my mother cut the melon, following the knife from rind to boar
 
 ## 000107-7658d1dbd4ac
 
-The printer delivered our festival programmes with the pages in the wrong order. Jade's attention moved across the office. Opening night was six hours away. We pulled out the staples, rearranged the sheets, and borrowed a long-armed stapler from the school, finishing the last copies as the doors opened.
+Six hours until opening night. Jade has removed the staples from forty programmes, and I have started rearranging the sheets. The printer's replacement copies won't reach us until tomorrow. While I explain this to the school secretary on the phone, Jade looks across the office and opens another bundle. The secretary says we can borrow their long-armed stapler if someone collects it before four.
 
 ## 000107-41304c92475d
 
@@ -726,11 +726,11 @@ The post office wouldn't accept the box because one corner had split. I surveyed
 
 ## 000107-945999f2ccc7
 
-I watched the clerk weigh the box without touching the counter. The display settled at just over two kilos. When she removed the customs pouch resting on top, it dropped below the limit. She weighed the pouch separately, then explained which total determined the price and which went on the declaration.
+At the clerk's request, I took my hand off the box and watched the scale settle at just over two kilos. When she removed the loose customs pouch resting on top, the display dropped below the limit. She weighed the pouch separately, then explained the difference between the parcel's total weight for postage and the contents' weight for the declaration.
 
 ## 000107-329ef700dafc
 
-Our amateur drama group had lost the key to the props cupboard. Vera directed a look across the stage. Tonight's rehearsal required a suitcase, a telephone, and a sword. We substituted a shopping bag, somebody's mobile, and a rolled newspaper, which made the final duel unexpectedly difficult to take seriously.
+Vera still brings the rolled newspaper to rehearsals, although we have the props cupboard key again. It served as a sword for a week, alongside a shopping bag suitcase and somebody's mobile telephone. She looked across the stage while we listed the substitutions at the first rehearsal. The duel took longest to adjust: every thrust bent the newspaper a little farther.
 
 ## 000107-7a9b91586c66
 
@@ -778,7 +778,7 @@ At his retirement party, my uncle watched the doorway whenever chairs scraped be
 
 ## 000107-551ca0b8b626
 
-The hairdresser had left us a message cancelling both appointments. Rose checked the room with a glance. We needed our hair done before the wedding, so she called a woman who worked from home. The woman fitted us in between collecting her children and taking a casserole out of the oven.
+Rose had written both hair appointments beside the wedding date on the calendar. She crossed them out after playing the cancellation message, glanced around the room, and called a woman who worked from home. The woman could fit us in at eleven. Rose wrote the new address beneath the old appointments and asked me to arrange the taxi.
 
 ## 000107-d7685f9a2441
 
@@ -786,7 +786,7 @@ Rose looked at the back of her haircut in the small mirror. The larger mirror re
 
 ## 000107-eccb01ee442b
 
-The harbourmaster wanted our borrowed canoe moved before the sailing lesson began. I turned my attention outward. We had just unpacked lunch, but there was nowhere to leave it safely. We put everything back into the dry bag and paddled across the inlet to a beach occupied by two sleeping dogs.
+Our lunch was back in the dry bag before either of us had taken a bite. The harbourmaster needed the canoe moved for the sailing lesson, and we couldn't leave it unattended at the slipway. I looked across the inlet while we discussed whether to go home. We paddled to the other beach instead and ate with the canoe pulled up beside us.
 
 ## 000107-041927ce78fb
 
@@ -818,11 +818,11 @@ The witness statement said, "I looked around before moving the trolley." During 
 
 ## 000107-8c5797ee3a52
 
-Our daughter's recorder teacher had requested a quiet place for daily practice. My husband let his eyes travel about. In our flat, quiet depended on somebody else going outside. We settled on the bedroom after dinner, while he and I took the dog for longer walks than usual.
+Every evening after dinner, our daughter practises the recorder in our bedroom. The teacher asked for a quiet place, which in this flat means the rest of us must leave. My husband looked around while we discussed the arrangement, then offered to take the dog. I go with them. We come back when the kitchen timer says her fifteen minutes are over.
 
 ## 000107-5a790087ad50
 
-"Look at me when I give the count," the recorder teacher told my daughter. The instruction mattered because she was following the tapping foot of the child beside her, who always started early. On the next attempt she followed the teacher's raised finger, and the three players began together.
+My daughter came in early again, following the tapping foot of the child beside her. The recorder teacher lowered her hand and waited for the three players to stop. "Look at me when I give the count," she said. On the next attempt my daughter followed the raised finger, and all three began together.
 
 ## 000107-a99be53643db
 
@@ -830,11 +830,11 @@ The repairman said our washing machine needed a part that would take a week to a
 
 ## 000107-9fb1df765c09
 
-Eva looked the repairman up and down when he arrived wearing slippers beneath his overalls. He explained that he'd changed shoes after crossing the muddy garden at his previous call. The slippers stayed by our door while he fetched his boots from the van, saving the pale carpet from their caked soles.
+Eva looked the repairman up and down when he arrived wearing slippers beneath his overalls. He explained that his boots were caked with mud from the previous call; he had left them in the van and changed into clean slippers before approaching our door. He kept the slippers on throughout the repair, then changed back into his boots at the van.
 
 ## 000107-8e077ceec474
 
-The restaurant had lost our booking, but the owner offered us a table in the room upstairs. I threw a look around. It had no heating, so they brought a portable radiator and complimentary soup. By the time our main courses arrived, the private room felt like an unexpected upgrade.
+"The room upstairs is yours for the evening," the restaurant owner said. Our booking had disappeared from his list, and he was apologising for the third time. I glanced around while he explained that they were bringing up a radiator. We kept our coats on for the soup. By the main course, my sister had started talking about holding her birthday there.
 
 ## 000107-fb356b33eb0e
 
@@ -846,11 +846,11 @@ The farm volunteer rota had put us on the early shift after the village dance. N
 
 ## 000107-667683f25bd7
 
-For ten winters, Nick watched the old farm change hands one building at a time. The dairy became a workshop, the workshop a holiday cottage. Only the cattle shed kept its corrugated roof. In the final winter, lights appeared behind its patched windows, and someone hung curtains between the posts.
+First the dairy became a workshop. Then the workshop became a holiday cottage, with a gravel parking space where the milk churns had stood. Nick watched these changes over ten winters from the house across the lane. The cattle shed kept its patched corrugated roof until the last winter, when lights appeared behind its windows and curtains went up between the posts.
 
 ## 000107-dbe21ab9b97f
 
-The car-boot sale organiser wanted payment before letting us unload. I gave the field a survey. Our cash box was buried beneath the tables, so we borrowed the fee from the next stallholder. She repaid herself later by buying our old bread maker, which she planned to use for mixing clay.
+We owed the next stallholder ten pounds before we had unloaded anything. The organiser wanted the pitch fee at the gate, and our cash box was buried beneath the tables. I glanced over the field while my husband explained this. Later, our neighbour bought the bread maker for fifteen pounds; we deducted her loan and took the remaining five in coins.
 
 ## 000107-c60213e4eceb
 
@@ -858,7 +858,7 @@ The buyer ogled the old motorbike while his wife counted the money. He crouched 
 
 ## 000107-f617661fbd56
 
-The council choir wanted a new photograph for its website, preferably outdoors. Helen contemplated the assembly. Most singers could come only after work, when the park gates were locked. We used the pavement outside the rehearsal hall, with two volunteers holding coats to hide a row of commercial bins.
+The choir's website photograph includes two coats whose holders stood just outside the frame. They hide the commercial bins beside our rehearsal hall. Helen glanced over the singers as we discussed the council's request for an outdoor picture. The park shut before most of us finished work, so we assembled on the pavement at seven, still carrying our music.
 
 ## 000107-c8208084ce98
 
@@ -870,7 +870,7 @@ The supermarket voucher expired that day, but it applied only to purchases over 
 
 ## 000107-1003e90ecd06
 
-"Keep an eye on the total," Mum said as the cashier started scanning. Her pension had arrived late, and she had brought a fixed amount of cash. I watched the display climb, keeping the milk at the end of the belt so we could leave the biscuits if necessary.
+"Keep an eye on the total," Mum said as the cashier started scanning. Her pension had arrived late, and she had brought a fixed amount of cash. I watched the display climb as the milk and the rest of the essentials went through. I held the biscuits back until we knew how much money remained.
 
 ## 000107-ed223c2736d0
 
@@ -882,7 +882,7 @@ Dan looked over his shoulder as we rode, checking whether I was still close enou
 
 ## 000107-ac5a955462ce
 
-The funeral caterer had brought enough food for twice the number expected. I glanced at the ceiling. My aunt began packing sandwiches into the spare napkins, and soon everyone was leaving with lunch for tomorrow. It was exactly the sort of practical arrangement my grandmother would have organised herself.
+My aunt asked people to take sandwiches home after the funeral. The caterer had expected twice as many guests, and there were unopened trays beneath the table. I glanced around while she counted out the spare napkins. She made a separate parcel for the neighbour who had fed my grandmother's cat. We delivered it on our way back to the house.
 
 ## 000107-5fd6b64b3921
 
@@ -902,7 +902,7 @@ The market trader offered three umbrellas for ten pounds, although we needed onl
 
 ## 000107-75efe9781770
 
-Chris watched the rain bead on his new jacket. On the shoulders, drops stood round and separate; near the worn cuffs they spread into dark patches. He held both sleeves under the market awning to compare them. The fabric was the same colour, but years of rubbing had changed its surface.
+Chris watched the rain bead on the jacket he had bought secondhand that morning. On the shoulders, drops stood round and separate; near the worn cuffs they spread into dark patches. He held both sleeves under the market awning to compare them. The fabric was the same colour, but years of rubbing had changed its surface.
 
 ## 000107-ecbd323843db
 
@@ -930,7 +930,7 @@ We contributed the unopened picnic basket to the raffle and bought five tickets.
 
 ## 000107-d834d92888e5
 
-The courier said the delivery required two people to lift it, although he had arrived alone. Fran cast her eyes toward the house. We borrowed our neighbour for ten minutes and carried the cabinet inside. The courier left while we were still deciding how to remove it from its wooden crate.
+The courier waited beside the wooden crate while we fetched our neighbour. His delivery instructions required two people to lift it, although he had arrived alone. Fran cast her eyes toward the house while I explained where we wanted it left. Between us we carried the crate to the front step. The courier drove away before we had worked out how to release the cabinet inside.
 
 ## 000107-f76f950da021
 
@@ -938,7 +938,7 @@ The cabinet arrived inside a wooden crate that wouldn't fit through the door. We
 
 ## 000107-54ae84a549d0
 
-The school wanted a parent to accompany the class on its trip to the waterworks. My gaze fell upon the room. I had the day free and volunteered. The children enjoyed the hard hats more than the treatment tanks, and I returned home with a strong appreciation for our kitchen tap.
+I volunteered for the waterworks trip at the parents' meeting. The teacher needed one more adult, and I had the day free. I looked around the room while she explained where the coach would collect us. On Thursday I packed a lunch alongside my son's and met his classmates at the school gate. He insisted on introducing me to everyone.
 
 ## 000107-d5c28c147fd0
 
@@ -946,7 +946,7 @@ After the waterworks trip, my son refused to waste the water running cold before
 
 ## 000107-5725308db1cf
 
-The mechanic offered a discount if we could leave the car until Wednesday. I ranged my eyes over the forecourt. We could manage without it, so I agreed and walked home. Halfway there, I remembered the frozen shopping in the boot and rang my brother to ask for a lift back.
+The frozen shopping was halfway home with me in my imagination before I remembered it was still in the boot. I had left the car at the garage until Wednesday in return for a discount. At the counter I looked across the forecourt while the mechanic confirmed the price, then handed over the keys. My brother drove me back for the shopping that evening.
 
 ## 000107-93ab537856e7
 
@@ -954,7 +954,7 @@ We managed without the car for four days. I carried groceries home in two smalle
 
 ## 000107-8d9cdad5b831
 
-The village hall needed clearing before the morning yoga class. I looked toward the tables. Most guests had gone, leaving six of us to fold chairs and sweep up confetti. We finished after midnight and divided the remaining cake, each taking home a piece large enough to require a dinner plate.
+At twelve fifteen, six of us were still clearing the village hall. The morning yoga class needed the floor by eight. I looked toward the tables while someone asked who had the cupboard key, then carried another stack of chairs through. We left the remaining cake in its tin until the floor was finished. Nobody wanted to sit down and eat it there.
 
 ## 000107-e3f13a94408c
 

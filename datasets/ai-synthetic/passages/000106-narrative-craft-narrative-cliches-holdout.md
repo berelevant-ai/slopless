@@ -18,7 +18,7 @@ Nobody touched the biscuits after Malcolm asked who had approved the extra expen
 
 ## 000106-3742efab3b10
 
-We found a room over a grocery shop and left our wet shoes on newspaper by the radiator. As the sun sank below the horizon, long shadows stretched across the sleepy town. Downstairs, the owner was putting oranges into wooden crates. We bought bread and cheese from him, then ate on the bed because the room's only chair was covered with our drying clothes.
+From the room above the grocery shop we watched the owner packing oranges into crates. As the sun sank below the horizon, long shadows stretched across the sleepy town, and he pulled the striped awning in. Our shoes were drying on newspaper beside the radiator. Neither of us wanted to put them back on, so we called down to ask whether he sold bread.
 
 ## 000106-e82df79f2abf
 
@@ -58,7 +58,7 @@ The long shadows from the fence posts divided the sand into strips. My daughter 
 
 ## 000106-b83bc67e5170
 
-For three days after the flood, we slept at my aunt's. For the next six weeks, we rented a caravan behind the garage while the floors dried. By December, we were cooking at home again, although the bedroom still had bare boards. That was the year our address changed four times and every school form needed correcting.
+For three days after the flood, we slept at my aunt's. For the next six weeks, we rented a caravan behind the garage while the floors dried. By December, we were cooking at home again, although the bedroom still had bare boards. That was the year our address changed three times and every school form needed correcting.
 
 ## 000106-48b4ccce04dc
 
@@ -74,15 +74,15 @@ We slowed the loading-bay footage to a quarter of its original speed. The forkli
 
 ## 000106-6205962918bc
 
-I had packed the tin opener in the box marked bathroom. We discovered this while getting ready to heat the soup and finding that neither of us had brought a spoon, either. Martin went next door to borrow both. He returned with an opener, two spoons, and an invitation to dinner, so we left the tins on the counter and found our shoes.
+For our first dinner in the flat, Martin opened a tin of soup with a screwdriver while I searched for spoons. We were camping inside our own address. The boxes marked kitchen contained curtains; the saucepan was keeping a leak off the bedroom floor. Next door, someone smelled the soup scorching and knocked with two bowls.
 
 ## 000106-dd8b09e86ad5
 
-The hotel was nice, and the room was nice too. We had a nice view of the car park, where someone had planted roses along the wall. At breakfast I ordered eggs. My husband ordered eggs as well. The waiter brought us a pot of coffee and asked which room we were in. I had to check the number on the key.
+Roses grew along the wall between the hotel and its car park. From our room, we could see a mechanic eating breakfast in a recovery truck. Downstairs, my husband ordered poached eggs and I chose toast. When the waiter asked for our room number, we both reached for the key lying between us.
 
 ## 000106-422af09ea9c4
 
-The auctioneer pointed at me and asked whether I meant twenty or two hundred. My heart climbed into my throat. I had only raised a hand to attract my sister's attention. She was already coming down the aisle, carrying the catalogue with our spending limit written across its cover.
+"Two hundred to the gentleman by the pillar." My heart climbed into my throat as the auctioneer pointed his pencil at me. Across the aisle, my sister lowered the hand I had been trying to wave to her. She held up our catalogue, open to the page where she had written a limit of twenty pounds.
 
 ## 000106-040bfce93b3e
 
@@ -146,11 +146,11 @@ The portable speaker pressed against my ribs inside the costume. Every bass note
 
 ## 000106-30aa791e9a3b
 
-The access code worked on the first attempt. My pulse raced. I had expected to wait outside until the caretaker arrived, but the door was open and the alarm panel showed green. Somewhere upstairs, a printer was running. I called out the name on my appointment letter.
+My father's access code still worked, although the archive director had assured me that his account had been closed after his dismissal. My pulse raced as I stepped inside. Somewhere upstairs, a printer was running. I left the lights off and followed the signs toward the room named in his last message.
 
 ## 000106-4c1a1f1248bb
 
-In the biology room, we watched the tiny heart beating inside the translucent specimen. Its rhythm quickened under the lamp. Our teacher slid a dish of cool water beneath the stand, then asked us to count again. I kept losing my place when the animal moved.
+In the biology room, we watched the tiny heart beating inside the translucent specimen. Its rhythm quickened under the lamp. Our teacher added cool water to the dish holding the animal, then asked us to count again. I kept losing my place when the animal moved.
 
 ## 000106-1f9870375484
 
@@ -170,7 +170,7 @@ Cold water trickled down my spine when the loose gutter emptied inside my collar
 
 ## 000106-e3a4501488b3
 
-The answerphone played a message in her own voice, asking to be collected from a station she had never visited. A shiver ran the length of her spine. Ruth replayed it, holding the handset away so her lodger could listen too. He recognized the station announcement in the background.
+Ruth kept the handset against her ear after the message ended. A station announcement, then her own voice asking to be collected: she had listened three times, and a shiver ran the length of her spine each time. She had never been to that station. When her lodger came downstairs, she pressed play again without telling him whose voice he would hear.
 
 ## 000106-7afed21c2cb8
 
@@ -230,11 +230,11 @@ He recognized the damaged hinge on the suitcase in the police photograph. Ice co
 
 ## 000106-e46389e89e42
 
-The chilled fluid made a cold line along my forearm when the nurse opened the clamp. I watched the sensation reach my elbow and told her where it stopped. She checked the tape, tucked the blanket around my hand, and asked me to describe any change.
+The chilled fluid made a cold line along my forearm when the nurse opened the clamp. I felt it reach my elbow and told her where the cold stopped. She checked the tape, tucked the blanket around my hand, and asked me to describe any change.
 
 ## 000106-a46d497f99ae
 
-The substitute bus driver took the turning toward the abandoned quarry. A shiver of apprehension slid down my back. Our usual route continued straight past the school. I stood and asked whether we were avoiding roadworks, but he kept looking at the paper taped beside his wheel.
+You remember the quarry turning, don't you? That was where I stood up. A shiver of apprehension slid down my back as the bus left the school road, but you said the substitute driver probably knew a diversion. He was reading a sheet taped beside the wheel. When I asked where we were going, he held up one finger and kept driving.
 
 ## 000106-15d0200d03ec
 
@@ -282,7 +282,7 @@ We held our breath as the spoonful of pepper passed between us. Grandad wanted t
 
 ## 000106-368b27c7912d
 
-Her name was still on the rota for next month. She exhaled a breath she didn't know she had trapped. The manager had accepted her request to stay. On the way out, she bought a bus pass instead of the single ticket she had been planning to use.
+Her name was still on the rota for next month. She let out a breath she hadn't realized she was holding. The manager had accepted her request to stay. On the way out, she bought a bus pass instead of the single ticket she had been planning to use.
 
 ## 000106-9c330cedd84c
 
@@ -298,7 +298,7 @@ At the bottom of the pool, I released enough breath to stop floating upward. The
 
 ## 000106-0a4b25d12eee
 
-The test envelope contained two blue tickets instead of the rejection slip he expected. The breath left his lungs in a rush. He placed the tickets beside his daughter's cereal bowl so she would see them when she came downstairs, then checked the departure time again.
+The railway charity's envelope contained two blue tickets and a letter confirming his daughter's travel grant. He had expected another rejection. The breath left his lungs in a rush. He put the tickets beside her cereal bowl, then checked how early they would need to leave for the hospital appointment.
 
 ## 000106-707661e94190
 
@@ -306,7 +306,7 @@ The fall knocked the breath out of me. For several seconds I lay beside the skat
 
 ## 000106-7141926bdf2d
 
-The jeweler opened the box containing the ring recovered from the drain. Her breath came in ragged gasps. It had been missing since the morning of the ceremony. She reached for her phone to call her husband, who was still searching the bathroom at home.
+For six months she had been told that nothing could be recovered from the boat where her husband died. Now the salvage officer was opening a box on his desk. Inside lay her husband's wedding ring, with the notch he had cut in it while repairing the outboard. Her breath came in ragged gasps. The officer waited until she reached for the box.
 
 ## 000106-2ca3f8ddd858
 
@@ -330,7 +330,7 @@ Celia lowered her voice whenever the hatch to the dining room opened. I had to l
 
 ## 000106-059e29f7848f
 
-"I should have checked the address," Simon said, his voice laced with regret. The flowers had gone to the old flat, where the new tenants had put them in water. He wrote down their number and offered to collect the vase after work on Friday.
+For years I told the story as if the flowers had simply gone astray. In fact, I had copied the address from an old Christmas card. "I should have checked," I said, my voice laced with regret, while the new tenant described finding them outside in the rain. She had put them in her own vase. I never asked for the flowers back.
 
 ## 000106-6c0aa9671125
 
@@ -366,7 +366,7 @@ Halfway through the reading, her voice thickened and she stopped to swallow. The
 
 ## 000106-e7a1e4794c23
 
-My uncle used his bright customer voice when the plumber called, then dropped into his usual mutter as soon as the door closed. I had heard both voices all my life. This time he kept the bright one for the message asking when the invoice would arrive.
+My uncle ironed the creases out of his speech for customers. The mutter I heard over breakfast became a brisk welcome at the workshop door, and even his complaints arrived as questions about the weather. When a customer called during lunch, he finished chewing before answering. I could hear the smile being put on before he said hello.
 
 ## 000106-1b410923a42d
 
@@ -394,7 +394,7 @@ Her voice trembled on the held note, the same regular wobble I remembered from h
 
 ## 000106-6fd3a6d82dc9
 
-"I still have your letter," he said, his words barely more than a breath. We were standing beside the coat rack at a crowded reunion. Before I could ask which letter, his wife arrived with their taxi number and began looking for his scarf.
+The reunion had reached the stage where everyone was looking for coats. I was checking the sleeves of a borrowed jacket when he came to stand beside me. His wife called from the doorway that the taxi was waiting. "I still have your letter," he said, his words barely more than a breath.
 
 ## 000106-272c1bf240fe
 
@@ -418,7 +418,7 @@ The silence between the two knocks lasted long enough for me to hear the lift re
 
 ## 000106-1f15aee00406
 
-The curtain was still closed, but we could see the children's shoes beneath it. The air crackled with anticipation. One small boot moved back and forth as the teacher counted them in. I raised my phone, trying to frame the stage without including the heads in front.
+Behind the stadium barrier, Maya balanced the program on her knees and tried to find her son's lane. The runners were taking off their tracksuits; the air crackled with anticipation as an official carried the starting blocks onto the track. Through my camera I could see her son waving. Maya was still searching the program when the announcer read his name.
 
 ## 000106-1572f582264f
 
@@ -454,7 +454,7 @@ The coach asked us to choose a captain before leaving the changing room. The ten
 
 ## 000106-961bef2e6465
 
-The steam hung above the wash tubs because the extractor had stopped. I could see droplets gathering on the low ceiling. By noon, the labels on the upper shelves had curled away from their boxes, leaving small pale rectangles against the stained wood behind them.
+The steam hung above the wash tubs because the extractor had stopped. I could see droplets gathering on the low ceiling. By noon, the paper labels fixed to the wooden shelf fronts had curled loose, exposing pale rectangles against the stained wood.
 
 ## 000106-480ebf1142a6
 
@@ -490,11 +490,11 @@ The orange strip above the sea disappeared whenever I looked through the bus's t
 
 ## 000106-e4e8b7af0692
 
-We left the rehearsal room after the caretaker came to collect the cups. Long shadows crept across the quiet streets. I walked home with the woman who played my sister, discussing whether we should bring our own shoes or use the ones in the costume cupboard.
+Long shadows crept across the quiet streets. On the walk from rehearsal, the woman playing my sister told me she had taken the part because it meant being called by another name for two hours. We passed the theater posters without stopping. At her corner she asked whether I wanted to rehearse on Sunday, when her husband would be out.
 
 ## 000106-2fd78c983224
 
-Long shadows from the empty scaffolding crossed the road at ankle height. From the driver's seat, they looked like narrow trenches. Dad slowed before each one until I pointed out where they joined the poles, then laughed at himself for braking at a patch of darkness.
+Long shadows from the empty scaffolding lay across the road in narrow bands. From the driver's seat, they looked like trenches. Dad slowed before each one until I pointed out where they met the bases of the poles. He laughed at himself for braking at a patch of darkness.
 
 ## 000106-6b01a9caf6aa
 
@@ -518,7 +518,7 @@ At the corner shop, we bought candles and a packet of biscuits. Evening draped i
 
 ## 000106-38869970713e
 
-The evening fog covered the lower houses while the chapel roof remained visible. From the allotment, the village looked cut off at the first-floor windows. Mr. Pike could identify his own chimney by its crooked pot and pointed out where his kitchen should have been.
+From the allotment, the village looked as though someone had rubbed out its ground floor. Fog filled the lanes, leaving roofs and chimney pots suspended above the vegetable beds. Mr. Pike's crooked chimney was still recognizable. Beneath it, somewhere in the white, his wife would be opening the kitchen window to call him home.
 
 ## 000106-18b506090efb
 
@@ -554,7 +554,7 @@ I watched the sun approach the warehouse roof in the reflection on my screen. Fo
 
 ## 000106-18b06cce2b0d
 
-The roofers packed their tools into buckets and lowered them on a rope. Night began to weave its dark tapestry. I offered tea, but they wanted to catch the last ferry. Before leaving, one returned to check that the ladder hadn't scratched the new window frame.
+Night began to weave its dark tapestry as our ferry pulled away from the island. The roofers were at the next table, still wearing the boots they had worn on our roof. One had left a pencil behind his ear. He took it down to draw the damaged flashing on a napkin, holding the paper steady whenever the ferry rolled.
 
 ## 000106-cd84ea3c2c56
 
@@ -578,7 +578,7 @@ For the first week, I fed the kitten every four hours. For the next two, I could
 
 ## 000106-f1cdd5e0bde0
 
-I washed trays in the bakery until the owner trusted me with the dough. The days rolled by, one indistinguishable from the next. My wages went into a tin behind the flour sacks. In April I had enough to replace the bicycle I used for the early shift.
+For three months I washed the bakery trays, scraped the same corner of the oven, and carried the flour in before the first bus. The days rolled by, one indistinguishable from the next, while my wages accumulated in a tin behind the sacks. In April the owner began leaving a ball of dough on my bench. "For practice," she said, and showed me how to fold it.
 
 ## 000106-3fe050fc1268
 
@@ -614,7 +614,7 @@ The allotment stayed in my father's name while we decided who could manage it. T
 
 ## 000106-524bf4c51fc9
 
-We used the same photograph for each season of the gardening leaflet. In spring it showed seedlings; in summer, empty pots where the seedlings had died. By autumn my aunt had arranged apples over the bare patches. I could date each edition by what she was hiding.
+We photographed the same corner of the garden for each seasonal edition of the leaflet. In spring it held seedlings; in summer, empty pots where the seedlings had died. By autumn my aunt had arranged apples over the bare patches. I could date each edition by what she was hiding.
 
 ## 000106-a967133288b3
 
@@ -630,7 +630,7 @@ After joining the evening class, I rarely spent a Thursday at home. The months f
 
 ## 000106-1b2c909acfe2
 
-The months blurred on the old receipt because rain had entered the storage box. Only the years remained legible. We sorted the warranty papers by model number instead, matching each one to the labels underneath the appliances my aunt had left in the house.
+Rain had entered the storage box and blurred the dates on several receipts. On some, only the years remained legible. We sorted the receipts and warranty papers by model number instead, matching them to the labels underneath the appliances my aunt had left in the house.
 
 ## 000106-bea6be62db34
 
@@ -650,7 +650,7 @@ Tom did not know about the broken latch because the afternoon crew had reported 
 
 ## 000106-7f74d0a9c7c7
 
-Mina spread marmalade on two slices of toast and left the crusts for the birds. It was the last normal morning she would ever have. Before leaving for the pharmacy, she checked that her husband's prescription was in her bag and watered the pot beside the kitchen door.
+It was the last normal morning Mina would ever have. She spent most of it untangling a necklace at the kitchen table while her husband read the sports pages aloud. Neither wanted the crusts, so she broke them up for the birds. The pharmacy opened at nine; until then, there was no reason to hurry.
 
 ## 000106-5e53f3e719bc
 
@@ -670,7 +670,7 @@ Joel ticked the box volunteering for the weekend collection. That simple decisio
 
 ## 000106-90a3df84ebcf
 
-Choosing the Saturday shift changed our childcare arrangements for the rest of that year. My husband could work Tuesdays again, and his mother stopped making the long bus journey twice a week. We wrote the new pattern on the calendar so everyone used the same dates.
+In our first season at the field station, I identified birds from their rings and Daniel wrote down the numbers. In the second, he could read the rings through binoculars. By the third, he was training the new volunteers while I counted chicks on the outer islands. We needed separate notebooks then.
 
 ## 000106-c0519735c5c7
 
@@ -722,11 +722,11 @@ Had I known the trailer's bearing was damaged, I would have collected the replac
 
 ## 000106-7f044c9e75ab
 
-The landlord agreed to let us use the empty courtyard for the stall. Perhaps, just perhaps, this was our chance. We measured the gate and found that the folding counter would fit. My partner went home to sketch a sign while I priced waterproof covers for the tables.
+Perhaps, just perhaps, this was our chance: a courtyard stall of our own, with no market supervisor moving us on at noon. The landlord stood by while we measured the gate. He wanted three months' rent in advance and kept calling the arrangement temporary. On the sketch my partner made that evening, she had already drawn a sign above the entrance.
 
 ## 000106-ff7c237ff471
 
-"Perhaps," he said when I asked about Sunday. On Saturday he gave me another perhaps. By the third answer I understood that he wanted me to cancel the visit for him, so I booked my own ticket and told his sister when I would arrive.
+"Perhaps," he said when I asked whether he would visit his sister. He used the same answer on Saturday, while I was booking the train. I bought one ticket. At the station he asked why I hadn't bought his, and I told him there was another departure in an hour. He stayed in the car with the engine running.
 
 ## 000106-b67c9281aef7
 
@@ -758,7 +758,7 @@ My brother called to say the landlord had accepted the payment plan. Maybe, just
 
 ## 000106-31df39473b68
 
-The card read "Maybe, just maybe" in three different typefaces. My brother kept pointing to the repeated maybe because the second one looked like a different word. We chose the plain lettering and asked the printer to make the question mark larger on the sample.
+The card read "Maybe, just maybe?" in three different typefaces. My brother kept pointing to the repeated maybe because the second one looked like a different word. We chose the plain lettering and asked the printer to make the question mark larger on the sample.
 
 ## 000106-549b413f4d3c
 
@@ -786,7 +786,7 @@ The new counselor asked about the time she spent caring for her brother instead 
 
 ## 000106-4946618bb461
 
-We had raised enough for the ramp, with another donation promised for the handrail. Maybe, just maybe, the impossible was within reach. The treasurer printed the balance and pinned it beside the plans. At the next meeting, we could choose a contractor instead of planning another raffle.
+The treasurer read the total twice. After eleven raffles, two sponsored swims, and the sale of the old piano, we had enough for the ramp. A donor at the back offered to pay for the handrail. People were already arguing over contractors when I folded away the collection bucket. Maybe, just maybe, the impossible was within reach.
 
 ## 000106-838b7b700b68
 
@@ -798,7 +798,7 @@ The estate agent offered me the small flat over the chemist at a rent I could af
 
 ## 000106-193b7d099087
 
-The new chapter began halfway down a page, leaving no space for the illustration. I laid the book open beside the typescript to show the difference. The printer checked the page numbers and found that two blank pages had been removed before the file reached him.
+The new chapter began halfway down a page, leaving no space for the illustration. I laid the book open beside the typescript to show the difference. The printer compared the files and found that the page break before the chapter had been removed, letting the heading follow the previous chapter on the same page.
 
 ## 000106-55be7599a35b
 
@@ -806,7 +806,7 @@ The mechanic turned the key while I stood beside the open bonnet. The seconds st
 
 ## 000106-bb3753e9a47f
 
-The last ten seconds of the test felt longer because the display showed tenths instead of whole numbers. I watched ninety changes where I expected nine. When the buzzer sounded, the instructor turned the screen away and asked me to estimate the interval without looking.
+The last ten seconds of the test felt longer with the display counting down from 10.0 to 0.0 in tenths. Each second now had ten visible steps. When the buzzer sounded, the instructor turned the screen away and asked me to estimate another ten-second interval without looking.
 
 ## 000106-51f093af7f82
 
@@ -818,7 +818,7 @@ Time stood still on the kitchen clock at nine seventeen. Its second hand kept tw
 
 ## 000106-8252527baa7c
 
-The open paint tin tipped toward the carpet. The world moved in slow motion. I reached for its handle and caught only the brush. A stripe of white spread beneath the sofa, stopping just short of the rug my mother had asked us to keep covered.
+I caught the brush, which was the wrong thing to catch. As the world moved in slow motion, the paint tin rolled off the stepladder and emptied itself beneath the sofa. My mother had asked us to cover both the rug and the carpet beneath the sofa. We had used our only sheet on the rug and left that stretch of carpet exposed.
 
 ## 000106-92527327d784
 
@@ -878,11 +878,11 @@ We sat outside the examination room waiting for the missing page to be found. Ti
 
 ## 000106-6e96e7e904fc
 
-The clock labels lost their meaning after the flight crossed midnight twice on the schedule. I wrote the destination time beside every connection and kept the departure city in a separate column. At the airport, I checked each boarding display against that page before finding somewhere to sit.
+The itinerary used local time at each airport, so the 08:10 arrival appeared to precede the 10:45 departure on the same date. I wrote the time zone beside each entry and converted the connections to the departure city's time. At the airport, I checked the boarding displays against the original local times on the itinerary.
 
 ## 000106-912cdee05ee0
 
-When I mentioned the orchard, he stopped cutting the wrapping paper. Something flickered across his features. He said the land had been sold years ago and asked whether I wanted a gift receipt. I watched him fold the paper around the book without answering my question.
+"Did you meet my father at the orchard?" I asked. He stopped cutting the wrapping paper. Something flickered across his features. He said the land had been sold years ago and asked whether I wanted a gift receipt. I watched him fold the paper around the book without answering my question.
 
 ## 000106-aaad340f9514
 
@@ -898,7 +898,7 @@ I could not see his eyes through the scratched face shield. When I asked whether
 
 ## 000106-c12bf68cb171
 
-The daughter she hadn't spoken to was standing beside the raffle table. A shadow of sadness passed over her face. She asked me to watch her handbag while she fetched another cup of tea. On returning, she chose a chair facing the kitchen instead of the hall.
+June saw her estranged daughter standing beside the raffle table. A shadow of sadness passed over June's face. She asked me to watch her handbag while she fetched another cup of tea. On returning, she chose a chair facing the kitchen instead of the hall.
 
 ## 000106-3bacfe079e69
 
@@ -926,15 +926,15 @@ The housing adviser found another application under her previous surname. A flic
 
 ## 000106-e5cb341e5d3a
 
-We divided the freezer contents between three cool boxes and carried them next door. Mrs. Finch made space by moving her bread into a drawer. She wrote our surname on two strips of tape, then asked us to collect everything before her own shopping arrived on Thursday.
+"You're the middle runner," Mrs. Finch called from her back door as I handed my son another parcel from our broken freezer. I passed the parcels through the hedge; he carried them to her back door; she fitted them around her bread and peas. He wanted to do the carrying alone, so we let him set the pace. The ice cream went first.
 
 ## 000106-ab8ff8f83af5
 
-The man at the repair counter knew exactly which watch I meant before I described it. His eyes were deep pools of mystery. He took a drawer from beneath the till and asked me to identify the strap. Mine had a burn beside the second hole.
+His eyes were deep pools of mystery, and I spent most of the interview trying to make him look directly at me. He preferred the harbor beyond the window. Asked who had chartered the launch, he named the agent; asked who had boarded it, he asked whether I was recording. On the tape, the harbor bell sounds louder than either of us.
 
 ## 000106-9a0d2541d362
 
-The recipe was written on the back of an electricity bill. I copied the ingredients before my aunt put the paper in the recycling. At home, I discovered that she had omitted the baking time because she judged it by the color around the edge of the tin.
+The river kept a different calendar from the village. The first flood arrived before the school term began, and the exposed gravel returned after the summer fair. I marked both dates in the survey book. Beside them, my predecessor had recorded when the sand martins nested in the bank, using birds to divide a year I knew by holidays.
 
 ## 000106-8d806c847c1b
 
@@ -958,5 +958,5 @@ She came to every meeting but never put her name down to speak. Her eyes held a 
 
 ## 000106-154e1c06dc46
 
-My brother bought six identical mugs so visitors would stop arguing over the chipped blue one. Our mother continued using it because its handle fit her hand. When I washed up after lunch, I left that mug beside the kettle and put the new ones on the shelf.
+"Don't hold your breath," Mum said when I told her Dad had offered to paint the shed. She took me upstairs and showed me the strip of wallpaper he had removed before my eighteenth birthday. I was thirty now. We borrowed her brushes and bought paint on the way home.
 

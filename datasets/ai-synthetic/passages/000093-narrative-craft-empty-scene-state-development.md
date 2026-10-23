@@ -82,7 +82,7 @@ I told Caleb the fish was excellent, although I had already hidden most of mine 
 
 ## 000093-1cdc1fc62862
 
-The classroom lay in silence. Nina checked the spelling on each certificate against the register, discovering that she had printed Oscar's surname twice. She put the spoiled sheet beneath her mug and opened the template again. The ceremony was tomorrow, and the head teacher had already borrowed her good scissors.
+Oscar's surname appeared twice on the certificate. Nina selected the second surname, deleted it, then undid the deletion and checked the register again. In the classroom's silence, she could almost believe that getting the names right would be enough. Tomorrow she would hand these children their certificates and tell them which schools had accepted them. Two were still waiting.
 
 ## 000093-4147176a0b73
 
@@ -114,7 +114,11 @@ The garden centre was deserted at the back, where the cracked pots were stacked 
 
 ## 000093-e144c8ebf1d5
 
-The committee compared two estimates for repainting the changing rooms. A hush lay over the gathering. Both contractors had omitted the ceiling, so Len wrote a reminder in the margin. He volunteered to telephone them after work, provided someone else would collect his daughter from swimming.
+"Both estimates leave out the ceiling."
+"Then neither is an estimate for the job we asked for."
+A hush lay over the committee as Len turned the pages back to the totals.
+"I'll ring them. But I want that recorded before we vote."
+The secretary had already written APPROVED in the minutes. She drew a line through it, leaving the word legible.
 
 ## 000093-1aa9a3de214b
 
@@ -150,7 +154,7 @@ On the ferry, I read the same paragraph twice because the translation made the u
 
 ## 000093-96ee46500baf
 
-The deck was clear of passengers, with everyone crowded against the windows on the port side. From outside I could see the whale's back without looking through anyone's reflection. It surfaced beside a floating log, much farther from the boat than the excited voices inside had made it seem.
+From the passenger deck, clear of people, the whale's back was a low black curve beside a floating log. Inside, faces pressed against the port windows. Their reflections covered the water. Out here there was room to follow the curve until it slipped under; the log remained, rolling once in the swell.
 
 ## 000093-7662d22aa248
 
@@ -170,7 +174,7 @@ The office was vacant, but the directory downstairs still listed the immigration
 
 ## 000093-9cd09c93a943
 
-Our neighbour brought a jar of plum jam with a label printed upside down. In the stillness around us, she explained that her grandson had fed the sheets into the printer backwards. We admired the colour through the glass and agreed to return the jar once we had finished it.
+Mrs Patel brought plum jam every September, always in a jar we had returned to her. One year the labels were upside down. In the stillness around us, she blamed her grandson and his new printer, though she was smiling when she said it. After she moved away, we kept returning the jars to the shelf above the sink. There was nobody left who wanted them.
 
 ## 000093-80860ca11049
 
@@ -210,7 +214,7 @@ Mum's room had gone quiet since she stopped answering the radio quiz aloud. She 
 
 ## 000093-26c3e5f7d5a7
 
-The warehouse felt cold and remote. Tomas matched each returned kettle to its repair slip, putting the ones with cracked handles on a separate trolley. A customer had enclosed a photograph of the handle before it broke. He clipped it to the slip because the serial number was visible beneath the spout.
+Tomas could identify most of the returned kettles by their faults before he read the slips: split handle, loose switch, lid that would not shut. The warehouse felt cold and remote as he worked through the last trolley. At six, the others would walk out over the unpaid wages. His supervisor had asked him to keep processing returns until eight. She had asked each of them separately.
 
 ## 000093-adbc43d351cb
 
@@ -222,7 +226,7 @@ Everyone sank into a common quiet. Our walking group studied the lunch menu, try
 
 ## 000093-14536beb3f38
 
-Our walking group fell quiet at the first sound of the cuckoo. Arthur raised a finger, and we waited beside the stile until it called again from the same patch of trees. He had been keeping arrival dates in his notebook for twenty years. This was his earliest entry by four days.
+Arthur's finger went up. The walkers fell quiet, and from beyond the stile came the cuckoo's second call. He opened his notebook against the top rail. Beside twenty years of arrival dates he entered this morning's date, four days earlier than any of the others, then held the book open for us to see.
 
 ## 000093-17f854c7d4a2
 
@@ -266,7 +270,7 @@ The attic was still after the scratching stopped. I kept my torch trained on the
 
 ## 000093-defc4d9b213a
 
-We had brought the wrong adapter for the projector. The village hall wore a vacant air. While the caretaker searched his cupboard, I moved the raffle table away from the screen and found last month's winning ticket underneath it. Its owner had been asking about the unclaimed hamper all week.
+By midnight, every counting table had a pile of disputed ballots. The village hall wore a vacant air despite the people bent over them. Someone brought the returning officer a sandwich on a paper plate. She set it under her chair and continued explaining why a cross outside the box could still express a voter's intention. At the far table, the candidates' agents began the argument again.
 
 ## 000093-11f8037a8c03
 
@@ -302,7 +306,7 @@ The spreadsheet listed a chestnut mare as both sold and available. In the hush o
 
 ## 000093-f7e3cc571d20
 
-The stable was empty, but fresh hoofprints ran through the frost toward the orchard gate. I found the pony eating fallen apples beside the compost heap. The top bolt had been fastened; the lower one hung loose. He had learned to push beneath the gate and lift it off its bottom hinge.
+The stable was empty, but fresh hoofprints ran through the frost toward the orchard gate. I found the pony eating fallen apples beside the compost heap. The gate stood open, its lifting latch bright with fresh scratches underneath. When I brought him back and shut it, he put his nose under the latch and raised it again.
 
 ## 000093-a38fbe7ab98e
 
@@ -318,7 +322,7 @@ The solicitor had put sticky flags on the pages I needed to sign. Silence pooled
 
 ## 000093-dae438d64ad0
 
-The chair opposite the solicitor's desk remained empty throughout our appointment. My brother had promised to come and hear the will with me. Each time footsteps sounded outside, I looked up. The solicitor finally turned the second copy around and pushed it across for me to take to him.
+Whenever footsteps approached the solicitor's door, I looked toward the empty chair beside me. My brother had said he would come. The solicitor read the will, paused for my questions and finally turned the second copy around. His name was on its envelope. I carried it home on the passenger seat.
 
 ## 000093-c41873f4ef40
 
@@ -330,7 +334,7 @@ The allotment path was clear all the way to the gate, the brambles finally cut b
 
 ## 000093-bf44ea374c1f
 
-A cool emptiness possessed the dining room. Marcus put the borrowed plates into boxes, separating them with newspaper as his mother had instructed. He stopped to read a football score from three weeks earlier. His team had lost that match too, though he had managed to forget the exact margin.
+By the time the officers came to requisition the house, Marcus had wrapped the borrowed plates in newspaper. In the dining room's hollow quiet, he opened one parcel to check the crest on its rim. His mother had insisted that everything belonging to the neighbours go back before the inventory. Outside, a clerk was already measuring the doors.
 
 ## 000093-128183dafd9a
 
@@ -358,7 +362,7 @@ On his lunch break, Anton compared paint samples against the shed door. The gard
 
 ## 000093-84b6e39871f3
 
-The garden was still enough for the spiderweb to keep its shape between the washing line and my shirt. Every thread carried a bead of mist. I took the pegs off the other clothes first, leaving the shirt hanging beside one empty sleeve of the sheet until the sun reached it.
+The garden was still enough for the spiderweb to keep its shape between the washing line and my shirt. Every thread carried a bead of mist. I took the pegs off the other clothes first, leaving the shirt alone on the line until the sun reached the web.
 
 ## 000093-a26c877e418a
 
@@ -378,7 +382,7 @@ My sister's postcard described the hotel as "silent after ten". She underlined t
 
 ## 000093-33ef5b017480
 
-The station forecourt was oddly hollow. Priya tightened the strap around her folded bicycle and checked that the pedals would not catch on anyone's coat. The guard measured the package with his eyes, then pointed her toward the luggage space. She had bought a folding bicycle precisely to avoid this conversation.
+Priya tightened the strap around her folded bicycle. The guard pointed toward the luggage space, but her mother was still holding the other end of the strap. Neither let go. Around them the station forecourt had an oddly hollow air. When the guard called again, her mother tucked the loose end beneath the buckle and stepped back.
 
 ## 000093-f1eeb3591d58
 
@@ -394,7 +398,7 @@ The cabin was cold when we returned, although I had left the heater running. A c
 
 ## 000093-51acf4895cf8
 
-In a silence as deep as a well, the receptionist corrected my postcode. I had given her the one from our old house. She asked whether the rest of the address had changed too, and I watched her delete seven years of deliveries before entering the flat number above my brother's garage.
+In a silence as deep as a well, the receptionist corrected my postcode. I had given her the one from our old house. She asked whether the rest of the address had changed too, and I watched her replace the delivery address we had used for seven years with the flat number above my brother's garage.
 
 ## 000093-f4ba44ebac73
 
@@ -406,11 +410,11 @@ Theo wanted to know whether the museum shop sold the model bridge he had seen do
 
 ## 000093-78d6bbe06362
 
-The gallery was empty, giving me enough space to stand directly opposite the stitched landscape. From there, the blue threads joined into a river. A step to either side broke it into separate strips. I stayed on the seam between two floorboards and let the picture assemble itself again.
+Stand on the seam between the floorboards. In the empty gallery, you can face the stitched landscape squarely, its fabric panels suspended at staggered depths: the blue threads join into a river, running behind the white house. Move one pace left and the river separates into strips. Return to the seam. The water joins again.
 
 ## 000093-4732cff62f12
 
-When the delivery came, we discovered that the wardrobe handles were packed inside the bottom drawer. A cold hush inhabited the bedroom. To reach them, we had to remove the drawer runners with a screwdriver borrowed from next door. My brother suggested returning the wardrobe, but by then we had dismantled the box.
+When the delivery came, we discovered that the wardrobe handles were packed inside the bottom drawer. Its flush front had no finger recess, and we couldn't get a grip on either edge. A cold hush inhabited the bedroom. We took off the thin back panel and pushed the drawer open from behind. My brother held up the bag of handles while I gathered the panel screws.
 
 ## 000093-dd2fcaaf7653
 
@@ -430,7 +434,7 @@ Hush gathered around the market stalls. I asked the woman selling curtains wheth
 
 ## 000093-59dcc530617c
 
-The market stalls were bare by noon. Rain had driven the traders into their vans, where they sold through lowered windows. I bought tomatoes from a crate on the passenger seat. The stallholder weighed them on scales balanced over the gear lever and passed my change through a gap in the glass.
+The market stalls were bare by noon. Rain had driven the traders into their vans, where they sold through lowered windows. I bought tomatoes from a crate on the passenger seat. Through the open space behind the seats, the stallholder reached back to weigh them on scales set on a board across the rear load floor, then leaned forward to pass my change through the window.
 
 ## 000093-773e78f18229
 
@@ -438,7 +442,7 @@ The old cinema lay dormant and silent. We were there to count its seats for the 
 
 ## 000093-ffe05f96495c
 
-The cinema was silent through the opening scene. On screen, a woman opened her mouth and a car struck a barrier, both without a sound. Someone near the back called up to the projection window. The picture stopped, and the same car reversed through the barrier when the operator rewound the film.
+The cinema was silent through the opening scene. On screen, a woman opened her mouth and a car struck a barrier, both without a sound. Someone near the back called up to the projection window. The operator paused the digital playback, restored the sound and dragged the playback marker back. We heard the engine this time, then the crash.
 
 ## 000093-9e770a8f2224
 
@@ -462,7 +466,7 @@ We were painting cardboard scenery for the school play. Stillness pressed agains
 
 ## 000093-a223cab8d109
 
-The cardboard palace was hollow, with room inside for the two children who turned its painted windows. From the audience, their fingers looked like shutters opening. During rehearsal, one child sneezed and the whole facade jumped. The teacher pencilled a reminder to fix it to the floor with tape.
+The cardboard palace was hollow, with room inside for two children to operate the shutters on its painted windows. Each pair of shutters swung outward on tape hinges; from the audience, we could see small fingers pushing their lower edges. During rehearsal, one child sneezed and the whole facade jumped. The teacher pencilled a reminder to fix it to the floor with tape.
 
 ## 000093-034b5efd342a
 
@@ -474,7 +478,7 @@ The depot yard was clear at last, after the broken bus had blocked the inspectio
 
 ## 000093-d9cd64040c00
 
-The photographer asked us to bring one object from home. An expectant quiet filled the studio. I brought the wooden spoon my husband had burned while making our first dinner together. She arranged it beside a white plate and asked me to hold it by the unblackened end for the portrait.
+You bring the burned spoon because the photographer asked for an object from your marriage. She places it beside a white plate. In the studio's expectant quiet, you explain the dinner, the smoke alarm, the way he insisted the sauce could still be saved. She asks you to hold the spoon. You have handled it through enough tellings of this story to reach for it at the unblackened end.
 
 ## 000093-b200a50e92df
 
@@ -490,7 +494,7 @@ The post office counter was empty, although the door stood open and the security
 
 ## 000093-98d0f14e893c
 
-I spread the seed packets across the bench and separated the flowers from the vegetables. The greenhouse seemed to float in a hush. One envelope contained buttons instead of seeds. Grandad had used it to mend his coat and then put it back in the tin with everything else he intended to sow.
+I spread the seed packets across the bench and separated the flowers from the vegetables. The greenhouse seemed to float in a hush. One envelope contained buttons instead of seeds. Grandad had taken buttons from it to mend his coat, then put the envelope back in the tin with everything else he intended to sow.
 
 ## 000093-8ebf640e128c
 
@@ -514,7 +518,7 @@ The auction hall was emptying when I noticed the sideboard's drawers lying behin
 
 ## 000093-76fcd6df764e
 
-A lifeless calm stretched across the beach. Beth read the tide times from the noticeboard and copied the afternoon figure onto her map. The ink would not take on the damp paper. She wrote it on her hand instead, then asked me to remember which number was high water and which was low.
+If Beth reaches the causeway before four, she will have time to cross. That is what the table on the noticeboard says, and she copies the time onto her map beneath a lifeless calm that hangs over the beach. The pencil tears the wet paper. She writes 16:00 on her palm instead. Across the channel, the island windows catch the sun.
 
 ## 000093-d5de80648c5e
 
@@ -534,7 +538,7 @@ We had to choose a photograph for the calendar, and every decent picture of the 
 
 ## 000093-46e5d8cafa6c
 
-The flat was quiet on the first morning after the dog went home. For a week, his claws had announced every journey between the sofa and the water bowl. I kept turning at smaller noises: the radiator cooling, a spoon rolling on the draining board, my own keys touching the table.
+All week, the dog's claws had marked each journey from sofa to water bowl. On the first morning after his owner collected him, the flat was quiet. A spoon rolled on the draining board and I turned. The radiator clicked and I turned again. His bowl was already washed and stacked with the pans.
 
 ## 000093-8d1b4f1a9128
 
@@ -578,7 +582,7 @@ The utility room was silent, although the washing machine's display still showed
 
 ## 000093-eff36fbdba22
 
-We compared the two school photographs on my mother's mantelpiece. The lounge was full of a soft hush. In mine, the collar pointed upward; in my brother's, one sock had slipped below his knee. Mum said the photographer had been expensive, as though that explained why neither of us looked happy.
+"That collar was never going to stay down," Mum said whenever she saw my school photograph. My brother's slipping sock amused her less; she had knitted it herself. We compared the pictures again while the lounge lay in a soft hush, deciding which frames she would have room for beside the new bed. Neither of us wanted to choose on her behalf. Both frames went into the bag.
 
 ## 000093-8296530b1f8d
 
@@ -590,7 +594,7 @@ The kitchen at the scout hut held a dense stillness. I counted twenty-seven brea
 
 ## 000093-0cd1517d3c73
 
-The scout hut's kitchen was empty of utensils. Someone had taken the drawer inserts home to wash after camp and forgotten to return them. We stirred the soup with the handle of a clean serving spoon and ate it from mugs, passing one surviving teaspoon between the children who wanted sugar afterward.
+The scout hut's cutlery drawers were empty. Someone had taken the inserts and all their contents home to wash after camp. A clean serving spoon hung beside the cooker, so we used it to stir the soup and ladle it into mugs. The children drank from the rims, holding the hot mugs in their sleeves.
 
 ## 000093-8dcc08f97a4e
 
@@ -614,7 +618,7 @@ By the canal, Felix explained how the lock gates worked using two leaves and a b
 
 ## 000093-d65f0cea4f02
 
-The lock chamber was empty of boats, exposing the grooves that years of ropes had cut into the brickwork. Green weed marked the normal waterline above my head. From the footbridge, I could see the submerged ledge where the top gates closed, a piece of the lock usually hidden from us.
+The lock chamber was empty, drained for repairs. From the footbridge I could see grooves cut into the brickwork by years of ropes, far below the green band marking the usual upper water level. Beneath the open top gates lay the broad sill they closed against. A worker crossed it carrying a bucket, then disappeared under the bridge.
 
 ## 000093-dd346dce44c9
 
@@ -626,7 +630,7 @@ The clay was cold enough to ache against my wrists. I had left it in the shed ov
 
 ## 000093-d75372aa788f
 
-The charity runners waited in a broad silence. I pinned my number below the zip so I could take my jacket off later. My friend had put hers upside down, and we laughed while trying to undo the pins with gloves on. Neither of us had remembered to bring the promised safety pins.
+The charity runners waited in a broad silence. I opened my jacket and pinned my number to my shirt so I could take the jacket off later. My friend had put hers upside down, and we laughed while trying to undo the pins with gloves on. We were using the last eight from the registration desk. Neither of us had brought the extra box we had promised the organizer.
 
 ## 000093-01eda9b8ec43
 
@@ -658,7 +662,7 @@ The church porch was dry while rain blew through the open gate. Two delivery dri
 
 ## 000093-0ac74ff43d26
 
-We were halfway through the inventory when the label printer ran out of tape. The office was steeped in a dull quiet. I wrote the remaining numbers by hand, making my sevens conspicuous because the last audit had confused them with ones. My supervisor borrowed the pen and immediately dropped it behind the cabinet.
+The investigator asked why the final inventory numbers were handwritten. I told her about the label printer running out of tape. She put a photograph of the cabinet beside its sign-out sheet on the desk between us, in the office's dull quiet, and asked who had signed it out. My supervisor's signature was clear on the sheet. In the photograph, the seven on the cabinet's asset label was mine, crossed twice so nobody could read it as a one.
 
 ## 000093-bd5010ba70b5
 
@@ -706,11 +710,11 @@ The takeaway counter was bare beneath the menu board. Behind it, the fryers had 
 
 ## 000093-3537c2c7c574
 
-A hush seemed to seep through the bus. I read the leaflet about the new ticket system, trying to work out whether my pass needed replacing. The diagram showed a card unlike mine. I asked the driver at the terminus, and he said the leaflet applied only to people buying weekly tickets.
+The leaflet said I would need a new pass. My daughter said it referred to weekly tickets. I read it to her over the phone as the bus travelled through a soft hush, starting again at the paragraph beneath the diagram. She asked me to photograph it. I said I couldn't photograph the leaflet while using the phone. She waited while I worked out that I could.
 
 ## 000093-687de6427cb9
 
-The bus was empty upstairs, so I could sit at the front and see the old route from above the hedges. At the bypass, we turned away from the road I remembered. The new estate began where my uncle's greenhouse had stood, its entrance built over the track we used to cycle.
+Upstairs was empty. I took the front seat and watched the road over the hedges, trying to recognize the turn before we reached it. At the bypass the bus swung left. My uncle's greenhouse had stood where the estate entrance was now; the track we cycled along ran beneath its central island. A car waited there with its indicator flashing.
 
 ## 000093-5aa43c6ca572
 
@@ -758,11 +762,11 @@ The restaurant's upstairs room had an empty, distant air. We checked the seating
 
 ## 000093-269c099c7a7d
 
-Two seats remained empty throughout the meal, with folded napkins standing where my aunt and uncle should have been. Their train had stopped outside the city. We kept sending photographs of each course, and they replied with pictures of the sandwiches they had bought from the trolley until its battery failed.
+Two seats remained empty throughout the meal, with folded napkins standing where my aunt and uncle should have been. Their train had stopped outside the city. We sent photographs of each course, and they replied with pictures of sandwiches bought from the trolley. The exchange ended when my uncle's phone battery failed.
 
 ## 000093-06fad975f075
 
-Stillness lay across the workshop like a sheet. Mo checked the brass hinges against the drawing and marked the screw holes with a pencil. The lid would need to open farther than the old one. He tested it with a cardboard strip before drilling, while his apprentice searched for the smaller bit.
+Mo taught me to test a hinge with cardboard before I drilled the wood. He would mark the screw holes, cut a strip from a box and fold it along the line where the lid should move. Stillness lay across the workshop like a sheet during those lessons. Years later, I still cut the strip. I can hear his objection before the cardboard catches.
 
 ## 000093-f9a443994c6c
 
@@ -770,7 +774,7 @@ The workbench was clear for the first time since Mo began the cabinet. Its top s
 
 ## 000093-cd86d01e9e2c
 
-A heavy pause filled the entire station. I bought a newspaper for my mother and asked the kiosk owner to keep the change in exchange for a paper bag. She liked the crossword untouched, so I read the sports pages on the train and folded them back around the rest before reaching her stop.
+My mother liked the crossword untouched. I bought her newspaper at the kiosk and asked for a bag, then read only the sports pages while I waited for the train in the station's heavy quiet. At her stop I folded them back around the rest. The paper would be on her table before she came down for breakfast.
 
 ## 000093-68f825355d43
 
@@ -782,7 +786,7 @@ We were trying to remember which drawer held the spare mattress cover. The guest
 
 ## 000093-2622d49fa5b1
 
-The guest room was cold along the outside wall, where the wallpaper had begun lifting behind the bed. When we moved the headboard, a damp outline matched its shape. Mum's hot-water bottle had been leaking from the stopper, soaking the pillow and then the wall each night without marking the visible quilt.
+The guest room was cold along the outside wall, where the wallpaper had begun lifting behind the bed. When we pulled the upholstered headboard away, droplets covered the wall behind it. The exposed wall on either side was dry. The surveyor measured the surface temperature and asked us to leave a gap for air to circulate behind the headboard.
 
 ## 000093-37678b407605
 
@@ -790,7 +794,7 @@ The archery club gathered in muted quiet. I compared the borrowed arm guards and
 
 ## 000093-33efd3de826e
 
-The range was clear beyond the targets, and the instructor kept everyone behind the rope while he checked the hedge. A dog had run through the gap from the footpath. Its owner appeared a moment later carrying the lead, and all the bows stayed on their stands until they had both left.
+The grass between the shooting line and the targets was clear, but the instructor kept everyone behind the rope while he checked the hedge beyond. A dog had run into it through a gap from the footpath. Its owner appeared a moment later carrying the lead, and all the bows stayed on their stands until she had found the dog and taken it off the range.
 
 ## 000093-da4cb1d7fc81
 
@@ -798,7 +802,7 @@ The newsagent had ordered the wrong magazine for my father again. A worn silence
 
 ## 000093-29a90effa93d
 
-The newsagent's shelves were empty below the magazines, with handwritten notes apologizing for missing milk and bread. His delivery driver had broken an axle outside town. Customers arriving for breakfast supplies were putting their names on a list, and he was dividing the remaining loaf into half-sized bags behind the counter.
+The newsagent's shelves were empty below the magazines, with handwritten notes apologizing for missing milk and bread. His delivery driver had broken an axle outside town. Customers arriving for breakfast supplies were putting their names on a list, and he was cutting the remaining loaf into smaller portions and putting each portion in a bag behind the counter.
 
 ## 000093-3f457781ed7f
 
@@ -814,11 +818,17 @@ My sister showed me the map she had drawn for the delivery driver, including the
 
 ## 000093-05dfa1090d45
 
-The house was empty by September. My sister took one photograph from the doorway of each room, including the box room that had never appeared in family pictures. In that last image, the wallpaper was covered in tiny pencilled measurements showing how much our dog had grown before we realized he would stay small.
+September: the house empty, my sister photographing each room from its doorway. She included the box room this time. Along its skirting board, little pencil marks recorded the dog's height. For months we had measured him every Sunday, expecting him to become the large animal we had been promised. The last mark was hardly higher than the first.
 
 ## 000093-4adcdbae4c1f
 
-A quiet vacancy hung over the kitchen table. I spread out the train tickets and worked out which ones needed collecting from a machine. The outward journey had a barcode, but the return required the card used for payment. My husband had already packed that card in the suitcase we were borrowing from his sister.
+"The outward tickets are on the phone."
+"And the return?"
+"We collect those. It says we need the card."
+"Which card?"
+I turned the booking confirmation toward him. A quiet vacancy hung over the kitchen table.
+"The one in the suitcase," he said.
+The suitcase was already in his sister's car, on its way to the airport.
 
 ## 000093-0da72c1772da
 
@@ -830,7 +840,7 @@ The park seemed enclosed in stillness. I checked the numbers on the trees agains
 
 ## 000093-14914eb3a0e2
 
-The park was empty at dawn, allowing the deer to stand on the paved path instead of retreating into the trees. One chewed a strand of ornamental grass beside the litter bin. I watched from the gate as a second animal crossed behind it, placing each hoof inside the first one's wet prints.
+The park was empty at dawn, and the deer stood on the paved path instead of retreating into the trees. One chewed a strand of ornamental grass beside the litter bin. I watched from the gate as a second animal followed it across the wet paving, leaving a narrow trail of dark hoofprints.
 
 ## 000093-a394ca0ac735
 
@@ -842,15 +852,15 @@ The cloakroom was unoccupied when we came out of the concert. A sign said the at
 
 ## 000093-f08b65b6941b
 
-The lane rested under a spell of quiet. I walked back to the car carrying the eggs level in both hands, remembering the cracked one I had brought home last week. At the gate, the farmer's daughter called me back. I had left my purse on the shelf beside the honesty box.
+The farmer's daughter called me back for my purse. I had left it beside the honesty box again. She brought it to the gate, walking barefoot over the gravel, and asked whether I would still want eggs after the farm changed hands. I said yes before asking who was buying it. She looked toward the house. I carried the eggs back to the car through the lane's deep quiet.
 
 ## 000093-4ebaaac91ea3
 
-The lane was still blocked by the fallen branch when the milk van arrived. Its driver could reverse as far as our gate, but the bend beyond was too narrow to turn. We carried the crates through the garden and loaded them from the other side while he backed onto the main road.
+The lane was still blocked by the fallen branch when the milk van arrived from the main road. The driver stopped on the far side of the branch. We carried the empty crates out of our front gate, through the garden next door and out its gate beyond the obstruction. He loaded them there, then reversed along the lane to the main road while I guided him.
 
 ## 000093-c4b9d3006760
 
-We passed the museum's model railway three times while searching for the toilets. A grey hush filled the building. My father insisted he remembered a door behind the station display, but that turned out to be part of the model. A volunteer finally directed us through the cafe and lent him her staff key.
+We passed the museum's model railway three times while searching for the toilets. A grey hush filled the building. My father remembered a door behind the display, but the doorway now held a glass case of locomotives. He had last visited before the extension was built. A volunteer directed us through the cafe to the new toilets.
 
 ## 000093-7af578205c76
 
@@ -914,7 +924,7 @@ I wrote the children's names on separate raffle tickets, but the youngest insist
 
 ## 000093-8500e41123a0
 
-Quiet made a home in the little shop. I chose three postcards and asked whether the price included envelopes. The owner found a box beneath the counter and tried the cards against several sizes. One envelope had a Christmas tree printed inside, which seemed harmless enough for a birthday in June.
+Dear Anna, I bought the postcards you wanted, though I had to ask about envelopes. Quiet made a home in the little shop while the owner searched beneath the counter. He remembered your drawing of the harbour. I hadn't told him you were my daughter. He asked whether you were still painting, and I said I thought so. Write when you can.
 
 ## 000093-735681acc1b3
 

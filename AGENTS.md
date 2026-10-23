@@ -49,6 +49,7 @@
   - Include the family, type, and `development` or `holdout` in each slug; record the split in JSON.
   - Freeze isolated sets at exactly 100 desired hits and 100 desired no-hits per type in each split, with varied wording and contexts. Each caught hit or false positive then represents one percentage point within its class.
   - Correct labels before selecting the final set. Generate replacements when needed, preserve reviewed hard cases, and archive surplus passages with their original labels in a linked Git commit.
+  - Re-review rewritten passages and any changed label lacking independent support, including changes that leave the wording unchanged. Require matching support before freezing the label.
   - Choose the balanced set before detector evaluation, independently of detector scores. Compare candidates on the same examples and report uncertainty when drawing conclusions.
   - Check identical and near-identical writing across splits before freezing them, including passage/full-text copies.
   - Record the files each protected reviewer read. Invalidate and repeat any pass that exceeds its permitted inputs; a later restricted read cannot remove earlier exposure.
@@ -66,6 +67,7 @@
    - Use development demonstrations. Keep holdout passages, labels, and snippets out of that context.
 3. Freeze the candidate, prompts, model, thresholds, execution settings, and acceptance criteria before evaluating holdout.
    - Compare candidates on identical inputs. Run independent passages separately; preserve complete texts for whole-text checks.
+   - Record the loaded SDK version and module hashes with each completed inference run.
 4. Report results per issue type, family, and isolated versus mixed sets.
    - Count caught and missed positives, correctly unflagged negatives, false positives, newly caught positives, lost positives, and corrected false positives.
    - Report passage detection and highlighting separately when the runner produces both.

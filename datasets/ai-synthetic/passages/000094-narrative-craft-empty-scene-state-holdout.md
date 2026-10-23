@@ -2,7 +2,7 @@
 
 ## 000094-0a38efc69ac8
 
-Mara spread the recipe cards across the kitchen table, looking for the one with her aunt's corrections. The kitchen was quiet. She found it under a shopping list, the quantities doubled in blue ink. "That's why yours always makes so much," Ben said. Mara turned the card over and discovered a second set of corrections on the back.
+Mara still cooks from the card with the blue corrections, although she has copied the recipe into her notebook twice. The kitchen was quiet as she checked the quantities against her aunt's handwriting. On the back, beneath a grease mark, another correction reduced the sugar. She copied that too, leaving room for whatever she might discover next time.
 
 ## 000094-9cf62909c3e3
 
@@ -10,7 +10,7 @@ At the bend, the water was still enough to show the footbridge upside down. I co
 
 ## 000094-6cef0043aa75
 
-The room seemed suspended in stillness. At her desk, Leena compared the invoice with the delivery slip while her colleague sorted receipts beside her. Someone had charged them for twelve replacement filters, although the carton held six. She circled both figures and slid the papers across. "Before you call," he said, "check whether they packed the other six underneath."
+Twelve filters on the invoice, six in the carton. Leena counted them again while the room seemed suspended in stillness, then checked beneath the packing paper. Six. She wrote the delivery number at the top of her message to the supplier and attached a photograph of the open box. Her colleague asked her to copy him in.
 
 ## 000094-78ffc479e70c
 
@@ -18,7 +18,7 @@ The room seemed suspended in stillness. At her desk, Leena compared the invoice 
 
 ## 000094-95f1c40ee76d
 
-From our rented balcony we could see the bakery's striped awning and, beyond it, the road climbing toward the fort. A quietness lay over the town. My sister was already marking the map with the pencil she'd borrowed at reception. She wanted to start with the museum; I wanted breakfast. We compromised by taking the road past the bakery.
+My sister remembers that holiday by its museums. I remember the bakery beneath our balcony, where the woman behind the counter began putting aside two rolls before we had learned how to ask for them. We usually ate standing at the rail, dropping crumbs onto the striped awning. Beyond it, the town lay in a vague quietness.
 
 ## 000094-237a14a40f5a
 
@@ -50,7 +50,7 @@ The kitchen was cold when we unlocked the holiday cottage. I kept my coat on to 
 
 ## 000094-cbb852c7fd9f
 
-Nico sat on his bed with the laptop balanced on a shoebox, helping his daughter choose photographs for her school project. Beyond his closed door, the hallway stood empty. "Use the one with the broken umbrella," he said. She held it up to her camera. He had forgotten how small she'd been on that trip, barely reaching the handle.
+"Turn it round, Dad. I can only see the back." Nico held the photograph closer to the laptop camera. Beyond his closed door, the hallway stood empty. His daughter wanted the picture of the broken umbrella for her school project, but he kept studying the child beneath it, whose hands had barely reached the handle. "That one," she said. "Can you scan that one?"
 
 ## 000094-8b1abce3eb49
 
@@ -70,7 +70,7 @@ On the beach, my brother showed me how to fold the newspaper into a hat. A still
 
 ## 000094-4e3ab6144a08
 
-She arrives at the office carrying three folders and a pear. By nine she has solved the scheduling problem with the brilliance of a thousand suns. I ask which appointments moved. She points to the yellow column, bites the pear, and sends me to telephone Mr. Ellis, whose Tuesday appointment now appears under Thursday.
+In our office, correcting the appointment book earns the sort of acclaim usually reserved for landing aircraft without wheels. She arrives carrying three folders and a pear. By nine she has solved the scheduling problem with the brilliance of a thousand suns. I am assigned the ceremonial task of telephoning Mr. Ellis, whose Tuesday appointment now appears under Thursday.
 
 ## 000094-d96793e26443
 
@@ -90,7 +90,7 @@ The carriage was empty except for a man asleep across the seats by the heater. I
 
 ## 000094-bd403e370274
 
-We had agreed to sell the canoe and split the money. My cousin arrived with a buyer who wanted to know whether the paddles were included. The afternoon lay quiet around us. I fetched both paddles from the shed, discovering on the way that one still carried my childhood phone number.
+The buyer strapped our canoe to his roof rack while the afternoon lay quiet around us. My cousin counted the money on the bonnet and handed me half. Only then did I notice our childhood phone number on one paddle. I watched it rise out of reach as the buyer tightened the strap. He asked whether that was secure enough, and I said it was.
 
 ## 000094-1e93efa5cd80
 
@@ -122,7 +122,7 @@ The lane was deserted when the calf got through the gate. There was room to turn
 
 ## 000094-a442e60944c0
 
-I met the new treasurer beside the swimming pool vending machine. She had brought the receipts in a biscuit tin and wanted me to identify a payment for lane ropes. The building held its breath. We found the invoice underneath a photograph of last year's relay team, folded into quarters.
+For three seasons, the swimming club's receipts lived in a biscuit tin beside the treasurer's kettle. Each new treasurer inherited the tin. When it reached me, it contained an invoice for lane ropes, two relay photographs and a spare padlock key. The building held its breath as I spread everything across a bench by the pool. I began with the invoice.
 
 ## 000094-38d4ea5ce3d9
 
@@ -166,15 +166,15 @@ Mina checked the pockets of every coat on the rack before remembering she'd lent
 
 ## 000094-aa5ad52c9d69
 
-The practice room was empty at noon, which meant I could use the piano without booking a slot. Someone had left a beginner's book open at a tune my grandmother used to sing. I played it twice with one finger before taking out the scales I was supposed to practise.
+I tried the practice-room door at noon. Empty, with the beginner's book still open on the piano. There was the tune my grandmother used to sing, printed beneath a drawing of a boat. I left my scales in their folder and picked it out with one finger. On the second attempt, I could hear where the words belonged.
 
 ## 000094-a816b0465fb3
 
-We compared the two tents by spreading their groundsheets across the lawn. One had a porch large enough for our boots; the other weighed a kilogram less. Quiet held the garden. My partner voted for carrying less, then asked where we planned to put the dog when it rained.
+From the upstairs window, the two groundsheets looked almost identical. On the lawn, where quiet held the garden, we walked their outlines in our socks. One tent would save a kilogram. The other had a porch. My partner put the dog's wet blanket inside that outline and stood back to let me consider it.
 
 ## 000094-4e9983ce4834
 
-The report described the platform as "quiet and unobstructed." On the recording, a trolley stood across the yellow line and announcements drowned out the guard's whistle. I replayed those twenty seconds for the investigator. She asked me to attach the original audio rather than quote my own description of it.
+The report described the platform as "quiet and unobstructed." In the station video, a trolley stood across the yellow line and announcements drowned out the guard's whistle. I replayed those twenty seconds for the investigator. She asked me to attach the original video file, with its sound intact, rather than quote my own description of it.
 
 ## 000094-6c17be169602
 
@@ -190,7 +190,7 @@ At breakfast, Vera announced that she'd bought a secondhand tandem. A hush passe
 
 ## 000094-0e13d48c28ee
 
-The upper street was silent while the lower one rang with hammering. At first I thought the builders were working beneath our window, but the retaining wall carried the sound uphill. From the balcony I could see the scaffolding two streets away, with a red jacket moving along its top board.
+None of the houses on the upper street had building work under way, yet hammering seemed to come from directly beneath our window. From the balcony I could see scaffolding two streets downhill, with a red jacket moving along its top board. Between hammer blows, I heard the worker call to someone below. His voice reached us just as clearly.
 
 ## 000094-c59d250371b0
 
@@ -218,7 +218,7 @@ The freezer was empty, its wire shelves dry enough to squeak under my glove. Acc
 
 ## 000094-76aece5e67fd
 
-I sat beside my daughter while she filled in the application for her first summer job. A broad silence occupied the room. Under previous experience, she listed babysitting her brother and running the cake stall. I suggested leaving out the part about losing the cash box, since we'd found it before closing.
+Under previous experience, my daughter wrote babysitting and running the cake stall. She hovered over the next line while a broad silence occupied the room. I remembered carrying her to that same table to draw, her feet years away from reaching the floor. She asked whether to include the dates. I moved my elbow off the instructions so she could read them.
 
 ## 000094-d2b9455bf206
 
@@ -242,7 +242,7 @@ When the organ stopped, the church was quiet enough for us to hear my uncle coun
 
 ## 000094-87db507082ff
 
-We waited outside the changing rooms while the children argued over whose socks were whose. The sports centre seemed emptied of life. I checked the names inside two identical tracksuit tops and handed them through the door. Someone asked whether the swimming test counted if you had touched the bottom only once.
+We waited outside the changing rooms while the children argued over whose socks were whose. The sports centre had a hollow feel. I checked the names inside two identical tracksuit tops and handed them through the door. Someone asked whether the swimming test counted if you had touched the bottom only once.
 
 ## 000094-92a18c9e31cd
 
@@ -274,7 +274,7 @@ For the first week after the road closed, the village was quiet at school pickup
 
 ## 000094-7f31d5eb30e5
 
-The volunteer at the desk asked whether I preferred a window seat for the knitting class. An unbroken hush lay through the hall. I explained that I was there to repair the window, and showed her the packet of catches. She took back the ball of wool she'd already offered me.
+"Window seat?" The volunteer held out a ball of wool. "The light's better on that side." I showed her the packet of window catches and tried to explain who had sent me. An unbroken hush lay through the hall as she searched her list. My name appeared beneath the instructor's, with no indication that I had come to repair anything.
 
 ## 000094-3461d1e2e3d8
 
@@ -322,7 +322,7 @@ The room was quiet in a way I had never heard during my mother's illness: no oxy
 
 ## 000094-882bc9fbbb06
 
-At the ticket office, I discovered that the discount applied only if we returned the same day. The station had a still, empty quality. We were staying until Sunday, so the clerk suggested two singles and showed me a cheaper departure. I phoned my friend while he held the reservation screen open.
+By Sunday evening, the return fare had become the largest figure in my holiday notebook. I had written it down at the station, a place with a still, empty quality, while the clerk searched for a cheaper departure. Beneath it were the price of our room and the address my friend had dictated over the phone. Everything else on that page was crossed out.
 
 ## 000094-16a65092a5bb
 
@@ -346,7 +346,7 @@ We kept still while the bat circled above the landing. Each time someone moved t
 
 ## 000094-224d952bfde3
 
-Adele found a second signature on the pottery bowl, hidden beneath the price sticker. The market seemed to pause in silence. She showed it to the stallholder, who brought out a magnifying glass and read the initials aloud. They belonged to his mother, who had bought the bowl rather than made it.
+Adele worked the price sticker loose with her thumbnail. Beneath it, someone had scratched a second set of initials into the bowl's foot. A vague stillness lay about the stall. She asked the seller to read the letters through his magnifying glass. He recognized his mother's handwriting and turned the bowl over in both hands before naming a price.
 
 ## 000094-e43766399682
 
@@ -378,7 +378,7 @@ The passenger seat was empty, but a fresh dent marked the dashboard directly in 
 
 ## 000094-2ed582c08bf7
 
-My grandmother's handwriting grew smaller whenever she reached the edge of a postcard. We used a magnifier to read the last three lines from her trip to Wales. The bedroom was quiet in every corner. She had described the hotel pudding twice and omitted the name of the town entirely.
+The postcards tell us what my grandmother ate in Wales, but rarely where she stayed. Hotel pudding occupies half of one card. Her handwriting dwindles along the bottom edge until we need a magnifier for the final words. We bend over it together in the bedroom, which is quiet in every corner, and make out another description of the custard.
 
 ## 000094-2ce1fc91f54f
 
@@ -414,7 +414,7 @@ Our neighbour brought over a bucket of cherries and asked whether we had spare j
 
 ## 000094-2670a4bc2283
 
-The compartment was cold against my knuckles when I reached behind the dashboard. I had expected warmth from the heater ducts. The mechanic pulled the loose hose into view and showed me how it had come off the vent. Warm air had been blowing into the space behind the radio instead.
+The plastic throat of the passenger-side vent was cold against my knuckles, although the heater had been running for ten minutes. The mechanic removed the central dashboard trim. Behind the radio, well short of that vent, the supply hose had slipped off its connector. Warm air streamed from the loose end while the passenger outlet received none.
 
 ## 000094-b3516b7ca80f
 
@@ -426,7 +426,7 @@ The audience quieted before the lights changed. A boy in the front row had begun
 
 ## 000094-6f1f78ff05ea
 
-We were checking the model railway before the exhibition when a locomotive stopped inside the tunnel. The shed seemed sunk in stillness. I lifted the hill while Martin retrieved a screw from the track. It belonged to the bridge we'd repaired earlier, which now leaned slightly toward the painted river.
+Martin lifted the model hill by its edges. Inside the tunnel, the locomotive's front wheels had ridden onto a screw. The shed seemed sunk in stillness as he reached between the painted trees. Once the train was back on the rails, we followed the screw holes along the layout until we found the bridge with one empty fixing.
 
 ## 000094-99764176d973
 
@@ -438,7 +438,7 @@ The hairdresser remembered my usual cut but not the name she'd written beside my
 
 ## 000094-4ccdf3cb5e10
 
-The clearing was empty where the caravan had stood. Its wheels had sunk deep enough to leave four square pits, and the grass between them was yellow. My brother walked the old outline with his hands in his pockets. We could see the river from the path now, all the way to the bend.
+The clearing was empty where the caravan had stood. Its corner supports had left four square pits, and the grass beneath its old outline was yellow. My brother walked around the marks with his hands in his pockets. We could see the river from the path now, all the way to the bend.
 
 ## 000094-4b46c1df564e
 
@@ -482,7 +482,7 @@ The reception desk was empty, with a handwritten arrow pointing toward the laund
 
 ## 000094-c52b048284f4
 
-The first batch of postcards arrived with the pier printed backwards. A curious hush settled on our little office. We checked the file against the proof and found that we'd approved the reversed image ourselves. My colleague suggested selling them as mirrors, but the manager asked the printer for a quotation to replace them.
+Every postcard showed the pier extending left from the beach. It should have extended right. In our little office, under a curious hush, I opened the approved proof and found the same reversed image. My signature sat beneath it. I sent the printer a request for a replacement quotation, then waited with the box still open on my desk.
 
 ## 000094-acc9d9ba4e3b
 
@@ -498,7 +498,7 @@ The garden had gone quiet since the old apple tree came down. There were no bran
 
 ## 000094-7fe38192f9d2
 
-At the museum workshop, we made small bowls by pressing clay over an upturned cup. The room carried a muted stillness. My father's bowl stuck to its mould, so he took the whole thing home wrapped in a towel. For years afterwards, that particular cup remained unavailable whenever visitors wanted tea.
+At the museum workshop, we pressed air-drying clay over upturned cups to make bowls. The room carried a muted stillness. Dad left his on the mould all week. By the time he tried to remove it, the clay had shrunk tightly around the cup, and he broke the bowl getting it free. He kept a piece with my thumbprint in it.
 
 ## 000094-3a73739b73b4
 
@@ -510,7 +510,7 @@ Our coach wanted the team photograph taken before anyone got mud on their kit. A
 
 ## 000094-a023ab40967f
 
-The load was heavy enough to pull the trolley toward the kerb when I released the brake. We shifted two sacks to the uphill side and tried again. This time it stayed square. The delivery driver watched from his cab, then climbed down to show us the second brake behind the wheel.
+The sacks were stacked on the downhill side of the trolley, and its uphill wheels almost lifted as we crossed the sloping pavement. I held the frame while we shifted two sacks across. This time all four wheels stayed on the ground as we rolled it forward. At the doorway, the driver showed us how to set both wheel brakes before unloading.
 
 ## 000094-95353d546540
 
@@ -546,11 +546,11 @@ The ledger's final page was blank. Every earlier page carried my grandmother's d
 
 ## 000094-9f4bcfc455b2
 
-At the language exchange, my partner taught me how to ask for a spare tyre. A soft hush settled through the cafe. I taught him how to complain politely about a leaking roof. By the end of the hour, we had discovered that both examples came from things our landlords still hadn't repaired.
+For six Thursdays, our language exchange consisted of complaints about rented rooms. He taught me the words for a spare tyre; I corrected his letter about a leaking roof. We sat beneath the cafe's soft hush, writing sentences in each other's notebooks. By the final week, I could describe the stain above his bed more fluently than I could introduce myself.
 
 ## 000094-21f49189ef29
 
-The street remained empty until the factory whistle, then filled with bicycles in less than a minute. From my grandmother's window, we could pick out my grandfather by the box strapped behind his saddle. I learned to put the kettle on at the whistle, long before I was old enough to read the clock.
+From my grandmother's window, the street stayed empty until the factory whistle. Then bicycles filled it, and I searched for the wooden box behind my grandfather's saddle. My grandmother would already be carrying the kettle to the sink. On Saturdays I sometimes watched the same patch of road until she reminded me what day it was.
 
 ## 000094-588086407514
 
@@ -602,7 +602,7 @@ The chest was lighter than its iron handles suggested. We carried it upstairs be
 
 ## 000094-aff8b2239585
 
-The dog trainer asked me to walk past the bench without tightening the lead. Stillness lay across the park. My dog ignored the first pigeon and watched the second with interest, but kept walking. The trainer praised me, then pointed out that I'd been holding my breath since the gate.
+You walk past the bench once, then again. The trainer asks for slack in the lead. Stillness lies across the park as your dog watches a pigeon land beside a discarded crust. You keep walking. At the gate, the trainer asks you to describe what your hand did, and you discover you can remember the pigeon more clearly than your fingers.
 
 ## 000094-eb5e3e184c28
 
@@ -658,7 +658,7 @@ Only the west side of the greenhouse was bare. On the east side, tomatoes presse
 
 ## 000094-27e0a31eded0
 
-The photographer asked us to stand closer so the whole family would fit beneath the arch. A hush fell over everyone. My uncle moved behind my father, and the twins swapped places twice before settling beside their grandmother. When the camera flashed, the dog was the only one looking straight at it.
+In the photograph, the twins stand on opposite sides of their grandmother. They changed places several times before the photographer accepted the arrangement. A hush fell over everyone as my uncle stepped behind my father. I remember the pressure of my sister's arm against mine, but the picture shows a narrow gap between us.
 
 ## 000094-0b2dd3b170c4
 
@@ -714,7 +714,7 @@ The old cinema was dark except for the emergency lights, which outlined the aisl
 
 ## 000094-3c70bc81492d
 
-The courier had delivered our neighbour's parcel to us for the third time that month. The landing seemed emptied out. I carried it upstairs and asked whether her doorbell was working. She pressed it from inside while I listened, and we discovered that it rang in the vacant flat next door.
+Another parcel for upstairs. I recognized the surname before the courier handed over his pen. On the landing, which seemed emptied out, I shifted the box against my hip and knocked. My neighbour opened the door with her phone in her hand, tracking the delivery. We stood together while the little van on her screen reached our building.
 
 ## 000094-346c81450536
 
@@ -726,7 +726,7 @@ I met the building surveyor at the side gate and showed him where the gutter ove
 
 ## 000094-8964d32d62f7
 
-The first four beats were silent, though the conductor's hands kept moving. We had rehearsed counting them under our breath, waiting for the soloist to finish behind the curtain. At the concert, someone in the audience began clapping during the pause. The conductor held his left hand up without turning around.
+After the soloist's last note behind the curtain, there were four silent beats before our entrance. The conductor's hands kept moving. We had rehearsed counting those beats under our breath, but at the concert someone began clapping halfway through them. The conductor held his left hand toward the audience and brought us in with his right.
 
 ## 000094-94dc3577380c
 
@@ -758,7 +758,7 @@ The children had collected enough bottle tops to cover the cardboard fish, but o
 
 ## 000094-cb734f29d0c6
 
-The room listing said "empty possession," but the photograph showed a wardrobe and a bed. I asked the letting agent which description applied. She explained that the owner would remove the furniture before the tenancy began. We added that date to the inventory appointment so I could measure the alcove afterwards.
+The flat's sale particulars promised "vacant possession." The seller was still living there when we viewed it, so I asked the agent when she would leave. He pointed to the proposed completion date on the offer sheet. We arranged a final visit for that morning, after her removal van had gone.
 
 ## 000094-9309f4ae72a0
 
@@ -770,7 +770,7 @@ The beach was quietest at low tide, when the water retreated beyond the shingle 
 
 ## 000094-deae842d9b16
 
-We compared the holiday photographs while waiting for the takeaway. An idle stillness filled the sitting room. Half the pictures showed my sister pointing at something outside the frame. In the last one, she was pointing at me, because I'd finally turned the camera around and asked what she'd been trying to show us.
+Half the holiday photographs show my sister pointing beyond the frame. In one, her hand covers the clock tower I meant to photograph. We pass the prints across the sitting room, where an idle stillness lingers, while she names the things I missed. She remembers a procession. I remember waiting for her to lower her arm.
 
 ## 000094-d7238bed7679
 
@@ -802,7 +802,7 @@ The flat was cold after the landlord removed the old storage heaters. We ate din
 
 ## 000094-f2f75b011adf
 
-I took my aunt to choose a walking stick from the mobility shop. Silence folded itself around the room. She tried a blue one, rejected a floral one, and asked whether the plain wooden model could be shortened. The assistant measured her wrist height while she explained that all her trousers needed shortening too.
+My aunt has brought the measurements of every doorway in her flat. The assistant needs only the height of her wrist. Silence folds itself around the room as she offers him the folded sheet, then lets me hold it while she tries a wooden stick. She walks to the display of cushions, turns, and comes back without looking at either of us.
 
 ## 000094-46b45a6cc0b8
 
@@ -830,7 +830,7 @@ We practised folding the paper lanterns before the festival volunteers arrived. 
 
 ## 000094-63cec77924fe
 
-The marble hall was cold after the courtyard's heat. My glasses misted as I stepped inside, and I had to hold the handrail until I could see the stairs. From the upper landing came the smell of soup. My cousin called down that lunch was waiting, exactly as she'd done when we were children.
+The marble hall was warm after the freezing courtyard. My glasses misted as I stepped inside, and I had to hold the handrail until I could see the stairs. From the upper landing came the smell of soup. My cousin called down that lunch was waiting, exactly as she'd done when we were children.
 
 ## 000094-8a1fff58af8f
 
@@ -850,7 +850,7 @@ The courtyard was empty at prayer time, when the men who repaired bicycles there
 
 ## 000094-d3a30327074a
 
-My son asked me to check the spelling on his missing-cat poster. The kitchen was thick with stillness. He had described the white patch under the cat's chin but forgotten to include our telephone number. We added it in large figures and printed six copies for the shops near the park.
+"White under his chin," my son reads from the poster. "One torn ear." The kitchen is thick with stillness. He has drawn the cat larger than the lettering, with each whisker added separately. I ask where someone should ring if they find him. He turns the page over, writes our number on the back, then asks for another sheet.
 
 ## 000094-9e29be4fb327
 
@@ -862,7 +862,7 @@ We took the curtains down to measure them for new lining. The room seemed to ret
 
 ## 000094-9bb7cab30262
 
-The room fell silent halfway through the recording, exactly where the tape had been spliced. Then my mother's voice returned at a different pitch, reading the next page of the story. Dad had recorded over the missing section years later. I could tell by the baby crying behind him that it was my sister.
+The room fell silent halfway through the recording, exactly where the tape had been spliced. Then my mother's voice returned at a different pitch, reading the next page of the story. Dad had recorded her reading the replacement section years later, with my baby sister crying in the background.
 
 ## 000094-704fd46e602b
 
@@ -886,7 +886,7 @@ Our neighbour asked us to feed her rabbit while she visited her sister. The hous
 
 ## 000094-3168421d4994
 
-The old quarry was still, sheltered from the wind by its steep sides. On the rim above us, birch branches bent hard enough to show their pale undersides. Down below, a loose feather floated in the same patch of water for several minutes. I sketched the contrast while my friend ate his sandwich.
+Up on the quarry rim, the birches bent until their pale leaf undersides showed. Down beside the water, my open sketchbook lay flat without a stone on it. A feather floated below the same ledge throughout our lunch. When we climbed out, my friend folded his sandwich paper into his pocket before we reached the wind.
 
 ## 000094-df997ea3f0e0
 
@@ -898,7 +898,7 @@ The chapel was empty on weekdays, and the caretaker let my mother practise there
 
 ## 000094-a6109c6efe46
 
-The electrician laid the old switches on the counter and showed us which ones could be reused. The kitchen seemed suspended between sounds. We chose new plates for the cracked ones and kept the rest. My father put the spare screws in a jam jar, then labelled it with the date and the electrician's name.
+The old switches lie in a row on the counter: two cracked, four sound. Dad moves the sound ones onto a tea towel while the kitchen seems suspended between sounds. The electrician writes down how many replacements to order. Later, I find Dad's jar of spare screws labelled with the date, the man's name and the room each switch came from.
 
 ## 000094-608f781891d6
 
@@ -910,7 +910,7 @@ My brother brought the recipe notebook so we could make the biscuits our aunt us
 
 ## 000094-58e12e6ed589
 
-The crowd quieted when the marshal raised the blue flag. Until then, people had been crossing the road between the runners. I held my nephew's hand and stepped back behind the chalk line. The wheelchair racers came through first, low enough that he would have missed them behind the adults if I hadn't lifted him.
+The crowd quieted when the marshal raised the blue flag. Until then, people had been crossing the road between runners warming up. I held my nephew's hand and stepped back behind the chalk line. The wheelchair racers came through first, low enough that he would have missed them behind the adults if I hadn't lifted him.
 
 ## 000094-b564c30236b7
 
@@ -946,11 +946,11 @@ The bag looked empty through the mesh, but a small key had caught beneath the fo
 
 ## 000094-8c4045f4860e
 
-At the station cafe, my uncle unfolded the family tree he'd been drawing on the backs of old calendars. The room seemed steeped in stillness. He had added two cousins since our last meeting and needed help placing a marriage date. I rang my mother, who corrected the date and the spelling of the groom's name.
+My uncle's family tree has reached the edge of another calendar. A marriage line runs through the printed tide times; two cousins occupy the margin. The station cafe seems steeped in stillness as he unfolds the next sheet across my cup. He has left a space for the date my mother promised to look up. We write her name beside it as a reminder to ask.
 
 ## 000094-268f38c1359e
 
-The corridor stood empty between visiting hours, giving the porter enough room to turn the bed without lifting its wheels over anyone's bags. He asked me to walk ahead and hold the double doors. My father watched the ceiling lights pass above him, counting them aloud until we reached the lift.
+The corridor stood empty between visiting hours, giving the porter enough room to turn the bed. He asked me to walk ahead and hold the double doors. My father watched the ceiling lights pass above him, counting them aloud until we reached the lift.
 
 ## 000094-5bc2d1211924
 

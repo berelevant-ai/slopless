@@ -46,11 +46,11 @@ The last ferry left at 18:25. When we reached the ticket window, my phone said 1
 
 ## 000095-3d1a6a28d118
 
-The oven clock said 2:47 when I came downstairs for water. When I came down again, it still said 2:47. I pressed the buttons, expecting the display to change, and found the glass cold under my fingers. The fridge was silent too. I went upstairs to find a torch before checking the fuse box.
+The oven clock said 2:47 when I came downstairs for water. When I came down again, its display was dark. The fridge was silent too. I tried the light switch, then felt my way back to the stairs to fetch the torch from my bedside drawer.
 
 ## 000095-c42e2472b83a
 
-According to the loading-bay camera, the van arrived at 06:52. The driver's delivery sheet said 06:41. I watched the recording again with him beside me, both of us leaning toward the little monitor. He pointed to the dashboard visible through his windscreen. Its clock was eleven minutes fast; he had written down its reading when he left the previous stop.
+According to the loading-bay camera, the van arrived at 06:52. The driver's delivery sheet said 06:41. He showed me the dashboard clock, which was eleven minutes fast. He had copied its reading when he left the previous stop at 06:30, then driven twenty-two minutes to us. I crossed out the delivery time while he checked the rest of the sheet.
 
 ## 000095-1ed1256c60c7
 
@@ -82,7 +82,7 @@ Late that afternoon, I returned to the cove. The sea was a mirror, and the silen
 
 ## 000095-fc9db0501a57
 
-At 9:26 a.m., Simon shook the crumbs out of the toaster. A raisin landed beside his slipper, and the dog came over to investigate. He swept everything into his palm before the dog could reach it, then leaned the toaster against the tiles while he looked for a clean cloth.
+Crumbs had collected under the toaster again. Simon shook them onto a sheet of newspaper at 9:26 a.m., folded the edges inward, and carried the bundle to the bin. A streak of grease remained on the counter. He worked at it with the rough side of the sponge until the laminate squeaked.
 
 ## 000095-0df028b1baa9
 
@@ -102,7 +102,7 @@ My uncle preferred sharpening pencils with his pocketknife. At 3:47 p.m., he bru
 
 ## 000095-2dd7304bbf11
 
-Seven sixteen in the evening found us rearranging the cushions on the borrowed sofa. The largest had a stain shaped like a boot, which we turned toward the wall. When our neighbour came to inspect the room, she sat directly on the smaller cushion we had placed over the torn seam.
+You take the cushions off first. At seven sixteen in the evening, you find yourself kneeling beside the borrowed sofa, pulling staples from its underside with pliers. The fabric tears around each one. You put the loose staples in a saucer and turn the sofa onto its back.
 
 ## 000095-a3efb0d11862
 
@@ -122,7 +122,7 @@ The receptionist handed us a clipboard with a pen tied to it. At 10:57, I clicke
 
 ## 000095-83f8fcb46d60
 
-At 21:03, Gabe pulled a loose thread from the blanket. It kept coming, gathering in a little heap on his stomach. His flatmate watched from the doorway with two bowls of noodles. "That was my grandmother's," she said, and he tried to feed the thread back into the wool.
+Gabe pulled at a loose thread. It unravelled across his stomach, exposing a narrow ladder in the blanket. His flatmate stood in the doorway with their supper. This was at 21:03. He gathered the wool into his fist while she set the bowls down, leaving his place at the table empty.
 
 ## 000095-5e78c339445c
 
@@ -138,7 +138,7 @@ I was trying to teach myself to darn. At 17:32, I passed the needle through the 
 
 ## 000095-630a1ed68793
 
-At 06:48:22, the fisherman adjusted the woollen cap on his head. His bucket held two small fish and a pair of pliers wrapped in a supermarket bag. I asked what he used for bait. He opened a tub of worms and held it out with the pride of someone offering chocolates.
+The fisherman let me hold the fish while he found his pliers. Its weight shifted against my palms. I remember the cold scales and the hook caught through the lip; at 06:48:22, he adjusted his woollen cap. Then he took the fish back and bent over it, shielding his hands from the wind.
 
 ## 000095-200d29c71a03
 
@@ -158,7 +158,7 @@ At 11:00:00, Arthur slid a cork mat beneath the teapot. He had brought out the c
 
 ## 000095-79240fb58815
 
-The rehearsal room had one window that opened onto a brick wall. At 20:37, I wiped the mouthpiece of my clarinet on my sleeve. Our drummer was explaining a rhythm by tapping his knees, but the bassist kept joining in at the wrong place and making everyone start laughing.
+Nobody wanted to be the first to say the arrangement was wrong. We played it again, the brass drowning the singer whenever she reached the chorus. I wiped my clarinet's mouthpiece at 20:37. Across the room, she closed her folder and asked us to try the passage without her.
 
 ## 000095-6b5e81df4fe8
 
@@ -178,7 +178,7 @@ We had taken the children to look for fossils. At 2:53 p.m., Sasha brushed sand 
 
 ## 000095-7fecf5eedada
 
-At 19h17, Marcel scraped the label from an empty jam jar. He wanted somewhere to keep the screws from the dismantled cot. His wife stood in the doorway holding their son's school uniform, testing the trousers against her leg as though she couldn't believe the child had grown that tall.
+Marcel had been told to keep every screw from the dismantled cot. He washed a jam jar, scraped off the label, and, at 19h17, dropped the screws inside. There were two sizes. He separated them into piles on the worktop before looking again at the holes in the frame.
 
 ## 000095-63774b050b0f
 
@@ -198,7 +198,7 @@ At 16:22, Nessa nudged a fallen chess piece back onto its square. Her opponent w
 
 ## 000095-bc61071e70d1
 
-We had been invited to help choose paint for the hallway. At twenty-seven minutes past one, I balanced a sample card against the banister. Every shade looked green beside the old wallpaper. My friend blamed the light, then her glasses, then the man who had named a grey paint "Warm Biscuit."
+The sample cards were spread across the landing. Beside the old wallpaper, every grey looked green. I balanced one against the banister at twenty-seven minutes past one and stepped back. My friend covered the wallpaper with a bedsheet. We stood on opposite sides of the sheet, each asking what the other could see.
 
 ## 000095-b255c52ed619
 
@@ -214,7 +214,7 @@ At 22:14, I placed my slippers beneath the radiator. My roommate had brought hom
 
 ## 000095-639fb2f3515b
 
-Thirteen thirty-seven, and Aunt May was peeling the backing from a postage stamp. She pressed it to the envelope with the pad of her thumb. Inside was a recipe for her neighbour, copied in large letters because the neighbour had complained that the original looked like a row of ants.
+The complaints office had sent May another form. She copied the reference number carefully, using the ruler to keep her place in the string of digits. Thirteen thirty-seven: she peeled the backing from a stamp. The envelope was already addressed to the department that had returned her first letter.
 
 ## 000095-810c490da8d1
 
@@ -234,7 +234,7 @@ At 20:26, Deirdre turned the cushion over to its striped side. Her brother was v
 
 ## 000095-6908c5eca3f1
 
-At 11:53:47, I rubbed a fingerprint off the glass cabinet. The cups inside belonged to the village bowling club, and nobody could agree whose turn it was to polish them. Sid said he would do it if somebody bought him lunch. That settled the matter more quickly than the committee ever had.
+I rub a fingerprint from the trophy cabinet at 11:53:47. Behind the glass, the cups are arranged by height rather than by year. Someone has turned the newest inscription toward the wall. I unlock the cabinet and rotate the cup, disturbing a clean circle in the dust.
 
 ## 000095-47f2d60406c3
 
@@ -258,7 +258,7 @@ At 15:58, I pulled a sock from inside the duvet cover. It belonged to neither of
 
 ## 000095-24093ab3ea83
 
-Nine thirty-three in the morning: Huw was stirring paint with a broken ruler. He had spread old election leaflets over the floorboards. His niece picked one up to ask whether the smiling candidate was a relative, and he said that would depend on how well the man fixed the drains.
+Huw stirred the paint with a broken ruler. Beneath his boots, old election leaflets protected the floorboards. He had spent months delivering those leaflets, pushing them through letterboxes while dogs hurled themselves against the doors. Now, at nine thirty-three in the morning, he wiped a run of paint across the candidate's face and reached for the roller.
 
 ## 000095-d86d227834fb
 
@@ -274,11 +274,11 @@ At 4:54 p.m., Nadia shook the crumbs from the bird feeder. The old man next door
 
 ## 000095-7b2d586a8a63
 
-At fourteen oh seven, we eased the cardboard sleeve off the new mattress. It expanded against the wall with a slow sigh. My son pressed his face into it and announced that it smelled like trainers. We left the window open and went downstairs to see what could be made from the enormous box.
+At fourteen oh seven, we eased the cardboard sleeve off the new mattress and slit the plastic bag holding it compressed. It expanded against the wall with a slow sigh. My son pressed his face into it and announced that it smelled like trainers. We left the window open and went downstairs to see what could be made from the enormous box.
 
 ## 000095-20e003f1d010
 
-At 23:18, Bea put a coaster under her glass. The kitchen was full of people who had stayed after the party to help clear up. Someone was eating icing from a knife. Someone else had found the birthday candles and was counting them, insisting we had put too many on the cake.
+Most of the party had moved onto the balcony. Bea stayed in the kitchen, rinsing glasses that nobody had asked her to rinse. At 23:18 she put a coaster beneath her own glass. When someone called her name, she held up a wet plate and carried on.
 
 ## 000095-5397801c3cc5
 
@@ -298,7 +298,7 @@ My aunt was determined to rescue the cracked flowerpot. At 3:09 p.m., she wrappe
 
 ## 000095-58c30d7db258
 
-At 21:46:03, Yusuf pressed the toothpaste tube flat with the edge of his comb. His little sister sat on the bath mat telling him about a snail she had brought home. Their mother had told her to put it outside, but she wanted him to decide which plant it would like best.
+Yusuf could hear his sister talking through the bathroom door. She wanted him to settle an argument, and he had already said he wouldn't. He pressed the toothpaste tube flat with his comb at 21:46:03. The door handle moved. He put the comb down and told her to ask their mother.
 
 ## 000095-043205dcdbba
 
@@ -318,7 +318,7 @@ At 13:23, Darius eased a splinter from the edge of the old bench. The wood under
 
 ## 000095-6775410ce7ad
 
-Forty-one minutes past eight that evening, I turned the knitting pattern sideways. The diagram made more sense until I tried following it. My partner looked over my shoulder and suggested that I was making a sleeve for a very square person. I pulled out three rows and started again.
+The sleeve had come out square. I turned the knitting pattern sideways, then upside down, trying to find the point where I had lost the shaping. Forty-one minutes past eight that evening, I pulled the needle free. The stitches opened under my thumb, and I wound the wool back into a ball.
 
 ## 000095-a0c900f48635
 
@@ -338,7 +338,7 @@ At two minutes after five, Anya pushed the loose brick back into the border. Her
 
 ## 000095-80cb63db0cf5
 
-At 09:39:56, I fastened the buckle on my sandal. The hotel courtyard smelled of oranges and floor cleaner. My wife was asking the owner about a picture of a donkey above the desk. He took it down to show her a name written on the back in a child's handwriting.
+The courtyard smelled of oranges and floor cleaner. From the room above came the sound of someone dragging furniture. I fastened my sandal at 09:39:56 while the owner searched for our key. He opened three drawers, leaving each open, then asked which room we had been given.
 
 ## 000095-e45f2389aaa8
 
@@ -358,7 +358,7 @@ At 14:43, I slipped the cardboard sleeve from the new notebook. Its pages smelle
 
 ## 000095-cf30d4603120
 
-At nine minutes to ten, the shopkeeper rearranged the oranges in their crate. A little girl was counting them while her father searched for his wallet. Whenever the man moved an orange, she began again. He caught her serious expression and quietly put the last orange back where it had been.
+The shopkeeper rearranged the oranges, putting the soft ones underneath. He did this at nine minutes to ten, while I stood with the empty crate against my hip. I asked whether we should throw them out. He took one from my hand and pressed it into the bottom row.
 
 ## 000095-47a4425cec7a
 
@@ -378,7 +378,7 @@ Thirty-four minutes after seven that morning, Ed shook the water from his umbrel
 
 ## 000095-60cea0dfd973
 
-At 11:21, I brushed a grain of sugar off my thumb. The woman opposite was telling me about her first week at the allotment. She had inherited a shed full of jars and an armchair with only three legs. We agreed that the chair could stay if she found it a brick.
+Across the cafeteria table, the union representative asked me to repeat what the supervisor had said. I brushed sugar from my thumb at 11:21. Saying the words a second time made them sound rehearsed. She wrote them down anyway and turned the notebook so I could check.
 
 ## 000095-8789d53ff31d
 
@@ -398,7 +398,7 @@ At 17:27, I fitted the lid onto the tub of soup. My downstairs neighbour had len
 
 ## 000095-1d0aea125941
 
-At 2:08 p.m., Milo rolled a small stone beneath his shoe. The family were choosing a spot for their picnic. His father wanted shade, his mother wanted a view, and his sister wanted to sit close enough to the pond to see whether the ducklings could climb the bank.
+Milo waited outside the estate agent's office. Through the glass he could see his parents pointing at a floor plan, his mother holding one corner down with her bag. He rolled a stone beneath his shoe at 2:08 p.m. The stone left a white scratch on the pavement. He rubbed it with his sole.
 
 ## 000095-184d86cfa984
 
@@ -418,7 +418,7 @@ At 12:38, Idris shook a pebble from his boot. We were walking the old canal path
 
 ## 000095-91fa5dc8bb09
 
-At five twenty-one that afternoon, I pushed the cupboard door until the latch caught. The borrowed board games were stacked inside in boxes repaired with different kinds of tape. My cousin chose the one with missing instructions, insisting he remembered how to play. His wife gave me a warning smile.
+The borrowed board games filled the cupboard. I pushed until the latch caught, at five twenty-one that afternoon, and rested my forehead against the door. In the next room my cousin was explaining the rules from memory. His wife interrupted him. I kept my hand on the cupboard handle.
 
 ## 000095-3f1e3cbf32fd
 
@@ -438,7 +438,7 @@ At thirteen fifty-two, I lifted the newspaper off the spare stool. The café was
 
 ## 000095-3cdb25ce5136
 
-At 11:07 a.m., Alma rubbed a mark from the brass door handle. The house belonged to her sister, who had asked her to water the plants. She had also left a cake in the kitchen with a note telling Alma to take half. Alma cut it with a ruler beside the plate.
+Alma had agreed to clear her sister's house. In the hall, she rubbed a mark from the brass handle at 11:07 a.m. The cloth came away black. She tried another patch, then fetched the metal polish from beneath the sink. The removal boxes stayed folded against the wall.
 
 ## 000095-1ff8267e97fd
 
@@ -454,7 +454,7 @@ At 08:41, the cleaner pushed a stray button into his pocket. The hall had been h
 
 ## 000095-4f5872be6e6e
 
-The receipt said 12:09, which settled whether we had bought the milk before the shop's fridge failed. At 13:47, I turned the carton so its handle faced me. My wife had suggested pancakes, and our son was already standing on a chair with the wooden spoon he considered his.
+The receipt said 12:09, which settled whether we had bought the milk before the shop's fridge failed. At 13:47, I turned the jug so its handle faced me. My wife had suggested pancakes, and our son was already standing on a chair with the wooden spoon he considered his.
 
 ## 000095-5f541518a9b0
 
@@ -462,7 +462,7 @@ My appointment was for 10:20, and the dentist was running late. At 10:14, I brus
 
 ## 000095-61cf99f57de5
 
-The timer rang at 19:06, exactly as the recipe promised. We took the bread out together because the tin was awkward. At 19:23, Paul brushed flour from the apron pocket. He said the loaf looked like the ones his father had made, right down to the uneven crack along the top.
+The bread went into the oven at 18:26. At 19:06, the timer completed the recipe's forty minutes, and we lifted the awkward tin out together. At 19:23, Paul brushed flour from the apron pocket. He said the loaf looked like the ones his father had made, right down to the uneven crack along the top.
 
 ## 000095-c8aab40f402c
 
@@ -470,7 +470,7 @@ According to the trail sign, the gate was locked at 16:30. We took the short pat
 
 ## 000095-f7bf2e015776
 
-At 21:17, Euan folded the top of the cereal packet inward. He was eating from a saucepan because the bowls were still packed. His sister had labelled every moving box with its room, except the one that said "things you always lose," which contained batteries, string, and his passport.
+Everything in the flat belonged to Euan now, including the boxes his sister had packed. He opened the one marked "things you always lose" and found his passport on top. At 21:17 he folded the cereal packet shut. He ate from the saucepan, standing over the sink, and left the passport where it was.
 
 ## 000095-0c751f826217
 
@@ -490,7 +490,7 @@ At twenty-six minutes to eleven, Niko tucked the paper tag beneath the scarf. He
 
 ## 000095-1084353a0d06
 
-At 16:56, I pushed the loose caster back into the trolley. Our neighbour was giving away books, and I had taken more than I could carry. On top lay a guide to keeping chickens. I lived in a second-floor flat, but she said it was worth reading for the drawings.
+The trolley leaned toward the gutter. I pushed its loose caster back into place at 16:56, keeping a knee against the books while a cyclist passed. Rain had swollen the bottom carton. When I lifted it, a row of hardbacks slid through the split cardboard and landed spine first in the road.
 
 ## 000095-0d7dfd072e87
 
@@ -498,7 +498,7 @@ At 09:24, Alice folded the tea towel into a smaller square. At 09:25, she placed
 
 ## 000095-8a543731b1d1
 
-At fourteen minutes past eight that evening, I unscrewed the lid of the pencil sharpener. The shavings inside looked like little pleated skirts. My daughter wanted to glue them onto a picture. We spent the evening making people with wooden dresses and trying to keep the cat away from the wet paste.
+The classroom was empty except for the cleaner and me. Pencil shavings covered the art table, caught in the dried ridges of paste. I unscrewed the sharpener at fourteen minutes past eight that evening. Another heap fell out. The cleaner held the bin beneath my hands while I scraped the blades with a brush.
 
 ## 000095-e2da7dbd811c
 
@@ -506,7 +506,7 @@ At 13:05:30, Stefan turned the handle of the pepper mill. Nothing came out. He s
 
 ## 000095-0b725fd1be5d
 
-At 5:00:00 p.m., I pulled the cover from the sewing machine. It had belonged to the woman upstairs, who was moving into a smaller place. She had included a tin of needles and a note about the stubborn foot pedal. I sat down to practise on an old pillowcase.
+I pulled the cover from the sewing machine. The woman upstairs had included a tin of needles and a note about the stubborn pedal. It was 5:00:00 p.m. I fed an old pillowcase beneath the foot and pressed down gently. The machine lurched, dragging the fabric sideways before I could lift my heel.
 
 ## 000095-4b8ba7de4372
 
@@ -514,7 +514,7 @@ At eleven fifty-three, Marta eased the wrapper off a new bar of soap. Her father
 
 ## 000095-c69a4f940bef
 
-At 19:08, I gathered the loose dominoes into the box. At 19:10, my uncle rubbed his chin. He wanted another game, but my aunt had started bringing out plates of sliced melon. We made room on the table, and he used the last domino to prop up a wobbly serving dish.
+I gathered the dominoes into their box at 19:08. My uncle kept one beneath his palm. He had lost again and wanted to explain how, but my aunt was bringing out plates. At 19:10 he rubbed his chin. I held the open box beside his hand until he let the last piece fall.
 
 ## 000095-3d2466e9c92f
 
@@ -578,11 +578,11 @@ My parking session expired at 12:43. At 12:40, the woman ahead of me began count
 
 ## 000095-bf8422a7b736
 
-The recording began with a voice saying, "Test, test, fourteen thirty-two." Our uncle used that opening on every tape, even when he was recording birds in his own garden. Hearing it again, my sister began smiling before the first blackbird sang. We knew his voice better than we had expected.
+The recording began with a voice saying, "Test, test, fourteen thirty-two." Our uncle always announced the current time after those two test words, even when he was recording birds in his own garden. Hearing his familiar delivery again, my sister began smiling before the first blackbird sang. We knew his voice better than we had expected.
 
 ## 000095-632e621d0663
 
-At 06:11 the kitchen tap ran clear; by 06:14 it was brown. I filled two jars and wrote the times on their lids for the water company's technician. He held them against the window, then asked whether anyone had opened the hydrant at the end of the street.
+The first jar stood beneath the kitchen tap at 06:11, filling with clear water. At 06:14 I filled another; this one was brown. The technician held the labelled jars against the window. "Anyone opened that hydrant?" he asked, pointing toward the end of the street.
 
 ## 000095-6f864d2c1ed4
 
@@ -630,7 +630,7 @@ A pale rectangle reading 02:07 floated beside the bed. Without my glasses, I cou
 
 ## 000095-842a68a87542
 
-The school gate opens at 08:35, but the breakfast club uses the side entrance from 07:45. I had brought my niece early on my first morning collecting her. She took my hand, led me around the building, and showed me the bell I had walked straight past.
+The school gate opens at 08:35, but the breakfast club uses the side entrance from 07:45. On my first morning taking my niece to school, I brought her early and waited at the main gate. She took my hand, led me around the building, and showed me the bell I had walked straight past.
 
 ## 000095-4e5588de4ece
 
@@ -638,7 +638,7 @@ On the back of the photograph, someone had written "04:22, first light." The pic
 
 ## 000095-f151a1312991
 
-The first knock came at 22:06, the second at 22:08. I watched the numbers change on the microwave while I stood barefoot in the kitchen. Our neighbour had promised to knock twice if the missing puppy appeared in her garden. I grabbed the lead and went downstairs without my coat.
+The first knock came at 22:06. I waited for my husband to answer, forgetting he was wearing headphones upstairs. At 22:08 the visitor tried again. Our neighbour had promised to come round if the missing puppy appeared in her garden. I grabbed the lead and went downstairs without my coat.
 
 ## 000095-8abda9cc20e1
 
@@ -706,7 +706,7 @@ The church clock showed 8:41 through the gap between the curtains. Its face was 
 
 ## 000095-089befa7d0f8
 
-At 07:08, the first delivery trolley crossed the loose paving slab. I heard the same double clatter at 07:26 and 07:41. When the building manager asked what woke us, I played the three clips from my phone. He crouched beside the slab and pressed its raised corner with his thumb.
+Three clips on my phone: a trolley wheel, a double clatter, then the fading rattle of bottles. Their timestamps were 07:08, 07:26 and 07:41. The building manager listened on the pavement outside our bedroom window. When the next delivery came, he watched its wheels cross the loose slab and pressed the raised corner with his boot.
 
 ## 000095-e0d455dbaca5
 
@@ -718,7 +718,7 @@ The funeral director suggested 14:15 because the earlier service would still be 
 
 ## 000095-2ac2f45c0183
 
-The bedside clock read 05:32, then briefly lost the middle bar of the three. Half awake, I thought it said 05:52 and sat up in a panic. My wife reached past me and tapped the casing. The missing segment returned, buying us twenty minutes beneath the quilt.
+Half awake and without my glasses, I read the bedside clock as 05:52 and sat up in a panic. My wife handed me the glasses from her side of the bed. The display said 05:32. I put my head back on the pillow and pulled the quilt over my shoulder.
 
 ## 000095-53a0975c2399
 
@@ -730,7 +730,7 @@ In the photograph, the kitchen clock reads 10:38 and Mum is holding a mixing bow
 
 ## 000095-c6c72fc9a91d
 
-I started filling the tank at 11:09:20 and stopped at 11:10:05. The bucket beside it held exactly ten litres. My neighbour wrote down the forty-five seconds and used it to estimate how long the larger tank would take. We stayed beside the hose anyway, unwilling to trust our arithmetic with his kitchen floor.
+I put the hose in a ten-litre bucket, turned it on at 11:09:20, and stopped it at the brim at 11:10:05. My neighbour wrote down the forty-five seconds and used it to estimate how long his larger tank would take. We emptied the bucket into the tank and transferred the hose, staying beside it rather than leaving his kitchen floor to our arithmetic.
 
 ## 000095-4e9ebd684833
 
@@ -774,7 +774,7 @@ The caretaker unlocked the sports hall at 06:52, eight minutes before our bookin
 
 ## 000095-31db002d4956
 
-I wrote 17:46 beside the first robin sighting. The garden survey required the hour to begin with the first bird, and I wanted my grandson to see how the counting worked. He drew a robin next to the entry, then waited with the pencil raised for something else to arrive.
+17:46 went beside the first robin in the survey notebook. "We stop at 18:46," I told my grandson, moving his finger to the empty end-time box. He drew the bird beside my entry. Then he waited with the pencil raised, watching the hedge for something else to arrive.
 
 ## 000095-bdf0d577c74e
 
@@ -798,7 +798,7 @@ Our table was booked for 19:35, but the restaurant had written 19:53 in its diar
 
 ## 000095-f278a4e74fe3
 
-The lost-property tag recorded the umbrella at 08:54. I had left the building before eight, so it couldn't be mine. The attendant opened it anyway, revealing a bright red lining instead of the blue I remembered. I thanked her and left my telephone number on the back of the claim form.
+The attendant read from the lost-property tag: "08:54, black umbrella, curved handle." It sounded like mine. She opened it across the counter, revealing a bright red lining instead of the blue I remembered. I thanked her and left my telephone number on the back of the claim form.
 
 ## 000095-8c3e7e91c094
 
@@ -826,7 +826,7 @@ The screen beside the interviewer's name read 11:58. We had agreed to finish at 
 
 ## 000095-9f41288d2edd
 
-At 18:26 the streetlights came on, though it was still bright enough to read outside. I noted the time because our neighbour was checking whether the new sensor had been fitted correctly. He shaded it with a cardboard box, waited, and then removed the box while I watched the nearest lamp.
+Our neighbour, who maintained the lamps on our private road, stood on a stepladder beside the new sensor above their shared control cabinet. When he covered it with a cardboard box, I wrote 18:26 in his notebook and watched the lamps come on along the road. He removed the box. In the daylight they went out again, leaving him balanced on the ladder with the box under one arm.
 
 ## 000095-ad701fca9f69
 
@@ -838,7 +838,7 @@ The wall clock's second hand reached the top at 10:16:00. I began the breathing 
 
 ## 000095-162f98b29468
 
-The ferry receipt was printed at 09:27, but the camera showed us still queuing at 09:34. My sister had bought the tickets online while we waited, which explained the difference. She laid her phone beside the receipt and finally persuaded Dad that nobody had charged him twice.
+Dad thought the ferry receipt showed a second payment: it was timed 09:27, but the camera showed us reaching the booth at 09:34. My sister opened the email from her online purchase, made while we queued. The booth had printed a copy after scanning her code. She put the matching transaction references side by side, and Dad folded the receipt back into his wallet.
 
 ## 000095-acddb7f0dff5
 
@@ -866,7 +866,7 @@ The clock on the microwave blinked 12:00, bright in the otherwise dark kitchen. 
 
 ## 000095-ff8c255250c7
 
-The rehearsal was scheduled for 18:23 because the hall was shared with a class finishing at 18:20. Our conductor had allowed exactly three minutes to move the chairs. When we arrived, the exercise group helped us stack their mats, still laughing about the music coming from our open instrument cases.
+The rehearsal was scheduled for 18:23 because the hall was shared with a class finishing at 18:20. Our conductor had allowed exactly three minutes to move the chairs. The exercise group helped us stack their mats while our clarinetist warmed up beside the open cases. One woman tried to hum along with her scales as she carried the last mat to the cupboard.
 
 ## 000095-7964cc4d5962
 
@@ -874,7 +874,7 @@ I checked the clock when the humming stopped: 02:51. In the sudden quiet, I coul
 
 ## 000095-d1289c43b711
 
-The little digital watch read 17:17, four straight strokes marching across the face. My son liked that arrangement and waited for it whenever he remembered. He held his wrist out to me in the supermarket queue, smiling as though the watch had performed a trick for us alone.
+The little digital watch read 17:17, the same pair of digits on either side of the colon. My son liked that arrangement and waited for it whenever he remembered. He held his wrist out to me in the supermarket queue, smiling as though the watch had performed a trick for us alone.
 
 ## 000095-c877435cb24f
 

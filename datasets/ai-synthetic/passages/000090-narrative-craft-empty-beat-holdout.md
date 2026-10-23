@@ -2,7 +2,9 @@
 
 ## 000090-05bfeafc503c
 
-The rental office had charged me for a second tank of fuel, although I had returned the van full. I found the petrol receipt in my coat and spread it beside the invoice. I paused briefly before typing the receipt number into my complaint, then attached a photograph of the dashboard.
+The dispute reached Lena on Friday, with two invoices and a photograph of a fuel gauge. The rental company had billed the customer for a second tank despite the gauge showing full on return. Lena matched the station receipt to the van's return time and copied both into the case record.
+
+She paused briefly before entering the receipt number. Her letter requested repayment of the fuel charge and included the photograph. By five, the printer tray held three copies: one for the company, one for the customer and one for the office file.
 
 ## 000090-eb3bdfe06687
 
@@ -10,7 +12,7 @@ Leah's brother had already taken the good saucepans. What remained of their moth
 
 ## 000090-161fc84e5a61
 
-We were following the canal into town when Ben told me the bakery had reopened under new owners. I kept pace with him for a while. He said they still made the little cheese rolls I remembered from school. We bought six and ate two outside, dropping flakes of pastry onto our bicycle helmets.
+At the freight terminal, Luis told Farah that the night ferry would take passengers again from Monday. They passed the rows of empty trailers. For a few more strides she matched his pace. He gave her the new timetable, folded to the page with the early sailing, and she tucked it into her radio harness. Her next shift would begin on the island instead of at the terminal.
 
 ## 000090-93c5db40c6ad
 
@@ -23,7 +25,7 @@ At the guesthouse, the owner drew a blue circle around the bus station on my map
 
 ## 000090-fc1ee6e2e51e
 
-Milo lay across the clean washing when I got home. His ears gave a small twitch, and his tail moved once. I put my shopping on the kitchen floor and discovered that the milk had leaked over the potatoes. There was a split along the carton seam, just below the cheerful drawing of a cow.
+Milo occupied the warm patch beside the laundry's pressing machine. His tail stirred once as Ana counted the finished shirts. There should have been twelve; the striped one was still hanging above the wash basin, its collar marked with chalk. Ana put the other eleven into their paper sleeves and left the claim ticket clipped to the striped shirt.
 
 ## 000090-b78cb7408706
 
@@ -31,7 +33,7 @@ By lunchtime we had matched all but three of the delivery slips to an order. Car
 
 ## 000090-3d91050371f4
 
-I spread an old towel under the sink and set a bucket beneath the trap. The plastic nut comes loose with my fingers; when I pull the joint apart, I find the washer trapped sideways. After a brief pause, I reseat the washer, push the pipe back in and tighten the nut, leaving the towel down for the first test.
+I spread an old towel under the sink and set a bucket beneath the trap. The plastic nut came loose with my fingers; when I pulled the joint apart, I found the washer trapped sideways. After a brief pause, I reseated the washer, pushed the pipe back in and tightened the nut, leaving the towel down for the first test.
 
 ## 000090-ba151609ad3d
 
@@ -75,7 +77,7 @@ The hall clock had stopped at twenty past six. I wound it before breakfast, but 
 
 ## 000090-8fb612bb2580
 
-We lingered under the railway arch after the rain had ended. From there, the whole harbour fitted between the stone supports: the orange pilot boat, the cranes, a white ferry turning almost on the spot. My daughter counted seven people on its upper deck. At the next arch, the warehouse wall hid the water completely.
+From beneath the railway arch, Saira could fit the whole harbour into one view: the orange pilot boat, the cranes and a ferry turning almost on the spot. The rain had stopped. She stayed under the arch with her daughter, who counted seven passengers on the upper deck and started again when someone emerged from the stairwell. Beyond the next arch, a warehouse wall cut off the water. They let another group of walkers pass them and watched the ferry complete its turn.
 
 ## 000090-5dbfb3281c1d
 
@@ -87,7 +89,7 @@ The interview went brilliantly. I was confident, professional and passionate abo
 
 ## 000090-0a6211b23755
 
-The charity shop had put our donated coffee machine straight into the window. Its glass jug was missing, so I went back with the one we had found behind the flour. A little time passed. The volunteer recognised the machine and fetched a marker to correct the price on its tag.
+The donated coffee machine had reached the theatre's props table without its glass jug. Amira brought the jug in a shoe box and set it beside the machine. A little time passed before she called the stage manager over. He crossed 'find coffee pot' off his list and asked her to leave the box too; the next scene needed something for an actor to carry.
 
 ## 000090-7465ec043b18
 
@@ -115,7 +117,7 @@ The cat occupied the only dry chair on the balcony. Her tail gave a lazy flick. 
 
 ## 000090-9d1f3b3c4c48
 
-Our spaniel's tail stopped halfway through its sweep when the baby cried. He had been asleep through the vacuum cleaner and the doorbell, but this sound brought him upright. From then on, during those first weeks, I could tell she was waking by watching him from the kitchen.
+Our spaniel had slept through the vacuum cleaner and the doorbell. When he woke, he stretched beside the cot, wagging at me. His tail stopped halfway through its sweep when the baby cried, and he turned towards her. From then on, during those first weeks, I could tell she was waking by watching him from the kitchen.
 
 ## 000090-0f6337657cd9
 
@@ -127,7 +129,7 @@ A pause settled between us before we discussed the raffle. We had collected thir
 
 ## 000090-9c4713460a2c
 
-He walked alongside the trolley for a few paces. The hospital shop was selling newspapers dated the day before, which suited my uncle because he wanted the crossword he had missed. I bought two pencils as well. He sharpened both over the wastebasket and gave the shorter one to me.
+My uncle pushed our empty trolley towards the supermarket's trolley bay. I walked beside him for a few paces. His newspaper was under my arm; he wanted to finish the crossword before lunch, and I had bought two pencils. At home he sharpened both over the wastebasket and gave the shorter one to me.
 
 ## 000090-4070e8c8f534
 
@@ -159,7 +161,7 @@ The ferryman held us offshore while a lorry reversed down the ramp. From the wat
 
 ## 000090-26aa054f9768
 
-The dog lifted one ear, then let it drop again. There were three families ahead of us at the vet, all carrying smaller animals in plastic boxes. Mine needed his annual booster and a new flea prescription. I checked the weight written on his card against last year's figure.
+The vet's assistant called out the weight from last year's card: thirty-one kilos. Beside Owen's chair, the dog lifted one ear and let it fall. Owen checked today's figure, thirty-three, and crossed 'weight' off his list of questions. The booster appointment was already booked; he still needed to ask which flea treatment came in a tablet.
 
 ## 000090-f995789bb3d8
 
@@ -167,7 +169,7 @@ One ear of the rabbit remained folded after the bandage came off. The vet ran a 
 
 ## 000090-92c2f2470c31
 
-We found the missing chess piece in the biscuit tin, wrapped in a paper napkin. Martin held it for a little while. Its felt base had peeled away, leaving glue on the white knight's hooves. I cut a replacement from the scrap left after lining the cutlery drawer.
+We found the missing chess piece in the biscuit tin, wrapped in a paper napkin. Martin unwrapped it. The felt base had peeled away, leaving glue on the white knight's hooves. I cut a replacement from the scrap left after lining the cutlery drawer. Martin paused a moment before putting the tin back in the cupboard.
 
 ## 000090-68d6d717dfbf
 
@@ -203,7 +205,7 @@ The bus inspector found my lost pass in a drawer of gloves and spectacles. I hun
 
 ## 000090-41b58189b32d
 
-At the platform barrier I hung back behind the other passengers. My brother had said he would be wearing his hearing aids, but I could see the empty hooks above his ears. I waited where he would face me as he came through and held our mother's photograph at chest height.
+At the platform barrier I hung back behind the other passengers. My brother had said he would be wearing his hearing aids, but the silver cases he usually wore behind his ears were absent. I waited where he would face me as he came through and held our mother's photograph at chest height.
 
 ## 000090-61dd26b096b6
 
@@ -235,11 +237,13 @@ He took a moment before passing me the stapler. The village newsletter was runni
 
 ## 000090-44a36bd7e491
 
-I gave the interpreter time to finish before answering the question. Her hands were still moving when the housing officer began speaking again, and my aunt had turned away from him to watch her. He stopped, waited for my aunt's reply, and then wrote down the requested repair.
+The housing officer began his next question while the interpreter's hands were still moving. Across the desk, Mrs Patel watched the interpreter. Her nephew raised a hand, and the officer stopped.
+
+The nephew waited for the signed question to finish. Mrs Patel answered with a short sequence of signs, then pointed towards the window frame in the photograph. The interpreter spoke; the officer wrote 'water entering above bedroom window' on the repair form and turned it so Mrs Patel could check the photograph number.
 
 ## 000090-e0f345058263
 
-The new bakery sold yesterday's bread at half price after nine. I let my feet carry me on a little longer, then went inside. A young man was bagging the remaining rolls. He put six in my bag, counted them again, and added a seventh because it was smaller.
+Yesterday's bread was half price after nine at the new bakery. Marta reached the door at ten past and lingered a moment before entering. The baker was bagging the remaining rolls. He counted six into her bag, checked them again and added a seventh because it was smaller.
 
 ## 000090-e19c30b43669
 
@@ -295,7 +299,7 @@ The clerk stopped reading when she reached my father's date of death. Until then
 
 ## 000090-1bfd10a24c8c
 
-We gave the room another second, then began stacking the chairs. The craft fair had raised enough to repair the playground gate, with forty pounds left over. Someone had abandoned a knitted penguin under the trestle table. I put it on the windowsill beside the remaining raffle tickets.
+The last stallholder wheeled her boxes out through the auditorium's side doors. On the stage, Tomas added the takings twice: enough for the playground gate, with forty pounds left over. The volunteers waited another moment before stacking the chairs. Under a trestle table, someone found a knitted penguin with a raffle ticket tied around its neck. Tomas put it on the piano for the school office to collect.
 
 ## 000090-7f76bc944f7c
 
@@ -307,7 +311,7 @@ We left the chairs in place until the last visitor had reached her walker. Witho
 
 ## 000090-f90c253e3b48
 
-I stopped pedalling when the chain began tapping the frame. Coasting let me hear the sound without the crunch of my shoes on the pedals. A loose cable end was catching a spoke on every turn. I bent it back towards the brake before we reached the steep descent.
+I stopped pedalling when a tapping began near the rear wheel. Coasting silenced the squeak from the pedals, but the tapping continued. A loose brake-cable end was catching a spoke on every turn. I bent it clear of the wheel before we reached the steep descent.
 
 ## 000090-19aa73b2fd64
 
@@ -327,7 +331,7 @@ Malik made me wait for his answer until the children had gone upstairs. Then he 
 
 ## 000090-9fe51efd442e
 
-The kitten twitched an ear in reply. I put the empty food sack on the shopping pile and measured what remained in the storage tin. There was enough for breakfast. The corner shop stocked her usual brand, but only in small bags that cost more than the large ones.
+There was enough kitten food left for breakfast, provided I levelled the scoop. I measured it into the storage tin and put the empty sack on the shopping pile. The kitten twitched an ear. Her usual brand came in small bags at the corner shop; buying one would cost more per meal, but it would get us through to Saturday.
 
 ## 000090-b815e141d3b1
 
@@ -351,7 +355,7 @@ I let the engine idle while my neighbour listened at the open bonnet. Under acce
 
 ## 000090-f938534f343d
 
-"Try the drawer under the microwave." A modest pause intervened before I pulled it open. Along with the takeaway menus, it contained our spare door key, two candles, and the missing vaccination card. I put the card in my bag so we would have it for the appointment.
+"Try the drawer under the microwave," my wife said. I waited a moment, then opened it. The vaccination card lay beneath the takeaway menus.
 
 ## 000090-d67aee72efaa
 
@@ -411,7 +415,7 @@ The repair shop called to say the radio only needed a fuse. I waited a little an
 
 ## 000090-b41d21bb27d4
 
-The repair shop's invoice included the words "intermittent pause during playback". I asked the technician what they meant by pause: silence, a frozen display, or the disc stopping. He played the test recording. The counter continued advancing while the left speaker cut out, which was the fault I had reported.
+The service invoice described an 'intermittent pause during playback'. In his reply, Leon asked the technician to distinguish silence from a frozen counter or a stopped disc. The test clip answered him: the display advanced normally while the left channel cut out. He attached the clip to the repair record and quoted the invoice phrase beside it.
 
 ## 000090-3fafd5fabcc2
 
@@ -423,7 +427,7 @@ We moved down the corridor at the speed of the cleaning trolley. Its buckets scr
 
 ## 000090-bea2c9cea258
 
-The pony's ears swivelled once. Ellen took the receipt from the feed merchant and folded it into her purse. We had bought enough bedding to fill the trailer, leaving barely room for the mineral lick. On the journey back, the paper sacks rubbed against the boards with every bend.
+Ellen folded the feed merchant's receipt into her purse while the pony's ears swivelled once. The bedding sacks filled the trailer up to the mineral lick, leaving the rear gate just enough room to close. On the road home, each bend shifted the sacks against the boards. She stopped at the weighbridge to check the loaded trailer against the limit printed on its plate.
 
 ## 000090-e10543bbc0bc
 
@@ -431,7 +435,7 @@ The pony's left ear turned backwards towards us while the right stayed aimed at 
 
 ## 000090-68962b80f02f
 
-I let the morning stretch for a second before checking the freezer. We still had one bag of peas and the soup from Tuesday, enough to avoid a shopping trip. I warmed the soup slowly and grated the hard end of the cheese over two slices of toast.
+At the field station, Noor checked the meal rota: her name, then a blank space where the shopping list should have been. She paused a second before opening the freezer. One bag of peas and a tub of Tuesday's soup would cover lunch for two. She warmed the soup on the hotplate and cut the last of the bread into thick slices.
 
 ## 000090-a0f93ad42f3e
 
@@ -447,7 +451,7 @@ The coach held the whistle between his teeth until both teams stopped arguing. H
 
 ## 000090-8196e3053d59
 
-A brief space came and went. My aunt asked whether the electrician had fixed the porch light. He had replaced the fitting entirely and shown me the water trapped inside the old one. I switched the new light on from the kitchen so she could see the path from her chair.
+My aunt settled into the chair beside the kitchen window. We sat quietly for a moment before she asked whether the electrician had fixed the porch light. He had replaced the fitting and shown me the water trapped inside the old one. I switched the new light on so she could see the path from her chair.
 
 ## 000090-12a3a23bfb66
 
@@ -463,7 +467,7 @@ The cashier held the banknote under the violet lamp and kept it there. One corne
 
 ## 000090-105f8d80a673
 
-The collie answered with a twitch of his tail. "We're out of bin bags," I told my husband. He added them to the list on the fridge, underneath washing liquid and stamps. We had started sharing a paper list because the shopping app kept signing one of us out.
+"We're out of bin bags," I told my husband. The collie's tail twitched once. "And stamps," my husband said, writing both on the fridge list.
 
 ## 000090-6d366c4cd056
 
@@ -491,7 +495,7 @@ We tarried briefly outside the laundrette, then carried the blankets in. Every l
 
 ## 000090-433f3cafeff2
 
-We waited outside the laundrette because it was warmer there than in the car. Hot air from the dryer vent blew through the grille at knee height. My daughter's wet trouser cuffs lifted in it. Across the road, frost still covered the windscreens of cars parked in the shade.
+Hot air from the laundrette's dryer vent lifted the wet cuffs of Bea's trousers. She and her father stayed beside the grille with the blanket bags at their feet. Across the road, frost covered the windscreens of parked cars. When a dryer stopped, the warm stream faded; Bea moved closer to the next grille, and her father moved the bags after her.
 
 ## 000090-d2bcd1429f16
 
@@ -503,7 +507,7 @@ The locksmith kept the new key still inside the lock while he felt for resistanc
 
 ## 000090-e990c8a35b6a
 
-His reply waited on the air for an instant. "The compost goes behind the greenhouse." I wheeled the sack through the garden, catching its torn corner with one hand. The old heap had become home to a courgette plant. Three large courgettes lay half hidden under its leaves.
+"Where do you want the compost?" I asked. My brother waited a moment before pointing behind the greenhouse. I wheeled the sack through the garden, catching its torn corner with one hand. The old heap had become home to a courgette plant. Three large courgettes lay half hidden under its leaves.
 
 ## 000090-fefc22824578
 
@@ -535,7 +539,7 @@ The baker refused to slice the loaf until it cooled. He set it on the rack behin
 
 ## 000090-e225a3b04cca
 
-A small pocket of waiting opened between us. My neighbour wanted to borrow the wallpaper steamer, and I was trying to remember which cupboard held it. We found it behind the Christmas decorations. The hose had been wrapped around the handle so tightly that we needed both hands to free it.
+My neighbour asked to borrow the wallpaper steamer. I stood in the hall trying to remember which cupboard held it. We found it behind the Christmas decorations. The hose had been wrapped around the handle so tightly that we needed both hands to free it.
 
 ## 000090-69e9c0486983
 
@@ -583,7 +587,7 @@ The waiter stood beside our table until my mother found the words herself. She c
 
 ## 000090-9093e1f7eeff
 
-My brother's dog moved his tail once against the mat. We were sorting the receipts for our mother's home repairs, dividing materials from labour. The builder had written his hours on the backs of envelopes. I entered each date into a spreadsheet while my brother read the figures aloud.
+At the boatyard office, Mara sorted the invoices into engine work and hull repairs. Her brother read out the dates from the backs of the mechanic's envelopes. Under the desk, his dog's tail tapped the mat once. They entered the final bill and carried the folders down to the boat, where the new paint still smelled sharp inside the cabin.
 
 ## 000090-095e1cd94d9d
 
@@ -591,7 +595,7 @@ My brother's dog could still move the tip of his tail after the operation. That 
 
 ## 000090-8189d852fba5
 
-We allowed the afternoon a brief pause, then opened the paint tins. The darker green looked almost black until I brushed it onto the wall beside the window. My partner preferred the pale sample. We painted a square of each behind the sofa and asked the children which they liked.
+The paint tins stood on yesterday's newspaper in the empty shop. Priya and Sol paused briefly, then opened them. The darker green looked almost black in the tin but brightened on the wall beside the window. Sol preferred the pale sample. They painted a square of each behind the counter, large enough to see from the pavement.
 
 ## 000090-6c60d1b751b7
 
@@ -647,7 +651,7 @@ The nurse kept me sitting after the blood test. When I stood too quickly, the ro
 
 ## 000090-b1fc0912f501
 
-"They're collecting the piano tomorrow." My sister's voice paused for a moment before continuing with the arrangements. The buyer had hired a specialist mover, so we only needed to clear the hallway. I took the photographs off the lid and found pale rectangles in the dust beneath them.
+The stage manager called while Iris was taking photographs off the piano. The buyer's movers would arrive at eight; the corridor had to be clear before then. Iris wrote the time on the rehearsal board. After a brief silence, he added that they would bring their own ramp. She moved the last frame from the lid and wiped around the pale rectangle it left in the dust.
 
 ## 000090-3059c333695e
 
@@ -719,15 +723,15 @@ I kept the gate still while my neighbour drilled into the post. Every vibration 
 
 ## 000090-9985cff70d65
 
-A few quiet seconds carried us along. My wife asked where I had put the cinema vouchers. They were in the drawer with the passports, an arrangement that had made sense when I was hiding them before Christmas. We checked the expiry date and booked the last available evening.
+We had finished supper and were still at the table. A few quiet seconds passed before my wife asked where I had put the cinema vouchers. They were in the drawer with the passports, an arrangement that had made sense when I was hiding them before Christmas. We checked the expiry date and booked the last available evening.
 
 ## 000090-9eae31bb21f0
 
-We sat through the cinema's closing credits because my wife wanted to find the song. Other people shuffled past our knees, leaving the row empty on either side. Near the end, its title appeared under a block of musicians' names. She photographed the screen before the lights reached full brightness.
+By the final credit roll, the rows around Esi and her wife were empty. Her wife kept watching the screen. Costume hire, catering, drivers. Then the music credits appeared, and she caught Esi's sleeve. Esi photographed the song title before it climbed out of frame. They left with the ushers collecting cups behind them.
 
 ## 000090-e01bf89c49d5
 
-The caretaker's note read, "Wait here briefly." I followed the instruction, then took the lift to the third floor for my evening class. We were learning how to repair simple household wiring using practice boards. Mine had a red switch, three terminals, and a bulb protected by a plastic cage.
+The caretaker's note read, "Evening wiring class: third floor." I stood in the lobby a little longer, then took the lift. Upstairs, each bench held a practice board with a red switch, three terminals and a bulb inside a plastic cage. I chose the bench nearest the window and unpacked my tools.
 
 ## 000090-37f3fe13f476
 
@@ -739,7 +743,7 @@ The caretaker's note read, "Wait here until the lift bell rings twice." I was ca
 
 ## 000090-c589812dfa12
 
-"One minute," my brother said. On the phone I heard him ask someone for the garage address, then repeat the postcode back digit by digit. When he returned, I could hear a pen scratching. He gave me the address slowly, checking each line against what he had just written.
+"One minute," my brother said. On the phone I heard him ask someone for the garage address, then repeat the postcode back character by character. When he returned, I could hear a pen scratching. He gave me the address slowly, checking each line against what he had just written.
 
 ## 000090-eb7b3a2bf82c
 
@@ -771,15 +775,15 @@ The receptionist let the silence sit briefly, then asked for my registration num
 
 ## 000090-4b1b4fcb7462
 
-The receptionist fell silent when I gave the registration number. On her screen, it belonged to a vehicle reported stolen the previous week. She asked me to repeat it. I had transposed the final two letters. Her shoulders dropped as she found my booking on the next line.
+The receptionist entered my registration number into the garage's vehicle-history checker. She fell silent at the stolen-vehicle warning and asked me to repeat it. I had transposed the final two letters. With the corrected number, she found my car and its booking for the annual inspection. Her shoulders dropped as she printed the claim slip.
 
 ## 000090-3dcd189593a4
 
-A small hesitation came before I poured the lentils into the pan. The recipe was written for four, so I had halved every quantity except the stock. I added more lentils to compensate. We ate the resulting stew for three nights, changing the bread and toppings each time.
+I held the measured lentils above the pan and checked the recipe again. It served four; I had halved the lentils but already poured in the full quantity of stock. I put the scoop down and measured out a second portion of lentils before adding both. We ate the resulting stew for three nights, changing the bread and toppings each time.
 
 ## 000090-36a3937df4ce
 
-I held back the lentils when I saw movement in the bag. A thin brown beetle was climbing along the seam, and two more lay among the grains. I put the unopened bags from the same shelf into a washing-up bowl. By evening, six beetles had collected against its white sides.
+I held back the lentils when I saw movement in the bag. A thin brown beetle was climbing along the seam, and two more lay among the grains. I stood the open bag in a white washing-up bowl and sealed the unopened bags from the same shelf in a plastic box. By evening, six beetles had crawled out of the open bag into the bowl.
 
 ## 000090-5da96ae32e75
 
@@ -799,7 +803,7 @@ I waited for two complete breaths before lifting the baby from the cot. The moni
 
 ## 000090-dcf5224a3d11
 
-"There's another jar behind the flour." She stayed quiet for a brief spell before telling me it contained rice. We were packing food for the weekend cabin trip. I measured enough for two dinners into a plastic box and taped the cooking instructions from the packet onto its lid.
+"There's another jar behind the flour," Ren said over the camp radio. She left a short silence before adding, "It's rice." At base, Malik found the jar and measured enough for the survey team's two remaining dinners. The supply boat was due on Thursday. He packed the rice in a sealed box and clipped the cooking instructions under the lid.
 
 ## 000090-5cc5371a2b67
 
@@ -823,7 +827,7 @@ The shopkeeper held the cabinet closed while the schoolchildren crowded past. It
 
 ## 000090-6eb450e0d8ca
 
-Our dog responded with a minor movement of one ear. The boiler engineer spread a cloth beneath his tools and asked how long the pressure had been dropping. I showed him the dates written on the calendar. He found a leak at a joint behind the removable front panel.
+The boiler engineer spread a cloth beneath his tools. At the foot of the stairs, our dog flicked one ear. The engineer asked how long the pressure had been dropping, and I showed him the dates written on the calendar. He found a leak at a joint behind the removable front panel.
 
 ## 000090-292a42aa7879
 
@@ -831,7 +835,7 @@ Our dog's ear had a grass seed embedded just inside the fold. He stopped shaking
 
 ## 000090-810e0ddf9bf8
 
-A little span of time stood between the question and my answer. "The small hall will do." We needed space for twelve people and a table for the model railway. The booking secretary drew its dimensions on a scrap of paper, marking the sockets and the door to the kitchen.
+"Which room do you want?" the booking secretary asked. Ellis waited a moment before saying, "The small hall will do." He unfolded the model railway plan across her desk. Twelve operators would fit around the layout if the tables stayed against the walls. She marked the sockets on the plan and drew an arrow to the kitchen door.
 
 ## 000090-091100cf5f1a
 
@@ -871,7 +875,7 @@ I walked level with the bus while it crawled through traffic. Through the window
 
 ## 000090-bbf807836959
 
-A brief suspension of activity followed. The instructor asked us to write our names on the bottoms of our pots. Mine was still soft enough for the pencil to leave a deep groove. I added the date underneath and carried it carefully to the shelf marked for drying.
+The pottery instructor set a finished bowl on the demonstration table. For a moment the class sat without moving. Then she asked everyone to put their names underneath their pots. Jo pressed too hard with her pencil and cut a groove through the soft base. She smoothed it over with a wet finger and tried again near the rim.
 
 ## 000090-592d48e82afe
 
@@ -879,7 +883,7 @@ The instructor made us stop turning the wheels and listen to the room. One machi
 
 ## 000090-3b5360087200
 
-"I've brought the form." A short silence padded the exchange before she handed it over. Her daughter needed permission for the school trip, and the deadline was that afternoon. I signed the lower section, added an emergency number, and put the envelope beside her daughter's lunchbox.
+"I've brought the form," my daughter said. She waited a moment before handing it over. Her class was going to the museum, and permission slips were due that afternoon. I signed the lower section, added an emergency number, and put the envelope beside her lunchbox.
 
 ## 000090-0bfcff33964b
 
@@ -887,7 +891,7 @@ The school form described my daughter as "slow to respond after verbal instructi
 
 ## 000090-970535b036db
 
-I allowed myself an instant's lingering before lifting the lid. The tin held the badges from my father's years at the bowling club, wrapped in newspaper. We arranged them on a piece of felt for the display case. The smallest was dated the year my sister was born.
+Nina lingered a moment beside the table before lifting the tin's lid. Inside were the badges from her father's years at the bowling club, wrapped in newspaper. She and her sister arranged them on felt for the display case. The smallest was dated the year her sister was born; they put it in the centre.
 
 ## 000090-a82d850dbaf7
 
@@ -895,7 +899,7 @@ The smell of pipe tobacco lingered in the tin after we removed my father's badge
 
 ## 000090-8bb6c74eeea7
 
-The sheepdog's ears shifted in a small response. I took the spare lead from the hook and handed it to the new walker. She asked which route avoided the steep steps. I drew the riverside loop on her map and marked the footbridge that was closed for repairs.
+"The riverside loop avoids the steep steps," I told the new walker. Beside us, the sheepdog shifted his ears. I took the spare lead from the hook and drew the route on her map, marking the footbridge that was closed for repairs. She folded the map into her coat pocket and clipped on the lead.
 
 ## 000090-b0532f99553d
 
@@ -911,7 +915,7 @@ The meter reading on the envelope was lower than the figure in my moving-in phot
 
 ## 000090-53b77fc5be74
 
-"The potatoes need another tray." He paused just long enough to make a beat, then opened the cupboard. We were cooking lunch for the whole family in an oven designed for two people. The second tray fitted only on the bottom shelf, so we moved the pudding into the microwave.
+"The potatoes need another tray," Daniel said. He paused briefly, then opened the cupboard. They were cooking for nine in an oven barely wide enough for the roasting tin. The extra tray fitted only on the bottom shelf. His sister moved the pudding into the microwave and slid the potatoes underneath the joint.
 
 ## 000090-d824feeda6ee
 
@@ -919,7 +923,7 @@ The family lunch was a resounding success. Everyone said the food was delicious,
 
 ## 000090-589315d10684
 
-We kept company with each other's pace for a little longer. My neighbour was telling me how to register for the bulk-waste collection. The council would take the broken armchair but needed its dimensions. At home I measured it with the cushions removed and entered the figures on the booking page.
+My neighbour explained the bulk-waste booking while we walked home from the bus stop. We kept walking together for a little while. The council would take the broken armchair but needed its dimensions. At home I measured it with the cushions removed and entered the figures on the booking page.
 
 ## 000090-29ea5e2a423e
 
@@ -927,7 +931,7 @@ The armchair emerged from the house sideways, shedding biscuit crumbs onto the p
 
 ## 000090-5a4908c6ec83
 
-A little island of silence passed before the pharmacist spoke. "We can order the larger bottle." I asked for two because my mother would be away for several weeks. The pharmacist checked the prescription and wrote the collection date on a card, circling the afternoon when the delivery was due.
+The pharmacist set the order pad beside the till. After a brief silence, she said, "We can order the larger bottle." I asked for two because my mother would be away for several weeks. She checked the prescription and wrote the collection date on a card, circling the afternoon when the delivery was due.
 
 ## 000090-6191ecf2e90e
 
@@ -935,7 +939,7 @@ The pharmacist checked the prescription against the label three times. The new b
 
 ## 000090-3b6a53158c1f
 
-The old cat moved an ear by a fraction. I pinned the revised rota above the sink and sent a photograph to the other volunteers. We had found cover for every morning except Friday. By lunchtime, two people had offered to share that shift, one opening the centre and the other closing.
+At the rescue centre, I pinned the revised rota above the sink and sent its photograph to the volunteers. Friday was the remaining gap. By lunch, two people had agreed to split it, one opening the centre and the other closing. The old cat on the windowsill moved an ear a fraction. I wrote both names in the Friday box.
 
 ## 000090-5bf5847a18f5
 
@@ -943,7 +947,7 @@ The revised rota put me down for Friday again. I had written my unavailable date
 
 ## 000090-0fe0ba447f56
 
-I let a small measure of time fall away before tightening the lid. The jam had set more firmly than I expected, leaving a clear track when I pushed it with a spoon. There was enough for five jars and a small bowl. My daughter claimed the bowl for breakfast.
+I waited a moment before tightening the lid. The jam had set more firmly than I expected, leaving a clear track when I pushed it with a spoon. There was enough for five jars and a small bowl. My daughter claimed the bowl for breakfast.
 
 ## 000090-5fb276232f19
 
@@ -955,7 +959,7 @@ I waited until the crossing signal turned green, keeping my daughter behind the 
 
 ## 000090-32864cf90098
 
-The cardboard bridge collapsed under the seventh biscuit. Its deck folded neatly between the two supports, sending the first six onto the kitchen floor. My daughter retrieved them in order of breakage. She reinforced the centre with a folded strip from a cereal box and rebuilt the span across two mugs.
+The cardboard bridge collapsed under the seventh biscuit. Its deck folded neatly between the two supports, sending the first six onto the kitchen floor. My daughter retrieved the intact biscuits first, then gathered the broken pieces. She reinforced the centre with a folded strip from a cereal box and rebuilt the span across two mugs.
 
 ## 000090-8405920f79a6
 

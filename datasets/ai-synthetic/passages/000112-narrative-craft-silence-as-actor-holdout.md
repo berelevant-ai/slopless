@@ -2,7 +2,7 @@
 
 ## 000112-60074cffd038
 
-My sister put the plates on the counter while I searched for the corkscrew. We had bought everything for dinner except bread, and neither of us wanted to go back down the hill. The silence laid its weight across the kitchen. I found the corkscrew in a drawer of batteries and old takeaway menus, then opened the wine with the bottle wedged between my knees.
+The silence laid its weight across the kitchen while my sister counted out the plates. Six people were coming and we had forgotten bread. "There's rice," she said. "With lasagne?" I found the corkscrew among the batteries and takeaway menus. She took her coat off again. By the time the first guest rang, we had put crackers in the bread basket.
 
 ## 000112-d205d06f7921
 
@@ -10,7 +10,7 @@ Once the circulation pump stopped, I could hear water striking the metal tray be
 
 ## 000112-a496db9319b9
 
-At six, Dana returned for the charger she had left under her desk. The office had acquired that peculiar after-hours quiet, efficient and faintly reproachful, as though the working day had tidied away its human complications. She unplugged the charger and checked the label to make sure it was hers. On the way out, she took an apple from the bowl beside reception.
+Dana remembered the charger only after the bus had gone. Back upstairs, she passed the empty reception desk, the apple bowl and the screen still cycling through the company's recruitment photographs. Even after hours, the office maintained a quiet of brisk competence, faintly reproachful toward anyone with unfinished business. Her charger was under the desk. She took an apple for the walk to the next stop.
 
 ## 000112-e745e811722f
 
@@ -26,7 +26,7 @@ On the second run, I played through the rest again. "Leave that beat alone," Mar
 
 ## 000112-23d0bbc925fa
 
-Before the guests arrive, Helen straightens the tablecloth and moves the fruit bowl to the sideboard. She has made the room's quiet elegant, something carefully prepared for the evening. There are six places, although her brother has only promised to come if his shift finishes early. She puts his glass beside the others and checks the potatoes with a fork.
+Helen has laid six places. Her brother may come after his shift, so she puts his glass out too, then moves the fruit bowl to the sideboard. From the doorway she checks the tablecloth: one corner hangs lower. She corrects it, pleased with the elegant quiet she has prepared for the evening, and goes to turn the potatoes.
 
 ## 000112-ce470839fce3
 
@@ -42,7 +42,7 @@ When I asked whether I could stay another month, Ruth stopped drying the cup. Sh
 
 ## 000112-77f9cd60f44b
 
-The cafe near our hotel served breakfast until noon, which suited us after the overnight flight. It had the purposeful bustle of a place where life was happening, a warm busyness that drew us in. We ordered eggs and asked the waiter to mark the ferry terminal on our map. He borrowed a pen from the till and drew a route along the waterfront.
+"You'd like the breakfast place," I told Nisha on the phone. "Even at eleven it's busy. All that bustle makes you feel you're taking part in life." She asked whether they served anything besides eggs. I read her the menu from the photograph Joel had taken, then sent the route the waiter had drawn from the cafe to the ferry. She booked the same hotel for her September trip.
 
 ## 000112-9f2e8196d265
 
@@ -66,7 +66,7 @@ Anger blazed in Pete's eyes when he saw the parking ticket. He had paid through 
 
 ## 000112-0aaa9af9606d
 
-"There's more rice," Uncle Ray said, lifting the lid. We were eating from the bowls he'd bought at the market that morning, each a slightly different blue. What nobody said sat among us like another guest, demanding its share of the evening. I passed my bowl across. Ray gave me too much, as usual, and asked whether I wanted the recipe.
+"There's more rice." Ray lifted the lid before I had finished my first bowl. What nobody said sat among us like another guest, demanding its share of the evening. He had bought the bowls that morning and wanted me to choose one to take home. I chose the darkest blue. "Not that one," he said. "That one's mine." He filled it again anyway.
 
 ## 000112-a424b9a44599
 
@@ -98,7 +98,7 @@ During the hearing test, the silence was part of the procedure. I had to press a
 
 ## 000112-aba530dddb9d
 
-We borrowed folding chairs from the bowling club for the naming ceremony. By noon, everyone had arrived except the baby's father, who was looking for parking. The garden's happiness seemed carefully assembled, ready to receive us. I carried out another jug of squash and rescued a napkin from the hedge.
+In the photograph of the naming ceremony, the garden wears a happiness carefully assembled for our arrival. Behind the baby's head you can see the folding chairs we borrowed from the bowling club. Her father is missing from the picture because he was still looking for parking. When he finally arrived, we had to rearrange everyone and borrow the photographer's phone: our camera battery had died.
 
 ## 000112-1525f1a104d8
 
@@ -114,7 +114,7 @@ Our new windows made the bedroom so quiet that I could distinguish the lift stop
 
 ## 000112-b9714e265b08
 
-The bakery had reopened under a different name, although the woman behind the counter remembered my order. There was a brave little bustle about it, the sort that believed in starting again. She wrapped two buns separately when I explained that one would be travelling in my work bag.
+The bakery had changed its name twice, but the woman at the counter still asked whether I wanted my buns wrapped separately. One was for lunch and one had to survive the journey in my work bag. I watched her fold the paper around each, thinking how bravely the little shop bustled, how firmly its busyness believed in beginning again.
 
 ## 000112-48179223fbfd
 
@@ -158,7 +158,7 @@ We found a picnic table beside the visitor centre and spread out the road map. J
 
 ## 000112-96a8a35c0be9
 
-The empty platform was useful: I could see the dropped hearing aid against the yellow line from twenty feet away. I waited for the station worker rather than reaching down myself. She retrieved it with a litter picker and brought it over balanced carefully on a clean paper towel.
+With nobody on the platform, I could see the dropped hearing aid on a sleeper below the edge. I pointed it out to a station worker and waited behind the yellow line. After arranging for the line to be blocked, she retrieved it with a litter picker and brought it over on a clean paper towel.
 
 ## 000112-9003a5a6fe9c
 
@@ -210,7 +210,7 @@ At the family meeting, Elena's refusal to speak protected her younger brother. T
 
 ## 000112-a9b07d4cdf73
 
-We drove to the furniture warehouse because the online dimensions seemed wrong. The display room was busy in that reassuring way good places are busy, rich with ordinary life. I measured the sofa while Luis checked whether its feet came off. Without removing them, we'd never get it upstairs.
+You could spend a whole afternoon in that furniture warehouse. Follow the arrows past the kitchens and you reached the sofas, where the display room's reassuring busyness wrapped you in ordinary life. Luis wanted to sit on every model. I wanted to know which feet came off. We eventually found one that would fit the stairs, then had to walk back through the kitchens to find its stock number.
 
 ## 000112-89fc67624e58
 
@@ -254,11 +254,11 @@ The dentist was running late, and my parking ticket would expire before she coul
 
 ## 000112-c5dad1229a1e
 
-We stood still until the ewe stopped stamping. Our silence gave her time to smell the bottle without having to watch our faces as well. She nudged my wrist, then let the lamb approach. From behind the gate, my cousin whispered that I could breathe normally now.
+The lamb needed a supplementary feed, but the ewe stamped whenever we came into the pen. We stood still until she settled. My cousin crouched with the bottle's teat beside his knee, and we kept our voices low to avoid startling her again. The lamb approached and began sucking. I held the gate shut while he fed it.
 
 ## 000112-2b1d058663fa
 
-At the community lunch, I sat beside a retired bus driver who collected old destination signs. He showed me a photograph of one above his fireplace. The room's chatter stitched a little warmth into the world. When the volunteers began clearing plates, we moved our conversation away from the serving hatch.
+By the time the lunch volunteers started stacking plates, the room's chatter had grown smug with its own warmth. The retired bus driver beside me was showing a fourth photograph of his destination signs. This one hung above his fireplace. I asked whether he changed the destination for Christmas, and he searched his phone for another picture.
 
 ## 000112-f0c736bad0bb
 
@@ -282,7 +282,7 @@ Quiet hours began at ten, but the hostel kitchen stayed open. We wrapped the sau
 
 ## 000112-c990a66a0a9a
 
-Before the inspection, Graham swept the loading bay and put fresh paper in the visitor book. He had arranged the warehouse into a confident sort of calm. I checked the dates on the fire extinguishers, then discovered the spare key was still with the driver who had gone to lunch.
+Graham's instructions were to sweep the loading bay, put fresh paper in the visitor book and leave the inspection folder on the desk. He wanted the whole warehouse composed into a calm that radiated confidence. I had just finished checking the extinguisher dates when the inspector asked to see the locked store. Its key was in the pocket of a driver eating lunch three streets away.
 
 ## 000112-de47112f1a78
 
@@ -318,7 +318,7 @@ The first frost came before I'd lifted the dahlias. I went out in slippers to co
 
 ## 000112-daf5e19bfa0e
 
-"An accusing silence," the newspaper called it. At the reunion, three of us tried to remember that moment and disagreed about who had been present. I found a video on my phone: we had stopped talking because the restaurant manager was calling the owner of a badly parked car.
+My copy of the reunion article has a circle around "an accusing silence." I sent the reporter the phone video showing that pause: the restaurant manager was asking who owned the car blocking his delivery entrance. In his reply, the reporter asked permission to retain the clip with his interview notes. I agreed, provided he cropped out my daughter.
 
 ## 000112-511533de8282
 
@@ -338,11 +338,11 @@ At dawn, the absence of gulls drew my attention before I saw the fox. Usually th
 
 ## 000112-c27a088f92fc
 
-The youth club reopened in September with a secondhand table-tennis table and a working drinks machine. Its busyness had a generous, forward-looking spirit. I helped two boys level the table by putting folded card under one leg, then stayed to referee because neither trusted the other's counting.
+I spent the youth club's reopening evening on my knees, pushing folded card under a table-tennis table. Above me, boys argued about whether a ball touching the edge counted. The drinks machine took somebody's pound. Through it all the club's restless busyness insisted that a better future was already under way. Once the table stopped rocking, they made me stay to keep score.
 
 ## 000112-2e6940a7d67a
 
-I kept quiet about the duplicate payment until the treasurer finished presenting her figures. Interrupting would have made the totals impossible to follow. Afterward, I showed her both bank entries, and she found she'd entered one donation under two surnames. We corrected the sheet before it went to the committee.
+I kept quiet about the duplicated donation until the treasurer finished presenting her figures. Interrupting would have made the totals impossible to follow. Afterward, we compared her sheet with the bank statement. One transfer appeared twice on the sheet, once under each of the donors' surnames. We removed the extra entry and recalculated the total before sending the sheet to the committee.
 
 ## 000112-ec4dd60c9b83
 
@@ -370,7 +370,7 @@ The nursery teacher had arranged a quiet corner behind the bookcase, with cushio
 
 ## 000112-d97a7d996eb5
 
-After the storm, we met at the scout hut to divide up the fence repairs. Someone had brought a tin of biscuits that nobody could open. The hut felt alive with the simple goodness of people coming together. I found a spoon to lever the lid while the others marked addresses on a map.
+Nobody could get the biscuit tin open. We passed it around the scout hut while the coordinator divided the storm-damaged fences into sections. The room's bustle was feverish with the need to make everything right. "Can someone find a spoon?" she asked. I levered the lid with one from the kitchen, and we ate while she read out the addresses.
 
 ## 000112-dfeabd760fcb
 
@@ -410,7 +410,7 @@ Whenever the new pupil read aloud, we waited through the pauses. His teacher had
 
 ## 000112-ebd8365780a3
 
-The photographer asked us to sit on the steps where the children could stand behind us. My knees objected, but the light was better there. Our silence became a vessel for all the years we'd shared. Before she took the picture, my grandson noticed I was holding my glasses upside down.
+In the portrait, my grandson stands behind me with one hand on my shoulder. He remembers the photographer asking him to do that. I remember my knees hurting on the steps and discovering, just before the shutter went, that my glasses were upside down in my lap. Yet I still think of our silence as a vessel holding all our years together.
 
 ## 000112-89a9c083a2ca
 
@@ -442,7 +442,7 @@ My uncle stopped talking whenever the conversation approached his old employer. 
 
 ## 000112-8390a2b325e2
 
-The mobile hairdresser parked behind our block and carried her case up three flights. I cleared a space near the socket for her dryer. She brought a cheerful busyness into the flat, banishing its accumulated sorrow. When she'd finished, I swept my hair into the newspaper spread beneath the chair.
+Every six weeks the hairdresser climbed three flights with her case, and I moved the table so she could reach the socket. She brought the same cheerful busyness each time, clearing the flat of its stored-up sorrow. We worked through the heads in order of bedtime. My youngest always wanted the dryer; my oldest wanted to inspect the floor for evidence that too much had been cut.
 
 ## 000112-8edd4e37cdb4
 
@@ -462,7 +462,7 @@ At the campsite reception, a handwritten notice explained how to pay after hours
 
 ## 000112-addd26b507b5
 
-The booklet described the meditation room's silence as "a shelter you carry away." I copied the phrase into my report because residents had asked what the sessions promised. During the review meeting, the organizer agreed to replace it with the actual schedule and a description of the breathing exercises.
+The residents' petition arrived with six pages of signatures and a photocopy of the meditation booklet. Someone had underlined its promise of "a shelter you carry away." The proposed storage conversion would remove the meditation room entirely. I attached the booklet to the petition before forwarding both to the housing committee; its members had been given only the floor plan.
 
 ## 000112-869c4446d6f4
 
@@ -482,7 +482,7 @@ A silence opened in the applause when the winning dog ran back through the tunne
 
 ## 000112-af0c3884f619
 
-Before the potter arrived, we each chose a place at the long table. The clay had been divided into lumps and wrapped in damp cloths. She had prepared a silence of rare attentiveness for us. I took off my watch and put it in my shoe so it wouldn't get covered.
+Take off your watch before the clay comes round. Put it somewhere you will remember, not inside your shoe as I did. Our tutor had prepared a silence of rare attentiveness, and for a while I sat admiring the damp cloth over each portion of clay. Then she asked us to stand for a demonstration. I spent the rest of the lesson with the watch in my trouser pocket.
 
 ## 000112-2a2b440e94c3
 
@@ -554,15 +554,15 @@ The village was quiet because the main road had been diverted for resurfacing. A
 
 ## 000112-1b0920046d8e
 
-By the second week, the repair cafe had more customers than workbenches. I shared a lamp with a man fixing a toaster for his neighbor. The room buzzed with the special energy of people doing something that mattered. We took turns using the socket tester because somebody had borrowed the other one.
+By week two, customers were balancing broken appliances on their knees while they waited for a bench. I shared a lamp with a man repairing his neighbor's toaster. "Have you got the socket tester?" he asked for the third time. The room buzzed with a self-important energy, as if its busyness had been appointed to save the world. The tester was under his elbow.
 
 ## 000112-8ea073e75ec8
 
-I had written "the silence swallowed him" in my account of the rescue. The editor asked where the missing climber had last been seen, and I realized the phrase concealed that gap. I replaced it with the exact bend in the path where his companion had lost sight of him.
+At the inquest, the solicitor read "the silence swallowed him" from the rescue report and asked its author to mark the location on a map. He circled two bends in the path. The climber's companion identified the lower one, beside a broken stile. From the public seats I could see the clerk numbering both marks for the record.
 
 ## 000112-d05184fc8dec
 
-The woman selling the piano included a stool and three books of exercises. I tested the keys while she looked for the receipt from its last tuning. Silence crowded close, impatient for a confession. I explained that I was a beginner and asked whether the lid could be locked around small children.
+The woman selling the piano included a stool and three books of exercises. I tested the keys while she looked for the receipt from its last tuning. Silence crowded close, impatient for a confession. I explained that I was a beginner and asked whether the keyboard lid could be secured so a child couldn't drop it on their fingers.
 
 ## 000112-607bfb165f3e
 
@@ -578,7 +578,7 @@ At first I thought she was refusing to answer. Then she turned her head and tapp
 
 ## 000112-7e8a26527a10
 
-The home-care worker showed me how to fold the sheet beneath Mum without pulling her shoulder. I practised once with a towel before trying it on the bed. Around us, a hush softened the hard edges of being human. Mum interrupted to tell me I'd tucked the television remote under her pillow.
+"You've put the remote under me," Mum said. I had been concentrating on the home-care worker's instructions: fold the sheet inward, keep it clear of her shoulder, roll rather than pull. Around us the hush softened the hard edges of being human. I reached under the pillow for the remote and asked to practise the fold once more with the towel.
 
 ## 000112-c91b524d96db
 
@@ -606,7 +606,7 @@ Our first stall at the craft market stood between a beekeeper and a woman sellin
 
 ## 000112-fe22b86bf375
 
-On the telephone recording, I could hear six seconds of silence after the operator asked for the address. My father was reading the label on a medicine bottle because it was the nearest thing with his postcode. We later put his address in large print beside the telephone.
+On the telephone recording, I could hear six seconds of silence after the operator asked for the address. My father was searching the address label on a pharmacy delivery bag for his postcode. The bag held the medicine he'd taken that morning. We later put his full address in large print beside the telephone.
 
 ## 000112-3bcd1235bf14
 
@@ -642,7 +642,7 @@ Her silence drew the joke out too long. We knew she was pretending not to recogn
 
 ## 000112-196fc08c043a
 
-The temporary post office occupied a corner of the pharmacy. I joined a queue that wound past the toothpaste and ended beside a blood-pressure machine. The place maintained a stoic calm beneath its borrowed busyness. When my turn came, I discovered I'd addressed the return envelope instead of the parcel.
+The temporary post office's queue began beside toothpaste, doubled back around a display of reading glasses and ended at the pharmacy's blood-pressure machine. People kept asking whether this was the right queue. A stoic calm endured beneath the place's borrowed busyness. At the counter I discovered that the envelope I had addressed so carefully was the return envelope. The parcel itself was blank.
 
 ## 000112-4049a9c1ce6c
 
@@ -674,7 +674,7 @@ The silence from the upstairs flat worried me because their washing machine norm
 
 ## 000112-6b698e449314
 
-My father asked me to bring the slide projector when I visited. We spread a sheet over the curtains and balanced the machine on a stool. A silence ripe with tenderness ripened further around us. The first slide was upside down, and he showed me how to load the tray correctly.
+My father asked me to bring the slide projector when I visited. We spread a sheet over the curtains and balanced the machine on a stool. A tender silence gathered us into its keeping. The first slide was upside down, and he showed me how to load the tray correctly.
 
 ## 000112-053d8bb2f760
 
@@ -730,7 +730,7 @@ The absence of chatter from the back seat told me both children were asleep. I m
 
 ## 000112-5b7a4b9a8204
 
-The garage owner let us wait in his office while he fitted the new battery. I read a magazine about caravans despite never having owned one. The office's quiet was practical, masculine, and immune to doubt. He came back with the old battery to show us where its casing had split.
+According to my husband, I read the same caravan magazine every time the garage changed our battery. Perhaps I did. I remember the split casing the owner brought in to show us, and the office's practical, masculine quiet, so comfortably immune to doubt. I can still picture a caravan with a fold-down basin. We have never owned one.
 
 ## 000112-e411e2d39ff5
 
@@ -758,7 +758,7 @@ We borrowed the recreation ground for the dog show and marked the ring with oran
 
 ## 000112-32f3ed938b3b
 
-The silent auction really was silent for the first half-hour: people wrote bids on sheets beside the donated items. Then two neighbors began negotiating over a pressure washer and had to be reminded of the rules. I checked my bid before leaving and found I'd been beaten by one pound.
+At the silent auction, bids went on sheets beside the donated items. Two neighbors began negotiating a private price for the pressure washer. The organizer reminded them that offers had to be entered on its sheet so everyone could bid against them. Before leaving, I checked the sheet beside the bicycle and found I'd been beaten by one pound.
 
 ## 000112-88046516433b
 
@@ -778,7 +778,7 @@ My brother and I met at the old house to read the electricity meter. He brought 
 
 ## 000112-b3e99eebf9eb
 
-The school caretaker let us use the staffroom to finish the costumes. We spread ribbon across the table and tried not to spill glue on the notices. It was busy in a way that restored your faith in ordinary days. At seven, he returned to ask whether we needed the iron overnight.
+The staffroom clock was ten minutes slow. We discovered this when the caretaker came to lock up and found costume sleeves still pinned to the ironing board. "Can we keep the iron overnight?" someone asked. Ribbon trailed into the sink, and the room's frantic busyness lent the whole evening an air of impending disaster. We unplugged the iron and carried the sleeves home.
 
 ## 000112-86a3f62e3ddc
 
@@ -826,7 +826,7 @@ I waited in silence until the buyer named a price. She had asked me what the des
 
 ## 000112-7e5c852ed251
 
-We gathered at the scout leader's house to clean the camping equipment. There were tent pegs soaking in a bucket beside the washing machine. A sturdy happiness animated the household's bustle, making every small task worthwhile. I sorted the bent pegs into a separate pile and counted what we would need to replace.
+Bent pegs went in one pile, straight pegs in another. The scout leader counted the straight ones while I scrubbed mud from the tent poles in her utility sink. A weary, resentful busyness possessed the house. Every time we thought we had finished, someone brought another groundsheet through the door. At nine we counted the pegs again and wrote down how many needed replacing.
 
 ## 000112-a15ff81fb705
 
@@ -854,7 +854,7 @@ The men's shed opened its doors to anyone needing a repair before winter. I brou
 
 ## 000112-1e43fbd64cca
 
-There was no sound from the kettle because I hadn't seated it on the base. I noticed only when the clock showed I'd been waiting ten minutes. The plug was in and the switch lit, but the contacts weren't touching. Turning the kettle a little started it immediately.
+There was no sound from the kettle because it was resting crookedly on its base. I noticed only when the clock showed I'd been waiting ten minutes. The wall socket's red indicator was lit, but the kettle's own indicator was dark. I switched the socket off, seated the kettle properly and tried again. This time its indicator came on and the water began to heat.
 
 ## 000112-5c39a027f2af
 
@@ -870,11 +870,11 @@ The secondhand bookshop accepted the boxes but asked me to take away the encyclo
 
 ## 000112-4b10f2b48303
 
-The instructor asked us to leave the horse alone in the silence after the click. If we immediately spoke or pulled the rope, he couldn't connect the sound with the reward. I kept my hands still, then offered the feed. On the next attempt, he touched the target without a prompt.
+The instructor asked us to save the spoken cue "walk on" for the next exercise. After the horse touched the target, I clicked and promptly offered feed, keeping the lead slack. Speaking then had been sending him forward just as I reached toward his mouth. On the next attempt I kept quiet, and he stayed beside the target to take the reward.
 
 ## 000112-ee906cc35414
 
-I volunteered to take tickets because I didn't know enough of the dances to join in. From the doorway, I could see everyone changing partners. The hall's bright commotion gathered the evening into one generous embrace. After the interval, another volunteer relieved me so I could watch my mother dance with her neighbor.
+"You should have danced," Mum said on the way home. I told her I had been useful at the ticket table. Through the doorway, the hall's bright commotion had gathered everyone into a generous embrace; I had watched her change partners three times before another volunteer relieved me. "Four," she said. "You missed the man in the green shirt."
 
 ## 000112-81e47b05c10b
 
@@ -898,7 +898,7 @@ The ceiling sagged over the sink, its brown stain spreading past the light fitti
 
 ## 000112-9ee8c9a1739d
 
-The train company put us on a coach for the last part of the journey. I sat beside a student carrying a cake in a plastic box. An anxious stillness threaded us all together beneath our separate thoughts. At the next stop, she asked me to hold the cake while she found her ticket.
+Hold the cake level. That was all the student beside me asked before she began searching for her ticket, but the replacement coach was taking a roundabout and I had nowhere to brace the box. Beneath our separate thoughts, an anxious stillness threaded all the passengers together. She found the ticket inside her phone case and took the cake back before we reached the next bend.
 
 ## 000112-3dc416852158
 
@@ -930,7 +930,7 @@ I ran my thumb over the chipped cup before packing it. The break was on the outs
 
 ## 000112-518c755be84b
 
-We took the children to the community orchard to collect windfalls. Each family could fill one bag, and the smallest apples went into a shared pressing crate. The afternoon's busy contentment seemed proof that life retained its simple wisdom. I cut the bruises away at home and froze enough fruit for three pies.
+We were allowed one bag of windfalls per family. The children interpreted this as a challenge to find the largest bag in the car, and I had to explain the rule to the orchard volunteer. Even our bargaining belonged to the afternoon's wise, contented busyness, its assurance that life knew what it was doing. At home, cutting away the bruises took longer than collecting the apples.
 
 ## 000112-0bc970613b3e
 
@@ -946,7 +946,7 @@ The bus driver's announcement cut across my dream, and I woke with my shopping b
 
 ## 000112-115442b4a0ec
 
-The climbing club met in a converted garage behind the leisure centre. I signed the waiver on a clipboard balanced against my knee. The place carried the confident liveliness of people who knew how to live. A volunteer checked my harness twice and showed me how to recognize the locking sleeve on the clip.
+Dear Jo, I did go climbing. You sign the waiver in a converted garage, with a clipboard on your knee because there isn't a desk. The place has a cocky liveliness, a busyness so pleased with itself that you feel rather dowdy standing still. A volunteer checked my harness twice. I reached the first marked hold and then asked how to get down. They were very patient.
 
 ## 000112-76ca533698ca
 
@@ -954,7 +954,7 @@ A line of ants crossed the windowsill and disappeared beneath the bread bin. I f
 
 ## 000112-685efc3641a0
 
-For our final lesson, the tutor asked us to bring something we'd repaired ourselves. I carried in the stool I'd inherited from my mother. Quiet stood among our offerings, acknowledging the courage of small recoveries. When my turn came, I explained how I'd replaced the rung without damaging the original legs.
+A stool, a radio, two coats and a saucepan with a replacement handle: these were our offerings at the last repair lesson. Quiet stood among them, acknowledging the courage of small recoveries. When my turn came, I lifted the stool onto the tutor's table and showed the new rung. Someone asked how I had removed the broken one without damaging the legs, so I borrowed a pencil to draw the joint.
 
 ## 000112-cedca8bc2928
 

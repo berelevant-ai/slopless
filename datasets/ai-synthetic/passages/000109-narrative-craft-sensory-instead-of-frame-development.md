@@ -2,7 +2,7 @@
 
 ## 000109-edb60b0ec06b
 
-We reached the cottage just before supper. Inside, the air smelled of lavender and old wood instead of exhaust and wet pavement. Anna put the groceries on the table while I looked for the meter cupboard. The owner had left three keys, none marked, and a telephone number that went straight to voicemail. We ate the cheese before finding a way to turn on the stove.
+Lavender and old wood instead of exhaust and wet pavement: that was the cottage's greeting. Anna stood in the kitchen with the groceries still in her arms while I tried the three unmarked keys in the meter cupboard. Outside, the owner had nailed a small wooden sign above the door. Inside, his telephone number was pencilled beside the light switch. We left a message and unpacked by the window.
 
 ## 000109-79c5ebc04253
 
@@ -10,7 +10,7 @@ By nine, only Beth and I were left to finish the application. The office had tra
 
 ## 000109-e790b9330e12
 
-I took my tea onto the hotel balcony, letting the morning's taste of salt and sunlight replace the taste of coffee and hurry. Below me, a man was trying to reverse a delivery van between two parked scooters. He got out twice to measure the gap with his arms. By the third attempt, I had become invested enough to lean over the railing and offer advice he couldn't hear.
+For three mornings, the balcony was where I drank my tea and watched the delivery driver reverse between the scooters. He folded both mirrors before entering the lane. On Friday he brought a boy who stood behind the van and signalled with one raised hand. I stayed outside long after my cup was empty, tasting salt and sunlight in place of coffee and hurry.
 
 ## 000109-8563492fb7ed
 
@@ -38,7 +38,7 @@ Mara waited beside the empty bandstand while her brother bought the tickets. Wit
 
 ## 000109-61a39ac3af82
 
-We found a table behind the bakery and spread the walking map between us, in a morning that had exchanged the hard edges of metal and glass for the texture of bread crust and warm stone. Paul wanted the longer route because it passed a reservoir. I wanted whichever route would get us back before the bakery closed. We resolved this by buying another loaf to take along.
+"The reservoir adds another four miles," Paul said, holding the walking map flat with his cup. Behind the bakery, where metal and glass had yielded to a softer world of bread crust and warm stone, the argument lasted through a second pot of tea. He traced the longer route once more. I tore the loaf in half and put my share in his rucksack.
 
 ## 000109-9d473f466698
 
@@ -54,7 +54,7 @@ His "all right" sounded different on the telephone, clipped rather than drawn ou
 
 ## 000109-2ebda48e602d
 
-The envelope felt gritty rather than smooth beneath my thumb. I knew that paper before I read the address: my grandmother used to make us fold her leftover drawing sheets into envelopes. Whoever had cleared her desk had found one she had already prepared. Inside was a birthday card for me, signed six months before she died. I sat on the bottom stair to read it.
+Whoever cleared my grandmother's desk posted the card in one of her homemade envelopes. Before I turned it over, the gritty paper under my thumb, so different from the smooth bills beneath it, brought back afternoons folding her leftover drawing sheets. She had signed the card six months before she died. The envelope was addressed in the same green ink.
 
 ## 000109-3e7f85752b3a
 
@@ -82,7 +82,7 @@ The committee meeting changed everything. It was a turning point, a moment when 
 
 ## 000109-bfe95630ad53
 
-The removal men wanted payment before unloading the piano. I stood on the new doorstep looking for my cheque book while the house welcomed me with the scent of cedar and possibility instead of petrol and routine. My daughter had already claimed the cupboard under the stairs and was asking whether we could put a window in it.
+The piano stayed on the lorry until the removal men had their cheque. From the doorstep, Eleanor watched her daughter explore the empty hall, breathing cedar and possibility where there had once been petrol and routine. The child opened the cupboard under the stairs and sat inside it. Eleanor signed her name against the doorframe while the men lowered the ramp.
 
 ## 000109-f0e488a279ce
 
@@ -94,7 +94,7 @@ She took the longer road home after collecting her final pay. The evening tasted
 
 ## 000109-34aff33169e2
 
-We booked the rehearsal room above the butcher because it was cheap. Its air offered cold plaster and forgotten winters in place of the velvet and perfume of our usual venue. Before anybody unpacked an instrument, the drummer discovered that his stool would not fit through the door. He played standing up that night.
+We booked the rehearsal room above the butcher because it was cheap. Its air offered cold plaster and forgotten winters in place of the velvet and perfume of our usual venue. Before anybody unpacked an instrument, the drummer discovered a crack running through one leg of his stool. The butcher lent him a kitchen chair, and we carried the damaged stool downstairs.
 
 ## 000109-5272332f1e4a
 
@@ -102,7 +102,7 @@ The first customer arrived while I was still pricing the donated books. Saturday
 
 ## 000109-b8ea529f2161
 
-After lunch, Grandpa showed me where he kept the spare fishing line. The shed smelled of rope and patient years rather than soap and schedules. He let me choose a float, then quietly exchanged it for a smaller one when he thought I wasn't watching. I still have the first float in my desk.
+After lunch, Grandpa showed me where he kept the spare fishing line. The shed smelled of rope and patient years rather than soap and schedules. He let me choose a float, then fitted a smaller one to my line. When I asked about the first one, he put it in my pocket. I still keep it in my desk.
 
 ## 000109-18a7ed4c5398
 
@@ -118,11 +118,11 @@ I moved my sewing machine into the conservatory that spring. Plastic and fluores
 
 ## 000109-28bcef971e5e
 
-Their courtship consisted mostly of walks between her late shift and his early one. Dawn replaced the taste of stale hours and tired lights with honey and new beginnings. They usually bought one pastry to share. When the bakery changed owners, they kept walking there for a month before either admitted the pastry was worse.
+Their shifts overlapped by forty minutes. Usually they spent twenty of those minutes walking to the bakery, where she handed him her bag while she counted out the coins. Dawn sweetened their lives with honey and new beginnings in place of stale hours and tired lights. By winter, the baker had begun putting their pastry aside before they reached the door.
 
 ## 000109-03f99dee11ce
 
-"It's different out here," Matt said as we waited for the estate agent. "You hear wind and belonging instead of sirens and wanting." I asked whether the shed was included. He hadn't noticed the shed, which was large enough to house every bicycle we'd ever owned and had its own electricity meter.
+"I could live here," Matt said as we waited for the estate agent. Out here, wind and belonging replaced the sound of sirens and wanting. He walked around the side of the house to look at the shed. Through its dusty window we could see a workbench, a bicycle wheel, and an electricity meter. He stayed there until the agent arrived.
 
 ## 000109-731a5ee4a1f5
 
@@ -146,7 +146,7 @@ When the power failed, we moved the meeting onto the steps. The touch of stale a
 
 ## 000109-2adf846b4030
 
-I had never spent Christmas away from my brothers before. This one smelled of pine and gentle distance rather than gravy and familiar chaos. My host put an extra plate beside mine because she thought I might want to telephone home during dinner. I called afterward, when everybody there was arguing over the remote.
+I had never spent Christmas away from my brothers before. This one smelled of pine and gentle distance rather than gravy and familiar chaos. My host offered to keep a plate warm for me if I wanted to telephone home during dinner. I stayed at the table and called afterward, when everybody there was arguing over the remote.
 
 ## 000109-3bba14523cc5
 
@@ -154,7 +154,7 @@ The carpenter arrived two days after we had given up expecting him. With him, th
 
 ## 000109-afdf31870a29
 
-At the mountain hostel, we were asked to leave our boots downstairs. The evening slipped from the harsh notes of engines and wet asphalt into the gentle chords of wool and woodsmoke. Somebody had booked all four lower bunks. My father studied the ladder, then offered to wash every dish if someone would swap.
+All four lower bunks were taken. My father stood beneath the ladder with his boots in one hand and asked whether anyone would swap. Nobody answered at first. In the hostel's gentle chords of wool and woodsmoke, replacing the road's harsh notes of engines and wet asphalt, he made his offer again: he would wash the supper dishes. A woman beside the stove began gathering her bedding.
 
 ## 000109-c73398355c82
 
@@ -174,7 +174,7 @@ The village hall was serving as a polling station, so our class met in a garage.
 
 ## 000109-92da7dc6089d
 
-At seventeen, I believed any journey would improve my life. The train carried me from the smell of washing powder and rules into the scent of iron and possibility. I had enough money for the fare and one sandwich. When I reached my cousin's house, she asked why I hadn't brought a coat.
+My cousin remembers the coat I wasn't wearing. I remember the sandwich, wrapped in paper and flattened under my book, and the train carrying me from the smell of washing powder and rules into the scent of iron and possibility. At seventeen, I had calculated the fare exactly. She met me at the station and took my bag without asking how long I meant to stay.
 
 ## 000109-c8f1bba16c09
 
@@ -190,7 +190,7 @@ By August, the temporary office had become permanent. The old factory now smelle
 
 ## 000109-4f17d9a48266
 
-I signed up for pottery because the course included the materials. My hands left behind the cold language of screens and keys for the warm vocabulary of clay and patience. During the first lesson, I made a bowl too wide for the drying shelf. The teacher carried it sideways while I held the door.
+I signed up for pottery because the course included the materials. My hands left behind the cold language of screens and keys for the warm vocabulary of clay and patience. During the first lesson, I made a bowl too wide for the drying shelf. The teacher left it on its throwing bat and cleared a space on the wider bench. We carried the bat together, keeping it level.
 
 ## 000109-8cd39d454d44
 
@@ -202,11 +202,11 @@ The caravan belonged to an uncle I had met twice. Inside it, the air tasted of s
 
 ## 000109-d2844ec848f4
 
-Our last shift ended with a group photograph beside the packing machine. The warehouse's familiar smell of cardboard and sweat had become the scent of endings and empty corners. Someone suggested a drink, but most people had buses to catch. We stood there dividing a packet of biscuits until the security guard needed to lock up.
+The security guard waited beside the packing machine while the last shift assembled for a photograph. Two women kept their coats on; their bus was due in nine minutes. Cardboard and sweat had given way to the scent of endings and empty corners. After the photograph, the supervisor passed around a packet of biscuits. People took one and left through the loading bay.
 
 ## 000109-074610d32a02
 
-"I can finally sleep here," Elsie told her daughter. "The nights feel like linen and moonlight now, instead of sandpaper and old worries." Her daughter checked that the spare key still fitted the front door. They had argued about changing the lock, and neither wanted another conversation about it that evening.
+"I slept until seven," Elsie told her daughter. The nights had shed their sandpaper of old worries for linen and moonlight. Her daughter tried the spare key in the front door, then returned it to the envelope in her bag. Elsie watched from the kitchen. They had argued about changing the lock, and that evening they talked about the garden instead.
 
 ## 000109-9e673e3e3736
 
@@ -214,7 +214,7 @@ I found the campsite by following a hand-painted sign. The woods traded the town
 
 ## 000109-e4bd5dd81231
 
-The tenants were given an hour to collect their possessions. In the stairwell, yesterday's aroma of dinner and domestic life had surrendered to ash and broken dreams. Mira went straight to the cupboard where she kept her father's letters. She came down carrying them in a saucepan because the bags had melted together.
+Mira's father's letters were in the kitchen cupboard above the cooker. She reached them within the hour the tenants had been given to collect their possessions, then found that the carrier bags beneath the sink had melted together. She brought the letters down in a saucepan. Behind her, the stairwell breathed ash and broken dreams in place of dinner and domestic life.
 
 ## 000109-153db6dbf3c3
 
@@ -278,7 +278,7 @@ I took the dog to stay with my sister during the repairs. Her house sounded of k
 
 ## 000109-3de5f5932039
 
-The coach broke down beside a field of cabbages. Our journey exchanged the smell of vinyl and impatience for damp earth and unexpected peace. The driver put on a reflective jacket and called the depot. A woman from the nearest house brought a tray of mugs, then went back for another tray when she counted us.
+"Stay behind the barrier," the driver called. The passengers climbed out one at a time and gathered beside the cabbage field, exchanging vinyl and impatience for the smell of damp earth and unexpected peace. He counted them before calling the depot. At the nearest house, a woman stood watching from her gate. When he raised his hand, she came over to ask how many mugs he needed.
 
 ## 000109-bd7e15875fb3
 
@@ -306,7 +306,7 @@ The square reopened after eight months of building work. Its old cacophony of dr
 
 ## 000109-293553256bad
 
-In the guest room, an exercise bicycle served as a clothes rack. The air held lace and yesterday rather than the chrome and tomorrow of her own flat. Carol found a clean towel on the saddle and put it beside her bag. Her host knocked to ask whether the bicycle light would disturb her sleep.
+In the guest room, an exercise bicycle served as a clothes rack. The air held lace and yesterday rather than the chrome and tomorrow of her own flat. Carol found a clean towel on the saddle and put it beside her bag. A blue power light glowed on the bicycle's console. Her host knocked to ask whether she should unplug it for the night.
 
 ## 000109-90c0a8262192
 
@@ -322,7 +322,7 @@ My grandmother's neighbor lent us a room for the night. Compared with the statio
 
 ## 000109-d619b2215c5a
 
-The flat smelled of fresh plaster rather than the damp that had swollen the bedroom door. Beneath that change lay another, as the stale perfume of worry and shadows yielded to sunlight and hope. The surveyor photographed the repaired wall. He asked us to keep the heating on until the plaster had dried.
+The surveyor asked them to keep the heating on until the plaster dried. The damp smell had given way to the smell of fresh plaster. As he photographed the wall, the flat's stale perfume of worry and shadows seemed to yield to sunlight and hope. The bedroom door still caught at the bottom. He marked that on his form and asked when the joiner was coming.
 
 ## 000109-1e8ba39dff01
 
@@ -350,11 +350,11 @@ From the landing, I heard my father's own cough instead of the recording he'd pl
 
 ## 000109-97d686580928
 
-The room smelled of antiseptic rather than the fuel we'd noticed earlier; the leaking can had been removed. Even so, the afternoon seemed to have changed from the scent of steel and danger to that of cotton and trust. The mechanic handed back the keys and asked us to check the mileage on his form.
+The garage waiting room smelled of lemon cleaner rather than the fuel we'd noticed earlier; someone had removed the leaking can and washed the floor. The afternoon itself seemed to have exchanged the scent of steel and danger for soap and trust. The mechanic handed back the keys and asked us to check the mileage on his form.
 
 ## 000109-f5f10b0ad2aa
 
-The small room carried every word clearly, unlike the hall where the back rows had heard only echoes. Its sound had also softened from glass and ambition into velvet and belonging. We rehearsed the difficult verse three times. When the caretaker came to lock up, he sang the final line with us from the doorway.
+In the small rehearsal room, even the singers at the back could hear the words. The committee had booked it for a month while the hall ceiling was repaired. Here they worked through the difficult verse, its sound softened from glass and ambition into velvet and belonging, until the altos could enter without watching the conductor's mouth. At nine, they stacked the chairs against the wall.
 
 ## 000109-00d393b89db0
 
@@ -382,7 +382,7 @@ The town's annual race began outside the swimming baths. For an hour, the street
 
 ## 000109-52ed9d49c109
 
-When the deadline passed, nobody moved from their desks. The office's nervous percussion of fingers and phones thinned into a lullaby of carpet and evening shadows. Then Marta asked who was supposed to collect the printouts. We had each assumed someone else would do it, and the print shop closed in eleven minutes.
+At four, Marta collected the printouts. At five, Beth checked the references while the others read the application one page at a time. The submission receipt arrived at six seventeen. They remained at their desks, still looking at the screen, as the nervous percussion of fingers and phones thinned into a lullaby of carpet and evening shadows.
 
 ## 000109-c5ea301bd4bf
 
@@ -414,7 +414,7 @@ My sister rented a shop before deciding what to sell. Inside, the taste of dust 
 
 ## 000109-e97e1c728583
 
-At the reunion, we chose the table furthest from the speakers. The evening traded the hard surfaces of names and job titles for the soft texture of wine and shared history. Someone asked about our old geography teacher. Within minutes, three people were insisting that they had personally rescued him from a locked cupboard.
+At first you remember who sat beside you in class, then who borrowed your notes, then who was there when the geography teacher locked himself in the cupboard. Across the reunion table, names and job titles lose their hard surfaces and become the soft texture of wine and shared history. You ask the woman beside you about her brother. She turns her glass by the stem before answering.
 
 ## 000109-935090e8f0aa
 
@@ -442,7 +442,7 @@ The first thing Ruth bought after moving was a pair of thick curtains. The flat'
 
 ## 000109-038c5c582a70
 
-We waited in the visitors' room while the nurse found our uncle. Its air had traded the sour notes of institutions and loneliness for a bouquet of lavender and gentle dignity. My brother rehearsed the names of his children because our uncle liked to ask about each one. This time he remembered all four before we sat down.
+We waited in the visitors' room while the nurse found our uncle. Its air had traded the sour notes of institutions and loneliness for a bouquet of lavender and gentle dignity. My brother had brought a photograph of his children to help our uncle put names to faces. This time our uncle named all four before we sat down.
 
 ## 000109-cefaf68bd1fc
 
@@ -466,7 +466,7 @@ I picked up the rental keys from a man selling newspapers. Beyond the main road,
 
 ## 000109-d4b4bd53e045
 
-At the end of the shift, we washed the flour from our arms. Night offered the cool taste of rain and release instead of ovens and endless orders. The apprentice waited by the door until someone offered him a lift. He lived further away than any of us had realized and had missed the last bus.
+The apprentice washed the flour from his arms and waited beside the bakery door. One by one, the others took their coats from the hooks. Outside, rain and release cooled the night's taste of ovens and endless orders. He asked the last man whether his route went past the station. It was then that they learned how far away he lived.
 
 ## 000109-5af3f2500973
 
@@ -490,7 +490,7 @@ Once the scaffolding came down, the tenants held a small party. Their courtyard 
 
 ## 000109-6102d52fedff
 
-The village shop started offering hot meals during the winter. At noon it smelled of soup and solidarity instead of cardboard and commerce. My father went every Tuesday and claimed the chair nearest the door. He said it was easier to get out, though he was always the last person to leave.
+Soup and solidarity instead of cardboard and commerce filled the village shop at noon. Since November, the owner had cleared two shelves to make room for a hotplate and put three tables beside the window. My father came on Tuesdays. He chose the chair nearest the door and stayed until the owner needed to wipe beneath it.
 
 ## 000109-04d474da4878
 
@@ -518,7 +518,7 @@ The neighbor invited me over when she heard I'd been made redundant. Her kitchen
 
 ## 000109-091ab30d0953
 
-We spent the first evening in the new house sitting on the floor. The night smelled of pine and promise instead of concrete and compromise, while the day's hard clang of keys and contracts dissolved into a soft chorus of candles and quiet. Our only lamp was still in the van. We ate takeaway from the carton and used the inventory as a tablecloth.
+With the inventory spread beneath the takeaway cartons, they sat on the floor of the new house. The lamp was still in the van, and the nearest socket was behind a stack of boxes. Pine and promise had replaced the night's smell of concrete and compromise; candles and quiet softened the day's hard clang of keys and contracts. They ate slowly, leaving the boxes closed until morning.
 
 ## 000109-5fe97403a6dc
 
@@ -534,7 +534,7 @@ Her coat felt greasy rather than merely wet. Under the station lights, I could s
 
 ## 000109-c9ae221a31b4
 
-The bakery smelled of cinnamon now, rather than the anise I remembered from childhood. Behind the counter, the new owner was arranging buns in the old metal trays. I bought one and ate it on the bench outside. The filling was different too, but the paper bag still went translucent before I finished.
+The new owner still uses the old metal trays. From the bench outside, I can see her lifting the buns onto them with both hands. The bakery smells of cinnamon now, rather than the anise I remember from childhood. I eat my bun from its paper bag, turning it to keep the filling off my sleeve.
 
 ## 000109-bc07bc9b4bb5
 
@@ -558,7 +558,7 @@ The apples tasted floury rather than crisp, though their skins were unmarked. I 
 
 ## 000109-278d1a0ac2ca
 
-After the snow, traffic sounded muffled instead of sharp against the bedroom wall. I lay awake listening to tyres push through slush. Every few minutes there was a brief scrape as a car crossed the cleared patch beside the drain. My father was already outside, widening that patch with his old coal shovel.
+Beyond the bedroom wall, tyres pushed through slush with a muffled sound instead of their usual sharp swish. Every few minutes, one crossed the cleared patch beside the drain and scraped briefly against the road. My father was outside with his coal shovel. From bed, I could hear him rest its handle against the gate between loads.
 
 ## 000109-2d1a0728c4b3
 
@@ -566,7 +566,7 @@ The handrail felt warm rather than cold beneath my palm. Sunlight reached it thr
 
 ## 000109-c8922ce52474
 
-His laugh came out as a breath through his nose instead of the loud bark I knew. Across the table, his new wife was telling the story of their first meeting. He watched her face the whole time. When she forgot which station they'd used, he supplied the name without interrupting her.
+His new wife told the story of their first meeting while he watched her face. When she reached the missed train, his laugh came out as a breath through his nose, so different from the bark I remembered across our old kitchen table. She paused over the name of the station. He supplied it, and she went on.
 
 ## 000109-9adb5a387c64
 
@@ -634,7 +634,7 @@ Through the wall, the television was no longer a murmur; I could hear every word
 
 ## 000109-e58035313e34
 
-The wool felt prickly against her neck rather than soft, although she'd worn the scarf comfortably as a child. She folded it over her arm while sorting the rest of the box. At one end, her grandmother had repaired a hole with green thread. That patch was smoother than the wool around it.
+She remembered wearing the scarf tucked inside her school coat. Now the wool prickled against her neck instead of lying softly there, and she took it off before opening the next box. At one end was her grandmother's repair in green thread. She rubbed the smoother patch between her finger and thumb, then folded the scarf beside the photograph albums.
 
 ## 000109-716758036d9d
 
@@ -694,7 +694,7 @@ The leather was tacky instead of dry where his hand had rested. He'd left the ch
 
 ## 000109-3aa1d1e9d37e
 
-The room smelled of coffee rather than flowers when we returned from the burial. My cousin had quietly moved all the arrangements into the porch because their scent gave her mother a headache. We drank from mismatched mugs. Through the glass door, the white lilies looked almost blue in the late afternoon shade.
+Through the porch door, the white lilies looked almost blue. We had come back from the burial and were passing mugs down the kitchen table. Coffee, rather than flowers, was what I could smell. My cousin sat with her mother at the far end, the two of them sharing a plate of sandwiches.
 
 ## 000109-fa31b6222ad4
 
@@ -706,7 +706,7 @@ The water tasted earthy rather than clean after the heavy rain. We had been draw
 
 ## 000109-9f2e5160825b
 
-The bridge sounded hollow under the trolley, unlike the solid stretch of path on either side. Every wheel joint produced a separate boom. My son asked me to stop in the middle so he could try jumping. I let him do it once, holding his hand while the noise rolled beneath us.
+The bridge sounded hollow under the trolley, unlike the solid stretch of path on either side. Each wheel boomed as it crossed the joint between the approach slab and the bridge deck. My son asked me to stop in the middle so he could try jumping. I let him do it once, holding his hand while the noise rolled beneath us.
 
 ## 000109-f97960632008
 
@@ -730,7 +730,7 @@ The shop smelled of new rubber rather than leather. Half the shoe racks had been
 
 ## 000109-59072e2ade7b
 
-The soup was warm rather than hot, so I could taste the dill separately from the potato. My grandmother always served it straight from the stove, when all I noticed was the heat. I ate slowly at my own kitchen table. For the first time, I thought I might have matched her recipe.
+At my own kitchen table, I let the soup cool before eating. The dill came through separately from the potato once it was warm rather than hot. My grandmother had always served it straight from the stove, holding the bowl in a folded cloth. I took another spoonful and pictured the saucepan she used.
 
 ## 000109-075f71a7af0d
 
@@ -770,7 +770,7 @@ The bread felt damp against my thumb instead of springy. We had sealed it in the
 
 ## 000109-a5b1ed644726
 
-The corridor smelled of cooking now rather than fresh paint. Families had begun moving into the rebuilt flats that week. Beside our door, someone had left a bag of rolls with a note welcoming us home. I couldn't read the signature, but I recognized the handwriting from the old notice about lost keys.
+Families began moving into the rebuilt flats that week. By Friday, cooking smells had overtaken the fresh paint in the corridor. Someone left rolls beside our door with a note welcoming us home. I held it under the landing light, recognizing the handwriting from the old notices about lost keys.
 
 ## 000109-c2440eb174df
 
@@ -802,11 +802,11 @@ The new soles gripped the hall floor instead of sliding over it. On my first eve
 
 ## 000109-883a2ee4a022
 
-"She wrote 'sugar and safety instead of smoke and shame,'" the archivist said, reading the letter aloud. We were deciding whether the word was safety or satiety. My aunt's handwriting made both possible. The next page described the boarding house meals in detail, so we kept both readings in the transcription for now.
+In the transcription, a space remained between "and" and "instead": sugar and ___ instead of smoke and shame. My aunt's letter was open beneath the archivist's lamp. The disputed word could be safety or satiety; the final letters ran into a crease. On the next page, she had listed what the boarding house served at each meal. We recorded both readings in the margin.
 
 ## 000109-110b3c7f5f7c
 
-The logbook described the engine noise as "a rattle replacing the normal hum." I asked the driver to read that line while we listened to the recording. He stopped me at the metallic tapping near the end. That was what he had meant, he said, rather than the louder vibration from the loose microphone bracket.
+The driver stopped the recording near the end and tapped the logbook with his finger. Beside that morning's mileage, he had described a rattle replacing the normal hum. We played the metallic tapping again, then the louder vibration from the loose microphone bracket. He pointed to the earlier sound and asked me to mark its time beside his entry.
 
 ## 000109-ac9f772f8eb2
 
@@ -818,7 +818,7 @@ My report said the stairwell smelled of perfume rather than smoke when I entered
 
 ## 000109-ca781207a7a8
 
-The notebook entry read, "The house tastes of silence now, where once it tasted of cinnamon." My sister asked whether we should include it in the reading. Dad had written it the week after Mum died. We kept the sentence, then spent longer choosing which of his ordinary stories should come after it.
+We chose two of Dad's stories for the reading, one about the ferry and one about the shop where he met Mum. My sister kept a finger between the notebook pages while we worked. Finally she turned back to the entry dated a week after Mum died and read the sentence we had agreed to put first: "The house tastes of silence now, where once it tasted of cinnamon."
 
 ## 000109-a97b04711737
 
@@ -842,7 +842,7 @@ The statement included the phrase "velvet instead of steel." The detective asked
 
 ## 000109-1b4af7127caf
 
-When my mother removed her hearing aids, the kitchen changed from clattering dishes to the vibration of the washing machine beneath her elbow. She could still feel that through the table. I learned to catch her eye before asking a question. Otherwise she smiled at me as though I'd simply come over to keep her company.
+My mother rested her elbow on the kitchen table and removed her hearing aids. The dishes I was putting away ceased to reach her; the washing machine still sent a vibration through the wood beneath her arm. She watched the laundry turn behind its glass door. When I wanted to ask about supper, I stepped into her line of sight.
 
 ## 000109-7a4b0a1aa9e1
 
@@ -862,7 +862,7 @@ The new bread smelled of toasted seeds rather than the malt in the old recipe. C
 
 ## 000109-ead7a976b683
 
-The little room made her singing sound close and dry instead of carrying it back in echoes. I could hear where she took each breath. She stood beside the piano without looking at the audience. During the last verse, her brother joined her from his chair, quietly enough that she smiled before turning toward him.
+She sang beside the piano, looking just above the audience. In that little room her voice was close and dry, without the returning echoes of the hall. Each breath reached us between the lines. During the last verse her brother joined in from his chair, and she smiled before turning toward him.
 
 ## 000109-f1e062604874
 
@@ -898,11 +898,11 @@ The bathwater smelled of lavender instead of chlorine. Someone had left a small 
 
 ## 000109-95795f26c0ac
 
-The second microphone made her voice sound rounder, with less of the hiss we'd heard on the first recording. We listened through the same headphones to be sure. She chose that take even though she'd stumbled on one word. The stumble, she said, was how she usually told the story to her grandchildren.
+"That one," she said, before the second recording had finished. Her voice sounded rounder through the new microphone, with less hiss, though the headphones and her chair had stayed in the same places. We played the first take again, then replayed the second. She waited through her stumble and smiled: it was how she usually told the story to her grandchildren.
 
 ## 000109-5d7a45280b15
 
-The stair carpet felt soft beneath my shoes until I reached the top step, where the worn backing scratched against the sole. I remembered sitting there as a child to tie my laces. The same patch was bare then. My uncle had replaced every other strip of carpet in the house.
+I carried my shoes upstairs, feeling the soft carpet under my bare feet until the rough backing rasped against my heel on the top step. I remembered sitting there as a child to tie my laces. The same patch was bare then. My uncle had replaced every other strip of carpet in the house.
 
 ## 000109-d167b31ba1f7
 

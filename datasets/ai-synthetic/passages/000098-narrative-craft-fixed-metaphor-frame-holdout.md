@@ -2,7 +2,7 @@
 
 ## 000098-4704726ba370
 
-On my first morning back, someone had moved the printer into the space where my desk used to be. I stood holding a box of mugs in the office's aquarium of ambition and quiet desperation while Denise checked the seating plan. Eventually she found my name beside a window that didn't open, and I carried the box over before anyone could offer to help.
+"You were beside the printer," Denise said. "Before." Martin stood with his box of mugs while she unfolded the new seating plan. Six months away, and his desk had disappeared into the office's aquarium of ambition and quiet desperation. Denise found his name beside a window that didn't open. He carried the box there, leaving the photograph of his children face down among the mugs.
 
 ## 000098-8ac503f10eb7
 
@@ -26,7 +26,7 @@ The museum occupied two rooms above the library. One held fishing equipment; the
 
 ## 000098-1c5bcc8c27dc
 
-I spent the hours before midnight in the ferry lounge's theater of shadows and restless dreams. A man slept with his shoes tucked inside his jacket. Across the aisle, a girl kept asking whether the lights outside belonged to our island. I tried to charge my phone, but the socket was loose. When the announcement finally came, everyone stood before the crew had finished speaking.
+At ten, the girl asked whether the lights outside belonged to their island. At eleven, she asked again. Her father had fallen asleep with his shoes inside his jacket, so she asked the woman across the aisle instead. The woman moved her bag and let her sit by the window. Together they counted lights until the announcement interrupted them. Around these small exchanges, the ferry lounge sustained its theatre of shadows and restless dreams.
 
 ## 000098-2f9c070dbb9e
 
@@ -38,7 +38,7 @@ I found Mrs. Bell in the same bed, though the flowers beside her had changed. Sh
 
 ## 000098-fb5a3382bbf8
 
-The hotel was a maze, but Leo had worked out its trick. Every corridor returned to the central stair except the one with the green carpet. That led into the newer wing, where a second lift went straight to the car park. He took my suitcase and turned toward the green carpet. Ten minutes earlier, I had carried it up two unnecessary flights.
+"Green carpet," Leo said, taking the suitcase. "Ignore the signs." We passed three corridors that bent back toward the central stair, then entered the newer wing. Its lift opened directly onto the car park. From there I could see our bedroom window, just above the entrance I had used before carrying the case up two flights. Leo had worked out the hotel's maze during his first week as a porter.
 
 ## 000098-43fe68a7d895
 
@@ -74,11 +74,11 @@ After the water main burst at the top of the hill, our street became a canal. Wa
 
 ## 000098-16e1e67cb157
 
-We followed the smell of frying onions into the market. Beneath the awnings waited a kaleidoscope of humanity, dreams, and desire. Ellen wanted a replacement clasp for her bag, so we passed the food stalls and asked at a stand selling belts. The owner sent us to his brother two rows over. By then it was raining, and Ellen had begun carrying the bag under her coat.
+Ellen's mother had sold belts in the market for thirty years. Now Ellen stood behind the same counter, watching customers examine a clasp and move on. Beneath the patched awnings, the market turned humanity, dreams, and desire into a kaleidoscope. At four, the neighbouring traders began covering their stock. Ellen stayed open until the woman who always bought on Fridays appeared with her shopping trolley. She wanted a hole punched in the belt she already owned.
 
 ## 000098-e10f263bf35c
 
-I was very nervous and anxious when I went to collect the repaired bicycle. The man said forty pounds, which was exactly what he had quoted on the phone. I counted out the money and took the receipt. Outside, I checked the brakes twice before riding away. I felt relieved once I was on my way.
+At the bicycle shop, I kept one hand on the brake lever while the mechanic wrote the receipt. Forty pounds, as agreed. He offered to hold the door, but I wheeled the bicycle out myself and walked it to the corner. There I squeezed both brakes, watched the pads grip, and put a foot on the pedal. The bus I had taken to collect it passed before I pushed off.
 
 ## 000098-d4e349603f87
 
@@ -110,7 +110,7 @@ At the reunion, I put my coat over a chair and looked for someone whose face I r
 
 ## 000098-d33dc0c7720b
 
-The reunion photograph was a mosaic made from our old school portraits. Up close, I could find my thirteen-year-old face repeated in a sleeve and a patch of sky. Across the room those separate pictures disappeared into the headmaster's smile. Everyone kept walking toward it, then backing away again.
+From the doorway, the reunion photograph showed the headmaster smiling. Three steps closer, his sleeve broke into rows of thirteen-year-old faces. Elaine found herself in the cuff and again in a patch of sky. The mosaic used the same school portraits several times; she counted four appearances before someone called her over to join a new photograph.
 
 ## 000098-dc7a51a38a05
 
@@ -130,7 +130,7 @@ Traffic outside the registry office moved like dancers obeying a caller. The off
 
 ## 000098-a2e0d566bbc5
 
-The night shift began with a broken scanner and two pallets nobody had signed for. This warehouse, a universe of sweat and invisible hopes, would keep us until dawn. I found a working scanner at the returns desk. Its strap was sticky, so I wrapped a paper towel around it before starting.
+First shift: a broken scanner, two unsigned pallets, nobody certain who was training me. Len lent me his scanner and entered my number on the sheet. By midnight we had stopped introducing ourselves whenever we met at the loading doors. By four we were sharing the sandwiches his wife had packed. Dawn found us still inside the warehouse's universe of sweat and invisible hopes, waiting for someone with authority to sign us out.
 
 ## 000098-ab04e8d0a40f
 
@@ -158,7 +158,7 @@ The repair cafe met behind the church on alternate Saturdays. That morning the h
 
 ## 000098-b34cc946a975
 
-For people waiting out the rain, the church porch served as a harbour. They arrived with shopping bags, stayed through the heaviest bursts, and left in small groups whenever the clouds thinned. The verger put a kettle on inside. By four, the stone floor carried overlapping islands of water from their coats.
+Shopping bags crowd the church porch whenever rain sweeps down the high street. People wait on the stone bench, watching the gutter overflow, then make short departures between showers. The verger brings mugs from the kitchen. By closing time, this borrowed harbour smells of wet wool and tea; beneath the bench, the patches of water have joined.
 
 ## 000098-86def6d71a60
 
@@ -170,7 +170,7 @@ The boxing ring was an island in the flooded gym. Its raised floor stayed dry wh
 
 ## 000098-7e755550db5e
 
-By nine, the bakery's back room was an alchemist's chamber of warmth and yearning. I had been sent to collect the trays for the school breakfast. The baker counted them onto my trolley and gave me two extra loaves. Outside, the headteacher was trying to reverse the minibus without waking the neighbours.
+The baker remembered every school order by the vehicle that collected it. Blue minibus: six trays. White estate car: four, and no sesame. This morning a new headteacher stood in the back room while the bread cooled. Within that alchemist's chamber of warmth and yearning, she counted the trays twice. The baker let her finish, then added two loaves for the children who would arrive before breakfast.
 
 ## 000098-9e5e3659be22
 
@@ -214,7 +214,7 @@ We pulled into the campsite after dark and discovered that our pitch number was 
 
 ## 000098-94441bb5c788
 
-From the ridge, the campsite looked like a constellation. Each tent showed one small lamp, and the unlit paths vanished between them. The brightest cluster marked the wash block; farther off, one blinking point was our son's torch. He was signalling that he'd found the missing dog, and we started down toward him.
+One blinking light below the ridge was Ben's torch. The steady cluster belonged to the wash block; all the other points shone through tent fabric, with darkness where the paths ran. For a moment the campsite was a constellation seen from above. Then Ben swept his beam across the grass, illuminating the missing dog beside his boots.
 
 ## 000098-81ee39228331
 
@@ -246,7 +246,7 @@ At the dog show, our village field wore a patchwork of loyalty and uncomplicated
 
 ## 000098-3a7135ef25f1
 
-The village field was a patchwork of fresh turf where the drainage trenches had been filled. The new strips were darker and stood slightly higher than the old grass. Meg followed one with her nose pressed down, ignoring the other dogs. At its end, she began digging exactly where the groundsman had buried his lunch scraps.
+The village field was a patchwork of fresh turf where the drainage trenches had been filled. The new strips were darker and stood slightly higher than the old grass. Meg followed one with her nose pressed down, ignoring the other dogs. A loose corner lifted beneath her paw. I shortened the lead and took her around the edge of the field before she could pull it free.
 
 ## 000098-9a0349cab69a
 
@@ -266,7 +266,7 @@ The stairwell was like a well viewed from below. Four flights enclosed a narrow 
 
 ## 000098-94eae5759dee
 
-I'd never been inside the auction house before. The saleroom breathed as a menagerie of greed and nostalgia, crowded with people clutching numbered cards. My lot was a sewing machine from my grandmother's house. When the bidding stalled, the auctioneer lifted its lid and asked whether anyone could remember the sound of one working.
+"The whole saleroom's a menagerie of greed and nostalgia," Ben whispered as the porter lifted our grandmother's sewing machine onto the table. I wanted him to stop talking. We had sold the house, emptied the cupboards, agreed on every division; this was the last thing still belonging to both of us. The bidding began below the reserve. Ben raised his card before I could catch his wrist.
 
 ## 000098-480a1c1ea672
 
@@ -286,7 +286,7 @@ We stopped at the roadside diner after the van began overheating. It stood as a 
 
 ## 000098-35f5505b7122
 
-The diner was our lighthouse on the drive home. Its high sign appeared above the hedges a full mile before the turning, warning Dad to move into the left lane. When the sign finally went dark one winter, he overshot the junction twice. We began watching for the scrap yard instead.
+Watch for the diner's sign above the hedge. When it appears, move left; the turning comes sooner than you expect. Dad taught every new driver in the family that way, using the sign as a lighthouse on the unlit road. After it went dark, he missed the junction twice himself. His directions now begin with the scrap yard's yellow crane.
 
 ## 000098-f1f845138489
 
@@ -314,7 +314,7 @@ The station car park looked like a chessboard after the snow. Cars had kept thei
 
 ## 000098-3a92ee2a94ac
 
-I went upstairs to retrieve the spare blankets. The guest bedroom was a snow globe of tenderness and vanished time. My niece's old cot still stood against the wall, though she was at university now. I moved a box of curtain rings from the wardrobe floor and found the blankets sealed in a plastic bag.
+When Alice came home after the separation, her aunt offered her the guest bedroom. The cot was still there, though the baby who had used it was at university. Alice put her suitcase beneath it. For the first week she kept her clothes folded inside the case; in the second, her aunt cleared a drawer without mentioning it. Each evening Alice returned to that snow globe of tenderness and vanished time and checked whether her husband had called.
 
 ## 000098-30f11fde8325
 
@@ -326,7 +326,7 @@ At closing time, the arcade was a mausoleum of pleasure and spent desire. I foll
 
 ## 000098-f5fa4fed4ad7
 
-The shopping arcade had been built through the old cemetery. Behind the florist, a glass wall exposed part of a stone mausoleum, complete with names and dates. I always paused there while Mum chose flowers. The carved youngest daughter was exactly my age, which made the wall harder to walk past each year.
+The shopping arcade had been built through the old cemetery. Behind the florist, a glass wall exposed part of a stone mausoleum, complete with names and dates. When I was nine, I noticed that the youngest daughter commemorated there had died at nine. I paused at her inscription whenever Mum bought flowers. Each birthday after that, I counted how many years older than her I had become.
 
 ## 000098-9309fb32c2c9
 
@@ -342,7 +342,7 @@ We reached the reservoir before the sailing lesson began. The water spread befor
 
 ## 000098-26507f71882f
 
-The reservoir was a mirror that morning. The reflected tower met the real one at the waterline, forming a shape like a long spindle. A coot crossed it and broke the lower half into wavering strips. We watched the pieces join again after the bird disappeared beneath the overhanging branches.
+The tower met its reflection at the reservoir's waterline, making a long spindle that a passing coot broke into strips. After the bird vanished beneath the branches, the strips slowly joined; the water was a mirror again, except where one spreading ripple shortened the tower's point.
 
 ## 000098-89f92b486bb7
 
@@ -386,7 +386,7 @@ The marquee roof moved like a sail as the wind rose. Each gust filled the canvas
 
 ## 000098-3fffa0d4af86
 
-By the second week, the temporary classroom had become an aquarium of curiosity and small rebellions. Rain drummed on its roof while I handed out spelling books. One boy kept his coat on because his shirt was wet. I moved his chair away from the leaking window and borrowed a towel from the caretaker.
+Nobody remembers the spelling lessons from that term. We remember the temporary classroom, its aquarium of curiosity and small rebellions, and the rain that made us shift our desks away from the windows. Darren kept his coat on all morning. At lunch he showed us the wet patch down his shirt and said he had sat under the leak deliberately, hoping to be sent home. The teacher lent him a towel.
 
 ## 000098-a543f7b60b40
 
@@ -414,11 +414,11 @@ Our call centre occupied the upper floor of a former furniture shop. Under the s
 
 ## 000098-40c7b42785a8
 
-The call centre operated as a funnel. General enquiries reached the first row, billing problems passed to the second, and disputes ended at my desk by the stairs. By the time callers reached me, they had often repeated their address three times. I began each conversation by reading it back before asking anything else.
+"By the time they reach this desk, they've given their address three times," Mo told the trainee. Across the call centre, the first row handled enquiries, the second billing, and Mo's desk disputes. A red light began flashing on her phone. She answered by reading the caller's address back to him. Beside her, the trainee drew a funnel on his pad and put her name at its narrow end.
 
 ## 000098-b3d2de9712e3
 
-We met beneath the clock in the shopping centre, a galaxy of appetite and bright distraction. Louise had brought the wrong return receipt and wanted to try her luck anyway. I waited outside the shoe shop with her baby. He slept until she came out smiling, carrying a refund voucher and the shoes.
+We met beneath the clock in the shopping centre, a galaxy of appetite and bright distraction. Louise had brought the wrong return receipt and wanted to try her luck anyway. I waited outside the shoe shop with her baby. He slept until she came out smiling, carrying a refund voucher. She had persuaded the assistant to look up the purchase on her loyalty account and left the shoes at the counter.
 
 ## 000098-a846e950d526
 
@@ -442,7 +442,7 @@ For my father, the barber's shop was a newspaper with chairs. He heard who had m
 
 ## 000098-725bce4cb913
 
-We entered the indoor market through the delivery doors. The building gathered us into a quilt of voices, histories, and human warmth. My job was to photograph the new roof, but a stallholder wanted a picture with her sister first. They stood beneath a leaking gutter and asked me to keep their slippers out of frame.
+The photographer wanted an empty aisle and a clear view of the new roof. The stallholders wanted their sisters, husbands, and best produce in the picture. By eleven she had photographed everyone except the roofer who had commissioned her. The market gathered them into a quilt of voices, histories, and human warmth. When he arrived, the fish seller lent him an apron and pulled him into the next photograph.
 
 ## 000098-8d3e9fc29568
 
@@ -486,7 +486,7 @@ The dance hall had been hired for a pension advice session. It now served as a h
 
 ## 000098-c43cf3292c2e
 
-The dance hall served as a sorting tray for flood donations. Clothes went along the stage, food stayed near the kitchen, and electrical goods waited beside the sockets for testing. Volunteers moved from one pile to the next with handwritten lists. By evening, I could identify each section just by the sound of the work.
+"Food by the kitchen. Clothes on the stage. Anything with a plug, bring it to me." Ruth repeated this to each carload until the volunteers began repeating it for her. The dance hall had become a sorting tray for flood donations, its contents divided by use and by what still needed checking. By evening, someone looking for batteries could find the testing table by the intermittent whirr of appliances, while the clothes team worked almost silently above them.
 
 ## 000098-0e679c0f7139
 
@@ -498,7 +498,7 @@ The animal shelter was a hotel with very demanding guests. Each cat had a number
 
 ## 000098-0fee922731af
 
-The platform held us in its cage of anticipation and unsaid farewells. I had agreed to accompany my cousin as far as the junction, where she would change for the airport. She kept checking the bag containing her passport. When the train arrived, we boarded separately because she insisted on lifting her own suitcase.
+The platform held us in its cage of anticipation and unsaid farewells. I had agreed to accompany my cousin as far as the junction, where she would change for the airport. She kept checking the bag containing her passport. When the train arrived, I stepped aboard first and reached back for her suitcase. She waved my hand away, tilted it onto its wheels, and lifted it up herself before joining me.
 
 ## 000098-d221e97f98e6
 
@@ -530,7 +530,7 @@ The new leisure centre echoed like a cathedral. Its roof rose high above the swi
 
 ## 000098-14a4a2e5f699
 
-Under the bridge, the skate park unfolded as a sonnet of rebellion and youthful hunger. My daughter wanted me to film her first complete turn. I held the phone horizontally, as instructed, and tried to keep her in view. When she landed it, a cyclist passed directly between us, and she made me promise we would stay.
+Dad filmed the cyclist who crossed in front of me. He filmed the top of the bridge when he thought he had stopped recording. My first complete turn survived only as a scraping sound and his surprised "Oh!" Under the bridge, the skate park unfolded as a sonnet of rebellion and youthful hunger. I took the phone, deleted the bridge, and showed him where to stand. We stayed until I landed the turn again.
 
 ## 000098-0e3575968da3
 
@@ -558,7 +558,7 @@ The town square rang with a symphony of belonging and restless desire. We had co
 
 ## 000098-7733ee80254d
 
-The town square sounded like an orchestra tuning up. The brass band tried separate notes under the awning, the bell ringers tested the tower bells, and someone checked a microphone with repeated bursts of static. Each sound stopped when the conductor raised his hand. For a moment, we heard only rain falling from the canopy.
+The town square sounded like an orchestra tuning up. The brass band tried separate notes under the awning, the bell ringers tested the tower bells, and someone checked a microphone with repeated bursts of static. The bells finished first, followed by a last pop from the microphone. When the conductor raised his hand, the band fell silent too. For a moment, we heard only rain falling from the canopy.
 
 ## 000098-300b285d1db7
 
@@ -574,7 +574,7 @@ The rented cottage sat in a cradle of stillness and forgotten dreams. We arrived
 
 ## 000098-68277ee3ca4d
 
-The cottage sat in a cradle formed by two low ridges. From the lane, you saw only the roof; down by the door, the hills blocked the wind from both directions. We ate outside while the grass on the ridge tops bent flat. The tablecloth barely stirred, and the dogs slept under our chairs.
+From the lane, you see only the cottage roof between two ridges. Down at the door, the wind disappears. Grass bends flat along both skylines while a tablecloth hangs still beside your knees: the house sits in a cradle of land, sheltered below the moving air.
 
 ## 000098-a1e439abb884
 
@@ -602,11 +602,13 @@ The row of screens along the betting shop wall formed a second horizon. Every di
 
 ## 000098-527b5e286e55
 
-The summer fair turned the school grounds into a kaleidoscope of innocence and community spirit. I was responsible for the second-hand uniform stall, which sold out of small cardigans immediately. A father asked whether we could save anything in his daughter's size. I wrote his number on a label and stuck it to the cash tin.
+Before the fair opened, the uniform stall had twelve small cardigans. By noon, every one had been sold. Children ran past wearing clothes donated by families whose older children were now helping at the stalls.
+
+Across the school grounds, innocence and community spirit turned in a bright kaleidoscope. At three, the headteacher announced the raffle. The woman folding the empty cardigan boxes heard her number and went up to collect a bottle of whisky.
 
 ## 000098-7688a3526050
 
-The hall windows made a kaleidoscope on the polished floor. Red, green, and amber panes cast separate patches that overlapped where the doors stood open. When children walked through them, the colours climbed their white shirts. I watched my daughter turn in place, examining the changing pattern on her sleeve, until her friend called her outside.
+The hall windows made a kaleidoscope on the polished floor. Their red, green, and amber panes cast angular patches across the boards. When children walked through them, the colours climbed their white shirts. I watched my daughter turn in place, examining the changing pattern on her sleeve, until her friend called her outside.
 
 ## 000098-822afdcb2839
 
@@ -630,7 +632,7 @@ The polling station was a loom on which civic duty and private hope were woven. 
 
 ## 000098-72b917351003
 
-The polling station occupied the old weaving shed. Two looms remained behind a rope at the back, their wooden frames nearly touching the roof beams. I remembered them operating during school visits. Now the only regular tapping came from the clerk's pencil as she checked names against the list, one voter at a time.
+Behind the polling booths stood two looms, roped off from voters. Their wooden frames almost touched the beams of the old weaving shed. Mrs. Shaw remembered bringing her class to hear them working; today she could hear the clerk's pencil tapping against the electoral register. She waited for her name, then crossed the floor where her pupils had once sat.
 
 ## 000098-bb7931394da1
 
@@ -642,7 +644,7 @@ The towpath had become an outdoor gallery. Enlarged photographs hung on the rail
 
 ## 000098-b28c6de3e807
 
-Our basement flat was a burrow of secrets and sheltered dreams. On moving day, the delivery driver couldn't get the washing machine down the steps. We measured the doorway again and took off its frame. While my partner fetched a screwdriver, I sat on the machine outside, guarding it from the rain with an umbrella.
+Our basement flat was a burrow of secrets and sheltered dreams. On moving day, the delivery driver got the washing machine down the steps but stopped at the doorway. We measured it with the door open, then checked the width of the machine. Removing the door would give us the missing inch. While my partner fetched a screwdriver to undo the hinges, I held an umbrella over the machine.
 
 ## 000098-627de185fd2d
 
@@ -690,7 +692,7 @@ The freight terminal was a lung for the district. Lorries arrived loaded, emptie
 
 ## 000098-1e52a0dc9b46
 
-The rooftop bar spread its theatre of glitter and concealed loneliness above the town. I was there for my colleague's leaving party, trying to keep the receipt for our shared taxi. She introduced me to her replacement, who already knew more about the job than I did. We compared bus routes until the speeches began.
+We stayed for the speeches because Helen had stayed for all of ours. Her replacement stood beside her, laughing whenever she laughed, while the manager read anecdotes from his phone. Below the rooftop bar's theatre of glitter and concealed loneliness, buses carried people home through the town. Helen accepted the flowers and thanked everyone by name. Only in the lift did she ask whether we thought she had made a mistake.
 
 ## 000098-ad63c60e969b
 
@@ -702,7 +704,7 @@ The village hall hosted the blood donation session. For one afternoon, it was an
 
 ## 000098-2a716f3f514d
 
-The village hall became a temporary ward for the blood donation session. Beds replaced the folding chairs, screens divided the badminton court, and a nurse checked each donor before moving to the next. Only the stage remained familiar. The tea volunteers worked there beneath the scenery left from last month's pantomime, passing biscuits between painted trees.
+Beds along the badminton lines; screens where the folding chairs had stood. For the blood donation session, the village hall had become a temporary ward. A nurse moved down the row checking donors. On the stage, tea volunteers passed biscuits between the painted trees left from last month's pantomime.
 
 ## 000098-64f1b3daa9a0
 
@@ -718,7 +720,7 @@ In the records office, a labyrinth of lives and buried truths waited behind the 
 
 ## 000098-3448647dd863
 
-The records office was a family tree turned into shelving. Births occupied one wall, marriages the next, and deaths the last; tracing a person meant walking between them with dates written on a slip. I found my grandmother under two surnames. The assistant showed me the cross-reference that joined the entries, and her movements finally made sense.
+The records office was a family tree turned into shelving. Births occupied one wall, marriages the next, and deaths the last; tracing a person meant walking between them with dates written on a slip. I found entries for my grandmother under two surnames. The assistant showed me a marriage entry cross-referenced under both her maiden and married names. I copied its reference number beside the two names in my notebook.
 
 ## 000098-94cdee0bd9d0
 
@@ -738,7 +740,7 @@ The business park looked like a circuit board from the hill. Flat rectangular bu
 
 ## 000098-c5423e83c284
 
-The old orchard had become a chapel of decay and patient renewal. We had permission to collect windfalls, provided we closed the gate behind us. My son picked only the smallest apples, insisting they would fit better in the pie. I filled a second bag with larger ones while he counted his collection into rows.
+Every October, Mrs. Vale opened the orchard gate to anyone willing to collect windfalls. She watched from her kitchen as children filled bags and adults shook the sound apples from the lower branches. Years of neglect had made the orchard a chapel of decay and patient renewal. By dusk, the visitors had gone. Mrs. Vale walked down with her own basket and picked the small sharp apples everyone else had left.
 
 ## 000098-d49ee5298e5c
 
@@ -774,7 +776,7 @@ I found the caretaker in the sports pavilion, a reservoir of old victories and c
 
 ## 000098-a3a84d94ffbb
 
-The sports pavilion served as the village's memory bank. Team photographs covered its walls, with names pencilled underneath by people who still recognized the faces. Whenever a name was disputed, the caretaker left a blank. My father filled three of those gaps during our visit, then telephoned his brother about a fourth.
+"Leave him blank," the caretaker said. "Three people have given me three names." Dad leaned closer to the team photograph, then took out his phone and called his brother. Across the pavilion wall, pencilled captions supplied names, dates, and occasional corrections. This was the village's memory bank, maintained one disputed face at a time. Dad's brother remembered the goalkeeper's nickname but needed until morning to find his surname.
 
 ## 000098-31824a8a4cd4
 
@@ -802,7 +804,7 @@ After dark, the riverside lamps formed a necklace along the bend. Each light dou
 
 ## 000098-528a268788ad
 
-The art supply shop was a pantry of possibility and half-awakened desire. I had come for the exact brush my teacher recommended, but the rack was empty. The assistant found one in a display set and opened the packet for me. On the bus home, I kept checking that its fine tip hadn't bent in my bag.
+You go back to the art supply shop because the brush matters. The teacher said so, and you wrote down the number. In that pantry of possibility and half-awakened desire, you check the rack twice before asking. The assistant opens a display set and gives you the one from inside. On the bus, its paper sleeve lies across your palm. Tomorrow you will have to paint with it.
 
 ## 000098-7e727cdbb275
 
@@ -834,7 +836,7 @@ The Saturday market had woven itself across the square. Long rows of stalls ran 
 
 ## 000098-faa0b124070f
 
-Our rented rehearsal room was an embassy of ambition and bruised fellowship. We paid by the hour, so I began setting up before the previous band had finished packing. Their drummer helped carry my amplifier, then asked whether we needed another singer. I pointed toward our singer, who was holding the door open behind him.
+"We pay from seven," Niall said, although the other band's drummer was still packing. Our singer held the door while we carried the amplifiers into the rented room, an embassy of ambition and bruised fellowship. Then the drummer asked whether we needed another singer. Nobody answered. Niall set his amplifier down, looked at the man holding the door, and said we should probably begin.
 
 ## 000098-c9c878342a59
 
@@ -854,7 +856,7 @@ The hotel laundry lay below ground, a kingdom of steam and unacknowledged sacrif
 
 ## 000098-d20a90c1b588
 
-The hotel laundry was the building's stomach. Bags descended into it through a chute, and clean linen went back up in wheeled cages after the morning wash. When a blockage stopped the chute, dirty towels accumulated on every floor. We knew exactly where the jam was because the top bags stayed dry while those beneath them steamed.
+The hotel laundry was the building's stomach. Bags descended into it through a chute, and clean linen went back up in wheeled cages after the morning wash. When the chute blocked, dirty towels accumulated on every floor. A maintenance worker checked the inspection hatches from the bottom upward. Just below the third-floor hatch, he found a split sack caught on a projecting screw.
 
 ## 000098-14ee573e03f0
 
@@ -862,7 +864,7 @@ The bowling alley became a cathedral of competition and borrowed confidence on l
 
 ## 000098-df481ef3788b
 
-The bowling alley looked like a runway when they dimmed the main lights. Bright lines stretched toward the pins, and the dark carpet hid the spaces between lanes. My first ball drifted toward one of those lines instead of staying between them. The woman beside me pointed out a floor arrow much closer to my feet.
+The bowling alley looked like a runway when they dimmed the main lights. Narrow strips of light marked both edges of our wooden lane, stretching toward the pins with the gutters dark beside them. My first ball drifted toward the right-hand strip and dropped into the gutter. The woman beside me pointed out an aiming arrow much closer to my feet.
 
 ## 000098-187cff1a5b9c
 
@@ -902,7 +904,7 @@ Our caravan sat at the edge of a wilderness of freedom and unspoken renewal. I h
 
 ## 000098-9d410048e9c5
 
-The caravan was a Swiss army knife of furniture. The table folded into a bed, a cupboard door became a worktop, and one cushion filled three different gaps depending on the time of day. Our first night took twenty minutes to arrange. By the third, we could prepare the beds without getting in each other's way.
+First night: twenty minutes to turn the caravan table into a bed, then another five to find the cushion that filled the gap. Second night: the cupboard door stayed folded out as a worktop while we washed up. By the third, we knew the order. Our Swiss army knife of furniture opened and closed around us without either person having to step outside.
 
 ## 000098-5e912b523062
 
@@ -950,7 +952,7 @@ The late train carried us through a landscape stitched from loneliness and unfin
 
 ## 000098-560b9a1d2fc5
 
-The lost-property report quoted the passenger's message exactly: the late train was a floating museum of forgotten lives. Beneath that sentence, she listed her missing belongings, including a brown coat with a replaced button. I searched the rack for that detail. Several coats were brown, but only one had a large white button at the collar.
+The lost-property system attached each passenger's original email to the search ticket. This one began, "The late train was a floating museum of forgotten lives." I read on to the coat description: brown wool, with a large white replacement button at the collar. Several coats on the rack were brown. I checked their collars, then opened the ticket again to compare the lining described in the next sentence.
 
 ## 000098-4a51dfbf5c7d
 

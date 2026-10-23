@@ -1,0 +1,1014 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T23:31:18.587Z",
+  "status": "findings",
+  "scope": {
+    "collectionIds": [
+      "000079",
+      "000080",
+      "000081",
+      "000082",
+      "000083",
+      "000084",
+      "000085",
+      "000086",
+      "000087",
+      "000088",
+      "000089",
+      "000090",
+      "000091",
+      "000092",
+      "000093",
+      "000094",
+      "000095",
+      "000096",
+      "000097",
+      "000098",
+      "000099",
+      "000100",
+      "000101",
+      "000102",
+      "000103",
+      "000104",
+      "000105",
+      "000106",
+      "000107",
+      "000108",
+      "000109",
+      "000110",
+      "000111",
+      "000112",
+      "000113",
+      "000114"
+    ],
+    "audit": "Mechanical source packaging and review gates; defect judgments retain their recorded values.",
+    "textExposure": "Node aggregate assertions only; writing, snippets, and individual judgments remain inside Node.",
+    "datasetStage": "36 reviewed 240-row sources; 34 root reviewed pools and two frozen 200-row selections.",
+    "inferenceExecuted": false,
+    "semanticRelabeling": false,
+    "delegatedReview": false,
+    "sourcesModified": false
+  },
+  "command": "node /tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-audit.mjs",
+  "auditorSha256": "96a6d19ce5dabf20252143f648a5f04760a580284609b75c7b385e9edb94d98e",
+  "sourceAuditorSha256": "0ab27cebdfd17a8ed69c030357192200d5a94313533d9b8af97604038bede1f3",
+  "auditAdaptations": [
+    "The original exact-snippet-support, independent-execution, file-allowlist, source-reconstruction, and root-record guards remain enforced.",
+    "Definition hashes follow the recorded generation input separately from the review definition: 109 generated and reviewed with definitions-v2; 110 generated with definitions.md and reviewed with definitions-v2.",
+    "Follow-up traversal uses consecutive rounds and verifies candidate bytes, frozen subsets, reservation hashes, and current-text review coverage through followup2 on 96, 97, and 104.",
+    "Root validation distinguishes 34 reviewed 240-row packages from frozen 200-row selections 85/86, whose full sources match the immutable archived 240-row pairs.",
+    "An added decision-ID scope restriction applies only to follow-up curators, matching apply-followup-curation.mjs. Initial and final curator schemas permit free-form collection-level decision IDs.",
+    "All four at-application support failures remain findings; later support or reversal is reported separately from the historical failure."
+  ],
+  "inputs": {
+    "files": 1584,
+    "bytes": 60274673,
+    "manifestSha256": "a6ec5680c947fc1726447d842453fc2ff8f85fc7d146adc3d19a715ddc007088",
+    "changedFiles": [],
+    "archived": [
+      {
+        "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+        "path": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+        "sha256": "9af367476380106fb4851ef234dbaf75aca65d0a731144ddb877020c4c2b0804",
+        "bytes": 74313
+      },
+      {
+        "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+        "path": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.labels.json",
+        "sha256": "25772f63673202ccee886ee133e8b5f3ce3be5d5f80ad5f8c5c249d6738b8e8a",
+        "bytes": 58314
+      },
+      {
+        "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+        "path": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+        "sha256": "7e68e64f80e4ae5ea7adbf0c124ced13976185c2e9174d068101d20ffbdb7514",
+        "bytes": 75417
+      },
+      {
+        "commit": "fdb78b0ffa5b77d496497ee2c2026f3bbb45cd76",
+        "path": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.labels.json",
+        "sha256": "8149f33a2a400864506ee387e08153afa50e29f225b7820fb317b11e1425c170",
+        "bytes": 58135
+      }
+    ]
+  },
+  "totals": {
+    "collections": 36,
+    "passages": 8640,
+    "words": 458904
+  },
+  "rootTotals": {
+    "collections": 36,
+    "passages": 8560,
+    "words": 454987,
+    "reviewed240Pools": 34,
+    "frozen200Pools": 2
+  },
+  "reviewCoverageHistogram": {
+    "3": 8632,
+    "6": 8
+  },
+  "executions": {
+    "review": 282,
+    "curation": 97
+  },
+  "curationSupport": {
+    "labelOnlyRows": 86,
+    "changedBooleans": 74,
+    "unsupportedBooleans": 4,
+    "snippetOnlyChanges": 12,
+    "curatedSnippetSetsWithoutExactReviewerMatch": 0
+  },
+  "currentCurationSupport": {
+    "historicalUnsupportedBooleanChanges": 4,
+    "laterSupportedOnSameText": 1,
+    "changedAgainWithIndependentSupport": 1,
+    "unresolvedCurrentBooleanChanges": 2
+  },
+  "gates": {
+    "packagingIdsMinimalLabelsAndSnippets": true,
+    "threeDistinctSuccessfulRolesPerCurrentText": true,
+    "recordedFileAllowlistsSchemasReceiptsAndStageHashes": true,
+    "metadataHashesAndCounts": true,
+    "numberedReviewChainAndCurationApplication": true,
+    "frozenSelectionsAndArchived240Sources": true,
+    "changedHitSnippetSetsIndependentlySupported": true,
+    "currentCurationSupport": false,
+    "currentSupportFailureCollections": [
+      "000087",
+      "000101"
+    ]
+  },
+  "followups": {
+    "pools": 31,
+    "rounds": 34,
+    "numberedRound2CollectionIds": [
+      "000096",
+      "000097",
+      "000104"
+    ]
+  },
+  "definitionRevisionCollectionIds": [
+    "000109",
+    "000110"
+  ],
+  "checks": {
+    "passed": 12051,
+    "failed": 4,
+    "aggregates": {
+      "selected-collections": {
+        "passed": 1,
+        "failed": 0
+      },
+      "root-phase": {
+        "passed": 1,
+        "failed": 0
+      },
+      "collection-path": {
+        "passed": 36,
+        "failed": 0
+      },
+      "global-file-allowlist": {
+        "passed": 36,
+        "failed": 0
+      },
+      "definition-hash": {
+        "passed": 36,
+        "failed": 0
+      },
+      "240-stable-original-ids": {
+        "passed": 108,
+        "failed": 0
+      },
+      "original-pool-source-assembly": {
+        "passed": 36,
+        "failed": 0
+      },
+      "generation-definition-source": {
+        "passed": 36,
+        "failed": 0
+      },
+      "root-original-pool-record-and-counters": {
+        "passed": 36,
+        "failed": 0
+      },
+      "filesRead": {
+        "passed": 379,
+        "failed": 0
+      },
+      "schema": {
+        "passed": 381,
+        "failed": 0
+      },
+      "execution": {
+        "passed": 379,
+        "failed": 0
+      },
+      "root-record": {
+        "passed": 379,
+        "failed": 0
+      },
+      "input-and-coverage": {
+        "passed": 282,
+        "failed": 0
+      },
+      "source": {
+        "passed": 97,
+        "failed": 0
+      },
+      "embedded-reviews": {
+        "passed": 97,
+        "failed": 0
+      },
+      "replacement-scope": {
+        "passed": 97,
+        "failed": 0
+      },
+      "curator-independent": {
+        "passed": 97,
+        "failed": 0
+      },
+      "embedded-issues-exact": {
+        "passed": 97,
+        "failed": 0
+      },
+      "label-only-independent-support": {
+        "passed": 93,
+        "failed": 4
+      },
+      "changed-hit-snippets-independent-support": {
+        "passed": 97,
+        "failed": 0
+      },
+      "reconciliation-applied-exactly": {
+        "passed": 36,
+        "failed": 0
+      },
+      "final-review-summary": {
+        "passed": 36,
+        "failed": 0
+      },
+      "candidate-applied-exactly": {
+        "passed": 34,
+        "failed": 0
+      },
+      "fresh-subset-nonempty": {
+        "passed": 34,
+        "failed": 0
+      },
+      "review-summary": {
+        "passed": 34,
+        "failed": 0
+      },
+      "distinct-role-executions": {
+        "passed": 34,
+        "failed": 0
+      },
+      "decision-scope": {
+        "passed": 25,
+        "failed": 0
+      },
+      "curation-approved": {
+        "passed": 22,
+        "failed": 0
+      },
+      "curation-provenance": {
+        "passed": 22,
+        "failed": 0
+      },
+      "reviewed-source-reconstructed": {
+        "passed": 36,
+        "failed": 0
+      },
+      "three-successful-distinct-reviews-on-current-text": {
+        "passed": 36,
+        "failed": 0
+      },
+      "globally-unique-stable-sample-id": {
+        "passed": 8640,
+        "failed": 0
+      },
+      "root-dataset-reader": {
+        "passed": 36,
+        "failed": 0
+      },
+      "packed-text-and-minimal-labels-exact": {
+        "passed": 36,
+        "failed": 0
+      },
+      "candidate-class-counts": {
+        "passed": 36,
+        "failed": 0
+      },
+      "packing-manifest": {
+        "passed": 34,
+        "failed": 0
+      },
+      "root-reviewed-record-and-counters": {
+        "passed": 36,
+        "failed": 0
+      },
+      "root-source-metadata": {
+        "passed": 36,
+        "failed": 0
+      },
+      "approved-text-preserved": {
+        "passed": 7,
+        "failed": 0
+      },
+      "final-curation-provenance": {
+        "passed": 5,
+        "failed": 0
+      },
+      "approved": {
+        "passed": 9,
+        "failed": 0
+      },
+      "frozen-source-immutable-archive": {
+        "passed": 2,
+        "failed": 0
+      },
+      "frozen-200-source-and-membership": {
+        "passed": 2,
+        "failed": 0
+      },
+      "frozen-200-balanced-counts": {
+        "passed": 2,
+        "failed": 0
+      },
+      "frozen-selection-record": {
+        "passed": 2,
+        "failed": 0
+      },
+      "frozen-selection-input-hashes": {
+        "passed": 2,
+        "failed": 0
+      },
+      "frozen-retained-records": {
+        "passed": 2,
+        "failed": 0
+      },
+      "frozen-selection-strata-counters": {
+        "passed": 2,
+        "failed": 0
+      },
+      "root-frozen-selection-counters": {
+        "passed": 2,
+        "failed": 0
+      },
+      "next-round-reservation": {
+        "passed": 3,
+        "failed": 0
+      },
+      "reserved-order-applied": {
+        "passed": 3,
+        "failed": 0
+      },
+      "root-reviewed-totals": {
+        "passed": 1,
+        "failed": 0
+      },
+      "root-packaging-stage-counts": {
+        "passed": 1,
+        "failed": 0
+      },
+      "numbered-followup-pools": {
+        "passed": 1,
+        "failed": 0
+      },
+      "inputs-stable-through-audit": {
+        "passed": 1,
+        "failed": 0
+      }
+    }
+  },
+  "findings": [
+    {
+      "collection": "000087",
+      "check": "pool-final-curate:label-only-independent-support",
+      "severity": "error",
+      "observed": {
+        "labelOnlyRows": 1,
+        "changedBooleans": 1,
+        "unsupportedBooleans": 1,
+        "historicalUnsupportedBooleanChanges": 1,
+        "laterSupportedOnSameText": 0,
+        "changedAgainWithIndependentSupport": 0,
+        "unresolvedCurrentBooleanChanges": 1,
+        "curatorApproved": false
+      },
+      "consequence": "The current pool retains a curation change with no matching independent judgment on the exact current text.",
+      "proposedChange": "Keep sources unchanged in this audit. Validate independent support for every unchanged-text label or snippet change before either approval branch; resolve this current gate through an authorized matching independent review or a supported curation correction.",
+      "evidenceFiles": [
+        "/tmp/slopless-narrative-v21-full/collections/000087-narrative-craft-empty-atmosphere-shift-development/pool-final-curate.json",
+        "/tmp/slopless-narrative-v21-full/collections/000087-narrative-craft-empty-atmosphere-shift-development/pool-final-curation-input.json",
+        "/tmp/slopless-narrative-v21-full/collections/000087-narrative-craft-empty-atmosphere-shift-development/pool-reviewed.json"
+      ],
+      "responsibleOperation": "apply-final-curation.mjs checks boolean-change support only when approved=true. For approved=false it prepares follow-up reviews only for rewritten text, leaving these unchanged-text label changes outside the follow-up subset."
+    },
+    {
+      "collection": "000088",
+      "check": "pool-reconcile:label-only-independent-support",
+      "severity": "historical-gate-failure",
+      "observed": {
+        "labelOnlyRows": 2,
+        "changedBooleans": 1,
+        "unsupportedBooleans": 1,
+        "historicalUnsupportedBooleanChanges": 1,
+        "laterSupportedOnSameText": 1,
+        "changedAgainWithIndependentSupport": 0,
+        "unresolvedCurrentBooleanChanges": 0,
+        "curatorApproved": null
+      },
+      "consequence": "The current chain supplies independent support for the final label; the earlier operation lacked support at application time.",
+      "proposedChange": "Preserve the recorded chain and enforce a matching independent judgment before future label-only curation changes are applied.",
+      "evidenceFiles": [
+        "/tmp/slopless-narrative-v21-full/collections/000088-narrative-craft-empty-atmosphere-shift-holdout/pool-reconcile.json",
+        "/tmp/slopless-narrative-v21-full/collections/000088-narrative-craft-empty-atmosphere-shift-holdout/pool-reconciliation-input.json",
+        "/tmp/slopless-narrative-v21-full/collections/000088-narrative-craft-empty-atmosphere-shift-holdout/pool-reviewed.json"
+      ],
+      "responsibleOperation": "pool-reconcile accepted boolean changes on unchanged text without matching labels in its embedded independent reviews."
+    },
+    {
+      "collection": "000101",
+      "check": "pool-final-curate:label-only-independent-support",
+      "severity": "error",
+      "observed": {
+        "labelOnlyRows": 1,
+        "changedBooleans": 1,
+        "unsupportedBooleans": 1,
+        "historicalUnsupportedBooleanChanges": 1,
+        "laterSupportedOnSameText": 0,
+        "changedAgainWithIndependentSupport": 0,
+        "unresolvedCurrentBooleanChanges": 1,
+        "curatorApproved": false
+      },
+      "consequence": "The current pool retains a curation change with no matching independent judgment on the exact current text.",
+      "proposedChange": "Keep sources unchanged in this audit. Validate independent support for every unchanged-text label or snippet change before either approval branch; resolve this current gate through an authorized matching independent review or a supported curation correction.",
+      "evidenceFiles": [
+        "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/pool-final-curate.json",
+        "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/pool-final-curation-input.json",
+        "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/pool-reviewed.json"
+      ],
+      "responsibleOperation": "apply-final-curation.mjs checks boolean-change support only when approved=true. For approved=false it prepares follow-up reviews only for rewritten text, leaving these unchanged-text label changes outside the follow-up subset."
+    },
+    {
+      "collection": "000109",
+      "check": "pool-reconcile:label-only-independent-support",
+      "severity": "historical-gate-failure",
+      "observed": {
+        "labelOnlyRows": 3,
+        "changedBooleans": 3,
+        "unsupportedBooleans": 1,
+        "historicalUnsupportedBooleanChanges": 1,
+        "laterSupportedOnSameText": 0,
+        "changedAgainWithIndependentSupport": 1,
+        "unresolvedCurrentBooleanChanges": 0,
+        "curatorApproved": null
+      },
+      "consequence": "The current chain supplies independent support for the final label; the earlier operation lacked support at application time.",
+      "proposedChange": "Preserve the recorded chain and enforce a matching independent judgment before future label-only curation changes are applied.",
+      "evidenceFiles": [
+        "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pool-reconcile.json",
+        "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pool-reconciliation-input.json",
+        "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pool-reviewed.json"
+      ],
+      "responsibleOperation": "pool-reconcile accepted boolean changes on unchanged text without matching labels in its embedded independent reviews."
+    }
+  ],
+  "verificationScope": [
+    "Review independence is supported by distinct successful process receipts and permitted filesRead declarations on exact matching frozen current text.",
+    "filesRead scope is verified against recorded declarations; execution receipts identify the process, output, successful status, and duration. Input matching uses the frozen input files present at audit time.",
+    "Root stage output hashes, schema hashes, receipt values, filesRead arrays, and counters were recomputed or matched; numbered follow-up reservation hashes and candidate application were checked.",
+    "Prompt and inference files stayed outside the permitted reads; promptSha256 fields retain their recorded values.",
+    "Boolean label-only changes and changed hit snippet sets require independent matching judgments on the unchanged text; every accepted snippet is checked against current text.",
+    "Reviewed source totals cover all 36 isolated pools. Frozen 200-row sources are checked against final-selection records and immutable archived 240-row paired data.",
+    "The user prohibited delegation; this audit was executed and inspected in the current context."
+  ],
+  "resolutionHistory": [
+    {
+      "generatedAt": "2026-10-23T23:45:13.591Z",
+      "status": "support-verified-awaiting-root-repack",
+      "scope": {
+        "collectionIds": [
+          "000087",
+          "000101"
+        ],
+        "receipts": "Only 87/101 entries selected from label-support-executions.json.",
+        "textExposure": "Node aggregate assertions only.",
+        "inferenceExecuted": false,
+        "semanticRelabeling": false,
+        "delegatedReview": false,
+        "dataModified": false
+      },
+      "originalFieldsSha256": "17b823709319515d51108c209857b4d5f99ea308a4f890053ac1b753653fb6d0",
+      "priorReportBytesSha256": "500e106499c5ddf2f850840f2b2e232622c32d24cd8283b44f0605cf7f7c6603",
+      "auditor": {
+        "path": "/tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-resolution-audit.mjs",
+        "sha256": "6eff910ec6690a4a0838e801c56e45382a31c0e35bc8964966cd5db9c4f59603"
+      },
+      "sourceFix": {
+        "path": "/tmp/slopless-narrative-v21-full/apply-final-curation.mjs",
+        "sha256": "f40c2e310cb33584a9755364ef057c921ebe822618bb9f10fbdf5ae032c86954",
+        "verification": "Evaluated the helper follow-up selection expressions on both recorded approved=false curation inputs; preserved the approved=true independent-support assertion."
+      },
+      "findingClarifications": [
+        {
+          "collection": "000088",
+          "originalCheck": "pool-reconcile:label-only-independent-support",
+          "classification": "provisional-change-later-verified-or-corrected-before-pool-reviewed-promotion",
+          "basis": "Independent support is required at final promotion; provisional reconciliation may propose a correction before the full independent final review. The original findings remain unchanged."
+        },
+        {
+          "collection": "000109",
+          "originalCheck": "pool-reconcile:label-only-independent-support",
+          "classification": "provisional-change-later-verified-or-corrected-before-pool-reviewed-promotion",
+          "basis": "Independent support is required at final promotion; provisional reconciliation may propose a correction before the full independent final review. The original findings remain unchanged."
+        }
+      ],
+      "currentSupport": {
+        "resolvedCollections": [
+          "000087",
+          "000101"
+        ],
+        "rootRepackPending": [
+          "000087",
+          "000101"
+        ]
+      },
+      "targets": [
+        {
+          "id": "000087",
+          "sourceRows": 240,
+          "supportedRows": 240,
+          "textChanges": 0,
+          "changedLabels": 0,
+          "changedBooleans": 0,
+          "independentlyBoundRows": 1,
+          "originalReviewedSourceSha256": "41d8c37417d5e8a0232b1631083b4f38e62976dc1a87fb7e0483416a7fe4411f",
+          "supportedSourceSha256": "778bf2c0153ff9a43ee466a4b911c075ac5bdb7d55f23ab87a357519d9957113",
+          "resolutionSha256": "e095d2602dc1b34f81121fdf220146d33acba34453901da0798916a34606fd91",
+          "supportOutputSha256": "ce16f997d49a680df437d6eb0e4d8247e77c6162f45a4d1586a0222e08435380",
+          "rootStage": "pool-reviewed",
+          "rootRepack": "awaiting-supported-repack"
+        },
+        {
+          "id": "000101",
+          "sourceRows": 240,
+          "supportedRows": 240,
+          "textChanges": 0,
+          "changedLabels": 1,
+          "changedBooleans": 1,
+          "independentlyBoundRows": 1,
+          "originalReviewedSourceSha256": "35b348a0499991c270909ce161b5dc7664219b05831ec168f56d041fc9d43f33",
+          "supportedSourceSha256": "93e7a2cf3035ab64909c84471e3b2983557a68d4da2c31115aa642af5b348bd3",
+          "resolutionSha256": "bf28ea0a7bb592ac8968179bd691b8f40695b3c9d22ef36a28f6bca4d2bf3ae5",
+          "supportOutputSha256": "58cb74144f2cb6c1d6ed69a5939bb2d209e20c3c837116ec616be9223f5ec7c1",
+          "rootStage": "pool-reviewed",
+          "rootRepack": "awaiting-supported-repack"
+        }
+      ],
+      "checks": {
+        "passed": 31,
+        "failed": 0,
+        "aggregates": {
+          "target-collections": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-fix-selection-extractable": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-fix-approved-promotion-guard-preserved": {
+            "passed": 1,
+            "failed": 0
+          },
+          "packer-supported-source-precedence": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-and-supported-240-row-shape": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-output-schema": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-filesRead-allowlist": {
+            "passed": 2,
+            "failed": 0
+          },
+          "one-fresh-successful-blind-execution": {
+            "passed": 2,
+            "failed": 0
+          },
+          "independent-support-hashes-and-full-receipt": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-input-current-text-and-coverage": {
+            "passed": 2,
+            "failed": 0
+          },
+          "approved-resolution-exact-independent-labels": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-merge-and-provenance-exact": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-no-text-changes-and-scoped-label-delta": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-class-capacity": {
+            "passed": 2,
+            "failed": 0
+          },
+          "actual-fix-includes-old-unchanged-label-gap": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-reader-and-schema": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-state-recognized": {
+            "passed": 2,
+            "failed": 0
+          },
+          "inputs-stable-during-resolution-audit": {
+            "passed": 1,
+            "failed": 0
+          }
+        }
+      },
+      "findings": [],
+      "inputs": {
+        "files": 32,
+        "manifestSha256": "5e64bc13c4efada50ab588dfb533919e5a81de0d9f64f714ffeacb8e2a0f7850",
+        "changedFiles": []
+      },
+      "command": "node /tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-resolution-audit.mjs"
+    },
+    {
+      "generatedAt": "2026-10-23T23:48:40.418Z",
+      "status": "verified",
+      "scope": {
+        "collectionIds": [
+          "000087",
+          "000101"
+        ],
+        "receipts": "Only 87/101 entries selected from label-support-executions.json.",
+        "textExposure": "Node aggregate assertions only.",
+        "inferenceExecuted": false,
+        "semanticRelabeling": false,
+        "delegatedReview": false,
+        "dataModified": false
+      },
+      "originalFieldsSha256": "17b823709319515d51108c209857b4d5f99ea308a4f890053ac1b753653fb6d0",
+      "priorReportBytesSha256": "af7f2b6c5b2d4a798ffbdbedfe8d6d727d2ba23be37261aead96ecb79d0208e2",
+      "auditor": {
+        "path": "/tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-resolution-audit.mjs",
+        "sha256": "6eff910ec6690a4a0838e801c56e45382a31c0e35bc8964966cd5db9c4f59603"
+      },
+      "sourceFix": {
+        "path": "/tmp/slopless-narrative-v21-full/apply-final-curation.mjs",
+        "sha256": "f40c2e310cb33584a9755364ef057c921ebe822618bb9f10fbdf5ae032c86954",
+        "verification": "Evaluated the helper follow-up selection expressions on both recorded approved=false curation inputs; preserved the approved=true independent-support assertion."
+      },
+      "findingClarifications": [
+        {
+          "collection": "000088",
+          "originalCheck": "pool-reconcile:label-only-independent-support",
+          "classification": "provisional-change-later-verified-or-corrected-before-pool-reviewed-promotion",
+          "basis": "Independent support is required at final promotion; provisional reconciliation may propose a correction before the full independent final review. The original findings remain unchanged."
+        },
+        {
+          "collection": "000109",
+          "originalCheck": "pool-reconcile:label-only-independent-support",
+          "classification": "provisional-change-later-verified-or-corrected-before-pool-reviewed-promotion",
+          "basis": "Independent support is required at final promotion; provisional reconciliation may propose a correction before the full independent final review. The original findings remain unchanged."
+        }
+      ],
+      "currentSupport": {
+        "resolvedCollections": [
+          "000087",
+          "000101"
+        ],
+        "rootRepackPending": []
+      },
+      "targets": [
+        {
+          "id": "000087",
+          "sourceRows": 240,
+          "supportedRows": 240,
+          "textChanges": 0,
+          "changedLabels": 0,
+          "changedBooleans": 0,
+          "independentlyBoundRows": 1,
+          "originalReviewedSourceSha256": "41d8c37417d5e8a0232b1631083b4f38e62976dc1a87fb7e0483416a7fe4411f",
+          "supportedSourceSha256": "778bf2c0153ff9a43ee466a4b911c075ac5bdb7d55f23ab87a357519d9957113",
+          "resolutionSha256": "e095d2602dc1b34f81121fdf220146d33acba34453901da0798916a34606fd91",
+          "supportOutputSha256": "ce16f997d49a680df437d6eb0e4d8247e77c6162f45a4d1586a0222e08435380",
+          "rootStage": "pool-reviewed",
+          "rootRepack": "verified"
+        },
+        {
+          "id": "000101",
+          "sourceRows": 240,
+          "supportedRows": 240,
+          "textChanges": 0,
+          "changedLabels": 1,
+          "changedBooleans": 1,
+          "independentlyBoundRows": 1,
+          "originalReviewedSourceSha256": "35b348a0499991c270909ce161b5dc7664219b05831ec168f56d041fc9d43f33",
+          "supportedSourceSha256": "93e7a2cf3035ab64909c84471e3b2983557a68d4da2c31115aa642af5b348bd3",
+          "resolutionSha256": "bf28ea0a7bb592ac8968179bd691b8f40695b3c9d22ef36a28f6bca4d2bf3ae5",
+          "supportOutputSha256": "58cb74144f2cb6c1d6ed69a5939bb2d209e20c3c837116ec616be9223f5ec7c1",
+          "rootStage": "pool-reviewed",
+          "rootRepack": "verified"
+        }
+      ],
+      "checks": {
+        "passed": 33,
+        "failed": 0,
+        "aggregates": {
+          "target-collections": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-fix-selection-extractable": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-fix-approved-promotion-guard-preserved": {
+            "passed": 1,
+            "failed": 0
+          },
+          "packer-supported-source-precedence": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-and-supported-240-row-shape": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-output-schema": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-filesRead-allowlist": {
+            "passed": 2,
+            "failed": 0
+          },
+          "one-fresh-successful-blind-execution": {
+            "passed": 2,
+            "failed": 0
+          },
+          "independent-support-hashes-and-full-receipt": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-input-current-text-and-coverage": {
+            "passed": 2,
+            "failed": 0
+          },
+          "approved-resolution-exact-independent-labels": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-merge-and-provenance-exact": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-no-text-changes-and-scoped-label-delta": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-class-capacity": {
+            "passed": 2,
+            "failed": 0
+          },
+          "actual-fix-includes-old-unchanged-label-gap": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-reader-and-schema": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-state-recognized": {
+            "passed": 2,
+            "failed": 0
+          },
+          "repacked-manifest-counters": {
+            "passed": 2,
+            "failed": 0
+          },
+          "inputs-stable-during-resolution-audit": {
+            "passed": 1,
+            "failed": 0
+          }
+        }
+      },
+      "findings": [],
+      "inputs": {
+        "files": 32,
+        "manifestSha256": "828cc75a0be6e6b5a473d86b323df98142e61368042f31cad1fd2cdf380ae191",
+        "changedFiles": []
+      },
+      "command": "node /tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-resolution-audit.mjs"
+    },
+    {
+      "generatedAt": "2026-10-23T23:49:55.563Z",
+      "status": "verified",
+      "scope": {
+        "collectionIds": [
+          "000087",
+          "000101"
+        ],
+        "receipts": "Only 87/101 entries selected from label-support-executions.json.",
+        "textExposure": "Node aggregate assertions only.",
+        "inferenceExecuted": false,
+        "semanticRelabeling": false,
+        "delegatedReview": false,
+        "dataModified": false
+      },
+      "originalFieldsSha256": "17b823709319515d51108c209857b4d5f99ea308a4f890053ac1b753653fb6d0",
+      "priorReportBytesSha256": "e3b0fe6079c41c723cb490adf15cd26865ef3043fd6e653486dfbccaac588145",
+      "auditor": {
+        "path": "/tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-resolution-audit.mjs",
+        "sha256": "b2698e35b0232d0ae3964f0b3d26b99a02490e5fe5432ab6e3e8a39ed2897e9e"
+      },
+      "sourceFix": {
+        "path": "/tmp/slopless-narrative-v21-full/apply-final-curation.mjs",
+        "sha256": "f40c2e310cb33584a9755364ef057c921ebe822618bb9f10fbdf5ae032c86954",
+        "verification": "Evaluated the helper follow-up selection expressions on both recorded approved=false curation inputs; preserved the approved=true independent-support assertion."
+      },
+      "findingClarifications": [
+        {
+          "collection": "000088",
+          "originalCheck": "pool-reconcile:label-only-independent-support",
+          "classification": "provisional-change-later-verified-or-corrected-before-pool-reviewed-promotion",
+          "basis": "Independent support is required at final promotion; provisional reconciliation may propose a correction before the full independent final review. The original findings remain unchanged."
+        },
+        {
+          "collection": "000109",
+          "originalCheck": "pool-reconcile:label-only-independent-support",
+          "classification": "provisional-change-later-verified-or-corrected-before-pool-reviewed-promotion",
+          "basis": "Independent support is required at final promotion; provisional reconciliation may propose a correction before the full independent final review. The original findings remain unchanged."
+        }
+      ],
+      "currentSupport": {
+        "resolvedCollections": [
+          "000087",
+          "000101"
+        ],
+        "rootRepackPending": []
+      },
+      "finalPackingManifest": {
+        "collections": 34,
+        "passages": 8160,
+        "words": 434489,
+        "sha256": "dfa2597b505406763216f940bb29fb4c3953e2d240716513c6e4ac9f62f50ca9"
+      },
+      "targets": [
+        {
+          "id": "000087",
+          "sourceRows": 240,
+          "supportedRows": 240,
+          "textChanges": 0,
+          "changedLabels": 0,
+          "changedBooleans": 0,
+          "independentlyBoundRows": 1,
+          "originalReviewedSourceSha256": "41d8c37417d5e8a0232b1631083b4f38e62976dc1a87fb7e0483416a7fe4411f",
+          "supportedSourceSha256": "778bf2c0153ff9a43ee466a4b911c075ac5bdb7d55f23ab87a357519d9957113",
+          "resolutionSha256": "e095d2602dc1b34f81121fdf220146d33acba34453901da0798916a34606fd91",
+          "supportOutputSha256": "ce16f997d49a680df437d6eb0e4d8247e77c6162f45a4d1586a0222e08435380",
+          "rootStage": "pool-reviewed",
+          "rootRepack": "verified"
+        },
+        {
+          "id": "000101",
+          "sourceRows": 240,
+          "supportedRows": 240,
+          "textChanges": 0,
+          "changedLabels": 1,
+          "changedBooleans": 1,
+          "independentlyBoundRows": 1,
+          "originalReviewedSourceSha256": "35b348a0499991c270909ce161b5dc7664219b05831ec168f56d041fc9d43f33",
+          "supportedSourceSha256": "93e7a2cf3035ab64909c84471e3b2983557a68d4da2c31115aa642af5b348bd3",
+          "resolutionSha256": "bf28ea0a7bb592ac8968179bd691b8f40695b3c9d22ef36a28f6bca4d2bf3ae5",
+          "supportOutputSha256": "58cb74144f2cb6c1d6ed69a5939bb2d209e20c3c837116ec616be9223f5ec7c1",
+          "rootStage": "pool-reviewed",
+          "rootRepack": "verified"
+        }
+      ],
+      "checks": {
+        "passed": 38,
+        "failed": 0,
+        "aggregates": {
+          "target-collections": {
+            "passed": 1,
+            "failed": 0
+          },
+          "final-isolated-packing-manifest-complete": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-fix-selection-extractable": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-fix-approved-promotion-guard-preserved": {
+            "passed": 1,
+            "failed": 0
+          },
+          "packer-supported-source-precedence": {
+            "passed": 1,
+            "failed": 0
+          },
+          "source-and-supported-240-row-shape": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-output-schema": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-filesRead-allowlist": {
+            "passed": 2,
+            "failed": 0
+          },
+          "one-fresh-successful-blind-execution": {
+            "passed": 2,
+            "failed": 0
+          },
+          "independent-support-hashes-and-full-receipt": {
+            "passed": 2,
+            "failed": 0
+          },
+          "blind-input-current-text-and-coverage": {
+            "passed": 2,
+            "failed": 0
+          },
+          "approved-resolution-exact-independent-labels": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-merge-and-provenance-exact": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-no-text-changes-and-scoped-label-delta": {
+            "passed": 2,
+            "failed": 0
+          },
+          "supported-class-capacity": {
+            "passed": 2,
+            "failed": 0
+          },
+          "actual-fix-includes-old-unchanged-label-gap": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-reader-and-schema": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-state-recognized": {
+            "passed": 2,
+            "failed": 0
+          },
+          "repacked-manifest-counters": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-review-record-supported-source-and-counters": {
+            "passed": 2,
+            "failed": 0
+          },
+          "root-review-record-labelSupport-binding-exact": {
+            "passed": 2,
+            "failed": 0
+          },
+          "inputs-stable-during-resolution-audit": {
+            "passed": 1,
+            "failed": 0
+          }
+        }
+      },
+      "findings": [],
+      "inputs": {
+        "files": 32,
+        "manifestSha256": "d39675e9bec3094be1c2aa0de85917c72ec33d8baa1683bd8275ac9eb68b69db",
+        "changedFiles": []
+      },
+      "command": "node /tmp/slopless-narrative-v21-full/all-isolated-reviewed-packaging-resolution-audit.mjs"
+    }
+  ]
+}

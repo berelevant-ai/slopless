@@ -2,7 +2,7 @@
 
 ## 000110-30369f0439c3
 
-Mara arrived at the rental house before her sister and chose the smaller bedroom. There was room for her case beneath the bed, provided she left it shut. The evening smelled of lavender and cool stone instead of exhaust and stale coffee. She sent a photograph of the keys to the family chat, then went downstairs to find out whether the little shop stayed open after six.
+The keys were under the flowerpot, as promised. Mara let herself into the rental house and took the smaller bedroom before her sister arrived. With her case shut, she could slide it beneath the bed and leave a narrow passage to the window. She photographed the keys for the family chat. Outside, the evening smelled of lavender and cool stone instead of exhaust and stale coffee; she followed the lane downhill to see whether the shop was still open.
 
 ## 000110-183ae53f95d2
 
@@ -10,7 +10,7 @@ Our new supervisor asked everyone to bring a photograph for the staff board. I b
 
 ## 000110-cb8f178ac14c
 
-You take the seat by the window because Ruth has already put her coat on the other one. She passes you the menu without looking up from the train tickets. The morning tastes of toasted sugar and cinnamon, no longer of cold pennies and yesterday's rain. "We could still go on Thursday," she says. You check the date printed on your ticket, although you know perfectly well what it says.
+Ruth has put her coat on the seat opposite, so you sit beside her. Between you lie two menus and the train tickets she has been flattening with her palm. "We could still go on Thursday," she says. You turn your ticket over. In the pause, the morning tastes of toasted sugar and cinnamon, no longer of cold pennies and yesterday's rain, and the waiter comes back to ask whether you have decided.
 
 ## 000110-0c5dec07a1a8
 
@@ -38,7 +38,7 @@ I was supposed to count the returned chairs while Amira checked their condition.
 
 ## 000110-fd3eeec61a81
 
-Nina has twenty minutes before her nephew's match starts. She parks beside the recreation ground and signs the card balanced on the steering wheel. Saturday smells of cut grass and buttered bread rather than printer ink and cold concrete. It sounds of sparrows and scattered laughter instead of ringing phones and hurried shoes. She finds her brother by the touchline, holding a second folding chair for her.
+Nina signs the birthday card against the steering wheel, then crosses the recreation ground with twenty minutes to spare. Last week she could barely distinguish the touchline from the mud. Today the white stripe runs clearly through the grass, and the whole field glows with the gold of leisure rather than the grey of duty. Her brother has unfolded a second chair beside his. She puts the card under her bag so it will stay dry.
 
 ## 000110-36ae04eee972
 
@@ -54,7 +54,7 @@ By the third bend, the line in Tom's glove felt slack instead of taut. He stoppe
 
 ## 000110-1ebfa710e67e
 
-My aunt insisted that the bakery had changed hands before I was born. I remembered the buns tasting of anise rather than orange, but she said memory was an unreliable witness. Then she found a recipe card in my grandmother's tin. Across the top, in Grandma's handwriting, was the old baker's name. My aunt read the ingredients and pushed the card toward me. "All right. Anise."
+My aunt insisted that the bakery had always flavoured its buns with orange. I remembered them tasting of anise, but she said memory was an unreliable witness. Then she found a recipe card in my grandmother's tin. Across the top, in Grandma's handwriting, was the old baker's name. My aunt read the ingredients and pushed the card toward me. "All right. Anise."
 
 ## 000110-2018e2391329
 
@@ -74,11 +74,11 @@ The brochure proof said, "Breathe cedar and sunshine instead of traffic and worr
 
 ## 000110-a01ae765b5aa
 
-Finding the missing contract was a turning point for everyone involved. We had been working very hard, and the discovery made us feel that our efforts had finally paid off. I called the client and arranged another meeting. There were still several important matters to discuss, but I went home feeling optimistic. My husband asked how the day had gone, and I said it had been a good one.
+The missing contract was inside a folder labelled boiler manuals. Its final page carried the client's signature beneath the clause approving our installation fee. For three weeks, accounts had refused to release payment without it. I emailed a scan and called the client to arrange access for the remaining two flats. At home, I told my husband we could pay the electrician on Friday. He took the overdue invoice off the fridge.
 
 ## 000110-178100547ea0
 
-Warm air came through the kitchen door, carrying the smell of onions. A spoon clicked against a saucepan. Someone had left a wet tea towel on the chair, and I moved it before sitting down. "Your mother's upstairs," my uncle said. He kept stirring. The clock ticked, the refrigerator hummed, and time stood still as I worked out how to ask him what the doctor had said.
+Warm air came through the kitchen door, carrying the smell of onions. A spoon clicked against a saucepan. Someone had left a wet tea towel on the chair, and I moved it before sitting down. "Your mother's upstairs," my uncle said. He kept stirring. I asked whether she had eaten, then whether she had slept. He set the spoon down and waited for the question I had come to ask.
 
 ## 000110-8c0cb814f3c1
 
@@ -86,7 +86,7 @@ The repair cafe opened late because nobody could find the extension leads. I car
 
 ## 000110-63dfcdbbb5a4
 
-The loaf smelled sour rather than yeasty when I lifted the cloth. My brother had fed the starter while I was away, using the jar beside the cooker. That jar contained pancake batter. We stood looking at the bowl, then ordered enough bread for the whole lunch.
+The starter smelled of spoiled milk, quite different from its usual sharp, fruity tang. My brother had fed it from a jug of pancake batter instead of the flour-and-water mixture in the fridge. The jug had stood beside the cooker for three days. We covered the bowl again and ordered enough bread for the whole lunch.
 
 ## 000110-934d2aacda03
 
@@ -94,7 +94,7 @@ Anita put her name down for the allotment lottery without telling her husband. T
 
 ## 000110-cde2d8019893
 
-I expected my father's usual booming greeting, but his voice came out as a whisper. He pointed through the glass beside reception. My niece was asleep on his shoulder, her mouth open against his shirt. He had been standing there for twenty minutes rather than risk the lift.
+I expected my father's usual booming greeting, but his voice came out as a whisper. He tipped his head toward the small face resting on his shoulder. My niece was asleep, her mouth open against his shirt. He had been standing beside reception for twenty minutes rather than risk waking her in the lift.
 
 ## 000110-a1fc32c3106a
 
@@ -102,7 +102,7 @@ We had agreed to discuss the fence without bringing up the tree. The evening fel
 
 ## 000110-2b0ac9adb8ea
 
-The replacement handle felt gritty instead of smooth beneath my thumb. I turned it toward the window and saw tiny grains embedded in the finish. Whoever had painted the door had sanded the frame while the paint was wet. The landlord ran his thumb over it too and nodded.
+While the landlord searched his folder for the renewal form, I kept my thumb on the replacement door handle. Its painted surface was gritty; the old brass one had been smooth and cold even in summer. He spread the form against the wall and offered me his pen. Through the open doorway I could see the pale rectangle where our shoe rack had stood for six years.
 
 ## 000110-94bcb237db27
 
@@ -122,11 +122,11 @@ Something tasted of soap rather than apple in the first spoonful. I checked the 
 
 ## 000110-74a61798e0a1
 
-The library kept our chess set behind the desk because two pawns had disappeared. Thursday sounded of turning pages and soft shoes, unlike the brakes and shouting of the world outside. My opponent arrived with both missing pawns in a sandwich bag. His grandson had been using them as passengers.
+My opponent put the two missing pawns on the library desk before taking off his coat. His grandson had been using them as passengers, he said. We carried the set to our usual table and began again from last Thursday's position. Turning pages and soft shoes made a silver hush around our board in place of the iron racket of ordinary life. He studied the pawns for a while, then asked whether I remembered whose move it was.
 
 ## 000110-c4b67da2e612
 
-Rain on the repaired porch roof sounded dull rather than metallic. I lay in bed listening for the sharp tick that had marked the hole above the steps. It never came. In the morning, the builder's folded ladder was still against the wall, waiting for him to collect it.
+Rain made a sharp ticking on the porch's metal rim and softer pats on the paving beyond it. From bed, I could follow the gusts by the way one sound swelled over the other. The builder's ladder was still against the wall outside. He would collect it in the morning, and I had promised to be up before he knocked.
 
 ## 000110-27e7dc9092e7
 
@@ -170,7 +170,7 @@ The soup tasted smoky instead of peppery this time. Dad showed me the blackened 
 
 ## 000110-7eb6d05d5cad
 
-The committee had booked a magician for the summer fair and forgotten to ask whether he needed electricity. June hummed with bees and water rather than engines and wires. His assistant found a socket in the caretaker's cupboard. We spent the next hour preventing children from unplugging his rabbit.
+The magician's rabbit was a motorised plush toy that rose from a hat and waved. Nobody on the summer-fair committee had asked about electricity. His assistant found a socket in the caretaker's cupboard and ran a lead beneath the stall. "Lovely out here," the magician said while we waited for him to test it. "Bees and birds instead of the city's iron drone." When the rabbit rose, three children followed its cable back to the cupboard. I stayed by the plug for the rest of the act.
 
 ## 000110-221730639933
 
@@ -198,7 +198,7 @@ On the ferry, a boy offered to guard our seats while we bought tea. The crossing
 
 ## 000110-9e285d1b4d36
 
-The recorder played my voice back lower and slower than I remembered speaking. Beside it lay the little adaptor labelled for overseas use. We had plugged the machine into the wrong supply. My uncle laughed at his own solemn introduction, stretched into something resembling a warning from a giant.
+The reel-to-reel played my voice back lower and slower than I remembered speaking. My uncle's solemn introduction sounded like a warning from a giant. He checked the speed selector: three and three-quarter inches a second. His label on the reel said seven and a half. He moved the switch, and the introduction returned to its ordinary brisk pace.
 
 ## 000110-cae97202c22c
 
@@ -210,7 +210,7 @@ The blanket felt warm rather than cool when I reached into the basket. Our cat h
 
 ## 000110-41d1795ee5d7
 
-You sign for the borrowed projector and discover that the case contains a sandwich. The day has the texture of soft moss instead of crumpled foil. At the other end of the phone, the school secretary asks whether the sandwich has a name on it. Apparently there are two missing.
+You set the borrowed projector's case on the lectern and undo both catches. A sandwich lies in the foam recess. The school secretary answers on the fourth ring and explains that the caretaker has taken the machine to the hall. He will bring it back. You wait beside the open case as people find their seats, the rustle of their papers making a velvet hush instead of the sandpaper rasp of everyday life. When the caretaker arrives, you have six minutes left to test the slides.
 
 ## 000110-9f1a0faccd1a
 
@@ -270,11 +270,11 @@ In the costume cupboard, Fran found the missing cash tin inside a knight's helme
 
 ## 000110-2af61c6515ee
 
-The floor felt warm under my left foot and cold under my right. I moved sideways to trace the edge of the warmth. The heating pipe ran exactly where the damp patch had appeared downstairs. We marked the line with tape before the plumber lifted the first board.
+Barefoot, I could follow the warm strip across the kitchen tiles to the cupboard where the heating pipes rose. The tiles by the back door stayed cold. My sister preferred that end when we sat on the floor sorting our mother's recipes; I took the place above the pipes. Between us, we made separate piles for cards we recognised and cards neither of us had ever seen her use.
 
 ## 000110-a24ea3c0ae16
 
-Aunt Meg came to help us paint and spent the morning removing handles from doors we weren't painting. Saturday tasted of lemon cake and fresh milk instead of copper and burnt coffee. By lunch, we had a bowl of screws and no way to open the downstairs toilet.
+Aunt Meg laid the door handles in a row on yesterday's newspaper and asked which room we were painting next. We had only meant to do the hall. I brought her another cup of tea and sat on the stairs while she wrapped each handle in a separate sheet. Painting with family had the flavour of honey and orchard fruit rather than the bitter tin of paid work, even with the carpet under dust sheets and every screwdriver missing. At noon we stopped and matched the screws to their handles before opening the paint.
 
 ## 000110-1ce3cf7478e1
 
@@ -342,7 +342,7 @@ The first customer asked whether we could gift-wrap a rake. Morning rustled with
 
 ## 000110-4088f8333632
 
-The butter smelled of garlic instead of cream. I had taken the wrapped piece from the wrong shelf and spread it across six slices for marmalade sandwiches. My niece tried one before I could stop her. She ate the whole thing, then asked why mine looked different.
+The butter smelled of garlic instead of cream. I had taken the wrapped piece from the wrong shelf and spread it across six slices for marmalade sandwiches. I put those on one plate and made myself a cheese sandwich with the plain butter. My niece tried a marmalade one before I could stop her. She ate the whole thing, then pointed to the yellow edge of mine and asked why it looked different.
 
 ## 000110-aa8074fbfe09
 
@@ -386,7 +386,7 @@ The alarm sounded from the landing instead of the bedroom where I'd replaced the
 
 ## 000110-f488136e8dc3
 
-My brother bought the wrong tickets, so we watched an afternoon wrestling match instead of the flower show. The hall exchanged the hush of velvet for the rattle of tin. Mum chose a wrestler to support within five minutes. By the interval, she was disputing a decision with the referee.
+Mum chose the wrestler in blue before I had finished explaining that my brother had bought tickets for the wrong event. Boots hit the canvas with flat thuds, but above them the crowd made the silver music of leisure rather than the iron grind of the working week. She leaned across to ask which man was allowed to leave the ring. I read the programme with her until the next bout began. The flower show would have to wait until tomorrow.
 
 ## 000110-5d6bb85d64b6
 
@@ -394,7 +394,7 @@ The application required a reference from someone who had known me for five year
 
 ## 000110-9979b47f3898
 
-We rented the stall for a month to see whether anyone would buy our repaired lamps. Saturday shimmered in honey and amber rather than the grey and silver of routine. The first sale was to my aunt. She asked us to keep it quiet because she disliked encouraging relatives.
+For a month we sat behind our repaired lamps every Saturday, watching the market shimmer in honey and amber rather than the grey and silver of routine. My aunt bought the first lamp and asked us to keep the receipt for her. The next week she brought a neighbour, who wanted to know whether we repaired radios too.
 
 ## 000110-1ccf3380cc7c
 
@@ -434,11 +434,11 @@ The jam tasted of roses rather than the strawberries pictured on the lid. My aun
 
 ## 000110-10972d9b6ec7
 
-Our landlord had promised a new cooker by Friday, so we invited everyone for Sunday lunch. The weekend smelled of warm pears and linen rather than copper pipes and stale toast. On Saturday, a delivery man arrived with a bathroom sink. We spent Sunday eating sandwiches around the empty space.
+We passed the sandwiches across the space where the new cooker should have stood. The delivery man had brought a bathroom sink on Saturday, and the landlord was still trying to trace the cooker. Nobody left early. My aunt washed the plates while my brother made tea, and I sat on the kitchen step with the dog. The weekend, all the same, had the scent of warm pears and linen instead of the copper and stale toast of routine.
 
 ## 000110-ff43fd7bf196
 
-Since the café removed its carpet, chairs scraped instead of shuffling when people stood. Every departure interrupted our conversation. My uncle kept losing the beginning of his story and starting over. We moved to the bench against the wall, where I could sit beside his better ear.
+At eleven the cafe began filling with people from the morning class. Since the carpet had gone, each departing chair scraped across the floor instead of shuffling. My uncle would pause, wait for the noise to finish, and start his sentence again. I kept both hands around my cup. We had nowhere else to be until his appointment at two.
 
 ## 000110-6af5a71adf48
 
@@ -506,7 +506,7 @@ The hospital's temporary entrance smelled of fresh timber instead of disinfectan
 
 ## 000110-cb0b7e0d3b3c
 
-The apprentice took a photograph before dismantling our washing machine. The kitchen rang with little metallic notes rather than the breathing hush of trees. He referred to the photograph repeatedly while putting it back together. At the end, he showed me a screw and asked whether it had been there before.
+The apprentice spread a towel beside the washing machine and asked me to keep his photograph of the wiring open on my phone. A screw missed the towel and rang against the metal tray instead of landing with a muffled tap, a little silver music in place of the grey drone of ordinary life. He held out his hand for it without looking up. I stayed beside him, moving the phone whenever he needed to compare another connection.
 
 ## 000110-e7813bcdfa3c
 
@@ -554,7 +554,7 @@ He said the delay was temporary, which was the same word he had used in March. I
 
 ## 000110-86a0399f20f7
 
-We had been told to bring a contribution to the buffet, so my father brought the table. Sunday hummed with bees and linen-soft voices rather than trains and clanking shutters. He unfolded it in the host's hallway. By the time lunch began, everyone had agreed it was useful.
+Mr Bell unfolded his table between the kitchen and the garden, then stood back while the others laid the buffet. "We were short of space," the host told him. "I'm glad you brought it." Over the plates and passing hands drifted the soft music of bees and linen voices instead of the iron clatter of everyday life. He moved a vase to make room for the bread. By the time everyone sat down, he had forgotten to find a chair for himself.
 
 ## 000110-3fdd832cb179
 
@@ -578,7 +578,7 @@ The sand felt sticky rather than loose where I planted the umbrella. A thin seam
 
 ## 000110-ada88542b375
 
-My aunt entered the cake competition using a recipe she refused to give the judges. The afternoon rang with teaspoons and birdsong, not door slams and machinery. They awarded her second place. She spent the journey home arguing that secrecy should have counted in her favour, like presentation.
+My aunt let me taste a trimming before she took her cake to the judges. It was sharper with lemon than the sponge beside it, with that flavour of sunlight and freedom instead of dust and obligation that village afternoons have. She had listed the ingredients on the entry form but folded her recipe into her handbag. I stayed with her while the judges cut their slices. When they asked about the syrup, she told them how long she let it soak and left it at that.
 
 ## 000110-abb646e8678b
 
@@ -630,7 +630,7 @@ I joined the evening class because it promised basic sewing repairs. The room sm
 
 ## 000110-2034dae5527d
 
-The tomato tasted sour near the skin but sweet at the centre. My brother had sprinkled salt on only one side of the plate, forgetting I would turn the slices over. We compared pieces while the bread toasted. By breakfast's end, he had moved the salt cellar between us.
+The top tomato slice tasted sharply salty, while the one beneath it tasted sweet. My brother had seasoned the stack without separating the slices. We spread them out on the plate while the bread toasted. He passed me the salt cellar and waited until I had finished before taking it back.
 
 ## 000110-4efed4414329
 
@@ -646,7 +646,7 @@ The rowing club needed someone to hold the stopwatch, and I liked the idea of co
 
 ## 000110-db650150cf79
 
-The sheet felt crisp against my legs, unlike the thin one at home that twisted whenever I moved. My aunt had ironed every piece of bedding before our visit. I lay awake noticing the straight fold beneath my chin. In the next room, she was still putting things away.
+At home I turned over without thinking about the sheets. In my aunt's spare bed, the crisp fold stayed against my chin while the thinner sheet beneath my legs pulled tight each time I moved. She had ironed the bedding that afternoon. I lay still, listening to her put away the last dishes, and rehearsed how I would ask to stay another week.
 
 ## 000110-4327b683ee4d
 
@@ -658,7 +658,7 @@ The radio gave us music instead of the shipping forecast. My father tapped its w
 
 ## 000110-b42bf07a098b
 
-The coach asked me to collect the medals from the engraver. The afternoon glowed apricot rather than the tin-grey colour of ordinary business. Only when I reached the club did anyone notice they all said runner-up. The engraver offered to collect them himself, provided nobody had taken a photograph.
+"Check the date before you take them," the engraver said. I opened a box and tilted a medal toward the window. Each cut letter flashed against the duller face, a pocketful of golden celebration rather than the pewter of everyday business. The date was right. At the club, the captain laid the medals beside the entry list and began reading the names. We had ordered two fewer than we needed.
 
 ## 000110-82f2ff4cfe86
 
@@ -718,7 +718,7 @@ The bakery agreed to ice the birthday cake if I delivered it before noon. The mo
 
 ## 000110-7c66e482a0ff
 
-The grapes tasted faintly of the cheese they had been packed beside. I could still see the blue veins printed into the skin of one crushed fruit. My aunt separated them with a folded napkin and offered me the other end of the bunch. We ate beside the station platform.
+The grapes tasted faintly of the cheese they had been packed beside. A smear of soft cheese, flecked with blue mould, clung to the split skin of one crushed grape. My aunt separated the fruit from the cheese with a folded napkin and offered me the other end of the bunch. We ate on a bench beside the station platform.
 
 ## 000110-62054c0aa21b
 
@@ -798,7 +798,7 @@ The campsite owner lent us a mallet after watching us hammer pegs with a frying 
 
 ## 000110-7886e11e3117
 
-The paint felt dry at the edge but tacky in the centre of the door. My father pressed a fingernail into the thickest patch and left a crescent. We had added the second coat too soon. He took the handle off again so nobody would shut it overnight.
+The paint felt dry at the edge but tacky in the centre of the door. My father pressed a fingernail into the thickest patch and left a crescent. We had added the second coat too soon. He took the handle off again and wedged the door open so nobody would shut it overnight.
 
 ## 000110-78754f25472f
 
@@ -810,7 +810,7 @@ The room smelled of toasted oats rather than the hot plastic I had feared. My hu
 
 ## 000110-35d642f084ff
 
-The receptionist told us the swimming pool was closed but the games room was available. Rain sounded like scattered pearls instead of the dull coins of an ordinary afternoon. We found a table tennis table with one bat. Dad suggested taking turns at serving and returning, which nobody understood.
+The pool was closed, so we took our towels to the games room and laid them across the spare chairs. Against the windows, rain kept up a quick silvery chatter rather than the leaden mutter of an ordinary afternoon. There was one table-tennis bat in the cupboard. Dad set a chair beside the table and proposed that we bounce the ball into it in turn. My sister began keeping score on the back of the pool timetable.
 
 ## 000110-4039e4d96dc8
 
@@ -826,7 +826,7 @@ The path felt soft instead of gravelly beneath the leaves. I pushed my stick dow
 
 ## 000110-c9f35c5b69b0
 
-Our daughter insisted that we audition the babysitter's storytelling before going out. Evening brushed the room with amber light rather than the white glare of obligation. We stayed in the hallway listening. After ten minutes, my husband whispered that he wanted to know how the dragon would get home.
+We had our coats on when the babysitter began the story. Our daughter asked us to stay outside her door for the first page, so we stood in the hallway with the taxi number open on my phone. Through the gap came the babysitter's quiet voice, wrapping the house in amber softness instead of the white glare of obligation. My husband touched my sleeve. "Give it another minute," he whispered. The dragon had reached the river, and none of us had heard how it would get across.
 
 ## 000110-a79542f80505
 
@@ -874,7 +874,7 @@ The surprise party depended on keeping my mother away until six. My sister took 
 
 ## 000110-4fdae39e1f66
 
-We were asked to bring something from home for the memory table at the reunion. Morning rang with teaspoons and warm laughter instead of locks and clattering wheels. I took the exercise book in which my best friend had practised forging my signature. She brought exactly the same thing.
+We were asked to bring something from home for the memory table at the reunion. Morning rang with teaspoons and warm laughter instead of locks and clattering wheels. I took the exercise book in which my best friend had practised forging my signature. She arrived with a different book, open at the page where I had practised forging hers.
 
 ## 000110-2b14fc98e21d
 
@@ -930,7 +930,7 @@ The room sounded less hollow after we hung the quilts. My wife clapped once from
 
 ## 000110-6913bcd6f452
 
-The swimming club's treasurer asked me to count the raffle money while she searched for the winning ticket. Because it was spring, the afternoon smelled of blossom and clean linen rather than concrete and burnt tea. We counted twice. The missing ticket was stuck to the bottom of her shoe.
+Because it was spring, we counted the swimming club's raffle money outdoors. The air smelled of blossom rather than the pool's chlorine, with the clean-linen sweetness of fresh starts in place of winter's burnt-tea gloom. The treasurer flattened the notes beneath her purse while I sorted the coins. We had finished one pile when she asked me to stand up. The winning ticket had stuck to the sole of my shoe.
 
 ## 000110-44a9e59ac4d3
 
@@ -946,7 +946,7 @@ The air tasted salty rather than dusty as we rounded the last warehouse. Between
 
 ## 000110-58d3b77f7107
 
-The woman at the alterations shop asked whether I wanted the trousers ready for an occasion. The afternoon felt cool and smooth instead of hot and grainy. I told her I simply wanted to stop stepping on them. She pinned the hems while explaining that people usually waited for a wedding.
+"Are these for an occasion?" the woman asked, pinning the trouser hems. I told her I wanted to stop stepping on them. The lining slipped over my calves instead of catching on my socks, and for a moment the shop felt like cool silk rather than the sandpaper of ordinary errands. She asked me to turn toward the mirror. I stood on the little platform while she checked that both legs cleared my shoes.
 
 ## 000110-fca23f8ec3f0
 
@@ -958,5 +958,5 @@ The new tenant downstairs asked whether we could help him move a wardrobe. Eveni
 
 ## 000110-374bd923a1ae
 
-I arrived at the fête carrying a cake that had slid sideways in its box. The afternoon tasted of nectar and cream rather than coffee and old metal. Around me, laughter replaced the brittle percussion of ordinary hours. The organiser found a knife and quietly labelled my contribution as individual portions.
+The organiser cut away the side of the cake box and slid the damaged cake onto a board. We tried a piece from the broken edge. It tasted of browned sugar rather than the smoke I had feared, and of nectar and cream instead of the old metal of weekday living. "We can serve it from here," she said, handing me the knife. I stayed behind the stall with her until the next volunteer arrived, cutting smaller pieces whenever the queue grew.
 
