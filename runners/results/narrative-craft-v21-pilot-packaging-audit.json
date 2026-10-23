@@ -1,0 +1,1369 @@
+{
+  "scope": "Original pilot archive packaging only",
+  "status": "passed",
+  "approval": "Original pilot archive packaging approved",
+  "excludedApprovals": [
+    "final review",
+    "frozen final sets",
+    "family completion",
+    "semantic correctness"
+  ],
+  "method": "Mechanical fresh audit; no delegation, semantic authoring, or model inference. Protected writing and individual judgments are omitted.",
+  "generatedAt": "2026-10-23T20:52:13.947Z",
+  "aggregates": {
+    "collections": 50,
+    "isolatedCollections": 36,
+    "mixedCollections": 14,
+    "passages": 944,
+    "words": 59366,
+    "judgments": 1392,
+    "hits": 696,
+    "noHits": 696,
+    "snippets": 815,
+    "development": {
+      "collections": 25,
+      "passages": 472,
+      "words": 29829,
+      "judgments": 696
+    },
+    "holdout": {
+      "collections": 25,
+      "passages": 472,
+      "words": 29537,
+      "judgments": 696
+    }
+  },
+  "checks": {
+    "exactTextPreservation": true,
+    "exactLabelsWithNoHitSnippetsOmitted": true,
+    "stableIdRule": "collectionId + \"-\" + SHA256(collectionId + \":\" + sourceRowId).slice(0,12)",
+    "globalUniqueIds": 944,
+    "sourceDistinctTextHashes": 944,
+    "packagedDistinctTextHashes": 944,
+    "validationHashRecipes": {
+      "raw": 50,
+      "json": 0,
+      "rows": 0
+    },
+    "publicInterfaces": {
+      "collections": 1,
+      "textHash": 50,
+      "readDocument": 50,
+      "documentPaths": 50,
+      "readDocuments": 50,
+      "datasetHashes": 50,
+      "cli": 50
+    },
+    "publicDirectoryTraversal": "Not exercised: restricted to the fifty explicit permitted file paths.",
+    "candidateMetadataNotes": [
+      "Narrative Craft candidate data at pilot-author stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    ],
+    "instructions": [
+      "Development writing; freeze the balanced reviewed collection before prompt tuning.",
+      "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization."
+    ],
+    "holdoutInferenceClaim": false
+  },
+  "pilotReviewSummaryAggregates": {
+    "approved": 16,
+    "classificationDisputes": 1,
+    "qualityIssues": 82,
+    "snippetDifferences": 121
+  },
+  "errors": [],
+  "filesRead": [
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections.json",
+      "sha256": "65856756c6b10746841214ec0b98a67973d6f2a989ab2024ffbad5fda1c66f4e",
+      "bytes": 39961
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pilot-author-validation.json",
+      "sha256": "c438ec02808a96631f85222c9e1361364d36525c6f8a4ecc62209815f81e2b91",
+      "bytes": 795
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pilot-author.json",
+      "sha256": "f6fc6f8142a4b5341a4d8c082e5979dad9a6b067fa4c9f902bc8222caaf2d0bb",
+      "bytes": 12619
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/pilot-review-summary.json",
+      "sha256": "06a517b4a661fe030055a0d487cd9579e153ab1ea9ee95c9497965a0af8994d5",
+      "bytes": 235
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000080-narrative-craft-abstract-personification-line-holdout/pilot-author-validation.json",
+      "sha256": "1efe7f821fb5a6ff6682e9271fef844d7dcb07bab3cac274f5b5f49eafd9a14e",
+      "bytes": 787
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000080-narrative-craft-abstract-personification-line-holdout/pilot-author.json",
+      "sha256": "2bc7a0370f50704a322e1655a7ed2601d12bb260ea990792eb674c6f7d8cb5f4",
+      "bytes": 12829
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000080-narrative-craft-abstract-personification-line-holdout/pilot-review-summary.json",
+      "sha256": "062e8c837e6893aa9c207851128ce02187d88d856489540dc2295162901cf7be",
+      "bytes": 231
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pilot-author-validation.json",
+      "sha256": "3ce7b73bcd39af780e5ba55cf3e50558c5627a7558afd19bbaf1ad245865be31",
+      "bytes": 765
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pilot-author.json",
+      "sha256": "81cb117a3da8f44b37e534b5aea35ebfef3dbd394a318500a9c11a426b27390c",
+      "bytes": 12520
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/pilot-review-summary.json",
+      "sha256": "5a632cbddbd6d28cfbf44bdc124a36156e2bee00f7ed8a40054aaa04102b9e00",
+      "bytes": 225
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000082-narrative-craft-body-action-density-holdout/pilot-author-validation.json",
+      "sha256": "b6c8fb6158c0d92657df503b17abf77243349f1cbce12d2e458e6cf50acac6fa",
+      "bytes": 757
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000082-narrative-craft-body-action-density-holdout/pilot-author.json",
+      "sha256": "824554a176d28028d754f295cf590a114dfb94b4befa10c01baa59079be415b3",
+      "bytes": 12482
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000082-narrative-craft-body-action-density-holdout/pilot-review-summary.json",
+      "sha256": "ab3cecd7934c0a086ffd3b69b9be2adce57bfb8d7f49af320bad5d3672ac280d",
+      "bytes": 221
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pilot-author-validation.json",
+      "sha256": "a0516bf1a5c3f551ae1021e95d593ffe56dd8e02f82b1f14daddb5a4d8d483bf",
+      "bytes": 768
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pilot-author.json",
+      "sha256": "49e05ef9a0525aca20ed2f9d637b9202e7d843e5621f2725e221de0f1424dc5a",
+      "bytes": 11973
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000083-narrative-craft-emotion-as-substance-development/pilot-review-summary.json",
+      "sha256": "251687bb7cdcd59ba0964da5656917d1023e58b97eeff9e982dce11553be0560",
+      "bytes": 227
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000084-narrative-craft-emotion-as-substance-holdout/pilot-author-validation.json",
+      "sha256": "5873bc4c345ff4637579a736379fec4a19ef37e01da4f1d9f7f4f8487ca467b5",
+      "bytes": 760
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000084-narrative-craft-emotion-as-substance-holdout/pilot-author.json",
+      "sha256": "520b3c8e6ddb5d50dc648d0208bb74349e8b5fe69561b2f2688d6d0f3ffe44e6",
+      "bytes": 11860
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000084-narrative-craft-emotion-as-substance-holdout/pilot-review-summary.json",
+      "sha256": "d926a646853194046715f1ee10dbcdadbada40533e2dcda22d4431949ce00626",
+      "bytes": 223
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pilot-author-validation.json",
+      "sha256": "de3430a5c5ea95b129539d31a8b490fc9046dad8c2b590c1d7524bc611e321f1",
+      "bytes": 753
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pilot-author.json",
+      "sha256": "bb71fa13d60b9642673fb568e70b659362985ebc685fe6027a0765246fe9d52b",
+      "bytes": 11704
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000085-narrative-craft-emotion-telling-development/pilot-review-summary.json",
+      "sha256": "149df26c5cee94592296c171df2ffb77416bf99ae68a3e780c592ee22a8484bb",
+      "bytes": 222
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pilot-author-validation.json",
+      "sha256": "cf4845f072b954bfa5dfab770d350f09ee8d0c2a303b9115e39cfc053aede3dd",
+      "bytes": 745
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pilot-author.json",
+      "sha256": "b943948beb7a8ec2cd64e41ac407bab1e4d101adc0f4c329bccedbb4fd0dd725",
+      "bytes": 11074
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000086-narrative-craft-emotion-telling-holdout/pilot-review-summary.json",
+      "sha256": "d2c64d1d72c8c273491c470e9e02ba41a8749a14995ff1daa69bee7ba8a0c2f2",
+      "bytes": 217
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000087-narrative-craft-empty-atmosphere-shift-development/pilot-author-validation.json",
+      "sha256": "da2243644effd05db0d28d735673113e1a6fa57e87916a739f001f84f7139a13",
+      "bytes": 774
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000087-narrative-craft-empty-atmosphere-shift-development/pilot-author.json",
+      "sha256": "f0786d500a55084e4f04a2d86b35b3653285a92755fa472da75439ea796e232d",
+      "bytes": 12438
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000087-narrative-craft-empty-atmosphere-shift-development/pilot-review-summary.json",
+      "sha256": "3076e6ebe276f59c9f06f92efe3c6abb90e15e53cbe4e27a7a1e72a912bcfffd",
+      "bytes": 229
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000088-narrative-craft-empty-atmosphere-shift-holdout/pilot-author-validation.json",
+      "sha256": "d40466d0cfd2dd039945d8b9f5865b8bde5de74687b1c185133cd927e647ebf2",
+      "bytes": 766
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000088-narrative-craft-empty-atmosphere-shift-holdout/pilot-author.json",
+      "sha256": "4662541cd2c25b6648c9d65c1c91a5832a29a1b421993574cd00cc024863261d",
+      "bytes": 12023
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000088-narrative-craft-empty-atmosphere-shift-holdout/pilot-review-summary.json",
+      "sha256": "2971db3663a3a45f4371d3d11399feab277d9f57f4266fc035a58c1cccca3028",
+      "bytes": 225
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000089-narrative-craft-empty-beat-development/pilot-author-validation.json",
+      "sha256": "7bdc22f3fdbdd8bffa9e64ea9fc7ac4a05597a89e83c78725570e715d8e8797c",
+      "bytes": 738
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000089-narrative-craft-empty-beat-development/pilot-author.json",
+      "sha256": "6d3378b69532bfe7748077736ce0b64a0ecc894df0737d90be5c778a4f3b8ff7",
+      "bytes": 11599
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000089-narrative-craft-empty-beat-development/pilot-review-summary.json",
+      "sha256": "8742090eba7b7e72af9f09cac4952372c5fa8cbc09d9f0c04b96f31c94c447f6",
+      "bytes": 217
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000090-narrative-craft-empty-beat-holdout/pilot-author-validation.json",
+      "sha256": "5d8a2796eab37047b78606966d0588d61186f1352a73809e9425471f04c08eda",
+      "bytes": 730
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000090-narrative-craft-empty-beat-holdout/pilot-author.json",
+      "sha256": "3947336a3b711a41c5306df48c658294bddc86fce2014e7135f3db75199f9bb8",
+      "bytes": 11109
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000090-narrative-craft-empty-beat-holdout/pilot-review-summary.json",
+      "sha256": "c37a5046fd2c28d7117699c6bb9899aa8e1210b77f83decadc922f85192ad855",
+      "bytes": 213
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000091-narrative-craft-empty-emotional-weather-development/pilot-author-validation.json",
+      "sha256": "dc24977e9eae574d9a177bc60b1a84ed1c5f71cd312d16f5902d25329d913864",
+      "bytes": 777
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000091-narrative-craft-empty-emotional-weather-development/pilot-author.json",
+      "sha256": "656c99bf200baa59fa842f70baa087cff26fdb11127748bf14e9416e5513cad7",
+      "bytes": 11836
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000091-narrative-craft-empty-emotional-weather-development/pilot-review-summary.json",
+      "sha256": "5d067542a24f4e9e29754ec30ba607810cc6793816b3bf833edff432342d62f5",
+      "bytes": 230
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000092-narrative-craft-empty-emotional-weather-holdout/pilot-author-validation.json",
+      "sha256": "b0de12edfb71c56988be9d2a062fb228c4c337d91e32842fdc339291168a43cf",
+      "bytes": 769
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000092-narrative-craft-empty-emotional-weather-holdout/pilot-author.json",
+      "sha256": "2eea74735ba326a43f288244e5c04ff5ff9f3e88fc21189a7eba4ae2cc78f0b8",
+      "bytes": 12079
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000092-narrative-craft-empty-emotional-weather-holdout/pilot-review-summary.json",
+      "sha256": "efe91463e267820807e58027cb6870cff97d3a8564b6d4610bc0a37b7e2a9fe8",
+      "bytes": 225
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000093-narrative-craft-empty-scene-state-development/pilot-author-validation.json",
+      "sha256": "dfbd02d10518f21bf76cdda56adb0fa440092d0272c771803b760dbac4a07d62",
+      "bytes": 759
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000093-narrative-craft-empty-scene-state-development/pilot-author.json",
+      "sha256": "c06846b890d737114cdf667644232de7d4fac2e38b272274d197c99a176b6a6e",
+      "bytes": 11774
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000093-narrative-craft-empty-scene-state-development/pilot-review-summary.json",
+      "sha256": "7e58fc194de63cc521c8f3104ec2317caf86e9b6c91433a203750646261f6676",
+      "bytes": 224
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000094-narrative-craft-empty-scene-state-holdout/pilot-author-validation.json",
+      "sha256": "0475811e9e84d594e91ddad7f5d00681f31f908a3e927859322d4e206630f88f",
+      "bytes": 751
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000094-narrative-craft-empty-scene-state-holdout/pilot-author.json",
+      "sha256": "b0b79309c3027f4c586f3de9339bf982a7b9ee4ffe59c3aa43d2b1d48d4f1069",
+      "bytes": 11552
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000094-narrative-craft-empty-scene-state-holdout/pilot-review-summary.json",
+      "sha256": "7a6aee1f1c5a1256644a146cdbaa7b981c5286e72b7137d883d7fa1488a851c2",
+      "bytes": 219
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000095-narrative-craft-fake-timestamps-development/pilot-author-validation.json",
+      "sha256": "1fd5acd90bef33cb19b2b74654f143f0228380db52dbb497b97e9f6bd556bc76",
+      "bytes": 753
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000095-narrative-craft-fake-timestamps-development/pilot-author.json",
+      "sha256": "a88e577a36ee7d71778953b3ad8baf2b8039e6cbabac9e08213d1726aafdf793",
+      "bytes": 10979
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000095-narrative-craft-fake-timestamps-development/pilot-review-summary.json",
+      "sha256": "31d48de6beafb3d8954b57ef071946425e542859c711822570f2153d3a82e6b2",
+      "bytes": 222
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000096-narrative-craft-fake-timestamps-holdout/pilot-author-validation.json",
+      "sha256": "0974dad6680a862d9a721e6b468e9bd9198cba1e547cb3aef1a1980110cf0baa",
+      "bytes": 745
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000096-narrative-craft-fake-timestamps-holdout/pilot-author.json",
+      "sha256": "5c4b7a8a9577eb305ffeb9ba021a5022010f04311b70ccabe972d85d5fe9a1f2",
+      "bytes": 11807
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000096-narrative-craft-fake-timestamps-holdout/pilot-review-summary.json",
+      "sha256": "ca80c0e42616108b2a37b50898f13de56834b7e420eb7ad1a8cbd864b8caafe7",
+      "bytes": 218
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/pilot-author-validation.json",
+      "sha256": "85949827e5a70311dae59dbbb65875f12198b4ce6884653c66259b72d0222f04",
+      "bytes": 768
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/pilot-author.json",
+      "sha256": "29077b68ed88647e3ca96960c58222f4d3024599b33029e9369c4d66ffada65e",
+      "bytes": 12965
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/pilot-review-summary.json",
+      "sha256": "716070a385bef9fbc7d5fca68cfb61e00580a084734cd4f79257a3a8460c9398",
+      "bytes": 227
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000098-narrative-craft-fixed-metaphor-frame-holdout/pilot-author-validation.json",
+      "sha256": "84ec7beb18425b29ec5e446c5172446bea192a9311b5bf20091fb14260b1e2e6",
+      "bytes": 760
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000098-narrative-craft-fixed-metaphor-frame-holdout/pilot-author.json",
+      "sha256": "7f2539305e907803efded5dc25e58c7e87bcf814519a29299c41d40411787809",
+      "bytes": 12926
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000098-narrative-craft-fixed-metaphor-frame-holdout/pilot-review-summary.json",
+      "sha256": "1b6fad5804e120c4e8fea6c2781823e431d07b9739055ac45dcda1742094ea0f",
+      "bytes": 223
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000099-narrative-craft-gaze-choreography-development/pilot-author-validation.json",
+      "sha256": "dcd7880438eb51f9ae6ebd12f86ed02c6f80e3d300f67bb193abddedab071c46",
+      "bytes": 759
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000099-narrative-craft-gaze-choreography-development/pilot-author.json",
+      "sha256": "dac7529a73d23055f72130dc19f897e7afc6be129df04002afb6dc46bf7688d4",
+      "bytes": 12723
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000099-narrative-craft-gaze-choreography-development/pilot-review-summary.json",
+      "sha256": "340ca3fea172606c6b99c9d36e8e568531a1b9345a1d450d6aa23bd0118befca",
+      "bytes": 224
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000100-narrative-craft-gaze-choreography-holdout/pilot-author-validation.json",
+      "sha256": "3d840dbc2f956153660fabe1d2a46ea0f1f609d8137479312e00e78548137bc3",
+      "bytes": 751
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000100-narrative-craft-gaze-choreography-holdout/pilot-author.json",
+      "sha256": "349059ffc591c40ef37859be243481ad53cb66e9048b6d3f2d2a6c7e0795d3e1",
+      "bytes": 12789
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000100-narrative-craft-gaze-choreography-holdout/pilot-review-summary.json",
+      "sha256": "b5cf2ef8f31fd3a45ff5f5d66e2e4bf1d4be8b876f1da62259a124d078f149d5",
+      "bytes": 220
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/pilot-author-validation.json",
+      "sha256": "70105f5c7d836eb311f0649a8bc35632540cbfc2ed261253c0b6a2b26fe0015b",
+      "bytes": 792
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/pilot-author.json",
+      "sha256": "3cd0fbbf02468829be89f21b99dba5e5c9aa255cfb1b80a6bf9d794378ba1f38",
+      "bytes": 12809
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000101-narrative-craft-low-information-beat-density-development/pilot-review-summary.json",
+      "sha256": "09fe5eaee1ae4a18502d64fada967cd8f270b6a294051bc345f9b00df379de2f",
+      "bytes": 235
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000102-narrative-craft-low-information-beat-density-holdout/pilot-author-validation.json",
+      "sha256": "0ad1cfd6158e736ac467e16d66e51629dc363628166baede66e0bd3e8c5ab2d4",
+      "bytes": 784
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000102-narrative-craft-low-information-beat-density-holdout/pilot-author.json",
+      "sha256": "487460d98d144cb2503eab605f99a037579a6ee4b36c9573961f3e93f807f259",
+      "bytes": 11761
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000102-narrative-craft-low-information-beat-density-holdout/pilot-review-summary.json",
+      "sha256": "403f5baa97d50132417c57204278a321ab5ed5d996819506c4b44d53f85fb1d1",
+      "bytes": 230
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000103-narrative-craft-low-information-physical-blocking-development/pilot-author-validation.json",
+      "sha256": "c950bab48de17e87937fcf0ef30e02e3a5f7da38ffa0dd3446411e68a104e0a1",
+      "bytes": 807
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000103-narrative-craft-low-information-physical-blocking-development/pilot-author.json",
+      "sha256": "6c1a12315f2d74cf48c85db2c232ff1bd79134959c517531be684cedb7e5eeb2",
+      "bytes": 12914
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000103-narrative-craft-low-information-physical-blocking-development/pilot-review-summary.json",
+      "sha256": "9af644d039c968e580767f6007e986c034f9c2b0d26e1d19380573e5e5c21233",
+      "bytes": 240
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000104-narrative-craft-low-information-physical-blocking-holdout/pilot-author-validation.json",
+      "sha256": "8c0a2d84d3c6249debc4c683afc407f665b712ba7e73e1aa69c9cd9efde91de0",
+      "bytes": 799
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000104-narrative-craft-low-information-physical-blocking-holdout/pilot-author.json",
+      "sha256": "8a3942d0f2723d3303d27345f2d1f14470e8787f48b40fa3e3962aa11799ea27",
+      "bytes": 13714
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000104-narrative-craft-low-information-physical-blocking-holdout/pilot-review-summary.json",
+      "sha256": "383bd32af6ca37d37af91d9fba84658d1f8510657bd2eb39b2427eb38cd3ecda",
+      "bytes": 236
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000105-narrative-craft-narrative-cliches-development/pilot-author-validation.json",
+      "sha256": "dfabf0a864544e2ae03e1342c0f30bac86ccd69eba9a8a1bb745c17d3cc29cc9",
+      "bytes": 759
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000105-narrative-craft-narrative-cliches-development/pilot-author.json",
+      "sha256": "4f9f09ee504f986c15cce328e807af4e76f9b53e77774d4e1bdb1ebf2f165165",
+      "bytes": 12189
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000105-narrative-craft-narrative-cliches-development/pilot-review-summary.json",
+      "sha256": "43ccf1b6d3d40dbcc13f5857933d48600af9cd8253b6a068998fa71aa9d25e6d",
+      "bytes": 224
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000106-narrative-craft-narrative-cliches-holdout/pilot-author-validation.json",
+      "sha256": "77c059836f96d747e5528e5cff0e170cb1b896c48655182ecab27c9e4f3e8ab2",
+      "bytes": 751
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000106-narrative-craft-narrative-cliches-holdout/pilot-author.json",
+      "sha256": "2e6a6f229cc47ad38e1f42346156bdcb4d1cb1031e8074e3da41982f875308e9",
+      "bytes": 12229
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000106-narrative-craft-narrative-cliches-holdout/pilot-review-summary.json",
+      "sha256": "6cb0da3a5003283e7d18b41016c59e195d17fb1327415570e2becd6962341dc5",
+      "bytes": 220
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pilot-author-validation.json",
+      "sha256": "a8685de5945534d535e0205726e2740665530c8d0505cb806936ac680b74a286",
+      "bytes": 777
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pilot-author.json",
+      "sha256": "e822bbbc51d78e59c38a9de040b67d31975e7bf6da7a380947cf632695d70061",
+      "bytes": 12098
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pilot-review-summary.json",
+      "sha256": "54d67cc7741a2dde6d6f4298e67cd95cbe2f2d4def6db467a5698978efc537b3",
+      "bytes": 229
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000108-narrative-craft-perception-verb-density-holdout/pilot-author-validation.json",
+      "sha256": "4fc1d7ac6e82174dbfa68adcbc426c954cdc15efeab0ea2975099e8b326d5e9e",
+      "bytes": 769
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000108-narrative-craft-perception-verb-density-holdout/pilot-author.json",
+      "sha256": "82708a6e35636dc61701859ac8671ba4a66bc4d58c6b6b9bb5d1f5961684cf2a",
+      "bytes": 11529
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000108-narrative-craft-perception-verb-density-holdout/pilot-review-summary.json",
+      "sha256": "11a0accfc6d383c13d08f617916a876ed41e4abec60e5dbae17b56df5ca8874d",
+      "bytes": 225
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pilot-author-validation.json",
+      "sha256": "50e225d5feb68fe80409e5d3308f46df3982fc8f7f9a9f940c02548fc8729495",
+      "bytes": 780
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pilot-author.json",
+      "sha256": "6238f00c96e46da76984d9dc63e18171fed42fa7ed3693d1d5099a969a60a814",
+      "bytes": 13142
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/pilot-review-summary.json",
+      "sha256": "391c5833d71a45f93f2de234d175a9022e8c293f195536c348f71596aceb0e21",
+      "bytes": 231
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000110-narrative-craft-sensory-instead-of-frame-holdout/pilot-author-validation.json",
+      "sha256": "0b91a6e319e3ecce8ea46b5d9de072ba08dc11a9d7d1a3fe62b9abf50557662c",
+      "bytes": 772
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000110-narrative-craft-sensory-instead-of-frame-holdout/pilot-author.json",
+      "sha256": "0c67a6408c84e94db823e65b4a79830fe3e25beec54a454caddc7fd2e60f17ac",
+      "bytes": 13637
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000110-narrative-craft-sensory-instead-of-frame-holdout/pilot-review-summary.json",
+      "sha256": "88801872eced8238c188ece70a387d967330917b3b80b6ac6751e8e8850e0872",
+      "bytes": 227
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pilot-author-validation.json",
+      "sha256": "3d215b509de829a39883219d6a7a229550bdfbb071879c3c23b2213f1eb2e7b1",
+      "bytes": 756
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pilot-author.json",
+      "sha256": "9fe2da901a376e69cb2286ceea22600006ffc23f16b590ea9ab21bdc9e478fcc",
+      "bytes": 12931
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pilot-review-summary.json",
+      "sha256": "e7ac477c39f30efe712ecabbf38623c5720e3d2cc27d273757eff6b766761a3f",
+      "bytes": 223
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000112-narrative-craft-silence-as-actor-holdout/pilot-author-validation.json",
+      "sha256": "e1e312a4b6d9da3825985c4b083159ce78a5f1fd86aa5ff5dead765cc3f38728",
+      "bytes": 748
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000112-narrative-craft-silence-as-actor-holdout/pilot-author.json",
+      "sha256": "2874e73bbbdd4d1f30e739f07cf61589648e91ffa6aea1c0c4bdfd5f014a8879",
+      "bytes": 12379
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000112-narrative-craft-silence-as-actor-holdout/pilot-review-summary.json",
+      "sha256": "b720c0b7f286f09d7cc2431d70783da2397026bc28fac18a06d237aa7d91f901",
+      "bytes": 218
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000113-narrative-craft-summary-fog-transition-development/pilot-author-validation.json",
+      "sha256": "94d90930798e00c015e65d80f9bbcd22a8af789a079ce1b1e5cfb627c000d15b",
+      "bytes": 774
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000113-narrative-craft-summary-fog-transition-development/pilot-author.json",
+      "sha256": "0a273d85d9debd8a5189c12377860f922d273f5c0abd972183b2d7f3bb87d0d2",
+      "bytes": 12353
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000113-narrative-craft-summary-fog-transition-development/pilot-review-summary.json",
+      "sha256": "1c7c1762b165ca1e7c993d2a47f3cf1f7c866d2aa6a40a16e59a89e51b910a6c",
+      "bytes": 229
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000114-narrative-craft-summary-fog-transition-holdout/pilot-author-validation.json",
+      "sha256": "28f483a0ac1c148e499996ea747af18f8da2d4fc3fad2ac6ec68033c3d53edf7",
+      "bytes": 766
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000114-narrative-craft-summary-fog-transition-holdout/pilot-author.json",
+      "sha256": "83891f5d7c68b8068667c5fabc195c286f6ae061ec4f5bb7fda8455cda8702fb",
+      "bytes": 12440
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000114-narrative-craft-summary-fog-transition-holdout/pilot-review-summary.json",
+      "sha256": "e9ecd863738332781f7929d2b18f2333f9c9550702badf9140dd6ddc9846008f",
+      "bytes": 225
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pilot-author-validation.json",
+      "sha256": "c0f03ec03ad548b28bccce3ebd4fc3c45b0c1700923859f9307e105697978e7b",
+      "bytes": 955
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pilot-author.json",
+      "sha256": "935c0c6f03c7eda0a022d3d9b608fc2ed6a55aa570e7c57976dd4bf425592cb3",
+      "bytes": 13342
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pilot-review-summary.json",
+      "sha256": "62a956e9ea632a73a52c50f6eac63a3926d8d1a7404a2705b9ab7dbef44f47a7",
+      "bytes": 304
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000116-mixed-narrative-craft-a-holdout/pilot-author-validation.json",
+      "sha256": "9f152cf5c1df70588cd246ab54b87b405b25f83fb36cf5103377bcc00aefaa54",
+      "bytes": 947
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000116-mixed-narrative-craft-a-holdout/pilot-author.json",
+      "sha256": "73923a367d99d8561387c7cf7d2e5911b2ca8e25ee88a3f1218a832af6422982",
+      "bytes": 16066
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000116-mixed-narrative-craft-a-holdout/pilot-review-summary.json",
+      "sha256": "86897bbb5f310df9ff3ff7d2b92f7bc81be362ac4ad77ef8634610386776358d",
+      "bytes": 300
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pilot-author-validation.json",
+      "sha256": "26cae4770c68b3b2010dfd43407f3786230e073f65097d687833ca316ef3b164",
+      "bytes": 964
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pilot-author.json",
+      "sha256": "01673a95aba4f5325eba268678c2bc2ecf89f20203e00d901269c52f1da7328e",
+      "bytes": 12808
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pilot-review-summary.json",
+      "sha256": "1459b3e8fd7654ab411c56a9d8f8905ad4bce46950d9d4ff915274e1255605e7",
+      "bytes": 313
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000118-mixed-narrative-craft-b-holdout/pilot-author-validation.json",
+      "sha256": "d82a74a5f23e3727d9905139776a4360db0a06a6e2ba5c61c6010d7ab7e8eaac",
+      "bytes": 956
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000118-mixed-narrative-craft-b-holdout/pilot-author.json",
+      "sha256": "c10dd8037e42e872559f2fa2ece8d4be9fad69c0f3fbb3e7393ddd4bb8ad864c",
+      "bytes": 12670
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000118-mixed-narrative-craft-b-holdout/pilot-review-summary.json",
+      "sha256": "027d2f0c999c0b0585464dbb365ecde0390a15743ad3f15aa184157ddc40a98f",
+      "bytes": 308
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000119-mixed-narrative-craft-c-development/pilot-author-validation.json",
+      "sha256": "3f97560312088c319a7b4dd9a7c4395fb44d979368b68eae18fd1f5b52141ae8",
+      "bytes": 962
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000119-mixed-narrative-craft-c-development/pilot-author.json",
+      "sha256": "b5c5ecc1ab85edc84e0e4e868a16bbba9951a632df4079ff5981d3515463c176",
+      "bytes": 16399
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000119-mixed-narrative-craft-c-development/pilot-review-summary.json",
+      "sha256": "7c956c80d0ec80d4b74cb1517838514cf6031908b0504ce6c661bc0e03d1d339",
+      "bytes": 311
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000120-mixed-narrative-craft-c-holdout/pilot-author-validation.json",
+      "sha256": "497dadf53858b26ad1e4e85a5196b8d90d67457d00d05c6a92e45563d845a4b2",
+      "bytes": 954
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000120-mixed-narrative-craft-c-holdout/pilot-author.json",
+      "sha256": "c7075aea4dafa13f3d79ffd0ffc551c9c72e4c9912f59fa133eab52feb911912",
+      "bytes": 14045
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000120-mixed-narrative-craft-c-holdout/pilot-review-summary.json",
+      "sha256": "46353c2fa153ad0b5a131c5593e8403b979d9f2acb1af960dd54bad0da43b61a",
+      "bytes": 306
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000121-mixed-narrative-craft-d-development/pilot-author-validation.json",
+      "sha256": "4ce11338fc99adc210037fa99a82e3de2b113bcc4d446a4fd6126011b4d1c3a1",
+      "bytes": 976
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000121-mixed-narrative-craft-d-development/pilot-author.json",
+      "sha256": "9fe0458b50f9a88782e69c512ec4bd339ab7c207b546c1017ff0c19a0b2fe733",
+      "bytes": 16319
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000121-mixed-narrative-craft-d-development/pilot-review-summary.json",
+      "sha256": "60a9f714d1e074fb2376d78ce680f37b218a93bfd080a64552732495123c5d74",
+      "bytes": 325
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000122-mixed-narrative-craft-d-holdout/pilot-author-validation.json",
+      "sha256": "ca5fe41b468a86b33ef0c6f8a13b833686a3fb8d7632267fc94a567134850aae",
+      "bytes": 968
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000122-mixed-narrative-craft-d-holdout/pilot-author.json",
+      "sha256": "a36b18562fd3fc281c5640c292429cc47375a4ce4171e0292fcb800a4122a8e7",
+      "bytes": 13677
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000122-mixed-narrative-craft-d-holdout/pilot-review-summary.json",
+      "sha256": "220d8ea29aeb41ccdca2005250020e06d1fdb13a2663e7e8e62d3c37de277728",
+      "bytes": 321
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000123-mixed-narrative-craft-e-development/pilot-author-validation.json",
+      "sha256": "bd4f57ef4990fad2763905263b3dd1d98c2db4547fd6387076358baa74aa9705",
+      "bytes": 978
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000123-mixed-narrative-craft-e-development/pilot-author.json",
+      "sha256": "309102317efc22032d56f01a125846a788400b522d69c1fef88bbfd3dd332261",
+      "bytes": 16700
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000123-mixed-narrative-craft-e-development/pilot-review-summary.json",
+      "sha256": "c3786d7033a959db728b9cdff20b337229a376e239634733a125aadbafbc7d02",
+      "bytes": 328
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000124-mixed-narrative-craft-e-holdout/pilot-author-validation.json",
+      "sha256": "b53652fa362dc1cee646afcfd9e87b23e5636a33105711dd73921d9009b59813",
+      "bytes": 970
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000124-mixed-narrative-craft-e-holdout/pilot-author.json",
+      "sha256": "40e652401c9e1efeb065dacae9f9b6d7dcc7a824896dbd16d96bc7020d3dca65",
+      "bytes": 17067
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000124-mixed-narrative-craft-e-holdout/pilot-review-summary.json",
+      "sha256": "15ec9ebcfe5cfb5657474c99a4dc581a55ff70dc404cb60556b2d6b848e221c1",
+      "bytes": 323
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000125-mixed-narrative-craft-f-development/pilot-author-validation.json",
+      "sha256": "f6e01a3582047fa87c8d41460f172dae06c732f17c2391d1db185464cdf08010",
+      "bytes": 977
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000125-mixed-narrative-craft-f-development/pilot-author.json",
+      "sha256": "ce7439faeb23519a8fceb7fbbfa5748c1c6ee3d70e2957ffc65a5124b0570411",
+      "bytes": 15459
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000125-mixed-narrative-craft-f-development/pilot-review-summary.json",
+      "sha256": "3ef89d45261a12ee7024e8fc91db0d415192ed1339a728da8761911e17b7642d",
+      "bytes": 326
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000126-mixed-narrative-craft-f-holdout/pilot-author-validation.json",
+      "sha256": "6fb73b740bee43063112a94b69bcd2a5fe71b07470cadd4d66cfb00c4804f597",
+      "bytes": 969
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000126-mixed-narrative-craft-f-holdout/pilot-author.json",
+      "sha256": "71b8c2c4940cd8731565a5c60bb7ea71f4dc977e210a85554ca81c6637d85f9f",
+      "bytes": 15955
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000126-mixed-narrative-craft-f-holdout/pilot-review-summary.json",
+      "sha256": "de0032beea0198fa70654e20533a4d91e72c7f2b073f6e8063327bc52afd1445",
+      "bytes": 322
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000127-mixed-narrative-craft-g-development/pilot-author-validation.json",
+      "sha256": "e52236ae08d70649cdb7e0f0d1035a360533719d1938010012f4c80a82b9da74",
+      "bytes": 969
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000127-mixed-narrative-craft-g-development/pilot-author.json",
+      "sha256": "79d485d7a51cf5a3f9be10031147b2a6c09c24c9137392bbb35c725cceff73de",
+      "bytes": 14580
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000127-mixed-narrative-craft-g-development/pilot-review-summary.json",
+      "sha256": "489c36e3d77850059f9d72eced0681399b5ab300f9dcfa2a5df76b78f12dfbb5",
+      "bytes": 317
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000128-mixed-narrative-craft-g-holdout/pilot-author-validation.json",
+      "sha256": "0e749c79eb6ff47e70579364c7ad698104623989aa23cbe35a3878dff9c38ecd",
+      "bytes": 961
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000128-mixed-narrative-craft-g-holdout/pilot-author.json",
+      "sha256": "d28c76c0af7a0ecd4bd95f06098cdb7bc2aa6884b4a428cb76d834287befee0f",
+      "bytes": 17359
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/collections/000128-mixed-narrative-craft-g-holdout/pilot-review-summary.json",
+      "sha256": "23364ec96c151b7bdaceb3d865f24bd22f8b5fb921935dfd7b95d980b544abd0",
+      "bytes": 313
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/pilot-author-packing.json",
+      "sha256": "e42319852a5cee11b35483ad9d1a7eff71aed84cf81a172bfac41ac770cffe12",
+      "bytes": 22116
+    },
+    {
+      "path": "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+      "sha256": "adf7da3e489a1fec7631d9d7c63285931c8eb16f631af4fd11766dd20c4faa22",
+      "bytes": 5855
+    },
+    {
+      "path": "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+      "sha256": "7c52771a4dad637c482f9b1f68586a98018064326a6dc07ecfa3c2776554f18f",
+      "bytes": 586
+    },
+    {
+      "path": "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+      "sha256": "7fde18136b9fc0e0bd09ac5d95de764f8c5c3811f58d98da73dda3b4bbc82ec9",
+      "bytes": 298
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.labels.json",
+      "sha256": "2c5403f3ec253a91c58e10d614ad5fa8e3cce9f7dd2f6c9e6218ed00a8d123dc",
+      "bytes": 6283
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+      "sha256": "76847db5bb2b40b6ca671a78af79e2b8f309ced2bc9511ee394224a73facec8a",
+      "bytes": 7364
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.labels.json",
+      "sha256": "66b2f78e06eb0c36fb21bcdaa18566f136c23605d4f9a0eac9ed82461f9ef1af",
+      "bytes": 6232
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.md",
+      "sha256": "854092cf6b03505dc002fa1dacd85049db0d9cad0cd6dfab6273500c84318f18",
+      "bytes": 7664
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.labels.json",
+      "sha256": "cebbc2aec8b1b841c9f77398a593e7a2b46189d8c6d945cc4899ae663afc5791",
+      "bytes": 6038
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+      "sha256": "49c32156b4ba1d0b8d3374d5dca9a36e7cee2dcbfbeb5c46230c6f8fc7ae27e2",
+      "bytes": 7623
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.labels.json",
+      "sha256": "1af3ee22318757c6f98a122b5947df871aec5e95bf9052dc8f090b18914f949e",
+      "bytes": 5824
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.md",
+      "sha256": "c803eb04285ff0992e9bd010a25b1824e45c8fcca23cb5bbdb986d9456b5a372",
+      "bytes": 7720
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.labels.json",
+      "sha256": "760cdb69d00691acc9b8aa5185884d832961277de11e8e19b8ea2a636331d1e5",
+      "bytes": 6032
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+      "sha256": "ae1b57d6a44530e0db0276513bf4cc5c02235b9b82a7c1adddc91b8ddd36e651",
+      "bytes": 7224
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.labels.json",
+      "sha256": "494517edca3cea3b56dd6cbedaab3de8fea62b4fbbbb426514521c9b812a3b8b",
+      "bytes": 5952
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
+      "sha256": "272ca3b7c37141199d44530d7ea37a1915554d6a73418939ff9f986e211dbcfe",
+      "bytes": 7228
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.labels.json",
+      "sha256": "112d6fe0603b86653188c83b3367ccea8619206c904b302bbf4dd6b3a80bc969",
+      "bytes": 5571
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+      "sha256": "9f8bf70b5680fb137fc1e9291566a61d1ab290fae13b529a6906694c8fed7c46",
+      "bytes": 7393
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.labels.json",
+      "sha256": "f15a471e0f266818aff3871c6b7e82d40e9b04a357fc0d366b4f3b4078ad7bee",
+      "bytes": 5626
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+      "sha256": "292c20d23e9033ca16e0bc662457da74440c3ebcec32b0a0b760c7fbb4d5d024",
+      "bytes": 6751
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.labels.json",
+      "sha256": "8e56075c696c411d35617554121fd9a22e0abc74e38628e422940f87913845ab",
+      "bytes": 6072
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+      "sha256": "2f4cf4da0e1effe56be7178d4d67f255373534752cda906a64ac1e64e1e5f59a",
+      "bytes": 7584
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.labels.json",
+      "sha256": "f9466fe5f9dc7cfa049b03537adbbe33e1373167426d0167cce6eb2f57b11d39",
+      "bytes": 6181
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.md",
+      "sha256": "479b50c40888e4507ce5dd619961448371188bafebbc77fad81f5444d4056766",
+      "bytes": 6913
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.labels.json",
+      "sha256": "b5fbc8c87e44d3fe5b0b2f49a97c6e75ce1a04dbda9aecc745d9e363b10c87e3",
+      "bytes": 5663
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+      "sha256": "e02f431095f907c83b6b045051058c0b9b592081808cab0dcd2ebc11af00f8c0",
+      "bytes": 7158
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.labels.json",
+      "sha256": "fafacd0bb340e8519335a312ebd3a4718068f584f49e20e1043e2cd04eb8d878",
+      "bytes": 5710
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.md",
+      "sha256": "7013ef3866765f7e55e18dc46a582eb3594f043e79333b4aa288fdb2037562c4",
+      "bytes": 6630
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.labels.json",
+      "sha256": "663fcc33da7fb1d4e855972d1562aa09ca7d5dd4a07b88cdaa86bf058353d379",
+      "bytes": 5908
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+      "sha256": "c7742f89eb3a00d092f893b43ea0aafa1c01b991464ad72104553f042a4dcde7",
+      "bytes": 7202
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.labels.json",
+      "sha256": "632a9f0bcc8503e48b7051fddcc471b9699d515fec4adfc3f70b3c4fbcfc856c",
+      "bytes": 6153
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.md",
+      "sha256": "3664ce04e83e5e4d5d438fe9e9799dab58a4dae2adbfb384b01f5fbbd6417c03",
+      "bytes": 7215
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.labels.json",
+      "sha256": "26cc2c4d4bcb8524519a964bbe47dde66be801ca89b1f7b0e61871087cbe8bce",
+      "bytes": 5768
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+      "sha256": "1283f7c303e294abe16f55dfb4ae95b4387c0a6e3cdba8bca9d6b160b2178e55",
+      "bytes": 7232
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.labels.json",
+      "sha256": "b93b4168de0195eda2ac39efbf45791de0f8fff986fa8134ff9058176715a897",
+      "bytes": 5759
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.md",
+      "sha256": "135556df6e40627743fac42eaeaa4b4d6afc7dbcebae6f4eb2554822eced5025",
+      "bytes": 7092
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.labels.json",
+      "sha256": "24e7656bec5ccb151f4c76431df4c57e996804416df863ec702873347d477ed2",
+      "bytes": 5506
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+      "sha256": "c9c3946220d9dc37af70128a4ba0fd17f71c4fcf3884b38fb3e99b9e1e3a52eb",
+      "bytes": 6739
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.labels.json",
+      "sha256": "63ad4dea121114f838e4a6676e770660e275588024044e66f5fb749b455b97a0",
+      "bytes": 6050
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+      "sha256": "0993d49b3367f6c38189c7f477a0395ec3c75146eb17342c13face9b09cbb5d1",
+      "bytes": 7064
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json",
+      "sha256": "c3d96242fd5703ddab58b55a6a426d2f4382cee488467a22fa4400c6ae241a85",
+      "bytes": 6156
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+      "sha256": "cc23bb08638cc17ebc2fd069a713793121557f61855b5b94c03a1b1552016cec",
+      "bytes": 7836
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.labels.json",
+      "sha256": "f310583988d1d98bf34d6fe96e26d35d1be76af1fe53e76810a49fd906d6f40c",
+      "bytes": 6219
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
+      "sha256": "4fb8495f4946c20196d55902f63038be0ba5fc6bb45b40553425f5a331795cbf",
+      "bytes": 7795
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json",
+      "sha256": "e9427381351a012a5086022338462b8ca12c41eebf843c5008f2832eb6fd2166",
+      "bytes": 6238
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+      "sha256": "eba49d35d46af50cfac9c8883533d138c6cf8cf04f3c4440c6bcd5f3a8bf0bdc",
+      "bytes": 7485
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.labels.json",
+      "sha256": "bd687be6b086868013f4c38dc6e0406423f782b826c5417ea01a4be407d2d186",
+      "bytes": 6234
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.md",
+      "sha256": "f9f2a23792f49b9977db97f17eac623eb6ce002f294670e16953c85216cb3337",
+      "bytes": 7610
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.labels.json",
+      "sha256": "d7f40ddfe500c4fd63ce6740e7eb41339d22cab394e9bbb9b057b6f5233f8953",
+      "bytes": 6332
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+      "sha256": "a73bfc6c9ac8866d00bea9e953c695f13a93a95b46c6f0ad8c7dc4b1894a7731",
+      "bytes": 7563
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.labels.json",
+      "sha256": "0236e6892c4c60b00353fb131659f501026296cfb3c2b931b0c85a4d240865e6",
+      "bytes": 6122
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.md",
+      "sha256": "03c721927180094fd4c19c452ceb072871e0b1816abe92ec67c2824423ab3a36",
+      "bytes": 6950
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.labels.json",
+      "sha256": "cae2a3bf0fa9a95c50f635694a6ed0c81a5be4d3b199746dfdae6f1ee9200ea6",
+      "bytes": 6602
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+      "sha256": "23bc6253bcaccc305d998109a9831462fc95a6ddca93007d8d0fc9b82f409de0",
+      "bytes": 7318
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.labels.json",
+      "sha256": "ebbbda91370aa27fe133c8e5f5d0ed2cfa89b64a848e3e6b3c3bea68b08cd8a3",
+      "bytes": 6893
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+      "sha256": "c53652cf38dfa08723e3914add44ee9c08e565700ce4c40ac97fe67999f1eee7",
+      "bytes": 7848
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.labels.json",
+      "sha256": "381bc81748b4ae63dc07f60105481f1f43a70cab68bc437309428f3e53096d06",
+      "bytes": 6231
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+      "sha256": "42a6b8ef6b975e9d41e6edc46105ffff150eada7e594ce78f1872ac4a9015bd3",
+      "bytes": 7258
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.labels.json",
+      "sha256": "9cffa17ef7a35d740f5cf7e6cfd1a95966192f554992b1ae72f764b93959b3f7",
+      "bytes": 6180
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.md",
+      "sha256": "f7b23c449a54babdddc279c91d9d8d1f1a7e336c7ee5d433a79d9ed3f838e010",
+      "bytes": 7094
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json",
+      "sha256": "08c0109327ccad5b51abb64496c1bcc56be59f2c31dd5c898c9a1e1f45ff6ad1",
+      "bytes": 5792
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+      "sha256": "060dbad31d586e53770f1ccad3b36a7f17a15425f6e0e81c6bfb22c7cc2ebb05",
+      "bytes": 7556
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.labels.json",
+      "sha256": "2779e8934ed83a3c0c2769e811184f7703d8817ae90ede72d2ed1ec3381405cf",
+      "bytes": 5927
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+      "sha256": "6be24c1c5926c93a799c4bf4e30d8291bc608b3e892cc570da7063d94718e2db",
+      "bytes": 6917
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.labels.json",
+      "sha256": "3c81e9ca8dba4372318aaa95d7af02db1b7a418f3692d3ab2db8395bf383188a",
+      "bytes": 6417
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+      "sha256": "bf3afbc60322dae3953c1e788e87b2215e668fa5de6e659265978300fe0056ba",
+      "bytes": 7750
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.labels.json",
+      "sha256": "18375d45034738cac51d7be5cb77a5b0bb31e54fa0c0135b0d127d52a682244e",
+      "bytes": 6623
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
+      "sha256": "0f3a4095b16024742e78ecdc2eaffef4a92deaf8dc3dddac856aebc999c56bac",
+      "bytes": 8082
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json",
+      "sha256": "fb0379c21a89788752ec0860b3bf5b869fca8a6c7c9a6ac216adf54f2678edb8",
+      "bytes": 6100
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+      "sha256": "17f1ad0bf71b31bfa6a819eca1b04c446476cf16513d864e55716cd8f19bed46",
+      "bytes": 7848
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.labels.json",
+      "sha256": "c4ffc41311171cdb9e8398d331cf08a928f6beadd79e116bf25232fbd1cb1c1c",
+      "bytes": 6291
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.md",
+      "sha256": "ecddb1f4c3087a7846451f7f97dd7735a5f0026aefe5cc602b2884394e7933dd",
+      "bytes": 7400
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.labels.json",
+      "sha256": "93c0973d907a655952160a347811a85414bcbbadfc24444fac75aacd19188bcc",
+      "bytes": 6064
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+      "sha256": "86715398a20a3b76c56ec76f4872c24181540647f5462d50fd764b906d43c276",
+      "bytes": 7314
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.labels.json",
+      "sha256": "0338a014a53dc00237f068fd8fed7a11f5fc302efdee1cb9e49d3bbe5a8b8aba",
+      "bytes": 6205
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
+      "sha256": "619a140827870a97065434be1b359dc2f6281e681a3510969871480d2cd5763c",
+      "bytes": 7551
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.labels.json",
+      "sha256": "f266b9c50325deb0ae1b11394e745e809063159f9bfb9abc6e3cdcf46a0301b7",
+      "bytes": 9859
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+      "sha256": "bd3945c6ed371316195525c99f47b389a5097bdd379e3e0e06029c08ab735428",
+      "bytes": 6843
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.labels.json",
+      "sha256": "62b121406d77e57d7f47d81cd5410f43e4440223faca62aaf383af831957e044",
+      "bytes": 10027
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+      "sha256": "8be6e8494e7d3a79fa543b3c7416e0d49c5147adc4c1274be28a46895e2919e7",
+      "bytes": 6940
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json",
+      "sha256": "8d14c6a1bdaded9e9d4a45ec71e4e50e27745de72e4a444e88cdd5aee93a5377",
+      "bytes": 10083
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+      "sha256": "747c161bae166409057889795099c707d973d3ec5f0606d0328b4246b53c620d",
+      "bytes": 6299
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.labels.json",
+      "sha256": "54f62c891a9dff2518364ab3a71a71cff53cc020262fc3d9d2783b3658886b51",
+      "bytes": 9782
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+      "sha256": "aca2317079f0b41d4a9762766b21b94d8fab9a2c8cd740e377168e39d02e703d",
+      "bytes": 6279
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.labels.json",
+      "sha256": "cb8a122131b120b84e4423b2cd8a1af43a4f47cd8605612b9be01102fc05c2b0",
+      "bytes": 10740
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+      "sha256": "5b49c688322d5afedc77c306eb132c3962ab167e476935f6b250127c463043ad",
+      "bytes": 6511
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.labels.json",
+      "sha256": "aa0d1a22d1399298c1b9f9350013f33a7d2b3b871d47cb2f9022ee4f1d4cf060",
+      "bytes": 10770
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+      "sha256": "904eb333b849a25f68c27c3382d251348a8ddf4ba43a480cc14e72eb537a3ab2",
+      "bytes": 6676
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.labels.json",
+      "sha256": "f33f68e8dd16257fa7e1d6596c20919250875330afa8fcd65967b0e0fa8acb8c",
+      "bytes": 10486
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+      "sha256": "61e26391cf88cca85f82d78e67e3c575d1da0974db6770e3893cd94adfd10a44",
+      "bytes": 6685
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.labels.json",
+      "sha256": "f3a9e0faa7deca27a73d69e2cf8e726dc7104069bc5b760e963fd13192b0ab86",
+      "bytes": 10497
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.md",
+      "sha256": "d6bc115ba26ec60917acd0b7bb4e8f658bdab8a221152b2a0dd9fbca8c44144c",
+      "bytes": 6585
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.labels.json",
+      "sha256": "dc909958b53613514669e1e7d37735005aa9b8705e8d947e792f1a440a8be6aa",
+      "bytes": 11027
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+      "sha256": "c4c1d1b192d1c814c54ee820d470681d0d581180c468da1b400cfa15732e9709",
+      "bytes": 6485
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.labels.json",
+      "sha256": "e2de954f0f0f05e1725f0ea7eec008d00725b81d2b419c2bd16f869ba7acda11",
+      "bytes": 10756
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+      "sha256": "29aa224b06b262644efa23592c6053e955b51e7ebd7e1fe6f02f1dee7e8540a4",
+      "bytes": 7212
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.labels.json",
+      "sha256": "acbf44dfeeb7746dfe837e6a27dcf53a2cb10864d46023817d4692f601deab8b",
+      "bytes": 10458
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+      "sha256": "17b5a6fb86a6433baa03936d6b1fa0b3fbbed8a9f5f36e64c770b1a02a2ad2fc",
+      "bytes": 5869
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.labels.json",
+      "sha256": "c8be5b863ab85f970a52766342b00c3e53279bc24354188d28698a70dc244527",
+      "bytes": 10501
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+      "sha256": "34593aa350f957fc25f4a1b61ffc90503bebd0b42185b3ee2b805765a4217543",
+      "bytes": 6359
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.labels.json",
+      "sha256": "25a6c5ab34120343c44d1418b746fc92910f5a62de469add7eb0fcd9968650ad",
+      "bytes": 11142
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+      "sha256": "c0fa842056d0cf7bbfc1755c0dc59e6b191ed290adda11ae37a90983d454f948",
+      "bytes": 6988
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.labels.json",
+      "sha256": "559301a4002d6cd7ec95c8eb3272815a63102da284a7ad2c4b6201ba292b14b5",
+      "bytes": 11315
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+      "sha256": "4f8b8d72a8d5036b7f0914e18eb0eed4bfd7c156ffc1735e2a07bad71617b087",
+      "bytes": 6849
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+      "sha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3",
+      "bytes": 4112
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+      "sha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+      "bytes": 7648
+    },
+    {
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-data-review.json",
+      "sha256": "94ebe33f16c048ce29f90e55b24784a12546b3ea70f80de4460ddcec2389069c",
+      "bytes": 189655
+    }
+  ],
+  "instructionsReceived": "Global/root AGENTS instructions supplied in the conversation; no instruction files read from disk.",
+  "runtimeDependencies": "Node runtime and installed Ajv loaded by the public reader.",
+  "datasetEdits": 0
+}

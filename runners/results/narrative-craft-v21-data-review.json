@@ -1,6 +1,6 @@
 {
   "family": "narrative-craft",
-  "phase": "original-pilots",
+  "phase": "candidate-pools-in-progress",
   "holdoutInference": false,
   "collections": [
     {
@@ -79,6 +79,22 @@
         "textSha256": "76847db5bb2b40b6ca671a78af79e2b8f309ced2bc9511ee394224a73facec8a",
         "sourceSha256": "f6fc6f8142a4b5341a4d8c082e5979dad9a6b067fa4c9f902bc8222caaf2d0bb",
         "words": 1230
+      },
+      "candidatePool": {
+        "id": "000079",
+        "split": "development",
+        "stage": "pool-original",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/abstract-personification-line": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "3df3db67fa469a30fdfea2baa70624f12ba990945c2c6591369024f1633809a3",
+        "sourceSha256": "9c12b79f6a03cd6236442b6487cfd9882704d166f93d56f3b3b03b5860b4e58c",
+        "words": 12055,
+        "status": "original-pool-awaiting-full-review"
       }
     },
     {
@@ -157,6 +173,22 @@
         "textSha256": "854092cf6b03505dc002fa1dacd85049db0d9cad0cd6dfab6273500c84318f18",
         "sourceSha256": "2bc7a0370f50704a322e1655a7ed2601d12bb260ea990792eb674c6f7d8cb5f4",
         "words": 1265
+      },
+      "candidatePool": {
+        "id": "000080",
+        "split": "holdout",
+        "stage": "pool-original",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/abstract-personification-line": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "b784b45b675d1f56a9ada49544a8761906208e59139e1cdff60baaeb9a151afc",
+        "sourceSha256": "f5a1fb7184ff6539fdce533fb9709be03f2ee80b9fb84964d5bbdf88359bc8f9",
+        "words": 12461,
+        "status": "original-pool-awaiting-full-review"
       }
     },
     {
@@ -235,6 +267,22 @@
         "textSha256": "49c32156b4ba1d0b8d3374d5dca9a36e7cee2dcbfbeb5c46230c6f8fc7ae27e2",
         "sourceSha256": "81cb117a3da8f44b37e534b5aea35ebfef3dbd394a318500a9c11a426b27390c",
         "words": 1241
+      },
+      "candidatePool": {
+        "id": "000081",
+        "split": "development",
+        "stage": "pool-original",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/body-action-density": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "97b6dc3deaea5de5285120956e7e8ec1b75879e3d03ff2d29df05473bbe91ee8",
+        "sourceSha256": "d506fbfb683e3c76010e84ea0fe65b029ec3c48b2131bf4b8d24f8632e6aa2d5",
+        "words": 13779,
+        "status": "original-pool-awaiting-full-review"
       }
     },
     {
@@ -313,6 +361,22 @@
         "textSha256": "c803eb04285ff0992e9bd010a25b1824e45c8fcca23cb5bbdb986d9456b5a372",
         "sourceSha256": "824554a176d28028d754f295cf590a114dfb94b4befa10c01baa59079be415b3",
         "words": 1274
+      },
+      "candidatePool": {
+        "id": "000082",
+        "split": "holdout",
+        "stage": "pool-original",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/body-action-density": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "03015ffdf9ce02a3797e531f1a9bbe0c4bdb9878da2f2b62f24f82191b5d41e4",
+        "sourceSha256": "8f70419a00f066b7042a60f78de75bc2311056476b8d79eefaa5b0ddb8efd3e6",
+        "words": 12834,
+        "status": "original-pool-awaiting-full-review"
       }
     },
     {
@@ -625,6 +689,22 @@
         "textSha256": "292c20d23e9033ca16e0bc662457da74440c3ebcec32b0a0b760c7fbb4d5d024",
         "sourceSha256": "b943948beb7a8ec2cd64e41ac407bab1e4d101adc0f4c329bccedbb4fd0dd725",
         "words": 1120
+      },
+      "candidatePool": {
+        "id": "000086",
+        "split": "holdout",
+        "stage": "pool-original",
+        "passages": 240,
+        "counts": {
+          "narrative-craft/emotion-telling": [
+            120,
+            120
+          ]
+        },
+        "textSha256": "f54e1e159afd024bdefc0c5a0e7559798f506cac7afaf594277da86dcc532555",
+        "sourceSha256": "c698a8c61e6f5a49f3e491f0f6c12224d5e010730829e1b0541ce81be96efe79",
+        "words": 12109,
+        "status": "original-pool-awaiting-full-review"
       }
     },
     {
@@ -4239,5 +4319,272 @@
         "words": 1115
       }
     }
-  ]
+  ],
+  "originalPilotArchiveCommit": "4b2e124b",
+  "originalPilotPackagingAudit": "runners/results/narrative-craft-v21-pilot-packaging-audit.json",
+  "originalPilotCopyScreen": {
+    "sourceCommit": "4b2e124b",
+    "verifierSha256": "2b646acaa04063a583be1d797a39687424621d0509ab566ca3e91c34cc965702",
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+        "sha256": "76847db5bb2b40b6ca671a78af79e2b8f309ced2bc9511ee394224a73facec8a",
+        "labelsSha256": "2c5403f3ec253a91c58e10d614ad5fa8e3cce9f7dd2f6c9e6218ed00a8d123dc"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.md",
+        "sha256": "854092cf6b03505dc002fa1dacd85049db0d9cad0cd6dfab6273500c84318f18",
+        "labelsSha256": "66b2f78e06eb0c36fb21bcdaa18566f136c23605d4f9a0eac9ed82461f9ef1af"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sha256": "49c32156b4ba1d0b8d3374d5dca9a36e7cee2dcbfbeb5c46230c6f8fc7ae27e2",
+        "labelsSha256": "cebbc2aec8b1b841c9f77398a593e7a2b46189d8c6d945cc4899ae663afc5791"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.md",
+        "sha256": "c803eb04285ff0992e9bd010a25b1824e45c8fcca23cb5bbdb986d9456b5a372",
+        "labelsSha256": "1af3ee22318757c6f98a122b5947df871aec5e95bf9052dc8f090b18914f949e"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+        "sha256": "ae1b57d6a44530e0db0276513bf4cc5c02235b9b82a7c1adddc91b8ddd36e651",
+        "labelsSha256": "760cdb69d00691acc9b8aa5185884d832961277de11e8e19b8ea2a636331d1e5"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
+        "sha256": "272ca3b7c37141199d44530d7ea37a1915554d6a73418939ff9f986e211dbcfe",
+        "labelsSha256": "494517edca3cea3b56dd6cbedaab3de8fea62b4fbbbb426514521c9b812a3b8b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+        "sha256": "9f8bf70b5680fb137fc1e9291566a61d1ab290fae13b529a6906694c8fed7c46",
+        "labelsSha256": "112d6fe0603b86653188c83b3367ccea8619206c904b302bbf4dd6b3a80bc969"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+        "sha256": "292c20d23e9033ca16e0bc662457da74440c3ebcec32b0a0b760c7fbb4d5d024",
+        "labelsSha256": "f15a471e0f266818aff3871c6b7e82d40e9b04a357fc0d366b4f3b4078ad7bee"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+        "sha256": "2f4cf4da0e1effe56be7178d4d67f255373534752cda906a64ac1e64e1e5f59a",
+        "labelsSha256": "8e56075c696c411d35617554121fd9a22e0abc74e38628e422940f87913845ab"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.md",
+        "sha256": "479b50c40888e4507ce5dd619961448371188bafebbc77fad81f5444d4056766",
+        "labelsSha256": "f9466fe5f9dc7cfa049b03537adbbe33e1373167426d0167cce6eb2f57b11d39"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sha256": "e02f431095f907c83b6b045051058c0b9b592081808cab0dcd2ebc11af00f8c0",
+        "labelsSha256": "b5fbc8c87e44d3fe5b0b2f49a97c6e75ce1a04dbda9aecc745d9e363b10c87e3"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.md",
+        "sha256": "7013ef3866765f7e55e18dc46a582eb3594f043e79333b4aa288fdb2037562c4",
+        "labelsSha256": "fafacd0bb340e8519335a312ebd3a4718068f584f49e20e1043e2cd04eb8d878"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+        "sha256": "c7742f89eb3a00d092f893b43ea0aafa1c01b991464ad72104553f042a4dcde7",
+        "labelsSha256": "663fcc33da7fb1d4e855972d1562aa09ca7d5dd4a07b88cdaa86bf058353d379"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.md",
+        "sha256": "3664ce04e83e5e4d5d438fe9e9799dab58a4dae2adbfb384b01f5fbbd6417c03",
+        "labelsSha256": "632a9f0bcc8503e48b7051fddcc471b9699d515fec4adfc3f70b3c4fbcfc856c"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+        "sha256": "1283f7c303e294abe16f55dfb4ae95b4387c0a6e3cdba8bca9d6b160b2178e55",
+        "labelsSha256": "26cc2c4d4bcb8524519a964bbe47dde66be801ca89b1f7b0e61871087cbe8bce"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.md",
+        "sha256": "135556df6e40627743fac42eaeaa4b4d6afc7dbcebae6f4eb2554822eced5025",
+        "labelsSha256": "b93b4168de0195eda2ac39efbf45791de0f8fff986fa8134ff9058176715a897"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+        "sha256": "c9c3946220d9dc37af70128a4ba0fd17f71c4fcf3884b38fb3e99b9e1e3a52eb",
+        "labelsSha256": "24e7656bec5ccb151f4c76431df4c57e996804416df863ec702873347d477ed2"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+        "sha256": "0993d49b3367f6c38189c7f477a0395ec3c75146eb17342c13face9b09cbb5d1",
+        "labelsSha256": "63ad4dea121114f838e4a6676e770660e275588024044e66f5fb749b455b97a0"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+        "sha256": "cc23bb08638cc17ebc2fd069a713793121557f61855b5b94c03a1b1552016cec",
+        "labelsSha256": "c3d96242fd5703ddab58b55a6a426d2f4382cee488467a22fa4400c6ae241a85"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
+        "sha256": "4fb8495f4946c20196d55902f63038be0ba5fc6bb45b40553425f5a331795cbf",
+        "labelsSha256": "f310583988d1d98bf34d6fe96e26d35d1be76af1fe53e76810a49fd906d6f40c"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+        "sha256": "eba49d35d46af50cfac9c8883533d138c6cf8cf04f3c4440c6bcd5f3a8bf0bdc",
+        "labelsSha256": "e9427381351a012a5086022338462b8ca12c41eebf843c5008f2832eb6fd2166"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.md",
+        "sha256": "f9f2a23792f49b9977db97f17eac623eb6ce002f294670e16953c85216cb3337",
+        "labelsSha256": "bd687be6b086868013f4c38dc6e0406423f782b826c5417ea01a4be407d2d186"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+        "sha256": "a73bfc6c9ac8866d00bea9e953c695f13a93a95b46c6f0ad8c7dc4b1894a7731",
+        "labelsSha256": "d7f40ddfe500c4fd63ce6740e7eb41339d22cab394e9bbb9b057b6f5233f8953"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.md",
+        "sha256": "03c721927180094fd4c19c452ceb072871e0b1816abe92ec67c2824423ab3a36",
+        "labelsSha256": "0236e6892c4c60b00353fb131659f501026296cfb3c2b931b0c85a4d240865e6"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+        "sha256": "23bc6253bcaccc305d998109a9831462fc95a6ddca93007d8d0fc9b82f409de0",
+        "labelsSha256": "cae2a3bf0fa9a95c50f635694a6ed0c81a5be4d3b199746dfdae6f1ee9200ea6"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+        "sha256": "c53652cf38dfa08723e3914add44ee9c08e565700ce4c40ac97fe67999f1eee7",
+        "labelsSha256": "ebbbda91370aa27fe133c8e5f5d0ed2cfa89b64a848e3e6b3c3bea68b08cd8a3"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sha256": "42a6b8ef6b975e9d41e6edc46105ffff150eada7e594ce78f1872ac4a9015bd3",
+        "labelsSha256": "381bc81748b4ae63dc07f60105481f1f43a70cab68bc437309428f3e53096d06"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.md",
+        "sha256": "f7b23c449a54babdddc279c91d9d8d1f1a7e336c7ee5d433a79d9ed3f838e010",
+        "labelsSha256": "9cffa17ef7a35d740f5cf7e6cfd1a95966192f554992b1ae72f764b93959b3f7"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+        "sha256": "060dbad31d586e53770f1ccad3b36a7f17a15425f6e0e81c6bfb22c7cc2ebb05",
+        "labelsSha256": "08c0109327ccad5b51abb64496c1bcc56be59f2c31dd5c898c9a1e1f45ff6ad1"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+        "sha256": "6be24c1c5926c93a799c4bf4e30d8291bc608b3e892cc570da7063d94718e2db",
+        "labelsSha256": "2779e8934ed83a3c0c2769e811184f7703d8817ae90ede72d2ed1ec3381405cf"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+        "sha256": "bf3afbc60322dae3953c1e788e87b2215e668fa5de6e659265978300fe0056ba",
+        "labelsSha256": "3c81e9ca8dba4372318aaa95d7af02db1b7a418f3692d3ab2db8395bf383188a"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
+        "sha256": "0f3a4095b16024742e78ecdc2eaffef4a92deaf8dc3dddac856aebc999c56bac",
+        "labelsSha256": "18375d45034738cac51d7be5cb77a5b0bb31e54fa0c0135b0d127d52a682244e"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+        "sha256": "17f1ad0bf71b31bfa6a819eca1b04c446476cf16513d864e55716cd8f19bed46",
+        "labelsSha256": "fb0379c21a89788752ec0860b3bf5b869fca8a6c7c9a6ac216adf54f2678edb8"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.md",
+        "sha256": "ecddb1f4c3087a7846451f7f97dd7735a5f0026aefe5cc602b2884394e7933dd",
+        "labelsSha256": "c4ffc41311171cdb9e8398d331cf08a928f6beadd79e116bf25232fbd1cb1c1c"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+        "sha256": "86715398a20a3b76c56ec76f4872c24181540647f5462d50fd764b906d43c276",
+        "labelsSha256": "93c0973d907a655952160a347811a85414bcbbadfc24444fac75aacd19188bcc"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
+        "sha256": "619a140827870a97065434be1b359dc2f6281e681a3510969871480d2cd5763c",
+        "labelsSha256": "0338a014a53dc00237f068fd8fed7a11f5fc302efdee1cb9e49d3bbe5a8b8aba"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+        "sha256": "bd3945c6ed371316195525c99f47b389a5097bdd379e3e0e06029c08ab735428",
+        "labelsSha256": "f266b9c50325deb0ae1b11394e745e809063159f9bfb9abc6e3cdcf46a0301b7"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+        "sha256": "8be6e8494e7d3a79fa543b3c7416e0d49c5147adc4c1274be28a46895e2919e7",
+        "labelsSha256": "62b121406d77e57d7f47d81cd5410f43e4440223faca62aaf383af831957e044"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+        "sha256": "747c161bae166409057889795099c707d973d3ec5f0606d0328b4246b53c620d",
+        "labelsSha256": "8d14c6a1bdaded9e9d4a45ec71e4e50e27745de72e4a444e88cdd5aee93a5377"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+        "sha256": "aca2317079f0b41d4a9762766b21b94d8fab9a2c8cd740e377168e39d02e703d",
+        "labelsSha256": "54f62c891a9dff2518364ab3a71a71cff53cc020262fc3d9d2783b3658886b51"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+        "sha256": "5b49c688322d5afedc77c306eb132c3962ab167e476935f6b250127c463043ad",
+        "labelsSha256": "cb8a122131b120b84e4423b2cd8a1af43a4f47cd8605612b9be01102fc05c2b0"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+        "sha256": "904eb333b849a25f68c27c3382d251348a8ddf4ba43a480cc14e72eb537a3ab2",
+        "labelsSha256": "aa0d1a22d1399298c1b9f9350013f33a7d2b3b871d47cb2f9022ee4f1d4cf060"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+        "sha256": "61e26391cf88cca85f82d78e67e3c575d1da0974db6770e3893cd94adfd10a44",
+        "labelsSha256": "f33f68e8dd16257fa7e1d6596c20919250875330afa8fcd65967b0e0fa8acb8c"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.md",
+        "sha256": "d6bc115ba26ec60917acd0b7bb4e8f658bdab8a221152b2a0dd9fbca8c44144c",
+        "labelsSha256": "f3a9e0faa7deca27a73d69e2cf8e726dc7104069bc5b760e963fd13192b0ab86"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "sha256": "c4c1d1b192d1c814c54ee820d470681d0d581180c468da1b400cfa15732e9709",
+        "labelsSha256": "dc909958b53613514669e1e7d37735005aa9b8705e8d947e792f1a440a8be6aa"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+        "sha256": "29aa224b06b262644efa23592c6053e955b51e7ebd7e1fe6f02f1dee7e8540a4",
+        "labelsSha256": "e2de954f0f0f05e1725f0ea7eec008d00725b81d2b419c2bd16f869ba7acda11"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+        "sha256": "17b5a6fb86a6433baa03936d6b1fa0b3fbbed8a9f5f36e64c770b1a02a2ad2fc",
+        "labelsSha256": "acbf44dfeeb7746dfe837e6a27dcf53a2cb10864d46023817d4692f601deab8b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+        "sha256": "34593aa350f957fc25f4a1b61ffc90503bebd0b42185b3ee2b805765a4217543",
+        "labelsSha256": "c8be5b863ab85f970a52766342b00c3e53279bc24354188d28698a70dc244527"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+        "sha256": "c0fa842056d0cf7bbfc1755c0dc59e6b191ed290adda11ae37a90983d454f948",
+        "labelsSha256": "25a6c5ab34120343c44d1418b746fc92910f5a62de469add7eb0fcd9968650ad"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+        "sha256": "4f8b8d72a8d5036b7f0914e18eb0eed4bfd7c156ffc1735e2a07bad71617b087",
+        "labelsSha256": "559301a4002d6cd7ec95c8eb3272815a63102da284a7ad2c4b6201ba292b14b5"
+      }
+    ],
+    "priorSourcesSha256": "0c70ab094d81093eebc915876537eb15c1e71cc3115967c61273db3efd96af3d",
+    "priorDocuments": 15723,
+    "legacyFiles": 39,
+    "newInputs": 944,
+    "referenceInputs": 318107,
+    "pairs": 300738104,
+    "shortComparisons": 0,
+    "candidates": []
+  }
 }
