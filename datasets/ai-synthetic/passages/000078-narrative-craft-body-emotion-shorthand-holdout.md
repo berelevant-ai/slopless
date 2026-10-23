@@ -550,7 +550,7 @@ At 6:15 the bakery owner told us the landlord had accepted our offer. My knees t
 
 ## 000078-ca5209345f98
 
-A laugh escaped from the back row during the minute's silence. The chairman stopped speaking and looked straight at me. I pointed to the little boy under the next chair, whose grandfather was trying to retrieve a toy bus from his mouth. The chairman resumed, and the boy was carried outside.
+A laugh escaped from the back row just after the minute's silence, as the chairman began his address. He stopped speaking and looked straight at me. I pointed to the little boy under the next chair, whose grandfather was trying to retrieve a toy bus from his mouth. The chairman resumed, and the boy was carried outside.
 
 ## 000078-0ead5766a182
 
@@ -682,7 +682,7 @@ A new name was scratched beneath his on the allotment waiting list. It was his s
 
 ## 000078-0a36c788b206
 
-Anger made me grip the microphone hard enough to cover its switch. When the chairman asked why I wasn't speaking, the technician pointed at my hand. I released it and began again, this time setting the microphone in its stand so everyone could hear my objection to the amended minutes.
+Anger made me grip the microphone hard enough to hold down its mute button. When the chairman asked why I wasn't speaking, the technician pointed at my hand. I released it and began again, this time setting the microphone in its stand so everyone could hear my objection to the amended minutes.
 
 ## 000078-056705cea5e5
 
@@ -694,7 +694,7 @@ Dad had labelled every fuse in the cupboard, including one marked HANNAH'S ROOM.
 
 ## 000078-45d4dae7bb27
 
-At the sound of the old station jingle, Grandad's eyes filled and his crossword blurred. He handed me the pencil and dictated the remaining answers instead. The programme had played on the ferry where he met Gran, he said. I turned up the radio and wrote LIGHTHOUSE into the last eight squares.
+At the sound of the old station jingle, Grandad's eyes filled and his crossword blurred. He handed me the pencil and dictated the remaining answers instead. The programme had played on the ferry where he met Gran, he said. I turned up the radio and wrote LIGHTHOUSE into the last ten squares.
 
 ## 000078-00ae108ac8a3
 
@@ -818,7 +818,7 @@ A clerk returned the adoption file with one page marked for release. On it was t
 
 ## 000078-d5c79e32283e
 
-I bit back a laugh when the mayor's hat slid over one eye, but the air still came out through my nose. He heard it in the silence and handed me the scissors instead of continuing his speech. We cut the ribbon together, which is why I appear in the official photograph holding half a hat.
+I bit back a laugh when the mayor's hat slid over one eye, but the air still came out through my nose. He heard it in the silence and handed me the scissors instead of continuing his speech. We cut the ribbon together, which is why I appear in the official photograph holding half the ribbon.
 
 ## 000078-a966101e92ee
 

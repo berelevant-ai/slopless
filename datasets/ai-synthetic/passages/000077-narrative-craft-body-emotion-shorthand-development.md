@@ -308,7 +308,7 @@ Her brother's imitation made her laugh until her stomach hurt. She tried to give
 
 ## 000077-7d94f5ef93ac
 
-The nameplate weighed against his thigh like a block of lead. Director of Operations: they had screwed it to the door that morning, before the call about the warehouse accident. He had taken it down himself. Now he waited outside the meeting room while the safety officer finished speaking to the shift leaders.
+The thin plastic nameplate felt like a block of lead in his hand. Director of Operations: they had screwed it to the door that morning, before the call about the warehouse accident. He had taken it down himself. Now he waited outside the meeting room while the safety officer finished speaking to the shift leaders.
 
 ## 000077-942f1545428c
 
@@ -704,7 +704,7 @@ There were four seats left on the evacuation transport. The clerk called our sur
 
 ## 000077-1e1de1180230
 
-I was so pleased to hear him say my name that I laughed into the hearing-test microphone. The audiologist stopped the playback: my own sound had covered the next word. She explained which button to use, and we began the list again. This time I saved my congratulations until he had taken the headphones off.
+My father was recording the dedication to his memoir. I was so pleased to hear him say my name that I laughed while his microphone was live. The sound covered the end of his sentence on the recording. The engineer stopped the take, and I moved behind the glass before he tried again.
 
 ## 000077-58c7cef160f1
 
@@ -744,7 +744,7 @@ I found the ring in a bowl of spare buttons while helping June empty the sewing 
 
 ## 000077-9fcfb4ffa365
 
-My face heated when I realized the customer was my former head teacher. She saw me recognizing her and stopped explaining how the self-service till worked. We talked about her retirement while I cleared the error. Before she left, she asked whether I still drew, and I showed her the small comic I kept behind the counter.
+My face heated when I realized the customer was my former head teacher. 'Still going red when you see me?' she asked, and stopped explaining how the self-service till worked. We talked about her retirement while I cleared the error. Before she left, she asked whether I still drew, and I showed her the small comic I kept behind the counter.
 
 ## 000077-8cf7d001c36b
 

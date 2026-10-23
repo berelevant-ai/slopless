@@ -1,6 +1,6 @@
 {
   "family": "narrative-craft",
-  "status": "All authored candidates preserved before reconciliation: full blind and adversarial reviews complete; final review and balanced selection pending.",
+  "status": "All 240 candidates reconciled and final-reviewed before balanced selection. Original author pool is preserved at 2f5af44d; reviewed pool is being archived.",
   "holdoutInference": false,
   "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
   "collections": [
@@ -9,7 +9,7 @@
       "split": "holdout",
       "stem": "000078-narrative-craft-body-emotion-shorthand-holdout",
       "authorAgent": "01a16a2a-b9b3-75f2-b7e3-44a3f1cce865",
-      "status": "authored-pool-before-reconciliation",
+      "status": "reviewed-pool-before-selection",
       "pilot": {
         "passages": 20,
         "hits": 10,
@@ -200,6 +200,180 @@
           "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
           "reviewed": 240
         }
+      },
+      "originalArchive": {
+        "commit": "2f5af44d",
+        "passages": 240,
+        "hits": 120,
+        "noHits": 120
+      },
+      "reconciliation": {
+        "labelCorrections": 1,
+        "rewrittenPassages": 4,
+        "adjudications": [
+          {
+            "id": "p136",
+            "kind": "quality",
+            "accepted": true,
+            "note": "The chairman cannot stop and resume speaking within the stated silence. The audible laugh still communicates to him and remains a no-hit.",
+            "operation": "Propose the replacement placing the laugh immediately after the silence while the chairman begins speaking; retain the original and its false judgment."
+          },
+          {
+            "id": "p164",
+            "kind": "quality",
+            "accepted": false,
+            "note": "Both passages use headset pressure to reveal an audible pulse, but each supplies a coherent physical observation. Within-holdout mechanism overlap supports preserving both reviewed cases.",
+            "operation": "Preserve both original passages and their false judgments; retain both IDs for selection."
+          },
+          {
+            "id": "p169",
+            "kind": "quality",
+            "accepted": true,
+            "note": "Covering a switch leaves the loss of sound unexplained; depressing a mute button gives the grip an ordinary physical effect.",
+            "operation": "Propose replacing 'cover its switch' with 'hold down its mute button'; preserve the remaining text and the false judgment."
+          },
+          {
+            "id": "p172",
+            "kind": "quality",
+            "accepted": true,
+            "note": "LIGHTHOUSE contains ten letters. The tears' interference with reading remains identifiable physical information.",
+            "operation": "Propose replacing 'eight squares' with 'ten squares'; preserve the remaining text and the false judgment."
+          },
+          {
+            "id": "p181",
+            "kind": "quality",
+            "accepted": false,
+            "note": "The manager explains Farah's position after the service error; the text attributes his explanation to no observation of her nostrils. Mere sequence supplies no connection under the fixed definition.",
+            "operation": "Preserve the complete original passage and its true judgment as a reviewed hard case; retain its ID for selection."
+          },
+          {
+            "id": "p203",
+            "kind": "quality",
+            "accepted": true,
+            "note": "The scissors and joint ribbon-cutting explain possession of a cut ribbon. The hat fragment lacks a corresponding event; the audible laugh already has a consequential listener.",
+            "operation": "Propose replacing 'half a hat' with 'half the ribbon'; preserve the remaining text and the false judgment."
+          },
+          {
+            "id": "p223",
+            "kind": "classification",
+            "accepted": true,
+            "note": "The grammatical subject is the named emotion, pleasure, curling toward the toes. The fixed definition assigns an abstract emotion moving as a substance to the neighboring check.",
+            "operation": "Set this check's expected value to false and omit snippets in final judgments; preserve the original text and all input files."
+          }
+        ]
+      },
+      "finalReview": {
+        "reviewed": 240,
+        "resultSha256": "9dd758a0b4ba7f6d88af5e3356efebc78918e5ff3c7c0aa16a986f3c4bb27ee3",
+        "scope": {
+          "role": "Sole fresh final full-text reviewer and protected adjudicator. Read all 240 original texts against the fixed definition before adjudication; preserve all reviewed IDs and hard cases for selection. Replacement proposals await fresh independent repair review. No delegation, balancing, classifier calls, provider calls, network, Python or Git.",
+          "split": "holdout",
+          "filesRead": [
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+            "/tmp/slopless-narrative-v21/holdout/pool.json",
+            "/tmp/slopless-narrative-v21/holdout/full-blind.json",
+            "/tmp/slopless-narrative-v21/holdout/adversarial/judgments.json",
+            "/tmp/slopless-narrative-v21/holdout/adversarial/issues.json",
+            "/tmp/slopless-narrative-v21/holdout/adversarial/scope.json",
+            "/tmp/slopless-narrative-v21/holdout/final/judgments.json",
+            "/tmp/slopless-narrative-v21/holdout/final/adjudications.json",
+            "/tmp/slopless-narrative-v21/holdout/final/replacements.json",
+            "/tmp/slopless-narrative-v21/holdout/final/scope.json"
+          ],
+          "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+          "reviewed": 240
+        },
+        "approved": true,
+        "currentVersionReviewed": true
+      },
+      "replacementReviews": {
+        "passages": 4,
+        "blind": {
+          "resultSha256": "7c3b7d2b58e40e0573200e20ef62e76c7826c510fbb2558d3335b9d813abe98a",
+          "scope": {
+            "role": "blind replacement passage reviewer",
+            "split": "holdout",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/AGENTS.md",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/holdout/repairs-blind.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-blind/judgments.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-blind/quality.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-blind/scope.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "reviewed": 4
+          }
+        },
+        "adversarial": {
+          "resultSha256": "7c3b7d2b58e40e0573200e20ef62e76c7826c510fbb2558d3335b9d813abe98a",
+          "scope": {
+            "role": "Sole focused adversarial reviewer of all four complete proposed rewrites against the frozen definition and internal realism. Continuation of the prior full-holdout review with its permitted exposure retained; filesRead lists this pass's reads. Judgments independently assessed; no delegation or input edits.",
+            "split": "holdout",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/holdout/repairs.json",
+              "/tmp/slopless-narrative-v21/holdout/final/adjudications.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-adversarial/judgments.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-adversarial/issues.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-adversarial/scope.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "reviewed": 4
+          }
+        },
+        "final": {
+          "resultSha256": "7c3b7d2b58e40e0573200e20ef62e76c7826c510fbb2558d3335b9d813abe98a",
+          "scope": {
+            "filesRead": [
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/holdout/repairs.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-blind/judgments.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-blind/quality.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-adversarial/judgments.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-adversarial/issues.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-final/judgments.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-final/issues.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-final/scope.json",
+              "/tmp/slopless-narrative-v21/holdout/repair-final/summary.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "reviewed": 4
+          },
+          "summary": {
+            "approved": true,
+            "reviewed": 4,
+            "hits": 0,
+            "noHits": 4,
+            "classificationDisagreements": 0,
+            "qualityProblems": 0
+          }
+        }
+      },
+      "reviewedPool": {
+        "passages": 240,
+        "hits": 119,
+        "noHits": 121,
+        "words": 13244,
+        "textSha256": "eaaff50057b6d074bb78efeed644b6c6c9aabed6f9b93f205cb92f458c335cf6",
+        "labelsSha256": "8db9b9ba7148d066faf2021734e2ce88fc8b947e2b6f3922a57edc4300d83ac1"
       }
     }
   ],
@@ -222,5 +396,15 @@
     "candidates": 0,
     "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
     "verifierSha256": "ce444aa7b1e588a0a40b96cb335b1a7d368a61b6e76b4ffc152e9ae9fe6e250f"
+  },
+  "reviewedPoolOverlap": {
+    "newInputs": 480,
+    "priorDocuments": 15721,
+    "legacyFiles": 39,
+    "referenceInputs": 317502,
+    "pairs": 152515920,
+    "candidates": 0,
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "verifierSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312"
   }
 }

@@ -1,7 +1,7 @@
 {
   "family": "narrative-craft",
   "plannedPromptVersion": "v21",
-  "status": "All authored candidates preserved before reconciliation: full blind and adversarial reviews complete; final review and balanced selection pending.",
+  "status": "All 240 candidates reconciled and final-reviewed before balanced selection. Original author pool is preserved at 2f5af44d; reviewed pool is being archived.",
   "holdoutInference": false,
   "definition": {
     "check": "body-emotion-shorthand",
@@ -98,7 +98,7 @@
       "split": "development",
       "stem": "000077-narrative-craft-body-emotion-shorthand-development",
       "authorAgent": "01a16a2a-b96c-7dd2-9d8d-a75f8f73a52f",
-      "status": "authored-pool-before-reconciliation",
+      "status": "reviewed-pool-before-selection",
       "pilot": {
         "passages": 20,
         "hits": 10,
@@ -290,6 +290,143 @@
           "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
           "reviewed": 240
         }
+      },
+      "originalArchive": {
+        "commit": "2f5af44d",
+        "passages": 240,
+        "hits": 120,
+        "noHits": 120
+      },
+      "reconciliation": {
+        "labelCorrections": 2,
+        "rewrittenPassages": 3,
+        "adjudications": [
+          {
+            "id": "p075",
+            "kind": "quality",
+            "accepted": true,
+            "note": "Clarify the emotional burden of a light plastic object; preserve the hit.",
+            "operation": "Rewrite the opening and snippet."
+          },
+          {
+            "id": "p130",
+            "kind": "classification",
+            "accepted": true,
+            "note": "Preserve the localized headache as a bodily observation; no practical consequence is required.",
+            "operation": "Set expected false; omit snippets; preserve text."
+          },
+          {
+            "id": "p171",
+            "kind": "quality",
+            "accepted": true,
+            "note": "Replace ambiguous audiology routing with an ordinary recording interrupted by laughter.",
+            "operation": "Rewrite with the same useful-reaction no-hit judgment."
+          },
+          {
+            "id": "p175",
+            "kind": "classification",
+            "accepted": true,
+            "note": "The audible breath informs the receptionist; the shoulder drop remains an independent generic tag.",
+            "operation": "Set expected true with only his shoulders dropped."
+          },
+          {
+            "id": "p181",
+            "kind": "quality",
+            "accepted": true,
+            "note": "Show the teacher responding to the actual blush, preserving involuntary communication.",
+            "operation": "Clarify the exchange while retaining the no-hit."
+          }
+        ]
+      },
+      "finalReview": {
+        "reviewed": 240,
+        "resultSha256": "c84503694088658d2661cea20e3d35869d67f86ae495d9ea35d795ec1973c460",
+        "scope": {
+          "filesRead": [
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+            "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+            "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+            "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+            "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+            "/tmp/slopless-narrative-v21/development/pool.json",
+            "/tmp/slopless-narrative-v21/development/reconciliation.json",
+            "/tmp/slopless-narrative-v21/development/adversarial/issues.json",
+            "/tmp/slopless-narrative-v21/development/repair-blind/quality.json",
+            "/tmp/slopless-narrative-v21/development/repair-adversarial/issues.json",
+            "/tmp/slopless-narrative-v21/development/adversarial/judgments.json",
+            "/tmp/slopless-narrative-v21/development/repair-blind/judgments.json",
+            "/tmp/slopless-narrative-v21/development/repair-adversarial/judgments.json",
+            "/tmp/slopless-narrative-v21/development/final/judgments.json",
+            "/tmp/slopless-narrative-v21/development/final/issues.json",
+            "/tmp/slopless-narrative-v21/development/final/scope.json",
+            "/tmp/slopless-narrative-v21/development/final/summary.json"
+          ],
+          "definitionHash": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+          "reviewed": 240
+        },
+        "approved": true,
+        "currentVersionReviewed": true,
+        "summary": {
+          "approved": true,
+          "reviewed": 240,
+          "hits": 120,
+          "noHits": 120,
+          "classificationDisagreements": 0,
+          "qualityProblems": 0,
+          "snippetDifferences": 0
+        }
+      },
+      "replacementReviews": {
+        "passages": 3,
+        "blind": {
+          "resultSha256": "940eed1dbd3305b484721881c1cd3c4045dad4d93015e14e5675011a36cc42c7",
+          "scope": {
+            "filesRead": [
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/development/repairs-blind.json",
+              "/tmp/slopless-narrative-v21/development/repair-blind/judgments.json",
+              "/tmp/slopless-narrative-v21/development/repair-blind/quality.json",
+              "/tmp/slopless-narrative-v21/development/repair-blind/scope.json"
+            ],
+            "definitionHash": "sha256:84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "reviewed": 3
+          }
+        },
+        "adversarial": {
+          "resultSha256": "0be70bf61f2dec4c750e2c081eb06d42cc4e082bb61c6428125f9fea29361002",
+          "scope": {
+            "role": "focused adversarial repair reviewer; all three full replacement passages read directly and checked for classification and plausibility; no delegation",
+            "split": "development",
+            "filesRead": [
+              "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+              "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+              "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+              "/tmp/slopless-narrative-v21/definitions/body-emotion-shorthand.md",
+              "/tmp/slopless-narrative-v21/development/repairs.json",
+              "/tmp/slopless-narrative-v21/development/reconciliation.json",
+              "/tmp/slopless-narrative-v21/development/repair-adversarial/judgments.json",
+              "/tmp/slopless-narrative-v21/development/repair-adversarial/issues.json",
+              "/tmp/slopless-narrative-v21/development/repair-adversarial/scope.json"
+            ],
+            "definitionSha256": "84f932421065e5fcf0ff35a9e7846fd4ac4e81d8caa67d85ac76b73dd2836bd0",
+            "reviewed": 3
+          }
+        },
+        "final": {
+          "coveredByFullFinalReview": true
+        }
+      },
+      "reviewedPool": {
+        "passages": 240,
+        "hits": 120,
+        "noHits": 120,
+        "words": 13286,
+        "textSha256": "0fd1b2dc90d31ce7ca3277bea8ced1732a316afd77506f525dc5c1142c3fcfa0",
+        "labelsSha256": "ae7dcec065175ef85b61987e00e9a280141cd3bedca4f9b75c88023f2639423a"
       }
     }
   ],
@@ -322,5 +459,15 @@
     "candidates": 0,
     "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
     "verifierSha256": "ce444aa7b1e588a0a40b96cb335b1a7d368a61b6e76b4ffc152e9ae9fe6e250f"
+  },
+  "reviewedPoolOverlap": {
+    "newInputs": 480,
+    "priorDocuments": 15721,
+    "legacyFiles": 39,
+    "referenceInputs": 317502,
+    "pairs": 152515920,
+    "candidates": 0,
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+    "verifierSha256": "a40ad2b8e4c0ba6123a64b1f4d2400517c6a1b35dc0a924efa2c14b2a2ee1312"
   }
 }
