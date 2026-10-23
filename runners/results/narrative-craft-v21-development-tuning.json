@@ -237,8 +237,44 @@
           "textSha256": "3fd87464ce8a609e7280307110b274c9f92d8746a2ba6a9fee3d35c6685e17a4"
         }
       ],
-      "candidates": [],
-      "status": "definition-only-baseline-awaiting-inference"
+      "candidates": [
+        {
+          "check": "emotion-telling",
+          "revision": "b0",
+          "dataset": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+          "promptDirectory": "prompts/v21",
+          "words": 329,
+          "demonstrations": [],
+          "execution": "complete",
+          "outputs": [
+            "runners/results/narrative-craft-v21-emotion-telling-b0-isolated-development.json"
+          ],
+          "producingCommit": "e197ffe7",
+          "inferenceSha256": "d4a08c1362f0329ffcb6858c9a960875808e493fcbb27ba822ee28e6eb525763",
+          "requestMs": 2797.943168,
+          "isolated": {
+            "positives": 100,
+            "caught": 98,
+            "negatives": 100,
+            "falsePositives": 2,
+            "misses": [
+              "000085-14e84241c0c3",
+              "000085-cae3297c17a7"
+            ],
+            "falseAlarms": [
+              "000085-0b87e70e557c",
+              "000085-5dde75552530"
+            ]
+          }
+        }
+      ],
+      "status": "baseline-meets-isolated-bounds; preselected-demonstration-trial-next",
+      "baselineReview": {
+        "misses": "Two fronted narrator emotion-adjective tags remain missed.",
+        "falsePositives": "Two passages examining or correcting quoted emotion wording are flagged.",
+        "labelsChanged": false,
+        "definitionChanged": false
+      }
     }
   }
 }
