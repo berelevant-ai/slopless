@@ -1,0 +1,434 @@
+{
+  "family": "rhythm-and-repetition",
+  "version": "v19",
+  "userReview": "pending",
+  "status": "Definitions reviewed; pilot authoring begins before full generation.",
+  "holdoutInference": false,
+  "definitionReview": {
+    "mode": "Codex CLI default configuration; independent read-only job",
+    "model": "gpt-6.1-sol",
+    "reviewSha256": "ad35eaae57e530d3d56b9d709ed07d5c67493116ad7436409e7afe9efe0b5a5c",
+    "filesRead": [
+      "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+      "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+      "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+      ".plans/2026-10-23-080224-rhythm-and-repetition-development.md",
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md: Consolidated Rhythm-And-Repetition Types only; heading index inspected to locate it",
+      "src/rules/syntactic-patterns/repetition/repeated-sentence-starts.ts",
+      "src/rules/syntactic-patterns/repetition/triple-sentence-repeat.ts",
+      "src/rules/syntactic-patterns/repetition/repeated-predicate-end.ts",
+      "src/rules/syntactic-patterns/repetition/fragment-stacking.ts",
+      "src/rules/syntactic-patterns/repetition/triple-word-repeat.ts",
+      "src/rules/syntactic-patterns/lead-ins/formal-transition-density.ts",
+      "src/rules/metrics/word-repetition.ts",
+      "src/rules/narrative-slop/flat-action-cadence.ts",
+      "src/rules/syntactic-patterns/repetition/private/fragment-stack-detector.ts",
+      "src/rules/syntactic-patterns/repetition/private/elliptical-action-stack.ts",
+      "src/rules/syntactic-patterns/repetition/private/elliptical-action-guards.ts",
+      "src/rules/syntactic-patterns/repetition/private/repeated-internal-frame.ts",
+      "src/rules/syntactic-patterns/repetition/private/triple-word-repeat-matcher.ts",
+      "src/rules/narrative-slop/private/subject-action-cadence.ts",
+      "src/shared/matchers/concrete-evidence.ts"
+    ],
+    "findings": [
+      {
+        "id": "F1",
+        "checks": [
+          "sentence-frame-repetition",
+          "repeated-predicate-end",
+          "flat-action-cadence",
+          "formal-transition-density"
+        ],
+        "finding": "The definitions preserve occurrence thresholds but leave locality implicit. Legacy reporting uses different paragraph, sentence-window and token limits; 'nearby' alone leaves pilot authors to choose incompatible boundaries.",
+        "correction": "Add to Shared Decisions: 'Count instances within one connected local sequence. Adjacent paragraphs may belong to that sequence when they continue the same rhetorical construction. Separate topics, sections, records or dialogue turns establish separate sequences unless the writing explicitly connects their repeated form. Legacy token caps and reporting windows are comparison settings; they are not V2 labeling thresholds.'",
+        "evidence": "Repeated starts use paragraph units and five-sentence windows; predicate endings use a paragraph-sequence unit and seven-sentence windows; action cadence uses three eligible occurrences within four positions.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F2",
+        "checks": [
+          "sentence-frame-repetition"
+        ],
+        "finding": "The two-instance exception defines eligibility through 'repeated packaging', which also describes ordinary repeated frames. This makes the stated three-instance minimum unstable.",
+        "correction": "Replace the exception with: 'Two immediately adjacent sentences qualify only when both repeat the same explicit rhetorical wrapper introducing an answer, fix, goal, lesson, point, result, trick or equivalent takeaway. Other opening, subject and internal-frame recurrences require at least three instances. Every branch also requires mechanically redundant presentation after considering useful comparison, progression and refrain.'",
+        "evidence": "findRepeatedFrames accepts two adjacent sentences sharing a supplied rhetorical prefix. Distinctive first-word and internal modal-plus-still branches require three consecutive sentences.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F3",
+        "checks": [
+          "fragment-stacking"
+        ],
+        "finding": "The general fragment branch has no stated minimum. The source accepts three adjacent fragments, or two fragments followed by a qualifying payoff; inherited continuations have a separate threshold.",
+        "correction": "Replace the branch description with: 'Eligible forms are two adjacent No/No fragments; at least three adjacent ordinary fragments; two adjacent ordinary fragments followed immediately by a clipped rhetorical payoff; or one complete declarative anchor followed immediately by at least two fragments inheriting its subject or predicate. Apply the contribution test to each eligible sequence.'",
+        "evidence": "findFragmentStacks requires at least two classified fragments and at least three participating sentences. findEllipticalActionStacks requires an anchor and at least two consecutive continuations.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F4",
+        "checks": [
+          "fragment-stacking",
+          "flat-action-cadence"
+        ],
+        "finding": "The prose distinguishes fragments from complete actions, but the pilot instructions need an explicit grammatical test for inherited subjects and commands.",
+        "correction": "Add: 'An inherited-subject continuation depends on an earlier clause to supply its grammatical subject or predicate. Complete imperatives have an understood second-person subject and count as commands, rather than inherited fragments. Complete declarative clauses retain their own subjects even when a vocabulary-based helper misclassifies their verbs.'",
+        "evidence": "The fragment helpers contain explicit command, inverted-clause and declarative guards. Their finite-verb and predicate lists are implementation heuristics.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F5",
+        "checks": [
+          "flat-action-cadence"
+        ],
+        "finding": "The current hit and no-hit change both clause count and syntax. They demonstrate a rewrite but do not resolve the harder boundary between three equally short action beats and useful chronology.",
+        "correction": "Add: 'Chronological order alone does not establish a useful function. Preserve equally short subject-first clauses when their order or separate emphasis supports an identifiable procedure, reconstruction, comparison or deliberate pacing effect. Require three qualifying complete clauses within the connected sequence. V2 permits scene-only sequences; the legacy requirement for two actor actions remains a baseline restriction.' Replace the pilot control with an equally frequent action sequence whose reconstruction function is explicit.",
+        "evidence": "The legacy sequence policy requires three occurrences within four positions, including two actor actions. The proposed definition generalizes to scene subjects without retaining that restriction.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F6",
+        "checks": [
+          "triple-word-repeat"
+        ],
+        "finding": "The definition distinguishes enumeration from puffery and thinness in principle, but its promotional adjective example leaves authors without an operational ownership test.",
+        "correction": "Add: 'Require one coordinated enumeration containing at least three members whose interchangeable roles manufacture a sense of completeness. Identify the list-level defect separately from the truth, strength or specificity of each claim. A useful list of distinct properties remains a no-hit even when an individual property deserves another check. Generic praise or missing explanation alone belongs to its existing check.'",
+        "evidence": "The source matcher recognizes coordinated adjective, abstract-noun and rhetorical-verb lists. Its vocabulary membership detects candidate packaging; it does not determine whether the members communicate useful distinctions.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F7",
+        "checks": [
+          "word-repetition"
+        ],
+        "finding": "The six-occurrence threshold is explicit, but inflection grouping and ownership exclusions can still produce inconsistent counts.",
+        "correction": "Add: 'Count at least six occurrences of one content-word lemma in the same sense and grammatical use within one prose paragraph. Combine ordinary inflections; treat derived words as separate words. For an independent word-repetition label, require six eligible occurrences after excluding occurrences whose entire repetition is assigned to a defective frame, terminal predicate or connector. Crossing the count establishes eligibility; avoidable lexical echo establishes the hit.'",
+        "evidence": "The legacy implementation counts exact normalized tokens of at least four characters. Lemma grouping, shorter words, sense distinctions and specific-check ownership are proposed V2 changes.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      },
+      {
+        "id": "F8",
+        "checks": [
+          "sentence-frame-repetition",
+          "fragment-stacking",
+          "flat-action-cadence",
+          "word-repetition"
+        ],
+        "finding": "The quotation policy is sound, but the legacy internal-frame and action helpers skip some quoted sentences. Pilot authors need an explicit functional rule independent of those exclusions.",
+        "correction": "Add to Shared Decisions: 'Determine quotation function from the supplied context. Preserve wording reproduced as a record or as the object of analysis. Assess wording adopted to persuade, narrate or speak in ordinary dialogue under the relevant check. Attribute the judgment to the adopted sequence, while retaining enough surrounding context to establish its function.'",
+        "evidence": "internalFrame skips sentences beginning with quotation marks or containing backticks. actionOccurrences skips sentences containing double quotation marks. The proposed definitions intentionally replace these surface exclusions.",
+        "resolution": "Applied to the authoritative consolidated definitions before authoring."
+      }
+    ],
+    "boundaryPairs": {
+      "sentence-frame-repetition": {
+        "hit": "The answer is commitment. The answer is dedication.",
+        "noHit": "For the first equation, the answer is 4. For the second equation, the answer is 9.",
+        "boundary": "Two rhetorical answer wrappers versus two useful answer statements."
+      },
+      "repeated-predicate-end": {
+        "hit": "Our vision matters. Our ambition matters. Our commitment matters.",
+        "noHit": "At this scale, inlet pressure matters. Outlet pressure matters. Ambient pressure matters. The calculation uses all three readings.",
+        "boundary": "Three generic emphasis beats versus three explicitly required measurements."
+      },
+      "flat-action-cadence": {
+        "hit": "Mira crossed the yard. Eli opened the door. The teacher pointed upstairs. Mira climbed the steps.",
+        "noHit": "The footage establishes the access sequence: Mira crossed the yard. Eli opened the door. The teacher pointed upstairs. Mira climbed the steps.",
+        "boundary": "The same four action beats gain a visible event-reconstruction function."
+      },
+      "fragment-stacking": {
+        "hit": "The portal supports every booking. For every team. At every stage.",
+        "noHit": "The form asks: 'Who can book?' For every team. 'When is support available?' At every stage.",
+        "boundary": "Two clipped continuations versus explicit short answers. Separate pilot cases should cover the three-fragment and No/No thresholds."
+      },
+      "formal-transition-density": {
+        "hit": "Moreover, our commitment remains strong. Furthermore, our dedication continues. Ultimately, our resolve endures.",
+        "noHit": "The first trial found a benefit. However, the larger trial found none. Therefore, we report their results separately. Similarly, we separate the two recruitment methods.",
+        "boundary": "Three decorative markers versus three useful relations."
+      },
+      "triple-word-repeat": {
+        "hit": "The platform promises progress, momentum, and transformation.",
+        "noHit": "The platform reports progress as completed tasks, momentum as tasks completed per week, and transformation as the share of work moved online.",
+        "boundary": "The same three abstract nouns serve interchangeable promises or distinct defined measures."
+      },
+      "word-repetition": {
+        "hit": "The portal gives volunteers a portal for bookings. The portal stores preferences. Through the portal they update the portal profile and check portal messages.",
+        "noHit": "Close the valve. Depressurize the valve. Remove the valve. Inspect the valve. Clean the valve. Reinstall the valve.",
+        "boundary": "Six avoidable uses versus six component references in an ordered service procedure."
+      }
+    },
+    "failedToolAttempts": 2,
+    "failure": "Selected model is at capacity; no review produced by those attempts."
+  },
+  "definitionExtracts": {
+    "rhythm": {
+      "path": "/tmp/rhythm-v19-definitions-only.md",
+      "sha256": "c4a5b73e6f8970c808c06d05ebd97c131f50b755668f0ce4b92024c85aafb65a"
+    },
+    "hedge": {
+      "path": "/tmp/rhythm-v19-hedge-definition-only.md",
+      "sha256": "6d42f8b14d6121865ac617f6b6f37f453a5d2e0295d9c2716ff3ea949319f5cf"
+    },
+    "vocabulary": {
+      "path": "/tmp/rhythm-v19-source-vocabulary-only.json",
+      "sha256": "e8789157fc23298ef09c77175d12df24f315fac6123c56f8528d690fd0269825"
+    }
+  },
+  "sourceAudit": {
+    "path": "/tmp/rhythm-v19-source-audit.json",
+    "sha256": "a00958f9af99b389a5290fd4c96e4ee351553589fcfc511499f24db3348b2ad4",
+    "files": [
+      {
+        "path": "src/rules/narrative-slop/flat-action-cadence.ts",
+        "sha256": "6f74a6054d31082a0f3f6889fb0d6094945f3dd8eaa9b83d319af7c3073db313",
+        "constants": {}
+      },
+      {
+        "path": "src/rules/narrative-slop/private/subject-action-cadence.ts",
+        "sha256": "3587beaf134aa8725c83cc1c6a019a82a87d5f7c473873625d64df614316cac7",
+        "constants": {
+          "SUBJECT_PARTS": 6
+        }
+      },
+      {
+        "path": "src/rules/metrics/word-repetition.ts",
+        "sha256": "aa001fd7b461f08465d8a18cb06ec5e6439f01326bfbaa8f654827073ba42197",
+        "constants": {
+          "MAX_REPETITION": 5,
+          "EXCLUDED_WORDS": 10
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/lead-ins/formal-transition-density.ts",
+        "sha256": "b008c579ad7533db14cc6713d79e4f4ffe89558923954bb1c5582a9160e356c3",
+        "constants": {
+          "MAX_PARAGRAPH_TOKENS": 120,
+          "MAX_WINDOW_TOKENS": 80,
+          "MIN_HITS": 3,
+          "WINDOW_SENTENCES": 5,
+          "TRANSITIONS": 23
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/fragment-stacking.ts",
+        "sha256": "498671f34733e790e7e674e3e43f59ace418d40dc8db8fe7a6934c19e0fab0f6",
+        "constants": {}
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/repeated-predicate-end.ts",
+        "sha256": "bbe3027152dd307736c03e5e8d5e68bec4c74e05e66a2555f21999cc5b5b7cb9",
+        "constants": {
+          "MAX_WINDOW_TOKENS": 90,
+          "MIN_HITS": 3,
+          "WINDOW_SENTENCES": 7,
+          "ENDING_FRAMES": 14
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/repeated-sentence-starts.ts",
+        "sha256": "5188a8ab190bda17869ef8dcf4f0776055081d6ff74278d6ec1df75f98e14284",
+        "constants": {
+          "MAX_PARAGRAPH_TOKENS": 120,
+          "MAX_WINDOW_TOKENS": 70,
+          "MIN_HITS": 3,
+          "WINDOW_SENTENCES": 5,
+          "FRAME_TOKEN_COUNT": 2,
+          "EXTRA_FRAME_VERBS": 4
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/triple-sentence-repeat.ts",
+        "sha256": "6f1c29d2f12ff376108cbfa5cae2a802e83b63b9a85aefe3b8dd72a9699fce65",
+        "constants": {
+          "REPEATED_FRAME_PREFIXES": 10,
+          "COMMON_OPENERS": 135,
+          "STRUCTURAL_OPENERS": 10
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/triple-word-repeat.ts",
+        "sha256": "e9d50fc52c7a54e6a5c692cbe17fa4ab596acb6079270a98aacf6937c732eff8",
+        "constants": {
+          "EVALUATIVE_ITEMS": 59,
+          "ABSTRACT_ITEMS": 50,
+          "LINKING_VERBS": 16,
+          "ABSTRACT_LIST_VERBS": 43,
+          "RHETORICAL_VERBS": 44,
+          "DISCOURSE_SUBJECTS": 41
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/private/repeated-internal-frame.ts",
+        "sha256": "5812e378156bb0ce210067a52ac011997278658893c5931fb738d20a03840f7d",
+        "constants": {
+          "MODALS": 8,
+          "MAX_MODAL_INDEX": 4
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/private/fragment-stack-detector.ts",
+        "sha256": "74f0f90ecfec1c26346f11b1a37dfaf57b5d7e49eb1ecfff5625127fa1a0b940",
+        "constants": {
+          "MAX_FRAGMENT_WORDS": 6,
+          "MAX_NO_FRAGMENT_WORDS": 5,
+          "MAX_PAYOFF_WORDS": 28,
+          "SUBJECT_WORDS": 11,
+          "FINITE_VERBS": 23,
+          "FRAGMENT_LEADS": 15,
+          "PAYOFF_STARTS": 4,
+          "IMPERATIVE_STARTS": 17,
+          "OBJECT_WORDS": 13,
+          "SIMPLE_PAST_VERBS": 31
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/private/elliptical-action-stack.ts",
+        "sha256": "bdd36109ad792bcab525fe4b39d2a4ea199561183b1d5558772155f2a611d943",
+        "constants": {
+          "MIN_CONTINUATIONS": 2,
+          "FINITE_HELPERS": 23,
+          "IRREGULAR_PREDICATES": 53,
+          "PRESENT_PREDICATES": 33,
+          "SEQUENCE_MARKERS": 13,
+          "COMPLEMENT_LEADS": 53,
+          "MODIFIER_LEADS": 15,
+          "PREDICATE_OBJECT_OPENERS": 20
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/private/elliptical-action-guards.ts",
+        "sha256": "31bf9b4bc985fcf8f185ce029e12ff60dae51cbf7934f4fce2554ff1407aa150",
+        "constants": {
+          "INVERTED_LEADS": 2,
+          "EXPLICIT_SUBJECTS": 8,
+          "BASE_ACTION_PREDICATES": 48,
+          "INVERTED_PREDICATES": 15,
+          "INTRODUCED_COMMANDS": 39
+        }
+      },
+      {
+        "path": "src/rules/syntactic-patterns/repetition/private/triple-word-repeat-matcher.ts",
+        "sha256": "cde4d247b1926f601692cfa911599ee146d784dce7850e492679890eb802c735",
+        "constants": {}
+      },
+      {
+        "path": "src/shared/matchers/concrete-evidence.ts",
+        "sha256": "b7dfb04ea06990920af3e33145d3673c85d152a144b36134ec8e9dc14183740c",
+        "constants": {
+          "TECHNICAL_REVERSAL_TOKENS": 23,
+          "CORRECTION_TOKENS": 21,
+          "AUTHORITY_CONCRETE_TOKENS": 13,
+          "IMPLEMENTATION_SUMMARY_TOKENS": 24,
+          "MEDICAL_PLACE_TOKENS": 2,
+          "CONCRETE_INVENTORY_HEADS": 4,
+          "DETERMINERS": 5,
+          "SUMMARY_CONNECTORS": 5,
+          "LOCATION_PASSIVES": 8,
+          "LOCATION_LINKS": 4
+        }
+      }
+    ]
+  },
+  "split": "development",
+  "protected": false,
+  "collections": [
+    {
+      "id": "000057",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/sentence-frame-repetition"
+      ],
+      "slug": "rhythm-and-repetition-sentence-frame-repetition-development",
+      "stem": "datasets/ai-synthetic/passages/000057-rhythm-and-repetition-sentence-frame-repetition-development"
+    },
+    {
+      "id": "000059",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/repeated-predicate-end"
+      ],
+      "slug": "rhythm-and-repetition-repeated-predicate-end-development",
+      "stem": "datasets/ai-synthetic/passages/000059-rhythm-and-repetition-repeated-predicate-end-development"
+    },
+    {
+      "id": "000061",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/flat-action-cadence"
+      ],
+      "slug": "rhythm-and-repetition-flat-action-cadence-development",
+      "stem": "datasets/ai-synthetic/passages/000061-rhythm-and-repetition-flat-action-cadence-development"
+    },
+    {
+      "id": "000063",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/fragment-stacking"
+      ],
+      "slug": "rhythm-and-repetition-fragment-stacking-development",
+      "stem": "datasets/ai-synthetic/passages/000063-rhythm-and-repetition-fragment-stacking-development"
+    },
+    {
+      "id": "000065",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/formal-transition-density"
+      ],
+      "slug": "rhythm-and-repetition-formal-transition-density-development",
+      "stem": "datasets/ai-synthetic/passages/000065-rhythm-and-repetition-formal-transition-density-development"
+    },
+    {
+      "id": "000067",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/triple-word-repeat"
+      ],
+      "slug": "rhythm-and-repetition-triple-word-repeat-development",
+      "stem": "datasets/ai-synthetic/passages/000067-rhythm-and-repetition-triple-word-repeat-development"
+    },
+    {
+      "id": "000069",
+      "split": "development",
+      "checks": [
+        "rhythm-and-repetition/word-repetition"
+      ],
+      "slug": "rhythm-and-repetition-word-repetition-development",
+      "stem": "datasets/ai-synthetic/passages/000069-rhythm-and-repetition-word-repetition-development"
+    },
+    {
+      "id": "000071",
+      "split": "development",
+      "group": "A",
+      "checks": [
+        "rhythm-and-repetition/sentence-frame-repetition",
+        "rhythm-and-repetition/repeated-predicate-end",
+        "rhythm-and-repetition/formal-transition-density"
+      ],
+      "slug": "mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-development",
+      "stem": "datasets/ai-synthetic/passages/000071-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-development"
+    },
+    {
+      "id": "000073",
+      "split": "development",
+      "group": "B",
+      "checks": [
+        "rhythm-and-repetition/flat-action-cadence",
+        "rhythm-and-repetition/fragment-stacking",
+        "rhythm-and-repetition/triple-word-repeat"
+      ],
+      "slug": "mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-development",
+      "stem": "datasets/ai-synthetic/passages/000073-mixed-flat-action-cadence-fragment-stacking-triple-word-repeat-development"
+    },
+    {
+      "id": "000075",
+      "split": "development",
+      "group": "C",
+      "checks": [
+        "rhythm-and-repetition/word-repetition",
+        "rhythm-and-repetition/sentence-frame-repetition",
+        "excessive-hedging/hedge-stacking"
+      ],
+      "slug": "mixed-word-repetition-sentence-frame-repetition-hedge-stacking-development",
+      "stem": "datasets/ai-synthetic/passages/000075-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-development"
+    }
+  ]
+}

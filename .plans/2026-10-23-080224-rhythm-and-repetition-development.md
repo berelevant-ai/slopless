@@ -9,10 +9,12 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 
 ## Execution Status
 
-- Independent definition review is running before authoring. Source-only inspection confirms the eight-rule mapping, 23 transition openings, fourteen terminal predicates, ten fixed sentence frames and eight internal modal forms.
+- Independent definition review completes before authoring. Apply eight clarifications covering locality, wrapper counts, fragment grammar, useful chronology, list ownership, lemma counting and quotation function; seven matched boundary pairs support the review.
 - Source helpers, current dataset schema and native runner contracts are inspected. Existing schema-version-two packing and independent-passage evaluation support the planned family without production changes.
 - Collection IDs `000057` through `000076` are available and reserved for this round: fourteen isolated collections in definition order, then development/holdout pairs for mixed groups A, B and C.
 - Production baseline is currently `0.2.42`; root datasets contain 15,701 pairs before this round. Capture final baseline hashes after data review and before inference.
+- Two subagent-tool attempts fail with model-capacity errors and produce no review. An independent read-only Codex CLI job completes using its default `gpt-6.1-sol` configuration; use isolated CLI jobs with explicit read scopes for subsequent authoring and review.
+- Frozen definition-only and source-vocabulary extracts support protected roles. Split-specific review records preserve their hashes and permitted collection assignments before pilot generation.
 
 ## Source Review And One Proposed Consolidation
 
@@ -39,66 +41,13 @@ Eight existing identifiers cover seven proposed judgments. Preserve the other si
 - Word repetition excludes ten function words, requires at least four characters and counts exact normalized words. These are recorded legacy settings, rather than proof that every thresholded occurrence is bad writing.
 - Preserve occurrence recognition versus reporting as separate responsibilities. Each V2 judgment identifies an offending sequence in its supplied passage; later reporting can count those sequences across a text independently.
 
-## Proposed Check Definitions
+## Check Definitions
 
-All seven use `input: passage`. Supply complete paragraphs and any immediately relevant surrounding prose; inspect each local sequence within that context. Headings, list items and quoted records keep their functional meaning.
+The [consolidated rhythm-and-repetition definitions in the accepted taxonomy](2026-10-20-125402-v2-rule-taxonomy.md#consolidated-rhythm-and-repetition-types) are authoritative. They contain the seven input declarations, counts, functional controls, examples and source mappings; keep further definition changes there.
 
-- Preserve wording documented or examined as wording. Assess adopted slogans, quotations and ordinary dialogue by the same contribution test as surrounding prose; quotation marks alone provide no exemption.
-
-### Sentence-Frame Repetition
-
-- Catch repeated lexical frames that mechanically package successive statements without a useful contrast, comparison, progression or deliberate refrain. Cover openings, distinctive repeated subjects and internal frames.
-- Use three instances for an ordinary repeated frame; two adjacent repeated rhetorical wrappers are eligible when the wrapper itself repeats the packaging.
-- Hit: "The answer is focus. The answer is commitment. The answer is consistency." Highlight all three frames and their corresponding statements.
-- No-hit: "The red lamp means stop. The green lamp means proceed. The amber lamp means prepare to stop." The parallel form makes a useful comparison.
-- Preserve necessary names, common pronouns and grammatical words when their recurrence alone supplies no mechanical frame. Preserve wording being examined and purposeful refrain supported by the passage; assess adopted slogans normally.
-- Formal connectors alone belong to formal-transition density; repeated terminal predicates belong to repeated-predicate-end. Separate repeated openings and endings can receive both labels when each independently remains defective.
-
-### Repeated Predicate End
-
-- Catch at least three nearby statements repeatedly ending in the same generic predicate, substituting a recurring verbal beat for informative differences between the statements.
-- Hit: "Training can help. Preparation can help. Communication can help." Highlight the repeated endings within the complete sequence.
-- No-hit: "The first alarm works. The second alarm works. The third alarm works. Each sounded when its separate test circuit was disconnected." The repeated outcomes communicate a useful parallel test account at the same frequency as the hit.
-- Generalize beyond the fourteen literal endings. Preserve necessary repeated outcomes in comparisons, instructions and findings; judge what the repetition contributes.
-
-### Flat Action Cadence
-
-- Catch at least three nearby complete action clauses that repeat the same detached subject-first beat, including changing actors, scene subjects and verbs. Concrete new actions alone do not establish useful rhythm.
-- Hit: "Mira crossed the yard. Eli opened the door. The teacher pointed to the stairs. Mira climbed the steps." The sequence presents each movement as another equal standalone beat.
-- No-hit: "Mira crossed the yard before the bell stopped. At the door, Eli caught her sleeve: the teacher was pointing toward the locked stairs." The movement participates in connected relations and changing emphasis.
-- Preserve useful procedural steps, event reconstruction, deliberate pacing and parallel comparison when the writing supplies their function. Genre and character names alone supply no exemption.
-- Distinguish this rhythm defect from narrative craft's separate question of whether individual gestures or movements add useful scene information.
-
-### Fragment Stacking
-
-- Catch deliberately clipped sequences that divide ordinary explanation into promotional or dramatic fragments. Preserve the existing adjacent No/No branch and complete-action-plus-two-continuations branch.
-- Hit: "No implant. No brain surgery." Also preserve known hit "No fever. No rash." as a cadence judgment in ordinary explanatory prose.
-- No-hit: "No fever was recorded. No rash appeared." The complete factual clauses preserve the accepted contrast.
-- Preserve structured records, labels, answers to explicit questions, genuine lists and purposeful quoted fragments when their form serves the visible task. A medical subject alone supplies no exemption.
-- Include "No change. No change." and "No conflict. No antagonist." among reviewed coverage sources. Document a justified contextual disagreement before changing an inherited judgment.
-
-### Formal Transition Density
-
-- Catch at least three nearby sentence-prefacing connectors or emphasis markers used as repeated rhetorical scaffolding, where their announced relations contribute no useful organization.
-- Hit: "Moreover, we are committed to progress. Furthermore, our commitment remains strong. Ultimately, progress requires commitment." Highlight the prefacing markers in the complete sequence.
-- No-hit: "The small trials found a benefit. However, the largest trial found none. Therefore, we report the trial sizes separately. Similarly, the appendix separates the two recruitment methods." The transitions express distinct relevant relations.
-- Generalize beyond the 23 source openings. Preserve useful reasoning, comparison and chronology at the same frequency; unrelated sections do not create a local stack merely through their shared formal register.
-
-### Triple-Word Repeat
-
-- Catch three or more generic list members used to manufacture rhetorical completeness through broad praise, abstract virtues or parallel promises, rather than communicate useful distinctions.
-- Hit: "Our platform is powerful, transformative, and inspiring. It gives volunteers a calendar for choosing shifts."
-- No-hit: "The toolbox contains a hammer, a level, and a tape measure." Also preserve useful three-property descriptions with relevant supporting meaning.
-- Cover the existing adjective, abstract-noun and rhetorical-verb branches with unseen vocabulary. Ordinary three-item lists remain contextual controls.
-- This check judges formulaic enumeration. An exaggerated claim, missing substantive meaning or duplicated meaning receives its existing check when that is the sole defect; separately defective list packaging can coexist with those labels.
-
-### Word Repetition
-
-- Catch at least six occurrences of the same content word or inflected form in one prose paragraph when its repeated use creates an avoidable lexical echo. Count the same meaning; different senses remain distinct.
-- Hit: "The portal gives volunteers a portal for bookings. The portal stores their preferences. Through the portal they update the portal profile and check the portal messages." Highlight the repeated wording together.
-- No-hit: "The valve remains closed while its inlet is pressurized. Open the valve only after isolating the inlet. Record the serial number engraved on the valve before removal. Support the valve as its retaining bolts are loosened. Inspect the valve seat for scoring. Replace the valve if the seat is damaged." The recurring term identifies the component in the successive service instructions.
-- Preserve necessary technical terminology, named entities, explicit comparison, deliberate refrain and wording under examination. Generate shorter content words and inflection variants beyond the old four-character/exact-token limits.
-- Assign repetitions that consist solely of a defective opening, ending or connector to their specific check. Independently repeated wording elsewhere remains eligible.
+- Independent review clarifies connected local sequences, the two-explicit-wrapper exception, exact fragment thresholds and complete-command grammar.
+- It distinguishes useful reconstruction from chronology alone, coordinated-list packaging from other defects, and six eligible same-lemma recurrences from useful terminology.
+- Use frozen definition-only extracts for authors and reviewers. Keep the complete taxonomy's evaluation history outside protected contexts.
 
 ## Definition Review Before Generation
 
