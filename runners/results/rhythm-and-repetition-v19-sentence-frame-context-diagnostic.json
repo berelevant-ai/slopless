@@ -363,5 +363,141 @@
       "Explicitly preserve benchmark labels and prompts; identify the two controls for human judgment."
     ],
     "rejectedFinding": "The alleged input-script hash change compares two different files. The first audit hashes input construction; the report audit hashes the separate scoring/report generator. The input-construction file remains byte-identical to the first audit."
+  },
+  "semanticFollowup": {
+    "source": "datasets/ai-synthetic/passages/000071-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-development.md",
+    "sourceId": "000071-09d9dfcf892b",
+    "sourceSha256": "822cc9d3bf047605d1834e431f6b71d4dea027d13caa30e87035bcf0a0e0f20a",
+    "originalBlock": "A little foresight makes sense. Planning ahead makes sense. Thinking in advance makes sense.",
+    "blocks": {
+      "samePositive": "A little foresight is sensible. Planning ahead has merit. Thinking in advance seems reasonable.",
+      "firstNegative": "A little foresight is bad for you. Planning ahead has merit. Thinking in advance seems reasonable.",
+      "sameNegative": "A little foresight is bad for you. Planning ahead causes harm. Thinking in advance makes things worse.",
+      "distinctFacts": "A little foresight can prevent a wasted trip. Wet coats must go in the ventilated lockers. Lost keys cost ten pounds to replace."
+    },
+    "cases": [
+      {
+        "id": "semantics-0c4859fe9fc4794b",
+        "variant": "samePositive",
+        "context": "completePassage",
+        "block": "A little foresight is sensible. Planning ahead has merit. Thinking in advance seems reasonable.",
+        "probability": 0.64
+      },
+      {
+        "id": "semantics-b987d210bcba702e",
+        "variant": "samePositive",
+        "context": "blockOnly",
+        "block": "A little foresight is sensible. Planning ahead has merit. Thinking in advance seems reasonable.",
+        "probability": 0.33
+      },
+      {
+        "id": "semantics-1f6026651582a5ea",
+        "variant": "firstNegative",
+        "context": "completePassage",
+        "block": "A little foresight is bad for you. Planning ahead has merit. Thinking in advance seems reasonable.",
+        "probability": 0.62
+      },
+      {
+        "id": "semantics-fea5c2b31da87991",
+        "variant": "firstNegative",
+        "context": "blockOnly",
+        "block": "A little foresight is bad for you. Planning ahead has merit. Thinking in advance seems reasonable.",
+        "probability": 0.18
+      },
+      {
+        "id": "semantics-7be9666fb0e4d131",
+        "variant": "sameNegative",
+        "context": "completePassage",
+        "block": "A little foresight is bad for you. Planning ahead causes harm. Thinking in advance makes things worse.",
+        "probability": 0.69
+      },
+      {
+        "id": "semantics-e72d461e92ee0ffa",
+        "variant": "sameNegative",
+        "context": "blockOnly",
+        "block": "A little foresight is bad for you. Planning ahead causes harm. Thinking in advance makes things worse.",
+        "probability": 0.3
+      },
+      {
+        "id": "semantics-cf1859657751c1c3",
+        "variant": "distinctFacts",
+        "context": "completePassage",
+        "block": "A little foresight can prevent a wasted trip. Wet coats must go in the ventilated lockers. Lost keys cost ten pounds to replace.",
+        "probability": 0.21
+      },
+      {
+        "id": "semantics-2a196577070d802d",
+        "variant": "distinctFacts",
+        "context": "blockOnly",
+        "block": "A little foresight can prevent a wasted trip. Wet coats must go in the ventilated lockers. Lost keys cost ten pounds to replace.",
+        "probability": 0.04
+      }
+    ],
+    "job": {
+      "collection": "semantic-diagnostic",
+      "cohort": "controlled-development",
+      "check": "sentence-frame-repetition",
+      "family": "rhythm-and-repetition",
+      "prompts": "prompts/v19",
+      "dataset": "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/passages.md",
+      "output": "runners/results/rhythm-and-repetition-v19-sentence-frame-semantic-diagnostic-development.json",
+      "log": "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/inference.log",
+      "inputs": {
+        "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/passages.md": "4a9b90ddf2903e6f767ba9f8355a3b853b7baa6f5a735367a4aee77c3b352951",
+        "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/passages.labels.json": "858868b27bd86a4198bd03aabf070bf377607ba2863189a3b661faded844db44",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/sentence-frame-repetition.md": "c025469162b17011ae783710076280d61a5aaece3531ff966c379be2534ad945",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+      },
+      "developmentOnly": true
+    },
+    "settings": {
+      "model": "jev-1.13.0",
+      "threshold": 0.5,
+      "batchSize": 16,
+      "mode": "classification-only",
+      "runs": 1
+    },
+    "execution": {
+      "requests": 1,
+      "judgments": 8,
+      "exit": 0
+    },
+    "verification": {
+      "approved": true,
+      "auditSha256": "8a71f2f9d0e83dce912786d2107d9019554c03aa11d5479f9ddfd14abdd57b0b",
+      "verified": [
+        "Exact firstNegative and all four blocks; each alone and in unchanged context; eight decisions in one saved request, exit 0.",
+        "Public createSnapshot, validateResult and score pass offline, including request identity and inference seal.",
+        "Complete-passage scores: 0.64, 0.62, 0.69, 0.21. Block-alone scores: 0.33, 0.18, 0.30, 0.04. Threshold: 0.5.",
+        "Recorded input hashes match. Original DEV000071 pair and shared/frame prompts match HEAD. Construction and scoring hashes are distinct.",
+        "Appended Markdown and worklog match saved results and restrict conclusions to this single controlled example; no population or model-internal claim.",
+        "Provisional expected:false labels assess sentence-frame repetition only; overall text quality remains outside those judgments.",
+        "Only audit.json written. No inference, network, credentials, Python, delegation or holdout reads. Independent reviewer omitted as requested."
+      ],
+      "hashes": {
+        "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/passages.md": "4a9b90ddf2903e6f767ba9f8355a3b853b7baa6f5a735367a4aee77c3b352951",
+        "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/passages.labels.json": "858868b27bd86a4198bd03aabf070bf377607ba2863189a3b661faded844db44",
+        "prompts/v19/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "prompts/v19/sentence-frame-repetition.md": "c025469162b17011ae783710076280d61a5aaece3531ff966c379be2534ad945",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "dist/shared/text/sentences.js": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032",
+        "node_modules/@typesafe-ai/sdk/package.json": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "datasets/ai-synthetic/passages/000071-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-development.md": "822cc9d3bf047605d1834e431f6b71d4dea027d13caa30e87035bcf0a0e0f20a",
+        "datasets/ai-synthetic/passages/000071-mixed-sentence-frame-repetition-repeated-predicate-end-formal-transition-density-development.labels.json": "a3d01ef0524bcfb9c27884b7bc19ddbe411edb735c437f986bf483aaf60a57c7",
+        "/tmp/rhythm-v19-semantic-probe.mjs": "b41b99113401a223986c65edc61ac09ec2c512927cde1f64bdb6e19a9c35b81d",
+        "/tmp/rhythm-v19-score-semantic-probe.mjs": "7c8b718888f3c7cbf3b04bef37924b50bb8a13c36afa9971e8cb901dc59c3613",
+        "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/experiment.json": "0b4e0867ffa573ccb4dcc3a723497bc2cf3a5c5988080d9f0424d0684fff69cb",
+        "/tmp/slopless-v19-semantic-probe-2026-10-23-184627/executions.json": "e4db143a54483218da2b260fca79e924eac88f805c8fcf872e20b797638c963d",
+        "runners/results/rhythm-and-repetition-v19-sentence-frame-semantic-diagnostic-development.json": "0e0ea4b632283bc9e0e769e03f7d62ca3938dff33ce01172555add4790e6b312",
+        "runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic.json": "8d131c7d85ce4c148ef6d6486d6ce46b40fedff68e4a08f80b2965cd97f1390d",
+        "runners/results/rhythm-and-repetition-v19-sentence-frame-context-diagnostic.md": "eae66c87668adeca3f069688f7f38d2f4eda2b20e0de592921a65efa78c6d117",
+        ".worklogs/2026-10-23-184815-test-frame-meaning-changes.md": "21a363d70540ae377739a5eee92323c49b531a913dd9f0151914c2fff6388105"
+      }
+    }
   }
 }

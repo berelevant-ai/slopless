@@ -258,3 +258,35 @@ Frame probability: **0.49**. Result: **no finding**.
 Frame probability: **0.66**. Result: **finding**.
 
 > Your desktop can still retrieve archived receipts. Your phone can still retrieve archived receipts. Your accountant can still retrieve archived receipts through the shared account. Those three access routes survived the upgrade. The receipts remain retrievable. They are still available to retrieve. Retrieval has been retained. Search by invoice number rather than the shop's display name.
+
+## Meaning Change Follow-Up
+
+One additional request judges eight fixed inputs with the same frame prompt, model and threshold. Four blocks appear both alone and in the unchanged locker context, replacing the original ending block.
+
+The first change reverses only the initial claim. The next repeats the negative meaning three times; the last supplies distinct practical information. Original benchmark labels and prompts remain unchanged.
+
+### Similar Positive Claims
+
+> A little foresight is sensible. Planning ahead has merit. Thinking in advance seems reasonable.
+
+Frame probability in the complete passage: **0.64** (finding). Block alone: **0.33** (no finding).
+
+### First Claim Reversed
+
+> A little foresight is bad for you. Planning ahead has merit. Thinking in advance seems reasonable.
+
+Frame probability in the complete passage: **0.62** (finding). Block alone: **0.18** (no finding).
+
+### Similar Negative Claims
+
+> A little foresight is bad for you. Planning ahead causes harm. Thinking in advance makes things worse.
+
+Frame probability in the complete passage: **0.69** (finding). Block alone: **0.30** (no finding).
+
+### Distinct Practical Statements
+
+> A little foresight can prevent a wasted trip. Wet coats must go in the ventilated lockers. Lost keys cost ten pounds to replace.
+
+Frame probability in the complete passage: **0.21** (no finding). Block alone: **0.04** (no finding).
+
+Reversing the first claim leaves a positive frame judgment in the complete passage. Every block stays below threshold when submitted alone. These observations concern this one controlled passage.
