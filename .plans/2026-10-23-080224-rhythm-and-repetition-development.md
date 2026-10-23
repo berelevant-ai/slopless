@@ -26,6 +26,7 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - All sixteen collections outside word repetition complete three full reviews and adjudication. Apply the focused reviewer's two inherited-continuation corrections in mixed development while retaining the complete writing.
 - All four word-repetition pools complete three current-definition full reviews. Final adjudication continues; two twelve-passage supplements replenish mixed holdout combinations reduced by corrected labels.
 - Build, ESLint, paragraph-runner tests, 100% strict type coverage and Fixture3's dataset contract pass. Development inference remains pending the final balanced freeze.
+- All twenty candidate pools complete current-definition reviews and final adjudication. Twenty-four additional protected mixed passages bring the reviewed archive to 4,824 candidates and 7,752 judgments; every selected collection still targets 200 passages.
 
 ## Source Review And One Proposed Consolidation
 
