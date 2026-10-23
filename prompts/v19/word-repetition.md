@@ -1,10 +1,11 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named definition in state.types to target. Does one prose paragraph contain at least six eligible same-word uses that create avoidable lexical echo? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
-  "criteria": {
-    "true": "Six or more same-sense content-word uses, after specific-pattern exclusions, repeat naming avoidably rather than maintain necessary precision, useful organization, comparison or refrain.",
-    "false": "The paragraph lacks six eligible uses, or the repeated wording maintains supplied distinctions, independent instruction identification, terminology contrast or deliberate refrain."
-  }
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Count actual same-sense content-word uses in ONE paragraph. Are there at least SIX eligible uses, and does repeating that word itself create avoidable echo?",
+  "criteria":
+    {
+      "true": "One paragraph has at least six eligible uses of one content-word lemma. Repeated naming is avoidable after the referent is established, even though the passage's facts, instructions or actions are useful. Clear reference or a shared subject preserves their meaning without that repeated naming.",
+      "false": "There are at most five eligible uses, different senses or lexical uses do not separately reach six, paragraph boundaries split the count, specific-pattern ownership removes enough uses, or the repeated words themselves maintain competing referents, useful comparison labels, independent-entry identification, instructional organization or deliberate refrain."
+    }
 }
 ---
 
@@ -18,6 +19,8 @@ Find avoidable lexical echo from at least six uses of one content word in one pr
 - Useful facts and distinct actions alone do not justify repeatedly naming an established subject. A shared subject, clear reference or ordinary restructuring can reveal avoidable echo even in useful instructions.
 - Preserve naming that distinguishes competing referents or parts, identifies a component in independently used instruction entries, keeps comparison labels distinct, preserves a substantive terminology contrast or supplies deliberate refrain. Procedural tone, technical vocabulary and checklist headings alone supply no exemption.
 - Preserve examined or documentary wording at the same frequency. Assess adopted quotations and ordinary dialogue by the same contribution test.
+
+Five occurrences are a no-hit for this check even if they sound repetitive. Count a noun in compound modifiers together with its other same-sense uses. Judge the repeated NAME, not whether the paragraph is useful: distinct tasks can still repeat their established component name avoidably. Ordinary instructions read together can use a clear reference; independent-entry identification must be supplied by the text. Preserve recurring command verbs when their separate parameters or conditions organize useful instructions, and preserve the names that distinguish competing compared items. Do not infer an independent naming defect solely from another check's repeated frame.
 
 ## Hits
 

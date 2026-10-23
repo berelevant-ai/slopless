@@ -1,10 +1,11 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage contain a coordinated list whose interchangeable rhetorical members manufacture a sense of completeness? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
-  "criteria": {
-    "true": "At least three coordinated generic praise terms, abstract virtues or parallel promises perform interchangeable rhetorical roles rather than communicate useful distinctions.",
-    "false": "No eligible three-member enumeration occurs, its members communicate useful distinct properties or operations, or its sole defect concerns individual claim strength or missing explanation rather than list packaging."
-  }
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Is there one grammatically COORDINATED enumeration of at least three interchangeable rhetorical members that manufactures completeness?",
+  "criteria":
+    {
+      "true": "A single coordinated list contains three or more generic evaluative, abstract or promise members whose interchangeable roles manufacture rhetorical completeness. The writer adopts the enumeration and its list packaging is independently defective.",
+      "false": "The coordinated list is absent; there are only separate clipped sentences or inherited continuations; the wording is being examined or replaced; the list supplies distinct useful properties, objects or operations; or only an individual claim's strength or explanation is defective."
+    }
 }
 ---
 
@@ -18,6 +19,8 @@ Judge formulaic enumeration, despite this legacy check's name. Find one coordina
 - Useful surrounding facts do not repair an independent ornamental triad. Conversely, a weak claim does not make its enumeration defective automatically.
 - Judge the supplied meaning rather than membership in an adjective or noun vocabulary.
 - Preserve lists reproduced for analysis, correction or documentation. Assess adopted quotations and ordinary dialogue by the same contribution test.
+
+Require one coordinated enumeration, such as members sharing a clause or an actual list structure. Three separate promotional sentences are fragment or frame material, not this list check. Do not convert nearby action narration or an inherited-fragment stack into a coordinated triad. Preserve distinct operations with different objects or effects. Quoted copy that is deleted, criticized, compared or documented stays outside adopted rhetoric; mere quotation marks around adopted advertising offer no exemption.
 
 ## Hits
 
@@ -33,4 +36,4 @@ The test rig contains a heater, a thermocouple, and a circulation fan. The heate
 
 The image editor now rotates, crops, and masks uploaded pictures. Rotation corrects orientation, cropping changes the visible boundary, and masking conceals selected details within that boundary. Edits are saved as instructions beside the original file, allowing the uploader to undo them without sending the photograph again.
 
-The local repair plan is reassuring and impressive. It includes a loan machine while ours is away, which the manufacturer's plan excludes. We have only one label printer, so a long repair would interrupt dispatch. I have asked whether the loan unit accepts our existing rolls before recommending the local plan.
+I deleted 'inspire, empower, transform' from my workshop invitation. It left readers guessing what they would practice. The new version asks them to bring a delayed decision and identify what evidence would release it. Three people have already sent examples, giving us material we can work through during the session.

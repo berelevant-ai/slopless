@@ -1,10 +1,11 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage use an eligible clipped fragment stack whose beat packaging serves no useful function? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
-  "criteria": {
-    "true": "An eligible adjacent fragment sequence splits ordinary prose into gratuitous promotional or dramatic beats, including No/No fragments or inherited continuations.",
-    "false": "No eligible fragment form reaches its threshold, the clauses are complete commands or declarations, or the clipped format serves a genuine record, label, list, explicit answer or other useful function."
-  }
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Does target adopt an eligible gratuitous fragment stack, including No/No pairs or an anchor followed by two subject-inheriting continuations?",
+  "criteria":
+    {
+      "true": "An eligible fragment form reaches its stated count and needlessly chops the writer's explanatory or narrative prose into separate beats. Concrete facts and useful technical operations can still be packaged in a defective inherited-subject stack.",
+      "false": "The eligible form/count is absent; the clauses are complete commands or declarations; the wording is being documented or criticized; or the short pieces function as actual labels, records, explicit answers or purposeful perceptual observations in the supplied task."
+    }
 }
 ---
 
@@ -23,11 +24,13 @@ Find clipped sequences that break ordinary explanatory or narrative prose into p
 - Read all connected context; adjacent paragraph breaks can continue the construction. Separate records or unrelated turns establish separate sequences.
 - Preserve examined or documentary wording. Assess adopted slogans, quotations and ordinary dialogue normally.
 
+Check grammar rather than whether the operations are sensible. A subject-bearing declaration followed by third-person verbs such as keeps or checks without their own subjects has inherited continuations, not complete commands. Useful software or work explanations can still contain this clipped presentation. Actual menu names and item labels remain labels even when printed with periods. Preserve text reproduced as an old message, record or object of correction. Ordinary adopted quotations receive the normal check.
+
 ## Hits
 
-Participants could revise their estimates after seeing the group average. **A second look. A fresh start. That's the power of feedback.** The researchers recorded both the direction and the size of each revision, then compared participants who saw the average with those who received only a reminder of their own previous answer.
+I signed the rental form at the counter and tucked the carbon copy into my coat. **No doubts. No regrets.** Outside, my brother was measuring the van against the narrow gate with a length of string. We still had to fetch the dresser before the seller left for her afternoon shift.
 
-Our weekly maintenance walk now includes the cleaner who works in the building after we leave. **Another perspective. A fuller picture. That's inclusion.** She pointed out that the rear light fails only after several hours, explaining why our morning inspections had missed it. We have arranged an evening test with the electrician.
+**A useful manager makes room for questions before the team commits to a date. Listens to the doubts. Holds the silence.** At our last planning meeting, the quietest engineer identified a dependency that would have invalidated the estimate. We moved the discussion to the following day so she could check it with the external supplier.
 
 The image viewer requests only the tiles that overlap the visible portion of a large scan. **Less weight. More speed. Better possibilities.** As the reader pans, neighboring tiles enter the request queue. A low-resolution preview remains underneath them so the page does not turn blank while the detailed sections arrive.
 

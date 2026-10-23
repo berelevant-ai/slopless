@@ -1,10 +1,11 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage contain a mechanically flat run of at least three complete subject-first action clauses? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
-  "criteria": {
-    "true": "At least three nearby complete subject-first actions or scene beats receive detached, unmodulated presentation without a supplied procedural, reconstruction, comparison or pacing function.",
-    "false": "The eligible run is absent, its presentation varies meaningfully, or the equal beats serve an identifiable procedure, reconstruction, comparison or deliberate pacing effect."
-  }
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Do at least three complete subject-first ACTION CLAUSES receive pointless equal-beat presentation, counting separately coordinated clauses even within one sentence?",
+  "criteria":
+    {
+      "true": "At least three complete clauses, with their own stated subjects, mechanically present movements or scene observations at equal emphasis. They can occupy only two sentences. No supplied procedure, reconstruction, comparison or deliberate pacing effect justifies their separate beats.",
+      "false": "The eligible clause run is absent, its emphasis varies meaningfully, the wording is examined or documented, or each separate beat serves an identifiable operational dependency, reconstruction, comparison, discovery or suspense progression."
+    }
 }
 ---
 
@@ -19,13 +20,15 @@ Find runs of at least three complete subject-first action clauses presented as e
 - Read the complete supplied context, including adjacent paragraphs continuing the sequence. Separate records or unrelated sections establish separate sequences.
 - Judge cadence rather than whether each gesture advances the plot. Preserve examined or documentary quotations; judge ordinary narration and dialogue by the same functional test.
 
+Count clauses, not periods: two sentences joined by and can contain four complete actor-action clauses. Joining those clauses with a conjunction does not by itself vary their emphasis. Separate an irrelevant series of handling motions from the actual product test or useful explanation that surrounds it. Preserve a sequence whose distinct observations change what the observer can infer or do next; its staged discovery or escalating consequence supplies a pacing function. Chronology alone and a generic story setting do not.
+
 ## Hits
 
 The temporary workspace is ready for anyone displaced by the painting upstairs. **The lamps glow along the wall.** **The blinds stay half open.** **A fan turns near the window.** **The room remains cool.** **A curtain moves above the sink.** There are six desks available; leave the one beside the telephone free for the duty coordinator.
 
 I used the new coffee grinder on Sunday morning. **I pulled the bag closer.** **I scooped the beans.** **I touched the lid.** **I turned the dial.** **I pressed the switch.** The grind was even enough for my filter brewer, but the container scattered grounds onto the counter whenever I removed it from the base.
 
-The map panel displays vehicles that have reported their positions recently. Positions older than five minutes appear in gray, so dispatchers can distinguish a stopped vehicle from a missing update. The expanded view shows the vehicle's last recorded heading as well as its location. **A pin jumps across the grid.** **A circle pulses around it.** **A line stretches toward the depot.** **A badge slides into the corner.**
+I tried the two grocery delivery services during a quiet afternoon. **The first driver rang the bell, and the second driver knocked on the frame.** **I lifted one bag, and my partner carried the other.** **I shut the door.** Both orders contained everything requested, although the second service charged less for the same delivery window.
 
 ## No-Hits
 

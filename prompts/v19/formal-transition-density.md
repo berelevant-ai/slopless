@@ -1,10 +1,11 @@
 ---
 {
-  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage stack at least three redundant sentence-prefacing connectors or emphasis markers? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
-  "criteria": {
-    "true": "At least three nearby markers repeatedly announce relations or significance without supplying useful local organization.",
-    "false": "Fewer than three markers form a connected sequence, or their relations genuinely organize reasoning, chronology, comparison or distinct stages."
-  }
+  "instructions": "Apply state.instructions and the named rulebook in state.types. Do at least three nearby prefacing markers repeatedly announce relations or importance without useful organization?",
+  "criteria":
+    {
+      "true": "A connected run of at least three prefacing markers stages redundant relations or significance that the adopted statements do not develop. Their repeated announcements supply no useful organization.",
+      "false": "The eligible run is absent, the wording is being documented or criticized, or the markers supply meaningful addition, contrast, consequence, alternative, comparison, sequence or concurrent development in the linked statements, even if other writing is sloppy."
+    }
 }
 ---
 
@@ -18,6 +19,8 @@ Find at least three nearby sentence-prefacing connectors or emphasis markers tha
 - Flag staged progression or significance when the announced relations add no useful organization, even if useful details appear elsewhere in the passage.
 - Connector-only repetition belongs here; do not infer a separately defective lexical sentence frame merely from the same connectors.
 - Preserve wording documented, compared or corrected. Assess adopted quotations and ordinary dialogue by the same contribution test.
+
+Judge the relation each marker expresses between its linked statements, independently of any repeated opening or ending elsewhere. A useful contrast followed by a consequence and an alternative is useful organization at a frequency of three. Other sloppy wording cannot turn those relations into empty transitions. Preserve a message or slogan reproduced for investigation, editing or criticism; assess newly adopted claims normally. No vocabulary item is automatically a hit.
 
 ## Hits
 
