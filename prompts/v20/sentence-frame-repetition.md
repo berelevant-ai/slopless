@@ -1,30 +1,25 @@
 ---
 {
-  "instructions": "Apply state.instructions and the sentence-frame definition in state.types. Does an eligible repetition of the SAME WORDING at statement beginnings or inside statements needlessly repeat a frame? Judge the contribution of those matching words themselves. A bad ending or vague claim elsewhere cannot make useful comparison wording defective.",
+  "instructions": "Does the passage needlessly repeat an OPENING or INTERNAL phrase as defined in state.types? TWO adjacent takeaway introductions count, such as 'The answer is ... The answer is ...'. Other opening, distinctive-subject or internal frames require THREE instances. Judge that phrase's purpose. Repetition confined to ENDINGS does not count.",
   "criteria":
     {
-      "true": "The required identical opening or internal wording occurs, reaches its stated count, and itself serves as an unnecessary repeated frame rather than a useful comparison, progression, instruction or refrain.",
-      "false": "No eligible opening or internal wording repeats enough; only final words, similar ideas or grammatical shapes recur; the matching words usefully distinguish cases or actions; or the wording is reproduced for examination. Other defects elsewhere leave those answers unchanged."
+      "true": "An empty opening or internal frame repeats: two adjacent explicit takeaway introductions, or three ordinary openings, distinctive first subjects or internal phrases. Their repeated wording merely repackages claims.",
+      "false": "The only needless repetition is at sentence endings or in meaning; opening/internal words instead distinguish useful facts, cases, actions or conditions; the count is insufficient; or the writer quotes the wording for examination."
     }
 }
 ---
 
-# Sentence Frame Repetition
+# Repeated Openings And Internal Frames
 
-Find needless repeated wording at statement beginnings or inside statements. First locate the matching words, then judge the function of that exact recurrence.
+Judge a repeated opening or internal phrase. Set aside recurring endings and duplicated ideas before deciding whether this particular pattern appears.
 
-## Required Wording
+- TWO immediately adjacent statements qualify when both repeat the same explicit answer, fix, goal, lesson, point, result, trick or equivalent takeaway introduction. Rephrasing the same recommendation after that introduction still counts.
+- THREE statements qualify when they repeat an ordinary opening, a distinctive first subject or an internal phrase. A repeated subject can mechanically introduce three different verbs. Internal modal-plus-still wording can qualify despite changed subjects and verbs.
+- An internal phrase has further words AFTER it in each statement. A recurring final predicate stays an ending, regardless of how repetitive its meaning feels.
 
-- Three statements share an opening phrase, a distinctive first word or an internal phrase. An internal phrase has further words after it in every participating statement.
-- An internal modal-plus-still phrase can recur despite different actors and verbs. A distinctive first-word triple can qualify when that repeated subject supplies an empty rhetorical frame.
-- Two immediately adjacent statements qualify when both repeat the same explicit answer, fix, goal, lesson, point, result, trick or equivalent takeaway introduction. Other wording requires three instances.
-- Repeated final predicates, equivalent meanings and the same grammatical shape alone leave this check false. Common pronouns, necessary names and ordinary grammatical prefixes alone establish no frame.
+The recurring words must themselves be needless. Preserve comparisons that assign different facts, duties, actions or conditions, instruction organization, useful progression and deliberate refrain. A repeated name, common pronoun or grammatical prefix alone establishes no defect.
 
-## Required Defect
-
-The matching wording must itself repeat an empty frame. Preserve wording that compares different cases, identifies different duties or capabilities, develops a useful point, organizes instructions or supplies deliberate refrain.
-
-Assess each recurring sequence separately. A useful comparison remains useful when a later sequence contains bad endings, generic advice or redundant transitions. Judge those other defects separately. Preserve wording quoted for analysis or correction; assess adopted slogans and ordinary dialogue normally. A connected sequence can continue across adjacent paragraphs; separate records and topics establish separate sequences.
+A paragraph may contain a useful repeated opening AND bad repeated endings. That remains a no-hit for this check: assess the opening's contribution separately from the endings. Conversely, a separate needless opening remains eligible beside useful facts. Preserve wording documented for examination or correction; assess adopted quotations and ordinary dialogue normally. Adjacent paragraphs can continue one sequence; separate records and topics establish separate sequences.
 
 ## Hits
 
