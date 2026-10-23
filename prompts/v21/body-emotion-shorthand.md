@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook to the complete target. Does it contain a bodily sensation, involuntary reaction or embodied object sensation whose role is ONLY interchangeable emotional punctuation? First distinguish a stock emotion tag from a bodily event that supplies specific physical or communicative information and from wording being documented or analyzed. Find any qualifying tag, including unfamiliar wording.",
+  "instructions": "Apply state.instructions and the supplied rulebook. Is at least one actual bodily reaction or embodied object sensation used only as emotional punctuation? Assess each cue separately in the complete target: one informative reaction cannot justify another stock tag. Named emotion moving as material, emotion crossing a face, generic voice quality and looking alone are outside this check. Preserve particular physical symptoms, consequential physical or social signals and wording being documented or analyzed. Find all eligible tags, including unfamiliar wording.",
   "criteria": {
-    "true": "At least one bodily sensation or reaction is used just to announce or intensify a feeling, revelation or dramatic moment. Its bodily character supplies no identifiable physical, perceptual, communicative or action-related information. Useful facts elsewhere leave such an independent tag eligible.",
-    "false": "There is no such stock tag. Preserve reactions that reveal information to someone, alter an exchange, constrain an action or perception, or describe a particular physical condition, even when emotion causes them. Preserve quoted wording that the passage documents, corrects or analyzes. Other kinds of emotional description alone do not satisfy this check."
+    "true": "At least one bodily sensation or reaction merely announces or intensifies a feeling, revelation or dramatic moment. Include an object felt as an emotional burden on the body. That cue's bodily character adds no particular physical or social information; surrounding useful facts, other reactions and actions do not protect it.",
+    "false": "No eligible stock bodily tag occurs. The writing instead contains only named feelings, figurative emotion-as-material, generic voice/face annotations, documented wording, or bodily events with identifiable functions. A localized physical symptom, a reaction someone recognizes and responds to, or a reaction affecting ability or perception supplies such a function even when emotion causes it."
   }
 }
 ---
@@ -15,6 +15,8 @@ Find stock bodily emotion tags: heartbeat, breath, chest, stomach, throat, skin,
 Preserve particular bodily information: a symptom or exertion, a perceived physical condition, a constraint on an action, or a signal that changes an exchange. The reaction itself must supply that information. An action merely following the tag, or useful facts elsewhere, leaves an independent stock tag eligible. An informative bodily observation needs no later practical consequence.
 
 Cause words, numbers, named objects and quotation marks supply no automatic answer. Judge adopted dialogue and narration normally; preserve wording documented or examined as wording. Named emotion moving as a substance and a generic vocal description alone do not establish this bodily pattern.
+
+Identify actual bodily reactions, not every bad emotional description. A feeling flowing through a scene, regret crossing a face, a brittle voice and a generic glance are different checks. A localized physical symptom is informative as a symptom. Follow a bodily reaction through the passage when another person recognizes it or when it changes what someone can see or do. Evaluate separate cues independently when only one has that useful role. An object felt as bodily weight can still be an emotional tag when the weight represents its emotional significance.
 
 ## Hits
 
