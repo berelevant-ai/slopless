@@ -39,11 +39,11 @@ Our nephew announced that he was vegetarian just as I put the roast on the table
 
 ### No Hit
 
-For three summers I watched my father teach people to sail. By the third, I could tell which pupils would panic before they touched the tiller: they kept checking the shore while he explained the ropes. He gave those pupils the first turn at steering. I thought he was being unkind until I heard how much quieter they became once the boat answered them.
+The museum cloakroom had lost the ticket attached to my umbrella. I looked across the foyer at rain running down the windows. The tram stop was a long walk away. After I described the repaired handle, the attendant let me choose the umbrella from a bucket behind her desk.
 
 ### No Hit
 
-Len checked out the cafe's rear exit before choosing our table. His walking frame fitted between the front tables, but a narrow step divided them from the toilets. The rear doorway opened onto a level passage. He chose the table beside it and put his coat over the unused chair.
+The manager looked about her. A puddle spread beneath the dishwasher. The maintenance log recorded the same leak at 07:43 yesterday, before the first breakfast plates went in. She closed the kitchen and ordered pastries from next door while the repairman found a split hose behind the machine.
 
 ### No Hit
 
