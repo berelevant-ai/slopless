@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-beat: hesitation, waiting, lingering, stopping, keeping pace or a generic animal gesture whose own contribution is only a placeholder pause or response between substantive actions? Judge each candidate's function in the connected passage.",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain an empty beat?",
   "criteria": {
-    "true": "At least one candidate merely inserts an interchangeable interval or response tag. The substantive work belongs to surrounding actions; a trigger or meaningful next action alone leaves the candidate empty.",
-    "false": "Every candidate contributes a particular choice, timing constraint, physical task, informative perception, consequential response or purposeful narrative relation supported by the connected passage, including an implicit continuing function."
+    "true": "At least one eligible cue merely inserts a placeholder pause or response.",
+    "false": "Every eligible cue supplies a particular function supported by the passage, or none occurs."
   }
 }
 ---
@@ -11,17 +11,15 @@
 
 Input: passage.
 
-Read the complete passage, including connected paragraphs. Generalize across unfamiliar wording, inflections and positions. Judge each eligible cue independently of sentence cadence and frequency.
+Judge what the cue itself contributes to the connected passage.
 
-Separate the pause or response annotation from the substantive actions it connects. Keeping those actions intact, ask what particular relation the candidate itself supplies. An interval that merely postpones the next action remains a placeholder amid useful details. A plausible imagined motivation supplies no evidence of purpose.
+Cover hesitation, waiting, lingering, stopping, keeping pace and generic animal ear/tail gestures used as pauses or responses. One weak cue suffices, independently of sentence cadence and frequency.
 
-Preserve concrete tasks, informative perceptions, consequential social signals and purposeful narrative functions supported by the passage. A pause can give another person room to respond; continued positioning can serve an ongoing physical need. Infer that relation across sentences without requiring a stated cause, endpoint or later action. Observation, orientation, characterization, compression and pacing can themselves supply a particular function.
+Preserve a passage-supported choice, timing constraint, physical task, informative perception, consequential response or purposeful narrative relation. The function can be implicit and continuing across sentences. Observation, orientation, characterization, compression and pacing can supply purpose without a later action.
 
-For a generic response gesture, distinguish the event that occasions it from information the gesture contributes. Merely registering a reaction can remain an empty tag. A duration, place name or anatomical detail alone supplies no purpose.
+A trigger or following action alone leaves a placeholder empty. Duration, location and anatomy alone supply no purpose. Useful work protects its own contribution; assess any independent filler beside it, even within the same sentence.
 
-Other defects can coexist with this one. Useful detail protects the meaning it supplies; assess any remaining placeholder independently, including within the same sentence.
-
-Determine the role of quoted or recorded language before judging its style. When its particular formulation is itself the object of the passage's attention, preserve that wording. Apply the check normally when the narrator or speaker adopts it to describe the scene. Quotation marks or genre alone establish no exemption.
+Preserve wording examined or documented as wording. Assess adopted narration and ordinary dialogue normally.
 
 ## Development Examples
 

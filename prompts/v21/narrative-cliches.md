@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Applying state.instructions and the supplied rulebook, does the complete target contain any instance of narrative cliches: recognizably stock, prefabricated narrative phrasing used as interchangeable emotional, atmospheric, dramatic or time-passage decoration?",
+  "instructions": "Apply state.instructions and the rulebook. Does the complete target passage contain narrative-cliches?",
   "criteria": {
-    "true": "At least one recognizably conventional construction itself supplies interchangeable emotional, atmospheric, dramatic or time-passage decoration. A specific surrounding event can explain the cue while leaving its contribution generic. Include stock bodily reactions, voice or facial emotion tags, atmospheric imagery, scenic time transitions, elapsed-time formulas, omniscient foreshadowing, formulaic tentative hope, exaggerated duration, unreadable eyes and subjective time slowing.",
-    "false": "Every candidate either falls outside recognizable stock construction families, is documented or examined as wording, or itself supplies a particular physical, perceptual, social or narrative function established by the passage. Preserve literal or technical description, meaningful dialogue or characterization, useful compression and informative imagery, including when other wording in the passage is defective."
+    "true": "A recognizably stock narrative construction supplies interchangeable decoration.",
+    "false": "Every candidate has a particular function, documents wording, or lacks a recognizable stock construction."
   }
 }
 ---
@@ -11,12 +11,14 @@
 
 Input: passage.
 
-Read the complete connected sequence. Decide this check independently: another defect can coexist, and another check's applicability establishes neither a hit nor a no-hit here.
+Catch prefabricated narrative phrasing whose own contribution is generic emotional, atmospheric, dramatic or time-passage decoration.
 
-First establish a recognizably prefabricated construction, generalizing its form and function across unfamiliar wording, inflections and positions. Familiarity alone is insufficient; emotional vagueness or awkward imagery alone also fails to establish stockness. An unfamiliar metaphor qualifies only if it instantiates a recognizable stock construction family.
+Cover stock bodily reactions (chest, spine, breath), voice-quality and facial emotion tags, unreadable eyes, hanging or thick atmosphere, sunset/shadow transitions, elapsed-time formulas, omniscient teasers, formulaic tentative hope, exaggerated duration and subjective time slowing.
 
-Then identify what the candidate wording itself contributes in this scene. A cause can explain a reaction without making its stock expression informative. Specific surroundings, an identifiable emotion or a nearby useful action can leave the candidate as an interchangeable reaction, atmosphere label or dramatic payoff. Judge each candidate; one eligible decorative use is enough.
+Recognizable stockness is required; unfamiliar wording can instantiate a familiar construction, while vague emotion or a fresh metaphor alone does not.
 
-Preserve a candidate whose own meaning supplies a particular physical condition, perception, interpersonal signal or narrative relation. Observation, orientation, characterization, compression and pacing can be sufficient in themselves; later action is unnecessary. For temporal constructions, distinguish useful chronology or scale from a formula that merely prolongs waiting or adds drama. Context establishes the function, rather than the presence of a cause word, number or genre.
+Judge the candidate's contribution across the complete sequence. Preserve literal or technical descriptions and particular physical, perceptual, interpersonal or narrative functions, including meaningful dialogue, characterization, imagery, chronology, compression and pacing without later action.
 
-Establish whether the narrator adopts the expression or reports it as wording from a source. Preserve documented wording that participants inspect, compare, question or correct, even when they examine its accuracy rather than its style. Quotation marks alone establish neither role. Assess ordinary dialogue and adopted narration by the same stockness-and-function test.
+Specific surroundings or a cause can explain a stock cue while leaving it decorative. Useful information elsewhere preserves its own meaning, and independent stock filler remains eligible.
+
+Preserve expressions documented or examined as wording. Assess adopted narration and ordinary dialogue by function; quotation marks, numbers and cause words alone establish no exemption. Judge this construction independently of other defects.

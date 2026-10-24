@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: a bodily or vocal cue whose own contribution is interchangeable reaction or staging? Judge each candidate's function in the connected passage, independently of other defects.",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain body-action-density?",
   "criteria": {
-    "true": "At least one cue adds generic animation or emotional illustration rather than particular physical, communicative or narrative information. Nearby useful work, speech or movement protects its own contribution, not every accompanying cue. Include generalized sensations and assertions of involuntary or persistent feeling. One weak cue suffices.",
-    "false": "Every candidate supplies a supported physical relation, particular social response or identifiable narrative function, or no eligible cue occurs. Preserve implicit communication, informative contrasts and sensory conditions even without a stated purpose or later consequence. Preserve expressions whose wording or identity is examined or documented."
+    "true": "At least one eligible cue merely animates or illustrates a character between substantive events.",
+    "false": "Every eligible cue contributes particular physical, communicative or narrative meaning, or none occurs."
   }
 }
 ---
@@ -11,19 +11,13 @@
 
 Input: passage.
 
-Read every connected paragraph. Assess actions, gestures, posture, sensations, appearance, animal gestures and vocal reactions by their role. Generalize across unfamiliar wording, inflections and positions.
+Cover actions, gestures, posture, sensations, appearance and vocal reactions of embodied characters, including animals and generalized, involuntary or persistent feelings. Personified abstractions alone are outside this bodily scope.
 
-First establish how the passage uses the wording. Preserve a cue whose wording or identity is itself examined or documented. Assess adopted narration, ordinary dialogue and adopted quotations normally; quotation marks alone decide neither status.
+Judge each cue's own contribution across the connected passage. A fitting emotion or conversational tone alone supplies generic illustration. Useful speech or action leaves an accompanying filler cue eligible.
 
-For each cue, recover what its movement or manner contributes in ordinary terms. Separate that contribution from the substantive speech, work or neighboring cue. A useful action can have an interchangeable attachment; assess the attachment without discarding the action's physical purpose.
+Preserve supported physical and interpersonal relations, including implicit responses, sensory conditions and informative contrasts. A stated purpose, resolved cause or later consequence is unnecessary. Observation, orientation, characterization, compression and pacing count through the particular meaning the cue supplies.
 
-Read the cue's physical and interpersonal relations across the sequence. Preserve behavior that performs a task or addresses a constraint. Sensory evidence of a physical condition has content even when its cause remains unresolved. Neither a purpose clause nor a later consequence is required.
-
-A social cue can supply a particular response through its timing, addressee or contrast with the situation, including what participation it offers or withholds. The passage must support that relation. Merely inferring a fitting emotion, habitual manner or conversational tone leaves generic illustration; the emotion's plausibility is not the cue's function.
-
-Preserve observation, orientation, characterization, compression and pacing through the particular information the cue supplies. Assess every cue independently: useful detail protects its own role, and another defect can coexist with a functional cue.
-
-Frequency, counting windows and severity are separate reporting concerns.
+Preserve wording examined or documented as wording; assess adopted narration, dialogue and quotations normally. Cover unfamiliar wording and inflections. One weak cue suffices; frequency, windows and severity are separate reporting concerns.
 
 ## Development Examples
 

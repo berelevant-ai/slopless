@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Applying state.instructions and the supplied rulebook, does the complete target contain any instance of silence-as-actor: an absence, pause or generic activity or mood state of a place supplying a thin emotional force in place of specific conditions or interpersonal behavior, whether the scene is quiet or lively?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain silence-as-actor?",
   "criteria": {
-    "true": "At least one eligible cue itself supplies generic emotional atmosphere instead of particular conditions or interpersonal meaning. This includes a place's generic activity or emotional arrangement even without silence or intentional agency. A social actor, designed object, burden or verdict is one possible form. Human causation, nearby meaningful events and another defect can coexist with the same thin contribution.",
-    "false": "Every candidate is documented or examined as wording, or itself supplies literal conditions, purposeful quiet, consequential withholding of speech, an informative figurative relation, specific interpersonal meaning or another identifiable function established by the passage; alternatively, no eligible absence, pause or place-state cue occurs."
+    "true": "At least one eligible cue substitutes generic emotional atmosphere for particular conditions or interpersonal behavior.",
+    "false": "Every eligible cue supplies particular conditions or meaning supported by the passage, or none occurs."
   }
 }
 ---
@@ -11,15 +11,15 @@
 
 Input: passage.
 
-Read the complete connected sequence. Decide this check independently: another defect can coexist, and another check's applicability establishes neither a hit nor a no-hit here.
+Judge the absence or place-state's own meaning, independently of nearby drama.
 
-First locate an eligible absence, pause or place-state cue. Generalize across wording, inflections and positions: the scene can be lively, and silence, an abstract grammatical subject and intentional agency are optional. Claims about a place's generic activity or emotional condition belong to this check when they supply the same thin atmosphere. A human cause can establish how the state arose while leaving its emotional annotation generic.
+Cover silence, quiet, pauses, absent speech and a place's generic activity or mood, including deictic claims and human-produced states. Quietness, an abstract subject and intentional agency are optional. A cue can assume the role of a social actor, designed object, burden or verdict.
 
-Then identify what the cue itself contributes. Naming a feeling or giving a setting a social attitude can substitute for particular conditions or interpersonal behavior. Nearby concrete actions, even actions consistent with that attitude, need not make the annotation informative. Evaluate its added meaning rather than transferring the surrounding scene's usefulness to it. One eligible weak cue is enough.
+Preserve literal sound conditions, purposeful quiet, consequential withholding of speech, informative figurative relations and specific interpersonal meaning. The relation can be implicit across the connected passage. Observation, orientation, characterization, compression and pacing can supply purpose without later action.
 
-Preserve a cue that itself supplies a particular physical condition, perception, interpersonal signal or narrative relation. Specific social meaning comes from the relationship established between participants, rather than an attitude assigned to the setting. Observation, orientation, characterization, compression and pacing can supply a function without later action. Evaluate figurative and literal relations by their meaning; a cause word, number or genre alone establishes neither outcome.
+Nearby behavior or human causation can explain a state while leaving its emotional annotation generic. Useful information protects its own contribution; assess any independent thin cue beside it. Another defect establishes neither outcome here. One weak eligible cue suffices.
 
-Establish whether the narrator adopts the expression or reports it as wording from a source. Preserve documented wording that participants inspect, compare, question or correct, even when they examine its accuracy rather than its style. Quotation marks alone establish neither role. Assess ordinary dialogue and adopted narration by the same eligibility-and-function test.
+Preserve documented wording examined for its identity, meaning or accuracy as well as style. Assess adopted narration and ordinary dialogue normally.
 
 ## Development Examples
 
