@@ -144,4 +144,7 @@ The ten collections contain 2,000 final passages and 3,600 judgments. Six isolat
 - A fresh restricted reviewer approves passage-only judgments and the eight combinations in each mixed group. Its permitted definition extract excludes development examples and historical results.
 - All ten 24-passage pilots complete independent blind review and required curation. The 240 pilot passages are packed under the planned IDs; the data-review record preserves corrections and actual read lists.
 - One isolated curator supplies four unsolicited wrapper opinions. The active isolated collection projects to its assigned artifact check, preserving original curator opinions and every passage's wording in the review record.
-- Candidate expansion and whole-pool reviews are running. Balanced dataset selection, prompt authoring, inference and final confirmation remain unfinished.
+- All ten 240-candidate pools complete blind, adversarial and final review. Fresh split-only adjudication corrects fourteen remaining labels while preserving passage wording; earlier mixed-split adjudication attempts are invalidated as protected evidence.
+- The mixed holdout pool has 99 wrapper no-hits after corrections. Add sixteen independently authored passages, each checked in three fresh blind passes; every original case and judgment remains intact.
+- The reviewed archive has 2,416 passages and 88,600 words. Its copy screen covers 795,447,464 comparisons, finding zero exact duplicates, cross-split near-duplicates or matches to prior material; 212 within-development pairs remain documented controls.
+- Balanced selection, prompt authoring, inference and final confirmation remain unfinished. Holdout detector inference remains separately gated.

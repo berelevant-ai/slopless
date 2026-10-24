@@ -890,7 +890,7 @@ Here is my proposed neighborhood announcement. The simple takeaway is this: the 
 
 ## 000137-aafd8ac1c5a8
 
-I've drafted the donor appeal. What makes it powerful? The pantry will extend deliveries to two villages. I lack the route plan, so I have guessed the additional mileage.
+I've drafted the donor appeal. What makes it powerful? The pantry will extend deliveries to two villages. I lack the route plan, so I have guessed that the route adds 12 miles.
 
 ## 000137-b9f24196a0b2
 
@@ -914,7 +914,7 @@ Here is the opening for your report. The key point to grasp: water use fell afte
 
 ## 000137-1eb1bce8259a
 
-The press statement I wrote is below. Here is the most important fact: the center opens a second site. I cannot access the lease, so I have guessed its address.
+The press statement I wrote is below. Here is the most important fact: the center opens a second site. I cannot access the lease, so I have guessed its address as 14 River Street.
 
 ## 000137-42c1ca19c10f
 
@@ -930,7 +930,7 @@ I've prepared the theater notice for you. What should audiences remember? The ma
 
 ## 000137-c885a109a657
 
-Before the profile copy, here is the headline insight. The architect reused brick from the former depot. The project records are missing, so I have guessed the recovery percentage.
+Before the profile copy, here is the headline insight. The architect reused brick from the former depot. The project records are missing, so I have guessed the recovery percentage at 60%.
 
 ## 000137-2a1134a7014f
 

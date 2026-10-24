@@ -1,6 +1,6 @@
 {
   "family": "generated-residue",
-  "phase": "data-preparation",
+  "phase": "reviewed-candidate-preparation",
   "holdoutInference": false,
   "definitionsSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
   "restrictedDefinitionReview": {
@@ -44,40 +44,2145 @@
     ]
   },
   "repairAdjudication": {
-    "filesRead": [
-      "/tmp/slopless-generated-residue-v22/definitions.json",
-      "/tmp/slopless-generated-residue-v22/repair-disputes.json"
-    ],
-    "decisions": [
+    "invalidated": [
       {
-        "collection": "000130",
-        "id": "p033",
-        "action": "keep",
-        "reason": "The passage contains an unresolved insertion instruction in otherwise finished correspondence, satisfying the assigned artifact-placeholder check. The omitted lease details can plausibly appear later in the correspondence; the supplied passage establishes the instruction's function and supports adjudication unchanged.",
-        "labels": [
-          {
-            "check": "generated-residue/artifact-placeholders",
-            "expected": true,
-            "snippets": [
-              "Replace this sentence with a warmer transition before sending."
-            ]
-          }
-        ]
+        "file": "repair-adjudication.json",
+        "reason": "Reviewer saw both development and holdout disputes; replaced by split-only review."
       },
       {
-        "collection": "000131",
-        "id": "p237",
-        "action": "keep",
-        "reason": "The narrator reports the documentary limits of a historical interpretation, a reporting function expressly preserved by the assigned definition. This is plausible historical commentary with sufficient context to classify the limitation; the strength of the reconciliation inference is a separate question.",
-        "labels": [
-          {
-            "check": "generated-residue/llm-disclaimer",
-            "expected": false
-          }
-        ]
+        "file": "repair-adjudication-round2.json",
+        "reason": "Reviewer saw both development and holdout disputes; replaced by split-only review."
       }
     ],
-    "replacements": []
+    "development": {
+      "filesRead": [
+        "/tmp/slopless-generated-residue-v22/definitions.json",
+        "/tmp/slopless-generated-residue-v22/repair-disputes-development-only.json"
+      ],
+      "decisions": [
+        {
+          "collection": "000131",
+          "id": "p237",
+          "action": "retain",
+          "reason": "The historian identifies the available deed and qualifies the reconciliation as inference. This is a reporting limit within the family history, with no model or answer-production speaker. The strength of the historical inference does not prevent judgment of the assigned check.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000137",
+          "id": "p014",
+          "action": "relabel",
+          "reason": "The reference to this writing prompt makes the diagnosis limitation answer-production commentary. The final sentence independently instructs the drafter what the notice should contain, establishing a wrapper hit. The opening describes the draft's substantive advice, and the remaining sentences supply a limitation and specific revisions rather than disposable substantive-point framing. The explicit writing-prompt reference permits judgment without rewriting the plausible draft-feedback form.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I cannot diagnose a reader or provide personalized medical advice from this writing prompt."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "The notice should direct readers to the local emergency number and explain where the clinic posts its opening hours."
+              ]
+            },
+            {
+              "check": "boilerplate-and-signposting/unnecessary-framing",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000137",
+          "id": "p015",
+          "action": "relabel",
+          "reason": "The speaker announces an inaccessible source and substitutes a plausible founding year, satisfying the source-gap disclaimer definition. The requested-profile preface independently addresses the drafting task before the profile content, satisfying wrapper. The date requirement, access gap and substitution supply no separate disposable announcement about the substantive point. Preserve the passage and correct the wrapper label.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I do not have access to the source document. I'll use 2016 as a plausible year for this draft."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "The requested company profile needs a founding date"
+              ]
+            },
+            {
+              "check": "boilerplate-and-signposting/unnecessary-framing",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000137",
+          "id": "p197",
+          "action": "relabel",
+          "reason": "The speaker reports substituting a painting date because the catalog is inaccessible, satisfying the source-gap disclaimer definition. The clause announcing what the speaker used for the exhibition label is also a disposable drafting preface to the depiction sentence. The date and its qualification carry specific information rather than a separate generic frame. Preserve this overlap case and correct the wrapper label.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I have used 1875 as the painting's date because I cannot consult the catalog record here."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "For the exhibition label, I have used 1875 as the painting's date"
+              ]
+            },
+            {
+              "check": "boilerplate-and-signposting/unnecessary-framing",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000137",
+          "id": "p013",
+          "action": "relabel",
+          "reason": "The explicit AI identity and inability to inspect current conditions satisfy disclaimer. Independently, the opening instructs the drafter what the visitor guide should recommend before supplying route copy, satisfying wrapper. That instruction specifies a route and audience rather than merely announcing a supplied point. Preserve the passage and correct the wrapper label.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "As an AI language model, I cannot visit the park or check today's trail conditions."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "The visitor guide should recommend the eastern trail for early arrivals."
+              ]
+            },
+            {
+              "check": "boilerplate-and-signposting/unnecessary-framing",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000137",
+          "id": "p190",
+          "action": "relabel",
+          "reason": "The requested-article context identifies a drafting speaker who substitutes an estimate for inaccessible harvest records, satisfying disclaimer. Its opening independently frames the request before the garden content, satisfying wrapper. The harvest requirement and estimate provide specific information rather than a separate disposable substantive-point announcement. Repetition of the source-gap construction across these supplied cases preserves useful coverage and permits judgment of this passage as written.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I cannot access the weigh-in sheets; I have estimated 800 kilograms."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "The requested garden article needs a harvest figure"
+              ]
+            },
+            {
+              "check": "boilerplate-and-signposting/unnecessary-framing",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000137",
+          "id": "p090",
+          "action": "relabel",
+          "reason": "The imperative tells the drafter to replace wording for the final leaflet and is followed by leaflet content. This establishes a drafting relationship within the passage and a wrapper hit. The specific revision supplies useful editing information, preserving the framing no-hit; the passage contains no model or source-gap limitation. Preserve this plausible editing-instruction hard case and correct its wrapper label.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "For the final leaflet, replace 'next month' with the confirmed opening date."
+              ]
+            },
+            {
+              "check": "boilerplate-and-signposting/unnecessary-framing",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        }
+      ],
+      "replacements": []
+    },
+    "holdout": {
+      "filesRead": [
+        "/tmp/slopless-generated-residue-v22/definitions.json",
+        "/tmp/slopless-generated-residue-v22/repair-disputes-holdout-only.json"
+      ],
+      "decisions": [
+        {
+          "collection": "000130",
+          "id": "p033",
+          "action": "retain",
+          "reason": "The imperative to replace a sentence is unresolved drafting copy within the passage. The reference to a summary below can occur in an excerpt and does not prevent judgment of the assigned check.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "Replace this sentence with a warmer transition before sending."
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000132",
+          "id": "p104",
+          "action": "retain",
+          "reason": "The representation limitation states a plausible human author's professional scope in a process summary. The supplied passage establishes neither a model speaker nor commentary about drafting the answer, so the limitation alone does not warrant a hit.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000132",
+          "id": "p100",
+          "action": "retain",
+          "reason": "The qualification statement bounds the author's ability to assess individual tax claims while the surrounding text gives general recordkeeping guidance. This is plausible professional scope, with no passage-internal evidence of leaked model or drafting commentary.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000132",
+          "id": "p109",
+          "action": "retain",
+          "reason": "The author distinguishes general exercise guidance from individual clinical assessment. That useful scope limit is compatible with a human guide author; the passage supplies no separate evidence of a model speaker or drafting commentary.",
+          "labels": [
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p158",
+          "action": "relabel",
+          "reason": "The bracketed instruction leaves a future insertion unresolved and directs the draft recipient to add information after approval. It independently satisfies both the artifact and wrapper definitions; no model or information-gap guessing narration appears.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Add the fourth collection point once the lease is signed.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Add the fourth collection point once the lease is signed.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p136",
+          "action": "relabel",
+          "reason": "The bracketed instruction requests a missing link within proposed public copy. Its explicit drafting operation establishes both an unresolved insertion marker and a recipient-directed revision instruction; no disclaimer narration appears.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Add link to temporary seating map.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Add link to temporary seating map.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p155",
+          "action": "relabel",
+          "reason": "The accessibility insertion directive is unfinished copy and an instruction to the person completing the draft. Both definitions apply to that function; the surrounding clinic announcement contains no model limitation or substituted guess.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Insert approved accessibility statement.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Insert approved accessibility statement.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p149",
+          "action": "relabel",
+          "reason": "The venue-address insertion command interrupts the event announcement with an unresolved marker and an explicit drafting instruction. Both checks apply independently; the passage contains no leaked limitation or source-gap guess.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Insert venue address.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Insert venue address.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p141",
+          "action": "relabel",
+          "reason": "The meal-total insertion directive leaves missing copy and instructs the draft recipient to complete it. The request for verification does not itself announce a model limitation or substitute a guessed total, while the artifact and wrapper definitions both apply.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Insert verified meal total.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Insert verified meal total.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p152",
+          "action": "relabel",
+          "reason": "The bracketed meter-reading verification command is an unfinished source marker and an editorial instruction left inside the announcement. Both definitions apply; the text gives no guessed annual saving or leaked model limitation.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Confirm annual water saving from meter readings.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Confirm annual water saving from meter readings.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p015",
+          "action": "relabel",
+          "reason": "The testimonial insertion command is unresolved copy that explicitly directs completion of the draft. Its drafting function supports both artifact and wrapper hits; there is no disclaimer or source-gap guessing narration.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Insert approved customer testimonial here.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Insert approved customer testimonial here.]"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "000136",
+          "id": "p133",
+          "action": "relabel",
+          "reason": "The opening-date insertion command is both an unresolved marker and an instruction to complete the announcement after confirmation. The daily schedule and pending opening date are compatible in a planned announcement, so rewriting is unnecessary; no disclaimer narration appears.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Insert opening date after confirmation.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Insert opening date after confirmation.]"
+              ]
+            }
+          ]
+        }
+      ],
+      "replacements": []
+    },
+    "application": {
+      "collections": [
+        {
+          "id": "000129",
+          "split": "development",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 240
+        },
+        {
+          "id": "000130",
+          "split": "holdout",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 240
+        },
+        {
+          "id": "000131",
+          "split": "development",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 240
+        },
+        {
+          "id": "000132",
+          "split": "holdout",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 240
+        },
+        {
+          "id": "000133",
+          "split": "development",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 240
+        },
+        {
+          "id": "000134",
+          "split": "holdout",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 240
+        },
+        {
+          "id": "000135",
+          "split": "development",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 720
+        },
+        {
+          "id": "000136",
+          "split": "holdout",
+          "changed": 8,
+          "textRewrites": 0,
+          "judgments": 720
+        },
+        {
+          "id": "000137",
+          "split": "development",
+          "changed": 6,
+          "textRewrites": 0,
+          "judgments": 720
+        },
+        {
+          "id": "000138",
+          "split": "holdout",
+          "changed": 0,
+          "textRewrites": 0,
+          "judgments": 720
+        }
+      ],
+      "invalidMixedSplitReviews": [
+        "repair-adjudication.json",
+        "repair-adjudication-round2.json"
+      ],
+      "reason": "Protected final adjudication is repeated in fresh split-only contexts."
+    }
+  },
+  "replenishment": {
+    "collection": "000136",
+    "reason": "Correct wrapper labels left99 negative candidates; add controls without changing source judgments.",
+    "source": {
+      "rows": [
+        {
+          "id": "p241",
+          "text": "Dear Elena, the library has reserved the meeting room for Thursday at 3 p.m. Please send the final attendance count by Tuesday so we can arrange enough chairs. I will bring the printed agendas and meet the speakers at the front desk.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p242",
+          "text": "The recovered incident log contains the literal string '[INSERT DATE]' in its timestamp field. That value appeared in the exported record and is included here so the data team can identify the affected entry. The export does not establish when the incident occurred.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p243",
+          "text": "Here is the paragraph you asked me to draft for the museum newsletter: The east gallery opens on Saturday with a display of maps made by local students. Visitors can compare the students' drawings with photographs of the same streets taken fifty years ago.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "Here is the paragraph you asked me to draft for the museum newsletter:"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p244",
+          "text": "The proposed announcement reads: Our repair counter will open an hour earlier on weekdays beginning Monday. Customers with existing appointments can keep their reserved times. If you'd like, I can also make this announcement shorter for the window sign.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "If you'd like, I can also make this announcement shorter for the window sign."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p245",
+          "text": "The overnight shelter opens at 7 p.m., and guests should enter through the courtyard gate. Staff will distribute blankets at check-in. As an AI language model, I cannot verify tonight's occupancy or whether every service listed here remains available.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "As an AI language model, I cannot verify tonight's occupancy or whether every service listed here remains available."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p246",
+          "text": "The new pedestrian route passes behind the station and rejoins Market Street near the pharmacy. I don't have access to the field notes you mentioned, so I have filled in a likely explanation: the route was chosen to keep walkers away from construction vehicles.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I don't have access to the field notes you mentioned, so I have filled in a likely explanation: the route was chosen to keep walkers away from construction vehicles."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p247",
+          "text": "Here is the donor update you requested: Volunteers planted forty young trees along the river path this spring. As an AI language model, I cannot confirm the survival count from the site records, but the planting has already made the path more inviting.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "As an AI language model, I cannot confirm the survival count from the site records"
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "Here is the donor update you requested:"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p248",
+          "text": "The park's proposed visitor notice says that the north trail closes at dusk while crews repair the footbridge. I can't access the maintenance schedule you referenced, so the reopening date remains uncertain. If you send it, I can revise this notice for you.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I can't access the maintenance schedule you referenced, so the reopening date remains uncertain."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "If you send it, I can revise this notice for you."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p249",
+          "text": "Residents ranked reliable bus service above additional parking in the neighborhood survey. citeturn48search2 The council will review the result alongside route costs before deciding how to use the transport budget. A public discussion is scheduled for next month's regular meeting.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "citeturn48search2"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p250",
+          "text": "The complete timetable is available in the attached route guide at sandbox:/mnt/data/autumn-route-guide.pdf. It lists the first and last departures for each stop, including the revised Sunday service. Printed copies will be available at the transit office.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "sandbox:/mnt/data/autumn-route-guide.pdf"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p251",
+          "text": "The draft annual letter thanks residents for helping restore the orchard after the winter storms. [Insert the exact number of replacement trees once you confirm it.] Neighbors donated tools, cleared fallen branches, and prepared the ground for spring planting.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Insert the exact number of replacement trees once you confirm it.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "[Insert the exact number of replacement trees once you confirm it.]"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p252",
+          "text": "For the speech you asked me to prepare, here's the closing passage: This garden grew from a shared belief that every block deserves a place to gather. [ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.] Thank you to everyone who made room for it.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": false,
+              "snippets": []
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "For the speech you asked me to prepare, here's the closing passage:"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p253",
+          "text": "The coastal survey recorded fewer nesting pairs on the western beach this season. citeturn61search4 As an AI language model, I cannot inspect the field sheets behind that count. The reserve plans to keep the western access path closed during the next nesting period.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "citeturn61search4"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "As an AI language model, I cannot inspect the field sheets behind that count."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p254",
+          "text": "The neighborhood kitchen served [FINAL MEAL TOTAL] lunches during the winter term. I don't have access to the tally sheet you referenced, so I estimated that demand rose by about a quarter from last year. Volunteers also added an evening collection window.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[FINAL MEAL TOTAL]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I don't have access to the tally sheet you referenced, so I estimated that demand rose by about a quarter from last year."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": false,
+              "snippets": []
+            }
+          ]
+        },
+        {
+          "id": "p255",
+          "text": "Here is the school bulletin item you requested: Families can collect replacement lunch cards from the main office starting Monday. [INSERT VERIFIED OFFICE HOURS.] As an AI language model, I cannot check the office schedule you mentioned. I can adjust the wording once you provide it.",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[INSERT VERIFIED OFFICE HOURS.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "As an AI language model, I cannot check the office schedule you mentioned."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "Here is the school bulletin item you requested:",
+                "I can adjust the wording once you provide it."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p256",
+          "text": "For the festival email you asked me to write, use this opening: The lantern walk begins at sunset near the old fountain. I cannot access the organizer's final program, so I have assumed the musicians perform first. [Replace that sequence when you confirm the program.]",
+          "labels": [
+            {
+              "check": "generated-residue/artifact-placeholders",
+              "expected": true,
+              "snippets": [
+                "[Replace that sequence when you confirm the program.]"
+              ]
+            },
+            {
+              "check": "generated-residue/llm-disclaimer",
+              "expected": true,
+              "snippets": [
+                "I cannot access the organizer's final program, so I have assumed the musicians perform first."
+              ]
+            },
+            {
+              "check": "generated-residue/response-wrapper",
+              "expected": true,
+              "snippets": [
+                "For the festival email you asked me to write, use this opening:"
+              ]
+            }
+          ]
+        }
+      ],
+      "filesRead": [
+        "/tmp/slopless-generated-residue-v22/definitions.json"
+      ]
+    },
+    "reviews": {
+      "replenish-blind": {
+        "judgments": [
+          {
+            "id": "p249",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "citeturn48search2"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p251",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[Insert the exact number of replacement trees once you confirm it.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "[Insert the exact number of replacement trees once you confirm it.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p250",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "sandbox:/mnt/data/autumn-route-guide.pdf"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p253",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "citeturn61search4"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot inspect the field sheets behind that count."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p246",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I don't have access to the field notes you mentioned, so I have filled in a likely explanation:"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p244",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "The proposed announcement reads:",
+                  "If you'd like, I can also make this announcement shorter for the window sign."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p242",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p252",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "For the speech you asked me to prepare, here's the closing passage:",
+                  "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p241",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p254",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[FINAL MEAL TOTAL]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I don't have access to the tally sheet you referenced, so I estimated that demand rose by about a quarter from last year."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p248",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I can't access the maintenance schedule you referenced, so the reopening date remains uncertain."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "If you send it, I can revise this notice for you."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p245",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot verify tonight's occupancy or whether every service listed here remains available."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p255",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[INSERT VERIFIED OFFICE HOURS.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot check the office schedule you mentioned."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the school bulletin item you requested:",
+                  "[INSERT VERIFIED OFFICE HOURS.]",
+                  "I can adjust the wording once you provide it."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p247",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot confirm the survival count from the site records"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the donor update you requested:"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p256",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[Replace that sequence when you confirm the program.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I cannot access the organizer's final program, so I have assumed the musicians perform first."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "For the festival email you asked me to write, use this opening:",
+                  "[Replace that sequence when you confirm the program.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p243",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the paragraph you asked me to draft for the museum newsletter:"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          }
+        ],
+        "filesRead": [
+          "/tmp/slopless-generated-residue-v22/definitions.json",
+          "/tmp/slopless-generated-residue-v22/000136/replenish-blind-input.json",
+          "/tmp/slopless-generated-residue-v22/000136/replenish-blind.schema.json"
+        ]
+      },
+      "replenish-adversarial": {
+        "judgments": [
+          {
+            "id": "p250",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "sandbox:/mnt/data/autumn-route-guide.pdf"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p253",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "citeturn61search4"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot inspect the field sheets behind that count."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p246",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I don't have access to the field notes you mentioned, so I have filled in a likely explanation"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p252",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "For the speech you asked me to prepare, here's the closing passage:",
+                  "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p256",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[Replace that sequence when you confirm the program.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I cannot access the organizer's final program, so I have assumed the musicians perform first."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "For the festival email you asked me to write, use this opening:",
+                  "[Replace that sequence when you confirm the program.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p247",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot confirm the survival count from the site records"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the donor update you requested:"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p254",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[FINAL MEAL TOTAL]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I don't have access to the tally sheet you referenced, so I estimated that demand rose by about a quarter from last year."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p241",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p248",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I can't access the maintenance schedule you referenced"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "If you send it, I can revise this notice for you."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p251",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[Insert the exact number of replacement trees once you confirm it.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "[Insert the exact number of replacement trees once you confirm it.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p255",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[INSERT VERIFIED OFFICE HOURS.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot check the office schedule you mentioned."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the school bulletin item you requested:",
+                  "I can adjust the wording once you provide it."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p244",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "The proposed announcement reads:",
+                  "If you'd like, I can also make this announcement shorter for the window sign."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p245",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot verify tonight's occupancy or whether every service listed here remains available."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p242",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p249",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "citeturn48search2"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p243",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the paragraph you asked me to draft for the museum newsletter:"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          }
+        ],
+        "filesRead": [
+          "/tmp/slopless-generated-residue-v22/definitions.json",
+          "/tmp/slopless-generated-residue-v22/000136/replenish-adversarial-input.json",
+          "/tmp/slopless-generated-residue-v22/000136/replenish-adversarial.schema.json"
+        ]
+      },
+      "replenish-final": {
+        "judgments": [
+          {
+            "id": "p254",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[FINAL MEAL TOTAL]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I don't have access to the tally sheet you referenced, so I estimated that demand rose by about a quarter from last year."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p244",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "If you'd like, I can also make this announcement shorter for the window sign."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p243",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the paragraph you asked me to draft for the museum newsletter:"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p248",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I can't access the maintenance schedule you referenced, so the reopening date remains uncertain."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "If you send it, I can revise this notice for you."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p245",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot verify tonight's occupancy or whether every service listed here remains available."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p247",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot confirm the survival count from the site records"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the donor update you requested:"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p241",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p246",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I don't have access to the field notes you mentioned, so I have filled in a likely explanation:"
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p251",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[Insert the exact number of replacement trees once you confirm it.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "[Insert the exact number of replacement trees once you confirm it.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p252",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "For the speech you asked me to prepare, here's the closing passage:",
+                  "[ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p250",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "sandbox:/mnt/data/autumn-route-guide.pdf"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p253",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "citeturn61search4"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot inspect the field sheets behind that count."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p249",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "citeturn48search2"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p256",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[Replace that sequence when you confirm the program.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "I cannot access the organizer's final program, so I have assumed the musicians perform first."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "For the festival email you asked me to write, use this opening:",
+                  "[Replace that sequence when you confirm the program.]"
+                ]
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p242",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": false,
+                "snippets": []
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": false,
+                "snippets": []
+              }
+            ],
+            "qualityIssues": []
+          },
+          {
+            "id": "p255",
+            "labels": [
+              {
+                "check": "generated-residue/artifact-placeholders",
+                "expected": true,
+                "snippets": [
+                  "[INSERT VERIFIED OFFICE HOURS.]"
+                ]
+              },
+              {
+                "check": "generated-residue/llm-disclaimer",
+                "expected": true,
+                "snippets": [
+                  "As an AI language model, I cannot check the office schedule you mentioned."
+                ]
+              },
+              {
+                "check": "generated-residue/response-wrapper",
+                "expected": true,
+                "snippets": [
+                  "Here is the school bulletin item you requested:",
+                  "I can adjust the wording once you provide it."
+                ]
+              }
+            ],
+            "qualityIssues": []
+          }
+        ],
+        "filesRead": [
+          "/tmp/slopless-generated-residue-v22/definitions.json",
+          "/tmp/slopless-generated-residue-v22/000136/replenish-final-input.json",
+          "/tmp/slopless-generated-residue-v22/000136/replenish-final.schema.json"
+        ]
+      }
+    }
   },
   "collections": [
     {
@@ -9345,8 +11450,8 @@
       },
       "active": {
         "passages": 240,
-        "textSha256": "4e4d885ba7fbe34d36b579cc99ed0aef861fb1af0b258609521699e930466115",
-        "labelsSha256": "f2c10b6cc51f1f8e4491e9ff50613472046a141994ff5aa05d645d4ed42cf387"
+        "textSha256": "0e27886310a9061ed112764123d311c4302372971d71824014b4e150f6fa67d9",
+        "labelsSha256": "4f45495d75e3812a489c412d51cb7f9ff9eaf50f76c8b6b82cea1b51f91a71f4"
       }
     },
     {
@@ -18639,7 +20744,7 @@
       "active": {
         "passages": 240,
         "textSha256": "99d7be2de3380a3fc6c1b4335ab6ea36945beece4a9712a9a9eb414aa2454281",
-        "labelsSha256": "4f2ce09ba6b99fb22a6e4c339281a9117d14a3d9f8bf80a46b1ace4f785e4399"
+        "labelsSha256": "99ddca828c7817ca7725f05beb003a5638e5fbbde724903cba68634dcc68fa9e"
       }
     },
     {
@@ -27920,7 +30025,7 @@
       "active": {
         "passages": 240,
         "textSha256": "ce780b5f9d04d33ecd6c7977229efbff7364a22407bdc37d99715f2725b21ecf",
-        "labelsSha256": "ee91e84f01dc6c01d42a3eb5b2ec92afb2fd756c8b1d044173c141872fd1ce7c"
+        "labelsSha256": "61a2b99518e63ef34c87953b51a7150a902a4d6a963af654f2f6e317a57f87e1"
       }
     },
     {
@@ -37279,7 +39384,7 @@
       "active": {
         "passages": 240,
         "textSha256": "366353f4eebeb5fe6f85eb0e94b556b291b56674ba41563082dfd29035810b8a",
-        "labelsSha256": "2ee0b911ebcf2d02d3014a2d0c4692c5951ceb69043684fb6660ce0e6a104c87"
+        "labelsSha256": "38c3cb98588c45abb4ec8ac9441852b68e60f7a90f542e9b1e18b8fcf1bcc2ab"
       }
     },
     {
@@ -46450,7 +48555,7 @@
       "active": {
         "passages": 240,
         "textSha256": "ae11ad6fcbcf8e3aaefde41bf6e5052d22737794ae7fce3cd505a4b826d261cb",
-        "labelsSha256": "b1affeff78846bae217fa8914b128285087a7b4b32effc81f13fd1ffc1fd3b6a"
+        "labelsSha256": "983661a6f9bd93c1f76558a73443b8a77629850efa36f63dd05e72482ea7be4d"
       }
     },
     {
@@ -55544,8 +57649,8 @@
       },
       "active": {
         "passages": 240,
-        "textSha256": "09427c7eb16eac79fc9e73a8699d03ab5f4013cbc9aabec6abc242772fe5b361",
-        "labelsSha256": "3da798a845ca0dfb9ac4a46e77f2daa3331cc9dd491580fe2e352c30e08d8192"
+        "textSha256": "87066a29b600edc1cae6e0328651db71bbef678bdc4a2d01e040c4c2f4ebeccc",
+        "labelsSha256": "636e8ea6583c82b6286bffde67d2a6400ab35b03892ec49fd028f1c71efe137a"
       }
     },
     {
@@ -74105,8 +76210,8 @@
       },
       "active": {
         "passages": 240,
-        "textSha256": "d7aa20045264ebf80b9d37eb94bf86b0e93823f0953616f1a3531136f754bf12",
-        "labelsSha256": "a734fc2683f64be7cc20ff84e75e73fecc95cae87dc3bc754b8549293822eb08"
+        "textSha256": "0519b3a7bfa57e84ab9f77baf4f5839bfebdf895199e4b750e21006a7c355815",
+        "labelsSha256": "418a0f4f976a4aaf42da16f371a0b00264d9857d838d568a7637291ba5ad0bba"
       }
     },
     {
@@ -94633,9 +96738,9 @@
         "requestedMixedCombination": 30
       },
       "active": {
-        "passages": 240,
-        "textSha256": "54d8a438774676cf2b8d9dc392453183a5dc2dcdc8a36248efc54d1c9b282262",
-        "labelsSha256": "6dd513a16006a8aba095a2fdb511f7c483c93ebacc258943f750ab463c118976"
+        "passages": 256,
+        "textSha256": "360a5167db763d2ae8c9fb4bc65323d92c8781386339a30e7a272d435b447fe4",
+        "labelsSha256": "1fee1d748cd78a581d5bdcf5726100d33e1c6f7a62a0b907a412e6e34298dfe0"
       }
     },
     {
@@ -113970,8 +116075,8 @@
       },
       "active": {
         "passages": 240,
-        "textSha256": "71f723c328204eb04a4388a1331333507643cd2fce51c3d4d2262e4dbc0ad12d",
-        "labelsSha256": "707bdabbd286266b348f21a73018b4358841d68e78987265bd815508f6ab7309"
+        "textSha256": "1cc80d1900e2c1856fe7593b5485b529f30baa3998caf8a07127e2c5ff030f81",
+        "labelsSha256": "68b29e381a12a45f821050b7af5aac4754bdd9ef31b72b232e786670d4e95164"
       }
     },
     {
@@ -132720,7 +134825,7 @@
       "active": {
         "passages": 240,
         "textSha256": "b79e5c07a8ee92c040ad26f2e5f2a31df5421d2e165267bd4af63d80f13c0d46",
-        "labelsSha256": "5c8b83b68e064d8612f3eecdd4454e8451c6f1c24db33afb91c90f07d306a006"
+        "labelsSha256": "dbdb80922a140dba182fb0ec598d0f20f826bee191a034b2a0fc353b603dc661"
       }
     }
   ]

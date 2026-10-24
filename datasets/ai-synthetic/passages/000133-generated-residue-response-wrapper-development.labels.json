@@ -4,10 +4,10 @@
   "source": {
     "name": "Codex-authored generated-residue-response-wrapper-development",
     "originalPath": "datasets/ai-synthetic/passages/000133-generated-residue-response-wrapper-development.md",
-    "commit": "ecaa831df14889c977d24115901fb8b12dafa24e",
+    "commit": "99e73874597faf010d5b13720f156df529e67ea9",
     "model": "gpt-6-sol",
     "prompt": null,
-    "notes": "Generated Residue candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Generated Residue candidate data at pool-reviewed stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -1232,7 +1232,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "I've updated the quarterly summary as you requested."
+        "I've updated the quarterly summary as you requested. The revised report text follows:"
       ]
     },
     {

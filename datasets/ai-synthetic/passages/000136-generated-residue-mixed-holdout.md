@@ -58,7 +58,7 @@ The field team photographed every damaged sign and recorded its location before 
 
 ## 000136-18c805f6976d
 
-Appointments can be booked online or by phone. Customers receive a confirmation message after choosing a time. [Insert approved customer testimonial here.] Opening hours and the address of the new office are listed below.
+Appointments can be booked online or by phone. Customers receive a confirmation message after choosing a time. [Insert approved customer testimonial here.] Opening hours and the address of the new office can be confirmed when booking.
 
 ## 000136-7efc1c41c5df
 
@@ -630,7 +630,7 @@ The theater will use the smaller stage while its lighting grid is replaced. Perf
 
 ## 000136-c4f60dcd69e5
 
-The cooperative offers collection points at the library, the train station and two schools. Members receive a weekly message when their produce box is ready. [Add the fourth collection point once the lease is signed.] Pickup begins at noon.
+The cooperative offers collection points at the library, the train station and one school. Members receive a weekly message when their produce box is ready. [Add the fourth collection point once the lease is signed.] Pickup begins at noon.
 
 ## 000136-bd745fa0b103
 
@@ -818,7 +818,7 @@ The proposed memorial text recalls a nurse who organized care during the flood. 
 
 ## 000136-5d5278871352
 
-The product page calls the desk suitable for classrooms and home offices. I cannot test its load capacity, so the weight limit in this draft should be checked. [Insert verified load rating.] Its folding legs allow compact storage.
+The product page calls the desk suitable for classrooms and home offices. I cannot test its load capacity, so any weight limit added to this draft should be checked. [Insert verified load rating.] Its folding legs allow compact storage.
 
 ## 000136-f656689e59f9
 
@@ -959,4 +959,68 @@ Use this response for residents: The street trees will be inspected after their 
 ## 000136-702045cc6b41
 
 The final newsletter copy is below. The restored clock now chimes on the hour after repairs to its striking mechanism. As an AI language model, I cannot confirm whether it has passed the final safety inspection. [Insert inspection result.] I can shorten this for social media.
+
+## 000136-53ad5aa840c6
+
+Dear Elena, the library has reserved the meeting room for Thursday at 3 p.m. Please send the final attendance count by Tuesday so we can arrange enough chairs. I will bring the printed agendas and meet the speakers at the front desk.
+
+## 000136-04ca8ebd002a
+
+The recovered incident log contains the literal string '[INSERT DATE]' in its timestamp field. That value appeared in the exported record and is included here so the data team can identify the affected entry. The export does not establish when the incident occurred.
+
+## 000136-b09766eb3cf9
+
+Here is the paragraph you asked me to draft for the museum newsletter: The east gallery opens on Saturday with a display of maps made by local students. Visitors can compare the students' drawings with photographs of the same streets taken fifty years ago.
+
+## 000136-3f5104e30713
+
+The proposed announcement reads: Our repair counter will open an hour earlier on weekdays beginning Monday. Customers with existing appointments can keep their reserved times. If you'd like, I can also make this announcement shorter for the window sign.
+
+## 000136-3c08c87da30b
+
+The overnight shelter opens at 7 p.m., and guests should enter through the courtyard gate. Staff will distribute blankets at check-in. As an AI language model, I cannot verify tonight's occupancy or whether every service listed here remains available.
+
+## 000136-045e75d0f8b7
+
+The new pedestrian route passes behind the station and rejoins Market Street near the pharmacy. I don't have access to the field notes you mentioned, so I have filled in a likely explanation: the route was chosen to keep walkers away from construction vehicles.
+
+## 000136-68bfdf27d5d7
+
+Here is the donor update you requested: Volunteers planted forty young trees along the river path this spring. As an AI language model, I cannot confirm the survival count from the site records, but the planting has already made the path more inviting.
+
+## 000136-7dc519bc84eb
+
+The park's proposed visitor notice says that the north trail closes at dusk while crews repair the footbridge. I can't access the maintenance schedule you referenced, so the reopening date remains uncertain. If you send it, I can revise this notice for you.
+
+## 000136-dd56bb671a70
+
+Residents ranked reliable bus service above additional parking in the neighborhood survey. citeturn48search2 The council will review the result alongside route costs before deciding how to use the transport budget. A public discussion is scheduled for next month's regular meeting.
+
+## 000136-97e7f8a4b0a4
+
+The complete timetable is available in the attached route guide at sandbox:/mnt/data/autumn-route-guide.pdf. It lists the first and last departures for each stop, including the revised Sunday service. Printed copies will be available at the transit office.
+
+## 000136-473d3a91c9f2
+
+The draft annual letter thanks residents for helping restore the orchard after the winter storms. [Insert the exact number of replacement trees once you confirm it.] Neighbors donated tools, cleared fallen branches, and prepared the ground for spring planting.
+
+## 000136-51b5fa1f390d
+
+For the speech you asked me to prepare, here's the closing passage: This garden grew from a shared belief that every block deserves a place to gather. [ADD VERIFIED OPENING DATE BEFORE YOU DELIVER THIS.] Thank you to everyone who made room for it.
+
+## 000136-954b0f252f8c
+
+The coastal survey recorded fewer nesting pairs on the western beach this season. citeturn61search4 As an AI language model, I cannot inspect the field sheets behind that count. The reserve plans to keep the western access path closed during the next nesting period.
+
+## 000136-58dcc80c88f0
+
+The neighborhood kitchen served [FINAL MEAL TOTAL] lunches during the winter term. I don't have access to the tally sheet you referenced, so I estimated that demand rose by about a quarter from last year. Volunteers also added an evening collection window.
+
+## 000136-e87d949a8ab0
+
+Here is the school bulletin item you requested: Families can collect replacement lunch cards from the main office starting Monday. [INSERT VERIFIED OFFICE HOURS.] As an AI language model, I cannot check the office schedule you mentioned. I can adjust the wording once you provide it.
+
+## 000136-ead286b78a57
+
+For the festival email you asked me to write, use this opening: The lantern walk begins at sunset near the old fountain. I cannot access the organizer's final program, so I have assumed the musicians perform first. [Replace that sequence when you confirm the program.]
 

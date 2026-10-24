@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "71f723c328204eb04a4388a1331333507643cd2fce51c3d4d2262e4dbc0ad12d",
+  "textSha256": "1cc80d1900e2c1856fe7593b5485b529f30baa3998caf8a07127e2c5ff030f81",
   "source": {
     "name": "Codex-authored mixed-generated-residue-boilerplate-and-signposting-development",
     "originalPath": "datasets/ai-synthetic/passages/000137-mixed-generated-residue-boilerplate-and-signposting-development.md",
-    "commit": "ecaa831df14889c977d24115901fb8b12dafa24e",
+    "commit": "99e73874597faf010d5b13720f156df529e67ea9",
     "model": "gpt-6-sol",
     "prompt": null,
-    "notes": "Generated Residue candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Generated Residue candidate data at pool-reviewed stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "development",
   "instructions": "Development writing; freeze the balanced reviewed collection before prompt tuning.",
@@ -1125,92 +1125,92 @@
     {
       "id": "000137-aafd8ac1c5a8",
       "start": 46803,
-      "end": 46973
+      "end": 46979
     },
     {
       "id": "000137-b9f24196a0b2",
-      "start": 46999,
-      "end": 47174
+      "start": 47005,
+      "end": 47180
     },
     {
       "id": "000137-26832bf68eef",
-      "start": 47200,
-      "end": 47363
+      "start": 47206,
+      "end": 47369
     },
     {
       "id": "000137-12c44f3117b8",
-      "start": 47389,
-      "end": 47564
+      "start": 47395,
+      "end": 47570
     },
     {
       "id": "000137-73ac113adf3a",
-      "start": 47590,
-      "end": 47770
+      "start": 47596,
+      "end": 47776
     },
     {
       "id": "000137-99fdce18696a",
-      "start": 47796,
-      "end": 47972
+      "start": 47802,
+      "end": 47978
     },
     {
       "id": "000137-1eb1bce8259a",
-      "start": 47998,
-      "end": 48158
+      "start": 48004,
+      "end": 48183
     },
     {
       "id": "000137-42c1ca19c10f",
-      "start": 48184,
-      "end": 48362
+      "start": 48209,
+      "end": 48387
     },
     {
       "id": "000137-0b0a33c945f2",
-      "start": 48388,
-      "end": 48546
+      "start": 48413,
+      "end": 48571
     },
     {
       "id": "000137-41a91c4e4d25",
-      "start": 48572,
-      "end": 48741
+      "start": 48597,
+      "end": 48766
     },
     {
       "id": "000137-c885a109a657",
-      "start": 48767,
-      "end": 48947
+      "start": 48792,
+      "end": 48979
     },
     {
       "id": "000137-2a1134a7014f",
-      "start": 48973,
-      "end": 49139
+      "start": 49005,
+      "end": 49171
     },
     {
       "id": "000137-aad7bb676e71",
-      "start": 49165,
-      "end": 49341
+      "start": 49197,
+      "end": 49373
     },
     {
       "id": "000137-bb5f7cd55b80",
-      "start": 49367,
-      "end": 49535
+      "start": 49399,
+      "end": 49567
     },
     {
       "id": "000137-b88882a925a9",
-      "start": 49561,
-      "end": 49744
+      "start": 49593,
+      "end": 49776
     },
     {
       "id": "000137-bead17442aec",
-      "start": 49770,
-      "end": 49939
+      "start": 49802,
+      "end": 49971
     },
     {
       "id": "000137-8fda579fad38",
-      "start": 49965,
-      "end": 50127
+      "start": 49997,
+      "end": 50159
     },
     {
       "id": "000137-08ff04512f2d",
-      "start": 50153,
-      "end": 50337
+      "start": 50185,
+      "end": 50369
     }
   ],
   "labels": [
@@ -1323,7 +1323,6 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "The launch email should say that existing subscribers can keep their current price through December.",
         "If you'd like, I can also adapt this email into the two-line notice for the billing screen."
       ]
     },
@@ -1360,7 +1359,6 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "The proposed help answer reads:",
         "In your final draft, change 'selected calendar year' to 'date range' once the new filter is released."
       ]
     },
@@ -1387,7 +1385,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the press release you asked me to draft.",
         "The key point is this:"
       ]
     },
@@ -1401,7 +1398,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before I give you the newsletter copy,"
+        "Before I give you the newsletter copy"
       ]
     },
     {
@@ -1409,7 +1406,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before I give you the newsletter copy, let me highlight why it matters."
+        "let me highlight why it matters."
       ]
     },
     {
@@ -1430,7 +1427,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've written the requested opening for the annual report below.",
         "What stands out most is this:"
       ]
     },
@@ -1489,8 +1485,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "The requested company profile needs a founding date",
-        "I'll use 2016 as a plausible year for this draft."
+        "The requested company profile needs a founding date"
       ]
     },
     {
@@ -1616,7 +1611,6 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "The requested clinic FAQ explains",
         "If you want, I can also prepare a version of the FAQ for the reception team's printed handout."
       ]
     },
@@ -1647,7 +1641,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the school announcement you asked me to write.",
         "The important thing is this:"
       ]
     },
@@ -1664,7 +1657,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before the article draft,",
+        "Before the article draft",
         "If you'd like, I can produce a shorter caption for the accompanying chart."
       ]
     },
@@ -1673,7 +1666,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before the article draft, one crucial point deserves attention."
+        "one crucial point deserves attention."
       ]
     },
     {
@@ -1698,7 +1691,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've prepared the donor letter you requested.",
         "Here is the bottom line:"
       ]
     },
@@ -2338,7 +2330,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "A question worth asking is this: what changed for riders?"
+        "A question worth asking is this:"
       ]
     },
     {
@@ -2997,10 +2989,7 @@
     {
       "id": "000137-2b3fccf7f514",
       "check": "generated-residue/response-wrapper",
-      "expected": true,
-      "snippets": [
-        "The draft menu note says"
-      ]
+      "expected": false
     },
     {
       "id": "000137-2b3fccf7f514",
@@ -3097,7 +3086,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the community update I drafted.",
         "The main thing to know is this:"
       ]
     },
@@ -3111,7 +3099,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before the requested invitation,"
+        "Before the requested invitation"
       ]
     },
     {
@@ -3119,7 +3107,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before the requested invitation, let me set the scene."
+        "let me set the scene."
       ]
     },
     {
@@ -3140,7 +3128,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've written a short donor note for you.",
         "Here is the heart of it:"
       ]
     },
@@ -3154,7 +3141,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "What follows is the requested website blurb,"
+        "What follows is the requested website blurb"
       ]
     },
     {
@@ -3162,7 +3149,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "What follows is the requested website blurb, and its value is easy to see."
+        "its value is easy to see."
       ]
     },
     {
@@ -3183,7 +3170,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Let me lead into the flyer copy with the central point."
+        "with the central point."
       ]
     },
     {
@@ -3196,7 +3183,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "The caption you asked for is below,"
+        "The caption you asked for is below"
       ]
     },
     {
@@ -3204,7 +3191,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The caption you asked for is below, and the takeaway is striking."
+        "the takeaway is striking."
       ]
     },
     {
@@ -3225,7 +3212,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is my version of the press statement.",
         "The important detail is this:"
       ]
     },
@@ -3239,7 +3225,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before I share the notice for residents,"
+        "Before I share the notice for residents"
       ]
     },
     {
@@ -3247,7 +3233,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before I share the notice for residents, consider why it matters."
+        "consider why it matters."
       ]
     },
     {
@@ -3268,7 +3254,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I have drafted the opening paragraph.",
         "Here is what really stands out:"
       ]
     },
@@ -3290,7 +3275,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The message I suggest for customers begins here.",
         "Above all, this is the crucial part:"
       ]
     },
@@ -3312,7 +3296,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here comes the newsletter item you requested.",
         "What does it tell us?"
       ]
     },
@@ -3334,7 +3317,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The paragraph for your annual report is ready.",
         "The honest truth is straightforward:"
       ]
     },
@@ -3356,7 +3338,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I'll give you the social post now.",
         "First, the exciting part:"
       ]
     },
@@ -3378,7 +3359,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "This is the letter opening I wrote for your appeal.",
         "The simple takeaway is that"
       ]
     },
@@ -3400,7 +3380,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Let me present the volunteer announcement.",
         "The key point to bear in mind:"
       ]
     },
@@ -3422,7 +3401,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "My proposed event listing follows.",
         "Why is it worth attention?"
       ]
     },
@@ -3444,7 +3422,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the tenant update in the tone you requested.",
         "At its core, the matter is simple:"
       ]
     },
@@ -3466,7 +3443,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The school announcement I prepared appears next.",
         "Here is the good news:"
       ]
     },
@@ -3480,7 +3456,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before the poster text,"
+        "Before the poster text"
       ]
     },
     {
@@ -3488,7 +3464,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before the poster text, I want to emphasize its central message."
+        "I want to emphasize its central message."
       ]
     },
     {
@@ -3509,7 +3485,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've put together the museum description.",
         "The most fascinating aspect is this:"
       ]
     },
@@ -3531,7 +3506,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "This is the proposed email for subscribers.",
         "Let me state the main thing upfront:"
       ]
     },
@@ -3553,7 +3527,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is how I would write the opening for the trail guide.",
         "The important part is easy to miss:"
       ]
     },
@@ -3575,7 +3548,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The fundraising copy you asked for starts below.",
         "Here is the heart of the appeal:"
       ]
     },
@@ -3597,7 +3569,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've prepared a concise update for your staff.",
         "What matters most is this:"
       ]
     },
@@ -3619,7 +3590,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Let me introduce the revised announcement.",
         "The story is bigger than it looks:"
       ]
     },
@@ -3641,7 +3611,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I have drafted the short welcome message.",
         "Here's what visitors should take away:"
       ]
     },
@@ -3663,7 +3632,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The homepage paragraph you requested is here.",
         "The central lesson is plain:"
       ]
     },
@@ -3690,7 +3658,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "The brief omits the number of households served, and I do not have the underlying register; I have guessed 600 for this article."
+        "I do not have the underlying register; I have guessed 600 for this article."
       ]
     },
     {
@@ -3762,7 +3730,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "The requested biography gives no award year, and I cannot consult the program archive; I have put 2018 into the draft as a likely date."
+        "I cannot consult the program archive; I have put 2018 into the draft as a likely date."
       ]
     },
     {
@@ -3816,7 +3784,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "The source packet lacks a construction cost, and I cannot access the project accounts; I will use $1.2 million as a plausible figure here."
+        "I cannot access the project accounts; I will use $1.2 million as a plausible figure here."
       ]
     },
     {
@@ -3978,7 +3946,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "No map scale appears in the materials for this heritage article, and I cannot open the survey file; I have called the tunnel 400 meters long."
+        "I cannot open the survey file; I have called the tunnel 400 meters long."
       ]
     },
     {
@@ -4842,7 +4810,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "the approved budget was not supplied to me"
+        "uses a $70,000 campaign goal because the approved budget was not supplied to me."
       ]
     },
     {
@@ -4850,7 +4818,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "My proposed donor email uses a $70,000 campaign goal"
+        "My proposed donor email"
       ]
     },
     {
@@ -4934,7 +4902,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "For the exhibition label,"
+        "For the exhibition label, I have used 1875 as the painting's date"
       ]
     },
     {
@@ -4989,7 +4957,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "since the incorporation papers were not provided"
+        "since the incorporation papers were not provided."
       ]
     },
     {
@@ -5039,7 +5007,6 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "The application instructions should direct builders to the online payment page.",
         "I can also prepare a printed handout."
       ]
     },
@@ -5053,7 +5020,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "assumes 35 partner schools because I was not given the signed roster"
+        "assumes 35 partner schools because I was not given the signed roster."
       ]
     },
     {
@@ -5158,7 +5125,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "although I cannot see the final board decision"
+        "although I cannot see the final board decision."
       ]
     },
     {
@@ -5187,7 +5154,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "For your newsletter,"
+        "For your newsletter"
       ]
     },
     {
@@ -5300,7 +5267,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the event recap you asked for.",
         "The most important result is this:"
       ]
     },
@@ -5317,7 +5283,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before I give you the brochure text,"
+        "Before I give you the brochure text"
       ]
     },
     {
@@ -5325,7 +5291,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before I give you the brochure text, let me underline the key message."
+        "let me underline the key message."
       ]
     },
     {
@@ -5349,7 +5315,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've prepared the museum label.",
         "Here's the striking part:"
       ]
     },
@@ -5374,7 +5339,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The requested clinic notice starts here.",
         "What matters most is this:"
       ]
     },
@@ -5391,7 +5355,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Let me share the annual review paragraph,"
+        "Let me share the annual review paragraph"
       ]
     },
     {
@@ -5399,7 +5363,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Let me share the annual review paragraph, beginning with the big picture."
+        "beginning with the big picture."
       ]
     },
     {
@@ -5423,7 +5387,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the visitor note in the tone you requested.",
         "The essential point is this:"
       ]
     },
@@ -5448,7 +5411,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've written the school email below.",
         "Here is the honest truth:"
       ]
     },
@@ -5465,7 +5427,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before the grant summary,"
+        "Before the grant summary"
       ]
     },
     {
@@ -5473,7 +5435,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before the grant summary, consider its central significance."
+        "consider its central significance."
       ]
     },
     {
@@ -5497,7 +5459,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is my proposed neighborhood announcement.",
         "The simple takeaway is this:"
       ]
     },
@@ -5506,7 +5467,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "I lack the route plan, so I have guessed the additional mileage."
+        "I lack the route plan, so I have guessed that the route adds 12 miles."
       ]
     },
     {
@@ -5522,7 +5483,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've drafted the donor appeal.",
         "What makes it powerful?"
       ]
     },
@@ -5547,7 +5507,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The product page copy follows.",
         "Let me highlight what matters:"
       ]
     },
@@ -5572,7 +5531,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here comes the festival listing you requested.",
         "The big news is that"
       ]
     },
@@ -5597,7 +5555,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I have the travel paragraph ready.",
         "The real story begins with"
       ]
     },
@@ -5614,7 +5571,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before I present the tenant letter,"
+        "Before I present the tenant letter"
       ]
     },
     {
@@ -5622,7 +5579,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before I present the tenant letter, the crucial detail deserves attention."
+        "the crucial detail deserves attention."
       ]
     },
     {
@@ -5646,7 +5603,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the opening for your report.",
         "The key point to grasp:"
       ]
     },
@@ -5655,7 +5611,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "I cannot access the lease, so I have guessed its address."
+        "I cannot access the lease, so I have guessed its address as 14 River Street."
       ]
     },
     {
@@ -5671,7 +5627,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The press statement I wrote is below.",
         "Here is the most important fact:"
       ]
     },
@@ -5688,7 +5643,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Let me introduce the FAQ answer,"
+        "Let me introduce the FAQ answer"
       ]
     },
     {
@@ -5696,7 +5651,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Let me introduce the FAQ answer, because the takeaway matters."
+        "because the takeaway matters."
       ]
     },
     {
@@ -5720,7 +5675,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the short campaign email.",
         "The central truth is simple:"
       ]
     },
@@ -5745,7 +5699,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've prepared the theater notice for you.",
         "What should audiences remember?"
       ]
     },
@@ -5754,7 +5707,7 @@
       "check": "generated-residue/llm-disclaimer",
       "expected": true,
       "snippets": [
-        "The project records are missing, so I have guessed the recovery percentage."
+        "The project records are missing, so I have guessed the recovery percentage at 60%."
       ]
     },
     {
@@ -5762,7 +5715,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before the profile copy,"
+        "Before the profile copy"
       ]
     },
     {
@@ -5770,7 +5723,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before the profile copy, here is the headline insight."
+        "here is the headline insight."
       ]
     },
     {
@@ -5794,7 +5747,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "This is the leaflet paragraph you requested.",
         "The bottom line is clear:"
       ]
     },
@@ -5819,7 +5771,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've put the property listing below.",
         "Here is the defining feature:"
       ]
     },
@@ -5836,7 +5787,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Let me share the revised article,"
+        "Let me share the revised article"
       ]
     },
     {
@@ -5844,7 +5795,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Let me share the revised article, starting with what matters."
+        "starting with what matters."
       ]
     },
     {
@@ -5868,7 +5819,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Here is the newsletter paragraph.",
         "Why is this significant?"
       ]
     },
@@ -5893,7 +5843,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "The invitation copy is ready.",
         "Here is what makes the evening special:"
       ]
     },
@@ -5910,7 +5859,7 @@
       "check": "generated-residue/response-wrapper",
       "expected": true,
       "snippets": [
-        "Before I provide the service update,"
+        "Before I provide the service update"
       ]
     },
     {
@@ -5918,7 +5867,7 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "Before I provide the service update, one truth deserves emphasis."
+        "one truth deserves emphasis."
       ]
     },
     {
@@ -5942,7 +5891,6 @@
       "check": "boilerplate-and-signposting/unnecessary-framing",
       "expected": true,
       "snippets": [
-        "I've drafted the closing for your fundraising letter.",
         "The key takeaway is simple:"
       ]
     }

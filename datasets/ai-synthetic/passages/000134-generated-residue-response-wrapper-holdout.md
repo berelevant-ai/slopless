@@ -338,7 +338,7 @@ The marine survey recorded fewer nesting birds on the northern island after wint
 
 ## 000134-ff90cdd97d42
 
-Here are two ways to phrase your opening; the first is more direct:
+Here is a way to phrase your opening:
 
 The new crossing shortens the walk to the school by five minutes. Its signals give children more time to cross the avenue during the morning rush.
 

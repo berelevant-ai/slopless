@@ -294,7 +294,7 @@ The makerspace now has a small laser cutter available during supervised sessions
 
 ## 000135-94e1bce8814c
 
-The orchard association will host a pruning demonstration beside the old packing shed. Participants should wear sturdy shoes and bring hand tools if they have them. For the event page, you can use the following draft and shorten the directions if space is tight.
+The orchard association will host a pruning demonstration beside the old packing shed. Participants should wear sturdy shoes and bring hand tools if they have them. For the event page, you can use this draft and shorten it if space is tight.
 
 ## 000135-078abcb9dbed
 

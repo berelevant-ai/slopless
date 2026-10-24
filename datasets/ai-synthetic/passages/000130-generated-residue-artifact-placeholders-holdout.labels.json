@@ -4,10 +4,10 @@
   "source": {
     "name": "Codex-authored generated-residue-artifact-placeholders-holdout",
     "originalPath": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
-    "commit": "ecaa831df14889c977d24115901fb8b12dafa24e",
+    "commit": "99e73874597faf010d5b13720f156df529e67ea9",
     "model": "gpt-6-sol",
     "prompt": null,
-    "notes": "Generated Residue candidate data at pool-original stage. Review records and detector predictions are separate; balanced selection follows complete review."
+    "notes": "Generated Residue candidate data at pool-reviewed stage. Review records and detector predictions are separate; balanced selection follows complete review."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
@@ -1275,7 +1275,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://museum.example.org/lectures?utm_source=chatgpt.com&utm_medium=referral"
+        "utm_source=chatgpt.com&utm_medium=referral"
       ]
     },
     {
@@ -1423,7 +1423,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "INSERT DATE"
+        "Join us on INSERT DATE"
       ]
     },
     {
@@ -1437,7 +1437,10 @@
     {
       "id": "000130-a04c3399cdaf",
       "check": "generated-residue/artifact-placeholders",
-      "expected": false
+      "expected": true,
+      "snippets": [
+        "Replace this sentence with a warmer transition before sending."
+      ]
     },
     {
       "id": "000130-c7edabbc08c1",
@@ -1467,7 +1470,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://market.example.org/reuse?utm_source=chatgpt.com&utm_campaign=answer"
+        "utm_source=chatgpt.com&utm_campaign=answer"
       ]
     },
     {
@@ -1557,7 +1560,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://rail.example.net/lost?utm_source=chatgpt.com"
+        "utm_source=chatgpt.com"
       ]
     },
     {
@@ -1655,7 +1658,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://coast.example.org/restoration?utm_source=openai&utm_medium=assistant"
+        "utm_source=openai&utm_medium=assistant"
       ]
     },
     {
@@ -1745,7 +1748,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "€[XX]"
+        "Small box: €[XX]"
       ]
     },
     {
@@ -1761,7 +1764,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://homes.example.com/report?utm_source=chatgpt.com&utm_medium=referral"
+        "utm_source=chatgpt.com&utm_medium=referral"
       ]
     },
     {
@@ -1833,7 +1836,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://forest.example.org/status?utm_source=chatgpt.com&utm_medium=answer"
+        "utm_source=chatgpt.com&utm_medium=answer"
       ]
     },
     {
@@ -1913,7 +1916,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "€X.XX"
+        "Pasta, €X.XX per kilogram"
       ]
     },
     {
@@ -1993,7 +1996,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://rail.example.net/access?utm_source=chatgpt.com&utm_medium=answer"
+        "utm_source=chatgpt.com&utm_medium=answer"
       ]
     },
     {
@@ -2113,7 +2116,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://walks.example.org/routes?utm_source=chatgpt.com&utm_medium=referral"
+        "utm_source=chatgpt.com&utm_medium=referral"
       ]
     },
     {
@@ -2185,7 +2188,7 @@
       "check": "generated-residue/artifact-placeholders",
       "expected": true,
       "snippets": [
-        "https://ferry.example.org/timetable?utm_source=chatgpt.com&utm_medium=answer"
+        "utm_source=chatgpt.com&utm_medium=answer"
       ]
     },
     {

@@ -26,7 +26,7 @@ When drafting a release, the communications team puts `[Insert approved customer
 
 ## 000129-48a6cb2b78e4
 
-The acquisition will bring the two maintenance teams under one regional manager. Customers will continue using their existing service numbers during the transition. The combined company expects to publish updated coverage maps in November. [Source needed for the claim about 40 percent faster repairs.]
+The acquisition will bring the two maintenance teams under one regional manager. Customers will continue using their existing service numbers during the transition. The combined company expects to publish updated coverage maps in November. [Source needed for the claim about updated coverage maps in November.]
 
 ## 000129-1a6dde8b38f8
 
@@ -474,7 +474,7 @@ The hospital has added a quieter waiting area for children receiving outpatient 
 
 ## 000129-908a17a63842
 
-The storm damaged several roofs in the old town, but the emergency shelter stayed open overnight. Volunteers distributed blankets and hot meals to displaced residents. [Source to verify number of affected homes] Repair teams began assessing buildings at daybreak.
+The storm damaged several roofs in the old town, but the emergency shelter stayed open overnight. Volunteers distributed blankets and hot meals to displaced residents. [Source to verify extent of roof damage] Repair teams began assessing buildings at daybreak.
 
 ## 000129-379c5622c7d7
 
