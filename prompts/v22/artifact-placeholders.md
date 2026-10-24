@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain an unfinished generated artifact adopted as content: an unresolved reference, insertion marker, dummy copy, inaccessible assistant-workspace link or generation-tracking residue?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage adopt any production artifact as its own presented content: generated citation notation, an unfinished insertion slot, dummy text, an assistant-local link or unintended model-origin tracking on a link?",
   "criteria": {
-    "true": "At least one unfinished reference, editorial slot, dummy fragment, assistant-local link or generation-tracking parameter remains in the passage's own presented content. Useful surrounding facts, quotation marks and code formatting can coexist with an adopted artifact.",
-    "false": "Every candidate is purposeful template material, a worked example, quoted error or source wording under discussion, a deliberately documented tracking parameter, or a usable reference; or no candidate occurs."
+    "true": "At least one citation or editing artifact is supplied with the passage's own claim, an assistant-local link is offered to its reader, or a reading link carries model-origin tracking without a stated measurement or debugging purpose. Useful information, a working URL or quotation formatting can coexist with adopted residue.",
+    "false": "Every candidate is itself the object of purposeful source, error, field or test discussion, a working template example or deliberately documented tracking; or only ordinary usable references occur. Identifying a broken marker in another document is useful source discussion."
   }
 }
 ---
@@ -14,6 +14,8 @@ Find unfinished production machinery left inside writing that presents its subje
 Read what each candidate does in the complete passage. An unresolved slot adopted by a report is residue; the same slot demonstrated by a publishing guide is useful content. A quotation can adopt an unfinished claim or document an error. Backticks, quotation marks, a heading or a technical genre alone decide neither role.
 
 Preserve functioning templates and ordinary links, measurements and source identifiers. A tracking parameter deliberately reproduced for analytics or debugging is purposeful. A placeholder discussed as the object of an instruction is different from an unfinished instruction embedded in proposed copy. Assess all candidates independently; one adopted artifact is enough.
+
+A working destination can still carry unwanted generation tracking. Judge the affix separately from the link's useful destination; preserve it when the passage explains an intentional measurement or debugging purpose. For citation and field markers, distinguish supplying an unresolved reference with the current claim from identifying the marker itself as a field, error or example in another document. Exact reproduction for that discussion is purposeful, including when the affected document was published.
 
 ## Development Examples
 
@@ -35,7 +37,7 @@ Our documentation shows a broken link exactly as it appeared in a support ticket
 
 ### No Hit
 
-The style guide uses `{{citation}}` as a placeholder in its example article template. Editors replace that token with a verified source before publication. The sample is deliberately incomplete so new contributors can see where a citation belongs and how the surrounding sentence should read.
+A documentation bug caused `[turn0search3]` to appear in last month's published minutes. The records team traced it to an export that copied an internal citation token into the PDF. The corrected minutes now name the auditor's report and include its public archive link.
 
 ### No Hit
 

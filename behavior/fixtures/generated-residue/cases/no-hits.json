@@ -1,0 +1,26 @@
+[
+  {
+    "id": "citation-object-field-in-error-report",
+    "text": "The parser logs the field name \"oai_citation\" when an export contains an unresolved citation object. Our incident report records that field so the publishing team can search the affected files and replace the objects with working references."
+  },
+  {
+    "id": "citation-object-in-test-documentation",
+    "text": "The serializer test uses `{\"oai_citation\": \"sample\", \"index\": 2}` as its input object. The assertion checks that the object becomes a readable link rather than raw JSON in the exported article."
+  },
+  {
+    "id": "content-reference-in-support-ticket",
+    "text": "The support ticket reproduces \":contentReference[oaicite:3]{index=3}\" as the text readers saw beside the chart. The export skipped its citation-resolution step, leaving the internal reference visible in the downloaded report."
+  },
+  {
+    "id": "content-reference-in-renderer-guide",
+    "text": "To test the renderer, pass `:contentReference[oaicite:7]{index=7}` as a sample marker. The renderer should display an unresolved-reference warning until the test supplies a source URL. This is an input example in the developer guide."
+  },
+  {
+    "id": "oaicite-in-export-diagnosis",
+    "text": "The export diagnosis identifies \"[oaicite:2]\" as an unresolved citation token. Engineers traced it to the second record in the source list and restored the missing destination before republishing the repayment notice."
+  },
+  {
+    "id": "oaicite-in-training-example",
+    "text": "The publishing workshop shows the broken token `[oaicite:11]` beside the corrected reference so editors can recognize this failure. Participants then open the source list and check that the exported link leads to the same document."
+  }
+]

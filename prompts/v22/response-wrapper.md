@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the passage contain any drafting or delivery language presenting its proposed text, prescribing that text's wording or arrangement, or offering further writing help?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does this passage speak as a helper presenting, prescribing, revising or offering proposed writing to its requester? Judge the communicative role of each clause, including embedded and indirect delivery language.",
   "criteria": {
-    "true": "A clause presents a prepared text or version, says how proposed copy should read, comments on its composition, or offers to adapt or complete it. Indirect and grammatically embedded drafting clauses qualify. Additional limitations or useful facts can coexist.",
-    "false": "Every candidate is ordinary correspondence, a useful reader action, a documented workflow or source discussion; a bare missing-content marker; an explanation of unavailable information and a guessed fact; or an evaluative announcement of a substantive point rather than proposed copy."
+    "true": "At least one clause stages delivery of proposed writing, presents what its draft contains, prescribes what its copy needs or how it should read, comments on its arrangement, or offers writing help. A clause can present the proposed text and its content before giving a limitation. Useful subject matter and the limitation do not erase that presentation.",
+    "false": "Every candidate serves ordinary correspondence, useful reader action, workflow documentation, source discussion or dialogue; names a bare missing-content slot; explains unavailable information and a guessed fact; or evaluates a substantive point's importance without presenting proposed copy."
   }
 }
 ---
@@ -11,19 +11,23 @@
 
 Find writing-process conversation left in the proposed finished passage. Cover introductions of a requested draft, narration of how its text was composed, comments about its tone or arrangement, offers of alternate versions, generic invitations for another response, and instructions to add, replace or rewrite material before use. Cover unseen wording and closing as well as opening positions.
 
-Look for the act of presenting or composing this text. A proposed notice can be introduced directly, described as ready or below, or discussed through what its wording should say, mention, claim or recommend. The author can announce what they used for a label, paragraph or version. No direct address or separate sentence is required. Instructions to complete missing content before publishing and offers to update a draft also qualify.
+Establish the drafting relationship before classifying vocabulary. A helper can introduce the prepared text, describe it as ready or below, prescribe what the requested copy needs to contain, or say how its wording should explain, claim or recommend something. No direct address or separate sentence is required. Instructions to complete missing content before publishing and offers to update a draft also qualify.
 
 Use the communicative role of each statement. An email can ask its recipient to send a document, and a procedure can explain editing steps as its subject. Those are useful communication. A helper telling the writing requester to insert a missing paragraph into the presented announcement is residue. Salutations, second person, imperatives and offers alone decide neither role.
 
-Distinguish three nearby functions. A generic announcement of an important point evaluates the subject, while a wrapper introduces the proposed text carrying that point. A factual report about what an existing document says describes a source, while prescribing or narrating the proposed wording exposes composition. An explanation that missing records forced a guessed fact exposes a limitation; its destination document alone supplies no wrapper. An additional proposed-copy clause can independently qualify.
+Treat missing information followed by an assumed fact as limitation narration, including composition verbs and a named destination draft. Require an additional clause presenting the deliverable, prescribing its wording or offering writing help. Naming where the guessed fact will go alone supplies no wrapper.
 
-Bare insertion markers name missing material; an instruction to a requester about completing or revising copy goes further. Preserve actual letters, useful reader tasks, workflow instructions and source discussion. Judge each candidate separately, allowing overlapping checks when separate functions are present.
+Read the clause's role, including its beginning. A clause that first presents the author's proposed text, draft, version or paragraph and names what it contains is delivery language, even if a later part explains missing information. A clause that first reports unavailable information and explains a guessed replacement is limitation narration; a later destination name alone remains part of that explanation. These functions can share one sentence, and a draft-content presentation need not contain an explicit introduction command.
+
+A lead-in can both introduce proposed writing and announce its importance. Assess those functions independently: staging delivery of a notice or placing commentary before proposed copy can qualify within the same significance-framing clause. Merely announcing an important detail, conclusion or candid answer evaluates the subject. Reporting what an existing document says describes a source.
+
+Bare insertion markers name missing material; an instruction to a requester about completing or revising copy goes further. Preserve actual letters, useful reader tasks, workflow instructions, dialogue and source wording examined or reproduced as evidence. Judge each candidate separately, allowing overlapping checks when separate functions are present.
 
 ## Development Examples
 
 ### Hit
 
-**Here is the newsletter introduction you requested:** The city library will open its renovated children's room on Monday. The new space has low shelves, quiet reading corners and a larger collection of books in Spanish and Portuguese. Families can visit during regular library hours.
+**The annual report paragraph below** assumes 35 partner schools because I was not given the signed roster. Each school receives a portable kit for classroom experiments.
 
 ### Hit
 
@@ -31,7 +35,7 @@ Bare insertion markers name missing material; an instruction to a requester abou
 
 ### Hit
 
-**For the exhibition label, I have used 1875 as the painting's date** because I cannot consult the catalog record here. The artist depicts the harbor before the breakwater.
+**Before I share the notice for residents**, consider why it matters. The building's new door system lets emergency crews enter without waiting for a staff member.
 
 ### No Hit
 
@@ -39,7 +43,7 @@ Hi Mara, could you send me the revised floor plan by Thursday? The electricians 
 
 ### No Hit
 
-When editing a shared procedure, make the change in a new branch and request review from the process owner. Include a link to the incident or policy decision that prompted the revision. After approval, publish the new version and record its effective date in the change log.
+Here is the candid answer: the supplied notes omit the number of stalls, so I have written that the market hosts 30 vendors. Doors open at eight.
 
 ### No Hit
 

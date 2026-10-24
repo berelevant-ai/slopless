@@ -52,6 +52,18 @@ node runners/jev.mjs validate --family narrative-craft --check body-emotion-shor
 - Validate each named check independently on its isolated and assigned mixed collections. Keep protected holdout inference separate from development.
 - These results classify complete passages. The narrative prompts identify weak occurrences; frequency reporting and span highlighting retain their separate stages.
 
+## Generated Residue
+
+Version `prompts/v22/` contains artifact placeholders, model disclaimers and assistant wrappers. The [development report](results/generated-residue-v22-development.md) records selected revisions, cutoffs and all remaining errors.
+
+```sh
+node runners/jev.mjs validate --family generated-residue --check response-wrapper --mode classification-only --development-only --dataset datasets/ai-synthetic/passages/000133-generated-residue-response-wrapper-development.md --prompts prompts/v22 --threshold 0.55 --batch-size 16 --model jev-1.13.0
+```
+
+- Use `run` with the same arguments and a new `--output` path for inference. Keep artifacts and disclaimers at `0.5`; wrappers use `0.55`.
+- Validate each isolated and assigned mixed collection independently. Join validated mixed outputs by collection, passage and full check name, applying each check's own cutoff.
+- Keep the mixed-B unnecessary-framing comparator at `prompts/v13` and `0.5`. Protected holdout inference requires separate authorization.
+
 ## Paragraph Experiment
 
 The scoped `jev-paragraphs.mjs` experiment reads a saved wordiness/redundancy mixed result, judges each plain paragraph for its two passage checks, and scores the original text labels by any positive paragraph. It preserves heading/opening pairs, rejects other Markdown block types through textlint's parser, and reuses whole-text repeated-explanation probabilities.

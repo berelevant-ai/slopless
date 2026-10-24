@@ -108,6 +108,9 @@ The ten collections contain 2,000 final passages and 3,600 judgments. Six isolat
 
 ## Comparison And Verification
 
+- Exercise legacy citation-object spellings absent from the balanced collections through supplementary source-format fixtures. Keep their results separate from the frozen 100/100 evaluations.
+  - Add six adopted-residue hits and six purposeful-discussion no-hits under `behavior/fixtures/generated-residue/cases/`. Review their labels blind before evaluating the frozen artifact prompt.
+  - Reuse the public runner through a temporary adapter of these application fixtures; retain source paths and hashes in the saved result receipt. Compare old deterministic behavior on the same inputs and review the supplementary Fixture3 diff.
 - Save the current deterministic CLI output once on the development inputs. Preserve raw identifiers, matched wording and branch signals; assign comparison judgments by the finalized V2 definitions.
   - Map legacy wrapper limitation branches to `llm-disclaimer`, including information-limit, advice-limit, expertise-limit and diagnosis-limit signals. Map its capability offers and follow-ups to `response-wrapper`.
   - Deduplicate legacy findings that represent the same passage/check judgment after mapping. Inspect ambiguous branches against source wording before scoring; retain all other findings separately.
@@ -153,4 +156,11 @@ The ten collections contain 2,000 final passages and 3,600 judgments. Six isolat
 - Global data validation passes for 15,783 documents and 56,253 labels. Dataset Fixture3 matches, and all six paragraph-runner contracts pass after the build completes.
 - The corrected selection passes independent verification with zero failures across 2,619 checks. Current selected-copy metadata covers 658,081,000 comparisons; 139 similar pairs remain within development, with zero exact, cross-split or prior matches.
 - Initial prompts contain 604, 659 and 644 assembled words. Nine development jobs complete; both artifact collections and two wrapper collections pass, while disclaimer and remaining wrapper coverage require tuning.
-- Final prompt selection and fresh confirmation remain unfinished. Holdout detector inference remains separately gated.
+- Select artifact revision seven at `0.5`, disclaimer revision three at `0.5` and wrapper revision six at `0.55`. Wrapper calibration uses the common `(0.52, 0.59]` development interval and fresh confirmation at its rounded midpoint.
+- All eight residue combinations pass selection and fresh confirmation. Confirmation catches 791/800 expected hits with seventeen false positives; every combination meets the 95/5 bounds.
+- Independent mixed joins find every expected issue in 172/175 affected passages in each mixture. Exact matches are 189/200 for mixed A and 183/200 for mixed B; the frozen signposting comparator contributes eleven false positives.
+- The deterministic comparison catches 115/800 positives with zero false positives. Confirmation adds 676 catches, retains all legacy catches and introduces seventeen false positives; reviewed Fixture3 output matches after approval.
+- Fresh review identifies missing literal citation-format coverage. Add twelve application fixtures, obtain blind agreement on every label, then test the frozen candidate. Its source-discussion false positive motivates a general artifact revision using an existing development demonstration; selection and fresh confirmation then pass all twelve fixtures.
+- The development report preserves every remaining error, copied-demonstration exclusions and ambiguous professional-scope and draft-presentation judgments. The balanced datasets remain unchanged throughout tuning and supplementary validation.
+- Build, version, lint, formatting, spelling, type coverage, global data validation, dataset Fixture3, six paragraph contracts and fifteen CLI configuration tests pass. Final independent review passes 167 checks across 45 complete native results; final pushed-commit CI supplies the remaining completion gate.
+- Holdout detector inference remains separately gated. Public production source and release behavior remain unchanged by this research work.
