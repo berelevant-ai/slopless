@@ -131,12 +131,13 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 - The complete family has 52 frozen collections: 10,400 passages and 16,000 judgments. Independent verification passes all 36 dataset gates; reviewed surplus and original candidate versions remain in Git.
 - All nineteen checks have completed isolated and mixed development runs. The frozen rhythm comparator remains separate; protected holdout inference has never run.
-- Thirteen checks have candidates confirmed within the fixed quality bounds on isolated and every applicable mixed collection. Six checks still need detector work.
+- Fifteen checks have candidates meeting the fixed quality bounds and fresh confirmation on the current labels. Bodily actions, empty beats, perception and narrative cliches remain unfinished; the combined independent checkpoint review is being repeated after a scope violation.
 - The final duplication screen finds zero candidates across 3,231,085,000 comparisons. Its hash-bound reference inventory verifies the original body-emotion pair was included.
 - Native prompts remain below 1,000 assembled words. Historical demonstration sets, exact responses, changed predictions, scope incidents and corrected word-count metadata remain in the development record and worklogs.
 - Timestamp and perception example-only revisions retain identical question prefixes. Compare them on the same 188 targets outside the union of their old and new demonstrations.
 - Fresh confirmations validate timestamp and personification cutoffs of 0.63 and 0.58, selected from broad development-only ranges. Preserve all original 0.5 scores and the preregistration record.
 - Fixed scenic metaphors passes its compressed candidate and confirmation at 0.5: 98 hits in all four runs, with three to five false positives. Preserve the compression regressions for the remaining six checks and test self-contained native questions next.
+- Gaze passes fresh confirmation at 0.34 with 97/five isolated and 99/two mixed. Silence passes at 0.39 with 100/two isolated and 100/one mixed; its earlier 94-hit mixed repeat at 0.5 remains preserved.
 - Next: complete the remaining checks without changing labels or definitions for detector scores, confirm each selected prompt on every applicable development collection, and obtain final independent verification before completion.
 
 ## Remaining Development Corrections
@@ -145,3 +146,12 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - For bodily actions, state the embodied-cue boundary in the native question and criteria. An abstract entity acting in a scene creates no bodily cue merely by mentioning a person or body part; preserve generic bodily reactions beside useful events.
 - Test those two corrections on unchanged isolated and mixed development. Preserve all examples and prior failures; require confirmation before selection.
 - Resolve disputed perception and cliche judgments through blind, definition-based review. Keep original scores and current labels while adjudication remains open; rebalance reviewed selections independently of detector scores if corrections change class counts.
+
+### Reviewed Label Corrections
+
+- Three blind reviewers agree on eleven corrections: nine perception hits become no-hits in `000117`, and two cliche no-hits become hits in `000123`. The tuning record and `/tmp/slopless-narrative-v21-full/unanimous-narrative-label-corrections.json` seal these decisions before reselection.
+- Keep both gaze labels unchanged. The practical machine inspection supports the reviewed no-hit; the looping worktop/cupboard sequence remains a hit. Preserve the split review rather than adding passage-specific prompt exceptions.
+- Apply the eleven corrections to the reviewed source pools, preserving all wording and other judgments. Preserve prior temporary source/selection files before replacement, and retain their committed frozen versions in Git.
+- Archive the corrected full pools in Git using the established packing process, then rerun the deterministic selector and final packing. Retain corrected hard cases; require 200 passages and 25 per independent three-check combination in both mixed collections.
+- Re-evaluate all three assigned checks on each changed collection. Reconfirm the four previously accepted neighboring checks: emotion-as-substance, fake-timestamps, empty-atmosphere-shift and low-information-physical-blocking. Their prior confirmation applies to the old selection.
+- Validate snippets, source/archive hashes, exact retained text, balanced counts and Fixture3 changes before accepting the updated data. Keep every earlier native result and report comparisons on common passage IDs separately from newly selected passages.
