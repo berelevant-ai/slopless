@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain body-action-density: a character's bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion whose own contribution is interchangeable reaction or staging rather than particular physical, perceptual, social or narrative information? Include animal characters, generalized sensations and involuntary or persistent feelings. Distinguish a character acting or feeling from an abstract entity acting metaphorically. Judge each cue's function in the connected passage, independently of other defects.",
+  "instructions": "Does target contain an interchangeable physical reaction, bodily sensation, gesture or vocal mannerism by a character? Judge the contribution of the character's cue itself in the connected passage. Use the supplied rulebook and state.instructions.",
   "criteria": {
-    "true": "At least one eligible character cue adds generic animation or emotional illustration rather than particular physical, perceptual, communicative or narrative information. Nearby useful work, speech or movement protects its own contribution, not every accompanying cue. A fitting emotion or conversational tone alone leaves a cue generic. Include generalized sensations and assertions of involuntary or persistent feeling. One weak cue suffices.\n\n### Hit\n\nNora had worked at the swimming pool for eleven summers. **She tilted her head slightly as she explained the membership system to me.** Residents paid half price, visitors paid full price, and everyone argued about which category their grandchildren belonged in. The council had supplied a laminated flowchart. Nora kept it under the till because it contradicted the prices printed on the tickets.\n\n### Hit\n\nAt the depot, the lost-property clerk produced a purple umbrella and a fishing rod. 'Neither is mine,' I said, **my voice low and even**. I had described a green canvas bag containing tap shoes. He checked another shelf and found three matching bags from the same dance school, all without names.\n\n### Hit\n\nFrom the ferry's upper deck, Mara could distinguish the island only by the gap it made in the lights along the coast. Her cousin had promised to leave the grocery door unlocked. Above it was the room where Mara would spend the winter, with somebody else's furniture and a view she had seen only in photographs. **She couldn't help feeling a deep sense of anticipation.** At dawn, the ferry passed the last fishing boat and began its turn toward the harbor.",
-    "false": "Every candidate supplies a supported physical relation, informative perception, particular social response or identifiable narrative function, or no eligible character cue occurs. An abstraction's metaphorical activity alone supplies no character cue, including when it mentions a person or body part. Preserve implicit communication, informative contrasts and sensory conditions even without a stated purpose or later consequence. Preserve expressions whose wording or identity is examined or documented.\n\n### No Hit\n\nMy wife put one finger against my wrist under the table. It meant I was telling the story too fast for her father to follow. I went back to the bit about the stranded taxi and left room between sentences. He asked his first question, and she took her hand away.\n\n### No Hit\n\nI couldn't shake the feeling of grit beneath my eyelid. Even after I rinsed it, each blink scraped the same place. The workshop mirror showed nothing. At the clinic, the nurse turned the lid back and removed a speck of metal, smaller than the dot I had made on the accident form.\n\n### No Hit\n\nI can still feel the ladder's rung across my insteps when I remember that afternoon. The photograph shows me painting the top corner of the window while my father steadies the ladder below. He had died by the time we developed the film. That pressure is how the whole afternoon comes back."
+    "true": "A person or animal makes at least one generic physical or vocal reaction, or feels a stock internal sensation or profound emotion, that merely animates the character or illustrates a fitting emotion. The cue adds no particular task, observation, physical condition, response or narrative relation. Useful actions elsewhere can coexist with this filler.",
+    "false": "Every character cue conveys particular physical, perceptual, interpersonal or narrative information, or there is no character cue. A metaphorical abstraction acting as a person is outside this check: emotion ruling a room or taking residence supplies no character movement or sensation. Other weak imagery or vague transitions cannot turn a functional physical action into filler. Wording examined or documented as wording is preserved."
   }
 }
 ---
@@ -11,18 +11,34 @@
 
 Input: passage.
 
-Read every connected paragraph. Assess characters' actions, gestures, posture, sensations, appearance, animal gestures, vocal reactions and felt emotions by their role, including generalized sensations and involuntary or persistent feelings. Generalize across unfamiliar wording, inflections and positions.
+Find the character's particular action or sensation, then assess what that exact cue contributes. Include generic nods, shrugs, smiles, ear/tail movements, voice tags, bodily reactions and assertions of involuntary or persistent feeling. One interchangeable cue suffices. Generalize across new verbs, body parts and wording.
 
-Identify who acts or feels. An abstract entity's metaphorical activity is distinct from a character's bodily cue, even when a person or body part is mentioned. Assess any separate character cue by its own function.
+An action can serve a practical or social function implicitly. Preserve communication, refusal, orientation, observation, sensory evidence, characterization, compression and pacing when the passage supplies particular information. A useful action and an unrelated bad metaphor can coexist: judge the action, not the passage's overall quality. Emotion as an abstract actor is different from a person experiencing a physical sensation.
 
-First establish how the passage uses the wording. Preserve a cue whose wording or identity is itself examined or documented. Assess adopted narration, ordinary dialogue and adopted quotations normally; quotation marks alone decide neither status.
+Quoted wording is preserved when its phrasing or accuracy is being examined or recorded. Ordinary dialogue and adopted quotations receive the same functional assessment as narration. Frequency and severity belong to the reporter.
 
-For each cue, recover what its movement or manner contributes in ordinary terms. Separate that contribution from the substantive speech, work or neighboring cue. A useful action can have an interchangeable attachment; assess the attachment without discarding the action's physical purpose.
+## Development Examples
 
-Read the cue's physical and interpersonal relations across the sequence. Preserve behavior that performs a task or addresses a constraint. Sensory evidence of a physical condition has content even when its cause remains unresolved. Neither a purpose clause nor a later consequence is required.
+### Hit
 
-A social cue can supply a particular response through its timing, addressee or contrast with the situation, including what participation it offers or withholds. The passage must support that relation. Merely inferring a fitting emotion, habitual manner or conversational tone leaves generic illustration; the emotion's plausibility is not the cue's function.
+Nora had worked at the swimming pool for eleven summers. **She tilted her head slightly as she explained the membership system to me.** Residents paid half price, visitors paid full price, and everyone argued about which category their grandchildren belonged in. The council had supplied a laminated flowchart. Nora kept it under the till because it contradicted the prices printed on the tickets.
 
-Preserve observation, orientation, characterization, compression and pacing through the particular information the cue supplies. Assess every cue independently: useful detail protects its own role, and another defect can coexist with a functional cue.
+### Hit
 
-Frequency, counting windows and severity are separate reporting concerns.
+At the depot, the lost-property clerk produced a purple umbrella and a fishing rod. 'Neither is mine,' I said, **my voice low and even**. I had described a green canvas bag containing tap shoes. He checked another shelf and found three matching bags from the same dance school, all without names.
+
+### Hit
+
+From the ferry's upper deck, Mara could distinguish the island only by the gap it made in the lights along the coast. Her cousin had promised to leave the grocery door unlocked. Above it was the room where Mara would spend the winter, with somebody else's furniture and a view she had seen only in photographs. **She couldn't help feeling a deep sense of anticipation.** At dawn, the ferry passed the last fishing boat and began its turn toward the harbor.
+
+### No Hit
+
+The search passed in a cloudy tumble. By closing time we had tried both spellings of my grandmother's married name and nearly exhausted the laptop battery. I turned its screen toward the librarian and pointed to the low-battery warning. She fetched a compatible charger from the desk drawer. Frustration had installed itself as my shadow. Under my grandmother's maiden name, the photograph appeared on the first page of results.
+
+### No Hit
+
+'You're signing for the whole delivery,' the driver said. I kept my hands in my pockets. Four crates were split open, and the form described all twelve as undamaged. He called his dispatcher while I stood beside the broken crates. The revised receipt recorded eight accepted and four returned.
+
+### No Hit
+
+I couldn't shake the feeling of grit beneath my eyelid. Even after I rinsed it, each blink scraped the same place. The workshop mirror showed nothing. At the clinic, the nurse turned the lid back and removed a speck of metal, smaller than the dot I had made on the accident form.

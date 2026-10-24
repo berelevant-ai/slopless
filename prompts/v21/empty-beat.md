@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage use a character's hesitation, waiting, lingering, stopping, briefly staying still or keeping pace, or a generic animal ear/tail gesture, merely to insert a pause or response between substantive events? Judge the behavior's own function: its relation to an ongoing process, resource constraint, another person's response, active physical need, informative perception, choice or particular narrative relation. Infer that function across connected sentences without requiring stated purpose or later consequence. A useful next action or conversational turn alone does not justify the preceding pause. Room mood, ambient silence and setting descriptions alone fall outside this character-behavior check.",
+  "instructions": "Does target contain a character's placeholder pause, wait, hesitation, stop, lingering, keeping pace or generic animal ear/tail response? Judge whether that particular interval or response merely pads the sequence, using its connected context and the supplied rulebook.",
   "criteria": {
-    "true": "At least one character's hesitation, delay, stop, continued stillness or matched movement, or generic animal ear/tail tag, only pads the sequence with a pause or response. Its own function remains generic even when surrounding actions are useful or emotional. Duration, setting, trigger or an upcoming task alone supplies no particular function.\n\n### Hit\n\nNadia stopped sorting when a zip caught the lining of a junior jacket. She eased the fabric free with a pencil and put the jacket in the repair pile. Around her, the other volunteers were tying laundry bags and clearing the hall for lunch. **She paused briefly** before counting the remaining uniforms. None of the smallest size had come back. On the stock sheet, she wrote the junior coach's name beside the missing six and left the sheet on his chair.\n\n### Hit\n\nWater leaked from the hose coupling onto my shoes. My nephew fetched a wrench from the volunteer, and we tightened the fitting before filling the trough. The goat stood in its pen, **its tail flicking once**. We coiled the hose by the gate as the volunteer arrived with chopped vegetables for the afternoon feed.\n\n### Hit\n\nSomeone had tied a warning to the canal bridge: a bird was nesting in the tire wedged below it. We stopped to look through the railing. Farther along, the council had resurfaced the path over the root where I used to trip. **My friend and I walked in step for a while** before turning toward the station.",
-    "false": "No eligible character pause/response occurs, or every such cue itself serves a passage-supported process, resource constraint, opportunity for another person's response, active physical need, informative perception, choice or particular narrative relation. That function can be implicit and need no later consequence. Ambient silence or room mood alone establishes no character behavior. Preserve wording examined or documented as wording.\n\n### No Hit\n\nWe walked from the station carrying a suitcase between us because one wheel had broken. Our pace stayed matched for a spell. At the flat, the lift was working for once. We rode up with a man balancing a birthday cake, all three of us avoiding the suitcase's dirty underside.\n\n### No Hit\n\n\"You could stay here,\" Dad said, moving the spare key toward me.\nI left it on the table. He had already put clean sheets on my old bed; I could see the pillowcase through the open door. Neither of us spoke for a while. Then he drew the key back and asked what time the last bus left.\n\n### No Hit\n\nThe fox stood beside the compost bin, one ear turning toward the hedge while the other faced us. Something scraped beneath the leaves. Its head snapped round, and a second fox emerged carrying a torn bread bag. From the kitchen window, my son counted them twice. He had been leaving drawings of a single fox on the fridge all week."
+    "true": "At least one character pause, delay, continued stillness, matched movement or generic ear/tail tag merely inserts a beat between events. A brief pause before doing the next task remains filler when the interval itself has no supported function. A fitting emotion, nearby useful work, location or duration alone does not give it one.",
+    "false": "There is no eligible character beat, or every beat has a supported role: waiting for a process or resource, allowing a reply, meeting an active physical need, coordinating a task, conveying information or making a particular choice or dramatic relation intelligible. Infer that role from connected context. Unrelated bodily emotion or room-mood slop cannot make functional waiting empty. Wording analyzed or documented as wording is preserved."
   }
 }
 ---
@@ -11,14 +11,35 @@
 
 Input: passage.
 
-Judge what each cue itself contributes across the complete connected passage.
+Read the whole passage, then identify what the pause or response itself does. Include unfamiliar ways of briefly stopping, waiting, remaining, hesitating, moving together and generic animal ear/tail gestures. One weak beat suffices.
 
-Cover pauses and responses expressed as actions, clauses or descriptions of an interval. Include hesitation, waiting, lingering, stopping, remaining still, continuing together or keeping pace, and generic animal ear/tail tags. One weak cue suffices, independently of sentence cadence and frequency.
+Distinguish an interval serving an ongoing need or external condition from an unexplained interval before the next activity. Waiting until a service opens, a person finishes checking or a reply becomes possible has content. Waiting merely before performing one's next action can be filler. A need elsewhere does not justify every pause; infer whether it is active during this interval.
 
-Preserve a cue whose own timing or response makes a particular choice, constraint, task, perception or relationship intelligible. Waiting can accommodate a process underway, a resource becoming available or another person's opportunity to respond. Stillness can meet an active physical need. Coordinated movement can serve a shared physical task or interpersonal relation. Infer these connections across the passage, including implicit ongoing physical and social functions.
+A concrete timing, choice, perception, relationship or physical purpose can be implicit and need no stated cause or later consequence. Merely suggesting a generic emotional reaction or slowing narration leaves an empty beat. Assess the pause separately from other slop in the same passage. Setting descriptions and atmospheric quiet by themselves are outside this character-behavior check. Frequency and sentence rhythm are separate checks.
 
-Observation, orientation, characterization, compression and pacing qualify through the particular content the cue supplies, without requiring a later action. Merely slowing the narration, marking time or suggesting a generic emotional reaction leaves the beat empty. A separate remark about briefly matching another person's movement needs its own function beyond ordinary travel.
+## Development Examples
 
-A task awaiting attention or a person's upcoming turn supplies only something to do next. Judge how the interval itself serves the situation. Useful work protects its own contribution; assess any independent delay or response beside it, even within the same sentence. An active need can support a pause while it persists without justifying every nearby delay. A resolved need cannot justify further delay. A trigger, duration, location or anatomical detail alone supplies no purpose.
+### Hit
 
-Preserve wording examined or documented as wording. Assess adopted narration and ordinary dialogue normally.
+Nadia stopped sorting when a zip caught the lining of a junior jacket. She eased the fabric free with a pencil and put the jacket in the repair pile. Around her, the other volunteers were tying laundry bags and clearing the hall for lunch. **She paused briefly** before counting the remaining uniforms. None of the smallest size had come back. On the stock sheet, she wrote the junior coach's name beside the missing six and left the sheet on his chair.
+
+### Hit
+
+Water leaked from the hose coupling onto my shoes. My nephew fetched a wrench from the volunteer, and we tightened the fitting before filling the trough. The goat stood in its pen, **its tail flicking once**. We coiled the hose by the gate as the volunteer arrived with chopped vegetables for the afternoon feed.
+
+### Hit
+
+Someone had tied a warning to the canal bridge: a bird was nesting in the tire wedged below it. We stopped to look through the railing. Farther along, the council had resurfaced the path over the root where I used to trip. **My friend and I walked in step for a while** before turning toward the station.
+
+### No Hit
+
+Nina opened the envelope and found two tickets instead of one. Happiness fizzed in her fingertips. Stillness filled the apartment. She waited until the booking office opened to ask whether the second ticket could be returned. Her brother had already bought his own for the same performance.
+
+### No Hit
+
+My calves were still trembling from the long descent, and I used the handrail all the way down the station steps. At the bottom I stopped for a little while before checking the departure board. The forecourt was empty of taxis, although the painted waiting bays stretched all the way from the ticket office to the road.
+
+### No Hit
+
+"You could stay here," Dad said, moving the spare key toward me.
+I left it on the table. He had already put clean sheets on my old bed; I could see the pillowcase through the open door. Neither of us spoke for a while. Then he drew the key back and asked what time the last bus left.
