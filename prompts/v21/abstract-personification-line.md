@@ -1,23 +1,23 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of abstract-personification-line: an abstract feeling, trait or social concept cast as an actor or spatial presence whose role in context is only an interchangeable emotional or evaluative payoff, rather than an intelligible account of particular behavior or thought?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of abstract-personification-line: an abstract feeling, trait or social concept given an actor or spatial role that supplies an emotional or evaluative gloss instead of explaining a particular action, motive, perception or consequence?",
   "criteria": {
-    "true": "At least one abstraction has an actor or spatial role that merely announces a feeling or evaluation. The passage supplies no specific causal or characterizing relation for that role. Include generic presence, absence, movement and denied space; intentional agency is optional. Concrete events beside the wording can coexist with this defect.",
-    "false": "Every candidate supplies an intelligible figurative account of a particular action, motive, choice, perception or consequence, functions as wording examined or documented as evidence, or is an established literal fictional entity; or no eligible construction occurs. The relevant detail can precede or follow the candidate across paragraphs."
+    "true": "At least one abstraction's actor or spatial role merely dramatizes what events mean or feel like. A fitting mood, theme or judgment can remain an interchangeable payoff even in a detailed scene. Include generic presence, absence, movement and denied space; intentional agency is optional.",
+    "false": "Every candidate explains how a particular motive, constraint or disposition operates in behavior, thought, perception or consequence, serves as examined or documented wording, or is an established literal fictional entity; or no eligible construction occurs. Preserve passage-supported causal accounts and characterization, including implicit and retrospective relations."
   }
 }
 ---
 # Abstract Personification Line
 
-Read the complete passage, including connected paragraphs. Resolve the referent and the abstraction's role from context rather than a noun's usual meaning. Cover unfamiliar wording, inflections and positions, including passive or static spatial relationships.
+Input: passage. Read every connected paragraph. Resolve the referent from the whole passage, including abstract meanings of nouns that can also denote concrete actors. Cover unfamiliar wording, inflections and positions, including passive and static spatial relationships.
 
 First distinguish adopted narration or dialogue from wording handled as evidence and literal entities established by the events. A phrase's identity or form can be the evidence. Quotation marks and genre alone decide neither status.
 
-Then identify what the abstraction explains about a particular behavior, thought, choice or perception. Preserve an intelligible motive, constraint or consequence, including retrospective explanations. Ordinary wording could express the same relation without making its figurative version defective.
+Distinguish explaining behavior from interpreting its emotional significance. A useful figure identifies how a motive, constraint or disposition operates in a particular action, perception, arrangement or consequence, or supplies particular characterization. Its relation remains intelligible in ordinary terms. Support may precede or follow the figure and can be implicit.
 
-Observation, orientation, characterization, compression and pacing can themselves supply a particular function; they need no later action. Distinguish that contribution from merely naming an emotion with an actor or spatial role. A concrete occasion for a feeling or useful activity nearby does not by itself make that role informative.
+A gloss instead gives events an emotional manager, occupant or verdict. Explaining why a feeling is plausible establishes its occasion; ask separately what the abstraction's role explains about behavior or thought. Thematic fit, vivid imagery and a coherent scene can accompany an interchangeable payoff.
 
-Assess each candidate separately. One interchangeable payoff is sufficient even beside meaningful writing. Another check's applicability supplies no exemption.
+Preserve particular observation, orientation, characterization, compression and pacing without requiring later action. Establish that contribution through the figurative relation itself rather than a general claim that it creates atmosphere. Assess each candidate separately; one weak payoff suffices beside useful writing or an overlapping defect.
 
 ## Development Examples
 

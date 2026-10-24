@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: an interchangeable bodily or vocal cue whose own contribution merely registers a reaction or keeps a character performing between substantive events?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: a bodily or vocal cue that supplies interchangeable reaction or staging rather than a passage-supported physical, communicative or narrative contribution of its own?",
   "criteria": {
-    "true": "At least one bodily or vocal cue supplies interchangeable staging or reaction annotation. Its emotional plausibility or proximity to useful information leaves that defect intact. Include generalized internal sensations and assertions that a feeling is involuntary or persists. A single weak cue suffices.",
-    "false": "Every candidate cue supplies particular physical information, purposeful behavior, a specific communicative response or another identifiable narrative function, or no eligible cue occurs. Preserve wording that the passage examines or documents as wording."
+    "true": "At least one cue merely keeps a character performing or illustrates a reaction. Accompanying useful speech or work supplies chronology, not the cue's own purpose. Plausible emotion, habit or tone can leave it interchangeable. Include generalized sensations and assertions of involuntary or persistent feeling. A single weak cue suffices.",
+    "false": "Every candidate contributes physical information, purposeful behavior, a specific response or another narrative function supported by the passage, or no eligible cue occurs. Preserve implicit signals, informative contrasts and sensory observations, including unresolved physical conditions. Preserve wording examined or documented as wording."
   }
 }
 ---
@@ -15,9 +15,11 @@ Read every connected paragraph. Assess actions, gestures, posture, sensations, a
 
 First establish how the passage uses the wording. When the cue's wording is itself being examined or documented, assess that framing before treating the cue as adopted narration. Assess ordinary dialogue and adopted quotations normally.
 
-For each eligible cue, ask what the reader learns from this cue beyond the fact that the character reacts. Inferring a plausible emotion from the surrounding event can leave the bodily annotation interchangeable. A cue that merely illustrates an already conveyed reaction remains eligible, including when attached to substantive speech or action.
+Separate the cue from the substantive speech or action it accompanies. Establish what this movement or manner contributes, rather than transferring the task's purpose or the dialogue's meaning to it. Merely performing a physically possible movement before or during useful work can still be staging.
 
-Preserve a cue whose particular contribution is supported by the passage: physical observation, a task or constraint, a specific interpersonal response, or an informative contrast. That support can be implicit in the sequence. Observation, orientation, characterization, compression and pacing need no later consequence; identify what the cue contributes to them. Mere chronology or a generic dramatic payoff supplies no such function.
+Read the cue together with its physical or interpersonal relations. Preserve bodily evidence of a condition, behavior addressing a practical constraint, and a specific signal or revealing contrast. These relations can be implicit; neither a purpose clause nor a later consequence is required. An observation can convey uncertainty about a physical condition.
+
+Then distinguish that contribution from an inferred emotion or imagined habit that could justify almost any gesture. Observation, orientation, characterization, compression and pacing are useful when the passage supports what this cue does for them. Generic animation or an emotional illustration remains eligible, including as an attachment to informative dialogue.
 
 Frequency, counting windows and severity are separate reporting concerns. Assess this defect independently of overlapping bodily-emotion, placeholder-beat or positioning defects.
 

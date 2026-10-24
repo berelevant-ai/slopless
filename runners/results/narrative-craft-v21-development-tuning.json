@@ -3987,7 +3987,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100 for the named check. Selected passages total 334 whitespace words. Hits cover generic emotion tagging beside purposeful quiet speech, decorative elapsed time beside concrete records, and omniscient foreshadowing. No-hits cover practical unnoticed breath-holding, socially consequential voice perception, and informative narrative compression. Each hit independently satisfies single-weak-cue semantics despite useful surrounding detail.",
         "concerns": []
       },
-      "status": "revision-needed",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -4114,7 +4114,57 @@
           }
         }
       ],
-      "b1AssembledWords": 692
+      "b1AssembledWords": 692,
+      "selected": "b0",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-narrative-cliches-b0-confirmation-000105-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "narrative-cliches",
+          "collection": "000105",
+          "cohort": "isolated",
+          "revision": "b0-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-narrative-cliches-b0-confirmation-000105-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/narrative-cliches-b0-confirmation-000105.log",
+          "developmentOnly": true,
+          "producingCommit": "e424a41580f14db1fce73507ae92dbb8ac66dd3e",
+          "assembledWords": 340,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md": "b1424d2f7b31c297fae6a8265d2c0ffe6aece9ab5a2bb868c5f80a58067568a3",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.labels.json": "95006809f3b3aa1e065ae24d80b8981a13e0444128210da6538d9f1ebff67dc3",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/narrative-cliches.md": "8fb0e6f35194ce2ce9bfb36a02f3b6d6e194a70bf4d27f3262d90586fb149f14",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 4178,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "4af3c82c35de6395d63418017175a2f4d128d9b95d03cf4c78a3b2a52d254f60"
+        },
+        "caught": 96,
+        "misses": [
+          "000105-323da9fe1570",
+          "000105-48206be85a89",
+          "000105-b3f44951c6e8",
+          "000105-d3294cfb28ef"
+        ],
+        "falsePositives": 2,
+        "falseAlarms": [
+          "000105-dbd028cdb417",
+          "000105-e9a2c57553b6"
+        ]
+      }
     },
     "perception-verb-density": {
       "dataStatus": "frozen-isolated",
@@ -5265,5 +5315,26 @@
         }
       ]
     }
-  ]
+  ],
+  "inputScopeIncidents": [
+    {
+      "pass": "timestamps-perception-b3",
+      "status": "invalidated",
+      "reason": "Author saw adjacent gaze development analysis beyond permitted inputs; no holdout material read. Both candidates restored to b2 and a fresh restricted authoring pass is running.",
+      "reportSha256": "7bfe414c8905ec9f8b9f5f7baaf4294549b8f19cfdf7bb84fb10e6a81052da0c"
+    }
+  ],
+  "metadataGuard": {
+    "driver": "/tmp/rhythm-v19-native-jobs.mjs",
+    "driverSha256": "4af3c82c35de6395d63418017175a2f4d128d9b95d03cf4c78a3b2a52d254f60",
+    "verification": {
+      "invalidJobExit": 1,
+      "reported": 341,
+      "actual": 340,
+      "failedAtExpectedAssertion": true,
+      "providerOutputCreated": false,
+      "providerLogCreated": false,
+      "summaryCreated": false
+    }
+  }
 }

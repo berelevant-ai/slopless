@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of low-information-beat-density: a physical reaction beat whose own contribution merely registers a reaction rather than supplying particular information or an identifiable narrative function?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of low-information-beat-density: a physical reaction beat that merely annotates emotional reception or fills a pause, rather than conveying a passage-supported physical condition, purposeful response or narrative function?",
   "criteria": {
-    "true": "At least one interchangeable physical reaction beat merely annotates a response. A plausible emotion or an assertion of registering the event can still be generic annotation. Useful information elsewhere preserves its own role while a separate weak beat remains eligible.",
-    "false": "Every eligible reaction beat supplies a particular observation, task, thought, choice, consequential communication or another identifiable narrative function, or no eligible beat occurs. Preserve wording that the passage examines or documents as wording."
+    "true": "At least one beat gives only generic physical annotation of a character's reaction. Emotional plausibility or an assertion of registering events supplies no particular observation or thought. Useful surrounding information leaves a separate weak beat eligible. One occurrence suffices.",
+    "false": "Every candidate conveys a particular physical observation, task, thought, choice, communicative response or other supported narrative function, or no eligible beat occurs. Physical causes, practical adjustments and purposeful restraint can make a familiar reaction informative. Preserve examined or documented wording."
   }
 }
 ---
@@ -15,9 +15,11 @@ Read every connected paragraph. Catch interchangeable reactions expressed throug
 
 First establish how the passage uses the wording. When a beat's wording is itself being examined or documented, assess that framing before treating it as adopted narration. Assess ordinary dialogue and adopted quotations normally.
 
-For each eligible beat, ask what the reader learns from this beat beyond the fact that the character reacts. Registering an event is not itself a particular perception or thought. A plausible emotional reading can leave the physical annotation interchangeable, even when the surrounding scene is informative. An appended reaction can redundantly illustrate what the passage already conveys.
+First determine what the beat describes in context: a particular physical or interpersonal relation, or merely a character receiving the emotional significance of events. Read bodily wording with its causal relations. A familiar reaction can convey a real physical condition or purposeful adjustment; the reaction's conventional form does not erase that information.
 
-Preserve a beat whose particular contribution is supported by the passage: an informative observation, a concrete task or constraint, a choice, consequential communication or another narrative function. That support can be implicit in the sequence or a contrast. Observation, orientation, characterization, compression and pacing need no later consequence; identify what the beat contributes to them.
+Preserve informative observation, concrete tasks or constraints, choices and specific communication, including purposeful restraint. Support may be implicit in a sequence or contrast. Observation, orientation, characterization, compression and pacing need no later consequence. Identify what the beat contributes rather than demanding an additional event to justify it.
+
+For emotional annotation, distinguish a plausible interpretation from information supplied by the beat itself. An assertion of registering events supplies no particular perception or thought. A weak reaction can redundantly illustrate an emotion already conveyed, even beside useful actions. Assess each cue's own role instead of transferring the surrounding scene's purpose to it.
 
 A single weak beat qualifies. Frequency, windows and severity belong to separate reporting; neither repeated occurrences nor different cue categories are required.
 
