@@ -39,7 +39,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 2. Review the nineteen definitions independently before generation. Retain their accepted names, permit overlap and preserve every source branch; approve no consolidation that silently reduces this full-family goal.
 3. Start with small development and protected holdout pilots. Review realism and classifications before expanding any collection; preserve ordinary storytelling, informative physical actions and useful scene details as hard controls.
 4. Generate 240 candidates per isolated collection, then perform blind classification, adversarial label review and fresh final review. Reconcile mistakes, review rewritten passages and freeze exactly 100 hits and 100 no-hits per check and split.
-5. Create mixed collections after testing whether their label combinations are independently possible. Assess every named check separately and preserve passages with several simultaneous defects.
+5. Create mixed collections after testing whether their label combinations are independently possible. Assess every named check separately and preserve passages with several simultaneous defects. Target 25 examples per combination while retaining reviewed hard cases and exact per-check 100/100 margins.
 6. Freeze datasets before prompt tuning. Keep holdout writing and individual labels outside the authoring context; use distinct protected authors and reviewers with explicit permitted-input lists.
 7. Reuse the existing dataset reader and Jev runner. Keep prompts under `prompts/v21/`, paired datasets under root `datasets/ai-synthetic/passages/` and results under `runners/results/`.
 8. Tune each check on isolated and relevant mixed development data. Preserve all trials, then run one fresh confirmation of the selected prompt and review every error or changed prediction.
@@ -95,7 +95,8 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Mixed E covers atmosphere shifts, physical blocking and narrative cliches.
 - Mixed F covers emotional weather, low-information beats and fixed scene metaphors.
 - Mixed G covers silence as actor, body-emotion shorthand and the frozen rhythm `flat-action-cadence` comparator.
-- Review logical compatibility before generating combinations. For three independently possible judgments, use 25 passages per combination and 100 hits/100 no-hits per check; correct the grouping before generation if an implication makes that impossible.
+- Review logical compatibility before generating combinations. For three independently possible judgments, target 25 passages per combination and require 100 hits/100 no-hits per check; correct the grouping before generation if an implication makes that impossible.
+- When mandatory reviewed cases exceed a combination's target, preserve all of them and choose integer combination counts with the smallest maximum deviation from 25, then smallest total deviation, then lexicographic order. Keep 200 passages, every combination represented and all three 100/100 margins fixed. Freeze this choice before detector evaluation.
 - The combined target is 52 paired collections and 10,400 passages, including the existing body-emotion data. Keep all labels minimal, preserve difficult reviewed cases and archive surplus before balancing.
 
 ## Prompt Evaluation
@@ -129,9 +130,9 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Execution Status
 
-- The complete family has 52 frozen collections: 10,400 passages and 16,000 judgments. Independent verification passes all 36 dataset gates; reviewed surplus and original candidate versions remain in Git.
+- The complete family has 52 frozen collections: 10,400 passages and 16,000 judgments. After eleven label corrections and four additions, independent verification passes 12,522 data assertions; reviewed surplus and original candidate versions remain in Git.
 - All nineteen checks have completed isolated and mixed development runs. The frozen rhythm comparator remains separate; protected holdout inference has never run.
-- Fifteen checks meet the fixed quality bounds and fresh confirmation on the current labels. A fresh independent audit passes 363 assertions across 65 saved runs and 31 balanced cohorts. Bodily actions, empty beats, perception and narrative cliches remain unfinished.
+- The pre-correction checkpoint confirmed fifteen checks through 363 assertions across 65 saved runs. Four accepted neighboring checks require confirmation on the changed mixed selections; bodily actions, empty beats, perception and narrative cliches remain unfinished.
 - The final duplication screen finds zero candidates across 3,231,085,000 comparisons. Its hash-bound reference inventory verifies the original body-emotion pair was included.
 - Native prompts remain below 1,000 assembled words. Historical demonstration sets, exact responses, changed predictions, scope incidents and corrected word-count metadata remain in the development record and worklogs.
 - Fresh confirmations validate timestamp and personification cutoffs of 0.63 and 0.58, selected from broad development-only ranges. Preserve all original 0.5 scores and the preregistration record.
@@ -152,6 +153,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Keep both gaze labels unchanged. The practical machine inspection supports the reviewed no-hit; the looping worktop/cupboard sequence remains a hit. Preserve the split review rather than adding passage-specific prompt exceptions.
 - Apply the eleven corrections to the reviewed source pools, preserving all wording and other judgments. Preserve prior temporary source/selection files before replacement, and retain their committed frozen versions in Git.
 - Preflight finds only 21 passages remaining in `000117` combination `010`: emotion-as-substance no-hit, perception hit, fake-timestamps no-hit. Generate four new realistic development passages for that combination and independently review all three labels before adding them. Collection `000123` already has at least 25 reviewed passages in every corrected combination.
-- Archive the corrected full pools in Git using the established packing process, then rerun the deterministic selector and final packing. Retain corrected hard cases; require 200 passages and 25 per independent three-check combination in both mixed collections.
+- Archive the corrected full pools in Git using the established packing process, then rerun the deterministic selector and final packing. Retain every mandatory reviewed case; require 200 passages and 100 hits/100 no-hits per check.
+- Selection initially stops because `000117` has 27 mandatory `000` controls. Independent mathematical review verifies counts `[27,24,24,25,24,25,25,26]` in binary combination order: all mandatory cases fit and all three margins remain 100/100. This is the unique minimum-total-deviation solution at the smallest feasible maximum deviation of two. `000123` retains uniform 25s. Record the combination weights and compare candidates on identical frozen inputs.
 - Re-evaluate all three assigned checks on each changed collection. Reconfirm the four previously accepted neighboring checks: emotion-as-substance, fake-timestamps, empty-atmosphere-shift and low-information-physical-blocking. Their prior confirmation applies to the old selection.
 - Validate snippets, source/archive hashes, exact retained text, balanced counts and Fixture3 changes before accepting the updated data. Keep every earlier native result and report comparisons on common passage IDs separately from newly selected passages.
