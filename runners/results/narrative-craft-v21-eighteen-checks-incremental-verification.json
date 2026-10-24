@@ -1,0 +1,1632 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-24T02:57:52Z",
+  "status": "historical-eighteen-check-development-checkpoint-supported",
+  "scope": {
+    "purpose": "Verify twelve saved runs for three newly accepted checks and retain the four corrected-data neighbor confirmations. Use the prior fifteen-check audit for the other checks.",
+    "newChecks": [
+      "body-action-density",
+      "empty-beat",
+      "narrative-cliches"
+    ],
+    "nativeRunsReverified": 16,
+    "newNativeRuns": 12,
+    "neighborConfirmationRuns": 4,
+    "distinctHistoricalCohorts": 10,
+    "distinctHistoricalPassages": 1400,
+    "distinctHistoricalPassageCheckJudgments": 2000,
+    "repeatedNativeDecisions": 3200,
+    "delegation": false,
+    "providerInference": false,
+    "holdoutRead": false,
+    "fullTaxonomyRead": false,
+    "tuningRecordRead": false,
+    "dataReviewRead": false,
+    "labelMining": false,
+    "repositoryEdits": false,
+    "secondaryReviewer": "This fresh verification uses one context, as required by the no-delegation instruction.",
+    "labelDisputes": "Existing label disputes and decisions remain separately tracked. This report preserves the producing datasets and their labels."
+  },
+  "currentState": {
+    "certifiesCurrentRepackedData": false,
+    "historicalCheckpointOnly": true,
+    "userReportedFullPoolArchive": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+    "userReportedRepackedCollections": [
+      "000107",
+      "000115",
+      "000117"
+    ],
+    "observedChangedInScope": [
+      "000115",
+      "000117"
+    ],
+    "observedUnchangedInScope": [
+      "000081",
+      "000089",
+      "000105",
+      "000121",
+      "000123"
+    ],
+    "effect": "The saved empty mixed 000115 evidence and the timestamp/emotion mixed 000117 neighbor evidence refer to the previous balanced inputs. Body and cliche pairs remain unchanged.",
+    "nextEvidence": "The main session will evaluate the seven changed cohorts after the balanced dataset commit. That work supplies the next current-data checkpoint.",
+    "familyComplete": false
+  },
+  "priorEvidence": {
+    "fifteenCheckAudit": {
+      "path": "runners/results/narrative-craft-v21-fifteen-checks-development-audit.json",
+      "sha256": "c58b65697f46331fd080b9692f7ed83048d61923867ab39676e213aeadc53273",
+      "checks": 15,
+      "cohorts": 31,
+      "savedRuns": 65,
+      "assertions": 363,
+      "role": "Carried forward by reference as historical evidence. The four neighbor confirmations below update the changed-collection evidence for four of those fifteen checks."
+    },
+    "earlierIndependentReview": {
+      "path": "/tmp/slopless-narrative-v21-full/repair1-core3-independent-review.json",
+      "sha256": "545927f371e47a1cda18dc35fbfabb6a686d18350099ce71c7821324e65a2374",
+      "role": "Earlier verification of native provenance, source datasets, Fixture3 changes and four accepted neighbor confirmations."
+    },
+    "coverage": "The prior fifteen plus these three distinct checks support the historical eighteen-check milestone. Perception-verb-density is outside this incremental acceptance verification; the nineteen-check family remains unfinished."
+  },
+  "verification": {
+    "method": [
+      "Selected exactly the twelve requested check/revision/cohort runs from the three receipts, excluding the other trial entries.",
+      "Compared all selected original job fields to their execution receipts.",
+      "Checked every input hash against the producing Git commit, rather than the subsequently edited worktree.",
+      "Materialized each named development pair with git archive from its own producing commit. Used public development-only preflight and dataset loading against those exact bytes.",
+      "Used committed prompts to reconstruct the public snapshot. Restored only the recorded logical dataset path after public createSnapshot hashed the temporary physical copy; all content, label, target and prompt hashes remained verified.",
+      "Public validateResult returned complete for all sixteen results. Reconstructed every saved batch request and validated response identity, batch sequence, probabilities, usage and native inference seal.",
+      "Public score reproduced every complete original native summary exactly. Public scoreMixed reproduced each saved mixed summary.",
+      "Parsed the execution logs and verified complete status, 200 decisions, 13 requests and exact original summaries. Verified the pinned SDK manifest and entry hashes and the exact native launcher hash.",
+      "Recomputed the two calibrated source runs at the selected cutoff without changing any saved result. Kept these scores distinct from the original native 0.5 summaries.",
+      "Verified committed cutoff statements before the first fresh confirmation response, unchanged prompt hashes across source/confirmation pairs, and full hundredth-grid feasible intervals.",
+      "Matched all six current literal demonstrations per selected check to exact historical development passages after removing bold markup only.",
+      "Scanned all 91 versioned v21 prompt blobs reachable at fd24623f for exact full-passage text, including examples outside the current six. Excluded the union of matches across the seven scoped development collections.",
+      "Recomputed demonstration-excluded scores with public score. No passage or label was changed."
+    ],
+    "publicCompleteResults": 16,
+    "exactNativeSummaryMatches": 16,
+    "batches": 208,
+    "model": "jev-1.13.0",
+    "mode": "classification-only",
+    "batchSize": 16,
+    "decisionsPerRun": 200,
+    "sdkVersion": "0.7.0",
+    "sdkManifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+    "sdkEntrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+    "launcherSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d",
+    "acceptance": {
+      "fullCohort": "At least 95 caught of 100 positives and at most five false positives of 100 negatives.",
+      "demonstrationExcluded": "Report actual remaining class denominators. The additional sensitivity check uses at least 95% recall and at most 5% false-positive rate; it preserves the original full-cohort acceptance rule."
+    },
+    "materialization": {
+      "method": "git archive each receipt's producing commit; extract only the named development dataset pair",
+      "pairs": 14,
+      "temporaryDirectory": "/var/folders/04/60qvc12j259_3sx6n2hxnldc0000gn/T/slopless-incremental-verification-iEj8tz",
+      "logicalPathHandling": "createSnapshot hashes materialized bytes; its temporary dataset path is restored to the receipt's recorded logical dataset path before validateResult.",
+      "removed": true
+    }
+  },
+  "sourceManifests": [
+    {
+      "path": "/tmp/slopless-narrative-v21-full/development-core4-four-executions.json",
+      "sha256": "015a73a9c4132a415f1bae2631bd1914a70a1becbfb61501b554c08f00edaa9c"
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/development-core5-and-confirmation-six-executions.json",
+      "sha256": "5f392b07557c8a2a0ff37afbadedd0a0a3b664318333475a4de45da75ea342f3"
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/development-demo5-and-confirmation-six-executions.json",
+      "sha256": "45cc0653e42b535c8788a96231f25a2cad65876c37011c6acdfbd817f54bc836"
+    },
+    {
+      "path": "/tmp/slopless-narrative-v21-full/development-repair1-confirmation-four-executions.json",
+      "sha256": "22a5d62a1f7603f5e5c53c12f72b6ca8b20500c2813c61b265e11797355d04e3"
+    }
+  ],
+  "preregistration": [
+    {
+      "check": "body-action-density",
+      "selectedThreshold": 0.56,
+      "originalNativeThreshold": 0.5,
+      "sourceRevision": "core4",
+      "confirmationRevision": "core4-cal1-confirmation",
+      "registrationCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "registrationPath": ".worklogs/2026-10-24-034331-test-four-prompts-and-calibrate-bodily-actions.md",
+      "worklogSha256": "7d03062279e1ea79a3f5e9164b79033d7b2e16f797dea245ade7f6ba4b922d02",
+      "committedAt": "2026-10-24T03:44:13+01:00",
+      "firstConfirmationResponse": "2026-10-24T02:44:26.168Z",
+      "feasibleHundredthGrid": [
+        0.51,
+        0.52,
+        0.53,
+        0.54,
+        0.55,
+        0.56,
+        0.57,
+        0.58,
+        0.59,
+        0.6,
+        0.61
+      ],
+      "selection": "Floor-rounded midpoint of the common .51-.61 feasible interval: .56.",
+      "sourceRescore": [
+        {
+          "collection": "000081",
+          "caught": 98,
+          "falsePositives": 4
+        },
+        {
+          "collection": "000121",
+          "caught": 99,
+          "falsePositives": 1
+        }
+      ],
+      "selectedBeforeFreshConfirmation": true,
+      "promptUnchangedAcrossSourceAndConfirmation": true,
+      "extraReceipt": "/tmp/slopless-narrative-v21-full/core4-body-calibration-preregistration.json"
+    },
+    {
+      "check": "empty-beat",
+      "selectedThreshold": 0.5,
+      "originalNativeThreshold": 0.5,
+      "sourceRevision": "core5",
+      "confirmationRevision": "core5-confirmation",
+      "registrationCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "registrationPath": ".worklogs/2026-10-24-034331-test-four-prompts-and-calibrate-bodily-actions.md",
+      "worklogSha256": "7d03062279e1ea79a3f5e9164b79033d7b2e16f797dea245ade7f6ba4b922d02",
+      "committedAt": "2026-10-24T03:44:13+01:00",
+      "firstSourceResponse": "2026-10-24T02:44:23.089Z",
+      "confirmationRegistrationCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+      "confirmationRegistrationPath": ".worklogs/2026-10-24-034619-confirm-bodily-actions-and-preregister-two-confirmations.md",
+      "firstConfirmationResponse": "2026-10-24T02:47:10.016Z",
+      "feasibleHundredthGrid": [
+        0.46,
+        0.47,
+        0.48,
+        0.49,
+        0.5,
+        0.51,
+        0.52,
+        0.53
+      ],
+      "selection": "Preserve native .5. It lies within the common .46-.53 feasible interval.",
+      "selectedBeforeSourceInference": true,
+      "selectedBeforeFreshConfirmation": true,
+      "promptUnchangedAcrossSourceAndConfirmation": true
+    },
+    {
+      "check": "narrative-cliches",
+      "selectedThreshold": 0.6,
+      "originalNativeThreshold": 0.5,
+      "sourceRevision": "core5",
+      "confirmationRevision": "core5-cal1-confirmation",
+      "registrationCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+      "registrationPath": ".worklogs/2026-10-24-034619-confirm-bodily-actions-and-preregister-two-confirmations.md",
+      "worklogSha256": "9d1f1dd87e664c58812936d0d9cab7976c4865e9c1c8f5b139119ab7bcb7af96",
+      "committedAt": "2026-10-24T03:47:08+01:00",
+      "firstConfirmationResponse": "2026-10-24T02:47:13.127Z",
+      "feasibleHundredthGrid": [
+        0.57,
+        0.58,
+        0.59,
+        0.6,
+        0.61,
+        0.62,
+        0.63,
+        0.64
+      ],
+      "selection": "Floor-rounded midpoint of the common .57-.64 feasible interval: .60.",
+      "sourceRescore": [
+        {
+          "collection": "000105",
+          "caught": 99,
+          "falsePositives": 0
+        },
+        {
+          "collection": "000123",
+          "caught": 98,
+          "falsePositives": 3
+        }
+      ],
+      "selectedBeforeFreshConfirmation": true,
+      "promptUnchangedAcrossSourceAndConfirmation": true
+    }
+  ],
+  "prompts": [
+    {
+      "check": "body-action-density",
+      "assembledWords": 771,
+      "promptSha256": "29ac9408e6ffb4e53f056124aa004c896620873c4345e609de93c6a9846bb8b1",
+      "promptFileSha256": "2ea180cac3d4d0fe032fa9d460c67adb9c2d2de5725d4c8af9796b7662e104db",
+      "demos": [
+        {
+          "label": "Hit",
+          "textSha256": "800affe7e05cbf8d7033d028f31fc9c5f39f8c61a91dc84e4b34df358d305c99",
+          "matchedIds": [
+            "000081-422f74d6b0ee"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md"
+          ]
+        },
+        {
+          "label": "Hit",
+          "textSha256": "281596d7e0dc74a17a7ebcac612ceb729d837eed02aa58049c7955f17eb7cc3c",
+          "matchedIds": [
+            "000081-b22420427d37"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md"
+          ]
+        },
+        {
+          "label": "Hit",
+          "textSha256": "94bb6923d709423901009ac8aa915b94293cac87d5c5194a9bf1c98bb89fbd65",
+          "matchedIds": [
+            "000081-0c7b41e74051"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "a85db66319ef6a3bcd526119d308632653b74a908867a04675aa20aa44fdbec0",
+          "matchedIds": [
+            "000121-8245c2b05346"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "181cc7f0df1397a8e56afaba9902f9e387308b2e14346c6b4689303bd0f0783b",
+          "matchedIds": [
+            "000081-b9502dd135f8"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "2a90e2fc13680446d81d32cb3b0da6ed4bf7516a223f308b1329f8423efb7015",
+          "matchedIds": [
+            "000081-8a18b4461c69"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "empty-beat",
+      "assembledWords": 786,
+      "promptSha256": "132f3e7fb8edd64bf1d467b718f6d751f6f37a1093ab55dcc3c4a0b03a44609d",
+      "promptFileSha256": "b5ed69a22414b875a9cff033c1868376b96d311014996b713a11e1eb68bf1a1b",
+      "demos": [
+        {
+          "label": "Hit",
+          "textSha256": "f368afe7ee4f9e8004d5bb862fd1038a86586753ed9a4e17b7ffb9c7a69e4477",
+          "matchedIds": [
+            "000089-86963052d8cd"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md"
+          ]
+        },
+        {
+          "label": "Hit",
+          "textSha256": "009e685e093d3463233c75b4d431dcb7b31e04c46737f2242595279366cd1d43",
+          "matchedIds": [
+            "000089-7e0453be7f7c"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md"
+          ]
+        },
+        {
+          "label": "Hit",
+          "textSha256": "3ac25ce137430e25c055257b3b5dabc7c7c551e9de24d27309e51470993c85f7",
+          "matchedIds": [
+            "000089-e86dc5d07422"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "748d68eea9d6b68e27e8caa68984206edc69d5a58c53255ba9d6ef52b83910e7",
+          "matchedIds": [
+            "000115-18c481207624"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "3f94a3afecef069c48afeeaf3c57d3c4c3522b3030d214c15dd3480bc512647b",
+          "matchedIds": [
+            "000115-c75ad97dec86"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "b40db13954366ad944ed845da66635f338f7bab9fcfa202eaed8e6c69b2505fe",
+          "matchedIds": [
+            "000089-ceeff765fd49"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "narrative-cliches",
+      "assembledWords": 773,
+      "promptSha256": "bf380e3d9668e71c6030b44a9ba5632b5b60dae918aaf2be40458906e3c05161",
+      "promptFileSha256": "97d037dd5471b8cd9166cf4d709f17c709b11e68cc45295347e0646dcfd7cc9f",
+      "demos": [
+        {
+          "label": "Hit",
+          "textSha256": "81a87b5b799783b93bd512c6d156c7dafd12ab33ffab14a7778d2296cf5fecf7",
+          "matchedIds": [
+            "000105-323da9fe1570"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md"
+          ]
+        },
+        {
+          "label": "Hit",
+          "textSha256": "25bc8a635cba0dc0563cacc160af128cd46d72d2afd3b8e10842612e5f28b420",
+          "matchedIds": [
+            "000105-d3294cfb28ef"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md"
+          ]
+        },
+        {
+          "label": "Hit",
+          "textSha256": "43f05ba2ea96ece779e7eefb103fe3013a2ff07e0ccc6072ffd587d50a5fb6e7",
+          "matchedIds": [
+            "000123-9b1fc7d7111b"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "92db043e883f703a658cd33a71c1dbd15fa1a57d51ac5e4432851a608dfe5885",
+          "matchedIds": [
+            "000123-4b59f4c8039a"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "69346bae7eb5e1ce7d3cfa15d8b42a5b6738ca443cf62b1457c11b448028bfab",
+          "matchedIds": [
+            "000123-a03dd7b526ca"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md"
+          ]
+        },
+        {
+          "label": "No Hit",
+          "textSha256": "a5f691e55ace355db74363fe62803f1183763e2ca8effd9e20109a69bca7e701",
+          "matchedIds": [
+            "000123-ec10a17baa79"
+          ],
+          "matchedDatasets": [
+            "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "exposure": {
+    "historicalPromptBlobs": 91,
+    "literalCounts": {
+      "abstract-personification-line": 6,
+      "body-action-density": 8,
+      "body-emotion-shorthand": 0,
+      "emotion-as-substance": 6,
+      "emotion-telling": 6,
+      "empty-atmosphere-shift": 6,
+      "empty-beat": 8,
+      "empty-emotional-weather": 6,
+      "empty-scene-state": 6,
+      "fake-timestamps": 12,
+      "fixed-metaphor-frame": 6,
+      "gaze-choreography": 6,
+      "low-information-beat-density": 6,
+      "low-information-physical-blocking": 6,
+      "narrative-cliches": 12,
+      "perception-verb-density": 14,
+      "sensory-instead-of-frame": 6,
+      "silence-as-actor": 6,
+      "summary-fog-transition": 6
+    },
+    "exposed": [
+      {
+        "id": "000081-0c7b41e74051",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "c8a4f23fb0d110cea2418b6ed2f3811fe4fda553",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000081-422f74d6b0ee",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "c8a4f23fb0d110cea2418b6ed2f3811fe4fda553",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000081-8a18b4461c69",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "c8a4f23fb0d110cea2418b6ed2f3811fe4fda553",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000081-b22420427d37",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "c8a4f23fb0d110cea2418b6ed2f3811fe4fda553",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000081-b9502dd135f8",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "cb81369726ba93946c47c815f62a5df572d71f0b",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000121-8245c2b05346",
+        "file": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "cb81369726ba93946c47c815f62a5df572d71f0b",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000089-7e0453be7f7c",
+        "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "df3964cd973b859bd5f52920f8126b4cb8c70bde",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000089-86963052d8cd",
+        "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "df3964cd973b859bd5f52920f8126b4cb8c70bde",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000089-ceeff765fd49",
+        "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "df3964cd973b859bd5f52920f8126b4cb8c70bde",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000089-e86dc5d07422",
+        "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "df3964cd973b859bd5f52920f8126b4cb8c70bde",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000115-18c481207624",
+        "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "a5bedaee0bc88fb81ecd1adbb8f5a4d1b4f653fb",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000115-c75ad97dec86",
+        "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "a5bedaee0bc88fb81ecd1adbb8f5a4d1b4f653fb",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-323da9fe1570",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "7ae2ac46cd5497ce1aca71f85924ca2b1b29ca93",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-d3294cfb28ef",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "7ae2ac46cd5497ce1aca71f85924ca2b1b29ca93",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000123-4b59f4c8039a",
+        "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "7ae2ac46cd5497ce1aca71f85924ca2b1b29ca93",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000123-9b1fc7d7111b",
+        "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "7ae2ac46cd5497ce1aca71f85924ca2b1b29ca93",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000123-a03dd7b526ca",
+        "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "7ae2ac46cd5497ce1aca71f85924ca2b1b29ca93",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000123-ec10a17baa79",
+        "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "7ae2ac46cd5497ce1aca71f85924ca2b1b29ca93",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000117-668dccaa226d",
+        "file": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+        "sources": [
+          {
+            "check": "perception-verb-density",
+            "blob": "4a01b4e615004d359877a889b7a789980c5c11e4",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000081-8b3d5356e916",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "c8a4f23fb0d110cea2418b6ed2f3811fe4fda553",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000081-dbcba650f04a",
+        "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "sources": [
+          {
+            "check": "body-action-density",
+            "blob": "c8a4f23fb0d110cea2418b6ed2f3811fe4fda553",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000089-68f164f2f339",
+        "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "df3964cd973b859bd5f52920f8126b4cb8c70bde",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000089-d718b74e1c7e",
+        "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "sources": [
+          {
+            "check": "empty-beat",
+            "blob": "df3964cd973b859bd5f52920f8126b4cb8c70bde",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-0937fdb75429",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "054d2827fb5c63a88f8cc1ef587f5cdd2c7b5e0d",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-0b8ff9b87409",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "054d2827fb5c63a88f8cc1ef587f5cdd2c7b5e0d",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-15ef9c8c754f",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "054d2827fb5c63a88f8cc1ef587f5cdd2c7b5e0d",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-51b975e4c34d",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "054d2827fb5c63a88f8cc1ef587f5cdd2c7b5e0d",
+            "label": "Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-d8b0636e994b",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "054d2827fb5c63a88f8cc1ef587f5cdd2c7b5e0d",
+            "label": "No Hit"
+          }
+        ]
+      },
+      {
+        "id": "000105-fbcd8cd22f8b",
+        "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "sources": [
+          {
+            "check": "narrative-cliches",
+            "blob": "054d2827fb5c63a88f8cc1ef587f5cdd2c7b5e0d",
+            "label": "No Hit"
+          }
+        ]
+      }
+    ],
+    "scope": "Historical prompt examples across v21 through fd24623f, matched against the seven historical development collections used in this incremental report.",
+    "matching": "Exact complete passage match after stripping ** bold markers and outer whitespace. Also checked the complete prompt source, so heading conventions cannot hide a literal example.",
+    "distinctScopedPassagesExcluded": 29,
+    "newThreeCheckPassagesExcluded": 28,
+    "newThreeCheckHistoricalLiteralTotals": {
+      "body-action-density": 8,
+      "empty-beat": 8,
+      "narrative-cliches": 12
+    },
+    "currentLiteralExamplesPerCheck": 6,
+    "currentHitExamplesPerCheck": 3,
+    "currentNoHitExamplesPerCheck": 3,
+    "mixedDevelopmentExamples": {
+      "body-action-density": [
+        "000121-8245c2b05346"
+      ],
+      "empty-beat": [
+        "000115-18c481207624",
+        "000115-c75ad97dec86"
+      ],
+      "narrative-cliches": [
+        "000123-9b1fc7d7111b",
+        "000123-4b59f4c8039a",
+        "000123-a03dd7b526ca",
+        "000123-ec10a17baa79"
+      ]
+    },
+    "crossCheckNeighborEffect": "The cliche examples in 000123 are excluded from the blocking and atmosphere sensitivity scores too. The later perception demonstration 000117-668dccaa226d is conservatively excluded from timestamp and emotion neighbor scores.",
+    "interpretation": "Demonstration exclusion removes exact demonstrated passages. These are development scores after iterative authoring; retained passages remain development evidence."
+  },
+  "newThreeCheckRuns": [
+    {
+      "check": "body-action-density",
+      "collection": "000081",
+      "cohort": "isolated",
+      "revision": "core4",
+      "producingCommit": "b92d2c3cc86f2d38e5cdcde5b068a1c6fafae6b3",
+      "output": "runners/results/narrative-craft-v21-body-action-density-core4-000081-development.json",
+      "resultSha256": "185b4b9a2b37d1bac9095ed9f1624b0053bb314fdb2de37d1530b20603d456e1",
+      "inferenceSha256": "e46b54c1e8a8d898fbbbe9e86d2a1d7904d33956166ba0d38e573b14afbf4be0",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.56,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 6,
+        "trueNegatives": 94
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 98,
+        "missed": 2,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 97,
+        "caught": 95,
+        "missed": 2,
+        "negatives": 96,
+        "falsePositives": 4,
+        "trueNegatives": 92
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000081-0c7b41e74051",
+        "000081-422f74d6b0ee",
+        "000081-8a18b4461c69",
+        "000081-8b3d5356e916",
+        "000081-b22420427d37",
+        "000081-b9502dd135f8",
+        "000081-dbcba650f04a"
+      ],
+      "firstResponseAt": "2026-10-24T02:40:52.478Z",
+      "lastResponseAt": "2026-10-24T02:40:54.435Z"
+    },
+    {
+      "check": "body-action-density",
+      "collection": "000121",
+      "cohort": "mixed",
+      "revision": "core4",
+      "producingCommit": "b92d2c3cc86f2d38e5cdcde5b068a1c6fafae6b3",
+      "output": "runners/results/narrative-craft-v21-body-action-density-core4-000121-development.json",
+      "resultSha256": "73bdb50032e50c7c40ca643d7a86c0fbc1d72129353aa214b9c02468799385c0",
+      "inferenceSha256": "1ac1606f604c9de058472e2d15fa77fa1527c8950f76f61acf571e6f9b63c1bb",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.56,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 100,
+        "falsePositives": 1,
+        "trueNegatives": 99
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 99,
+        "falsePositives": 1,
+        "trueNegatives": 98
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000121-8245c2b05346"
+      ],
+      "firstResponseAt": "2026-10-24T02:40:58.524Z",
+      "lastResponseAt": "2026-10-24T02:41:00.569Z"
+    },
+    {
+      "check": "empty-beat",
+      "collection": "000089",
+      "cohort": "isolated",
+      "revision": "core5",
+      "producingCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "output": "runners/results/narrative-craft-v21-empty-beat-core5-000089-development.json",
+      "resultSha256": "f05ca84ad9c006f10c07e8376d934e2952c54f0a453eef5ad81cc305bc6456c5",
+      "inferenceSha256": "041fe789192d84736d9931046a2cc5038f07de97c98c0cd4b178ee135539d4e9",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 3,
+        "trueNegatives": 97
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 3,
+        "trueNegatives": 97
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 97,
+        "caught": 93,
+        "missed": 4,
+        "negatives": 97,
+        "falsePositives": 2,
+        "trueNegatives": 95
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000089-68f164f2f339",
+        "000089-7e0453be7f7c",
+        "000089-86963052d8cd",
+        "000089-ceeff765fd49",
+        "000089-d718b74e1c7e",
+        "000089-e86dc5d07422"
+      ],
+      "firstResponseAt": "2026-10-24T02:44:23.089Z",
+      "lastResponseAt": "2026-10-24T02:44:25.066Z"
+    },
+    {
+      "check": "empty-beat",
+      "collection": "000115",
+      "cohort": "mixed",
+      "revision": "core5",
+      "producingCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "output": "runners/results/narrative-craft-v21-empty-beat-core5-000115-development.json",
+      "resultSha256": "a55eb0dc30fbbc43f3e587907dd6d1bc1a7e5dc7c3783ccdfa38439af3e98c31",
+      "inferenceSha256": "326818f8f8c070996b7304dc3e6654f08875908dab436d2fab360acc2abb48e4",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 98,
+        "falsePositives": 3,
+        "trueNegatives": 95
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000115-18c481207624",
+        "000115-c75ad97dec86"
+      ],
+      "firstResponseAt": "2026-10-24T02:44:23.111Z",
+      "lastResponseAt": "2026-10-24T02:44:25.070Z"
+    },
+    {
+      "check": "narrative-cliches",
+      "collection": "000105",
+      "cohort": "isolated",
+      "revision": "core5",
+      "producingCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-000105-development.json",
+      "resultSha256": "d0f0655b67d50ed814f4d2778110dcaa2e018fa9afde5b13676169841b0de76c",
+      "inferenceSha256": "562ea55cd7b184777b0bf2f1ada40475331407dd1d876ae8234c51d5875483fe",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.6,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 95,
+        "caught": 94,
+        "missed": 1,
+        "negatives": 97,
+        "falsePositives": 0,
+        "trueNegatives": 97
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000105-0937fdb75429",
+        "000105-0b8ff9b87409",
+        "000105-15ef9c8c754f",
+        "000105-323da9fe1570",
+        "000105-51b975e4c34d",
+        "000105-d3294cfb28ef",
+        "000105-d8b0636e994b",
+        "000105-fbcd8cd22f8b"
+      ],
+      "firstResponseAt": "2026-10-24T02:44:23.106Z",
+      "lastResponseAt": "2026-10-24T02:44:25.113Z"
+    },
+    {
+      "check": "body-action-density",
+      "collection": "000081",
+      "cohort": "isolated",
+      "revision": "core4-cal1-confirmation",
+      "producingCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "output": "runners/results/narrative-craft-v21-body-action-density-core4-cal1-confirmation-000081-development.json",
+      "resultSha256": "d41ced512a6e1c6e3fa48df0b09ae467317c3aae46faa723123e8b36935da1d0",
+      "inferenceSha256": "c2bf0ddd8ec47c2b469a8a6a30e696666bbc4f354b89f02c691df648ab056532",
+      "nativeThreshold": 0.56,
+      "selectedThreshold": 0.56,
+      "native": {
+        "positives": 100,
+        "caught": 98,
+        "missed": 2,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 98,
+        "missed": 2,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 97,
+        "caught": 95,
+        "missed": 2,
+        "negatives": 96,
+        "falsePositives": 4,
+        "trueNegatives": 92
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000081-0c7b41e74051",
+        "000081-422f74d6b0ee",
+        "000081-8a18b4461c69",
+        "000081-8b3d5356e916",
+        "000081-b22420427d37",
+        "000081-b9502dd135f8",
+        "000081-dbcba650f04a"
+      ],
+      "firstResponseAt": "2026-10-24T02:44:26.168Z",
+      "lastResponseAt": "2026-10-24T02:44:28.109Z"
+    },
+    {
+      "check": "narrative-cliches",
+      "collection": "000123",
+      "cohort": "mixed",
+      "revision": "core5",
+      "producingCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-000123-development.json",
+      "resultSha256": "2348b4ee6139786616dc1fd03d0de725ac4688467c16c776d1e5e8eebba1d49a",
+      "inferenceSha256": "67cf6b286656e18cb6a1aba1810c069b09f434242a59820c1b32789d4ec01834",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.6,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 12,
+        "trueNegatives": 88
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 98,
+        "missed": 2,
+        "negatives": 100,
+        "falsePositives": 3,
+        "trueNegatives": 97
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 99,
+        "caught": 97,
+        "missed": 2,
+        "negatives": 97,
+        "falsePositives": 3,
+        "trueNegatives": 94
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000123-4b59f4c8039a",
+        "000123-9b1fc7d7111b",
+        "000123-a03dd7b526ca",
+        "000123-ec10a17baa79"
+      ],
+      "firstResponseAt": "2026-10-24T02:44:26.177Z",
+      "lastResponseAt": "2026-10-24T02:44:28.249Z"
+    },
+    {
+      "check": "body-action-density",
+      "collection": "000121",
+      "cohort": "mixed",
+      "revision": "core4-cal1-confirmation",
+      "producingCommit": "5186781e1d04dc79235ff05af2bf5fd67192959c",
+      "output": "runners/results/narrative-craft-v21-body-action-density-core4-cal1-confirmation-000121-development.json",
+      "resultSha256": "bcf441ba3bc312069a94a2c595e88e4910ccd3b1c7652059d5c26db8abc6bc30",
+      "inferenceSha256": "6f96c5767df899a067e3f7ceecba9fb8998bcc5123bfa68e76d4589d15ea525d",
+      "nativeThreshold": 0.56,
+      "selectedThreshold": 0.56,
+      "native": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 99,
+        "falsePositives": 2,
+        "trueNegatives": 97
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000121-8245c2b05346"
+      ],
+      "firstResponseAt": "2026-10-24T02:44:26.176Z",
+      "lastResponseAt": "2026-10-24T02:44:28.259Z"
+    },
+    {
+      "check": "empty-beat",
+      "collection": "000089",
+      "cohort": "isolated",
+      "revision": "core5-confirmation",
+      "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+      "output": "runners/results/narrative-craft-v21-empty-beat-core5-confirmation-000089-development.json",
+      "resultSha256": "dc034d721812fad03021955ca778cc250fe354863d41be4e660e30c1152985de",
+      "inferenceSha256": "3c93a90a358c8c113a0301c4eff8102ea237c7bc94317c702a88cdfa80ed9487",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 97,
+        "missed": 3,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 97,
+        "missed": 3,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 97,
+        "caught": 94,
+        "missed": 3,
+        "negatives": 97,
+        "falsePositives": 3,
+        "trueNegatives": 94
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000089-68f164f2f339",
+        "000089-7e0453be7f7c",
+        "000089-86963052d8cd",
+        "000089-ceeff765fd49",
+        "000089-d718b74e1c7e",
+        "000089-e86dc5d07422"
+      ],
+      "firstResponseAt": "2026-10-24T02:47:10.016Z",
+      "lastResponseAt": "2026-10-24T02:47:11.979Z"
+    },
+    {
+      "check": "empty-beat",
+      "collection": "000115",
+      "cohort": "mixed",
+      "revision": "core5-confirmation",
+      "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+      "output": "runners/results/narrative-craft-v21-empty-beat-core5-confirmation-000115-development.json",
+      "resultSha256": "05134d1cdf91d3e88768b18f125fa6aa3f0eff83f044ae02fa683fe305ee9960",
+      "inferenceSha256": "50bb3275f460f8bd7553a4bd4d7c633f6cb7d1a2c1dbf229a5613ee0610a5e3e",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 3,
+        "trueNegatives": 97
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 3,
+        "trueNegatives": 97
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 98,
+        "falsePositives": 3,
+        "trueNegatives": 95
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000115-18c481207624",
+        "000115-c75ad97dec86"
+      ],
+      "firstResponseAt": "2026-10-24T02:47:13.094Z",
+      "lastResponseAt": "2026-10-24T02:47:15.118Z"
+    },
+    {
+      "check": "narrative-cliches",
+      "collection": "000123",
+      "cohort": "mixed",
+      "revision": "core5-cal1-confirmation",
+      "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+      "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-cal1-confirmation-000123-development.json",
+      "resultSha256": "6c9601de8a3e44e97b2d46a8953c619aa9f6e53fd47b8a3aaa71aa374d2dffd4",
+      "inferenceSha256": "dff2e6fea13ea340550adcdbc68d434840e46b2f8a9a00a423eece5f1952b252",
+      "nativeThreshold": 0.6,
+      "selectedThreshold": 0.6,
+      "native": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 96,
+        "missed": 4,
+        "negatives": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 99,
+        "caught": 95,
+        "missed": 4,
+        "negatives": 97,
+        "falsePositives": 4,
+        "trueNegatives": 93
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000123-4b59f4c8039a",
+        "000123-9b1fc7d7111b",
+        "000123-a03dd7b526ca",
+        "000123-ec10a17baa79"
+      ],
+      "firstResponseAt": "2026-10-24T02:47:13.127Z",
+      "lastResponseAt": "2026-10-24T02:47:15.123Z"
+    },
+    {
+      "check": "narrative-cliches",
+      "collection": "000105",
+      "cohort": "isolated",
+      "revision": "core5-cal1-confirmation",
+      "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+      "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-cal1-confirmation-000105-development.json",
+      "resultSha256": "e4615c6355808924c484172fabddf9098b20ffc2b6704cb7901a59a3fd3acc8d",
+      "inferenceSha256": "ea3ebbc7a5fbebb81c19783d9f533b9f95d2377c3b9b918fb121303713759fc1",
+      "nativeThreshold": 0.6,
+      "selectedThreshold": 0.6,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 95,
+        "caught": 95,
+        "missed": 0,
+        "negatives": 97,
+        "falsePositives": 0,
+        "trueNegatives": 97
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000105-0937fdb75429",
+        "000105-0b8ff9b87409",
+        "000105-15ef9c8c754f",
+        "000105-323da9fe1570",
+        "000105-51b975e4c34d",
+        "000105-d3294cfb28ef",
+        "000105-d8b0636e994b",
+        "000105-fbcd8cd22f8b"
+      ],
+      "firstResponseAt": "2026-10-24T02:47:13.147Z",
+      "lastResponseAt": "2026-10-24T02:47:15.134Z"
+    }
+  ],
+  "neighborConfirmationRuns": [
+    {
+      "check": "low-information-physical-blocking",
+      "collection": "000123",
+      "cohort": "mixed",
+      "revision": "repair1-confirmation",
+      "producingCommit": "dadee5b3a59e34e1d6e3dc8fcd0aef306e988831",
+      "output": "runners/results/narrative-craft-v21-low-information-physical-blocking-repair1-confirmation-000123-development.json",
+      "resultSha256": "dc078f957bd9ab3e9a129a1613fa889cd9fdbf1010d0733427d21eb1b48269ba",
+      "inferenceSha256": "6c7060ed78ac1c5361c0528eb2cc3afd6b69eb28f634f443843aee653d5990b0",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 97,
+        "caught": 97,
+        "missed": 0,
+        "negatives": 99,
+        "falsePositives": 2,
+        "trueNegatives": 97
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000123-4b59f4c8039a",
+        "000123-9b1fc7d7111b",
+        "000123-a03dd7b526ca",
+        "000123-ec10a17baa79"
+      ],
+      "firstResponseAt": "2026-10-24T02:33:54.937Z",
+      "lastResponseAt": "2026-10-24T02:33:57.034Z"
+    },
+    {
+      "check": "fake-timestamps",
+      "collection": "000117",
+      "cohort": "mixed",
+      "revision": "repair1-confirmation",
+      "producingCommit": "dadee5b3a59e34e1d6e3dc8fcd0aef306e988831",
+      "output": "runners/results/narrative-craft-v21-fake-timestamps-repair1-confirmation-000117-development.json",
+      "resultSha256": "0255cc1c53f0a01a10dc4c883c7a9955875557dc5e8867ab71f175b3eb0308d8",
+      "inferenceSha256": "9b48c1d220b288c5b4dd6ede35d7b48ad733669b35c000e2d0e6b5541dacbefb",
+      "nativeThreshold": 0.63,
+      "selectedThreshold": 0.63,
+      "native": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "negatives": 99,
+        "falsePositives": 0,
+        "trueNegatives": 99
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000117-668dccaa226d"
+      ],
+      "firstResponseAt": "2026-10-24T02:33:54.937Z",
+      "lastResponseAt": "2026-10-24T02:33:57.034Z"
+    },
+    {
+      "check": "emotion-as-substance",
+      "collection": "000117",
+      "cohort": "mixed",
+      "revision": "repair1-confirmation",
+      "producingCommit": "dadee5b3a59e34e1d6e3dc8fcd0aef306e988831",
+      "output": "runners/results/narrative-craft-v21-emotion-as-substance-repair1-confirmation-000117-development.json",
+      "resultSha256": "75db81df845bbf3b5c0ed90d464628a077e62b9e2cbc34575598e3cbaa7d4ff1",
+      "inferenceSha256": "d17a2820893424de200147ef2187f0ba367e45780a67e1e149be3503bdeba5d5",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 1,
+        "trueNegatives": 99
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 100,
+        "falsePositives": 1,
+        "trueNegatives": 99
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "negatives": 99,
+        "falsePositives": 1,
+        "trueNegatives": 98
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000117-668dccaa226d"
+      ],
+      "firstResponseAt": "2026-10-24T02:33:54.966Z",
+      "lastResponseAt": "2026-10-24T02:33:57.154Z"
+    },
+    {
+      "check": "empty-atmosphere-shift",
+      "collection": "000123",
+      "cohort": "mixed",
+      "revision": "repair1-confirmation",
+      "producingCommit": "dadee5b3a59e34e1d6e3dc8fcd0aef306e988831",
+      "output": "runners/results/narrative-craft-v21-empty-atmosphere-shift-repair1-confirmation-000123-development.json",
+      "resultSha256": "0fe4b9b3fecf95e7bf0940e047a63bf287894befe04ea7b789b615c0d0f8738f",
+      "inferenceSha256": "43e3c58277d3df5805a2e2e5dd0e57f2acb2446dfdc20b3bcf7b5ea1ea82a1cd",
+      "nativeThreshold": 0.5,
+      "selectedThreshold": 0.5,
+      "native": {
+        "positives": 100,
+        "caught": 97,
+        "missed": 3,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selected": {
+        "positives": 100,
+        "caught": 97,
+        "missed": 3,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "selectedPass": true,
+      "demoExcluded": {
+        "positives": 96,
+        "caught": 93,
+        "missed": 3,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "demoExcludedPass": true,
+      "excludedIds": [
+        "000123-4b59f4c8039a",
+        "000123-9b1fc7d7111b",
+        "000123-a03dd7b526ca",
+        "000123-ec10a17baa79"
+      ],
+      "firstResponseAt": "2026-10-24T02:33:58.146Z",
+      "lastResponseAt": "2026-10-24T02:34:00.210Z"
+    }
+  ],
+  "aggregates": {
+    "newThreeOriginalNativeRepeated": {
+      "positives": 1200,
+      "caught": 1178,
+      "missed": 22,
+      "negatives": 1200,
+      "falsePositives": 46,
+      "trueNegatives": 1154
+    },
+    "newThreeAtSelectedCutoffsRepeated": {
+      "positives": 1200,
+      "caught": 1172,
+      "missed": 28,
+      "negatives": 1200,
+      "falsePositives": 32,
+      "trueNegatives": 1168
+    },
+    "newThreeDemoExcludedRepeated": {
+      "positives": 1176,
+      "caught": 1148,
+      "missed": 28,
+      "negatives": 1168,
+      "falsePositives": 29,
+      "trueNegatives": 1139
+    },
+    "newThreeLatestConfirmationOnly": {
+      "positives": 600,
+      "caught": 586,
+      "missed": 14,
+      "negatives": 600,
+      "falsePositives": 17,
+      "trueNegatives": 583
+    },
+    "newThreeLatestConfirmationDemoExcluded": {
+      "positives": 588,
+      "caught": 574,
+      "missed": 14,
+      "negatives": 584,
+      "falsePositives": 16,
+      "trueNegatives": 568
+    },
+    "neighborConfirmations": {
+      "positives": 400,
+      "caught": 396,
+      "missed": 4,
+      "negatives": 400,
+      "falsePositives": 3,
+      "trueNegatives": 397
+    },
+    "neighborDemoExcluded": {
+      "positives": 393,
+      "caught": 389,
+      "missed": 4,
+      "negatives": 397,
+      "falsePositives": 3,
+      "trueNegatives": 394
+    },
+    "counting": "Repeated totals sum saved executions. The twelve new runs exercise six distinct historical 200-passage cohorts twice; rescoring a native result does not add another inference run."
+  },
+  "conclusion": {
+    "allTwelveNewRunsPassAtSelectedCutoff": true,
+    "allTwelvePassDemoExcludedRateCheck": true,
+    "allFourNeighborConfirmationsPass": true,
+    "allFourNeighborsPassDemoExcludedRateCheck": true,
+    "nativeOriginalFailuresPreserved": [
+      "body-action-density core4 isolated at native .5: 100 caught, six false positives.",
+      "narrative-cliches core5 mixed at native .5: 100 caught, twelve false positives."
+    ],
+    "historicalEighteenCheckCheckpointSupported": true,
+    "currentRepackedDataCertification": false,
+    "fullFamilyComplete": false,
+    "nextVerification": "Use the main session's seven changed-cohort evaluations against its new balanced commit for a current-data update. Preserve this report as the historical producing-input checkpoint."
+  }
+}

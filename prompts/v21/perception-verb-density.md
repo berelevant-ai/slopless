@@ -1,23 +1,27 @@
 ---
 {
-  "instructions": "Does target contain a narrated look, gaze, watch, survey or equivalent perception whose contribution is merely that attention moved, supplying neither particular perceived content nor an identifiable viewpoint, search, spatial or interpersonal function? Read the connected passage and apply the supplied rulebook.",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any narrated perception act, including noun-based gaze wording, that merely stages attention rather than supplying a particular observation or other identifiable narrative function in context?",
   "criteria": {
-    "true": "At least one perception cue merely stages attention: it supplies no particular observation or identifiable function in the connected passage. Nearby speech, remembered background or independent reasoning can remain useful while that look adds only an attention marker. One such cue suffices.",
-    "false": "Every perception cue contributes a particular observation, viewpoint, search, orientation, characterization, communication or attention-dependent task, or no eligible cue occurs. Its function can be implicit. Observing someone's particular conduct, contrasting people's focus or surveying a situation to choose a spatial or social course can matter without an explicit discovery or causal statement. Preserve wording examined or documented as wording."
+    "true": "At least one perception cue merely records attention. Its apparent purpose comes only from a named target, a plausible reaction or useful surrounding information whose meaning is independent of that act. One filler cue suffices.",
+    "false": "Every perception cue supplies a particular observation, discovery, interpretation, search, viewpoint, attention-dependent task, communication or narrative meaning, including implicit connections across sentences. Also false when no perception act occurs or all candidate cues are wording being examined or documented."
   }
 }
 ---
-# Perception Verb Density
+# Perception-Verb Density
 
 Input: passage.
 
-Identify each perception act and the content or relationship supplied through it. Generalize across verbs, noun-based gaze descriptions, inflections and sentence positions. Read every connected paragraph.
+Cover looking, watching, scanning, observing and equivalent narrated perception, including unfamiliar verbs, inflections and noun-based gaze constructions. Assess each cue through the complete passage.
 
-A concrete observation is sufficient by itself. Description immediately before or after the look can supply its content. Watching another person's particular conduct, adopting a distinct perspective or assessing a scene can likewise contribute meaning. A useful search can remain unsuccessful. Orientation, characterization, pacing and compression need no later practical consequence.
+First identify the perceiver, the actual target and the contribution supplied through the act. Resolve implicit connections before judging. The relationship can appear before or after the cue and across paragraphs.
 
-Resolve context before declaring the act empty. A survey can connect already-described circumstances to someone's spatial or social choice. Perception of one target does not automatically supply information about a different target; unrelated dialogue, background and independent reasoning remain separate. A named target or a plausible motive alone supplies only a place for attention to go.
+Preserve a view that presents particular content of its target. A broad survey can introduce details within that scene; adjoining description can supply the observation without an explicit "saw that." Observations matter in themselves. A practical consequence is optional. A survey can also assess resources, orient a route or establish a viewpoint through which earlier details acquire meaning. An unsuccessful search still supplies a purpose.
 
-Judge each cue separately, including redundant attention tags beside useful observations. Preserve wording whose phrasing or accuracy is itself under examination; ordinary narration and dialogue receive the same functional assessment. One weak cue suffices. Frequency and severity are separate reporting concerns.
+Preserve particular interpersonal meaning conveyed through attention. What the target is doing can supply an observation. A contrast between the perceiver's focus and others' priorities can characterize the relationship. Sustained observation can compress time. Infer communication from a conveyed message or response; a look's capacity to communicate in principle is insufficient.
+
+Separate perceived content from surrounding information. Identify how the particular act supplies the fact or meaning being credited to it. Dialogue, remembered circumstances, independent reasoning and descriptions of another target can remain useful while the cue merely stages attention. A problem followed by a decision establishes sequence; a search requires something sought, and a spatial assessment requires a connection to the space assessed. A generic sweep before a solution or an ordinary glance during conversation can remain filler.
+
+Judge each cue separately, including redundant annotations of established attention and filler beside useful perception. Preserve wording examined or documented as wording; assess adopted narration and quotations normally. One filler cue suffices. Repetition, frequency, density and severity are separate reporting concerns.
 
 ## Development Examples
 
@@ -35,12 +39,12 @@ Our nephew announced that he was vegetarian just as I put the roast on the table
 
 ### No Hit
 
-The museum cloakroom had lost the ticket attached to my umbrella. I looked across the foyer at rain running down the windows. The tram stop was a long walk away. After I described the repaired handle, the attendant let me choose the umbrella from a bucket behind her desk.
-
-### No Hit
-
-Ruth remembers her first school fair as the afternoon she became a face painter. She had brought jam to sell, but the queue for tigers reached past her stall. At some point she surveyed the proceedings, handed her cash tin to the next volunteer, and borrowed a brush. Seven years later, parents still book her for parties. She makes the jam in smaller batches now.
+The school had banned homemade food from the class party after last year's allergy confusion. I regarded the kitchen for a beat. Our decorated biscuits were cooling on every tray. We bought sealed packets for school and invited the neighbours over, giving the rejected biscuits a more appreciative audience.
 
 ### No Hit
 
 My uncle sold the boat in October. At the family meal where he announced it, I let my eyes rest on him while my cousin asked whether the trailer was included. There were questions about the price and the buyer's plans for winter storage. Nobody asked about the summers when my uncle had taken it out alone.
+
+### No Hit
+
+What remained of the walking map is drying on the kitchen radiator. There is half a lake on it and a blue smear where the village should be. Yesterday, after the paper split along its folds, I looked around and suggested following the lane downhill. We reached a shop just before it closed. The route home is drawn on the paper bag beside the map.
