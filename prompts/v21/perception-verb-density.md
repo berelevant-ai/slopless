@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any narrated perception act, including noun-based gaze wording, that merely stages attention rather than supplying a particular observation or other identifiable narrative function in context?",
+  "instructions": "The target passage contains a generic narrated perception beat: a character looks, watches, surveys or shifts their gaze without the passage giving that act a particular observation, viewpoint, search, spatial, interpersonal or other narrative function. Judge that statement using the complete connected target, state.instructions and the supplied rulebook.",
   "criteria": {
     "true": "At least one perception cue merely records attention. Its apparent purpose comes only from a named target, a plausible reaction or useful surrounding information whose meaning is independent of that act. One filler cue suffices.",
-    "false": "Every perception cue supplies a particular observation, discovery, interpretation, search, viewpoint, attention-dependent task, communication or narrative meaning, including implicit connections across sentences. Also false when no perception act occurs or all candidate cues are wording being examined or documented. Perceived content can appear inside the act itself, in what its target is doing at that moment, or in adjoining description of the surveyed scene; it needs no later practical effect. Identify analysis or documentation of a quoted perception claim before judging it as adopted narration."
+    "false": "Every perception cue supplies a particular observation, discovery, interpretation, search, viewpoint, attention-dependent task, communication or narrative meaning, including implicit connections across sentences. Also false when no perception act occurs or all candidate cues are wording being examined or documented."
   }
 }
 ---

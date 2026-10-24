@@ -1,0 +1,2786 @@
+{
+  "version": "narrative-craft-v21-label-round2-incremental-data-audit-v1",
+  "generatedAt": "2026-10-24T03:04:35.451Z",
+  "startedAt": "2026-10-24T03:04:33.653Z",
+  "status": "pass",
+  "purpose": "Fresh read-only DATA audit of four DEV label corrections, their three rebalanced selections and 49 unaffected family pairs.",
+  "scope": {
+    "baselineCommit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+    "fullPoolArchiveCommit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+    "changedDevelopmentCollections": [
+      "000107",
+      "000115",
+      "000117"
+    ],
+    "sourceInputPolicy": "Only the three authorized DEV source pools, explicit curator outputs and final selections/backups; receipts, selector/packer, collection metadata and public schema/loader. Other family pairs are raw-byte comparisons and programmatic counts/schema/snippet validation only.",
+    "protectedProcessing": "Holdout writing, individual judgments, snippets and passage IDs stay in the local validator process. The report contains pair metadata/hashes and family aggregates only.",
+    "repositoryWrite": "runners/results/narrative-craft-v21-label-round2-data-audit.json",
+    "auditedInputWrites": 0,
+    "delegations": 0,
+    "providerCalls": 0,
+    "detectorCalls": 0,
+    "commits": 0,
+    "independentReviewer": "Not invoked: the user prohibited delegation. This is the requested fresh incremental auditor.",
+    "semanticBoundary": "Correction transport, preserved data, control retention and deterministic selection are verified. Curator reasons and actions are matched as data; independent semantic-review claims are outside this DATA audit."
+  },
+  "priorFreeze": {
+    "file": "runners/results/narrative-craft-v21-final-data-freeze-audit.json",
+    "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+    "sha256": "374e86c7c4f287c85629ad1cecfe60fb38a2e9bdcde5f5e49de63d99432359c7",
+    "recordedPassingAssertions": 12522,
+    "relationship": "Prior freeze coverage is inherited through exact baseline hashes for 49 unchanged pairs. This audit independently checks the three changed DEV collections and reruns only the permitted family validator/counts/uniqueness checks. Prior assertion counts are excluded from assertionCount."
+  },
+  "assertionCount": 27412,
+  "assertionCounting": "One count per direct invocation of check() in the hashed verifier. Group counts sum to assertionCount. Each successful public readDocument() call counts once; its internal assertions and the prior freeze assertions are excluded.",
+  "passedAssertions": 27412,
+  "failedAssertions": 0,
+  "assertions": [
+    {
+      "id": "receipt",
+      "operation": "Compare the exact four collection/row/check/value/text-hash corrections with the requested DEV correction set.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "scope",
+      "operation": "Restrict source and selector processing to the three authorized DEV collections.",
+      "assertionCount": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "id": "selection-report",
+      "operation": "Check that the saved report records the requested archive and a completed selection with zero blocked strata.",
+      "assertionCount": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "id": "prior-freeze",
+      "operation": "Bind the existing 12,522-assertion freeze audit to the prior balanced Git baseline; keep those checks separate from this incremental audit.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "selector-execution",
+      "operation": "Execute the audited selector functions from an in-memory module with main and its output writes excluded.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "000107:row-validity",
+      "operation": "Validate source/selection row IDs, all assigned labels and exact snippet containment.",
+      "assertionCount": 3720,
+      "passed": 3720,
+      "failed": 0
+    },
+    {
+      "id": "000107:selected-counts",
+      "operation": "Verify exactly 200 selected rows and 100 hits/100 no-hits for each assigned check directly on final-selection.json.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000107:prior-source-binding",
+      "operation": "Verify the prior source raw-byte hash against its before-round2 frozen selection, and the before-selection packing against Git b2b19866.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000107:source-preservation",
+      "operation": "Compare every previous source row, its text bytes and each label; allow only the explicitly named four true-to-false corrections and their snippet removal.",
+      "assertionCount": 720,
+      "passed": 720,
+      "failed": 0
+    },
+    {
+      "id": "000107:correction-values",
+      "operation": "Verify each corrected value and text hash in the previous source, current source, curator replacement and selected rows.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000107:source-layers",
+      "operation": "Verify supported/replenished rows preserve the original reviewed wording and match the effective source exactly.",
+      "assertionCount": 481,
+      "passed": 481,
+      "failed": 0
+    },
+    {
+      "id": "000107:archive",
+      "operation": "Repack every effective source row and compare all Markdown bytes, sample boundaries and labels with the full Git 9e52d9ba archive.",
+      "assertionCount": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "id": "archive-id-uniqueness",
+      "operation": "Verify stable passage IDs are unique within and across all three complete DEV source archives.",
+      "assertionCount": 728,
+      "passed": 728,
+      "failed": 0
+    },
+    {
+      "id": "000107:root-packing",
+      "operation": "Compare the final frozen selection with exact root Markdown bytes, sample boundaries and all packed labels.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000107:selected-source-match",
+      "operation": "Verify every selected row is verbatim from the current source and therefore from the complete archive.",
+      "assertionCount": 200,
+      "passed": 200,
+      "failed": 0
+    },
+    {
+      "id": "000107:control-inputs",
+      "operation": "Validate the original pilot/expanded source IDs used to recompute mandatory controls.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000107:selector-recomputation",
+      "operation": "Execute the original selector retention/select functions without main, and compare with independent control classification, rank ordering, quota search and frozen records.",
+      "assertionCount": 7,
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "id": "000107:quota-minimality",
+      "operation": "Independently enumerate feasible mixed quotas, minimize maximum deviation from 25, then total absolute deviation, then numeric lexicographic order.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000107:mandatory-retention",
+      "operation": "Verify every independently classified mandatory control and every prior frozen mandatory control remains selected verbatim.",
+      "assertionCount": 213,
+      "passed": 213,
+      "failed": 0
+    },
+    {
+      "id": "000107:frozen-input-hashes",
+      "operation": "Verify every recorded selector input hash and the complete expected input-path set.",
+      "assertionCount": 9,
+      "passed": 9,
+      "failed": 0
+    },
+    {
+      "id": "000107:prior-input-hashes",
+      "operation": "Verify prior selector inputs against unchanged files or the explicit before-round2 backups.",
+      "assertionCount": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "id": "000107:balanced-proof",
+      "operation": "Compare the balanced proof snapshot with the full current frozen selection metadata.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "000107:removed-archive-preservation",
+      "operation": "Compare every removed previous selection passage and its complete labels verbatim with Git 9e52d9ba.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000107:all-prior-selection-preservation",
+      "operation": "Verify the wording of every prior balanced selection passage survives in the full archive; allow only the named corrected labels.",
+      "assertionCount": 400,
+      "passed": 400,
+      "failed": 0
+    },
+    {
+      "id": "000115:row-validity",
+      "operation": "Validate source/selection row IDs, all assigned labels and exact snippet containment.",
+      "assertionCount": 7129,
+      "passed": 7129,
+      "failed": 0
+    },
+    {
+      "id": "000115:selected-counts",
+      "operation": "Verify exactly 200 selected rows and 100 hits/100 no-hits for each assigned check directly on final-selection.json.",
+      "assertionCount": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "id": "000115:prior-source-binding",
+      "operation": "Verify the prior source raw-byte hash against its before-round2 frozen selection, and the before-selection packing against Git b2b19866.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000115:source-preservation",
+      "operation": "Compare every previous source row, its text bytes and each label; allow only the explicitly named four true-to-false corrections and their snippet removal.",
+      "assertionCount": 1199,
+      "passed": 1199,
+      "failed": 0
+    },
+    {
+      "id": "000115:correction-values",
+      "operation": "Verify each corrected value and text hash in the previous source, current source, curator replacement and selected rows.",
+      "assertionCount": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "id": "000115:source-layers",
+      "operation": "Verify supported/replenished rows preserve the original reviewed wording and match the effective source exactly.",
+      "assertionCount": 481,
+      "passed": 481,
+      "failed": 0
+    },
+    {
+      "id": "000115:archive",
+      "operation": "Repack every effective source row and compare all Markdown bytes, sample boundaries and labels with the full Git 9e52d9ba archive.",
+      "assertionCount": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "id": "000115:root-packing",
+      "operation": "Compare the final frozen selection with exact root Markdown bytes, sample boundaries and all packed labels.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000115:selected-source-match",
+      "operation": "Verify every selected row is verbatim from the current source and therefore from the complete archive.",
+      "assertionCount": 200,
+      "passed": 200,
+      "failed": 0
+    },
+    {
+      "id": "000115:control-inputs",
+      "operation": "Validate the original pilot/expanded source IDs used to recompute mandatory controls.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000115:selector-recomputation",
+      "operation": "Execute the original selector retention/select functions without main, and compare with independent control classification, rank ordering, quota search and frozen records.",
+      "assertionCount": 7,
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "id": "000115:quota-minimality",
+      "operation": "Independently enumerate feasible mixed quotas, minimize maximum deviation from 25, then total absolute deviation, then numeric lexicographic order.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000115:mandatory-retention",
+      "operation": "Verify every independently classified mandatory control and every prior frozen mandatory control remains selected verbatim.",
+      "assertionCount": 225,
+      "passed": 225,
+      "failed": 0
+    },
+    {
+      "id": "000115:frozen-input-hashes",
+      "operation": "Verify every recorded selector input hash and the complete expected input-path set.",
+      "assertionCount": 11,
+      "passed": 11,
+      "failed": 0
+    },
+    {
+      "id": "000115:prior-input-hashes",
+      "operation": "Verify prior selector inputs against unchanged files or the explicit before-round2 backups.",
+      "assertionCount": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "id": "000115:balanced-proof",
+      "operation": "Compare the balanced proof snapshot with the full current frozen selection metadata.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "000115:removed-archive-preservation",
+      "operation": "Compare every removed previous selection passage and its complete labels verbatim with Git 9e52d9ba.",
+      "assertionCount": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "id": "000115:all-prior-selection-preservation",
+      "operation": "Verify the wording of every prior balanced selection passage survives in the full archive; allow only the named corrected labels.",
+      "assertionCount": 800,
+      "passed": 800,
+      "failed": 0
+    },
+    {
+      "id": "000117:row-validity",
+      "operation": "Validate source/selection row IDs, all assigned labels and exact snippet containment.",
+      "assertionCount": 7252,
+      "passed": 7252,
+      "failed": 0
+    },
+    {
+      "id": "000117:selected-counts",
+      "operation": "Verify exactly 200 selected rows and 100 hits/100 no-hits for each assigned check directly on final-selection.json.",
+      "assertionCount": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "id": "000117:prior-source-binding",
+      "operation": "Verify the prior source raw-byte hash against its before-round2 frozen selection, and the before-selection packing against Git b2b19866.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000117:source-preservation",
+      "operation": "Compare every previous source row, its text bytes and each label; allow only the explicitly named four true-to-false corrections and their snippet removal.",
+      "assertionCount": 1235,
+      "passed": 1235,
+      "failed": 0
+    },
+    {
+      "id": "000117:correction-values",
+      "operation": "Verify each corrected value and text hash in the previous source, current source, curator replacement and selected rows.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000117:source-layers",
+      "operation": "Verify supported/replenished rows preserve the original reviewed wording and match the effective source exactly.",
+      "assertionCount": 481,
+      "passed": 481,
+      "failed": 0
+    },
+    {
+      "id": "000117:archive",
+      "operation": "Repack every effective source row and compare all Markdown bytes, sample boundaries and labels with the full Git 9e52d9ba archive.",
+      "assertionCount": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "id": "000117:root-packing",
+      "operation": "Compare the final frozen selection with exact root Markdown bytes, sample boundaries and all packed labels.",
+      "assertionCount": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "id": "000117:selected-source-match",
+      "operation": "Verify every selected row is verbatim from the current source and therefore from the complete archive.",
+      "assertionCount": 200,
+      "passed": 200,
+      "failed": 0
+    },
+    {
+      "id": "000117:control-inputs",
+      "operation": "Validate the original pilot/expanded source IDs used to recompute mandatory controls.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000117:selector-recomputation",
+      "operation": "Execute the original selector retention/select functions without main, and compare with independent control classification, rank ordering, quota search and frozen records.",
+      "assertionCount": 7,
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "id": "000117:quota-minimality",
+      "operation": "Independently enumerate feasible mixed quotas, minimize maximum deviation from 25, then total absolute deviation, then numeric lexicographic order.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000117:mandatory-retention",
+      "operation": "Verify every independently classified mandatory control and every prior frozen mandatory control remains selected verbatim.",
+      "assertionCount": 273,
+      "passed": 273,
+      "failed": 0
+    },
+    {
+      "id": "000117:frozen-input-hashes",
+      "operation": "Verify every recorded selector input hash and the complete expected input-path set.",
+      "assertionCount": 14,
+      "passed": 14,
+      "failed": 0
+    },
+    {
+      "id": "000117:prior-input-hashes",
+      "operation": "Verify prior selector inputs against unchanged files or the explicit before-round2 backups.",
+      "assertionCount": 13,
+      "passed": 13,
+      "failed": 0
+    },
+    {
+      "id": "000117:balanced-proof",
+      "operation": "Compare the balanced proof snapshot with the full current frozen selection metadata.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "000117:removed-archive-preservation",
+      "operation": "Compare every removed previous selection passage and its complete labels verbatim with Git 9e52d9ba.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "000117:all-prior-selection-preservation",
+      "operation": "Verify the wording of every prior balanced selection passage survives in the full archive; allow only the named corrected labels.",
+      "assertionCount": 800,
+      "passed": 800,
+      "failed": 0
+    },
+    {
+      "id": "receipt-backup-hashes",
+      "operation": "Recompute every backup hash recorded by the correction receipt.",
+      "assertionCount": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "id": "receipt-source-output-hashes",
+      "operation": "Recompute every source-output hash and row count recorded by the correction receipt.",
+      "assertionCount": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "id": "complete-archive",
+      "operation": "Verify the complete pre-existing 727 source passages and all labels survive, with exactly four permitted label corrections.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "family-inventory",
+      "operation": "Compare the complete 52-pair family inventory with the prior baseline using path metadata.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "unaffected-raw-bytes",
+      "operation": "Compare both raw files of each of the 49 unaffected pairs with Git b2b19866. Preserve holdout contents inside the validator process.",
+      "assertionCount": 98,
+      "passed": 98,
+      "failed": 0
+    },
+    {
+      "id": "public-validator",
+      "operation": "Run the public schema/checksum/boundary/duplicate-judgment/snippet-containment validator on exactly the 52 family pairs, exposing only aggregates for holdout.",
+      "assertionCount": 52,
+      "passed": 52,
+      "failed": 0
+    },
+    {
+      "id": "family-row-counts",
+      "operation": "Verify every family pair has exactly 200 samples and all assigned checks label all samples.",
+      "assertionCount": 104,
+      "passed": 104,
+      "failed": 0
+    },
+    {
+      "id": "family-100-100",
+      "operation": "Recompute the positive and negative counts for each family collection/check assignment, exposing only aggregate success for holdout.",
+      "assertionCount": 80,
+      "passed": 80,
+      "failed": 0
+    },
+    {
+      "id": "global-id-uniqueness",
+      "operation": "Check collection IDs and all 10,400 passage IDs across the 52 family pairs; holdout IDs remain in process memory.",
+      "assertionCount": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "id": "family-totals",
+      "operation": "Verify family-level pair, row, judgment, assignment, split, isolated/mixed and unchanged-pair totals.",
+      "assertionCount": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "id": "input-stability",
+      "operation": "Rehash all current audited files at audit completion to detect concurrent input changes; this verifier performs no writes.",
+      "assertionCount": 150,
+      "passed": 150,
+      "failed": 0
+    }
+  ],
+  "totals": {
+    "pairs": 52,
+    "passages": 10400,
+    "judgments": 16000,
+    "assignments": 80,
+    "holdoutPairs": 26,
+    "developmentPairs": 26,
+    "isolatedPairs": 38,
+    "mixedPairs": 14,
+    "unaffectedPairs": 49,
+    "unaffectedFiles": 98,
+    "duplicateSampleIds": 0,
+    "duplicateCollectionIds": 0,
+    "sourceRowsPreservedVerbatim": 727,
+    "sourceJudgments": 1701,
+    "sourceLabelsUnchanged": 1697,
+    "correctedLabels": 4,
+    "selectedMandatoryControls": 237,
+    "priorMandatoryControlsRetained": 234,
+    "removedPriorSelectedRowsPreservedVerbatim": 4
+  },
+  "corrections": [
+    {
+      "collection": "000107",
+      "sourceRow": "p143",
+      "stableId": "000107-de63b639d515",
+      "check": "narrative-craft/perception-verb-density",
+      "before": true,
+      "after": false,
+      "textSha256": "2979ebb6c249af3d497e333606388976d291532051dbe707123e2244232bee6a",
+      "reason": "The packaging requirement supplies a particular search in the garage; missing cardboard and substitute wrapping resolve it.",
+      "snippetsAfter": [],
+      "sourceSelectedCuratorArchiveAgree": true
+    },
+    {
+      "collection": "000115",
+      "sourceRow": "p201",
+      "stableId": "000115-135c88b7ed77",
+      "check": "narrative-craft/empty-beat",
+      "before": true,
+      "after": false,
+      "textSha256": "6acf5535e6b7c3d7a51b57df3d6c71c98d82887285855ee42a5de3bf82167f97",
+      "reason": "Delayed collection accommodates the ongoing toast without interrupting it.",
+      "snippetsAfter": [],
+      "sourceSelectedCuratorArchiveAgree": true
+    },
+    {
+      "collection": "000115",
+      "sourceRow": "p190",
+      "stableId": "000115-6e78d1c132a1",
+      "check": "narrative-craft/empty-beat",
+      "before": true,
+      "after": false,
+      "textSha256": "102f2e15e2bd5ef6cf2ecd1807f20259088051165ae86605684c95c4849538ac",
+      "reason": "The delay allows Dad an opportunity to complete his ongoing attempt before intervention.",
+      "snippetsAfter": [],
+      "sourceSelectedCuratorArchiveAgree": true
+    },
+    {
+      "collection": "000117",
+      "sourceRow": "p199",
+      "stableId": "000117-1ac8f38bbfa6",
+      "check": "narrative-craft/perception-verb-density",
+      "before": true,
+      "after": false,
+      "textSha256": "dbb54093a99fb3fd9adc825e39853b854e06570c1b717864e802cca47b094ad5",
+      "reason": "The adjoining sentence supplies a concrete visual observation of dust on scales in the room surveyed; observation itself needs no later task.",
+      "snippetsAfter": [],
+      "sourceSelectedCuratorArchiveAgree": true
+    }
+  ],
+  "changedCollections": [
+    {
+      "id": "000107",
+      "sourceRows": 240,
+      "previousSourceSha256": "90211b0990179cbd463e94b54722fe165107fa61bdd65c5d102dad39320e0ea4",
+      "currentSourceSha256": "093a65137945eed7a2fc73a2616ca42a5ac8580ccd6f859e37b48fdcec82ac10",
+      "selectedRows": 200,
+      "perCheckCounts": [
+        {
+          "check": "narrative-craft/perception-verb-density",
+          "hits": 100,
+          "noHits": 100
+        }
+      ],
+      "corrections": 1,
+      "mandatoryControls": 71,
+      "priorMandatoryControls": 70,
+      "combinations": {
+        "0": 100,
+        "1": 100
+      },
+      "quotaProof": {
+        "values": [
+          100,
+          100
+        ],
+        "radius": 0,
+        "l1": 0,
+        "feasibleByRadius": [
+          {
+            "radius": 0,
+            "feasible": 1
+          }
+        ]
+      },
+      "removed": [
+        {
+          "id": "000107-0d05925a6101",
+          "textSha256": "9a2c1d12bc333889851c8e01e6bd80d502e8b0fa518db35c07b5df806f6766dc",
+          "labelsSha256": "da090d751483d490abb174b90915809ba50c59d00599fe1892c6ddfbc1d21e0a",
+          "archivedVerbatim": true
+        }
+      ],
+      "added": [
+        {
+          "id": "000107-058ddd57a863",
+          "textSha256": "00a50aad790bae0cc534b46746b28c10446fb33b12f0d46fd7eb848d053fc837"
+        }
+      ],
+      "archivedRows": 240,
+      "unchangedLabels": 239
+    },
+    {
+      "id": "000115",
+      "sourceRows": 240,
+      "previousSourceSha256": "f954f7b411e11dcdbed2de5cf3212f1b31f2e3f30b8a4f1d8262f29b224deeda",
+      "currentSourceSha256": "da645b1708867bafadcae36be4214da77a3f2e4fe00f02195a65896653a3f3fd",
+      "selectedRows": 200,
+      "perCheckCounts": [
+        {
+          "check": "narrative-craft/body-emotion-shorthand",
+          "hits": 100,
+          "noHits": 100
+        },
+        {
+          "check": "narrative-craft/empty-beat",
+          "hits": 100,
+          "noHits": 100
+        },
+        {
+          "check": "narrative-craft/empty-scene-state",
+          "hits": 100,
+          "noHits": 100
+        }
+      ],
+      "corrections": 2,
+      "mandatoryControls": 75,
+      "priorMandatoryControls": 74,
+      "combinations": {
+        "100": 25,
+        "101": 25,
+        "110": 25,
+        "111": 25,
+        "000": 25,
+        "001": 25,
+        "010": 25,
+        "011": 25
+      },
+      "quotaProof": {
+        "values": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "l1": 0,
+        "radius": 0,
+        "feasibleByRadius": [
+          {
+            "radius": 0,
+            "feasible": 1
+          }
+        ],
+        "minimumL1Solutions": 1,
+        "mandatory": [
+          13,
+          10,
+          11,
+          10,
+          10,
+          6,
+          9,
+          6
+        ],
+        "available": [
+          35,
+          31,
+          26,
+          28,
+          30,
+          30,
+          31,
+          29
+        ]
+      },
+      "removed": [
+        {
+          "id": "000115-1c134db06c7d",
+          "textSha256": "13e03ffb06588e937841a10940511cb1c68ed9f51ccb9442891400cb9eab4814",
+          "labelsSha256": "d855463088318ac5354d7866f44bf0e6f3a6615090641344cbebbacf1b96e47c",
+          "archivedVerbatim": true
+        },
+        {
+          "id": "000115-5236097a3a5d",
+          "textSha256": "ff779563029334d4297bf5175ce729689b90c251de5bb477293574d1a18c697c",
+          "labelsSha256": "c63a4d7c8c2893ad0056b83d5ec5467289524ea57072ec25ec190291cea9227a",
+          "archivedVerbatim": true
+        }
+      ],
+      "added": [
+        {
+          "id": "000115-61c513b831e4",
+          "textSha256": "c36d2ae513e2fe547ed514e2d3e2da6f6fe0d2ba6cf4bd25156a7dab8126a4ce"
+        },
+        {
+          "id": "000115-8d9dbdf6dfb0",
+          "textSha256": "c2db5e913b7a3df830a31155ee57abbed5ad881003dd755c0400385dd485781b"
+        }
+      ],
+      "archivedRows": 240,
+      "unchangedLabels": 718
+    },
+    {
+      "id": "000117",
+      "sourceRows": 247,
+      "previousSourceSha256": "0d6233352dc7dc054612351df5a2d0c8b20acf057a5b45060c9d01be8cb8f535",
+      "currentSourceSha256": "ea10573c089a5edff65a02da6c4b1232e17ae345a506666ff7e7e5c009565c00",
+      "selectedRows": 200,
+      "perCheckCounts": [
+        {
+          "check": "narrative-craft/emotion-as-substance",
+          "hits": 100,
+          "noHits": 100
+        },
+        {
+          "check": "narrative-craft/perception-verb-density",
+          "hits": 100,
+          "noHits": 100
+        },
+        {
+          "check": "narrative-craft/fake-timestamps",
+          "hits": 100,
+          "noHits": 100
+        }
+      ],
+      "corrections": 1,
+      "mandatoryControls": 91,
+      "priorMandatoryControls": 90,
+      "combinations": {
+        "100": 24,
+        "101": 25,
+        "110": 25,
+        "111": 26,
+        "000": 28,
+        "001": 23,
+        "010": 23,
+        "011": 26
+      },
+      "quotaProof": {
+        "values": [
+          28,
+          23,
+          23,
+          26,
+          24,
+          25,
+          25,
+          26
+        ],
+        "l1": 10,
+        "radius": 3,
+        "feasibleByRadius": [
+          {
+            "radius": 0,
+            "feasible": 0
+          },
+          {
+            "radius": 1,
+            "feasible": 0
+          },
+          {
+            "radius": 2,
+            "feasible": 0
+          },
+          {
+            "radius": 3,
+            "feasible": 64
+          }
+        ],
+        "minimumL1Solutions": 6,
+        "mandatory": [
+          28,
+          8,
+          11,
+          8,
+          10,
+          9,
+          9,
+          8
+        ],
+        "available": [
+          43,
+          31,
+          24,
+          29,
+          31,
+          31,
+          29,
+          29
+        ]
+      },
+      "removed": [
+        {
+          "id": "000117-57c92e182759",
+          "textSha256": "7cfea7e6e6db7e7f89ff50b4168075dd50286337861ddf59e1e42e4b8914b80f",
+          "labelsSha256": "cadc2e29d1b8d932402a5d7a32a8f9cedda40151bc1352590afe25506b2dca1b",
+          "archivedVerbatim": true
+        }
+      ],
+      "added": [
+        {
+          "id": "000117-bb59899f2e68",
+          "textSha256": "d42a76c5d3c34919744a90d5af608cdf7f655baca321ec20965c1c524469b4b4"
+        }
+      ],
+      "archivedRows": 247,
+      "unchangedLabels": 740
+    }
+  ],
+  "familyPairHashes": [
+    {
+      "file": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e",
+      "labelsSha256": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7",
+      "baselineTextSha256": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e",
+      "baselineLabelsSha256": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000078-narrative-craft-body-emotion-shorthand-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "8260d36098ac6fa63fd2cc0a813882aed7e3267f49d2c2f9a5e48da1c7c3b923",
+      "labelsSha256": "ace8d27ced524b00f2758b7c3294786fc6249cd6ef449671a0c6dff3fa8f2855",
+      "baselineTextSha256": "8260d36098ac6fa63fd2cc0a813882aed7e3267f49d2c2f9a5e48da1c7c3b923",
+      "baselineLabelsSha256": "ace8d27ced524b00f2758b7c3294786fc6249cd6ef449671a0c6dff3fa8f2855"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "6824cde99759e52bce56a77c45a1305328ab0b9d5c65cfd862c8a40307c37da8",
+      "labelsSha256": "e975f7d61c126893cff626c38f25029b5a892eec7185e9848cf58b2a1bdc8bbb",
+      "baselineTextSha256": "6824cde99759e52bce56a77c45a1305328ab0b9d5c65cfd862c8a40307c37da8",
+      "baselineLabelsSha256": "e975f7d61c126893cff626c38f25029b5a892eec7185e9848cf58b2a1bdc8bbb"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "21168e9b853482330c4f85ae19043e6d6cc42ca453d149e73c360752674efd8a",
+      "labelsSha256": "d6c20c66c085e6ec9b553a9deb399c17c90c8876243dd090fc043e25abd312b5",
+      "baselineTextSha256": "21168e9b853482330c4f85ae19043e6d6cc42ca453d149e73c360752674efd8a",
+      "baselineLabelsSha256": "d6c20c66c085e6ec9b553a9deb399c17c90c8876243dd090fc043e25abd312b5"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "74b690e185dd304e12c455c1ddd2e181f1480005b59976378d0e64aa71259d56",
+      "labelsSha256": "d7451b26d5cab16501e146039678ef27d5c4c610b98c624ec074da63c81db186",
+      "baselineTextSha256": "74b690e185dd304e12c455c1ddd2e181f1480005b59976378d0e64aa71259d56",
+      "baselineLabelsSha256": "d7451b26d5cab16501e146039678ef27d5c4c610b98c624ec074da63c81db186"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "8455665966e6cdb1d580aa66ea07e74462b504c69e69b52955d6c234f74097bc",
+      "labelsSha256": "c2ce8b6bc660c4cd74cfce1b561d77e22827c0eefa74ee24b3696bcac8679075",
+      "baselineTextSha256": "8455665966e6cdb1d580aa66ea07e74462b504c69e69b52955d6c234f74097bc",
+      "baselineLabelsSha256": "c2ce8b6bc660c4cd74cfce1b561d77e22827c0eefa74ee24b3696bcac8679075"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "f9c895280807754e64c51db35ac9dd3ec7892a3772b621b82ac1883366ba4265",
+      "labelsSha256": "5868df73f7ca202030093c4f821f404a52a765e57493ece8c291bd63fee6a3de",
+      "baselineTextSha256": "f9c895280807754e64c51db35ac9dd3ec7892a3772b621b82ac1883366ba4265",
+      "baselineLabelsSha256": "5868df73f7ca202030093c4f821f404a52a765e57493ece8c291bd63fee6a3de"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "83ae52ca708e587be9c7ac7d163a0e76ef2d4c67e2cd9f0fe63e55f51165e887",
+      "labelsSha256": "da0227abd9779101d4d4310db4472e137b31823e8e0390c1edb1a45e9d9bf47e",
+      "baselineTextSha256": "83ae52ca708e587be9c7ac7d163a0e76ef2d4c67e2cd9f0fe63e55f51165e887",
+      "baselineLabelsSha256": "da0227abd9779101d4d4310db4472e137b31823e8e0390c1edb1a45e9d9bf47e"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1",
+      "labelsSha256": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53",
+      "baselineTextSha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1",
+      "baselineLabelsSha256": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c",
+      "labelsSha256": "019e76486132131977e68e97760e7c57721a28aa14d089e2a95910dc232438d6",
+      "baselineTextSha256": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c",
+      "baselineLabelsSha256": "019e76486132131977e68e97760e7c57721a28aa14d089e2a95910dc232438d6"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "21ced3cd281c20c59a4a6d63a3632013dfc1ef9bf82f91c51fe8d691da659aee",
+      "labelsSha256": "3ecfaaf1f3c37eefcd73f86aaaee3a90a9072fae70d14ec1cd07bb878d9d9002",
+      "baselineTextSha256": "21ced3cd281c20c59a4a6d63a3632013dfc1ef9bf82f91c51fe8d691da659aee",
+      "baselineLabelsSha256": "3ecfaaf1f3c37eefcd73f86aaaee3a90a9072fae70d14ec1cd07bb878d9d9002"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "d113f1ddad80c1b7a48cfa94aa15e438997dd4d89f6dafb0f7b1e810a5a7f8b4",
+      "labelsSha256": "6f1db033c41b1c2af9c28c34a30b62ceceb0ddd328826ce9f6c71ab019ba8083",
+      "baselineTextSha256": "d113f1ddad80c1b7a48cfa94aa15e438997dd4d89f6dafb0f7b1e810a5a7f8b4",
+      "baselineLabelsSha256": "6f1db033c41b1c2af9c28c34a30b62ceceb0ddd328826ce9f6c71ab019ba8083"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "5dfe80eb057645163ec319119e6eb366990aa231fcac93807f4b77f979088668",
+      "labelsSha256": "e40007754421b22b9859cc9e5b30f30ba8f4b265567920bd02850823df18b611",
+      "baselineTextSha256": "5dfe80eb057645163ec319119e6eb366990aa231fcac93807f4b77f979088668",
+      "baselineLabelsSha256": "e40007754421b22b9859cc9e5b30f30ba8f4b265567920bd02850823df18b611"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "ade9907b6be8b12fa0fef719f54661908c3df8f947231ce24226b5be722a82ca",
+      "labelsSha256": "d7f9b4ed457206e94aacb25c6a8023bf007bc672ad34f3441a47d9b55c007ac7",
+      "baselineTextSha256": "ade9907b6be8b12fa0fef719f54661908c3df8f947231ce24226b5be722a82ca",
+      "baselineLabelsSha256": "d7f9b4ed457206e94aacb25c6a8023bf007bc672ad34f3441a47d9b55c007ac7"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "750b310691a9ebc2f44ddff182a946149c224219930c429e4e44413dd8bf18c5",
+      "labelsSha256": "0dc4c10115c5999d61c3c813fe644e51a7e6c76fc17ed7f86cc58a0cad2a3479",
+      "baselineTextSha256": "750b310691a9ebc2f44ddff182a946149c224219930c429e4e44413dd8bf18c5",
+      "baselineLabelsSha256": "0dc4c10115c5999d61c3c813fe644e51a7e6c76fc17ed7f86cc58a0cad2a3479"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "fc65d3aac04ed5af2d10ca381bf3d0522dac32ede72c27a2bdfe5676c8b1fcf4",
+      "labelsSha256": "a8c6f54b81f0adb3cc9d42b2bee59f29045c315919bda4051e227a82cefa5a95",
+      "baselineTextSha256": "fc65d3aac04ed5af2d10ca381bf3d0522dac32ede72c27a2bdfe5676c8b1fcf4",
+      "baselineLabelsSha256": "a8c6f54b81f0adb3cc9d42b2bee59f29045c315919bda4051e227a82cefa5a95"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "6b2c8aac36436ff26aadfce94f86ee7aef2a74fb58622c416ea14ade16230927",
+      "labelsSha256": "27ca858b667b74a6605918eda31c5329a1a3c6a7934291f7af8de32836b48f5a",
+      "baselineTextSha256": "6b2c8aac36436ff26aadfce94f86ee7aef2a74fb58622c416ea14ade16230927",
+      "baselineLabelsSha256": "27ca858b667b74a6605918eda31c5329a1a3c6a7934291f7af8de32836b48f5a"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "3685babb80d11a9d675ccfa36af98486b2f4d13380124dee501e1f320ddf7146",
+      "labelsSha256": "353a56263d00bb2bc3472fb775bf4b697e6cb18653fea6a35a65cca88fdef97e",
+      "baselineTextSha256": "3685babb80d11a9d675ccfa36af98486b2f4d13380124dee501e1f320ddf7146",
+      "baselineLabelsSha256": "353a56263d00bb2bc3472fb775bf4b697e6cb18653fea6a35a65cca88fdef97e"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "0de4f9158440003afda6a6359c1368fa51c067cb8edea742bfbce0ddaf215e14",
+      "labelsSha256": "e8d623178501b1758b4d59bbf6d17f24ef471fce26bde3d8100c4de938dfbce4",
+      "baselineTextSha256": "0de4f9158440003afda6a6359c1368fa51c067cb8edea742bfbce0ddaf215e14",
+      "baselineLabelsSha256": "e8d623178501b1758b4d59bbf6d17f24ef471fce26bde3d8100c4de938dfbce4"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "7b40ad60864478a25f1f25e0080fd2fd45abbec376b25a506920348d3448db43",
+      "labelsSha256": "dfb1380b6f9a30ee189b37f367eaafef6602951d489e8687e71e81382d750960",
+      "baselineTextSha256": "7b40ad60864478a25f1f25e0080fd2fd45abbec376b25a506920348d3448db43",
+      "baselineLabelsSha256": "dfb1380b6f9a30ee189b37f367eaafef6602951d489e8687e71e81382d750960"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+      "labelsSha256": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f",
+      "baselineTextSha256": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+      "baselineLabelsSha256": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "068b8f812da9471638b5c900109b29bc62e4d3b389e38566dc2d490818e1f142",
+      "labelsSha256": "a3ba6718fd8f613719cfb581567e57a6dc7a363165d970c241886972d8d54704",
+      "baselineTextSha256": "068b8f812da9471638b5c900109b29bc62e4d3b389e38566dc2d490818e1f142",
+      "baselineLabelsSha256": "a3ba6718fd8f613719cfb581567e57a6dc7a363165d970c241886972d8d54704"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239",
+      "labelsSha256": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38",
+      "baselineTextSha256": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239",
+      "baselineLabelsSha256": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "0f2fa11bd786fa39c26bcbdd3c956fb67e78dfa749fd049b0d0f0f78305a4743",
+      "labelsSha256": "9c40fb60837668cff0a0e18fa757add7d181649c35267ccc9313f9f455a2f8e2",
+      "baselineTextSha256": "0f2fa11bd786fa39c26bcbdd3c956fb67e78dfa749fd049b0d0f0f78305a4743",
+      "baselineLabelsSha256": "9c40fb60837668cff0a0e18fa757add7d181649c35267ccc9313f9f455a2f8e2"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "ec26f46f7285f55bbc0678d21c15254ccde6eeed610872dc3b6e72fddaff2e6f",
+      "labelsSha256": "32a596447da15b97e26af68b85cf8c6c40d2dde99bddfc883c863ea6146665f8",
+      "baselineTextSha256": "ec26f46f7285f55bbc0678d21c15254ccde6eeed610872dc3b6e72fddaff2e6f",
+      "baselineLabelsSha256": "32a596447da15b97e26af68b85cf8c6c40d2dde99bddfc883c863ea6146665f8"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "3cec97200cc706b498bc8f1884acc62f4fce17f0d08959c934fc1805674f5d20",
+      "labelsSha256": "35a5183cff7fd2fea285de5fab7259406700179a9ac308fed883d19b32a25833",
+      "baselineTextSha256": "3cec97200cc706b498bc8f1884acc62f4fce17f0d08959c934fc1805674f5d20",
+      "baselineLabelsSha256": "35a5183cff7fd2fea285de5fab7259406700179a9ac308fed883d19b32a25833"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "857c8e75d132558a5efcb56f3422cd6d31d793f19af473f5ecea7cb6ee2ab56a",
+      "labelsSha256": "168274a83642bf6c114497c721677f50b027f915f49e7e37706a621005ff9719",
+      "baselineTextSha256": "857c8e75d132558a5efcb56f3422cd6d31d793f19af473f5ecea7cb6ee2ab56a",
+      "baselineLabelsSha256": "168274a83642bf6c114497c721677f50b027f915f49e7e37706a621005ff9719"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "6c74699bf51bb647cf489284e2b8eff926d914e5b8bca2ad4b5c2fc835f56b84",
+      "labelsSha256": "cee3d96a04cd97306a4c5b9180cd3d83925f551e06770aa14fd46c1caccab01e",
+      "baselineTextSha256": "6c74699bf51bb647cf489284e2b8eff926d914e5b8bca2ad4b5c2fc835f56b84",
+      "baselineLabelsSha256": "cee3d96a04cd97306a4c5b9180cd3d83925f551e06770aa14fd46c1caccab01e"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "b1424d2f7b31c297fae6a8265d2c0ffe6aece9ab5a2bb868c5f80a58067568a3",
+      "labelsSha256": "95006809f3b3aa1e065ae24d80b8981a13e0444128210da6538d9f1ebff67dc3",
+      "baselineTextSha256": "b1424d2f7b31c297fae6a8265d2c0ffe6aece9ab5a2bb868c5f80a58067568a3",
+      "baselineLabelsSha256": "95006809f3b3aa1e065ae24d80b8981a13e0444128210da6538d9f1ebff67dc3"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "6b1ac670cc4fc518acd9fb7e15f398dd831f19ca466abb82bfadbb574c579ecc",
+      "labelsSha256": "56fb1a1cf40347a07ea4bc59191dc71091c28ffc92314f0c38eaecc05bfbe696",
+      "baselineTextSha256": "6b1ac670cc4fc518acd9fb7e15f398dd831f19ca466abb82bfadbb574c579ecc",
+      "baselineLabelsSha256": "56fb1a1cf40347a07ea4bc59191dc71091c28ffc92314f0c38eaecc05bfbe696"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development",
+      "split": "development",
+      "unaffected": false,
+      "textSha256": "05343a5aeb341818b6ad6947865ccebf678dd54432182028f79032ab205ee2ae",
+      "labelsSha256": "157fc5c3e9bd30640e8e1d213f79b6a553a01cc59b842d6f6591743ad00ca01f",
+      "baselineTextSha256": "f2f57923e2a31de65dc6808e83308a0a40c64c7900bb956e590b85d7179754f4",
+      "baselineLabelsSha256": "56cd883ceeb9c0ddc4626f129968a57a5876b16d7d1dcfaa4f5c166323476597"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "fb74ad5897ab41fb7a3b55fb8df1a443569d7c60e18f4631a2daa296614f5842",
+      "labelsSha256": "66f982897b706b9d8eb0097851ee0eafb78f9ee389e36aae2353f26d6f8496a7",
+      "baselineTextSha256": "fb74ad5897ab41fb7a3b55fb8df1a443569d7c60e18f4631a2daa296614f5842",
+      "baselineLabelsSha256": "66f982897b706b9d8eb0097851ee0eafb78f9ee389e36aae2353f26d6f8496a7"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "6b8573608e7b2f5109988c637203ef7fe700d3c2a3275564a9dc93de5266f12c",
+      "labelsSha256": "aee34f95fb30cbb7fae57e2be99c1b18d8515a78f25d19a54280cad114aba739",
+      "baselineTextSha256": "6b8573608e7b2f5109988c637203ef7fe700d3c2a3275564a9dc93de5266f12c",
+      "baselineLabelsSha256": "aee34f95fb30cbb7fae57e2be99c1b18d8515a78f25d19a54280cad114aba739"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "85c31d2968713df5abc6a8542c776a98b8e7737f34bbf2e620159e1e7971a195",
+      "labelsSha256": "db5dc18909994c48f961a91c696f733f64a2df0e5dca357be19fc3a067816265",
+      "baselineTextSha256": "85c31d2968713df5abc6a8542c776a98b8e7737f34bbf2e620159e1e7971a195",
+      "baselineLabelsSha256": "db5dc18909994c48f961a91c696f733f64a2df0e5dca357be19fc3a067816265"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4",
+      "labelsSha256": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f",
+      "baselineTextSha256": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4",
+      "baselineLabelsSha256": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "e1e54fbe79360697226f11e4cf4b5ac33c5bb72792e9ee37cf52b032eaa44af7",
+      "labelsSha256": "c2b2fd378b2f247a3c35872c4acc034398eaead6b3e0af9285d630bb7083a2b5",
+      "baselineTextSha256": "e1e54fbe79360697226f11e4cf4b5ac33c5bb72792e9ee37cf52b032eaa44af7",
+      "baselineLabelsSha256": "c2b2fd378b2f247a3c35872c4acc034398eaead6b3e0af9285d630bb7083a2b5"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "865e73c7ce92c5ab58ee6db49e19ec2f54772cf79040a1f291fa67ab66124fd0",
+      "labelsSha256": "b9762af84df6eae0cae4c2266a856fef0b8869bf670a7b75964c54a897633ee2",
+      "baselineTextSha256": "865e73c7ce92c5ab58ee6db49e19ec2f54772cf79040a1f291fa67ab66124fd0",
+      "baselineLabelsSha256": "b9762af84df6eae0cae4c2266a856fef0b8869bf670a7b75964c54a897633ee2"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "d43e24bb2e40c3144df2a8aa80769c702b56dc4befa1ed79055aea8f22eaf2fa",
+      "labelsSha256": "64f3854861e74fa8a0087d1023730541f8f7e8ec0bd935bb8bf53ba427cea59e",
+      "baselineTextSha256": "d43e24bb2e40c3144df2a8aa80769c702b56dc4befa1ed79055aea8f22eaf2fa",
+      "baselineLabelsSha256": "64f3854861e74fa8a0087d1023730541f8f7e8ec0bd935bb8bf53ba427cea59e"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development",
+      "split": "development",
+      "unaffected": false,
+      "textSha256": "975bb6dc7fd10b2d112b9bdab0352d07d1ceec2bdab1d76aea7fb629868aaac9",
+      "labelsSha256": "3489091171da0b20090646ca52b7cea6bdf605225188a6e3dab6c9005e7cb63e",
+      "baselineTextSha256": "6373cc877754c6cb1f1f9653f355d05b4e118ef22a6164bc9adced82f7498b5f",
+      "baselineLabelsSha256": "be1b2f757c81d2f79d97a52845a3192c05377d6a292145f79b2f8dfe40d5e62e"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "d149d0b32690533bbd320f88e9db21565bec36aa2721934a00532a9b6f125b71",
+      "labelsSha256": "704d4ce054025aadd0e8f3f6b1b8590fa1d288b3afba21df5d4c3136d8c868fd",
+      "baselineTextSha256": "d149d0b32690533bbd320f88e9db21565bec36aa2721934a00532a9b6f125b71",
+      "baselineLabelsSha256": "704d4ce054025aadd0e8f3f6b1b8590fa1d288b3afba21df5d4c3136d8c868fd"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development",
+      "split": "development",
+      "unaffected": false,
+      "textSha256": "0da61b05e14adc6450b3734cfdd8ca8d6b56d704bdb7bb662cc011f9b5825424",
+      "labelsSha256": "a6d5b60f37cb262669a667f47ef63d48d3d2462a38dd3a0b518518b9f57c145d",
+      "baselineTextSha256": "e4c6eb679e4beeb113ab9e3efdab74bebec1b1452f5f04b3a61543762eef9845",
+      "baselineLabelsSha256": "2520c069b714ccf60a0fd2b8d2d31b899010289e0598f200463fc427647af8d8"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "218d148bee9d6dbdf7988c0413515dee6f9b887b3f6cb7ccfaebfe1a3b4b9401",
+      "labelsSha256": "5a95760e6c988d239ff86911bb04d4a5ec1149d02b778fcd4e1cc5ba609defb3",
+      "baselineTextSha256": "218d148bee9d6dbdf7988c0413515dee6f9b887b3f6cb7ccfaebfe1a3b4b9401",
+      "baselineLabelsSha256": "5a95760e6c988d239ff86911bb04d4a5ec1149d02b778fcd4e1cc5ba609defb3"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "407a74e72ee4e1ad99f10fc39c0dd4a7377647683851090eb836387784aec48a",
+      "labelsSha256": "24f2990a7e5920b0bf329f493e4866b6e90bd3db237e688c9a59c79427e7cb43",
+      "baselineTextSha256": "407a74e72ee4e1ad99f10fc39c0dd4a7377647683851090eb836387784aec48a",
+      "baselineLabelsSha256": "24f2990a7e5920b0bf329f493e4866b6e90bd3db237e688c9a59c79427e7cb43"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "4d4b721b6be29c37637ec05934f826737a373cdb33c0f429934ffff507e89a6b",
+      "labelsSha256": "bba98cba18ad5d6afe72a5c9c1e7d6dcc6f267f9d55c998c449b7aa95f4a4b63",
+      "baselineTextSha256": "4d4b721b6be29c37637ec05934f826737a373cdb33c0f429934ffff507e89a6b",
+      "baselineLabelsSha256": "bba98cba18ad5d6afe72a5c9c1e7d6dcc6f267f9d55c998c449b7aa95f4a4b63"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "31bee8fdaab1d0d0bab66eee40974297a0951810698ad843d10577272f5892f0",
+      "labelsSha256": "abdd59147f07b44fa982c7e152fffeb1e421199abd3b84d08b65798da69902b0",
+      "baselineTextSha256": "31bee8fdaab1d0d0bab66eee40974297a0951810698ad843d10577272f5892f0",
+      "baselineLabelsSha256": "abdd59147f07b44fa982c7e152fffeb1e421199abd3b84d08b65798da69902b0"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "5918419776e991f7df2c9f6feb4bed945384e3f43f8632bdc1d8904f0921516d",
+      "labelsSha256": "d635ae66239d20723541609de669936c1126c68a02aed4c0756ccaa3ce4a88d4",
+      "baselineTextSha256": "5918419776e991f7df2c9f6feb4bed945384e3f43f8632bdc1d8904f0921516d",
+      "baselineLabelsSha256": "d635ae66239d20723541609de669936c1126c68a02aed4c0756ccaa3ce4a88d4"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "a077fb02a78e999b59aa8196c88acac3059928b2bac9f1ea82f666082834f1ac",
+      "labelsSha256": "af4c10444112f08385300b92a5b8a691a5fe9a9fef42feff44f382057c23c9e9",
+      "baselineTextSha256": "a077fb02a78e999b59aa8196c88acac3059928b2bac9f1ea82f666082834f1ac",
+      "baselineLabelsSha256": "af4c10444112f08385300b92a5b8a691a5fe9a9fef42feff44f382057c23c9e9"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "e8ce73db265c10f4caecd099c65db7b2a6d50948dcce66003934738c58d79121",
+      "labelsSha256": "04fd26886970ad854b4346275a22020f02d8ee46b503d18d20ba0e14d2c29e93",
+      "baselineTextSha256": "e8ce73db265c10f4caecd099c65db7b2a6d50948dcce66003934738c58d79121",
+      "baselineLabelsSha256": "04fd26886970ad854b4346275a22020f02d8ee46b503d18d20ba0e14d2c29e93"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "b364f11595619b53ae43644b1331b0c57aeee6b023321ac5874ed73597e756d1",
+      "labelsSha256": "f7ab7b3e7d91757eab137606dcbd69847c435f0ebec346fd9a32fa60462c909d",
+      "baselineTextSha256": "b364f11595619b53ae43644b1331b0c57aeee6b023321ac5874ed73597e756d1",
+      "baselineLabelsSha256": "f7ab7b3e7d91757eab137606dcbd69847c435f0ebec346fd9a32fa60462c909d"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "102d18809811915d8bb7b3da74d1384ba8a1c6b561a3e2d70c7274579656e719",
+      "labelsSha256": "caf1d16a6d60aef2370a8a67adc894dea88a5e5548c73e0300e6a1795571ed5a",
+      "baselineTextSha256": "102d18809811915d8bb7b3da74d1384ba8a1c6b561a3e2d70c7274579656e719",
+      "baselineLabelsSha256": "caf1d16a6d60aef2370a8a67adc894dea88a5e5548c73e0300e6a1795571ed5a"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development",
+      "split": "development",
+      "unaffected": true,
+      "textSha256": "55253d9ebf281cf5ccba192725c38986ea07286dfea3a308edd73681e964cfd5",
+      "labelsSha256": "6cf3d656756165ad0061d1dbb0c37848b83477d56c443c7fe165dec510a8bfdf",
+      "baselineTextSha256": "55253d9ebf281cf5ccba192725c38986ea07286dfea3a308edd73681e964cfd5",
+      "baselineLabelsSha256": "6cf3d656756165ad0061d1dbb0c37848b83477d56c443c7fe165dec510a8bfdf"
+    },
+    {
+      "file": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout",
+      "split": "holdout",
+      "unaffected": true,
+      "textSha256": "0c7e80f1af11599e1f65d76ac541f28cf1b3672158a797334e3c1d35c3ccb6a7",
+      "labelsSha256": "a0246c117b2f509ba6bb25cf7ad05ea12c14d82ebdb1122983b1d2b54805fd50",
+      "baselineTextSha256": "0c7e80f1af11599e1f65d76ac541f28cf1b3672158a797334e3c1d35c3ccb6a7",
+      "baselineLabelsSha256": "a0246c117b2f509ba6bb25cf7ad05ea12c14d82ebdb1122983b1d2b54805fd50"
+    }
+  ],
+  "selectorProof": {
+    "source": "/tmp/slopless-narrative-v21-full/select.mjs",
+    "sourceSha256": "2e8cf889e8e1460b7a256cf397e9a89f11e0e095c26e14f4b820d0fb7682f776",
+    "packerSha256": "f59230a37c041e72f0268e31fe6b22a4fa98ecb8d1fe3bc5929a66de54248925",
+    "executedInMemoryModuleSha256": "9f1a6bd0bbf33fe2cf1ae0cabb23577575a25ef122ee083243f8092669bb7d3f",
+    "invokedOperations": [
+      "retention(job, source.rows, supported.rows)",
+      "select(job, actualCandidates)"
+    ],
+    "sideEffectBoundary": "The in-memory module ends before function main(); no selector/packer CLI was executed. Only retention and select were invoked for the three authorized DEV jobs.",
+    "independentComparison": "Independent mandatory flags and SHA-256 ordering reproduce all selected rows in exact order. Mixed-quota enumeration uses free cells 000/001/010/100; selector uses 011/101/110/111. Exhaustive feasible counts prove the first feasible radius, minimum L1 and lexicographic tie break.",
+    "selectionInputs": "Source labels and explicit curator/source records determine controls and quotas; rank uses SHA-256 of split/raw ID. Detector predictions and model scores are never read by the invoked selector operations.",
+    "selectedRowProvenance": "All 600 selected rows match their source rows; all 727 source rows and complete labels match the Git full-pool archive."
+  },
+  "inputManifestSha256": "9021a5e26f41940e358eb46eecc5567a4299ceec63e8b0a956c9dcab3cd6d9ba",
+  "inputs": [
+    {
+      "kind": "file",
+      "file": "/tmp/narrative-v21-label-round2-data-audit-20261024.mjs",
+      "sha256": "2f57261208e3432a7bc4e4e447ca79ca8234fa1cfeea0037d949d41298326d4c"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections.json",
+      "sha256": "5931a434ec61b4714f8a5a0c34cb708fc58838f74706ba19e5e6f07d7faaa663"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/final-selection.json.before-label-round2",
+      "sha256": "f4e47049075ddcda67c4be4002768429bad2821afcb0ce63b17a175198fc4fb6"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/final-selection.json",
+      "sha256": "fe355a56bb8d9bd0f0e45ba828dc78446b667f2474f859cbf2a0785f23e5e931"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/label-support-resolution.json",
+      "sha256": "1de577c900ff6098d3c89c2b08ffc4c7ea6f2a9b171ed268b0b9f270d298fb01"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pilot-author.json",
+      "sha256": "e822bbbc51d78e59c38a9de040b67d31975e7bf6da7a380947cf632695d70061"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pool-author.json",
+      "sha256": "fc77cd5f3c184c13b2b7774ef3a75b1c1c22b7ce38d9b984b895b7336e6275ae"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pool-final-curate.json",
+      "sha256": "6d4d51cba0ebe02659ab302a4e92eb8fab37e5dc1205b3019e80005a460e0243"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pool-reconcile.json",
+      "sha256": "b22bebb553cdd295e922573f33783de2741cb2a0e463b60e5d535bf5decf8b53"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pool-reviewed.json",
+      "sha256": "90211b0990179cbd463e94b54722fe165107fa61bdd65c5d102dad39320e0ea4"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000107-narrative-craft-perception-verb-density-development/pool-supported.json",
+      "sha256": "093a65137945eed7a2fc73a2616ca42a5ac8580ccd6f859e37b48fdcec82ac10"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/final-selection.json.before-label-round2",
+      "sha256": "25f6f523997184354478096c248c7be7b14cc2eb723c76968e95ef443f52f005"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/final-selection.json",
+      "sha256": "057e37ab9a31c19cae2a4e9d4836f32c3ed8c8a6da6ee4fc75d7ba6ec4473474"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/label-support-resolution.json",
+      "sha256": "d4d1310db3b07915813bc5a1897aaeeec0c1dee8662856e7423434c607143908"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pilot-adjudicate.json",
+      "sha256": "53c0fa94b53ba7ef775cc4fab6cc2028dd53c5d5d31e82b12bed80389e1f8c1f"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pilot-author.json",
+      "sha256": "935c0c6f03c7eda0a022d3d9b608fc2ed6a55aa570e7c57976dd4bf425592cb3"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pool-author.json",
+      "sha256": "30406e3dc03f6a7c4ace0754e75a1b7390b5b3d0b3e18604e746aaec270fea65"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pool-final-curate.json",
+      "sha256": "76c0297f0d85a97d773732ee2c50b3620a193ca4cb63465b16e5fc21fa708074"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pool-final-resolve.json",
+      "sha256": "fcb68bfb463b052e26c332fcf21d0551654545e0fd77701c538460990c596b9f"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pool-reconcile.json",
+      "sha256": "cda0c5a06560c6224389d24e752be641695472e0189526694c696f5426f45bb6"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pool-reviewed.json",
+      "sha256": "f954f7b411e11dcdbed2de5cf3212f1b31f2e3f30b8a4f1d8262f29b224deeda"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000115-mixed-narrative-craft-a-development/pool-supported.json",
+      "sha256": "da645b1708867bafadcae36be4214da77a3f2e4fe00f02195a65896653a3f3fd"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/final-selection.json.before-label-round2",
+      "sha256": "4ccd03a3ffe511784153dae74cea6dd84756d6d31e42c4dfc8daf85e1c92d92b"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/final-selection.json",
+      "sha256": "4a4cbd097813b4bdda366c7c65fb5ca35ebed71335a96de8365f65f4944e5a44"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/followup-curate.json",
+      "sha256": "b2017f326821a0fa1e30d5bf7cc188d377bdf8652c6308225a605c0d334676e9"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/label-support-resolution.json.before-label-round2",
+      "sha256": "9a68b3e779f9b1b7781b53ddc6ef454a424bd147479d8ecf5bfd09eb6b8364a6"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/label-support-resolution.json",
+      "sha256": "7e43c2330f109ff2ab048cd11377f9172a888090743975120d78c3423a10bcbf"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pilot-adjudicate.json",
+      "sha256": "b1795f0114129b3f27d1e8eb774fd4b668762d9117467979513a14c777de4cbf"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pilot-author.json",
+      "sha256": "01673a95aba4f5325eba268678c2bc2ecf89f20203e00d901269c52f1da7328e"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-author.json",
+      "sha256": "657f4077437454c7079916e155e1281921173d316446390aa5717e908e7a3453"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-final-curate.json",
+      "sha256": "e1217e52cd50c946ceb2c92fd3987897575f4b2d7ae524750744441bc575375d"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-reconcile.json",
+      "sha256": "f2a18700146f8db180e474920e7fc56fb9a114fedc3b2e0510e20230a9966f48"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-replenished.json.before-label-round2",
+      "sha256": "0d6233352dc7dc054612351df5a2d0c8b20acf057a5b45060c9d01be8cb8f535"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-replenished.json",
+      "sha256": "ea10573c089a5edff65a02da6c4b1232e17ae345a506666ff7e7e5c009565c00"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-reviewed.json",
+      "sha256": "910785d014a36b29eada0ea6e68d8627e3f3389babaa8af4858872235f82e91b"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-supported.json.before-label-round2",
+      "sha256": "901e7db8e342c25acd2b5203334bc98886aeb41520d37209d7dd38fcf18f4bbc"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/pool-supported.json",
+      "sha256": "fa798812b3af372ce37050667738e2d0b43c433b5ae4b10865f2092c1c6e42b2"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/replenish-curate.json",
+      "sha256": "3e4070c16cca311ba0b6d824db9fcc6dd0d4f7cb364958b73278094cef5fc8c3"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/collections/000117-mixed-narrative-craft-b-development/replenish2-curate.json",
+      "sha256": "0e420169f26dd73f5d0365528366a2359038608e41eea4e610a6da9520cb21d3"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/development-label-round2-receipt.json",
+      "sha256": "c9df66efa072ac7728aef5683459fe77c4b2c6bfb79ea42bf5176c6bfafefd9c"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/label-round2-balanced-proof.json",
+      "sha256": "a60f42604baba001e60d9c74244f37b5063a7d1750f56dddd94cf9c2045ec220"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/pack.mjs",
+      "sha256": "f59230a37c041e72f0268e31fe6b22a4fa98ecb8d1fe3bc5929a66de54248925"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/select.mjs",
+      "sha256": "2e8cf889e8e1460b7a256cf397e9a89f11e0e095c26e14f4b820d0fb7682f776"
+    },
+    {
+      "kind": "file",
+      "file": "/tmp/slopless-narrative-v21-full/selection-report.json",
+      "sha256": "2bce68bb02db3abc99261435c7fdb59006c9c4211385efa7fe1c561f88e9f950"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.labels.json",
+      "sha256": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+      "sha256": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000078-narrative-craft-body-emotion-shorthand-holdout.labels.json",
+      "sha256": "ace8d27ced524b00f2758b7c3294786fc6249cd6ef449671a0c6dff3fa8f2855"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000078-narrative-craft-body-emotion-shorthand-holdout.md",
+      "sha256": "8260d36098ac6fa63fd2cc0a813882aed7e3267f49d2c2f9a5e48da1c7c3b923"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.labels.json",
+      "sha256": "e975f7d61c126893cff626c38f25029b5a892eec7185e9848cf58b2a1bdc8bbb"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+      "sha256": "6824cde99759e52bce56a77c45a1305328ab0b9d5c65cfd862c8a40307c37da8"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.labels.json",
+      "sha256": "d6c20c66c085e6ec9b553a9deb399c17c90c8876243dd090fc043e25abd312b5"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.md",
+      "sha256": "21168e9b853482330c4f85ae19043e6d6cc42ca453d149e73c360752674efd8a"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.labels.json",
+      "sha256": "d7451b26d5cab16501e146039678ef27d5c4c610b98c624ec074da63c81db186"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+      "sha256": "74b690e185dd304e12c455c1ddd2e181f1480005b59976378d0e64aa71259d56"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.labels.json",
+      "sha256": "c2ce8b6bc660c4cd74cfce1b561d77e22827c0eefa74ee24b3696bcac8679075"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.md",
+      "sha256": "8455665966e6cdb1d580aa66ea07e74462b504c69e69b52955d6c234f74097bc"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.labels.json",
+      "sha256": "5868df73f7ca202030093c4f821f404a52a765e57493ece8c291bd63fee6a3de"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+      "sha256": "f9c895280807754e64c51db35ac9dd3ec7892a3772b621b82ac1883366ba4265"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.labels.json",
+      "sha256": "da0227abd9779101d4d4310db4472e137b31823e8e0390c1edb1a45e9d9bf47e"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
+      "sha256": "83ae52ca708e587be9c7ac7d163a0e76ef2d4c67e2cd9f0fe63e55f51165e887"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.labels.json",
+      "sha256": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+      "sha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.labels.json",
+      "sha256": "019e76486132131977e68e97760e7c57721a28aa14d089e2a95910dc232438d6"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+      "sha256": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.labels.json",
+      "sha256": "3ecfaaf1f3c37eefcd73f86aaaee3a90a9072fae70d14ec1cd07bb878d9d9002"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+      "sha256": "21ced3cd281c20c59a4a6d63a3632013dfc1ef9bf82f91c51fe8d691da659aee"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.labels.json",
+      "sha256": "6f1db033c41b1c2af9c28c34a30b62ceceb0ddd328826ce9f6c71ab019ba8083"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.md",
+      "sha256": "d113f1ddad80c1b7a48cfa94aa15e438997dd4d89f6dafb0f7b1e810a5a7f8b4"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.labels.json",
+      "sha256": "e40007754421b22b9859cc9e5b30f30ba8f4b265567920bd02850823df18b611"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+      "sha256": "5dfe80eb057645163ec319119e6eb366990aa231fcac93807f4b77f979088668"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.labels.json",
+      "sha256": "d7f9b4ed457206e94aacb25c6a8023bf007bc672ad34f3441a47d9b55c007ac7"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.md",
+      "sha256": "ade9907b6be8b12fa0fef719f54661908c3df8f947231ce24226b5be722a82ca"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.labels.json",
+      "sha256": "0dc4c10115c5999d61c3c813fe644e51a7e6c76fc17ed7f86cc58a0cad2a3479"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+      "sha256": "750b310691a9ebc2f44ddff182a946149c224219930c429e4e44413dd8bf18c5"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.labels.json",
+      "sha256": "a8c6f54b81f0adb3cc9d42b2bee59f29045c315919bda4051e227a82cefa5a95"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.md",
+      "sha256": "fc65d3aac04ed5af2d10ca381bf3d0522dac32ede72c27a2bdfe5676c8b1fcf4"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.labels.json",
+      "sha256": "27ca858b667b74a6605918eda31c5329a1a3c6a7934291f7af8de32836b48f5a"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+      "sha256": "6b2c8aac36436ff26aadfce94f86ee7aef2a74fb58622c416ea14ade16230927"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.labels.json",
+      "sha256": "353a56263d00bb2bc3472fb775bf4b697e6cb18653fea6a35a65cca88fdef97e"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.md",
+      "sha256": "3685babb80d11a9d675ccfa36af98486b2f4d13380124dee501e1f320ddf7146"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.labels.json",
+      "sha256": "e8d623178501b1758b4d59bbf6d17f24ef471fce26bde3d8100c4de938dfbce4"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+      "sha256": "0de4f9158440003afda6a6359c1368fa51c067cb8edea742bfbce0ddaf215e14"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.labels.json",
+      "sha256": "dfb1380b6f9a30ee189b37f367eaafef6602951d489e8687e71e81382d750960"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+      "sha256": "7b40ad60864478a25f1f25e0080fd2fd45abbec376b25a506920348d3448db43"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json",
+      "sha256": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+      "sha256": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.labels.json",
+      "sha256": "a3ba6718fd8f613719cfb581567e57a6dc7a363165d970c241886972d8d54704"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
+      "sha256": "068b8f812da9471638b5c900109b29bc62e4d3b389e38566dc2d490818e1f142"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json",
+      "sha256": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+      "sha256": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.labels.json",
+      "sha256": "9c40fb60837668cff0a0e18fa757add7d181649c35267ccc9313f9f455a2f8e2"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.md",
+      "sha256": "0f2fa11bd786fa39c26bcbdd3c956fb67e78dfa749fd049b0d0f0f78305a4743"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.labels.json",
+      "sha256": "32a596447da15b97e26af68b85cf8c6c40d2dde99bddfc883c863ea6146665f8"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+      "sha256": "ec26f46f7285f55bbc0678d21c15254ccde6eeed610872dc3b6e72fddaff2e6f"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.labels.json",
+      "sha256": "35a5183cff7fd2fea285de5fab7259406700179a9ac308fed883d19b32a25833"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.md",
+      "sha256": "3cec97200cc706b498bc8f1884acc62f4fce17f0d08959c934fc1805674f5d20"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.labels.json",
+      "sha256": "168274a83642bf6c114497c721677f50b027f915f49e7e37706a621005ff9719"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+      "sha256": "857c8e75d132558a5efcb56f3422cd6d31d793f19af473f5ecea7cb6ee2ab56a"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.labels.json",
+      "sha256": "cee3d96a04cd97306a4c5b9180cd3d83925f551e06770aa14fd46c1caccab01e"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+      "sha256": "6c74699bf51bb647cf489284e2b8eff926d914e5b8bca2ad4b5c2fc835f56b84"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.labels.json",
+      "sha256": "95006809f3b3aa1e065ae24d80b8981a13e0444128210da6538d9f1ebff67dc3"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+      "sha256": "b1424d2f7b31c297fae6a8265d2c0ffe6aece9ab5a2bb868c5f80a58067568a3"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.labels.json",
+      "sha256": "56fb1a1cf40347a07ea4bc59191dc71091c28ffc92314f0c38eaecc05bfbe696"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.md",
+      "sha256": "6b1ac670cc4fc518acd9fb7e15f398dd831f19ca466abb82bfadbb574c579ecc"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json",
+      "sha256": "157fc5c3e9bd30640e8e1d213f79b6a553a01cc59b842d6f6591743ad00ca01f"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+      "sha256": "05343a5aeb341818b6ad6947865ccebf678dd54432182028f79032ab205ee2ae"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.labels.json",
+      "sha256": "66f982897b706b9d8eb0097851ee0eafb78f9ee389e36aae2353f26d6f8496a7"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+      "sha256": "fb74ad5897ab41fb7a3b55fb8df1a443569d7c60e18f4631a2daa296614f5842"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.labels.json",
+      "sha256": "aee34f95fb30cbb7fae57e2be99c1b18d8515a78f25d19a54280cad114aba739"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+      "sha256": "6b8573608e7b2f5109988c637203ef7fe700d3c2a3275564a9dc93de5266f12c"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.labels.json",
+      "sha256": "db5dc18909994c48f961a91c696f733f64a2df0e5dca357be19fc3a067816265"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
+      "sha256": "85c31d2968713df5abc6a8542c776a98b8e7737f34bbf2e620159e1e7971a195"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json",
+      "sha256": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+      "sha256": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.labels.json",
+      "sha256": "c2b2fd378b2f247a3c35872c4acc034398eaead6b3e0af9285d630bb7083a2b5"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.md",
+      "sha256": "e1e54fbe79360697226f11e4cf4b5ac33c5bb72792e9ee37cf52b032eaa44af7"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.labels.json",
+      "sha256": "b9762af84df6eae0cae4c2266a856fef0b8869bf670a7b75964c54a897633ee2"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+      "sha256": "865e73c7ce92c5ab58ee6db49e19ec2f54772cf79040a1f291fa67ab66124fd0"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.labels.json",
+      "sha256": "64f3854861e74fa8a0087d1023730541f8f7e8ec0bd935bb8bf53ba427cea59e"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
+      "sha256": "d43e24bb2e40c3144df2a8aa80769c702b56dc4befa1ed79055aea8f22eaf2fa"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.labels.json",
+      "sha256": "3489091171da0b20090646ca52b7cea6bdf605225188a6e3dab6c9005e7cb63e"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+      "sha256": "975bb6dc7fd10b2d112b9bdab0352d07d1ceec2bdab1d76aea7fb629868aaac9"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.labels.json",
+      "sha256": "704d4ce054025aadd0e8f3f6b1b8590fa1d288b3afba21df5d4c3136d8c868fd"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+      "sha256": "d149d0b32690533bbd320f88e9db21565bec36aa2721934a00532a9b6f125b71"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json",
+      "sha256": "a6d5b60f37cb262669a667f47ef63d48d3d2462a38dd3a0b518518b9f57c145d"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+      "sha256": "0da61b05e14adc6450b3734cfdd8ca8d6b56d704bdb7bb662cc011f9b5825424"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.labels.json",
+      "sha256": "5a95760e6c988d239ff86911bb04d4a5ec1149d02b778fcd4e1cc5ba609defb3"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+      "sha256": "218d148bee9d6dbdf7988c0413515dee6f9b887b3f6cb7ccfaebfe1a3b4b9401"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.labels.json",
+      "sha256": "24f2990a7e5920b0bf329f493e4866b6e90bd3db237e688c9a59c79427e7cb43"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+      "sha256": "407a74e72ee4e1ad99f10fc39c0dd4a7377647683851090eb836387784aec48a"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.labels.json",
+      "sha256": "bba98cba18ad5d6afe72a5c9c1e7d6dcc6f267f9d55c998c449b7aa95f4a4b63"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+      "sha256": "4d4b721b6be29c37637ec05934f826737a373cdb33c0f429934ffff507e89a6b"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.labels.json",
+      "sha256": "abdd59147f07b44fa982c7e152fffeb1e421199abd3b84d08b65798da69902b0"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+      "sha256": "31bee8fdaab1d0d0bab66eee40974297a0951810698ad843d10577272f5892f0"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.labels.json",
+      "sha256": "d635ae66239d20723541609de669936c1126c68a02aed4c0756ccaa3ce4a88d4"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.md",
+      "sha256": "5918419776e991f7df2c9f6feb4bed945384e3f43f8632bdc1d8904f0921516d"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.labels.json",
+      "sha256": "af4c10444112f08385300b92a5b8a691a5fe9a9fef42feff44f382057c23c9e9"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+      "sha256": "a077fb02a78e999b59aa8196c88acac3059928b2bac9f1ea82f666082834f1ac"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.labels.json",
+      "sha256": "04fd26886970ad854b4346275a22020f02d8ee46b503d18d20ba0e14d2c29e93"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+      "sha256": "e8ce73db265c10f4caecd099c65db7b2a6d50948dcce66003934738c58d79121"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.labels.json",
+      "sha256": "f7ab7b3e7d91757eab137606dcbd69847c435f0ebec346fd9a32fa60462c909d"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+      "sha256": "b364f11595619b53ae43644b1331b0c57aeee6b023321ac5874ed73597e756d1"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.labels.json",
+      "sha256": "caf1d16a6d60aef2370a8a67adc894dea88a5e5548c73e0300e6a1795571ed5a"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+      "sha256": "102d18809811915d8bb7b3da74d1384ba8a1c6b561a3e2d70c7274579656e719"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.labels.json",
+      "sha256": "6cf3d656756165ad0061d1dbb0c37848b83477d56c443c7fe165dec510a8bfdf"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+      "sha256": "55253d9ebf281cf5ccba192725c38986ea07286dfea3a308edd73681e964cfd5"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.labels.json",
+      "sha256": "a0246c117b2f509ba6bb25cf7ad05ea12c14d82ebdb1122983b1d2b54805fd50"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+      "sha256": "0c7e80f1af11599e1f65d76ac541f28cf1b3672158a797334e3c1d35c3ccb6a7"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+      "sha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+    },
+    {
+      "kind": "file",
+      "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+      "sha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+      "file": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json",
+      "sha256": "60b86fc0dbdd33efab834011df7bc8853a975ebf150cfcb6bf267f2686e4811c"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+      "file": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+      "sha256": "5b72dbfa8303d1c97ec6de80222ce274845e7ef55ac86ae2bab30dee11fe4f10"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+      "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.labels.json",
+      "sha256": "11976b6c83f00bedb4ecadab539357f6b6cafc8fe04ba3dd3804c16167632851"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+      "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+      "sha256": "86ee64b2f9bed8e89ef0833276ffec52fdd2b981cb55cc04eea91cab3c436033"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+      "file": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json",
+      "sha256": "d6f4c68b3ce21980710f56d636b7d89e5e369cbc3c8cb3e13a73c554f5c2897e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "9e52d9ba83b9953a686700dec590d9d31f7505c7",
+      "file": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+      "sha256": "b6393c16f60124ea54199481b4ac612c820c0389ba2383d9dc5b090e309cd173"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.labels.json",
+      "sha256": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+      "sha256": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000078-narrative-craft-body-emotion-shorthand-holdout.labels.json",
+      "sha256": "ace8d27ced524b00f2758b7c3294786fc6249cd6ef449671a0c6dff3fa8f2855"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000078-narrative-craft-body-emotion-shorthand-holdout.md",
+      "sha256": "8260d36098ac6fa63fd2cc0a813882aed7e3267f49d2c2f9a5e48da1c7c3b923"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.labels.json",
+      "sha256": "e975f7d61c126893cff626c38f25029b5a892eec7185e9848cf58b2a1bdc8bbb"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+      "sha256": "6824cde99759e52bce56a77c45a1305328ab0b9d5c65cfd862c8a40307c37da8"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.labels.json",
+      "sha256": "d6c20c66c085e6ec9b553a9deb399c17c90c8876243dd090fc043e25abd312b5"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000080-narrative-craft-abstract-personification-line-holdout.md",
+      "sha256": "21168e9b853482330c4f85ae19043e6d6cc42ca453d149e73c360752674efd8a"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.labels.json",
+      "sha256": "d7451b26d5cab16501e146039678ef27d5c4c610b98c624ec074da63c81db186"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+      "sha256": "74b690e185dd304e12c455c1ddd2e181f1480005b59976378d0e64aa71259d56"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.labels.json",
+      "sha256": "c2ce8b6bc660c4cd74cfce1b561d77e22827c0eefa74ee24b3696bcac8679075"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000082-narrative-craft-body-action-density-holdout.md",
+      "sha256": "8455665966e6cdb1d580aa66ea07e74462b504c69e69b52955d6c234f74097bc"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.labels.json",
+      "sha256": "5868df73f7ca202030093c4f821f404a52a765e57493ece8c291bd63fee6a3de"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+      "sha256": "f9c895280807754e64c51db35ac9dd3ec7892a3772b621b82ac1883366ba4265"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.labels.json",
+      "sha256": "da0227abd9779101d4d4310db4472e137b31823e8e0390c1edb1a45e9d9bf47e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000084-narrative-craft-emotion-as-substance-holdout.md",
+      "sha256": "83ae52ca708e587be9c7ac7d163a0e76ef2d4c67e2cd9f0fe63e55f51165e887"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.labels.json",
+      "sha256": "8388179601d2edfa21980e58f76f23170f1e6070e0a48ce3981ef1365c8e4e53"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000085-narrative-craft-emotion-telling-development.md",
+      "sha256": "d96b4d6396dae990656235491a86a55c7cc83d4b14526516bf6cbca9b8796ff1"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.labels.json",
+      "sha256": "019e76486132131977e68e97760e7c57721a28aa14d089e2a95910dc232438d6"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000086-narrative-craft-emotion-telling-holdout.md",
+      "sha256": "809a06ceb2e4730f43b585d288cb68aa94d9b0f8854308a791ce3cda3d1e782c"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.labels.json",
+      "sha256": "3ecfaaf1f3c37eefcd73f86aaaee3a90a9072fae70d14ec1cd07bb878d9d9002"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+      "sha256": "21ced3cd281c20c59a4a6d63a3632013dfc1ef9bf82f91c51fe8d691da659aee"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.labels.json",
+      "sha256": "6f1db033c41b1c2af9c28c34a30b62ceceb0ddd328826ce9f6c71ab019ba8083"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000088-narrative-craft-empty-atmosphere-shift-holdout.md",
+      "sha256": "d113f1ddad80c1b7a48cfa94aa15e438997dd4d89f6dafb0f7b1e810a5a7f8b4"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.labels.json",
+      "sha256": "e40007754421b22b9859cc9e5b30f30ba8f4b265567920bd02850823df18b611"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+      "sha256": "5dfe80eb057645163ec319119e6eb366990aa231fcac93807f4b77f979088668"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.labels.json",
+      "sha256": "d7f9b4ed457206e94aacb25c6a8023bf007bc672ad34f3441a47d9b55c007ac7"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000090-narrative-craft-empty-beat-holdout.md",
+      "sha256": "ade9907b6be8b12fa0fef719f54661908c3df8f947231ce24226b5be722a82ca"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.labels.json",
+      "sha256": "0dc4c10115c5999d61c3c813fe644e51a7e6c76fc17ed7f86cc58a0cad2a3479"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+      "sha256": "750b310691a9ebc2f44ddff182a946149c224219930c429e4e44413dd8bf18c5"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.labels.json",
+      "sha256": "a8c6f54b81f0adb3cc9d42b2bee59f29045c315919bda4051e227a82cefa5a95"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000092-narrative-craft-empty-emotional-weather-holdout.md",
+      "sha256": "fc65d3aac04ed5af2d10ca381bf3d0522dac32ede72c27a2bdfe5676c8b1fcf4"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.labels.json",
+      "sha256": "27ca858b667b74a6605918eda31c5329a1a3c6a7934291f7af8de32836b48f5a"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+      "sha256": "6b2c8aac36436ff26aadfce94f86ee7aef2a74fb58622c416ea14ade16230927"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.labels.json",
+      "sha256": "353a56263d00bb2bc3472fb775bf4b697e6cb18653fea6a35a65cca88fdef97e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000094-narrative-craft-empty-scene-state-holdout.md",
+      "sha256": "3685babb80d11a9d675ccfa36af98486b2f4d13380124dee501e1f320ddf7146"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.labels.json",
+      "sha256": "e8d623178501b1758b4d59bbf6d17f24ef471fce26bde3d8100c4de938dfbce4"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+      "sha256": "0de4f9158440003afda6a6359c1368fa51c067cb8edea742bfbce0ddaf215e14"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.labels.json",
+      "sha256": "dfb1380b6f9a30ee189b37f367eaafef6602951d489e8687e71e81382d750960"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000096-narrative-craft-fake-timestamps-holdout.md",
+      "sha256": "7b40ad60864478a25f1f25e0080fd2fd45abbec376b25a506920348d3448db43"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json",
+      "sha256": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+      "sha256": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.labels.json",
+      "sha256": "a3ba6718fd8f613719cfb581567e57a6dc7a363165d970c241886972d8d54704"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000098-narrative-craft-fixed-metaphor-frame-holdout.md",
+      "sha256": "068b8f812da9471638b5c900109b29bc62e4d3b389e38566dc2d490818e1f142"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json",
+      "sha256": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+      "sha256": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.labels.json",
+      "sha256": "9c40fb60837668cff0a0e18fa757add7d181649c35267ccc9313f9f455a2f8e2"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000100-narrative-craft-gaze-choreography-holdout.md",
+      "sha256": "0f2fa11bd786fa39c26bcbdd3c956fb67e78dfa749fd049b0d0f0f78305a4743"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.labels.json",
+      "sha256": "32a596447da15b97e26af68b85cf8c6c40d2dde99bddfc883c863ea6146665f8"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+      "sha256": "ec26f46f7285f55bbc0678d21c15254ccde6eeed610872dc3b6e72fddaff2e6f"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.labels.json",
+      "sha256": "35a5183cff7fd2fea285de5fab7259406700179a9ac308fed883d19b32a25833"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000102-narrative-craft-low-information-beat-density-holdout.md",
+      "sha256": "3cec97200cc706b498bc8f1884acc62f4fce17f0d08959c934fc1805674f5d20"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.labels.json",
+      "sha256": "168274a83642bf6c114497c721677f50b027f915f49e7e37706a621005ff9719"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+      "sha256": "857c8e75d132558a5efcb56f3422cd6d31d793f19af473f5ecea7cb6ee2ab56a"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.labels.json",
+      "sha256": "cee3d96a04cd97306a4c5b9180cd3d83925f551e06770aa14fd46c1caccab01e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000104-narrative-craft-low-information-physical-blocking-holdout.md",
+      "sha256": "6c74699bf51bb647cf489284e2b8eff926d914e5b8bca2ad4b5c2fc835f56b84"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.labels.json",
+      "sha256": "95006809f3b3aa1e065ae24d80b8981a13e0444128210da6538d9f1ebff67dc3"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+      "sha256": "b1424d2f7b31c297fae6a8265d2c0ffe6aece9ab5a2bb868c5f80a58067568a3"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.labels.json",
+      "sha256": "56fb1a1cf40347a07ea4bc59191dc71091c28ffc92314f0c38eaecc05bfbe696"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000106-narrative-craft-narrative-cliches-holdout.md",
+      "sha256": "6b1ac670cc4fc518acd9fb7e15f398dd831f19ca466abb82bfadbb574c579ecc"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json",
+      "sha256": "56cd883ceeb9c0ddc4626f129968a57a5876b16d7d1dcfaa4f5c166323476597"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+      "sha256": "f2f57923e2a31de65dc6808e83308a0a40c64c7900bb956e590b85d7179754f4"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.labels.json",
+      "sha256": "66f982897b706b9d8eb0097851ee0eafb78f9ee389e36aae2353f26d6f8496a7"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000108-narrative-craft-perception-verb-density-holdout.md",
+      "sha256": "fb74ad5897ab41fb7a3b55fb8df1a443569d7c60e18f4631a2daa296614f5842"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.labels.json",
+      "sha256": "aee34f95fb30cbb7fae57e2be99c1b18d8515a78f25d19a54280cad114aba739"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+      "sha256": "6b8573608e7b2f5109988c637203ef7fe700d3c2a3275564a9dc93de5266f12c"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.labels.json",
+      "sha256": "db5dc18909994c48f961a91c696f733f64a2df0e5dca357be19fc3a067816265"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000110-narrative-craft-sensory-instead-of-frame-holdout.md",
+      "sha256": "85c31d2968713df5abc6a8542c776a98b8e7737f34bbf2e620159e1e7971a195"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json",
+      "sha256": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+      "sha256": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.labels.json",
+      "sha256": "c2b2fd378b2f247a3c35872c4acc034398eaead6b3e0af9285d630bb7083a2b5"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000112-narrative-craft-silence-as-actor-holdout.md",
+      "sha256": "e1e54fbe79360697226f11e4cf4b5ac33c5bb72792e9ee37cf52b032eaa44af7"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.labels.json",
+      "sha256": "b9762af84df6eae0cae4c2266a856fef0b8869bf670a7b75964c54a897633ee2"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+      "sha256": "865e73c7ce92c5ab58ee6db49e19ec2f54772cf79040a1f291fa67ab66124fd0"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.labels.json",
+      "sha256": "64f3854861e74fa8a0087d1023730541f8f7e8ec0bd935bb8bf53ba427cea59e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000114-narrative-craft-summary-fog-transition-holdout.md",
+      "sha256": "d43e24bb2e40c3144df2a8aa80769c702b56dc4befa1ed79055aea8f22eaf2fa"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.labels.json",
+      "sha256": "be1b2f757c81d2f79d97a52845a3192c05377d6a292145f79b2f8dfe40d5e62e"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+      "sha256": "6373cc877754c6cb1f1f9653f355d05b4e118ef22a6164bc9adced82f7498b5f"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.labels.json",
+      "sha256": "704d4ce054025aadd0e8f3f6b1b8590fa1d288b3afba21df5d4c3136d8c868fd"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000116-mixed-narrative-craft-a-holdout.md",
+      "sha256": "d149d0b32690533bbd320f88e9db21565bec36aa2721934a00532a9b6f125b71"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json",
+      "sha256": "2520c069b714ccf60a0fd2b8d2d31b899010289e0598f200463fc427647af8d8"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+      "sha256": "e4c6eb679e4beeb113ab9e3efdab74bebec1b1452f5f04b3a61543762eef9845"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.labels.json",
+      "sha256": "5a95760e6c988d239ff86911bb04d4a5ec1149d02b778fcd4e1cc5ba609defb3"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000118-mixed-narrative-craft-b-holdout.md",
+      "sha256": "218d148bee9d6dbdf7988c0413515dee6f9b887b3f6cb7ccfaebfe1a3b4b9401"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.labels.json",
+      "sha256": "24f2990a7e5920b0bf329f493e4866b6e90bd3db237e688c9a59c79427e7cb43"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+      "sha256": "407a74e72ee4e1ad99f10fc39c0dd4a7377647683851090eb836387784aec48a"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.labels.json",
+      "sha256": "bba98cba18ad5d6afe72a5c9c1e7d6dcc6f267f9d55c998c449b7aa95f4a4b63"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000120-mixed-narrative-craft-c-holdout.md",
+      "sha256": "4d4b721b6be29c37637ec05934f826737a373cdb33c0f429934ffff507e89a6b"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.labels.json",
+      "sha256": "abdd59147f07b44fa982c7e152fffeb1e421199abd3b84d08b65798da69902b0"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+      "sha256": "31bee8fdaab1d0d0bab66eee40974297a0951810698ad843d10577272f5892f0"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.labels.json",
+      "sha256": "d635ae66239d20723541609de669936c1126c68a02aed4c0756ccaa3ce4a88d4"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000122-mixed-narrative-craft-d-holdout.md",
+      "sha256": "5918419776e991f7df2c9f6feb4bed945384e3f43f8632bdc1d8904f0921516d"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.labels.json",
+      "sha256": "af4c10444112f08385300b92a5b8a691a5fe9a9fef42feff44f382057c23c9e9"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+      "sha256": "a077fb02a78e999b59aa8196c88acac3059928b2bac9f1ea82f666082834f1ac"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.labels.json",
+      "sha256": "04fd26886970ad854b4346275a22020f02d8ee46b503d18d20ba0e14d2c29e93"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000124-mixed-narrative-craft-e-holdout.md",
+      "sha256": "e8ce73db265c10f4caecd099c65db7b2a6d50948dcce66003934738c58d79121"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.labels.json",
+      "sha256": "f7ab7b3e7d91757eab137606dcbd69847c435f0ebec346fd9a32fa60462c909d"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+      "sha256": "b364f11595619b53ae43644b1331b0c57aeee6b023321ac5874ed73597e756d1"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.labels.json",
+      "sha256": "caf1d16a6d60aef2370a8a67adc894dea88a5e5548c73e0300e6a1795571ed5a"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000126-mixed-narrative-craft-f-holdout.md",
+      "sha256": "102d18809811915d8bb7b3da74d1384ba8a1c6b561a3e2d70c7274579656e719"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.labels.json",
+      "sha256": "6cf3d656756165ad0061d1dbb0c37848b83477d56c443c7fe165dec510a8bfdf"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+      "sha256": "55253d9ebf281cf5ccba192725c38986ea07286dfea3a308edd73681e964cfd5"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.labels.json",
+      "sha256": "a0246c117b2f509ba6bb25cf7ad05ea12c14d82ebdb1122983b1d2b54805fd50"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "datasets/ai-synthetic/passages/000128-mixed-narrative-craft-g-holdout.md",
+      "sha256": "0c7e80f1af11599e1f65d76ac541f28cf1b3672158a797334e3c1d35c3ccb6a7"
+    },
+    {
+      "kind": "git-blob",
+      "commit": "b2b198668a051dc117dd6465572ee8012b1dd768",
+      "file": "runners/results/narrative-craft-v21-final-data-freeze-audit.json",
+      "sha256": "374e86c7c4f287c85629ad1cecfe60fb38a2e9bdcde5f5e49de63d99432359c7"
+    }
+  ],
+  "execution": {
+    "command": "node /tmp/narrative-v21-label-round2-data-audit-20261024.mjs",
+    "nodeVersion": "v24.22.1",
+    "exitCode": 0,
+    "publicValidatorCalls": 52,
+    "actualSelectorCalls": 3,
+    "independentQuotaEnumerations": 2,
+    "auditedInputsStable": true,
+    "elapsedMilliseconds": 1798,
+    "reportProducedOnStdout": true
+  },
+  "objections": [],
+  "completion": "The four DEV corrections, three final selections, complete 727-row source archive and 49 unchanged pairs satisfy the stated incremental DATA audit assertions."
+}
