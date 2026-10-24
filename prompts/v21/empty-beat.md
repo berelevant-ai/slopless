@@ -2,8 +2,8 @@
 {
   "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage use a character's hesitation, waiting, lingering, stopping, briefly staying still or keeping pace, or a generic animal ear/tail gesture, merely to insert a pause or response between substantive events? Judge the behavior's own function: its relation to an ongoing process, resource constraint, another person's response, active physical need, informative perception, choice or particular narrative relation. Infer that function across connected sentences without requiring stated purpose or later consequence. A useful next action or conversational turn alone does not justify the preceding pause. Room mood, ambient silence and setting descriptions alone fall outside this character-behavior check.",
   "criteria": {
-    "true": "At least one character's hesitation, delay, stop, continued stillness or matched movement, or generic animal ear/tail tag, only pads the sequence with a pause or response. Its own function remains generic even when surrounding actions are useful or emotional. Duration, setting, trigger or an upcoming task alone supplies no particular function.",
-    "false": "No eligible character pause/response occurs, or every such cue itself serves a passage-supported process, resource constraint, opportunity for another person's response, active physical need, informative perception, choice or particular narrative relation. That function can be implicit and need no later consequence. Ambient silence or room mood alone establishes no character behavior. Preserve wording examined or documented as wording."
+    "true": "At least one character's hesitation, delay, stop, continued stillness or matched movement, or generic animal ear/tail tag, only pads the sequence with a pause or response. Its own function remains generic even when surrounding actions are useful or emotional. Duration, setting, trigger or an upcoming task alone supplies no particular function.\n\n### Hit\n\nNadia stopped sorting when a zip caught the lining of a junior jacket. She eased the fabric free with a pencil and put the jacket in the repair pile. Around her, the other volunteers were tying laundry bags and clearing the hall for lunch. **She paused briefly** before counting the remaining uniforms. None of the smallest size had come back. On the stock sheet, she wrote the junior coach's name beside the missing six and left the sheet on his chair.\n\n### Hit\n\nWater leaked from the hose coupling onto my shoes. My nephew fetched a wrench from the volunteer, and we tightened the fitting before filling the trough. The goat stood in its pen, **its tail flicking once**. We coiled the hose by the gate as the volunteer arrived with chopped vegetables for the afternoon feed.\n\n### Hit\n\nSomeone had tied a warning to the canal bridge: a bird was nesting in the tire wedged below it. We stopped to look through the railing. Farther along, the council had resurfaced the path over the root where I used to trip. **My friend and I walked in step for a while** before turning toward the station.",
+    "false": "No eligible character pause/response occurs, or every such cue itself serves a passage-supported process, resource constraint, opportunity for another person's response, active physical need, informative perception, choice or particular narrative relation. That function can be implicit and need no later consequence. Ambient silence or room mood alone establishes no character behavior. Preserve wording examined or documented as wording.\n\n### No Hit\n\nWe walked from the station carrying a suitcase between us because one wheel had broken. Our pace stayed matched for a spell. At the flat, the lift was working for once. We rode up with a man balancing a birthday cake, all three of us avoiding the suitcase's dirty underside.\n\n### No Hit\n\n\"You could stay here,\" Dad said, moving the spare key toward me.\nI left it on the table. He had already put clean sheets on my old bed; I could see the pillowcase through the open door. Neither of us spoke for a while. Then he drew the key back and asked what time the last bus left.\n\n### No Hit\n\nThe fox stood beside the compost bin, one ear turning toward the hedge while the other faced us. Something scraped beneath the leaves. Its head snapped round, and a second fox emerged carrying a torn bread bag. From the kitchen window, my son counted them twice. He had been leaving drawings of a single fox on the fridge all week."
   }
 }
 ---
@@ -22,30 +22,3 @@ Observation, orientation, characterization, compression and pacing qualify throu
 A task awaiting attention or a person's upcoming turn supplies only something to do next. Judge how the interval itself serves the situation. Useful work protects its own contribution; assess any independent delay or response beside it, even within the same sentence. An active need can support a pause while it persists without justifying every nearby delay. A resolved need cannot justify further delay. A trigger, duration, location or anatomical detail alone supplies no purpose.
 
 Preserve wording examined or documented as wording. Assess adopted narration and ordinary dialogue normally.
-
-## Development Examples
-
-### Hit
-
-Nadia stopped sorting when a zip caught the lining of a junior jacket. She eased the fabric free with a pencil and put the jacket in the repair pile. Around her, the other volunteers were tying laundry bags and clearing the hall for lunch. **She paused briefly** before counting the remaining uniforms. None of the smallest size had come back. On the stock sheet, she wrote the junior coach's name beside the missing six and left the sheet on his chair.
-
-### Hit
-
-Water leaked from the hose coupling onto my shoes. My nephew fetched a wrench from the volunteer, and we tightened the fitting before filling the trough. The goat stood in its pen, **its tail flicking once**. We coiled the hose by the gate as the volunteer arrived with chopped vegetables for the afternoon feed.
-
-### Hit
-
-Someone had tied a warning to the canal bridge: a bird was nesting in the tire wedged below it. We stopped to look through the railing. Farther along, the council had resurfaced the path over the root where I used to trip. **My friend and I walked in step for a while** before turning toward the station.
-
-### No Hit
-
-We walked from the station carrying a suitcase between us because one wheel had broken. Our pace stayed matched for a spell. At the flat, the lift was working for once. We rode up with a man balancing a birthday cake, all three of us avoiding the suitcase's dirty underside.
-
-### No Hit
-
-"You could stay here," Dad said, moving the spare key toward me.
-I left it on the table. He had already put clean sheets on my old bed; I could see the pillowcase through the open door. Neither of us spoke for a while. Then he drew the key back and asked what time the last bus left.
-
-### No Hit
-
-The fox stood beside the compost bin, one ear turning toward the hedge while the other faced us. Something scraped beneath the leaves. Its head snapped round, and a second fox emerged carrying a torn bread bag. From the kitchen window, my son counted them twice. He had been leaving drawings of a single fox on the fridge all week.

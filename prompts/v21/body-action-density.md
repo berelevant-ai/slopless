@@ -2,8 +2,8 @@
 {
   "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain body-action-density: a character's bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion whose own contribution is interchangeable reaction or staging rather than particular physical, perceptual, social or narrative information? Include animal characters, generalized sensations and involuntary or persistent feelings. Distinguish a character acting or feeling from an abstract entity acting metaphorically. Judge each cue's function in the connected passage, independently of other defects.",
   "criteria": {
-    "true": "At least one eligible character cue adds generic animation or emotional illustration rather than particular physical, perceptual, communicative or narrative information. Nearby useful work, speech or movement protects its own contribution, not every accompanying cue. A fitting emotion or conversational tone alone leaves a cue generic. Include generalized sensations and assertions of involuntary or persistent feeling. One weak cue suffices.",
-    "false": "Every candidate supplies a supported physical relation, informative perception, particular social response or identifiable narrative function, or no eligible character cue occurs. An abstraction's metaphorical activity alone supplies no character cue, including when it mentions a person or body part. Preserve implicit communication, informative contrasts and sensory conditions even without a stated purpose or later consequence. Preserve expressions whose wording or identity is examined or documented."
+    "true": "At least one eligible character cue adds generic animation or emotional illustration rather than particular physical, perceptual, communicative or narrative information. Nearby useful work, speech or movement protects its own contribution, not every accompanying cue. A fitting emotion or conversational tone alone leaves a cue generic. Include generalized sensations and assertions of involuntary or persistent feeling. One weak cue suffices.\n\n### Hit\n\nNora had worked at the swimming pool for eleven summers. **She tilted her head slightly as she explained the membership system to me.** Residents paid half price, visitors paid full price, and everyone argued about which category their grandchildren belonged in. The council had supplied a laminated flowchart. Nora kept it under the till because it contradicted the prices printed on the tickets.\n\n### Hit\n\nAt the depot, the lost-property clerk produced a purple umbrella and a fishing rod. 'Neither is mine,' I said, **my voice low and even**. I had described a green canvas bag containing tap shoes. He checked another shelf and found three matching bags from the same dance school, all without names.\n\n### Hit\n\nFrom the ferry's upper deck, Mara could distinguish the island only by the gap it made in the lights along the coast. Her cousin had promised to leave the grocery door unlocked. Above it was the room where Mara would spend the winter, with somebody else's furniture and a view she had seen only in photographs. **She couldn't help feeling a deep sense of anticipation.** At dawn, the ferry passed the last fishing boat and began its turn toward the harbor.",
+    "false": "Every candidate supplies a supported physical relation, informative perception, particular social response or identifiable narrative function, or no eligible character cue occurs. An abstraction's metaphorical activity alone supplies no character cue, including when it mentions a person or body part. Preserve implicit communication, informative contrasts and sensory conditions even without a stated purpose or later consequence. Preserve expressions whose wording or identity is examined or documented.\n\n### No Hit\n\nMy wife put one finger against my wrist under the table. It meant I was telling the story too fast for her father to follow. I went back to the bit about the stranded taxi and left room between sentences. He asked his first question, and she took her hand away.\n\n### No Hit\n\nI couldn't shake the feeling of grit beneath my eyelid. Even after I rinsed it, each blink scraped the same place. The workshop mirror showed nothing. At the clinic, the nurse turned the lid back and removed a speck of metal, smaller than the dot I had made on the accident form.\n\n### No Hit\n\nI can still feel the ladder's rung across my insteps when I remember that afternoon. The photograph shows me painting the top corner of the window while my father steadies the ladder below. He had died by the time we developed the film. That pressure is how the whole afternoon comes back."
   }
 }
 ---
@@ -26,29 +26,3 @@ A social cue can supply a particular response through its timing, addressee or c
 Preserve observation, orientation, characterization, compression and pacing through the particular information the cue supplies. Assess every cue independently: useful detail protects its own role, and another defect can coexist with a functional cue.
 
 Frequency, counting windows and severity are separate reporting concerns.
-
-## Development Examples
-
-### Hit
-
-Nora had worked at the swimming pool for eleven summers. **She tilted her head slightly as she explained the membership system to me.** Residents paid half price, visitors paid full price, and everyone argued about which category their grandchildren belonged in. The council had supplied a laminated flowchart. Nora kept it under the till because it contradicted the prices printed on the tickets.
-
-### Hit
-
-At the depot, the lost-property clerk produced a purple umbrella and a fishing rod. 'Neither is mine,' I said, **my voice low and even**. I had described a green canvas bag containing tap shoes. He checked another shelf and found three matching bags from the same dance school, all without names.
-
-### Hit
-
-From the ferry's upper deck, Mara could distinguish the island only by the gap it made in the lights along the coast. Her cousin had promised to leave the grocery door unlocked. Above it was the room where Mara would spend the winter, with somebody else's furniture and a view she had seen only in photographs. **She couldn't help feeling a deep sense of anticipation.** At dawn, the ferry passed the last fishing boat and began its turn toward the harbor.
-
-### No Hit
-
-My wife put one finger against my wrist under the table. It meant I was telling the story too fast for her father to follow. I went back to the bit about the stranded taxi and left room between sentences. He asked his first question, and she took her hand away.
-
-### No Hit
-
-I couldn't shake the feeling of grit beneath my eyelid. Even after I rinsed it, each blink scraped the same place. The workshop mirror showed nothing. At the clinic, the nurse turned the lid back and removed a speck of metal, smaller than the dot I had made on the accident form.
-
-### No Hit
-
-I can still feel the ladder's rung across my insteps when I remember that afternoon. The photograph shows me painting the top corner of the window while my father steadies the ladder below. He had died by the time we developed the film. That pressure is how the whole afternoon comes back.

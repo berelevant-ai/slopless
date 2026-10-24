@@ -142,6 +142,8 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Remaining Development Corrections
 
+- Test example placement for bodily actions and empty beats. Move the same three hit and three no-hit demonstrations from the shared-state Markdown into the corresponding native `criteria.true` and `criteria.false` strings. Preserve every demonstration and all definitions, model settings and thresholds; compare both complete development collections before deciding whether placement helps.
+- The TypeSafe Noul and State documentation permits examples in structured context and defines native criteria as answer descriptions. This experiment measures placement rather than assuming the existing state reference fails. Keep the original prompts and results available through Git and frozen snapshots.
 - For empty beats, enforce the frozen construction's character-behavior scope. Remove the candidate's added atmospheric-description eligibility; keep useful waiting, generic gestures and matched movement judged by their own functions.
 - For bodily actions, state the embodied-cue boundary in the native question and criteria. An abstract entity acting in a scene creates no bodily cue merely by mentioning a person or body part; preserve generic bodily reactions beside useful events.
 - Test those two corrections on unchanged isolated and mixed development. Preserve all examples and prior failures; require confirmation before selection.
