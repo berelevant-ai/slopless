@@ -1,19 +1,22 @@
 {
-  "status": "review-invalidated-mechanical-gates-pass",
-  "generatedAt": "2026-10-24T01:32:38.112Z",
-  "scope": "Fifteen-check Narrative Craft development checkpoint; saved-prediction validation and offline rescoring.",
-  "summary": "All 65 saved runs pass the intended-cutoff development gate across 31 balanced cohorts and 15 current prompts. Every original summary reproduces exactly. The silence mixed repeat remains failed at its original 0.5 cutoff (94 hits, 1 false positive) and passes offline rescoring at 0.39 (100 hits, 1 false positive). Review scope has a disclosed Git projection objection.",
+  "status": "pass",
+  "generatedAt": "2026-10-24T01:39:07.932Z",
+  "scope": "Fresh independent mechanical correctness and regression/evaluation provenance audit of fifteen Narrative Craft development checks.",
+  "summary": "All 65 saved runs reproduce complete public snapshots and exact original summaries. All 31 balanced development cohorts pass the intended cutoff gate across 15 hash-matching prompts of at most 1000 words. Four checks remain unfinished.",
   "restrictions": {
     "delegation": false,
-    "providerInference": false,
+    "providerCalls": false,
     "sourceEdits": false,
     "datasetEdits": false,
     "labelEdits": false,
     "holdoutFilesRead": [],
+    "holdoutDetectorInference": "unrun, as reported by main and the development-only manifest",
     "holdoutPerformanceAssessed": false,
     "semanticLabelCorrectnessAssessed": false,
     "fullTaxonomyRead": false,
-    "secondReviewer": "No further delegation under the explicit instruction; this session is the requested fresh independent reviewer."
+    "otherDefinitionsRead": false,
+    "freshReview": "This session is the requested independent re-review. Further delegation was prohibited.",
+    "gitProjection": "Only the intended calibrationCandidates entry, commit identity and committer date were emitted for each permitted commit."
   },
   "acceptance": {
     "positivesPerCohort": 100,
@@ -25,6 +28,7 @@
   },
   "counts": {
     "checks": 15,
+    "unfinishedChecks": 4,
     "cohorts": 31,
     "isolatedCohorts": 15,
     "mixedCohorts": 16,
@@ -44,8 +48,8 @@
     "minimumCaughtPerRun": 95,
     "maximumFalsePositivesPerRun": 5,
     "nativeNewCheckReceipts": 10,
-    "assertions": 359,
-    "passedAssertions": 358
+    "assertions": 363,
+    "passedAssertions": 363
   },
   "candidates": [
     {
@@ -3357,7 +3361,18 @@
         "beforeAfterSdkCheckEvidence": "The hash-matching driver checks version and both SDK hashes before spawn, explicitly passes --sdk entry, awaits child exit, checks both SDK hashes afterward, then writes this receipt.",
         "terminalEvidence": "Saved JSON stdout checked against every original summary, request and decision count; child exit read from original execution receipt."
       }
-    ]
+    ],
+    "parentTerminal": {
+      "exit": 0,
+      "evidence": "Reported by main, per the audit instructions."
+    },
+    "childExits": {
+      "exit": 0,
+      "count": 10,
+      "evidence": "Directly read from original execution receipts and matched to registered jobs, manifest receipts and complete stdout."
+    },
+    "sdkSourceHashes": "SDK 0.7.0 manifest and exact entry hashes match all ten receipts. The hash-matching driver selects that entry explicitly and checks SDK hashes before spawn and after child exit.",
+    "completionLogic": "The inspected driver waits for every job and sets parent exit status 1 when any recorded child exit is nonzero."
   },
   "preregistration": [
     {
@@ -4095,13 +4110,68 @@
       ]
     }
   ],
+  "sourceInspection": [
+    {
+      "file": "runners/jev.mjs",
+      "checked": "Inspected loadDataset, loadPrompts, buildRequest, validateResponse, batchPlans, score, createSnapshot, validateSaved, validateResult and main.",
+      "observed": "Snapshots bind canonical dataset/labels, targets, prompts, model, mode, threshold and batch size. Each saved response is matched to the reconstructed request and valid probability answers. Completion requires every planned batch. Classification uses noul >= threshold.",
+      "consequence": "The offline API checks exercise the public input and scoring boundaries for every saved run."
+    },
+    {
+      "file": "runners/datasets.mjs",
+      "checked": "Inspected readDocument, readDocuments and datasetHashes with the JSON schema.",
+      "observed": "Validation checks metadata schema, raw text checksum, sample ranges, duplicate IDs/checks and exact snippet inclusion. Samples are resolved into labeled targets without altering disk labels.",
+      "consequence": "Current balanced cohort and score assertions use the unchanged labeled passages."
+    },
+    {
+      "file": "dist/shared/text/sentences.js",
+      "checked": "Inspected sentence segmentation and offset preservation.",
+      "observed": "The public loader builds sentence ranges from each intact target. These runs use classification-only requests.",
+      "consequence": "This checkpoint assesses passage detection."
+    },
+    {
+      "file": "/tmp/rhythm-v19-native-jobs.mjs",
+      "checked": "Inspected native child spawn, input hashes, word limit, SDK checks, exit event, receipt write and parent completion.",
+      "observed": "Every new-check receipt matches this driver hash and its original job and log.",
+      "consequence": "The original native child provenance is mechanically verified."
+    }
+  ],
+  "evaluationBoundary": {
+    "labelTruth": "Known label corrections await separate curation, as reported by main. Current datasets and labels remain unchanged.",
+    "agreement": "Detector agreement is used only for mechanical scoring against current labels.",
+    "repeatedTotals": "Caught, missed, false-positive and true-negative totals sum repeated decisions across saved runs. Distinct passage/check judgments and distinct passages are counted separately.",
+    "mixedCohorts": "Mixed cohorts are scored per named check. This audit reports per-check errors and preserves their passage IDs.",
+    "originalSilenceMixed": {
+      "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+      "originalThreshold": 0.5,
+      "originalCaught": 94,
+      "originalFalsePositives": 1,
+      "originalStatus": "fail",
+      "intendedThreshold": 0.39,
+      "rescoredCaught": 100,
+      "rescoredFalsePositives": 1,
+      "rescoredStatus": "pass"
+    }
+  },
+  "priorInvalidatedReview": {
+    "preservedInGit": "99fe60aa",
+    "preservationEvidence": "Supplied by the user.",
+    "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fifteen-checks-development-audit.json",
+    "sha256BeforeReplacement": "798e7470b8cf32d9ea0684406a1a9203d7ad06c3c79fd353bf2e8e13df0f5538",
+    "status": "review-invalidated-mechanical-gates-pass",
+    "incident": "The earlier review emitted extra Git tuning metadata and was invalidated.",
+    "disposition": "This fresh session repeated the mechanical checks with purpose-filtered Git output. The prior incident remains historical evidence in Git.",
+    "inheritedScopeFailureExecuted": false
+  },
   "operations": [
-    "loadDataset on each exact development file (schema, text hash, label ranges and snippet inclusion).",
-    "loadPrompts for each named check; SHA-256 of the assembled public prompt object and word count of shared/body/question/criteria.",
-    "createSnapshot plus validateResult complete=true for every saved run, including exact requests and inference hashes.",
-    "score at original threshold deep-equals preserved summaries; score again in memory at intended threshold.",
-    "Compare all 51 old-twelve runs and all four metaphor runs and their current inputs with the prior audits.",
-    "Compare ten new-check execution receipts to original jobs and manifest, hash every registered source, check SDK 0.7.0 and stdout, then inspect Git cutoff registration before fresh answers."
+    "Load each exact development file through the public schema/text/range/snippet validation boundary.",
+    "Load each current named prompt and verify the assembled hash, intended cutoff and full word count.",
+    "Reconstruct and deep-compare every public snapshot; validate each result as complete, including request and inference hashes.",
+    "Deep-compare every original score with the preserved summary; rescore saved probabilities at the intended cutoff in memory.",
+    "Compare all 51 prior twelve-check runs and four fixed-metaphor runs with the permitted audits.",
+    "Compare ten new-check original jobs, executions, logs, registered source hashes, SDK identity and hash-matching driver.",
+    "Capture the two permitted Git JSON blobs in code and project only the intended calibration entry; verify registration excerpts and timestamp ordering.",
+    "Check all previously read source bytes remain unchanged before writing only the requested audit."
   ],
   "assertions": [
     {
@@ -5521,7 +5591,15 @@
       "status": "pass"
     },
     {
+      "id": "gaze-choreography.registration-excerpt-matches-purpose-filtered-git",
+      "status": "pass"
+    },
+    {
       "id": "gaze-choreography.git-cutoff-preregistered-before-fresh-answers",
+      "status": "pass"
+    },
+    {
+      "id": "silence-as-actor.registration-excerpt-matches-purpose-filtered-git",
       "status": "pass"
     },
     {
@@ -5537,45 +5615,20 @@
       "status": "pass"
     },
     {
-      "id": "independent-review.cutoff-only-git-read-scope",
-      "status": "fail",
-      "message": "Initial Git inspection printed non-calibration metadata and review summaries beyond the permitted cutoff-preregistration purpose. Repeat the independent review in a fresh context."
-    }
-  ],
-  "failingGates": [
-    {
-      "id": "independent-review.cutoff-only-git-read-scope",
-      "status": "fail",
-      "message": "Initial Git inspection printed non-calibration metadata and review summaries beyond the permitted cutoff-preregistration purpose. Repeat the independent review in a fresh context."
-    }
-  ],
-  "mechanicalFailingGates": [],
-  "objections": [
-    {
-      "id": "separate-blind-label-review",
-      "status": "unresolved-in-main",
-      "checked": "Current labels are used unchanged for mechanical scoring.",
-      "observed": "The user reports separate unresolved blind label questions in main.",
-      "consequence": "The checkpoint measures the saved predictions against current labels. Label correctness remains assigned to the separate blind review.",
-      "operation": "Keep labels and original scores unchanged; resolve main label questions separately."
+      "id": "native-driver.parent-completion-logic",
+      "status": "pass"
     },
     {
-      "id": "parent-terminal-receipts",
-      "status": "evidence-scope",
-      "checked": "Original job/execution inventories, stdout logs and hash-matching native driver for all ten gaze/silence runs.",
-      "observed": "Child exits of 0 and complete stdout summaries are directly present. Standalone parent-tool terminal exit receipts are absent from the supplied evidence.",
-      "consequence": "Native child success and the driver's before/after SDK check sequence are verified; parent-tool exit status is unverified.",
-      "operation": "Describe child receipts precisely; supply original parent terminal receipts to verify parent exits."
+      "id": "checkpoint.counts-and-finite-read-scope",
+      "status": "pass"
     },
     {
-      "id": "preregistration-inspection-scope",
-      "status": "review-scope-objection",
-      "checked": "The initial Git tuning-record projection during this review.",
-      "observed": "The initial inspection also printed non-calibration metadata and review summaries from the permitted Git tuning record while locating calibrationCandidates.",
-      "consequence": "The read exceeded the cutoff-only purpose restriction for this otherwise permitted file. Treat this review as mechanically verified evidence with a disclosed scope objection.",
-      "operation": "For a strictly purpose-isolated checkpoint, repeat in a fresh context and project only calibrationCandidates for gaze at 1918694b and silence at 5909dc18."
+      "id": "prior-invalid-review-recorded-as-history",
+      "status": "pass"
     }
   ],
+  "failingGates": [],
+  "objections": [],
   "exactFilesRead": [
     "/Users/tartakovsky/.codex/AGENTS.md",
     "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
@@ -5751,6 +5804,7 @@
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fake-timestamps-b4-000117-development.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fake-timestamps-cal1-confirmation-000095-development.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fake-timestamps-cal1-confirmation-000117-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fifteen-checks-development-audit.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-compact1-audit.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000097-development.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000125-development.json",
@@ -5783,8 +5837,10 @@
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-summary-fog-transition-m0-000121-development.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-summary-fog-transition-m0-confirmation-000121-development.json",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-twelve-checks-development-audit.json",
+    "/private/tmp/narrative-fifteen-fresh-scope-audit.mjs",
     "/private/tmp/narrative-fifteen-independent-audit.mjs",
     "/tmp/rhythm-v19-native-jobs.mjs",
+    "/tmp/slopless-narrative-v21-full/calibration-registration-excerpts.json",
     "/tmp/slopless-narrative-v21-full/confirmed-fifteen-checks-manifest.json",
     "/tmp/slopless-narrative-v21-full/development-core1-cal1-confirmation-silence-as-actor-executions.json",
     "/tmp/slopless-narrative-v21-full/development-core1-cal1-confirmation-silence-as-actor-jobs.json",
@@ -5804,8 +5860,10 @@
     "/tmp/slopless-narrative-v21-full/silence-as-actor-core1-confirmation-000127.log"
   ],
   "fileHashes": {
+    "/private/tmp/narrative-fifteen-fresh-scope-audit.mjs": "0c298eb7378bac1fb19de5b53c8763cb3dbd02fa7b249340478d1ca83b2c89e1",
     "/private/tmp/narrative-fifteen-independent-audit.mjs": "114a446ede02d427e1ec8096d47cd8ff0c3821d0207db504e54907a277336355",
     "/tmp/rhythm-v19-native-jobs.mjs": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d",
+    "/tmp/slopless-narrative-v21-full/calibration-registration-excerpts.json": "78bde4d3cdd751cb9e0c095bd4139fe3851cf5b1c75a0d75057cefb0619834bc",
     "/tmp/slopless-narrative-v21-full/confirmed-fifteen-checks-manifest.json": "ee43cc45f15ffd9253336eadbdf5482cc10d18f3d4d2d3121086181cad7ccd5e",
     "/tmp/slopless-narrative-v21-full/development-core1-cal1-confirmation-silence-as-actor-executions.json": "cce65c7c19b851fb71ab86c8fc6aeed117662f8fd8bf7a12197ec5ad024f9193",
     "/tmp/slopless-narrative-v21-full/development-core1-cal1-confirmation-silence-as-actor-jobs.json": "4e49faaf056128b5cdc42ea6505a8197c1e8ceb932350e872317eec8ba4b642e",
@@ -5997,6 +6055,7 @@
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fake-timestamps-b4-000117-development.json": "fab6fee4aa4f1e54615435177ac3e8d9be86f486fd63e16673168d321c831498",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fake-timestamps-cal1-confirmation-000095-development.json": "0ff021aa6a3159d37d944b4e27a94d4b8b4ca21eda307ccdeec0b0f8b3a10d80",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fake-timestamps-cal1-confirmation-000117-development.json": "356fe15a9fb1871f11bb9502965a85f8779afd5c89214008ec9c8554eb1e6e22",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fifteen-checks-development-audit.json": "798e7470b8cf32d9ea0684406a1a9203d7ad06c3c79fd353bf2e8e13df0f5538",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-compact1-audit.json": "f1c413cf4ec88fe655f266428c1fa5eee4aca9da42d286d1e9483bb037077ecd",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000097-development.json": "e619596eaf60c16bdbce3d3b84016d5da70ea665aa6e27b07086481ab480f71a",
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000125-development.json": "5339f7b953179559425208829fa25b896ca84a05d8957fa03c010d9d9cfb7169",
@@ -6050,18 +6109,85 @@
       "mode": "commit identity and committer timestamp"
     }
   ],
-  "runtimeDependencyReadScope": "Transitive installed dependencies loaded by the permitted public runner APIs are recorded in exactFilesRead. SDK entry is hashed as an explicit execution source; SDK code is not executed.",
-  "earlierInspectionReads": "The preliminary commands read the same named source files, manifest, audits, job/execution inventories and one scoped gaze stdout log; two Git commit stat queries read metadata for .worklogs/.plans only. No worklog contents were read.",
-  "auditScriptCorrections": [
-    {
-      "operation": "Initial offline verifier run",
-      "exit": 1,
-      "observed": "357 of 358 assertions passed. The special 94-hit silence assertion initially selected isolated collection 000111, whose original result is 98 hits. The computed failure inventory correctly identified mixed collection 000127 at 94 hits.",
-      "correction": "Changed only the audit assertion to select the observed 000127 mixed repeat. Preserved every original source, result and label."
-    }
-  ],
+  "runtimeDependencyReadScope": {
+    "files": [
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/ajv.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/code.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/codegen/scope.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/errors.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/names.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/ref_error.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/resolve.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/rules.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/util.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/applicability.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/boolSchema.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/dataType.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/defaults.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/keyword.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/compile/validate/subschema.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/core.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/data.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/refs/json-schema-draft-07.json",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/equal.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/ucs2length.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/uri.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/runtime/validation_error.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/contains.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/if.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/not.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/properties.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/code.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/id.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/core/ref.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/discriminator/types.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/draft7.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/format.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/format/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/metadata.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/const.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/enum.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/pattern.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/required.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/ajv@8.20.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/fast-uri@3.1.7/node_modules/fast-uri/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/fast-uri@3.1.7/node_modules/fast-uri/lib/schemes.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/fast-uri@3.1.7/node_modules/fast-uri/lib/utils.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json"
+    ],
+    "purpose": "Transitive library loading by the permitted public runner and checksum/version inspection of the SDK sources explicitly named in execution receipts.",
+    "sdkExecuted": false
+  },
+  "preliminaryReadCoverage": "The named instructions, writing references, permitted verifier, manifest, public sources, audits, registration excerpts, original job/execution inventories and native driver read during source inspection are also recorded by this verifier.",
   "filesWritten": [
     "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fifteen-checks-development-audit.json",
-    "/private/tmp/narrative-fifteen-independent-audit.mjs"
+    "/private/tmp/narrative-fifteen-fresh-scope-audit.mjs"
   ]
 }

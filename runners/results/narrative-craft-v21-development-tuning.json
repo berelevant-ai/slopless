@@ -15456,6 +15456,25 @@
         ],
         "reason": "Task-relevant machines and the following allocation to larger drums support implicit practical inspection; retain the reviewed no-hit under the frozen preservation rule."
       }
+    },
+    "curationPreflight": {
+      "000117": {
+        "sourceRows": 243,
+        "combination": "010",
+        "checkOrder": [
+          "narrative-craft/emotion-as-substance",
+          "narrative-craft/perception-verb-density",
+          "narrative-craft/fake-timestamps"
+        ],
+        "availableAfterCorrections": 21,
+        "requiredPerCombination": 25,
+        "additionalReviewedPassagesNeeded": 4
+      },
+      "000123": {
+        "sourceRows": 240,
+        "allCorrectedCombinationsHaveAtLeast25": true,
+        "additionalReviewedPassagesNeeded": 0
+      }
     }
   },
   "characterScopeExperiment": {
@@ -15481,11 +15500,13 @@
     ]
   },
   "independentCheckpointReview": {
-    "status": "repeat-required-after-cutoff-projection-scope-violation",
+    "status": "pass",
     "checks": 15,
     "file": "runners/results/narrative-craft-v21-fifteen-checks-development-audit.json",
-    "mechanicalRunsVerified": 65,
-    "independentApproval": false,
-    "reason": "The first checkpoint reviewer displayed extra Git tuning-record review metadata while locating cutoff registration. A new restricted context must repeat verification."
+    "assertions": 363,
+    "verifiedRuns": 65,
+    "independentApproval": true,
+    "previousInvalidReviewCommit": "99fe60aada88f89fdd7d47076f12452ef72997fb",
+    "scope": "Current unchanged development labels, exact saved responses and provenance; semantic label corrections remain separate."
   }
 }
