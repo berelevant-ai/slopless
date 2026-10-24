@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of fake-timestamps: an arbitrary minute or second specification decorating a routine narrated event without an identifiable timing, chronology, observation, record or dramatic function for that specification?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of fake-timestamps: an arbitrary minute or second specification decorating a routine narrated event whose precision supplies no identifiable temporal, observational, recorded or dramatic contribution?",
   "criteria": {
-    "true": "At least one exact event timestamp adds only decorative precision: its use supplies neither a particular temporal relationship nor an informative observation, record or other narrative function, even if the event or another timestamp is useful.",
-    "false": "Every precise clock expression contributes an identifiable temporal relationship, clock observation, record or other narrative function in the complete passage, or no eligible precise clock expression occurs. A routine timed action can carry an informative temporal relationship."
+    "true": "At least one event timestamp supplies only a clock coordinate, without placing its scene in a supported temporal relationship or contributing an observation, record or dramatic function. Useful timing elsewhere leaves independent decorative precision eligible.",
+    "false": "Every eligible precise clock expression places a scene within a stated schedule, wait, elapsed progression or other particular temporal relationship, or supplies a clock state, record or other identifiable function; or no eligible expression occurs. The gesture carrying the time can be routine."
   }
 }
 ---
@@ -13,17 +13,19 @@ Input: passage.
 
 Cover 12-hour, 24-hour, written-out and equivalent precise clock expressions, including clock times expressed relative to a named hour. Generalize across unseen wording, inflections and positions. Judge the precision's contribution from the passage, rather than investigating whether the time was fabricated.
 
-First distinguish an event timestamp from a clock reading presented as something perceived or recorded. A displayed reading can supply the observation itself; preserve it when the passage describes that perception, even without later action. Assess any other timestamps separately.
+Distinguish an event's clock coordinate from a clock state described as content. Digits, hand positions or a displayed setting can be observed, arranged or represented for their appearance. A standalone narrator's declaration of the time remains an event coordinate unless the passage supplies a clock observation.
 
-Evaluate each event timestamp against temporal relationships in the complete passage. Exact time can locate a routine gesture within an established wait, deadline or schedule. Its value comes from that relationship rather than the gesture's importance. Another time nearby supplies no automatic function.
+For each event coordinate, locate its temporal frame in the complete passage, including later sentences. A stated schedule or deadline can make time remaining informative; an ongoing wait or held situation can make elapsed progress informative.
 
-Ask what the precision lets the reader place, compare or perceive. Use relationships supported by the passage. An imagined interval or generic event sequence does not establish usefulness. When a duration carries the timing information, assess whether the clock specification contributes to that measurement or adds another useful relationship.
+The timestamp may attach to an incidental gesture. Judge where it places the scene within that established frame, rather than whether the gesture itself depends on a clock. Connect each specification to its frame separately; another useful timestamp supplies no automatic function.
 
-Preserve schedules, deadlines, logs, testimony, measured timing and useful event ordering. Observation, orientation, characterization, compression, pacing or a particular dramatic relationship can supply a function without later action.
+Separate elapsed timing from clock coordinates. A duration can explain an event while its exact hour and minute contribute nothing to that timing. Require a supported relationship involving the clock specification itself; an imagined start time or generic before-and-after sequence does not supply one.
+
+Preserve schedules, deadlines, logs, testimony, measured timing and useful event ordering. Observation, orientation, characterization, compression, pacing or a particular dramatic relationship can supply a function without later action. Identify the contribution of the precision itself.
 
 A date, weekday, round number, cause word or quotation mark supplies no blanket exemption. An unusual minute alone supplies no defect. Ordinary broad temporal orientation falls outside this check.
 
-Useful information elsewhere protects its own contribution. It does not justify independent decorative timing, and a generic dramatic payoff alone does not establish usefulness.
+Useful information elsewhere protects its own contribution. A routine event's interesting outcome alone does not earn exact precision.
 
 Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. Other checks may also apply.
 
