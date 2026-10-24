@@ -102,7 +102,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 ## Prompt Evaluation
 
 - Pin Jev `jev-1.13.0`, SDK `0.7.0`, classification-only mode and batch size sixteen. Use `--development-only` and one named check per judgment. Complete controlled prompt comparisons at threshold `0.5` before a separately recorded development-calibration phase.
-- Copy shared instructions unchanged from `v19`; keep each assembled prompt below 1,000 words with at most three positive and three negative development examples.
+- Copy shared instructions unchanged from `v19`; keep each assembled prompt below 1,000 words with at most three positive development examples. Use three negative examples by default; perception may use six reviewed negative contrasts within the same word limit to cover its distinct protected functions.
 - Require at least 95/100 caught positives and at most five false positives in each applicable development collection.
 - Use the existing Markdown prompt files with JSON `instructions` and `criteria.true`/`criteria.false` front matter. The native runner sends these as typed Noul questions; introduce no parallel prompt format.
 - Freeze each candidate before inference and retain every response. Work in bounded rounds of baseline plus up to three revisions, then review errors and choose the next evidence-backed approach when a check still fails.
@@ -145,6 +145,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Remaining Development Corrections
 
+- Perception's three-negative trials trade errors between scene observations, viewpoint, spatial orientation, quoted wording and observed conduct. Test the same six previously exposed negative passages together with three positive examples, compressing repeated guidance to stay below 1,000 words. Keep one native decision per passage and report every historically exposed demonstration separately.
 - Test example placement for bodily actions and empty beats. Move the same three hit and three no-hit demonstrations from the shared-state Markdown into the corresponding native `criteria.true` and `criteria.false` strings. Preserve every demonstration and all definitions, model settings and thresholds; compare both complete development collections before deciding whether placement helps.
 - The TypeSafe Noul and State documentation permits examples in structured context and defines native criteria as answer descriptions. This experiment measures placement rather than assuming the existing state reference fails. Keep the original prompts and results available through Git and frozen snapshots.
 - Reject placement1 after four complete runs: bodily actions catches 97/six false positives in isolation and 98/thirteen in mixed passages; empty beats catches 90/zero and 85/ten. No common threshold meets the unchanged quality bounds for either check.
