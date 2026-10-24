@@ -1,0 +1,3589 @@
+{
+  "family": "generated-residue",
+  "split": "development",
+  "rawFile": "runners/results/generated-residue-v22-old-cli-development.json",
+  "rawSha256": "5779a1ba9d09f6a04eedaf7e32611bd0a47830896e32b2e4c8f94c8ca77ee213",
+  "command": "node dist/cli.js /tmp/slopless-generated-residue-v22/old-cli-input/*.md",
+  "inputMode": "One file per complete passage; production default configuration.",
+  "sourceHashes": {
+    "dist/cli.js": "55e64e329d5901de0c3af4336a0409df4a7f1009767679aa9894dba13e79aad8",
+    "dist/index.js": "1be6c5f1722d10792f8c56580e30964ea75927e392e2497eb8b32edaa6099962",
+    "dist/rules/orthography/artifact-placeholders.js": "396a45742045d5b50a73b774cad55a56bf34662f7d6bf2d2a4ae2e864aa53027",
+    "dist/rules/phrases/llm-disclaimer.js": "4faed18202574ea372fef83cd70bd81f04029020c71287281d0f8dd5904e26a9",
+    "dist/rules/syntactic-patterns/llm-artifacts/response-wrapper.js": "c64c9a6047c2863d47b41c931448888c07ef54ecc1c3630bf570dbe6ae029d37"
+  },
+  "mapping": "Retain raw findings. Artifact and disclaimer IDs map directly; wrapper limitation+ signals map to disclaimer, other wrapper branches map to wrapper. Deduplicate per passage/check; unassigned checks remain unassessed.",
+  "cohorts": [
+    {
+      "collection": "000129",
+      "check": "generated-residue/artifact-placeholders",
+      "kind": "isolated",
+      "counts": {
+        "positives": 100,
+        "caught": 34,
+        "missed": 66,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000129-2003bfbd4539",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-80e85894d6b4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-48a6cb2b78e4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-77310e553737",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-92ebe5a81178",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-21c7095c183b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-e447bdfaad87",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-51ee86215e98",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-908a17a63842",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-4d2ac0756d39",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-986c953e1cc9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-cba5d5981dde",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-ae850056976d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-9f1cac80922c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-b534039c66b8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-b0153d180363",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-e4247c2bd22c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-6c24ecf21ba4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-6d10a155055a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-670f5c3f0852",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-574f06b59aba",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-4ada7d18783a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-4062ef35d9e7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-f00c85a7a1b0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-bf3afbaeace1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-dcb64469d1a8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-a374333988ed",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-76a8684a46f5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-07c68e061c65",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-76a2fbe2a45e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-946f3f0b531f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-49537988cf15",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-4e6f18fa03b3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-4129e0c696b3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-e1937f7a5823",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-bcf33351b0b8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-5ebbf58f7228",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-f1d92d961a22",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-00aa633b7e66",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-3133b2d7af65",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-611ad90d3f8a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-9a70609a1c70",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-efced7c2246c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-ef9e60f23ae6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-d8fce0af7cd1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-411f7bae385b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-5f33e5e27bb3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-914e4e4f6938",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-83be5c93ea2f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-fc46f0e23ff4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-9f1fa9109bc7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-8da939befaf2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-c7ec5a46582e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-76cb171fd4a4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-93c2029dbbb0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-c0b12c84d381",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-0f41c9ff2861",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-fd7a1eb1d630",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-14253576af92",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-321d90d495ae",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-054dd5b11dbf",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-b90de0eab631",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-b43c237a634d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-24bdc3eafd52",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-95ab38c0befb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000129-dc03dc71fae4",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "6c68ce9fbc98aafdab873a8c6e8b2b1f05c2351afd135f048ee7a134d2f9520e",
+      "labelsSha256": "b1141e26c3dffccc1b8cb6c18c7bb7154b3ae4a7cb3f078b092fda5b121a65e5"
+    },
+    {
+      "collection": "000131",
+      "check": "generated-residue/llm-disclaimer",
+      "kind": "isolated",
+      "counts": {
+        "positives": 100,
+        "caught": 8,
+        "missed": 92,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000131-a421cc266269",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-06ff073631f8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-2b3a1208c45f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-4142bfd62f15",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-847e9ace5f62",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-99c98830b2b0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-53ad48646754",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c2f9fb172f6b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-d8b06e6e7a60",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-84453df881b6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-d70e1e8b29a4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-000c5c63a0c7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-cb88f006d13c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-acc9e43f088b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-183dbbf73983",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-63b0845dbfe0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-141f2b26c406",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c820e5a81e93",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-fcf2ee746c46",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-4ae7cb62301a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-70ec2cbda518",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-6c897c1aca0d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-6613cc32356d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-7929779dc4f2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-55b694461a02",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-d1bf91dafbd8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-279899161e24",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-e1b573cb0f1a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-7d51c09315f9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-1935f7e05cea",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-ef44cdf27ac6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c827772a886d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-84ede16722d2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-90a984af40e6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-6f2035e934b9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-340816f94249",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c584f0af0178",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-288f83b84dfc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-ad62b82fc508",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-38bb08d92b4f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-48e598260b32",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-50d80290a6b2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-1f76f5ab4b81",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-2fde05935eae",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-9ac3a53b4e0b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-f1c41888f002",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-11fd605f35a7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-25d429a4155c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-14d5cb7e926c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-bd978a3c9faa",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-e1f746ebf8c9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-f1f2ae142aed",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-3e727327b02e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-907b504776a0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-e307f7d44d47",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-3e68a8e48bbe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-017c9d576090",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-0b8a504010dd",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-a894a0ecb1ed",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-b3b1958a2e7b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-15445f08caf4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-57aaf86dbca9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-67401cbcf54a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c7c10e84a3fb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-2a93e2828ce6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-aec5d0286507",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-95b00a2035fe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-05b45219a32f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-dc3fc95bd6bb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-a0567643d253",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-5d1475f7e2e8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-79d5c4c55150",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-4654f20eb688",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-173b79b31068",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-0b69ea36c682",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-31c724bb5a69",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-4d3492df1034",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-fe076fa0ad55",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c53683078243",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-04f816469384",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-32413d4d9c13",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-98c81d8724a3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-72bdf360edab",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-f7d6fcd1559b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-453364bb0a64",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-4e94d9e256c0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-adb8067a6241",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-3a2a80f68885",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-fe5b2afbcd80",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-9b41def3ca26",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-c0ebdfff2d95",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000131-b37f1dc246f7",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "3640e3c25e9bc7f4b19489306379888b51c53a430e6000b5694c1d6e0dfdf9a3",
+      "labelsSha256": "562f4d72779f1ab6078e9b46b066c1846770a2b225f39a569e1c891169409375"
+    },
+    {
+      "collection": "000133",
+      "check": "generated-residue/response-wrapper",
+      "kind": "isolated",
+      "counts": {
+        "positives": 100,
+        "caught": 8,
+        "missed": 92,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000133-7210b247dc82",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-7144b4ca7735",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-dab4e4c28a3c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-620491af886c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-85acd4df8e58",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-d263171ef283",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-d7e03c485875",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9de08ae6e978",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-a83c43a16e4b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f8add05666cc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-b298006e8ce3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-7b6ced17cbc8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-47006ea7e7c7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-0c3f1eb75b89",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9c87e7350f8d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-cc0c07571ac9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-2ca289f7a9ea",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-38f940691c78",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-0c39f24203f3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-80e35ffbec11",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-ef29f5505da6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-91e3faea161e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-8cc5b69940a5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c7f56c5fdaf6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-1aa19aa8d2ef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9110819f9b43",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-a290fe33e18c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-4c02e35e98c6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-29ee6818183f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-761a4d621f0a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c4127e1323c1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-36eab0bb3901",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9f2600f4c272",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-3afb58ad69bc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c99f7d5390b8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f6bc8d6d86c6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f2fb01a18016",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-d8647eb3e982",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-2dd96738f033",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-4c56cae182c0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-e7cee467408d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-feaa63ec0cf3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-aac8f5ae3949",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-009f89638728",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-66264ff8a8c8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-8124b1dad03a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9e6f20fc1427",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-0abcc8955acb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-da7f5c3ca0aa",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9f97f76eb946",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-5b54fe065887",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-3b1acecab1e4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-e42bfdf62403",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-54e058c5932e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-019072d5f551",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-1390d33e1490",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-6a8baaea5e02",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-b73f80502c32",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-e820c36ddae4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-568c9fdb68b5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c3101141e276",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c3676a7788a3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-09e0a9175506",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-26a9e0f23028",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-a3f05bdb6099",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f7679f23e808",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-ba4f5762e4b7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-526db9ec3247",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-58a8514ee74d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9662677bd264",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-5a6263f28465",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-e10d81ba813b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f1daa85b3ebf",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-d6de31efbc17",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f1c8b328aa9c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-0a1f79ae7286",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-ece252ac4bef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-0b6a217fb3b8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-3906be7e8168",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c601de310d6c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f06ce4702334",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-9bd69f2bff02",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-30ad663191b1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-43755d6ca942",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-66590ea8360e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-57544c2ef3ed",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-f90676a226fb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-68dc349e2181",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-c58bc768a340",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-96b162ce535c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-77aa9b5519b1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000133-953cfc53fc50",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "bd8bd5204f09de459cab13d7128144a35fd13c680f3e0b0b908c1df8d457acd7",
+      "labelsSha256": "40a6c70c6fa71068a9074dc26e164ab5d4ffd4392d4c0c9dc94672607f0c0fef"
+    },
+    {
+      "collection": "000135",
+      "check": "generated-residue/artifact-placeholders",
+      "kind": "mixed",
+      "counts": {
+        "positives": 100,
+        "caught": 42,
+        "missed": 58,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000135-9a7376196366",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-34949452e27c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-3219c1afcc83",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ebdc226ef566",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-495112244b0c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e09173bd1919",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-f4fbf0b07361",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8f98e4669008",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-914d3cd878a7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-be23501558c8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6c419c41989e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-842c0c7667d4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7ee337476b63",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac25f085432f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-aa7c5d0f8903",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-edb099cb1813",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-695a76db23d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8dfa3b6dcdc9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a510353a98d4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-76b377e180b3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-970e543a6e4f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6e19c041ea79",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e1329f559f40",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-80f0892a9fff",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-34c361a0d890",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7ad29c49fd29",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6fa0d750f3ef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5859ec84fb6c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4cd6976ebc24",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-28feecb59b2e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8d15c7043f49",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c7fa33d959dd",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ffc4ceb468ac",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4889ebc00f66",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7903bbcdac4f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-112cf144ed07",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a44368118c6d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac7a9cf56082",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b91b0f866764",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-fa65377eac99",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c05f9b1aae7d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4f13e3de72f4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c928aeaadc41",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ff4d41a45ed9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b1e9b68f075b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2223294cc1ad",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac47122f3c2a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-dabfdb09935f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e99641cbc725",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b19f60dd8693",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-05892d0b9dee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ae7a3078ccef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-23ceed443811",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-13f42739d1d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b08389a59449",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c3a9197ca70",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6fa519d2c81e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c902d5bbd6e5",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "42aa6757a5fceed10c2360312f200d5efbf0f6c7255e080397f26611b25388be",
+      "labelsSha256": "817d1a25d2002ef9d4b7ec87b70c8755551fa5e0b6f40eaf47bcda9f1b0bab38"
+    },
+    {
+      "collection": "000135",
+      "check": "generated-residue/llm-disclaimer",
+      "kind": "mixed",
+      "counts": {
+        "positives": 100,
+        "caught": 3,
+        "missed": 97,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000135-fa651c7f27ae",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-45aeb18f3678",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5ab2c7981670",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-df63b0d1b6cd",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-349cac04735a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4e2dcbacd902",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-41f5c863d8cb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-85eec0b3b176",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a456c025b3e3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-963452b1ce27",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6f6f43ca12a2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-9b62e1d44f93",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ecd996e46b81",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-fe09cd43779d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5f2b7c9cffa2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e02dfe701403",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-36258c92ec58",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-62fd88fbb701",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e26eaa4b2290",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ec090b0a018d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b4e1ef935c78",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c2efc48db2f2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-48025f423ec0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c14764abdd7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6b213b83c7df",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a47557cac462",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8c60b1d095ea",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-770f6403abee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-282dd777e705",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-74ee2715e222",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5258bed6940d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a392fa953f1c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-20c4932d1fcc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2a25b3409903",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c690a96907b1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-82f67c9e7eb9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2dbf357872fe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-0a047b63e7b5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-67d33e29e252",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7e2c5cab1705",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-0508402f5cb5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-47d86902e918",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6542ca65de78",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-879f6355713d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-99179d931860",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c7dc120a5d3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ddb4d1375402",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-aa95810c8287",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-28feecb59b2e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b52a7d005ce6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-3ae901569595",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8d15c7043f49",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c7fa33d959dd",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-05ae24f6c9e9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ffc4ceb468ac",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4889ebc00f66",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-67f2a10193fa",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7903bbcdac4f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-112cf144ed07",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a44368118c6d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-415eb249ad70",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-1796e8a2301b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8fb513c1a218",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac7a9cf56082",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-65e5f7e2f8c4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7c9bd4ff9f2f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e41402349045",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b91b0f866764",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-fa65377eac99",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c05f9b1aae7d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4f13e3de72f4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c928aeaadc41",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ff4d41a45ed9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-d3a90342ede8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b1e9b68f075b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2223294cc1ad",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-f5076508a555",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-53eaac830322",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac47122f3c2a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-3fdaf31e7d91",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-dabfdb09935f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e99641cbc725",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b19f60dd8693",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-59673421efbe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-05892d0b9dee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ae7a3078ccef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-d9f344edb36d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-23ceed443811",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-13f42739d1d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-80f37f0cd063",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-1f9e14c6ab22",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-da4e2742a98b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c7700c7e095f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b08389a59449",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c3a9197ca70",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6fa519d2c81e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c902d5bbd6e5",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "42aa6757a5fceed10c2360312f200d5efbf0f6c7255e080397f26611b25388be",
+      "labelsSha256": "817d1a25d2002ef9d4b7ec87b70c8755551fa5e0b6f40eaf47bcda9f1b0bab38"
+    },
+    {
+      "collection": "000135",
+      "check": "generated-residue/response-wrapper",
+      "kind": "mixed",
+      "counts": {
+        "positives": 100,
+        "caught": 4,
+        "missed": 96,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000135-14e31abd4a59",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-dc7b26697e50",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-94e1bce8814c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b34eaea43c72",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a43d5327fc28",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a11eeb612920",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-622ef32e68d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c976b09b7596",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-926dbd0c4f25",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5a3fd7f26922",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a9d2cfacf540",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-731ca0a5c834",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-25e577fb71d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b5120c308bd6",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-9bc64361648e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7de6bf2fd5bb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-46aac3fb2203",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-f225539b04c5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-faeccc396cec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-f368de1d530e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-3b8d7ed7ba34",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-1238bbf01767",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-078abcb9dbed",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c14764abdd7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6b213b83c7df",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a47557cac462",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8c60b1d095ea",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-770f6403abee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-74ee2715e222",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5258bed6940d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a392fa953f1c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-20c4932d1fcc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2a25b3409903",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c690a96907b1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-82f67c9e7eb9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2dbf357872fe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-0a047b63e7b5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-67d33e29e252",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7e2c5cab1705",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-0508402f5cb5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-47d86902e918",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6542ca65de78",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-879f6355713d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-99179d931860",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c7dc120a5d3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ddb4d1375402",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-aa95810c8287",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-447515e54cfb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac25f085432f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-0d9cea367303",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-aa7c5d0f8903",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-225b97d7fe28",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a6c483876175",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-19cb6fc8d5d7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-edb099cb1813",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-695a76db23d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-8dfa3b6dcdc9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-a510353a98d4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-76b377e180b3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-970e543a6e4f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6e19c041ea79",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e1329f559f40",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-80f0892a9fff",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-34c361a0d890",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-07cfe15c33d3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-d7f15f7b49eb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-864439dce794",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-7ad29c49fd29",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6fa0d750f3ef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5859ec84fb6c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-4cd6976ebc24",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ff4d41a45ed9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-d3a90342ede8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b1e9b68f075b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-2223294cc1ad",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-f5076508a555",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-53eaac830322",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ac47122f3c2a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-3fdaf31e7d91",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-dabfdb09935f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-e99641cbc725",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b19f60dd8693",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-59673421efbe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-05892d0b9dee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-ae7a3078ccef",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-d9f344edb36d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-23ceed443811",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-13f42739d1d9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-80f37f0cd063",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-1f9e14c6ab22",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-da4e2742a98b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c7700c7e095f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-b08389a59449",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-5c3a9197ca70",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-6fa519d2c81e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000135-c902d5bbd6e5",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "42aa6757a5fceed10c2360312f200d5efbf0f6c7255e080397f26611b25388be",
+      "labelsSha256": "817d1a25d2002ef9d4b7ec87b70c8755551fa5e0b6f40eaf47bcda9f1b0bab38"
+    },
+    {
+      "collection": "000137",
+      "check": "generated-residue/llm-disclaimer",
+      "kind": "mixed",
+      "counts": {
+        "positives": 100,
+        "caught": 10,
+        "missed": 90,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000137-55067c6b595b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0f59031e3912",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f2dcfb0b8064",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-29dcb9ad0417",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-5e957e0fee3f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1e6f8b008ea7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-21069af81739",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c3f0d74d3dce",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-463609700ca0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-10eadbc0fbf9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-21577a968018",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-ac1e937366ab",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-9d98bcdfb955",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-47d4e6a2d994",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-eb334e11439a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-e99216eade3d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0c272de9c00e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-58b03800c1ec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-991da094f5ec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-3b9b1c56aa20",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-5a057b5a7955",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c3111d6a5f83",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-e776e1ee1e6c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0d65e1c4d092",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-5fdd296110f2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-eb526e3a58c8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1c257cd69047",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f2344c6e2b0c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-6c5ccc6f82f4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-9ba187898645",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-68f8592d654d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-289c28761b67",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-381282bf7aa1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-348e5f2d3eba",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f6aec3b0b94c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-9783ea3ef187",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-a639d8237841",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-8f2707892665",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-7cb8eabb0fb7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-9de534bb1c6a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-e01847417521",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-95c967906c12",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-29cdd37a6d5b",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-31a2ae5989f7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-2232c64d38f2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0aac46abc7c0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-7e86dedc03b1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c2a7f94f5692",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-51a850e75332",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-9df51b0356a0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-cd57dfde6425",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c8765b3dfe4a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-48ed81db2ebb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1cba4e316efb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d257ec79f5a5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0a17f9091070",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-968f0c47de18",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-46b8467f2474",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-5a34d3c730ec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-37d19e8d7525",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-35f61d26d61e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-b00ef6f2bde3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-ddb1302721dc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f2b8e28c6037",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-84ac77e3d3d5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d0cfb174ddc7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-bd6ac944b465",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-6ef53f761544",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-5f9d38b667b2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1eb1bce8259a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-aafd8ac1c5a8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c885a109a657",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-42c1ca19c10f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-41a91c4e4d25",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-bead17442aec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-95f5d277bd05",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-99fdce18696a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-08ff04512f2d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-12c44f3117b8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-913076ec2ce4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0b0a33c945f2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-123b23617bee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0dbf63aad214",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-8da64253ce68",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-2a1134a7014f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-73ac113adf3a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-cf4d12f096bf",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-30fce5d9642a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-aad7bb676e71",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d9a76e2da9cf",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "db664be5256b608561a979fb97274204791391dd37ea6ec299f83b27cfda4ef6",
+      "labelsSha256": "d5b945450c5ce4bfb1ebb296f75a7418197bd0f446bac94d7e588978aad58bd7"
+    },
+    {
+      "collection": "000137",
+      "check": "generated-residue/response-wrapper",
+      "kind": "mixed",
+      "counts": {
+        "positives": 100,
+        "caught": 4,
+        "missed": 96,
+        "negatives": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "errors": [
+        {
+          "id": "000137-a28367e9b130",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-708779996dd7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-498884cf6201",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-00867eefae14",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f1c1821dde86",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-504ae53286bc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-29662decade9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-30b8983b5909",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-6ed5902584b2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-18dae073eb24",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-3005b23f4404",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-4a83536eb4cf",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0e7a4fc400fd",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-ce67b09582cc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-69e97e1bfa76",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-926943421058",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-4ca3d0182be1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-6cfef8992701",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-6cbe330e21fe",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-22b385cebaf0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-e29f256c50bb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d0bb680fc51c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-e571999d4698",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-8bb09694244f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-23eca10db09e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-28957ae2eba9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-b2387d505c41",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-fdcd360a8bd7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-92a10b084632",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-e3a747be1606",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-62c7932bbb16",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-4e5851298f05",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-43ed9b0e5c03",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-7cdf12d52742",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-2426097df07a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-320ca152f551",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-30b9fe99db64",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-68e537a0c0c9",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-af0b7824209d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-3ef5aeadd1dc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f1cb6e4c75ad",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-4aa98e7fbf6f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-4eba87a13d4d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-170fccab3900",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1ee60799d7ea",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1f491de7ca2c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d258fc99672a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f9d317e2bfea",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-7e86dedc03b1",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c2a7f94f5692",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-51a850e75332",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-a0cdeef2531a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-ea3553fb6757",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-9df51b0356a0",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-cd57dfde6425",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c8765b3dfe4a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-48ed81db2ebb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1cba4e316efb",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d257ec79f5a5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0a17f9091070",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-968f0c47de18",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-46b8467f2474",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-5a34d3c730ec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-37d19e8d7525",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-35f61d26d61e",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-b00ef6f2bde3",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-ddb1302721dc",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-f2b8e28c6037",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-84ac77e3d3d5",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d0cfb174ddc7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-2a0fae42d2b7",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-bd6ac944b465",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-6ef53f761544",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c05f2bb8412c",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-1eb1bce8259a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-aafd8ac1c5a8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-c885a109a657",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-42c1ca19c10f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-41a91c4e4d25",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-b9f24196a0b2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-bead17442aec",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-95f5d277bd05",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-99fdce18696a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-08ff04512f2d",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-12c44f3117b8",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-913076ec2ce4",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0b0a33c945f2",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-123b23617bee",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-0dbf63aad214",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-8da64253ce68",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-2a1134a7014f",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-73ac113adf3a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-cf4d12f096bf",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-30fce5d9642a",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-aad7bb676e71",
+          "expected": true,
+          "predicted": false
+        },
+        {
+          "id": "000137-d9a76e2da9cf",
+          "expected": true,
+          "predicted": false
+        }
+      ],
+      "textSha256": "db664be5256b608561a979fb97274204791391dd37ea6ec299f83b27cfda4ef6",
+      "labelsSha256": "d5b945450c5ce4bfb1ebb296f75a7418197bd0f446bac94d7e588978aad58bd7"
+    }
+  ]
+}

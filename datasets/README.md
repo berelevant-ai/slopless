@@ -190,6 +190,16 @@ The final overlap screen finds zero candidates against previous datasets, legacy
 - The original full-family copy screen finds zero candidates across 3,231,085,000 comparisons. The final sixteen protected additions pass 5,250,664 further comparisons with zero candidates.
 - [Data review](../runners/results/narrative-craft-v21-data-review.json) contains protected holdout review material. Prompt authors must read only permitted counts and hashes through scripts; individual writing, labels and snippets stay in protected reviewer contexts. Holdout model evaluation requires separate authorization.
 
+## Generated Residue
+
+- Ten paired collections, `000129` through `000138`, contain 2,000 passages and 3,600 judgments. Each assigned check/collection has exactly 100 hits and 100 no-hits.
+- Artifact placeholders, model disclaimers and assistant wrappers each have isolated development and protected holdout collections. Mixed A assesses all three; mixed B assesses disclaimers, wrappers and the frozen unnecessary-framing comparator.
+- The residue family contributes 3,200 judgments; the signposting comparator contributes 400. Evaluate every assigned check independently and preserve overlapping positives.
+- Three fresh whole-pool reviews precede balancing. Split-only adjudication corrects remaining label disagreements; sixteen additional holdout controls receive three independent blind reviews.
+- Reviewed archive `aca5790c4f21692e0e53104ddf74beca3ec37348` preserves 2,416 candidates and all 416 surplus passages. Selection retains all 317 mandatory pilot and hard cases, independently of detector scores.
+- The reviewed-pool copy screen finds zero exact duplicates, cross-split near-duplicates or matches to previous material across 795,447,464 comparisons. Its 212 within-development similar pairs remain documented hit/no-hit controls.
+- [Data review](../runners/results/generated-residue-v22-data-review.json) contains protected holdout writing and judgments. Prompt authors read aggregate metadata only; holdout model evaluation requires separate authorization.
+
 ## Commands
 
 ```sh

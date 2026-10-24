@@ -1,6 +1,6 @@
 {
   "family": "generated-residue",
-  "phase": "reviewed-candidate-preparation",
+  "phase": "balanced-data-frozen",
   "holdoutInference": false,
   "definitionsSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
   "restrictedDefinitionReview": {
@@ -2192,7 +2192,7 @@
         "generated-residue/artifact-placeholders"
       ],
       "stem": "datasets/ai-synthetic/passages/000129-generated-residue-artifact-placeholders-development",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "d9e03e7fa94baec043e431b212b67f0afdb08ea666da022ff07ec35c9969e9b9",
@@ -11448,10 +11448,230 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "3a217fc8d7ee9fd218c1b313b4ff8844dba30a1ab5f6004569992ccb7c7e3187",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p151",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p119",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 121,
+            "mandatory": 13,
+            "retainedPilots": 12,
+            "changedLabels": 1,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 13,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 119,
+            "mandatory": 13,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 1,
+            "introducedRows": 0,
+            "adjudicated": 13,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "0e27886310a9061ed112764123d311c4302372971d71824014b4e150f6fa67d9",
-        "labelsSha256": "4f45495d75e3812a489c412d51cb7f9ff9eaf50f76c8b6b82cea1b51f91a71f4"
+        "passages": 200,
+        "textSha256": "6c68ce9fbc98aafdab873a8c6e8b2b1f05c2351afd135f048ee7a134d2f9520e",
+        "labelsSha256": "b1141e26c3dffccc1b8cb6c18c7bb7154b3ae4a7cb3f078b092fda5b121a65e5"
       }
     },
     {
@@ -11461,7 +11681,7 @@
         "generated-residue/artifact-placeholders"
       ],
       "stem": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "dd517c8eef8e26a74a43b51cd38d18a62d6d1119b749091639cfa0fafb26377a",
@@ -20741,10 +20961,223 @@
         "exactRequestedMargins": false,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "7a73eb3413700a9ec07c02bb45b1f97daebe4b922934600ebc321ce95330b60d",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p033",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 129,
+            "mandatory": 12,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 12,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 111,
+            "mandatory": 13,
+            "retainedPilots": 12,
+            "changedLabels": 1,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 13,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "99d7be2de3380a3fc6c1b4335ab6ea36945beece4a9712a9a9eb414aa2454281",
-        "labelsSha256": "99ddca828c7817ca7725f05beb003a5638e5fbbde724903cba68634dcc68fa9e"
+        "passages": 200,
+        "textSha256": "3ee887070fb16969a7e2d9ac54e6ed4e6e4ec8a52a26b4f37ed1b79dc9868ee2",
+        "labelsSha256": "2ddbc5a398a6ca59cd4792514844020c099020b49be8af5c87151e5a2da68265"
       }
     },
     {
@@ -20754,7 +21187,7 @@
         "generated-residue/llm-disclaimer"
       ],
       "stem": "datasets/ai-synthetic/passages/000131-generated-residue-llm-disclaimer-development",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "11273e198a3bf34e02400bfcb557d642f1c72d6b61375c4f80ab3efd60902e64",
@@ -30022,10 +30455,237 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "b3bf34a7bab1ac7d94b00c88845afc9ea88c122c2567ccd2c4062a8100f6a8bf",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p233",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p237",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p040",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 122,
+            "mandatory": 15,
+            "retainedPilots": 12,
+            "changedLabels": 2,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 15,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 118,
+            "mandatory": 12,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 12,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "ce780b5f9d04d33ecd6c7977229efbff7364a22407bdc37d99715f2725b21ecf",
-        "labelsSha256": "61a2b99518e63ef34c87953b51a7150a902a4d6a963af654f2f6e317a57f87e1"
+        "passages": 200,
+        "textSha256": "3640e3c25e9bc7f4b19489306379888b51c53a430e6000b5694c1d6e0dfdf9a3",
+        "labelsSha256": "562f4d72779f1ab6078e9b46b066c1846770a2b225f39a569e1c891169409375"
       }
     },
     {
@@ -30035,7 +30695,7 @@
         "generated-residue/llm-disclaimer"
       ],
       "stem": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "a3f04c5706aef9007750d88eba9f97f5e0137d036af1eb5d556f6722c3dc9ee0",
@@ -39381,10 +40041,258 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "0b7fdb8595118f28afc8613f898bbb2be465eeec71285b6630142fd0d515363a",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p084",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p100",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p087",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p109",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p127",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p104",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 126,
+            "mandatory": 18,
+            "retainedPilots": 12,
+            "changedLabels": 6,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 18,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 114,
+            "mandatory": 12,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 12,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "366353f4eebeb5fe6f85eb0e94b556b291b56674ba41563082dfd29035810b8a",
-        "labelsSha256": "38c3cb98588c45abb4ec8ac9441852b68e60f7a90f542e9b1e18b8fcf1bcc2ab"
+        "passages": 200,
+        "textSha256": "4416aabc01d5d03c24828d19344e7241661dd5ef8adefce242aa304fc52ecd73",
+        "labelsSha256": "8e513ec9185bd930cc67f3c403331d3a0c5e758f1d00e1c49c6ac15ad43a8ac2"
       }
     },
     {
@@ -39394,7 +40302,7 @@
         "generated-residue/response-wrapper"
       ],
       "stem": "datasets/ai-synthetic/passages/000133-generated-residue-response-wrapper-development",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "dd5ccebcdadbb4effcb7d8b0cf0ccdef8c3d6fc2f52e1f21ce8cf6484efc26a4",
@@ -48552,10 +49460,223 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "fdc8d93d315b9fa301de2cabaeff129dfb24b2db84438711c67dcb53131811d8",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p119",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 120,
+            "mandatory": 12,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 12,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 120,
+            "mandatory": 13,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 13,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "ae11ad6fcbcf8e3aaefde41bf6e5052d22737794ae7fce3cd505a4b826d261cb",
-        "labelsSha256": "983661a6f9bd93c1f76558a73443b8a77629850efa36f63dd05e72482ea7be4d"
+        "passages": 200,
+        "textSha256": "bd8bd5204f09de459cab13d7128144a35fd13c680f3e0b0b908c1df8d457acd7",
+        "labelsSha256": "40a6c70c6fa71068a9074dc26e164ab5d4ffd4392d4c0c9dc94672607f0c0fef"
       }
     },
     {
@@ -48565,7 +49686,7 @@
         "generated-residue/response-wrapper"
       ],
       "stem": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "7174b9dce49fef63cba9bf0380c7395481a1e76804ae11f25c811aee0dea0b3f",
@@ -57647,10 +58768,223 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "d69031faa62801d0627196a1f3d7b1beee6fd0f3ff677b75e4b54c9dafb616d6",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p079",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "0",
+            "quota": 100,
+            "available": 120,
+            "mandatory": 12,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 12,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "1",
+            "quota": 100,
+            "available": 120,
+            "mandatory": 13,
+            "retainedPilots": 12,
+            "changedLabels": 0,
+            "rewrittenHardCases": 1,
+            "introducedRows": 0,
+            "adjudicated": 13,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "87066a29b600edc1cae6e0328651db71bbef678bdc4a2d01e040c4c2f4ebeccc",
-        "labelsSha256": "636e8ea6583c82b6286bffde67d2a6400ab35b03892ec49fd028f1c71efe137a"
+        "passages": 200,
+        "textSha256": "d19e82c47268210918cdf3b9634ec31f5d30ca940610537f95969a6cc0b488ba",
+        "labelsSha256": "d13c36289ace686811b2df069a74ad1012836b5352f3322c4a87186c3d431686"
       }
     },
     {
@@ -57662,7 +58996,7 @@
         "generated-residue/response-wrapper"
       ],
       "stem": "datasets/ai-synthetic/passages/000135-generated-residue-mixed-development",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "09fb1abcf6b13bdb5b5daa3613fe03b7b28b45cdd18dcd06d8e2995959c55814",
@@ -76208,10 +77542,335 @@
           "pool-final": "856cb8dec9b36684f50976e385e397291007ac798754f4db643d949db6a44d41"
         }
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "765e36c79c53c76e999a1bb061c5878ed12c9c7883b7a5fbb016d11d4ee7b7e1",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p074",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p092",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p137",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p172",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p221",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "000",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "001",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 4,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 1,
+            "introducedRows": 0,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "010",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 4,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "011",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "100",
+            "quota": 25,
+            "available": 29,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "101",
+            "quota": 25,
+            "available": 31,
+            "mandatory": 5,
+            "retainedPilots": 3,
+            "changedLabels": 1,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 5,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "110",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "111",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 4,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "0519b3a7bfa57e84ab9f77baf4f5839bfebdf895199e4b750e21006a7c355815",
-        "labelsSha256": "418a0f4f976a4aaf42da16f371a0b00264d9857d838d568a7637291ba5ad0bba"
+        "passages": 200,
+        "textSha256": "42aa6757a5fceed10c2360312f200d5efbf0f6c7255e080397f26611b25388be",
+        "labelsSha256": "817d1a25d2002ef9d4b7ec87b70c8755551fa5e0b6f40eaf47bcda9f1b0bab38"
       }
     },
     {
@@ -76223,7 +77882,7 @@
         "generated-residue/response-wrapper"
       ],
       "stem": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "32790bc4ddf4bb1f3f71965decf7d9872df25075518a639fe07dcdc1aa96c093",
@@ -96737,10 +98396,559 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "badf17ad15aaf56083af4ca3110f2ae8ecd3b0ac092dec272dbefd76ea75eb3e",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p089",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p242",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p241",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p244",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p243",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p245",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p246",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p091",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p247",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p248",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p250",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p249",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": true,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p158",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p133",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p149",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p136",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p155",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p141",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p152",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p251",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p252",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p254",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p253",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p211",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p203",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p213",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p199",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p205",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p190",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p197",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p209",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p192",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p201",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p194",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p187",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p256",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p255",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "000",
+            "quota": 26,
+            "available": 33,
+            "mandatory": 6,
+            "retainedPilots": 3,
+            "changedLabels": 1,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 6,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "001",
+            "quota": 19,
+            "available": 32,
+            "mandatory": 5,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 5,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "010",
+            "quota": 31,
+            "available": 31,
+            "mandatory": 5,
+            "retainedPilots": 2,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 5,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "011",
+            "quota": 24,
+            "available": 32,
+            "mandatory": 6,
+            "retainedPilots": 4,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 6,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "100",
+            "quota": 24,
+            "available": 24,
+            "mandatory": 4,
+            "retainedPilots": 2,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "101",
+            "quota": 31,
+            "available": 40,
+            "mandatory": 13,
+            "retainedPilots": 4,
+            "changedLabels": 7,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 13,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "110",
+            "quota": 19,
+            "available": 19,
+            "mandatory": 4,
+            "retainedPilots": 2,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "111",
+            "quota": 26,
+            "available": 45,
+            "mandatory": 18,
+            "retainedPilots": 4,
+            "changedLabels": 12,
+            "rewrittenHardCases": 0,
+            "introducedRows": 2,
+            "adjudicated": 18,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 256,
-        "textSha256": "360a5167db763d2ae8c9fb4bc65323d92c8781386339a30e7a272d435b447fe4",
-        "labelsSha256": "1fee1d748cd78a581d5bdcf5726100d33e1c6f7a62a0b907a412e6e34298dfe0"
+        "passages": 200,
+        "textSha256": "c97a414271d09d0388f054ddd046ed2dba7249708343ee7fd7ea14ac3ee09d19",
+        "labelsSha256": "384d95408c95916ea1475de8d3354193e506c2cf202ec96753931b72f7b7e1b6"
       }
     },
     {
@@ -96752,7 +98960,7 @@
         "boilerplate-and-signposting/unnecessary-framing"
       ],
       "stem": "datasets/ai-synthetic/passages/000137-mixed-generated-residue-boilerplate-and-signposting-development",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "b81757a307fcd9b24f7bc5e03db0e60c17fb5d4252ede116c18eae089956f1f5",
@@ -116073,10 +118281,433 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "7622c26bbb7a7cfec095d05c957891ee0b462babe794e618e2c5d8d0295281e0",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p101",
+            "pilot": false,
+            "changedLabels": true,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p090",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p197",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p213",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p200",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p195",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p198",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p191",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p209",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p201",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p203",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p208",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p193",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p190",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p206",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p211",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p229",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p223",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          },
+          {
+            "id": "p233",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "000",
+            "quota": 25,
+            "available": 31,
+            "mandatory": 4,
+            "retainedPilots": 3,
+            "changedLabels": 1,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "001",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "010",
+            "quota": 25,
+            "available": 29,
+            "mandatory": 4,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 4,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "011",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "100",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 0,
+            "retainedPilots": 0,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 0,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "101",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "110",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 20,
+            "retainedPilots": 6,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 20,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "111",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 6,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 3,
+            "introducedRows": 0,
+            "adjudicated": 6,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "1cc80d1900e2c1856fe7593b5485b529f30baa3998caf8a07127e2c5ff030f81",
-        "labelsSha256": "68b29e381a12a45f821050b7af5aac4754bdd9ef31b72b232e786670d4e95164"
+        "passages": 200,
+        "textSha256": "db664be5256b608561a979fb97274204791391dd37ea6ec299f83b27cfda4ef6",
+        "labelsSha256": "d5b945450c5ce4bfb1ebb296f75a7418197bd0f446bac94d7e588978aad58bd7"
       }
     },
     {
@@ -116088,7 +118719,7 @@
         "boilerplate-and-signposting/unnecessary-framing"
       ],
       "stem": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout",
-      "phase": "final-review",
+      "phase": "balanced-selected",
       "stages": {
         "pilot-author": {
           "outputSha256": "2b9912cf6315e97db03a0751137910ea85df8b45e2cea2869d5ce193100f8d85",
@@ -134822,11 +137453,447 @@
         "exactRequestedMargins": true,
         "requestedMixedCombination": 30
       },
+      "selection": {
+        "archive": "aca5790c4f21692e0e53104ddf74beca3ec37348",
+        "sourceSha256": "62867aff02d12f60d4974093df0572cdf07a0e1ce66b1366f91e0e80a2349357",
+        "definitionSha256": "724fb8d434a78edca7980a266e6c4d7fdf209a9f42345104ee75071927d12ed5",
+        "ranking": "sha256(v22-balance:<split>:<rawId>)",
+        "retained": [
+          {
+            "id": "p002",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p003",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p001",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p006",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p005",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p004",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p057",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p062",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p008",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p009",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p010",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p011",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p012",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p014",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p016",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p017",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p018",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p015",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p013",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p019",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p020",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p021",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p022",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p023",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          },
+          {
+            "id": "p024",
+            "pilot": true,
+            "changedLabels": false,
+            "rewritten": false,
+            "adjudicated": true
+          }
+        ],
+        "strata": [
+          {
+            "vector": "000",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "001",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 5,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 5,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "010",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "011",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "100",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 1,
+            "retainedPilots": 1,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 1,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "101",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "110",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 5,
+            "retainedPilots": 5,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 5,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          },
+          {
+            "vector": "111",
+            "quota": 25,
+            "available": 30,
+            "mandatory": 3,
+            "retainedPilots": 3,
+            "changedLabels": 0,
+            "rewrittenHardCases": 0,
+            "introducedRows": 0,
+            "adjudicated": 3,
+            "unprovenChanges": 0,
+            "inspectionNeeded": 0,
+            "replenishmentNeeded": 0
+          }
+        ]
+      },
       "active": {
-        "passages": 240,
-        "textSha256": "b79e5c07a8ee92c040ad26f2e5f2a31df5421d2e165267bd4af63d80f13c0d46",
-        "labelsSha256": "dbdb80922a140dba182fb0ec598d0f20f826bee191a034b2a0fc353b603dc661"
+        "passages": 200,
+        "textSha256": "c9baedf5ddcf141436357383d3277c032e9bbd97493afd819190842a346fe6f8",
+        "labelsSha256": "df07cf0f1a083cc5b0daa8ad6ec1da71abebb302b7fc4324fbf868b9969965fc"
       }
     }
-  ]
+  ],
+  "archives": {
+    "originalCandidates": "99e73874",
+    "reviewedCandidates": "aca5790c4f21692e0e53104ddf74beca3ec37348"
+  },
+  "copyScreens": {
+    "reviewed": {
+      "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+      "verifierSha256": "5a12207679edec0711562c92243fdc22c266bdc937d2d51b7d8b71a53b3a8d37",
+      "newInputs": 2416,
+      "referenceInputs": 328034,
+      "pairs": 795447464,
+      "exact": 0,
+      "crossSplitOrPrior": 0,
+      "withinDevelopmentPairs": 212,
+      "priorSourcesSha256": "3fb545a3fde154cbdff526ae27b870e575311925f94e345c6242bb6f48785ecd",
+      "sources": [
+        {
+          "path": "datasets/ai-synthetic/passages/000129-generated-residue-artifact-placeholders-development.md",
+          "sha256": "0e27886310a9061ed112764123d311c4302372971d71824014b4e150f6fa67d9",
+          "labelsSha256": "4f45495d75e3812a489c412d51cb7f9ff9eaf50f76c8b6b82cea1b51f91a71f4"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
+          "sha256": "99d7be2de3380a3fc6c1b4335ab6ea36945beece4a9712a9a9eb414aa2454281",
+          "labelsSha256": "99ddca828c7817ca7725f05beb003a5638e5fbbde724903cba68634dcc68fa9e"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000131-generated-residue-llm-disclaimer-development.md",
+          "sha256": "ce780b5f9d04d33ecd6c7977229efbff7364a22407bdc37d99715f2725b21ecf",
+          "labelsSha256": "61a2b99518e63ef34c87953b51a7150a902a4d6a963af654f2f6e317a57f87e1"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.md",
+          "sha256": "366353f4eebeb5fe6f85eb0e94b556b291b56674ba41563082dfd29035810b8a",
+          "labelsSha256": "38c3cb98588c45abb4ec8ac9441852b68e60f7a90f542e9b1e18b8fcf1bcc2ab"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000133-generated-residue-response-wrapper-development.md",
+          "sha256": "ae11ad6fcbcf8e3aaefde41bf6e5052d22737794ae7fce3cd505a4b826d261cb",
+          "labelsSha256": "983661a6f9bd93c1f76558a73443b8a77629850efa36f63dd05e72482ea7be4d"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.md",
+          "sha256": "87066a29b600edc1cae6e0328651db71bbef678bdc4a2d01e040c4c2f4ebeccc",
+          "labelsSha256": "636e8ea6583c82b6286bffde67d2a6400ab35b03892ec49fd028f1c71efe137a"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000135-generated-residue-mixed-development.md",
+          "sha256": "0519b3a7bfa57e84ab9f77baf4f5839bfebdf895199e4b750e21006a7c355815",
+          "labelsSha256": "418a0f4f976a4aaf42da16f371a0b00264d9857d838d568a7637291ba5ad0bba"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+          "sha256": "360a5167db763d2ae8c9fb4bc65323d92c8781386339a30e7a272d435b447fe4",
+          "labelsSha256": "1fee1d748cd78a581d5bdcf5726100d33e1c6f7a62a0b907a412e6e34298dfe0"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000137-mixed-generated-residue-boilerplate-and-signposting-development.md",
+          "sha256": "1cc80d1900e2c1856fe7593b5485b529f30baa3998caf8a07127e2c5ff030f81",
+          "labelsSha256": "68b29e381a12a45f821050b7af5aac4754bdd9ef31b72b232e786670d4e95164"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+          "sha256": "b79e5c07a8ee92c040ad26f2e5f2a31df5421d2e165267bd4af63d80f13c0d46",
+          "labelsSha256": "dbdb80922a140dba182fb0ec598d0f20f826bee191a034b2a0fc353b603dc661"
+        }
+      ]
+    },
+    "selected": {
+      "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new pairs, within and across splits; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples.",
+      "verifierSha256": "5a12207679edec0711562c92243fdc22c266bdc937d2d51b7d8b71a53b3a8d37",
+      "newInputs": 2000,
+      "referenceInputs": 328037,
+      "pairs": 658073000,
+      "exact": 0,
+      "crossSplitOrPrior": 0,
+      "withinDevelopmentPairs": 139,
+      "priorSourcesSha256": "65bef4f924ca5f5048c5c5d1b1708639ede7b938b47cc054070f9bd3ad181d34",
+      "sources": [
+        {
+          "path": "datasets/ai-synthetic/passages/000129-generated-residue-artifact-placeholders-development.md",
+          "sha256": "6c68ce9fbc98aafdab873a8c6e8b2b1f05c2351afd135f048ee7a134d2f9520e",
+          "labelsSha256": "b1141e26c3dffccc1b8cb6c18c7bb7154b3ae4a7cb3f078b092fda5b121a65e5"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
+          "sha256": "3ee887070fb16969a7e2d9ac54e6ed4e6e4ec8a52a26b4f37ed1b79dc9868ee2",
+          "labelsSha256": "2ddbc5a398a6ca59cd4792514844020c099020b49be8af5c87151e5a2da68265"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000131-generated-residue-llm-disclaimer-development.md",
+          "sha256": "3640e3c25e9bc7f4b19489306379888b51c53a430e6000b5694c1d6e0dfdf9a3",
+          "labelsSha256": "562f4d72779f1ab6078e9b46b066c1846770a2b225f39a569e1c891169409375"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.md",
+          "sha256": "4416aabc01d5d03c24828d19344e7241661dd5ef8adefce242aa304fc52ecd73",
+          "labelsSha256": "8e513ec9185bd930cc67f3c403331d3a0c5e758f1d00e1c49c6ac15ad43a8ac2"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000133-generated-residue-response-wrapper-development.md",
+          "sha256": "bd8bd5204f09de459cab13d7128144a35fd13c680f3e0b0b908c1df8d457acd7",
+          "labelsSha256": "40a6c70c6fa71068a9074dc26e164ab5d4ffd4392d4c0c9dc94672607f0c0fef"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.md",
+          "sha256": "d19e82c47268210918cdf3b9634ec31f5d30ca940610537f95969a6cc0b488ba",
+          "labelsSha256": "d13c36289ace686811b2df069a74ad1012836b5352f3322c4a87186c3d431686"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000135-generated-residue-mixed-development.md",
+          "sha256": "42aa6757a5fceed10c2360312f200d5efbf0f6c7255e080397f26611b25388be",
+          "labelsSha256": "817d1a25d2002ef9d4b7ec87b70c8755551fa5e0b6f40eaf47bcda9f1b0bab38"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+          "sha256": "c97a414271d09d0388f054ddd046ed2dba7249708343ee7fd7ea14ac3ee09d19",
+          "labelsSha256": "384d95408c95916ea1475de8d3354193e506c2cf202ec96753931b72f7b7e1b6"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000137-mixed-generated-residue-boilerplate-and-signposting-development.md",
+          "sha256": "db664be5256b608561a979fb97274204791391dd37ea6ec299f83b27cfda4ef6",
+          "labelsSha256": "d5b945450c5ce4bfb1ebb296f75a7418197bd0f446bac94d7e588978aad58bd7"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+          "sha256": "c9baedf5ddcf141436357383d3277c032e9bbd97493afd819190842a346fe6f8",
+          "labelsSha256": "df07cf0f1a083cc5b0daa8ad6ec1da71abebb302b7fc4324fbf868b9969965fc"
+        }
+      ]
+    }
+  }
 }
