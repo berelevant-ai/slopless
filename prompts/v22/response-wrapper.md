@@ -1,19 +1,23 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain leftover helper-to-requester scaffolding: a drafting preface, alternate-version offer, generic follow-up invitation or instruction for composing or revising the proposed writing?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the passage contain any drafting or delivery language presenting its proposed text, prescribing that text's wording or arrangement, or offering further writing help?",
   "criteria": {
-    "true": "At least one statement addresses the writing requester as a helper introducing, offering to adapt, or directing completion of the proposed copy. It is separable production scaffolding rather than the subject's own communication or useful reader task.",
-    "false": "Every candidate is genuine correspondence, a useful reader action, dialogue, a documented workflow, source wording under discussion or a capability limitation alone; or no helper-to-writing-requester scaffold occurs."
+    "true": "A clause presents a prepared text or version, says how proposed copy should read, comments on its composition, or offers to adapt or complete it. Indirect and grammatically embedded drafting clauses qualify. Additional limitations or useful facts can coexist.",
+    "false": "Every candidate is ordinary correspondence, a useful reader action, a documented workflow or source discussion; a bare missing-content marker; an explanation of unavailable information and a guessed fact; or an evaluative announcement of a substantive point rather than proposed copy."
   }
 }
 ---
 # Assistant Wrappers
 
-Find a helper's writing-process conversation left in the proposed finished passage. Cover introductions of the requested draft, comments about the chosen tone, offers of alternate versions, generic invitations for another response, and instructions to add, replace or rewrite material before use. Cover unseen wording and closing as well as opening positions.
+Find writing-process conversation left in the proposed finished passage. Cover introductions of a requested draft, narration of how its text was composed, comments about its tone or arrangement, offers of alternate versions, generic invitations for another response, and instructions to add, replace or rewrite material before use. Cover unseen wording and closing as well as opening positions.
+
+Look for the act of presenting or composing this text. A proposed notice can be introduced directly, described as ready or below, or discussed through what its wording should say, mention, claim or recommend. The author can announce what they used for a label, paragraph or version. No direct address or separate sentence is required. Instructions to complete missing content before publishing and offers to update a draft also qualify.
 
 Use the communicative role of each statement. An email can ask its recipient to send a document, and a procedure can explain editing steps as its subject. Those are useful communication. A helper telling the writing requester to insert a missing paragraph into the presented announcement is residue. Salutations, second person, imperatives and offers alone decide neither role.
 
-Preserve material whose wording is documented or examined. A model limitation alone belongs to the disclaimer check; an independent drafting preface or follow-up can also qualify here. Redundant article signposting alone belongs to its own check. One independently qualifying wrapper is sufficient even when the rest of the passage is useful.
+Distinguish three nearby functions. A generic announcement of an important point evaluates the subject, while a wrapper introduces the proposed text carrying that point. A factual report about what an existing document says describes a source, while prescribing or narrating the proposed wording exposes composition. An explanation that missing records forced a guessed fact exposes a limitation; its destination document alone supplies no wrapper. An additional proposed-copy clause can independently qualify.
+
+Bare insertion markers name missing material; an instruction to a requester about completing or revising copy goes further. Preserve actual letters, useful reader tasks, workflow instructions and source discussion. Judge each candidate separately, allowing overlapping checks when separate functions are present.
 
 ## Development Examples
 
@@ -23,11 +27,11 @@ Preserve material whose wording is documented or examined. A model limitation al
 
 ### Hit
 
-The proposed schedule gives each workshop a 15-minute break and leaves half an hour between sessions for room changes. Registration opens at 8:30 a.m., with the first session starting at 9. **If you want a more formal version of this write-up, I can revise it.**
+**The donation page should explain that** monthly gifts pay for instrument repairs and loan cases. The school assigns instruments to pupils each September according to availability and size.
 
 ### Hit
 
-Applications for the summer research program close on March 15. Applicants must submit a statement of interest, a transcript and one recommendation. Decisions will be sent by email in early May. **Add the eligibility language from your brief as a second paragraph before sending this announcement.**
+**For the exhibition label, I have used 1875 as the painting's date** because I cannot consult the catalog record here. The artist depicts the harbor before the breakwater.
 
 ### No Hit
 
@@ -39,4 +43,4 @@ When editing a shared procedure, make the change in a new branch and request rev
 
 ### No Hit
 
-Hi Alex, please send the supplier a note confirming that we received the replacement parts. Four brackets were missing, so ask when the remaining items will arrive and whether they will use the same tracking number. Copy me so I can update the maintenance schedule.
+The roster was not included in the prompt, so I have chosen four instructors for the course announcement. Classes combine short demonstrations with supervised practice at individual benches.
