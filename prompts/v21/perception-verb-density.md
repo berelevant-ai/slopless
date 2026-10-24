@@ -45,18 +45,18 @@ Example judgment: The survey targets people; the useful details describe food in
 
 ### No Hit
 
-The school had banned homemade food from the class party after last year's allergy confusion. I regarded the kitchen for a beat. Our decorated biscuits were cooling on every tray. We bought sealed packets for school and invited the neighbours over, giving the rejected biscuits a more appreciative audience.
+The incident form said, "I observed the customer for several minutes." At the hearing, the supervisor read that sentence aloud and asked what "observed" meant. "I was serving at the other till," the cashier answered. The supervisor crossed out "for several minutes" in the draft statement and asked her to describe only the moments when she could see the customer's hands.
 
-Example judgment: The biscuits supply the kitchen view. That observation has meaning before the later decision.
-
-### No Hit
-
-My uncle sold the boat in October. At the family meal where he announced it, I let my eyes rest on him while my cousin asked whether the trailer was included. There were questions about the price and the buyer's plans for winter storage. Nobody asked about the summers when my uncle had taken it out alone.
-
-Example judgment: The narrator's focus contrasts with the relatives' questions, supplying a particular interpersonal viewpoint.
+Example judgment: The passage examines the quoted perception claim as wording, preserving its documented identity.
 
 ### No Hit
 
-What remained of the walking map is drying on the kitchen radiator. There is half a lake on it and a blue smear where the village should be. Yesterday, after the paper split along its folds, I looked around and suggested following the lane downhill. We reached a shop just before it closed. The route home is drawn on the paper bag beside the map.
+Our lunch was back in the dry bag before either of us had taken a bite. The harbourmaster needed the canoe moved for the sailing lesson, and we couldn't leave it unattended at the slipway. I looked across the inlet while we discussed whether to go home. We paddled to the other beach instead and ate with the canoe pulled up beside us.
 
-Example judgment: The survey orients a spatial choice after the map fails.
+Example judgment: Looking across the inlet orients the choice of a different beach in the connected sequence.
+
+### No Hit
+
+"Does it sometimes take a minute?" I asked. The laundrette attendant covered his phone and said the machine should have started already. My last coin was inside it, along with the uniform I needed at six tomorrow. I looked at him as he resumed telling someone to bring his lunch. Behind me, another customer put her basket down beside the same machine.
+
+Example judgment: The look presents the attendant's particular conduct as he resumes his personal conversation.
