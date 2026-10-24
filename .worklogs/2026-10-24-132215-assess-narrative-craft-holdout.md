@@ -33,4 +33,5 @@ The first frozen holdout assessment achieves 97.2% precision and 97.6% recall ac
 ## Verification
 
 - Public snapshot, request, seal and scoring checks pass for all forty outputs. Dataset Fixture3 matches and all six paragraph-runner tests pass.
+- Final report review verifies all three examples, 203 review keys and 244 supplied snippets against source. Its corrections clarify per-check false positives, describe the observed error pattern, name saved inference hashes and fix singular count grammar.
 - Final delivery checks the exact pushed commit's CI before reporting completion. No release or local reinstall is part of this assessment.
