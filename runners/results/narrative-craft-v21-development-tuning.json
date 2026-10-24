@@ -5969,7 +5969,7 @@
     },
     "gaze-choreography": {
       "dataStatus": "frozen-isolated",
-      "mixedStatus": "revision-needed",
+      "mixedStatus": "confirmed",
       "dataset": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
       "demonstrationsPreselectedBeforeInference": [
         {
@@ -6032,7 +6032,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100. Selected passages total 344 whitespace words. Hits cover ordinary looking, noun-based choreography, eye-color decoration, and a single weak sweep beside useful perception and communication. No-hits cover consequential social signaling, practical color comparison, and memory-grounded narrative orientation without subsequent action.",
         "concerns": []
       },
-      "status": "development-revision-needed",
+      "status": "all-development-cohorts-confirmed",
       "candidates": [
         {
           "revision": "b0",
@@ -6690,7 +6690,113 @@
           }
         }
       ],
-      "threshold": 0.34
+      "threshold": 0.34,
+      "confirmations": [
+        {
+          "revision": "core1-confirmation",
+          "output": "runners/results/narrative-craft-v21-gaze-choreography-core1-confirmation-000099-development.json",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "gaze-choreography",
+            "collection": "000099",
+            "cohort": "isolated",
+            "revision": "core1-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.34,
+            "output": "runners/results/narrative-craft-v21-gaze-choreography-core1-confirmation-000099-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/gaze-choreography-core1-confirmation-000099.log",
+            "developmentOnly": true,
+            "producingCommit": "1918694bf3f6829496495d8f7f49a60b5cb6639d",
+            "assembledWords": 880,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/gaze-choreography.md": "fdf0b3d38fef3706ba81469b40c20b19e9ce03e01790a8d269db3c9ca0a9e4aa",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3941,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 97,
+          "falsePositives": 5,
+          "misses": [
+            "000099-77c8bdc31bdf",
+            "000099-97cee743ddcf",
+            "000099-9cd1433f2f9f"
+          ],
+          "falseAlarms": [
+            "000099-26290b0ae639",
+            "000099-391b125aad34",
+            "000099-7286f1457e30",
+            "000099-7f2c12deea2c",
+            "000099-fde355019ab5"
+          ],
+          "assembledWords": 880
+        },
+        {
+          "revision": "core1-confirmation",
+          "output": "runners/results/narrative-craft-v21-gaze-choreography-core1-confirmation-000119-development.json",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "gaze-choreography",
+            "collection": "000119",
+            "cohort": "mixed",
+            "revision": "core1-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.34,
+            "output": "runners/results/narrative-craft-v21-gaze-choreography-core1-confirmation-000119-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/gaze-choreography-core1-confirmation-000119.log",
+            "developmentOnly": true,
+            "producingCommit": "1918694bf3f6829496495d8f7f49a60b5cb6639d",
+            "assembledWords": 880,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md": "407a74e72ee4e1ad99f10fc39c0dd4a7377647683851090eb836387784aec48a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.labels.json": "24f2990a7e5920b0bf329f493e4866b6e90bd3db237e688c9a59c79427e7cb43",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/gaze-choreography.md": "fdf0b3d38fef3706ba81469b40c20b19e9ce03e01790a8d269db3c9ca0a9e4aa",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 4018,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 99,
+          "falsePositives": 2,
+          "misses": [
+            "000119-b58d2cd560c0"
+          ],
+          "falseAlarms": [
+            "000119-23d53a58b773",
+            "000119-ff51b75d1854"
+          ],
+          "assembledWords": 880
+        }
+      ],
+      "selectedRevision": "core1"
     },
     "low-information-beat-density": {
       "dataStatus": "frozen-isolated",
@@ -9885,7 +9991,7 @@
           "Excluded no-hits 000111-5b8bfbea4280, 000111-e871d61e6982, and 000111-4ef205d63398 appear inconsistent with the definition: each pause receives a generic emotional significance while adjacent practical details supply separate functions."
         ]
       },
-      "status": "both-development-cohorts-pass-awaiting-confirmation",
+      "status": "fresh-confirmation-failed-awaiting-calibration",
       "candidates": [
         {
           "revision": "b0",
@@ -10504,7 +10610,112 @@
             "falsePositives": 1
           }
         }
-      ]
+      ],
+      "confirmations": [
+        {
+          "revision": "core1-confirmation",
+          "output": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "silence-as-actor",
+            "collection": "000111",
+            "cohort": "isolated",
+            "revision": "core1-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/silence-as-actor-core1-confirmation-000111.log",
+            "developmentOnly": true,
+            "producingCommit": "1918694bf3f6829496495d8f7f49a60b5cb6639d",
+            "assembledWords": 851,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/silence-as-actor.md": "e40ce3e6ae130ea24016a881325bb9d22ff4f07d77f7fccad3460aa52305b84b",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3383,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 98,
+          "falsePositives": 1,
+          "misses": [
+            "000111-2d6e8fd39f0e",
+            "000111-c6be9a34577d"
+          ],
+          "falseAlarms": [
+            "000111-2e3ab84038ad"
+          ],
+          "assembledWords": 851
+        },
+        {
+          "revision": "core1-confirmation",
+          "output": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "silence-as-actor",
+            "collection": "000127",
+            "cohort": "mixed",
+            "revision": "core1-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/silence-as-actor-core1-confirmation-000127.log",
+            "developmentOnly": true,
+            "producingCommit": "1918694bf3f6829496495d8f7f49a60b5cb6639d",
+            "assembledWords": 851,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md": "55253d9ebf281cf5ccba192725c38986ea07286dfea3a308edd73681e964cfd5",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.labels.json": "6cf3d656756165ad0061d1dbb0c37848b83477d56c443c7fe165dec510a8bfdf",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/silence-as-actor.md": "e40ce3e6ae130ea24016a881325bb9d22ff4f07d77f7fccad3460aa52305b84b",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3613,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 94,
+          "falsePositives": 1,
+          "misses": [
+            "000127-43acf6a853cd",
+            "000127-440f218373c7",
+            "000127-4b854ecf4ab7",
+            "000127-582961d91e26",
+            "000127-5f5fe7f87600",
+            "000127-a4b3f0a1f908"
+          ],
+          "falseAlarms": [
+            "000127-ee774ecfc643"
+          ],
+          "assembledWords": 851
+        }
+      ],
+      "threshold": 0.39
     },
     "summary-fog-transition": {
       "dataStatus": "frozen-isolated",
@@ -11765,6 +11976,528 @@
               "collection": "000119",
               "caught": 96,
               "falsePositives": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "silence-as-actor",
+      "revision": "core1",
+      "sourceRuns": [
+        "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+        "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+        "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+        "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json"
+      ],
+      "feasibleRange": [
+        0.3,
+        0.49
+      ],
+      "chosenThreshold": 0.39,
+      "minimumRequiredWidth": 0.05,
+      "selection": "midpoint rounded down to two decimal places",
+      "selectedBeforeFreshInference": true,
+      "originalThreshold": 0.5,
+      "developmentOnly": true,
+      "grid": [
+        {
+          "threshold": 0.3,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            }
+          ]
+        },
+        {
+          "threshold": 0.31,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            }
+          ]
+        },
+        {
+          "threshold": 0.32,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 4
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            }
+          ]
+        },
+        {
+          "threshold": 0.33,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            }
+          ]
+        },
+        {
+          "threshold": 0.34,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 3
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            }
+          ]
+        },
+        {
+          "threshold": 0.35,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            }
+          ]
+        },
+        {
+          "threshold": 0.36,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            }
+          ]
+        },
+        {
+          "threshold": 0.37,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            }
+          ]
+        },
+        {
+          "threshold": 0.38,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            }
+          ]
+        },
+        {
+          "threshold": 0.39,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.4,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.41,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.42,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.43,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 99,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 99,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.44,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 99,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 98,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.45,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 99,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 97,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.46,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 98,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 96,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.47,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 100,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 96,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 96,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.48,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 99,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 96,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 100,
+              "falsePositives": 2
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 95,
+              "falsePositives": 1
+            }
+          ]
+        },
+        {
+          "threshold": 0.49,
+          "cohorts": [
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000111-development.json",
+              "caught": 98,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-000127-development.json",
+              "caught": 96,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000111-development.json",
+              "caught": 99,
+              "falsePositives": 1
+            },
+            {
+              "file": "runners/results/narrative-craft-v21-silence-as-actor-core1-confirmation-000127-development.json",
+              "caught": 95,
+              "falsePositives": 1
             }
           ]
         }
