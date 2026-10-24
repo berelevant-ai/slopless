@@ -100,13 +100,14 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Prompt Evaluation
 
-- Pin Jev `jev-1.13.0`, SDK `0.7.0`, threshold `0.5`, classification-only mode and batch size sixteen. Use `--development-only` and one named check per judgment.
+- Pin Jev `jev-1.13.0`, SDK `0.7.0`, classification-only mode and batch size sixteen. Use `--development-only` and one named check per judgment. Complete controlled prompt comparisons at threshold `0.5` before a separately recorded development-calibration phase.
 - Copy shared instructions unchanged from `v19`; keep each assembled prompt below 1,000 words with at most three positive and three negative development examples.
 - Require at least 95/100 caught positives and at most five false positives in each applicable development collection.
 - Use the existing Markdown prompt files with JSON `instructions` and `criteria.true`/`criteria.false` front matter. The native runner sends these as typed Noul questions; introduce no parallel prompt format.
 - Freeze each candidate before inference and retain every response. Work in bounded rounds of baseline plus up to three revisions, then review errors and choose the next evidence-backed approach when a check still fails.
 - A failed bounded round remains unfinished work under the active full-family goal. Continue development until all nineteen checks meet the fixed limits in every applicable development collection and one fresh confirmation.
-- Keep definitions, labels, model, threshold and execution settings frozen during a tuning round. Never change them or remove hard cases to improve a score; review annotation corrections separately and preserve original results.
+- Keep definitions, labels, model, threshold and execution settings frozen during each comparison round. Preserve every original result and review annotation corrections separately; retain all hard cases.
+- After a completed comparison round, assess calibration on development probabilities across every applicable cohort and repeat. Require a feasible cutoff range at least 0.05 wide; choose its midpoint rounded down to two decimal places to favor recall, before fresh inference. Report the cutoff and original 0.5 results separately. Keep the 95/5 quality bounds unchanged and freeze cutoffs before holdout evaluation.
 - Confirm the selected candidate once on the same inputs. Report copied-demonstration exclusions, new and lost catches, corrected and introduced false positives, label disputes and mixed results separately.
 - Holdout inference, broad corpus validation, span detection and production integration keep their separate stages. Finish the complete family's development evaluation while preserving protected holdout writing and labels.
 
@@ -128,36 +129,11 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Execution Status
 
-- The preceding frame repair is recorded as unsuccessful, with its original prompt retained. The user asks to move on on 2026-10-23.
-- Independent source review covers all nineteen identifiers. Preserve distinct defects and leave broad consolidations proposed; the first dataset batch uses only `body-emotion-shorthand`.
-- Definition review corrects three boundaries: include embodied-object burden, judge the bodily reaction's specific contribution rather than mere sequence, and preserve involuntary communication as well as intentional signals. The reviewer approves the revised extract before generation.
-- The accepted taxonomy contains the first reviewed definition. Both twenty-case pilots pass independent blind review: ten hits and ten no-hits per split, with one development snippet-boundary difference retained separately.
-- The pilot copy screen finds zero candidates against 15,721 earlier dataset documents, 39 legacy Markdown fixtures and definition examples. Its 317,502 reference inputs produce 12,700,480 eligible comparisons.
-- Two independent writers per split produce all 480 candidates, preserving the pilots. Original pools remain at `2f5af44d`; three-pass reviewed pools remain at `232e81dc`.
-- Review corrects three labels and clarifies seven passages while preserving their IDs. Each rewritten passage receives three independent reviews against the same frozen definition.
-- Balanced selections contain 400 passages and 22,190 words, with exactly 100 hits and 100 no-hits per split. All 66 mandatory cases remain selected; eighty surplus passages retain their reviewed labels in Git.
-- Final copy screening finds zero candidates across 127,080,600 eligible comparisons. Global dataset validation, Fixture3's dataset comparison and all six paragraph-runner tests pass.
-- A fresh independent packaging/report audit passes with no corrections after an earlier auditor's out-of-scope taxonomy read invalidates that pass. The first type's data-quality phase is complete; new prompts, Jev inference, other narrative types and mixed evaluations remain subsequent work.
-- The new full-family goal supersedes the earlier first-batch stopping point. All nineteen checks, remaining datasets, mixed collections and development-passing prompts are now required before completion.
-- All nineteen final definitions pass independent source review at `fcfc8079`; the first body definition and its judgments remain unchanged.
-- Body-emotion prompt b2 catches 99/100 positives with one false positive, then 99/100 with two false positives in a fresh confirmation. An independent audit verifies the saved requests and all changed judgments; mixed evaluation remains pending.
-- Original pilots for all other fifty collections remain at `4b2e124b`: 944 passages and 59,366 words. Independent packaging review verifies exact text, labels, stable IDs, snippets and class/vector counts.
-- The pilot copy screen finds zero candidates against prior datasets, legacy fixtures, definition examples and other new pilots across 300,738,104 eligible comparisons. This result applies to the archived pilot versions.
-- Blind pilot review identifies one classification disagreement and 82 quality notes. Reconciliation and fresh review precede expansion; full candidate pools then receive three independent reviews before balanced selection.
-- The first five full candidate pools contain 1,200 passages and 63,238 words. Additional approved collections are expanding; the family remains incomplete until every dataset, prompt and development bound is verified.
-- Development annotation exposes a sensory-definition gap before detector tuning: useful perception can coexist with independently stock decoration in the same contrast. Expand that check explicitly, preserve ordinary informative perceptions, and review both isolated splits and mixed C against the revised extract. Preserve earlier definition and label versions in Git; keep development passages out of protected review prompts.
-- All fifty new candidate pools are generated: 12,000 passages and 611,668 words. Isolated pools contain 120 hits and 120 no-hits; mixed pools start with thirty passages per three-check combination. Full review, reconciliation and balanced selection remain active.
-- CLI headers identify `gpt-6.1-sol` as the generator. The source metadata records that observed model; repeated packing preserves the first commit reference when the writing and phase are unchanged.
-- All nineteen native JSON questions now exist in `prompts/v21/`. Eighteen definition-only drafts await reviewed development demonstrations and inference; the body-emotion b2 prompt remains unchanged.
-- Definition-only prompt review finds two ambiguous false criteria, for silence and summary-fog: a useful candidate could excuse a separate weak candidate. Both criteria now require every candidate to satisfy a protected function. All nineteen prompts load through the public reader and remain within 1,000 assembled words.
-- The first five fully reviewed pools contain 1,200 passages and 63,860 words. Preserve their surplus before balanced selection; complete the other forty-five new collections and re-screen all reviewed and selected writing before inference.
-- Scheduler capacity accounting now releases completed workers' reservations. Replacing its process interrupts ten incomplete reviews; their preserved logs and explicit recovery records identify the unchanged inputs being rerun. Completed responses remain intact.
-- Emotion-telling now has balanced isolated development and protected holdout pairs: 400 passages and 20,498 words, with all 113 mandatory pilot and reviewed hard cases retained. The 480 reviewed candidates remain archived at `fdb78b0f`; a fresh freeze audit passes before inference.
-- Its definition-only prompt supplies the next isolated baseline. Six development demonstrations are preselected before any detector response; mixed-C review and full-family tuning continue in parallel.
-- Emotion-telling b0 scores 98 caught/two false positives; b1's preselected examples score 100/two. Clarifying the existing wording-under-discussion protection in b2 yields 100/zero, with fresh confirmations of 100/zero and 99/zero. Independent review validates every result and preselection timing; mixed-C evaluation remains pending.
-- All thirty-six new isolated candidate pools complete three-pass review and reconciliation. Mixed-B development needs replenishment after valid label corrections leave one combination at twenty-four candidates; three new independently reviewed additions are prepared to fill that gap while retaining the original reviewed pool unchanged.
-- All 52 collections are now frozen: 10,400 passages and 16,000 judgments. Independent final review passes all 36 mechanical gates; full candidate archives preserve surplus and supported hard cases.
-- All nineteen checks have completed isolated development baselines. Fifteen have an isolated candidate and fresh confirmation within the fixed limits; further revisions and mixed results remain required for completion.
-- Nineteen initial mixed/comparator runs cover 3,800 judgments. Nine Narrative Craft judgment sets pass fresh confirmation across eight checks; seven other checks expose mixed-specific misses or false positives. The two remaining mixed questions await their next isolated revision.
-- Final copy screening finds zero candidates across 3,231,085,000 comparisons. A hash-bound reference inventory verifies inclusion of the existing body-emotion pair; protected holdout inference remains disabled.
-- Delegate prompt revisions with explicit resolved development-file paths. This avoids ambiguous metadata projections while preserving the holdout boundary; retain stopped passes and scope corrections in the development record.
+- The complete family has 52 frozen collections: 10,400 passages and 16,000 judgments. Independent verification passes all 36 dataset gates; reviewed surplus and original candidate versions remain in Git.
+- All nineteen checks have completed isolated and mixed development runs. The frozen rhythm comparator remains separate; protected holdout inference has never run.
+- Ten checks have candidates confirmed within the fixed quality bounds on isolated and every applicable mixed collection. Nine checks still need detector or calibration work.
+- The final duplication screen finds zero candidates across 3,231,085,000 comparisons. Its hash-bound reference inventory verifies the original body-emotion pair was included.
+- Native prompts remain below 1,000 assembled words. Historical demonstration sets, exact responses, changed predictions, scope incidents and corrected word-count metadata remain in the development record and worklogs.
+- Timestamp and perception example-only revisions retain identical question prefixes. Compare them on the same 188 targets outside the union of their old and new demonstrations.
+- Offline calibration identifies broad feasible ranges for timestamps and an earlier personification prompt. Test preregistered midpoint cutoffs in fresh development confirmations; preserve all original 0.5 scores.
+- Next: complete the remaining checks without changing labels or definitions for detector scores, confirm each selected prompt on every applicable development collection, and obtain final independent verification before completion.
