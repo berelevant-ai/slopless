@@ -180,12 +180,15 @@ Each candidate receives three independent reviews, with corrections between pass
 
 The final overlap screen finds zero candidates against previous datasets, legacy fixtures and definition examples. Global identity checks find 4,000 unique new passage IDs and zero collisions. Keep holdout writing outside prompt development; holdout model inference requires separate authorization.
 
-## Narrative-Craft First Batch
+## Narrative Craft
 
-- Body-emotion shorthand has separate [development](ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md) and protected holdout pairs. Each contains exactly 100 hits and 100 no-hits, totaling 400 passages and 22,190 words.
-- The three-pass review corrects three labels and clarifies seven passages. Every rewritten version receives three independent reviews; all 66 mandatory pilot, corrected, challenged and snippet-boundary cases remain selected.
-- Original 480-candidate pools remain at `2f5af44d`; reviewed pools remain at `232e81dc`, preserving all eighty surplus passages. The two narrative-craft review records under `runners/results/` retain source hashes and permitted read scopes.
-- The final copy screen finds zero candidates against earlier datasets, legacy fixtures, definition examples and other new passages. Keep protected writing outside prompt authoring; Jev prompt development and model evaluation follow this data-quality batch.
+- All nineteen checks have separate development and protected holdout pairs, starting at `000077`. Each isolated check/split contains exactly 100 hits and 100 no-hits: 38 collections and 7,600 passages.
+- Seven mixed groups add fourteen collections and 2,800 passages. They label each assigned check independently, including expected no-hits; every check/collection has exactly 100 hits and 100 no-hits.
+- The family totals 52 paired collections, 10,400 passages and 16,000 judgments, including 400 frozen rhythm-comparator judgments. Mixed passages retain their complete context and can receive several positive labels.
+- Blind classification, adversarial review and final quality review precede selection. Corrected labels preserve source wording and other-check judgments; deterministic balancing retains every mandatory reviewed case.
+- Final archive `cbd88995408cedf2dcb97b34096f350bb7392554` preserves all 1,223 source passages for the five repaired collections. Balanced freeze `ab195401b1680a6f5703add014edc56797cb6285` retains all 474 mandatory cases; previous candidate and surplus archives remain in Git.
+- The original full-family copy screen finds zero candidates across 3,231,085,000 comparisons. The final sixteen protected additions pass 5,250,664 further comparisons with zero candidates.
+- [Data review](../runners/results/narrative-craft-v21-data-review.json) contains protected holdout review material. Prompt authors must read only permitted counts and hashes through scripts; individual writing, labels and snippets stay in protected reviewer contexts. Holdout model evaluation requires separate authorization.
 
 ## Commands
 

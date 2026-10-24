@@ -37,7 +37,8 @@
 
 - The [v20 frame-repair attempt](../runners/results/sentence-frame-v20-development-repair.md) rejects both revisions: 96 and 88 development errors versus baseline's 78. The original `v19` prompt remains active; the experiment JSON and producing Git commits preserve the rejected prompt bodies.
 
-- `v21/` contains all nineteen Narrative Craft questions with JSON front matter and unchanged `v19` shared instructions. Eighteen definition-only drafts await development examples and evaluation; body-emotion shorthand retains its selected b2 prompt.
-- Body-emotion b2 catches 99/100 isolated development hits with one false positive, then 99/100 with two in a fresh confirmation. Full-family review, balanced dataset selection and mixed development evaluation remain in progress under the [Narrative Craft plan](../.plans/2026-10-23-195843-narrative-craft-development.md).
+- `v21/` contains all nineteen tuned Narrative Craft questions with JSON front matter and unchanged `v19/shared.md`. Each assembled prompt has fewer than 1,000 words and uses highlighted development examples; holdout writing stays outside authoring.
+- All 39 applicable development check/collection combinations pass source and fresh confirmation at their frozen cutoffs. Confirmation catches 3,834/3,900 positives with 75/3,900 false positives; every combination catches at least 95/100 hits with at most five false positives.
+- The [tuning record](../runners/results/narrative-craft-v21-development-tuning.json) identifies every selected prompt revision, cutoff and exact current native result under `finalCurrentEvidence`. The [Narrative Craft plan](../.plans/2026-10-23-195843-narrative-craft-development.md) tracks final audits; holdout inference retains its separate stage.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.
