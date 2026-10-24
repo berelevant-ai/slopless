@@ -85,7 +85,8 @@
             "negatives": 100,
             "falsePositives": 20,
             "misses": []
-          }
+          },
+          "assembledWords": 707
         },
         {
           "check": "body-emotion-shorthand",
@@ -133,7 +134,8 @@
               "000077-7e2f33db8b9a",
               "000077-c4b498efa32f"
             ]
-          }
+          },
+          "assembledWords": 770
         },
         {
           "check": "body-emotion-shorthand",
@@ -190,7 +192,8 @@
             "misses": [
               "000077-7e2f33db8b9a"
             ]
-          }
+          },
+          "assembledWords": 888
         }
       ],
       "selected": "b2-isolated-only-pending-mixed"
@@ -265,7 +268,8 @@
               "000085-0b87e70e557c",
               "000085-5dde75552530"
             ]
-          }
+          },
+          "assembledWords": 329
         },
         {
           "check": "emotion-telling",
@@ -334,7 +338,8 @@
             "lost": 0,
             "correctedFalsePositives": 0,
             "introducedFalsePositives": 0
-          }
+          },
+          "assembledWords": 715
         },
         {
           "check": "emotion-telling",
@@ -406,7 +411,8 @@
             "lost": 0,
             "correctedFalsePositives": 2,
             "introducedFalsePositives": 0
-          }
+          },
+          "assembledWords": 725
         }
       ],
       "status": "isolated-selection-and-confirmation-pass; mixed-C-pending",
@@ -443,7 +449,8 @@
           "caught": 97,
           "noHits": 97,
           "falsePositives": 0
-        }
+        },
+        "assembledWords": 725
       },
       "attestedConfirmation": {
         "revision": "b2",
@@ -638,7 +645,8 @@
             "caught": 96,
             "noHits": 97,
             "falsePositives": 33
-          }
+          },
+          "assembledWords": 316
         },
         {
           "revision": "b1",
@@ -725,6 +733,79 @@
             "caught": 96,
             "noHits": 97,
             "falsePositives": 35
+          },
+          "assembledWords": 653,
+          "wordCountCorrection": {
+            "reported": 316,
+            "actual": 653,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-abstract-personification-line-b2-000079-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "abstract-personification-line",
+            "collection": "000079",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-abstract-personification-line-b2-000079-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/abstract-personification-line-b2-000079.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 316,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md": "6824cde99759e52bce56a77c45a1305328ab0b9d5c65cfd862c8a40307c37da8",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.labels.json": "e975f7d61c126893cff626c38f25029b5a892eec7185e9848cf58b2a1bdc8bbb",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/abstract-personification-line.md": "e35a8121073432d85483842d1203dcb8f8ae9cf9702c7445991c3fc0a40f19a2",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3398,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 85,
+          "misses": [
+            "000079-0b45335d6d09",
+            "000079-0e0745bfc781",
+            "000079-15c74fadfc7c",
+            "000079-1cba6eb7de04",
+            "000079-2e988e0528fb",
+            "000079-4ad6ce0339f9",
+            "000079-58057bed9ebb",
+            "000079-65bc4275365d",
+            "000079-673d39d0918d",
+            "000079-938531652136",
+            "000079-af9bdfd85617",
+            "000079-b58eda07f625",
+            "000079-b5b4d406e597",
+            "000079-b6d1d096849f",
+            "000079-ff5dbefb0566"
+          ],
+          "falsePositives": 1,
+          "falseAlarms": [
+            "000079-d1f6249130f4"
+          ],
+          "assembledWords": 761,
+          "wordCountCorrection": {
+            "reported": 316,
+            "actual": 761,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -867,7 +948,8 @@
             "caught": 82,
             "noHits": 97,
             "falsePositives": 4
-          }
+          },
+          "assembledWords": 331
         },
         {
           "revision": "b1",
@@ -931,6 +1013,76 @@
             "caught": 89,
             "noHits": 97,
             "falsePositives": 4
+          },
+          "assembledWords": 699,
+          "wordCountCorrection": {
+            "reported": 331,
+            "actual": 699,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-body-action-density-b2-000081-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "body-action-density",
+            "collection": "000081",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-body-action-density-b2-000081-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/body-action-density-b2-000081.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 331,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md": "74b690e185dd304e12c455c1ddd2e181f1480005b59976378d0e64aa71259d56",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.labels.json": "d7451b26d5cab16501e146039678ef27d5c4c610b98c624ec074da63c81db186",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/body-action-density.md": "0f064e205e6c2945f66bfb668728cbb5e414f91e54249804f5c13a6204cca66a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3749,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 90,
+          "misses": [
+            "000081-422f74d6b0ee",
+            "000081-61eb52bc3ec7",
+            "000081-635c6851054c",
+            "000081-699bc76c8e42",
+            "000081-7324c2704277",
+            "000081-8a84c15091e1",
+            "000081-aab53bb3d243",
+            "000081-b22420427d37",
+            "000081-d1e4b38c893c",
+            "000081-d87473ee7457"
+          ],
+          "falsePositives": 3,
+          "falseAlarms": [
+            "000081-5c714adcc0a8",
+            "000081-b9502dd135f8",
+            "000081-cff4aafa641c"
+          ],
+          "assembledWords": 776,
+          "wordCountCorrection": {
+            "reported": 331,
+            "actual": 776,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -1001,7 +1153,7 @@
         "coverage": "Metadata validated: development split, schemaVersion 2, 200 samples, 100 hits and 100 no-hits. Selected passages total 351 whitespace words. Hits cover static solidity, atmospheric departure and voice coating beside useful details. No-hits cover a perceptual process, a consequential social mechanism and documented wording. Each hit independently satisfies the single-cue rule.",
         "concerns": []
       },
-      "status": "revision-needed",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -1071,7 +1223,8 @@
             "caught": 94,
             "noHits": 97,
             "falsePositives": 14
-          }
+          },
+          "assembledWords": 329
         },
         {
           "revision": "b1",
@@ -1139,10 +1292,123 @@
             "caught": 95,
             "noHits": 97,
             "falsePositives": 14
+          },
+          "assembledWords": 698,
+          "wordCountCorrection": {
+            "reported": 329,
+            "actual": 698,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-emotion-as-substance-b2-000083-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "emotion-as-substance",
+            "collection": "000083",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-emotion-as-substance-b2-000083-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/emotion-as-substance-b2-000083.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 329,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md": "f9c895280807754e64c51db35ac9dd3ec7892a3772b621b82ac1883366ba4265",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.labels.json": "5868df73f7ca202030093c4f821f404a52a765e57493ece8c291bd63fee6a3de",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/emotion-as-substance.md": "22f7f08cd4ffa2561bace521c7ca63b79f9a0c61c89a246592203ec732b23f94",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3815,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 98,
+          "misses": [
+            "000083-8ae2996651ac",
+            "000083-edf89856458b"
+          ],
+          "falsePositives": 1,
+          "falseAlarms": [
+            "000083-e4f9c3a7f6d2"
+          ],
+          "assembledWords": 823,
+          "wordCountCorrection": {
+            "reported": 329,
+            "actual": 823,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
-      "b1AssembledWords": 698
+      "b1AssembledWords": 698,
+      "selected": "b2",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-emotion-as-substance-b2-confirmation-000083-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "emotion-as-substance",
+          "collection": "000083",
+          "cohort": "isolated",
+          "revision": "b2-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-emotion-as-substance-b2-confirmation-000083-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/emotion-as-substance-b2-confirmation-000083.log",
+          "developmentOnly": true,
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "assembledWords": 329,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.md": "f9c895280807754e64c51db35ac9dd3ec7892a3772b621b82ac1883366ba4265",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000083-narrative-craft-emotion-as-substance-development.labels.json": "5868df73f7ca202030093c4f821f404a52a765e57493ece8c291bd63fee6a3de",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/emotion-as-substance.md": "22f7f08cd4ffa2561bace521c7ca63b79f9a0c61c89a246592203ec732b23f94",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3368,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 98,
+        "misses": [
+          "000083-8ae2996651ac",
+          "000083-edf89856458b"
+        ],
+        "falsePositives": 1,
+        "falseAlarms": [
+          "000083-e4f9c3a7f6d2"
+        ],
+        "assembledWords": 823,
+        "wordCountCorrection": {
+          "reported": 329,
+          "actual": 823,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+        }
+      }
     },
     "empty-atmosphere-shift": {
       "dataStatus": "frozen-isolated",
@@ -1267,7 +1533,8 @@
             "caught": 96,
             "noHits": 97,
             "falsePositives": 4
-          }
+          },
+          "assembledWords": 324
         },
         {
           "revision": "b1",
@@ -1320,6 +1587,12 @@
             "caught": 97,
             "noHits": 97,
             "falsePositives": 3
+          },
+          "assembledWords": 691,
+          "wordCountCorrection": {
+            "reported": 324,
+            "actual": 691,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -1374,6 +1647,12 @@
           "caught": 97,
           "noHits": 97,
           "falsePositives": 3
+        },
+        "assembledWords": 691,
+        "wordCountCorrection": {
+          "reported": 324,
+          "actual": 691,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
         }
       }
     },
@@ -1520,7 +1799,8 @@
             "caught": 69,
             "noHits": 97,
             "falsePositives": 0
-          }
+          },
+          "assembledWords": 316
         },
         {
           "revision": "b1",
@@ -1576,6 +1856,12 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 1
+          },
+          "assembledWords": 694,
+          "wordCountCorrection": {
+            "reported": 316,
+            "actual": 694,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -1633,6 +1919,12 @@
           "caught": 93,
           "noHits": 97,
           "falsePositives": 1
+        },
+        "assembledWords": 694,
+        "wordCountCorrection": {
+          "reported": 316,
+          "actual": 694,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
         }
       }
     },
@@ -1701,7 +1993,7 @@
         "coverage": "Metadata verified: development, schemaVersion 2, 200 samples, 100 hits and 100 no-hits. Six complete passages total 305 whitespace words. Hits cover positive atmosphere, unnamed interpersonal mood and ominous quiet alongside useful details. No-hits cover informative figurative quiet with social and pacing functions, literal perceptual silence, and documented wording under examination. Each hit contains one independently eligible cue; overlapping defects supply no exemption.",
         "concerns": []
       },
-      "status": "revision-needed",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -1771,7 +2063,8 @@
             "caught": 86,
             "noHits": 97,
             "falsePositives": 8
-          }
+          },
+          "assembledWords": 303
         },
         {
           "revision": "b1",
@@ -1830,10 +2123,121 @@
             "caught": 97,
             "noHits": 97,
             "falsePositives": 9
+          },
+          "assembledWords": 626,
+          "wordCountCorrection": {
+            "reported": 303,
+            "actual": 626,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-empty-emotional-weather-b2-000091-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "empty-emotional-weather",
+            "collection": "000091",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-empty-emotional-weather-b2-000091-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/empty-emotional-weather-b2-000091.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 303,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md": "750b310691a9ebc2f44ddff182a946149c224219930c429e4e44413dd8bf18c5",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.labels.json": "0dc4c10115c5999d61c3c813fe644e51a7e6c76fc17ed7f86cc58a0cad2a3479",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-emotional-weather.md": "64e1c0b4606eae4a3e79a8dc61441a2f69833b5f442461bd273770ccdf176557",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3970,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 100,
+          "misses": [],
+          "falsePositives": 3,
+          "falseAlarms": [
+            "000091-443048cee87e",
+            "000091-e1f90c0398a5",
+            "000091-f046017ede39"
+          ],
+          "assembledWords": 733,
+          "wordCountCorrection": {
+            "reported": 303,
+            "actual": 733,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
-      "b1AssembledWords": 626
+      "b1AssembledWords": 626,
+      "selected": "b2",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-empty-emotional-weather-b2-confirmation-000091-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "empty-emotional-weather",
+          "collection": "000091",
+          "cohort": "isolated",
+          "revision": "b2-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-empty-emotional-weather-b2-confirmation-000091-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/empty-emotional-weather-b2-confirmation-000091.log",
+          "developmentOnly": true,
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "assembledWords": 303,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md": "750b310691a9ebc2f44ddff182a946149c224219930c429e4e44413dd8bf18c5",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.labels.json": "0dc4c10115c5999d61c3c813fe644e51a7e6c76fc17ed7f86cc58a0cad2a3479",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-emotional-weather.md": "64e1c0b4606eae4a3e79a8dc61441a2f69833b5f442461bd273770ccdf176557",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3672,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 100,
+        "misses": [],
+        "falsePositives": 3,
+        "falseAlarms": [
+          "000091-443048cee87e",
+          "000091-e1f90c0398a5",
+          "000091-f046017ede39"
+        ],
+        "assembledWords": 733,
+        "wordCountCorrection": {
+          "reported": 303,
+          "actual": 733,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+        }
+      }
     },
     "empty-scene-state": {
       "dataStatus": "frozen-isolated",
@@ -1960,7 +2364,8 @@
             "caught": 87,
             "noHits": 97,
             "falsePositives": 1
-          }
+          },
+          "assembledWords": 308
         },
         {
           "revision": "b1",
@@ -2017,6 +2422,12 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 2
+          },
+          "assembledWords": 686,
+          "wordCountCorrection": {
+            "reported": 308,
+            "actual": 686,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -2077,6 +2488,12 @@
           "caught": 93,
           "noHits": 97,
           "falsePositives": 4
+        },
+        "assembledWords": 686,
+        "wordCountCorrection": {
+          "reported": 308,
+          "actual": 686,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
         }
       }
     },
@@ -2207,7 +2624,8 @@
             "caught": 95,
             "noHits": 97,
             "falsePositives": 8
-          }
+          },
+          "assembledWords": 316
         },
         {
           "revision": "b1",
@@ -2271,6 +2689,72 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 9
+          },
+          "assembledWords": 653,
+          "wordCountCorrection": {
+            "reported": 316,
+            "actual": 653,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-fake-timestamps-b2-000095-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "fake-timestamps",
+            "collection": "000095",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-fake-timestamps-b2-000095-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/fake-timestamps-b2-000095.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 316,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md": "0de4f9158440003afda6a6359c1368fa51c067cb8edea742bfbce0ddaf215e14",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.labels.json": "e8d623178501b1758b4d59bbf6d17f24ef471fce26bde3d8100c4de938dfbce4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fake-timestamps.md": "be6072f282e5dea87c0f91c83db20ad71b6487ac1c50624b247820ea96428b57",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3810,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 97,
+          "misses": [
+            "000095-0b725fd1be5d",
+            "000095-2e8920f939f9",
+            "000095-bc61071e70d1"
+          ],
+          "falsePositives": 6,
+          "falseAlarms": [
+            "000095-1ff8267e97fd",
+            "000095-5f541518a9b0",
+            "000095-a07cb0c9e5cf",
+            "000095-c69a4f940bef",
+            "000095-c8aab40f402c",
+            "000095-ec81975f3305"
+          ],
+          "assembledWords": 824,
+          "wordCountCorrection": {
+            "reported": 316,
+            "actual": 824,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -2343,7 +2827,7 @@
           "Excluded 000097-fd7a7df73a18: its positive-labeled dialogue anticipates moving a former husband's place card, creating ambiguity about characterization and narrative function."
         ]
       },
-      "status": "revision-needed",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -2409,7 +2893,8 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 11
-          }
+          },
+          "assembledWords": 319
         },
         {
           "revision": "b1",
@@ -2468,11 +2953,110 @@
             "caught": 94,
             "noHits": 97,
             "falsePositives": 6
-          }
+          },
+          "assembledWords": 682
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-fixed-metaphor-frame-b2-000097-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "fixed-metaphor-frame",
+            "collection": "000097",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-fixed-metaphor-frame-b2-000097-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-b2-000097.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fixed-metaphor-frame.md": "0485a087c53182463ae0ab37f2567b8fc37dfa799427c1eaa2619ff94e501001",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3290,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 98,
+          "misses": [
+            "000097-6c121ad78174",
+            "000097-ed52c399ad19"
+          ],
+          "falsePositives": 2,
+          "falseAlarms": [
+            "000097-7f4ad82f46ff",
+            "000097-fd7a7df73a18"
+          ],
+          "assembledWords": 749
         }
       ],
       "b1AssembledWords": 682,
-      "revisionRationale": "Distinguish adopted scenic imagery from wording examined/documented, then judge the image own relationship; topic proximity alone does not develop a metaphor. Six demos unchanged."
+      "revisionRationale": "Distinguish adopted scenic imagery from wording examined/documented, then judge the image own relationship; topic proximity alone does not develop a metaphor. Six demos unchanged.",
+      "selected": "b2",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-fixed-metaphor-frame-b2-confirmation-000097-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "fixed-metaphor-frame",
+          "collection": "000097",
+          "cohort": "isolated",
+          "revision": "b2-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-fixed-metaphor-frame-b2-confirmation-000097-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-b2-confirmation-000097.log",
+          "developmentOnly": true,
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fixed-metaphor-frame.md": "0485a087c53182463ae0ab37f2567b8fc37dfa799427c1eaa2619ff94e501001",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 4035,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 97,
+        "misses": [
+          "000097-6c121ad78174",
+          "000097-d4e54874a08d",
+          "000097-ed52c399ad19"
+        ],
+        "falsePositives": 2,
+        "falseAlarms": [
+          "000097-7f4ad82f46ff",
+          "000097-fd7a7df73a18"
+        ],
+        "assembledWords": 749
+      }
     },
     "gaze-choreography": {
       "dataStatus": "frozen-isolated",
@@ -2539,7 +3123,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100. Selected passages total 344 whitespace words. Hits cover ordinary looking, noun-based choreography, eye-color decoration, and a single weak sweep beside useful perception and communication. No-hits cover consequential social signaling, practical color comparison, and memory-grounded narrative orientation without subsequent action.",
         "concerns": []
       },
-      "status": "revision-needed",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -2602,7 +3186,8 @@
             "caught": 89,
             "noHits": 97,
             "falsePositives": 4
-          }
+          },
+          "assembledWords": 310
         },
         {
           "revision": "b1",
@@ -2664,10 +3249,135 @@
             "caught": 95,
             "noHits": 97,
             "falsePositives": 8
+          },
+          "assembledWords": 672,
+          "wordCountCorrection": {
+            "reported": 310,
+            "actual": 672,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-gaze-choreography-b2-000099-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "gaze-choreography",
+            "collection": "000099",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-gaze-choreography-b2-000099-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/gaze-choreography-b2-000099.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 310,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/gaze-choreography.md": "390da4d03018e59aaa5a8282809d32dd904e555fe38f7d965f77b0f23f9ab9b0",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3651,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 95,
+          "misses": [
+            "000099-77c8bdc31bdf",
+            "000099-97666ba7bf1e",
+            "000099-97cee743ddcf",
+            "000099-9cd1433f2f9f",
+            "000099-c9314026e6bc"
+          ],
+          "falsePositives": 5,
+          "falseAlarms": [
+            "000099-26290b0ae639",
+            "000099-391b125aad34",
+            "000099-71525c8ed9c7",
+            "000099-7f2c12deea2c",
+            "000099-fde355019ab5"
+          ],
+          "assembledWords": 749,
+          "wordCountCorrection": {
+            "reported": 310,
+            "actual": 749,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
-      "b1AssembledWords": 672
+      "b1AssembledWords": 672,
+      "selected": "b2",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-gaze-choreography-b2-confirmation-000099-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "gaze-choreography",
+          "collection": "000099",
+          "cohort": "isolated",
+          "revision": "b2-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-gaze-choreography-b2-confirmation-000099-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/gaze-choreography-b2-confirmation-000099.log",
+          "developmentOnly": true,
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "assembledWords": 310,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md": "874d4e5b7a8e07be6c57ed47449467dfd81e1e4bf45c4a2c8b4724b57748a239",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json": "40bcc77aec975afb3723a78a2654c3c20f15e8b0858a66a40a1b6dd3923cbe38",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/gaze-choreography.md": "390da4d03018e59aaa5a8282809d32dd904e555fe38f7d965f77b0f23f9ab9b0",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3504,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 97,
+        "misses": [
+          "000099-77c8bdc31bdf",
+          "000099-97cee743ddcf",
+          "000099-9cd1433f2f9f"
+        ],
+        "falsePositives": 5,
+        "falseAlarms": [
+          "000099-26290b0ae639",
+          "000099-391b125aad34",
+          "000099-71525c8ed9c7",
+          "000099-7f2c12deea2c",
+          "000099-fde355019ab5"
+        ],
+        "assembledWords": 749,
+        "wordCountCorrection": {
+          "reported": 310,
+          "actual": 749,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+        }
+      }
     },
     "low-information-beat-density": {
       "dataStatus": "frozen-isolated",
@@ -2818,7 +3528,8 @@
             "caught": 69,
             "noHits": 97,
             "falsePositives": 3
-          }
+          },
+          "assembledWords": 327
         },
         {
           "revision": "b1",
@@ -2881,6 +3592,71 @@
             "caught": 87,
             "noHits": 97,
             "falsePositives": 2
+          },
+          "assembledWords": 690,
+          "wordCountCorrection": {
+            "reported": 327,
+            "actual": 690,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-low-information-beat-density-b2-000101-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "low-information-beat-density",
+            "collection": "000101",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-low-information-beat-density-b2-000101-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/low-information-beat-density-b2-000101.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 327,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.md": "ec26f46f7285f55bbc0678d21c15254ccde6eeed610872dc3b6e72fddaff2e6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000101-narrative-craft-low-information-beat-density-development.labels.json": "32a596447da15b97e26af68b85cf8c6c40d2dde99bddfc883c863ea6146665f8",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/low-information-beat-density.md": "7b0074bc51bc180a7653dcc0d116c0622a675604a06f2541bc017d7758033f2b",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3354,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 100,
+          "misses": [],
+          "falsePositives": 9,
+          "falseAlarms": [
+            "000101-226013cc6eae",
+            "000101-23192b1a9d03",
+            "000101-3d9a58af092e",
+            "000101-76b82eb64c78",
+            "000101-802b46f688bc",
+            "000101-91fb47a30c48",
+            "000101-a5323d267288",
+            "000101-f7283b04e8a2",
+            "000101-f9f92954a98f"
+          ],
+          "assembledWords": 798,
+          "wordCountCorrection": {
+            "reported": 327,
+            "actual": 798,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -3013,7 +3789,8 @@
             "caught": 90,
             "noHits": 97,
             "falsePositives": 3
-          }
+          },
+          "assembledWords": 330
         },
         {
           "revision": "b1",
@@ -3071,6 +3848,12 @@
             "caught": 94,
             "noHits": 97,
             "falsePositives": 3
+          },
+          "assembledWords": 750,
+          "wordCountCorrection": {
+            "reported": 330,
+            "actual": 750,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -3130,6 +3913,12 @@
           "caught": 94,
           "noHits": 97,
           "falsePositives": 3
+        },
+        "assembledWords": 750,
+        "wordCountCorrection": {
+          "reported": 330,
+          "actual": 750,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
         }
       }
     },
@@ -3256,7 +4045,8 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 3
-          }
+          },
+          "assembledWords": 340
         },
         {
           "revision": "b1",
@@ -3315,6 +4105,12 @@
             "caught": 90,
             "noHits": 97,
             "falsePositives": 1
+          },
+          "assembledWords": 692,
+          "wordCountCorrection": {
+            "reported": 340,
+            "actual": 692,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -3457,7 +4253,8 @@
             "caught": 84,
             "noHits": 97,
             "falsePositives": 7
-          }
+          },
+          "assembledWords": 338
         },
         {
           "revision": "b1",
@@ -3523,6 +4320,86 @@
             "caught": 91,
             "noHits": 97,
             "falsePositives": 9
+          },
+          "assembledWords": 699,
+          "wordCountCorrection": {
+            "reported": 338,
+            "actual": 699,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
+          }
+        },
+        {
+          "revision": "b2",
+          "output": "runners/results/narrative-craft-v21-perception-verb-density-b2-000107-development.json",
+          "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "perception-verb-density",
+            "collection": "000107",
+            "cohort": "isolated",
+            "revision": "b2",
+            "dataset": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-perception-verb-density-b2-000107-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/perception-verb-density-b2-000107.log",
+            "developmentOnly": true,
+            "producingCommit": "69b2e03bd685de9d510cafd267f3a40c8f4aa70c",
+            "assembledWords": 338,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md": "f2f57923e2a31de65dc6808e83308a0a40c64c7900bb956e590b85d7179754f4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json": "56cd883ceeb9c0ddc4626f129968a57a5876b16d7d1dcfaa4f5c166323476597",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/perception-verb-density.md": "1b447dd6ce37bec84bf3641de37d78a4d3bef722780510d43d0cbfa3f7d95ce2",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3539,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 86,
+          "misses": [
+            "000107-048774693ab9",
+            "000107-48cb573fe070",
+            "000107-4b5aebf91bee",
+            "000107-4f2d61698c7b",
+            "000107-52ec5a91fb20",
+            "000107-5f57028870a0",
+            "000107-5f634533ed43",
+            "000107-81eab6206bef",
+            "000107-89bc50fc598f",
+            "000107-b7467fa7ac5c",
+            "000107-ba7bb8a2f1f1",
+            "000107-d71fe17bf919",
+            "000107-db3b8e0a559c",
+            "000107-de63b639d515"
+          ],
+          "falsePositives": 9,
+          "falseAlarms": [
+            "000107-157a0f0ac408",
+            "000107-1a8438326fe1",
+            "000107-37af3cbec04d",
+            "000107-5d7dbba7b027",
+            "000107-667683f25bd7",
+            "000107-bc7c04248770",
+            "000107-eccb01ee442b",
+            "000107-ed055ba52672",
+            "000107-eed776970148"
+          ],
+          "assembledWords": 780,
+          "wordCountCorrection": {
+            "reported": 338,
+            "actual": 780,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -3657,7 +4534,8 @@
             "caught": 88,
             "noHits": 97,
             "falsePositives": 4
-          }
+          },
+          "assembledWords": 351
         },
         {
           "revision": "b1",
@@ -3717,6 +4595,12 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 5
+          },
+          "assembledWords": 739,
+          "wordCountCorrection": {
+            "reported": 351,
+            "actual": 739,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -3777,6 +4661,12 @@
           "caught": 93,
           "noHits": 97,
           "falsePositives": 4
+        },
+        "assembledWords": 739,
+        "wordCountCorrection": {
+          "reported": 351,
+          "actual": 739,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
         }
       }
     },
@@ -3903,7 +4793,8 @@
             "caught": 95,
             "noHits": 97,
             "falsePositives": 3
-          }
+          },
+          "assembledWords": 347
         },
         {
           "revision": "b1",
@@ -3955,7 +4846,8 @@
             "caught": 97,
             "noHits": 97,
             "falsePositives": 3
-          }
+          },
+          "assembledWords": 739
         }
       ],
       "b1AssembledWords": 739,
@@ -4010,7 +4902,8 @@
           "caught": 96,
           "noHits": 97,
           "falsePositives": 3
-        }
+        },
+        "assembledWords": 739
       }
     },
     "summary-fog-transition": {
@@ -4132,7 +5025,8 @@
             "caught": 95,
             "noHits": 97,
             "falsePositives": 0
-          }
+          },
+          "assembledWords": 348
         },
         {
           "revision": "b1",
@@ -4185,6 +5079,12 @@
             "caught": 96,
             "noHits": 97,
             "falsePositives": 1
+          },
+          "assembledWords": 703,
+          "wordCountCorrection": {
+            "reported": 348,
+            "actual": 703,
+            "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
         }
       ],
@@ -4239,6 +5139,12 @@
           "caught": 96,
           "noHits": 97,
           "falsePositives": 1
+        },
+        "assembledWords": 703,
+        "wordCountCorrection": {
+          "reported": 348,
+          "actual": 703,
+          "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
         }
       }
     }
