@@ -437,6 +437,12 @@
           "caught": 97,
           "negatives": 97,
           "falsePositives": 0
+        },
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 97,
+          "noHits": 97,
+          "falsePositives": 0
         }
       },
       "attestedConfirmation": {
@@ -626,7 +632,13 @@
             "000079-f759423aedd9",
             "000079-f8b7c1b8d1c5",
             "000079-f97e796e9f66"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 96,
+            "noHits": 97,
+            "falsePositives": 33
+          }
         },
         {
           "revision": "b1",
@@ -707,7 +719,13 @@
             "000079-f759423aedd9",
             "000079-f8b7c1b8d1c5",
             "000079-f97e796e9f66"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 96,
+            "noHits": 97,
+            "falsePositives": 35
+          }
         }
       ],
       "b1AssembledWords": 653
@@ -843,7 +861,13 @@
             "000081-b9502dd135f8",
             "000081-cff4aafa641c",
             "000081-f293bf78da5b"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 82,
+            "noHits": 97,
+            "falsePositives": 4
+          }
         },
         {
           "revision": "b1",
@@ -901,7 +925,13 @@
             "000081-b9502dd135f8",
             "000081-cff4aafa641c",
             "000081-f293bf78da5b"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 89,
+            "noHits": 97,
+            "falsePositives": 4
+          }
         }
       ],
       "b1AssembledWords": 699
@@ -1035,7 +1065,13 @@
             "000083-e4f9c3a7f6d2",
             "000083-e6cf1323986f",
             "000083-f70815e2e002"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 94,
+            "noHits": 97,
+            "falsePositives": 14
+          }
         },
         {
           "revision": "b1",
@@ -1097,7 +1133,13 @@
             "000083-e4f9c3a7f6d2",
             "000083-e6cf1323986f",
             "000083-f70815e2e002"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 14
+          }
         }
       ],
       "b1AssembledWords": 698
@@ -1169,7 +1211,7 @@
           "Excluded 000087-4fffb934a060: its false label appears inconsistent with the definition because the dialogue announces an unspecified atmospheric emptiness, while surrounding actions supply no specific contrast or function for that announcement."
         ]
       },
-      "status": "isolated-candidate-within-bounds",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -1219,7 +1261,13 @@
             "000087-4fffb934a060",
             "000087-63cfee0044b7",
             "000087-ec26ed2e0b33"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 96,
+            "noHits": 97,
+            "falsePositives": 4
+          }
         },
         {
           "revision": "b1",
@@ -1266,10 +1314,68 @@
             "000087-4fffb934a060",
             "000087-63cfee0044b7",
             "000087-ec26ed2e0b33"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 97,
+            "noHits": 97,
+            "falsePositives": 3
+          }
         }
       ],
-      "b1AssembledWords": 691
+      "b1AssembledWords": 691,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-empty-atmosphere-shift-b1-confirmation-000087-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "empty-atmosphere-shift",
+          "collection": "000087",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-empty-atmosphere-shift-b1-confirmation-000087-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/empty-atmosphere-shift-b1-confirmation-000087.log",
+          "developmentOnly": true,
+          "producingCommit": "e464c7b1410133564674c31d77fe3eb89a6b4a00",
+          "assembledWords": 324,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.md": "21ced3cd281c20c59a4a6d63a3632013dfc1ef9bf82f91c51fe8d691da659aee",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000087-narrative-craft-empty-atmosphere-shift-development.labels.json": "3ecfaaf1f3c37eefcd73f86aaaee3a90a9072fae70d14ec1cd07bb878d9d9002",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-atmosphere-shift.md": "c359fce8a9cf2e772cfa562143b0a9ff2f21ad23a228b6cf9befaf5b9b5f3155",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3592,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 100,
+        "misses": [],
+        "falsePositives": 3,
+        "falseAlarms": [
+          "000087-4fffb934a060",
+          "000087-63cfee0044b7",
+          "000087-ec26ed2e0b33"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 97,
+          "noHits": 97,
+          "falsePositives": 3
+        }
+      }
     },
     "empty-beat": {
       "dataStatus": "frozen-isolated",
@@ -1334,7 +1440,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100. Six complete passages total 360 whitespace words. Hits cover a single filler pause beside purposeful action, a generic animal tag amid practical detail, and empty keeping pace beside informative observation. No-hits cover coordinated carrying, consequential social silence and narrative relation, and informative animal perception.",
         "concerns": []
       },
-      "status": "isolated-candidate-within-bounds",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -1408,7 +1514,13 @@
             "000089-e86dc5d07422"
           ],
           "falsePositives": 0,
-          "falseAlarms": []
+          "falseAlarms": [],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 69,
+            "noHits": 97,
+            "falsePositives": 0
+          }
         },
         {
           "revision": "b1",
@@ -1458,10 +1570,71 @@
           "falsePositives": 1,
           "falseAlarms": [
             "000089-f85405f6ca31"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 1
+          }
         }
       ],
-      "b1AssembledWords": 694
+      "b1AssembledWords": 694,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-empty-beat-b1-confirmation-000089-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "empty-beat",
+          "collection": "000089",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-empty-beat-b1-confirmation-000089-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/empty-beat-b1-confirmation-000089.log",
+          "developmentOnly": true,
+          "producingCommit": "e464c7b1410133564674c31d77fe3eb89a6b4a00",
+          "assembledWords": 316,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md": "5dfe80eb057645163ec319119e6eb366990aa231fcac93807f4b77f979088668",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.labels.json": "e40007754421b22b9859cc9e5b30f30ba8f4b265567920bd02850823df18b611",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-beat.md": "17fcf32c7e2398bae14a02f73bf5461d8b3b4de44dffb0e7f3b7c173531baf8e",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3882,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 96,
+        "misses": [
+          "000089-0b0f0a076730",
+          "000089-1c9f8e1d2a85",
+          "000089-6576288277da",
+          "000089-e5adac83a8fd"
+        ],
+        "falsePositives": 1,
+        "falseAlarms": [
+          "000089-f85405f6ca31"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 93,
+          "noHits": 97,
+          "falsePositives": 1
+        }
+      }
     },
     "empty-emotional-weather": {
       "dataStatus": "frozen-isolated",
@@ -1592,7 +1765,13 @@
             "000091-e0c7f95456b9",
             "000091-e1f90c0398a5",
             "000091-f046017ede39"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 86,
+            "noHits": 97,
+            "falsePositives": 8
+          }
         },
         {
           "revision": "b1",
@@ -1645,7 +1824,13 @@
             "000091-e0c7f95456b9",
             "000091-e1f90c0398a5",
             "000091-f046017ede39"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 97,
+            "noHits": 97,
+            "falsePositives": 9
+          }
         }
       ],
       "b1AssembledWords": 626
@@ -1713,7 +1898,7 @@
         "coverage": "Metadata validated: development, schemaVersion 2, 200 samples, 100 hits and 100 no-hits. Selected passages total 360 whitespace words. Hits cover an embedded generic tag, group quieting, and atmospheric vacancy beside informative contrast. No-hits cover consequential social silence, practical and perceptual space, and narrative compression. Each hit contains a single independently eligible cue; overlapping defects supply no exemption.",
         "concerns": []
       },
-      "status": "isolated-candidate-within-bounds",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -1769,7 +1954,13 @@
           "falsePositives": 1,
           "falseAlarms": [
             "000093-46e5d8cafa6c"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 87,
+            "noHits": 97,
+            "falsePositives": 1
+          }
         },
         {
           "revision": "b1",
@@ -1820,10 +2011,74 @@
           "falseAlarms": [
             "000093-1cdc1fc62862",
             "000093-46e5d8cafa6c"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 2
+          }
         }
       ],
-      "b1AssembledWords": 686
+      "b1AssembledWords": 686,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-empty-scene-state-b1-confirmation-000093-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "empty-scene-state",
+          "collection": "000093",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-empty-scene-state-b1-confirmation-000093-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/empty-scene-state-b1-confirmation-000093.log",
+          "developmentOnly": true,
+          "producingCommit": "e464c7b1410133564674c31d77fe3eb89a6b4a00",
+          "assembledWords": 308,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.md": "6b2c8aac36436ff26aadfce94f86ee7aef2a74fb58622c416ea14ade16230927",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000093-narrative-craft-empty-scene-state-development.labels.json": "27ca858b667b74a6605918eda31c5329a1a3c6a7934291f7af8de32836b48f5a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-scene-state.md": "8b4240c58a718613bcc85ac9a6e6797d4bdbc799dbc22c4393393c3f4ade6943",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3756,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 96,
+        "misses": [
+          "000093-3f457781ed7f",
+          "000093-86343dff93c9",
+          "000093-a26c877e418a",
+          "000093-f7604f649b6b"
+        ],
+        "falsePositives": 4,
+        "falseAlarms": [
+          "000093-1cdc1fc62862",
+          "000093-2c3e27099796",
+          "000093-46e5d8cafa6c",
+          "000093-883c73b7e197"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 93,
+          "noHits": 97,
+          "falsePositives": 4
+        }
+      }
     },
     "fake-timestamps": {
       "dataStatus": "frozen-isolated",
@@ -1946,7 +2201,13 @@
             "000095-acddb7f0dff5",
             "000095-b3a4c2144b6f",
             "000095-c8aab40f402c"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 8
+          }
         },
         {
           "revision": "b1",
@@ -2004,7 +2265,13 @@
             "000095-b3a4c2144b6f",
             "000095-c69a4f940bef",
             "000095-c8aab40f402c"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 9
+          }
         }
       ],
       "b1AssembledWords": 653
@@ -2076,7 +2343,7 @@
           "Excluded 000097-fd7a7df73a18: its positive-labeled dialogue anticipates moving a former husband's place card, creating ambiguity about characterization and narrative function."
         ]
       },
-      "status": "example-only-candidate",
+      "status": "revision-needed",
       "candidates": [
         {
           "revision": "b0",
@@ -2136,10 +2403,76 @@
             "000097-e3496ba12de9",
             "000097-ea4c598cd499",
             "000097-fd7a7df73a18"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 11
+          }
+        },
+        {
+          "revision": "b1",
+          "output": "runners/results/narrative-craft-v21-fixed-metaphor-frame-b1-000097-development.json",
+          "producingCommit": "9385f5ce7860e20a79cf6cb8edb1ed97b362f1d2",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "fixed-metaphor-frame",
+            "collection": "000097",
+            "cohort": "isolated",
+            "revision": "b1",
+            "dataset": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-fixed-metaphor-frame-b1-000097-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-b1-000097.log",
+            "developmentOnly": true,
+            "producingCommit": "9385f5ce7860e20a79cf6cb8edb1ed97b362f1d2",
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fixed-metaphor-frame.md": "84aded92bf324861da594d8cc016f24658d0169cdd151ed07c06bb74071c9faf",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3877,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 97,
+          "misses": [
+            "000097-6c121ad78174",
+            "000097-d4e54874a08d",
+            "000097-ed52c399ad19"
+          ],
+          "falsePositives": 6,
+          "falseAlarms": [
+            "000097-1830d9fe019b",
+            "000097-910a2aa0b224",
+            "000097-ae545a141659",
+            "000097-dd737f3534d5",
+            "000097-e3496ba12de9",
+            "000097-fd7a7df73a18"
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 94,
+            "noHits": 97,
+            "falsePositives": 6
+          }
         }
       ],
-      "b1AssembledWords": 682
+      "b1AssembledWords": 682,
+      "revisionRationale": "Distinguish adopted scenic imagery from wording examined/documented, then judge the image own relationship; topic proximity alone does not develop a metaphor. Six demos unchanged."
     },
     "gaze-choreography": {
       "dataStatus": "frozen-isolated",
@@ -2263,7 +2596,13 @@
             "000099-71525c8ed9c7",
             "000099-7286f1457e30",
             "000099-7f2c12deea2c"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 89,
+            "noHits": 97,
+            "falsePositives": 4
+          }
         },
         {
           "revision": "b1",
@@ -2319,7 +2658,13 @@
             "000099-7f2c12deea2c",
             "000099-d5fa5c5ae402",
             "000099-fde355019ab5"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 8
+          }
         }
       ],
       "b1AssembledWords": 672
@@ -2467,7 +2812,13 @@
             "000101-073575f38e0b",
             "000101-4c32f6a1121e",
             "000101-a65866daed5c"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 69,
+            "noHits": 97,
+            "falsePositives": 3
+          }
         },
         {
           "revision": "b1",
@@ -2524,7 +2875,13 @@
           "falseAlarms": [
             "000101-073575f38e0b",
             "000101-4c32f6a1121e"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 87,
+            "noHits": 97,
+            "falsePositives": 2
+          }
         }
       ],
       "b1AssembledWords": 690
@@ -2594,7 +2951,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples with 100 hits and 100 no-hits. Selected passages total 402 whitespace words. Hits cover gaze choreography, idle positioning, and a subtle generic nod beside useful information; one weak cue suffices despite neighboring functional actions. No-hits cover practical observation and sightlines, social trust and access, and habitual movement supplying characterization and narrative meaning.",
         "concerns": []
       },
-      "status": "isolated-candidate-within-bounds",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -2650,7 +3007,13 @@
             "000103-8863724f6b2b",
             "000103-c76325c0cf77",
             "000103-d221efbce4dc"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 90,
+            "noHits": 97,
+            "falsePositives": 3
+          }
         },
         {
           "revision": "b1",
@@ -2702,10 +3065,73 @@
             "000103-8863724f6b2b",
             "000103-c76325c0cf77",
             "000103-d221efbce4dc"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 94,
+            "noHits": 97,
+            "falsePositives": 3
+          }
         }
       ],
-      "b1AssembledWords": 750
+      "b1AssembledWords": 750,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-low-information-physical-blocking-b1-confirmation-000103-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "low-information-physical-blocking",
+          "collection": "000103",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-low-information-physical-blocking-b1-confirmation-000103-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/low-information-physical-blocking-b1-confirmation-000103.log",
+          "developmentOnly": true,
+          "producingCommit": "e464c7b1410133564674c31d77fe3eb89a6b4a00",
+          "assembledWords": 330,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.md": "857c8e75d132558a5efcb56f3422cd6d31d793f19af473f5ecea7cb6ee2ab56a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000103-narrative-craft-low-information-physical-blocking-development.labels.json": "168274a83642bf6c114497c721677f50b027f915f49e7e37706a621005ff9719",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/low-information-physical-blocking.md": "39b6296e8d3b1f427219c9abff31662330ff72327bf21f97997b5e5fcb362e93",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3639,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 96,
+        "misses": [
+          "000103-52ded2752759",
+          "000103-61a08009ef5c",
+          "000103-98ad3ef42471",
+          "000103-ddf79df2b3bf"
+        ],
+        "falsePositives": 3,
+        "falseAlarms": [
+          "000103-8863724f6b2b",
+          "000103-c76325c0cf77",
+          "000103-d221efbce4dc"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 94,
+          "noHits": 97,
+          "falsePositives": 3
+        }
+      }
     },
     "narrative-cliches": {
       "dataStatus": "frozen-isolated",
@@ -2824,7 +3250,13 @@
             "000105-b31587313b30",
             "000105-dbd028cdb417",
             "000105-e9a2c57553b6"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 3
+          }
         },
         {
           "revision": "b1",
@@ -2877,7 +3309,13 @@
           "falsePositives": 1,
           "falseAlarms": [
             "000105-dbd028cdb417"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 90,
+            "noHits": 97,
+            "falsePositives": 1
+          }
         }
       ],
       "b1AssembledWords": 692
@@ -3013,7 +3451,13 @@
             "000107-d19b13fae56b",
             "000107-eccb01ee442b",
             "000107-ed055ba52672"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 84,
+            "noHits": 97,
+            "falsePositives": 7
+          }
         },
         {
           "revision": "b1",
@@ -3073,7 +3517,13 @@
             "000107-eccb01ee442b",
             "000107-ed055ba52672",
             "000107-eed776970148"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 91,
+            "noHits": 97,
+            "falsePositives": 9
+          }
         }
       ],
       "b1AssembledWords": 699
@@ -3143,7 +3593,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100. Six complete passages total 370 whitespace words. Hits cover ornamental exchange beside informative change, a subtle generic tag within an auditory contrast, and an abstract stock inventory lacking sensory grounding. No-hits cover practical tactile discrimination, consequential social perception, and a scene-meaningful sensory change carrying narrative loss. Each hit qualifies through one weak occurrence independently of surrounding useful details.",
         "concerns": []
       },
-      "status": "isolated-candidate-within-bounds",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -3201,7 +3651,13 @@
             "000109-8478972bacfb",
             "000109-883a2ee4a022",
             "000109-f43c225e1f8f"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 88,
+            "noHits": 97,
+            "falsePositives": 4
+          }
         },
         {
           "revision": "b1",
@@ -3255,10 +3711,74 @@
             "000109-883a2ee4a022",
             "000109-ca781207a7a8",
             "000109-f43c225e1f8f"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 5
+          }
         }
       ],
-      "b1AssembledWords": 739
+      "b1AssembledWords": 739,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-sensory-instead-of-frame-b1-confirmation-000109-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "sensory-instead-of-frame",
+          "collection": "000109",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-sensory-instead-of-frame-b1-confirmation-000109-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/sensory-instead-of-frame-b1-confirmation-000109.log",
+          "developmentOnly": true,
+          "producingCommit": "e464c7b1410133564674c31d77fe3eb89a6b4a00",
+          "assembledWords": 351,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md": "6b8573608e7b2f5109988c637203ef7fe700d3c2a3275564a9dc93de5266f12c",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.labels.json": "aee34f95fb30cbb7fae57e2be99c1b18d8515a78f25d19a54280cad114aba739",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/sensory-instead-of-frame.md": "1a2eb59a49b5098d0f1dc74e49c84cc7859506af5108ba5dbc5791d21c42f845",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3665,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 96,
+        "misses": [
+          "000109-2e3f922d7516",
+          "000109-8563492fb7ed",
+          "000109-90448acaf1a2",
+          "000109-bfbd0c428bc0"
+        ],
+        "falsePositives": 4,
+        "falseAlarms": [
+          "000109-42034a6fa758",
+          "000109-8478972bacfb",
+          "000109-883a2ee4a022",
+          "000109-ca781207a7a8"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 93,
+          "noHits": 97,
+          "falsePositives": 4
+        }
+      }
     },
     "silence-as-actor": {
       "dataStatus": "frozen-isolated",
@@ -3327,7 +3847,7 @@
           "Excluded no-hits 000111-5b8bfbea4280, 000111-e871d61e6982, and 000111-4ef205d63398 appear inconsistent with the definition: each pause receives a generic emotional significance while adjacent practical details supply separate functions."
         ]
       },
-      "status": "example-only-candidate",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -3377,10 +3897,121 @@
             "000111-2e3ab84038ad",
             "000111-556e2fe7b55f",
             "000111-b3eca11fd8fe"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 3
+          }
+        },
+        {
+          "revision": "b1",
+          "output": "runners/results/narrative-craft-v21-silence-as-actor-b1-000111-development.json",
+          "producingCommit": "9385f5ce7860e20a79cf6cb8edb1ed97b362f1d2",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "silence-as-actor",
+            "collection": "000111",
+            "cohort": "isolated",
+            "revision": "b1",
+            "dataset": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-silence-as-actor-b1-000111-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/silence-as-actor-b1-000111.log",
+            "developmentOnly": true,
+            "producingCommit": "9385f5ce7860e20a79cf6cb8edb1ed97b362f1d2",
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/silence-as-actor.md": "de933ab24b8d844ee88d80ffaee92c5404ab7946c0ca4321ddd5db14db0ee812",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3803,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+          },
+          "caught": 100,
+          "misses": [],
+          "falsePositives": 3,
+          "falseAlarms": [
+            "000111-2e3ab84038ad",
+            "000111-556e2fe7b55f",
+            "000111-b3eca11fd8fe"
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 97,
+            "noHits": 97,
+            "falsePositives": 3
+          }
         }
       ],
-      "b1AssembledWords": 739
+      "b1AssembledWords": 739,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-silence-as-actor-b1-confirmation-000111-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "silence-as-actor",
+          "collection": "000111",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-silence-as-actor-b1-confirmation-000111-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/silence-as-actor-b1-confirmation-000111.log",
+          "developmentOnly": true,
+          "producingCommit": "9385f5ce7860e20a79cf6cb8edb1ed97b362f1d2",
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json": "97bdc0f8c0836a931f85d0e9b967c3055843678e72e4b23b0c7c570c81d3708f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/silence-as-actor.md": "de933ab24b8d844ee88d80ffaee92c5404ab7946c0ca4321ddd5db14db0ee812",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3790,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 99,
+        "misses": [
+          "000111-5b8bfbea4280"
+        ],
+        "falsePositives": 3,
+        "falseAlarms": [
+          "000111-2e3ab84038ad",
+          "000111-556e2fe7b55f",
+          "000111-b3eca11fd8fe"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 96,
+          "noHits": 97,
+          "falsePositives": 3
+        }
+      }
     },
     "summary-fog-transition": {
       "dataStatus": "frozen-isolated",
@@ -3449,7 +4080,7 @@
           "Excluded 000113-2f01623b62af: its false label presents a boundary concern because the pickup summary appears interchangeable; whether the nearby deadline establishes a sufficient pacing function warrants annotation review."
         ]
       },
-      "status": "isolated-candidate-within-bounds",
+      "status": "isolated-confirmed-mixed-pending",
       "candidates": [
         {
           "revision": "b0",
@@ -3495,7 +4126,13 @@
             "000113-66d0b8f6065b"
           ],
           "falsePositives": 0,
-          "falseAlarms": []
+          "falseAlarms": [],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 0
+          }
         },
         {
           "revision": "b1",
@@ -3542,10 +4179,185 @@
           "falsePositives": 1,
           "falseAlarms": [
             "000113-2f01623b62af"
-          ]
+          ],
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 96,
+            "noHits": 97,
+            "falsePositives": 1
+          }
         }
       ],
-      "b1AssembledWords": 703
+      "b1AssembledWords": 703,
+      "selected": "b1",
+      "confirmation": {
+        "output": "runners/results/narrative-craft-v21-summary-fog-transition-b1-confirmation-000113-development.json",
+        "execution": {
+          "family": "narrative-craft",
+          "check": "summary-fog-transition",
+          "collection": "000113",
+          "cohort": "isolated",
+          "revision": "b1-confirmation",
+          "dataset": "datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md",
+          "prompts": "prompts/v21",
+          "output": "runners/results/narrative-craft-v21-summary-fog-transition-b1-confirmation-000113-development.json",
+          "log": "/tmp/slopless-narrative-v21-full/summary-fog-transition-b1-confirmation-000113.log",
+          "developmentOnly": true,
+          "producingCommit": "e464c7b1410133564674c31d77fe3eb89a6b4a00",
+          "assembledWords": 348,
+          "inputs": {
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.md": "865e73c7ce92c5ab58ee6db49e19ec2f54772cf79040a1f291fa67ab66124fd0",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000113-narrative-craft-summary-fog-transition-development.labels.json": "b9762af84df6eae0cae4c2266a856fef0b8869bf670a7b75964c54a897633ee2",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/summary-fog-transition.md": "c2af2e78807eba9a2d5a05e7982c82e02c2a46dee65d8f3579099e44768dad34",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+            "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+          },
+          "exit": 0,
+          "wallMs": 3518,
+          "node": "v24.22.1",
+          "sdk": {
+            "version": "0.7.0",
+            "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+            "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+            "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+            "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+          },
+          "runnerSha256": "2abb392c002881f4234b8cf70332add7efb1c5f322ed1d8c5529df92195402ae"
+        },
+        "caught": 99,
+        "misses": [
+          "000113-61b2f0b56bd8"
+        ],
+        "falsePositives": 1,
+        "falseAlarms": [
+          "000113-2f01623b62af"
+        ],
+        "excludingDemonstrations": {
+          "positives": 97,
+          "caught": 96,
+          "noHits": 97,
+          "falsePositives": 1
+        }
+      }
     }
-  }
+  },
+  "developmentReviews": [
+    {
+      "file": "tuning-abstract-personification-line-b2.json",
+      "sha256": "fa340596c44e157338d78db584bc8436cad547e97aefdee734ec62a297c62baa",
+      "principle": "Establish whether the candidate is adopted language, documented wording or literal story-world content; then judge the figurative relationship's own contribution across the complete passage. Preserve a particular explanatory or narrative function and flag an interchangeable emotional payoff.",
+      "checks": [
+        "abstract-personification-line",
+        "emotion-as-substance"
+      ]
+    },
+    {
+      "file": "tuning-body-action-density-b2.json",
+      "sha256": "1bb454661722abde4be71c2485368c8e742c9cc4958b9a44cf855537bef7c64c",
+      "principle": "Establish whether the wording is adopted narration or an object of examination, then identify the candidate cue's own contribution beyond registering a reaction. Emotional plausibility alone can leave annotation interchangeable; particular information, implicit communication and informative contrasts can supply a function without later consequences.",
+      "checks": [
+        "body-action-density",
+        "low-information-beat-density"
+      ],
+      "concerns": [
+        {
+          "id": "000101-c43f53746e96",
+          "goldExpected": true,
+          "concern": "The opening expression change can be read as orienting the reader to improved comprehension; later laughter and the request for other interpreted talks support that reading. The frozen gold instead identifies the opening as generic physical annotation. This is a boundary tension between orientation and redundant annotation.",
+          "disposition": "Retain the complete source, expected true and exact gold snippet. Any future annotation review should decide whether the opening contributes distinct orientation under the frozen definition."
+        }
+      ]
+    },
+    {
+      "file": "tuning-empty-emotional-weather-b2.json",
+      "sha256": "e960bc5fd1863fd6ba10bc024d008ed2e19c8b855ab984183d8d3411dbefa199",
+      "principle": "Classify what the candidate wording contributes in its role and its passage-supported relationships before treating its surface form as a defect.",
+      "checks": [
+        "empty-emotional-weather",
+        "fake-timestamps"
+      ],
+      "concerns": [
+        {
+          "check": "fake-timestamps",
+          "concern": "Four frozen no-hit controls place an incidental action before a schedule or deadline. The relation permits useful temporal orientation, but the practical relevance of the selected minute remains implicit. This boundary needs consistent adjudication against the accepted requirement that each specification have an identifiable function.",
+          "passages": [
+            {
+              "id": "000095-1ff8267e97fd",
+              "source": "The bus leaves at 18:12, so we had agreed to eat near the station. At 17:31, I slid a paper napkin beneath the mustard pot. My friend was describing a disastrous attempt to make his own, involving three bowls, a borrowed blender, and a kitchen that smelled sharp for days.",
+              "gold": {
+                "id": "000095-1ff8267e97fd",
+                "check": "narrative-craft/fake-timestamps",
+                "expected": false
+              }
+            },
+            {
+              "id": "000095-a07cb0c9e5cf",
+              "source": "At 08:41, the cleaner pushed a stray button into his pocket. The hall had been hired for a jumble sale, and odd things kept emerging from beneath the tables. The booking sheet said we had to leave by 09:15. We folded the last table with a toy rabbit still perched on it.",
+              "gold": {
+                "id": "000095-a07cb0c9e5cf",
+                "check": "narrative-craft/fake-timestamps",
+                "expected": false
+              }
+            },
+            {
+              "id": "000095-c8aab40f402c",
+              "source": "According to the trail sign, the gate was locked at 16:30. We took the short path back through the orchard. At 15:48, I rolled an apple between my palms. Its skin felt rough where a branch had rubbed it. My daughter wanted to carry every fallen apple home for the rabbits.",
+              "gold": {
+                "id": "000095-c8aab40f402c",
+                "check": "narrative-craft/fake-timestamps",
+                "expected": false
+              }
+            },
+            {
+              "id": "000095-5f541518a9b0",
+              "source": "My appointment was for 10:20, and the dentist was running late. At 10:14, I brushed a fleck of lint from my coat. The woman beside me was teaching her grandson to fold a paper boat. He kept making hats instead and putting them on the plastic dinosaur in his lap.",
+              "gold": {
+                "id": "000095-5f541518a9b0",
+                "check": "narrative-craft/fake-timestamps",
+                "expected": false
+              }
+            }
+          ],
+          "proposedResolution": "In a separately authorized annotation review, assess each time-to-schedule relationship against the same precision-level standard used for hit examples. Preserve all current source, snippets and gold for this revision."
+        }
+      ]
+    },
+    {
+      "file": "tuning-gaze-choreography-b2.json",
+      "sha256": "7b44b8793b0d01a82bde6c9d3563408ba905ab0a44ce60e3c4ad28b1d867ecb1",
+      "principle": "Judge the cue's supported contribution in the complete connected sequence. Distinguish information supplied by perception from a surrounding event that merely makes looking plausible. Context may establish perceptual content or a narrative relationship implicitly; first separate adopted writing from wording examined as wording.",
+      "checks": [
+        "gaze-choreography",
+        "perception-verb-density"
+      ],
+      "concerns": [
+        {
+          "ids": [
+            "000099-71525c8ed9c7",
+            "000107-de63b639d515"
+          ],
+          "frozenGold": [
+            false,
+            true
+          ],
+          "concern": "The first passage permits an inferred search for a replacement ingredient; the second also permits an inferred search for required packaging. Both locate the eventual solution elsewhere. The frozen definition preserves a particular search, so the amount of implicit search evidence needed merits label-side review.",
+          "action": "Retain both original sources and gold labels. Use the frozen definitions for tuning."
+        },
+        {
+          "ids": [
+            "000099-391b125aad34",
+            "000099-73592a95f90a"
+          ],
+          "frozenGold": [
+            false,
+            true
+          ],
+          "concern": "Both visual sequences occur during task arrangements without stating a discovered property. Inspecting available capacity is a plausible reading of the first; orienting collection is a plausible reading of the second. Review the supported contribution required for these implicit task readings.",
+          "action": "Retain both original sources and gold labels. Add no prompt exception for either case."
+        }
+      ]
+    }
+  ]
 }

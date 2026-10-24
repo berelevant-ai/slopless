@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of low-information-beat-density: an interchangeable reaction beat expressed through physical appearance, bodily response, looking, turning, shifting or waiting without a particular informative or narrative contribution?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of low-information-beat-density: a physical reaction beat whose own contribution merely registers a reaction rather than supplying particular information or an identifiable narrative function?",
   "criteria": {
-    "true": "At least one reaction beat supplies generic physical annotation without a particular observation, task, thought, choice, consequential communication or other identifiable narrative function.",
-    "false": "Every reaction beat contributes particular information or an identifiable narrative function, or no eligible reaction beat occurs."
+    "true": "At least one interchangeable physical reaction beat merely annotates a response. A plausible emotion or an assertion of registering the event can still be generic annotation. Useful information elsewhere preserves its own role while a separate weak beat remains eligible.",
+    "false": "Every eligible reaction beat supplies a particular observation, task, thought, choice, consequential communication or another identifiable narrative function, or no eligible beat occurs. Preserve wording that the passage examines or documents as wording."
   }
 }
 ---
@@ -11,15 +11,17 @@
 
 Input: passage.
 
-Catch interchangeable physical reactions used to translate a scene or exchange into generic annotation. Generalize across unseen wording, inflections and positions.
+Read every connected paragraph. Catch interchangeable reactions expressed through physical appearance, bodily response, looking, turning, shifting or waiting. Generalize across unseen wording, inflections and positions.
+
+First establish how the passage uses the wording. When a beat's wording is itself being examined or documented, assess that framing before treating it as adopted narration. Assess ordinary dialogue and adopted quotations normally.
+
+For each eligible beat, ask what the reader learns from this beat beyond the fact that the character reacts. Registering an event is not itself a particular perception or thought. A plausible emotional reading can leave the physical annotation interchangeable, even when the surrounding scene is informative. An appended reaction can redundantly illustrate what the passage already conveys.
+
+Preserve a beat whose particular contribution is supported by the passage: an informative observation, a concrete task or constraint, a choice, consequential communication or another narrative function. That support can be implicit in the sequence or a contrast. Observation, orientation, characterization, compression and pacing need no later consequence; identify what the beat contributes to them.
 
 A single weak beat qualifies. Frequency, windows and severity belong to separate reporting; neither repeated occurrences nor different cue categories are required.
 
-Preserve informative physical observations, concrete tasks, informative perceptions, consequential social signals and purposeful behavior, including several such details together. Observation, orientation, characterization, compression and pacing can themselves supply a function without later action.
-
-Assess each candidate beat's own contribution. Chronological placement, anatomical vocabulary, a named object, a cause word or a generic dramatic payoff alone does not establish usefulness. An informative action elsewhere preserves its own function while a separate redundant or interchangeable beat remains eligible.
-
-Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. Specific bodily or staging checks may overlap. Mechanical sentence rhythm is assessed separately.
+Chronology, anatomical detail, a named object or a generic dramatic payoff alone establishes no particular contribution. Specific bodily or staging checks may overlap. Mechanical sentence rhythm is assessed separately.
 
 ## Development Examples
 

@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of gaze-choreography: camera-like movement of eyes, gaze or sightlines substituting for a particular observation, decision, communication or response?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of gaze-choreography: camera-like movement of eyes, gaze or sightlines that merely stages attention, with no particular contribution supported by its role in the connected sequence?",
   "criteria": {
-    "true": "At least one visual movement supplies interchangeable choreography rather than a particular observation, decision, communication, response or other identifiable narrative function.",
-    "false": "Every visual movement supplies a particular observation or identifiable narrative function, or no eligible eye-camera construction occurs."
+    "true": "At least one adopted visual movement supplies interchangeable choreography: its targets and context establish no particular observation, decision, communication, response or other identifiable narrative function for that movement.",
+    "false": "Every eligible visual movement contributes a particular observation or identifiable narrative function supported by the connected sequence, or no eligible construction occurs. Preserve wording examined or documented as wording."
   }
 }
 ---
@@ -11,13 +11,15 @@
 
 Input: passage.
 
-Cover visual movements across or between targets, including noun-based eye-camera constructions without a perception verb. Generalize across unseen wording, inflections and positions rather than relying on a verb list.
+Cover eyes, gaze, sightlines and equivalent visual movements, including ordinary perception verbs and noun-based constructions. Generalize across wording, inflections and positions. One weak movement suffices.
 
-Judge the movement's own contribution. Eye color, a named target, elaborate movement, a cause word or a generic dramatic payoff alone does not make choreography informative. A useful detail elsewhere protects its own role while a separate weak visual sweep remains eligible.
+First distinguish adopted narration and ordinary dialogue from wording examined or documented as wording. Assess the adopted writing; preserve the examined expression even when it describes this defect.
 
-Preserve sightlines that discover something, establish a physical viewpoint, direct attention to a meaningful clue, communicate consequentially or serve another identifiable narrative function. Observation, orientation, characterization, compression and pacing can supply that function without later action.
+For each movement, identify what its direction, target or timing contributes in the complete sequence. Connect it to the particular observation, decision, communication or response it supplies. Context can establish that link implicitly across sentences. A concrete viewpoint, search, task relationship or interpersonal contrast can itself be informative without later action.
 
-Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. Ordinary looking or watching may also meet a perception check; another defect does not erase useful observation.
+Distinguish that contribution from a situation in which looking is merely plausible. An adjacent decision or event supports the movement only through an identifiable connection; shared subject matter or temporal proximity alone is insufficient. Eye color, named targets, elaborate movement and generic dramatic payoffs can still leave interchangeable choreography.
+
+Preserve observation, orientation, characterization, purposeful compression and pacing when the movement gives them particular content. Judge each movement separately: useful detail elsewhere protects its own role. Another defect, including a perception defect, does not erase informative sightlines.
 
 ## Development Examples
 

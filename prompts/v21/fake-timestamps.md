@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of fake-timestamps: gratuitous exact clock precision decorating a routine narrated event without an identifiable temporal or narrative function for that precision?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of fake-timestamps: an arbitrary minute or second specification decorating a routine narrated event without an identifiable timing, chronology, observation, record or dramatic function for that specification?",
   "criteria": {
-    "true": "At least one exact clock specification supplies arbitrary minute or second precision whose own contribution is decorative rather than temporally or narratively informative.",
-    "false": "Every exact clock specification serves an identifiable temporal or narrative function, or no eligible precise clock expression occurs."
+    "true": "At least one exact event timestamp adds only decorative precision: its use supplies neither a particular temporal relationship nor an informative observation, record or other narrative function, even if the event or another timestamp is useful.",
+    "false": "Every precise clock expression contributes an identifiable temporal relationship, clock observation, record or other narrative function in the complete passage, or no eligible precise clock expression occurs. A routine timed action can carry an informative temporal relationship."
   }
 }
 ---
@@ -11,13 +11,19 @@
 
 Input: passage.
 
-Cover 12-hour, 24-hour, written-out and equivalent precise clock expressions. Generalize across unseen wording, inflections and positions. Judge the precision's contribution from the passage, rather than investigating whether the time was fabricated.
+Cover 12-hour, 24-hour, written-out and equivalent precise clock expressions, including clock times expressed relative to a named hour. Generalize across unseen wording, inflections and positions. Judge the precision's contribution from the passage, rather than investigating whether the time was fabricated.
 
-Preserve schedules, deadlines, logs, testimony, measured timing, useful event ordering, clock observations and other identifiable temporal functions. Observation, orientation, characterization, compression, pacing or a particular dramatic relationship can supply a function without later action.
+First distinguish an event timestamp from a clock reading presented as something perceived or recorded. A displayed reading can supply the observation itself; preserve it when the passage describes that perception, even without later action. Assess any other timestamps separately.
+
+Evaluate each event timestamp against temporal relationships in the complete passage. Exact time can locate a routine gesture within an established wait, deadline or schedule. Its value comes from that relationship rather than the gesture's importance. Another time nearby supplies no automatic function.
+
+Ask what the precision lets the reader place, compare or perceive. Use relationships supported by the passage. An imagined interval or generic event sequence does not establish usefulness. When a duration carries the timing information, assess whether the clock specification contributes to that measurement or adds another useful relationship.
+
+Preserve schedules, deadlines, logs, testimony, measured timing and useful event ordering. Observation, orientation, characterization, compression, pacing or a particular dramatic relationship can supply a function without later action.
 
 A date, weekday, round number, cause word or quotation mark supplies no blanket exemption. An unusual minute alone supplies no defect. Ordinary broad temporal orientation falls outside this check.
 
-Assess the exact precision itself: useful event information elsewhere does not justify independent decorative timing, and a generic dramatic payoff alone does not establish usefulness.
+Useful information elsewhere protects its own contribution. It does not justify independent decorative timing, and a generic dramatic payoff alone does not establish usefulness.
 
 Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. Other checks may also apply.
 

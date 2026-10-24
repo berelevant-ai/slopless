@@ -1,21 +1,23 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of emotion-as-substance: a named emotion or psychological state represented as physical material whose presence or behavior supplies a generic emotion tag rather than a particular thought, behavior or observation?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of emotion-as-substance: a named emotion or psychological state represented through physical material whose relationship merely tags the emotion, rather than developing the experience or explaining a particular thought, behavior, observation or process?",
   "criteria": {
-    "true": "At least one named feeling or psychological state behaves or exists as physical material, and that material relationship merely tags emotion. Static presence, residue, absence or departure qualify; movement and body-part references are optional.",
-    "false": "No instance meets that definition. A figurative material relationship specifically develops the experience or explains a particular process, or the passage describes literal substances or established literal magic."
+    "true": "At least one named feeling or psychological state is represented through physical material, directly or by comparison, and the image merely announces its presence, degree or change. A specific cause for the feeling or useful surrounding actions can coexist with this defect. Static presence, residue, absence and departure qualify; movement and body-part references are optional.",
+    "false": "Every candidate's particular material relationship develops the experience or explains a specific thought, behavior, observation or process, functions as wording examined or documented as evidence, or describes literal substances or established literal magic; or no eligible construction occurs. The relationship can be developed across sentences without requiring later action."
   }
 }
 ---
 # Emotion As Substance
 
-Read the complete passage, including connected paragraphs. Cover unfamiliar wording, inflections and positions. Physical material includes liquid, vapor, solid, heat, pressure, weather and weight; its location can be a person, bodily expression, object, abstract container, place or group.
+Read the complete passage, including connected paragraphs. Cover unfamiliar wording, inflections and positions. Physical material includes liquid, vapor, solid, heat, pressure, weather and weight; its location can be a person, bodily expression, object, abstract container, place or group. Direct assertions and comparisons both qualify.
 
-Judge the material relationship's own contribution. Preserve concrete tasks, informative perceptions, consequential social signals and purposeful narrative functions, including observation, orientation, characterization, compression and pacing, without requiring later action. Another useful detail protects its own meaning while an independent generic tag can remain.
+First distinguish adopted narration or dialogue from wording handled as evidence and literal material established by the events. A phrase's identity or form can be the evidence. Infer literal status from the passage's interactions and consequences; quotation marks and genre alone decide neither status.
 
-Actual bodily sensations and abstract personification may also meet other checks. Assess this named construction independently.
+Then identify what the particular material relationship explains about the experience. Preserve it when its properties develop how the experience works or explain a specific thought, behavior, observation or process. Observation, orientation, characterization, compression and pacing can themselves supply a particular function; they need no later action.
 
-Assess adopted narration and ordinary dialogue by function; preserve wording examined or documented as wording. A cause word, number, quotation mark or genre alone establishes no exemption.
+Distinguish why an emotion arose from what its material image contributes. A concrete cause can explain the feeling while the image only announces its presence, degree or change. Useful surrounding actions preserve their own meaning; they do not by themselves develop the material relationship.
+
+Assess each candidate separately. One independent generic tag is sufficient. Actual bodily sensations and abstract personification may also meet other checks; assess this construction independently.
 
 ## Development Examples
 

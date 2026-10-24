@@ -1,21 +1,25 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: a generic bodily action, gesture, posture, sensation, appearance or vocal reaction that merely keeps a character performing between substantive events?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: an interchangeable bodily or vocal cue whose own contribution merely registers a reaction or keeps a character performing between substantive events?",
   "criteria": {
-    "true": "At least one bodily or vocal cue serves as an interchangeable staging or reaction beat, including an internal sensation, generalized felt reaction or assertion that a feeling is involuntary or persists. A single weak cue suffices.",
-    "false": "No instance meets that definition. Each candidate cue changes the physical situation, performs a task, provides consequential information, communicates a specific response or supplies an identifiable narrative function."
+    "true": "At least one bodily or vocal cue supplies interchangeable staging or reaction annotation. Its emotional plausibility or proximity to useful information leaves that defect intact. Include generalized internal sensations and assertions that a feeling is involuntary or persists. A single weak cue suffices.",
+    "false": "Every candidate cue supplies particular physical information, purposeful behavior, a specific communicative response or another identifiable narrative function, or no eligible cue occurs. Preserve wording that the passage examines or documents as wording."
   }
 }
 ---
 # Body Action Density
 
-Read the complete passage, including connected paragraphs. Generalize across unfamiliar wording, inflections and positions. Assess actions, posture, animal gestures, breath, facial or eye expression, voice, felt surges, profound senses and inability to resist or dismiss a feeling by their role, rather than by a fixed vocabulary.
+Input: passage.
 
-Observation, orientation, characterization, compression and pacing can supply a particular function without later action. Judge the candidate cue's own contribution. Sequencing actions, adding anatomical detail or including useful information elsewhere does not give a generic cue a function.
+Read every connected paragraph. Assess actions, gestures, posture, sensations, appearance, animal gestures and vocal reactions by their role. Generalize across unfamiliar wording, inflections and positions.
+
+First establish how the passage uses the wording. When the cue's wording is itself being examined or documented, assess that framing before treating the cue as adopted narration. Assess ordinary dialogue and adopted quotations normally.
+
+For each eligible cue, ask what the reader learns from this cue beyond the fact that the character reacts. Inferring a plausible emotion from the surrounding event can leave the bodily annotation interchangeable. A cue that merely illustrates an already conveyed reaction remains eligible, including when attached to substantive speech or action.
+
+Preserve a cue whose particular contribution is supported by the passage: physical observation, a task or constraint, a specific interpersonal response, or an informative contrast. That support can be implicit in the sequence. Observation, orientation, characterization, compression and pacing need no later consequence; identify what the cue contributes to them. Mere chronology or a generic dramatic payoff supplies no such function.
 
 Frequency, counting windows and severity are separate reporting concerns. Assess this defect independently of overlapping bodily-emotion, placeholder-beat or positioning defects.
-
-Assess adopted narration and ordinary dialogue by function; preserve wording examined or documented as wording. A cause word, number, quotation mark or genre alone establishes no exemption.
 
 ## Development Examples
 

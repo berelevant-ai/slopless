@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Applying state.instructions and the supplied rulebook, does the complete target contain any instance of perception-verb-density: a generic narrated act of perception used as an interchangeable attention beat rather than communicating what is perceived or why the act matters?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of perception-verb-density: an act of perception that merely stages attention, with no particular contribution supported by its role in the connected sequence?",
   "criteria": {
-    "true": "At least one narrated perception cue merely marks attention without a particular perceptual, interpersonal or narrative contribution. Include unfamiliar perception verbs, their inflections and noun-based gaze choreography that describes such an act. One weak cue suffices.",
-    "false": "Every perception cue supplies a particular discovery, interpretation, search, viewpoint, observation, attention-dependent task, consequential communication or other identifiable function, or no eligible perception cue occurs."
+    "true": "At least one adopted perception cue supplies interchangeable attention: its target and context establish neither what is perceived nor a particular perceptual, interpersonal or narrative contribution for that act. One weak cue suffices.",
+    "false": "Every eligible perception cue contributes a particular discovery, interpretation, search, viewpoint, observation, attention-dependent task, consequential communication or other identifiable function supported by the connected sequence, or no eligible cue occurs. Preserve wording examined or documented as wording."
   }
 }
 ---
@@ -11,13 +11,15 @@
 
 Input: passage.
 
-Read the complete connected sequence and generalize across wording and positions. The defect concerns generic acts of visual attention or equivalent perception, rather than the mere presence of a perception verb.
+Cover narrated acts of visual attention or equivalent perception, including unfamiliar verbs, inflections and noun-based gaze constructions. Generalize across wording and positions. Judge each cue; lexical repetition and multiple cues are unnecessary. Frequency, windows and severity remain separate reporting concerns.
 
-A named target alone supplies no perceptual contribution. An action afterward, a cause word or another useful detail does not automatically make the candidate informative. Judge what the act itself adds.
+First distinguish adopted narration and ordinary dialogue from wording examined or documented as wording. Assess the adopted writing; preserve the examined expression even when it describes this defect.
 
-Preserve useful observations and physical, perceptual, social or narrative functions, including orientation, characterization, compression and pacing. They need no subsequent practical action. Redundant or interchangeable annotation and generic dramatic payoffs can remain weak even when a feeling or event is named.
+For each cue, identify what the act contributes in the complete sequence. Connect the perceiver and target to the particular perceptual content or function supplied. An adjacent description can supply what is perceived without repeating a perception verb. Context can establish a search, viewpoint, attention-dependent task or interpersonal contrast implicitly across sentences.
 
-Assess adopted narration and ordinary dialogue by function; preserve wording examined or documented as wording. Other checks may also apply. Frequency, windows and severity are separate reporting concerns; lexical repetition and multiple cues are unnecessary.
+Distinguish that contribution from a situation in which looking is merely plausible. A named target, feeling, decision or later event supports the act only through an identifiable connection; shared subject matter or temporal proximity alone is insufficient. Redundant annotation and generic dramatic payoffs can remain interchangeable attention beats.
+
+Preserve useful observations and physical, perceptual, social or narrative functions, including orientation, characterization, purposeful compression and pacing. They need no later practical action. Useful detail elsewhere protects its own role while an independent weak cue remains eligible. Other defects can coexist with informative perception.
 
 ## Development Examples
 

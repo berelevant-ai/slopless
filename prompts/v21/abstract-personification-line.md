@@ -1,19 +1,23 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of abstract-personification-line: an abstract feeling, trait or social concept cast as an actor or spatial presence that supplies an interchangeable emotional or evaluative payoff instead of concrete behavior or thought?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of abstract-personification-line: an abstract feeling, trait or social concept cast as an actor or spatial presence whose role in context is only an interchangeable emotional or evaluative payoff, rather than an intelligible account of particular behavior or thought?",
   "criteria": {
-    "true": "At least one abstraction acts as a social actor, decision-maker, visitor or moral authority, organizes a person's life, or has generic presence, absence, movement or denied space, and that wording supplies only an interchangeable emotional or evaluative payoff. Intentional agency is optional.",
-    "false": "No instance meets that definition. Figurative causation or characterization supplies a specific action, motive, choice or consequence, or the passage establishes a literal fictional actor."
+    "true": "At least one abstraction has an actor or spatial role that merely announces a feeling or evaluation. The passage supplies no specific causal or characterizing relation for that role. Include generic presence, absence, movement and denied space; intentional agency is optional. Concrete events beside the wording can coexist with this defect.",
+    "false": "Every candidate supplies an intelligible figurative account of a particular action, motive, choice, perception or consequence, functions as wording examined or documented as evidence, or is an established literal fictional entity; or no eligible construction occurs. The relevant detail can precede or follow the candidate across paragraphs."
   }
 }
 ---
 # Abstract Personification Line
 
-Judge the abstraction's role by meaning across the complete passage, including connected paragraphs. Cover unfamiliar wording, inflections and positions, including passive or static spatial relationships.
+Read the complete passage, including connected paragraphs. Resolve the referent and the abstraction's role from context rather than a noun's usual meaning. Cover unfamiliar wording, inflections and positions, including passive or static spatial relationships.
 
-Preserve concrete tasks, informative perceptions, consequential social signals and purposeful narrative functions, including observation, orientation, characterization, compression and pacing. These functions need no later action. Useful detail elsewhere protects its own meaning; it does not justify an independent interchangeable payoff.
+First distinguish adopted narration or dialogue from wording handled as evidence and literal entities established by the events. A phrase's identity or form can be the evidence. Quotation marks and genre alone decide neither status.
 
-Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. A causal connector, number, quotation mark or genre alone supplies no exemption. Material representations of feelings may also satisfy another check; assess this defect independently.
+Then identify what the abstraction explains about a particular behavior, thought, choice or perception. Preserve an intelligible motive, constraint or consequence, including retrospective explanations. Ordinary wording could express the same relation without making its figurative version defective.
+
+Observation, orientation, characterization, compression and pacing can themselves supply a particular function; they need no later action. Distinguish that contribution from merely naming an emotion with an actor or spatial role. A concrete occasion for a feeling or useful activity nearby does not by itself make that role informative.
+
+Assess each candidate separately. One interchangeable payoff is sufficient even beside meaningful writing. Another check's applicability supplies no exemption.
 
 ## Development Examples
 

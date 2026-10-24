@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-emotional-weather: a scene-level emotional atmosphere or interpersonal mood presented as occupying, moving through or persisting in a place without a particular manifestation or informative relationship?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-emotional-weather: an adopted scene description presenting emotional atmosphere or interpersonal mood as occupying, moving through or persisting in a place without a particular manifestation or informative relationship?",
   "criteria": {
-    "true": "At least one atmospheric cue supplies interchangeable emotional scenery rather than a particular manifestation or informative relationship, even if other details are useful.",
-    "false": "Every atmospheric cue supplies a particular manifestation or informative relationship, describes literal conditions or serves another identifiable narrative function, or no eligible cue occurs."
+    "true": "At least one adopted atmospheric cue supplies interchangeable emotional scenery. The passage may explain the feeling's cause while the cue itself adds only a generic mood annotation.",
+    "false": "Every candidate supplies a particular manifestation or informative relationship, describes literal conditions or a general scene property, functions as documented or examined wording, or serves another identifiable narrative function; or no eligible cue occurs."
   }
 }
 ---
@@ -13,11 +13,13 @@ Input: passage.
 
 Catch emotional scenery whether conveyed through emotional nouns, social moods, silence, quiet, stillness, pressure, weight, distance, calm, heaviness or equivalent wording. Neither a named emotion nor explicit movement is required. Generalize across unseen wording, inflections and positions.
 
-Preserve literal environmental conditions, mood made legible through particular conduct and informative figurative relationships. Observation, orientation, characterization, compression and pacing can supply a function without later action.
+First distinguish scene description from wording handled as an object of documentation or examination. Retaining an expression's identity for a particular evidential purpose supplies a function even without commentary on its style. Ordinary dialogue and quotations adopted as scene description remain eligible.
 
-Assess the atmospheric wording itself. Useful detail elsewhere leaves an independent generic atmospheric tag eligible. A named feeling, cause word or generic dramatic payoff alone does not establish its contribution.
+Next distinguish emotional atmosphere from literal conditions or a general scene property. Figurative sensory description can carry an informative perceptual relationship. Particular conduct can make a mood legible. Judge the cue's connection to that conduct rather than treating spatial metaphor itself as the defect.
 
-Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. Other checks may also apply.
+Ask what scene-specific information the atmospheric wording supplies beyond naming a reaction the events already suggest. A plausible reason for the feeling leaves a freestanding generic mood annotation eligible. Useful detail elsewhere protects its own contribution; it does not justify an independent atmospheric tag.
+
+Preserve informative figurative relationships. Observation, orientation, characterization, compression and pacing can supply a particular function without later action. A named feeling, cause word or generic dramatic payoff alone does not establish that function. Other checks may also apply.
 
 ## Development Examples
 
