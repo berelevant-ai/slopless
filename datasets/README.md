@@ -196,7 +196,8 @@ The final overlap screen finds zero candidates against previous datasets, legacy
 - Artifact placeholders, model disclaimers and assistant wrappers each have isolated development and protected holdout collections. Mixed A assesses all three; mixed B assesses disclaimers, wrappers and the frozen unnecessary-framing comparator.
 - The residue family contributes 3,200 judgments; the signposting comparator contributes 400. Evaluate every assigned check independently and preserve overlapping positives.
 - Three fresh whole-pool reviews precede balancing. Split-only adjudication corrects remaining label disagreements; sixteen additional holdout controls receive three independent blind reviews.
-- Reviewed archive `aca5790c4f21692e0e53104ddf74beca3ec37348` preserves 2,416 candidates and all 416 surplus passages. Selection retains all 317 mandatory pilot and hard cases, independently of detector scores.
+- Corrected reviewed archive `c852cca5187b50a2f64d2366cff181c85689ca2b` preserves 2,416 candidates and all 416 surplus passages. Selection retains all 356 mandatory pilot and hard cases, independently of detector scores.
+- Before any Jev inference, a split-specific review corrects professional-scope labels and marker-reporting judgments. Preserve useful qualifications even when another assertion in the passage is weak; the named checks assess their own defects independently.
 - The reviewed-pool copy screen finds zero exact duplicates, cross-split near-duplicates or matches to previous material across 795,447,464 comparisons. Its 212 within-development similar pairs remain documented hit/no-hit controls.
 - [Data review](../runners/results/generated-residue-v22-data-review.json) contains protected holdout writing and judgments. Prompt authors read aggregate metadata only; holdout model evaluation requires separate authorization.
 
