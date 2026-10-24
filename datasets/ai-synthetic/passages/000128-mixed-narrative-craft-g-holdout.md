@@ -70,7 +70,7 @@ The quiet in the laundrette offered me a little mercy after work. My wrists stil
 
 ## 000128-eb0f06922250
 
-At the allotment meeting, silence sat among us like a disappointed relative. Because his hearing aid amplified the heater, Dennis switched it off and asked us to face him. We were discussing the missing hose, which had apparently acquired three different owners over winter.
+"Face Dennis when you speak," I told the committee. He had switched off his hearing aid because it amplified the heater's rattle. We still had to decide who owned the missing hose, and silence sat among us like a disappointed relative. Dennis pointed to the three names written on its reel. "One hose," he said. "Three invoices. Start there."
 
 ## 000128-504c805907f9
 
@@ -82,7 +82,7 @@ We brought an uneasy stillness into the borrowed kitchen. Steam from the dishwas
 
 ## 000128-0853bbeb928f
 
-Here was a silence shaped precisely for regret. I had come to collect my bicycle from my former flatmate, but the brake cable had frayed where it rubbed against the basket. Testing the lever pinched my finger; we'd have to walk it to the shop.
+He had kept the bicycle under the stairs, behind the boots his new partner wore to work. Here was a silence shaped precisely for regret. The brake cable snagged my sleeve as I wheeled it out; several wire strands had escaped their casing beside the lever. "Don't ride that," he said, following me as far as the gate.
 
 ## 000128-2d8f348adba4
 
@@ -106,7 +106,7 @@ We made the car quiet with unspoken resentment. The shoulder belt lay across my 
 
 ## 000128-dba1679a0cb3
 
-The museum storeroom held its breath around our discovery. Dust made my nose itch as I eased the lid off a biscuit tin containing the missing labels. Their dates explained why the exhibition catalogue listed two different openings for the same village school.
+Dust from the lid made the registrar sneeze into her elbow. Under the biscuit tin's lid lay the missing labels: two opening dates, two schools with the same name. As she carried them over to the catalogue, the museum storeroom held its breath around her discovery. The intern was already searching for the second school on a map.
 
 ## 000128-258fc268fc0c
 
@@ -134,7 +134,7 @@ That was the flat's special silence, always ready to approve my solitude. I had 
 
 ## 000128-7ffbc3f5076a
 
-The council chamber sank beneath a silence heavy with disapproval. Since the microphone picked up every breath through my blocked nose, the technician moved it farther away. I was there to explain the proposed crossing beside the nursery, where drivers routinely parked across the markings.
+Councillor Raza had nearly finished explaining the proposed crossing when the technician signalled from the back. Through the speakers, each of her nasal breaths ended in a whistle. She moved the microphone aside and continued, holding up a photograph of cars parked across the nursery entrance. By then the chamber lay under a silence heavy with disapproval.
 
 ## 000128-3059d9ba86b5
 
@@ -162,7 +162,9 @@ Silence buttoned itself around the difficult news. My father's cataract made the
 
 ## 000128-f56844360afa
 
-The swimming pool wore an air of collective determination. Water trapped in my right ear made the instructor's directions sound distant until I tilted my head. We were learning to float with our clothes on, and my borrowed sweatshirt kept rising around my face.
+"Leave the sweatshirt on. That's the point of the exercise."
+"Then tell me how to keep it out of my face."
+The instructor tucked its hem into my waistband while I floated against the pool wall. Water shifted inside my ear, and her next words sounded as though she had stepped behind a door. Around us, the swimming pool wore an air of collective determination.
 
 ## 000128-cdd62a48f2d4
 
@@ -178,7 +180,7 @@ An ordinary Tuesday hush embraced the hair salon. With shampoo running toward my
 
 ## 000128-7294a76613cd
 
-The optician's waiting room hummed with muted hope. I hung up my jacket. A receptionist moved a plant. The wall clock clicked. I opened a magazine. Drops had enlarged my pupils, making the page painfully bright, so I listened to the traffic outside instead.
+Across from the magazine rack, Mr Yuen kept one eye shut against the ceiling lights. He hung up his jacket. The receptionist moved a plant. He opened a magazine. Every white page flared in his dilated vision; the headlines were easier to read on the cover. The waiting room hummed with muted hope while he waited for someone to call his name.
 
 ## 000128-4eeb9a29a62c
 
@@ -194,7 +196,7 @@ The camp kitchen glowed with the spirit of belonging. Owen unpacked the mugs. I 
 
 ## 000128-771241631941
 
-Quiet inspected the little post office with stern approval. I joined the queue. A clerk uncapped her pen. The ceiling fan turned. I shifted my parcel. Its string was cutting into my fingers, and the woman ahead offered to hold it while I found my receipt.
+You join the queue. The clerk uncaps her pen. You shift the parcel. Its string has left two deep grooves across your fingers, and the receipt is somewhere inside your coat. Behind the glass, quiet inspects the little post office with stern approval. "I can hold that," says the woman ahead of you. "You're going to drop it."
 
 ## 000128-bb9e8235de1b
 
@@ -218,7 +220,7 @@ The quiet stretched a protective wing over our lunch break. Dora unwrapped her s
 
 ## 000128-fb872554771d
 
-The empty shop floor nursed our wounded pride. I rolled up the banner. Jules collected the badges. The security gate descended. I put away the pens. Hay fever had made Jules's eyelids puffy enough to blur the addresses, and I offered to drive home.
+The trade fair had brought Jules three enquiries, all from exhibitors hoping to sell her something. She rolled up the banner. Ravi collected the badges. Jules put away the pens. On the abandoned stand, the emptiness nursed their wounded pride. Her eyes were swollen almost shut, with a damp crease beneath each lower lid; the antihistamine packet lay open beside her untouched sandwich.
 
 ## 000128-f68f0499b546
 
@@ -258,7 +260,9 @@ The stillness in the conservatory applauded our reconciliation. Val brought the 
 
 ## 000128-1d7905cbb512
 
-The bowling alley pulsed with uncomplicated happiness. Jack collected the shoes. I chose a ball. A screen changed colour. Jack bought a drink. The rental shoes squeezed my smallest toes, so the attendant found a wider pair before adding our names to the scoreboard.
+"Different shoes? You haven't bowled yet."
+"My little toe is folded under the next one."
+The attendant felt inside the shoe and pulled out a wad of packing paper. Jack collected his drink. I chose a ball. Jack entered our names. "There," he said, looking down the lanes. "This whole place pulses with uncomplicated happiness. Even you might enjoy yourself."
 
 ## 000128-c8db8dd7bdae
 
@@ -318,7 +322,7 @@ The parcel contained the quilt my grandmother had promised to finish before my w
 
 ## 000128-b4e74e8739fc
 
-The sports shop had kept my name on the rota after telling me there were no more shifts. My jaw tightened at the discovery. The stockroom's emptiness seemed arranged around my humiliation. Through the open door, I could hear my replacement asking where we stored refunds.
+The sports shop had kept my name on the rota after telling me there were no more shifts. My jaw tightened at the discovery. The stockroom's emptiness seemed arranged around my humiliation. Through the open door, I could hear my replacement asking where we stored the refund paperwork.
 
 ## 000128-553773a3129e
 
@@ -338,7 +342,7 @@ The baker explained that she'd made the cake with the wrong child's name. My bre
 
 ## 000128-52decbe78bab
 
-The college entrance hall vibrated with hopeful energy. Seeing my name on the evening-course list made my skin prickle with excitement. After three years of arranging childcare around everyone else's shifts, I finally had a place on Tuesdays that belonged in my own diary.
+Her name was there, halfway down the welding-course list. Three years of finding childcare for other people's shifts, and now Tuesday evenings belonged to her. "That's me," Lena told the porter, her skin prickling with excitement. He handed her a visitor badge while the college entrance hall vibrated with hopeful energy. The badge said CONTRACTOR; apparently it was the only kind left.
 
 ## 000128-cd30ea93c0ca
 
@@ -374,7 +378,10 @@ The greenhouse silence considered our chances with gentle optimism. When the fir
 
 ## 000128-103bfabf25bd
 
-I learned about the replacement coach from the team group chat, where someone had posted his photograph. My shoulders sank with disappointment. The room's silence cushioned the blow while I reread the message, trying to determine whether anyone expected me at Saturday's match.
+"Come on Saturday anyway," the secretary said. "The boys will want to see you."
+I asked what time the new coach was arriving.
+"Before kickoff, I should think."
+My shoulders sank with disappointment. On the team chat, his photograph had already replaced mine. The room's silence cushioned the blow as the secretary began explaining where I should leave the equipment bag.
 
 ## 000128-8d4327ef16cf
 
@@ -390,7 +397,7 @@ His message said he'd be bringing someone to the family picnic, with a smiley fa
 
 ## 000128-49ffa5ae61db
 
-An offended silence occupied the kitchen after my mother criticised the invitation. The card seemed to drag at my wrist with the weight of rejection. We'd chosen a restaurant near her bus route, but she wanted the anniversary meal held at home as usual.
+You can choose the restaurant, pay the deposit, even book her taxi. She will still ask why you couldn't have everyone round as usual. When Mum said it, the invitation card dragged at my wrist with the weight of rejection. An offended silence occupied the kitchen. "Because I want to sit down on my own anniversary," I told her. She asked whether the restaurant allowed children.
 
 ## 000128-c014f78aa0f7
 
@@ -418,7 +425,7 @@ The lounge wore a silence fitted to betrayal. My chest tightened at the cancelle
 
 ## 000128-df9644b12eb7
 
-The rehearsal studio pulsed with our shared hope. Excitement prickled along my arms. I unpacked the trumpet. Dan adjusted his stool. A fan rotated overhead. I straightened the music. Our first paid booking was a wedding reception at the hotel where Dan's mother cleaned rooms.
+Dan adjusts his stool. Isabel straightens the music. Dan wipes his mouthpiece. They have a wedding to play at six, their first paid booking, and the bride has just asked whether they know a song neither has heard of. Excitement prickles along Isabel's arms. Over Dan's tinny phone speaker, the singer begins another verse while the rehearsal studio pulses with shared hope.
 
 ## 000128-30625114211a
 
@@ -446,7 +453,7 @@ An indulgent quiet blessed the borrowed cottage. My heart swelled at the welcome
 
 ## 000128-7ef8bcc4872d
 
-The sports hall's quiet absorbed our humiliation. My stomach twisted at the score. Lee gathered the cones. I zipped the ball bag. A door slammed. Lee checked his phone. We'd lost to a team that had borrowed two players from us before the match began.
+The borrowed players had scored twice against us. Lee gathered the cones. I zipped the ball bag. Lee checked his phone. At the sight of the final score, my stomach twisted. "Next week we lend them the goalkeeper as well," Lee said. The sports hall's quiet absorbed our humiliation while I worked out how to ask for the shirts back.
 
 ## 000128-32df8783ce4f
 
@@ -466,7 +473,8 @@ The envelope dragged against my palm with accumulated regret. A mournful hush at
 
 ## 000128-2127a7100633
 
-The barber's shop buzzed with easy confidence. My pulse jumped at the unexpected compliment. I hung up my coat. Amir adjusted the chair. A scooter passed outside. I loosened my collar. He remembered the interview I'd mentioned last month and asked whether I'd got the job.
+"They'd be fools not to hire you," Amir said. "You always know how to put things."
+My pulse jumped at the unexpected compliment. I hung up my coat. Amir adjusted the chair. I loosened my collar. He remembered the interview I'd mentioned last month, down to the name of the firm. The barber's shop buzzed with easy confidence as I admitted that I hadn't heard back.
 
 ## 000128-f704f013021e
 
@@ -494,7 +502,7 @@ The ferry terminal hummed with the possibility of escape. Anticipation buzzed in
 
 ## 000128-3c858c849977
 
-A hostile hush patrolled the shared kitchen. My belly tightened when he mentioned the rent. I rinsed a cup. Will moved the toaster. The extractor rattled. I folded the cloth. He'd paid his half late again, triggering another charge on the account in my name.
+"Voluntary?" You rinse your cup. Will moves the toaster. You fold the cloth. He has been calling your contribution to the rent voluntary ever since his student loan ran out. A hostile hush patrols the shared kitchen, and your belly tightens when he says the landlord can wait. The late charge will come out of your account again; he knows whose name is on it.
 
 ## 000128-52e5f8a1b69e
 
@@ -530,7 +538,9 @@ The quiet hour at the shop meant dimmer lights and no announcements, which let m
 
 ## 000128-69473764d77d
 
-I taught Dad the new door lock in separate stages. He lifted the handle. He turned the key. He released the handle. The last movement mattered because his weak grip otherwise left the latch engaged; we practised quietly while the baby slept in the next room.
+"Unlock it first, Dad. Now try."
+He turned the key. He pressed the handle down. He pushed the door open.
+With his weak grip, he kept letting the handle spring up before he pushed. This time he held it down with both hands and leaned against the door. I caught it before it struck the wall; the baby was asleep upstairs.
 
 ## 000128-5b635fd2e145
 
@@ -558,7 +568,7 @@ Quiet returned after the upstairs tenant switched off her treadmill, revealing a
 
 ## 000128-49648a3a9740
 
-We compared how the twins asked for help at the climbing wall. Ellie raised a hand. Max called my name. Ellie waited for eye contact. With the music off, their instructor could hear Max without looking away from Ellie's rope, which made supervising both easier.
+Ellie raised a hand. Max called the instructor's name. Ellie waited for eye contact. The twins had reached the same overhang on neighbouring climbing routes, but only Max's call brought help while the instructor was looking down to check a knot. Ellie kept her raised hand against the red hold until he finally looked up.
 
 ## 000128-540c835bdb43
 
@@ -606,11 +616,11 @@ The old church had become a quiet place to feed the baby during the market. Its 
 
 ## 000128-19da5f18b990
 
-The demonstration separated three parts of a safe lift. Jan planted her feet. She bent her knees. She raised the crate. Watching in silence, I realised I'd been twisting before straightening; that explained why the same movement pulled at my back every morning in the stockroom.
+Jan planted her feet. She bent her knees. She raised the crate. "Watch where my hips point," she said, setting it down for me to try. I had been turning toward the shelf while my feet still faced the loading bay. When I copied her, I could lift without the familiar pull along the right side of my back.
 
 ## 000128-328396f06f2a
 
-On the audio file, the sudden silence marks where the recorder fell into my coat pocket. My uncle kept speaking; I could still feel his breath against my cheek when he leaned close. We recovered most of the missing words from my cousin's phone recording.
+On the audio file, my uncle stops halfway through a word at the moment I put the recorder in my coat pocket. Its pause switch had caught on the pocket seam. He kept speaking; I could feel his breath against my cheek when he leaned close. My cousin's phone, recording from the other side of the table, supplied the rest.
 
 ## 000128-06d1fbb09b33
 
@@ -618,7 +628,7 @@ For a moment nobody spoke because all four of us were reading the same small map
 
 ## 000128-af23a13daa8a
 
-The receptionist explained the queue system through a quick demonstration. She pressed the button. A number appeared. The bell sounded. In the otherwise quiet room it was easy to hear, but my father needed the flashing display because his hearing loss affected that high pitch.
+She pressed the button. A number appeared. The bell sounded. Dad was still studying the receptionist's face when I pointed at the flashing display: our number matched the slip in his hand. He could hear her when she spoke beside him, but the bell's high note never reached him, even in that quiet room.
 
 ## 000128-ede02ffed5fb
 
@@ -626,7 +636,7 @@ My grandfather's mouth twitched before each joke, giving him away even when he k
 
 ## 000128-45eede4eb943
 
-The reading room was quiet enough to hear a coin fall beneath the desk. I opened my notebook. A volunteer moved a lamp. The clock ticked. I collected my pencil. My wrist splint caught on the desk edge, so I shifted to a table without drawers.
+I opened my notebook. A volunteer moved a lamp. I collected my pencil. In the reading room, you could hear a coin drop beneath the desk, and I thought I ought to apologise when my wrist splint scraped against the drawer. "That table's a nuisance," the volunteer whispered. "Try the one by the atlas. No drawers."
 
 ## 000128-b3cd954c0b8a
 
@@ -658,7 +668,7 @@ Nobody answered the auctioneer's opening price, so he lowered it by ten pounds. 
 
 ## 000128-74043899027b
 
-It was quiet behind the stage because the thick curtains blocked the audience noise. I moved a prop. Ruby opened her bag. A bulb flickered. I found the safety pins. Her sleeve had rubbed a raw patch beneath her arm, and we folded the seam outward.
+Ruby opened her bag. I moved a prop. Ruby unrolled her tights. We could barely hear the audience through the thick curtains, though the stage manager had warned us about a school party in the front row. Beneath Ruby's arm, the costume seam had worn a raw pink crescent. "Another three performances," she said. "Then I'm burning this dress."
 
 ## 000128-b1563bb560a3
 
@@ -670,7 +680,7 @@ Once the school bus left, we could hear bees in the flowering hedge. I opened th
 
 ## 000128-e7c0047eedd7
 
-We switched off the music when the neighbour knocked; through the wall it had obscured her doorbell. I moved a chair. Sal opened the curtains. The kettle clicked. I put away a magazine. Her lips were cracked from working outdoors, and she asked for water first.
+We switched off the music when the neighbour knocked; she had rung our doorbell twice, but we hadn't heard the chime in the hall. I moved a chair. Sal opened the curtains. The kettle clicked. I put away a magazine. Her lips were cracked from working outdoors, and she asked for water first.
 
 ## 000128-f7568841a93e
 
@@ -686,15 +696,15 @@ We stopped chatting when the instructor raised her hand, our agreed signal for q
 
 ## 000128-89ede6dc17e0
 
-The office was quiet because most of the staff were at the warehouse stocktake. I logged in. Omar collected a folder. A blind rattled. I uncapped my pen. His swollen eyelid narrowed his vision on the left, and he turned his whole head to read my screen.
+Omar collected a folder. I logged in. Omar uncapped his pen. With everyone else at the warehouse stocktake, we could hear the building's lift all the way from reception. He turned his whole head to read my screen; the swelling above his left eye had narrowed it to a slit. "Start with yesterday's count," he said. "The missing boxes may already be here."
 
 ## 000128-89498a64f78c
 
-Dad's refusal to answer the security question meant the bank clerk couldn't continue the call. I found the letter. Mum fetched his glasses. The radio crackled. I moved the telephone. His tongue was thick from the dental injection, and the clerk repeatedly misheard the street name.
+After the clerk misheard the street name three times, Dad stopped trying to answer the security question, and she suspended the call. I found the letter. Mum fetched his glasses. The radio crackled. I moved the telephone. His tongue was still numb from the dental injection; he pointed to the appointment card and then to the bank's afternoon opening hours.
 
 ## 000128-675529e3e1c6
 
-At that hour, the quiet platform let us hear the distant crossing bell. I checked my ticket. Ruth adjusted her bag. A pigeon hopped along the bench. I opened the timetable. My calf still trembled after running for the train, making the printed columns hard to follow.
+At that hour, the quiet platform let us hear the distant crossing bell. I checked my ticket. Ruth adjusted her bag. A pigeon hopped along the bench. I opened the timetable. Beneath my trouser leg, the calf muscle was still jumping after our run from the bus stop. Ruth read out the next departure while I stood with my heel pressed down.
 
 ## 000128-dc589c99a977
 
@@ -702,7 +712,7 @@ The piano lesson stopped while the builder drilled through the adjoining wall. I
 
 ## 000128-11442bdf24d4
 
-We ate without talking because the dentist had told Mum to keep the gauze in place. I fetched the plates. Sue poured the water. A car crossed the bridge. I opened the butter. Mum's cheek remained numb, and a little soup escaped before she noticed it.
+By supper, Mum had removed the dental gauze, but she still preferred pointing to trying words with her numb mouth. I fetched the plates. Sue poured the water. A car crossed the bridge. I opened the butter dish. Mum touched her cheek after a little cool soup escaped onto her chin; she hadn't felt it spill.
 
 ## 000128-070e575f240a
 
@@ -718,7 +728,7 @@ Nobody answered the teacher's question, so she wrote the first part of the calcu
 
 ## 000128-ac48a67f876b
 
-The engine's silence made the loose shopping bottles audible in the boot. I folded the map. Hazel removed her gloves. A cyclist passed the lay-by. I checked my phone. Her shoulder hurt from gripping the wheel against the crosswind, and I offered to drive the remaining miles.
+With the engine off, we heard bottles rolling together as Hazel rummaged in the shopping bags in the boot. I folded the map. Hazel removed her gloves. A cyclist passed the lay-by. I checked my phone. She rubbed the shoulder that had ached through the last stretch of crosswind and handed me the keys for the remaining miles.
 
 ## 000128-089bc03df329
 
@@ -726,7 +736,7 @@ We kept quiet while the ranger identified the bird by its call. I tightened my b
 
 ## 000128-5ac3a4885f54
 
-The customer stopped speaking when she saw the apprentice lip-reading, giving him a clear view before continuing. I collected a tray. Fran moved the sugar. A kettle hissed. I wiped the counter. Flour in the cuts on my knuckles had dried into pale, uncomfortable crusts.
+The customer stopped speaking when she saw the apprentice lip-reading, then turned to face him before repeating her order. I collected a tray. Fran moved the sugar. A kettle hissed. I wiped the counter. Flour in the cuts on my knuckles had dried into pale, uncomfortable crusts.
 
 ## 000128-73e9a358d580
 
@@ -738,7 +748,7 @@ Once the washing machine stopped spinning, we heard someone knocking at the back
 
 ## 000128-c864f75082ad
 
-Nobody answered the landlord's question about pets, so he added the restriction to our draft contract. My stomach clenched at the extra sentence. We'd hoped to ask about the cat after discussing the deposit, but my daughter had already drawn it on her application sheet.
+Nobody answered when the landlord asked whether we objected to a no-pets clause, so he added the restriction to our draft contract. My stomach clenched at the extra sentence. We'd hoped to ask about the cat after discussing the deposit, but my daughter had already drawn it on her application sheet.
 
 ## 000128-ceaced31d331
 
@@ -750,7 +760,7 @@ My father stayed silent when the doctor asked about drinking, which prompted her
 
 ## 000128-86f07eb3141e
 
-The training video broke the rescue into clear stages. The volunteer called for help. She checked for breathing. She began compressions. My throat tightened at the thought of needing it for real. In the quiet classroom, we could hear the practice mannequin click with each correct push.
+The volunteer called for help. She checked for breathing. She began compressions. In the darkened training room, the video kept playing while the instructor moved between our practice mannequins. "You're waiting for permission," she told me. "The next step is yours." My throat tightened at the thought of needing it for real. I placed my hands on the mannequin's chest.
 
 ## 000128-27c00dbeab01
 
@@ -774,7 +784,7 @@ Nobody spoke when the committee chair asked for volunteers, so she postponed the
 
 ## 000128-ced0af15ebd1
 
-The accountant demonstrated how the duplicate payment had entered the records. She opened the receipt. She selected the client. She saved the amount. My cheeks warmed with embarrassment when I recognised my own initials, although the silent screen recording showed no warning about the earlier entry.
+I opened the receipt. I selected the client. I saved the amount. "There's the second payment," the accountant said, stopping the screen recording on my initials. My cheeks warmed with embarrassment. I had entered the same cheque from the paper receipt and again from the scan. She replayed the final click with the sound muted, showing how both entries had reached the ledger.
 
 ## 000128-c21950f3c1f4
 
@@ -790,7 +800,7 @@ To settle the disputed finish, we compared the runners' final steps. Leah reache
 
 ## 000128-4c5d10cf4a3f
 
-When the nursery called, I took my phone into the quiet stockroom so I could hear properly. My blood turned cold at the words 'another incident.' They wanted me to collect my son, who'd climbed onto the shelving again after discovering it could reach the window latch.
+When the nursery called, I took my phone into the quiet stockroom so I could hear properly. My blood turned cold at the words 'another incident.' They wanted me to collect my son, who'd climbed onto the shelving again after discovering he could reach the window latch from the top shelf.
 
 ## 000128-3e7411307c76
 
@@ -818,7 +828,7 @@ My uncle wouldn't answer the buyer's question about the damp patch, and she redu
 
 ## 000128-428d06c069ca
 
-The rehearsal compared three ways of ending the scene. Ben walked out. Alice stayed seated. Ben returned for his coat. Each version changed who appeared to abandon whom. My chest fluttered with nerves when the director chose mine; we'd be performing it without background music.
+We reset to the argument for each proposed ending. In Jo's version, Ben left while Alice was still speaking. In mine, Alice walked out before Ben could apologise. In Ruth's, they both stayed, unable to finish the conversation. My chest fluttered with nerves when the director chose mine. She asked us to try it again without background music.
 
 ## 000128-f61943ed72dc
 
@@ -826,7 +836,7 @@ After the power cut, the street was quiet enough to hear someone manually liftin
 
 ## 000128-6df1985f2149
 
-I asked the children to stop talking while their grandmother recorded her birthday message. Seeing her face on the screen sent a warm pulse through my chest. She'd propped her phone against a biscuit tin, and every time she gestured, the picture tipped toward the ceiling.
+We were recording Gran's birthday greeting over a video call, and I hushed the children so their voices wouldn't cover hers on our laptop recording. Seeing her face on the screen sent a warm pulse through my chest. She'd propped her phone against a biscuit tin; whenever her gestures knocked the table, its camera tilted a little farther toward the ceiling.
 
 ## 000128-4227dd9aff04
 
@@ -846,11 +856,11 @@ Nobody spoke after the chair asked for objections, allowing the motion to pass w
 
 ## 000128-1fde20135fcb
 
-We practised the key exchange so Gran could manage it without reaching across the counter. I set down the purse. She slid over the keys. I pushed back the purse. Her little house key felt heavy with responsibility in my hand; she'd finally agreed to weekly help.
+Gran could drop the spare keys into her open coin purse if I slid it to her elbow. We tried the handover before the carer came. I set down the purse. She dropped in the keys. I drew back the purse. I took her little house key from the purse, and it felt heavy with responsibility in my hand; she'd finally agreed to weekly help.
 
 ## 000128-348fb983cebb
 
-The office was quiet because the phone system had failed. My pulse stumbled at the redundancy email. I opened the attachment. Helen moved her mug. A bus passed outside. I found my glasses. The consultation meeting was scheduled during the school pickup I'd already booked off.
+Helen moved her mug. Rosa opened the attachment. Helen found her glasses. With the office phones down, they had been using their own mobiles all morning; now the redundancy email had arrived on those too. Rosa's pulse stumbled. "Consultation at three," Helen read aloud. Rosa had already booked that afternoon off for her daughter's school pickup.
 
 ## 000128-1eba103191d4
 
@@ -882,7 +892,9 @@ I muted the radio to hear the message about our application. My throat tightened
 
 ## 000128-bffa8c2c4a68
 
-The children whispered because their uncle was recording guitar in the next room. Pride expanded behind my ribs. I arranged the cups. May opened the biscuits. The clock struck. I folded the paper. They'd remembered his request all afternoon, even when their friends arrived unexpectedly.
+"Can we have the biscuits?"
+"Ask May. Quietly. He's still recording."
+I arranged the cups. May opened the packet. I folded the paper. In the next room, my brother started the same guitar passage again. The children had remembered his request all afternoon, even when their friends arrived, and pride expanded behind my ribs as they carried their argument about the last biscuit out to the garden.
 
 ## 000128-acf5d1ca2758
 
@@ -906,7 +918,7 @@ Nobody answered the teacher's question about the broken model, so she kept the w
 
 ## 000128-92eb7cd47bb1
 
-Without the cafe music, we could hear the rain reaching the pavement awning. My shoulders softened with relief at his apology. I stirred my coffee. Ben folded his receipt. A waitress moved a stool. I checked my phone. He'd finally agreed to repay the borrowed deposit.
+Without the cafe music, we could hear the rain striking the awning above the pavement. My shoulders softened with relief at his apology. I stirred my coffee. Ben folded his receipt. A waitress moved a stool. I checked my phone. He'd finally agreed to repay the borrowed deposit.
 
 ## 000128-679d19fb78e5
 
@@ -918,11 +930,11 @@ The bus engine stopped, making the driver's announcement easier to hear. A knot 
 
 ## 000128-ad4300f357c7
 
-The quiet side room had been chosen so Gran could hear the birthday speeches. Warmth unfurled in my chest at her smile. I moved the presents. Joe fetched a plate. A camera flashed. I opened the candles. She'd recognised the tablecloth she'd sewn for my parents' wedding.
+The quiet side room had been chosen so Gran could hear the birthday speeches. Warmth unfurled in my chest at her smile. I moved the presents. Joe fetched a plate. A camera flashed. I opened the packet of candles. She'd recognised the tablecloth she'd sewn for my parents' wedding.
 
 ## 000128-b9408e831f31
 
-Nobody answered the steward's request for witnesses, leaving the disputed goal unrecorded. My jaw hardened with frustration. I gathered the cones. Terry checked his watch. A child kicked the fence. I picked up the bottle. From our side of the pitch, the handball had been obvious.
+Our workplace tournament required both captains to approve disputed goals. Neither answered the volunteer scorer's call, so she left this one pending on the score sheet. My jaw hardened with frustration. I gathered the cones. Terry checked his watch. A child kicked the fence. I picked up the bottle. From our side of the pitch, the opposing striker's handball before the shot had been obvious.
 
 ## 000128-6ddc7bf8193a
 
@@ -930,7 +942,8 @@ We muted the television when my sister began her announcement over the phone. My
 
 ## 000128-be5a6a8511ee
 
-The storeroom's thick door blocked the music from the dance class upstairs. My stomach fluttered at the offer. I gathered the ribbons. Kim opened a carton. The fluorescent tube blinked. I found the tape. She wanted me to organise the children's costumes for the summer show.
+"You know what happens if I say yes, Kim. I'll be sewing until midnight."
+She opened a carton. I gathered the ribbons. She handed me the tape. Behind the storeroom's thick door, the dance-class music was barely audible. My stomach fluttered at her offer to let me organise the children's costumes. "Only the leads need new ones," she said. "Mostly it's taking up hems."
 
 ## 000128-4a2e127a4d16
 
@@ -938,7 +951,7 @@ Nobody spoke while the neighbour played the voicemail identifying our dog. My he
 
 ## 000128-1bacdd3da819
 
-The office fell quiet after the receptionist disconnected the faulty speakerphone. A cold pinch gripped my chest at the revised deadline. I opened my diary. Marcus moved his keyboard. A cleaner passed the door. I uncapped a pen. The application now required signatures from both former employers.
+The office fell quiet after the receptionist disconnected the faulty speakerphone. A cold pinch gripped my chest at the added requirement. I opened my diary. Marcus moved his keyboard. A cleaner passed the door. I uncapped a pen. The application now required signatures from both former employers.
 
 ## 000128-a55e6537a57d
 

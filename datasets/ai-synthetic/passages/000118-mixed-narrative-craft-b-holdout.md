@@ -10,11 +10,11 @@ On the old counseling worksheet, Mum had written, "Anger is cement in my chest."
 
 ## 000118-85e49ca2e282
 
-At eleven seventeen in the morning, I tucked the hotel soap into the side pocket of my bag. My daughter had requested every miniature bottle I could bring home, even the ones with labels she couldn't read. The receptionist supplied two more. On the train I wrapped them in a sock so they wouldn't leak over the paperback I'd borrowed from my sister.
+My daughter had requested every miniature bottle I could bring home, even the ones with labels she couldn't read. The receptionist supplied two more hotel soaps. I tucked them into my bag at eleven seventeen in the morning, between the socks and the paperback I'd borrowed from my sister. On the train I moved the soaps inside a sock; my daughter could have the labels, but my sister would want her book back dry.
 
 ## 000118-68b6a3bf217a
 
-At 14:26, Priya opened a fresh document and typed the client's name at the top. The proposal from last year still used the old delivery address. She copied the pricing section, corrected the address, and sent the draft to Martin. "Use the shared folder this time," he said from the next desk. She had already attached it to an email, so she deleted the attachment and pasted a link.
+At 14:26, Priya opened a fresh document and typed the client's name at the top. The proposal from last year still used the old delivery address. She copied the pricing section, corrected the address, and prepared an email to Martin. "Use the shared folder this time," he said from the next desk. She deleted the attachment, pasted a link, and sent the message.
 
 ## 000118-c255b00ddd66
 
@@ -26,7 +26,11 @@ The soup was thick enough to hold the spoon upright. My cousin added water strai
 
 ## 000118-8a411d7b3b69
 
-At 10:23, Daniel tore a corner from his croissant and dipped it in the coffee. He surveyed the cafe. "We could stay another night," he said. His wife reminded him that the neighbor had only agreed to feed the cat through Sunday. They divided the remaining pastry, paid with the coins from their coat pockets, and took the steep street back to the apartment.
+"We could stay another night."
+
+Daniel surveyed the cafe as he said it. His wife broke the croissant in two and gave him the smaller piece. "The neighbor finishes feeding the cat on Sunday. You arranged that yourself."
+
+He dipped his piece in the coffee at 10:23. They had enough coins for breakfast and the bus back up the hill, provided neither ordered another cup. He began counting them beside the saucer.
 
 ## 000118-bd861c59bfc7
 
@@ -42,7 +46,7 @@ A film of disappointment coated the kitchen. Rosa had brought the wrong cake, a 
 
 ## 000118-503b55b57ae7
 
-At 08:14, I spread marmalade on the second slice of toast. The last of my anxiety evaporated. I'd finally told my brother that I couldn't lend him the car, and he'd simply asked for the bus route. All those rehearsed explanations had gone unused. I wrapped the toast in a paper towel for him and drew the stop opposite the library on an envelope.
+I'd rehearsed three explanations for refusing my brother the car. He asked for the bus route before I finished the first. By breakfast the last of my anxiety had evaporated, and all I had left to explain was which side of the library the bus stopped on. I drew it on an envelope, spread marmalade on his toast at 08:14, and wrapped the toast in a paper towel for the journey.
 
 ## 000118-1a4976f84cd4
 
@@ -58,7 +62,7 @@ Jealousy smoldered inside Ruth as her sister described the new flat. Ruth took a
 
 ## 000118-25b6ef7ff545
 
-At 12:47, I slipped the spare gloves into my rucksack. Excitement fizzed through me. It was my first trip with the walking club, and I'd bought far more food than the route required. I glanced over at the others. "Anyone want a banana?" I asked. Three people accepted, which made room for the waterproof jacket I'd been carrying under my arm since the station.
+Three people accepted bananas before I had introduced myself. I glanced over at the others, excitement fizzing through me, and offered the rest of the bunch. For my first walking-club outing I'd packed enough food for an overnight expedition; the route was six miles. At 12:47 I finally fitted the spare gloves into my rucksack. Someone held my waterproof while I persuaded the zip past a packet of sandwiches.
 
 ## 000118-3800f885279b
 
@@ -70,7 +74,7 @@ Relief settled over the workshop. I watched the replacement belt complete one re
 
 ## 000118-8c35f9b0ba32
 
-Her disappointment had a leaden weight. Across the counter, the clerk examined the split seam and agreed the boots had failed before their guarantee expired. The receipt was dated 12:18 on Saturday; I remembered because we had missed lunch buying them.
+Her disappointment had a leaden weight. Across the counter, the clerk examined the split seam and agreed the boots had failed before their guarantee expired. The receipt showed Saturday's date and a purchase time of 12:18. I remembered that shopping trip because we had missed lunch.
 
 ## 000118-7240c3eec000
 
@@ -94,7 +98,7 @@ His apology carried a coating of embarrassment. I watched his hands flatten the 
 
 ## 000118-74df01cad8b2
 
-Anxiety occupied every corner of the waiting room. The receptionist checked the wall clock against her phone; it was eleven minutes slow. Our appointment card said 10:20, so she moved us ahead of a couple who had arrived believing they were late.
+Anxiety occupied every corner of the waiting room. The receptionist had left our 10:20 appointment card on her desk because the wall clock still said 10:11. Her phone showed 10:22. She checked the couple who had arrived first against their 10:30 booking, then called us through ahead of them.
 
 ## 000118-657bd1a92faf
 
@@ -114,7 +118,7 @@ Gratitude flooded the little office. Our dispatcher watched the map until the la
 
 ## 000118-4a35ba4b489f
 
-Suspicion thickened between the neighbors. I inspected the fence posts and found the same green paint on both sides, despite Mr. Bell's claim that our painter had crossed the boundary. Our painter's bill recorded finishing at 13:40, before Mr. Bell began working on his side.
+Suspicion thickened between the neighbors. Mr. Bell said our painter had splashed his green fence, but I inspected the posts and found green drips lying over the dry cream paint on our side. Our painter's bill recorded finishing at 13:40. Mr. Bell agreed he had started with the green after tea; he fetched a rag and asked whether we had any cream left.
 
 ## 000118-510b1662bdb3
 
@@ -126,7 +130,7 @@ Her pleasure radiated across the table. I looked closely at the repaired cup; th
 
 ## 000118-1745e3191384
 
-Doubt seeped into my thoughts. The bus display read 07:12, but its reflection in the shop glass showed the missing segment of the final digit. I stepped closer and made out a seven. My connection was leaving five minutes later than I thought.
+Doubt seeped into my thoughts. Through my rain-blurred glasses, the bus display appeared to give our connection as 07:12. I wiped the lenses on the dry lining of my coat and read it again: 07:17. We had five minutes more than I'd allowed, enough to take the underpass instead of running across the road.
 
 ## 000118-1f9f565aee06
 
@@ -134,7 +138,7 @@ Irritation simmered beneath her politeness. I watched the tailor pin the hem to 
 
 ## 000118-f3a0cae0cc8f
 
-His calm was a solid block. I studied the map long enough to recognize the footbridge under its former name. The guide was older than the bypass. Its estimated arrival of 11:45 was impossible now that the route crossed a petrol station.
+His calm was a solid block. I studied the walking guide's map long enough to recognize the footbridge under its former name. We'd followed its nine o'clock departure plan, with lunch at the mill at 11:45. But the guide predated the bypass, and its next stretch of footpath disappeared beneath the petrol station forecourt.
 
 ## 000118-bf17da95a4ac
 
@@ -142,7 +146,7 @@ Affection soaked her words. From my seat I could see the patch on her husband's 
 
 ## 000118-ef40c032e1f7
 
-Guilt pooled behind his smile. The guard scrutinized the pass until he located the faded expiry date. It read 31 March, while the replacement card in my wallet began on 1 April. He accepted both together and waved us through the barrier.
+My brother had insisted his old pass would still work. Guilt pooled behind his smile when the guard scrutinized it and located the faded expiry date: 31 March. The replacement card was still in his wallet, tucked behind the letter telling him to start using it on 1 April. He handed that over, and the guard waved us through.
 
 ## 000118-bf1df43877b5
 
@@ -166,7 +170,7 @@ Nostalgia drifted through the shop. I watched the owner use a wooden scoop to me
 
 ## 000118-b700819208f8
 
-Unease formed a crust over our conversation. I could hear a second television through the receiver, repeating the same weather forecast a few seconds behind mine. My sister was staying at our mother's flat again, although she had told me she was home.
+Unease formed a crust over our conversation. I could hear a second television through the receiver, repeating the weather forecast a few seconds behind mine. Then Mum called from the background, asking my sister to bring a towel from the airing cupboard. My sister was staying at our mother's flat again, although she had told me she was home.
 
 ## 000118-c0524b7ab603
 
@@ -178,7 +182,7 @@ Bitterness stained his account of the sale. I read the handwritten amendment twi
 
 ## 000118-78bf62e3ac27
 
-At 13:24, Bea put the parsley into a chipped jug. Contentment spread through her. She watched the cut stems slowly drink, the water line dropping below a scratch in the glaze. By supper the leaves had revived enough to scatter over the potatoes.
+The parsley had arrived limp in a shopping bag. Bea put it into a chipped jug at 13:24 and left it beside the sink. As she watched, the water line dropped below a scratch in the glaze; contentment spread through her. By supper the leaves stood clear of the rim. She cut a handful over the potatoes and left the remaining stems in their jug.
 
 ## 000118-917c0e1e4b11
 
@@ -230,7 +234,7 @@ A fog of sadness surrounded him. At 15:58, he capped the marker. He studied the 
 
 ## 000118-941bb351ca5e
 
-At four thirty-one in the afternoon, Leila unpacked the mixing bowls. Relief drained the tension from her. She checked the largest bowl for the hairline crack and found it still sound after the move. Her neighbor had wrapped it in an entire local newspaper.
+At four thirty-one in the afternoon, Leila unpacked the mixing bowls. Relief drained the tension from her. She checked the largest bowl for hairline cracks and found it still sound after the move. Her neighbor had wrapped it in an entire local newspaper.
 
 ## 000118-7a6b43db2195
 
@@ -238,7 +242,9 @@ At 21:14, I turned my pillow to the cool side. Dread coated my thoughts. Listeni
 
 ## 000118-f9a72fa4f91f
 
-At 17:06, Mae tied back her hair with string. Determination hardened within her. She scrutinized the splintered chair leg until she found where the old dowel ended. Once she drilled it out, a new piece would fit without widening the original hole.
+"Keep the old hole," Mae said. "There's enough wood left if we keep the old hole."
+
+Determination hardened within her as she scrutinized the splintered chair leg, following the dowel until she found its buried end. She tied back her hair with string at 17:06. I held the leg against the bench while she fitted a narrower bit, ready to drill out the dowel without taking more wood from the socket.
 
 ## 000118-f06ae74b326e
 
@@ -290,7 +296,9 @@ At 18:17, Mick scraped mud from his boot with a twig. Joy flowed through him. He
 
 ## 000118-a8c1849780cd
 
-The clinic closed at 17:30, and we arrived with four minutes to spare. Relief swept through me. I surveyed the waiting area. The nurse let Dad keep his walking frame beside the chair, then fetched the form he had left unsigned on his previous visit.
+"Four minutes," Dad said, tapping the clinic's 17:30 closing notice with his walking frame. "Plenty."
+
+I surveyed the waiting area while he negotiated with the nurse about keeping the frame beside his chair. Relief swept through me when she agreed. Then she fetched the form he had left unsigned last time, and Dad asked to borrow the pen attached to her pocket.
 
 ## 000118-555b2a79b774
 
@@ -342,7 +350,7 @@ Jealousy dripped from every word. Elena gazed about her. The auction list gave 1
 
 ## 000118-e878ae7abfbd
 
-A film of apathy covered the afternoon. I turned my eyes toward the group. Our bus tickets permitted travel after 09:30, so there was no saving in leaving early. We finished the crossword and let the children decide which museum had the best cafe.
+A film of apathy covered the morning. I turned my eyes toward the group. Our bus tickets permitted travel after 09:30, so there was no saving in leaving early. We finished the crossword and let the children decide which museum had the best cafe.
 
 ## 000118-b1e2e88f047f
 
@@ -350,7 +358,7 @@ Reluctance sat heavily in me. I surveyed the hallway. The appointment confirmati
 
 ## 000118-f24efba6890f
 
-Amusement fizzed through the family. Gran looked from one face to another. Her oven timer displayed 00:18, the last seconds before the bread needed turning out. We had been talking so loudly that nobody heard the first alarm, and the crust was already dark.
+Amusement fizzed through the family. Gran looked from one face to another. Her oven timer displayed 00:18, the last seconds before the bread needed turning out. We had talked through the five-minute warning on her phone, and the crust was already dark. She handed the oven gloves to the grandson still telling his story.
 
 ## 000118-617dccb3fe62
 
@@ -402,7 +410,7 @@ Her serenity was a smooth stone. I turned my gaze her way. The photograph was ma
 
 ## 000118-38b8d10f0163
 
-At 10:28, Mina set the spare mug on the desk. Affection pooled inside her. She glanced around the office. Her temporary assistant had brought a packet of the biscuits she liked, along with an apology for using the printer paper to wrap a birthday present.
+The assistant had wrapped Mina's birthday present in printer paper. He offered an apology with it, then produced a packet of the biscuits she liked from his coat. Mina glanced around the office. With affection pooling inside her, she cleared a space among the proofs and set a spare mug there at 10:28. "You'll have to fetch some tea," she said. "I used the last bag yesterday."
 
 ## 000118-f6678a593ee0
 
@@ -426,7 +434,9 @@ At 06:48, I took a clean spoon from the drawer. Remorse coated my thoughts. I gl
 
 ## 000118-774466d163ef
 
-At thirteen twenty-seven, Arlo pushed his sleeves above his elbows. Excitement sparked inside him. He took stock of the room. The neighbors had agreed to help strip the wallpaper, provided he supplied lunch. His first attempt at soup filled two stockpots and a saucepan.
+Arlo had promised lunch in exchange for help stripping the wallpaper. His neighbors arrived with scrapers; he had made soup in two stockpots and a saucepan. "How many people did you invite?" somebody asked.
+
+Excitement sparked inside him as he pushed up his sleeves at thirteen twenty-seven. He took stock of the room, then handed out bowls. They would have to eat in shifts because he owned only six individual bowls. His large serving bowl was under the sink, catching a drip from the waste pipe.
 
 ## 000118-73b0f2844afe
 
@@ -434,7 +444,11 @@ At 17:51, Jean tucked a ribbon into the drawer. Sorrow filled the bedroom. She l
 
 ## 000118-10a784faf898
 
-At 09:13, I slipped a coaster beneath the glass. Defiance hardened in me. I eyed my father. He wanted me to apply for the supervisor's position again. I wanted him to understand that the night shifts were the part of the job I liked.
+"Supervisor means nights as well," Dad said.
+
+"Covering nights. I like working them. There's a difference."
+
+I eyed my father and slipped a coaster beneath his glass at 09:13, defiance hardening in me. He had brought a printed application with the closing date circled. I put it beside his coat and asked whether he wanted a second slice of toast.
 
 ## 000118-b1c1e9dc60ef
 
@@ -450,7 +464,7 @@ At 12:16, I tied the apron behind my back. Dismay sank through me. I cast my gaz
 
 ## 000118-732421370016
 
-At 15:04, the coach slid her notebook beneath the bench. Concern clouded her mind. She looked toward the parents. The smallest player wanted to swap teams because his cousin wore the other color. They solved it by turning both shirts inside out for practice.
+At 15:04, the coach slid her notebook beneath the bench. Concern clouded her mind. She looked toward the parents. The smallest player wanted to swap teams because his cousin wore the other color. She moved the cousin into his group and gave both boys yellow training bibs over their shirts.
 
 ## 000118-004d6d18bbb1
 
@@ -474,7 +488,7 @@ At 11:49, I ran the cloth over the shelf. Satisfaction swelled in me. I glanced 
 
 ## 000118-94e4ee3eb28e
 
-At 19:07, Hal placed his phone face down. Boredom settled like silt within him. He looked over the gathering. The committee was discussing tablecloth colors again, although they still had no tables. He offered the trestles from his garage and immediately regretted mentioning them.
+They had reached tablecloth colors again. Hal looked over the gathering, boredom settling like silt within him, and asked how many tables the committee had secured. Nobody answered. He placed his phone face down at 19:07 and mentioned the trestles in his garage. By the time he remembered that one had a broken leg, the secretary had written down his name.
 
 ## 000118-21f5b4ac8f64
 
@@ -482,7 +496,9 @@ At eight thirty-four, I folded back the bedspread. Joy illuminated me from withi
 
 ## 000118-b986d9788639
 
-At 13:09, Len uncrossed his legs. Distrust hung between the players. He observed the room. Somebody had replaced the missing chess knight with a cork, and the captain refused to begin until both sides agreed which way it should face on the board.
+Distrust hung between the players while the captain searched for a marker. The missing chess knight had been replaced with a cork. He wanted a horse's head drawn on it before play began. "Last week you called it a pawn," he said.
+
+Len uncrossed his legs at 13:09 and observed the room. The captain tried the marker on his score sheet, shook it, and asked somebody to fetch a pen that worked.
 
 ## 000118-a1d67ab1f8ca
 
@@ -498,7 +514,7 @@ At six forty-nine in the evening, I put the lid on the toolbox. Optimism lifted 
 
 ## 000118-7576c6517bdc
 
-At 20:11, Etta rubbed a mark off her glasses. Apathy enveloped her. She gave the lounge a once-over. The quiz team had changed its name without consulting her, and the new one would require an explanation every time the announcer read it aloud.
+Etta had practiced saying the new quiz-team name once and decided she would let somebody else announce it. Nobody had asked her before changing it. At 20:11 she rubbed a mark off her glasses, gave the lounge a once-over, and put them back on. Apathy enveloped her. The captain leaned across to ask whether she knew any shorter names for a team of retired geography teachers.
 
 ## 000118-5e4d519f740e
 
@@ -548,7 +564,7 @@ Jo watched the cream run down the whisk. It held a soft ridge, which was the sta
 
 ## 000118-12c9d45a09dc
 
-The words "sorrow pooled" appeared twice in the letter. At our 15:00 archive appointment, the curator let me compare the original with the published transcript. One occurrence had been changed to "borrowed tools." That small correction gave us the missing subject of the next sentence.
+At our 15:00 archive appointment, the curator laid the letter beside its published transcript. The transcript printed "sorrow pooled" twice. On the original, I followed the lines beneath that phrase: "The borrowed tools were returned on Friday." The typesetter had repeated the preceding line and skipped this one. I copied the missing sentence into our notes, including the reference to Friday's delivery.
 
 ## 000118-b3389c6f9ed5
 
@@ -590,17 +606,17 @@ The stone in my pocket warmed slowly in my palm. I had picked it up outside the 
 
 ## 000118-9a69d805a1ad
 
-"Temper under pressure" was the foundry manual's heading. We looked up the term because the new worker thought it described how patiently to pour the casting. The chart gave a cooling schedule beginning at 17:00, and missing that start would leave the night shift to finish.
+The foundry's break-room poster said "Anger boils over" above the confidential helpline number. Its lower half had torn away. We photographed the surviving text and sent it to the office for a replacement, then went back to the heat-treatment rack. The tempering oven's scheduled cycle ended at 17:00; the night shift needed the rack clear for the next batch.
 
 ## 000118-63a5fad36978
 
 His suspicion worked like grit in a bearing: each small decision took more effort until we could scarcely turn at all. I watched him compare three identical invoices instead of signing one. When the 16:00 collection slot passed, we finally agreed to check the supplier together.
 
-We chose one invoice and called the number printed on it, with the order confirmation beside us. The supplier explained the duplicate numbering. He signed all three afterward, then asked me to keep the explanation with our records for the next delivery.
+We called the number printed on the top sheet, with the order confirmation beside us. The supplier explained that these were three copies of one invoice, for the driver, the office, and us. He signed each copy to acknowledge the same delivery, then asked me to keep the explanation with our records.
 
 ## 000118-bec88fd41cef
 
-I watched the school crossing empty before wheeling the barrow across. Wet cement had soaked through the sack and was setting against the metal. The delivery note gave 07:25 as the mixing time. We needed the path clear while there was still time to pour it.
+I watched the school crossing empty before wheeling the barrow across. Fresh concrete slopped against its metal sides. The truck's delivery ticket gave 07:25 as the mixing time, and the driver had warned us to get this last load into the formwork promptly. My apprentice held the gate while I eased the wheel over the threshold.
 
 ## 000118-56f39d1712ef
 
@@ -624,7 +640,7 @@ The note said, "Relief is a door that opens inward." My therapist asked what I m
 
 ## 000118-a5ac687196b0
 
-I examined the pale crescent below his ring and remembered he had worn it through twenty years of outdoor work. He had left it with the jeweler for resizing. The collection slip said 17:20, and he wanted company because he disliked going into town alone.
+I examined the pale crescent his ring had left and remembered he had worn it through twenty years of outdoor work. He had left it with the jeweler for resizing. The collection slip said 17:20, and he wanted company because he disliked going into town alone.
 
 ## 000118-75efcccf214b
 
@@ -636,11 +652,11 @@ At 08:27, I spread the damp map on the bench. Watching the ink feather around th
 
 ## 000118-26c90cc44b2a
 
-At eleven fourteen, the mechanic wiped her palms on a rag. She listened to the wheel bearing through a screwdriver held against its housing. The rough pulse stopped when she lifted the axle clear, helping her locate the pressure that was making it bind.
+At eleven fourteen, the mechanic wiped her palms on a rag. A small motor kept the wheel turning on the test rig. She listened to its bearing through a screwdriver held against the stationary housing. When she lifted the weighted roller off the tire, the rough pulse stopped although the wheel kept turning, showing that the bearing bound under load.
 
 ## 000118-ae6beaaa48fd
 
-At 19:41, I laid out the blue napkins. My aunt examined the wax pooled on the candlestick base and identified it as hers; my identical one had a crack. We had packed both houses together and were still returning borrowed possessions after the move.
+At 19:41, I laid out the blue napkins. My aunt turned the candlestick over, taking care with the wax pooled on its base, and examined the initials scratched underneath. They were hers. Mine had a crack as well as my initials. We had packed both houses together and were still returning borrowed possessions after the move.
 
 ## 000118-755f2828ea8e
 
@@ -656,7 +672,9 @@ At 09:51, Dot placed the loaf on its side. Watching the crust crack around her k
 
 ## 000118-8f68406f2199
 
-At 15:23, I put a fresh sheet into the printer. The counselor's notes read, "Panic fills the available space." I checked that phrase against the interview recording because the client had asked to use her own words in the statement rather than a clinical summary.
+"There. Keep that bit exactly."
+
+The client stopped the interview recording while I had the statement open. My notes read, "Panic fills the available space." I played the sentence again and checked each word as she followed the text. At 15:23 I fed a fresh sheet into the printer. She wanted to read the whole statement aloud before signing it.
 
 ## 000118-25f94479a71c
 
@@ -664,7 +682,7 @@ At 12:46, the florist snapped a twig from the bundle. She examined the pale cent
 
 ## 000118-309729415402
 
-At 20:04, I slipped my bookmark between the pages. The library book's title, Burning Jealousy, had left a reversed imprint on its damp paper jacket. I inspected the shelf above and found a leaking bottle of plant food behind the fern.
+I slipped my bookmark between the pages at 20:04 and took off the library book's damp paper jacket. On its inside surface, against the front cover, the title Burning Jealousy had transferred in reverse. I inspected the shelf above and found a leaking bottle of plant food behind the fern. I separated the jacket from the book and laid both on dry towels.
 
 ## 000118-d4968720117b
 
@@ -672,7 +690,7 @@ At ten fifty-seven, Mara picked up her hat. She watched the toddler imitate her,
 
 ## 000118-68a4608cf234
 
-At 07:18, I pressed the last shirt flat. Steam clouded the bathroom mirror, but one narrow streak remained clear. Studying it revealed where a previous tenant had wiped a soapy finger down the glass. I copied the trick before shaving the next morning.
+At 07:18, I hung my clean shirt on the bathroom door and stepped out of the shower. Steam clouded the mirror, but one narrow streak remained clear. Studying it, I found a soapy fingerprint at the top. My brother admitted he had drawn his finger down the glass before shaving. I copied the trick the next morning.
 
 ## 000118-8d76a7dea19d
 
@@ -696,9 +714,9 @@ At 16:56, Farah loosened the jar lid. Her grandfather watched her hands and corr
 
 ## 000118-6836dd117d8c
 
-At 11:03, I straightened the photograph on the mantel. My sister's grief was a second job, complete with forms, calls, and people asking whether she had finished yet. I watched her sort the letters into separate heaps for pensions, utilities, and the nursing home.
+My sister's grief was a badly tuned radio: she could get through a rehearsal until one of Dad's old jokes came through clearly. She had taken over his part in the puppet show. I watched her stop halfway through the crocodile's speech, mouth still open behind the curtain, then begin again in her own voice.
 
-I took the utilities pile and started with the company that had sent three final notices for different amounts. She passed me a pencil and asked me to write the operator's name beside whatever balance they finally agreed was due.
+I straightened the cardboard riverbank at 11:03. She asked me to replace the joke about his false teeth with something the children would understand. We gave the crocodile a loose tooth and tried the scene again.
 
 ## 000118-b26d5735fbb5
 
@@ -710,7 +728,7 @@ At 09:37, I put the radio beside the sink. Through the open back door I could he
 
 ## 000118-7d9d54eb49c4
 
-At two twenty-four, the tutor capped her pen. We examined the phrase "anger boiled" in my grandmother's diary because its ink differed from the surrounding entry. Under the magnifier, a second date showed through. She had returned years later to add that description.
+The entry was dated 6 May 1964. Beside "anger boiled," in a darker ink, my grandmother had added "Reading this again, June 1972." We examined both under the magnifier. The darker sentence ran around the older writing, fitting itself into the margin. My tutor capped her pen at two twenty-four and asked me to record both dates in the transcript.
 
 ## 000118-d6644734fabe
 
@@ -726,7 +744,7 @@ At 06:32, I laced the second boot. The frost on the shed roof remained white whi
 
 ## 000118-4c7f4a82c217
 
-At 15:47, the receptionist uncapped a bottle of water. She looked through the appointment book for my father's old address because his records hadn't followed him. His name appeared beneath a crossed-out entry, along with the telephone number he still remembered from childhood.
+At 15:47, the receptionist uncapped a bottle of water. My father's current records hadn't followed him, so she fetched an archived appointment book from his first years at the practice. She searched its patient index for his old address. His name appeared beneath a crossed-out entry, along with the telephone number he still remembered from childhood.
 
 ## 000118-73e3fb0a8f4c
 
@@ -746,7 +764,7 @@ At 08:06, the milkman folded his empty sack. He watched the cat test the puddle 
 
 ## 000118-a6e3a59a767f
 
-The kettle's steam condensed on the bus shelter glass. I glanced at the other passengers. Our replacement bus was promised for 07:52, and the company had asked us to stay at the stop. Mrs. Crane shared the tea from her flask with anyone who had a cup.
+Steam from Mrs. Crane's open flask condensed on the bus shelter glass. I glanced at the other passengers. Our replacement bus was promised for 07:52, and the company had asked us to stay at the stop. She shared the tea with anyone who had a cup, pouring a little into the flask lid for herself.
 
 ## 000118-faf3d1ad685e
 
@@ -770,11 +788,11 @@ Water pooled under the radiator. I glanced at my daughter. Her train departed at
 
 ## 000118-85316559244b
 
-The dog trials began at 09:40, after the sheep had been moved into the lower field. Kit took in his surroundings. His coat smelled of wet wool from helping carry a lamb back to its mother. We borrowed a brush before he entered the ring.
+The dog trials began at 09:40, after the sheep had been moved into the lower field. Kit took in his surroundings. His jacket smelled of wet wool from helping carry a lamb back to its mother. We borrowed a brush for his collie before he led her into the ring.
 
 ## 000118-e4b542cc6f8a
 
-My notebook recorded the phrase "resentment curdles" because the novelist repeated it in three drafts of the same chapter. I let my gaze wander around the office. At our 14:30 discussion, the editor wanted to establish whether the repetition came from revisions or missing pages.
+The novelist's loose index card said "resentment curdles," followed by three page numbers. Two pages were present in the manuscript box. I let my gaze wander around the office while the editor fetched the other folder. Our 14:30 discussion began with the third page between us: the same paragraph, revised in pencil, with a different chapter number at the top.
 
 ## 000118-0940a8050e94
 
@@ -782,7 +800,7 @@ The concrete had set around the bottom of the broken post. Marnie looked at her 
 
 ## 000118-8f1241419502
 
-The lunch order had to reach the school before 10:20. I gazed about me. Soup steamed in a pot too large for the kitchen scales. We weighed an empty bowl, filled it twice, and used those figures to estimate how many servings remained.
+The lunch order had to reach the school before 10:20. I gazed about me. Soup steamed in a pot too large for the kitchen scales. We transferred it through a measuring jug into a spare pan: four liters remained. Two usual bowlfuls each measured a quarter liter, so we put down sixteen servings and ordered sixteen rolls.
 
 ## 000118-2886c4413b2a
 
@@ -790,7 +808,7 @@ At 23:05 the night rate began, which was why the washing machine started then. L
 
 ## 000118-448a4e908a1e
 
-The museum label described "hope crystallizing" in the artist's early sketches. I looked across at my friend. She needed the wording for a translation assignment, so I photographed the label as well as the drawing. We had until the 16:45 closing announcement to finish.
+The museum shop's catalog reproduced the drawing but omitted its wall text. My friend opened it beside the exhibit and asked me to photograph the label too. It described "hope crystallizing" in the artist's early sketches. I looked across at my friend. She held the book open while I framed the label, and the 16:45 closing announcement caught us still checking whether the photograph included the bottom line.
 
 ## 000118-e7366726d2b6
 
@@ -804,7 +822,7 @@ The chess club shared the room until 18:25, leaving us five minutes to rearrange
 
 Her disappointment was a useful compass: she compared each job offer to the work she kept wishing somebody would ask her to do. I looked at her. The interview was scheduled for 13:35, and she had finally applied for the community gardening post.
 
-The first version had sounded reassuring when he wrote it. By the next appointment, he said, it reminded him of everything he was suppressing. He wanted a sentence that left room to tell his daughter why their argument had mattered.
+She had brought photographs of the beds she'd planted outside her block, including the corner where nothing survived until she changed the soil. We chose three for her folder. She put the photograph of the failed planting first, so she could explain what she'd learned before showing them the flowers.
 
 ## 000118-e7af91bb5af4
 
@@ -860,7 +878,7 @@ The shop's recording captured the door opening at 18:02, two minutes after the t
 
 ## 000118-d0203ea2d2b2
 
-At 13:46, I took the washing off the rack. I glanced around the room. The sleeves were dry, but water remained trapped in the thick cuffs. I draped those over the warm radiator and moved the shirts to the wardrobe before the cat could settle on them.
+The cat got to the first dry shirt before I did. I lifted him off, glanced around the room, and tried the next one. Its sleeves were dry but the thick cuffs still held water. Those went over the warm radiator; the dry shirts went straight into the wardrobe. At 13:46 I folded the empty drying rack, leaving the cat underneath it with nothing soft to claim.
 
 ## 000118-4db0672f6ede
 
@@ -868,7 +886,7 @@ At 08:33, Dina unscrewed the toothpaste cap. She looked toward her sister. The s
 
 ## 000118-24533739c789
 
-At eleven forty-eight, I peeled the label from the jar. I regarded the kitchen. The honey inside had crystallized into pale grains. My grandfather set it in a bowl of warm water and told me to leave the lid loose so it would not seize.
+At eleven forty-eight, I peeled the label from the jar. I regarded the kitchen. The honey inside had crystallized into pale grains. My grandfather removed the lid and stood the jar in a bowl of warm water, shallow enough to stay below its rim. He stirred the honey while I held the jar steady.
 
 ## 000118-326d6b201db8
 
@@ -876,7 +894,7 @@ At 17:02, Callum unrolled the exercise mat. He surveyed the room. His trainer's 
 
 ## 000118-1b4a27feb125
 
-At 20:24, I placed the chess pieces in their box. I looked across at Mum. Rainwater had seeped under the conservatory door and swollen its wooden frame. She wanted to finish our game elsewhere, but neither of us remembered whose turn it had been.
+Rainwater had seeped under the conservatory door and swollen its wooden frame. Mum wanted to finish our chess game in the kitchen. I photographed the board, placed the pieces in their box at 20:24, and looked across at her. Neither of us remembered whose turn it had been. The photograph would restore the position, but we would have to settle the turn ourselves.
 
 ## 000118-f8a9049170cd
 
@@ -916,7 +934,7 @@ At 15:38, Rose clipped the receipt to the order form. She scanned her surroundin
 
 ## 000118-543debea9bcb
 
-At 06:41, I set the porridge bowl on a folded towel. I looked at my brother. The towel absorbed the milk spilling from a chipped rim. He had brought the bowl from his first flat and wanted to keep using it until the handle came off.
+At 06:41, I set the porridge bowl on a folded towel. I looked at my brother. Milk seeped through a crack running from the rim below the liquid's surface, and the towel absorbed it. He had brought the handled bowl from his first flat and wanted to keep using it until the handle came off.
 
 ## 000118-391ee7ef29e2
 
@@ -954,7 +972,7 @@ At 16:44, I tucked my gloves into my helmet. I let my eyes travel over the group
 
 ## 000118-cecf5d050b2f
 
-At nine thirty-six, Fern replaced the pen in its stand. She peered about the office. The training manual used "anger is steam" as an example of metaphor. Her translation needed a different image because the literal wording in her language suggested a practical source of energy.
+Fern's test print cropped the final word from the exhibition label "anger is steam." All the other labels fitted their borders. She reduced this one's type by a point and sent another sheet through, then peered about the office while the printer warmed up. At nine thirty-six she replaced the pen in its stand. The second print included the whole quotation and the speaker's name.
 
 ## 000118-6cbcc99d6d35
 

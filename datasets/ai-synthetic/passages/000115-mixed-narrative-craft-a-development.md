@@ -22,7 +22,7 @@ The puncture was beside the valve, where my usual patch would overlap the thicke
 
 ## 000115-948ddbd52456
 
-"We'll need another bag of flour," Ruth said, reading the recipe from her phone. The cat flicked its tail. I lingered for a moment before answering. "There's one under the sink, behind the dishwasher tablets." She retrieved it by the folded top, leaving a white trail across her trousers. We discovered that the bag had a mouse hole in the bottom and ordered bread with the rest of the shopping.
+"We'll need another bag of flour." Ruth held her phone above the mixing bowl, scrolling back to the ingredients. After lingering a moment, I told her to try under the sink. She pulled the bag out by its folded top and left a white trail across her trousers. A mouse had chewed through the bottom. We put bread on the shopping order and washed the bowl.
 
 ## 000115-52058e0e5e04
 
@@ -38,7 +38,7 @@ Dad's name was on the list of successful applicants. A warm flutter opened benea
 
 ## 000115-7358b02010bc
 
-Martin collected the envelope from the sorting office on his lunch break. It contained the signed agreement giving his sister their mother's house. The envelope seemed to weigh a hundred pounds in his hand. At the crossing, he waited for a delivery lorry to finish reversing across the pavement. He used its flat tailboard to write the date beside his signature, then posted the agreement in the box outside the chemist.
+Martin collected the envelope from the sorting office on his lunch break. It contained the signed agreement giving his sister their mother's house. The envelope seemed to weigh a hundred pounds in his hand. At the crossing, he waited for a delivery lorry to finish reversing across the pavement. Once it had parked, the driver let him use the lowered tailboard to date his own signature. Martin posted the agreement outside the chemist.
 
 ## 000115-9fa181bad094
 
@@ -70,7 +70,7 @@ The adoption office had approved our application. My heart turned a little somer
 
 ## 000115-15532a7ebb55
 
-Someone had paid the remaining balance on Rosa's washing machine. Warmth spread across her chest. The shop was quiet enough to hear the assistant checking the payment reference over the telephone. Rosa waited for him to finish, hoping the reference might identify which daughter to thank.
+Rosa stayed beside the counter while the assistant telephoned accounts. In the quiet shop she could follow his side of the conversation. "Paid in full? Even the delivery?" Warmth spread across her chest. One of her daughters must have settled the washing-machine bill. She leaned toward the telephone when he asked for the payment reference, hoping it would tell her which one.
 
 ## 000115-9e4044f21443
 
@@ -86,7 +86,7 @@ When the auctioneer accepted her bid, Nell's knees went watery. She remained sea
 
 ## 000115-1aebededa38f
 
-Your sister says she has sold the cottage, including the boat you helped restore. Something clamps beneath your breastbone. You let her finish listing the contents before mentioning the separate boat registration. The water outside is perfectly still, reflecting the registration number on the overturned hull.
+Your sister says she has sold the cottage, including the boat you helped restore. Something clamps beneath your breastbone. You let her finish listing the contents before mentioning the separate boat registration. Outside the window, the boat floats beside the landing stage. Its number is painted above the waterline, each digit repeated upside down in the perfectly still water.
 
 ## 000115-c1036f0bd141
 
@@ -106,7 +106,7 @@ The venue had booked another wedding on our date. My pulse kicked hard. I stayed
 
 ## 000115-45da43cc8634
 
-"She remembered you in the will," Uncle Ted said. The teaspoon felt suddenly heavy in my hand. I waited until he found the relevant paragraph, unwilling to discuss guesses. The cafe was quiet enough for his unamplified voice; he had left his hearing aids at home.
+"She remembered you in the will," Uncle Ted said. The teaspoon felt suddenly heavy in my hand. I waited until he found the relevant paragraph, unwilling to discuss guesses. He had left his hearing aids at home, but the cafe was quiet enough for him to follow my questions across the table.
 
 ## 000115-000ae2dd084d
 
@@ -118,7 +118,7 @@ I saw my former partner's handwriting on the birthday package. My breath snagged
 
 ## 000115-64bd7a5bb68d
 
-A stranger in the reunion photograph was wearing Daniel's old school blazer. A small drum started inside his ribs. He held the photograph steady while his aunt examined it through her magnifier. The dining room was empty of furniture after her move, giving them good window light.
+A stranger in the reunion photograph was wearing Daniel's old school blazer. A small drum started inside his ribs. He held the photograph steady while his aunt examined it through her magnifier. Her dining room was empty after the furniture collection. Without the tall dresser blocking half the window, they could examine the print in daylight instead of beneath the yellow ceiling bulb.
 
 ## 000115-0d2b8011cd7e
 
@@ -126,7 +126,7 @@ Our names were both printed on the tenancy agreement. My insides fluttered. We w
 
 ## 000115-fd872ce36ecb
 
-The message said Owen had withdrawn from the partnership. A weight settled in Lucy's stomach. She kept the account open until the final standing order cleared. Its balance was then empty, matching the spreadsheet she had maintained through eighteen months of rent and electricity payments.
+The message said Owen had withdrawn from the partnership. A weight settled in Lucy's stomach. She kept the account open until the final standing order cleared. Its balance was then zero, matching the spreadsheet she had maintained through eighteen months of rent and electricity payments.
 
 ## 000115-2c0d52781119
 
@@ -134,7 +134,7 @@ Dad announced that he had bought a motorcycle with the holiday money. My jaw loc
 
 ## 000115-809a650139d7
 
-They called her name for the last place on the evening course. A bright current passed through her limbs. She stayed by the desk until the clerk stamped her receipt. The classroom was empty of computers; this was the pottery course she had wanted all along.
+They called her name for the last place on the evening course. A bright current passed through her limbs. She stayed by the desk until the clerk stamped her receipt. Through the classroom door she could see empty drying racks above a row of pottery wheels. She chose the wheel nearest the sink and put her apron on its stool.
 
 ## 000115-64ca602b09df
 
@@ -150,7 +150,7 @@ I found the scholarship email in my junk folder. My chest bloomed with warmth. I
 
 ## 000115-8e90ac8c33c5
 
-Her old employer had advertised the same job at a higher salary. A bitter heat gathered behind her eyes. She postponed replying to his friendly message until she had checked the dates. Outside, the pavement was empty enough for the window cleaner to spread his ladders across it.
+She had nearly replied to her old employer's friendly message when his job advertisement appeared beneath it. Same duties, same office, a higher salary. Reading it brought a bitter heat behind her eyes. She opened her old contract and checked the dates before writing back. Outside her window, a cleaner had spread his ladders across the empty pavement and was calling up for someone to lower a bucket.
 
 ## 000115-4a633b234730
 
@@ -174,7 +174,7 @@ The organizer asked Priya to lead next month's walking group. Her shoulders lift
 
 ## 000115-66f26310b0f4
 
-The returned manuscript included a handwritten invitation to submit another story. A soft tremor opened inside my chest. I waited until the rain eased before cycling to collect the recorded delivery. The post-office lobby was empty, allowing me to wheel the bicycle inside without blocking anyone.
+I waited until the rain eased before cycling to collect the recorded delivery. The post-office lobby was empty, allowing me to wheel the bicycle inside without blocking anyone. At home I opened the returned manuscript. A handwritten note invited me to submit another story, and a soft tremor opened inside my chest. I put the note above my desk, where the rejection slips had been.
 
 ## 000115-b561af82d5d1
 
@@ -190,7 +190,7 @@ Nina opened the envelope and found two tickets instead of one. Happiness fizzed 
 
 ## 000115-38dce01d0739
 
-Jules heard that the shop would close before Christmas. His stomach fell through the floor. A strange quiet wrapped the stockroom. He remained on the line until the union representative confirmed the meeting time, then wrote it on the delivery board where the early shift would see it.
+"Put Thursday on the board," the union representative said. Jules uncapped the marker. A strange quiet wrapped the stockroom. "This Thursday?" He kept the telephone at his ear until she confirmed the date, then wrote it above the early shift's delivery list. The shop would close before Christmas. His stomach fell through the floor as he added the meeting time, squeezing the last digit between two orders already booked for January.
 
 ## 000115-f319525d9be5
 
@@ -206,7 +206,7 @@ I recognized my bicycle in the police photograph by its repaired mudguard. My bl
 
 ## 000115-d7cea890a1f1
 
-The invitation included the cousin who had stopped speaking to Harry. A wire tightened through his middle. The evening felt suspended and still. He waited for his wife to finish reading before asking whether they should accept. She pointed out that the wedding was on their anniversary.
+The evening felt suspended and still as Harry's wife unfolded the wedding invitation. She read down the guest list with her finger; he waited for her to reach the bottom. Beside the cousin who had stopped speaking to him was a handwritten request that they share a car. A wire tightened through his middle. "Shall we go?" he asked. She turned back to the date. It was their anniversary.
 
 ## 000115-cc081348aa82
 
@@ -242,7 +242,7 @@ A customer accused Fran of charging him twice. Her face flamed. The cafe was hea
 
 ## 000115-01dfc34633ce
 
-I learned that my fishing partner had invited someone else for opening day. Something sank behind my ribs. The shed was still. I kept the varnished oar suspended until the drip stopped before setting it on the rack. We'd painted our initials beneath the handle last summer.
+The shed was still. I held the oar above its rack, turning it until the last drop of varnish gathered at the blade. We'd painted our initials beneath the handle last summer. This year he had invited somebody else for opening day; something sank behind my ribs whenever I pictured them taking the boat out. The drop fell onto the newspaper. I lowered the oar onto its supports and wiped the handle clean.
 
 ## 000115-97c82e9b7788
 
@@ -262,7 +262,7 @@ Our old babysitter appeared on the doorstep carrying her own baby. My stomach fl
 
 ## 000115-bbdbfec44e7b
 
-The accountant found an unpaid invoice from Theo's first customer. His teeth pressed together with anger. A hush lingered in the office. He waited for the accountant to check the credit notes before calling. There was a matching cancellation, filed under the customer's previous trading name.
+The accountant found an unpaid invoice from Theo's first customer. Theo's teeth pressed together with anger. A hush lingered in the office. Before calling the customer, Theo waited for the accountant to check the credit notes. There was a matching cancellation, filed under the customer's previous trading name.
 
 ## 000115-c3c90e1e9171
 
@@ -290,11 +290,11 @@ The replacement photograph showed my grandfather holding a child nobody could id
 
 ## 000115-385aa92b9270
 
-The repair shop had recovered all our holiday photographs. My heart bounded. I paused briefly, then handed over the memory stick. The shop was quiet enough for me to hear the technician explaining which folders had been damaged, despite a road drill operating outside the open doorway.
+The repair shop had recovered all our holiday photographs. My heart bounded. I paused briefly, then handed over the memory stick. Outside, the road crew stopped drilling to change the bit. In the sudden quiet I could hear the technician explaining which folders had been damaged, even with the shop door open.
 
 ## 000115-65d1928abe34
 
-Clare read that her brother had listed their shared camper van for sale. Her jaw tightened. She lingered a little before opening the photographs. The driveway in the pictures was empty except for the van, although their agreement said he could use it only during school holidays.
+Clare read that her brother had listed their shared camper van for sale. Her jaw tightened. She lingered a little before opening the photographs. The driveway in the pictures was empty except for the van; Clare's car should have been there too. He must have taken the photographs while she was away during term time, when their agreement required the van to remain in storage.
 
 ## 000115-75d3022174e8
 
@@ -322,7 +322,7 @@ My sister had given the baby our grandmother's name. Warmth curled inside my che
 
 ## 000115-5abddc13bbb6
 
-The choir director wanted me to sing the opening verse alone. My pulse fluttered. The spaniel flicked an ear. I asked whether I could use the lower arrangement. The church was cold enough to show our breath, and we rehearsed in coats beside the portable heater.
+We rehearsed in coats beside the church's portable heater, our breath showing above the music stands. When the director penciled my name against the opening solo, my pulse fluttered. I lingered a moment before asking to try the lower arrangement. She found it in the cupboard, with the harmony part my sister used to sing still clipped to the back.
 
 ## 000115-baacd9f1c31d
 
@@ -338,7 +338,7 @@ The foreman blamed Sian for ordering the wrong tiles. Her skin went hot. She wai
 
 ## 000115-1c60a978e2df
 
-Dad's old union badge appeared in the display case. My throat filled with a lump. I paused on the spot before reading the caption. The case beside it was empty, its contents temporarily borrowed by the town museum for an exhibition about the factory's final year.
+Dad's old union badge appeared in the display case. A lump rose in my throat. I paused a moment before reading the caption. The case beside it was empty, its contents temporarily borrowed by the town museum for an exhibition about the factory's final year.
 
 ## 000115-7931adc4b61d
 
@@ -362,7 +362,7 @@ Kieran's former apprentice was now inspecting his work. A chill flowered under h
 
 ## 000115-ad5993486b7c
 
-The postcard was from a friend I thought had died. My heart lurched sideways. I lingered over things for a moment before turning it over. The station cafe was quiet enough to telephone the number she had written beneath a drawing of her new house.
+The postcard was from a friend I thought had died. My heart lurched sideways. I lingered a moment before turning the card over. The station cafe was quiet enough to telephone the number she had written beneath a drawing of her new house.
 
 ## 000115-6bee20ecd132
 
@@ -378,7 +378,7 @@ The registrar announced that the appointment had been cancelled. A hard knot for
 
 ## 000115-6f22b450aee9
 
-The photograph on the lost-dog notice was ours. My blood froze. I stood about for a few seconds, then rang the printed number. The street was quiet enough to hear barking from an upstairs flat while the owner on the telephone insisted the dog was in another town.
+The lost-dog notice showed the terrier my sister had rehomed last year. My blood froze. I stood about for a few seconds, then rang the printed number. In the quiet street I could hear barking from an upstairs flat. The woman who answered said she was his new owner and had last seen him outside her house in another town.
 
 ## 000115-abb5f6ecf8c5
 
@@ -414,7 +414,7 @@ Ned found his grandfather's name on the tenant petition. His heart missed a beat
 
 ## 000115-a68282fa24a6
 
-The retirement card contained a photograph from June's first day. A warm ache opened beneath her ribs. Silence floated through the office. She paused a little before turning the page. Someone had carefully added the names of the two colleagues she had forgotten in the back row.
+June balanced the retirement card against the office stapler. Silence floated through the office as she worked through its crowded pages. Someone had pasted in a photograph of her first day, and a warm ache opened beneath her ribs. There she was in the coat she had bought on credit. She paused a little before turning the page. On the reverse, a colleague had written the names of everyone in the back row.
 
 ## 000115-b185651995e1
 
@@ -422,7 +422,7 @@ The allotment committee had given our plot to someone else. My jaw hardened. The
 
 ## 000115-9dcb1b00b2ed
 
-Her brother announced that he would be home for the harvest. Joy prickled along Mara's arms. The farmhouse felt strangely still. The cat twitched its tail. Mara asked whether he was bringing the children, then doubled the potatoes on the shopping list taped beside the telephone.
+Mara already had potatoes on the shopping list when her brother telephoned. "For the harvest," he said. "I'll be there this year." Joy prickled along her arms. She waited a little before asking whether he meant the children too. The farmhouse felt strangely still. At his answer she crossed out the quantity and doubled it, writing sideways to fit the number between potatoes and washing powder.
 
 ## 000115-76454b80b109
 
@@ -486,11 +486,11 @@ The piano teacher returned the fee and said she was retiring. My throat tightene
 
 ## 000115-64fa8252a482
 
-The postcard showed the bench that Luis had repaired with his uncle. His heart thudded with recognition. The room was steeped in stillness. The dog flicked its tail. Luis turned the card over and found a message from his uncle's daughter, inviting him to visit in May.
+The invitation was signed by his uncle's daughter: any weekend in May, and he could stay in the old room. Luis turned the postcard back to its photograph. The room was steeped in stillness. His heart thudded with recognition at the bench beside the gate, its replacement slat still paler than the others. He lingered for a moment before putting the card down. He and his uncle had fitted that slat the summer before the house was sold.
 
 ## 000115-4c34a5125675
 
-Our entry had been disqualified for arriving after midnight. My stomach hollowed out. A dull quiet hung over the classroom. I waited for a moment before checking the sent folder. The email had left at eleven forty, but its large attachment had bounced back while we slept.
+Our entry had been disqualified because no submission had reached the organizers by midnight. My stomach hollowed out. A dull quiet hung over the classroom. I waited for a moment before checking the sent folder. The email had left at eleven forty, but a delivery-failure message showed that the attachment exceeded the organizer's size limit. None of us had checked for a reply before going to bed.
 
 ## 000115-4bed1f3721b5
 
@@ -522,7 +522,7 @@ The hall was empty except for the caretaker's bicycle, propped beneath the leaki
 
 ## 000115-59231f5a823b
 
-"My heart was racing" appeared twice in the witness statement, once before the cyclist reached the crossing and once afterward. We kept both instances in the transcription. The interview room was quiet enough to distinguish the witness's words from the clerk's questions on the old recording.
+The solicitor tapped the first occurrence of "My heart was racing" in the witness statement. "Before the crossing, or after?" On the recording the witness said it twice, once as the cyclist approached and again after the collision. In the quiet interview room we could distinguish his words from the clerk's questions. I restored the sentence the typist had deleted as a repetition, and the solicitor initialed the margin.
 
 ## 000115-733ea08e4cde
 
@@ -546,7 +546,7 @@ The pupils fell silent when Mrs. Bell raised her hand, their agreed signal that 
 
 ## 000115-bae86846d103
 
-I waited beneath the bridge while the hail passed. My fingers were numb enough that I used both hands to open the map case. The towpath ahead was empty of shelter for nearly a mile, with the next bridge marked beyond the bend by the old mill.
+I waited beneath the bridge while the hail passed. My fingers were numb enough that I used both hands to open the map case. There was no shelter along the towpath for nearly a mile; the next bridge was marked beyond the bend by the old mill.
 
 ## 000115-5236097a3a5d
 
@@ -570,7 +570,7 @@ The mare's ears flattened when I tightened the girth. I loosened it and found a 
 
 ## 000115-859b2144fdc9
 
-After sorting onions, my eyes watered so badly that I could barely read the scale. I waited by the open door until the stinging eased. The kitchen counter was empty except for the weighing bowl; everything else had been moved into the dining room for the pickling session.
+After slicing onions, my eyes watered so badly that I could barely read the scale. I waited by the open door until the stinging eased. The kitchen counter was empty except for the weighing bowl; everything else had been moved into the dining room for the pickling session.
 
 ## 000115-5946646e7d1f
 
@@ -582,11 +582,11 @@ The box felt heavier after I put the tins along its bottom, and the cardboard ha
 
 ## 000115-88c75f95d89d
 
-At the pottery wheel my shoulders crept upward until the teacher pressed them down, showing how the tension distorted my grip. I stopped the wheel to reset my hands. The studio was silent during demonstrations, and the scrape of my uneven bowl against the wire carried across it.
+At the pottery wheel my shoulders crept upward until the teacher pressed them down, showing how the tension distorted my grip. I stopped the wheel to reset my hands. During the demonstration everyone else kept silent. The teacher could hear my sleeve brushing the clay and told me to roll it above my elbow.
 
 ## 000115-c9bdbc6ebf70
 
-The creek was still above the fallen branch and foamy beneath it. We waited for the floating bottle to emerge before deciding where the current ran deepest. My legs shook from balancing on the bank, so I sat down to mark the spot on our survey sheet.
+The creek was still above the fallen branch and foamy beneath it. We watched our floating marker bottle emerge on the far side, tracing the current around the branch's submerged end. My legs shook from balancing on the bank, so I sat down to draw its route on our survey sheet. Downstream, Maya caught the bottle in her net.
 
 ## 000115-699ca13e0e6f
 
@@ -618,7 +618,7 @@ My stomach cramped after the milkshake, as it had after the ice cream last week.
 
 ## 000115-1a756d84a197
 
-The square was empty of parked cars for the first time since I'd lived there. White rectangles marked where each bay had been scrubbed for repainting. We waited at the barrier while the last stripe dried, carrying our shopping home through the alley behind the butcher's instead.
+The square was empty of parked cars for the first time since I'd lived there. White rectangles marked where each bay had been scrubbed for repainting. We waited at the barrier for the painter to reopen the crossing. He pointed to the wet stripe across it and shook his head. We took our shopping home through the alley behind the butcher's.
 
 ## 000115-f90ec21859d8
 
@@ -638,7 +638,7 @@ The garage was oddly still. I held my breath while reaching through the inspecti
 
 ## 000115-35fa0d1a1fec
 
-"Her heart was in her mouth" appeared in the newspaper clipping, but the diary described the same journey as uneventful. Silence hung around the table. We kept both accounts in the family history and delayed printing until my aunt could identify the driver in the accompanying photograph.
+My aunt wanted the newspaper clipping reproduced beside the diary entry. The clipping called it a journey with "her heart in her mouth"; in the diary she had recorded a sandwich and a missed connection. Silence hung around the table. I made room for both on the family-history page. We left the photograph caption unfinished until my aunt could identify the driver, whose cap concealed most of his face.
 
 ## 000115-2eb5eb912651
 
@@ -674,7 +674,7 @@ The office held a heavy silence. Dev tilted his head toward the doorway, our sig
 
 ## 000115-17d441b97c6c
 
-My cheeks were hot where the welding shield had trapped the sun, leaving a pale outline around my eyes. The yard was quiet and motionless. We kept the repaired bracket clamped until it cooled enough to handle, then checked whether its bolt holes still aligned with the gate.
+My cheeks were hot after an afternoon in the sun; the safety goggles had left pale rings around my eyes. The yard was quiet and motionless. We kept the repaired bracket clamped until it cooled enough to handle, then checked whether its bolt holes still aligned with the gate.
 
 ## 000115-ce7a64259de3
 
@@ -682,7 +682,7 @@ The cabin seemed steeped in stillness. My brother's teeth chattered after he sli
 
 ## 000115-ed4b10b0ae40
 
-Silence settled over the common room. The puppy's tail knocked the water bowl over, soaking the permission slips we'd laid on the floor. We waited for the photocopier to finish another job before replacing them. My palms were wet from rescuing the papers, so Kim loaded the tray.
+Silence settled over the common room. The puppy's tail swept a mug off the low table, spilling water over the permission slips. We waited for the photocopier to finish another job before replacing them. My palms were wet from rescuing the papers, so Kim loaded the tray.
 
 ## 000115-b35656c5e14c
 
@@ -698,7 +698,7 @@ The church was wrapped in a deep hush. Ruth waited for the organist's chord to e
 
 ## 000115-69ee19c29f2e
 
-My shoulders ached where the backpack straps crossed them, and the skin beneath one buckle had begun to peel. We waited for shade before unloading the bottles and redistributing their weight. A stillness lay over the hillside. The shortest path back followed the stream to the car park.
+My shoulders ached where the backpack straps crossed them, and the skin beneath one buckle had begun to peel. A cloud shadow was moving up the exposed hillside toward us. We waited for it to reach our packs before unloading the bottles and redistributing their weight. A stillness lay over the hillside. The shortest path back followed the stream to the car park.
 
 ## 000115-625a8f3b2cdd
 
@@ -722,7 +722,7 @@ My fingertips prickled as they warmed beneath the tap, and I could finally bend 
 
 ## 000115-a53025fb38e0
 
-The room had a strange stillness about it. Uncle Ray rubbed his eyes after the camera flash, leaving red marks where the frames had pressed his nose. We waited until the flash recharged before taking a second picture, this time warning him to look beside the lens.
+The room had a strange stillness about it. Uncle Ray took off his glasses to rub his eyes after the camera flash; two red dents marked the bridge of his nose. We waited until the flash recharged before taking a second picture, this time warning him to look beside the lens.
 
 ## 000115-ffa9e502bf2c
 
@@ -734,7 +734,7 @@ The dining room seemed empty and remote. We delayed serving until the last guest
 
 ## 000115-7057a5c8c5b9
 
-The council had moved the recycling point behind the swimming pool. I copied the new collection hours onto our kitchen calendar and put the old leaflet in the paper bag. The house was very still. On Fridays the pool opened early enough to drop bottles before work.
+The council had moved the recycling point behind the swimming pool, inside its locked perimeter gate. I copied the gate's opening hours onto our kitchen calendar and put the old leaflet in the paper bag. The house was very still. On Fridays the pool opened early enough to drop bottles before work.
 
 ## 000115-2de2e4b59840
 
@@ -758,7 +758,7 @@ I held my breath as I ducked beneath the dusty curtain, keeping the chalk from m
 
 ## 000115-6e78d1c132a1
 
-The cat flicked an ear. "Try the other charger," I told Dad. His hands shook too much to align the tiny plug, so I connected it while he held the tablet. The lounge was quiet with the television unplugged, and we could hear its charging chime immediately.
+Dad held the tablet sideways, trying to line up the tiny charging socket. His hands shook, and the plug kept striking its rim. I lingered for a moment, then took the cable from him. With the television unplugged, the lounge was quiet enough for us to hear the charging chime. We left the tablet flat on the table and used the longer cable so he could watch it from his chair.
 
 ## 000115-06db1a9964dc
 
@@ -770,7 +770,7 @@ The stairwell was silent enough for Mara to identify the dripping pipe behind th
 
 ## 000115-c75ad97dec86
 
-I stopped for a little while before checking the departure board. My calves were still trembling from the long descent, making the station steps awkward. The forecourt was empty of taxis, although the painted waiting bays stretched all the way from the ticket office to the road.
+My calves were still trembling from the long descent, and I used the handrail all the way down the station steps. At the bottom I stopped for a little while before checking the departure board. The forecourt was empty of taxis, although the painted waiting bays stretched all the way from the ticket office to the road.
 
 ## 000115-6b65ce30f71f
 
@@ -778,7 +778,7 @@ The phrase "her heart sank" was missing from the subtitles, leaving the joke abo
 
 ## 000115-ec256964713d
 
-The yard was cold enough that the hose had frozen solid beneath its outer sleeve. Nell's fingers went numb as she coiled it, and she used her forearms to lift the reel. She waited a little, then brought the watering cans from the greenhouse for the indoor plants.
+The yard was cold enough that the hose had frozen solid on its reel. Nell's fingers went numb as she gripped the metal frame, and she used her forearms to carry it into the shed. She waited a little, then brought the watering cans from the greenhouse for the indoor plants.
 
 ## 000115-aa31504d0413
 
@@ -786,7 +786,7 @@ Dan's jaw clicked each time he opened wide, so the dentist shortened the examina
 
 ## 000115-2f7ed93b0de5
 
-My heart was beating fast enough after the swim that counting strokes on the fitness watch proved impossible; it kept displaying my pulse instead. I hung back a moment before entering the changing room. The pool was still now the lanes had cleared, reflecting the ceiling's numbered maintenance panels.
+I had left my fitness watch on its recovery screen after the swim. My pulse was still fast; the display showed 132 instead of the stroke total I wanted. I hung back a moment before entering the changing room. The pool was still now the lanes had cleared, reflecting the ceiling's numbered maintenance panels.
 
 ## 000115-8d9dbdf6dfb0
 
@@ -814,23 +814,23 @@ I kept walking for a moment, then opened the message. My hand was shaking from t
 
 ## 000115-64d56683120d
 
-The recipe card said "rub until your fingers tingle," an instruction my mother had crossed out and replaced with "three minutes." I waited a beat before copying it. The kitchen was cold enough to keep the pastry firm, and I could roll it without adding extra flour.
+The pastry rolled cleanly in the cold kitchen, without the usual dusting of flour. On the recipe card Mum had crossed out "rub until your fingers tingle" and written "three minutes." I wanted her correction in the cookbook, beside a photograph of the card. I waited a beat before copying it into the page layout. A greasy thumbprint obscured the oven temperature, so I checked that against her notebook.
 
 ## 000115-c10f4a4a41ba
 
-Amir's mouth had gone dry from breathing through it during the dusty cleanup, and he drank before reading the meter aloud. He remained beside it a little longer, then shut the cupboard. The flat was empty of tenants now, revealing the patches they had concealed behind wardrobes.
+Amir's mouth had gone dry from breathing through it during the dusty cleanup, and he drank before reading the meter aloud. He remained beside it a little longer, then shut the cupboard. The tenants had taken their furniture when they left; in the empty flat, dark patches showed where their wardrobes had stood.
 
 ## 000115-525eca863048
 
-The waiting room was silent because the television's sound had been disabled for the hearing tests. I paused a little before filling in the form. My eyes still watered from the wind outside, blurring the boxes, so the receptionist offered a large-print copy and a thicker pen.
+The waiting room was silent because the television's sound had been disabled for the hearing tests. My eyes still watered from the wind outside, blurring the boxes on the form. The receptionist brought a large-print copy and a thicker pen. Once I could distinguish the boxes, I paused a little before filling in my address. The pen left a dark line I could follow without leaning over the clipboard.
 
 ## 000115-9c6b78dcf044
 
-The horse twitched its tail. "The delivery comes Thursday," said Alice, counting the feed sacks. Her wrist hurt when she lifted the clipboard, so she rested it on the gate. The feed room was empty along one wall, leaving enough space for the new pallet without moving the bins.
+Alice counted the feed sacks from the doorway. Along the empty wall she marked out the size of Thursday's pallet with her boot. Her wrist hurt when she lifted the clipboard, so she laid it across the gate and wrote there. She stayed where she was for a little while before asking me to count again. We had included the open sack twice.
 
 ## 000115-5881f5f929dc
 
-I stood still for a short while before opening the cupboard. My shoulders were too broad to pass through the hatch facing forward, so I turned sideways with the torch above my head. The crawlspace was cold compared with the kitchen, identifying where the missing insulation should have been.
+I stood still for a short while before opening the cupboard. My shoulders were too broad to pass through the hatch facing forward, so I turned sideways with the torch above my head. Inside the crawlspace, a strip of exposed ceiling plaster felt cold between two runs of insulation. The third roll had stopped short of the wall, leaving that strip uncovered.
 
 ## 000115-620c154ea934
 
@@ -842,7 +842,7 @@ My cheeks stung where the scarf had rubbed them raw, and I covered the patches w
 
 ## 000115-5dab2d932d95
 
-The shed was cold enough to keep the seed potatoes dormant, with only short pale shoots showing through the paper. We hung back a little before opening the next sack. Dad wanted the earliest variety planted beside the path, where he could reach it without crossing the wet beds.
+The shed stayed cold, slowing the seed potatoes' growth; only short pale shoots showed through the paper. We hung back a little before opening the next sack. Dad wanted the earliest variety planted beside the path, where he could reach it without crossing the wet beds.
 
 ## 000115-8bd82a375f8b
 
@@ -854,11 +854,11 @@ My hands shook after using the pneumatic drill, so the caretaker wrote the meter
 
 ## 000115-de7e039c231f
 
-The kitchen seemed heavy and still. Ruth's shoulders were sore from decorating overhead, and she lowered the ironing board to avoid lifting her arms. She lingered a little before plugging it in. The tablecloth needed pressing before the family arrived, especially along the fold where it would hang.
+The kitchen seemed heavy and still. Ruth's shoulders were sore from decorating overhead, and she lowered the ironing board to avoid lifting her arms. She lingered a little before plugging in the iron. The tablecloth needed pressing before the family arrived, especially along the fold where it would hang.
 
 ## 000115-f692276a9ea0
 
-"My stomach dropped" was the only sentence the interviewee had added in red ink. We kept that wording in the revised transcript. A hush lay over the office. I paused for a moment before emailing it, then attached the original scan so the editor could see the amendment.
+I attached the marked-up interview scan to the editor's email. A hush lay over the office. In red ink, the interviewee had inserted "My stomach dropped" between two paragraphs of the typed transcript. I put the sentence in exactly where she had marked it. After pausing a moment, I sent both versions with her approval letter, whose date the editor had asked me to confirm.
 
 ## 000115-3ac40090b4d3
 
@@ -870,7 +870,7 @@ The dog flicked its tail. I asked Mum which suitcase she wanted downstairs. Sile
 
 ## 000115-9e896cadb8c4
 
-My breath was still ragged from carrying the chair upstairs, and I couldn't read the instructions aloud without stopping. The landing was strangely still. I waited a beat before opening the fittings bag. It contained two spare washers, packed separately from the numbered screws in a smaller envelope.
+My breath was still ragged from carrying the chair upstairs, and I couldn't read the instructions aloud without stopping. I sat on the chair until I could finish the first paragraph in one go. The landing was strangely still. I waited a beat before opening the fittings bag. It contained two spare washers, packed separately from the numbered screws in a smaller envelope.
 
 ## 000115-2937d3f7d1a5
 
@@ -878,11 +878,11 @@ The garden seemed hushed and remote. Anne's knees hurt when she crouched, so we 
 
 ## 000115-960ba233c15a
 
-My mouth had gone dry after an hour explaining the route, and the guidebook's place names became difficult to pronounce. Quiet hung around the coach. I lingered briefly before taking a drink. One passenger lent me a map with larger lettering for the final villages on the itinerary.
+My mouth had gone dry after an hour explaining the route, and the guidebook's place names became difficult to pronounce. Quiet hung around the coach. I lingered briefly before taking a drink. A passenger offered to read out the final villages while I rested my voice, and I passed him the guidebook with my finger under the next stop.
 
 ## 000115-0875f2abfd80
 
-The diary read "my heart leaped," but the next line had been scratched away. The archive felt hollow and quiet. We let a little time pass before examining the reverse. Under the lamp we could make out the pressure marks, enough to identify the name of the visitor.
+The archive felt hollow and quiet. On the diary page, "my heart leaped" survived above a line scratched out so thoroughly that the paper had thinned. We let a little time pass before examining the reverse. My sister held the lamp almost level with the page. The indentations caught its light, and together we followed them through the visitor's surname, comparing the first letter with the signature on his postcard.
 
 ## 000115-73f6ec758254
 
@@ -934,7 +934,7 @@ The envelope felt heavier once Saira added the brass nameplate, and she reinforc
 
 ## 000115-9800c8658288
 
-The attic held a thin silence. My chest felt tight beneath the badly adjusted dust mask, so I loosened its lower strap. I stayed there for a moment before opening the next trunk. It contained the curtains from the old flat, folded around their original wooden poles and brass rings.
+The attic held a thin silence. The dust mask pressed painfully across the bridge of my nose, so I slackened its upper strap and reseated it. I stayed there for a moment before opening the next trunk. It contained the curtains from the old flat, folded around their original wooden poles and brass rings.
 
 ## 000115-33ab7b88a321
 
@@ -946,11 +946,11 @@ The letter described "a chill down my spine" in the account of the first rehears
 
 ## 000115-9da958b66091
 
-The greenhouse felt hollow and still. I waited a short while before checking the watering timer. My hands were slick from splitting aloe leaves, so I dried them before turning its dial. The timer had reverted to its factory setting after the battery failed, watering the seedlings every other day.
+The greenhouse felt hollow and still. I waited a short while before checking the watering timer. My hands were slick from splitting aloe leaves, so I dried them before turning its dial. Since I had replaced the failed battery, the timer had been running its factory schedule, watering the seedlings every other day instead of each morning.
 
 ## 000115-205e6fadce7c
 
-The terrier flicked an ear. "Put the parcel by the stairs," said Hugo. The hall was steeped in quiet. His back had seized after lifting the washing machine, so he directed us from a kitchen chair. We left the replacement part downstairs where he could reach it without bending.
+From his kitchen chair Hugo directed us past the washing machine to the space beneath the stairs. His back had seized while moving it, and he could reach the replacement part only if we left the parcel on the bottom step. The hall was steeped in quiet. I lingered a little before cutting the tape. He asked me to save the address label with the receipt inside.
 
 ## 000115-9107ddac1a3f
 

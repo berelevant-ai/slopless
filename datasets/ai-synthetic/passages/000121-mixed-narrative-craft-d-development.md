@@ -10,7 +10,7 @@ In Grandad's manuscript, the sentence was "Loneliness became the landlord." Besi
 
 ## 000121-dd2ec0a44154
 
-The station clerk said our tickets were valid on the replacement bus, but the driver wanted a printed voucher. The next hour passed in a blur of activity. We went back to the clerk, who printed two vouchers and circled the departure bay. Outside, the same driver accepted them. "That's what I needed," he said. Our original tickets were still clipped to the vouchers.
+By dawn the courier still lacked permission to cross the railway bridge. The next hour passed in a blur of activity. At the checkpoint she presented the dispatch twice, first to the corporal and then to an officer summoned from the signal box. He wrote a crossing time beneath the seal. She reached the eastern bank while the engineers were laying charges under the western span.
 
 ## 000121-6a7ae6c59cc5
 
@@ -34,7 +34,7 @@ Nadia's brother had brought the wrong suitcase from the airport. Inside were hik
 
 ## 000121-12ae8cb82cd8
 
-My sister called to ask whether I wanted Dad's workbench. I had nowhere to put it, but I asked for its measurements anyway. Grief had become a permanent member of the family. She read the dimensions from the auction listing: six feet long, two feet deep. There were already three bids. "Leave it there," I said. "Someone will use it." She asked if I wanted his tools listed separately.
+"Six feet long," my sister said. "Two feet deep." I measured the space beneath my window while she stayed on the line. Dad's workbench would block the radiator and half the doorway. I asked her to measure it again. There were already three bids on the auction listing, and grief had become a permanent member of the family. When she asked about his tools, I told her to keep the drawer shut until I came.
 
 ## 000121-3bb6a12bafb8
 
@@ -66,7 +66,7 @@ Mara found the missing rent money in the envelope marked "Christmas." The date o
 
 ## 000121-a03720ed7e8d
 
-The laundrette windows were blurred with steam, though I could still read the closing time. I flattened the damp note against the counter so the attendant could count it. Shame had taken up residence beside me. My daughter's school trousers revolved alone in the smallest dryer.
+"Another ten minutes?" the attendant asked. Behind the steamed-up glass, my daughter's trousers revolved alone in the smallest dryer. I flattened the damp note on the counter. It was enough for ten minutes or the bus home. Shame had taken up residence beside me. "Ten," I said, and moved our bags away from the door so the attendant could lock it.
 
 ## 000121-a5a5926576d9
 
@@ -106,7 +106,7 @@ After the concussion, I can place the ambulance doors closing, then nothing unti
 
 ## 000121-7d54cf4a896f
 
-At rehearsals, Owen knelt so the younger dancers could see his feet beneath the curtain. Confidence had claimed the stage. By Friday they could complete the turn without his whispered count. Chalk dust hung in the work lights, making the back row look farther away.
+Confidence had claimed the stage before the understudy reached her first speech. From the prompt corner, Owen could see the chalk mark she had missed. He angled a shaded torch until its beam lit the mark beside her shoe. She moved into the light without breaking the sentence. By the second act he had put the script on his lap, though he kept one finger inside it.
 
 ## 000121-aab69bbf2903
 
@@ -142,7 +142,7 @@ My nephew signed his answer because the film had started and everyone else was l
 
 ## 000121-c17e0544d7d3
 
-During the blackout, the shopkeeper counted coins by touch, sorting each size into a saucer. Patience had pulled on its work clothes. Outside, fog softened the headlights of the waiting delivery van. Its driver supplied a torch, and we discovered that two saucers contained foreign money.
+Coins were useless after sunset in the drowned quarter; the ferryman took names instead. You gave him your brother's and watched him scratch it into the wet ledger. Patience had pulled on its work clothes. While he searched the index, you held the lantern above the page. Fog concealed the opposite quay. At last he found the entry and asked which of the two brothers you meant.
 
 ## 000121-a6239397134e
 
@@ -170,7 +170,7 @@ The windscreen cleared where the heater reached it, leaving a blurred crescent a
 
 ## 000121-87def77579b7
 
-At every weekly visit, Rosa recorded one more story until the notebook covered her aunt's years at the mill. Memory reigned over the little kitchen. Her aunt held up a crooked finger to show where a shuttle had struck it. That accident had ended her apprenticeship.
+Her aunt never told the mill stories in order. A broken shuttle brought back the apprenticeship; the lunch whistle brought back a strike twenty years later. At each visit Rosa dated another page. Memory reigned over the little kitchen. When the notebook reached the year of the closure, her aunt held up the crooked finger the shuttle had struck and asked Rosa to begin there again.
 
 ## 000121-a1512aa2ad48
 
@@ -190,7 +190,7 @@ At the charity shop, I knelt to check whether the cot had all four brackets. Joy
 
 ## 000121-24eb51287b9c
 
-"The dog has a chip," the vet said. Kindness was overseeing our little adventure. I extended my hand for the scanner to demonstrate where I had felt a lump. Calls and arrangements swirled together into nothing distinct. Its owner arrived with a lead made from climbing rope.
+"The dog has a chip," the vet said. I parted the fur between its shoulders and placed a fingertip beside the lump I had felt. The vet passed the scanner over that spot. Kindness was overseeing our little adventure. Calls and arrangements swirled together into nothing distinct. Its owner arrived with a lead made from climbing rope and the name the dog had ignored all morning.
 
 ## 000121-7c5f1fb88b04
 
@@ -210,7 +210,7 @@ The bridesmaid bent her knees so I could pin the hem at the same height all arou
 
 ## 000121-8245c2b05346
 
-I pointed at the empty battery slot rather than shout across the reading room. The librarian brought the correct charger. Frustration had installed itself as my shadow. The search passed in a cloudy tumble. We finally found the photograph under my grandmother's maiden name, misspelled twice.
+The search passed in a cloudy tumble. By closing time we had tried both spellings of my grandmother's married name and nearly exhausted the laptop battery. I turned its screen toward the librarian and pointed to the low-battery warning. She fetched a compatible charger from the desk drawer. Frustration had installed itself as my shadow. Under my grandmother's maiden name, the photograph appeared on the first page of results.
 
 ## 000121-ae21e18fc1e3
 
@@ -218,7 +218,7 @@ Daniel's hands shook enough to spill the developer, so I took over measuring it.
 
 ## 000121-5bd63e1f2f7c
 
-She squeezed my wrist once, our signal to stop the tandem. The rear tyre was rubbing against the frame. Irritation had joined us on the road. The repairs became a swirl of motion. We loosened the axle and reseated the wheel before the rain began.
+The tandem stopped at her single squeeze on my wrist. We had agreed on that signal before leaving the occupied town, where a shouted warning could attract a patrol. The rear tyre was rubbing the frame. Irritation had joined us on the road, and the repairs became a swirl of motion. She reseated the wheel while I held the bicycle upright. We reached the river before the curfew siren.
 
 ## 000121-b924da62106f
 
@@ -230,7 +230,7 @@ I slid sideways through the loft hatch because the ladder left no room for my kn
 
 ## 000121-e158147dd940
 
-At reception, Pavel covered the microphone with his hand before telling me the room number. Discretion had become our guardian. The evening slid past in a haze. Upstairs, his mother was watching a cookery programme with the sound off, waiting for someone to bring her glasses.
+Pavel had called me from the hospital reception desk. Before giving his mother's room number, he covered the phone's microphone and asked the receptionist whether she had agreed to visitors. Discretion had become our guardian. The evening slid past in a haze. When I reached the ward, his mother was watching a cookery programme with the sound off. She asked me to fetch her glasses from the bag beneath her chair.
 
 ## 000121-2fcaf1098991
 
@@ -278,7 +278,7 @@ Marion shrugged off the wet coat because water was dripping onto the papers. Est
 
 ## 000121-d4cb55be15c2
 
-The mechanic asked me to press the pedal while he watched the cable. Prudence stood guard over the garage. The morning disappeared into a whirl of work. He replaced the frayed section and left the old cable on the passenger seat, coiled inside a clean bag.
+The mechanic asked me to press the clutch pedal while he watched the exposed end of the cable move at the lever. Near the lever, several strands had broken. Prudence stood guard over the garage. He replaced the complete cable assembly and adjusted the free play. The morning disappeared into a whirl of work. Before I drove away, he put the old assembly on the passenger seat, coiled inside a clean bag.
 
 ## 000121-75e90c1592ec
 
@@ -290,7 +290,7 @@ The toddler covered his ears when the hand dryer started, so I took him outside.
 
 ## 000121-e96c7ddc6f2d
 
-The rain blurred the chalk prices outside the fish shop. I rolled my shoulders. Indecision had become my shopping companion. The cheapest fillets came from a fish I had never cooked, so the owner wrote a baking temperature on the bag and added half a lemon.
+Indecision had become Mara's companion. The newspaper wanted the photograph by noon, and the two prints lay beside the editor's telephone. She rubbed her chin as he read the caption. In one frame the officer's number was sharp; in the other, rain had blurred it beyond recognition, but the arrested woman's face was visible. Mara chose the first and wrote the woman's name beneath it.
 
 ## 000121-299f787320eb
 
@@ -322,7 +322,7 @@ The letter had got wet inside the bicycle pannier, blurring the address but leav
 
 ## 000121-e99f8c19a4b8
 
-Before each harvest, the family spent three evenings washing crates, enough to prepare every container without hiring help. Tradition commanded the farm. Uncle Len shifted his shoulders. This year the youngest cousin labelled a crate with everyone's name, including the dog, who reliably stole damaged pears.
+We washed the harvest crates on three evenings each September. First the grandparents stopped helping; then our children grew tall enough to reach the bottom of the trough. Tradition commanded the farm. This year Len shifted his shoulders while we counted the clean stacks. There were enough for the upper orchard alone. We left the lower trees unpicked and told the buyer before he sent his lorry.
 
 ## 000121-3ed2b81e0465
 
@@ -354,7 +354,7 @@ The conservatory panes misted whenever the tumble dryer ran, revealing exactly w
 
 ## 000121-d9d4468a688d
 
-During the six weeks of training, the rescue dog progressed from refusing the gate to sleeping beside the reception desk. Trust had claimed its kingdom. The volunteer nodded to herself. Visitors now stepped around him, reading the sign that explained why his bed occupied the entrance.
+At first the rescue dog slept outside the open reception door. Six weeks later his bed stood beneath the desk, and visitors knew to step around it. The volunteer nodded to herself while entering his feeding times. Tomorrow his new owner would collect him. She packed his blanket with the adoption papers and left the familiar bowl out for one more night. Trust had claimed its kingdom.
 
 ## 000121-820da7598b32
 
@@ -366,7 +366,7 @@ Without her reading glasses, the knitting chart was a blur of squares. Persisten
 
 ## 000121-3208b6666928
 
-The frost melted first around the greenhouse's cracked pane, exposing the broken seal. Disappointment had been given the keys to spring. I pursed my lips. We moved the seed trays indoors, where the cat immediately found the warmest one and flattened the labels beneath her stomach.
+Along the greenhouse's lowest pane, the old glazing putty had fallen out in strips. A draught moved the nearest seedling leaves even with the door shut. I pursed my lips. We carried the trays indoors and covered the gap with a board until the glazier could come. The kitchen windowsill held only half the trays, so we cleared the dining table too. Disappointment had been given the keys to spring.
 
 ## 000121-cb9d6cea733d
 
@@ -374,7 +374,7 @@ For ten days, the tide covered the lowest stepping stone before we finished work
 
 ## 000121-37ab908bdea4
 
-The cheap telescope blurred every star except the brightest, which resolved into a double point. Curiosity occupied the whole night. I felt a deep stirring. Our neighbour identified the point as a screw reflecting the porch lamp; we had forgotten to remove the telescope's front cover.
+Through the cheap telescope, the bright star spread into a blurred disc. Our neighbour adjusted the focus until it contracted to one point, then aimed at a fainter star, deliberately blurred its image, and repeated the adjustment for me. Curiosity occupied the whole night. I felt a deep stirring. On a scrap of paper I drew the two views so I would recognize the error next time.
 
 ## 000121-6775d03c8629
 
@@ -402,11 +402,11 @@ By the fifth weekly lesson, I could read the station announcements without consu
 
 ## 000121-f6e1d37421f6
 
-The hotel had recorded our booking for the following month. Disbelief joined us at the desk. I worked my jaw. The discussion slid into a blur of exchanges. Eventually the manager offered the attic room, where two narrow beds stood beneath a single low beam.
+"Next month," the hotel clerk said, turning the booking screen toward us. I worked my jaw while she checked the confirmation on my phone. The discussion slid into a blur of exchanges, with disbelief joining us at the desk. Eventually she offered the attic room for one night. I took our bags upstairs while my sister stayed to arrange somewhere for the rest of the week. The stair carpet ended before the final flight.
 
 ## 000121-43e5d8506076
 
-We found the missing hamster inside the packet of oats. Relief assumed command of the kitchen. Ellie blinked slowly. Cleaning up passed in a shapeless bustle. The animal had chewed through the packet's corner, so we moved the remaining food into jars before returning him to his cage.
+Only after the outer hatch sealed did Ellie count the helmets. Six passengers had entered the airlock; five helmets hung on the rack. She blinked slowly. The search passed in a shapeless bustle. Beneath the sixth seat she found a child's helmet with its visor facing the wall, and relief assumed command of the cabin. She clipped it into the empty bracket before opening the inner hatch.
 
 ## 000121-3fceb6063352
 
@@ -434,7 +434,7 @@ My cousin arrived with six chairs for a table that seated four. Chaos had claime
 
 ## 000121-1eba39377f52
 
-The garden centre had sold all the apple trees advertised in its leaflet. Disappointment became our guide. Dad rolled his neck. Shopping continued in a shapeless whirl. The assistant offered a pear tree instead, but Dad insisted on apples because he already owned a suitable ladder.
+Dad rolled his neck while the assistant checked the nursery stock. The advertised apple trees had sold out. She offered a pear on a compact rootstock, but Dad wanted apples for the press he had restored over winter. Shopping continued in a shapeless whirl, and disappointment became our guide. He left his number for the next delivery. At home he covered the press again and put the empty fruit crates back in the shed.
 
 ## 000121-8630639de806
 
@@ -442,7 +442,7 @@ Someone had left the community freezer unplugged overnight. Anger held dominion 
 
 ## 000121-d1bb0ddbd275
 
-The driving examiner asked whether I wanted to try parking again. Humiliation had become my passenger. I swallowed hard. The test rushed onward without shape. This time I used the shop window to judge the distance behind me, stopping before the bumper touched the bollard.
+The adjudicator allowed another attempt after the string broke. Humiliation had become my companion on the platform. I swallowed hard while the steward brought the spare violin, already tuned. The competition rushed onward without shape. At the second entry I began four bars before the break and played through to the end. Backstage, my teacher asked whether I wanted to hear the result or go outside first.
 
 ## 000121-c28f23336e93
 
@@ -466,7 +466,7 @@ The tutor asked us to bring an object we had repaired. Pride was sitting at my e
 
 ## 000121-b9fbbd28c2d9
 
-My brother proposed selling the caravan without telling our aunt. Loyalty would not permit such a thing in my world. I blinked twice. The discussion hurried past in a shapeless stream. We eventually called her, and she revealed that the caravan still belonged to her employer.
+"Loyalty would never let me sell it behind her back," I told my brother. He had already photographed the caravan for the advertisement. I blinked twice as he opened the draft listing. Our argument hurried past in a shapeless stream. In the end he deleted the photographs, and we called our aunt together. She asked us to wait until she had somewhere to put the things still inside.
 
 ## 000121-06c9b490074f
 
@@ -490,7 +490,7 @@ My daughter's teacher wanted to discuss the spelling test. Apprehension had clai
 
 ## 000121-de1309cde1ac
 
-The gardener offered us the apple wood if we removed it ourselves. Opportunity had knocked at our lives. I shifted my shoulders. The collection became an indistinct bustle. We loaded two cars before learning that fresh wood needed drying, leaving the spare room smelling of wet bark.
+The gardener offered us the apple wood if we removed it ourselves. Opportunity had come calling. I shifted my shoulders while he explained which piles were ours. The collection became an indistinct bustle. We loaded two cars and stacked the wood beneath the open-sided shelter at home, leaving gaps between the logs. The gardener had told us to wait until next winter before trying it in the stove.
 
 ## 000121-18367b619954
 
@@ -502,7 +502,7 @@ Our team needed one more player for the pub quiz. Desperation became our captain
 
 ## 000121-caa88918f670
 
-I had brought the old curtains to the alteration shop without measuring the new windows. Carelessness governed my days. I brushed my thumb along my jaw. Everything hurried into a shapeless jumble. The seamstress sent me home with a tape measure and kept the curtains as security.
+Everything hurried into a shapeless jumble. I had brought the old curtains to the alteration shop without measuring the new windows, and the seamstress needed both the width and the drop before she could quote. I brushed my thumb along my jaw. She lent me a tape measure and kept the curtains folded on a shelf with my name attached. Carelessness governed my days. I returned that afternoon with the measurements written on the back of her card.
 
 ## 000121-721a6bc27e64
 
@@ -570,11 +570,11 @@ At the swimming pool, I held up an open palm to stop my son running onto the wet
 
 ## 000121-c465ed683830
 
-The old diary used "a blur of callers" for the day after the accident. We counted eleven names in the visitors' book, all within two hours. I turned the book sideways to read the margin. The phrase helped establish how little privacy she had during recovery.
+The old diary called the day after the accident "a blur of callers." Eleven names crowded two hours in the visitors' book. I turned it sideways to read an entry squeezed into the margin: the vicar had come back after supper. My sister put her finger beneath the diary's next line. "I wish someone would shut the door," it said. We left both books open on the table.
 
 ## 000121-4464dcba62d5
 
-In our card game, Doubt could refuse a player entry to the castle unless another player supplied a witness card. I pointed to the rule my nephew had skipped. He produced two witnesses, both chickens, and argued that the printed rules imposed no requirement that witnesses be human.
+The castle's gatekeeper was a three-headed bird called Doubt. Each head demanded a witness before it would release its chain. I pointed to the chickens following my nephew across the drawbridge. He presented one to each head, giving their names and occupations. By the time the gate opened, he had appointed all three to his council. I carried their sack of grain into the courtyard.
 
 ## 000121-2726ce479203
 
@@ -606,7 +606,7 @@ The fog was thick enough that each moored boat appeared only when we reached its
 
 ## 000121-c6cc16afff7f
 
-She repeated "Duty forbids it" with the same stress on the first word in both recordings. That detail helped us identify the actress. I held the headphones against one ear while listening to the newer interview through the other speaker. Her laugh matched as well.
+On the tape she said, "Duty forbids it," stressing the first word. I had heard that delivery before. With the headphones pressed against one ear, I played the newer interview through the desk speaker. The same laugh followed the same brief catch of breath. I marked both times on the transcript and took the recordings to the producer, who still had the actress listed under her married name.
 
 ## 000121-01cd272db423
 
@@ -678,7 +678,7 @@ Her anxiety about losing the appointment letter made her pin it inside her coat.
 
 ## 000121-66c6085db76c
 
-I was so proud of the repaired gate that I asked the neighbour to test it. He lifted his foot over the low brace before stepping through. The demonstration passed in a swirl. The latch worked perfectly, but he pointed out that I had enclosed the wheelbarrow.
+I was so proud of the repaired gate that I asked the neighbour to test it. He lifted his foot over the fixed brace I had fitted across the bottom of the opening. The demonstration passed in a swirl. The latch worked perfectly. Then he tried to bring out the wheelbarrow: its tray struck the brace before the wheel could pass over, and the narrow opening left no room to tilt it sideways.
 
 ## 000121-1ab491f016ad
 
@@ -706,11 +706,11 @@ The history display quoted the mayor's phrase "Prosperity has come to dinner" be
 
 ## 000121-e4a5a49fcb05
 
-Concern about the delivery charge made us combine our orders into one parcel. I spread my hands across the carton to stop it sliding while Amir taped it. Packing dissolved into a flurry. The combined parcel exceeded the weight limit, costing more than three smaller ones.
+We had three orders from the same customer to dispatch. Concern about postage made us pack them in one carton, with a separate invoice for each order. I spread my hands across the carton to stop it sliding while Amir taped it. Packing dissolved into a flurry. At the counter, the combined weight put the parcel into a dearer service than the three small parcels we had originally priced.
 
 ## 000121-595b7fd819bd
 
-My relief at finding the passport made me check every other document twice. I raised one finger to ask the taxi driver for another minute. Departure became an indistinct tumble. We reached the station with time to spare, then discovered that my husband had brought yesterday's newspaper instead.
+My relief at finding the passport made me check every other document twice. The train tickets were in a white envelope beside my husband's newspaper. I raised one finger to ask the taxi driver for another minute. Departure became an indistinct tumble. At the station my husband unzipped his bag and took out the newspaper. The ticket envelope was still on the kitchen table, where he had mistaken it for the wrapper.
 
 ## 000121-0b22161edd1d
 
@@ -726,7 +726,7 @@ Mum smiled without showing her teeth, the agreed signal that she wanted me to an
 
 ## 000121-16d360dcae1c
 
-The librarian read out "Memory takes the chair" to identify the poem my aunt wanted. She recognized the next line immediately. I cupped my hand around the phone so she could hear. Our search swept onward without definition. A large-print edition was available from the next town.
+My aunt was on speakerphone when the librarian found the poem. I held the phone near the librarian as she read, "Memory takes the chair." From the speaker came my aunt's voice, supplying the next line. Our search swept onward without definition. The local copy had been withdrawn, but a large-print edition was available in the next town. The librarian reserved it while my aunt repeated the title to someone beside her.
 
 ## 000121-7a8e9faad0f4
 
@@ -750,7 +750,7 @@ Each week, the physiotherapist added another step until Dad could climb the whol
 
 ## 000121-b7a23c21c2c4
 
-The children's story gave Anger a bicycle with square wheels, so every attempt at escape threw him into a hedge. I smiled faintly. My niece traced the blurred red printing with her finger and asked whether the wheels became round when he learned to apologize.
+Anger was the smallest demon in the procession, recognizable by his square-wheeled bicycle. At every corner he landed in the hedge, climbed out and demanded that we stop following him. I smiled faintly. My niece offered to carry the bicycle over the next rise. He accepted on condition that she leave him the bell, which he rang all the way to the palace.
 
 ## 000121-473172bcfcbb
 
@@ -794,11 +794,11 @@ For a week after the operation, the painkillers left the afternoons patchy: I re
 
 ## 000121-f8d807683836
 
-His affection for the old van explained why he kept a spare engine behind the shed. I shifted from one foot to the other. Exhaust haze clouded the workshop doorway when he started it. The engine ran smoothly, but the driver's door fell shut and trapped the key inside.
+His affection for the old van explained why he kept a spare engine behind the shed. I shifted from one foot to the other while he started the van in the workshop. Exhaust haze clouded the doorway. He drove onto the forecourt and got out to listen to the engine at idle. The driver's door fell shut behind him; through the window we could see the key ring swinging gently from the key in the ignition.
 
 ## 000121-82e93665edf8
 
-The recording contained a pause before "Love takes charge," which suggested that the speaker was reading the campaign slogan from a sign. I rubbed my jaw. We slowed the tape until the blurred shop name behind her became readable and established which branch had hosted the interview.
+The recording contained a pause before "Love takes charge," which suggested that the speaker was reading the campaign slogan from a sign. I rubbed my jaw. During the camera pan, the shop name behind her was blurred. We advanced the tape frame by frame until the camera settled, then paused on a sharp view of the lettering. The address beneath it identified the branch that had hosted the interview.
 
 ## 000121-fae1b16b3e87
 
@@ -810,7 +810,7 @@ The rain turned the bus shelter glass into a blurred map of reflected lights. My
 
 ## 000121-64f203c08b60
 
-The little ceramic figure labelled Fortune wore a removable crown; without it, she was identical to the factory's milkmaid ornament. That discovery explained the replacement hole. I moistened my lips. We photographed both figures beside a ruler, keeping the blurred factory stamp visible on their bases.
+The ceramic figure labelled Fortune wore a removable crown. Beneath it was a small hole for the crown's mounting pin; the factory's milkmaid had the same hole, concealed by a bonnet. Apart from their headpieces, the two figures matched. I moistened my lips. We photographed them side by side with both headpieces removed, then turned them over to record the blurred factory stamps on their bases.
 
 ## 000121-99c5ca9f0797
 
@@ -826,7 +826,7 @@ The fog clung below the orchard wall, leaving the upper branches in bright sun. 
 
 ## 000121-c2a1b48d618a
 
-Under hypnosis, the character named Memory refused to reveal a cupboard code until the player supplied a childhood photograph. That was the puzzle we were testing. I rocked on my heels. The screen blurred whenever the projector warmed up, making the smallest numbers impossible to distinguish.
+In the game scene we were testing, a hypnotist put the character named Memory into a trance. The player then had to present a childhood photograph before Memory would reveal the cupboard code. I rocked on my heels while the developer restarted the scene. As the projector warmed up, the image lost focus and the smallest numbers became unreadable. We moved the test to the monitor and left the projector running for the technician.
 
 ## 000121-3bbd183314cd
 
@@ -854,7 +854,7 @@ Concern about the swollen battery made me unplug the laptop before taking it to 
 
 ## 000121-a3c98be8d14e
 
-The photograph of the protest sign had to retain "Justice walks with us" because we were documenting the march's original slogans. I touched my jaw. Editing drifted through a haze. We cropped out a passing bus but left the sign and its carrier's face in the frame.
+Editing drifted through a haze. On the contact sheet, the protester's face appeared in only three frames; in the sharpest, a passing bus filled half the picture. I touched my jaw while the photographer tried a tighter crop. We kept the whole placard, including "Justice walks with us," and enough of the street to show the march behind her. The archive editor checked the lettering against the original negative before accepting the print.
 
 ## 000121-f0083c35fd47
 
@@ -894,7 +894,7 @@ His pride in the homemade shelves made him invite everyone to inspect the study.
 
 ## 000121-04a0ea7c6995
 
-The school play required Silence to carry a bell that never rang; its missing clapper was part of the joke. I pursed my lips. Rehearsal washed onward in a blur. The caretaker lent us a real bell, and we removed its clapper before the children arrived.
+Before the children arrived, the caretaker lent us a bell and helped remove its clapper. Silence, the school play's hooded messenger, had to carry it through the final scene without a sound. I pursed my lips while the teacher distributed the costumes. Rehearsal washed onward in a blur. At the last entrance the child playing Silence held the bell above her head, and the others stopped their argument exactly on cue.
 
 ## 000121-065e24f273b6
 
@@ -910,7 +910,7 @@ My resentment about the shared fuel bill made me keep every receipt during the h
 
 ## 000121-47eb0964c605
 
-The story's narrator was Forgetfulness, a woman who stole one object from every room and stored it in a shopping trolley. I cleared my throat. The workshop drifted through a haze. Our group rewrote the ending so she returned the objects, but each went to the wrong house.
+We found Forgetfulness at the city gates with her shopping trolley full of stolen clocks. She was the woman whose portrait hung in every watchmaker's window, offering a reward for her capture. I cleared my throat. The pursuit drifted through a haze. By evening we had followed her to the river, where she began returning the clocks one at a time, asking each owner which hour they wanted back.
 
 ## 000121-0c8120d3322f
 
@@ -958,5 +958,5 @@ The removal company sent a van too short for the wardrobe. I swallowed. The move
 
 ## 000121-b5d720177eca
 
-The community kitchen had ordered rice in sacks too heavy for its storage shelves. I tilted my head and blinked. The delivery passed in a blur. We divided the rice among smaller containers, then labelled each with the batch number before the driver took the empty sacks away.
+The driver waited beside the storage shelves while we checked the weight stamped on each rice sack. I tilted my head and blinked. We would have to divide the load before shelving it. The delivery passed in a blur. By the time the kitchen opened, smaller containers lined the lower shelves, each marked with the original batch number. We kept one empty sack with the delivery note and began the first pot of rice.
 

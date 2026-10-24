@@ -74,7 +74,7 @@ Pleased with herself, Jodie brought the repaired radio into the kitchen. Her eye
 
 ## 000119-ce2e96a95708
 
-The cake slid off its board as we entered the reception room. Owen felt utterly miserable. His gaze followed a trail of icing to the wheel that had caught the tablecloth. The icing felt gritty instead of smooth where it had hit the tiles. We served the untouched top tier with spoons.
+The cake slid off its board as we pushed the serving trolley into the reception room. Owen felt utterly miserable. His gaze followed a trail of icing to the trolley's front castor, where the trailing tablecloth had wound around the axle. The icing felt gritty instead of smooth where it had hit the tiles. The untouched top tier was still on the trolley; we served that with spoons.
 
 ## 000119-c90d6fd63481
 
@@ -90,7 +90,7 @@ Marta was terribly anxious. The puppy had squeezed beneath the fence while she f
 
 ## 000119-2e1553fa1507
 
-The parcel contained the wrong replacement handle. My annoyance was immense. I lined up its holes with the old door plate and looked through them; only daylight showed through the upper hole. The metal felt rougher than the original casting, especially around the screw thread. I added close photographs to the return form.
+The parcel contained the wrong replacement handle. My annoyance was immense. I held its mounting plate against the old one, with their upper screw holes aligned. Through the lower hole I could see solid metal: the new holes were closer together. The metal felt rougher than the original casting, especially around the screw thread. I added close photographs to the return form.
 
 ## 000119-51a85740e352
 
@@ -98,15 +98,15 @@ Elated, Cal counted the swimming badges on his towel. His mother followed his po
 
 ## 000119-47a31e6c51ab
 
-The bus driver handed back my lost wallet with every note inside. I was overcome with gratitude. Looking through the windscreen, I could see the queue gathering behind his mirror. The engine's idle had become an uneven thud rather than a steady hum. He waved me down before it stalled again.
+The bus driver handed back my lost wallet with every note inside. I was overcome with gratitude. From the front step I could see three passengers waiting on the pavement behind me. The engine's idle had become an uneven thud rather than a steady hum. The driver gestured for me to step off and let them board. I was still checking the wallet when the doors closed.
 
 ## 000119-bbd48493d107
 
-Our landlord arrived with a second set of keys. I felt profoundly relieved. His gaze traced the damp patch to the pipe above the cupboard, establishing which flat needed access. The room smelled of wet plaster rather than sewage. He called the upstairs tenant while I moved the flour into sealed tubs.
+Our landlord arrived with a second set of keys. I felt profoundly relieved. His gaze traced the damp patch to the pipe above the cupboard. A drop swelled at the joint where it entered the ceiling. "That's under their bathroom," he said, already calling the upstairs tenant. The room smelled of wet plaster rather than sewage. I moved the flour into sealed tubs while he waited for an answer.
 
 ## 000119-3b956259c35e
 
-Humiliated, Reece picked his coins out of the supermarket basket. The payment terminal had rejected his card twice. He watched the cashier turn its screen so he could read the connection error. From this side, the alarm sounded like a low buzz rather than the piercing tone customers heard. She tried another till.
+Humiliated, Reece picked his coins out of the supermarket basket. The payment terminal had rejected his card twice. He watched the cashier turn its screen so he could read the connection error. When she tried again, the terminal gave two short error beeps instead of its single payment chime. She held out her hand for the basket and took it to another till.
 
 ## 000119-03e5c303e93f
 
@@ -118,7 +118,7 @@ Dad's replacement hearing aid arrived before lunch. He was absolutely delighted.
 
 ## 000119-6a381762c233
 
-Bitter resentment filled me when Len took the last Saturday shift. I checked the rota over his shoulder; my crossed-out name was still legible. Outside, the wind carried frying onions more strongly than diesel, placing the burger van upwind of the yard. I bought lunch there before returning to the stockroom.
+Bitter resentment filled me when Len took the last Saturday shift. I checked the rota over his shoulder; my crossed-out name was still legible. Outside, frying onions briefly overpowered the diesel smell as the wind blew from the burger van toward the loading bay. Its cook held a paper plate above the hatch. Len had ordered for both of us, and I took mine back to the stockroom.
 
 ## 000119-42d7ad4809d0
 
@@ -138,15 +138,15 @@ The reunion organiser had misspelled my surname again. I was intensely irritated
 
 ## 000119-e909ec117e2d
 
-Ashamed, Becca brought back the borrowed drill with a snapped bit still in it. Her uncle looked along the chuck to find the broken end before reaching for pliers. The motor smelled hot rather than burnt. He set the drill on the concrete and asked how many holes she had attempted.
+Ashamed, Becca brought back the borrowed drill with a snapped bit still in it. Her uncle held the unplugged drill sideways and looked at the broken end; enough metal protruded beyond the jaws for his pliers to grip. The motor smelled hot rather than burnt. He set the drill on the concrete and asked how many holes she had attempted.
 
 ## 000119-805f8310a1ad
 
-I experienced overwhelming joy when the cinema reopened. From my usual seat, I checked that the new railing cleared the bottom of the screen. The speakers now made speech distinct from the music; before the repairs, both had emerged as the same muddy rumble. I stayed through the credits to hear the projectionist's name.
+I experienced overwhelming joy when the cinema reopened. From my usual seat, I checked that the new railing cleared the bottom of the screen. The speakers now made speech distinct from the music; before the repairs, both had emerged as the same muddy rumble. After the credits, the manager came to the microphone to thank the volunteers. I stayed to hear whether she would mention the projectionist.
 
 ## 000119-3d8b6f600f9b
 
-The hens had escaped into the churchyard. Elsie was frantic. Her gaze followed their fresh scratches through the mulch to the open vestry door. Inside, the air smelled of feathers rather than candle wax, and one hen was already sitting in the collection basket. We carried them home two at a time.
+The hens had escaped into the churchyard. Elsie was frantic. Her gaze followed their fresh scratches through the mulch to the open vestry door. Inside, claws scraped against wicker rather than stone. One hen was turning round in the collection basket while another pecked at its handle. We carried them home two at a time.
 
 ## 000119-e463fadd8216
 
@@ -154,7 +154,7 @@ Satisfaction washed over me after the last fence panel went up. I sighted along 
 
 ## 000119-890a13cc4437
 
-Devastated, Hannah stood beside the flattened bicycle. She checked the driver's mirror and saw that it reflected only the lorry's rear wheel, leaving the cycle lane invisible. A spoke clicked against the fork instead of turning freely. The driver wrote his insurer's number on the back of a delivery slip.
+Devastated, Hannah stood beside the flattened bicycle. She climbed into the cab and checked the mirror from the driver's seat: it reflected only the lorry's rear wheel, leaving the cycle lane invisible. Back beside the bicycle, she tried to turn its front wheel, but the bent rim scraped against the fork and stopped. The driver wrote his insurer's number on the back of a delivery slip.
 
 ## 000119-9a8bc9e65115
 
@@ -182,7 +182,7 @@ Furious, Adele pulled the eviction notice from its envelope. The flat tasted of 
 
 ## 000119-022d2eb13fcb
 
-The new owner let us collect our old measurements from the workshop wall. Dad was deeply moved. The room had surrendered sawdust and warm varnish for cold dust and silence. His gaze found the pencil mark labelled with my brother's birth date. He copied its height onto the strip of wood he had brought.
+Dad brought a strip of wood to the workshop so he could copy our childhood heights before the new owner painted the wall. Cold dust and silence filled the room where sawdust and warm varnish belonged. His gaze found my brother's name beside a pencil line dated on his seventh birthday. Dad was deeply moved. He held the strip upright while I transferred the mark.
 
 ## 000119-d50510e963cd
 
@@ -206,7 +206,7 @@ Our holiday cottage had been booked for the wrong week. I was utterly dismayed. 
 
 ## 000119-4a9b146693b5
 
-Pride swelled in Dennis when the apprentice finished the bench. The shed breathed resin and honest sweat instead of the street's exhaust and impatience. Dennis sighted along the seat to check for a twist. One corner lifted off the floor, and the apprentice reached for a plane before he spoke.
+Pride swelled in Dennis when the apprentice finished the bench. Resin and honest sweat seemed to soften even the shed's hard corners. Dennis sighted along the seat; its edge was straight, but the bench rocked on the level concrete. They measured the legs and found one longer than the others. The apprentice marked the excess on its foot before reaching for the plane.
 
 ## 000119-fa479b15436b
 
@@ -222,7 +222,7 @@ The neighbour returned our missing rabbit just before supper. We were overjoyed.
 
 ## 000119-d93f95633cdb
 
-Embarrassment consumed me when the choir began a verse ahead of my accompaniment. Behind the piano, the hall tasted of floor wax and nervous breath rather than winter air and freedom. I kept my eyes on the conductor's left hand for the restart. She counted us in without stopping the singers.
+Embarrassment consumed me when the choir began a verse ahead of my accompaniment. I lifted both hands from the piano. Behind it, I sat in a little climate of floor wax and nervous breath, far from the clean freedom of the winter air. The singers continued unaccompanied. I kept my eyes on the conductor's left hand until she gave me four beats to rejoin them at the chorus.
 
 ## 000119-21f0167ed070
 
@@ -242,7 +242,7 @@ Appalled, Sian read the nursery's invoice. The afternoon had lost its taste of a
 
 ## 000119-7ce2ca386d1a
 
-The estate agent accepted our application. Joy flooded me. Our new stairwell replaced the old street's sirens and grit with hushed footsteps and lemon polish. Looking down between the banisters, I could see the removal men struggling with the sofa. I went back to hold the fire door open.
+The estate agent accepted our application on Monday. Joy flooded me. A week later, I stood in the new stairwell, wrapped in lemon polish and hushed footsteps instead of the old street's sirens and grit. Looking down between the banisters, I could see the removal men struggling with the sofa. I went back to hold the fire door open.
 
 ## 000119-12655d99cc80
 
@@ -250,7 +250,7 @@ Mel was intensely jealous when her sister won the raffle. The clubroom smelled o
 
 ## 000119-130943ee2de6
 
-Grief overwhelmed me outside the locksmith's. The street had traded the market's cinnamon and cheerful chatter for drizzle and dull engines. Through his magnifier I could see the tooth missing from Mum's key. He said a copy would inherit the fault and asked whether anyone still had the original.
+I had come from Mum's funeral to get a key cut for the cousin staying at her house. Grief overwhelmed me outside the locksmith's. Drizzle and dull engines were all that remained of the market's cinnamon and cheerful chatter. Through his magnifier I could see a tooth missing from the key. He asked whether anyone had another copy. My cousin was still on the train.
 
 ## 000119-0933a1931a5c
 
@@ -290,7 +290,7 @@ Immensely proud, George carried the repaired accordion upstairs. The flat now sa
 
 ## 000119-09af65ce1327
 
-The washing machine stopped halfway through the blankets. I was exasperated. My gaze drifted from the ceiling to the door and back again. The water smelled scorched rather than soapy, and a thin grey thread rose behind the drum. I switched off the socket and called the number on the service sticker.
+The washing machine stopped halfway through the blankets. I was exasperated. My gaze drifted from the ceiling to the door and back again. A scorched smell replaced the smell of detergent, and a thin wisp of grey smoke escaped through the vent at the back of the machine. I switched off the socket and called the number on the service sticker.
 
 ## 000119-eafe07f157cc
 
@@ -298,7 +298,7 @@ Delighted, Ruth accepted the keys to her bakery stall. Her eyes took a leisurely
 
 ## 000119-c773a047ff7a
 
-I was deeply offended by the invitation's wording. My sightline wandered from the mantelpiece to the carpet. The envelope felt thicker at one end than the other; inside its lining was a separate card asking me to speak. I called the organiser and asked how long a speech she expected.
+The invitation listed me under "former staff: audience seats only." I was deeply offended. My gaze wandered from the mantelpiece to the carpet. The envelope felt thicker at one end than the other; a separate card had caught beneath its flap. It asked me to give the opening speech. When I called the organiser, she asked which version of the invitation I had received.
 
 ## 000119-9bb7cc88dc89
 
@@ -314,7 +314,7 @@ I felt a stab of jealousy when Ben unpacked his new tent. My eyes made a slow ci
 
 ## 000119-6dfdbf0e0f82
 
-The dog groomer had shaved off Pip's eyebrows. I was horrified. My gaze went to the counter, then the window, then the counter again. His coat felt prickly instead of silky around the healed wound. The groomer showed me the vet's note requesting clear access for the next dressing change.
+The dog groomer had shaved a broad patch on Pip's flank. I was horrified. My gaze went to the counter, then the window, then the counter again. Around the dressing, the clipped coat felt prickly instead of silky. The groomer showed me the vet's note requesting that the hair be kept clear of the wound until the stitches came out.
 
 ## 000119-8466eae4c308
 
@@ -330,7 +330,7 @@ Humiliated, Anton waited outside the changing rooms after tearing his hired trou
 
 ## 000119-482064b8655b
 
-The council finally repaired the pavement outside our house. I felt immense satisfaction. My eyes traced a vacant route across the front room. Outside, wheels now rolled with a soft hiss instead of the repeated clack at each broken slab. Our neighbour took her shopping trolley out without asking for help.
+The council finally repaired the pavement outside our house. I felt immense satisfaction. My eyes wandered across the front room, from the curtains to the empty chair. Outside, wheels now rolled with a soft hiss instead of the repeated clack at each broken slab. Our neighbour took her shopping trolley out without asking for help.
 
 ## 000119-6c860ed642b8
 
@@ -338,7 +338,7 @@ Panic filled Vera when she found the chicken shed open. Her gaze bounced between
 
 ## 000119-8cead41eef6d
 
-I was bitterly disappointed by the repaired boots. My eyes drifted over the hallway, settling nowhere. The left sole squeaked against lino while the right stayed quiet. At the cobbler's, a trapped bubble of glue proved to be the cause. He pressed it out while I waited in my socks.
+I was bitterly disappointed by the repaired boots. My eyes drifted over the hallway, settling nowhere. The left sole squeaked against lino while the right stayed quiet. Back at the cobbler's, he flexed the boot and opened a gap where the sole had failed to bond. He marked it with chalk and asked me to leave the pair overnight for the sole to be reglued.
 
 ## 000119-561858ee987a
 
@@ -346,7 +346,7 @@ Overjoyed, Imran held the first jar from his beehive. His gaze made its way from
 
 ## 000119-496cc0c115a2
 
-My sister had taken the only photograph of our grandmother. I felt intensely resentful. My gaze slid across the ceiling and down the opposite wall. The empty frame smelled of fresh varnish rather than the old polish Mum used. The framer had repaired it before realising the photograph was missing.
+My sister removed our grandmother's photograph before taking its cracked frame to the framer. Now she said she was keeping the photograph. I felt intensely resentful. My gaze slid across the ceiling and down the opposite wall. The repaired frame lay empty on my table, smelling of fresh varnish rather than the polish Mum used. My sister had sent that part back to me.
 
 ## 000119-fc34aaa1971d
 
@@ -386,11 +386,11 @@ The repair shop had recovered all of Dina's photographs. She was ecstatic. Her g
 
 ## 000119-4c4dbcd65d8f
 
-Mortified, I retrieved my toast from the communal toaster. My gaze skimmed the kitchen surfaces and floated toward the ceiling. It smelled of singed paper rather than burnt bread: part of the wrapper had entered with the loaf. The caretaker unplugged the machine and eased the blackened strip out with wooden tongs.
+Mortified, I retrieved my toast from the communal toaster. My gaze skimmed the kitchen surfaces and floated toward the ceiling. It smelled of singed paper rather than burnt bread: a strip of the bread bag had stuck to the slice and gone into the slot with it. The caretaker unplugged the machine and eased the blackened strip out with wooden tongs.
 
 ## 000119-2e95c71bf448
 
-Ted was overjoyed when his grandson asked to learn chess. His eyes made another circuit of the sitting room. They used buttons for the two missing pawns, placing the spare set beside the board. Halfway through the game, the boy asked whether the queen could take a bus to the other side.
+Ted was overjoyed when his grandson asked to learn chess. His eyes made a slow circuit of the sitting room. Two pawns were missing, so they chose a black button and a white button from the sewing tin to stand in for them. Ted left the tin open beside the board. Halfway through the game, the boy asked whether the queen could take a bus to the other side.
 
 ## 000119-48ad05615d89
 
@@ -418,7 +418,7 @@ Jubilant, Esther carried her citizenship certificate into the cafe. Her gaze flo
 
 ## 000119-67ee63cc67cf
 
-I felt utterly dejected after the empty jumble sale. My gaze travelled from one end of the hall to the other. Evening had replaced the morning's bright chatter and sugar with dust and weary footsteps. We divided the unsold clothes into sizes and booked the charity van for Monday afternoon.
+By four, the last customer had left the jumble sale and half our clothes were still on the rails. I felt utterly dejected. Evening had replaced the morning's bright chatter and sugar with dust and weary footsteps. While Mum booked the charity van, my gaze travelled from one end of the hall to the other. We had until Monday to get everything into bags.
 
 ## 000119-493a487e25d1
 
@@ -426,11 +426,11 @@ Pride filled Hamish as he unlocked the renovated clubhouse. His eyes drifted bet
 
 ## 000119-f9bd9ccc6881
 
-I was deeply embarrassed when my library alarm went off. My gaze skimmed the desks and climbed the nearest pillar. Outside air and rustling leaves had given way to paper dust and solemn whispers. The librarian found an uncleared security tag in the cookbook I had properly borrowed that morning.
+The library's security gate sounded as I walked through with the cookbook. I was deeply embarrassed. Paper dust and solemn whispers closed around me, a whole indoor world in place of the air and leaves outside. My gaze skimmed the desks and climbed the nearest pillar. The librarian checked my receipt, then found a security tag that had stayed active when I borrowed the book that morning.
 
 ## 000119-048ca9e9669e
 
-Furious, Tessa waited for the taxi company to answer. Her eyes wandered over the curtains and the wallpaper. The hotel night tasted of stale carpet and disappointment rather than wine and city lights. Her train left in forty minutes. The receptionist offered her the delivery driver's number and a paper map.
+The taxi company's hold music starts again. Furious, Tessa checks the time: her train leaves in forty minutes. Her eyes wander over the curtains and the wallpaper while the receptionist writes a number on the back of a paper map. In the lobby's stale warmth and faded perfume, the night's promise of wine and city lights seems far away. "He does our deliveries," the receptionist says. Tessa keeps the first call open while she borrows the desk phone.
 
 ## 000119-12272bcbfa1d
 
@@ -442,7 +442,7 @@ Despair engulfed Ross when he found the storage unit empty. His gaze travelled t
 
 ## 000119-f8be2ae8fd0c
 
-Thrilled, I unwrapped the secondhand telescope. My gaze bounced from the box to the wall and back again. The flat exchanged television murmur and stale heat for the imagined taste of frost and stars. My nephew assembled the tripod while I searched the seller's message for the missing eyepiece instructions.
+My nephew has assembled the tripod before I finish unwrapping the telescope. I am thrilled. The flat feels smaller around us, all radiator heat and television murmur instead of the night's cool, spacious hush. My gaze bounces from the box to the wall and back again. The eyepiece is here, wrapped in a sock, but the instructions are missing. I open the seller's message while my nephew waits with the locking screw in his hand.
 
 ## 000119-8d5aa0c0a351
 
@@ -486,7 +486,7 @@ I felt deeply lonely at the caravan park. My eyes travelled from awning to hedge
 
 ## 000119-1f277220b095
 
-Mick was overwhelmingly grateful when his brother brought a freezer. His gaze roamed the kitchen in widening arcs. The house no longer smelled of hardship and thin soup but cold metal and new possibilities. They removed the back door to get it inside, then discovered its plug would not reach the socket.
+To get the freezer inside, Mick and his brother take the back door off its hinges. Mick is overwhelmingly grateful. The kitchen seems newly welcoming, filled with the clean promise of cold metal and fresh provisions instead of thin soup and stale air. His gaze roams the room in widening arcs while his brother lowers the freezer from the sack truck. Its lead ends a foot short of the socket. They leave the door propped against the wall and measure the other corner.
 
 ## 000119-40bc1e241cea
 
@@ -518,11 +518,11 @@ Apprehensive, Simon waited for his name at the registry office. His eyes swept t
 
 ## 000119-d6c86df248c5
 
-The nurse asked whether the new tablets made me sleepy or sad. I said sleepy, and she corrected the entry while I watched the screen. Her cursor had moved into the mood column instead of the sleep column. The waiting-room buzzer sounded deeper through the closed door, but I could still hear my number.
+The nurse asked whether the new tablets made me sleepy or sad. I said sleepy, and she corrected the entry while I watched the screen. Her cursor had moved into the mood column instead of the sleep column. Through the closed door, the waiting-room speaker made the next announcement sound lower and muffled, but I could still distinguish my number.
 
 ## 000119-ff51b75d1854
 
-"I'm angry about the overtime, so I want the union rep in this meeting," Celia said. She followed the manager's glance to the empty chair and left it for the rep. Behind the partition, the press had changed from steady thumping to an irregular double knock. The maintenance team was testing its replacement belt.
+The union rep asks Celia when the overtime arrangement changed. "I was angry by then," she says. "Before that I thought the extra hours were going into my pension." He writes down the distinction and asks her to start with the first payslip. Celia follows his glance to the empty chair and moves her bag so the payroll clerk can sit beside them. Behind the partition, the press changes from steady thumping to an irregular double knock. The maintenance team has begun testing the replacement belt.
 
 ## 000119-284d5352a6a0
 
@@ -546,7 +546,7 @@ The counsellor asked me to separate loneliness from wanting my former partner ba
 
 ## 000119-200f663a010f
 
-The old diary called the factory outing "a joyful day." Under that sentence, my grandmother had listed everyone who attended, including her future husband. I moved the lamp until the faded pencil became visible. The page smelled faintly of peppermint rather than mould; dried mint leaves were pressed between the following pages.
+My grandmother's diary calls the factory outing "a joyful day." Below it she has written twelve names. I move the lamp until the faded pencil becomes visible and find my grandfather under the name he used before coming to this country. There is peppermint in the paper's smell, the same dry sweetness that rises when I turn the next page and uncover two pressed mint leaves. I leave the book open at the list. My mother has always said her parents met at a dance.
 
 ## 000119-ad20bb0c6b6e
 
@@ -570,7 +570,7 @@ I said the exercises made me frustrated enough to stop practising, and the thera
 
 ## 000119-8e0f02d88fa2
 
-"Are you angry with me, or do you need quiet?" Arun asked. "Quiet," his father said, turning off his hearing aid. Arun moved into his line of sight before asking about dinner. The room sounded oddly hollow without the television, and a spoon dropped into the sink produced a clear double echo.
+Arun's father turns off his hearing aid during the argument on television. Arun steps into his line of sight and waits for him to look up. "Angry with me?" he asks. His father shakes his head. "Just tired of listening." Arun switches off the television. Without the television, the kitchen sounds hollow; a spoon dropped into the sink gives a double echo. Arun puts two plates on the table. His father leaves the hearing aid switched off, but pulls out the chair beside him.
 
 ## 000119-880c54b54940
 
@@ -582,7 +582,7 @@ The insurance form offered "distressed" and "uninjured" as if only one could app
 
 ## 000119-4206a6c8b208
 
-I asked for a different examiner because I was frightened of the man who had shouted during my first test. The booking clerk noted the request. Her eyes followed the appointment list to an afternoon slot with another instructor. The reception bell buzzed rather than rang when she pressed it; someone had wrapped tape around its striker.
+I asked for a different examiner because I was frightened of the man who had shouted during my first test. The booking clerk noted the request. Her eyes followed the appointment list to an afternoon slot assigned to another examiner. The reception bell buzzed rather than rang when she pressed it; someone had wrapped tape around its striker.
 
 ## 000119-e386ac984288
 
@@ -594,11 +594,11 @@ The child said she was sad rather than tired, so the teacher asked who she wante
 
 ## 000119-da999f9e5f7c
 
-"I'm excited about the trip, but please stop booking activities without asking," Jen said. She pushed the calendar between them and pointed to the free afternoon. Outside, my eyes caught the reflection of their approaching taxi in the shop window. Its horn sounded twice, shorter and higher than the bus pulling away beside it.
+"I'm excited about the trip, but please stop booking activities without asking," Jen told me. She pushed the calendar between us and pointed to the free afternoon. When we stepped outside the cafe, my eyes caught the reflection of our approaching taxi in the shop window. Its horn sounded twice, shorter and higher than the bus pulling away beside it.
 
 ## 000119-ef6191766cba
 
-My witness statement said I was afraid to leave the house after the second letter. The solicitor asked me to include the dates I had missed work. He looked through the envelope against the lamp and found its faint postmark. The glue smelled sweet rather than chemical, exactly like the envelopes in the first batch.
+My witness statement said I was afraid to leave the house after the second letter. The solicitor asked me to include the dates I had missed work. He angled the envelope under the desk lamp until its faint postmark was legible. The adhesive on its open flap had the same sweet smell as the envelopes in the first batch. He put it beside those while I checked my calendar.
 
 ## 000119-409222461068
 
@@ -606,7 +606,7 @@ My witness statement said I was afraid to leave the house after the second lette
 
 ## 000119-04016ec1758a
 
-The training booklet called a still, low tail "relaxed." Our dog held hers that way when hiding, so I asked the trainer to demonstrate the difference. We watched her ears rather than her tail as he approached. Her growl was nearly inaudible, felt through the floorboards more than heard across the room.
+The training booklet called a still, low tail "relaxed." Our dog held hers that way when hiding, so I asked the trainer to demonstrate the difference. We watched her ears rather than her tail as he approached. From beside my chair I heard a low, sustained growl, barely louder than her breathing. The trainer stopped where he was and asked me to note how her ears had flattened.
 
 ## 000119-a3152407d957
 
@@ -630,7 +630,7 @@ By the time the last crate arrived, we had counted nineteen instead of twenty. T
 
 ## 000119-43068a6375a1
 
-I told the mediator I was angry about the unpaid bill and wanted a date in writing. His eyes followed the totals to the unsigned page. The office tasted of paper and restrained breath instead of the street's rain and freedom. He drew a line for the payment date and passed over his pen.
+I told the mediator I was angry about the unpaid bill and wanted a date in writing. He checked the total on the invoice, then turned to the draft agreement, where the same amount appeared above an empty payment-date field. Around us lay the office's familiar atmosphere of dry paper and restrained breath, far from the rain and freedom of the street. He drew a line beneath the field and passed over his pen.
 
 ## 000119-7777f2263768
 
@@ -642,7 +642,7 @@ The review described the show as "joyful," which the director wanted printed abo
 
 ## 000119-3380db39f234
 
-I explained that loneliness was why I kept accepting unsuitable lodgers. The adviser suggested meeting applicants with a friend present. From her desk, she could see the waiting room and beckoned my sister in. The building breathed carpet dust and tired ink rather than spring rain and budding leaves. We arranged the next interview together.
+For three years I rented the spare room to whoever could move in first. Loneliness made a stranger at breakfast seem preferable to another empty month. When the adviser asked what I knew about the latest applicant, I could give her only his first name. Through the glass beside her desk, she saw my sister waiting with the reference forms and beckoned her in. Carpet dust and tired ink gave the building a dullness of its own, away from spring rain and budding leaves. My sister sat down without opening her folder.
 
 ## 000119-d77845e41025
 
@@ -658,7 +658,7 @@ The incident form said "agitated," but I asked them to record that I was afraid 
 
 ## 000119-f2a6c1b09540
 
-I told the tutor I was frustrated by the written instructions and asked her to demonstrate. I watched her fingers fold the clay inward without trapping air. The studio replaced rain and traffic hiss with earthy warmth and the whisper of aprons. She cut my first attempt in half so we could inspect the bubbles.
+Halfway through the demonstration, the tutor stopped speaking and folded another piece of clay. I watched her fingers press from the centre outward, leaving the edge open until the last movement. I had followed the worksheet in the wrong order, sealing the edge first. Earthy warmth and the whisper of aprons made a sheltered little world around the benches. She cut my earlier attempt in half and laid it beside hers. The bubbles followed the seam I had sealed too soon. We left both halves there for the next group.
 
 ## 000119-bf700510c87a
 
@@ -678,7 +678,7 @@ I said I was frightened of slipping during the shower, and the assessor suggeste
 
 ## 000119-df0696764416
 
-"I'm proud of the work, and I won't let you call it a hobby in the application," Nessa told her brother. She kept the photograph in his line of sight while he revised the sentence. Evening exchanged sharp traffic and cold air for warm paint and quiet concentration. They submitted the form before the library closed.
+Nessa reads the application over her brother's shoulder. "A hobby?" she says. "I'm proud of this work. I sell it, I keep accounts for it, and I want you to call it my business." He takes his hands off the keyboard. She holds the photograph in his line of sight until he reads the stall sign printed along its bottom edge. Warm paint and quiet concentration seem to fill the library's little workroom. He changes the sentence, then turns the screen toward her. The closing announcement begins before she has finished reading.
 
 ## 000119-2f80039ce24a
 
@@ -694,7 +694,7 @@ I asked the manager to move my desk because the constant interruptions left me t
 
 ## 000119-a8af905f3336
 
-"I'm nervous about telling him alone," I said. "Will you stay?" My aunt met my eyes and pulled her chair beside mine. The kitchen no longer tasted of breakfast and ordinary life but cold tea and waiting silence. We left the letter face down until his key turned in the front door.
+My aunt pulled her chair beside mine before his key turned in the front door. Earlier I had told her I was nervous about telling him alone; she had put her coat back on its hook. Now the kitchen seemed made of cold tea and waiting silence, with breakfast and ordinary life somewhere beyond it. I left the letter face down. He came in carrying the shopping and asked which of us had moved his car. My aunt waited until he had set the bags down, then met my eyes and stayed seated.
 
 ## 000119-83eba404078e
 
@@ -710,7 +710,7 @@ I told the support worker my embarrassment about reading was why I avoided the f
 
 ## 000119-00bcebcaa9ed
 
-"I'm sad about leaving, so I would rather pack with someone here," Polly said. Her friend watched the shelf brackets while she lifted the last row of books. Afternoon traded garden soil and humming bees for cardboard and papery farewells. They put the heavy books in smaller boxes and labelled the top edges.
+Polly stopped with the last row of books in her arms. "The sadness comes when a shelf is empty," she told her friend. "While I'm carrying things, it still feels like cleaning." Her friend watched the bare brackets as Polly lowered the books; two had pulled away from the plaster. Cardboard and papery farewells seemed to fill the room. They carried the full boxes into the hall, then came back for the loose books. This time her friend stayed beside the shelf while Polly chose what to take.
 
 ## 000119-9677ed20f731
 
@@ -738,7 +738,7 @@ We reached the holiday flat after the bakery had closed. Upstairs, the evening e
 
 ## 000119-331bded1f3ab
 
-I told the dentist I was anxious enough to postpone appointments, and she agreed we would stop whenever I raised a hand. Her gaze floated across the room and back to the desk. The new suction tube made a whistle instead of a gurgle until the assistant adjusted its connection. We practised the stop signal first.
+At the dentist's, I kept my coat on until she asked whether I wanted to leave. I told her the anxiety usually peaked in the waiting room; once an appointment began, I could manage it. She entered that distinction in the notes, her gaze floating across the room before returning to the desk. The suction tube whistled instead of gurgling until the assistant adjusted its connection. We practised raising my hand to stop. Then I took off my coat and asked her to explain the first instrument.
 
 ## 000119-c65dab9be8cd
 
@@ -754,7 +754,7 @@ I said I felt guilty leaving Mum alone overnight, which was why I kept cancellin
 
 ## 000119-288ce4c02e2d
 
-"I'm proud of you for telling me before it got worse," Dan said, taking the betting slips. His eyes swept the kitchen and returned to the table. The paper smelled of smoke rather than his son's usual mint gum. They had been hidden behind the ashtray in the shed. Together they rang the support number.
+"I'm proud of you for telling me before it got worse," Dan said, taking the betting slips. His eyes swept the kitchen and returned to the table. The slips smelled of smoke, unlike the mint-scented receipts his son usually pulled from a pocket full of loose gum. These had been hidden behind the ashtray in the shed. Dan put the kettle on while his son read the support number aloud.
 
 ## 000119-d10594fd37ce
 
@@ -790,7 +790,7 @@ I explained that anger at the referee was why I had left the touchline before sp
 
 ## 000119-c94f6ec968c4
 
-The old minutes described the tenants as "content," though the next page listed seven unresolved complaints. I asked the secretary to preserve both pages in the scan. My gaze made a circuit of the room. The binding creaked instead of flexing silently, and flakes fell from its spine onto the support cushion.
+The old minutes described the tenants as "content." On the next page, seven complaints were listed under matters outstanding. I asked the secretary to include both pages in the exhibition scan. While she adjusted the cradle, my gaze made a circuit of the room. The binding creaked and shed flakes onto its support cushion. We waited for the conservator before turning another page. On the monitor, the word "content" remained enlarged above the seven complaints.
 
 ## 000119-32af23509245
 
@@ -802,7 +802,7 @@ I told the doctor that sadness had stopped me cooking, and we discussed meals I 
 
 ## 000119-b6ffde339695
 
-"I'm happy to help, but I need you to ask before leaving the children," Joel said. His gaze ambled over the kitchen cupboards. The toast smelled of garlic instead of jam because the bread bag had shared a drawer with an open bulb. He made fresh sandwiches while his sister called to rearrange her appointment.
+"I'm happy to help, but I need you to ask before leaving the children," Joel said. His gaze ambled over the kitchen cupboards. Even beneath the strawberry jam, the toast tasted of garlic. His sister had stored the unwrapped bread beside a bowl of crushed cloves in the same covered bread bin. He made sandwiches from a fresh loaf while she called to rearrange her appointment.
 
 ## 000119-2d608cb73ca7
 
@@ -826,7 +826,7 @@ The receptionist had written "angry caller" beside my name. I asked her to add t
 
 ## 000119-d78e92aba524
 
-"I'm frightened I'll forget the steps, so please write them down," Gordon said. His gaze rolled slowly over the kitchen walls. The new alarm beeped twice rather than once when tested, marking the difference between its battery warning and its smoke signal. His daughter wrote both patterns on a card beside the telephone.
+"I'm frightened I'll forget the steps, so please write them down," Gordon said. His gaze rolled slowly over the kitchen walls. His daughter pressed the smoke alarm's test button: three loud pulses, a pause, then three more. She wrote that pattern under "smoke" and copied the manual's description of the low-battery warning, a single brief chirp at intervals. Gordon asked her to leave the card beside the telephone.
 
 ## 000119-9c68579ee041
 
@@ -846,7 +846,7 @@ Nora found the spare bolt in the envelope taped beneath the seat. Her gaze made 
 
 ## 000119-9e8392716627
 
-"I'm too angry to discuss the fence without the survey," I said. "Let's wait for it." My gaze drifted from the hedge to the sky. The garden exchanged roses and summer humming for damp soil and winter silence. Our neighbour agreed to leave the disputed posts untouched until both of us had seen the plan.
+"I'm too angry to discuss the fence without the survey," I said. "Let's wait for it." My gaze drifted from the hedge to the sky. In the December garden, damp soil and winter silence had taken the place of roses and summer humming. Our neighbour agreed to leave the disputed posts untouched until both of us had seen the plan.
 
 ## 000119-e81c074b052e
 
@@ -874,7 +874,7 @@ The minutes called the decision "unanimously welcomed." I asked for my objection
 
 ## 000119-459a56b5e2fc
 
-"I'm frightened of him recognising my voice," the caller said. "Can you give the message?" The volunteer's gaze wandered across the desk and back. In the booth, evening replaced wet streets and impatient horns with warm plastic and muted words. She confirmed which details she could share before dialling the second number.
+The caller gives the volunteer a number, then asks her to read it back. "I'm frightened he'll recognise my voice," she says. "He used to answer before I said my name." The volunteer checks which details she has permission to share. Her gaze wanders across the desk and back as the caller spells a surname. Warm plastic and muted words give the booth its own small weather. The volunteer dials. After six rings, someone answers, and the caller grips the edge of the desk without speaking.
 
 ## 000119-e4948e2c20f9
 
@@ -946,7 +946,7 @@ I told the organiser I was disappointed about losing the stall and wanted the al
 
 ## 000119-0c0b82c96fb6
 
-"I'm happy to drive, but I need you to stop commenting on every turn," Leah said. Her gaze floated across the dashboard. The car traded rain and restless pavement noise for warm fabric and the engine's quiet promise. Her father folded the map, gave her the destination once, and left her to choose the route.
+At the first junction Leah's father begins to point, then folds the map against his knees. She has already told him she is happy to drive if he stops commenting on every turn. Warm fabric and the engine's quiet promise seem to seal them inside a gentler world. Her gaze floats across the dashboard while they wait at the red light. When it changes, she takes the left turn. Her father opens his mouth, looks at the folded map, and lets her continue.
 
 ## 000119-9ab1333ffe74
 
@@ -958,5 +958,5 @@ We found the community kitchen unlocked, with our ingredients already stacked by
 
 ## 000119-3fe1b45ee962
 
-The final box contained the missing curtain hooks. Owen's gaze made a slow journey around the sitting room. Evening replaced the street's hard stone and hurried brakes with linen and the soft hush of home. We hung the curtains before assembling the bed, using the empty boxes to reach the rail at each end.
+The curtain hooks turn up in the final box, beneath the kettle lead. We borrow a stepladder from next door and leave the bed in pieces while Owen threads the hooks into the curtain tape. Linen and the soft hush of home seem to gather around the bare room. From the ladder, his gaze makes a slow journey over the walls and back to the window. I hold up the first curtain. There are twelve hooks and fourteen rings, so we leave a gap at each end until morning.
 
