@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain an embodied character's bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion that merely keeps the character performing or illustrates a generic feeling between substantive events, rather than supplying a physical task or condition, particular information, a specific interpersonal response or an identifiable narrative function?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain an embodied character's bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion that merely keeps the character performing or illustrates a generic feeling between substantive events? An abstraction acting in the scene creates no bodily cue merely by mentioning a person or body part. Preserve physical tasks and conditions, particular information, specific interpersonal acts and identifiable narrative functions. A plausible emotional reaction alone leaves a generic bodily annotation eligible.",
   "criteria": {
-    "true": "At least one bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion of an embodied character is an interchangeable staging or emotional cue. Read in context, that cue supplies no particular physical, communicative or narrative meaning beyond generic animation or illustration.",
-    "false": "Each embodied character's bodily or felt-emotion cue performs a task, establishes a physical condition, conveys particular information or a specific response, or supplies an identifiable narrative function. Also false when no eligible cue occurs or all candidate cues are wording being examined or documented."
+    "true": "At least one bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion of an embodied character is an interchangeable staging or emotional cue. The cue itself supplies only generic animation or emotional illustration, even when the surrounding event explains the reaction or the conversation makes it plausible.",
+    "false": "Every embodied character's cue performs a task, establishes a physical condition, conveys particular information or a specific interpersonal act, or supplies an identifiable narrative function beyond plausible emotional illustration. Also false when no eligible embodied cue occurs, including pure abstract personification, or all candidate cues are wording being examined or documented."
   }
 }
 ---

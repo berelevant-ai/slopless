@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage use hesitation, waiting, lingering, stopping, briefly staying still or keeping pace, or a generic animal ear/tail gesture, merely to insert a pause or response between substantive events? Flag a cue whose own contribution is only this placeholder beat. Preserve a cue that establishes a passage-supported choice, timing constraint, physical task or need, informative perception, consequential response or particular narrative relation. Infer that function across connected sentences; nearby useful action or emotion alone does not supply it.",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage use a character's hesitation, waiting, lingering, stopping, briefly staying still or keeping pace, or a generic animal ear/tail gesture, merely to insert a pause or response between substantive events? Judge narrated character behavior; room mood, ambient silence and setting descriptions alone fall outside this check. Preserve a cue that establishes a passage-supported choice, timing constraint, physical task or need, informative perception, consequential response or particular narrative relation. Infer that function across connected sentences; nearby useful action or emotion alone does not supply it.",
   "criteria": {
-    "true": "At least one hesitation, delay, stop, continued stillness or matched movement, or generic animal ear/tail tag, only pads the sequence with a pause or response. Its duration, setting, trigger or following action supplies no particular function for the cue itself.",
-    "false": "No eligible pause/response cue occurs, or every such cue serves a passage-supported choice, timing constraint, physical task or need, informative perception, consequential response or particular narrative relation. Preserve wording examined or documented as wording."
+    "true": "At least one character's hesitation, delay, stop, continued stillness or matched movement, or generic animal ear/tail tag, only pads the sequence with a pause or response. Its duration, setting, trigger or following action supplies no particular function for the behavior itself.",
+    "false": "No eligible character pause/response occurs, or every such cue serves a passage-supported choice, timing constraint, physical task or need, informative perception, consequential response or particular narrative relation. Ambient silence or room mood alone establishes no character behavior. Preserve wording examined or documented as wording."
   }
 }
 ---
@@ -19,7 +19,7 @@ Preserve a cue that makes a particular choice, constraint, task, perception or r
 
 Observation, orientation, characterization, compression and pacing qualify through the particular content the cue supplies, without requiring a later action. Merely slowing the narration, marking time or suggesting a generic emotional reaction leaves the beat empty. A separate remark about briefly matching another person's movement needs its own function beyond ordinary travel.
 
-A trigger, duration, location or anatomical detail alone supplies no purpose. Useful work protects its own contribution; assess any independent delay or response beside it, even within the same sentence. Distinguish a continuing physical need from a delay added after that need has been resolved. An atmospheric description is eligible here when it inserts a placeholder interval or response.
+A trigger, duration, location or anatomical detail alone supplies no purpose. Useful work protects its own contribution; assess any independent delay or response beside it, even within the same sentence. Distinguish a continuing physical need from a delay added after that need has been resolved. Locate the behavior being narrated before judging its purpose.
 
 Preserve wording examined or documented as wording. Assess adopted narration and ordinary dialogue normally.
 

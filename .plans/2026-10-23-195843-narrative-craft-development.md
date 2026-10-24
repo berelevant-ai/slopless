@@ -138,3 +138,10 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Fresh confirmations validate timestamp and personification cutoffs of 0.63 and 0.58, selected from broad development-only ranges. Preserve all original 0.5 scores and the preregistration record.
 - Fixed scenic metaphors passes its compressed candidate and confirmation at 0.5: 98 hits in all four runs, with three to five false positives. Preserve the compression regressions for the remaining six checks and test self-contained native questions next.
 - Next: complete the remaining checks without changing labels or definitions for detector scores, confirm each selected prompt on every applicable development collection, and obtain final independent verification before completion.
+
+## Remaining Development Corrections
+
+- For empty beats, enforce the frozen construction's character-behavior scope. Remove the candidate's added atmospheric-description eligibility; keep useful waiting, generic gestures and matched movement judged by their own functions.
+- For bodily actions, state the embodied-cue boundary in the native question and criteria. An abstract entity acting in a scene creates no bodily cue merely by mentioning a person or body part; preserve generic bodily reactions beside useful events.
+- Test those two corrections on unchanged isolated and mixed development. Preserve all examples and prior failures; require confirmation before selection.
+- Resolve disputed perception and cliche judgments through blind, definition-based review. Keep original scores and current labels while adjudication remains open; rebalance reviewed selections independently of detector scores if corrections change class counts.
