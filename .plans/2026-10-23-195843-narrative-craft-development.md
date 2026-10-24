@@ -131,9 +131,9 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 - The complete family has 52 frozen collections: 10,400 passages and 16,000 judgments. Independent verification passes all 36 dataset gates; reviewed surplus and original candidate versions remain in Git.
 - All nineteen checks have completed isolated and mixed development runs. The frozen rhythm comparator remains separate; protected holdout inference has never run.
-- Ten checks have candidates confirmed within the fixed quality bounds on isolated and every applicable mixed collection. Nine checks still need detector or calibration work.
+- Twelve checks have candidates confirmed within the fixed quality bounds on isolated and every applicable mixed collection. Seven checks still need detector work.
 - The final duplication screen finds zero candidates across 3,231,085,000 comparisons. Its hash-bound reference inventory verifies the original body-emotion pair was included.
 - Native prompts remain below 1,000 assembled words. Historical demonstration sets, exact responses, changed predictions, scope incidents and corrected word-count metadata remain in the development record and worklogs.
 - Timestamp and perception example-only revisions retain identical question prefixes. Compare them on the same 188 targets outside the union of their old and new demonstrations.
-- Offline calibration identifies broad feasible ranges for timestamps and an earlier personification prompt. Test preregistered midpoint cutoffs in fresh development confirmations; preserve all original 0.5 scores.
+- Fresh confirmations validate timestamp and personification cutoffs of 0.63 and 0.58, selected from broad development-only ranges. Preserve all original 0.5 scores and the preregistration record.
 - Next: complete the remaining checks without changing labels or definitions for detector scores, confirm each selected prompt on every applicable development collection, and obtain final independent verification before completion.
