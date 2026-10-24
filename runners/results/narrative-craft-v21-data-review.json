@@ -22563,7 +22563,7 @@
         "narrative-craft/fixed-metaphor-frame"
       ],
       "stem": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development",
-      "phase": "corrected-candidates-awaiting-reselection",
+      "phase": "frozen-isolated",
       "definitionSha256": "698ea300641f257eb9c5322de6c5fc56aac43744124f909ef9bc3a11dcab2fec",
       "generation": {
         "producingCommit": "fcfc8079028b38e4ecf94262ae2ff8375a5e5a48",
@@ -23124,13 +23124,13 @@
           "narrative-craft/fixed-metaphor-frame"
         ],
         "archive": {
-          "commit": "7160d5a68fba7b805a93c1477adf64772bf483ae",
+          "commit": "82d30939f5a7df3d791aa9b25decc2682611fb8d",
           "textSha256": "45772d4ed711a2a160777e34247153e6344b4936c96d24115734891a1c2acb34",
-          "labelsSha256": "03643c091fbd3c722e41dc20126b5ec882a8ac5c8e00ae21b909c81c0cc8be9c",
+          "labelsSha256": "be788e31d330b1cf00c4458c6f2efd7c1010262b5577566daa54b46ec7d1d40e",
           "stem": "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development"
         },
         "sourceRows": 240,
-        "sourceSha256": "9a7bdd4aa5747bec4afd2cd355c064e0c9a5debd9f658d8b644bca13dc0f5546",
+        "sourceSha256": "fe42dd889cee5487df148c8db4bd808bf59a2a0c7f25a7c3a6e33471a8dc4da8",
         "ranking": "sha256(v21-balance:<split>:<rawId>)",
         "priority": [
           "retained-pilots",
@@ -23144,13 +23144,13 @@
           {
             "vector": "0",
             "quota": 100,
-            "available": 120,
-            "mandatory": 30,
-            "retainedPilots": 10,
+            "available": 121,
+            "mandatory": 31,
+            "retainedPilots": 11,
             "changedLabels": 0,
             "rewrittenHardCases": 20,
             "introducedRows": 0,
-            "adjudicated": 0,
+            "adjudicated": 1,
             "unprovenChanges": 0,
             "inspectionNeeded": 0,
             "replenishmentNeeded": 0
@@ -23158,9 +23158,9 @@
           {
             "vector": "1",
             "quota": 100,
-            "available": 120,
-            "mandatory": 26,
-            "retainedPilots": 10,
+            "available": 119,
+            "mandatory": 25,
+            "retainedPilots": 9,
             "changedLabels": 0,
             "rewrittenHardCases": 16,
             "introducedRows": 0,
@@ -23278,6 +23278,18 @@
             "introduced": false,
             "adjudicated": false,
             "decisions": [
+              "pool-reconcile.json"
+            ]
+          },
+          {
+            "id": "p007",
+            "pilot": true,
+            "changedLabels": true,
+            "rewritten": true,
+            "introduced": false,
+            "adjudicated": true,
+            "decisions": [
+              "label-support-resolution.json",
               "pool-reconcile.json"
             ]
           },
@@ -23601,17 +23613,6 @@
             ]
           },
           {
-            "id": "p007",
-            "pilot": true,
-            "changedLabels": false,
-            "rewritten": true,
-            "introduced": false,
-            "adjudicated": false,
-            "decisions": [
-              "pool-reconcile.json"
-            ]
-          },
-          {
             "id": "p165",
             "pilot": false,
             "changedLabels": false,
@@ -23794,6 +23795,10 @@
             "sha256": "5931a434ec61b4714f8a5a0c34cb708fc58838f74706ba19e5e6f07d7faaa663"
           },
           {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/pool-supported.json",
+            "sha256": "fe42dd889cee5487df148c8db4bd808bf59a2a0c7f25a7c3a6e33471a8dc4da8"
+          },
+          {
             "file": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/pool-reviewed.json",
             "sha256": "9a7bdd4aa5747bec4afd2cd355c064e0c9a5debd9f658d8b644bca13dc0f5546"
           },
@@ -23812,6 +23817,10 @@
           {
             "file": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/followup2-curate.json",
             "sha256": "a870080206f1376707cf4388f0a57580cbef31223e5f9fc3ec717277b1e2e575"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/label-support-resolution.json",
+            "sha256": "b33c062cbe988aa14f2c959dcd2008d4728c30ed53a16cd2df20f0a4ae85a5eb"
           },
           {
             "file": "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/pilot-adjudicate.json",
@@ -23879,6 +23888,21 @@
         "sourceSha256": "9a7bdd4aa5747bec4afd2cd355c064e0c9a5debd9f658d8b644bca13dc0f5546",
         "supportedSha256": "fe42dd889cee5487df148c8db4bd808bf59a2a0c7f25a7c3a6e33471a8dc4da8",
         "previousSelectionSha256": "b4913fbebf876b40bb7be8363e35c6458d0515048114f5d337fc3922d8468a98"
+      },
+      "selected": {
+        "id": "000097",
+        "split": "development",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/fixed-metaphor-frame": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+        "sourceSha256": "4011ab3f7bb009bfd9ee805f9faeb93326004fbfe4d780b191d291287e2b81d3",
+        "words": 11164
       }
     },
     {
@@ -39981,7 +40005,7 @@
         "narrative-craft/silence-as-actor"
       ],
       "stem": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development",
-      "phase": "corrected-candidates-awaiting-reselection",
+      "phase": "frozen-isolated",
       "definitionSha256": "804343fb3c7c33300229031b2a8ca19318ed574abd03206cb588eb141d3c2540",
       "generation": {
         "producingCommit": "fcfc8079028b38e4ecf94262ae2ff8375a5e5a48",
@@ -40397,13 +40421,13 @@
           "narrative-craft/silence-as-actor"
         ],
         "archive": {
-          "commit": "7160d5a68fba7b805a93c1477adf64772bf483ae",
+          "commit": "82d30939f5a7df3d791aa9b25decc2682611fb8d",
           "textSha256": "d8b4d2c735da215cda944d5c61b1426a4731fea20b103c5bd0720d863048ac30",
-          "labelsSha256": "ba353f597457bcae56717a12785d960c6a96fd5d08ed32e9be1c456c21fa88af",
+          "labelsSha256": "96bc1d3091c67fbf6d1eac9cc79832976dc5b71956dc8844a9541e66a38c77fe",
           "stem": "datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development"
         },
         "sourceRows": 240,
-        "sourceSha256": "bb87a8b5a279275083328a807df30fbafe70c30157dfbed603f40e49ff237f03",
+        "sourceSha256": "c47e96decef120745f4cba44df0b64edfbb34a4c0f67f950028ff8a45dba710b",
         "ranking": "sha256(v21-balance:<split>:<rawId>)",
         "priority": [
           "retained-pilots",
@@ -40417,10 +40441,10 @@
           {
             "vector": "0",
             "quota": 100,
-            "available": 123,
-            "mandatory": 28,
+            "available": 120,
+            "mandatory": 25,
             "retainedPilots": 10,
-            "changedLabels": 3,
+            "changedLabels": 0,
             "rewrittenHardCases": 15,
             "introducedRows": 0,
             "adjudicated": 0,
@@ -40431,13 +40455,13 @@
           {
             "vector": "1",
             "quota": 100,
-            "available": 117,
-            "mandatory": 33,
+            "available": 120,
+            "mandatory": 36,
             "retainedPilots": 10,
             "changedLabels": 0,
-            "rewrittenHardCases": 23,
+            "rewrittenHardCases": 24,
             "introducedRows": 0,
-            "adjudicated": 0,
+            "adjudicated": 3,
             "unprovenChanges": 0,
             "inspectionNeeded": 0,
             "replenishmentNeeded": 0
@@ -40552,40 +40576,6 @@
             "adjudicated": false,
             "decisions": [
               "pilot-adjudicate.json"
-            ]
-          },
-          {
-            "id": "p167",
-            "pilot": false,
-            "changedLabels": true,
-            "rewritten": true,
-            "introduced": false,
-            "adjudicated": false,
-            "decisions": [
-              "pool-final-curate.json",
-              "pool-reconcile.json"
-            ]
-          },
-          {
-            "id": "p139",
-            "pilot": false,
-            "changedLabels": true,
-            "rewritten": false,
-            "introduced": false,
-            "adjudicated": false,
-            "decisions": [
-              "pool-final-curate.json"
-            ]
-          },
-          {
-            "id": "p195",
-            "pilot": false,
-            "changedLabels": true,
-            "rewritten": false,
-            "introduced": false,
-            "adjudicated": false,
-            "decisions": [
-              "pool-final-curate.json"
             ]
           },
           {
@@ -41007,6 +40997,19 @@
             ]
           },
           {
+            "id": "p167",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": true,
+            "introduced": false,
+            "adjudicated": true,
+            "decisions": [
+              "label-support-resolution.json",
+              "pool-final-curate.json",
+              "pool-reconcile.json"
+            ]
+          },
+          {
             "id": "p223",
             "pilot": false,
             "changedLabels": false,
@@ -41115,12 +41118,40 @@
             "decisions": [
               "pool-reconcile.json"
             ]
+          },
+          {
+            "id": "p139",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "introduced": false,
+            "adjudicated": true,
+            "decisions": [
+              "label-support-resolution.json",
+              "pool-final-curate.json"
+            ]
+          },
+          {
+            "id": "p195",
+            "pilot": false,
+            "changedLabels": false,
+            "rewritten": false,
+            "introduced": false,
+            "adjudicated": true,
+            "decisions": [
+              "label-support-resolution.json",
+              "pool-final-curate.json"
+            ]
           }
         ],
         "inputs": [
           {
             "file": "/tmp/slopless-narrative-v21-full/collections.json",
             "sha256": "5931a434ec61b4714f8a5a0c34cb708fc58838f74706ba19e5e6f07d7faaa663"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pool-supported.json",
+            "sha256": "c47e96decef120745f4cba44df0b64edfbb34a4c0f67f950028ff8a45dba710b"
           },
           {
             "file": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pool-reviewed.json",
@@ -41133,6 +41164,10 @@
           {
             "file": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pool-author.json",
             "sha256": "77efe26fcba7f9f9ed42b70d7c5e9d5ec0f972ff827e943dfcc7689406493d4c"
+          },
+          {
+            "file": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/label-support-resolution.json",
+            "sha256": "2ee2f23114c2fb9765dfd57e5d01cad7a6d386c5e4586b6ee9b33f87431585ef"
           },
           {
             "file": "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/pilot-adjudicate.json",
@@ -41238,6 +41273,21 @@
         "sourceSha256": "bb87a8b5a279275083328a807df30fbafe70c30157dfbed603f40e49ff237f03",
         "supportedSha256": "c47e96decef120745f4cba44df0b64edfbb34a4c0f67f950028ff8a45dba710b",
         "previousSelectionSha256": "418445dc9be4d1a6745a39b0366bafdaa0405ac93fdc328d05beb81105660b84"
+      },
+      "selected": {
+        "id": "000111",
+        "split": "development",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/silence-as-actor": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "db0da4fda48d72958d64b62bfa81bf9ec28dfd8afc3a633b1cece92d440098a4",
+        "sourceSha256": "50dc94c392c5e7f9abc73c9a28199993ba5eeeae687134036bd1a24fe5d4dc11",
+        "words": 10496
       }
     },
     {
@@ -47794,9 +47844,7 @@
   "selectedCandidateTotals": {
     "collections": 36,
     "passages": 7200,
-    "words": 386145,
-    "source": "new isolated final selections; existing body-emotion pair separate",
-    "status": "34-final-selections-plus-two-corrected-pools-awaiting-reselection"
+    "source": "all36 new isolated frozen pairs; body-emotion existingpair separate"
   },
   "selectionCopyScreens": [
     {
