@@ -136,7 +136,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - The family has 52 paired collections: 10,400 passages and 16,000 judgments, including 400 frozen rhythm-comparator judgments. Every assigned check/split retains exactly 100 hits and 100 no-hits.
 - The [current data audit](../runners/results/narrative-craft-v21-current-final-data-audit.json) passes 122,717 assertions. It verifies all snippets and offsets, 47 unchanged pairs, all 1,223 archived source passages and all 474 mandatory retained cases.
 - Final review approves four development corrections and retains two disputed pause hits after blind disagreement. All 161 previously reviewed error cases remain present after balancing; source wording and other-check judgments remain unchanged.
-- Protected review confirms eighteen original label corrections and accepts sixteen additions, including four structural rewrites reviewed in three fresh blind passes. All thirteen registered input hashes match and every permitted read is logged; holdout detector inference remains unrun.
+- Protected review confirms eighteen original label corrections and accepts sixteen additions, including four structural rewrites reviewed in three fresh blind passes. All thirteen registered input hashes match and every permitted read is logged. Holdout detector inference follows the separately authorized assessment below.
 - Copy screening finds zero candidates in 3,231,085,000 original comparisons and 5,250,664 comparisons for the final protected additions. Full candidate pools and reviewed surplus remain archived in Git.
 - Final Fixture3 review covers 63 common prediction changes: 45 corrected errors and eighteen introduced errors, with two credited corrections retained as editorial sensitivity cases. All ten comparison collections meet the fixed bounds; the reviewed snapshot is approved and its check matches.
 - Explicit labels preserve the known misses and false positives. The original approved snapshot, both prediction reviews, all 44 added/removed memberships and historical execution limitations remain available.
@@ -147,7 +147,7 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Its two body-emotion example-exclusion metadata corrections are applied: each run has 97 positives, 96 caught, 96 negatives and two false positives after excluding historically copied examples. Native responses, full-cohort scores and selected cutoffs stay unchanged.
 - Global dataset validation, the dataset Fixture3 contract, approved prediction Fixture3 comparison and six paragraph-runner tests pass. Fresh documentation review resolves both stale-status and protected-metadata-link objections.
 - Commit and push the final audit, metadata acknowledgment and documentation; require successful CI for that exact final commit before closing the goal.
-- Holdout detector assessment, broad corpus validation, span highlighting and production integration retain their separately authorized stages.
+- Broad corpus validation, span highlighting and production integration retain their separately authorized stages. The user has now authorized the frozen holdout assessment below.
 
 ## Frozen Holdout Assessment
 
@@ -157,3 +157,11 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Compare holdout with development confirmation by check and isolated versus mixed writing. Report family totals and mixed all-issues-found/exact-match results; independently apply each check's frozen cutoff when combining mixed predictions.
 - Review missed hits and false positives for systematic failures. Record label disagreements separately from the primary scores; preserve the first assessment without prompt, cutoff or label revision.
 - Save native results and the concise assessment under `runners/results/`. Obtain fresh independent review, then commit and push the report and worklog. Further tuning after reviewing holdout requires fresh independent holdout material.
+
+### First Assessment Results
+
+- The frozen run catches 3,808/3,900 hits with 111 false positives among 3,900 no-hits: 97.2% precision and 97.6% recall. Thirty of 39 combinations pass; twelve of nineteen checks pass every assigned holdout collection.
+- Mixed perception catches 92/100 hits with twelve false positives; mixed empty beats catches 99/100 with eleven. These are the clearest precision failures. Five additional checks fail narrower recall or false-positive margins.
+- Mixed passages have all expected issues found in 1,154/1,200 affected passages and all assessed labels correct in 1,307/1,400 passages. Each check keeps its own cutoff and independent judgment.
+- All forty native files pass public snapshot, request, seal and score validation. The additional rhythm comparator catches 100/100 hits with four false positives and stays outside Narrative Craft totals.
+- [The assessment](../runners/results/narrative-craft-v21-holdout.md) records all per-check results. Review all 203 Narrative Craft errors before final conclusions; preserve primary scores and frozen inputs when recording label disagreements.

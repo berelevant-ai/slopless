@@ -39,6 +39,7 @@
 
 - `v21/` contains all nineteen tuned Narrative Craft questions with JSON front matter and unchanged `v19/shared.md`. Each assembled prompt has fewer than 1,000 words and uses highlighted development examples; holdout writing stays outside authoring.
 - All 39 applicable development check/collection combinations pass source and fresh confirmation at their frozen cutoffs. Confirmation catches 3,834/3,900 positives with 75/3,900 false positives; every combination catches at least 95/100 hits with at most five false positives.
-- The [tuning record](../runners/results/narrative-craft-v21-development-tuning.json) identifies every selected prompt revision, cutoff and exact current native result under `finalCurrentEvidence`. The [Narrative Craft plan](../.plans/2026-10-23-195843-narrative-craft-development.md) tracks final audits; holdout inference retains its separate stage.
+- The [tuning record](../runners/results/narrative-craft-v21-development-tuning.json) identifies every selected prompt revision, cutoff and exact current native result under `finalCurrentEvidence`.
+- The first [frozen holdout assessment](../runners/results/narrative-craft-v21-holdout.md) catches 3,808/3,900 hits with 111 false positives. Twelve checks pass every assigned collection; mixed perception and empty beats are the largest precision failures. Preserve these assessed prompts; further tuning requires fresh independent holdout data.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

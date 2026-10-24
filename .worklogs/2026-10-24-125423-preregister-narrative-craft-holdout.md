@@ -21,3 +21,11 @@ The user authorizes the first frozen holdout assessment for all nineteen Narrati
 
 - Freeze input hashes, execute the complete holdout run and compare every check with development confirmation.
 - Review the errors, obtain independent verification, and report aggregate precision/recall plus the weakest individual checks.
+
+## First Frozen Results
+
+- All forty native jobs finish successfully. Narrative Craft catches 3,808/3,900 hits with 111/3,900 false positives; thirty of 39 combinations and twelve of nineteen checks meet the fixed limits.
+- Mixed perception scores 92 caught hits and twelve false positives. Mixed empty beats scores 99 hits and eleven false positives. Preserve these failures for review.
+- Public native validation matches every original summary. Mixed scoring uses each selected cutoff independently: 1,154/1,200 affected passages have every expected issue found; 1,307/1,400 have all assessed labels correct.
+- Preserve the forty native files and original aggregate scores before semantic review. Independent reviewers inspect all 203 Narrative Craft errors; primary scores and labels stay unchanged.
+- Dataset Fixture3 matches, and all six paragraph-runner tests pass. Production rules and unrelated term-policy work remain untouched.
