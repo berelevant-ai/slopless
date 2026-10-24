@@ -194,9 +194,126 @@
             ]
           },
           "assembledWords": 888
+        },
+        {
+          "revision": "attested-final-source",
+          "collection": "000077",
+          "output": "runners/results/narrative-craft-v21-body-emotion-shorthand-attested-final-source-000077-development.json",
+          "producingCommit": "581a6bd377d06d986d60b466c65bec7ad38e013b",
+          "threshold": 0.5,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "body-emotion-shorthand",
+            "collection": "000077",
+            "cohort": "isolated",
+            "revision": "attested-final-source",
+            "dataset": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-body-emotion-shorthand-attested-final-source-000077-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/body-emotion-shorthand-attested-final-source-000077.log",
+            "developmentOnly": true,
+            "producingCommit": "581a6bd377d06d986d60b466c65bec7ad38e013b",
+            "assembledWords": 888,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.labels.json": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/body-emotion-shorthand.md": "cbab7d0a37f42aa55bc1092d17697dbcf956c2f683173c124c180e078391d116",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 4882,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 99,
+          "misses": [
+            "000077-7e2f33db8b9a"
+          ],
+          "falsePositives": 3,
+          "falseAlarms": [
+            "000077-153666f99d09",
+            "000077-b907b7291118",
+            "000077-d4d1b4632030"
+          ],
+          "assembledWords": 888,
+          "excludingDemonstrations": {
+            "positives": 100,
+            "caught": 99,
+            "noHits": 100,
+            "falsePositives": 3
+          }
+        },
+        {
+          "revision": "attested-final-confirmation",
+          "collection": "000077",
+          "output": "runners/results/narrative-craft-v21-body-emotion-shorthand-attested-final-confirmation-000077-development.json",
+          "producingCommit": "581a6bd377d06d986d60b466c65bec7ad38e013b",
+          "threshold": 0.5,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "body-emotion-shorthand",
+            "collection": "000077",
+            "cohort": "isolated",
+            "revision": "attested-final-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-body-emotion-shorthand-attested-final-confirmation-000077-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/body-emotion-shorthand-attested-final-confirmation-000077.log",
+            "developmentOnly": true,
+            "producingCommit": "581a6bd377d06d986d60b466c65bec7ad38e013b",
+            "assembledWords": 888,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.md": "5faa27b74f2c4d1a6b3b2871e6db38714814173aebc88cf8d2559bfb1ea9214e",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000077-narrative-craft-body-emotion-shorthand-development.labels.json": "26294f70e4e5cdc0a54080332c528227eca32a115d5702a831941895b7adadb7",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/body-emotion-shorthand.md": "cbab7d0a37f42aa55bc1092d17697dbcf956c2f683173c124c180e078391d116",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3248,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 99,
+          "misses": [
+            "000077-7e2f33db8b9a"
+          ],
+          "falsePositives": 2,
+          "falseAlarms": [
+            "000077-153666f99d09",
+            "000077-d4d1b4632030"
+          ],
+          "assembledWords": 888,
+          "excludingDemonstrations": {
+            "positives": 100,
+            "caught": 99,
+            "noHits": 100,
+            "falsePositives": 2
+          }
         }
       ],
-      "selected": "b2-isolated-only-pending-mixed",
+      "selected": "b2",
       "mixedCandidates": [
         {
           "revision": "m0",
@@ -406,7 +523,7 @@
           }
         }
       ],
-      "mixedStatus": "candidate-within-bounds-unconfirmed",
+      "mixedStatus": "all-current-mixed-cohorts-confirmed",
       "mixedConfirmations": [
         {
           "collection": "000115",
@@ -500,7 +617,15 @@
         }
       ],
       "threshold": 0.5,
-      "status": "all-development-cohorts-confirmed"
+      "status": "all-development-cohorts-confirmed",
+      "selectedRevision": "b2",
+      "finalIsolatedEvidence": {
+        "source": "runners/results/narrative-craft-v21-body-emotion-shorthand-attested-final-source-000077-development.json",
+        "confirmation": "runners/results/narrative-craft-v21-body-emotion-shorthand-attested-final-confirmation-000077-development.json",
+        "producingCommit": "581a6bd377d06d986d60b466c65bec7ad38e013b",
+        "threshold": 0.5,
+        "reason": "Fresh unchanged-input source and confirmation explicitly record the loaded SDK identity; preserve the earlier unrecorded identity as a historical evidence gap."
+      }
     },
     "emotion-telling": {
       "dataStatus": "isolated-balanced-development-and-holdout-reviewed",
