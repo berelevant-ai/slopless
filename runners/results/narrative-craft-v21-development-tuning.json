@@ -36,7 +36,7 @@
     "maximumFalsePositives": 5,
     "requiresFreshConfirmation": true
   },
-  "status": "sixteen-checks-confirmed-empty-beats-awaits-confirmation-two-continue-development",
+  "status": "eighteen-checks-confirmed-perception-continues-development",
   "checks": {
     "body-emotion-shorthand": {
       "dataStatus": "isolated-development-and-holdout-reviewed",
@@ -6001,7 +6001,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100. Six complete passages total 360 whitespace words. Hits cover a single filler pause beside purposeful action, a generic animal tag amid practical detail, and empty keeping pace beside informative observation. No-hits cover coordinated carrying, consequential social silence and narrative relation, and informative animal perception.",
         "concerns": []
       },
-      "status": "both-development-cohorts-pass-awaiting-confirmation",
+      "status": "all-development-cohorts-confirmed",
       "candidates": [
         {
           "revision": "b0",
@@ -6641,6 +6641,68 @@
             "caught": 93,
             "noHits": 97,
             "falsePositives": 2
+          }
+        },
+        {
+          "revision": "core5-confirmation",
+          "collection": "000089",
+          "output": "runners/results/narrative-craft-v21-empty-beat-core5-confirmation-000089-development.json",
+          "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+          "threshold": 0.5,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "empty-beat",
+            "collection": "000089",
+            "cohort": "isolated",
+            "revision": "core5-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-empty-beat-core5-confirmation-000089-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/empty-beat-core5-confirmation-000089.log",
+            "developmentOnly": true,
+            "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+            "assembledWords": 786,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md": "5dfe80eb057645163ec319119e6eb366990aa231fcac93807f4b77f979088668",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.labels.json": "e40007754421b22b9859cc9e5b30f30ba8f4b265567920bd02850823df18b611",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-beat.md": "b5ed69a22414b875a9cff033c1868376b96d311014996b713a11e1eb68bf1a1b",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3124,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 97,
+          "misses": [
+            "000089-a8ba6e3d4800",
+            "000089-afe716754586",
+            "000089-e7a36dbaca27"
+          ],
+          "falsePositives": 4,
+          "falseAlarms": [
+            "000089-4fa5485267d5",
+            "000089-d718b74e1c7e",
+            "000089-e8ab0ab50632",
+            "000089-ec4a8e07f213"
+          ],
+          "assembledWords": 786,
+          "excludingDemonstrations": {
+            "positives": 97,
+            "caught": 94,
+            "noHits": 97,
+            "falsePositives": 3
           }
         }
       ],
@@ -7342,6 +7404,68 @@
             "noHits": 98,
             "falsePositives": 3
           }
+        },
+        {
+          "revision": "core5-confirmation",
+          "collection": "000115",
+          "output": "runners/results/narrative-craft-v21-empty-beat-core5-confirmation-000115-development.json",
+          "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+          "threshold": 0.5,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "empty-beat",
+            "collection": "000115",
+            "cohort": "mixed",
+            "revision": "core5-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-empty-beat-core5-confirmation-000115-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/empty-beat-core5-confirmation-000115.log",
+            "developmentOnly": true,
+            "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+            "assembledWords": 786,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md": "6373cc877754c6cb1f1f9653f355d05b4e118ef22a6164bc9adced82f7498b5f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.labels.json": "be1b2f757c81d2f79d97a52845a3192c05377d6a292145f79b2f8dfe40d5e62e",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-beat.md": "b5ed69a22414b875a9cff033c1868376b96d311014996b713a11e1eb68bf1a1b",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3144,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 96,
+          "misses": [
+            "000115-525eca863048",
+            "000115-5fe562c285ce",
+            "000115-84f9725e735f",
+            "000115-960ba233c15a"
+          ],
+          "falsePositives": 3,
+          "falseAlarms": [
+            "000115-3ac40090b4d3",
+            "000115-b61d67ec40bf",
+            "000115-bbdbfec44e7b"
+          ],
+          "assembledWords": 786,
+          "excludingDemonstrations": {
+            "positives": 100,
+            "caught": 96,
+            "noHits": 98,
+            "falsePositives": 3
+          }
         }
       ],
       "allExposedDemonstrationIds": [
@@ -7353,7 +7477,9 @@
         "000089-68f164f2f339",
         "000115-18c481207624",
         "000115-c75ad97dec86"
-      ]
+      ],
+      "selectedRevision": "core5",
+      "selectedThreshold": 0.5
     },
     "empty-emotional-weather": {
       "dataStatus": "frozen-isolated",
@@ -13719,7 +13845,7 @@
         "coverage": "Validated development split, schemaVersion 2, and 200 samples balanced 100/100 for the named check. Selected passages total 334 whitespace words. Hits cover generic emotion tagging beside purposeful quiet speech, decorative elapsed time beside concrete records, and omniscient foreshadowing. No-hits cover practical unnoticed breath-holding, socially consequential voice perception, and informative narrative compression. Each hit independently satisfies single-weak-cue semantics despite useful surrounding detail.",
         "concerns": []
       },
-      "status": "development-revision-needed",
+      "status": "all-development-cohorts-confirmed",
       "candidates": [
         {
           "revision": "b0",
@@ -14119,6 +14245,59 @@
             "caught": 95,
             "noHits": 97,
             "falsePositives": 2
+          }
+        },
+        {
+          "revision": "core5-cal1-confirmation",
+          "collection": "000105",
+          "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-cal1-confirmation-000105-development.json",
+          "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+          "threshold": 0.6,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "narrative-cliches",
+            "collection": "000105",
+            "cohort": "isolated",
+            "revision": "core5-cal1-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.6,
+            "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-cal1-confirmation-000105-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/narrative-cliches-core5-cal1-confirmation-000105.log",
+            "developmentOnly": true,
+            "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+            "assembledWords": 773,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md": "b1424d2f7b31c297fae6a8265d2c0ffe6aece9ab5a2bb868c5f80a58067568a3",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.labels.json": "95006809f3b3aa1e065ae24d80b8981a13e0444128210da6538d9f1ebff67dc3",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/narrative-cliches.md": "97d037dd5471b8cd9166cf4d709f17c709b11e68cc45295347e0646dcfd7cc9f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3100,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 100,
+          "misses": [],
+          "falsePositives": 0,
+          "falseAlarms": [],
+          "assembledWords": 773,
+          "excludingDemonstrations": {
+            "positives": 95,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 0
           }
         }
       ],
@@ -14666,6 +14845,69 @@
             "caught": 99,
             "noHits": 97,
             "falsePositives": 12
+          }
+        },
+        {
+          "revision": "core5-cal1-confirmation",
+          "collection": "000123",
+          "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-cal1-confirmation-000123-development.json",
+          "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+          "threshold": 0.6,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "narrative-cliches",
+            "collection": "000123",
+            "cohort": "mixed",
+            "revision": "core5-cal1-confirmation",
+            "dataset": "datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.6,
+            "output": "runners/results/narrative-craft-v21-narrative-cliches-core5-cal1-confirmation-000123-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/narrative-cliches-core5-cal1-confirmation-000123.log",
+            "developmentOnly": true,
+            "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+            "assembledWords": 773,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md": "a077fb02a78e999b59aa8196c88acac3059928b2bac9f1ea82f666082834f1ac",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.labels.json": "af4c10444112f08385300b92a5b8a691a5fe9a9fef42feff44f382057c23c9e9",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/narrative-cliches.md": "97d037dd5471b8cd9166cf4d709f17c709b11e68cc45295347e0646dcfd7cc9f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3058,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 96,
+          "misses": [
+            "000123-1ae3f48bace0",
+            "000123-3a82b92526ba",
+            "000123-4bb7c8707eac",
+            "000123-9d2ce37f248a"
+          ],
+          "falsePositives": 4,
+          "falseAlarms": [
+            "000123-42e8f26c3cdc",
+            "000123-6545c9fdd5d6",
+            "000123-7365b72d0b50",
+            "000123-f48464024f4b"
+          ],
+          "assembledWords": 773,
+          "excludingDemonstrations": {
+            "positives": 99,
+            "caught": 95,
+            "noHits": 97,
+            "falsePositives": 4
           }
         }
       ],
@@ -15655,7 +15897,9 @@
         "000123-a03dd7b526ca",
         "000123-ec10a17baa79"
       ],
-      "threshold": 0.6
+      "threshold": 0.6,
+      "selectedRevision": "core5",
+      "selectedThreshold": 0.6
     },
     "perception-verb-density": {
       "dataStatus": "frozen-isolated",
@@ -16378,6 +16622,71 @@
             "noHits": 94,
             "falsePositives": 9
           }
+        },
+        {
+          "revision": "demo5",
+          "collection": "000107",
+          "output": "runners/results/narrative-craft-v21-perception-verb-density-demo5-000107-development.json",
+          "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+          "threshold": 0.5,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "perception-verb-density",
+            "collection": "000107",
+            "cohort": "isolated",
+            "revision": "demo5",
+            "dataset": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-perception-verb-density-demo5-000107-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/perception-verb-density-demo5-000107.log",
+            "developmentOnly": true,
+            "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+            "assembledWords": 838,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md": "f2f57923e2a31de65dc6808e83308a0a40c64c7900bb956e590b85d7179754f4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json": "56cd883ceeb9c0ddc4626f129968a57a5876b16d7d1dcfaa4f5c166323476597",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/perception-verb-density.md": "8b2613b6d4b922f5ff58527c4c15928d9956cff450049eb85dc028ef03ab7bdc",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3186,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 96,
+          "misses": [
+            "000107-048774693ab9",
+            "000107-89bc50fc598f",
+            "000107-b7467fa7ac5c",
+            "000107-db3b8e0a559c"
+          ],
+          "falsePositives": 6,
+          "falseAlarms": [
+            "000107-37af3cbec04d",
+            "000107-5d7dbba7b027",
+            "000107-87f4ad23c1a3",
+            "000107-bc7c04248770",
+            "000107-eccb01ee442b",
+            "000107-ed055ba52672"
+          ],
+          "assembledWords": 838,
+          "excludingDemonstrations": {
+            "positives": 94,
+            "caught": 91,
+            "noHits": 93,
+            "falsePositives": 6
+          }
         }
       ],
       "b1AssembledWords": 699,
@@ -16855,6 +17164,71 @@
             "caught": 96,
             "noHits": 100,
             "falsePositives": 6
+          }
+        },
+        {
+          "revision": "demo5",
+          "collection": "000117",
+          "output": "runners/results/narrative-craft-v21-perception-verb-density-demo5-000117-development.json",
+          "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+          "threshold": 0.5,
+          "execution": {
+            "family": "narrative-craft",
+            "check": "perception-verb-density",
+            "collection": "000117",
+            "cohort": "mixed",
+            "revision": "demo5",
+            "dataset": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+            "prompts": "prompts/v21",
+            "threshold": 0.5,
+            "output": "runners/results/narrative-craft-v21-perception-verb-density-demo5-000117-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/perception-verb-density-demo5-000117.log",
+            "developmentOnly": true,
+            "producingCommit": "fd24623f8f80c154c9979ae5d9fe992f155701fc",
+            "assembledWords": 838,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md": "e4c6eb679e4beeb113ab9e3efdab74bebec1b1452f5f04b3a61543762eef9845",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json": "2520c069b714ccf60a0fd2b8d2d31b899010289e0598f200463fc427647af8d8",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/perception-verb-density.md": "8b2613b6d4b922f5ff58527c4c15928d9956cff450049eb85dc028ef03ab7bdc",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3214,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d"
+          },
+          "caught": 95,
+          "misses": [
+            "000117-032f3d4fb289",
+            "000117-1ac8f38bbfa6",
+            "000117-296722d13b90",
+            "000117-646343720e14",
+            "000117-682699cf0b1d"
+          ],
+          "falsePositives": 5,
+          "falseAlarms": [
+            "000117-069a5ac20ff3",
+            "000117-16ee6442c78b",
+            "000117-5893df591a85",
+            "000117-8817aef11a69",
+            "000117-8c14cf7c3024"
+          ],
+          "assembledWords": 838,
+          "excludingDemonstrations": {
+            "positives": 100,
+            "caught": 95,
+            "noHits": 99,
+            "falsePositives": 5
           }
         }
       ],
@@ -24795,6 +25169,15 @@
             ]
           }
         ]
+      },
+      "independentReview": {
+        "path": "runners/results/narrative-craft-v21-repair1-core3-independent-review.json",
+        "sha256": "545927f371e47a1cda18dc35fbfabb6a686d18350099ce71c7821324e65a2374",
+        "nativeResultsVerified": 10,
+        "changedCommonPassagesManuallyReviewed": 61,
+        "correctedJudgments": 22,
+        "introducedErrors": 39,
+        "sourceLabelsDisputed": 3
       }
     },
     "dataAudit": {
@@ -24804,7 +25187,59 @@
       "passingAssertions": 12522,
       "auditedDataReviewSha256": "8ab7973daf9d39610396ffe1c542f3e177d0c374907161f6c03a0f89e8c4dc81"
     },
-    "reconfirmationStatus": "four-accepted-neighbor-checks-pass-fresh-confirmation-on-corrected-data"
+    "reconfirmationStatus": "four-accepted-neighbor-checks-pass-fresh-confirmation-on-corrected-data",
+    "additionalPerceptionReview": {
+      "status": "two-blind-contexts-and-final-independent-adjudication-complete",
+      "knownLabelsUnchanged": true,
+      "passages": [
+        "000117-1ac8f38bbfa6",
+        "000117-5893df591a85",
+        "000107-de63b639d515"
+      ],
+      "files": [
+        "/tmp/slopless-narrative-v21-full/perception-additional-label-blind-review.json",
+        "/tmp/slopless-narrative-v21-full/perception-additional-label-blind-review2.json",
+        "/tmp/slopless-narrative-v21-full/perception-additional-label-blind-review2-reconsideration.json"
+      ],
+      "decision": "Keep original independent disagreement and subsequent definition-based reconsideration. Review complete passages before any label/source changes.",
+      "corrections": [
+        {
+          "id": "000117-1ac8f38bbfa6",
+          "before": true,
+          "after": false
+        },
+        {
+          "id": "000107-de63b639d515",
+          "before": true,
+          "after": false
+        }
+      ],
+      "retainedNoHit": "000117-5893df591a85"
+    },
+    "additionalEmptyBeatReview": {
+      "status": "two-independent-judgments-and-main-adjudication-complete",
+      "corrections": [
+        {
+          "id": "000115-135c88b7ed77",
+          "before": true,
+          "after": false
+        },
+        {
+          "id": "000115-6e78d1c132a1",
+          "before": true,
+          "after": false
+        }
+      ],
+      "retained": [
+        {
+          "id": "000089-c33cfa57c6e6",
+          "expected": true,
+          "reason": "The text records a pause before selection, while the identification function remains inferred from the upcoming task alone. Preserve the original hit under the frozen next-task boundary and recall preference; retain the independent disagreement."
+        }
+      ],
+      "labelsChanged": false,
+      "review": "/tmp/slopless-narrative-v21-full/empty-additional-label-blind-review.json"
+    }
   },
   "characterScopeExperiment": {
     "revision": "core2",
@@ -25785,11 +26220,11 @@
   "emptyBeatConfirmation": {
     "revision": "core5-confirmation",
     "threshold": 0.5,
-    "status": "preregistered-before-inference"
+    "status": "both-complete-development-cohorts-pass-fresh-confirmation"
   },
   "perceptionDemo5Experiment": {
     "revision": "demo5",
-    "status": "preregistered-before-inference",
+    "status": "two-native-runs-complete-isolated-false-positives-exceed-bound-by-one",
     "change": "Native question, criteria and principle unchanged; replace two strong functional negative demos with explicit sensory observation and implicit scene survey, preserving three hits and the quoted-wording negative.",
     "newDemonstrationIds": [
       "000107-eed776970148",

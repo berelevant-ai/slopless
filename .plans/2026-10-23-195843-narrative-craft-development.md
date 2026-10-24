@@ -130,6 +130,9 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Execution Status
 
+- Eighteen checks meet the fixed quality bounds on the current frozen development labels after fresh confirmation. The new selected cutoffs are 0.56 for bodily actions and 0.60 for narrative cliches; empty beats remains at 0.5. Perception remains unfinished at 96/six false positives isolated and 95/five mixed.
+- A fresh review verifies all ten repair1/core3 runs and manually reads all 61 changed common passages in Fixture3. Preserve its report, all failed trials and the original approved prediction baseline.
+- Four further definition-based development corrections are decided: two perception hits and two empty-beat hits become no-hits. Preserve the trader-photo pause as a hit after independent disagreement; an upcoming identification task alone does not establish what the pause contributes. Archive corrected full pools, retain all hard controls and rebalance before re-evaluating changed inputs.
 - The complete family has 52 frozen collections: 10,400 passages and 16,000 judgments. After eleven label corrections and four additions, independent verification passes 12,522 data assertions; reviewed surplus and original candidate versions remain in Git.
 - All nineteen checks have completed isolated and mixed development runs. The frozen rhythm comparator remains separate; protected holdout inference has never run.
 - The pre-correction checkpoint confirmed fifteen checks through 363 assertions across 65 saved runs. Four accepted neighboring checks require confirmation on the changed mixed selections; bodily actions, empty beats, perception and narrative cliches remain unfinished.
