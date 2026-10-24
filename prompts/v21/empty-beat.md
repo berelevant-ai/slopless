@@ -3,7 +3,7 @@
   "instructions": "Does target contain an uninformative pause, hesitation, wait, lingering, stillness or keeping-pace tag, or an interchangeable animal ear/tail gesture? Assess each such cue's own contribution across the connected passage using the supplied rulebook.",
   "criteria": {
     "true": "At least one pause, delay, continued stillness or matched movement merely marks time before the next event, or an animal's ear/tail movement provides generic animation. A routine animal gesture can be filler even when it is natural behavior in a factual account. A plausible emotion, physical trigger or useful neighboring task alone gives the cue no particular function.",
-    "false": "There is no eligible character beat, or every beat has a supported role: waiting for a process or resource, allowing a reply, meeting an active physical need, coordinating a task, conveying information or making a particular choice or dramatic relation intelligible. Infer that role from connected context. Unrelated bodily emotion or room-mood slop cannot make functional waiting empty. Wording analyzed or documented as wording is preserved."
+    "false": "There is no eligible character beat, or every beat has a supported role: waiting for a process or resource, allowing a reply, meeting an active physical need, coordinating a task, conveying information or making a particular choice or dramatic relation intelligible. Infer that role from connected context. Unrelated bodily emotion or room-mood slop cannot make functional waiting empty. Wording analyzed or documented as wording is preserved. An ongoing attempt by another person can give waiting an implicit function by allowing that attempt time before intervention. A social event already underway can likewise support delaying a potentially interrupting action."
   }
 }
 ---
@@ -41,5 +41,4 @@ My calves were still trembling from the long descent, and I used the handrail al
 
 ### No Hit
 
-"You could stay here," Dad said, moving the spare key toward me.
-I left it on the table. He had already put clean sheets on my old bed; I could see the pillowcase through the open door. Neither of us spoke for a while. Then he drew the key back and asked what time the last bus left.
+Dad held the tablet sideways, trying to line up the tiny charging socket. His hands shook, and the plug kept striking its rim. I lingered for a moment, then took the cable from him. With the television unplugged, the lounge was quiet enough for us to hear the charging chime. We left the tablet flat on the table and used the longer cable so he could watch it from his chair.
