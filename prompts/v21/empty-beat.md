@@ -1,8 +1,8 @@
 ---
 {
-  "instructions": "Does target contain a character's placeholder pause, wait, hesitation, stop, lingering, keeping pace or generic animal ear/tail response? Judge whether that particular interval or response merely pads the sequence, using its connected context and the supplied rulebook.",
+  "instructions": "Does target contain an uninformative pause, hesitation, wait, lingering, stillness or keeping-pace tag, or an interchangeable animal ear/tail gesture? Assess each such cue's own contribution across the connected passage using the supplied rulebook.",
   "criteria": {
-    "true": "At least one character pause, delay, continued stillness, matched movement or generic ear/tail tag merely inserts a beat between events. A brief pause before doing the next task remains filler when the interval itself has no supported function. A fitting emotion, nearby useful work, location or duration alone does not give it one.",
+    "true": "At least one pause, delay, continued stillness or matched movement merely marks time before the next event, or an animal's ear/tail movement provides generic animation. A routine animal gesture can be filler even when it is natural behavior in a factual account. A plausible emotion, physical trigger or useful neighboring task alone gives the cue no particular function.",
     "false": "There is no eligible character beat, or every beat has a supported role: waiting for a process or resource, allowing a reply, meeting an active physical need, coordinating a task, conveying information or making a particular choice or dramatic relation intelligible. Infer that role from connected context. Unrelated bodily emotion or room-mood slop cannot make functional waiting empty. Wording analyzed or documented as wording is preserved."
   }
 }

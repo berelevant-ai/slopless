@@ -11,20 +11,34 @@
 
 Input: passage.
 
-Require both a recognizable stock narrative construction and an interchangeable decorative contribution. Judge each candidate's own function across the complete sequence.
+Require a recognizable stock construction used as interchangeable decoration. Generalize across new wording of familiar bodily reactions, emotional voice/face tags, unreadable eyes, words as wounds or music, narrowed worlds, thick or hanging atmosphere, scenic sunsets, time-passage flourishes, fate, foreshadowing and tentative hope. A believable emotional cause alone leaves stock wording eligible.
 
-Cover conventional heartbeat or chest reactions, spine chills, caught or unknowingly held breath, stock voice-quality and facial emotion tags, unreadable eyes, hanging or thick atmosphere, sunset/shadow transitions, elapsed-time formulas, omniscient teasers, formulaic tentative hope, exaggerated duration and subjective time slowing. Also recognize the world narrowing or falling away, words inflicting wounds or lingering like music, and fate or the universe intervening. Unfamiliar wording can instantiate a familiar construction; heightened or ornate wording is optional.
+Distinguish a generic scene-state judgment from a conventional image: an unspecified mood alone supplies no stock construction. Likewise, routine movement alone is insufficient. Preserve concrete physical conditions, informative light or weather, particular interpersonal meaning, useful chronology and compression. A useful surrounding task protects its own contribution; an independent decorative formula can remain.
 
-An unspecified mood, abstract feeling, fresh metaphor or routine movement needs a recognizable stock narrative construction to qualify. Identify that construction rather than treating general thinness as evidence of a cliche.
+Read the complete passage for the candidate's function. In quoted material, distinguish wording whose identity, use or accuracy is under examination from narration or ordinary dialogue adopting that wording. One stock decorative construction suffices, independently of other defects.
 
-For atmosphere, distinguish naming a scene's state from staging it through a conventional image. A place seeming different, subdued, melancholy or emotionally significant is a generic scene-state claim. A conventional blanket enveloping a place, weight settling over it, charged air or suspended silence can supply stock atmospheric imagery. Judge the image's structure and contribution, rather than requiring an exact familiar phrase or flagging every abstract mood noun.
+## Development Examples
 
-Preserve literal or technical descriptions and particular physical, perceptual, interpersonal or narrative functions, including meaningful dialogue, characterization, imagery, chronology, compression and pacing. A real sensation or time relation can itself be informative, without later action. Read how adjacent sentences establish the candidate's meaning.
+### Hit
 
-Weather, light and shadows can establish temperature, visibility, position or a temporal constraint. Physical reactions can report cooling, exertion, obstruction or vibration; altered time can describe playback. Preserve those functions. Separately assess conventional scenic painting, veiling or emotional coloring used as decoration. A useful setting does not exempt an independent stock emotional image.
+The gate latch lifted from the other side. **I drew a sharp breath** as my old dog pushed through the opening. My neighbor followed, carrying the dog's lead. He had found her asleep on his porch. I crouched beside the step while he described the gap in our fence.
 
-For elapsed time, separate useful chronological compression from a stock flourish of blurring, slipping, melting, marching or exaggerated duration. Read what the candidate contributes to the sequence. For emotion, the same distinction separates a physical observation from a conventional reaction that merely announces fear, surprise, anger or relief. A routine disappointment can still receive a stock fate formula; ordinary stakes establish no exemption.
+### Hit
 
-Distinguish a cause for feeling something from a function for the stock wording used to express it. A believable reaction, appropriate emotion or related event can leave the formula decorative. Useful information elsewhere protects its own contribution; independent stock filler remains eligible. One such instance suffices.
+"That's all I could get for the tickets," Mira said, **her voice tinged with regret**. She laid the notes beside my plate. I counted them and put half back in her hand. The concert had been her idea, but the sick child keeping us home was mine.
 
-Preserve wording whose identity, use, meaning or accuracy the passage documents or examines; stylistic criticism is optional. Assess adopted narration and ordinary dialogue normally. Quotation marks, numbers and cause words establish no automatic exemption. Judge this construction independently of other defects.
+### Hit
+
+**An inexplicable gravity had settled over the picnic ground.** We moved the table uphill because ants were carrying crumbs into a nest beneath its original position. As the sun lowered, the marquee's shadow reached the cakes, and the buttercream finally stopped sliding down their sides.
+
+### No Hit
+
+The repair café felt tinged with a new emotional color. We stood around, looked at one another, and shifted our feet. The radio's volume faded over thirty seconds because a capacitor was failing. Jon recorded the interval twice before selecting a replacement from his tray of salvaged components.
+
+### No Hit
+
+Terry nodded and moved slightly; I shifted beside him. A peculiar gravity surrounded the model railway club. As the crossing barrier began to descend, its long shadow swept across the painted road. Children watching from the other side of the layout could see the shadow before the barrier itself emerged from behind the station roof. One boy stopped his toy bus at its edge.
+
+### No Hit
+
+The designer had shortened a review to "Voice thick with emotion" beneath the singer's photograph. Her agent brought the newspaper: the full sentence continued, "she misses the entrance." We moved about beside the counter and paused. The rehearsal foyer seemed somehow cooler in mood. The agent laid the poster proof next to the newspaper and asked for the rest of the sentence to be restored before the singer signed it.
