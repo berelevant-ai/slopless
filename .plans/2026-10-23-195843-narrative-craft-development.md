@@ -143,6 +143,8 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Final Verification
 
-- Finish the independent current-development audit against all 39 selected source/confirmation pairs and resolve verified objections.
-- Record final runner contracts, documentation review, commit/push and CI results for the exact final commit.
+- The [independent current-development audit](../runners/results/narrative-craft-v21-current-development-final-audit.json) passes 7,427 checks across all nineteen prompts and 78 native runs. All 162 current errors have reviews and all 161 historical error cases remain present.
+- Its two body-emotion example-exclusion metadata corrections are applied: each run has 97 positives, 96 caught, 96 negatives and two false positives after excluding historically copied examples. Native responses, full-cohort scores and selected cutoffs stay unchanged.
+- Global dataset validation, the dataset Fixture3 contract, approved prediction Fixture3 comparison and six paragraph-runner tests pass. Fresh documentation review resolves both stale-status and protected-metadata-link objections.
+- Commit and push the final audit, metadata acknowledgment and documentation; require successful CI for that exact final commit before closing the goal.
 - Holdout detector assessment, broad corpus validation, span highlighting and production integration retain their separately authorized stages.
