@@ -44,6 +44,7 @@
 
 - `v22/` contains the three Generated Residue checks with unchanged `v21/shared.md`. Artifact placeholders select revision seven at cutoff `0.5`; model disclaimers select revision three at `0.5`; assistant wrappers select revision six at `0.55`.
 - All eight assigned development combinations pass selection and fresh confirmation. Confirmation catches 791/800 expected hits with seventeen false positives; each combination catches at least 95/100 with at most five false positives. Twelve supplementary source-format fixtures also pass.
-- The [development report](../runners/results/generated-residue-v22-development.md) records all trials, demonstration exposure, mixed results, the legacy comparison and remaining label-boundary disputes. Holdout inference remains separately authorized.
+- The [development report](../runners/results/generated-residue-v22-development.md) records all trials, demonstration exposure, mixed results, the legacy comparison and remaining label-boundary disputes.
+- The [authorized frozen holdout](../runners/results/generated-residue-v22-holdout.md) catches 776/800 residue hits with 28 false positives. Artifacts and disclaimers pass all collections; wrappers fail both mixtures, with seventeen and seven false positives. Preserve these assessed prompts and review their recorded label-boundary discrepancies before a fresh development/holdout round.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

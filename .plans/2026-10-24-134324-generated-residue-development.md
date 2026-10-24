@@ -164,3 +164,9 @@ The ten collections contain 2,000 final passages and 3,600 judgments. Six isolat
 - The development report preserves every remaining error, copied-demonstration exclusions and ambiguous professional-scope and draft-presentation judgments. The balanced datasets remain unchanged throughout tuning and supplementary validation.
 - Build, version, lint, formatting, spelling, type coverage, global data validation, dataset Fixture3, six paragraph contracts and fifteen CLI configuration tests pass. Final independent review passes 167 checks across 45 complete native results; final pushed-commit CI supplies the remaining completion gate.
 - Holdout detector inference remains separately gated. Public production source and release behavior remain unchanged by this research work.
+
+## Authorized Holdout Assessment
+
+- The user authorizes holdout on 2026-10-24. Freeze candidate commit, prompts, cutoffs, input hashes, SDK and model before running all nine jobs.
+- The unchanged candidate catches 776/800 residue positives with 28 false positives. Artifacts and disclaimers pass every assigned collection; wrappers fail both mixtures.
+- Review all seventy errors and verify independent mixed scores. Fresh review confirms all nine results, 117 request hashes and both reported label conflicts. Preserve labels and prompts; future tuning requires fresh holdout data.

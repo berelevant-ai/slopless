@@ -1,0 +1,1015 @@
+{
+  "family": "generated-residue",
+  "phase": "holdout-assessed",
+  "authorizedBy": "User: run holdout",
+  "registeredAt": "2026-10-24T17:56:28.580Z",
+  "head": "cc376f692e6f1348029c6d3f22aef0366fc5ae83",
+  "model": "jev-1.13.0",
+  "sdkVersion": "0.7.0",
+  "mode": "classification-only",
+  "batchSize": 16,
+  "acceptance": {
+    "primaryPassingCombinations": 6,
+    "primaryCombinations": 8,
+    "wholeFamilyPass": false,
+    "artifactsPass": true,
+    "disclaimersPass": true,
+    "wrappersPass": false
+  },
+  "inputs": [
+    {
+      "collection": "000130",
+      "dataset": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
+      "textSha256": "3ee887070fb16969a7e2d9ac54e6ed4e6e4ec8a52a26b4f37ed1b79dc9868ee2",
+      "labelsSha256": "2b0c9e904c9b69509f73693cb6486a8401bd4e5f9009b2c03d1c41b750745d1e",
+      "passages": 200
+    },
+    {
+      "collection": "000132",
+      "dataset": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.md",
+      "textSha256": "023a2338d1ec3714f39e618ac9dccdcd112b30e3de6247febb04891ab94aaea8",
+      "labelsSha256": "e146bb5970a2b9cd8bc557b9931accff035442e514facd15885a6356fc0ce690",
+      "passages": 200
+    },
+    {
+      "collection": "000134",
+      "dataset": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.md",
+      "textSha256": "d19e82c47268210918cdf3b9634ec31f5d30ca940610537f95969a6cc0b488ba",
+      "labelsSha256": "bf440969e49e10ea9141c0bf0dba864c6df36d001a2101092695c0d96c7b9fb9",
+      "passages": 200
+    },
+    {
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "textSha256": "74988ac7ab0f4c38d681260703a75faf3c7aecc9133ace7a5533c77e9e67eb1c",
+      "labelsSha256": "6631088c382603672f58e18c3cbb27a45bcd43ada61b8c367c45071e286b345e",
+      "passages": 200
+    },
+    {
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "textSha256": "658b0a9b9876a468c4c38b8011b0f8c5b2c73224a453158a113fe33ac164ebc2",
+      "labelsSha256": "f634b0af8670ef9782f0fb021a15c59238a765df9d6358c43651db72a22694c3",
+      "passages": 200
+    }
+  ],
+  "prompts": {
+    "prompts/v22/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+    "prompts/v22/artifact-placeholders.md": "2fd30c316517992ef1deb672c942dc46e05116566909fdd9c1e126104c221e25",
+    "prompts/v22/llm-disclaimer.md": "afc101d47625717465a9eb7785a1d78f308af6cf2ebde381dc5dc09bd8d18476",
+    "prompts/v22/response-wrapper.md": "b5b21ca0f164936c1d1c738ccd49e88957b7e521859faf167efd3cbf0e47487c",
+    "prompts/v13/shared.md": "6268f6f77af964d6beec6567d279415aa166a32fa4cf030bec01a75adde04527",
+    "prompts/v13/unnecessary-framing.md": "3ca2a7f6a89375ebd525a0731155f0d24f7e468095f1cc0f39f58b15d62d82d4"
+  },
+  "codeHashes": {
+    "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+    "runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+    "runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+  },
+  "jobs": [
+    {
+      "family": "generated-residue",
+      "check": "artifact-placeholders",
+      "collection": "000130",
+      "dataset": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000130-artifact-placeholders.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000130-artifact-placeholders.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "llm-disclaimer",
+      "collection": "000132",
+      "dataset": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000132-llm-disclaimer.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000132-llm-disclaimer.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "response-wrapper",
+      "collection": "000134",
+      "dataset": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000134-response-wrapper.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000134-response-wrapper.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "artifact-placeholders",
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000136-artifact-placeholders.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000136-artifact-placeholders.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "llm-disclaimer",
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000136-llm-disclaimer.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000136-llm-disclaimer.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "response-wrapper",
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000136-response-wrapper.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000136-response-wrapper.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "llm-disclaimer",
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000138-llm-disclaimer.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000138-llm-disclaimer.log"
+    },
+    {
+      "family": "generated-residue",
+      "check": "response-wrapper",
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000138-response-wrapper.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000138-response-wrapper.log"
+    },
+    {
+      "family": "boilerplate-and-signposting",
+      "check": "unnecessary-framing",
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "prompts": "prompts/v13",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000138-unnecessary-framing.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000138-unnecessary-framing.log"
+    }
+  ],
+  "policy": "One frozen assessment. Preserve prompts, cutoffs and labels; evaluate comparator separately. Further tuning requires fresh holdout.",
+  "results": [
+    {
+      "collection": "000130",
+      "check": "generated-residue/artifact-placeholders",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000130-artifact-placeholders.json",
+      "sha256": "73d921bf2bd9cc392783b36a07bbff75aa90a772489931b55cced78dd0f81224",
+      "counts": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "noHits": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "misses": [
+        "000130-e93555ca16e1"
+      ],
+      "falsePositives": [],
+      "passing": true
+    },
+    {
+      "collection": "000132",
+      "check": "generated-residue/llm-disclaimer",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000132-llm-disclaimer.json",
+      "sha256": "d999eea2d44e2d1951a46875d3b6973eff3317d486cbfb3f102af32fd2356167",
+      "counts": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "noHits": 100,
+        "falsePositives": 1,
+        "trueNegatives": 99
+      },
+      "misses": [
+        "000132-50a0787318c2"
+      ],
+      "falsePositives": [
+        "000132-8f5378192f0b"
+      ],
+      "passing": true
+    },
+    {
+      "collection": "000134",
+      "check": "generated-residue/response-wrapper",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000134-response-wrapper.json",
+      "sha256": "4db0302f73319e27c5a8bc755f9de395297aab59671a823ea00046da0b20b7a7",
+      "counts": {
+        "positives": 100,
+        "caught": 95,
+        "missed": 5,
+        "noHits": 100,
+        "falsePositives": 1,
+        "trueNegatives": 99
+      },
+      "misses": [
+        "000134-17b86e137b17",
+        "000134-28446f3e1fe0",
+        "000134-5af97eb884c8",
+        "000134-63e27e16188d",
+        "000134-e81babd5be37"
+      ],
+      "falsePositives": [
+        "000134-496e9707368e"
+      ],
+      "passing": true
+    },
+    {
+      "collection": "000136",
+      "check": "generated-residue/artifact-placeholders",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000136-artifact-placeholders.json",
+      "sha256": "8a95491b41b02acbf460add62d662c5a66f226c16fc202d34621eb67e708f413",
+      "counts": {
+        "positives": 100,
+        "caught": 100,
+        "missed": 0,
+        "noHits": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "misses": [],
+      "falsePositives": [],
+      "passing": true
+    },
+    {
+      "collection": "000136",
+      "check": "generated-residue/llm-disclaimer",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000136-llm-disclaimer.json",
+      "sha256": "d0968ec3e1b3bf72ff82d64f42c61732eff4bf38d4da983b2f8e123bd407abcc",
+      "counts": {
+        "positives": 100,
+        "caught": 98,
+        "missed": 2,
+        "noHits": 100,
+        "falsePositives": 2,
+        "trueNegatives": 98
+      },
+      "misses": [
+        "000136-6ed73f85879f",
+        "000136-c25467d5878b"
+      ],
+      "falsePositives": [
+        "000136-684a31c8d79d",
+        "000136-b93f9d7d054e"
+      ],
+      "passing": true
+    },
+    {
+      "collection": "000136",
+      "check": "generated-residue/response-wrapper",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000136-response-wrapper.json",
+      "sha256": "e84d8f9b115de6a81e0ccde87dd3dfc15e2979d2b2fa4c2dd64ce7e7b4fa4106",
+      "counts": {
+        "positives": 100,
+        "caught": 91,
+        "missed": 9,
+        "noHits": 100,
+        "falsePositives": 17,
+        "trueNegatives": 83
+      },
+      "misses": [
+        "000136-18c805f6976d",
+        "000136-523de9c93879",
+        "000136-54b66f6c77ce",
+        "000136-701b81b46dd7",
+        "000136-848cf69c947f",
+        "000136-a730cc1f9650",
+        "000136-b4a9d95e0d23",
+        "000136-c6fa5591b995",
+        "000136-e640be694d60"
+      ],
+      "falsePositives": [
+        "000136-13cfa38ddd94",
+        "000136-173342460c45",
+        "000136-3f0c65a555ce",
+        "000136-58dcc80c88f0",
+        "000136-5cecc0abfe1b",
+        "000136-6e033b1e30ec",
+        "000136-72b65e8b3c5e",
+        "000136-80d387b5396a",
+        "000136-94d02dcb881a",
+        "000136-a1278d62b581",
+        "000136-a59cbb066cd4",
+        "000136-b59da6a404b8",
+        "000136-c58a21d50ff9",
+        "000136-cc36d85e4127",
+        "000136-cebfdd978dbc",
+        "000136-e5dcaf8d29f4",
+        "000136-f536c4f96d36"
+      ],
+      "passing": false
+    },
+    {
+      "collection": "000138",
+      "check": "generated-residue/llm-disclaimer",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000138-llm-disclaimer.json",
+      "sha256": "08a33d6db97dbf1daf6ba9785d5cb3b66bba027306715d4d30215d4e204dce7b",
+      "counts": {
+        "positives": 100,
+        "caught": 95,
+        "missed": 5,
+        "noHits": 100,
+        "falsePositives": 0,
+        "trueNegatives": 100
+      },
+      "misses": [
+        "000138-004f8b99b7dc",
+        "000138-071535ac55c4",
+        "000138-564caaae8f12",
+        "000138-9d66a34a3c2a",
+        "000138-ace8e984ccbb"
+      ],
+      "falsePositives": [],
+      "passing": true
+    },
+    {
+      "collection": "000138",
+      "check": "generated-residue/response-wrapper",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000138-response-wrapper.json",
+      "sha256": "2340631a68a0791c315e18ff293bdb008b060b4864581cdff08099f8722186b8",
+      "counts": {
+        "positives": 100,
+        "caught": 99,
+        "missed": 1,
+        "noHits": 100,
+        "falsePositives": 7,
+        "trueNegatives": 93
+      },
+      "misses": [
+        "000138-150a7a05228d"
+      ],
+      "falsePositives": [
+        "000138-54d5a5da1445",
+        "000138-6a87b1d8a4c7",
+        "000138-b885357c2923",
+        "000138-d2caca049329",
+        "000138-ea472a48f673",
+        "000138-ef1ecf58dd5d",
+        "000138-fec1a37d6644"
+      ],
+      "passing": false
+    },
+    {
+      "collection": "000138",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000138-unnecessary-framing.json",
+      "sha256": "0290999adcf0007e6d0df527ff784f2d4f19544548fc77e82ca632db1c31ebb3",
+      "counts": {
+        "positives": 100,
+        "caught": 86,
+        "missed": 14,
+        "noHits": 100,
+        "falsePositives": 4,
+        "trueNegatives": 96
+      },
+      "misses": [
+        "000138-141bcd2bb650",
+        "000138-213e981599e9",
+        "000138-229ec19d05fb",
+        "000138-2d59fca0e0cc",
+        "000138-6fc2bf6adf08",
+        "000138-70c518731082",
+        "000138-977d69509120",
+        "000138-bdd6f986cdb8",
+        "000138-c837c2816ddb",
+        "000138-c98415a02a56",
+        "000138-e6f4f014c5f4",
+        "000138-fc0a0a3b168b",
+        "000138-fe6e713dd3cd",
+        "000138-ffa8995cab09"
+      ],
+      "falsePositives": [
+        "000138-0636179779c4",
+        "000138-2a2209bf271c",
+        "000138-a89aa35a3c6c",
+        "000138-fec1a37d6644"
+      ],
+      "passing": false
+    }
+  ],
+  "mixed": [
+    {
+      "collection": "000136",
+      "checks": [
+        "generated-residue/artifact-placeholders",
+        "generated-residue/llm-disclaimer",
+        "generated-residue/response-wrapper"
+      ],
+      "passages": 200,
+      "judgments": 600,
+      "allIssuesFound": {
+        "eligible": 172,
+        "matched": 161
+      },
+      "exactMatch": {
+        "eligible": 200,
+        "matched": 170
+      },
+      "examples": {
+        "overlap": "000136-016b0abb9070",
+        "allNegative": "000136-04ca8ebd002a",
+        "falsePositive": "000136-13cfa38ddd94"
+      }
+    },
+    {
+      "collection": "000138",
+      "checks": [
+        "generated-residue/llm-disclaimer",
+        "generated-residue/response-wrapper",
+        "boilerplate-and-signposting/unnecessary-framing"
+      ],
+      "passages": 200,
+      "judgments": 600,
+      "allIssuesFound": {
+        "eligible": 175,
+        "matched": 155
+      },
+      "exactMatch": {
+        "eligible": 200,
+        "matched": 170
+      },
+      "examples": {
+        "overlap": "000138-004f8b99b7dc",
+        "falsePositive": "000138-0636179779c4",
+        "allNegative": "000138-085c808d6489"
+      }
+    }
+  ],
+  "totals": {
+    "positives": 800,
+    "caught": 776,
+    "missed": 24,
+    "noHits": 800,
+    "falsePositives": 28,
+    "trueNegatives": 772
+  },
+  "passingResidueCombinations": 6,
+  "runtime": [
+    {
+      "family": "generated-residue",
+      "check": "artifact-placeholders",
+      "collection": "000130",
+      "dataset": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000130-artifact-placeholders.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000130-artifact-placeholders.log",
+      "pid": 39233,
+      "startedAt": "2026-10-24T17:56:49.664Z",
+      "finishedAt": "2026-10-24T17:56:51.909Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "response-wrapper",
+      "collection": "000134",
+      "dataset": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000134-response-wrapper.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000134-response-wrapper.log",
+      "pid": 39235,
+      "startedAt": "2026-10-24T17:56:49.668Z",
+      "finishedAt": "2026-10-24T17:56:51.926Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "llm-disclaimer",
+      "collection": "000132",
+      "dataset": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000132-llm-disclaimer.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000132-llm-disclaimer.log",
+      "pid": 39234,
+      "startedAt": "2026-10-24T17:56:49.667Z",
+      "finishedAt": "2026-10-24T17:56:52.016Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "artifact-placeholders",
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000136-artifact-placeholders.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000136-artifact-placeholders.log",
+      "pid": 39245,
+      "startedAt": "2026-10-24T17:56:51.909Z",
+      "finishedAt": "2026-10-24T17:56:54.055Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "llm-disclaimer",
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000136-llm-disclaimer.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000136-llm-disclaimer.log",
+      "pid": 39246,
+      "startedAt": "2026-10-24T17:56:51.926Z",
+      "finishedAt": "2026-10-24T17:56:54.141Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "response-wrapper",
+      "collection": "000136",
+      "dataset": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000136-response-wrapper.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000136-response-wrapper.log",
+      "pid": 39248,
+      "startedAt": "2026-10-24T17:56:52.016Z",
+      "finishedAt": "2026-10-24T17:56:54.268Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "llm-disclaimer",
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000138-llm-disclaimer.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000138-llm-disclaimer.log",
+      "pid": 39300,
+      "startedAt": "2026-10-24T17:56:54.055Z",
+      "finishedAt": "2026-10-24T17:56:56.250Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "generated-residue",
+      "check": "response-wrapper",
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "prompts": "prompts/v22",
+      "threshold": 0.55,
+      "output": "runners/results/generated-residue-v22-holdout-000138-response-wrapper.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000138-response-wrapper.log",
+      "pid": 39302,
+      "startedAt": "2026-10-24T17:56:54.141Z",
+      "finishedAt": "2026-10-24T17:56:56.362Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    },
+    {
+      "family": "boilerplate-and-signposting",
+      "check": "unnecessary-framing",
+      "collection": "000138",
+      "dataset": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+      "prompts": "prompts/v13",
+      "threshold": 0.5,
+      "output": "runners/results/generated-residue-v22-holdout-000138-unnecessary-framing.json",
+      "log": "/tmp/slopless-generated-residue-v22/holdout-000138-unnecessary-framing.log",
+      "pid": 39303,
+      "startedAt": "2026-10-24T17:56:54.268Z",
+      "finishedAt": "2026-10-24T17:56:56.383Z",
+      "exit": 0,
+      "runtime": {
+        "version": "0.7.0",
+        "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+        "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+        "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+        "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+        "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "readerSha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+        "schemaSha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+      }
+    }
+  ],
+  "freezeUnchanged": true,
+  "assessedAt": "2026-10-24T17:57:32.056Z",
+  "manualReview": {
+    "residueErrors": 52,
+    "comparatorErrors": 18,
+    "allErrorsInspected": true,
+    "wrapperMixedABracketedMisses": 8,
+    "thoseCaughtByArtifact": 8,
+    "labelBoundaryPairs": [
+      {
+        "development": "000135-9a7376196366",
+        "holdout": "000136-b4a9d95e0d23",
+        "check": "response-wrapper",
+        "issue": "Opposite labels for bare insertion slots."
+      },
+      {
+        "development": "000137-b00ef6f2bde3",
+        "holdout": "000136-5cecc0abfe1b",
+        "check": "response-wrapper",
+        "issue": "Opposite labels for draft descriptions followed by source-gap assumptions."
+      }
+    ],
+    "policy": "Preserve all original judgments and counts. These are evaluation findings, not tuning or label corrections."
+  },
+  "independentReview": {
+    "verdict": {
+      "integrity": "PASS",
+      "verificationFailures": 0,
+      "primaryAcceptance": "FAIL",
+      "primaryPassingCombinations": 6,
+      "primaryCombinations": 8,
+      "comparatorPassingCombinations": 0,
+      "reportNumericalFacts": "PASS",
+      "confirmedBoundaryConflicts": 2
+    },
+    "nativeResults": 9,
+    "requests": 117,
+    "reviewSha256": "97d9c524f397339b61ef9b378f852f4a302e80f3b4abb8800148fd84328a4a21",
+    "scope": {
+      "delegations": 0,
+      "providerCalls": 0,
+      "tuning": 0,
+      "relabeling": 0,
+      "repositoryEdits": 0,
+      "validation": "Offline native replay plus independent raw-answer scoring and mixed passage joins.",
+      "sdkReceiptMethod": "Launcher resolves SDK entry, passes --sdk to each child, checks entry/package hashes before and after, and records process exit; batch timestamps and output logs match each receipt.",
+      "filesRead": [
+        {
+          "file": "runners/results/generated-residue-v22-holdout.json",
+          "sha256": "39570f934b1e4ef859b6ea4f407a0a733204f03689839938d5975f1f49268178"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-development-tuning.json",
+          "sha256": "c1cffbabfd6c17d0a947a5e2cd6ff806d9aa178ebab0e8f6921bcbb735ce0c23"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-jobs.json.receipts.json",
+          "sha256": "67105bdc8a87d66aa75c541a25ebad9b5c1e4fa7953c0c60a3c3a08313ffc5eb"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/run-holdout.mjs",
+          "sha256": "561ff65308dec1e6353b3d1e041fc4e5ea8084ed9f822196caf952b3a2deb2e1"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-jobs.json",
+          "sha256": "c8f1f1a2c33175657e3a79f954edc341617f6f5c683583b36d077d5db8cd4695"
+        },
+        {
+          "file": "prompts/v22/shared.md",
+          "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+        },
+        {
+          "file": "prompts/v22/artifact-placeholders.md",
+          "sha256": "2fd30c316517992ef1deb672c942dc46e05116566909fdd9c1e126104c221e25"
+        },
+        {
+          "file": "prompts/v22/llm-disclaimer.md",
+          "sha256": "afc101d47625717465a9eb7785a1d78f308af6cf2ebde381dc5dc09bd8d18476"
+        },
+        {
+          "file": "prompts/v22/response-wrapper.md",
+          "sha256": "b5b21ca0f164936c1d1c738ccd49e88957b7e521859faf167efd3cbf0e47487c"
+        },
+        {
+          "file": "prompts/v13/shared.md",
+          "sha256": "6268f6f77af964d6beec6567d279415aa166a32fa4cf030bec01a75adde04527"
+        },
+        {
+          "file": "prompts/v13/unnecessary-framing.md",
+          "sha256": "3ca2a7f6a89375ebd525a0731155f0d24f7e468095f1cc0f39f58b15d62d82d4"
+        },
+        {
+          "file": "runners/jev.mjs",
+          "sha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a"
+        },
+        {
+          "file": "runners/datasets.mjs",
+          "sha256": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f"
+        },
+        {
+          "file": "runners/dataset.schema.json",
+          "sha256": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.md",
+          "sha256": "3ee887070fb16969a7e2d9ac54e6ed4e6e4ec8a52a26b4f37ed1b79dc9868ee2"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000130-generated-residue-artifact-placeholders-holdout.labels.json",
+          "sha256": "2b0c9e904c9b69509f73693cb6486a8401bd4e5f9009b2c03d1c41b750745d1e"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.md",
+          "sha256": "023a2338d1ec3714f39e618ac9dccdcd112b30e3de6247febb04891ab94aaea8"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000132-generated-residue-llm-disclaimer-holdout.labels.json",
+          "sha256": "e146bb5970a2b9cd8bc557b9931accff035442e514facd15885a6356fc0ce690"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.md",
+          "sha256": "d19e82c47268210918cdf3b9634ec31f5d30ca940610537f95969a6cc0b488ba"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000134-generated-residue-response-wrapper-holdout.labels.json",
+          "sha256": "bf440969e49e10ea9141c0bf0dba864c6df36d001a2101092695c0d96c7b9fb9"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.md",
+          "sha256": "74988ac7ab0f4c38d681260703a75faf3c7aecc9133ace7a5533c77e9e67eb1c"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000136-generated-residue-mixed-holdout.labels.json",
+          "sha256": "6631088c382603672f58e18c3cbb27a45bcd43ada61b8c367c45071e286b345e"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+          "sha256": "658b0a9b9876a468c4c38b8011b0f8c5b2c73224a453158a113fe33ac164ebc2"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.labels.json",
+          "sha256": "f634b0af8670ef9782f0fb021a15c59238a765df9d6358c43651db72a22694c3"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000130-artifact-placeholders.json",
+          "sha256": "73d921bf2bd9cc392783b36a07bbff75aa90a772489931b55cced78dd0f81224"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm3-000129-artifact-placeholders.json",
+          "sha256": "9d9998ea6be77ff3fed76d027460576fa6a455e142c36de8bc93242114af8b82"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm3-000135-artifact-placeholders.json",
+          "sha256": "1c5a8d6d9c90821fb6e8b3c07c66d865dd1b8a7cecd1f72e92ed6ca01d4b78bb"
+        },
+        {
+          "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+          "sha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+        },
+        {
+          "file": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/package.json",
+          "sha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000130-artifact-placeholders.log",
+          "sha256": "99bf26596e42fced130c520134d996bcb1f6f192d5c84fe20e618ebd73dda678"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000132-llm-disclaimer.json",
+          "sha256": "d999eea2d44e2d1951a46875d3b6973eff3317d486cbfb3f102af32fd2356167"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm1-000131-llm-disclaimer.json",
+          "sha256": "3001f06fc043e087903887020854bc72bbbffa184f421860bc0cf8f8e952c993"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm1-000135-llm-disclaimer.json",
+          "sha256": "449f196726f8bcebd9ce4d5cffc21bb5a3f1b8c1c2940ffe66d6a71e6b48fb56"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm1-000137-llm-disclaimer.json",
+          "sha256": "751ee6e4f126cff4397d9358f1a28ce61388d247bac946d08db328d3212f96e2"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000132-llm-disclaimer.log",
+          "sha256": "071f841590901c98b5055884a039c37bb63fd7ebaf190ce5ea591154735073d3"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000134-response-wrapper.json",
+          "sha256": "4db0302f73319e27c5a8bc755f9de395297aab59671a823ea00046da0b20b7a7"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm2-000133-response-wrapper.json",
+          "sha256": "144423bb4b743b234bfdd7fa5c693553026337a34af8dd6510fe52b72d1171f7"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm2-000135-response-wrapper.json",
+          "sha256": "0bd010b58071e31bf6ccc48935379271eb821b3f3be669208b24ab1ee85b572d"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-confirm2-000137-response-wrapper.json",
+          "sha256": "a81e0d7ee0cdbe079d170135d831c96fdc95671f308276d547383e2176763942"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000134-response-wrapper.log",
+          "sha256": "f86d5724fed0ef5ea9e4ff496b4e72623feae6c9779f8c92775e5eadd178566d"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000136-artifact-placeholders.json",
+          "sha256": "8a95491b41b02acbf460add62d662c5a66f226c16fc202d34621eb67e708f413"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000136-artifact-placeholders.log",
+          "sha256": "94b5a69d1d9f3df557435720b34f2f6af8a7b4fbc59f330dad99eb54beb824e5"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000136-llm-disclaimer.json",
+          "sha256": "d0968ec3e1b3bf72ff82d64f42c61732eff4bf38d4da983b2f8e123bd407abcc"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000136-llm-disclaimer.log",
+          "sha256": "f583b22cb0fcac7f21fdf392f34739d9130226fd102548bb395a80b009c818fa"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000136-response-wrapper.json",
+          "sha256": "e84d8f9b115de6a81e0ccde87dd3dfc15e2979d2b2fa4c2dd64ce7e7b4fa4106"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000136-response-wrapper.log",
+          "sha256": "4b7d410199731292d5efe9182d7e3a2ea1702d90fbf31bf59523d017c8be6d53"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000138-llm-disclaimer.json",
+          "sha256": "08a33d6db97dbf1daf6ba9785d5cb3b66bba027306715d4d30215d4e204dce7b"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000138-llm-disclaimer.log",
+          "sha256": "ac5dcc3840403263704a2fd26e71d546088303059f9b0c1b919fcccd0d80c10b"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000138-response-wrapper.json",
+          "sha256": "2340631a68a0791c315e18ff293bdb008b060b4864581cdff08099f8722186b8"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000138-response-wrapper.log",
+          "sha256": "9732e8e9545e6866e5d972c2a862330d245d6b0541fda2bdfe4799a3997fa517"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout-000138-unnecessary-framing.json",
+          "sha256": "0290999adcf0007e6d0df527ff784f2d4f19544548fc77e82ca632db1c31ebb3"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-comparator-000137-unnecessary-framing.json",
+          "sha256": "72296ee45cc65978e8b01db39937046a931a096731845f4328cd3e3cf7a85ed7"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-000138-unnecessary-framing.log",
+          "sha256": "824d8a2ef8b9c87b5a6dd4399db8f84464cb2924cdbeb4a0d113c0e3ef6c3251"
+        },
+        {
+          "file": "runners/results/generated-residue-v22-holdout.md",
+          "sha256": "115f96197de5cb83abc0de4d318edb5898074bc152f6658e42da1c2778459509"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000135-generated-residue-mixed-development.md",
+          "sha256": "a1c360e08ec00edd029128c4aa7e43bdcc2685a8b342f64cd9fc417e4efb96d7"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000135-generated-residue-mixed-development.labels.json",
+          "sha256": "134d899d08f54c3366399747bfde87b0b1bfb629f2ebd4e32343add79e92771d"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000137-mixed-generated-residue-boilerplate-and-signposting-development.md",
+          "sha256": "8ba67b8d637c31c429f1f9ea9a92b63a80224cfbe9d49ac26c8e2e63befabcb9"
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000137-mixed-generated-residue-boilerplate-and-signposting-development.labels.json",
+          "sha256": "fe65b137a7a630d5e0a546684d9658ee7b34e6faad5a18fce1d53130eb10b13f"
+        },
+        {
+          "file": "/tmp/slopless-generated-residue-v22/holdout-errors.json",
+          "sha256": "3d17c2bfd9f5a6e3b2d79cd5ac6ac3bc7e269a5149fb8a31c39963a171c1893d"
+        }
+      ],
+      "developmentInputs": "Development collections 000135 and 000137 were read solely to analyze the two authorized cross-split label-boundary pairs; authoring and tuning remain outside scope."
+    },
+    "limitations": [
+      "Frozen labels remain the correctness reference for the numerical assessment; two cross-split wrapper-label boundary conflicts are documented for later reconciliation.",
+      "SDK verification reconstructs module selection from launcher code, explicit --sdk path and hashed receipts.",
+      "Development counts are compared with the frozen development-tuning record; this pass inspects two development passages for the authorized boundary comparisons.",
+      "Classification-only outputs support passage detection. Span highlighting, broad corpus validation and production migration remain separate stages.",
+      "This report review is performed directly by this reviewer, with zero delegation and zero provider calls."
+    ],
+    "confirmedLabelConflicts": [
+      {
+        "kind": "frozen-label-boundary-conflict",
+        "pair": [
+          "000135-9a7376196366",
+          "000136-b4a9d95e0d23"
+        ],
+        "wrapperExpected": [
+          false,
+          true
+        ],
+        "evidence": "Both passages contain a bare [Insert ...] slot within otherwise finished public copy. The frozen wrapper prompt exempts bare slots while requiring an additional drafting instruction.",
+        "consequence": "The holdout wrapper miss remains scored as a miss at probability 0.34; artifact detection independently catches the same passage.",
+        "operation": "Keep this assessment unchanged. In a later development round, reconcile the bare-slot definition and labels before tuning; use fresh holdout for a revised candidate."
+      },
+      {
+        "kind": "frozen-label-boundary-conflict",
+        "pair": [
+          "000137-b00ef6f2bde3",
+          "000136-5cecc0abfe1b"
+        ],
+        "wrapperExpected": [
+          true,
+          false
+        ],
+        "evidence": "Each begins by describing proposed draft content and then admits missing source records and an assumed replacement fact. The frozen prompt explicitly counts proposed-text content presentation as delivery language.",
+        "consequence": "The holdout wrapper probability 0.69 is a false positive against its frozen no-hit label; the report identifies the cross-split inconsistency.",
+        "operation": "Keep this assessment unchanged. In a later development round, reconcile draft-content presentation versus source reporting before tuning; use fresh holdout for a revised candidate."
+      }
+    ]
+  },
+  "verification": {
+    "datasetFixture3": "matched",
+    "candidatePromptsLabelsAndRunner": "unchanged from registration",
+    "reportNumericalFacts": "independently verified",
+    "all70ErrorsInspected": true
+  }
+}
