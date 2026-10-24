@@ -22,3 +22,9 @@ Archive 1,223 reviewed source passages across five corrected collections before 
 
 - Select exactly 100 hits and 100 no-hits per assigned check, retaining all mandatory cases; commit and push the balanced state with this full-pool archive in its history.
 - Complete renewed development runs and current-state data audits. Preserve reviewed prediction errors when accepting Fixture3 regression output.
+
+## Balanced Selection
+
+- Archive commit `cbd88995408cedf2dcb97b34096f350bb7392554` preserves all 1,223 corrected source passages. The deterministic selector restores five 200-passage collections with exactly 100 hits and 100 no-hits for each assigned check.
+- All 474 mandatory reviewed cases remain selected. The selector reports zero missing replacements, unproven changes or over-capacity groups; the public reader validates every packed pair.
+- Mixed development B retains all hard cases with combination counts 29, 23, 23, 25, 23, 25, 25 and 27. The other four changed collections retain 25 examples per combination.

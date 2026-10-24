@@ -73563,7 +73563,7 @@
     ]
   },
   "finalDatasetRepair": {
-    "status": "reviewed-full-pools-awaiting-archive-and-balanced-selection",
+    "status": "balanced-final-selection-awaiting-fresh-current-data-audit",
     "development": {
       "receipt": {
         "sourceCommit": "edd90533713208ebea6949f528aac43c223645c6",
@@ -73826,6 +73826,798 @@
       },
       "holdoutInference": false
     },
-    "selectionUsesDetectorScores": false
+    "selectionUsesDetectorScores": false,
+    "archiveCommit": "cbd88995408cedf2dcb97b34096f350bb7392554",
+    "finalPacking": [
+      {
+        "id": "000117",
+        "split": "development",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/emotion-as-substance": [
+            100,
+            100
+          ],
+          "narrative-craft/perception-verb-density": [
+            100,
+            100
+          ],
+          "narrative-craft/fake-timestamps": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "871163389b230cde8dc67446adedcd2efd2c870b8fbd2d461063f024cac9087b",
+        "sourceSha256": "450dee072dcbd13fda5cd0cddefe7f757696b2678ceff9545e4e169f2d5e158a",
+        "words": 11495
+      },
+      {
+        "id": "000118",
+        "split": "holdout",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/emotion-as-substance": [
+            100,
+            100
+          ],
+          "narrative-craft/perception-verb-density": [
+            100,
+            100
+          ],
+          "narrative-craft/fake-timestamps": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "6de766432c62bd824feb9a3cdd724af0d26383fade01688e3433c3e6e3e383cd",
+        "sourceSha256": "a337082a6308314478231b40bfbd30ef7750980e6285b2442f84b8033aa43a5c",
+        "words": 10734
+      },
+      {
+        "id": "000119",
+        "split": "development",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/emotion-telling": [
+            100,
+            100
+          ],
+          "narrative-craft/gaze-choreography": [
+            100,
+            100
+          ],
+          "narrative-craft/sensory-instead-of-frame": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "c5005d565f1ada0acf62db14fdd2104c4cbdd961d209c2e8c28dc366d7242ece",
+        "sourceSha256": "15e80775e0e5494a317fd413e71d7fdec3a6f4d8fd312290b9e0ba6ba5c40182",
+        "words": 11675
+      },
+      {
+        "id": "000124",
+        "split": "holdout",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/empty-atmosphere-shift": [
+            100,
+            100
+          ],
+          "narrative-craft/low-information-physical-blocking": [
+            100,
+            100
+          ],
+          "narrative-craft/narrative-cliches": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "f4f105802e5e98deb1b718a8b7665d9e6dfa1e972b9633b9198d562633610b0c",
+        "sourceSha256": "69e61b33e91a52c689e8068f4aa3e6916c2950d304ff9f3127851b2e2cf25ac4",
+        "words": 11057
+      },
+      {
+        "id": "000125",
+        "split": "development",
+        "stage": "final-selection",
+        "passages": 200,
+        "counts": {
+          "narrative-craft/empty-emotional-weather": [
+            100,
+            100
+          ],
+          "narrative-craft/low-information-beat-density": [
+            100,
+            100
+          ],
+          "narrative-craft/fixed-metaphor-frame": [
+            100,
+            100
+          ]
+        },
+        "textSha256": "eb70da9de2242f8b80a104aec4356333990c982f56cd9b98c78001c1f19ea319",
+        "sourceSha256": "bf6091b63f52561f713802902861964166da386d45de858fb67ea7211131c03d",
+        "words": 10233
+      }
+    ],
+    "selection": {
+      "archiveCommit": "cbd88995408cedf2dcb97b34096f350bb7392554",
+      "status": "selected",
+      "ranking": "sha256(v21-balance:<split>:<rawId>)",
+      "priority": [
+        "retained-pilots",
+        "changed-boolean-labels",
+        "review-backed-rewritten-hard-cases",
+        "review-backed-introduced-rows",
+        "explicitly-adjudicated-hard-cases",
+        "remaining"
+      ],
+      "collections": [
+        {
+          "id": "000117",
+          "split": "development",
+          "checks": [
+            "narrative-craft/emotion-as-substance",
+            "narrative-craft/perception-verb-density",
+            "narrative-craft/fake-timestamps"
+          ],
+          "status": "ready",
+          "sourceRows": 247,
+          "selectedRows": 200,
+          "strata": [
+            {
+              "vector": "000",
+              "quota": 29,
+              "available": 44,
+              "mandatory": 29,
+              "retainedPilots": 2,
+              "changedLabels": 14,
+              "rewrittenHardCases": 13,
+              "introducedRows": 0,
+              "adjudicated": 8,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "001",
+              "quota": 23,
+              "available": 31,
+              "mandatory": 8,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 5,
+              "introducedRows": 0,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "010",
+              "quota": 23,
+              "available": 23,
+              "mandatory": 11,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 2,
+              "introducedRows": 7,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "011",
+              "quota": 25,
+              "available": 29,
+              "mandatory": 8,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 6,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "100",
+              "quota": 23,
+              "available": 31,
+              "mandatory": 10,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 7,
+              "introducedRows": 0,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "101",
+              "quota": 25,
+              "available": 32,
+              "mandatory": 10,
+              "retainedPilots": 2,
+              "changedLabels": 2,
+              "rewrittenHardCases": 6,
+              "introducedRows": 0,
+              "adjudicated": 2,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "110",
+              "quota": 25,
+              "available": 29,
+              "mandatory": 9,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 7,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "111",
+              "quota": 27,
+              "available": 28,
+              "mandatory": 8,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 6,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            }
+          ],
+          "changedLabelRows": 18,
+          "rewrittenRows": 61,
+          "introducedRows": 7,
+          "adjudicated": 12,
+          "snippetOnlyChanges": 20
+        },
+        {
+          "id": "000118",
+          "split": "holdout",
+          "checks": [
+            "narrative-craft/emotion-as-substance",
+            "narrative-craft/perception-verb-density",
+            "narrative-craft/fake-timestamps"
+          ],
+          "status": "ready",
+          "sourceRows": 256,
+          "selectedRows": 200,
+          "strata": [
+            {
+              "vector": "000",
+              "quota": 25,
+              "available": 36,
+              "mandatory": 15,
+              "retainedPilots": 2,
+              "changedLabels": 8,
+              "rewrittenHardCases": 5,
+              "introducedRows": 0,
+              "adjudicated": 4,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "001",
+              "quota": 25,
+              "available": 41,
+              "mandatory": 21,
+              "retainedPilots": 2,
+              "changedLabels": 11,
+              "rewrittenHardCases": 8,
+              "introducedRows": 0,
+              "adjudicated": 5,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "010",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 16,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 4,
+              "introducedRows": 8,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "011",
+              "quota": 25,
+              "available": 25,
+              "mandatory": 10,
+              "retainedPilots": 2,
+              "changedLabels": 2,
+              "rewrittenHardCases": 4,
+              "introducedRows": 0,
+              "adjudicated": 3,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "100",
+              "quota": 25,
+              "available": 33,
+              "mandatory": 12,
+              "retainedPilots": 2,
+              "changedLabels": 3,
+              "rewrittenHardCases": 7,
+              "introducedRows": 0,
+              "adjudicated": 2,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "101",
+              "quota": 25,
+              "available": 35,
+              "mandatory": 12,
+              "retainedPilots": 2,
+              "changedLabels": 7,
+              "rewrittenHardCases": 3,
+              "introducedRows": 0,
+              "adjudicated": 6,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "110",
+              "quota": 25,
+              "available": 26,
+              "mandatory": 5,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 3,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "111",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 16,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 5,
+              "introducedRows": 8,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            }
+          ],
+          "changedLabelRows": 32,
+          "rewrittenRows": 49,
+          "introducedRows": 16,
+          "adjudicated": 22,
+          "snippetOnlyChanges": 30
+        },
+        {
+          "id": "000119",
+          "split": "development",
+          "checks": [
+            "narrative-craft/emotion-telling",
+            "narrative-craft/gaze-choreography",
+            "narrative-craft/sensory-instead-of-frame"
+          ],
+          "status": "ready",
+          "sourceRows": 240,
+          "selectedRows": 200,
+          "strata": [
+            {
+              "vector": "000",
+              "quota": 25,
+              "available": 31,
+              "mandatory": 11,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 8,
+              "introducedRows": 0,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "001",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 9,
+              "retainedPilots": 3,
+              "changedLabels": 0,
+              "rewrittenHardCases": 6,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "010",
+              "quota": 25,
+              "available": 29,
+              "mandatory": 7,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 5,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "011",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 5,
+              "retainedPilots": 1,
+              "changedLabels": 0,
+              "rewrittenHardCases": 4,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "100",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 13,
+              "retainedPilots": 3,
+              "changedLabels": 0,
+              "rewrittenHardCases": 10,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "101",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 6,
+              "retainedPilots": 1,
+              "changedLabels": 0,
+              "rewrittenHardCases": 5,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "110",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 10,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 8,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "111",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 7,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 5,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            }
+          ],
+          "changedLabelRows": 3,
+          "rewrittenRows": 61,
+          "introducedRows": 0,
+          "adjudicated": 1,
+          "snippetOnlyChanges": 31
+        },
+        {
+          "id": "000124",
+          "split": "holdout",
+          "checks": [
+            "narrative-craft/empty-atmosphere-shift",
+            "narrative-craft/low-information-physical-blocking",
+            "narrative-craft/narrative-cliches"
+          ],
+          "status": "ready",
+          "sourceRows": 240,
+          "selectedRows": 200,
+          "strata": [
+            {
+              "vector": "000",
+              "quota": 25,
+              "available": 32,
+              "mandatory": 14,
+              "retainedPilots": 2,
+              "changedLabels": 2,
+              "rewrittenHardCases": 10,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "001",
+              "quota": 25,
+              "available": 32,
+              "mandatory": 14,
+              "retainedPilots": 2,
+              "changedLabels": 2,
+              "rewrittenHardCases": 10,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "010",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 15,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 12,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "011",
+              "quota": 25,
+              "available": 27,
+              "mandatory": 13,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 11,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "100",
+              "quota": 25,
+              "available": 27,
+              "mandatory": 15,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 13,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "101",
+              "quota": 25,
+              "available": 32,
+              "mandatory": 17,
+              "retainedPilots": 2,
+              "changedLabels": 2,
+              "rewrittenHardCases": 13,
+              "introducedRows": 0,
+              "adjudicated": 2,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "110",
+              "quota": 25,
+              "available": 29,
+              "mandatory": 19,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 17,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "111",
+              "quota": 25,
+              "available": 31,
+              "mandatory": 21,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 18,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            }
+          ],
+          "changedLabelRows": 8,
+          "rewrittenRows": 111,
+          "introducedRows": 0,
+          "adjudicated": 2,
+          "snippetOnlyChanges": 55
+        },
+        {
+          "id": "000125",
+          "split": "development",
+          "checks": [
+            "narrative-craft/empty-emotional-weather",
+            "narrative-craft/low-information-beat-density",
+            "narrative-craft/fixed-metaphor-frame"
+          ],
+          "status": "ready",
+          "sourceRows": 240,
+          "selectedRows": 200,
+          "strata": [
+            {
+              "vector": "000",
+              "quota": 25,
+              "available": 31,
+              "mandatory": 13,
+              "retainedPilots": 2,
+              "changedLabels": 1,
+              "rewrittenHardCases": 10,
+              "introducedRows": 0,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "001",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 8,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 6,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "010",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 11,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 8,
+              "introducedRows": 0,
+              "adjudicated": 1,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "011",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 10,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 8,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "100",
+              "quota": 25,
+              "available": 29,
+              "mandatory": 12,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 10,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "101",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 6,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 4,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "110",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 9,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 7,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            },
+            {
+              "vector": "111",
+              "quota": 25,
+              "available": 30,
+              "mandatory": 9,
+              "retainedPilots": 2,
+              "changedLabels": 0,
+              "rewrittenHardCases": 7,
+              "introducedRows": 0,
+              "adjudicated": 0,
+              "unprovenChanges": 0,
+              "inspectionNeeded": 0,
+              "replenishmentNeeded": 0
+            }
+          ],
+          "changedLabelRows": 1,
+          "rewrittenRows": 69,
+          "introducedRows": 0,
+          "adjudicated": 2,
+          "snippetOnlyChanges": 31
+        }
+      ],
+      "skipped": [],
+      "inspectionNeeded": 0,
+      "unprovenChanges": 0,
+      "replenishmentNeeded": 0
+    }
   }
 }
