@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the rulebook. Does the complete target passage contain narrative-cliches?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage use a recognizable stock narrative construction as interchangeable emotional, atmospheric, dramatic or time-passage decoration? Consider conventional bodily reactions, emotional voice or face tags, unreadable eyes, thick or hanging atmosphere, sunset or shadow transitions, elapsed-time formulas, omniscient teasers, formulaic hope, exaggerated duration and subjective time slowing. Preserve literal or technically useful descriptions, particular physical, perceptual, interpersonal or narrative functions, useful compression and wording being documented or examined. Vague feeling or a fresh metaphor alone is insufficient: both a stock construction and a generic decorative contribution are required.",
   "criteria": {
-    "true": "A recognizably stock narrative construction supplies interchangeable decoration.",
-    "false": "Every candidate has a particular function, documents wording, or lacks a recognizable stock construction."
+    "true": "At least one recognizable stock construction in bodily reactions, voice or face descriptions, atmosphere, time passage, foreshadowing or hope adds generic emotional or dramatic decoration. Its own wording remains interchangeable despite a particular event, cause or useful detail nearby.",
+    "false": "Every candidate either lacks a recognizable stock construction, supplies literal or technical information or a particular physical, perceptual, interpersonal or narrative function, or is wording being documented or examined. Familiar wording with useful imagery, chronology, compression or pacing is preserved; another writing defect alone is insufficient."
   }
 }
 ---
@@ -11,14 +11,14 @@
 
 Input: passage.
 
-Catch prefabricated narrative phrasing whose own contribution is generic emotional, atmospheric, dramatic or time-passage decoration.
+Require both a recognizable stock narrative construction and an interchangeable decorative contribution. Judge each candidate's own function across the complete sequence.
 
-Cover stock bodily reactions (chest, spine, breath), voice-quality and facial emotion tags, unreadable eyes, hanging or thick atmosphere, sunset/shadow transitions, elapsed-time formulas, omniscient teasers, formulaic tentative hope, exaggerated duration and subjective time slowing.
+Cover conventional heartbeat or chest reactions, spine chills, caught or unknowingly held breath, stock voice-quality and facial emotion tags, unreadable eyes, hanging or thick atmosphere, sunset/shadow transitions, elapsed-time formulas, omniscient teasers, formulaic tentative hope, exaggerated duration and subjective time slowing. Unfamiliar wording can instantiate a familiar construction; heightened or ornate wording is optional.
 
-Recognizable stockness is required; unfamiliar wording can instantiate a familiar construction, while vague emotion or a fresh metaphor alone does not.
+An unspecified mood, abstract feeling, fresh metaphor or routine movement needs a recognizable stock narrative construction to qualify. Identify that construction rather than treating general thinness as evidence of a cliche.
 
-Judge the candidate's contribution across the complete sequence. Preserve literal or technical descriptions and particular physical, perceptual, interpersonal or narrative functions, including meaningful dialogue, characterization, imagery, chronology, compression and pacing without later action.
+Preserve literal or technical descriptions and particular physical, perceptual, interpersonal or narrative functions, including meaningful dialogue, characterization, imagery, chronology, compression and pacing. A real sensation or time relation can itself be informative, without later action. Read how adjacent sentences establish the candidate's meaning.
 
-Specific surroundings or a cause can explain a stock cue while leaving it decorative. Useful information elsewhere preserves its own meaning, and independent stock filler remains eligible.
+Distinguish a cause for feeling something from a function for the stock wording used to express it. A believable reaction, appropriate emotion or related event can leave the formula decorative. Useful information elsewhere protects its own contribution; independent stock filler remains eligible. One such instance suffices.
 
-Preserve expressions documented or examined as wording. Assess adopted narration and ordinary dialogue by function; quotation marks, numbers and cause words alone establish no exemption. Judge this construction independently of other defects.
+Preserve wording whose identity, use, meaning or accuracy the passage documents or examines; stylistic criticism is optional. Assess adopted narration and ordinary dialogue normally. Quotation marks, numbers and cause words establish no automatic exemption. Judge this construction independently of other defects.

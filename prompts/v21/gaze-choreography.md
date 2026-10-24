@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain gaze choreography?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage choreograph eyes, gaze, sightlines or equivalent looking movements as interchangeable staging of attention rather than supplying a particular observation, decision, communication, physical viewpoint or other identifiable narrative function? Judge what the movement's direction, target or timing contributes across connected sentences. Preserve task-relevant inspection and meaningful attention even when their purpose is implicit or no discovery follows. Nearby useful work, speech or emotion alone does not justify an unrelated visual route. Preserve quoted wording itself examined or documented for its meaning, form, identity or evidentiary value; assess adopted narration and ordinary dialogue normally.",
   "criteria": {
-    "true": "At least one visual movement supplies interchangeable staging of attention instead of particular information.",
-    "false": "Every visual movement supplies a particular passage-supported function, or none occurs."
+    "true": "At least one movement of eyes, gaze, sightline or equivalent looking only stages attention through a visual route, without a particular passage-supported observation, decision, communication, viewpoint or narrative function. A named target, eye color, elaborate verb or nearby useful action alone supplies no function.",
+    "false": "No eligible visual movement occurs, or every movement serves passage-supported inspection, observation, decision, communication, physical viewpoint or another identifiable narrative function, including an implicit one. Preserve quoted wording examined or documented for its meaning, form, identity or evidentiary value."
   }
 }
 ---
@@ -11,15 +11,17 @@
 
 Input: passage.
 
-Judge the relation established by the movement's direction, target or timing.
+Judge the relation established by each movement's direction, target or timing across the complete connected passage.
 
-Cover eyes, gaze, sightlines and equivalent visual movements expressed through verbs or nouns. One weak movement suffices.
+Cover eyes, gaze, sightlines and equivalent visual movements expressed through verbs or nouns, including ordinary looking and visual head turns. One weak movement suffices. An elaborate eye-camera metaphor can serve a purpose; an ordinary looking verb can supply empty staging.
 
-A relevant visual field can establish inspection or search without a stated result. Attention offered or withheld can communicate a particular social relation. Preserve physical viewpoints and meaningful clues; infer their function across the connected passage without requiring later action.
+A visual field relevant to the actual task can establish inspection, search or comparison without an explicit search verb, reported discovery or later action. Read the objects and circumstances being considered. Mere presence in the room where work occurs leaves an unrelated visual route uninformative.
 
-Nearby work, speech or emotion cannot by itself make an unrelated visual path informative. Named targets, eye color and elaborate movement alone supply no function. Useful observation protects its own contribution; judge any independent choreography beside it, including when another defect occurs.
+Attention offered, withheld or redirected can communicate a particular interpersonal relation. Its function may emerge from what people are trying to communicate or whose attention they need. Physical orientation can also determine what someone can see or understand. Preserve meaningful clues and viewpoints even when the character's observation is indirect.
 
-Observation, orientation, characterization, compression and pacing qualify through the particular content supplied. Preserve wording whose form or identity is examined or documented, including evidence about events or people. Assess adopted narration and ordinary dialogue normally.
+Observation, orientation, characterization, compression and pacing qualify through the particular content supplied. Generic emotion or an arbitrary named target supplies no such content. Useful observation protects its own contribution; assess independent choreography beside it, including within the same sentence or alongside another defect.
+
+Preserve wording examined or documented for its meaning, form, authorship or evidence about events and people. Quoted eye movement can be the material being assessed within the story. Assess quotations adopted as narration and ordinary dialogue normally.
 
 ## Development Examples
 

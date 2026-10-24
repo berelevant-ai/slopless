@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain perception-verb-density?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain a narrated act of looking, watching, scanning, observing or equivalent perception, including a noun-based gaze construction, that merely marks attention rather than supplying a particular discovery, interpretation, search, viewpoint, observation, attention-dependent task, communication or other identifiable narrative function?",
   "criteria": {
-    "true": "At least one perception cue merely stages attention without a meaningful relation between perceiver, actual target and sequence.",
-    "false": "Every eligible cue contributes particular perceptual or narrative meaning, or none occurs."
+    "true": "At least one narrated perception act is an interchangeable attention beat: the passage supplies no particular observation, search, viewpoint, task, communication or narrative meaning through that act. A named target, plausible reaction, nearby information or subsequent action alone leaves the beat eligible.",
+    "false": "Every narrated perception act supplies a particular discovery, interpretation, search, viewpoint, observation, attention-dependent task, communication or identifiable narrative function, including implicit connections across sentences. Also false when no perception act occurs or all candidate cues are wording being examined or documented."
   }
 }
 ---
@@ -11,13 +11,13 @@
 
 Input: passage.
 
-Cover narrated perception acts, including unfamiliar verbs, inflections and noun-based gaze constructions.
+Cover narrated perception acts, including unfamiliar verbs, inflections and noun-based gaze constructions. Read the complete connected passage and assess each act's own contribution.
 
-Judge the act's own contribution across the connected passage. A named target, plausible problem or subsequent action alone supplies no perceptual function. Nearby facts about another referent, independent reasoning or redundant annotation can leave attention empty.
+Identify what the perceiver observes, seeks, interprets, monitors or communicates through that act. The passage can supply this relationship before or after the cue, implicitly and across paragraphs. An observation can matter in itself; a search can remain unsuccessful. Spatial attention can orient a route, and sustained attention can compress time or convey an interpersonal contrast. Characterization and pacing count through the particular meaning supplied, without requiring later practical action.
 
-Preserve supported relationships, including implicit or cross-sentence ones: discovery, interpretation, targeted search, viewpoint, observation, attention-dependent tasks and particular communication. Earlier detail can acquire a perceiver; spatial attention can orient a route; sustained attention can compress time or convey interpersonal contrast. Characterization and pacing count through the meaning supplied, without requiring later practical action.
+A named target or a plausible reason to look establishes only that attention could occur. A problem followed by a decision, a look during useful speech or an ordinary glance at a conversation partner can still merely stage attention. Preserve a particular observation of the actual target; distinguish facts supplied by another speaker, independent reasoning or descriptions of something else. Earlier detail can acquire a meaningful viewpoint, while redundant annotation of already established attention remains eligible.
 
-Preserve wording examined or documented as wording; assess adopted narration and quotations normally. Useful information protects its own role while an independent filler cue remains eligible. One weak cue suffices; repetition, frequency, windows and severity are separate reporting concerns.
+Preserve wording examined or documented as wording; assess adopted narration and quotations normally. Useful information protects its own role while an independent filler cue remains eligible. Judge every cue, including one beside a useful perception. One weak cue suffices; repetition, frequency, windows and severity are separate reporting concerns.
 
 ## Development Examples
 

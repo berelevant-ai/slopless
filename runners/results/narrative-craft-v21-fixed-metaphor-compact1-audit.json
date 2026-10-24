@@ -1,0 +1,348 @@
+{
+  "check": "narrative-craft/fixed-metaphor-frame",
+  "candidate": "v21 compact1",
+  "verdict": "development_gate_passes",
+  "summary": "All four saved runs reproduce their original summaries exactly and pass the 100-positive/100-negative, at-least-95-caught, at-most-5-false-positive development gate. Manual review retains all 13 distinct error passages as scored. Original child receipts match the manifest and registered jobs; the inspected orchestrator matches its recorded hash and verifies SDK identity before spawn and after child exit. The execution-provenance objection is resolved.",
+  "scope": {
+    "reviewer": "Fresh independent reviewer; no delegation.",
+    "inferencePerformed": false,
+    "datasets": ["000097 development isolated", "000125 development mixed"],
+    "distinctPassages": 400,
+    "savedRunDecisions": 800,
+    "holdoutFilesRead": [],
+    "holdoutEvaluationVerified": false,
+    "earlierTwelveChecks": "Existing audits remain the responsibility of the main reviewer. This audit verifies the newly added fixed-metaphor-frame check only.",
+    "permittedReportClaim": "Fixed-metaphor-frame also passes the audited development gates in initial and confirmation runs. The main reviewer may combine this result with the earlier twelve audits as thirteen development-confirmed checks.",
+    "claimBoundary": "The four supplied snapshots evaluate development data with classification-only decisions. Claims about H evaluation, whole-family mixed exact-match performance, highlighting, or deployment require their own evidence."
+  },
+  "exactFilesRead": [
+    "/Users/tartakovsky/.codex/AGENTS.md",
+    "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+    "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+    "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/dist/shared/text/sentences.js",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fixed-metaphor-frame.md",
+    "/tmp/slopless-narrative-v21-full/fixed-metaphor-compact1-audit-manifest.json",
+    "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/definitions.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.labels.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000097-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000125-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-confirmation-000125-development.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-confirmation-000097-development.json",
+    "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-compact1-000097.log",
+    "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-compact1-000125.log",
+    "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-compact1-confirmation-000125.log",
+    "/tmp/slopless-narrative-v21-full/fixed-metaphor-frame-compact1-confirmation-000097.log",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+    "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+    "/tmp/rhythm-v19-native-jobs.mjs",
+    "/tmp/slopless-narrative-v21-full/development-compact1-seven-executions.json",
+    "/tmp/slopless-narrative-v21-full/development-compact1-confirmation-fixed-metaphor-frame-executions.json",
+    "/tmp/slopless-narrative-v21-full/development-compact1-seven-jobs.json",
+    "/tmp/slopless-narrative-v21-full/development-compact1-confirmation-fixed-metaphor-frame-jobs.json"
+  ],
+  "readModes": {
+    "sdkManifest": "Parsed version and hashed bytes.",
+    "sdkEntry": "Hashed bytes only; SDK was never imported or executed.",
+    "datasetsAndResults": "Parsed in full by the public offline runner functions; all distinct incorrect target passages were displayed in full and reviewed manually.",
+    "runtimeDependencies": "Importing the public runner also loads its ordinary local JavaScript dependencies, including Ajv. Dependency implementation files were not separately inspected.",
+    "directoryMetadata": "Listed /Users/tartakovsky/.codex names to locate global AGENTS, listed prompt filenames through loadPrompts, and checked the requested audit destination's absence. No other records were opened.",
+    "originalReceiptAndJobFiles": "Parsed the explicitly added files. Inspected other-check metadata only for inventory and child exit statuses; compared full job and execution records only for fixed-metaphor-frame. Opened no other-check datasets, results or logs.",
+    "auditOutput": "Read this audit JSON to validate its recorded scores and assertions before delivery."
+  },
+  "gitReads": {
+    "adce3acb": [
+      "prompts/v21/fixed-metaphor-frame.md",
+      "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+      "datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json",
+      "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+      "datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.labels.json"
+    ],
+    "producingCommits": ["6a428b42f3457b2897f838d3d81a0269c288297f", "6843c4d354fcd110657af23e56bdc207ef99a358"],
+    "producingCommitReadScope": "Commit timestamps and exactly the seven input paths listed in each run's execution.inputs. Each committed file's SHA-256 equals the receipt and current file."
+  },
+  "assertions": [
+    {
+      "name": "current_inputs_and_original_snapshot",
+      "status": "pass",
+      "operation": "For every run, loadDataset(snapshot.dataset, snapshot.family), loadPrompts(snapshot.prompts, fixed-metaphor-frame), and createSnapshot with all frozen snapshot settings; assert.deepEqual against the original snapshot. Hash every execution.inputs file and its producing-commit blob against its receipt.",
+      "result": "All four current snapshots and all recorded input hashes match. Public loaders also validate schema, text checksums, sample ranges, unique judgments, and exact snippet membership."
+    },
+    {
+      "name": "public_validation_and_exact_original_scoring",
+      "status": "pass",
+      "operation": "Call validateResult(originalResult, {snapshot, rows, prompts}); require complete=true. Call score(rows, checks, threshold, batches, mode) and deep-compare the entire summaries array, including findings and scores. Deep-compare scoreMixed where present.",
+      "result": "All four pass, including request hashes, answer identities, probabilities, usage fields, and inferenceSha256. Original summaries and predictions are preserved; rescoreResult was never called."
+    },
+    {
+      "name": "per_class_gate_and_complete_batches",
+      "status": "pass",
+      "result": "Each run has 100 positive and 100 negative judgments, 98 caught positives, and 3 to 5 false positives. Each has twelve 16-answer detection batches and one 8-answer batch, totaling 13 batches and 200 answers."
+    },
+    {
+      "name": "native_canonical_dataset_hashes",
+      "status": "pass",
+      "operation": "Compare snapshot textSha256 and labelsSha256 with datasetHashes(dataset), which hashes JSON arrays of document text and parsed metadata.",
+      "result": "All four match canonical hashes. Raw execution.inputs checksums are verified separately as file-byte hashes."
+    },
+    {
+      "name": "native_sdk_receipt_path_and_hashes",
+      "status": "pass",
+      "result": "All four original execution.sdk receipts agree with the manifest, current SDK version 0.7.0, resolved entry path and both file hashes. The hash-matched orchestrator resolves that SDK, asserts its version, passes its absolute entry as --sdk to the child, and checks manifest and entry hashes again after child exit before writing each receipt. The public runner dynamically imports that explicit --sdk path before provider calls."
+    },
+    {
+      "name": "producing_commits_precede_inference",
+      "status": "pass",
+      "result": "6a428b42 was committed at 2026-10-24T01:07:58Z, before the initial runs' first recorded answers at 01:08:17.279Z and 01:08:30.702Z. 6843c4d3 was committed at 01:10:13Z, before confirmation answers at 01:10:25.194Z and 01:10:25.334Z. Each timestamp also precedes the first request's estimated start, subtracting its elapsedMs."
+    },
+    {
+      "name": "labels_and_literal_demonstrations_frozen",
+      "status": "pass",
+      "result": "Both dataset Markdown files and both label files are byte-identical to adce3acb and both producing commits. The complete Development Examples section is byte-identical to adce3acb, including all three hits, three no-hits, and bold markup."
+    },
+    {
+      "name": "prompt_budget_and_definition_alignment",
+      "status": "pass",
+      "result": "The assembled content has 647 whitespace-separated words: shared 96, body 514, question 12, true criterion 11, false criterion 14. Both the prompt and frozen extracted definition assess the scenic image's particular contribution, including independent ornamental extensions, documented wording, and developed narrative relationships."
+    },
+    {
+      "name": "process_terminal_receipt_exits",
+      "status": "pass",
+      "result": "The original 14-job and 2-job execution files contain 14 and 2 child receipts respectively, each with exit=0 and matching registered job counts. The four scoped receipts deep-equal the manifest records. The inspected driver captures child.once('exit') and records that status after SDK post-checks; any nonzero child status sets the driver exit code to 1. All four scoped logs contain complete=true, requests=13, decisions=200 and exact original summaries. Main reports consuming both parent terminal handles with exit 0; this reviewer directly verifies the original child receipts and driver completion logic."
+    },
+    {
+      "name": "development_only_and_single_check_scope",
+      "status": "pass",
+      "result": "Both paired metadata files declare split=development; every execution receipt declares developmentOnly=true. Every saved snapshot selects fixed-metaphor-frame alone, threshold 0.5, jev-1.13.0, classification-only, batchSize 16. Mixed summaries therefore measure this check alone."
+    }
+  ],
+  "hashes": {
+    "sharedPromptRawSha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+    "checkPromptRawSha256": "3aac5be126fb506e9a739dc8f47c53410d1f62930763d349868b9a25f161296f",
+    "assembledPromptSha256": "e3008c451deb98b5fd09c390b68c5b66a9dc08432e55663a402650aa965de865",
+    "demonstrationsSha256": "3b8c1f78f5a02955c0d91b979e53b7d5759c042ff7faf99b91bbf1996d809711",
+    "sdkManifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+    "sdkEntrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159",
+    "receiptRunnerSourcePath": "/tmp/rhythm-v19-native-jobs.mjs",
+    "receiptRunnerSha256": "b19a427efbf2c1c6f9e060829665f3d71a000e1cc9ccc92e7aae76b9e41d022d",
+    "receiptRunnerHashVerified": true,
+    "originalExecutionAndJobFiles": {
+      "/tmp/slopless-narrative-v21-full/development-compact1-seven-executions.json": "5958f24fc67514f530b2a09ff41c90d349803f4d10138690c403eb52b1ed3c09",
+      "/tmp/slopless-narrative-v21-full/development-compact1-confirmation-fixed-metaphor-frame-executions.json": "51efa39a2583be7e4efc009c66b75fe95dc05322e61cde4584eaba0b1111bf11",
+      "/tmp/slopless-narrative-v21-full/development-compact1-seven-jobs.json": "1fe62995ef9a8dfb3c162db82dbe31fb361ef6e9d365d7fc4ad41284bdf4efd0",
+      "/tmp/slopless-narrative-v21-full/development-compact1-confirmation-fixed-metaphor-frame-jobs.json": "3c6f426fb260c23519853588ca18d7df963b22cf9ea5a1d251ac92b09ce7c752"
+    },
+    "publicJevRunnerRawSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+    "datasets": {
+      "000097": {
+        "canonicalTextSha256": "9861fe5179505765cbfc51b028b5b8962776bf3402b1675ee90edbaf7b6fa152",
+        "canonicalLabelsSha256": "549ac7e91eb3d62fce701f09a16fa4ee5c035af1e96e33188299d549041926ff",
+        "rawTextFileSha256": "5d0b991727c7f67cac151ea9a2ea3c9f9144c503f858ef4349b607202171023d",
+        "rawLabelsFileSha256": "3a31c93988ee51cfb0cb4fd02052ba3cbf2b1c9570ab7e46cc45edcf0610136f"
+      },
+      "000125": {
+        "canonicalTextSha256": "fc46491604c781cf694e7adb9fe14b6316add9f1a445fbb18449260ec7d86d80",
+        "canonicalLabelsSha256": "5ef6205166f42d6e07177325a4b24a74cd60862654304f3ab1ed5866525282f9",
+        "rawTextFileSha256": "b364f11595619b53ae43644b1331b0c57aeee6b023321ac5874ed73597e756d1",
+        "rawLabelsFileSha256": "f7ab7b3e7d91757eab137606dcbd69847c435f0ebec346fd9a32fa60462c909d"
+      }
+    }
+  },
+  "results": [
+    {
+      "file": "runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000097-development.json",
+      "sha256": "e619596eaf60c16bdbce3d3b84016d5da70ea665aa6e27b07086481ab480f71a",
+      "inferenceSha256": "403af54636ee97be7d677695bb2233634c10b97d7f11c5d772fd8f82a6cf8aa2",
+      "positives": 100,
+      "caught": 98,
+      "negatives": 100,
+      "correctNegatives": 96,
+      "falsePositives": 4,
+      "misses": ["000097-6c121ad78174", "000097-d4e54874a08d"],
+      "falseAlarms": ["000097-1830d9fe019b", "000097-316a1e7ab53c", "000097-47b0628b3306", "000097-fd7a7df73a18"],
+      "batches": 13,
+      "answers": 200,
+      "receiptExit": 0,
+      "gatePass": true,
+      "excludingLiteralDemonstrations": {"positives": 97, "caught": 95, "negatives": 97, "falsePositives": 4}
+    },
+    {
+      "file": "runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-000125-development.json",
+      "sha256": "5339f7b953179559425208829fa25b896ca84a05d8957fa03c010d9d9cfb7169",
+      "inferenceSha256": "207f19bdab09b23f83efd1d72c4bec78f09ac95511298e75154c759dbc5bbb3a",
+      "positives": 100,
+      "caught": 98,
+      "negatives": 100,
+      "correctNegatives": 97,
+      "falsePositives": 3,
+      "misses": ["000125-1b2f8a1be845", "000125-62c88b009673"],
+      "falseAlarms": ["000125-518d19c5975a", "000125-8b4ea184a03e", "000125-babc77949d8b"],
+      "batches": 13,
+      "answers": 200,
+      "receiptExit": 0,
+      "gatePass": true,
+      "excludingLiteralDemonstrations": {"positives": 100, "caught": 98, "negatives": 100, "falsePositives": 3}
+    },
+    {
+      "file": "runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-confirmation-000125-development.json",
+      "sha256": "64cae5c96f062ea4c486bf29a6641c4a32c452371c16ad79c81dae23f3fe89ce",
+      "inferenceSha256": "e43b6fa36c75fd71397e0a91ca59fd4178c9a173797181414f6bdc1d10f5c68e",
+      "positives": 100,
+      "caught": 98,
+      "negatives": 100,
+      "correctNegatives": 95,
+      "falsePositives": 5,
+      "misses": ["000125-1b2f8a1be845", "000125-62c88b009673"],
+      "falseAlarms": ["000125-3e3ab281941c", "000125-518d19c5975a", "000125-8b4ea184a03e", "000125-b04630d5e39c", "000125-babc77949d8b"],
+      "batches": 13,
+      "answers": 200,
+      "receiptExit": 0,
+      "gatePass": true,
+      "excludingLiteralDemonstrations": {"positives": 100, "caught": 98, "negatives": 100, "falsePositives": 5}
+    },
+    {
+      "file": "runners/results/narrative-craft-v21-fixed-metaphor-frame-compact1-confirmation-000097-development.json",
+      "sha256": "3eebf1501d483b0d23e3c9b7fe2c95ad9052edd5f52535c3f951aa59f7ce6ce2",
+      "inferenceSha256": "a415d316f21084edabc5032f649a768aa46e47f67a6db310c4e7e3ae088f50fa",
+      "positives": 100,
+      "caught": 98,
+      "negatives": 100,
+      "correctNegatives": 97,
+      "falsePositives": 3,
+      "misses": ["000097-6c121ad78174", "000097-d4e54874a08d"],
+      "falseAlarms": ["000097-316a1e7ab53c", "000097-47b0628b3306", "000097-fd7a7df73a18"],
+      "batches": 13,
+      "answers": 200,
+      "receiptExit": 0,
+      "gatePass": true,
+      "excludingLiteralDemonstrations": {"positives": 97, "caught": 95, "negatives": 97, "falsePositives": 3}
+    }
+  ],
+  "manualIncorrectDecisionReview": [
+    {
+      "id": "000097-6c121ad78174",
+      "expected": true,
+      "scoresInitialAndConfirmation": [0.37, 0.34],
+      "finding": "Retain the miss. Dollhouse conveys the cramped room, while the independent extension 'of grief and stubborn memory' supplies generic atmosphere unsupported by the measurements or furniture decision. The frozen definition requires assessing that extension separately."
+    },
+    {
+      "id": "000097-d4e54874a08d",
+      "expected": true,
+      "scoresInitialAndConfirmation": [0.34, 0.36],
+      "finding": "Retain the miss. The strike supplies a shared topic for 'a frontier of anger and solidarity'; the photographed flask, gloves and badge develop the portrait rather than a particular frontier relationship. Topic relevance alone leaves the added stock scenic framing eligible."
+    },
+    {
+      "id": "000097-1830d9fe019b",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.55, 0.46],
+      "finding": "Retain the initial false positive. The brochure's 'jewel box' wording is explicitly questioned, corrected to access directions, and checked at proofing. The expression is the object of examination under the frozen preservation rule."
+    },
+    {
+      "id": "000097-316a1e7ab53c",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.52, 0.52],
+      "finding": "Retain both false positives. Graveyard compresses the particular status of abandoned machines on a dated shelf awaiting dismantling; recovering the father's radio develops that relationship. Familiar imagery supplies specific meaning here."
+    },
+    {
+      "id": "000097-47b0628b3306",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.52, 0.51],
+      "finding": "Retain both false positives. 'Departures' names eleven outgoing messages, and the computer room's 'little airport' then receives replies. The passage develops a particular outgoing/incoming relationship through purposeful wordplay."
+    },
+    {
+      "id": "000097-fd7a7df73a18",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.59, 0.61],
+      "finding": "Retain both false positives. Mara's 'theater of longing and second chances' precedes moving her former husband's place card beside her own and calling their daughter. Ordinary dialogue is eligible, but this image communicates the particular interpersonal intention developed by her actions."
+    },
+    {
+      "id": "000125-1b2f8a1be845",
+      "expected": true,
+      "scoresInitialAndConfirmation": [0.42, 0.45],
+      "finding": "Retain both misses. Reaching under the boot lid and finding a permit support the physical scene; 'a cavern of crumbs and family memories' adds a reusable atmospheric frame, including an undeveloped family-memories claim. Concrete neighboring details preserve their own information."
+    },
+    {
+      "id": "000125-62c88b009673",
+      "expected": true,
+      "scoresInitialAndConfirmation": [0.31, 0.30],
+      "finding": "Retain both misses. 'A treasury of tins and small necessities' gives the shop an interchangeable scenic valuation. The developed physical relationship concerns motor heat, curling postcards and ventilation; it supplies no particular relationship for the treasury image."
+    },
+    {
+      "id": "000125-518d19c5975a",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.65, 0.65],
+      "finding": "Retain both false positives. 'Watchful stillness took up residence' personifies an emotional atmosphere; the berries comparison describes the swelling drops. Neither turns the place into a stock scenic container, landscape or stage."
+    },
+    {
+      "id": "000125-8b4ea184a03e",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.51, 0.53],
+      "finding": "Retain both false positives. Brittle calm is an emotional cue; stitches describe visible pale seams on split loaves. The complete passage supplies emotional language and an object comparison outside the named scenic framing defect."
+    },
+    {
+      "id": "000125-babc77949d8b",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.63, 0.56],
+      "finding": "Retain both false positives. Nervousness supplies an emotional cue. The funnel comparison explains the floor slope and the observed collection of hair clips at the drain, establishing a particular physical relationship."
+    },
+    {
+      "id": "000125-3e3ab281941c",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.48, 0.52],
+      "finding": "Retain the confirmation false positive. Goodwill floating is emotional personification. The reflecting-dish comparison explains the curved ceiling's acoustic focusing, the whisper reaching the rear, and doubled words. The image supplies a particular perceptual relationship."
+    },
+    {
+      "id": "000125-b04630d5e39c",
+      "expected": false,
+      "scoresInitialAndConfirmation": [0.47, 0.52],
+      "finding": "Retain the confirmation false positive. The brochure phrase is retained with a disputed photograph as evidence and examined against a survey. Documentation is established by the passage's use of the expression, independently of quotation marks."
+    }
+  ],
+  "demonstrationOverlap": {
+    "000097": {
+      "hitIds": ["000097-b1f9a076826c", "000097-925ca729157b", "000097-e27c366dcf5f"],
+      "noHitIds": ["000097-128e5feecc49", "000097-3e2ccb504307", "000097-f18810381431"],
+      "interpretation": "Both isolated development runs include the six literal prompt demonstrations. Excluding them yields 95/97 caught and 4/97 or 3/97 false positives."
+    },
+    "000125": {"literalDemoMatches": 0}
+  },
+  "objections": [
+    {
+      "id": "execution-provenance-scope",
+      "status": "resolved",
+      "severity": "resolved_evidence_scope",
+      "originalFinding": "The initial permitted evidence contained copied manifest receipts and stdout logs, while the receipt runner source and standalone execution files were outside the read scope.",
+      "checked": "The newly permitted /tmp/rhythm-v19-native-jobs.mjs, both original execution files, both registered job files, and all four previously permitted fixed-metaphor-frame logs.",
+      "observed": "Driver SHA-256 equals every original scoped runnerSha256. Each scoped original receipt deep-equals its manifest execution object, and its registered input fields match the original job. The driver hashes all registered inputs before execution, checks assembled prompt words, resolves and hashes SDK 0.7.0, passes --sdk with that entry path, awaits the actual child exit event, verifies SDK manifest and entry hashes afterward, then records the receipt. Both execution inventories are complete and all child exits are 0.",
+      "consequence": "Original job registration, child process success, explicit native SDK selection and before/after SDK identity checks are verified for the four scoped runs. Parent driver terminal exits of 0 are reported by main; child statuses and successful-completion logic are directly checked here.",
+      "operation": "Close the execution-provenance objection. Keep original receipts, hashes, source path and the distinction between main-reported parent exits and directly inspected child receipts in the audit."
+    },
+    {
+      "id": "development-only-claim",
+      "status": "report_constraint",
+      "severity": "report_scope",
+      "checked": "Both metadata splits, all snapshots, selected checks, and developmentOnly receipts.",
+      "observed": "All four runs evaluate two development collections for one classifier. The isolated collection contains six literal demonstrations, reported separately above.",
+      "consequence": "This audit supports adding one development-confirmed check to the existing twelve audits. H evaluation and all-check mixed performance require separate evidence.",
+      "operation": "Describe the aggregate as thirteen development-confirmed checks and preserve the current candidate for any independently governed H assessment."
+    }
+  ],
+  "verificationCommands": {
+    "offlinePublicApiAssertions": {"exit": 0, "runsValidated": 4, "summariesDeepEqual": 4, "resultFilesWritten": 0},
+    "gitAndDemoAssertions": {"exit": 0, "literalDemosRetained": 6, "datasetPairsUnchangedSinceAdce3acb": 2},
+    "promptWordCount": {"exit": 0, "plainAssembledWords": 647},
+    "originalExecutionProvenanceAssertions": {"exit": 0, "scopedOriginalReceiptsDeepEqualManifest": 4, "scopedRegisteredJobsMatch": 4, "driverHashMatches": true, "initialInventory": {"jobs": 14, "receipts": 14, "allChildExits": 0}, "confirmationInventory": {"jobs": 2, "receipts": 2, "allChildExits": 0}, "driverExecutedByReviewer": false},
+    "destinationExistenceCheck": {"exit": 1, "stderr": "ls: runners/results/narrative-craft-v21-fixed-metaphor-compact1-audit.json: No such file or directory", "interpretation": "Expected absence before creating this new audit."},
+    "originalFailures": "All four permitted run receipts record exit 0. All original misses, false positives, summaries and inference hashes are preserved in the source results and reproduced here.",
+    "auditDraftCorrections": "The first audit-output comparison found two score transcription mismatches: 000125-b04630d5e39c initial was 0.47 rather than the drafted 0.48; 000097-1830d9fe019b confirmation was 0.46 rather than the drafted 0.49. Corrected before delivery; original result files remained unchanged."
+  },
+  "recommendedDisposition": "Accept the newly added check's four development gate results. Preserve the candidate, labels and original predictions. Any later detector revision should address the reviewed contextual-extension misses and documented-wording or non-scenic false positives through the established development workflow."
+}

@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain silence-as-actor?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage treat silence, quiet, a pause, absent speech, or a place's activity or mood as a social presence, designed object, burden, verdict or generic emotional force instead of supplying specific conditions or interpersonal meaning? Include vague emotional qualities of busy or lively places and states produced by people. Preserve literal conditions, purposeful quiet, consequential withholding of speech, informative figurative relations and specific meaning established across the passage, as well as wording being documented or examined.",
   "criteria": {
-    "true": "At least one eligible cue substitutes generic emotional atmosphere for particular conditions or interpersonal behavior.",
-    "false": "Every eligible cue supplies particular conditions or meaning supported by the passage, or none occurs."
+    "true": "At least one description of silence, a pause, absent speech or a place's activity or mood adds an interchangeable emotional presence, quality, object, burden or verdict. Its own contribution remains generic despite nearby events or a stated cause; quietness and personification are optional.",
+    "false": "Every silence, pause, nonresponse or place-state supplies literal conditions, purposeful quiet, consequential withholding, informative imagery or particular interpersonal or narrative meaning established by the passage, or is wording being documented or examined; or no such construction occurs."
   }
 }
 ---
@@ -11,15 +11,17 @@
 
 Input: passage.
 
-Judge the absence or place-state's own meaning, independently of nearby drama.
+Read the complete sequence, then judge what each silence or place-state contributes.
 
-Cover silence, quiet, pauses, absent speech and a place's generic activity or mood, including deictic claims and human-produced states. Quietness, an abstract subject and intentional agency are optional. A cue can assume the role of a social actor, designed object, burden or verdict.
+Cover silence, quiet, pauses, absent speech and a place's activity or mood, including deictic claims and human-produced states. Busy, occupied or lively places can carry the same defect as quiet or empty ones. An abstract grammatical subject and intentional agency are optional.
 
-Preserve literal sound conditions, purposeful quiet, consequential withholding of speech, informative figurative relations and specific interpersonal meaning. The relation can be implicit across the connected passage. Observation, orientation, characterization, compression and pacing can supply purpose without later action.
+Distinguish observable sound, occupancy or activity from the emotional significance assigned to it. An emotional gloss can remain interchangeable even when the setting or human behavior makes that feeling plausible. One weak eligible cue suffices.
 
-Nearby behavior or human causation can explain a state while leaving its emotional annotation generic. Useful information protects its own contribution; assess any independent thin cue beside it. Another defect establishes neither outcome here. One weak eligible cue suffices.
+Preserve literal conditions, purposeful quiet, consequential withholding of speech, informative figurative relations and specific interpersonal meaning. A metaphor can identify what a particular silence allows, communicates or prevents. The relation can be implicit across the connected passage. Observation, orientation, characterization, compression and pacing can supply purpose without later action.
 
-Preserve documented wording examined for its identity, meaning or accuracy as well as style. Assess adopted narration and ordinary dialogue normally.
+Useful detail protects its own contribution; assess any independent generic emotional annotation beside it. Nearby drama, a human cause or another defect establishes neither outcome here.
+
+Preserve wording whose identity, use, meaning or accuracy the passage documents or examines; stylistic criticism is optional. Assess adopted narration and ordinary dialogue by the same functional boundary.
 
 ## Development Examples
 

@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain body-action-density?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain an embodied character's bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion that merely keeps the character performing or illustrates a generic feeling between substantive events, rather than supplying a physical task or condition, particular information, a specific interpersonal response or an identifiable narrative function?",
   "criteria": {
-    "true": "At least one eligible cue merely animates or illustrates a character between substantive events.",
-    "false": "Every eligible cue contributes particular physical, communicative or narrative meaning, or none occurs."
+    "true": "At least one bodily action, gesture, posture, sensation, appearance, vocal reaction or felt emotion of an embodied character is an interchangeable staging or emotional cue. Read in context, that cue supplies no particular physical, communicative or narrative meaning beyond generic animation or illustration.",
+    "false": "Each embodied character's bodily or felt-emotion cue performs a task, establishes a physical condition, conveys particular information or a specific response, or supplies an identifiable narrative function. Also false when no eligible cue occurs or all candidate cues are wording being examined or documented."
   }
 }
 ---
@@ -11,13 +11,13 @@
 
 Input: passage.
 
-Cover actions, gestures, posture, sensations, appearance and vocal reactions of embodied characters, including animals and generalized, involuntary or persistent feelings. Personified abstractions alone are outside this bodily scope.
+Cover embodied characters, including animals, and generalized, involuntary or persistent feelings. Personified abstractions alone are outside this bodily scope. Judge the complete connected passage, one cue at a time.
 
-Judge each cue's own contribution across the connected passage. A fitting emotion or conversational tone alone supplies generic illustration. Useful speech or action leaves an accompanying filler cue eligible.
+Physical activity that performs the scene's work is substantive content, even when ordinary or predictable. Sensations and appearance can establish physical conditions or provide evidence. A gesture or vocal change can communicate a particular response through the surrounding exchange. These functions may be implicit or explained elsewhere in the passage.
 
-Preserve supported physical and interpersonal relations, including implicit responses, sensory conditions and informative contrasts. A stated purpose, resolved cause or later consequence is unnecessary. Observation, orientation, characterization, compression and pacing count through the particular meaning the cue supplies.
+Observation, orientation, characterization, compression and pacing count through the particular meaning the cue supplies. A stated purpose, resolved cause or later consequence is unnecessary. Familiar wording, stillness, repetition or an involuntary reaction can carry that meaning.
 
-Preserve wording examined or documented as wording; assess adopted narration, dialogue and quotations normally. Cover unfamiliar wording and inflections. One weak cue suffices; frequency, windows and severity are separate reporting concerns.
+A fitting emotion, conversational tone or plausible motivation alone leaves a cue generic. Useful speech, a task or a specific detail elsewhere protects its own contribution; assess any accompanying bodily annotation separately. Preserve wording examined or documented as wording; assess adopted narration, dialogue and quotations normally. Cover unfamiliar wording and inflections. One weak cue suffices; frequency, windows and severity are separate reporting concerns.
 
 ## Development Examples
 

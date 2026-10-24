@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain an empty beat?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage use hesitation, waiting, lingering, stopping, briefly staying still or keeping pace, or a generic animal ear/tail gesture, merely to insert a pause or response between substantive events? Flag a cue whose own contribution is only this placeholder beat. Preserve a cue that establishes a passage-supported choice, timing constraint, physical task or need, informative perception, consequential response or particular narrative relation. Infer that function across connected sentences; nearby useful action or emotion alone does not supply it.",
   "criteria": {
-    "true": "At least one eligible cue merely inserts a placeholder pause or response.",
-    "false": "Every eligible cue supplies a particular function supported by the passage, or none occurs."
+    "true": "At least one hesitation, delay, stop, continued stillness or matched movement, or generic animal ear/tail tag, only pads the sequence with a pause or response. Its duration, setting, trigger or following action supplies no particular function for the cue itself.",
+    "false": "No eligible pause/response cue occurs, or every such cue serves a passage-supported choice, timing constraint, physical task or need, informative perception, consequential response or particular narrative relation. Preserve wording examined or documented as wording."
   }
 }
 ---
@@ -11,13 +11,15 @@
 
 Input: passage.
 
-Judge what the cue itself contributes to the connected passage.
+Judge what each cue itself contributes across the complete connected passage.
 
-Cover hesitation, waiting, lingering, stopping, keeping pace and generic animal ear/tail gestures used as pauses or responses. One weak cue suffices, independently of sentence cadence and frequency.
+Cover pauses and responses expressed as actions, clauses or descriptions of an interval. Include hesitation, waiting, lingering, stopping, remaining still, continuing together or keeping pace, and generic animal ear/tail tags. One weak cue suffices, independently of sentence cadence and frequency.
 
-Preserve a passage-supported choice, timing constraint, physical task, informative perception, consequential response or purposeful narrative relation. The function can be implicit and continuing across sentences. Observation, orientation, characterization, compression and pacing can supply purpose without a later action.
+Preserve a cue that makes a particular choice, constraint, task, perception or relationship intelligible. A pending task or conversational turn can give waiting a function. An ongoing physical condition can justify rest. Coordinated movement can serve a shared physical task or interpersonal relation. The connection can be implicit, appear in another sentence or continue across the passage.
 
-A trigger or following action alone leaves a placeholder empty. Duration, location and anatomy alone supply no purpose. Useful work protects its own contribution; assess any independent filler beside it, even within the same sentence.
+Observation, orientation, characterization, compression and pacing qualify through the particular content the cue supplies, without requiring a later action. Merely slowing the narration, marking time or suggesting a generic emotional reaction leaves the beat empty. A separate remark about briefly matching another person's movement needs its own function beyond ordinary travel.
+
+A trigger, duration, location or anatomical detail alone supplies no purpose. Useful work protects its own contribution; assess any independent delay or response beside it, even within the same sentence. Distinguish a continuing physical need from a delay added after that need has been resolved. An atmospheric description is eligible here when it inserts a placeholder interval or response.
 
 Preserve wording examined or documented as wording. Assess adopted narration and ordinary dialogue normally.
 
