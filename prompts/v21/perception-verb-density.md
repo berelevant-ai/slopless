@@ -29,24 +29,24 @@ Preserve useful observations and physical, perceptual, social or narrative funct
 
 ### Hit
 
-The mattress spent our first evening in the flat on the landing. The landlord had brought the wrong keys, and his daughter couldn't leave work with the spare set until six. While he explained this, **I glanced at him** and extended the van hire on my phone. We paid for the extra hour ourselves. His promise to reimburse us is still written on the back of the inventory.
+"We can cover Saturday if you take the early shift on Monday," Denise said. The bakery had lost two people that month, and everyone was trading hours. **Aaron looked at her.** He had promised to drive his father to an appointment on Monday, but the appointment wasn't until eleven. "Put me down for six to ten," he said, pulling the rota closer.
 
 ### Hit
 
-For most of the morning we soaked price stickers out of borrowed tumblers. The stickers were inside, on the bottoms, where the wedding candles would sit. We had bought a hundred candles but only twenty holders; the caterer supplied the rest as drinking glasses. **Miriam's gaze roamed the storeroom** while I counted the final tray. There were still three tables to set.
+"We only sell the whole sack," the farm-shop owner said. I wanted a handful of apples for a crumble. **My gaze passed over the shelves.** I bought the sack and distributed most of it at work, where a colleague immediately asked whether I could bring pears next time.
 
 ### Hit
 
-At the swimming gala, the announcer had given our daughter the wrong surname three times. **Peter glanced toward the officials.** Her race was next, so he wrote the correct name on a programme and carried it over. She won her heat and was introduced correctly for the final.
+Our nephew announced that he was vegetarian just as I put the roast on the table. **I surveyed the company.** There were potatoes, peas, and enough carrots to feed him comfortably. He accepted those, then explained that he would still eat sausages at school because the vegetarian option was disappointing.
 
 ### No Hit
 
-My brother caught my eye across the estate agent's desk and tapped his wrist. We had agreed beforehand that this meant stop discussing the price. I asked about the service charge instead. Outside, he explained that the seller's brother had just entered the office and was standing within hearing distance.
+For three summers I watched my father teach people to sail. By the third, I could tell which pupils would panic before they touched the tiller: they kept checking the shore while he explained the ropes. He gave those pupils the first turn at steering. I thought he was being unkind until I heard how much quieter they became once the boat answered them.
 
 ### No Hit
 
-A bathtub full of plants stood on a balcony above the railway cutting. Beside it, a man ate breakfast with his plate balanced on a dismantled motorbike. I watched the backs of the houses until the train entered the tunnel: washing lines, songbird cages, a woman shaking a rug over a blue plastic pool. Along the road on the other side, every house had matching yellow shutters.
+Len checked out the cafe's rear exit before choosing our table. His walking frame fitted between the front tables, but a narrow step divided them from the toilets. The rear doorway opened onto a level passage. He chose the table beside it and put his coat over the unused chair.
 
 ### No Hit
 
-The volunteer gave the toaster a once-over, stopping at the melted patch around its cable entry. He unplugged the extension before lifting it. On the underside, brown tracks ran from the cable toward the nearest foot. He showed me the damage against the unmarked casing of another toaster.
+The incident form said, "I observed the customer for several minutes." At the hearing, the supervisor read that sentence aloud and asked what "observed" meant. "I was serving at the other till," the cashier answered. The supervisor crossed out "for several minutes" in the draft statement and asked her to describe only the moments when she could see the customer's hands.
