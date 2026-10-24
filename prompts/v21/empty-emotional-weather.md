@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-emotional-weather: an adopted scene description presenting emotional atmosphere or interpersonal mood as occupying, moving through or persisting in a place without a particular manifestation or informative relationship?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-emotional-weather: adopted wording that presents an emotion or interpersonal mood as an ambient condition inhabiting the scene, while contributing only interchangeable mood annotation rather than a particular manifestation or informative relationship?",
   "criteria": {
-    "true": "At least one adopted atmospheric cue supplies interchangeable emotional scenery. The passage may explain the feeling's cause while the cue itself adds only a generic mood annotation.",
-    "false": "Every candidate supplies a particular manifestation or informative relationship, describes literal conditions or a general scene property, functions as documented or examined wording, or serves another identifiable narrative function; or no eligible cue occurs."
+    "true": "At least one cue both represents emotional atmosphere inhabiting the scene and supplies only generic mood annotation. An explained feeling or useful neighboring detail can coexist with this defect.",
+    "false": "Every eligible cue supplies a particular physical, perceptual, interpersonal or narrative function, or is wording retained for documentation or examination; or the passage contains no emotional atmosphere inhabiting the scene. Emotional associations in scenic imagery alone do not establish that relationship."
   }
 }
 ---
@@ -11,15 +11,15 @@
 
 Input: passage.
 
-Catch emotional scenery whether conveyed through emotional nouns, social moods, silence, quiet, stillness, pressure, weight, distance, calm, heaviness or equivalent wording. Neither a named emotion nor explicit movement is required. Generalize across unseen wording, inflections and positions.
+First identify what the candidate asserts. Catch an emotion or interpersonal mood treated as an ambient presence or condition of the scene. Neither a named emotion nor explicit movement is required. Generalize the relationship across unseen wording, inflections and positions.
 
-First distinguish scene description from wording handled as an object of documentation or examination. Retaining an expression's identity for a particular evidential purpose supplies a function even without commentary on its style. Ordinary dialogue and quotations adopted as scene description remain eligible.
+Emotional vocabulary within an image does not by itself assert emotional weather. Distinguish a scene's figurative identity or associations from a mood represented as inhabiting it. Establish this check's relationship from the wording; another defect neither establishes nor excludes it. A single construction can satisfy independent checks.
 
-Next distinguish emotional atmosphere from literal conditions or a general scene property. Figurative sensory description can carry an informative perceptual relationship. Particular conduct can make a mood legible. Judge the cue's connection to that conduct rather than treating spatial metaphor itself as the defect.
+Distinguish adopted scene description from wording handled as evidence. Read the complete sequence to establish why an expression is retained as an identifiable part of a record or account. That evidential function can concern the account's events rather than its style. Ordinary dialogue and quotations adopted as scene description remain eligible.
 
-Ask what scene-specific information the atmospheric wording supplies beyond naming a reaction the events already suggest. A plausible reason for the feeling leaves a freestanding generic mood annotation eligible. Useful detail elsewhere protects its own contribution; it does not justify an independent atmospheric tag.
+For an eligible cue, identify its own contribution. Preserve literal conditions and general scene properties. Preserve figurative wording that organizes a particular perception or expresses a social relationship through particular conduct. Read how the cue connects those details, rather than requiring a literal description or subsequent action.
 
-Preserve informative figurative relationships. Observation, orientation, characterization, compression and pacing can supply a particular function without later action. A named feeling, cause word or generic dramatic payoff alone does not establish that function. Other checks may also apply.
+An explanation of why people feel something differs from a manifestation or informative relationship supplied by the cue. If the atmospheric wording merely announces the reaction suggested by events, it remains eligible even beside useful detail. Preserve each detail's contribution while assessing any independent generic annotation. Observation, orientation, characterization, compression and pacing can supply a particular function; a generic dramatic payoff alone does not.
 
 ## Development Examples
 

@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: a bodily or vocal cue that supplies interchangeable reaction or staging rather than a passage-supported physical, communicative or narrative contribution of its own?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of body-action-density: a bodily or vocal cue whose own contribution is interchangeable reaction or staging? Judge each candidate's function in the connected passage, independently of other defects.",
   "criteria": {
-    "true": "At least one cue merely keeps a character performing or illustrates a reaction. Accompanying useful speech or work supplies chronology, not the cue's own purpose. Plausible emotion, habit or tone can leave it interchangeable. Include generalized sensations and assertions of involuntary or persistent feeling. A single weak cue suffices.",
-    "false": "Every candidate contributes physical information, purposeful behavior, a specific response or another narrative function supported by the passage, or no eligible cue occurs. Preserve implicit signals, informative contrasts and sensory observations, including unresolved physical conditions. Preserve wording examined or documented as wording."
+    "true": "At least one cue adds generic animation or emotional illustration rather than particular physical, communicative or narrative information. Nearby useful work, speech or movement protects its own contribution, not every accompanying cue. Include generalized sensations and assertions of involuntary or persistent feeling. One weak cue suffices.",
+    "false": "Every candidate supplies a supported physical relation, particular social response or identifiable narrative function, or no eligible cue occurs. Preserve implicit communication, informative contrasts and sensory conditions even without a stated purpose or later consequence. Preserve expressions whose wording or identity is examined or documented."
   }
 }
 ---
@@ -13,15 +13,17 @@ Input: passage.
 
 Read every connected paragraph. Assess actions, gestures, posture, sensations, appearance, animal gestures and vocal reactions by their role. Generalize across unfamiliar wording, inflections and positions.
 
-First establish how the passage uses the wording. When the cue's wording is itself being examined or documented, assess that framing before treating the cue as adopted narration. Assess ordinary dialogue and adopted quotations normally.
+First establish how the passage uses the wording. Preserve a cue whose wording or identity is itself examined or documented. Assess adopted narration, ordinary dialogue and adopted quotations normally; quotation marks alone decide neither status.
 
-Separate the cue from the substantive speech or action it accompanies. Establish what this movement or manner contributes, rather than transferring the task's purpose or the dialogue's meaning to it. Merely performing a physically possible movement before or during useful work can still be staging.
+For each cue, recover what its movement or manner contributes in ordinary terms. Separate that contribution from the substantive speech, work or neighboring cue. A useful action can have an interchangeable attachment; assess the attachment without discarding the action's physical purpose.
 
-Read the cue together with its physical or interpersonal relations. Preserve bodily evidence of a condition, behavior addressing a practical constraint, and a specific signal or revealing contrast. These relations can be implicit; neither a purpose clause nor a later consequence is required. An observation can convey uncertainty about a physical condition.
+Read the cue's physical and interpersonal relations across the sequence. Preserve behavior that performs a task or addresses a constraint. Sensory evidence of a physical condition has content even when its cause remains unresolved. Neither a purpose clause nor a later consequence is required.
 
-Then distinguish that contribution from an inferred emotion or imagined habit that could justify almost any gesture. Observation, orientation, characterization, compression and pacing are useful when the passage supports what this cue does for them. Generic animation or an emotional illustration remains eligible, including as an attachment to informative dialogue.
+A social cue can supply a particular response through its timing, addressee or contrast with the situation, including what participation it offers or withholds. The passage must support that relation. Merely inferring a fitting emotion, habitual manner or conversational tone leaves generic illustration; the emotion's plausibility is not the cue's function.
 
-Frequency, counting windows and severity are separate reporting concerns. Assess this defect independently of overlapping bodily-emotion, placeholder-beat or positioning defects.
+Preserve observation, orientation, characterization, compression and pacing through the particular information the cue supplies. Assess every cue independently: useful detail protects its own role, and another defect can coexist with a functional cue.
+
+Frequency, counting windows and severity are separate reporting concerns.
 
 ## Development Examples
 

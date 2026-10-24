@@ -1,21 +1,27 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-beat: placeholder hesitation, waiting, lingering, stopping, keeping pace or a generic animal gesture that merely inserts a pause or response beat between substantive actions?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of empty-beat: hesitation, waiting, lingering, stopping, keeping pace or a generic animal gesture whose own contribution is only a placeholder pause or response between substantive actions? Judge each candidate's function in the connected passage.",
   "criteria": {
-    "true": "At least one pause, continued movement, brief-duration filler or generic animal ear or tail gesture serves only as an interchangeable intermediate pause or response. A following action, duration, place name or anatomical detail alone supplies no purpose.",
-    "false": "No instance meets that definition. Each candidate pause, movement or response establishes a choice, timing constraint, physical task, consequential response or purposeful dramatic relation in the supplied passage."
+    "true": "At least one candidate merely inserts an interchangeable interval or response tag. The substantive work belongs to surrounding actions; a trigger or meaningful next action alone leaves the candidate empty.",
+    "false": "Every candidate contributes a particular choice, timing constraint, physical task, informative perception, consequential response or purposeful narrative relation supported by the connected passage, including an implicit continuing function."
   }
 }
 ---
 # Empty Beat
 
-Read the complete passage, including connected paragraphs. Generalize across unfamiliar wording, inflections and positions. Judge the placeholder function independently of sentence cadence and frequency.
+Input: passage.
 
-Preserve concrete tasks, informative perceptions, consequential social signals and purposeful narrative functions. Observation, orientation, characterization, compression and pacing can themselves supply a particular function without later action or an explicit cause word.
+Read the complete passage, including connected paragraphs. Generalize across unfamiliar wording, inflections and positions. Judge each eligible cue independently of sentence cadence and frequency.
 
-Assess the candidate beat's own contribution. Useful detail elsewhere protects its own meaning while an independent filler can remain. Physical actions and positioning may also satisfy other checks; assess each defect independently.
+Separate the pause or response annotation from the substantive actions it connects. Keeping those actions intact, ask what particular relation the candidate itself supplies. An interval that merely postpones the next action remains a placeholder amid useful details. A plausible imagined motivation supplies no evidence of purpose.
 
-Assess adopted narration and ordinary dialogue by function; preserve wording examined or documented as wording. A number, quotation mark or genre alone establishes no exemption.
+Preserve concrete tasks, informative perceptions, consequential social signals and purposeful narrative functions supported by the passage. A pause can give another person room to respond; continued positioning can serve an ongoing physical need. Infer that relation across sentences without requiring a stated cause, endpoint or later action. Observation, orientation, characterization, compression and pacing can themselves supply a particular function.
+
+For a generic response gesture, distinguish the event that occasions it from information the gesture contributes. Merely registering a reaction can remain an empty tag. A duration, place name or anatomical detail alone supplies no purpose.
+
+Other defects can coexist with this one. Useful detail protects the meaning it supplies; assess any remaining placeholder independently, including within the same sentence.
+
+Determine the role of quoted or recorded language before judging its style. When its particular formulation is itself the object of the passage's attention, preserve that wording. Apply the check normally when the narrator or speaker adopts it to describe the scene. Quotation marks or genre alone establish no exemption.
 
 ## Development Examples
 

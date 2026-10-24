@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of fixed-metaphor-frame: a prefabricated scenic metaphor framing a place or scene through interchangeable imagery rather than a particular perceptual relationship?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of fixed-metaphor-frame: adopted wording that recasts a place or scene through a prefabricated scenic image, whose frame or independent ornamental extension supplies generic atmosphere rather than a particular perceptual or developed relationship?",
   "criteria": {
-    "true": "At least one reusable scenic image frame supplies generic atmosphere through interchangeable imagery, even within an otherwise informative description or contrast.",
-    "false": "Every candidate either supplies a particular perceptual, interpersonal or developed metaphorical relationship, is wording being examined or documented as wording, or serves another identifiable narrative function; or no eligible figurative frame occurs."
+    "true": "At least one scenic image frame or independent extension supplies interchangeable atmosphere. A useful part of the image or neighboring description can coexist with an empty atmospheric claim.",
+    "false": "Every eligible frame supplies a particular physical, perceptual, interpersonal or developed narrative relationship, or is wording retained for documentation or examination; or no scenic image frame occurs. Figurative language or emotional personification alone does not establish such a frame."
   }
 }
 ---
@@ -11,15 +11,15 @@
 
 Input: passage.
 
-Catch stock container, landscape or stage framing that recasts a place or scene through image nouns. Generalize across linking verbs, image counts, unseen wording, inflections and positions. Neither a particular syntax nor multiple images are required.
+First identify what the candidate asserts. Catch a place or scene recast through a stock scenic image whose frame supplies interchangeable atmosphere. Generalize the relationship across linking verbs, image counts, unseen wording, inflections and positions. Neither a particular syntax nor multiple images are required.
 
-Preserve literal descriptions, informative figurative comparisons and metaphorical relationships developed by the passage. Observation, orientation, characterization, compression and pacing can themselves supply a function without later action.
+Figurative language alone does not establish a scenic frame. Identify what is being pictured and the relationship the image asserts. An emotion acting within a scene and a comparison describing a particular object or perception each require assessment on their own terms. Another defect neither establishes nor excludes this check; one construction can satisfy independent checks.
 
-Judge the figurative frame's own contribution. Unfamiliar image nouns or originality alone do not make an empty frame informative. Nearby facts, causal wording and useful contrasts preserve their own information while independent stock decoration remains eligible. A generic dramatic payoff alone does not establish a particular relationship.
+Distinguish adopted description from wording retained as evidence or examined as wording. Establish the expression's role across the complete sequence. Ordinary dialogue remains eligible, but a character's image can communicate a particular intention or social relationship developed in the exchange.
 
-Assess adopted narration and ordinary dialogue by function. Preserve wording examined or documented as wording. Other checks may overlap; this check addresses scenic image framing rather than abstract explanatory metaphors.
+For an adopted frame, identify the particular relationship the image contributes. Preserve literal description, informative figurative comparison and developed metaphor. A familiar image can precisely convey a physical arrangement, a perceptual relationship or a place's role for these people. Observation, orientation, characterization, compression and pacing can supply a function without later action.
 
-First distinguish the writer's scenic description from a description whose wording the passage examines, translates, disputes, records or replaces. For an adopted image, identify the particular relationship it adds: sharing a topic with surrounding facts alone can leave a generic mood label. A character's image can instead communicate a specific intention or relationship developed in the exchange.
+Assess the whole image and any independent ornamental extension. A concrete feature can support part of a comparison while an attached atmospheric claim remains interchangeable. Nearby facts, a shared topic, causal wording or a useful contrast preserve their own information; ask what relationship supports the candidate's added claim. Unfamiliar nouns or originality alone do not supply that relationship. A generic dramatic payoff alone does not establish it. Judge scenic framing rather than an abstract explanatory metaphor.
 
 ## Development Examples
 

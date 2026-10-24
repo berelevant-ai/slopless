@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Applying state.instructions and the supplied rulebook, does the complete target contain any instance of sensory-instead-of-frame: an interchangeable sensory inventory replacing a particular perception, or independently generic stock decoration within an otherwise informative sensory contrast?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of sensory-instead-of-frame: a sensory inventory or exchange whose own contribution is interchangeable atmosphere rather than particular perception, including independently generic decoration within an informative contrast? Judge each candidate's function in the connected passage.",
   "criteria": {
-    "true": "At least one sensory inventory or ornamental exchange substitutes generic atmosphere for particular perception, including abstract stock inventories with missing sensory grounding. An otherwise useful contrast also qualifies when additional independently generic decoration remains within it.",
-    "false": "Sensory wording supplies informative distinctions, particular perceptions, scene-meaningful changes or literal comparisons for identification, diagnosis or memory, with no independently interchangeable inventory or ornamental exchange."
+    "true": "At least one inventory or exchange packages settings or conditions into generic contrasting atmosphere, or adds independently generic decoration to an informative contrast. Physically plausible ingredients and nearby useful details can coexist with that defect. An abstract stock inventory can lack sensory grounding.",
+    "false": "Every candidate supplies an informative sensory distinction, particular perception, scene-meaningful change or literal comparison for identification, diagnosis or memory, with no additional independently generic decoration; or the candidate wording itself is being examined or documented."
   }
 }
 ---
@@ -11,15 +11,17 @@
 
 Input: passage.
 
-Read the complete connected sequence. Generalize across sensory modalities, wording, inflections and positions, including contrasts between alternatives, changed conditions and remembered conditions.
+Read the complete connected sequence. Generalize across sensory modalities, wording, inflections and positions, including contrasts between alternatives, changed conditions and remembered conditions. Judge each eligible cue independently.
 
-Judge the inventory or exchange's own contribution beyond the informative observation. The defect is interchangeable contrast, rather than comparison itself or paired sensory nouns. Ordinary sensory nouns, familiarity, figurative language and repeated context alone are insufficient.
+Separate the inventory or exchange's contribution from the scene's other information. Ask what particular perceptual distinction it supplies, and whether the contrast instead packages whole settings or periods into opposing stock sensory bundles. Their ingredients can be physically plausible while the exchange serves only interchangeable atmosphere. Particularity comes from what this perception distinguishes here.
 
-An informative change protects its sensory information. Flag that same contrast only when additional independently generic decoration remains; this can occur within the same sentence. Nearby facts and causal wording supply no blanket exemption.
+An informative change protects its sensory information. Before flagging that same contrast, identify additional generic decoration beyond the informative observation; it can remain within the same clause. A change of setting or time alone supplies no such distinction. The defect is the interchangeable contrast, rather than comparison itself or paired sensory nouns. Ordinary nouns, familiarity, figurative language and repeated context alone establish no defect.
 
-Preserve useful physical, perceptual, social and narrative functions, including observation, orientation, characterization, compression and pacing. Require neither a named sensory source, explicit physical contact nor later action. Merely naming a feeling or event can still leave generic decoration.
+Preserve useful physical, perceptual, social and narrative functions supported by the passage, including observation, orientation, characterization, compression and pacing. Require neither a named sensory source, explicit physical contact nor later action. Missing sensory grounding can be the defect in an abstract stock inventory. Merely naming a feeling or event can leave generic decoration.
 
-Assess adopted narration and ordinary dialogue by function; preserve wording examined or documented as wording. Stock scenic metaphor and other checks may overlap.
+Other defects can coexist with this one. Useful detail protects the meaning it supplies; assess any remaining ornamental exchange independently. Nearby facts and causal wording supply no blanket exemption.
+
+Determine the role of quoted or recorded language before judging its style. When its particular formulation is itself the object of the passage's attention, preserve that wording. Apply the check normally when the narrator or speaker adopts it to describe the scene. Quotation marks or genre alone establish no exemption.
 
 ## Development Examples
 

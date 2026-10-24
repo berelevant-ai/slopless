@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of gaze-choreography: camera-like movement of eyes, gaze or sightlines that merely stages attention, with no particular contribution supported by its role in the connected sequence?",
+  "instructions": "Apply state.instructions and the supplied rulebook. Does the complete target passage contain any instance of gaze-choreography: visual movement whose own contribution is interchangeable staging of attention? Judge each movement's direction, target and timing in the connected passage, independently of other defects.",
   "criteria": {
-    "true": "At least one adopted visual movement supplies interchangeable choreography: its targets and context establish no particular observation, decision, communication, response or other identifiable narrative function for that movement.",
-    "false": "Every eligible visual movement contributes a particular observation or identifiable narrative function supported by the connected sequence, or no eligible construction occurs. Preserve wording examined or documented as wording."
+    "true": "At least one eligible visual movement supplies generic travel or dramatic reaction rather than a particular observation, orientation, communication or other identifiable narrative function. Nearby useful detail or work cannot supply that function solely by sharing the scene or subject matter.",
+    "false": "Every eligible movement supplies particular information through a passage-supported perceptual, practical or social relation, or no eligible movement occurs. The relation can be implicit and need no later action. Preserve expressions whose wording or identity is examined or documented."
   }
 }
 ---
@@ -13,13 +13,15 @@ Input: passage.
 
 Cover eyes, gaze, sightlines and equivalent visual movements, including ordinary perception verbs and noun-based constructions. Generalize across wording, inflections and positions. One weak movement suffices.
 
-First distinguish adopted narration and ordinary dialogue from wording examined or documented as wording. Assess the adopted writing; preserve the examined expression even when it describes this defect.
+First establish how the passage uses the expression. Preserve wording whose form or identity is examined or documented, including evidence used to understand a person or event. Assess adopted narration and ordinary dialogue normally; quotation marks alone decide neither status.
 
-For each movement, identify what its direction, target or timing contributes in the complete sequence. Connect it to the particular observation, decision, communication or response it supplies. Context can establish that link implicitly across sentences. A concrete viewpoint, search, task relationship or interpersonal contrast can itself be informative without later action.
+For each movement, recover in ordinary terms what its direction, target or timing contributes. Preserve a particular viewpoint or observation, including inspection of a relevant physical field. Context can establish a search or practical assessment without stating its result. A social relation can be informative through whose attention is directed, offered or withheld.
 
-Distinguish that contribution from a situation in which looking is merely plausible. An adjacent decision or event supports the movement only through an identifiable connection; shared subject matter or temporal proximity alone is insufficient. Eye color, named targets, elaborate movement and generic dramatic payoffs can still leave interchangeable choreography.
+Establish that relation from the connected sequence rather than requiring a stated purpose or subsequent action. Ask what the chosen sightline contributes to understanding this situation. Looking somewhere during a task is not enough: the targets or timing must support the perceptual, practical or social relation attributed to the movement.
 
-Preserve observation, orientation, characterization, purposeful compression and pacing when the movement gives them particular content. Judge each movement separately: useful detail elsewhere protects its own role. Another defect, including a perception defect, does not erase informative sightlines.
+Distinguish inspection from travel over scenery that merely accompanies useful speech or work. A nearby event can explain why looking is plausible while leaving this path interchangeable. Eye color, named targets, elaborate movement and a fitting emotional payoff alone supply no function.
+
+Observation, orientation, characterization, compression and pacing qualify through the particular content the movement supplies. Judge every movement independently: useful detail protects its own role, and another defect can coexist with an informative sightline. One weak movement suffices.
 
 ## Development Examples
 

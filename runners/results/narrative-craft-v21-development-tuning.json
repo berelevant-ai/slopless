@@ -3662,9 +3662,111 @@
             "actual": 824,
             "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
+        },
+        {
+          "revision": "b3",
+          "collection": "000095",
+          "output": "runners/results/narrative-craft-v21-fake-timestamps-b3-000095-development.json",
+          "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "fake-timestamps",
+            "collection": "000095",
+            "cohort": "isolated",
+            "revision": "b3",
+            "dataset": "datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-fake-timestamps-b3-000095-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/fake-timestamps-b3-000095.log",
+            "developmentOnly": true,
+            "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+            "assembledWords": 864,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.md": "0de4f9158440003afda6a6359c1368fa51c067cb8edea742bfbce0ddaf215e14",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000095-narrative-craft-fake-timestamps-development.labels.json": "e8d623178501b1758b4d59bbf6d17f24ef471fce26bde3d8100c4de938dfbce4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fake-timestamps.md": "74b3f47b6ee1953b1aade8d70464aeed38d246054f91481dda98160c6b382d4a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3556,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "4af3c82c35de6395d63418017175a2f4d128d9b95d03cf4c78a3b2a52d254f60"
+          },
+          "caught": 99,
+          "misses": [
+            "000095-2e8920f939f9"
+          ],
+          "falsePositives": 9,
+          "falseAlarms": [
+            "000095-1ff8267e97fd",
+            "000095-405ce4b27f63",
+            "000095-632e621d0663",
+            "000095-81a0dd01cf77",
+            "000095-a07cb0c9e5cf",
+            "000095-b2b3a2a0d3aa",
+            "000095-c69a4f940bef",
+            "000095-c8aab40f402c",
+            "000095-f151a1312991"
+          ]
         }
       ],
-      "b1AssembledWords": 653
+      "b1AssembledWords": 653,
+      "mixedCandidates": [
+        {
+          "revision": "m0",
+          "collection": "000117",
+          "output": "runners/results/narrative-craft-v21-fake-timestamps-m0-000117-development.json",
+          "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "fake-timestamps",
+            "collection": "000117",
+            "cohort": "mixed",
+            "revision": "m0",
+            "dataset": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-fake-timestamps-m0-000117-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/fake-timestamps-m0-000117.log",
+            "developmentOnly": true,
+            "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+            "assembledWords": 864,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md": "9b57564032279f7cb20f75ae78b0e20805d4ccbdc8dda2ad739710ccd2d5bae9",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json": "dce4e67a41ffd7fb520542d00ee2b4d2ee51ad7d67dce61bc5c1837351e84d00",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fake-timestamps.md": "74b3f47b6ee1953b1aade8d70464aeed38d246054f91481dda98160c6b382d4a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3585,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "4af3c82c35de6395d63418017175a2f4d128d9b95d03cf4c78a3b2a52d254f60"
+          },
+          "caught": 100,
+          "misses": [],
+          "falsePositives": 0,
+          "falseAlarms": []
+        }
+      ]
     },
     "fixed-metaphor-frame": {
       "dataStatus": "frozen-isolated",
@@ -5810,9 +5912,136 @@
             "actual": 780,
             "reason": "Prior job cloning retained the baseline metadata word count; request hashes and native responses reflect the correct producing prompt."
           }
+        },
+        {
+          "revision": "b3",
+          "collection": "000107",
+          "output": "runners/results/narrative-craft-v21-perception-verb-density-b3-000107-development.json",
+          "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "perception-verb-density",
+            "collection": "000107",
+            "cohort": "isolated",
+            "revision": "b3",
+            "dataset": "datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-perception-verb-density-b3-000107-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/perception-verb-density-b3-000107.log",
+            "developmentOnly": true,
+            "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+            "assembledWords": 888,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.md": "f2f57923e2a31de65dc6808e83308a0a40c64c7900bb956e590b85d7179754f4",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000107-narrative-craft-perception-verb-density-development.labels.json": "56cd883ceeb9c0ddc4626f129968a57a5876b16d7d1dcfaa4f5c166323476597",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/perception-verb-density.md": "a8672d18f50796313d1478c0bf5940ff79dc793328ae0f3134dd3b5cfc6f4c74",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3845,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "4af3c82c35de6395d63418017175a2f4d128d9b95d03cf4c78a3b2a52d254f60"
+          },
+          "caught": 85,
+          "misses": [
+            "000107-048774693ab9",
+            "000107-266a2b729847",
+            "000107-48cb573fe070",
+            "000107-4b5aebf91bee",
+            "000107-52ec5a91fb20",
+            "000107-5f57028870a0",
+            "000107-5f634533ed43",
+            "000107-81eab6206bef",
+            "000107-89bc50fc598f",
+            "000107-b7467fa7ac5c",
+            "000107-ba7bb8a2f1f1",
+            "000107-d834d92888e5",
+            "000107-de63b639d515",
+            "000107-f7e1219cc709",
+            "000107-fc0511e1e0f0"
+          ],
+          "falsePositives": 8,
+          "falseAlarms": [
+            "000107-1a8438326fe1",
+            "000107-37af3cbec04d",
+            "000107-5d7dbba7b027",
+            "000107-87f4ad23c1a3",
+            "000107-bc7c04248770",
+            "000107-eccb01ee442b",
+            "000107-ed055ba52672",
+            "000107-eed776970148"
+          ]
         }
       ],
-      "b1AssembledWords": 699
+      "b1AssembledWords": 699,
+      "mixedCandidates": [
+        {
+          "revision": "m0",
+          "collection": "000117",
+          "output": "runners/results/narrative-craft-v21-perception-verb-density-m0-000117-development.json",
+          "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+          "execution": {
+            "family": "narrative-craft",
+            "check": "perception-verb-density",
+            "collection": "000117",
+            "cohort": "mixed",
+            "revision": "m0",
+            "dataset": "datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md",
+            "prompts": "prompts/v21",
+            "output": "runners/results/narrative-craft-v21-perception-verb-density-m0-000117-development.json",
+            "log": "/tmp/slopless-narrative-v21-full/perception-verb-density-m0-000117.log",
+            "developmentOnly": true,
+            "producingCommit": "787d9b020f053024ab80273aa2e45419647198e2",
+            "assembledWords": 888,
+            "inputs": {
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.md": "9b57564032279f7cb20f75ae78b0e20805d4ccbdc8dda2ad739710ccd2d5bae9",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000117-mixed-narrative-craft-b-development.labels.json": "dce4e67a41ffd7fb520542d00ee2b4d2ee51ad7d67dce61bc5c1837351e84d00",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/perception-verb-density.md": "a8672d18f50796313d1478c0bf5940ff79dc793328ae0f3134dd3b5cfc6f4c74",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs": "1414d9e49d37254f5a94407d18e7807933725a38b6db17ae3be84aafceb7ab6f",
+              "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json": "cc90d3f32515638c06e17bbf0fbeb3b0cafe2be4e93ce580df93fea360a3a9e3"
+            },
+            "exit": 0,
+            "wallMs": 3543,
+            "node": "v24.22.1",
+            "sdk": {
+              "version": "0.7.0",
+              "manifest": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/@typesafe-ai/sdk/package.json",
+              "manifestSha256": "5b91ef13fa6bc4b943fb18f148420cfb42292855e339949482c08617521045b7",
+              "entry": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/node_modules/.pnpm/@typesafe-ai+sdk@0.7.0/node_modules/@typesafe-ai/sdk/dist/index.cjs",
+              "entrySha256": "60be3986b02c49ecb1a87b0627c780bfdf854f687d138f47e1ef392ad7079159"
+            },
+            "runnerSha256": "4af3c82c35de6395d63418017175a2f4d128d9b95d03cf4c78a3b2a52d254f60"
+          },
+          "caught": 92,
+          "misses": [
+            "000117-032f3d4fb289",
+            "000117-646343720e14",
+            "000117-682699cf0b1d",
+            "000117-69b6d46f7821",
+            "000117-8817aef11a69",
+            "000117-8d2cfe15fc55",
+            "000117-a982d7fde24e",
+            "000117-d18970b61e1c"
+          ],
+          "falsePositives": 2,
+          "falseAlarms": [
+            "000117-069a5ac20ff3",
+            "000117-668dccaa226d"
+          ]
+        }
+      ]
     },
     "sensory-instead-of-frame": {
       "dataStatus": "frozen-isolated",
@@ -6947,5 +7176,308 @@
     }
   ],
   "dataStatus": "all52collections-frozen-and-independently-verified",
-  "authoringProcessCorrection": "Delegation now resolves exact own-check development paths before launch; workers read listed files directly instead of projecting mixed metadata and prior authorship fields."
+  "authoringProcessCorrection": "Delegation now resolves exact own-check development paths before launch; workers read listed files directly instead of projecting mixed metadata and prior authorship fields.",
+  "jointReviews": [
+    {
+      "file": "tuning-abstract-personification-line-joint1-clean.json",
+      "filesRead": [
+        "/Users/tartakovsky/.codex/AGENTS.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/abstract-personification-line.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/body-action-density.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/gaze-choreography.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev-paragraphs.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000079-narrative-craft-abstract-personification-line-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000081-narrative-craft-body-action-density-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000099-narrative-craft-gaze-choreography-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000121-mixed-narrative-craft-d-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.labels.json",
+        "/tmp/slopless-narrative-v21-full/collections/000079-narrative-craft-abstract-personification-line-development/definitions.md",
+        "/tmp/slopless-narrative-v21-full/collections/000081-narrative-craft-body-action-density-development/definitions.md",
+        "/tmp/slopless-narrative-v21-full/collections/000099-narrative-craft-gaze-choreography-development/definitions.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-abstract-personification-line-b0-000079-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-abstract-personification-line-b1-000079-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-abstract-personification-line-b2-000079-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-abstract-personification-line-b3-000079-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-abstract-personification-line-m0-000121-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-action-density-b0-000081-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-action-density-b1-000081-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-action-density-b2-000081-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-action-density-b3-000081-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-body-action-density-m0-000121-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-gaze-choreography-b0-000099-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-gaze-choreography-b1-000099-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-gaze-choreography-b2-000099-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-gaze-choreography-b2-confirmation-000099-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-gaze-choreography-m0-000119-development.json"
+      ],
+      "diagnosis": {
+        "joint": "The reviewed errors cross the boundary between a cue's own supported function and useful detail beside it. The revision applies one candidate-local functional test across all three independent questions, while preserving implicit relations and overlapping defects.",
+        "abstract-personification-line": "Saved b3 catches 99/100 isolated positives with 6/100 false positives. Earlier b2 reduces false positives to 1 while losing 15 positives. Separate why an emotion fits from what its assigned role explains; preserve specific causal characterization, embodied arrangements, literal fictional actors and documented wording.",
+        "body-action-density": "Saved b3 catches 95/100 isolated positives with 6/100 false positives. Reviewed misses include generic attachments to substantive work or speech; reviewed false positives include implicit social responses and physical evidence. Assess each attachment separately and recover its supported physical or interpersonal relation.",
+        "gaze-choreography": "Saved confirmation catches 97/100 isolated positives with 5/100 false positives; mixed m0 catches 93/100 with 0 false positives. Distinguish an informative perceptual, practical or social sightline from travel that merely accompanies useful work. Preserve implicit assessment without requiring a stated outcome.",
+        "evidenceScope": "Diagnoses interpret saved predictions against complete error passages and frozen definitions; model reasoning was not recorded."
+      },
+      "annotationConcerns": [
+        {
+          "check": "gaze-choreography",
+          "ids": [
+            "000099-391b125aad34",
+            "000099-77c8bdc31bdf"
+          ],
+          "observation": "The no-hit machine scan precedes allocating blankets across drums; the hit worktop/cupboard scan precedes finding containers for leftovers. Both allow an implicit practical assessment.",
+          "requestedReview": "Apply the same evidence standard for a task-relevant visual field versus generic travel. Keep these labels frozen during candidate testing."
+        },
+        {
+          "check": "gaze-choreography",
+          "ids": [
+            "000099-7f2c12deea2c",
+            "000119-b58d2cd560c0"
+          ],
+          "observation": "The no-hit hall scan accompanies deciding which decorations can remain; the hit wall/ceiling scan accompanies responding to a leak. Both concern inspecting a relevant physical space.",
+          "requestedReview": "Determine what passage evidence makes one scan informative and the other interchangeable under the frozen definition. Keep label review separate from prompt evaluation."
+        }
+      ]
+    },
+    {
+      "file": "tuning-empty-beat-joint1-clean.json",
+      "filesRead": [
+        "/Users/tartakovsky/.codex/AGENTS.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev-paragraphs.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-beat.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/sensory-instead-of-frame.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000089-narrative-craft-empty-beat-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000109-narrative-craft-sensory-instead-of-frame-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000115-mixed-narrative-craft-a-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000119-mixed-narrative-craft-c-development.labels.json",
+        "/tmp/slopless-narrative-v21-full/collections/000089-narrative-craft-empty-beat-development/definitions.md",
+        "/tmp/slopless-narrative-v21-full/collections/000109-narrative-craft-sensory-instead-of-frame-development/definitions-v2.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-beat-b0-000089-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-beat-b1-000089-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-beat-b1-confirmation-000089-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-beat-m0-000115-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-sensory-instead-of-frame-b0-000109-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-sensory-instead-of-frame-b1-000109-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-sensory-instead-of-frame-b1-confirmation-000109-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-sensory-instead-of-frame-m0-000119-development.json"
+      ],
+      "diagnosis": {
+        "joint": "The saved errors support a candidate-attribution problem: useful context can shield a weak cue, while generic-sounding wording can obscure a particular function or a recorded-language role. Evaluate the cue's own contribution inside the complete connected passage.",
+        "empty-beat": "b1 catches 96 isolated positives but m0 catches 90 mixed positives. Remaining misses include delays next to substantive physical or emotional action and a generic animal response to a trigger. The isolated false positive opens a turn for an invited objection; the mixed false positives continue established physical needs. The revision asks what the interval or response itself contributes and preserves implicit functions supported across sentences.",
+        "sensory-instead-of-frame": "b1 catches 96 isolated positives but m0 catches 90 mixed positives. Misses include plausible sensory bundles that package whole settings or periods into contrasting atmosphere. Four b1 false positives reproduce language being handled as a record. The revision separates the informative perceptual core from generic decoration and establishes the language's role before judging its style."
+      },
+      "annotationConcerns": [
+        {
+          "check": "empty-beat",
+          "ids": [
+            "000115-5fe562c285ce",
+            "000115-c75ad97dec86",
+            "000115-3ac40090b4d3"
+          ],
+          "observation": "The positive follows an established physical disruption and precedes an adjustment; the two negatives protect pauses amid continuing physical needs. This creates a close boundary for implicit physical function.",
+          "reviewNeeded": "Explain what the positive interval contributes independently of the disruption and subsequent adjustment, using the same functional standard applied to the negative intervals."
+        },
+        {
+          "check": "empty-beat",
+          "ids": [
+            "000089-e5adac83a8fd"
+          ],
+          "observation": "The positive gesture is linked to speech, while the frozen definition includes generic response tags and protects informative perceptions.",
+          "reviewNeeded": "Keep the distinction between an event occasioning a response and a response conveying particular information explicit when reviewing this label."
+        },
+        {
+          "check": "sensory-instead-of-frame",
+          "ids": [
+            "000109-90448acaf1a2",
+            "000109-bfbd0c428bc0",
+            "000109-8563492fb7ed",
+            "000119-6d5c63fc0b3f",
+            "000119-8d5aa0c0a351"
+          ],
+          "observation": "These labeled hits can also be read as sensory changes between times or locations. The definition protects informative changes and requires additional independently generic decoration before flagging the same contrast.",
+          "reviewNeeded": "Identify the interchangeable decorative contribution separately from each informative change during annotation review."
+        }
+      ]
+    },
+    {
+      "file": "tuning-empty-emotional-weather-joint1-clean.json",
+      "filesRead": [
+        "/Users/tartakovsky/.codex/AGENTS.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev-paragraphs.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/empty-emotional-weather.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000091-narrative-craft-empty-emotional-weather-development.labels.json",
+        "/tmp/slopless-narrative-v21-full/collections/000091-narrative-craft-empty-emotional-weather-development/definitions.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-emotional-weather-b0-000091-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-emotional-weather-b1-000091-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-emotional-weather-b2-000091-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-emotional-weather-m0-000125-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-empty-emotional-weather-b2-confirmation-000091-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/fixed-metaphor-frame.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000097-narrative-craft-fixed-metaphor-frame-development.labels.json",
+        "/tmp/slopless-narrative-v21-full/collections/000097-narrative-craft-fixed-metaphor-frame-development/definitions.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-b0-000097-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-b1-000097-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-b2-000097-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-m0-000125-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-fixed-metaphor-frame-b2-confirmation-000097-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000125-mixed-narrative-craft-f-development.labels.json"
+      ],
+      "diagnosis": [
+        {
+          "check": "empty-emotional-weather",
+          "evidence": "b2 and confirmation: 100/100 caught, 3 false positives; mixed m0: 100/100 caught, 9 false positives.",
+          "cause": "Mixed false positives associate emotional image content with ambient mood without first establishing the emotional-weather relationship. Remaining isolated controls need the cue's perceptual/social contribution, a general scene property, or retained-account wording recognized.",
+          "revision": "Identify the asserted relationship before assessing emptiness; evaluate the cue's particular contribution across the full passage, while retaining eligibility for independent generic mood annotations."
+        },
+        {
+          "check": "fixed-metaphor-frame",
+          "evidence": "b2: 98/100 caught, 2 false positives; confirmation: 97/100 caught, 2 false positives; mixed m0: 96/100 caught, 13 false positives.",
+          "cause": "Mixed false positives treat emotional personification or informative object/perceptual comparisons as interchangeable scenic frames. Missed positives borrow legitimacy from a concrete part of an image or a related task; the appended atmospheric claim remains generic.",
+          "revision": "Establish the scenic frame independently, then assess the whole image and any independent ornamental extension. Preserve physical/perceptual/social mappings and developed dialogue intentions."
+        }
+      ],
+      "annotationConcerns": [
+        {
+          "check": "empty-emotional-weather",
+          "ids": [
+            "000125-4145173b6beb",
+            "000125-9f1fec2a10bd",
+            "000125-3403949be0b8"
+          ],
+          "concern": "The no-hit labels coexist with scenic images carrying emotional associations. Their wording is close to the boundary between a scene's figurative identity and an ambient emotional condition; an image-frame label alone cannot decide weather.",
+          "disposition": "Labels remain frozen. Review each asserted relationship independently if disagreements persist."
+        },
+        {
+          "check": "fixed-metaphor-frame",
+          "ids": [
+            "000097-6c121ad78174",
+            "000125-1b2f8a1be845",
+            "000125-4460ca38315c",
+            "000125-62c88b009673"
+          ],
+          "concern": "Hit labels target whole frames containing partly supported concrete content. The decision depends on whether the added atmospheric interpretation supplies a particular relationship, rather than on the presence of an image noun.",
+          "disposition": "Labels remain frozen; the candidate addresses partial support by judging independent ornamental extensions."
+        }
+      ]
+    },
+    {
+      "file": "tuning-narrative-cliches-joint1-clean.json",
+      "filesRead": [
+        "/Users/tartakovsky/.codex/AGENTS.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md",
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/README.md",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/shared.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/datasets.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/jev-paragraphs.mjs",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/dataset.schema.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/narrative-cliches.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000105-narrative-craft-narrative-cliches-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000123-mixed-narrative-craft-e-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-narrative-cliches-b0-000105-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-narrative-cliches-b1-000105-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-narrative-cliches-m0-000123-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-narrative-cliches-b0-confirmation-000105-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/prompts/v21/silence-as-actor.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000111-narrative-craft-silence-as-actor-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.md",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000127-mixed-narrative-craft-g-development.labels.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-silence-as-actor-b0-000111-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-silence-as-actor-b1-000111-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-silence-as-actor-m0-000127-development.json",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/narrative-craft-v21-silence-as-actor-b1-confirmation-000111-development.json",
+        "/tmp/slopless-narrative-v21-full/collections/000105-narrative-craft-narrative-cliches-development/definitions.md",
+        "/tmp/slopless-narrative-v21-full/collections/000111-narrative-craft-silence-as-actor-development/definitions.md"
+      ],
+      "diagnosis": [
+        {
+          "checked": "All 19 narrative-cliches isolated and mixed error passages, with their frozen labels and threshold changes.",
+          "observed": "b1 reduced isolated catches from 96 to 93 while reducing false positives from 3 to 1; mixed b0 caught 99 with 8 false positives.",
+          "causeHypothesis": "Cue-level function and stock-family eligibility are unstable boundaries: explained emotional reactions can be overprotected, while literal conditions, useful time compression and documented wording can be treated as decoration.",
+          "change": "Require recognizable stockness and then assess the construction's own contribution. Separate a cue's particular function from a merely specific cause or nearby useful detail."
+        },
+        {
+          "checked": "All 29 silence-as-actor isolated and mixed error passages, with their frozen labels and threshold changes.",
+          "observed": "b1 caught 100 isolated positives and confirmation caught 99; mixed caught 79. All three isolated runs falsely flagged the same three source-wording passages.",
+          "causeHypothesis": "The check name and personification framing can narrow attention to quiet or intentional agency, although the definition includes lively place-state annotation. Quoted claims can also be mistaken for adopted atmosphere.",
+          "change": "Make lively place states equally eligible in the native question and body. Assess each cue's added meaning, protecting particular conditions and documented wording while retaining thin annotation beside relevant events."
+        }
+      ],
+      "annotationConcerns": [
+        {
+          "ids": [
+            "000105-b3f44951c6e8",
+            "000123-5f92ef3cacef"
+          ],
+          "concern": "The frozen positive and negative both compress elapsed time around an expanding task or delay. The negative supports a useful-duration reading; the positive also permits that reading. Review should establish the cue-level distinction against the frozen definition.",
+          "handling": "Labels remain unchanged; the prompt states the general useful-chronology boundary."
+        },
+        {
+          "ids": [
+            "000123-43f4b18c3ded",
+            "000123-4b59f4c8039a",
+            "000123-9b1fc7d7111b",
+            "000123-e4b3956d0f18"
+          ],
+          "concern": "These frozen narrative-cliches negatives contain weak atmospheric constructions; recognizably stock versus merely vague phrasing is the unresolved annotation boundary, especially for the settled-atmosphere construction.",
+          "handling": "Keep labels and neighbor judgments independent. Require recognizable stockness without a phrase-specific exclusion."
+        },
+        {
+          "ids": [
+            "000111-5b8bfbea4280"
+          ],
+          "concern": "The frozen silence-as-actor positive refers to a physical handling pause rather than absence of speech or a generic place state. Its generic solemnity supports the thin-force reading; eligibility under the frozen definition merits review.",
+          "handling": "Keep the label and established deictic-pause coverage; add no handling-specific exception."
+        }
+      ]
+    }
+  ]
 }
