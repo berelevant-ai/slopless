@@ -130,6 +130,10 @@ The density-named checks recognize weak cues independently of reporting frequenc
 
 ## Execution Status
 
+- All nineteen checks now meet the fixed full-development targets on 39 cohorts and fresh confirmations. The complete independent audit verifies 78 runs with 2,184 assertions; resolve its label, missing definition-extract and three early SDK-receipt objections before final approval.
+- Preregister two fresh body-emotion isolated runs with the unchanged prompt, 0.5 cutoff, Jev 1.13.0, SDK 0.7.0 and batch size sixteen. Keep both original runs and their missing loaded-SDK records as historical evidence; use complete new source and confirmation receipts for final verification.
+- Protected holdout additions retain all original writing. Four structural rewrites pass three fresh blind reviews; the sixteen additions pass 5,250,664 copy comparisons with zero candidates. Final protected quality review and balanced selection follow.
+- The following checkpoints preserve earlier execution history. The current status above supersedes their unfinished-check counts.
 - Eighteen checks meet the fixed quality bounds on the current frozen development labels after fresh confirmation. The new selected cutoffs are 0.56 for bodily actions and 0.60 for narrative cliches; empty beats remains at 0.5. Perception remains unfinished at 96/six false positives isolated and 95/five mixed.
 - A fresh review verifies all ten repair1/core3 runs and manually reads all 61 changed common passages in Fixture3. Preserve its report, all failed trials and the original approved prediction baseline.
 - Four further definition-based development corrections are decided: two perception hits and two empty-beat hits become no-hits. Preserve the trader-photo pause as a hit after independent disagreement; an upcoming identification task alone does not establish what the pause contributes. Archive corrected full pools, retain all hard controls and rebalance before re-evaluating changed inputs.
