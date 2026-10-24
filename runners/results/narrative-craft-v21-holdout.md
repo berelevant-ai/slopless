@@ -80,7 +80,23 @@ Each collection contains 100 expected hits and 100 expected no-hits. Counts belo
 
 ## Manual Review
 
-All 203 Narrative Craft errors are assigned for independent review against the frozen definitions. Preserve original labels and primary scores; add the reviewed mechanisms and examples after review completes.
+- Independent reviewers read all 203 Narrative Craft errors. They support 179 gold judgments and dispute 24; primary scores and source labels remain unchanged. Per-case opinions are stored in the JSON report.
+- In the seven weakest checks, 26 false positives reject useful observations or purposeful pauses. Ten more reject documented wording that the passage is examining rather than adopting.
+- Supported misses include generic attention beats beside unrelated concrete details, arbitrary pauses and stock scene annotations. Useful information elsewhere sometimes causes the model to overlook the independent filler.
+
+### Representative Errors
+
+Bold marks wording selected during manual review. Jev returns a passage decision rather than a highlighted span.
+
+- False positive, perception (`000108-39e470448fe1`):
+  - "With the lift out of service, carrying our furniture to the third floor cost extra; the office had confirmed the charge by telephone that morning. **He surveyed the stairwell as I signed.**"
+  - The foreman is assessing the route for unloading furniture. The model flags the passage at 0.55 against the frozen 0.51 cutoff.
+- False positive, empty beat (`000116-9a0f8b444653`):
+  - "I asked her to enter it on the keypad instead. **I let some seconds go by.**"
+  - The operator waits for the caller's obscured house number, then checks the received digits. The model flags the passage at 0.68 against 0.47.
+- Miss, perception (`000118-24533739c789`):
+  - "At eleven forty-eight, I peeled the label from the jar. **I regarded the kitchen.** The honey inside had crystallized into pale grains."
+  - The broad look supplies no observation of the kitchen; the honey's condition belongs to the jar. The model returns 0.21, below 0.51.
 
 ## Execution
 
