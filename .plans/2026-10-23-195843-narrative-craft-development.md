@@ -148,3 +148,12 @@ The density-named checks recognize weak cues independently of reporting frequenc
 - Global dataset validation, the dataset Fixture3 contract, approved prediction Fixture3 comparison and six paragraph-runner tests pass. Fresh documentation review resolves both stale-status and protected-metadata-link objections.
 - Commit and push the final audit, metadata acknowledgment and documentation; require successful CI for that exact final commit before closing the goal.
 - Holdout detector assessment, broad corpus validation, span highlighting and production integration retain their separately authorized stages.
+
+## Frozen Holdout Assessment
+
+- On 2026-10-24, the user authorizes the first holdout run for all nineteen checks. Evaluate all nineteen isolated and twenty Narrative Craft mixed check/collection combinations once; report the frozen rhythm comparator separately.
+- Freeze the selected `v21` prompts, development-selected cutoffs, Jev `jev-1.13.0`, SDK `0.7.0`, classification-only mode and batch size sixteen before inference. Keep every dataset and judgment unchanged throughout assessment.
+- Reuse the public runner and saved development settings. Validate every native snapshot, request, response seal and score; report each 100-hit/100-no-hit collection separately against the existing 95/5 bounds.
+- Compare holdout with development confirmation by check and isolated versus mixed writing. Report family totals and mixed all-issues-found/exact-match results; independently apply each check's frozen cutoff when combining mixed predictions.
+- Review missed hits and false positives for systematic failures. Record label disagreements separately from the primary scores; preserve the first assessment without prompt, cutoff or label revision.
+- Save native results and the concise assessment under `runners/results/`. Obtain fresh independent review, then commit and push the report and worklog. Further tuning after reviewing holdout requires fresh independent holdout material.
