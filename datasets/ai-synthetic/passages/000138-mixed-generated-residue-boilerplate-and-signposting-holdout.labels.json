@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "1c075c0dada66cbe7a4a75a02dde84ed114fa72616be3b96a4e04a26d3cec3f8",
+  "source": {
+    "name": "Codex-authored mixed-generated-residue-boilerplate-and-signposting-holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000138-mixed-generated-residue-boilerplate-and-signposting-holdout.md",
+    "commit": "a5c5c960fc86850c01e219f97cbd0f7f7b108f73",
+    "model": "gpt-6-sol",
+    "prompt": null,
+    "notes": "Generated Residue candidate data at pilot-reviewed stage. Review records and detector predictions are separate; balanced selection follows complete review."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, individual labels and snippets outside prompt authoring. Model evaluation requires separate authorization.",
+  "samples": [
+    {
+      "id": "000138-085c808d6489",
+      "start": 87,
+      "end": 424
+    },
+    {
+      "id": "000138-af63baa1c796",
+      "start": 450,
+      "end": 767
+    },
+    {
+      "id": "000138-d97ee1abc8d7",
+      "start": 793,
+      "end": 1094
+    },
+    {
+      "id": "000138-4afde37cb30b",
+      "start": 1120,
+      "end": 1402
+    },
+    {
+      "id": "000138-c837c2816ddb",
+      "start": 1428,
+      "end": 1724
+    },
+    {
+      "id": "000138-8c75e251711b",
+      "start": 1750,
+      "end": 2055
+    },
+    {
+      "id": "000138-1368efe514bf",
+      "start": 2081,
+      "end": 2360
+    },
+    {
+      "id": "000138-e297802cd0b5",
+      "start": 2386,
+      "end": 2692
+    },
+    {
+      "id": "000138-b7ee25a30838",
+      "start": 2718,
+      "end": 3021
+    },
+    {
+      "id": "000138-6fc2bf6adf08",
+      "start": 3047,
+      "end": 3365
+    },
+    {
+      "id": "000138-768451551c09",
+      "start": 3391,
+      "end": 3693
+    },
+    {
+      "id": "000138-3d89c6ed4e27",
+      "start": 3719,
+      "end": 3995
+    },
+    {
+      "id": "000138-03c1df0ea8ef",
+      "start": 4021,
+      "end": 4309
+    },
+    {
+      "id": "000138-212f647d74bb",
+      "start": 4335,
+      "end": 4647
+    },
+    {
+      "id": "000138-004f8b99b7dc",
+      "start": 4673,
+      "end": 4990
+    },
+    {
+      "id": "000138-ea472a48f673",
+      "start": 5016,
+      "end": 5328
+    },
+    {
+      "id": "000138-6a87b1d8a4c7",
+      "start": 5354,
+      "end": 5686
+    },
+    {
+      "id": "000138-d63209c72da1",
+      "start": 5712,
+      "end": 6030
+    },
+    {
+      "id": "000138-c6005aa722ff",
+      "start": 6056,
+      "end": 6366
+    },
+    {
+      "id": "000138-13311f278c18",
+      "start": 6392,
+      "end": 6678
+    },
+    {
+      "id": "000138-8334fd447c3a",
+      "start": 6704,
+      "end": 7017
+    },
+    {
+      "id": "000138-94592a0a745b",
+      "start": 7043,
+      "end": 7385
+    },
+    {
+      "id": "000138-cd7f2c5aaa53",
+      "start": 7411,
+      "end": 7732
+    },
+    {
+      "id": "000138-148f6c075966",
+      "start": 7758,
+      "end": 8084
+    }
+  ],
+  "labels": [
+    {
+      "id": "000138-085c808d6489",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-085c808d6489",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-085c808d6489",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-af63baa1c796",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-af63baa1c796",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-af63baa1c796",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-d97ee1abc8d7",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-d97ee1abc8d7",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-d97ee1abc8d7",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-4afde37cb30b",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-4afde37cb30b",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-4afde37cb30b",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "Here is the important part:"
+      ]
+    },
+    {
+      "id": "000138-c837c2816ddb",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-c837c2816ddb",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-c837c2816ddb",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "What does that mean in practice?"
+      ]
+    },
+    {
+      "id": "000138-8c75e251711b",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-8c75e251711b",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-8c75e251711b",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "The takeaway is clear:"
+      ]
+    },
+    {
+      "id": "000138-1368efe514bf",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-1368efe514bf",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "I can shorten this draft for the postcard if you want a version with room for the map."
+      ]
+    },
+    {
+      "id": "000138-1368efe514bf",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-e297802cd0b5",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-e297802cd0b5",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "For the letter you requested, keep the donation amount in the subject line and use the recipient's name in the salutation before sending it."
+      ]
+    },
+    {
+      "id": "000138-e297802cd0b5",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-b7ee25a30838",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-b7ee25a30838",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "If you need another version of this release for radio, I can adapt the wording to fit a 30-second announcement."
+      ]
+    },
+    {
+      "id": "000138-b7ee25a30838",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-6fc2bf6adf08",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-6fc2bf6adf08",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "Here is the requested opening for the staff announcement:"
+      ]
+    },
+    {
+      "id": "000138-6fc2bf6adf08",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "Here is the requested opening for the staff announcement:"
+      ]
+    },
+    {
+      "id": "000138-768451551c09",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-768451551c09",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "I have drafted the answer for your tenant newsletter below."
+      ]
+    },
+    {
+      "id": "000138-768451551c09",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "The key point is this:"
+      ]
+    },
+    {
+      "id": "000138-3d89c6ed4e27",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": false
+    },
+    {
+      "id": "000138-3d89c6ed4e27",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "For the product description you asked me to write, here is a concise version."
+      ]
+    },
+    {
+      "id": "000138-3d89c6ed4e27",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "Why does it matter?"
+      ]
+    },
+    {
+      "id": "000138-03c1df0ea8ef",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "As an AI language model, I cannot verify the current permit register while writing this neighborhood update."
+      ]
+    },
+    {
+      "id": "000138-03c1df0ea8ef",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "The notice can still say the market is expected to open in early June, based on the spring construction schedule."
+      ]
+    },
+    {
+      "id": "000138-03c1df0ea8ef",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-212f647d74bb",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "I do not have the interview transcript requested for this profile, so I will use a plausible account of the founder's motivation:"
+      ]
+    },
+    {
+      "id": "000138-212f647d74bb",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-212f647d74bb",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-004f8b99b7dc",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "I cannot offer a clinical diagnosis in this draft patient handout."
+      ]
+    },
+    {
+      "id": "000138-004f8b99b7dc",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "the handout should tell patients what the clinic will check:",
+        "It should also give the number patients can call to arrange an assessment."
+      ]
+    },
+    {
+      "id": "000138-004f8b99b7dc",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-ea472a48f673",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "My training data may not include the latest council decision as I write this local news brief."
+      ]
+    },
+    {
+      "id": "000138-ea472a48f673",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-ea472a48f673",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "Here is the crucial point:"
+      ]
+    },
+    {
+      "id": "000138-6a87b1d8a4c7",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "I cannot access the company's sales ledger while preparing this annual report narrative, so I will estimate that overseas orders accounted for roughly one third of revenue."
+      ]
+    },
+    {
+      "id": "000138-6a87b1d8a4c7",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-6a87b1d8a4c7",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "The main takeaway is simple:"
+      ]
+    },
+    {
+      "id": "000138-d63209c72da1",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "As a language model, I cannot inspect the live system while composing this incident report."
+      ]
+    },
+    {
+      "id": "000138-d63209c72da1",
+      "check": "generated-residue/response-wrapper",
+      "expected": false
+    },
+    {
+      "id": "000138-d63209c72da1",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "What happened next?"
+      ]
+    },
+    {
+      "id": "000138-c6005aa722ff",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "I cannot access the updated enrollment figures while drafting this school bulletin, so I have described demand as steady based on last year's numbers."
+      ]
+    },
+    {
+      "id": "000138-c6005aa722ff",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "If you send me the new figures, I can revise this draft."
+      ]
+    },
+    {
+      "id": "000138-c6005aa722ff",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-13311f278c18",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "As an AI assistant, I cannot give legal advice in the proposed tenant letter."
+      ]
+    },
+    {
+      "id": "000138-13311f278c18",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "I can make this draft firmer or more conciliatory if you want a different tone."
+      ]
+    },
+    {
+      "id": "000138-13311f278c18",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-8334fd447c3a",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "My knowledge cutoff may leave out the latest product specifications as I prepare this buying guide."
+      ]
+    },
+    {
+      "id": "000138-8334fd447c3a",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "If you share the model numbers, I can produce a revised version with a comparison for each appliance."
+      ]
+    },
+    {
+      "id": "000138-8334fd447c3a",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": false
+    },
+    {
+      "id": "000138-94592a0a745b",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "I cannot see the organizer's final attendance count, so I have written that about 200 people joined Saturday's river cleanup."
+      ]
+    },
+    {
+      "id": "000138-94592a0a745b",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "Here is the community update you requested.",
+        "I can adjust the update once you confirm the count."
+      ]
+    },
+    {
+      "id": "000138-94592a0a745b",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "Here is the community update you requested.",
+        "The important thing to remember is this:"
+      ]
+    },
+    {
+      "id": "000138-cd7f2c5aaa53",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "As an AI language model, I cannot authenticate the unsigned painting from the image supplied, so the label calls it a work from the artist's circle."
+      ]
+    },
+    {
+      "id": "000138-cd7f2c5aaa53",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "For the requested museum label, here is my draft."
+      ]
+    },
+    {
+      "id": "000138-cd7f2c5aaa53",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "For the requested museum label, here is my draft.",
+        "Why does that matter?"
+      ]
+    },
+    {
+      "id": "000138-148f6c075966",
+      "check": "generated-residue/llm-disclaimer",
+      "expected": true,
+      "snippets": [
+        "I lack access to the latest customer survey, so I will assume satisfaction improved after the service desk added weekend hours."
+      ]
+    },
+    {
+      "id": "000138-148f6c075966",
+      "check": "generated-residue/response-wrapper",
+      "expected": true,
+      "snippets": [
+        "I have prepared the opening for your quarterly letter.",
+        "If you want, I can rewrite this letter for investors."
+      ]
+    },
+    {
+      "id": "000138-148f6c075966",
+      "check": "boilerplate-and-signposting/unnecessary-framing",
+      "expected": true,
+      "snippets": [
+        "I have prepared the opening for your quarterly letter.",
+        "The takeaway is straightforward:"
+      ]
+    }
+  ]
+}

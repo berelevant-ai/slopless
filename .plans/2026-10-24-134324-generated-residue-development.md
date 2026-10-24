@@ -137,3 +137,11 @@ The ten collections contain 2,000 final passages and 3,600 judgments. Six isolat
 - Inspected all three legacy detectors, both vocabulary files, representative hit/no-hit fixtures, the taxonomy's Humanizer mapping and the existing prompt/runner contracts.
 - Confirmed the highest allocated dataset ID is `000128` and `prompts/v22/` is available. This change creates the plan and worklog only.
 - Fresh review verified taxonomy coverage and counts. Its four objections are addressed through contextual examples, explicit limitation ownership, independent mixed-result joining and loaded-runtime capture.
+
+## Execution Status
+
+- The user activates execution of the whole family on 2026-10-24. The three finalized definitions now appear in the accepted taxonomy.
+- A fresh restricted reviewer approves passage-only judgments and the eight combinations in each mixed group. Its permitted definition extract excludes development examples and historical results.
+- All ten 24-passage pilots complete independent blind review and required curation. The 240 pilot passages are packed under the planned IDs; the data-review record preserves corrections and actual read lists.
+- One isolated curator supplies four unsolicited wrapper opinions. The active isolated collection projects to its assigned artifact check, preserving original curator opinions and every passage's wording in the review record.
+- Candidate expansion and whole-pool reviews are running. Balanced dataset selection, prompt authoring, inference and final confirmation remain unfinished.
