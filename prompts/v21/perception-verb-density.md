@@ -7,7 +7,7 @@
   }
 }
 ---
-# Uninformative Attention Beats
+# Perception-Verb Density
 
 Input: passage.
 
@@ -29,22 +29,34 @@ Judge each cue separately, including redundant annotations of established attent
 
 "We can cover Saturday if you take the early shift on Monday," Denise said. The bakery had lost two people that month, and everyone was trading hours. **Aaron looked at her.** He had promised to drive his father to an appointment on Monday, but the appointment wasn't until eleven. "Put me down for six to ten," he said, pulling the rota closer.
 
+Example judgment: The look supplies no observed conduct. The schedule decision comes from remembered timing.
+
 ### Hit
 
 "We only sell the whole sack," the farm-shop owner said. I wanted a handful of apples for a crumble. **My gaze passed over the shelves.** I bought the sack and distributed most of it at work, where a colleague immediately asked whether I could bring pears next time.
+
+Example judgment: The shelf gaze supplies no observation. The purchase follows the seller's stated condition.
 
 ### Hit
 
 Our nephew announced that he was vegetarian just as I put the roast on the table. **I surveyed the company.** There were potatoes, peas, and enough carrots to feed him comfortably. He accepted those, then explained that he would still eat sausages at school because the vegetarian option was disappointing.
 
+Example judgment: The survey targets people; the useful details describe food instead.
+
 ### No Hit
 
 The school had banned homemade food from the class party after last year's allergy confusion. I regarded the kitchen for a beat. Our decorated biscuits were cooling on every tray. We bought sealed packets for school and invited the neighbours over, giving the rejected biscuits a more appreciative audience.
+
+Example judgment: The biscuits supply the kitchen view. That observation has meaning before the later decision.
 
 ### No Hit
 
 My uncle sold the boat in October. At the family meal where he announced it, I let my eyes rest on him while my cousin asked whether the trailer was included. There were questions about the price and the buyer's plans for winter storage. Nobody asked about the summers when my uncle had taken it out alone.
 
+Example judgment: The narrator's focus contrasts with the relatives' questions, supplying a particular interpersonal viewpoint.
+
 ### No Hit
 
 What remained of the walking map is drying on the kitchen radiator. There is half a lake on it and a blue smear where the village should be. Yesterday, after the paper split along its folds, I looked around and suggested following the lane downhill. We reached a shop just before it closed. The route home is drawn on the paper bag beside the map.
+
+Example judgment: The survey orients a spatial choice after the map fails.
