@@ -1,5 +1,10 @@
 # Typography And Formatting Development
 
+## Decision
+
+- On 2026-10-25, the user skips this family's Jev development. Existing deterministic formatting checks remain in Slopless; the V2 work focuses on contextual slop detection.
+- The proposed theatrical-emphasis check and its datasets remain unimplemented. The execution proposal below records the rejected approach; its generation and tuning steps are inactive.
+
 ## Goal
 
 Develop the final unprocessed taxonomy family while separating contextual writing defects from exact formatting policies. The proposed new check is `typography-and-formatting/theatrical-emphasis`, with `input: passage`.
