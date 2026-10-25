@@ -64,7 +64,21 @@ node runners/jev.mjs validate --family generated-residue --check response-wrappe
 - Validate each isolated and assigned mixed collection independently. Join validated mixed outputs by collection, passage and full check name, applying each check's own cutoff.
 - Keep the mixed-B unnecessary-framing comparator at `prompts/v13` and `0.5`. Protected holdout inference requires separate authorization.
 
-## Paragraph Experiment
+## Whole-Text Location Spike
+
+`jev-locations.mjs` reuses the frozen buried-answer and repeated-explanation development predictions. After a positive decision it asks independent paragraph-participation questions with the full original text, then emits native textlint paragraph ranges.
+
+```sh
+node runners/jev-locations.mjs validate
+node runners/jev-locations.mjs score
+```
+
+- The saved run is `results/text-location-v23-spike.json`; the report explains strict snippet coverage and manual location review separately.
+- `prepare` creates a fresh registration only when the output is absent. `run` requires the registered inference-producing runner bytes and approved credentials. Completed results support offline `validate` and `score`; all requests, responses and derived outputs are checked.
+- Source, prompts and labels remain frozen for inference. An offline-only verification repair normalizes JSON report fields and protects derived summaries and runtime receipts; the saved producing-source hash remains intact.
+- The generic location prompt is in `prompts/v23/`; frozen issue definitions are loaded from `v13` and `v16`. All inputs are development-only; paragraph selection remains experimental.
+
+## Paragraph Input Experiment
 
 The scoped `jev-paragraphs.mjs` experiment reads a saved wordiness/redundancy mixed result, judges each plain paragraph for its two passage checks, and scores the original text labels by any positive paragraph. It preserves heading/opening pairs, rejects other Markdown block types through textlint's parser, and reuses whole-text repeated-explanation probabilities.
 
