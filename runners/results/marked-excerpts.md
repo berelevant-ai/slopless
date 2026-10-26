@@ -22,8 +22,9 @@ The marked input improves the labeled prose and heading controls but worsens lis
 ### Required Wording Hits
 
 - The user's subsequent instruction requires "narrower remit" to remain flagged even with an explanation. The three corresponding original no-hits are `000140-061`, `062` and `063`.
-- Under this product-policy view, the baseline catches 63 of 63 desired hits with 22 false positives among 57 remaining no-hits. Marked input catches sixty of 63 desired hits with fourteen false positives among those 57 no-hits.
+- Under this product-policy view, the assigned checks catch 63 of 63 desired hits with 22 false positives among 57 remaining no-hits. Marked input catches sixty of 63 under those assigned checks with fourteen false positives among the 57 no-hits.
 - The marked arrangement misses all three explained-remit wording cases at `.36`, `.21` and `.43`; the baseline flags them at `.62`, `.58` and `.54`.
+- These are misses under unspecified scope. Hollow significance still flags the prose and list variants at `.52` and `.56`; the heading receives no finding from any enabled check and passes.
 - Original labels stay preserved because the frozen unspecified-scope definition permits explained boundaries. Record the required wording behavior separately while revising that definition consistently.
 
 ### Per-Check Results

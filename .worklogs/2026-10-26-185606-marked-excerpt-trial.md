@@ -14,7 +14,7 @@ Test one-field excerpts with explicit native targets on structural controls, new
 ## Results
 
 - Original labels: all sixty hits remain caught; false positives decrease from 25 to fourteen out of sixty. Prose improves from nine to four, headings from nine to two, while lists worsen from seven to eight.
-- User wording policy: desired hits decrease from 63 of 63 to sixty of 63; false positives decrease from 22 to fourteen among 57 no-hits. All three explained-remit variants are missed.
+- User wording policy: assigned-check hits decrease from 63 of 63 to sixty of 63; false positives decrease from 22 to fourteen among 57 no-hits. Unspecified scope misses all three explained-remit variants; hollow significance still flags prose and list, while the heading passes every enabled check.
 - Localization worsens from zero to two assigned-check errors out of thirty. The clean settlement statement inherits a provider-cost defect from outside its target.
 - Article assignments increase from eighteen to 29; no-hit-label failures decrease from seven to six out of 34. Both previously confirmed defects now fire, alongside a new valid redundancy catch.
 - Independent article review identifies three correct named-check catches, two useful edits under wrong checks, one separate wording-policy hit and 23 false assignments. Plain target delimiters do not consistently repair new placeholder false flags.
