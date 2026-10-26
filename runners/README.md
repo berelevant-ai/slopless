@@ -78,6 +78,17 @@ node runners/jev-locations.mjs score
 - Source, prompts and labels remain frozen for inference. An offline-only verification repair normalizes JSON report fields and protects derived summaries and runtime receipts; the saved producing-source hash remains intact.
 - The generic location prompt is in `prompts/v23/`; frozen issue definitions are loaded from `v13` and `v16`. All inputs are development-only; paragraph selection remains experimental.
 
+### One-Shot Comparison
+
+The repeated-explanation comparison asks the whole-text question and every paragraph question together, including on expected no-hits. Independent answers can disagree; the report compares direct location output with requiring a positive whole-text answer.
+
+```sh
+node runners/jev-locations.mjs validate --one-shot --check repeated-explanation --output runners/results/repeated-explanation-one-shot-v23.json
+```
+
+- Use `prepare` and then `run` with the same flags and a fresh output for another attempt. Each text must fit its detection question and paragraph questions within sixteen questions.
+- [The comparison](results/repeated-explanation-one-shot-v23.md) records classification, paragraph coverage, disagreements, manual review and measured usage against the preserved two-stage run.
+
 ## Paragraph Input Experiment
 
 The scoped `jev-paragraphs.mjs` experiment reads a saved wordiness/redundancy mixed result, judges each plain paragraph for its two passage checks, and scores the original text labels by any positive paragraph. It preserves heading/opening pairs, rejects other Markdown block types through textlint's parser, and reuses whole-text repeated-explanation probabilities.

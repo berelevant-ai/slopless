@@ -26,12 +26,14 @@ const { values, positionals } = parseArgs({
       type: "string",
       default: "runners/results/text-location-v23-spike.json"
     },
-    help: { type: "boolean" }
+    help: { type: "boolean" },
+    "one-shot": { type: "boolean", default: false },
+    check: { type: "string" }
   }
 });
 if (values.help) {
   console.log(
-    "node runners/jev-locations.mjs <prepare|run|score|validate> [--output FILE]\nDevelopment-only paragraph-location spike. prepare freezes inputs into a new file; run performs missing Jev location calls on previously detected texts. score and validate replay saved responses offline. Use a new --output path for a new attempt; preserve existing results."
+    "node runners/jev-locations.mjs <prepare|run|score|validate> [--output FILE] [--check NAME] [--one-shot]\nDevelopment-only paragraph-location spike. prepare freezes inputs into a new file; run performs missing Jev location calls on previously detected texts. --one-shot requires --check and asks detection plus every paragraph in one request for each text, including no-hits. Supply the same flags for offline score and validate. Use a new --output path for a new attempt; preserve existing results."
   );
   process.exit(0);
 }
@@ -43,7 +45,7 @@ assert.ok(
 const hash = (value) => createHash("sha256").update(value).digest("hex");
 const fileHash = (file) => hash(readFileSync(resolve(root, file)));
 const read = (file) => JSON.parse(readFileSync(resolve(root, file), "utf8"));
-const inputs = [
+const allInputs = [
   {
     family: "boilerplate-and-signposting",
     check: "buried-answer",
@@ -62,11 +64,21 @@ const inputs = [
     baseline: "runners/results/repeated-explanation-v16-development.json"
   }
 ];
+const inputs = allInputs.filter(
+  (i) => !values.check || i.check === values.check
+);
+assert.ok(inputs.length, "Unknown check.");
+const oneShot = values["one-shot"];
+assert.ok(
+  !oneShot || values.check,
+  "Select one --check for one-shot inference."
+);
 const settings = {
   model: "jev-1.13.0",
   sdk: "0.7.0",
   threshold: 0.5,
-  batchSize: 16
+  batchSize: 16,
+  ...(oneShot ? { oneShot: true } : {})
 };
 const locationFiles = [
   "prompts/v23/shared.md",
@@ -143,7 +155,7 @@ async function paragraphs(text, selected = []) {
 }
 
 function request(document, check, candidates) {
-  return {
+  const req = {
     model: settings.model,
     state: {
       instructions: common,
@@ -159,6 +171,29 @@ function request(document, check, candidates) {
       ])
     )
   };
+  if (oneShot) {
+    const prompt = loadPrompts(
+      resolve(root, inputs[0].prompts),
+      inputs[0].check
+    );
+    delete req.state.instructions;
+    req.state.detectionInstructions = prompt.instructions;
+    req.state.locationInstructions = common;
+    for (const q of Object.values(req.questions))
+      q.instructions.instructions = "Follow state.locationInstructions.";
+    req.questions.detection = {
+      type: "noul",
+      instructions: {
+        question: prompt.questions[inputs[0].check].instructions,
+        target: document.text,
+        rulebook: "state.definition",
+        instructions: "Follow state.detectionInstructions."
+      },
+      criteria: prompt.questions[inputs[0].check].criteria
+    };
+    assert.ok(Object.keys(req.questions).length <= 16);
+  }
+  return req;
 }
 
 async function sourceDocuments() {
@@ -277,7 +312,7 @@ if (command === "prepare") {
   ];
   writeAtomicJson(output, {
     registration: {
-      authorizedBy: "User: do a spike",
+      authorizedBy: oneShot ? "User: try it on one rule" : "User: do a spike",
       registeredAt: new Date().toISOString(),
       commit: execFileSync("git", ["rev-parse", "HEAD"], {
         cwd: root,
@@ -294,10 +329,11 @@ if (command === "prepare") {
   console.log(
     JSON.stringify({
       documents: documents.length,
-      gated: documents.filter((d) => d.detectionProbability >= 0.5).length,
+      gated: documents.filter((d) => oneShot || d.detectionProbability >= 0.5)
+        .length,
       decisions: documents
-        .filter((d) => d.detectionProbability >= 0.5)
-        .reduce((n, d) => n + d.paragraphs.length, 0),
+        .filter((d) => oneShot || d.detectionProbability >= 0.5)
+        .reduce((n, d) => n + d.paragraphs.length + Number(oneShot), 0),
       ambiguous: documents.filter((d) => d.ambiguous.length).length,
       unmapped: documents.filter((d) => d.unmapped.length).length,
       words: [...new Set(documents.map((d) => d.assembledWords))]
@@ -369,7 +405,9 @@ if (command === "prepare") {
     };
     let next = 0,
       completed = 0;
-    const gated = result.documents.filter((d) => d.detectionProbability >= 0.5);
+    const gated = result.documents.filter(
+      (d) => oneShot || d.detectionProbability >= 0.5
+    );
     async function worker() {
       while (next < gated.length) {
         const doc = gated[next++];
@@ -459,8 +497,7 @@ if (command === "prepare") {
     };
     for (const doc of docs) {
       summary.expectedHits += Number(doc.expected);
-      const gated = doc.detectionProbability >= 0.5;
-      if (!gated) {
+      if (!oneShot && doc.detectionProbability < 0.5) {
         assert.equal(doc.batches.length, 0);
         continue;
       }
@@ -485,14 +522,17 @@ if (command === "prepare") {
       const selected = doc.paragraphs
         .filter((p) => answers[p.id].noul >= 0.5)
         .map((p) => p.id);
+      const detected =
+        (oneShot ? answers.detection.noul : doc.detectionProbability) >= 0.5;
       const missing = doc.reference.filter((id) => !selected.includes(id)),
         extra = selected.filter((id) => !doc.reference.includes(id));
       const native = await paragraphs(doc.text, selected);
       summary.decisions += doc.paragraphs.length;
       summary.selectedParagraphs += selected.length;
-      if (!selected.length) summary.positiveDetectionsWithoutLocations++;
+      if (detected && !selected.length)
+        summary.positiveDetectionsWithoutLocations++;
       if (doc.expected) {
-        summary.detectorCaught++;
+        summary.detectorCaught += Number(detected);
         summary.locatedTrueDetections += Number(selected.length > 0);
         summary.coveredAllReference += Number(
           doc.unmapped.length === 0 && missing.length === 0
@@ -510,7 +550,7 @@ if (command === "prepare") {
         summary.unmappedReferences += Number(doc.unmapped.length > 0);
         summary.ambiguousReferences += Number(doc.ambiguous.length > 0);
       } else {
-        summary.detectorFalsePositives++;
+        summary.detectorFalsePositives += Number(detected);
         summary.gatedNegativesWithLocations += Number(selected.length > 0);
       }
       locations.push({
