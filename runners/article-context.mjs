@@ -16,7 +16,9 @@ const { positionals, values } = parseArgs({
   options: {
     output: { type: "string" },
     reuse: { type: "string" },
-    batch: { type: "boolean" }
+    batch: { type: "boolean" },
+    marked: { type: "boolean" },
+    dataset: { type: "string" }
   }
 });
 const [command] = positionals;
@@ -70,6 +72,10 @@ assert.equal(hash(source), labels.textSha256);
 const instructions =
   "Judge only state.paragraph.text, using state.context as supporting writing. Context may supply a subject, purpose, detail or explanation. Flag this check only when the target contributes the defect. Useful topic labels, checklist entries and questions can be grammatically incomplete. Apply the rule's substantive defect test to the target in its actual role; wording elsewhere in context alone does not make the target defective.";
 const modes = ["baseline", "context", "context-instructions"];
+const markedInstructions = readFileSync(
+  new URL("../prompts/v24/shared.md", import.meta.url),
+  "utf8"
+).trim();
 const definitions = listChecks().filter(
   (check) => check.backend === "jev" && check.input === "paragraph"
 );
@@ -82,6 +88,55 @@ const headingChecks = definitions.filter(
     ].includes(check.id.split(":")[0]) ||
     check.id === "boilerplate-and-signposting:unnecessary-framing"
 );
+
+function markExcerpt(target, writing, sample) {
+  let start = sample?.start ?? target.range[0];
+  let end = sample?.end ?? target.range[1];
+  if (!sample) {
+    const context = target.context;
+    for (const value of [context.precedingParagraph, context.list]) {
+      if (!value) continue;
+      const at = writing.lastIndexOf(value, target.range[0]);
+      assert.ok(at >= 0);
+      start = Math.min(start, at);
+      end = Math.max(end, at + value.length);
+    }
+    for (const value of [context.followingParagraph, context.followingList]) {
+      if (!value) continue;
+      const at = writing.indexOf(value, target.range[1]);
+      assert.ok(at >= 0);
+      end = Math.max(end, at + value.length);
+    }
+    if (target.kind === "heading") end += context.section.length;
+  }
+  assert.equal(writing.slice(...target.range), target.text);
+  const original = writing.slice(start, end);
+  assert.ok(!original.includes("<target") && !original.includes("</target>"));
+  const prefix = sample
+    ? []
+    : target.context.headings.filter((heading) => !original.includes(heading));
+  const marked = `${writing.slice(start, target.range[0])}<target kind="${target.kind === "list-item-paragraph" ? "list-item" : target.kind}">\n${target.text}\n</target>${writing.slice(target.range[1], end)}`;
+  return [...prefix, marked].join("\n\n");
+}
+
+function reuseAnswers(result) {
+  if (!values.reuse) return;
+  const previous = readResult(values.reuse);
+  assert.equal(previous.complete, true);
+  result.snapshot.reusedFrom = {
+    file: values.reuse,
+    sha256: hash(readFileSync(values.reuse))
+  };
+  result.predictions = previous.predictions.filter((prediction) => {
+    const target = result.targets.find((item) => item.id === prediction.id);
+    return (
+      target &&
+      result.snapshot.modes.includes(prediction.mode) &&
+      prediction.requestSha256 ===
+        hash(JSON.stringify(request(target, prediction.mode)))
+    );
+  });
+}
 
 async function prepare() {
   assert.ok(
@@ -213,6 +268,7 @@ async function prepare() {
       headingChecks: headingChecks.map((check) => check.id),
       modes,
       instructions,
+      ...(values.marked ? { markedInstructions, modes: ["marked"] } : {}),
       sdk: JSON.parse(
         readFileSync("node_modules/@typesafe-ai/sdk/package.json")
       ).version,
@@ -231,24 +287,42 @@ async function prepare() {
     predictions: [],
     attempts: []
   };
-  if (values.reuse) {
-    const bytes = readFileSync(values.reuse);
-    const previous = JSON.parse(bytes);
-    assert.equal(previous.complete, true);
-    result.snapshot.reusedFrom = { file: values.reuse, sha256: hash(bytes) };
-    result.predictions = previous.predictions.filter((prediction) => {
-      const target = targets.find((item) => item.id === prediction.id);
-      return (
-        prediction.requestSha256 ===
-        hash(JSON.stringify(request(target, prediction.mode)))
-      );
-    });
-  }
+  if (values.marked)
+    for (const target of targets) target.excerpt = markExcerpt(target, source);
+  reuseAnswers(result);
   saveResult(output, result);
   return result;
 }
 
 function request(target, mode) {
+  if (mode === "marked") {
+    assert.ok(target.excerpt);
+    return {
+      model: target.input.model,
+      state: { text: target.excerpt },
+      questions: Object.fromEntries(
+        Object.entries(target.input.questions).map(([id, question]) => [
+          id,
+          {
+            type: "noul",
+            instructions: {
+              question:
+                id === "puffery-and-overstatement:inflated-evaluation"
+                  ? "Does the marked target make an evaluation stronger than the support supplied by the complete excerpt justifies? Apply the supplied inflated-evaluation definition and examples."
+                  : `Does the marked target contribute at least one instance of ${id.split(":")[1]} after considering the complete excerpt? Apply the supplied definition and examples.`,
+              instructions: markedInstructions,
+              rulebook: question.instructions.rulebook,
+              target:
+                "The text enclosed by the target markers inside state.text."
+            },
+            ...(question.yes === undefined
+              ? {}
+              : { criteria: { true: question.yes, false: question.no } })
+          }
+        ])
+      )
+    };
+  }
   const state = { paragraph: { ...target.input.paragraph } };
   if (mode !== "baseline") state.context = target.context;
   if (mode === "context-instructions") state.paragraph.kind = target.kind;
@@ -278,6 +352,12 @@ function request(target, mode) {
 
 function summary(result) {
   const modes = result.snapshot.modes;
+  const definitions = result.snapshot.definitions;
+  assert.equal(
+    result.snapshot.labelsSha256,
+    hash(readFileSync(result.snapshot.file.replace(/\.md$/, ".labels.json"))),
+    "Dataset labels changed since preparation."
+  );
   const findings = Object.fromEntries(modes.map((mode) => [mode, []]));
   for (const prediction of result.predictions) {
     const target = result.targets.find((item) => item.id === prediction.id);
@@ -315,9 +395,12 @@ function summary(result) {
             item.target === target.id &&
             item.check === label.check.replace("/", ":")
         );
-        group[label.expected ? "hits" : "noHits"]++;
+        const expected =
+          label.expected &&
+          label.evidence.some((snippet) => target.text.includes(snippet));
+        group[expected ? "hits" : "noHits"]++;
         group[
-          label.expected
+          expected
             ? caught
               ? "caught"
               : "missed"
@@ -379,6 +462,7 @@ function summary(result) {
 async function prepareControls() {
   assert.ok(!existsSync(output));
   const input =
+    values.dataset ??
     "datasets/ai-synthetic/passages/000140-structural-context-development.md";
   const dataset = readDocument(input);
   assert.equal(dataset.metadata.split, "development");
@@ -419,9 +503,10 @@ async function prepareControls() {
           : { followingParagraph: passage.slice(...ast.children[2].range) })
     };
     const check = label.check.replace("/", ":");
-    const selected = values.batch
-      ? (heading ? headingChecks : definitions).map((item) => item.id)
-      : [check];
+    const selected =
+      values.batch || values.marked
+        ? (heading ? headingChecks : definitions).map((item) => item.id)
+        : [check];
     const questions = Object.fromEntries(
       selected.map((id) => {
         const question = structuredClone(
@@ -431,7 +516,7 @@ async function prepareControls() {
         return [id, question];
       })
     );
-    return {
+    const target = {
       id: label.id,
       kind,
       text,
@@ -444,14 +529,25 @@ async function prepareControls() {
         questions
       }
     };
+    if (values.marked)
+      target.excerpt = markExcerpt(target, dataset.text, {
+        start: label.start,
+        end: label.end
+      });
+    return target;
   });
   const result = {
     complete: false,
     snapshot: {
       ...article.snapshot,
       kind: "controls",
-      batchedChecks: values.batch === true,
-      modes: values.batch ? ["context-instructions"] : modes,
+      batchedChecks: values.batch === true || values.marked === true,
+      modes: values.marked
+        ? ["context-instructions", "marked"]
+        : values.batch
+          ? ["context-instructions"]
+          : modes,
+      ...(values.marked ? { markedInstructions } : {}),
       file: input,
       sourceSha256: hash(dataset.text),
       labelsSha256: hash(readFileSync(input.replace(/\.md$/, ".labels.json"))),
@@ -463,6 +559,7 @@ async function prepareControls() {
     attempts: []
   };
   delete result.snapshot.reusedFrom;
+  reuseAnswers(result);
   saveResult(output, result);
   return result;
 }
@@ -476,7 +573,14 @@ if (command === "prepare" || command === "prepare-controls") {
     result.snapshot.sourceSha256,
     hash(readFileSync(result.snapshot.file))
   );
+  assert.equal(
+    result.snapshot.labelsSha256,
+    hash(readFileSync(result.snapshot.file.replace(/\.md$/, ".labels.json"))),
+    "Dataset labels changed since preparation."
+  );
   assert.equal(result.snapshot.instructions, instructions);
+  if (result.snapshot.markedInstructions)
+    assert.equal(result.snapshot.markedInstructions, markedInstructions);
   for (const prediction of result.predictions) {
     const target = result.targets.find((item) => item.id === prediction.id);
     assert.equal(
