@@ -4,7 +4,9 @@ import type { JevCheck, JevQuestion } from "./types.js";
 
 export type JevPrompt = {
   readonly instructions: string;
-  readonly question: JevQuestion;
+  readonly shared: string;
+  readonly definition: string;
+  readonly question: JevQuestion & { readonly instructions: string };
   readonly description: string;
 };
 
@@ -37,7 +39,7 @@ export function loadJevPrompt(check: JevCheck): JevPrompt {
     "utf8"
   ).trim();
   let body = source;
-  let question: JevQuestion = {
+  let question: JevQuestion & { readonly instructions: string } = {
     instructions: `Apply state.instructions and rulebook to target. Does this target paragraph contain at least one instance of ${JSON.stringify(check.name)}? Judge only this target and this type; other target paragraphs are independent cases. Rulebook: state.instructions.`
   };
   if (source.startsWith("---\n")) {
@@ -57,12 +59,13 @@ export function loadJevPrompt(check: JevCheck): JevPrompt {
   const description = nonempty(
     body.split("\n\n").find((block) => !block.startsWith("#"))
   );
-  return { instructions, question, description };
+  return { instructions, shared, definition: body, question, description };
 }
 
 export function jevCacheKey(check: JevCheck): string {
   return createHash("sha256")
     .update(JSON.stringify({ check, prompt: loadJevPrompt(check) }))
+    .update("paragraph-check-batching-v1")
     .update(readFileSync(new URL("../../../package.json", import.meta.url)))
     .digest("hex");
 }

@@ -11,6 +11,7 @@ export type {
   JevInput,
   JevScores,
   JevQuestion,
+  JevQuestionInstructions,
   JevParagraph
 } from "./adapters/jev/types.js";
 export type { RuleId } from "./rules/types.js";

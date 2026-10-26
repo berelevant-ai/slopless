@@ -102,6 +102,8 @@ npx slopless --check semantic-thinness:empty-takeaway --check wordiness-and-redu
 
 There are 54 Jev checks across eleven families. They use selected experimental definitions and cutoffs; their recorded quality varies by check. Deterministic defaults stay unchanged.
 
+Paragraph checks share one request per paragraph, with a separate question and probability for each selected check. Each question carries its own rule instructions and examples. Requests split into smaller check groups when they exceed the provider's size limits.
+
 Jev findings identify paragraphs and describe the named defect. Whole-text detection and paragraph answers can disagree; reporting requires a positive whole-text decision. Missing provider answers or an unlocated positive decision exit `2`.
 
 Use `reportId` from `--list-checks` for suppression comments. Existing deterministic IDs remain unchanged; model IDs include the family:

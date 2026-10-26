@@ -23,7 +23,14 @@ function fixed(scores, seen = []) {
       signal.throwIfAborted();
       seen.push(input);
       return Object.fromEntries(
-        Object.keys(input.questions).map((id) => [id, scores[id] ?? 0.05])
+        Object.keys(input.questions).map((id) => [
+          id,
+          scores[id] ??
+            (input.input === "paragraph"
+              ? scores[input.paragraph.id]
+              : undefined) ??
+            0.05
+        ])
       );
     }
   };
@@ -41,9 +48,11 @@ test("public catalog has unique IDs and selected prompt assets load for every Je
     }).lintText("A concrete sentence.", "all-checks.md");
     assert.deepEqual(result.messages, [], check.id);
     const words = [
-      seen[0].instructions,
+      seen[0].instructions ?? "",
       ...Object.values(seen[0].questions).flatMap((q) => [
-        q.instructions,
+        typeof q.instructions === "string"
+          ? q.instructions
+          : Object.values(q.instructions).join(" "),
         q.yes,
         q.no
       ])
@@ -84,7 +93,7 @@ test("raw paragraph ranges survive blockquotes, list indentation and inline Mark
     result.messages.map((m) => source.slice(...m.range)),
     ["**That is the real promise.**", "This is the lesson."]
   );
-  assert.equal(seen[0].paragraphs[0].text, "**That is the real promise.**");
+  assert.equal(seen[0].paragraph.text, "**That is the real promise.**");
 });
 
 test("whole-text batching reserves the document question once and retains complete context", async () => {
@@ -115,17 +124,25 @@ test("whole-text batching reserves the document question once and retains comple
   );
 });
 
-test("paragraph checks batch independent targets and attach heading only where required", async () => {
+test("paragraph checks send separate targets and attach headings only where required", async () => {
   const source = "# Heading\n\nFirst paragraph.\n\nSecond paragraph.";
   const seen = [];
   await createSlopless({
     checks: ["wordiness-and-redundancy:redundancy"],
     jev: fixed({}, seen)
   }).lintText(source, "heading.md");
-  assert.equal(seen.length, 1);
+  assert.equal(seen.length, 2);
   assert.equal(seen[0].input, "paragraph");
-  assert.equal(seen[0].paragraphs[0].heading, "# Heading");
-  assert.equal(seen[0].paragraphs[1].heading, undefined);
+  assert.equal(
+    seen[0].questions["wordiness-and-redundancy:redundancy"].instructions
+      .heading,
+    "# Heading"
+  );
+  assert.equal(
+    seen[1].questions["wordiness-and-redundancy:redundancy"].instructions
+      .heading,
+    undefined
+  );
   assert.equal(Object.hasOwn(seen[0], "text"), false);
 });
 
@@ -151,10 +168,10 @@ test("whole-text gate suppresses disagreements and positive empty locations fail
 test("missing, extra, out-of-range and nonnumeric provider scores fail", async () => {
   for (const scores of [
     {},
-    { P1: 0.9, foreign: 0.5 },
-    { P1: NaN },
-    { P1: 1.01 },
-    { P1: "0.9" }
+    { [takeaway]: 0.9, foreign: 0.5 },
+    { [takeaway]: NaN },
+    { [takeaway]: 1.01 },
+    { [takeaway]: "0.9" }
   ]) {
     const jev = {
       async judge() {
@@ -313,11 +330,20 @@ test("native package.json textlint configuration preserves disabled and warning 
 });
 
 test("selected CLI interruption cancels stdin before EOF", async () => {
+  // Wait for stdin consumption so the signal tests reading rather than module startup.
+  const ready = `data:text/javascript,${encodeURIComponent(`
+    process.stdin.on("newListener", function ready(event) {
+      if (event === "data" || event === "readable") {
+        process.stdin.removeListener("newListener", ready);
+        setImmediate(() => process.send("stdin-ready"));
+      }
+    });
+  `)}`;
   const child = spawn(
     process.execPath,
-    ["dist/cli.js", "--check", "phrases:cliches", "--stdin"],
+    ["--import", ready, "dist/cli.js", "--check", "phrases:cliches", "--stdin"],
     {
-      stdio: ["pipe", "pipe", "pipe"]
+      stdio: ["pipe", "pipe", "pipe", "ipc"]
     }
   );
   let stderr = "";
@@ -325,10 +351,17 @@ test("selected CLI interruption cancels stdin before EOF", async () => {
     stderr += chunk;
   });
   const exited = once(child, "exit");
-  const timer = setTimeout(() => child.kill("SIGKILL"), 5000);
+  const reading = once(child, "message");
+  const timer = setTimeout(() => child.kill("SIGKILL"), 15000);
   try {
     child.stdin.write("A still-open input stream.");
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    const message = await Promise.race([
+      reading,
+      exited.then(() => {
+        throw Error("CLI exited before reading stdin.");
+      })
+    ]);
+    assert.equal(message[0], "stdin-ready");
     child.kill("SIGTERM");
     const [code, signal] = await exited;
     assert.equal(signal, null, stderr);
@@ -426,7 +459,7 @@ test("SDK adapter exercises the HTTP boundary and rejects a different returned m
         answers: Object.fromEntries(
           Object.keys(payload.questions).map((id) => [
             id,
-            { type: "noul", noul: id === "P1" ? 0.9 : 0.1 }
+            { type: "noul", noul: id === takeaway ? 0.9 : 0.1 }
           ])
         ),
         usage: { input_tokens: 100, output_tokens: 10 }
@@ -447,7 +480,7 @@ test("SDK adapter exercises the HTTP boundary and rejects a different returned m
         .length,
       1
     );
-    assert.equal(requests[0].questions.P1.type, "noul");
+    assert.equal(requests[0].questions[takeaway].type, "noul");
     wrongModel = true;
     await assert.rejects(
       engine.lintText("Text.", "bad-model.md"),
@@ -522,6 +555,163 @@ function protocolReply(input, response, type = "noul") {
     })
   );
 }
+
+test("all paragraph checks share one HTTP request and preserve private prompts", async () => {
+  const checks = listChecks().filter(
+    (check) => check.backend === "jev" && check.input === "paragraph"
+  );
+  let requests = 0;
+  await protocolServer(
+    (input, response) => {
+      requests++;
+      assert.deepEqual(input.state, {
+        paragraph: { id: "P1", text: "That is the real promise." }
+      });
+      assert.equal(Object.keys(input.questions).length, checks.length);
+      for (const [id, question] of Object.entries(input.questions)) {
+        assert.equal(question.type, "noul");
+        assert.equal(question.instructions.target, "state.paragraph.text");
+        assert.equal(typeof question.instructions.question, "string");
+        assert.equal(typeof question.instructions.rulebook, "string");
+        assert.equal(typeof question.instructions.instructions, "string");
+        assert.equal(Object.hasOwn(question.instructions, "heading"), false);
+        if (id === takeaway) {
+          assert.match(question.instructions.rulebook, /Empty Takeaway/);
+          assert.doesNotMatch(
+            question.instructions.rulebook,
+            /Gaze choreography/
+          );
+          assert.equal(Object.hasOwn(question, "criteria"), false);
+        }
+      }
+      protocolReply(input, response);
+    },
+    async (baseURL) => {
+      const jev = createJevClient({ apiKey: "test-key", retries: 0, baseURL });
+      const result = await createSlopless({
+        checks: checks.map((check) => check.id),
+        jev
+      }).lintText("That is the real promise.", "all-http.md");
+      assert.equal(requests, 1);
+      assert.equal(result.messages.length, checks.length);
+      assert.equal(
+        new Set(result.messages.map((message) => message.ruleId)).size,
+        checks.length
+      );
+    }
+  );
+});
+
+test("context-limited paragraph requests split questions with identical per-check inputs", async () => {
+  const selected = [
+    takeaway,
+    "semantic-thinness:circular-explanation",
+    "semantic-thinness:unspecified-scope",
+    "narrative-craft:gaze-choreography"
+  ];
+  const requests = [],
+    receipts = [];
+  await protocolServer(
+    (input, response) => {
+      requests.push(input);
+      if (Object.keys(input.questions).length > 2) {
+        response.writeHead(400, { "Content-Type": "application/json" });
+        response.end(
+          JSON.stringify({ error: { code: "max_tokens_exceeded" } })
+        );
+      } else protocolReply(input, response);
+    },
+    async (baseURL) => {
+      const jev = createJevClient({
+        apiKey: "test-key",
+        retries: 0,
+        concurrency: 1,
+        baseURL,
+        onResponse: (receipt) => receipts.push(receipt)
+      });
+      const result = await createSlopless({ checks: selected, jev }).lintText(
+        "The lesson is to embrace excellence.",
+        "split-http.md"
+      );
+      assert.equal(result.messages.length, selected.length);
+      assert.deepEqual(
+        requests.map((request) => Object.keys(request.questions).length),
+        [4, 2, 2]
+      );
+      assert.equal(receipts.length, 2);
+      for (const request of requests.slice(1)) {
+        assert.deepEqual(request.state, requests[0].state);
+        for (const [id, question] of Object.entries(request.questions))
+          assert.deepEqual(question, requests[0].questions[id]);
+      }
+    }
+  );
+});
+
+test("single-question context overflow and ordinary bad requests fail explicitly", async () => {
+  for (const [code, expected] of [
+    ["max_tokens_exceeded", /complete paragraph and prompt were preserved/],
+    ["invalid_question", /invalid_question/]
+  ]) {
+    let calls = 0;
+    await protocolServer(
+      (_input, response) => {
+        calls++;
+        response.writeHead(400, { "Content-Type": "application/json" });
+        response.end(JSON.stringify({ error: { code } }));
+      },
+      async (baseURL) => {
+        const jev = createJevClient({
+          apiKey: "test-key",
+          retries: 0,
+          baseURL
+        });
+        await assert.rejects(
+          createSlopless({ checks: [takeaway], jev }).lintText(
+            "That is the lesson.",
+            "too-long.md"
+          ),
+          expected
+        );
+        assert.equal(calls, 1);
+      }
+    );
+  }
+});
+
+test("cancellation between split questions prevents further HTTP calls", async () => {
+  const controller = new AbortController();
+  let calls = 0;
+  await protocolServer(
+    (input, response) => {
+      calls++;
+      if (Object.keys(input.questions).length > 1) {
+        response.writeHead(413);
+        response.end("{}");
+      } else protocolReply(input, response);
+    },
+    async (baseURL) => {
+      const jev = createJevClient({
+        apiKey: "test-key",
+        retries: 0,
+        baseURL,
+        onResponse: () => controller.abort(Error("cancel split"))
+      });
+      await assert.rejects(
+        createSlopless({
+          checks: [takeaway, "semantic-thinness:circular-explanation"],
+          jev
+        }).lintText(
+          "That is the lesson.",
+          "cancel-split.md",
+          controller.signal
+        ),
+        /cancel split/
+      );
+      assert.equal(calls, 2);
+    }
+  );
+});
 
 test("SDK response kind is validated independently of its numeric property", async () => {
   await protocolServer(
@@ -617,11 +807,11 @@ test("queued and active cancellation leave the shared client usable", async () =
   await protocolServer(
     async (input, response) => {
       requests++;
-      if (input.state.paragraphs[0].text === "First.") {
+      if (input.state.paragraph.text === "First.") {
         firstArrived();
         await firstGate;
       }
-      if (input.state.paragraphs[0].text === "Active.") {
+      if (input.state.paragraph.text === "Active.") {
         activeArrived();
         await activeGate;
       }
@@ -638,7 +828,7 @@ test("queued and active cancellation leave the shared client usable", async () =
       const jev = {
         async judge(input, signal) {
           const work = shared.judge(input, signal);
-          if (input.paragraphs[0].text === "Queued.") queued();
+          if (input.paragraph.text === "Queued.") queued();
           return work;
         }
       };

@@ -9,7 +9,7 @@ const entry = JSON.parse(readFileSync(path, "utf8")).requirements[category][
 assert.equal(entry.check, "public-runtime-contracts");
 const result = spawnSync(
   process.execPath,
-  ["--test", "scripts/runtime.test.mjs"],
+  ["--test", "scripts/runtime.test.mjs", "scripts/paragraph-batching.test.mjs"],
   {
     encoding: "utf8",
     timeout: 45000,

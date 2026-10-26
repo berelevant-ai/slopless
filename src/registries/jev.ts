@@ -1,7 +1,9 @@
 import type { JevCheck, JevQuestion } from "../adapters/jev/types.js";
 import type { RuleFamilyId } from "../rules/types.js";
 
-const locationQuestions: Readonly<Record<string, JevQuestion>> = {
+const locationQuestions: Readonly<
+  Record<string, JevQuestion & { readonly instructions: string }>
+> = {
   "repeated-explanation": {
     instructions:
       "Does paragraph {paragraph} contain the earlier explanation or its unnecessary repetition? Select both parts. Exclude background, neighboring context, useful recaps and distinct applications.",

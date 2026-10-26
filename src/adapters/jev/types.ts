@@ -6,8 +6,16 @@ export type JevParagraph = {
   readonly heading?: string;
 };
 
-export type JevQuestion = {
+export type JevQuestionInstructions = {
+  readonly question: string;
   readonly instructions: string;
+  readonly rulebook: string;
+  readonly target: string;
+  readonly heading?: string;
+};
+
+export type JevQuestion = {
+  readonly instructions: string | JevQuestionInstructions;
 } & (
   | { readonly yes: string; readonly no: string }
   | { readonly yes?: never; readonly no?: never }
@@ -15,12 +23,15 @@ export type JevQuestion = {
 
 export type JevInput = {
   readonly model: string;
-  readonly paragraphs: readonly JevParagraph[];
-  readonly instructions: string;
   readonly questions: Readonly<Record<string, JevQuestion>>;
 } & (
-  | { readonly input: "paragraph" }
-  | { readonly input: "text"; readonly text: string }
+  | { readonly input: "paragraph"; readonly paragraph: JevParagraph }
+  | {
+      readonly input: "text";
+      readonly text: string;
+      readonly paragraphs: readonly JevParagraph[];
+      readonly instructions: string;
+    }
 );
 
 export type JevScores = Readonly<Record<string, number>>;
@@ -39,5 +50,5 @@ export type JevCheck = {
   readonly promptVersion: string;
   readonly name: string;
   readonly heading?: boolean;
-  readonly locationQuestion?: JevQuestion;
+  readonly locationQuestion?: JevQuestion & { readonly instructions: string };
 };

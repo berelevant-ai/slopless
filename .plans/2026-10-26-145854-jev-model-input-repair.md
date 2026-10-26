@@ -4,7 +4,7 @@
 
 Give each judgment the writing its check requires, preserve tested instructions, and measure production behavior through the public runtime. Model-input quality determines request construction; batching preserves that input.
 
-- Paragraph checks receive their own paragraph directly. Shared input contains the check instructions and examples.
+- Paragraph checks receive their own paragraph directly. The later accepted arrangement in `.plans/2026-10-26-154130-paragraph-check-batching.md` shares that paragraph across independent check questions.
 - Text checks receive the complete article and identify participating paragraphs. Retain the accepted independent document decision and reporting gate.
 - This is a plan. Implementation and model calls require the next execution step.
 
@@ -24,43 +24,9 @@ Give each judgment the writing its check requires, preserve tested instructions,
 
 ### Paragraph Checks
 
-- Share exactly one check's frozen instructions and definition/examples across its questions. Keep shared instructions in `state.instructions` and the definition in `state.types[check]`.
-- Put each exact target paragraph inside that question's structured `instructions.target`, alongside its frozen question and rulebook reference.
-  - Preserve the original optional yes/no criteria. Omitted criteria stay omitted.
-  - Include a heading only for checks whose reviewed definition requires it. Use one explicit target containing that heading and its paragraph; retain the paragraph's native report location.
-- Keep other paragraphs, other articles and other check definitions outside that judgment's input.
-  - Batch independent paragraphs as separate questions under the same shared rule material. Question IDs route answers locally and carry no model instructions.
-
-Illustrative request structure, using the existing development runner's fields:
-
-```json
-{
-  "state": {
-    "instructions": "<frozen shared instructions>",
-    "types": {"empty-takeaway": "<frozen definition and examples>"}
-  },
-  "questions": {
-    "first": {
-      "type": "noul",
-      "instructions": {
-        "question": "<frozen detection question>",
-        "target": "That is the real promise.",
-        "rulebook": "state.types[\"empty-takeaway\"]"
-      }
-    },
-    "second": {
-      "type": "noul",
-      "instructions": {
-        "question": "<the same detection question>",
-        "target": "Reject expired tokens before refreshing the session.",
-        "rulebook": "state.types[\"empty-takeaway\"]"
-      }
-    }
-  }
-}
-```
-
-Each judgment receives the shared rule material and its own target. This batches API work while preserving direct, independent inputs.
+- Use the accepted arrangement in `.plans/2026-10-26-154130-paragraph-check-batching.md`: share one paragraph and place each check's instructions, definition and examples in its own question.
+- Preserve optional yes/no criteria and keep required headings question-local. Native paragraph nodes remain the report locations.
+- Group all enabled checks using the same model, splitting question groups for provider size limits while preserving each judgment's complete input.
 
 ### Text Checks
 
@@ -80,7 +46,7 @@ Each judgment receives the shared rule material and its own target. This batches
 ### API Execution
 
 - Group questions only when model and complete shared input match. Preserve each question's instructions, criteria and target when adding, removing or reordering other questions.
-- Keep sixteen questions per request as the initial production setting. Treat it as an execution setting; compare one versus sixteen without changing each judgment's visible input.
+- Keep the existing sixteen-question setting for text locations. Paragraph requests follow the accepted all-check grouping above; compare combined and separate check requests on identical inputs.
 - Enforce the documented request limits and retain SDK concurrency, retries and cancellation. Split oversized paragraph batches; keep complete text context in every text batch.
   - Jev 1.13 documents 64k tokens for shared state plus all questions, and 32k for shared state plus one question, alongside the API's 32 MiB body limit. Include copied targets and rule material in those budgets.
   - Decode the SDK's HTTP error status and validated error body. For `max_tokens_exceeded`, halve either a paragraph-question or text-location batch without changing state or individual questions; stop splitting at one question and report an input-too-long error.

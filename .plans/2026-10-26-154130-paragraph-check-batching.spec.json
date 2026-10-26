@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": ["src/adapters/jev/paragraph.ts", "scripts/paragraph-batching.test.mjs"]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/runtime.ts"],
+        "required": ["createJevRules"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [".github/workflows/ci.yml"],
+        "required": ["scripts/paragraph-batching.test.mjs"]
+      }
+    ],
+    "custom": [
+      {"verifier": ["node", "scripts/verify-v2-runtime.mjs"], "check": "public-runtime-contracts"}
+    ]
+  }
+}

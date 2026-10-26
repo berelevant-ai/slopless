@@ -20,6 +20,7 @@
   - A passage can include several paragraphs. A text is the complete article, story, or reply; text-level checks use it intact.
   - Classify buried answers and repeated explanations within the submitted text as text-level checks. Keep density reporting separate from this input requirement.
 - Use native paragraph ranges for current V2 highlighting. Paragraph checks report their input paragraph; whole-text checks receive the complete numbered text and ask independent paragraph-location questions in the same request as detection.
+  - Batch all enabled paragraph checks over one shared paragraph. Each question carries its own rule definition, examples and judging instructions, and returns an independent probability. Split question groups only for model or request-size requirements.
   - Record detection/location disagreement and incorrect paragraph selections as known defects. On 2026-10-26, the user accepts the measured precision for proceeding with integration; preserve raw answers and existing labels.
   - Retain the measured whole-text detection gate for whole-text reporting. Exact offending-span selection remains outside this shipping step; paragraph ranges narrow where the writing agent should look.
 

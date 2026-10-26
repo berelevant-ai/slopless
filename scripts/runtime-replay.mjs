@@ -17,7 +17,11 @@ for (const path of process.argv.slice(2)) {
         return Object.fromEntries(
           Object.keys(input.questions).map((id) => [
             id,
-            item.scores[id] ?? 0.05
+            item.scores[id] ??
+              (input.input === "paragraph"
+                ? item.scores[input.paragraph.id]
+                : undefined) ??
+              0.05
           ])
         );
       }

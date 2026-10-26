@@ -180,7 +180,7 @@ import type { JevClient, JevInput, JevScores, RuleId, Slopless } from "slopless"
 const id: RuleId = "semantic-thinness:empty-takeaway";
 const client: JevClient = createJevClient({apiKey: "example"});
 const runtime: Slopless = createSlopless({checks: [id], jev: client});
-const input: JevInput = {input: "paragraph", model: "jev", paragraphs: [], instructions: "Check.", questions: {P1: {instructions: "Judge."}}};
+const input: JevInput = {input: "paragraph", model: "jev", paragraph: {id: "P1", text: "Check."}, questions: {"semantic-thinness:empty-takeaway": {instructions: {question: "Judge.", instructions: "Check.", rulebook: "An empty takeaway.", target: "state.paragraph.text"}}}};
 const scores: Promise<JevScores> = client.judge(input, new AbortController().signal);
 void runtime; void scores; void listChecks;
 `

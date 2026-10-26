@@ -3,7 +3,7 @@ import type { TextlintResult, TextlintRuleModule } from "@textlint/types";
 import commentsFilter from "textlint-filter-rule-comments";
 import { deterministicChecks } from "./registries/index.js";
 import { jevChecks } from "./registries/jev.js";
-import { createJevRule, jevCacheKey } from "./adapters/jev/detector.js";
+import { createJevRules, jevCacheKey } from "./adapters/jev/detector.js";
 import type { JevClient } from "./adapters/jev/types.js";
 import type { RuleId } from "./rules/types.js";
 import {
@@ -118,22 +118,33 @@ async function linter(
     options.cwd ?? process.cwd(),
     options.configFile
   );
-  const selected = options.checks.map((id) => {
-    const definition = jevChecks.find((check) => check.id === id);
+  const selections = options.checks.map((id) => ({
+    id,
+    definition: jevChecks.find((check) => check.id === id),
+    configuredOptions: base.rule.allDescriptors.find(
+      (item) =>
+        item.id === `slopless/${id.replace(":", "/")}` ||
+        item.id === `slopless/${id.slice(id.indexOf(":") + 1)}`
+    )?.rawOptions
+  }));
+  const enabled = selections.flatMap(({ definition, configuredOptions }) =>
+    definition !== undefined && configuredOptions !== false ? [definition] : []
+  );
+  const modelRules =
+    options.jev === undefined
+      ? new Map<RuleId, TextlintRuleModule>()
+      : createJevRules(enabled, options.jev, signal);
+  const selected = selections.map(({ id, definition, configuredOptions }) => {
     const rule =
-      definition !== undefined && options.jev !== undefined
-        ? createJevRule(definition, options.jev, signal)
-        : deterministicChecks.get(id);
+      configuredOptions === false
+        ? (): Record<string, never> => ({})
+        : definition !== undefined
+          ? modelRules.get(id)
+          : deterministicChecks.get(id);
     if (rule === undefined) throw new Error(`Cannot construct ${id}.`);
     const module: unknown = rule;
     if (!isRuleModule(module))
       throw new Error(`Invalid textlint module: ${id}.`);
-    const configured = base.rule.allDescriptors.find(
-      (item) =>
-        item.id === `slopless/${id.replace(":", "/")}` ||
-        item.id === `slopless/${id.slice(id.indexOf(":") + 1)}`
-    );
-    const configuredOptions = configured?.rawOptions;
     const optionsForRule =
       definition === undefined || configuredOptions === false
         ? configuredOptions
