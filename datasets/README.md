@@ -49,6 +49,7 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 - `ai-synthetic/styles/`: the ten long genre/style texts.
 - `ai-synthetic/claude-generated/`: the 400 existing Claude test articles. Their original prompts are unavailable; their passages remain unlabeled.
 - `ai-normal/claude-writing/`: six ordinary writing tasks and their two edited versions, preserved as 18 articles.
+- [BGaming B2B iGaming solutions](ai-normal/texts/000139-bgaming-b2b-igaming-solutions.md): an unchanged ordinary AI article with 35 check-specific no-hit controls across 18 passages. Its paired labels preserve complete lists and their introductions; the exposed article belongs to development.
 - `human/specificity/`, `human/vagueness/`, `human/idioms/`, and `human/syntax/`: original linguistic text and annotations, including unlabeled source sentences.
 - `human/reviewed-excerpts.md`: historical no-hit excerpts whose complete source context could not be matched. Each label records that limitation.
 
