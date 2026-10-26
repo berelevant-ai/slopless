@@ -3,6 +3,7 @@ import { spawnSync } from "node:child_process";
 import { mkdtempSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 import { after, test } from "node:test";
 
 const directory = mkdtempSync(join(tmpdir(), "slopless-cli-test-"));
@@ -129,4 +130,76 @@ test("default configuration still enables sentence case", () => {
   const result = run([input]);
   assert.equal(result.status, 1, result.stderr);
   assert.ok(result.messages.some((m) => m.ruleId === "slopless/sentence-case"));
+});
+
+test("installed CLI lists optional checks and runs deterministic selection", () => {
+  const listed = spawnSync(process.execPath, [cli, "--list-checks"], {
+    cwd: directory,
+    encoding: "utf8"
+  });
+  assert.equal(listed.status, 0, listed.stderr);
+  assert.equal(
+    JSON.parse(listed.stdout).filter((check) => check.backend === "jev").length,
+    54
+  );
+  const result = run(["--check", "words:prohibited-words", input]);
+  assert.equal(result.status, 1, result.stderr);
+  assert.ok(result.messages.length > 0);
+  assert.ok(
+    result.messages.every((m) => m.ruleId === "slopless/prohibited-words")
+  );
+});
+
+test("all installed Jev prompts execute through the public library", async () => {
+  const { createSlopless, listChecks } = await import(
+    pathToFileURL(join(install, "node_modules/slopless/dist/index.js"))
+  );
+  let calls = 0;
+  const jev = {
+    async judge(input) {
+      calls++;
+      return Object.fromEntries(
+        Object.keys(input.questions).map((id) => [id, 0])
+      );
+    }
+  };
+  for (const check of listChecks().filter((item) => item.backend === "jev")) {
+    const engine = createSlopless({ checks: [check.id], jev, cwd: directory });
+    const result = await engine.lintText("A complete paragraph.", "article.md");
+    assert.deepEqual(result.messages, [], check.id);
+  }
+  assert.equal(calls, 54);
+});
+
+test("installed package exposes consumable strict TypeScript declarations", () => {
+  const consumer = join(install, "consumer.mts");
+  writeFileSync(
+    consumer,
+    `import { createSlopless, createJevClient, listChecks } from "slopless";
+import type { JevClient, JevInput, JevScores, RuleId, Slopless } from "slopless";
+const id: RuleId = "semantic-thinness:empty-takeaway";
+const client: JevClient = createJevClient({apiKey: "example"});
+const runtime: Slopless = createSlopless({checks: [id], jev: client});
+const input: JevInput = {input: "paragraph", model: "jev", paragraphs: [], instructions: "Check.", questions: {P1: {instructions: "Judge."}}};
+const scores: Promise<JevScores> = client.judge(input, new AbortController().signal);
+void runtime; void scores; void listChecks;
+`
+  );
+  const result = spawnSync(
+    process.execPath,
+    [
+      join(process.cwd(), "node_modules/typescript/bin/tsc"),
+      "--noEmit",
+      "--strict",
+      "--module",
+      "NodeNext",
+      "--moduleResolution",
+      "NodeNext",
+      "--target",
+      "ES2023",
+      consumer
+    ],
+    { cwd: install, encoding: "utf8" }
+  );
+  assert.equal(result.status, 0, result.stdout + result.stderr);
 });

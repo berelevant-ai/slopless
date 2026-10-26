@@ -1,6 +1,6 @@
 ---
 name: slopless
-description: Use Slopless to review English Markdown for deterministic AI and human slop signals, including vague phrasing, formulaic prose, weak rhythm, filler, and cliches.
+description: Use Slopless to review English Markdown with local prose rules and optional Jev semantic checks for vague phrasing, formulaic prose, weak rhythm, filler, and cliches.
 ---
 
 # Slopless
@@ -25,6 +25,10 @@ Use this skill when asked to review English Markdown prose for AI slop, human sl
 7. If the user asks for explanation, summarize the saved JSON findings for the user.
 8. Do not leave the only useful result in a temp directory.
 
+For requested Jev checks, run `npx slopless --list-checks`, select the named checks and require `JEV_API_KEY`. Repeat `--check family:rule` to combine them. Jev sends writing to TypeSafe and reports paragraph-sized locations; its whole-text checks receive the complete text.
+
+Model findings include the issue type and its definition. Preserve factual details when rewriting the marked paragraph, then rerun the same checks. Treat missing locations, provider failures and interrupted execution as incomplete work.
+
 ## Commands
 
 ```bash
@@ -46,10 +50,11 @@ npx slopless --stdin --stdin-filename draft.md > ".slopless/findings/$(date +%Y-
 
 - Exit `0`: no findings.
 - Exit `1`: findings were reported.
-- Exit `2`: command failed before linting.
+- Exit `2`: execution failed or a check is incomplete.
 - Treat exit `1` as successful execution with prose findings.
 - Read the JSON before explaining results.
 - Preserve rule IDs, file paths, line numbers, and excerpts when summarizing.
+- Use each check's `reportId` from `--list-checks` for ignore comments. Deterministic IDs retain their existing spelling; Jev IDs include the family.
 
 ## Ignore Rules
 

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "combined-native-reports",
+    "result": {
+      "filePath": "combined-native-reports.md",
+      "messages": [
+        {
+          "column": 15,
+          "index": 14,
+          "line": 1,
+          "loc": {
+            "end": {
+              "column": 33,
+              "line": 1
+            },
+            "start": {
+              "column": 15,
+              "line": 1
+            }
+          },
+          "message": "Cliche found: \"back to square one\". Replace it with specific wording.",
+          "range": [
+            14,
+            32
+          ],
+          "ruleId": "slopless/cliches",
+          "severity": 2,
+          "type": "lint"
+        },
+        {
+          "column": 1,
+          "index": 35,
+          "line": 3,
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 3
+            },
+            "start": {
+              "column": 1,
+              "line": 3
+            }
+          },
+          "message": "empty takeaway: Find every lesson, answer, recommendation, or concluding point that is announced or praised while its content remains empty. Generic virtues, favorable judgments, and instructions merely to be better leave the reader without a useful point.",
+          "range": [
+            35,
+            60
+          ],
+          "ruleId": "slopless/semantic-thinness/empty-takeaway",
+          "severity": 2,
+          "type": "lint"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nested-paragraph-position",
+    "result": {
+      "filePath": "nested-paragraph-position.md",
+      "messages": [
+        {
+          "column": 3,
+          "index": 11,
+          "line": 3,
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 3
+            },
+            "start": {
+              "column": 3,
+              "line": 3
+            }
+          },
+          "message": "empty takeaway: Find every lesson, answer, recommendation, or concluding point that is announced or praised while its content remains empty. Generic virtues, favorable judgments, and instructions merely to be better leave the reader without a useful point.",
+          "range": [
+            11,
+            40
+          ],
+          "ruleId": "slopless/semantic-thinness/empty-takeaway",
+          "severity": 2,
+          "type": "lint"
+        },
+        {
+          "column": 3,
+          "index": 75,
+          "line": 7,
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 7
+            },
+            "start": {
+              "column": 3,
+              "line": 7
+            }
+          },
+          "message": "empty takeaway: Find every lesson, answer, recommendation, or concluding point that is announced or praised while its content remains empty. Generic virtues, favorable judgments, and instructions merely to be better leave the reader without a useful point.",
+          "range": [
+            75,
+            94
+          ],
+          "ruleId": "slopless/semantic-thinness/empty-takeaway",
+          "severity": 2,
+          "type": "lint"
+        }
+      ]
+    }
+  },
+  {
+    "id": "whole-text-location",
+    "result": {
+      "filePath": "whole-text-location.md",
+      "messages": [
+        {
+          "column": 1,
+          "index": 0,
+          "line": 1,
+          "loc": {
+            "end": {
+              "column": 106,
+              "line": 1
+            },
+            "start": {
+              "column": 1,
+              "line": 1
+            }
+          },
+          "message": "repeated explanation: Compare the earlier explanation with the later occurrence's role. Flag repeated explanations, conclusions or recommendations adding neither meaning nor useful function, including those beside useful new material.",
+          "range": [
+            0,
+            105
+          ],
+          "ruleId": "slopless/wordiness-and-redundancy/repeated-explanation",
+          "severity": 2,
+          "type": "lint"
+        },
+        {
+          "column": 1,
+          "index": 202,
+          "line": 5,
+          "loc": {
+            "end": {
+              "column": 101,
+              "line": 5
+            },
+            "start": {
+              "column": 1,
+              "line": 5
+            }
+          },
+          "message": "repeated explanation: Compare the earlier explanation with the later occurrence's role. Flag repeated explanations, conclusions or recommendations adding neither meaning nor useful function, including those beside useful new material.",
+          "range": [
+            202,
+            302
+          ],
+          "ruleId": "slopless/wordiness-and-redundancy/repeated-explanation",
+          "severity": 2,
+          "type": "lint"
+        }
+      ]
+    }
+  },
+  {
+    "id": "whole-text-gate",
+    "result": {
+      "filePath": "whole-text-gate.md",
+      "messages": []
+    }
+  },
+  {
+    "id": "native-comment-suppression",
+    "result": {
+      "filePath": "native-comment-suppression.md",
+      "messages": []
+    }
+  },
+  {
+    "error": "wordiness-and-redundancy:repeated-explanation: positive document decision has no paragraph location.\nat positive-without-location-fails.md",
+    "id": "positive-without-location-fails"
+  }
+]

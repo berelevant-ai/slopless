@@ -10,7 +10,7 @@ trap 'rm -rf "$TMP_DIR"' EXIT
 RULES_ROOT="$TMP_DIR/dist/rules"
 
 cd "$ROOT"
-"$ROOT/node_modules/.bin/tsc" -p tsconfig.json --outDir "$TMP_DIR/dist"
+"$ROOT/node_modules/.bin/tsc" -p tsconfig.json --outDir "$TMP_DIR/dist" --declaration false
 
 if [ "$#" -eq 0 ]; then
   mapfile -t FILES < <(find behavior/fixtures/textlint-rules/cases behavior/fixtures/textlint-rules/corpus -name "*.md" | sort)

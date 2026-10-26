@@ -8,6 +8,7 @@ import type {
   TxtParentNode,
   TxtStrNode
 } from "@textlint/ast-node-types";
+import type { TextlintRuleContext } from "@textlint/types";
 import { normalizeForMatch } from "../../shared/text/normalize.js";
 import {
   allParagraphSentences,
@@ -142,6 +143,30 @@ export function paragraphUnits(document: TxtDocumentNode): TextUnit[] {
     }),
     text: paragraph.text
   }));
+}
+
+export function rawParagraphUnits(
+  document: TxtDocumentNode,
+  context: Readonly<TextlintRuleContext>
+): TextUnit[] {
+  const units: TextUnit[] = [];
+  let heading: string | undefined;
+  visitNodes(document, [], ({ node }) => {
+    if (isHeaderNode(node)) heading = context.getSource(node);
+    if (isParagraphNode(node)) {
+      units.push({
+        ...textUnitForNode(
+          `P${units.length + 1}`,
+          "paragraph",
+          node,
+          context.getSource(node)
+        ),
+        ...(heading === undefined ? {} : { heading })
+      });
+      heading = undefined;
+    }
+  });
+  return units;
 }
 
 export function sentenceUnits(document: TxtDocumentNode): TextUnit[] {

@@ -8,6 +8,7 @@ import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import { cli } from "textlint/lib/src/cli.js";
 import { narrativeRuleIds } from "./presets/standard.js";
+import { runSelectedChecks } from "./cli-checks.js";
 
 type PackageMetadata = {
   readonly version?: unknown;
@@ -37,7 +38,15 @@ const VALUE_OPTIONS = new Set([
   "-c",
   "-o"
 ]);
-const HELP_TEXT = `Slopless checks English Markdown prose for deterministic AI and human slop signals.
+const HELP_TEXT = `Slopless checks English Markdown prose for AI and human slop signals.
+
+Explicit checks (offline defaults stay unchanged):
+  slopless --list-checks
+  slopless --check phrases:cliches draft.md
+  slopless --check wordiness-and-redundancy:repeated-explanation draft.md
+  Repeat --check to combine checks. Jev checks require JEV_API_KEY and send
+  writing to TypeSafe. They highlight paragraphs; deterministic checks keep
+  exact ranges. An interrupted or incomplete check exits 2, never clean.
 
 It reports concrete patterns that make writing padded, vague, generic,
 formulaic, or mechanically careless. It is English-only. Output is always
@@ -72,7 +81,7 @@ Default behavior:
   - Output is always JSON.
   - Exit 0 means no findings.
   - Exit 1 means Slopless found prose issues.
-  - Exit 2 means the command failed before linting.
+  - Exit 2 means execution failed or a check is incomplete.
   - No .textlintrc.json is required.
   - No separate textlint install is required.
 
@@ -318,6 +327,24 @@ async function main(): Promise<number> {
       "slopless always writes JSON output. Remove --format / -f.\n"
     );
     return 2;
+  }
+
+  if (
+    userArgs.some(
+      (arg) =>
+        arg === "--check" ||
+        arg.startsWith("--check=") ||
+        arg === "--list-checks"
+    )
+  ) {
+    try {
+      return await runSelectedChecks(userArgs);
+    } catch (error: unknown) {
+      process.stderr.write(
+        `${error instanceof Error ? error.message : "Slopless execution failed."}\n`
+      );
+      return 2;
+    }
   }
 
   if (!hasFileTarget(userArgs) && !hasFlag(userArgs, STDIN_FLAGS)) {

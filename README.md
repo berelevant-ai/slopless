@@ -9,7 +9,7 @@
 [![ci](https://img.shields.io/github/actions/workflow/status/berelevant-ai%2Fslopless/ci.yml?branch=main&label=ci)](/actions/workflows/ci.yml)
 [![socket](https://socket.dev/api/badge/npm/package/slopless)](https://socket.dev/npm/package/slopless)
 
-Give it to your writing agent and it stops handing you AI-slop prose. Slopless is a deterministic linter - a textlint preset and a zero-config CLI - that flags the LLM tells (hollow framing, fake contrasts, hedging, em-dash tics, vacuous closers, and many more) so the agent rewrites until the text reads human. No model calls, no API key.
+Slopless checks English Markdown for AI and human writing slop. Its default CLI runs local textlint rules. Optional Jev checks add semantic judgments and paragraph highlights through the TypeSafe API.
 
 ## What it catches
 
@@ -84,6 +84,53 @@ Output is always JSON:
 mkdir -p .slopless/findings
 npx slopless "docs/**/*.md" > ".slopless/findings/$(date +%Y-%m-%d-%H%M%S)--review.json"
 ```
+
+## Select Checks
+
+List available checks, their backends and their finding IDs:
+
+```bash
+npx slopless --list-checks
+npx slopless --check phrases:cliches draft.md
+```
+
+Jev checks require your TypeSafe key in `JEV_API_KEY`. They send the selected writing to TypeSafe; whole-text checks send the complete article. Select one or more checks explicitly:
+
+```bash
+npx slopless --check semantic-thinness:empty-takeaway --check wordiness-and-redundancy:repeated-explanation draft.md
+```
+
+There are 54 Jev checks across eleven families. They use selected experimental definitions and cutoffs; their recorded quality varies by check. Deterministic defaults stay unchanged.
+
+Jev findings identify paragraphs and describe the named defect. Whole-text detection and paragraph answers can disagree; reporting requires a positive whole-text decision. Missing provider answers or an unlocated positive decision exit `2`.
+
+Use `reportId` from `--list-checks` for suppression comments. Existing deterministic IDs remain unchanged; model IDs include the family:
+
+```markdown
+<!-- textlint-disable slopless/semantic-thinness/empty-takeaway -->
+
+That is the real promise.
+
+<!-- textlint-enable slopless/semantic-thinness/empty-takeaway -->
+```
+
+## Library
+
+The same runtime accepts deterministic and Jev checks and returns native textlint results:
+
+```js
+import { createSlopless, createJevClient } from "slopless";
+
+const linter = createSlopless({
+  checks: ["phrases:cliches", "semantic-thinness:empty-takeaway"],
+  jev: createJevClient({ apiKey: process.env.JEV_API_KEY ?? "" })
+});
+
+const result = await linter.lintText("That is the real promise.", "draft.md");
+const files = await linter.lintFiles(["articles/**/*.md"]);
+```
+
+Library calls accept an optional `AbortSignal`. Provider failures reject the operation. `createJevClient` supports bounded concurrency, timeout and retry settings; selected prompts and the SDK are included in the package.
 
 ## Set up the textlint preset
 

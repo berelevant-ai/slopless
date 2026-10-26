@@ -1,0 +1,18 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": ["src/runtime.ts", "src/adapters/jev/client.ts", "src/adapters/jev/detector.ts", "src/registries/jev.ts", "scripts/runtime.test.mjs", "scripts/copy-jev-prompts.mjs", "runners/runtime.mjs"]
+    },
+    "custom": [
+      {"verifier": ["node", "scripts/verify-v2-runtime.mjs"], "check": "public-runtime-contracts"}
+    ],
+    "content": [
+      {"verifier": ["builtin:content"], "files": ["src/index.ts"], "required": ["createSlopless", "createJevClient"]},
+      {"verifier": ["builtin:content"], "files": ["src/adapters/textlint/rule.ts"], "required": ["await definition.detector.detect"]},
+      {"verifier": ["builtin:content"], "files": ["src/cli.ts"], "required": ["--check", "--list-checks", "JEV_API_KEY"]},
+      {"verifier": ["builtin:content"], "files": [".github/workflows/ci.yml"], "required": ["scripts/runtime.test.mjs"]}
+    ]
+  }
+}

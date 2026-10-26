@@ -35,11 +35,12 @@
   "type": "module",
   "packageManager": "pnpm@11.2.2+sha512.36e6621fad506178936455e70247b8808ef4ec25797a9f437a93281a020484e2607f6a469a22e982987c3dbb8866e3071514ab10a4a1749e06edcd1ec118436f",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "engines": {
     "node": ">=22.13.0"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.json && chmod +x dist/cli.js",
+    "build": "rm -rf dist && tsc -p tsconfig.json && node scripts/copy-jev-prompts.mjs && chmod +x dist/cli.js",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint --max-warnings 0 .",
@@ -133,8 +134,15 @@
   },
   "dependencies": {
     "@textlint/ast-node-types": "15.8.0",
+    "@textlint/config-loader": "15.8.0",
+    "@textlint/kernel": "15.8.0",
+    "@textlint/textlint-plugin-markdown": "15.8.0",
+    "@textlint/textlint-plugin-text": "15.8.0",
     "@textlint/types": "15.8.0",
+    "@typesafe-ai/sdk": "0.7.0",
     "compromise": "14.16.0",
+    "p-limit": "7.3.3",
+    "rc-config-loader": "4.1.4",
     "sentence-splitter": "5.0.1",
     "text-readability": "1.1.1",
     "textlint": "15.8.0",
@@ -145,7 +153,6 @@
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "4.7.2",
     "@types/node": "22.20.1",
-    "@typesafe-ai/sdk": "0.7.0",
     "@typescript-eslint/eslint-plugin": "8.65.0",
     "@typescript-eslint/parser": "8.65.0",
     "ajv": "8.20.0",

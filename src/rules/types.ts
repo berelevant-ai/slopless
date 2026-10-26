@@ -2,14 +2,24 @@ import type { AnyTxtNode } from "@textlint/ast-node-types";
 
 export type RuleFamilyId =
   | "academic-slop"
+  | "boilerplate-and-signposting"
+  | "excessive-hedging"
+  | "generated-residue"
   | "markdown-layout"
   | "metrics"
   | "narrative-slop"
+  | "narrative-craft"
   | "orthography"
   | "phrases"
   | "semantic-thinness"
+  | "puffery-and-overstatement"
+  | "rhythm-and-repetition"
+  | "staged-contrasts"
+  | "stock-wording-and-jargon"
   | "syntactic-patterns"
   | "term-policy"
+  | "unsupported-authority"
+  | "wordiness-and-redundancy"
   | "words";
 
 export type RuleId = `${RuleFamilyId}:${string}`;
@@ -23,6 +33,7 @@ export type SourceRange = {
 };
 
 export type TextUnit = {
+  readonly heading?: string;
   readonly id: string;
   readonly kind: TextUnitKind;
   readonly node: AnyTxtNode;
@@ -50,7 +61,10 @@ export type RuleDetection<Group extends string = string> = {
 };
 
 export type RuleDetector<Options = unknown> = {
-  readonly detect: (input: RuleInput<Options>) => readonly RuleDetection[];
+  readonly detect: (
+    input: RuleInput<Options>,
+    signal: AbortSignal
+  ) => readonly RuleDetection[] | Promise<readonly RuleDetection[]>;
   readonly family: RuleFamilyId;
   readonly id: RuleId;
 };

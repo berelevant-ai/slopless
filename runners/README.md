@@ -4,6 +4,20 @@
 
 ## Commands
 
+### Shared Production Runtime
+
+`runtime.mjs` runs registered checks through the public `createSlopless` library. It preserves native findings and records exact Jev inputs, probabilities and usage separately from expected labels.
+
+Replay permits code changes only while every prepared request and native finding matches the recording. It reports `runtimeChanged` while retaining the producing runtime fingerprint in the saved snapshot.
+
+```sh
+node runners/runtime.mjs run --dataset datasets/ai-synthetic/texts/000037-wordiness-and-redundancy-repeated-explanation-development.md --check wordiness-and-redundancy:repeated-explanation --output runners/results/new-runtime-development.json
+```
+
+- `run` requires `JEV_API_KEY` and a new output. `replay` uses the same arguments and validates saved request hashes, scores and native findings offline.
+- The runner restricts input to development collections. Complete texts stay intact; independent labeled examples enter the public runtime separately.
+- Fixture3's `shared-runtime` suite tests protocol-defined scores and reporting. Model correctness is measured by the labeled runner and reviewed separately.
+
 Run from the repository root after installing dependencies and running `pnpm run build`:
 
 ```sh

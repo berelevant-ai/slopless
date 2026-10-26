@@ -1,5 +1,8 @@
 version: 1
 features:
+  shared-runtime:
+    suites:
+      - shared-runtime
   textlint-rules:
     suites:
       - textlint-rules-cases-academic-slop
@@ -27,6 +30,19 @@ features:
       - slopless-cli-defaults
       - slopless-cli-narrative
 suites:
+  shared-runtime:
+    fixtures:
+      - "behavior/fixtures/runtime/*.json"
+    command:
+      argv:
+        - node
+        - scripts/runtime-replay.mjs
+        - "{fixtures}"
+      ok_exit_codes: [0]
+    storage:
+      approved_dir: behavior/golden/shared-runtime
+      received_dir: .fixture3/shared-runtime
+      diff_dir: .fixture3/shared-runtime
   datasets:
     fixtures:
       - "behavior/fixtures/datasets/*.json"

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "id": "combined-native-reports",
+      "checks": ["phrases:cliches", "semantic-thinness:empty-takeaway"],
+      "text": "The team went back to square one.\n\nThat is the real promise.",
+      "scores": { "P2": 0.9 }
+    },
+    {
+      "id": "nested-paragraph-position",
+      "checks": ["semantic-thinness:empty-takeaway"],
+      "text": "# Notes\n\n> **That is the real promise.**\n\n- The release date is Friday.\n\n  That is the lesson.\n",
+      "scores": { "P1": 0.9, "P3": 0.9 }
+    },
+    {
+      "id": "whole-text-location",
+      "checks": ["wordiness-and-redundancy:repeated-explanation"],
+      "text": "Keep the current camera: the replacement uses the same mounting plate, leaving the loose fixing in place.\n\nA technician will bring the correct wall plugs on Thursday. Reception has your mobile number.\n\nKeep this camera rather than exchange it; the replacement would leave the same loose mounting plate.",
+      "scores": { "document": 0.95, "P1": 0.91, "P3": 0.94 }
+    },
+    {
+      "id": "whole-text-gate",
+      "checks": ["wordiness-and-redundancy:repeated-explanation"],
+      "text": "Bring your card and submit the document requests before your visit.\n\nBefore leaving home, check that the requests are submitted and your card is in your bag.",
+      "scores": { "document": 0.1, "P2": 0.7 }
+    },
+    {
+      "id": "native-comment-suppression",
+      "checks": ["semantic-thinness:empty-takeaway"],
+      "text": "<!-- textlint-disable slopless/semantic-thinness/empty-takeaway -->\n\nThat is the real promise.\n\n<!-- textlint-enable slopless/semantic-thinness/empty-takeaway -->",
+      "scores": { "P1": 0.99 }
+    },
+    {
+      "id": "positive-without-location-fails",
+      "checks": ["wordiness-and-redundancy:repeated-explanation"],
+      "text": "The model supplied a positive document decision and no paragraph selection.",
+      "scores": { "document": 0.9 }
+    }
+  ]
+}

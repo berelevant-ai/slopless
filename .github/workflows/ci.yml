@@ -25,6 +25,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm run validate
       - run: node --test scripts/cli-config.test.mjs
+      - run: node --test scripts/runtime.test.mjs
       - run: node runners/datasets.mjs
       - run: node scripts/datasets-contract.mjs behavior/fixtures/datasets/contract.json
       - run: node --test runners/jev-paragraphs.test.mjs

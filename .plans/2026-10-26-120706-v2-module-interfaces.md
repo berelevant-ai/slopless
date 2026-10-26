@@ -1,8 +1,8 @@
 # Slopless V2 Module Connections
 
-Proposed production structure connecting deterministic Slopless and Jev. The development runners evaluate these implementations; labels and scoring stay outside the shipped library.
+Implemented production structure connecting deterministic Slopless and Jev. The development runner calls the same public runtime; labels and scoring stay outside the shipped library.
 
-## Current Production
+## Preserved Deterministic CLI
 
 ```mermaid
 flowchart TD
@@ -10,7 +10,7 @@ flowchart TD
     REG["src/index.ts + registries: deterministic rules"] --> TL
     TL --> ADAPTER["adapters/textlint/rule.ts: defineTextlintRule"]
     ADAPTER --> INPUT["adapters/textlint/units.ts: RuleInput"]
-    INPUT --> DETECT["rules: synchronous RuleDetector.detect"]
+    INPUT --> DETECT["rules: synchronous or asynchronous RuleDetector.detect"]
     DETECT --> POLICY["reporting/reports.ts: reportsForPolicy"]
     POLICY --> REPORT["adapters/textlint/report.ts: emitTextlintReports"]
     REPORT --> RESULT["textlint: suppression, locations and JSON findings"]
@@ -18,7 +18,7 @@ flowchart TD
 
 - The existing shared boundary is `RuleInput -> RuleDetection[] -> RuleReport[]`. Rules identify occurrences; reporting applies density and severity.
 - `TextUnit` retains the textlint node and source mapping. Reporting policies translate unit-text ranges to node-relative source ranges; the emitter passes them to textlint, which resolves original document positions.
-- The CLI currently calls textlint's CLI implementation. Its configuration selects the deterministic exports from this package.
+- The default CLI path calls textlint's CLI implementation. Explicit `--check` selection uses the shared public runtime below.
 
 ## Current Jev Experiments
 
@@ -34,13 +34,13 @@ flowchart LR
 ```
 
 - These runners already call Jev and score saved answers. The location spike also demonstrates original paragraph ranges through textlint.
-- Production integration still needs shared execution, runtime prompt packaging and user credential handling. The runners currently own those experiment-specific operations.
+- `runners/runtime.mjs` now evaluates the public runtime and records provider responses for offline replay. Earlier runners preserve comparison measurements.
 
-## Proposed Production Flow
+## Shared Production Flow
 
 ```mermaid
 flowchart TD
-    CLI["CLI: parse options, read Jev key"] --> ROOT["index.ts: construct selected rules and inject Jev client"]
+    CLI["CLI: parse options, read Jev key"] --> ROOT["runtime.ts: construct selected rules and inject Jev client"]
     LIB["Library caller: selected checks + optional Jev client"] --> ROOT
     ROOT --> TL["COMMON: textlint ingestion, configuration and Markdown AST"]
     TL --> ADAPTER["COMMON: async defineTextlintRule + native text units"]
@@ -66,27 +66,30 @@ flowchart TD
 
 ```text
 src/
-  cli.ts                         existing; configure dependencies and call library
-  index.ts                       existing; expose the shared linter factory
+  cli.ts + cli-checks.ts          CLI arguments, dependencies and JSON output
+  index.ts                       public exports, including existing textlint preset
+  runtime.ts                     selected checks, configuration and cancellation
   rules/
     types.ts                     existing; extend detector to support async calls
-    <family>/<check>.ts           existing/new; deterministic or Jev-backed definition
-  registries/                    existing; compose rule definitions and selection
+    <family>/<check>.ts           deterministic rule definitions
+  registries/                    deterministic composition + selected Jev definitions
   adapters/
     textlint/
       rule.ts                    existing; await detector and apply reporting policy
       units.ts                   existing; prepare text and preserve native positions
       report.ts                  existing; emit reports on original nodes
     jev/
-      detector.ts                proposed; prompt assembly and scores -> detections
-      client.ts                  proposed; SDK, validation, concurrency and failures
+      types.ts                   provider-independent request and score contracts
+      detector.ts                scores -> common detections
+      prompt.ts                  packaged prompt loading and cache fingerprints
+      client.ts                  SDK, validation, concurrency and failures
   reporting/                     existing; shared policies and messages
 prompts/<version>/               selected prompt sources; bundle only shipped versions
 runners/                        development entry points and scoring
 datasets/                       writing and independent correctness labels
 ```
 
-The proposed Jev adapter files separate provider operations from rule meanings. They add one backend beneath the existing detector boundary.
+The Jev adapter separates provider operations from rule meanings. Both backends use the existing detector and reporting boundary.
 
 ## Small Interface Contracts
 
@@ -157,17 +160,18 @@ type JevInput = {
   readonly model: string;
   readonly paragraphs: readonly Paragraph[];
   readonly instructions: string;
-  readonly questions: Readonly<Record<string, {
-    readonly instructions: string;
-    readonly yes: string;
-    readonly no: string;
-  }>>;
+  readonly questions: Readonly<Record<string, JevQuestion>>;
 } & (
   | { readonly input: "paragraph" }
   | { readonly input: "text"; readonly text: string }
 );
 
 type JevScores = Readonly<Record<string, number>>;
+
+type JevQuestion = { readonly instructions: string } & (
+  | { readonly yes: string; readonly no: string }
+  | { readonly yes?: never; readonly no?: never }
+);
 
 interface JevClient {
   judge(input: JevInput, signal: AbortSignal): Promise<JevScores>;
@@ -185,7 +189,7 @@ interface JevClient {
 
 ### Public Library And CLI
 
-This factory is proposed. Keep the existing deterministic textlint exports while adding it.
+The public factory preserves the existing deterministic textlint exports.
 
 ```ts
 interface SloplessOptions {
@@ -233,4 +237,4 @@ flowchart LR
 
 Detection and paragraph questions remain independent within a request. The accepted repeated-explanation development result has 97 located hits and six false positives under the whole-text gate; 92 correct detections match the expected paragraph sets exactly.
 
-Keep this measured limitation in the [V2 shipping plan](2026-10-20-125402-v2-rule-taxonomy.md#v2-shipping-work). This diagram proposes module connections; production integration remains to be implemented.
+Keep this measured limitation in the [V2 shipping plan](2026-10-20-125402-v2-rule-taxonomy.md#v2-shipping-work). The runtime retains the document gate and explicitly fails a positive decision with no selected paragraph.

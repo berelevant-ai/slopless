@@ -1,25 +1,19 @@
 import { everything, narrativeRuleIds, standard } from "./presets/standard.js";
-import { academicSlopRules } from "./registries/academic-slop.js";
-import { metricRules } from "./registries/metrics.js";
-import { narrativeSlopRules } from "./registries/narrative-slop.js";
-import { orthographyRules } from "./registries/orthography.js";
-import { phraseRules } from "./registries/phrases.js";
-import { semanticThinnessRules } from "./registries/semantic-thinness.js";
-import { syntacticPatternRules } from "./registries/syntactic-patterns.js";
-import { termPolicyRules } from "./registries/term-policy.js";
-import { wordRules } from "./registries/words.js";
+import { rules } from "./registries/index.js";
 
-export const rules = {
-  ...academicSlopRules,
-  ...metricRules,
-  ...narrativeSlopRules,
-  ...orthographyRules,
-  ...phraseRules,
-  ...semanticThinnessRules,
-  ...syntacticPatternRules,
-  ...termPolicyRules,
-  ...wordRules
-};
+export { rules };
+export { createSlopless, listChecks } from "./runtime.js";
+export type { Slopless, SloplessOptions, CheckInfo } from "./runtime.js";
+export { createJevClient } from "./adapters/jev/client.js";
+export type { JevClientOptions, JevReceipt } from "./adapters/jev/client.js";
+export type {
+  JevClient,
+  JevInput,
+  JevScores,
+  JevQuestion,
+  JevParagraph
+} from "./adapters/jev/types.js";
+export type { RuleId } from "./rules/types.js";
 
 export const presets = {
   everything,

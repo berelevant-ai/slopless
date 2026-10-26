@@ -14,6 +14,7 @@ type TextlintUnitProvider<Options extends object> = (
 type TextlintRuleDefinition<Options extends object> =
   RuleDefinition<Options> & {
     readonly units: TextlintUnitProvider<Options>;
+    readonly signal?: AbortSignal;
   };
 
 export function defineTextlintRule<
@@ -23,14 +24,36 @@ export function defineTextlintRule<
     const { Syntax } = context;
 
     return {
-      [Syntax.Document](document: TxtDocumentNode): void {
+      async [Syntax.Document](document: TxtDocumentNode): Promise<void> {
+        const signal = definition.signal ?? new AbortController().signal;
+        signal.throwIfAborted();
         const units = definition.units(document, context, options);
         const unitsById = new Map(units.map((unit) => [unit.id, unit]));
-        const detections = definition.detector.detect({
-          options,
-          ruleId: definition.detector.id,
-          units
-        });
+        const detections = await definition.detector.detect(
+          {
+            options,
+            ruleId: definition.detector.id,
+            units
+          },
+          signal
+        );
+        signal.throwIfAborted();
+        for (const detection of detections) {
+          const unit = unitsById.get(detection.unitId);
+          if (
+            unit === undefined ||
+            detection.ruleId !== definition.detector.id ||
+            !Number.isSafeInteger(detection.range.start) ||
+            !Number.isSafeInteger(detection.range.end) ||
+            detection.range.start < 0 ||
+            detection.range.end < detection.range.start ||
+            detection.range.end > unit.text.length
+          ) {
+            throw new Error(
+              `Invalid detection from ${definition.detector.id}.`
+            );
+          }
+        }
         const reports = reportsForPolicy(
           units,
           detections,
