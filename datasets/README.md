@@ -204,6 +204,8 @@ The final overlap screen finds zero candidates against previous datasets, legacy
 
 ## Commands
 
+The [structural context diagnostic collection](ai-synthetic/passages/000140-structural-context-development.md) tests five checks in prose, headings and list items. Its forty underlying examples produce 120 paired format judgments, with four hits and four no-hits per check and structure. Independent review precedes inference; these development controls support the [BGaming context spike](../runners/results/article-context-spike.md).
+
 ```sh
 node runners/datasets.mjs
 node runners/jev.mjs validate
