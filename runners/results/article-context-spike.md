@@ -2,6 +2,8 @@
 
 Context preserves all sixty diagnostic hits and reduces false positives, but twenty-five of sixty diagnostic no-hits still fail under full check batches. The article's labeled no-hit failures fall from 31 to 7 out of 34 evaluated judgments. Further repair is required before integrating this input arrangement.
 
+Subsequent user review identifies "narrower remit" as undesirable wording even when its scope is explained. The original scores below follow the frozen missing-information definition; its three explained-remit no-hits conflict with that requested style policy. Dataset labels remain unchanged pending a consistent definition revision.
+
 ## Inputs And Changes
 
 - The unchanged [BGaming article](../../datasets/ai-normal/texts/000139-bgaming-b2b-igaming-solutions.md) contains 123 native paragraphs, including 47 list-item paragraphs, plus thirty headings.
@@ -120,3 +122,24 @@ The runner can read the compressed recording directly. Offline scoring writes an
 ## Next Decision
 
 Preserve these controls before changing the request wording. The next diagnostic must test whether Jev uses an explicit explanation supplied beside the target while preserving genuine heading and list hits. Compare that operation on the same positive and negative controls before considering production integration.
+
+## Why False Flags Remain
+
+- The accepted unspecified-scope definition protects narrow or bounded claims when their coverage is supplied. That definition judges missing information, while the user's subsequent objection targets the wording "narrower remit" itself.
+  - The style-policy mismatch affects three format variants in this collection. Treating them as desired hits would leave 22 false positives among 57 remaining no-hits in the batched run; it cannot account for the full error rate.
+- The request names `state.paragraph.text` as the target and retains instructions to judge only the target paragraph. The explanation lives separately in `state.context`, outside that named reading area.
+  - The appended instruction asks Jev to use context. The diagnostic below measures the effect of also placing that explanation inside the judged text; it changes the target's size and duplicates the explanation while preserving the instructions.
+- Semantic errors persist after reading area changes. "The fastest gateway in our twenty-run local trial" is still flagged despite its explicitly bounded comparison and supplied trial results.
+- Full batching changes one assigned-check decision in the structural controls: 24 false positives in isolated requests become 25 in full batches. It accounts for that marginal change, while the larger set of errors appears in both arrangements.
+
+### Field-Placement Diagnostic
+
+- [The saved diagnostic](article-context-input-diagnostic.json) selects eight expected no-hits and ten desired hits from development, excluding scope no-hits while their intended style policy is under discussion.
+- Thirty-six fresh requests preserve the same model, check instructions, criteria, threshold and supporting words. One arrangement keeps context separate; the other also places those supporting words inside `state.paragraph.text`.
+- Separate context produces six false positives among eight no-hits. Combined reading produces three: four corrections and one newly false local-trial comparison. Both arrangements catch all ten desired hits.
+- "The next step is simple" followed by the explicit instruction to disconnect the test gateway moves from `.71` to `.13` under empty takeaway.
+- "Choosing this provider carries a price" followed by the extra weekend staffing requirement moves from `.57` to `.25` under hollow significance.
+- "The migration creates significant exposure" followed by the ledger-mismatch explanation improves from `.76` to `.55` and remains falsely flagged. "The new account policy has major implications" remains false at `.63` after combined reading.
+- The local-trial heading moves from `.48` to `.53`, introducing a false positive. "A simpler refund process" remains correctly unflagged in this fresh pair, illustrating the earlier borderline variation.
+- This operation changes the judged text. Production integration would need to keep the original reporting target separate and verify cases where supporting context contains an independent defect.
+- The observed result establishes sensitivity to that input arrangement. Separately testing instruction wording and duplicated versus single-copy context is required to identify their individual contributions.
